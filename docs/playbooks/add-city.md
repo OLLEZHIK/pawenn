@@ -103,15 +103,19 @@ website/public/logos/<slug>/          логотипы (если нашлись)
 Первая строка — ровно этот заголовок (порядок столбцов важен):
 
 ```
-category,name,slug,address,lat,lng,phone,email,website,instagram,facebook,short_description,short_description_local,description,description_local,opening_hours,hours_source_url,hours_observed_at,emergency_24_7,emergency_note,home_visits,specialties,languages_spoken,photo_urls,google_place_id,google_maps_url,google_rating,google_rating_count,rating_observed_at,logo_file,source_url,observed_at,notes
+category,name,slug,address,lat,lng,phone,email,website,instagram,facebook,short_description,short_description_local,description,description_local,opening_hours,hours_source_url,hours_observed_at,emergency_24_7,emergency_note,emergency_note_local,home_visits,specialties,languages_spoken,photo_urls,google_place_id,google_maps_url,google_rating,google_rating_count,rating_observed_at,logo_file,source_url,observed_at,notes
 ```
 
-Столбцы `emergency_24_7`, `emergency_note`, `home_visits`,
-`specialties` заполняются только у `VET_CLINIC`, у остальных пустые.
+Столбцы `emergency_24_7`, `emergency_note`, `emergency_note_local`,
+`home_visits`, `specialties` заполняются только у `VET_CLINIC`, у
+остальных пустые. `languages_spoken` у ветклиник обязателен (или пометка
+`languages: none (...)` в `notes`). `photo_urls` и `animals` не собирать —
+столбцы остаются пустыми (`docs/card-spec.md`, раздел 9).
 `emergency_24_7=yes` — только по правилу «Nonstop 24/7» из
 `docs/card-spec.md` (раздел 8): заведение само прямо пишет, что
 принимает круглосуточно, и часы `24h` все 7 дней. Дежурный телефон,
-ночная или выходная неотложка — это `emergency_note`, не nonstop.
+ночная или выходная неотложка — это `emergency_note` /
+`emergency_note_local` (на двух языках), не nonstop.
 `check-city` такие ошибки не пропускает.
 Столбцы, которых нет в таблице ниже, описаны в `docs/card-spec.md`.
 
@@ -189,7 +193,7 @@ oma.sk, firmy.sk и т.п.) — **только список названий**, 
 Для каждого места: взять список из поиска → открыть карточку в Google
 Maps (адрес, телефон, сайт, часы, рейтинг, число оценок, ссылка) →
 открыть официальный сайт (что делают, часы, для ветклиник — неотложка
-и специализации, логотип, соцсети, **прайс — только 6 услуг категории
+и специализации, на каких языках обслуживают, логотип, соцсети, **прайс — только 6 услуг категории
 из `docs/card-spec.md`, раздел «Цены»**) → записать строку со всеми полями
 из `docs/card-spec.md`. На одно место — **5–8 минут**.
 

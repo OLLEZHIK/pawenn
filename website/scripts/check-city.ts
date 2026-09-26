@@ -185,6 +185,25 @@ if (insightErrors.length) {
   for (const e of insightErrors) console.log(`  ${e}`);
 }
 
+// Vets: the languages they serve in, or a note that none is stated -
+// the "english speaking vet" answer (docs/card-spec.md, section 8).
+// Emergency note in both languages, like every visible text.
+const vetGaps: string[] = [];
+for (const r of rows) {
+  if (r.category !== "VET_CLINIC") continue;
+  if (!has(r, "languages_spoken") && !noted(r, "languages")) {
+    vetGaps.push(`${r.slug}: no languages_spoken and no "languages: none (...)" in notes`);
+  }
+  if (has(r, "emergency_note") !== has(r, "emergency_note_local")) {
+    vetGaps.push(`${r.slug}: emergency_note and emergency_note_local go together`);
+  }
+}
+if (vetGaps.length) {
+  failed = true;
+  console.log(`\nVet clinics (${vetGaps.length}):`);
+  for (const g of vetGaps) console.log(`  ${g}`);
+}
+
 // Vet specialties: only codes the site knows (lib/vet.ts); anything else
 // is dropped by the seed and never shown.
 const badSpecialties = rows.flatMap((r) =>
