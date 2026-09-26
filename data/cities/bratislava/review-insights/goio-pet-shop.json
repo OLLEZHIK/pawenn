@@ -1,0 +1,96 @@
+{
+  "slug": "goio-pet-shop",
+  "google_maps_url": "https://maps.google.com/?cid=7890112999246410043",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 18,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "en": "Expert dietary advice for pet nutrition",
+        "sk": "Odborné poradenstvo pri výžive zvierat"
+      },
+      "text": {
+        "en": "Pet owners in Petržalka consistently praise the sales team at Goio Pet Shop for their in-depth knowledge of pet nutrition. Staff members take time to understand allergies and digestive sensitivities, recommending tailored hypoallergenic foods and natural supplements with great care.",
+        "sk": "Majitelia zvierat v Petržalke pravidelne chvália personál v predajni Goio Pet Shop za ich hlboké znalosti v oblasti výživy psov a mačiek. Zamestnanci trpezlivo rozoberajú potravinové alergie a tráviace ťažkosti a ochotne odporúčajú vhodné hypoalergénne krmivá aj doplnky."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Rich selection of raw BARF foods",
+        "sk": "Bohatý výber prírodných BARF krmív"
+      },
+      "text": {
+        "en": "The shop receives glowing feedback for its outstanding inventory of raw frozen BARF meats, single-protein treats, and holistic foods. Clients appreciate the clean, orderly product displays, wide range of healthy snacks, and high-quality accessories available in the spacious store.",
+        "sk": "Predajňa získava skvelé hodnotenia za bohatý sortiment mrazeného surového mäsa pre BARF, jednodruhových maškŕt a holistických krmív. Klienti oceňujú prehľadné usporiadanie tovaru, pestrú ponuku zdravých maškŕt a kvalitné príslušenstvo v priestrannej predajni."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Premium prices matching high quality ingredients",
+        "sk": "Prémiové ceny zodpovedajúce vysokej kvalite"
+      },
+      "text": {
+        "en": "Reviewers note that product prices are somewhat higher than standard supermarket pet foods. However, customers agree that the premium price point is fully justified by the exceptional ingredient quality, high meat content, and lack of artificial fillers in stocked brands.",
+        "sk": "Recenzenti poznamenávajú, že ceny tovaru sú mierne vyššie než pri bežných komerčných krmivách zo supermarketov. Zákazníci sa však zhodujú, že vyššia cena plne zodpovedá prvotriednej kvalite surovín, vysokému obsahu mäsa a absencii umelých prísad v sortimente."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you stock raw frozen BARF meat products?",
+        "sk": "Máte v ponuke mrazené surové BARF mäso?"
+      },
+      "a": {
+        "en": "Yes, a wide selection of frozen raw meats, organs, bones, and natural BARF supplements is available.",
+        "sk": "Áno, predajňa ponúka široký výber mrazeného mäsa, vnútorností a prírodných doplnkov pre BARF."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can staff advise on food for dogs with allergies?",
+        "sk": "Poradí personál s krmivom pre alergického psa?"
+      },
+      "a": {
+        "en": "Yes, staff members specialize in elimination diets and hypoallergenic nutrition for dogs and cats.",
+        "sk": "Áno, obsluha sa špecializuje na eliminačné diéty a hypoalergénnu výživu pre psy a mačky."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available in front of the store?",
+        "sk": "Je pred predajňou dostupné parkovanie?"
+      },
+      "a": {
+        "en": "Yes, convenient customer parking spaces are situated directly in front of the shop on Panónska cesta.",
+        "sk": "Áno, bezplatné parkovacie miesta pre zákazníkov sa nachádzajú priamo pred vchodom na Panónskej ceste."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients pay by credit card?",
+        "sk": "Je možné platiť platobnou kartou?"
+      },
+      "a": {
+        "en": "Yes, contactless debit and credit cards as well as mobile payments are fully supported.",
+        "sk": "Áno, bezkontaktné platobné karty aj platby mobilom sú na pokladni plne podporované."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "mypet-clinic",
+  "google_maps_url": "https://maps.google.com/?cid=6380476245270924867",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 14,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Modern approach and attentive communication",
+        "sk": "Moderný prístup a ústretová komunikácia"
+      },
+      "text": {
+        "en": "Clients in Nové Mesto praise the young, motivated team at MyPet Clinic for their up-to-date veterinary knowledge and attentive communication. Doctors explain health status thoroughly, discuss preventive care, and demonstrate empathetic handling towards all visiting animals.",
+        "sk": "Klienti v Novom Meste veľmi chvália mladý a motivovaný tím MyPet Clinic za moderné odborné vedomosti a ústretovú komunikáciu. Lekári podrobne vysvetľujú zdravotný stav, aktívne radia v oblasti prevencie a ku všetkým zvieracím pacientom pristupujú s úprimnou empatiou."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Pleasant interior with clean modern equipment",
+        "sk": "Príjemné priestory s čistým moderným vybavením"
+      },
+      "text": {
+        "en": "The clinic environment on Nobelova street receives high ratings for cleanliness and contemporary design. Pet owners highlight the bright, spotless exam rooms and modern diagnostic equipment that allow comprehensive checks to be performed comfortably under one roof.",
+        "sk": "Priestory kliniky na Nobelovej ulici získavajú vysoké hodnotenia za čistotu a moderný funkčný dizajn. Majitelia zvierat vyzdvihujú svetlé a upratané vyšetrovne a moderné prístrojové vybavenie, vďaka ktorému je možné vykonať potrebné vyšetrenia pohodlne na jednom mieste."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Moderate prices matching clinic quality",
+        "sk": "Primerané ceny zodpovedajúce kvalite kliniky"
+      },
+      "text": {
+        "en": "Reviewers describe pricing as fair and competitive for routine examinations and preventative care. Specialized laboratory panels and surgical interventions require a higher financial budget, though owners note that itemized costs are explained clearly in advance of treatments.",
+        "sk": "Recenzenti označujú ceny za primerané a férové pri bežných kontrolných prehliadkach a prevencii. Špecializované laboratórne testy a chirurgické úkony si vyžadujú vyšší rozpočet, no majitelia oceňujú, že položky na účte personál zrozumiteľne objasní ešte pred zákrokom."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is appointment scheduling required?",
+        "sk": "Je potrebné sa na vyšetrenie objednať?"
+      },
+      "a": {
+        "en": "Prior booking by phone or online is preferred to guarantee dedicated consultation time without delays.",
+        "sk": "Odporúča sa vopred objednať telefonicky alebo online, aby bol vyhradený dostatočný čas bez čakania."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I park easily near Nobelova?",
+        "sk": "Je v okolí Nobelovej možné zaparkovať?"
+      },
+      "a": {
+        "en": "Yes, public street parking is available along Nobelova street near the clinic.",
+        "sk": "Áno, verejné parkovanie na ulici je k dispozícii priamo pozdĺž Nobelovej v blízkosti kliniky."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do you provide on-site blood and imaging diagnostics?",
+        "sk": "Poskytujete laboratórne a zobrazovacie vyšetrenia priamo na mieste?"
+      },
+      "a": {
+        "en": "Yes, the clinic performs rapid in-house blood analysis, microscopy, and ultrasonography.",
+        "sk": "Áno, klinika disponuje vlastnými analyzátormi krvi, mikroskopom a sonografom pre rýchle výsledky."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are card payments accepted?",
+        "sk": "Prijíma klinika platby kartou?"
+      },
+      "a": {
+        "en": "Yes, contactless debit and credit cards are accepted at reception.",
+        "sk": "Áno, na recepcii je možné platiť bežnými bezkontaktnými debetnými aj kreditnými kartami."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google"
+}

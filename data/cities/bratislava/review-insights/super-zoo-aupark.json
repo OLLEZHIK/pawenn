@@ -1,0 +1,96 @@
+{
+  "slug": "super-zoo-aupark",
+  "google_maps_url": "https://maps.google.com/?cid=9314500447495951054",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 12,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Convenient mall location with broad aisles",
+        "sk": "Pohodlná poloha v nákupnom centre"
+      },
+      "text": {
+        "en": "Shoppers in Petržalka appreciate the accessible location inside Aupark shopping mall. The spacious store features wide aisles, well-organized product sections, and a welcoming dog-friendly policy that allows owners to shop comfortably together with their pets.",
+        "sk": "Zákazníci v Petržalke oceňujú praktickú polohu predajne v nákupnom centre Aupark. Priestranná predajňa ponúka široké uličky, prehľadne roztriedený tovar a ústretový prístup k psom, vďaka čomu môžu majitelia nakupovať pohodlne priamo so svojím miláčikom."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful customer service and product advice",
+        "sk": "Ochotná obsluha a poradenstvo pri výbere"
+      },
+      "text": {
+        "en": "Reviews highlight the polite and helpful customer service provided by the store assistants. Staff members readily assist shoppers with finding appropriate harness sizes, selecting pet diets, and carrying heavier food bags to the checkout counter and out to parking.",
+        "sk": "Recenzie vyzdvihujú milý a ochotný prístup predavačov v predajni. Personál ochotne pomáha zákazníkom s výberom správnej veľkosti postrojov, poradenstvom pri krmivách aj s prenesením ťažších vriec s granulami priamo k pokladni alebo k zaparkovanému autu."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Standard retail prices with loyalty discounts",
+        "sk": "Bežné reťazcové ceny s vernostnými zľavami"
+      },
+      "text": {
+        "en": "Feedback regarding pricing notes standard shopping center retail rates. While regular prices on select items are higher than online discount stores, shoppers emphasize that loyalty club member discounts and promotional sales make regular purchases very affordable.",
+        "sk": "Hodnotenia cien uvádzajú bežné sadzby charakteristické pre nákupné centrá. Hoci sú niektoré základné ceny vyššie než v internetových diskontoch, zákazníci vyzdvihujú zľavy s vernostnou kartou a pravidelné akcie, ktoré nákup chovateľských potrieb výrazne zvýhodňujú."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the shop located inside Aupark?",
+        "sk": "Kde presne sa predajňa v Auparku nachádza?"
+      },
+      "a": {
+        "en": "The store is located on the ground floor of Aupark shopping center at Einsteinova 18 in Petržalka.",
+        "sk": "Predajňa sa nachádza na prízemí nákupného centra Aupark na Einsteinovej 18 v Petržalke."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I bring my dog into the store?",
+        "sk": "Môžem vstúpiť do predajne so psom?"
+      },
+      "a": {
+        "en": "Yes, dogs on leash are permitted both inside the Aupark mall corridors and inside Super zoo.",
+        "sk": "Áno, vstup so psom na vôdzke je povolený v priestoroch Auparku aj priamo v predajni."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is parking available at the shopping mall?",
+        "sk": "Aké sú možnosti parkovania?"
+      },
+      "a": {
+        "en": "Yes, extensive underground and outdoor parking with initial free hours is provided by Aupark.",
+        "sk": "Áno, k dispozícii je rozsiahle podzemné aj vonkajšie parkovisko Auparku s bezplatným časom."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What payment methods are supported?",
+        "sk": "Aké sú možnosti platby?"
+      },
+      "a": {
+        "en": "Cash, bank credit and debit cards, and contactless mobile payments are all accepted.",
+        "sk": "Platiť je možné v hotovosti, bežnými platobnými kartami aj bezkontaktnými mobilnými platbami."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google"
+}
