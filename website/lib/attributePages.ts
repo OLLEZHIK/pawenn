@@ -10,7 +10,7 @@ import { hoursFromStored, type DayHours } from "./hours";
 // slug sits in the district slot like "prices"; no district may use it.
 // Pure module (no database): safe for client components.
 
-export type AttributeKey = "nonstop" | "saturday" | "sunday" | "exotics" | "home-visits";
+export type AttributeKey = "nonstop" | "saturday" | "sunday" | "exotics" | "home-visits" | "english";
 
 /** URL slug per attribute and language - as people search it. */
 const SLUGS: Record<AttributeKey, Record<Locale, string>> = {
@@ -19,12 +19,15 @@ const SLUGS: Record<AttributeKey, Record<Locale, string>> = {
   sunday: { en: "open-sunday", sk: "nedela" },
   exotics: { en: "exotic-animals", sk: "exoticke-zvierata" },
   "home-visits": { en: "home-visits", sk: "vyjazd-domov" },
+  // "english speaking vet bratislava" / "veterinár po anglicky"
+  // (docs/seo/keywords/en.md, sk.md; owner, 2026-09-26).
+  english: { en: "english-speaking", sk: "po-anglicky" },
 };
 
 /** Which attributes each category offers, in chip order. Only attributes
  *  with real search demand - not one page per specialty (thin content). */
 export const CATEGORY_ATTRIBUTES: Partial<Record<BusinessCategory, AttributeKey[]>> = {
-  VET_CLINIC: ["nonstop", "saturday", "sunday", "exotics", "home-visits"],
+  VET_CLINIC: ["nonstop", "saturday", "sunday", "exotics", "home-visits", "english"],
 };
 
 /** Places a page needs to be indexed. Nonstop is indexed from one: an
@@ -49,7 +52,7 @@ const isOpenDay = (h: DayHours | undefined) => h !== undefined && (h.kind === "2
 
 /** Does a place have the attribute? Nonstop places count as open every day. */
 export function hasAttribute(
-  b: { emergency247: boolean; homeVisits: boolean; specialties: string[]; openingHours: unknown },
+  b: { emergency247: boolean; homeVisits: boolean; specialties: string[]; openingHours: unknown; languagesSpoken: string[] },
   key: AttributeKey
 ): boolean {
   switch (key) {
@@ -63,5 +66,9 @@ export function hasAttribute(
       return b.specialties.includes("exotics");
     case "home-visits":
       return b.homeVisits;
+    case "english":
+      // As the place itself states it (English site or "we speak
+      // English"; docs/card-spec.md section 8, languages_spoken).
+      return b.languagesSpoken.includes("en");
   }
 }

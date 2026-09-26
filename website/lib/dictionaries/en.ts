@@ -416,6 +416,15 @@ export const en = {
       metaDescription: (n: number, where: string) =>
         `${n} vet ${n === 1 ? "clinic" : "clinics"} ${where} with home visits: phone, hours and what they offer.`,
     },
+    english: {
+      chip: "English spoken",
+      h1: (where: string) => `English-speaking vets ${where}`,
+      lead: (n: number, total: number) =>
+        `${n} of ${total} vet clinics say on their own website that they serve clients in English. Call ahead to check who is on duty.`,
+      metaTitle: (where: string) => `English-speaking vets ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} vet ${n === 1 ? "clinic" : "clinics"} ${where} that serve clients in English, by their own website: hours, phone and directions.`,
+    },
   },
   // Price pages (lib/pricePages.ts): one per service and city, plus an
   // overview per category. Numbers come preformatted (money, dates).
