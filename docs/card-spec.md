@@ -135,7 +135,7 @@ cd website && npm run check-city -- <город>
   `notes`, не как обычные.
 - Место закрыто навсегда (сайт мёртв, на Google «Trvalo zatvorené») —
   новое не добавлять; уже опубликованное — `closed=yes` и `closed: (...)`
-  в `notes` (§10).
+  в `notes` (§11).
 
 ### 6. Рейтинг
 
@@ -190,7 +190,35 @@ cd website && npm run check-city -- <город>
 `check-city` не пропускает `emergency_24_7=yes` без часов `24h` на все
 дни.
 
-### 9. Не собираем
+### 9. «Коротко о месте» — практические факты
+
+Решение владельца (2026-09-26, `docs/research/place-page-needs.md`):
+на странице места — что нужно знать до звонка: запись, оплата, для кого
+услуга, условия. Столбец `facts` — коды через `;` **только** из списка
+категории в `website/lib/facts.ts`:
+
+| Категория | Коды |
+|---|---|
+| Ветклиника | `walk_in` (приём без записи), `appointment_only`, `online_booking`, `card_payment`, `parking`, `cats_waiting_room` |
+| Груминг | `cats`, `all_sizes`, `small_dogs_only`, `appointment_only`, `online_booking`, `card_payment` |
+| Гостиница | `cats`, `small_dogs_only`, `vaccination_required`, `trial_stay` (пробный день / визит до заезда), `outdoor_run`, `supervision_24h` |
+| Дрессировка | `group_classes`, `private_lessons`, `puppy_classes`, `training_ground` (своё cvičisko), `home_training`, `behaviour_problems` |
+| Передержка | `dog_walking`, `cat_visits`, `home_sitting`, `boarding_at_sitter`, `insured` (страхование ответственности), `meet_greet` (знакомство до заказа) |
+| Зоомагазин | `delivery`, `vet_pharmacy`, `grooming_corner`, `card_payment`, `parking`, `click_collect` |
+
+- Только то, что **место само прямо пишет** на своём сайте или в
+  официальной соцсети. Нет кода — значит «не указано», а не «нет».
+  Догадки («наверное, есть парковка») — не код.
+- Противоречащие коды не ставить вместе: `walk_in` и `appointment_only`,
+  `all_sizes` и `small_dogs_only`.
+- Ничего не указано — поле пустое, в `notes`:
+  `facts: none (site - nothing stated, fb - nothing)`.
+- Минимум по городу — 80 % мест с кодами или пометкой; `check-city`
+  проверяет коды, противоречия и пометки.
+- Сайт показывает коды короткими пунктами и делает из них ответы на
+  частые вопросы («Treba sa objednať?»).
+
+### 10. Не собираем
 
 - `photo_urls` — **не собирать** (владелец, 2026-09-26). Фото с чужих
   сайтов не показываем (авторские права), сгенерированные не ставим,
@@ -200,7 +228,7 @@ cd website && npm run check-city -- <город>
 - Для не-ветклиник `languages_spoken` — только если заведение само
   явно это пишет; искать специально не нужно.
 
-### 10. Служебное (посетителям не показывается)
+### 11. Служебное (посетителям не показывается)
 
 | Поле | Что |
 |---|---|

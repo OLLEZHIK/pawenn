@@ -13,6 +13,7 @@ import path from "path";
 import Papa from "papaparse";
 import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
+import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 
 type Row = Record<string, string>;
 
@@ -33,7 +34,7 @@ const allRows: Row[] = fs
   .filter((f) => /^businesses.*\.csv$/.test(f))
   .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data);
 // closed=yes: permanently closed after it was listed - kept only so its old
-// URL redirects (docs/card-spec.md §10). Not shown, not counted below.
+// URL redirects (docs/card-spec.md §11). Not shown, not counted below.
 const isClosed = (r: Row) => /^yes$/i.test((r.closed ?? "").trim());
 const rows = allRows.filter((r) => !isClosed(r));
 const insights = new Set(
@@ -59,6 +60,9 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
   { field: "phone / email / website", target: 1, ok: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
   { field: "google_maps_url", target: 0.95, ok: (r) => has(r, "google_maps_url") },
   { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
+  // "Good to know" facts from the place's own site (docs/card-spec.md,
+  // section 9): codes, or "facts: none (...)" where nothing is stated.
+  { field: "facts", target: 0.8, ok: (r) => has(r, "facts"), evidence: "facts" },
   { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
   { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours"), evidence: "hours" },
 ];
@@ -243,6 +247,21 @@ if (badLanguages.length) {
   failed = true;
   console.log(`\nlanguages_spoken: only 2-letter codes, not the city's language ${cityLocales.join("/")} (${badLanguages.length}):`);
   for (const b of badLanguages) console.log(`  ${b}`);
+}
+
+// Facts: only the category's codes (lib/facts.ts), never two that
+// contradict each other.
+const badFacts: string[] = [];
+for (const r of rows) {
+  const codes = (r.facts ?? "").split(";").map((x) => x.trim()).filter(Boolean);
+  const allowed = (FACTS as Record<string, { code: string }[]>)[r.category]?.map((f) => f.code) ?? [];
+  for (const c of codes) if (!allowed.includes(c)) badFacts.push(`${r.slug}: "${c}" is not a ${r.category} fact (allowed: ${allowed.join(", ")})`);
+  for (const [a, b] of EXCLUSIVE_FACTS) if (codes.includes(a) && codes.includes(b)) badFacts.push(`${r.slug}: "${a}" and "${b}" contradict`);
+}
+if (badFacts.length) {
+  failed = true;
+  console.log(`\nfacts (${badFacts.length}):`);
+  for (const b of badFacts) console.log(`  ${b}`);
 }
 
 // Vet specialties: only codes the site knows (lib/vet.ts); anything else
