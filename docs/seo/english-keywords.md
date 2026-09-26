@@ -1,6 +1,6 @@
 # English URL Slugs & Keywords Research for Bratislava Pet Services
 
-> **Status:** Qualitative SEO research document prepared for task `tasks/antigravity-seo-english-keywords.md`.  
+> **Status:** Qualitative SEO research document prepared for task `tasks/done/antigravity-seo-english-keywords.md`.  
 > **Methodology note:** This report represents a *qualitative* analysis based on Google live search SERPs, autocomplete suggestions, expat community queries (Reddit r/Bratislava, Facebook expat groups), and competitor structure (Rover, Yelp, local directories). It does *not* replace paid quantitative keyword tools (such as Ahrefs, SEMrush, or Google Keyword Planner), which should be run prior to scaling paid acquisition.
 
 ---

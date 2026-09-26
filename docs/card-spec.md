@@ -7,11 +7,7 @@
 
 Решение владельца (2026-09-25). Где хранится: для новых городов —
 `data/cities/<город>/businesses.csv` (см. `docs/playbooks/add-city.md`).
-Братислава переехала туда же (`data/cities/bratislava/`, 2026-09-25).
-Пока не смёржены задачи по часам работы (`mac/collect-hours-and-vet-services`)
-и логотипам (PR #73), которые ещё пишут в старые `data/*-bratislava.csv`,
-`businesses.csv` Братиславы генерируется из них скриптом
-(`data/cities/bratislava/README.md`) и руками не правится. Цены
+Братислава — там же (`data/cities/bratislava/`), правится напрямую. Цены
 (`prices.csv`) и сводки отзывов (`review-insights/`) уже только в новой
 папке. Новые задачи по Братиславе ставятся на новые файлы.
 
@@ -126,7 +122,7 @@ cd website && npm run check-city -- <город>
 | `hours_source_url` | да | Где взяты часы |
 | `hours_observed_at` | да | `YYYY-MM-DD` |
 
-Формат и правила — `tasks/mac-collect-hours-and-vet-services.md`
+Формат и правила — `tasks/done/mac-collect-hours-and-vet-services.md`
 (или `tasks/done/…` после мерджа).
 
 ### 6. Рейтинг
@@ -154,7 +150,7 @@ cd website && npm run check-city -- <город>
 | `emergency_24_7` | `yes` — **только если заведение реально принимает круглосуточно** (правило ниже) |
 | `emergency_note` | Любая другая неотложка, на языке города: «pohotovosť do 24:00», «nočná a víkendová pohotovosť», «pohotovosť na telefóne 24/7» |
 | `home_visits` | `yes`, если явно есть выезд на дом |
-| `specialties` | Коды через `;` из списка в задаче про часы работы |
+| `specialties` | Коды через `;` **только** из списка `VET_SPECIALTIES` в `website/lib/vet.ts` (surgery, orthopedics, dentistry, dermatology, cardiology, ophthalmology, oncology, neurology, internal-medicine, reproduction, rehabilitation, exotics, ultrasound, x-ray, ct, mri, endoscopy, laboratory, hospitalization). Другие слова не придумывать: выезд — это `home_visits`; `check-city` не пропустит чужой код |
 
 **Правило «Nonstop 24/7» (владелец, 2026-09-25).** Такие места попадают
 на страницу «Nonstop», получают красный бейдж и всегда считаются
@@ -353,8 +349,10 @@ business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currenc
 не быть: сайт читает оба варианта.
 
 - `business_slug` — `slug` заведения из `businesses.csv`.
-- `price_code` — **только** коды из таблиц выше. Услуги не из списка не
-  записывать.
+- `price_code` — **только** коды из таблицы **категории этого
+  заведения** (у ветклиники нет `nail_trim` и `vaccination_cat`, у
+  передержки — кодов дрессировки). Услуги не из списка не записывать.
+  `check-city` не пропустит чужой код.
 - `weight_from_kg` / `weight_to_kg` — диапазон веса ровно как у
   заведения («do 10 kg» → пусто / `10`; «nad 40 kg» → `40` / пусто).
   Цена не зависит от веса — оба пусто.
@@ -378,7 +376,9 @@ business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currenc
   Коротко, до 40 символов, на английском и на языке города: «without
   anaesthesia» / «bez anestézy», «incl. hospitalisation» / «vrátane
   hospitalizácie». Обязательны при `partial=yes`, в остальных случаях —
-  только если без пометки цену поймут неправильно.
+  только если без пометки цену поймут неправильно. **Не повторять в
+  `note` название услуги** («clinical examination», «nail trim»):
+  строка с `note` показывается, но не сравнивается с рынком.
 - Переводить ничего не нужно: названия услуг на двух языках — в таблицах
   выше, их подставляет сайт.
 - Услуга есть, а цены нет («cena dohodou», «podľa rozsahu») — строку не
