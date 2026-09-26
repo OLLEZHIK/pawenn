@@ -175,7 +175,7 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
     googleRatingCount: showRating ? ratingCount : null,
     ratingObservedAt: parseNullableDate(row.rating_observed_at),
     // closed=yes: permanently closed since it was listed - kept so its old
-    // URL can send visitors to the category list (docs/card-spec.md §10).
+    // URL can send visitors to the category list (docs/card-spec.md §11).
     status: /^yes$/i.test((row.closed ?? "").trim()) ? ("REMOVED" as const) : ("PUBLISHED" as const),
     sourceUrls: nullableString(row.source_url) ? [row.source_url.trim()] : [],
     notes: nullableString(row.notes),
