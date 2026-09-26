@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=15757239679908178745",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 19,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 16,
+      "title": {
+        "en": "Patient and attentive medical team",
+        "sk": "Trpezlivý a pozorný tím veterinárok"
+      },
+      "text": {
+        "en": "Pet owners in Ružinov express high satisfaction with the female veterinary doctors for their thorough, empathetic, and gentle approach. Reviewers note that staff take time to perform unhurried physical exams, answer pet health questions thoroughly, and establish trust with sensitive animals.",
+        "sk": "Majitelia zvierat v Ružinove vyjadrujú veľkú spokojnosť s tímom lekárok za ich dôkladný, empatický a láskavý prístup. Recenzenti oceňujú, že personál venuje vyšetreniu dostatok času, podrobne odpovedá na otázky o zdravotnom stave a vytvára si dôverný vzťah aj s bojazlivými zvieratami."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Well-organized appointments with zero rush",
+        "sk": "Skvelá organizácia termínov bez zhonu a čakania"
+      },
+      "text": {
+        "en": "Clients praise the strict advance scheduling system, which keeps waiting times down to a minimum. Because appointments are allocated adequate time slots, consultations proceed without pressure or haste, providing a quiet and calm atmosphere in the clinic waiting area.",
+        "sk": "Klienti veľmi chvália fungovanie objednávkového systému na presný čas, ktorý eliminuje dlhé čakanie na chodbe. Vďaka starostlivému časovému manažmentu prebieha každé ošetrenie v pokoji a bez stresujúceho zhonu, čo prospieva pohode pacientov v čakárni."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Higher rates reflecting quality clinic care",
+        "sk": "Vyššie ceny zodpovedajúce úrovni kliniky"
+      },
+      "text": {
+        "en": "A few reviewers observe that specialized dental cleaning, diagnostic imaging, and complex procedures carry higher fees than basic solo practices. However, most clients consider the pricing fair and justified by the modern medical equipment and high standard of clinical care provided.",
+        "sk": "Niekoľko hodnotiacich poznamenáva, že špecializovaná stomatológia, zobrazovacia diagnostika a náročnejšie zákroky sú cenovo vyššie než v menších ambulanciách. Väčšina majiteľov však považuje ceny za adekvátne vzhľadom na moderné prístrojové vybavenie a vysokú odbornú úroveň."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do clients need to book appointments in advance?",
+        "sk": "Je potrebné sa na termín vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, scheduling appointments by telephone is required for planned consultations and exams.",
+        "sk": "Áno, na plánované vyšetrenia a zákroky je nutné sa vopred telefonicky objednať."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Know Hau clinic situated?",
+        "sk": "Kde presne sa klinika Know Hau nachádza?"
+      },
+      "a": {
+        "en": "The clinic is located at Stredná 4228/1 in the Trnávka neighborhood of Ružinov.",
+        "sk": "Klinika sídli na Strednej 4228/1 v Trnávke (mestská časť Ružinov)."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What species are treated at the clinic?",
+        "sk": "Aké zvieratá na klinike ošetrujú?"
+      },
+      "a": {
+        "en": "The practice specializes in dogs, cats, rabbits, guinea pigs, and small domestic rodents.",
+        "sk": "Pracovisko sa špecializuje na psy, mačky, králiky, morčatá a drobné spoločenské hlodavce."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are dental treatments available on site?",
+        "sk": "Poskytuje klinika zubné ošetrenie?"
+      },
+      "a": {
+        "en": "Yes, ultrasonic teeth cleaning, extractions, and dental diagnostics are performed under anesthesia.",
+        "sk": "Áno, klinika vykonáva ultrazvukové čistenie zubov, extrakcie a dentálnu diagnostiku v anestézii."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google",
+  "slug": "veterinarna-klinika-know-hau"
+}

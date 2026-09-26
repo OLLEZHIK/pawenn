@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=7145937462506657939",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 5,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Professional team with clear medical explanations",
+        "sk": "Profesionálny tím so zrozumiteľným vysvetlením"
+      },
+      "text": {
+        "en": "Reviewers in Dúbravka commend X-VET for its polite, contemporary veterinary personnel and thorough consultations. Pet owners appreciate that doctors explain diagnoses patiently, outline treatment stages clearly, and treat animal patients with great respect.",
+        "sk": "Recenzie v Dúbravke chvália kliniku X-VET za ústretový, moderný tím a dôkladné vstupné konzultácie. Majitelia zvierat oceňujú, že lekári trpezlivo vysvetlia diagnózu, prehľadne predstavia jednotlivé fázy liečby a ku zvieracím pacientom pristupujú s rešpektom."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for dogs, cats, and exotics",
+        "sk": "Starostlivý prístup k psom, mačkám aj exotickým zvieratám"
+      },
+      "text": {
+        "en": "Clients highlight that the clinic welcomes not only dogs and cats but also exotic mammals, birds, and hedgehogs. Pet owners praise the veterinary staff for their specialized handling knowledge, ensuring that delicate species experience minimal stress during exams.",
+        "sk": "Klienti vyzdvihujú, že klinika sa ochotne a profesionálne venuje nielen psom a mačkám, ale aj drobným cicavcom, vtákom či ježkom. Majitelia chvália personál za odborné a bezpečné zaobchádzanie, vďaka čomu prebieha vyšetrenie citlivých druhov v maximálnom pokoji."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Bright modern premises near Dúbravka transport",
+        "sk": "Svetlé moderné priestory s dobrou dostupnosťou"
+      },
+      "text": {
+        "en": "Pet owners praise the spotless, modern clinic environment on Schneidera-Trnavského street in Dúbravka. Visitors appreciate the bright consulting rooms, comfortable waiting area, and easy accessibility from nearby public transport stops and main transit routes.",
+        "sk": "Majitelia zvierat oceňujú čisté, moderné a výborne vybavené priestory kliniky na ulici M. Schneidera-Trnavského. Návštevníci vyzdvihujú svetlé ordinácie, príjemnú čakáreň a bezproblémovú dostupnosť z okolitých zastávok MHD aj hlavných dúbravských trás."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where in Dúbravka is X-VET situated?",
+        "sk": "Kde presne v Dúbravke klinika X-VET sídli?"
+      },
+      "a": {
+        "en": "The facility is located at M. Schneidera-Trnavského 1825/8, close to local tram connections.",
+        "sk": "Klinika sa nachádza na ulici M. Schneidera-Trnavského 1825/8 v blízkosti električkovej trate."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do you treat exotic companion pets?",
+        "sk": "Ošetrujete aj exotické spoločenské zvieratá?"
+      },
+      "a": {
+        "en": "Yes, veterinary care is available for birds, small rodents, hedgehogs, and exotic mammals.",
+        "sk": "Áno, ambulancia poskytuje starostlivosť pre vtáky, drobné hlodavce, ježkov a exotické cicavce."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do the veterinarians speak English?",
+        "sk": "Dohovorím sa na klinike po anglicky?"
+      },
+      "a": {
+        "en": "Yes, consultations and examinations can be conducted fluently in English.",
+        "sk": "Áno, personál kliniky ovláda anglický jazyk a poskytuje vyšetrenia aj v angličtine."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment scheduling required?",
+        "sk": "Je nutné sa na vyšetrenie vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, advance booking is recommended to secure a dedicated consultation slot.",
+        "sk": "Áno, objednanie vopred telefonicky alebo online sa odporúča na vyhradenie termínu."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google",
+  "slug": "veterinarna-klinika-x-vet"
+}

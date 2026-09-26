@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=771803738096232932",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 12,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Empathetic medical team with broad expertise",
+        "sk": "Empatický lekársky tím so širokou odbornosťou"
+      },
+      "text": {
+        "en": "Reviews in Ružinov commend Vetklinika for its professional and empathetic veterinary team. Clients praise the doctors for their thorough clinical evaluations, gentle hands during stressful procedures, and ability to keep anxious companion animals calm and secure.",
+        "sk": "Recenzie v Ružinove vyzdvihujú Vetkliniku za profesionálny a vysoko empatický lekársky tím. Klienti chvália lekárov za svedomité klinické vyšetrenia, citlivý prístup pri náročnejších zákrokoch a schopnosť upokojiť vystresované zvieratá počas celej návštevy."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Well-equipped clinical facilities and hospitalization",
+        "sk": "Špičkovo vybavené pracovisko a možnosť hospitalizácie"
+      },
+      "text": {
+        "en": "Pet owners frequently mention the modern diagnostic equipment, spotless surgical room, and clean hospitalization kennels. Clients appreciate that comprehensive diagnostics, X-rays, and post-operative monitoring are available under one roof on Drieňová street.",
+        "sk": "Majitelia zvierat pravidelne spomínajú moderné diagnostické prístroje, čistú operačnú sálu a sterilné hospitalizačné boxy. Klienti oceňujú, že komplexné vyšetrenia, RTG diagnostika a pooperačný dohľad sú zabezpečené pod jednou strechou na Drieňovej ulici."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Responsive communication and prompt scheduling",
+        "sk": "Rýchla komunikácia a ústretové plánovanie termínov"
+      },
+      "text": {
+        "en": "Reviewers note that the reception and medical staff communicate clearly over the phone and organize appointment slots efficiently. Clients especially value the clear post-treatment recommendations and detailed instructions provided for home recovery and follow-up care.",
+        "sk": "Hodnotiaci uvádzajú, že personál komunikuje telefonicky veľmi promptne a ochotne prispôsobí termín ošetrenia možnostiam klienta. Majitelia vyzdvihujú zrozumiteľné zhrnutie liečebného plánu a podrobné inštrukcie k domácej rekonvalescencii po prepustení zvieraťa."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is post-surgical hospitalization available?",
+        "sk": "Ponúka klinika možnosť pooperačnej hospitalizácie?"
+      },
+      "a": {
+        "en": "Yes, the clinic has dedicated monitored recovery kennels for patients following major surgery.",
+        "sk": "Áno, klinika disponuje monitorovanými hospitalizačnými boxmi pre pacientov po náročných operáciách."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Vetklinika Ružinov situated?",
+        "sk": "Kde presne sa Vetklinika Ružinov nachádza?"
+      },
+      "a": {
+        "en": "The clinic is located at Drieňová 81/40 in Ružinov, conveniently accessible by car and public transit.",
+        "sk": "Klinika sídli na Drieňovej 81/40 v Ružinove s výbornou dostupnosťou autom aj MHD."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do the doctors speak English?",
+        "sk": "Poskytujú konzultácie aj v angličtine?"
+      },
+      "a": {
+        "en": "Yes, veterinary consultations are available in both Slovak and English.",
+        "sk": "Áno, veterinárne vyšetrenia a konzultácie prebiehajú v slovenskom aj anglickom jazyku."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted for treatment?",
+        "sk": "Aké zvieratá klinika ošetruje?"
+      },
+      "a": {
+        "en": "They treat dogs, cats, small companion mammals, exotic pets, and horses by appointment.",
+        "sk": "Ošetrujú psy, mačky, drobné cicavce, exotické zvieratá a po dohode aj kone."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "vetklinika-ruzinov"
+}

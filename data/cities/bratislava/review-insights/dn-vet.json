@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=3102834930527684720",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 15,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Successful orthopedic surgeries and rapid recovery",
+        "sk": "Úspešné ortopedické operácie a rýchla rekonvalescencia"
+      },
+      "text": {
+        "en": "Reviews in Devínska Nová Ves emphasize excellent surgical outcomes, especially for knee operations, cruciate ligament stabilization, and joint assessments. Pet owners praise the veterinary team for meticulous pre-op planning and reliable post-anesthesia patient recovery.",
+        "sk": "Recenzie v Devínskej Novej Vsi vyzdvihujú výborné výsledky chirurgických zákrokov, najmä pri operáciách kolien, väzov a posudzovaní kĺbov. Majitelia zvierat chvália veterinárny tím za precíznu predoperačnú prípravu a bezproblémové zotavenie pacientov z anestézie."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Helpful and welcoming veterinary personnel",
+        "sk": "Ochotný a ľudský personál v Devínskej Novej Vsi"
+      },
+      "text": {
+        "en": "Pet owners frequently highlight the welcoming attitude, empathy, and professional demeanor of doctors and veterinary technicians. Reviewers appreciate that the team treats animals with patience and kindness, explaining therapeutic steps clearly to owners.",
+        "sk": "Majitelia zvierat pravidelne vyzdvihujú ústretový prístup, empatiu a vysokú profesionalitu lekárov aj veterinárnych asistentov. Hodnotiaci oceňujú, že personál zaobchádza so zvieratami trpezlivo a láskavo, pričom zrozumiteľne vysvetlí každý krok liečby."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Reasonable local fees with great transparency",
+        "sk": "Rozumné lokálne ceny a transparentné účtovanie"
+      },
+      "text": {
+        "en": "Clients consistently note fair and transparent pricing across routine examinations, soft-tissue surgeries, and digital X-ray diagnostics in the clinic. Pet owners state that invoices are itemized clearly, offering great medical value without inflated city-center markups.",
+        "sk": "Klienti oceňujú férové a transparentné ceny za bežné prehliadky, operácie mäkkých tkanív aj digitálnu RTG diagnostiku. Majitelia zvierat uvádzajú, že položky na účte sú vždy prehľadne rozpísané a vysoká kvalita poskytnutej starostlivosti plne zodpovedá účtovaným sumám."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they perform official dysplasia screening X-rays?",
+        "sk": "Vykonáva ambulancia oficiálne RTG snímky na dyspláziu?"
+      },
+      "a": {
+        "en": "Yes, certified radiographic examinations for canine hip and elbow dysplasia are conducted.",
+        "sk": "Áno, ambulancia vykonáva certifikované RTG vyšetrenia na posudzovanie dysplázie kĺbov psov."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Devínska Nová Ves?",
+        "sk": "Kde presne v Devínskej Novej Vsi ambulancia sídli?"
+      },
+      "a": {
+        "en": "The practice is located at Istrijská 5066/17, with convenient parking nearby.",
+        "sk": "Pracovisko sa nachádza na Istrijskej 5066/17 s možnosťou parkovania v blízkosti."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is the clinic open on Saturdays?",
+        "sk": "Je ambulancia otvorená aj v sobotu?"
+      },
+      "a": {
+        "en": "Yes, morning consulting hours are scheduled on Saturdays for client convenience.",
+        "sk": "Áno, v sobotu dopoludnia sú k dispozícii ordinačné hodiny pre bežné ošetrenia."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are treated?",
+        "sk": "Aké zvieratá na klinike ošetrujú?"
+      },
+      "a": {
+        "en": "They treat dogs, cats, small rodents, rabbits, and exotic companion reptiles.",
+        "sk": "Ošetrujú psy, mačky, drobné hlodavce, králiky aj exotické spoločenské plazy."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "dn-vet"
+}

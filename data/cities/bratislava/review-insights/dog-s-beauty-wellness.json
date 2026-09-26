@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=15734308195823134777",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 5,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Patient groomer with genuine animal empathy",
+        "sk": "Trpezlivá strihačka s veľkou empatiou k psíkom"
+      },
+      "text": {
+        "en": "Dog owners in Ružinov commend the salon owner for her calm, gentle demeanor and sensitive, patient handling of animals. Reviewers emphasize that even fearful, fidgety, or senior dogs remain remarkably peaceful and relaxed throughout the grooming appointment.",
+        "sk": "Majitelia psíkov v Ružinove veľmi chvália majiteľku salónu za jej pokojný, citlivý a trpezlivý prístup ku každému zvieraťu. Recenzie zdôrazňujú, že aj bojazlivé, nepokojné či staršie psíky zvládajú úpravu srsti v nezvyčajnom pokoji vďaka láskavému zaobchádzaniu."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Flawless haircutting, ozone therapy, and dental care",
+        "sk": "Krásny strih, ozonoterapia a čistenie zubov"
+      },
+      "text": {
+        "en": "Clients highlight excellent styling outcomes, precise breed trims, and high-quality coat conditioning treatments. Reviews frequently praise the anesthesia-free ultrasonic teeth cleaning and relaxing ozone hydrotherapy baths that leave dog coats shiny and fragrant.",
+        "sk": "Klienti vyzdvihujú perfektné výsledky strihania, precíznu úpravu podľa štandardov plemien a šetrnú kvalitnú kozmetiku. Hodnotenia často oceňujú ultrazvukové čistenie zubov bez narkózy a ozonoterapiu, po ktorej je srsť psíkov nádherne hebká, lesklá a voňavá."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Fair prices reflecting high service quality",
+        "sk": "Férové ceny zodpovedajúce vysokej kvalite starostlivosti"
+      },
+      "text": {
+        "en": "Pet owners note that prices are completely reasonable given the thorough time invested in each dog and the gentle, premium cosmetic products used. Clients appreciate the transparent fee structure and consider the specialized wellness services great value.",
+        "sk": "Majitelia zvierat uvádzajú, že ceny sú plne férové a presne zodpovedajú času a energii venovanej každému psíkovi aj prémiovej kozmetike. Klienti oceňujú prehľadný cenník a považujú špecializované wellness procedúry za výbornú a zmysluplnú investíciu do zdravia psa."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you clean dog teeth without anesthesia?",
+        "sk": "Čistíte psíkom zuby bez narkózy?"
+      },
+      "a": {
+        "en": "Yes, gentle ultrasonic dental scaling without anesthesia is a popular specialized service.",
+        "sk": "Áno, šetrné čistenie zubného kameňa ultrazvukom bez narkózy patrí medzi obľúbené služby."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the salon located in Bratislava?",
+        "sk": "Kde presne sa salón nachádza?"
+      },
+      "a": {
+        "en": "The salon is located at Tomášikova 10/E in the Ružinov district of Bratislava.",
+        "sk": "Salón sídli na Tomášikovej 10/E v Ružinove s dobrou dostupnosťou a parkovaním."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What wellness treatments are provided?",
+        "sk": "Aké wellness procedúry ponúkate?"
+      },
+      "a": {
+        "en": "Services include ozone hydrotherapy spa baths, mud masks, fur conditioning, and manual hand stripping.",
+        "sk": "Ponúkajú ozonoterapiu, bylinné a bahenné zábaly, regeneráciu srsti a ručné trimovanie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment booking needed?",
+        "sk": "Je nutné sa na úpravu vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, advance telephone booking is required to dedicate sufficient time to your pet.",
+        "sk": "Áno, telefonické objednanie vopred je potrebné na vyhradenie dostatku času pre psíka."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google",
+  "slug": "dog-s-beauty-wellness"
+}

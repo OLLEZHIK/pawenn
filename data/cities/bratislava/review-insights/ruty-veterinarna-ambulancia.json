@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=9127521798369395277",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 6,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Devoted veterinary care led by Dr. Rubešová",
+        "sk": "Obetavá starostlivosť pod vedením pani doktorky"
+      },
+      "text": {
+        "en": "Reviews in Karlova Ves commend MVDr. Rubešová for her precision, thorough evaluations, and warm bedside manner. Pet owners appreciate her dedication to companion animals, noting that she takes time to examine every detail and offers practical, caring advice.",
+        "sk": "Recenzie v Karlovej Vsi vysoko hodnotia MVDr. Rubešovú za jej precíznosť, dôkladné vyšetrenia a ľudský prístup. Majitelia zvierat oceňujú jej úprimnú obetavosť, pričom zdôrazňujú, že si nájde čas na každý detail a poskytuje rozumné a citlivé odporúčania."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle and reassuring approach towards pets",
+        "sk": "Citlivé zaobchádzanie a upokojenie vystresovaných zvierat"
+      },
+      "text": {
+        "en": "Clients emphasize how gently pets are handled during checkups, blood tests, and minor treatments. Both canine and feline owners report that their animals remain unusually calm and relaxed, thanks to the doctor's quiet presence and stress-free handling methods.",
+        "sk": "Klienti vyzdvihujú veľmi jemné a rešpektujúce zaobchádzanie so zvieratami pri prehliadkach, odberoch a ošetreniach. Majitelia psov aj mačiek uvádzajú, že ich miláčikovia zostávajú nezvyčajne pokojní vďaka trpezlivému a pokojnému vystupovaniu personálu."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Organized appointments keeping waiting minimal",
+        "sk": "Organizované objednávanie s minimálnym čakaním"
+      },
+      "text": {
+        "en": "Pet owners appreciate the organized appointment system that keeps the waiting room quiet and orderly. Because consultations are scheduled thoughtfully, clients experience minimal delays and benefit from dedicated, unhurried time with the veterinarian.",
+        "sk": "Majitelia zvierat si pochvaľujú dobre nastavený objednávkový systém, ktorý udržiava čakáreň v tichu, pokoji a bez zhonu. Vďaka premyslenému plánovaniu termínov klienti takmer nečakajú a majú k dispozícii dostatok nerušeného času na dôkladnú konzultáciu s lekárkou."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is RuTy clinic located in Karlova Ves?",
+        "sk": "Kde presne v Karlovej Vsi ambulancia sídli?"
+      },
+      "a": {
+        "en": "The practice is situated at Ferdiša Kostku 1, conveniently accessible within the residential area.",
+        "sk": "Ambulancia sídli na ulici Ferdiša Kostku 1 v Karlovej Vsi s dobrou pešou aj dopravnou dostupnosťou."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment booking recommended?",
+        "sk": "Je potrebné sa vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, scheduling an appointment by phone is strongly recommended to minimize waiting time.",
+        "sk": "Áno, telefonické objednanie vopred je vysoko odporúčané na zabezpečenie termínu bez čakania."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are treated at RuTy?",
+        "sk": "Aké zvieratá v ambulancii ošetrujú?"
+      },
+      "a": {
+        "en": "The clinic provides medical care for dogs, cats, rabbits, guinea pigs, and small domestic pets.",
+        "sk": "Ambulancia poskytuje veterinárnu starostlivosť pre psy, mačky, králiky, morčatá a drobné cicavce."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What payment methods are accepted?",
+        "sk": "Aké sú možnosti platby za vyšetrenie?"
+      },
+      "a": {
+        "en": "Cash payment is standard; please confirm card payment availability beforehand.",
+        "sk": "Štandardnou platbou je hotovosť, možnosti platby kartou si overte vopred telefonicky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "source": "google",
+  "slug": "ruty-veterinarna-ambulancia"
+}

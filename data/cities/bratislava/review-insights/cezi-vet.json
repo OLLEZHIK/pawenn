@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=13945474857314467900",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 7,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Quiet, dog-free haven designed for cats",
+        "sk": "Pokojné prostredie bez prítomnosti psov pre mačky"
+      },
+      "text": {
+        "en": "Feline owners in Staré Mesto praise Cezi Vet as an exceptional cat-only practice where patients are completely shielded from canine barking and stress. Reviewers note that cats remain remarkably relaxed throughout examinations in this specialized setting.",
+        "sk": "Majitelia mačiek v Starom Meste vyzdvihujú Cezi Vet ako výnimočnú felínnu prax, kde sú pacienti úplne chránení pred psím štekaním a stresom. Recenzie zdôrazňujú, že mačky zostávajú počas celého vyšetrenia v tomto prispôsobenom a pokojnom prostredí nezvyčajne vyrovnané."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive feline expert with deep empathy",
+        "sk": "Pozorná špecialistka na mačaciu medicínu"
+      },
+      "text": {
+        "en": "Clients consistently commend MVDr. Boberová for her specialized knowledge of feline health and her patient, gentle handling. Pet owners appreciate her thorough diagnostic explanations, unhurried consultations, and holistic approach to feline welfare.",
+        "sk": "Klienti vysoko oceňujú MVDr. Boberovú za jej hlboké znalosti v špecializovanej mačacej medicíne a trpezlivý, citlivý prístup. Majitelia vyzdvihujú dôkladné vysvetlenie diagnóz, pokojný priebeh návštevy a skutočný komplexný záujem o zdravie a pohodu každej mačky."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Spotless clinic rooms and integrated cat hotel",
+        "sk": "Čisté priestory kliniky a prepojený hotel pre mačky"
+      },
+      "text": {
+        "en": "Reviews highlight the immaculate cleanliness of the clinic rooms on Karpatská street and praise the attached cat hotel. Cat owners value the individual, cage-free accommodations and direct on-site veterinary supervision while they are away traveling.",
+        "sk": "Recenzie chvália príjemné a čisté priestory na Karpatskej ulici a vyzdvihujú prepojenie ambulancie s mačacím hotelom. Majitelia mačiek oceňujú individuálne bezklietkové izbičky, bezpečný výbeh a nepretržitý odborný veterinárny dohľad počas ich neprítomnosti."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you treat dogs or other pets?",
+        "sk": "Ošetrujete aj psov alebo iné zvieratá?"
+      },
+      "a": {
+        "en": "No, Cezi Vet is exclusively dedicated to cats and feline medicine to ensure a stress-free environment.",
+        "sk": "Nie, Cezi Vet je výhradne mačacia klinika a hotel pre mačky bez prítomnosti psov."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Cezi Vet located in Bratislava?",
+        "sk": "Kde presne sa Cezi Vet nachádza?"
+      },
+      "a": {
+        "en": "The facility is located at Karpatská 3100/13 in Staré Mesto, near the main railway station.",
+        "sk": "Pracovisko sídli na Karpatskej 3100/13 v Starom Meste v blízkosti Hlavnej stanice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I book boarding at the cat hotel?",
+        "sk": "Dá sa u vás objednať ubytovanie v mačacom hoteli?"
+      },
+      "a": {
+        "en": "Yes, cage-free rooms with climbing walls and daily veterinary checks are available by reservation.",
+        "sk": "Áno, k dispozícii sú individuálne izby s preliezkami a denným veterinárnym dohľadom."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do you communicate in English?",
+        "sk": "Dohovorím sa po anglicky?"
+      },
+      "a": {
+        "en": "Yes, consultations and boarding arrangements can be conducted in English.",
+        "sk": "Áno, komunikácia a veterinárne konzultácie sú možné aj v anglickom jazyku."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "cezi-vet"
+}
