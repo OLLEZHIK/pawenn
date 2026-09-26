@@ -30,6 +30,13 @@ export const CATEGORY_ATTRIBUTES: Partial<Record<BusinessCategory, AttributeKey[
   VET_CLINIC: ["nonstop", "saturday", "sunday", "exotics", "home-visits", "english"],
 };
 
+/** Attributes a city offers for the category. In a city whose language
+ *  is English, "English spoken" says nothing - every place speaks it -
+ *  so there is no page and no chip (owner, 2026-09-26). */
+export function attributesForCity(category: BusinessCategory, cityLocale: string): AttributeKey[] {
+  return (CATEGORY_ATTRIBUTES[category] ?? []).filter((key) => !(key === "english" && cityLocale === "en"));
+}
+
 /** Places a page needs to be indexed. Nonstop is indexed from one: an
  *  emergency answer is worth a page even with a single clinic. */
 export function minToIndex(key: AttributeKey): number {
