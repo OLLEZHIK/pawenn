@@ -5,7 +5,7 @@ import {
   getDefaultCity,
   getFeaturedBusinesses,
   getBusinessCount,
-  getDistrictSummaries,
+  getSiteStats,
   getCityPoints,
 } from "@/lib/data";
 import {
@@ -62,11 +62,11 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const t = getDictionary(locale).home;
   const city = await getDefaultCity();
   const defaultSlug = city?.slug ?? "";
-  const [featured, counts, districtSummaries, cityPoints] = await Promise.all([
+  const [featured, counts, cityPoints, site] = await Promise.all([
     getFeaturedBusinesses(defaultSlug),
     getBusinessCount(defaultSlug),
-    getDistrictSummaries(defaultSlug),
     getCityPoints(),
+    getSiteStats(),
   ]);
 
   const cityName = city?.name ?? "Bratislava";
@@ -87,11 +87,12 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     .slice(0, 3)
     .map((c) => c.slug);
 
+  // Whole-site numbers that grow with every city (owner, 2026-09-26).
   const stats = [
-    { value: counts.total, label: t.statPlaces },
-    { value: districtSummaries.length, label: t.statDistricts },
-    { value: categories.filter((c) => c.count > 0).length, label: t.statKinds },
-    { value: 0, label: t.statAds },
+    { value: site.countries, label: t.statCountries(site.countries) },
+    { value: site.cities, label: t.statCities(site.cities) },
+    { value: site.places, label: t.statPlaces(site.places) },
+    { value: site.kinds, label: t.statKinds(site.kinds) },
   ];
 
   return (

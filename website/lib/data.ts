@@ -250,6 +250,22 @@ async function getBusinessCountRaw(citySlug: string): Promise<{ total: number; b
   return { total: rows.length, byCategory };
 }
 
+/** Home page numbers for the whole site, every city (owner, 2026-09-26):
+ *  countries, cities, places and kinds of service with at least one place. */
+async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; places: number; kinds: number }> {
+  const published = { status: "PUBLISHED" as const };
+  const [cities, categories] = await Promise.all([
+    prisma.city.findMany({ where: { businesses: { some: published } }, select: { country: true } }),
+    prisma.business.groupBy({ by: ["category"], where: published, _count: { _all: true } }),
+  ]);
+  return {
+    countries: new Set(cities.map((c) => c.country)).size,
+    cities: cities.length,
+    places: categories.reduce((sum, c) => sum + c._count._all, 0),
+    kinds: categories.length,
+  };
+}
+
 export interface CategoryAggregates {
   count: number;
   verifiedCount: number;
@@ -537,6 +553,7 @@ export const getDistrictBySlug = cached(getDistrictBySlugRaw, "getDistrictBySlug
 export const getDistrictCounts = cached(getDistrictCountsRaw, "getDistrictCounts");
 export const getAllDistricts = cached(getAllDistrictsRaw, "getAllDistricts");
 export const getBusinessCount = cached(getBusinessCountRaw, "getBusinessCount");
+export const getSiteStats = cached(getSiteStatsRaw, "getSiteStats");
 export const getCategoryAggregates = cached(getCategoryAggregatesRaw, "getCategoryAggregates");
 export const getDistrictSummaries = cached(getDistrictSummariesRaw, "getDistrictSummaries");
 export const getCityPoints = cached(getCityPointsRaw, "getCityPoints");
