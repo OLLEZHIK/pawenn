@@ -4,7 +4,7 @@ import type { Business, BusinessCategory, District, City } from "@prisma/client"
 import { CATEGORY_LABELS, categorySlugFromEnum } from "./categories";
 import type { Locale } from "./i18n";
 import { SERVICES } from "./services";
-import { CATEGORY_ATTRIBUTES, hasAttribute, type AttributeKey } from "./attributePages";
+import { attributesForCity, hasAttribute, type AttributeKey } from "./attributePages";
 import { marketPrices, priceLevels, type ComparablePrice, type MarketPrice, type PriceLevel } from "./priceMarket";
 
 export type BusinessWithRelations = Business & {
@@ -403,7 +403,8 @@ async function getServicePriceRowsRaw(category: BusinessCategory, citySlug: stri
 // How many places in the city have each attribute of the category (lib/
 // attributePages.ts): whether a page exists, is indexed, gets a chip.
 async function getAttributeCountsRaw(category: BusinessCategory, citySlug: string): Promise<[AttributeKey, number][]> {
-  const keys = CATEGORY_ATTRIBUTES[category] ?? [];
+  const city = await prisma.city.findUnique({ where: { slug: citySlug }, select: { locale: true } });
+  const keys = city ? attributesForCity(category, city.locale) : [];
   if (keys.length === 0) return [];
   const places = await searchBusinessesRaw({ category, citySlug });
   return keys.map((key) => [key, places.filter((b) => hasAttribute(b, key)).length]);
