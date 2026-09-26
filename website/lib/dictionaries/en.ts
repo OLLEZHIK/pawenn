@@ -67,7 +67,7 @@ export const en = {
     metaTitle: (where: string) => `Pet Services ${where} – vets, grooming, pet hotels | Pawenn`,
     metaDescription: (where: string) =>
       `Find trusted pet services ${where} - groomers, vets, hotels, training and more`,
-    h1: "Where to take your dog or cat\u00a0– and what it costs",
+    h1: "Happy pet, easy mind",
     subtitle: "Vets, groomers, pet hotels and trainers with phone numbers, opening hours and prices. Every listing says where the details come from and when we checked them.",
     popular: "Popular:",
     statPlaces: "places listed",

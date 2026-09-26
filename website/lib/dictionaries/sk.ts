@@ -79,7 +79,7 @@ export const sk: Dictionary = {
     metaTitle: (where: string) => `Služby pre zvieratá ${skIn(where)} – veterinári, psie salóny, hotely | Pawenn`,
     metaDescription: (where: string) =>
       `Služby pre zvieratá ${skIn(where)} - psie salóny, veterinári, hotely pre zvieratá, výcvik a ďalšie, s kontaktom na jeden dotyk`,
-    h1: "Kam so psom či mačkou\u00a0– a\u00a0koľko to stojí",
+    h1: "Spokojné zviera, pokojný majiteľ",
     subtitle: "Veterinári, psie salóny, hotely a výcvik s\u00a0telefónom, otváracími hodinami a cenami. Pri každom podniku uvádzame, odkiaľ sú údaje a kedy sme ich overili.",
     popular: "Obľúbené:",
     statPlaces: "podnikov v zozname",
