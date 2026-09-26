@@ -118,6 +118,16 @@ shapes (irregular `border-radius`, `filter: blur`) in brand colors at
 per page - used on the homepage hero and the business detail page.
 Decoration only, never a stand-in for a photographic subject.
 
+### Home hero
+Slogan H1 without a city name (the site is multi-city): SK "Spokojné
+zviera, pokojný majiteľ", EN "Happy pet, easy mind" (owner's choice,
+2026-09-26). The subtitle names the kinds of services and where the data
+comes from. Desktop only, on the right: `HeroIllustration.tsx`, an inline
+SVG of an owner petting a happy dog on a CSS loop (arm pats, tail wags,
+head tilts, hearts rise), decorative (`aria-hidden`), a still picture
+under reduced motion. Nothing there on mobile - no floating category
+chips or counters.
+
 ### Business avatar (no photos)
 `components/BusinessAvatar.tsx` - initials on a category-tinted tile with
 the category icon as a corner badge. Used instead of an empty photo
@@ -147,8 +157,8 @@ header's backdrop-filter would clip a fixed overlay).
 - Instant feedback: button states <100ms
 - Smooth transitions: 200ms ease-out
 - Decoration motion is minimal and CSS-only (`.rise-in` entrance,
-  `.float-y` on hero category chips); all of it is disabled under
-  prefers-reduced-motion
+  `.float-y` on the 404 paw, `.pet-*` loop in the home hero
+  illustration); all of it is disabled under prefers-reduced-motion
 - Reduced motion: instant state changes for prefers-reduced-motion
 
 **Key Interactions:**
