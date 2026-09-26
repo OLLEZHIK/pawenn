@@ -103,7 +103,7 @@ website/public/logos/<slug>/          логотипы (если нашлись)
 Первая строка — ровно этот заголовок (порядок столбцов важен):
 
 ```
-category,name,slug,address,lat,lng,phone,email,website,instagram,facebook,short_description,short_description_local,description,description_local,opening_hours,hours_source_url,hours_observed_at,emergency_24_7,emergency_note,emergency_note_local,home_visits,specialties,languages_spoken,photo_urls,google_place_id,google_maps_url,google_rating,google_rating_count,rating_observed_at,logo_file,source_url,observed_at,notes
+category,name,slug,address,lat,lng,phone,email,website,instagram,facebook,short_description,short_description_local,description,description_local,opening_hours,hours_source_url,hours_observed_at,emergency_24_7,emergency_note,emergency_note_local,home_visits,specialties,languages_spoken,photo_urls,google_place_id,google_maps_url,google_rating,google_rating_count,rating_observed_at,logo_file,source_url,observed_at,closed,notes
 ```
 
 Столбцы `emergency_24_7`, `emergency_note`, `emergency_note_local`,
@@ -203,8 +203,10 @@ Maps (адрес, телефон, сайт, часы, рейтинг, число
 текстом за полгода; языки — `en` + языки города). Можно отдельным PR.
 
 **Не включать:**
-- закрытые места: «Permanently closed», сайт не работает и нет
-  активности за год;
+- закрытые места: «Permanently closed» / «Trvalo zatvorené» на Google,
+  сайт не работает и нет активности за год. Такое место не добавлять
+  вовсе (столбец `closed` — только для мест, которые закрылись уже
+  после того, как попали на сайт; `docs/card-spec.md` §10);
 - дубли: одно место с двумя карточками — одна строка;
 - заведения без единого способа связи: нет телефона, почты и сайта.
 

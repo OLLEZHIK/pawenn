@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import {
   getBusinessBySlug,
   averageRating,
@@ -55,7 +55,7 @@ function availableLocales(business: BusinessWithRelations): Locale[] {
 
 export async function businessMetadata(locale: Locale, slug: string): Promise<Metadata> {
   const business = await getBusinessBySlug(slug);
-  if (!business || !availableLocales(business).includes(locale)) return {};
+  if (!business || !availableLocales(business).includes(locale) || business.status !== "PUBLISHED") return {};
 
   const t = getDictionary(locale).business;
   const city = business.city ?? business.district?.city ?? null;
@@ -104,6 +104,12 @@ const SCHEMA_TYPE: Partial<Record<BusinessWithRelations["category"], string>> = 
 export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: string }) {
   const business = await getBusinessBySlug(slug);
   if (!business || !availableLocales(business).includes(locale)) notFound();
+  // Permanently closed: its old URL leads to the category list of its city.
+  if (business.status !== "PUBLISHED") {
+    const closedCity = business.city ?? business.district?.city;
+    if (closedCity) permanentRedirect(listingPath(locale, business.category, closedCity.slug));
+    notFound();
+  }
 
   const t = getDictionary(locale);
   const label = categoryLabel(business.category, locale);

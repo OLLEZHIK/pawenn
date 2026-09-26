@@ -28,10 +28,14 @@ if (!fs.existsSync(dir)) {
   process.exit(2);
 }
 
-const rows: Row[] = fs
+const allRows: Row[] = fs
   .readdirSync(dir)
   .filter((f) => /^businesses.*\.csv$/.test(f))
   .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data);
+// closed=yes: permanently closed after it was listed - kept only so its old
+// URL redirects (docs/card-spec.md §10). Not shown, not counted below.
+const isClosed = (r: Row) => /^yes$/i.test((r.closed ?? "").trim());
+const rows = allRows.filter((r) => !isClosed(r));
 const insights = new Set(
   fs.existsSync(path.join(dir, "review-insights"))
     ? fs.readdirSync(path.join(dir, "review-insights")).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""))
@@ -60,7 +64,8 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
 ];
 
 let failed = false;
-console.log(`\n${city}: ${rows.length} places\n`);
+const closedCount = allRows.length - rows.length;
+console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
 console.log("field                         have    share  target");
 for (const c of CHECKS) {
   const n = rows.filter(c.ok).length;
@@ -139,7 +144,7 @@ if (heavyLogos.length) {
 
 // Review summaries follow one format (docs/playbooks/review-insights.md);
 // every text in English and in each language of the city.
-const slugs = new Set(rows.map((r) => r.slug));
+const slugs = new Set(allRows.map((r) => r.slug));
 const cityLangs = ["en", ...(cityMeta.locales ?? (cityMeta.locale ? [cityMeta.locale] : []))];
 const bothLangs = (v: unknown) => {
   const o = v as Record<string, unknown> | undefined;
@@ -205,6 +210,41 @@ if (vetGaps.length) {
   for (const g of vetGaps) console.log(`  ${g}`);
 }
 
+// Closed places (owner, 2026-09-26): a place that looks permanently
+// closed is never collected as new, and one that closed after it was
+// listed carries closed=yes with the evidence in notes.
+const CLOSED_WORDS = /(possibly|permanently) closed|trvalo zatvoren|natrvalo zatvoren|dauerhaft geschlossen|trvale zavřen/i;
+const closedIssues: string[] = [];
+for (const r of allRows) {
+  if (isClosed(r) && !/\bclosed: \S/.test(r.notes ?? "")) {
+    closedIssues.push(`${r.slug}: closed=yes needs "closed: (<where seen>, <date>)" in notes`);
+  }
+  if (!isClosed(r) && CLOSED_WORDS.test(r.notes ?? "")) {
+    closedIssues.push(`${r.slug}: notes say closed - drop a new place, or set closed=yes for one already on the site`);
+  }
+}
+if (closedIssues.length) {
+  failed = true;
+  console.log(`\nClosed places (${closedIssues.length}):`);
+  for (const c of closedIssues) console.log(`  ${c}`);
+}
+
+// Languages: 2-letter codes, never the city's own language (the page
+// "English spoken" and the card read these as foreign languages served).
+const cityLocales = cityMeta.locales ?? (cityMeta.locale ? [cityMeta.locale] : []);
+const badLanguages = rows.flatMap((r) =>
+  (r.languages_spoken ?? "")
+    .split(";")
+    .map((x) => x.trim())
+    .filter((x) => x && (!/^[a-z]{2}$/.test(x) || cityLocales.includes(x)))
+    .map((x) => `${r.slug}: "${x}"`)
+);
+if (badLanguages.length) {
+  failed = true;
+  console.log(`\nlanguages_spoken: only 2-letter codes, not the city's language ${cityLocales.join("/")} (${badLanguages.length}):`);
+  for (const b of badLanguages) console.log(`  ${b}`);
+}
+
 // Vet specialties: only codes the site knows (lib/vet.ts); anything else
 // is dropped by the seed and never shown.
 const badSpecialties = rows.flatMap((r) =>
@@ -226,7 +266,7 @@ if (badSpecialties.length) {
 const pricesFile = path.join(dir, "prices.csv");
 const priceErrors: string[] = [];
 if (fs.existsSync(pricesFile)) {
-  const categoryOf = new Map(rows.map((r) => [r.slug, r.category]));
+  const categoryOf = new Map(allRows.map((r) => [r.slug, r.category]));
   const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
   prices.forEach((p, i) => {
     const at = `prices.csv line ${i + 2} (${p.business_slug}, ${p.price_code})`;
