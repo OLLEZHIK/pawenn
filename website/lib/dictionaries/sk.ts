@@ -79,10 +79,11 @@ export const sk: Dictionary = {
     metaTitle: (where: string) => `Služby pre zvieratá ${skIn(where)} – veterinári, psie salóny, hotely | Pawenn`,
     metaDescription: (where: string) =>
       `Služby pre zvieratá ${skIn(where)} - psie salóny, veterinári, hotely pre zvieratá, výcvik a ďalšie, s kontaktom na jeden dotyk`,
-    h1Before: "Nájdite spoľahlivé",
-    h1Highlight: "služby pre zvieratá",
-    subtitle: (where: string) =>
-      `Psie salóny, veterinári, hotely pre zvieratá a cvičitelia ${skIn(where)} - s poctivými údajmi, jasnými zdrojmi a kontaktom na jeden dotyk.`,
+    h1: "Veterinári, psie salóny a hotely pre zvieratá",
+    subtitle: "Telefón, otváracie hodiny a ceny na jednom mieste. Pri každom podniku uvádzame, odkiaľ sú údaje a kedy sme ich overili.",
+    asideHoursTitle: "Otvorené aj mimo bežných hodín",
+    asidePricesTitle: (where: string) => `Koľko to stojí ${skIn(where)}`,
+    asidePricesNote: "Medián zo zverejnených cenníkov",
     popular: "Obľúbené:",
     statPlaces: "podnikov v zozname",
     statDistricts: "mestských častí",
@@ -92,8 +93,6 @@ export const sk: Dictionary = {
     browseTitle: "Čo dnes potrebuje váš miláčik?",
     browseBody: "Šesť druhov starostlivosti, každý s vlastným zoznamom podnikov a zdrojom pri každom zázname.",
     places: (n: number) => `${n} ${plural("sk", n, { one: "podnik", few: "podniky", other: "podnikov" })}`,
-    listed: (n: number) => `${n} v zozname`,
-    collageCenter: "podnikov na preskúmanie",
     exploreEyebrow: "Preskúmajte mesto",
     exploreTitle: (city: string) => `Čo nájdete vo svojej časti mesta ${city}?`,
     exploreBody: "Ťuknite na mestskú časť a uvidíte, čo je nablízku. Väčšia bublina znamená viac podnikov.",
@@ -410,6 +409,7 @@ export const sk: Dictionary = {
   attributes: {
     nonstop: {
       chip: "Nonstop 24/7",
+      short: "Veterinár nonstop",
       h1: (where: string) => `Veterinár nonstop ${skIn(where)}`,
       lead: (n: number, total: number) =>
         `${n} z ${total} veterinárnych ambulancií prijíma pacientov 24 hodín denne, 7 dní v týždni. Pred cestou zavolajte.`,
@@ -419,6 +419,7 @@ export const sk: Dictionary = {
     },
     saturday: {
       chip: "Otvorené v sobotu",
+      short: "Veterinár otvorený v sobotu",
       h1: (where: string) => `Veterinár otvorený v sobotu ${skIn(where)}`,
       lead: (n: number, total: number) =>
         `V sobotu má otvorené ${n} z ${total} veterinárnych ambulancií. Otváracie hodiny nižšie, overené pri každej ambulancii.`,
@@ -428,6 +429,7 @@ export const sk: Dictionary = {
     },
     sunday: {
       chip: "Otvorené v nedeľu",
+      short: "Veterinár otvorený v nedeľu",
       h1: (where: string) => `Veterinár otvorený v nedeľu ${skIn(where)}`,
       lead: (n: number, total: number) =>
         `V nedeľu má otvorené ${n} z ${total} veterinárnych ambulancií. Otváracie hodiny nižšie, overené pri každej ambulancii.`,
@@ -437,6 +439,7 @@ export const sk: Dictionary = {
     },
     exotics: {
       chip: "Exotické zvieratá",
+      short: "Veterinár pre exotické zvieratá",
       h1: (where: string) => `Veterinár pre exotické zvieratá ${skIn(where)}`,
       lead: (n: number, total: number) =>
         `Exotické zvieratá – plazy, vtáky, hlodavce – ošetruje ${n} z ${total} veterinárnych ambulancií. Pred návštevou si overte váš druh.`,
@@ -446,6 +449,7 @@ export const sk: Dictionary = {
     },
     "home-visits": {
       chip: "Výjazd domov",
+      short: "Veterinár s výjazdom domov",
       h1: (where: string) => `Veterinár s výjazdom domov ${skIn(where)}`,
       lead: (n: number, total: number) => `Výjazd k vám domov ponúka ${n} z ${total} veterinárnych ambulancií.`,
       metaTitle: (where: string) => `Veterinár domov ${skIn(where)} – výjazd | Pawenn`,

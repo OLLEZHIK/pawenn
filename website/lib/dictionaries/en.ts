@@ -67,10 +67,11 @@ export const en = {
     metaTitle: (where: string) => `Pet Services ${where} – vets, grooming, pet hotels | Pawenn`,
     metaDescription: (where: string) =>
       `Find trusted pet services ${where} - groomers, vets, hotels, training and more`,
-    h1Before: "Find trusted",
-    h1Highlight: "pet services",
-    subtitle: (where: string) =>
-      `Groomers, vets, pet hotels and trainers ${where} - with honest details, clear sources and one-tap contact.`,
+    h1: "Vets, groomers and pet hotels",
+    subtitle: "Phone numbers, opening hours and prices in one place. Every listing says where the details come from and when we checked them.",
+    asideHoursTitle: "Open outside usual hours",
+    asidePricesTitle: (where: string) => `What it costs ${where}`,
+    asidePricesNote: "Median of published price lists",
     popular: "Popular:",
     statPlaces: "places listed",
     statDistricts: "districts covered",
@@ -80,8 +81,6 @@ export const en = {
     browseTitle: "What does your pet need today?",
     browseBody: "Six kinds of pet care, each with its own list of places and a source for every listing.",
     places: (n: number) => `${n} ${n === 1 ? "place" : "places"}`,
-    listed: (n: number) => `${n} listed`,
-    collageCenter: "places to explore",
     exploreEyebrow: "Explore the city",
     exploreTitle: (city: string) => `What's in your part of ${city}?`,
     exploreBody: "Tap a district to see what's nearby. Bigger bubbles mean more places listed.",
@@ -381,6 +380,7 @@ export const en = {
   attributes: {
     nonstop: {
       chip: "Nonstop 24/7",
+      short: "Nonstop vets",
       h1: (where: string) => `Nonstop vets ${where}`,
       lead: (n: number, total: number) =>
         `${n} of ${total} vet clinics take patients 24 hours a day, 7 days a week. Call before you go.`,
@@ -390,6 +390,7 @@ export const en = {
     },
     saturday: {
       chip: "Open Saturday",
+      short: "Vets open on Saturday",
       h1: (where: string) => `Vets open on Saturday ${where}`,
       lead: (n: number, total: number) => `${n} of ${total} vet clinics are open on Saturday. Hours below, checked with each clinic.`,
       metaTitle: (where: string) => `Vets open on Saturday ${where} | Pawenn`,
@@ -398,6 +399,7 @@ export const en = {
     },
     sunday: {
       chip: "Open Sunday",
+      short: "Vets open on Sunday",
       h1: (where: string) => `Vets open on Sunday ${where}`,
       lead: (n: number, total: number) => `${n} of ${total} vet clinics are open on Sunday. Hours below, checked with each clinic.`,
       metaTitle: (where: string) => `Vets open on Sunday ${where} | Pawenn`,
@@ -406,6 +408,7 @@ export const en = {
     },
     exotics: {
       chip: "Exotic animals",
+      short: "Vets for exotic animals",
       h1: (where: string) => `Vets for exotic animals ${where}`,
       lead: (n: number, total: number) =>
         `${n} of ${total} vet clinics treat exotic animals - reptiles, birds, rodents. Call ahead to check your species.`,
@@ -415,6 +418,7 @@ export const en = {
     },
     "home-visits": {
       chip: "Home visits",
+      short: "Vets who come to your home",
       h1: (where: string) => `Vets who come to your home ${where}`,
       lead: (n: number, total: number) => `${n} of ${total} vet clinics offer home visits.`,
       metaTitle: (where: string) => `Vet home visits ${where} | Pawenn`,

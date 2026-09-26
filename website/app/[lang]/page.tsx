@@ -7,7 +7,13 @@ import {
   getBusinessCount,
   getDistrictSummaries,
   getCityPoints,
+  getAttributeCounts,
+  getMarketPrices,
 } from "@/lib/data";
+import { CATEGORY_ATTRIBUTES, attributePath, minToIndex, type AttributeKey } from "@/lib/attributePages";
+import { money, pricesPath } from "@/lib/pricePages";
+import { serviceLabel } from "@/lib/services";
+import type { Locale } from "@/lib/locales";
 import {
   ALL_CATEGORIES,
   CATEGORY_THEME,
@@ -25,8 +31,6 @@ import { CategoryIcon } from "@/components/CategoryIcon";
 import { MythOrFact } from "@/components/MythOrFact";
 import {
   ArrowRightIcon,
-  CatIcon,
-  DogIcon,
   PhoneIcon,
   SearchIcon,
   ShieldCheckIcon,
@@ -50,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       description: t.metaDescription(where),
       path: localePath(lang, "/"),
       locale: lang,
-      image: { title: `${t.h1Before} ${t.h1Highlight}`, subtitle: where },
+      image: { title: t.h1, subtitle: where },
     }),
     alternates: localeAlternates(lang, Object.fromEntries(locales.map((l) => [l, localePath(l, "/")])), "/"),
   };
@@ -87,6 +91,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     .sort((a, b) => b.count - a.count)
     .slice(0, 3)
     .map((c) => c.slug);
+
+  const hero = await getHeroAside(locale, citySlug);
 
   const stats = [
     { value: counts.total, label: t.statPlaces },
@@ -130,24 +136,10 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
 
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-10 md:pt-16 lg:grid-cols-[1.6fr_1fr] lg:pb-24">
           <div className="rise-in min-w-0 text-center lg:text-left">
-            <h1 className="text-4xl font-extrabold leading-[1.05] text-foreground sm:text-5xl md:text-6xl xl:text-7xl">
-              {t.h1Before}{" "}
-              <span className="relative whitespace-nowrap text-brand-orange">
-                {t.h1Highlight}
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 300 16"
-                  preserveAspectRatio="none"
-                  className="absolute -bottom-2 left-0 h-3 w-full text-brand-orange/40"
-                >
-                  <path d="M3 12C60 4 140 2 297 8" stroke="currentColor" strokeWidth="5" strokeLinecap="round" fill="none" />
-                </svg>
-              </span>{" "}
-              {inCity(locale, city ?? { name: cityName })}
+            <h1 className="text-balance text-[2rem] font-extrabold leading-[1.1] text-foreground sm:text-4xl md:text-5xl xl:text-[3.5rem]">
+              {t.h1} {inCity(locale, city ?? { name: cityName })}
             </h1>
-            <p className="mx-auto mt-6 max-w-xl text-lg text-foreground/70 lg:mx-0">
-              {t.subtitle(inCity(locale, city ?? { name: cityName }))}
-            </p>
+            <p className="mx-auto mt-5 max-w-xl text-lg text-foreground/70 lg:mx-0">{t.subtitle}</p>
 
             <div id="search" className="mt-8 scroll-mt-28 lg:max-w-none">
               <HomeSearch
@@ -177,7 +169,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
           </div>
 
-          <HeroCollage categories={categories} total={counts.total} t={t} />
+          <HeroAside hero={hero} where={inCity(locale, city ?? { name: cityName })} t={t} />
         </div>
       </section>
 
@@ -364,63 +356,107 @@ function SectionHeading({ eyebrow, title, body }: { eyebrow: string; title: stri
 // Right side of the hero: category tiles arranged as a playful collage
 // around a central "pet" card. Real category counts only; decorative
 // motion is CSS-only and disabled under prefers-reduced-motion.
-function HeroCollage({
-  categories,
-  total,
+// Desktop-only column next to the hero (owner, 2026-09-26: it replaces the
+// floating category collage). Real shortcuts, no decoration: attribute
+// pages about opening hours, and the services most places publish a price
+// for. Both come from data, so a new city fills it without code changes.
+const HERO_ATTRIBUTES: AttributeKey[] = ["nonstop", "saturday", "sunday"];
+
+async function getHeroAside(locale: Locale, citySlug: string) {
+  const attributeCategories = ALL_CATEGORIES.filter((c) => CATEGORY_ATTRIBUTES[c]?.length);
+  const [attributeCounts, markets] = await Promise.all([
+    Promise.all(attributeCategories.map(async (c) => [c, await getAttributeCounts(c, citySlug)] as const)),
+    Promise.all(ALL_CATEGORIES.map(async (c) => [c, await getMarketPrices(c, citySlug)] as const)),
+  ]);
+  const dict = getDictionary(locale);
+  // "17 – 39 €" / "€17 – €39": the currency where each language puts it.
+  const range = (min: number, max: number, currency: string) => {
+    const digits = Number.isInteger(min) && Number.isInteger(max) ? 0 : 2;
+    return new Intl.NumberFormat(locale, {
+      style: "currency",
+      currency,
+      minimumFractionDigits: digits,
+      maximumFractionDigits: digits,
+    }).formatRange(min, max);
+  };
+  const hours = attributeCounts.flatMap(([category, counts]) =>
+    HERO_ATTRIBUTES.filter(
+      (key) => (CATEGORY_ATTRIBUTES[category] ?? []).includes(key) && (counts.get(key) ?? 0) >= minToIndex(key)
+    ).map((key) => ({
+      href: attributePath(locale, category, citySlug, key),
+      label: dict.attributes[key].short,
+      count: counts.get(key) ?? 0,
+    }))
+  );
+  const prices = markets
+    .flatMap(([category, market]) => [...market].map(([code, m]) => ({ category, code, m })))
+    .sort((a, b) => b.m.places - a.m.places)
+    .slice(0, 4)
+    .map(({ category, code, m }) => ({
+      href: pricesPath(locale, category, citySlug, code),
+      label: serviceLabel(category, code, locale),
+      categoryLabel: categoryLabel(category, locale),
+      median: money(m.median, m.currency, locale),
+      range: range(m.min, m.max, m.currency),
+    }));
+  return { hours, prices };
+}
+
+function HeroAside({
+  hero,
+  where,
   t,
 }: {
-  categories: {
-    slug: string;
-    href: string;
-    category: Parameters<typeof CategoryIcon>[0]["category"];
-    label: string;
-    count: number;
-    accent: string;
-  }[];
-  total: number;
+  hero: Awaited<ReturnType<typeof getHeroAside>>;
+  where: string;
   t: ReturnType<typeof getDictionary>["home"];
 }) {
-  const positions = [
-    "left-[-4%] top-[0%] -rotate-6",
-    "right-[-6%] top-[8%] rotate-3",
-    "left-[-12%] top-[40%] rotate-2",
-    "right-[-10%] top-[46%] -rotate-3",
-    "left-[-2%] bottom-[2%] rotate-3",
-    "right-[-2%] bottom-[-4%] -rotate-2",
-  ];
-
+  if (!hero.hours.length && !hero.prices.length) return null;
+  const row = "flex items-center justify-between gap-4 py-3 text-foreground transition hover:text-brand-blue";
   return (
-    <div className="relative mx-auto hidden aspect-square w-full max-w-[520px] lg:block">
-      {/* center card */}
-      <div className="absolute left-1/2 top-1/2 flex h-[40%] w-[40%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-[36px] bg-ink text-white shadow-[var(--shadow-panel)]">
-        <div className="flex items-center gap-2 text-brand-orange">
-          <DogIcon className="h-12 w-12" />
-          <CatIcon className="h-12 w-12 text-white" />
-        </div>
-        <p className="mt-3 font-heading text-4xl font-extrabold">{total}</p>
-        <p className="px-3 text-center text-sm text-white/60">{t.collageCenter}</p>
+    <aside className="hidden lg:block">
+      <div className="rounded-[var(--radius-card)] border border-line bg-surface p-6 shadow-[var(--shadow-card)]">
+        {hero.hours.length > 0 && (
+          <section>
+            <h2 className="text-lg font-bold text-foreground">{t.asideHoursTitle}</h2>
+            <ul className="mt-1">
+              {hero.hours.map((h) => (
+                <li key={h.href} className="border-t border-line first:border-t-0">
+                  <Link href={h.href} className={row}>
+                    <span className="font-medium">{h.label}</span>
+                    <span className="flex items-center gap-2 text-sm tabular-nums text-foreground/60">
+                      {h.count}
+                      <ArrowRightIcon className="h-4 w-4" />
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        {hero.prices.length > 0 && (
+          <section className={hero.hours.length ? "mt-6" : ""}>
+            <h2 className="text-lg font-bold text-foreground">{t.asidePricesTitle(where)}</h2>
+            <p className="mt-0.5 text-sm text-foreground/60">{t.asidePricesNote}</p>
+            <ul className="mt-1">
+              {hero.prices.map((p) => (
+                <li key={p.href} className="border-t border-line first:border-t-0">
+                  <Link href={p.href} className={row}>
+                    <span>
+                      <span className="block font-medium">{p.label}</span>
+                      <span className="block text-xs text-foreground/55">{p.categoryLabel}</span>
+                    </span>
+                    <span className="text-right">
+                      <span className="block font-bold tabular-nums">{p.median}</span>
+                      <span className="block text-xs tabular-nums text-foreground/55">{p.range}</span>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
-
-      {categories.map((c, i) => (
-        <Link
-          key={c.slug}
-          href={c.href}
-          className={`group absolute ${positions[i % positions.length]}`}
-        >
-          <span
-            className="float-y flex items-center gap-2.5 rounded-2xl bg-surface py-2.5 pl-2.5 pr-4 shadow-[var(--shadow-card-hover)] transition duration-300 group-hover:scale-105"
-            style={{ "--accent": c.accent, animationDelay: `${i * -1.1}s` } as React.CSSProperties}
-          >
-            <span className="accent-solid flex h-11 w-11 items-center justify-center rounded-xl">
-              <CategoryIcon category={c.category} className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="block max-w-[8.5rem] text-sm font-bold leading-tight text-foreground">{c.label}</span>
-              <span className="block text-xs text-foreground/55">{t.listed(c.count)}</span>
-            </span>
-          </span>
-        </Link>
-      ))}
-    </div>
+    </aside>
   );
 }
