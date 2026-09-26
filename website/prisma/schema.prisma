@@ -117,7 +117,9 @@ model Business {
   hoursSourceUrl        String?
   hoursObservedAt       DateTime?
   emergency247          Boolean          @default(false)
+  /// Non-24/7 emergency care, short: English, and the city's language.
   emergencyNote         String?
+  emergencyNoteLocal    String?
   homeVisits            Boolean          @default(false)
   languagesSpoken       String[]         @default([])
   district              District?        @relation(fields: [districtId], references: [id])

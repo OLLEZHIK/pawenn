@@ -4,7 +4,7 @@
 **Роль:** Content / research agent.
 **Тип:** контент по отзывам, объём средний.
 **Ветка:** `mac/review-insights-rest` (пилот был в `antigravity/review-insights`, PR #63 — это не значит, что задача занята).
-**Зависимости:** нет.
+**Зависимости:** можно работать сразу; `check-city` для Братиславы станет `READY` после `tasks/antigravity-bratislava-vet-languages.md` — PR открывать после её мерджа (или указать в PR, что единственный FAIL — языки ветклиник).
 
 ## Что сделать
 

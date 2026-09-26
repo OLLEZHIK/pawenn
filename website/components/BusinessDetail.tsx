@@ -191,7 +191,11 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
   const theme = CATEGORY_THEME[business.category];
   const hours = hoursFromStored(business.openingHours);
   const languages = business.languagesSpoken.map((code) => languageName(code, locale));
-  const hasVetInfo = business.emergency247 || Boolean(business.emergencyNote) || business.homeVisits;
+  // Same rule as descriptions: English page - English, else the local
+  // text; local page - only the local text.
+  const emergencyNote =
+    locale === "en" ? (business.emergencyNote ?? business.emergencyNoteLocal) : business.emergencyNoteLocal;
+  const hasVetInfo = business.emergency247 || Boolean(emergencyNote) || business.homeVisits;
   const hasAbout =
     Boolean(business.district) ||
     Boolean(description) ||
@@ -321,9 +325,9 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                       {t.business.nonstop}
                     </span>
                   )}
-                  {!business.emergency247 && business.emergencyNote && (
+                  {!business.emergency247 && emergencyNote && (
                     <span className="rounded-[var(--radius-pill)] bg-red-500/10 px-3 py-1.5 text-sm font-medium text-red-700">
-                      {t.business.emergency}: {business.emergencyNote}
+                      {t.business.emergency}: {emergencyNote}
                     </span>
                   )}
                   {business.homeVisits && (

@@ -163,6 +163,7 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
     hoursObservedAt: parseNullableDate(row.hours_observed_at),
     emergency247: yes(row.emergency_24_7),
     emergencyNote: nullableString(row.emergency_note),
+    emergencyNoteLocal: nullableString(row.emergency_note_local),
     homeVisits: yes(row.home_visits),
     specialties,
     languagesSpoken: parseList(row.languages_spoken).map((l) => l.toLowerCase()),
