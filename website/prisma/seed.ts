@@ -37,15 +37,6 @@ function parseCsv(filePath: string): CsvRow[] {
   return result.data;
 }
 
-function slugify(input: string): string {
-  return input
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
 function nullableString(value: string | undefined): string | null {
   if (value === undefined || value === null) return null;
   const trimmed = value.trim();
@@ -123,8 +114,7 @@ function claimSlug(slug: string, city: string, file: string) {
 }
 
 // ---------------------------------------------------------------------
-// Shared row -> Business fields (legacy Bratislava CSVs and new
-// data/cities/*/businesses*.csv use the same column names; see
+// Row of data/cities/*/businesses*.csv -> Business fields (columns:
 // docs/card-spec.md).
 // ---------------------------------------------------------------------
 function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir: string | null) {
@@ -167,13 +157,13 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
     description: nullableString(row.description),
     descriptionLocal: nullableString(row.description_local),
     shortDescription: nullableString(row.short_description),
-    // Legacy Bratislava files call the local text *_sk.
-    shortDescriptionLocal: nullableString(row.short_description_local ?? row.short_description_sk),
+    shortDescriptionLocal: nullableString(row.short_description_local),
     openingHours: hours && rawHours ? rawHours : Prisma.DbNull,
     hoursSourceUrl: nullableString(row.hours_source_url),
     hoursObservedAt: parseNullableDate(row.hours_observed_at),
     emergency247: yes(row.emergency_24_7),
     emergencyNote: nullableString(row.emergency_note),
+    emergencyNoteLocal: nullableString(row.emergency_note_local),
     homeVisits: yes(row.home_visits),
     specialties,
     languagesSpoken: parseList(row.languages_spoken).map((l) => l.toLowerCase()),
@@ -191,7 +181,7 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
 }
 
 // "What customers say" summaries, one JSON file per business slug
-// (tasks/mac-review-insights.md). Validated again when rendered.
+// (docs/playbooks/review-insights.md). Validated again when rendered.
 function readReviewInsights(dir: string, slug: string, rep: CityReport): Prisma.InputJsonValue | typeof Prisma.DbNull {
   const file = path.join(dir, `${slug}.json`);
   if (!fs.existsSync(file)) return Prisma.DbNull;
@@ -352,7 +342,7 @@ interface CityJson {
   in_city?: Record<string, string>;
 }
 
-// City settings shared by city.json and the legacy Bratislava path; see
+// City settings from city.json; see
 // docs/architecture/multi-city.md for what each field drives.
 function cityData(meta: CityJson) {
   const locales = (meta.locales?.length ? meta.locales : [meta.locale]).map((l) => l.toLowerCase());
@@ -480,119 +470,6 @@ async function seedCity(citySlug: string, serviceIds: Map<string, number>, hash:
   await prisma.city.update({ where: { id: city.id }, data: { seedHash: hash } });
 }
 
-// ---------------------------------------------------------------------
-// Legacy Bratislava (data/*-bratislava.csv), used until the orchestrator
-// moves Bratislava to data/cities/bratislava/ (city.json). Districts still
-// come from the CSV here; the polygon district is only compared and
-// reported, so the switch shows exactly which places would move.
-// ---------------------------------------------------------------------
-const LEGACY_FILES: { file: string; category: BusinessCategory | "FROM_COLUMN" }[] = [
-  { file: "salons-bratislava.csv", category: "GROOMING" },
-  { file: "vet-clinics-bratislava.csv", category: "VET_CLINIC" },
-  { file: "pet-hotels-bratislava.csv", category: "PET_HOTEL" },
-  { file: "other-pet-services-bratislava.csv", category: "FROM_COLUMN" },
-];
-const LEGACY_OTHER: Record<string, BusinessCategory> = { shop: "PET_SHOP", training: "DOG_TRAINING", sitting: "PET_SITTING" };
-const LEGACY_DISTRICTS: { name: string; slug: string }[] = [
-  { name: "Staré Mesto", slug: "stare-mesto" },
-  { name: "Ružinov", slug: "ruzinov" },
-  { name: "Vrakuňa", slug: "vrakuna" },
-  { name: "Podunajské Biskupice", slug: "podunajske-biskupice" },
-  { name: "Nové Mesto", slug: "nove-mesto" },
-  { name: "Rača", slug: "raca" },
-  { name: "Vajnory", slug: "vajnory" },
-  { name: "Karlova Ves", slug: "karlova-ves" },
-  { name: "Dúbravka", slug: "dubravka" },
-  { name: "Lamač", slug: "lamac" },
-  { name: "Devín", slug: "devin" },
-  { name: "Devínska Nová Ves", slug: "devinska-nova-ves" },
-  { name: "Záhorská Bystrica", slug: "zahorska-bystrica" },
-  { name: "Petržalka", slug: "petrzalka" },
-  { name: "Jarovce", slug: "jarovce" },
-  { name: "Rusovce", slug: "rusovce" },
-  { name: "Čunovo", slug: "cunovo" },
-];
-
-async function seedLegacyBratislava() {
-  const rep = report("bratislava (legacy data/*-bratislava.csv)");
-  const settings = cityData({
-    name: "Bratislava",
-    slug: "bratislava",
-    country: "SK",
-    locale: "sk",
-    lat: 48.1486,
-    lng: 17.1077,
-    timezone: "Europe/Bratislava",
-    currency: "EUR",
-    in_city: { en: "in Bratislava", sk: "v Bratislave" },
-  });
-  const city = await prisma.city.upsert({
-    where: { slug: "bratislava" },
-    update: settings,
-    create: { ...settings, slug: "bratislava" },
-  });
-  const districtIds = new Map<string, number>();
-  for (const d of LEGACY_DISTRICTS) {
-    const district = await prisma.district.upsert({
-      where: { cityId_slug: { cityId: city.id, slug: d.slug } },
-      update: { name: d.name },
-      create: { name: d.name, slug: d.slug, cityId: city.id },
-    });
-    districtIds.set(d.slug, district.id);
-  }
-  // Polygons (if fetched) only for the comparison report.
-  const geoFile = path.join(CITIES_DIR, "bratislava", "districts.geojson");
-  const shapes: DistrictShape[] = fs.existsSync(geoFile)
-    ? (JSON.parse(fs.readFileSync(geoFile, "utf-8")).features as {
-        properties: { slug: string };
-        geometry: { coordinates: number[][][][] };
-      }[]).map((f) => ({ id: 0, slug: f.properties.slug, coordinates: f.geometry.coordinates }))
-    : [];
-  const districtDiffs: string[] = [];
-
-  const used = new Set<string>();
-  for (const source of LEGACY_FILES) {
-    for (const row of parseCsv(path.join(DATA_DIR, source.file))) {
-      const name = nullableString(row.name);
-      if (!name) continue;
-      if (!nullableString(row.phone) && !nullableString(row.email) && !nullableString(row.website)) {
-        rep.skipped++;
-        continue;
-      }
-      const category = source.category === "FROM_COLUMN" ? LEGACY_OTHER[row.category?.trim() ?? ""] : source.category;
-      if (!category) {
-        rep.skipped++;
-        continue;
-      }
-      const districtSlug = nullableString(row.district);
-      // Same slug rule as before, so URLs don't change.
-      let slug = slugify(name);
-      if (used.has(slug) && districtSlug) slug = `${slug}-${districtSlug}`;
-      let suffix = 2;
-      while (used.has(slug)) slug = `${slugify(name)}-${suffix++}`;
-      used.add(slug);
-      claimSlug(slug, "bratislava", source.file);
-
-      const fields = businessFields(row, "bratislava", rep, null);
-      if (shapes.length) {
-        const poly = districtFor(shapes, fields.lat, fields.lng)?.slug ?? "(none)";
-        if (poly !== (districtSlug ?? "(none)")) districtDiffs.push(`${slug}: CSV ${districtSlug ?? "(none)"} -> polygon ${poly}`);
-      }
-      const districtId = districtSlug ? (districtIds.get(districtSlug) ?? null) : null;
-      if (districtId) rep.withDistrict++;
-      const reviewInsights = readReviewInsights(path.join(DATA_DIR, "review-insights"), slug, rep);
-      const data = { ...fields, category, cityId: city.id, districtId, reviewInsights };
-      await prisma.business.upsert({ where: { slug }, update: data, create: { ...data, slug } });
-      rep.businesses++;
-      rep.byCategory[category] = (rep.byCategory[category] ?? 0) + 1;
-    }
-  }
-  if (shapes.length) {
-    console.log(`\nDistrict check (CSV vs OpenStreetMap polygons): ${districtDiffs.length} of ${rep.businesses} differ`);
-    for (const d of districtDiffs) console.log(`  ${d}`);
-  }
-}
-
 async function main() {
   const serviceIds = await seedServices();
   console.log(`Services: ${serviceIds.size}`);
@@ -604,7 +481,6 @@ async function main() {
         .sort()
     : [];
   for (const c of cities) claimCitySlugs(c);
-  if (!cities.includes("bratislava") && !process.env.SEED_CITIES_DIR) await seedLegacyBratislava();
 
   // Only cities whose data (or the seed code) changed since the last seed;
   // SEED_FORCE=1 reseeds all of them.

@@ -11,6 +11,8 @@
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
+import { SERVICES } from "../lib/services";
+import { VET_SPECIALTIES } from "../lib/vet";
 
 type Row = Record<string, string>;
 
@@ -32,7 +34,7 @@ const rows: Row[] = fs
   .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data);
 const insights = new Set(
   fs.existsSync(path.join(dir, "review-insights"))
-    ? fs.readdirSync(path.join(dir, "review-insights")).map((f) => f.replace(/\.json$/, ""))
+    ? fs.readdirSync(path.join(dir, "review-insights")).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""))
     : []
 );
 
@@ -99,7 +101,12 @@ if (falseNonstop.length) {
 // Coordinates at the city centre are a placeholder, not a place: they put
 // a pin where the business is not (docs/card-spec.md, section 3).
 const cityMeta = fs.existsSync(path.join(dir, "city.json"))
-  ? (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { lat?: number; lng?: number })
+  ? (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as {
+      lat?: number;
+      lng?: number;
+      locale?: string;
+      locales?: string[];
+    })
   : {};
 const atCentre = rows.filter(
   (r) =>
@@ -115,7 +122,138 @@ if (atCentre.length) {
   for (const r of atCentre) console.log(`  ${r.slug}: ${r.lat}, ${r.lng}`);
 }
 
-// Review summaries are a second pass; reported, not enforced here.
+// Logos are shown at avatar size: a heavy file only slows the page
+// (docs/card-spec.md, "Логотип").
+const MAX_LOGO_KB = 200;
+const heavyLogos = rows.filter(
+  (r) => logoOk(r) && fs.statSync(path.join(logosDir, r.logo_file.trim())).size > MAX_LOGO_KB * 1024
+);
+if (heavyLogos.length) {
+  failed = true;
+  console.log(`\nLogos over ${MAX_LOGO_KB} KB - compress or resize to 512 px (${heavyLogos.length}):`);
+  for (const r of heavyLogos) {
+    const kb = Math.round(fs.statSync(path.join(logosDir, r.logo_file.trim())).size / 1024);
+    console.log(`  ${r.slug}: ${r.logo_file} ${kb} KB`);
+  }
+}
+
+// Review summaries follow one format (docs/playbooks/review-insights.md);
+// every text in English and in each language of the city.
+const slugs = new Set(rows.map((r) => r.slug));
+const cityLangs = ["en", ...(cityMeta.locales ?? (cityMeta.locale ? [cityMeta.locale] : []))];
+const bothLangs = (v: unknown) => {
+  const o = v as Record<string, unknown> | undefined;
+  return cityLangs.every((l) => typeof o?.[l] === "string" && (o[l] as string).trim() !== "");
+};
+const insightErrors: string[] = [];
+for (const slug of insights) {
+  const file = path.join(dir, "review-insights", `${slug}.json`);
+  let data: {
+    slug?: string;
+    cards?: { title?: unknown; text?: unknown; mentions?: number }[];
+    faq?: { q?: unknown; a?: unknown }[];
+  };
+  try {
+    data = JSON.parse(fs.readFileSync(file, "utf-8"));
+  } catch {
+    insightErrors.push(`${slug}: not valid JSON`);
+    continue;
+  }
+  const err = (m: string) => insightErrors.push(`${slug}: ${m}`);
+  if (!slugs.has(slug)) err("no place with this slug in businesses.csv");
+  if (data.slug !== slug) err(`"slug" is "${data.slug}", file name says "${slug}"`);
+  const cards = data.cards ?? [];
+  if (cards.length !== 3) err(`${cards.length} cards, need exactly 3`);
+  cards.forEach((c, i) => {
+    if (!bothLangs(c.title) || !bothLangs(c.text)) err(`card ${i + 1}: title and text need ${cityLangs.join(" + ")}`);
+    if ((c.mentions ?? 0) < 3) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs 3+ reviewers`);
+    const text = c.text as Record<string, string> | undefined;
+    for (const l of cityLangs) {
+      const n = text?.[l]?.length ?? 0;
+      if (n && (n < 250 || n > 450)) err(`card ${i + 1}: text.${l} is ${n} characters, need 250-450`);
+    }
+  });
+  const faq = data.faq ?? [];
+  if (faq.length < 3 || faq.length > 6) err(`${faq.length} FAQ, need 3-6`);
+  faq.forEach((f, i) => {
+    if (!bothLangs(f.q) || !bothLangs(f.a)) err(`FAQ ${i + 1}: q and a need ${cityLangs.join(" + ")}`);
+  });
+}
+if (insightErrors.length) {
+  failed = true;
+  console.log(`\nreview-insights format (${insightErrors.length}):`);
+  for (const e of insightErrors) console.log(`  ${e}`);
+}
+
+// Vets: the languages they serve in, or a note that none is stated -
+// the "english speaking vet" answer (docs/card-spec.md, section 8).
+// Emergency note in both languages, like every visible text.
+const vetGaps: string[] = [];
+for (const r of rows) {
+  if (r.category !== "VET_CLINIC") continue;
+  if (!has(r, "languages_spoken") && !noted(r, "languages")) {
+    vetGaps.push(`${r.slug}: no languages_spoken and no "languages: none (...)" in notes`);
+  }
+  if (has(r, "emergency_note") !== has(r, "emergency_note_local")) {
+    vetGaps.push(`${r.slug}: emergency_note and emergency_note_local go together`);
+  }
+}
+if (vetGaps.length) {
+  failed = true;
+  console.log(`\nVet clinics (${vetGaps.length}):`);
+  for (const g of vetGaps) console.log(`  ${g}`);
+}
+
+// Vet specialties: only codes the site knows (lib/vet.ts); anything else
+// is dropped by the seed and never shown.
+const badSpecialties = rows.flatMap((r) =>
+  (r.specialties ?? "")
+    .split(";")
+    .map((x) => x.trim())
+    .filter((x) => x && !(VET_SPECIALTIES as readonly string[]).includes(x))
+    .map((x) => `${r.slug}: "${x}"`)
+);
+if (badSpecialties.length) {
+  failed = true;
+  console.log(`\nspecialties not in lib/vet.ts (${badSpecialties.length}) - allowed: ${VET_SPECIALTIES.join(", ")}:`);
+  for (const b of badSpecialties) console.log(`  ${b}`);
+}
+
+// Prices follow docs/card-spec.md, "Цены": only the category's 6 codes,
+// a source for every row, and note/note_local as a short visible remark
+// (a row with a note is shown but not compared with the market).
+const pricesFile = path.join(dir, "prices.csv");
+const priceErrors: string[] = [];
+if (fs.existsSync(pricesFile)) {
+  const categoryOf = new Map(rows.map((r) => [r.slug, r.category]));
+  const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  prices.forEach((p, i) => {
+    const at = `prices.csv line ${i + 2} (${p.business_slug}, ${p.price_code})`;
+    const category = categoryOf.get(p.business_slug);
+    if (!category) return priceErrors.push(`${at}: no place with this slug`);
+    const codes = (SERVICES[category as keyof typeof SERVICES] ?? []).map((s) => s.code);
+    if (!codes.includes(p.price_code)) {
+      priceErrors.push(`${at}: not a ${category} code (allowed: ${codes.join(", ") || "none"})`);
+    }
+    if (!(Number(p.price_from) > 0)) priceErrors.push(`${at}: price_from "${p.price_from}" is not a number`);
+    if (!/^https?:\/\//.test(p.source_url ?? "")) priceErrors.push(`${at}: no source_url`);
+    if (!["", "per_hour", "per_km"].includes((p.unit ?? "").trim())) priceErrors.push(`${at}: unit "${p.unit}"`);
+    const note = (p.note ?? "").trim();
+    const noteLocal = (p.note_local ?? "").trim();
+    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || !noteLocal)) {
+      priceErrors.push(`${at}: partial=yes needs note and note_local`);
+    }
+    if (!!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
+    if (note.length > 40 || noteLocal.length > 40) priceErrors.push(`${at}: note over 40 characters`);
+  });
+}
+if (priceErrors.length) {
+  failed = true;
+  console.log(`\nprices (${priceErrors.length}):`);
+  for (const e of priceErrors) console.log(`  ${e}`);
+}
+
+// Review summaries are a second pass; coverage reported, not enforced.
 const rated = rows.filter((r) => Number(r.google_rating_count) >= 10);
 const withInsights = rated.filter((r) => insights.has(r.slug)).length;
 console.log(`\nWhat customers say: ${withInsights}/${rated.length} places with 10+ Google ratings have review-insights`);

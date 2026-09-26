@@ -10,7 +10,7 @@
 // name from the OSM API and its geometry from polygons.openstreetmap.fr,
 // simplifies it (~5 m) and writes data/cities/<city>/districts.geojson.
 // The seed assigns businesses to districts from that file offline
-// (tasks/claude-city-loader-and-districts.md). District slugs are the
+// (tasks/done/claude-city-loader-and-districts.md). District slugs are the
 // name without diacritics; they are URLs, so re-running keeps them stable
 // as long as OSM names don't change - check the diff before committing.
 //

@@ -1,4 +1,4 @@
-// Vet clinic specialty codes (tasks/mac-collect-hours-and-vet-services.md,
+// Vet clinic specialty codes (tasks/done/mac-collect-hours-and-vet-services.md,
 // docs/card-spec.md section 8) with their labels.
 import type { Locale } from "./locales";
 
