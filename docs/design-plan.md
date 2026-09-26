@@ -89,7 +89,7 @@ nullable, пока не докончен `cli-backfill-districts-all-datasets`).
 `Business -> PriceItem[]`) — цена не обязана быть у каждого бизнеса
 сразу (см. раздел 4 ниже про цены).
 
-Подробности реализации — в `tasks/cli-generalize-business-model-and-seed.md`.
+Подробности реализации — в `tasks/done/cli-generalize-business-model-and-seed.md`.
 
 ### 2.1 Отзывы, рейтинг и фото — решение владельца, переносим из P1 в MVP
 
@@ -121,7 +121,7 @@ nullable, пока не докончен `cli-backfill-districts-all-datasets`).
   запрещено правилами проекта.
 
 **Обновление 2026-09-23:** вариант (а) выше — в работе. Новая задача
-`tasks/antigravity-collect-descriptions-and-photos.md` собирает
+`tasks/done/antigravity-collect-descriptions-and-photos.md` собирает
 реальные фото (только хотлинк на официальный сайт бизнеса, домен
 должен совпадать с полем `website`) и настоящие короткие описания —
 двумя новыми столбцами (`description`, `photo_urls`, `;`-разделитель
@@ -136,8 +136,8 @@ PR #40) и не смешивается с новым `description`. Интегр
 пересматривается.
 
 Реализация вью (карточка, форма отзыва, галерея) — в
-`tasks/cli-build-listing-and-detail-pages.md`, схема — в
-`tasks/cli-generalize-business-model-and-seed.md`.
+`tasks/done/cli-build-listing-and-detail-pages.md`, схема — в
+`tasks/done/cli-generalize-business-model-and-seed.md`.
 
 ### 2.2 Мультигород/мультистрана: как масштабироваться без переписывания кода
 
@@ -153,7 +153,7 @@ PR #40) и не смешивается с новым `description`. Интегр
 > уже поддерживаемой стране — только данные. Новый язык — один словарь
 > и набор слагов. Страницы Help и юридические пока только на английском.
 > Словацкие слаги живые с v2; менять их только при явной разнице в спросе
-> (`docs/seo/keywords/`, `tasks/antigravity-keywords-sk.md`).
+> (`docs/seo/keywords/`, `tasks/done/antigravity-keywords-sk.md`).
 
 Решение владельца (2026-09-21): в будущем новые города добавляются
 как данные, а не как задача на разработку — «настроили один раз,
@@ -202,8 +202,8 @@ PR #40) и не смешивается с новым `description`. Интегр
   не теряется, просто схема с самого начала готова к тому, что
   следующий город придёт с другим `locale` и не потребует правок кода.
 
-Подробности реализации схемы — `tasks/cli-generalize-business-model-and-seed.md`,
-роутинга — `tasks/cli-build-listing-and-detail-pages.md`.
+Подробности реализации схемы — `tasks/done/cli-generalize-business-model-and-seed.md`,
+роутинга — `tasks/done/cli-build-listing-and-detail-pages.md`.
 
 > **Языковая модель (владелец, 2026-09-23, окончательная). Отменяет
 > схему «английский без префикса + `/sk/` для местного языка» из
@@ -243,8 +243,8 @@ PR #40) и не смешивается с новым `description`. Интегр
 > 7. Контент заведений по языкам: в CSV `description` (английский) и
 >    `description_<locale>`; новый язык — новый столбец, без правки схемы.
 >
-> Задачи: `tasks/cli-language-model-v2.md` (п. 1, 3-6),
-> `tasks/antigravity-slovak-descriptions.md`,
+> Задачи: `tasks/done/cli-language-model-v2.md` (п. 1, 3-6),
+> `tasks/antigravity-slovak-descriptions.md` (отменена, вошла в задачу города),
 > `tasks/done/cli-full-local-language-sk.md` (п. 7 — через `description_local`;
 > п. 2 отменён: Help и юридические — только на английском, без пометки
 > «(EN)», не переводятся; решение владельца 2026-09-26).
@@ -259,7 +259,7 @@ PR #40) и не смешивается с новым `description`. Интегр
 зафиксировал как рабочую по принципу автономности, и которую затем
 подтвердило исследование Antigravity
 (`docs/seo/english-keywords.md`, задача
-`tasks/antigravity-seo-english-keywords.md`, смёржено): 5 из 6 слагов
+`tasks/done/antigravity-seo-english-keywords.md`, смёржено): 5 из 6 слагов
 подтверждены как есть, один изменён по результатам исследования —
 `pet-training` → `dog-training` (весь спрос англоязычных запросов на
 эту категорию — про собак, ни одного примера с «pet training» или про
@@ -522,13 +522,13 @@ noindex и не в sitemap» относится и к этому).
 
 | Задача | Исполнитель | Файл |
 | --- | --- | --- |
-| Обобщить модель данных (`Salon` → `Business`, 4 категории, + `Review`, `photoUrls`) + seed из CSV нормальным парсером | Claude Code CLI | `tasks/cli-generalize-business-model-and-seed.md` |
-| Страницы списка по категориям/районам + карточка бизнеса (рейтинг, отзывы, фото-галерея), JSON-LD, noindex-правило | Claude Code CLI | `tasks/cli-build-listing-and-detail-pages.md` |
-| Header/Footer (с финальным лого), реальный сабмит поиска (с полноэкранным оверлеем на мобильном), статические страницы (how-it-works/privacy/terms), sitemap/robots, убрать WCAG из DESIGN.md | Claude Code CLI | `tasks/cli-build-shell-and-static-pages.md` |
-| Координаты (lat/lng) для всех 76 записей — нужны для сортировки по расстоянию | Antigravity | `tasks/antigravity-geocode-listings.md` |
-| Цены на груминг-услуги (10 салонов) — единственная категория, где вообще есть шанс собрать цены с публичных прайс-листов | Antigravity | `tasks/antigravity-collect-grooming-prices.md` |
-| Проверка/уточнение английских URL-слагов и ключевых фраз (раздел 3 этого файла — рабочее решение, не финальное) | Antigravity | `tasks/antigravity-seo-english-keywords.md` |
-| 10 концептов лого + favicon для Pawenn (SVG, владелец выберет) | Antigravity | `tasks/antigravity-logo-favicon-concepts.md` |
+| Обобщить модель данных (`Salon` → `Business`, 4 категории, + `Review`, `photoUrls`) + seed из CSV нормальным парсером | Claude Code CLI | `tasks/done/cli-generalize-business-model-and-seed.md` |
+| Страницы списка по категориям/районам + карточка бизнеса (рейтинг, отзывы, фото-галерея), JSON-LD, noindex-правило | Claude Code CLI | `tasks/done/cli-build-listing-and-detail-pages.md` |
+| Header/Footer (с финальным лого), реальный сабмит поиска (с полноэкранным оверлеем на мобильном), статические страницы (how-it-works/privacy/terms), sitemap/robots, убрать WCAG из DESIGN.md | Claude Code CLI | `tasks/done/cli-build-shell-and-static-pages.md` |
+| Координаты (lat/lng) для всех 76 записей — нужны для сортировки по расстоянию | Antigravity | `tasks/done/antigravity-geocode-listings.md` |
+| Цены на груминг-услуги (10 салонов) — единственная категория, где вообще есть шанс собрать цены с публичных прайс-листов | Antigravity | `tasks/done/antigravity-collect-grooming-prices.md` |
+| Проверка/уточнение английских URL-слагов и ключевых фраз (раздел 3 этого файла — рабочее решение, не финальное) | Antigravity | `tasks/done/antigravity-seo-english-keywords.md` |
+| 10 концептов лого + favicon для Pawenn (SVG, владелец выберет) | Antigravity | `tasks/done/antigravity-logo-favicon-concepts.md` |
 
 Все семь задач выше смёржены (`tasks/done/`), MVP закрыт и живёт на
 `pawenn.com`. Активные задачи сейчас — редизайн (см. «Обновление
@@ -536,10 +536,10 @@ noindex и не в sitemap» относится и к этому).
 
 | Задача | Исполнитель | Файл |
 | --- | --- | --- |
-| Дизайн-токены, хедер, ambient-фон (фундамент) | Claude Code CLI | `tasks/cli-redesign-design-system.md` |
-| Редизайн главной страницы | Claude Code CLI | `tasks/cli-redesign-homepage.md` |
-| Редизайн карточки в каталоге | Claude Code CLI | `tasks/cli-redesign-listing-cards.md` |
-| Редизайн страницы бизнеса | Claude Code CLI | `tasks/cli-redesign-business-detail.md` |
+| Дизайн-токены, хедер, ambient-фон (фундамент) | Claude Code CLI | `tasks/done/cli-redesign-design-system.md` |
+| Редизайн главной страницы | Claude Code CLI | `tasks/done/cli-redesign-homepage.md` |
+| Редизайн карточки в каталоге | Claude Code CLI | `tasks/done/cli-redesign-listing-cards.md` |
+| Редизайн страницы бизнеса | Claude Code CLI | `tasks/done/cli-redesign-business-detail.md` |
 
 Порядок: `cli-redesign-design-system` — первая (остальные три зависят
 от её токенов/компонентов). `cli-redesign-homepage`,
@@ -552,7 +552,7 @@ noindex и не в sitemap» относится и к этому).
 БД). `cli-build-shell-and-static-pages` от `cli-generalize-business-model-and-seed`
 формально не зависит и может начинаться сразу же, параллельно —
 поверх уже смёрженного в `main` scaffold'а (`website/`), временно с
-CSV-версией счётчиков на главной (см. `tasks/cli-build-shell-and-static-pages.md`).
+CSV-версией счётчиков на главной (см. `tasks/done/cli-build-shell-and-static-pages.md`).
 Все три страничные/шелл-задачи — только CLI: у Antigravity нет
 возможности локально поднять и визуально проверить сайт, поэтому
 весь фронтенд/внешний вид закреплён исключительно за CLI (см.
@@ -610,7 +610,7 @@ Search grounding, Perplexity и т.п.) могли находить и цити�
    сейчас, зафиксировать как шаг на этапе деплоя (Sprint, раздел T0.4
    `docs/concept.md`).
 
-Пункты 1-4 — часть `tasks/cli-build-shell-and-static-pages.md` (robots/
-llms.txt) и `tasks/cli-build-listing-and-detail-pages.md` (JSON-LD/FAQ);
+Пункты 1-4 — часть `tasks/done/cli-build-shell-and-static-pages.md` (robots/
+llms.txt) и `tasks/done/cli-build-listing-and-detail-pages.md` (JSON-LD/FAQ);
 это фронтенд/поведение сайта, поэтому CLI, не Antigravity (см.
 `AGENTS.md`).

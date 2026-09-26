@@ -11,6 +11,8 @@
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
+import { SERVICES } from "../lib/services";
+import { VET_SPECIALTIES } from "../lib/vet";
 
 type Row = Record<string, string>;
 
@@ -181,6 +183,55 @@ if (insightErrors.length) {
   failed = true;
   console.log(`\nreview-insights format (${insightErrors.length}):`);
   for (const e of insightErrors) console.log(`  ${e}`);
+}
+
+// Vet specialties: only codes the site knows (lib/vet.ts); anything else
+// is dropped by the seed and never shown.
+const badSpecialties = rows.flatMap((r) =>
+  (r.specialties ?? "")
+    .split(";")
+    .map((x) => x.trim())
+    .filter((x) => x && !(VET_SPECIALTIES as readonly string[]).includes(x))
+    .map((x) => `${r.slug}: "${x}"`)
+);
+if (badSpecialties.length) {
+  failed = true;
+  console.log(`\nspecialties not in lib/vet.ts (${badSpecialties.length}) - allowed: ${VET_SPECIALTIES.join(", ")}:`);
+  for (const b of badSpecialties) console.log(`  ${b}`);
+}
+
+// Prices follow docs/card-spec.md, "Цены": only the category's 6 codes,
+// a source for every row, and note/note_local as a short visible remark
+// (a row with a note is shown but not compared with the market).
+const pricesFile = path.join(dir, "prices.csv");
+const priceErrors: string[] = [];
+if (fs.existsSync(pricesFile)) {
+  const categoryOf = new Map(rows.map((r) => [r.slug, r.category]));
+  const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  prices.forEach((p, i) => {
+    const at = `prices.csv line ${i + 2} (${p.business_slug}, ${p.price_code})`;
+    const category = categoryOf.get(p.business_slug);
+    if (!category) return priceErrors.push(`${at}: no place with this slug`);
+    const codes = (SERVICES[category as keyof typeof SERVICES] ?? []).map((s) => s.code);
+    if (!codes.includes(p.price_code)) {
+      priceErrors.push(`${at}: not a ${category} code (allowed: ${codes.join(", ") || "none"})`);
+    }
+    if (!(Number(p.price_from) > 0)) priceErrors.push(`${at}: price_from "${p.price_from}" is not a number`);
+    if (!/^https?:\/\//.test(p.source_url ?? "")) priceErrors.push(`${at}: no source_url`);
+    if (!["", "per_hour", "per_km"].includes((p.unit ?? "").trim())) priceErrors.push(`${at}: unit "${p.unit}"`);
+    const note = (p.note ?? "").trim();
+    const noteLocal = (p.note_local ?? "").trim();
+    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || !noteLocal)) {
+      priceErrors.push(`${at}: partial=yes needs note and note_local`);
+    }
+    if (!!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
+    if (note.length > 40 || noteLocal.length > 40) priceErrors.push(`${at}: note over 40 characters`);
+  });
+}
+if (priceErrors.length) {
+  failed = true;
+  console.log(`\nprices (${priceErrors.length}):`);
+  for (const e of priceErrors) console.log(`  ${e}`);
 }
 
 // Review summaries are a second pass; coverage reported, not enforced.
