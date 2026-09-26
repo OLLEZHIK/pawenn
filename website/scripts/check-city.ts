@@ -191,7 +191,8 @@ if (insightErrors.length) {
 const vetGaps: string[] = [];
 for (const r of rows) {
   if (r.category !== "VET_CLINIC") continue;
-  if (!has(r, "languages_spoken") && !noted(r, "languages")) {
+  // Not needed where the city's language is English (no such page there).
+  if (cityMeta.locale !== "en" && !has(r, "languages_spoken") && !noted(r, "languages")) {
     vetGaps.push(`${r.slug}: no languages_spoken and no "languages: none (...)" in notes`);
   }
   if (has(r, "emergency_note") !== has(r, "emergency_note_local")) {
