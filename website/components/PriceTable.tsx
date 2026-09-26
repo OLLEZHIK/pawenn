@@ -10,10 +10,12 @@ import { MARKET_BAND, pctAgainst, type MarketPrice } from "@/lib/priceMarket";
 type PriceRow = BusinessWithRelations["priceItems"][number];
 
 // Prices for the category's 6 services (docs/card-spec.md, "Цены"), one
-// row per weight range, each with when it was checked and its source -
-// the project's trust rule: no price without a source. Under each service
+// row per weight range. When they were checked and their sources - the
+// trust rule: no price without a source - go once under the table, not
+// on every row (owner, 2026-09-26: lighter to read). Under each service
 // name: what its price must include to be compared; a price per hour/km
-// or a partial one carries its note and "not compared".
+// or a partial one carries its note and "not compared". Colour only in
+// the category's accent (owner, 2026-09-26), no green/orange.
 export function PriceTable({
   items,
   category,
@@ -62,10 +64,17 @@ export function PriceTable({
           ? t.weightOver(num.format(from))
           : null;
 
+  // Checked: the date, or the range of dates, of all rows; sources: each
+  // distinct price list once, numbered when there are several.
+  const dates = rows.map((r) => r.observedAt.getTime());
+  const first = formatDate(new Date(Math.min(...dates)), locale);
+  const last = formatDate(new Date(Math.max(...dates)), locale);
+  const sources = [...new Set(rows.map((r) => r.sourceUrl))];
+
   return (
     <section className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
       <h2 className="flex items-center gap-2 text-xl font-bold text-foreground">
-        <TagIcon className="h-5 w-5 text-brand-green" />
+        <TagIcon className="h-5 w-5 text-[var(--accent,var(--brand-blue))]" />
         {t.prices}
       </h2>
       <ul className="mt-3 divide-y divide-line">
@@ -114,7 +123,7 @@ export function PriceTable({
                 {unit && <span className="font-normal text-foreground/60"> {unit}</span>}
               </span>
               {(note || notCompared) && (
-                <span className="w-full text-xs text-brand-orange">
+                <span className="w-full text-xs text-foreground/50">
                   {[note, notCompared ? t.notCompared : null].filter(Boolean).join(" · ")}
                 </span>
               )}
@@ -124,9 +133,7 @@ export function PriceTable({
                     className={
                       Math.abs(vsMarket) <= MARKET_BAND
                         ? "font-medium text-foreground/70"
-                        : vsMarket < 0
-                          ? "font-medium text-brand-green"
-                          : "font-medium text-brand-orange"
+                        : "font-medium text-[var(--accent,var(--brand-blue))]"
                     }
                   >
                     {card.vsMarket(vsMarket, Math.abs(vsMarket) <= MARKET_BAND)}
@@ -134,17 +141,22 @@ export function PriceTable({
                   <span className="text-foreground/50"> · {t.cityMedian(money(cityMarket.median, cityMarket.currency), cityMarket.places)}</span>
                 </span>
               )}
-              <span className="w-full text-xs text-foreground/45">
-                {t.pricesChecked(formatDate(item.observedAt, locale))} ·{" "}
-                <a href={item.sourceUrl} target="_blank" rel="nofollow noopener noreferrer" className="hover:underline">
-                  {t.priceList}
-                </a>
-              </span>
             </li>
           );
         })}
       </ul>
-      <p className="mt-3 text-xs text-foreground/50">{t.pricesDisclaimer}</p>
+      <p className="mt-3 border-t border-line pt-3 text-xs text-foreground/50">
+        {t.pricesChecked(first === last ? first : `${first} – ${last}`)} ·{" "}
+        {sources.map((url, i) => (
+          <span key={url}>
+            {i > 0 && ", "}
+            <a href={url} target="_blank" rel="nofollow noopener noreferrer" className="underline-offset-2 hover:underline">
+              {sources.length > 1 ? `${t.priceList} ${i + 1}` : t.priceList}
+            </a>
+          </span>
+        ))}
+        <span className="mt-1 block">{t.pricesDisclaimer}</span>
+      </p>
     </section>
   );
 }
