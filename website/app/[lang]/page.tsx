@@ -7,13 +7,7 @@ import {
   getBusinessCount,
   getDistrictSummaries,
   getCityPoints,
-  getAttributeCounts,
-  getMarketPrices,
 } from "@/lib/data";
-import { CATEGORY_ATTRIBUTES, attributePath, minToIndex, type AttributeKey } from "@/lib/attributePages";
-import { money, pricesPath } from "@/lib/pricePages";
-import { serviceLabel } from "@/lib/services";
-import type { Locale } from "@/lib/locales";
 import {
   ALL_CATEGORIES,
   CATEGORY_THEME,
@@ -26,6 +20,7 @@ import { localeAlternates, socialMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import { HomeSearch } from "@/components/HomeSearch";
 import { AmbientBackground } from "@/components/AmbientBackground";
+import { HeroIllustration } from "@/components/HeroIllustration";
 import { BusinessCard } from "@/components/BusinessCard";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { MythOrFact } from "@/components/MythOrFact";
@@ -92,8 +87,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     .slice(0, 3)
     .map((c) => c.slug);
 
-  const hero = await getHeroAside(locale, citySlug);
-
   const stats = [
     { value: counts.total, label: t.statPlaces },
     { value: districtSummaries.length, label: t.statDistricts },
@@ -137,7 +130,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-10 md:pt-16 lg:grid-cols-[1.6fr_1fr] lg:pb-24">
           <div className="rise-in min-w-0 text-center lg:text-left">
             <h1 className="text-balance text-[2rem] font-extrabold leading-[1.1] text-foreground sm:text-4xl md:text-5xl xl:text-[3.5rem]">
-              {t.h1} {inCity(locale, city ?? { name: cityName })}
+              {t.h1}
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-lg text-foreground/70 lg:mx-0">{t.subtitle}</p>
 
@@ -169,7 +162,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
           </div>
 
-          <HeroAside hero={hero} where={inCity(locale, city ?? { name: cityName })} t={t} />
+          <HeroIllustration />
         </div>
       </section>
 
@@ -350,113 +343,5 @@ function SectionHeading({ eyebrow, title, body }: { eyebrow: string; title: stri
       <h2 className="mt-3 text-3xl font-extrabold text-foreground md:text-4xl">{title}</h2>
       {body && <p className="mt-3 text-lg text-foreground/65">{body}</p>}
     </div>
-  );
-}
-
-// Right side of the hero: category tiles arranged as a playful collage
-// around a central "pet" card. Real category counts only; decorative
-// motion is CSS-only and disabled under prefers-reduced-motion.
-// Desktop-only column next to the hero (owner, 2026-09-26: it replaces the
-// floating category collage). Real shortcuts, no decoration: attribute
-// pages about opening hours, and the services most places publish a price
-// for. Both come from data, so a new city fills it without code changes.
-const HERO_ATTRIBUTES: AttributeKey[] = ["nonstop", "saturday", "sunday"];
-
-async function getHeroAside(locale: Locale, citySlug: string) {
-  const attributeCategories = ALL_CATEGORIES.filter((c) => CATEGORY_ATTRIBUTES[c]?.length);
-  const [attributeCounts, markets] = await Promise.all([
-    Promise.all(attributeCategories.map(async (c) => [c, await getAttributeCounts(c, citySlug)] as const)),
-    Promise.all(ALL_CATEGORIES.map(async (c) => [c, await getMarketPrices(c, citySlug)] as const)),
-  ]);
-  const dict = getDictionary(locale);
-  // "17 – 39 €" / "€17 – €39": the currency where each language puts it.
-  const range = (min: number, max: number, currency: string) => {
-    const digits = Number.isInteger(min) && Number.isInteger(max) ? 0 : 2;
-    return new Intl.NumberFormat(locale, {
-      style: "currency",
-      currency,
-      minimumFractionDigits: digits,
-      maximumFractionDigits: digits,
-    }).formatRange(min, max);
-  };
-  const hours = attributeCounts.flatMap(([category, counts]) =>
-    HERO_ATTRIBUTES.filter(
-      (key) => (CATEGORY_ATTRIBUTES[category] ?? []).includes(key) && (counts.get(key) ?? 0) >= minToIndex(key)
-    ).map((key) => ({
-      href: attributePath(locale, category, citySlug, key),
-      label: dict.attributes[key].short,
-      count: counts.get(key) ?? 0,
-    }))
-  );
-  const prices = markets
-    .flatMap(([category, market]) => [...market].map(([code, m]) => ({ category, code, m })))
-    .sort((a, b) => b.m.places - a.m.places)
-    .slice(0, 4)
-    .map(({ category, code, m }) => ({
-      href: pricesPath(locale, category, citySlug, code),
-      label: serviceLabel(category, code, locale),
-      categoryLabel: categoryLabel(category, locale),
-      median: money(m.median, m.currency, locale),
-      range: range(m.min, m.max, m.currency),
-    }));
-  return { hours, prices };
-}
-
-function HeroAside({
-  hero,
-  where,
-  t,
-}: {
-  hero: Awaited<ReturnType<typeof getHeroAside>>;
-  where: string;
-  t: ReturnType<typeof getDictionary>["home"];
-}) {
-  if (!hero.hours.length && !hero.prices.length) return null;
-  const row = "flex items-center justify-between gap-4 py-3 text-foreground transition hover:text-brand-blue";
-  return (
-    <aside className="hidden lg:block">
-      <div className="rounded-[var(--radius-card)] border border-line bg-surface p-6 shadow-[var(--shadow-card)]">
-        {hero.hours.length > 0 && (
-          <section>
-            <h2 className="text-lg font-bold text-foreground">{t.asideHoursTitle}</h2>
-            <ul className="mt-1">
-              {hero.hours.map((h) => (
-                <li key={h.href} className="border-t border-line first:border-t-0">
-                  <Link href={h.href} className={row}>
-                    <span className="font-medium">{h.label}</span>
-                    <span className="flex items-center gap-2 text-sm tabular-nums text-foreground/60">
-                      {h.count}
-                      <ArrowRightIcon className="h-4 w-4" />
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-        {hero.prices.length > 0 && (
-          <section className={hero.hours.length ? "mt-6" : ""}>
-            <h2 className="text-lg font-bold text-foreground">{t.asidePricesTitle(where)}</h2>
-            <p className="mt-0.5 text-sm text-foreground/60">{t.asidePricesNote}</p>
-            <ul className="mt-1">
-              {hero.prices.map((p) => (
-                <li key={p.href} className="border-t border-line first:border-t-0">
-                  <Link href={p.href} className={row}>
-                    <span>
-                      <span className="block font-medium">{p.label}</span>
-                      <span className="block text-xs text-foreground/55">{p.categoryLabel}</span>
-                    </span>
-                    <span className="text-right">
-                      <span className="block font-bold tabular-nums">{p.median}</span>
-                      <span className="block text-xs tabular-nums text-foreground/55">{p.range}</span>
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </div>
-    </aside>
   );
 }
