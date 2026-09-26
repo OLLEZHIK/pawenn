@@ -20,13 +20,12 @@ import { localeAlternates, socialMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import { HomeSearch } from "@/components/HomeSearch";
 import { AmbientBackground } from "@/components/AmbientBackground";
+import { HeroIllustration } from "@/components/HeroIllustration";
 import { BusinessCard } from "@/components/BusinessCard";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { MythOrFact } from "@/components/MythOrFact";
 import {
   ArrowRightIcon,
-  CatIcon,
-  DogIcon,
   PhoneIcon,
   SearchIcon,
   ShieldCheckIcon,
@@ -50,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       description: t.metaDescription(where),
       path: localePath(lang, "/"),
       locale: lang,
-      image: { title: `${t.h1Before} ${t.h1Highlight}`, subtitle: where },
+      image: { title: t.h1, subtitle: where },
     }),
     alternates: localeAlternates(lang, Object.fromEntries(locales.map((l) => [l, localePath(l, "/")])), "/"),
   };
@@ -130,24 +129,10 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
 
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-10 md:pt-16 lg:grid-cols-[1.6fr_1fr] lg:pb-24">
           <div className="rise-in min-w-0 text-center lg:text-left">
-            <h1 className="text-4xl font-extrabold leading-[1.05] text-foreground sm:text-5xl md:text-6xl xl:text-7xl">
-              {t.h1Before}{" "}
-              <span className="relative whitespace-nowrap text-brand-orange">
-                {t.h1Highlight}
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 300 16"
-                  preserveAspectRatio="none"
-                  className="absolute -bottom-2 left-0 h-3 w-full text-brand-orange/40"
-                >
-                  <path d="M3 12C60 4 140 2 297 8" stroke="currentColor" strokeWidth="5" strokeLinecap="round" fill="none" />
-                </svg>
-              </span>{" "}
-              {inCity(locale, city ?? { name: cityName })}
+            <h1 className="text-balance text-[2rem] font-extrabold leading-[1.1] text-foreground sm:text-4xl md:text-5xl xl:text-[3.5rem]">
+              {t.h1}
             </h1>
-            <p className="mx-auto mt-6 max-w-xl text-lg text-foreground/70 lg:mx-0">
-              {t.subtitle(inCity(locale, city ?? { name: cityName }))}
-            </p>
+            <p className="mx-auto mt-5 max-w-xl text-lg text-foreground/70 lg:mx-0">{t.subtitle}</p>
 
             <div id="search" className="mt-8 scroll-mt-28 lg:max-w-none">
               <HomeSearch
@@ -177,7 +162,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
           </div>
 
-          <HeroCollage categories={categories} total={counts.total} t={t} />
+          <HeroIllustration />
         </div>
       </section>
 
@@ -357,70 +342,6 @@ function SectionHeading({ eyebrow, title, body }: { eyebrow: string; title: stri
       <p className="eyebrow">{eyebrow}</p>
       <h2 className="mt-3 text-3xl font-extrabold text-foreground md:text-4xl">{title}</h2>
       {body && <p className="mt-3 text-lg text-foreground/65">{body}</p>}
-    </div>
-  );
-}
-
-// Right side of the hero: category tiles arranged as a playful collage
-// around a central "pet" card. Real category counts only; decorative
-// motion is CSS-only and disabled under prefers-reduced-motion.
-function HeroCollage({
-  categories,
-  total,
-  t,
-}: {
-  categories: {
-    slug: string;
-    href: string;
-    category: Parameters<typeof CategoryIcon>[0]["category"];
-    label: string;
-    count: number;
-    accent: string;
-  }[];
-  total: number;
-  t: ReturnType<typeof getDictionary>["home"];
-}) {
-  const positions = [
-    "left-[-4%] top-[0%] -rotate-6",
-    "right-[-6%] top-[8%] rotate-3",
-    "left-[-12%] top-[40%] rotate-2",
-    "right-[-10%] top-[46%] -rotate-3",
-    "left-[-2%] bottom-[2%] rotate-3",
-    "right-[-2%] bottom-[-4%] -rotate-2",
-  ];
-
-  return (
-    <div className="relative mx-auto hidden aspect-square w-full max-w-[520px] lg:block">
-      {/* center card */}
-      <div className="absolute left-1/2 top-1/2 flex h-[40%] w-[40%] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-[36px] bg-ink text-white shadow-[var(--shadow-panel)]">
-        <div className="flex items-center gap-2 text-brand-orange">
-          <DogIcon className="h-12 w-12" />
-          <CatIcon className="h-12 w-12 text-white" />
-        </div>
-        <p className="mt-3 font-heading text-4xl font-extrabold">{total}</p>
-        <p className="px-3 text-center text-sm text-white/60">{t.collageCenter}</p>
-      </div>
-
-      {categories.map((c, i) => (
-        <Link
-          key={c.slug}
-          href={c.href}
-          className={`group absolute ${positions[i % positions.length]}`}
-        >
-          <span
-            className="float-y flex items-center gap-2.5 rounded-2xl bg-surface py-2.5 pl-2.5 pr-4 shadow-[var(--shadow-card-hover)] transition duration-300 group-hover:scale-105"
-            style={{ "--accent": c.accent, animationDelay: `${i * -1.1}s` } as React.CSSProperties}
-          >
-            <span className="accent-solid flex h-11 w-11 items-center justify-center rounded-xl">
-              <CategoryIcon category={c.category} className="h-6 w-6" />
-            </span>
-            <span>
-              <span className="block max-w-[8.5rem] text-sm font-bold leading-tight text-foreground">{c.label}</span>
-              <span className="block text-xs text-foreground/55">{t.listed(c.count)}</span>
-            </span>
-          </span>
-        </Link>
-      ))}
     </div>
   );
 }

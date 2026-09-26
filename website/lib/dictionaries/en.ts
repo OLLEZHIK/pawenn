@@ -66,10 +66,8 @@ export const en = {
     metaTitle: (where: string) => `Pet Services ${where} – vets, grooming, pet hotels | Pawenn`,
     metaDescription: (where: string) =>
       `Find trusted pet services ${where} - groomers, vets, hotels, training and more`,
-    h1Before: "Find trusted",
-    h1Highlight: "pet services",
-    subtitle: (where: string) =>
-      `Groomers, vets, pet hotels and trainers ${where} - with honest details, clear sources and one-tap contact.`,
+    h1: "Happy pet, easy mind",
+    subtitle: "Vets, groomers, pet hotels and trainers with phone numbers, opening hours and prices. Every listing says where the details come from and when we checked them.",
     popular: "Popular:",
     statPlaces: "places listed",
     statDistricts: "districts covered",
@@ -79,8 +77,6 @@ export const en = {
     browseTitle: "What does your pet need today?",
     browseBody: "Six kinds of pet care, each with its own list of places and a source for every listing.",
     places: (n: number) => `${n} ${n === 1 ? "place" : "places"}`,
-    listed: (n: number) => `${n} listed`,
-    collageCenter: "places to explore",
     exploreEyebrow: "Explore the city",
     exploreTitle: (city: string) => `What's in your part of ${city}?`,
     exploreBody: "Tap a district to see what's nearby. Bigger bubbles mean more places listed.",

@@ -78,10 +78,8 @@ export const sk: Dictionary = {
     metaTitle: (where: string) => `Služby pre zvieratá ${skIn(where)} – veterinári, psie salóny, hotely | Pawenn`,
     metaDescription: (where: string) =>
       `Služby pre zvieratá ${skIn(where)} - psie salóny, veterinári, hotely pre zvieratá, výcvik a ďalšie, s kontaktom na jeden dotyk`,
-    h1Before: "Nájdite spoľahlivé",
-    h1Highlight: "služby pre zvieratá",
-    subtitle: (where: string) =>
-      `Psie salóny, veterinári, hotely pre zvieratá a cvičitelia ${skIn(where)} - s poctivými údajmi, jasnými zdrojmi a kontaktom na jeden dotyk.`,
+    h1: "Spokojné zviera, pokojný majiteľ",
+    subtitle: "Veterinári, psie salóny, hotely a výcvik s\u00a0telefónom, otváracími hodinami a cenami. Pri každom podniku uvádzame, odkiaľ sú údaje a kedy sme ich overili.",
     popular: "Obľúbené:",
     statPlaces: "podnikov v zozname",
     statDistricts: "mestských častí",
@@ -91,8 +89,6 @@ export const sk: Dictionary = {
     browseTitle: "Čo dnes potrebuje váš miláčik?",
     browseBody: "Šesť druhov starostlivosti, každý s vlastným zoznamom podnikov a zdrojom pri každom zázname.",
     places: (n: number) => `${n} ${plural("sk", n, { one: "podnik", few: "podniky", other: "podnikov" })}`,
-    listed: (n: number) => `${n} v zozname`,
-    collageCenter: "podnikov na preskúmanie",
     exploreEyebrow: "Preskúmajte mesto",
     exploreTitle: (city: string) => `Čo nájdete vo svojej časti mesta ${city}?`,
     exploreBody: "Ťuknite na mestskú časť a uvidíte, čo je nablízku. Väčšia bublina znamená viac podnikov.",

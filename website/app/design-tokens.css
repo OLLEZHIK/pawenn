@@ -151,6 +151,39 @@
   animation: float-y 6s ease-in-out infinite;
 }
 
+/* Home hero illustration (HeroIllustration): an owner petting a happy
+   dog, on a loop. Each part moves around its own transform-origin, set
+   inline in viewBox units. Under reduced motion it stays a still picture. */
+.pet-anim {
+  transform-box: view-box;
+}
+@keyframes pet-pat {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(-7deg); }
+}
+@keyframes pet-tilt {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(6deg); }
+}
+@keyframes pet-wag {
+  from { transform: rotate(-16deg); }
+  to { transform: rotate(14deg); }
+}
+@keyframes pet-heart {
+  0% { opacity: 0; transform: translateY(8px) scale(0.6); }
+  20%, 80% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-44px) scale(1); }
+}
+@keyframes pet-breathe {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(1.015); }
+}
+.pet-pat { animation: pet-pat 1.8s ease-in-out infinite; }
+.pet-tilt { animation: pet-tilt 1.8s ease-in-out infinite; }
+.pet-wag { animation: pet-wag 0.42s ease-in-out infinite alternate; }
+.pet-heart { animation: pet-heart 3.6s ease-out infinite; }
+.pet-breathe { animation: pet-breathe 3.6s ease-in-out infinite; }
+
 /* Short shake to point at a step the visitor skipped. */
 @keyframes nudge {
   0%, 100% { transform: translateX(0); }
