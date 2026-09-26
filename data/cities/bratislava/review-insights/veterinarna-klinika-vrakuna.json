@@ -1,0 +1,96 @@
+{
+  "slug": "veterinarna-klinika-vrakuna",
+  "google_maps_url": "https://maps.google.com/?cid=4298302523635982300",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 15,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Competent doctors providing prompt assistance",
+        "sk": "Odborní lekári s promptnou pomocou"
+      },
+      "text": {
+        "en": "Reviewers in Vrakuňa and Podunajské Biskupice praise the clinic team for their swift medical response and thorough diagnostics. Doctors explain findings clearly to pet parents, providing thoughtful recommendations and attentive post-treatment monitoring throughout recovery.",
+        "sk": "Recenzenti z Vrakune a Podunajských Biskupíc oceňujú tím kliniky za pohotové zásahy a dôkladnú diagnostiku. Lekári zrozumiteľne objasňujú nálezy majiteľom, poskytujú premyslené odporúčania a venujú veľkú pozornosť kontrole zdravotného stavu zvierat po zákroku."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Spacious clinic with convenient parking access",
+        "sk": "Priestranná klinika s pohodlným parkovaním"
+      },
+      "text": {
+        "en": "Clients regularly emphasize the advantage of the clinic location on Hradská street. The spacious interior, well-separated exam rooms, and dedicated client parking directly on the premises make transport and arrival with sick animals very convenient and hassle-free.",
+        "sk": "Klienti pravidelne vyzdvihujú výhody polohy kliniky na Hradskej ulici. Priestranné vnútorné priestory, oddelené vyšetrovne a vyhradené parkovacie miesta priamo vo dvore výrazne uľahčujú bezproblémový príchod a manipuláciu s chorými zvieratami pri návšteve."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Standard pricing matching comprehensive clinical care",
+        "sk": "Štandardné ceny zodpovedajúce vybaveniu kliniky"
+      },
+      "text": {
+        "en": "Feedback regarding treatment fees notes that while basic vaccinations and routine checkups are reasonably priced, specialized surgeries and emergency treatments reflect full veterinary hospital standards in Bratislava, which clients consider justifiable given the equipment.",
+        "sk": "Hodnotenia cien uvádzajú, že zatiaľ čo bežné očkovanie a preventívne prehliadky majú prijateľné sadzby, náročnejšie chirurgické zákroky a pohotovostné ošetrenia zodpovedajú štandardným cenám vybavených kliník v Bratislave, čo klienti považujú za opodstatnené."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is dedicated parking provided on site?",
+        "sk": "Je pri klinike vyhradené parkovanie?"
+      },
+      "a": {
+        "en": "Yes, private client parking is available directly within the clinic courtyard.",
+        "sk": "Áno, priamo vo dvore kliniky je k dispozícii vlastné parkovisko pre klientov."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What companion animals are treated?",
+        "sk": "Aké spoločenské zvieratá na klinike ošetrujú?"
+      },
+      "a": {
+        "en": "The medical team provides healthcare for dogs, cats, ferrets, rabbits, and small companion pets.",
+        "sk": "Veterinárny tím ošetruje psy, mačky, fretky, králiky a drobné spoločenské zvieratá."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are urgent and emergency walk-ins accepted?",
+        "sk": "Prijímate aj neobjednané akútne stavy?"
+      },
+      "a": {
+        "en": "Yes, acute emergency cases during working hours receive immediate medical prioritization.",
+        "sk": "Áno, akútne a život ohrozujúce prípady sú počas ordinačných hodín ošetrované prednostne."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients pay by credit card?",
+        "sk": "Dá sa na mieste platiť kartou?"
+      },
+      "a": {
+        "en": "Yes, debit and credit cards are accepted at the reception payment terminal.",
+        "sk": "Áno, na recepcii kliniky je možné platiť debetnou aj kreditnou kartou."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google"
+}
