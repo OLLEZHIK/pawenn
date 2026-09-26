@@ -66,8 +66,8 @@ export const CATEGORY_THEME: Record<BusinessCategory, { accent: string; blurb: s
 // Per-locale slugs, labels and blurbs. English values mirror the maps
 // above. Slovak slugs follow the original Slovak URL plan
 // (docs/concept.md section 4, e.g. /psi-salon/) and the owner's example
-// /sk/veterinar/bratislava/; they are provisional until the Slovak
-// keyword research task confirms them.
+// /sk/veterinar/bratislava/; live since language model v2 and checked by
+// the keyword research (docs/seo/keywords/sk.md) - URLs, never changed.
 // ---------------------------------------------------------------------
 
 const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
