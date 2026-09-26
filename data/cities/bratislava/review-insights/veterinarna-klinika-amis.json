@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=7506715500111079492",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 14,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Expert diagnostics and specialized eye treatments",
+        "sk": "Odborná diagnostika a špecializovaná oftalmológia"
+      },
+      "text": {
+        "en": "Reviews highlight AMIS for reliable diagnostic evaluations and notable competence in veterinary ophthalmology and soft-tissue surgery. Pet owners report successful medical resolutions for corneal injuries, eye infections, and complex internal ailments in both dogs and cats.",
+        "sk": "Recenzie vyzdvihujú kliniku AMIS za precíznu diagnostiku a vysokú odbornosť v oblasti veterinárnej oftalmológie a chirurgie mäkkých tkanív. Majitelia zvierat oceňujú úspešne zvládnutú liečbu poškodení rohovky, zápalov očí a komplikovanejších interných ochorení psov aj mačiek."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Dedicated doctors with long-standing practice",
+        "sk": "Skúsení lekári s dlhoročnou praxou v Ružinove"
+      },
+      "text": {
+        "en": "Clients commend the experienced veterinarians, including MVDr. Furenda and colleagues, for their calm professional poise during emergencies. Pet owners value their clear medical advice, steady surgical hands, and conscientious post-treatment instructions.",
+        "sk": "Klienti oceňujú skúsených veterinárnych lekárov vrátane MVDr. Furendu za ich profesionálny pokoj a rozvahu pri akútnych stavoch. Majitelia vyzdvihujú zrozumiteľné odborné odporúčania, istotu pri zákrokoch a svedomitú starostlivosť pri kontrole pacientov po liečbe."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Occasional waiting times during peak walk-in hours",
+        "sk": "Občasné čakanie počas vyťažených ordinačných hodín"
+      },
+      "text": {
+        "en": "Because urgent traumas and acute surgical cases take priority, several reviewers mention occasional delays in the waiting area during late afternoons. Nevertheless, owners accept this compromise knowing that critical emergencies receive immediate life-saving care.",
+        "sk": "Vzhľadom na prednostné ošetrovanie akútnych úrazov a naliehavých operácií niekoľko recenzií spomína občasné zdržanie v čakárni v popoludňajších hodinách. Majitelia to však vnímajú s porozumením, keďže vážne a život ohrozujúce prípady dostávajú okamžitú pomoc."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What are the core specialties at AMIS?",
+        "sk": "Aké sú hlavné špecializácie kliniky AMIS?"
+      },
+      "a": {
+        "en": "The clinic focuses on ophthalmology, soft-tissue surgery, internal medicine, ultrasound, and radiology.",
+        "sk": "Klinika sa zameriava na oftalmológiu, chirurgiu mäkkých tkanív, internú medicínu, sonografiu a RTG."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located?",
+        "sk": "Kde presne sa klinika nachádza?"
+      },
+      "a": {
+        "en": "The facility is located at Kostlivého 17 in the Ružinov district of Bratislava.",
+        "sk": "Pracovisko sídli na Kostlivého 17 v bratislavskom Ružinove."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do they provide urgent emergency care?",
+        "sk": "Ošetrujú na klinike aj akútne pohotovostné stavy?"
+      },
+      "a": {
+        "en": "Yes, acute emergency trauma cases are accommodated during opening hours and on call.",
+        "sk": "Áno, akútne úrazy a pohotovostné prípady sú ošetrované prednostne počas ordinačnej doby."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted for treatment?",
+        "sk": "Aké zvieratá klinika ošetruje?"
+      },
+      "a": {
+        "en": "The team primarily treats dogs, cats, small rodents, ferrets, and companion pets.",
+        "sk": "Tím ošetruje najmä psy, mačky, drobné hlodavce, fretky a malé spoločenské zvieratá."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "veterinarna-klinika-amis"
+}

@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=11415545579263912961",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 22,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 16,
+      "title": {
+        "en": "Compassionate and dedicated veterinary doctors",
+        "sk": "Empatickí a obetaví veterinárni lekári"
+      },
+      "text": {
+        "en": "Reviewers consistently commend MVDr. Lucia Freivoltová and MVDr. Roman Kučera for their sensitive, patient approach toward pets. Owners in Ružinov appreciate clear explanations of medical diagnoses and value the empathetic communication provided to both animals and their handlers during every consultation.",
+        "sk": "Recenzie mimoriadne pozitívne hodnotia MVDr. Luciu Freivoltovú a MVDr. Romana Kučeru za ich citlivý a trpezlivý prístup k zvieratám. Majitelia zvierat v Ružinove oceňujú zrozumiteľné vysvetlenie diagnóz a vyzdvihujú empatickú a otvorenú komunikáciu lekárov s pacientmi aj ich sprevádzajúcimi majiteľmi."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Efficient appointment booking without delays",
+        "sk": "Plynulý objednávkový systém bez čakania"
+      },
+      "text": {
+        "en": "Clients highlight that the practice operates strictly on an advance telephone appointment system, which ensures patients are seen promptly. Because consultations are scheduled in dedicated slots, waiting room congestion is avoided and animals experience significantly less stress before entering the exam room.",
+        "sk": "Klienti vyzdvihujú, že ambulancia funguje na telefonický objednávkový systém, vďaka čomu sú pacienti vybavení takmer bez čakania. Vopred vyhradený čas na vyšetrenie bráni preplneniu čakárne, čo zaručuje plynulý chod ambulancie a výrazne znižuje stres zvierat pred samotným ošetrením."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Transparent billing with no hidden surprises",
+        "sk": "Férové ceny a transparentná komunikácia nákladov"
+      },
+      "text": {
+        "en": "Pet owners frequently mention reasonable and transparent pricing for outpatient veterinary treatments in Ružinov. Reviewers emphasize that doctors discuss the expected costs of medications and procedures beforehand, providing honest options without unrequested or hidden examination fees.",
+        "sk": "Majitelia zvierat často spomínajú férové a rozumné ceny za ambulantné ošetrenia v bratislavskom Ružinove. Hodnotiaci oceňujú, že lekári vopred zrozumiteľne predstavia predpokladané finančné náklady liečby a ponúknu viacero alternatív bez zbytočných či skrytých poplatkov na účte."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is it necessary to schedule an appointment beforehand?",
+        "sk": "Je nutné sa na vyšetrenie vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, advance telephone booking is required; acute life-threatening emergencies are treated immediately.",
+        "sk": "Áno, na vyšetrenia je nutné sa vopred telefonicky objednať, akútne stavy ohrozujúce život sa ošetrujú prednostne."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Ružinov?",
+        "sk": "Kde presne v Ružinove ambulancia sídli?"
+      },
+      "a": {
+        "en": "The practice is situated at Košická 19, close to Dulovo námestie with street parking available.",
+        "sk": "Ambulancia sídli na Košickej 19 pri Dulovom námestí, parkovanie je možné na okolitých uliciach."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted for treatment?",
+        "sk": "Aké zvieratá v ambulancii ošetrujú?"
+      },
+      "a": {
+        "en": "The veterinarians primarily treat domestic dogs, cats, small mammals, and companion rodents.",
+        "sk": "Lekári ošetrujú predovšetkým psy, mačky a bežné drobné spoločenské zvieratá a hlodavce."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I pay by credit card?",
+        "sk": "Je možné v ambulancii platiť kartou?"
+      },
+      "a": {
+        "en": "Cash payment is standard; clients should verify terminal availability when booking.",
+        "sk": "Štandardom je platba v hotovosti, možnosti bezhotovostnej platby si overte vopred telefonicky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "source": "google",
+  "slug": "veterinarna-ambulancia-veterinka"
+}

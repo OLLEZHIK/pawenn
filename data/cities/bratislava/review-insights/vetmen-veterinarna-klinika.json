@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=8556368761305362708",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 6,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Experienced doctors prioritizing animal comfort",
+        "sk": "Skúsení lekári dbajúci na pohodu zvierat"
+      },
+      "text": {
+        "en": "Clients in Ružinov commend Vetmen for its seasoned veterinary staff and pragmatic medical approach. Pet owners praise the doctors for their calm professionalism, friendly demeanor, and sensible, practical advice regarding common health issues in companion pets.",
+        "sk": "Klienti v Ružinove oceňujú kliniku Vetmen za skúsený veterinárny tím a pragmatický liečebný prístup. Majitelia vyzdvihujú profesionálny pokoj lekárov, ich priateľské vystupovanie a rozumné, vecné rady pri riešení bežných aj zložitejších zdravotných problémov zvierat."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Effective treatments with stress-free home recovery",
+        "sk": "Účinná liečba s dôrazom na domácu rekonvalescenciu"
+      },
+      "text": {
+        "en": "Reviewers highlight effective clinical outcomes across internal medicine, diagnostics, and routine surgeries. Owners appreciate that veterinarians prioritize treatments that allow pets to recover in the comfort of their home environment whenever safe to do so.",
+        "sk": "Hodnotiaci vyzdvihujú spoľahlivé výsledky liečby v oblasti internej medicíny, diagnostiky aj bežných chirurgických zákrokov. Majitelia si cenia, že lekári preferujú postupy umožňujúce rekonvalescenciu v domácom prostredí bez zbytočného stresu pre zviera."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Sensible and transparent pricing for Ružinov",
+        "sk": "Rozumné a primerané ceny za veterinárne služby"
+      },
+      "text": {
+        "en": "Pet owners report that pricing for consultations, laboratory tests, and preventative vaccines is honest and reasonable. Clients appreciate the absence of inflated charges, considering fees completely proportional to the dependable quality of medical care.",
+        "sk": "Majitelia zvierat uvádzajú, že ceny za vyšetrenia, laboratórne testy aj preventívne vakcinácie sú poctivé a primerané. Klienti oceňujú transparentné účtovanie bez umelo navyšovaných položiek a považujú poplatky za plne zodpovedajúce kvalite starostlivosti."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Vetmen clinic located in Ružinov?",
+        "sk": "Kde presne v Ružinove klinika Vetmen sídli?"
+      },
+      "a": {
+        "en": "The clinic is situated at Zimná 1 in Ružinov, easily reachable by public transport and car.",
+        "sk": "Klinika sídli na Zimnej 1 v Ružinove s pohodlnou dostupnosťou mestskou hromadnou dopravou aj autom."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What diagnostic equipment is available on site?",
+        "sk": "Aké prístrojové vybavenie má klinika k dispozícii?"
+      },
+      "a": {
+        "en": "The facility is equipped with digital X-ray, ultrasound, ECG, and clinical laboratory testing.",
+        "sk": "Pracovisko disponuje digitálnym RTG, ultrasonografom, EKG a laboratórnou diagnostikou."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do I need to schedule an appointment beforehand?",
+        "sk": "Je potrebné sa pred návštevou objednať?"
+      },
+      "a": {
+        "en": "Calling ahead to confirm doctor availability and avoid waiting room overlap is recommended.",
+        "sk": "Pred návštevou sa odporúča vopred zavolať na overenie aktuálnych ordinačných hodín a lekára."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted for treatment?",
+        "sk": "Aké zvieratá na klinike ošetrujú?"
+      },
+      "a": {
+        "en": "The practice treats domestic dogs, cats, and small household companion animals.",
+        "sk": "Klinika poskytuje starostlivosť pre psy, mačky a bežné drobné spoločenské zvieratá."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "vetmen-veterinarna-klinika"
+}

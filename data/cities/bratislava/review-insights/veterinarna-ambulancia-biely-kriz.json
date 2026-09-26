@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=16200234471926601248",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 8,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Long-standing neighborhood practice with warm care",
+        "sk": "Dlhoročná rodinná prax s úprimným záujmom o pacientov"
+      },
+      "text": {
+        "en": "Reviews in Nové Mesto praise MVDr. Ivan Kostúr and his colleagues for their authentic dedication, friendly attitude, and deep practical competence. Clients emphasize that the doctors treat patients as family members and communicate with reassuring warmth.",
+        "sk": "Recenzie v Novom Meste chvália MVDr. Ivana Kostúra a jeho kolegov za úprimnú obetavosť, priateľský prístup a bohaté praktické skúsenosti. Klienti vyzdvihujú, že lekári pristupujú k pacientom ako k členom rodiny a komunikujú s upokojujúcou ľudskosťou."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Fair prices without unnecessary charged procedures",
+        "sk": "Férové ceny bez zbytočných drahých úkonov"
+      },
+      "text": {
+        "en": "Clients regularly highlight reasonable and predictable fees, noting that the clinic focuses on effective treatment without forcing expensive unnecessary testing. Pet owners value the honest financial communication and humane pricing for standard pet care.",
+        "sk": "Klienti pravidelne oceňujú férové a rozumné ceny, pričom zdôrazňujú, že ambulancia nikdy nepredpisuje zbytočne drahé úkony a vyšetrenia. Majitelia zvierat si cenia poctivú finančnú komunikáciu a dlhodobo dostupné poplatky za bežnú veterinárnu starostlivosť."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Reliable treatments for household pets and poultry",
+        "sk": "Spoľahlivá liečba psov, mačiek aj drobnej hydiny"
+      },
+      "text": {
+        "en": "Pet owners report successful medical outcomes for acute illnesses, skin issues, and soft-tissue procedures. Reviewers also appreciate that the practice competently treats small rodents, rabbits, poultry, and backyard birds alongside conventional dogs and cats.",
+        "sk": "Majitelia zvierat uvádzajú výborné výsledky liečby akútnych ochorení, kožných problémov aj bežných chirurgických zákrokov. Recenzenti tiež oceňujú, že ambulancia odborne ošetruje drobné hlodavce, králiky a úžitkovú hydinu popri bežných psoch a mačkách."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the clinic located in Nové Mesto?",
+        "sk": "Kde presne v Novom Meste ambulancia sídli?"
+      },
+      "a": {
+        "en": "The practice is located at Bardejovská 3, right next to the Biely kríž tram stop.",
+        "sk": "Ambulancia sídli na Bardejovskej 3, v tesnej blízkosti električkovej zastávky Biely kríž."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do they provide medical care for poultry and birds?",
+        "sk": "Ošetrujú v ambulancii aj hydinu a vtáctvo?"
+      },
+      "a": {
+        "en": "Yes, preventative and therapeutic care for backyard poultry and small birds is available.",
+        "sk": "Áno, preventívna a liečebná starostlivosť zahŕňa aj drobnú hydinu a vtáky."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can clients visit without prior booking?",
+        "sk": "Môžem prísť na ošetrenie bez objednania?"
+      },
+      "a": {
+        "en": "Walk-in visits are accepted during consulting hours, though calling ahead is recommended.",
+        "sk": "Ošetrenia prebiehajú počas ordinačných hodín aj bez objednania, no telefonát vopred je vhodný."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What payment methods are supported?",
+        "sk": "Aké sú možnosti platby?"
+      },
+      "a": {
+        "en": "Cash payment is standard; please confirm card options in advance by phone.",
+        "sk": "Štandardnou platbou je hotovosť, možnosť platby kartou si overte vopred telefonicky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "source": "google",
+  "slug": "veterinarna-ambulancia-biely-kriz"
+}

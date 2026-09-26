@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=10959083549721708673",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 8,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Modest and honest fees for neighborhood pets",
+        "sk": "Veľmi prijateľné a poctivé ceny v Petržalke"
+      },
+      "text": {
+        "en": "A prominent positive theme in reviews is the very affordable pricing structure for routine veterinary care. Pet owners in Petržalka emphasize that standard vaccines, microchipping, and basic consultations cost far less than at modern commercial centers in Bratislava.",
+        "sk": "Výraznou pozitívnou témou v recenziách sú veľmi priaznivé ceny za bežnú veterinárnu starostlivosť. Majitelia zvierat v Petržalke zdôrazňujú, že štandardné vakcinácie, čipovanie a bežné ošetrenia stoja podstatne menej ako vo veľkých komerčných centrách v Bratislave."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Pragmatic solo vet with mixed personal impressions",
+        "sk": "Pragmatický prístup s rozdielnymi dojmami klientov"
+      },
+      "text": {
+        "en": "Reviews reflect divided experiences regarding communication style. Long-term clients value Dr. Jurášik for his fast diagnosis, pragmatic advice, and practical expertise, while some reviewers note that his manner can feel brief or overly direct during peak hours.",
+        "sk": "Recenzie odrážajú rozdielne skúsenosti s komunikačným štýlom pána doktora. Dlhoroční klienti oceňujú jeho rýchlu diagnostiku, vecné rady a dlhoročnú prax, zatiaľ čo iní zákazníci vnímajú jeho vystupovanie ako príliš strohé či priame počas rušnejších ordinačných hodín."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Quick routine visits without prolonged waiting",
+        "sk": "Rýchle vybavenie bežných úkonov bez zdržania"
+      },
+      "text": {
+        "en": "Clients appreciate that routine outpatient tasks such as booster shots, nail clips, and health certificates are processed promptly. Because the clinic handles standard appointments efficiently, pet owners rarely face extended waiting times in the lobby.",
+        "sk": "Klienti oceňujú, že bežné úkony ako preočkovanie, skrátenie pazúrikov či vystavenie pasov a potvrdení sú vybavené veľmi rýchlo a vecne. Vďaka plynulému a efektívnemu priebehu návštevy majitelia len málokedy zažívajú dlhé čakanie na chodbe dúbravskej ambulancie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where in Petržalka is the practice located?",
+        "sk": "Kde presne v Petržalke ambulancia sídli?"
+      },
+      "a": {
+        "en": "The practice is located at Topoľčianska 3214/25, close to the Draždiak recreational area.",
+        "sk": "Ambulancia sídli na Topoľčianskej 3214/25 v blízkosti jazera Veľký Draždiak."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do I need an appointment for vaccinations?",
+        "sk": "Treba sa na očkovanie vopred objednať?"
+      },
+      "a": {
+        "en": "No, standard vaccinations and outpatient examinations take place during regular walk-in hours.",
+        "sk": "Nie, bežné očkovania a ambulantné ošetrenia prebiehajú počas bežných ordinačných hodín bez objednania."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What animals does Dr. Jurášik treat?",
+        "sk": "Aké zvieratá doktor Jurášik ošetruje?"
+      },
+      "a": {
+        "en": "The practice primarily focuses on domestic dogs, cats, and small household companion animals.",
+        "sk": "Prax sa zameriava predovšetkým na psy, mačky a bežné domáce spoločenské zvieratá."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can clients pay by card?",
+        "sk": "Dá sa v ambulancii platiť kartou?"
+      },
+      "a": {
+        "en": "Cash is standard; clients should verify terminal availability in advance.",
+        "sk": "Štandardnou platbou je hotovosť, dostupnosť terminálu sa odporúča overiť vopred."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "source": "google",
+  "slug": "mvdr-dusan-jurasik"
+}

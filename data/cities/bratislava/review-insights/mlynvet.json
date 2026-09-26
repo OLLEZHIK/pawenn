@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=10168341624479532581",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 14,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Specialized care for exotics and wildlife",
+        "sk": "Odborná starostlivosť o exoty a voľne žijúce zvieratá"
+      },
+      "text": {
+        "en": "Reviewers in Karlova Ves frequently praise MlynVet for exceptional competence in avian and exotic veterinary medicine. Clients highlight the team's willingness and skill in treating wild birds, injured hedgehogs, reptiles, and small exotic mammals that other clinics decline.",
+        "sk": "Recenzie v Karlovej Vsi pravidelne vyzdvihujú MlynVet za mimoriadnu odbornosť v liečbe vtákov, plazov a exotických pacientov. Majitelia oceňujú ochotu a zručnosť tímu pri ošetrovaní voľne žijúceho vtáctva, ježkov či drobných cicavcov, ktoré bežné ambulancie často odmietajú."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Dedicated doctors with deep veterinary devotion",
+        "sk": "Obetaví lekári s hlbokým vzťahom k zvieratám"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the veterinary staff for their sincere dedication, empathy, and patience. Reviewers emphasize that the veterinarians thoroughly explain all therapeutic choices, take time to answer questions, and show genuine interest in the long-term well-being of animals.",
+        "sk": "Majitelia zvierat opakovane chvália veterinárny tím za úprimnú obetavosť, empatiu a trpezlivý prístup. Hodnotiaci zdôrazňujú, že lekári podrobne vysvetlia všetky možnosti liečby, trpezlivo odpovedajú na otázky a prejavujú skutočný záujem o zdravie a pohodu každého zvieratka."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Modern premises with dedicated in-house diagnostics",
+        "sk": "Moderné priestory s komplexným prístrojovým vybavením"
+      },
+      "text": {
+        "en": "Clients value the modern clinic interior at Staré Grunty, which is equipped with digital radiography, ultrasound, and an in-house laboratory. Visitors appreciate that diagnostic blood tests and X-rays are processed on the spot, allowing immediate medical decisions.",
+        "sk": "Klienti pozitívne hodnotia moderné priestory kliniky na Starých Gruntoch vybavené digitálnym RTG, sonografom a vlastným laboratóriom. Návštevníci oceňujú, že diagnostické krvné testy a röntgenové snímky sú k dispozícii okamžite, čo umožňuje nasadiť cielenú liečbu bez čakania."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you treat exotic birds and reptiles?",
+        "sk": "Ošetrujete aj exotické vtáky a plazy?"
+      },
+      "a": {
+        "en": "Yes, specialized medicine for exotic animals, birds, and reptiles is a major focus of MlynVet.",
+        "sk": "Áno, špecializovaná medicína exotických zvierat, plazov a vtákov patrí medzi hlavné piliere praxe."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is MlynVet located in Karlova Ves?",
+        "sk": "Kde presne v Karlovej Vsi klinika sídli?"
+      },
+      "a": {
+        "en": "The clinic is located at Staré Grunty 9A, easily reached by car with parking nearby.",
+        "sk": "Klinika sa nachádza na ulici Staré Grunty 9A s pohodlnou dostupnosťou a parkovaním."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do the doctors speak English?",
+        "sk": "Dohovorím sa na klinike po anglicky?"
+      },
+      "a": {
+        "en": "Yes, the veterinary staff communicates fluently in both Slovak and English.",
+        "sk": "Áno, personál kliniky ovláda slovenský aj anglický jazyk a obslúži zahraničných klientov."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Should I call before bringing an injured bird?",
+        "sk": "Treba vopred zavolať pred prinesením poraneného vtáka?"
+      },
+      "a": {
+        "en": "Calling ahead is strongly recommended so the team can prepare diagnostic tools and quarantine cages.",
+        "sk": "Telefonát vopred je vysoko odporúčaný, aby personál stihol pripraviť potrebné prístroje a boxy."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "source": "google",
+  "slug": "mlynvet"
+}

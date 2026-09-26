@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=12735830244754532698",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 10,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Modern, progressive veterinarians with gentle hands",
+        "sk": "Moderní veterinári s jemným a rešpektujúcim prístupom"
+      },
+      "text": {
+        "en": "Clients in Staré Mesto praise the young, forward-thinking veterinary team at AhojVET for their meticulous examination style and gentle touch. Reviewers emphasize that the doctors take time to listen, provide comprehensive options, and treat pets with genuine kindness.",
+        "sk": "Klienti v Starom Meste chvália mladý a progresívny veterinárny tím AhojVET za dôkladné vyšetrenia a citlivý prístup. Recenzenti zdôrazňujú, že lekári pozorne načúvajú majiteľom, trpezlivo vysvetľujú všetky možnosti a ku každému zvieraťu pristupujú s rešpektom a láskavosťou."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Fear-free approach minimizing animal anxiety",
+        "sk": "Prístup zameraný na minimalizáciu stresu zvierat"
+      },
+      "text": {
+        "en": "A recurring highlight in reviews is the stress-free environment tailored to sensitive pets. Pet owners note that calm handling, positive motivation, and quiet consulting rooms help keep fearful dogs and cats relaxed during blood draws, vaccinations, and examinations.",
+        "sk": "Pravidelným motívom v recenziách je prostredie bez stresu prispôsobené citlivým zvieratám. Majitelia psov a mačiek oceňujú pokojnú manipuláciu, pozitívnu motiváciu maškrtami a tiché ordinácie, vďaka čomu zvládajú zvieratá odbery krvi aj očkovania bez zbytočného strachu."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Prompt scheduling with zero waiting time",
+        "sk": "Rýchle objednanie a presné dodržiavanie termínov"
+      },
+      "text": {
+        "en": "Reviewers commend the efficient reservation system, noting that scheduled appointments start on time without delays. Clients appreciate that timely appointments are available on short notice and that the waiting area never becomes overcrowded or chaotic.",
+        "sk": "Hodnotiaci vyzdvihujú spoľahlivý rezervačný systém a presné dodržiavanie vopred dohodnutých termínov bez zbytočného čakania. Majitelia oceňujú možnosť získať termín aj v pomerne krátkom čase a fakt, že čakáreň zostáva vždy pokojná a bez nahromadených pacientov."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do the veterinarians speak English?",
+        "sk": "Hovoria lekári po anglicky?"
+      },
+      "a": {
+        "en": "Yes, the clinic is fully bilingual and welcomes international expats in English and Slovak.",
+        "sk": "Áno, klinika poskytuje veterinárnu starostlivosť plnohodnotne v slovenskom aj anglickom jazyku."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is AhojVET located in Staré Mesto?",
+        "sk": "Kde presne v Starom Meste AhojVET sídli?"
+      },
+      "a": {
+        "en": "The clinic is located at Hummelova 4, in a quiet neighborhood close to Horský park.",
+        "sk": "Klinika sídli na Hummelovej 4 v pokojnej rezidenčnej lokalite neďaleko Horského parku."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is it required to make an appointment in advance?",
+        "sk": "Je potrebné sa na ošetrenie vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, scheduling in advance by phone or online is required to maintain stress-free slots.",
+        "sk": "Áno, objednanie vopred telefonicky alebo online je nutné pre zachovanie pokojného chodu ambulancie."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted for treatment?",
+        "sk": "Aké zvieratá na klinike ošetrujú?"
+      },
+      "a": {
+        "en": "The clinic primarily cares for dogs, cats, small companion mammals, and rodents.",
+        "sk": "Klinika sa špecializuje predovšetkým na psy, mačky a drobné spoločenské cicavce a hlodavce."
+      },
+      "basis": "website"
+    }
+  ],
+  "source": "google",
+  "slug": "ahojvet"
+}

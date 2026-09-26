@@ -1,0 +1,96 @@
+{
+  "google_maps_url": "https://maps.google.com/?cid=3489456233210268401",
+  "period_from": "2026-03-26",
+  "period_to": "2026-09-26",
+  "reviews_in_period": 5,
+  "observed_at": "2026-09-26",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable staff providing genuine advice",
+        "sk": "Odborný personál ochotný poradiť s výberom"
+      },
+      "text": {
+        "en": "Customers in Staré Mesto consistently praise the friendly, knowledgeable team at Zuzalo. Reviewers highlight that the staff truly understand pet nutrition, help owners select the right harness fittings, and answer questions with authentic enthusiasm.",
+        "sk": "Zákazníci v Starom Meste pravidelne chvália milý a odborne zdatný personál predajne Zuzalo. Recenzenti vyzdvihujú, že predajcovia sa skutočne vyznajú v zložení krmív, ochotne pomôžu vybrať správnu veľkosť postroja a venujú sa každému zákazníkovi s úsmevom."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Charming boutique shop with curated healthy products",
+        "sk": "Krásna predajňa s kvalitným a zdravým sortimentom"
+      },
+      "text": {
+        "en": "Pet owners love the stylish boutique aesthetic of the physical shop on Dunajská street. Reviews emphasize the carefully curated selection of natural pet foods, raw BARF options, durable design accessories, and healthy treats free of harmful additives.",
+        "sk": "Majitelia zvierat si pochvaľujú štýlové a čisté prostredie kamennej predajne na Dunajskej ulici v centre Bratislavy. Hodnotenia zdôrazňujú starostlivo vybraný sortiment prírodných granúl, mrazeného BARF mäsa, dizajnových doplnkov a zdravých maškŕt bez zbytočnej chémie."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly communication and swift order processing",
+        "sk": "Priateľská komunikácia a rýchle vybavenie objednávok"
+      },
+      "text": {
+        "en": "Reviewers appreciate the warm and responsive customer service provided both in store and online. Clients note that personal pickup of web orders is completely seamless, packages arrive quickly, and pet inquiries are addressed promptly through telephone and messaging.",
+        "sk": "Recenzie vyzdvihujú ústretovú komunikáciu a vysokú úroveň zákazníckych služieb v predajni aj na e-shope. Zákazníci oceňujú bezproblémový osobný odber objednávok, rýchle odosielanie balíkov a ochotné a odborné zodpovedanie otázok cez telefón či sociálne siete."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the brick-and-mortar store located?",
+        "sk": "Kde presne sa kamenná predajňa Zuzalo nachádza?"
+      },
+      "a": {
+        "en": "The shop is located at Dunajská 64 in the center of Bratislava (Staré Mesto).",
+        "sk": "Predajňa sa nachádza na Dunajskej 64 v centre Bratislavy (mestská časť Staré Mesto)."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do you stock BARF raw food and frozen meat?",
+        "sk": "Máte v ponuke aj mrazený BARF a surové mäso?"
+      },
+      "a": {
+        "en": "Yes, a wide selection of frozen BARF meat, bones, and natural food supplements is available.",
+        "sk": "Áno, predajňa ponúka široký výber mrazeného BARF mäsa, kostí a prírodných doplnkov stravy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I bring my pet inside the store?",
+        "sk": "Môžem prísť do predajne so psíkom?"
+      },
+      "a": {
+        "en": "Yes, dogs on leash are warmly welcomed and can try on harnesses, collars, and coats.",
+        "sk": "Áno, slušne vychované psíky na vodítku sú v predajni vítané a môžu si postroje či obojky vyskúšať."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I pay by credit or debit card?",
+        "sk": "Je možné v predajni platiť platobnou kartou?"
+      },
+      "a": {
+        "en": "Yes, credit cards and contactless mobile payments are accepted at checkout.",
+        "sk": "Áno, v predajni je možné platiť bežnými platobnými kartami aj bezkontaktne mobilom."
+      },
+      "basis": "both"
+    }
+  ],
+  "source": "google",
+  "slug": "zuzalo-chovatelske-potreby"
+}
