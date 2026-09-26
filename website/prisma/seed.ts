@@ -10,6 +10,7 @@ import { SERVICES, findService, serviceSlug } from "../lib/services";
 import { parseOpeningHours } from "../lib/hours";
 import { inMultiPolygon } from "../lib/pointInPolygon";
 import { VET_SPECIALTIES } from "../lib/vet";
+import { FACTS } from "../lib/facts";
 
 loadEnv({ path: path.join(process.cwd(), ".env.local"), quiet: true });
 
@@ -137,6 +138,14 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
   if (error) rep.warnings.push(`${name}: opening_hours ignored (${error})`);
   if (hours) rep.withHours++;
 
+  // Only the category's codes; check-city fails on others, the seed skips them.
+  const factCodes = (FACTS[row.category?.trim() as BusinessCategory] ?? []).map((f) => f.code);
+  const facts = parseList(row.facts).filter((f) => {
+    const ok = factCodes.includes(f);
+    if (!ok) rep.warnings.push(`${name}: unknown fact "${f}"`);
+    return ok;
+  });
+
   const specialties = parseList(row.specialties).filter((s) => {
     const ok = (VET_SPECIALTIES as readonly string[]).includes(s);
     if (!ok) rep.warnings.push(`${name}: unknown specialty "${s}"`);
@@ -167,6 +176,7 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
     homeVisits: yes(row.home_visits),
     specialties,
     languagesSpoken: parseList(row.languages_spoken).map((l) => l.toLowerCase()),
+    facts,
     photoUrls: parseList(row.photo_urls).filter((u) => /^https:\/\//.test(u)),
     logoFile,
     googlePlaceId: nullableString(row.google_place_id),

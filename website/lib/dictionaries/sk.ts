@@ -333,6 +333,13 @@ export const sk: Dictionary = {
     metaDescriptionTail: (hasPrices: boolean) =>
       `Otváracie hodiny${hasPrices ? ", ceny" : ""} a telefón, web či trasa na jeden dotyk.`,
     about: "O podniku",
+    goodToKnow: "Dobré vedieť",
+    goodToKnowNote: "Tak, ako to podnik uvádza na svojom webe.",
+    faqTitle: "Otázky pred telefonátom",
+    cityPricesTitle: (where: string) => `Koľko to stojí ${skIn(where)}`,
+    cityPricesIntro: "Tento podnik ceny nezverejňuje. Na porovnanie - koľko si účtujú iné podniky v meste:",
+    cityPricesRow: (from: string, median: string, places: number) =>
+      `od ${from} · medián ${median} · ${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })}`,
     welcomes: "Prijíma",
     specialties: "Špecializácie",
     openingHours: "Otváracie hodiny",
