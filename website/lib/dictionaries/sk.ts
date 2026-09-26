@@ -447,6 +447,15 @@ export const sk: Dictionary = {
       metaDescription: (n: number, where: string) =>
         `${n} ${plural("sk", n, { one: "veterinárna ambulancia", few: "veterinárne ambulancie", other: "veterinárnych ambulancií" })} ${skIn(where)} s výjazdom domov – telefón, hodiny a služby.`,
     },
+    english: {
+      chip: "Po anglicky",
+      h1: (where: string) => `Veterinár po anglicky ${skIn(where)}`,
+      lead: (n: number, total: number) =>
+        `${n} z ${total} veterinárnych ambulancií uvádza na svojom webe, že klientov obslúži po anglicky. Pred návštevou si overte telefonicky, kto má službu.`,
+      metaTitle: (where: string) => `Veterinár po anglicky ${skIn(where)} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("sk", n, { one: "veterinárna ambulancia", few: "veterinárne ambulancie", other: "veterinárnych ambulancií" })} ${skIn(where)}, ktoré podľa svojho webu obslúžia klientov po anglicky – hodiny, telefón a trasa.`,
+    },
   },
   prices: {
     crumb: "Ceny",
