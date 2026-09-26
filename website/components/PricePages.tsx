@@ -161,9 +161,7 @@ export async function ServicePricePage({
                         className={
                           Math.abs(pct) <= MARKET_BAND
                             ? "text-foreground/70"
-                            : pct < 0
-                              ? "text-brand-green"
-                              : "text-brand-orange"
+                            : "text-[var(--accent,var(--brand-blue))]"
                         }
                       >
                         {t.card.vsMarket(pct, Math.abs(pct) <= MARKET_BAND)}
@@ -231,7 +229,7 @@ export async function ServicePricePage({
                       {priceText(line)}
                       {r.unit && <span className="font-normal text-foreground/60"> {t.business.perUnit[r.unit]}</span>}
                     </span>
-                    {note && <span className="w-full text-xs text-brand-orange">{note}</span>}
+                    {note && <span className="w-full text-xs text-foreground/55">{note}</span>}
                   </li>
                 );
               })}
@@ -312,7 +310,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
                         prefetch={false}
                         className="inline-flex items-center gap-2 font-semibold text-foreground hover:text-brand-blue hover:underline"
                       >
-                        <TagIcon className="h-4 w-4 text-brand-green" />
+                        <TagIcon className="h-4 w-4 text-[var(--accent,var(--brand-blue))]" />
                         {serviceLabel(category, s.code, locale)}
                       </Link>
                       <span className="block text-xs text-foreground/55 sm:hidden">

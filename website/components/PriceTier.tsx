@@ -35,7 +35,7 @@ export function PriceTier({
   return (
     <span title={t.vsMarketHint} className={`inline-flex items-baseline gap-1.5 ${className}`}>
       <span role="img" aria-label={`${t.priceLevel(level.tier)}: ${words}`}>
-        <span className="font-semibold text-brand-green">{sign.repeat(level.tier)}</span>
+        <span className="font-semibold text-[var(--accent,var(--brand-blue))]">{sign.repeat(level.tier)}</span>
         <span className="text-foreground/25">{sign.repeat(5 - level.tier)}</span>
       </span>
       {withLabel && <span className="text-xs font-medium text-foreground/60">{words}</span>}
