@@ -319,6 +319,63 @@ if (priceErrors.length) {
   for (const e of priceErrors) console.log(`  ${e}`);
 }
 
+// prices.csv keeps every column of docs/card-spec.md, "Цены" - a file
+// without price_to cannot say "fixed price" or "from" (PR #144).
+const PRICE_COLUMNS = [
+  "business_slug", "price_code", "weight_from_kg", "weight_to_kg", "price_from", "price_to", "currency",
+  "source_url", "observed_at", "notes", "unit", "partial", "note", "note_local",
+];
+if (fs.existsSync(pricesFile)) {
+  const header = Papa.parse<string[]>(fs.readFileSync(pricesFile, "utf-8").split("\n")[0]).data[0] ?? [];
+  const missing = PRICE_COLUMNS.filter((c) => !header.includes(c));
+  if (missing.length) {
+    failed = true;
+    console.log(`\nprices.csv: missing columns ${missing.join(", ")} (docs/card-spec.md, "Цены")`);
+  }
+}
+
+// Data that was not copied from its source (PR #144): one place listed
+// several times, Google Maps links made up rather than copied (real cid
+// numbers never share a long run of digits), coordinates rounded to a
+// guess, and the retired animals column (docs/card-spec.md §10; Bratislava
+// keeps its old values).
+const madeUp: string[] = [];
+const byKey = new Map<string, string[]>();
+for (const r of rows) {
+  const keys = [
+    r.google_maps_url && `maps ${r.google_maps_url}`,
+    r.google_place_id && `place_id ${r.google_place_id}`,
+    r.phone && r.address && `phone+address ${r.phone} ${r.address}`,
+  ].filter(Boolean) as string[];
+  for (const k of keys) byKey.set(`${r.category} ${k}`, [...(byKey.get(`${r.category} ${k}`) ?? []), r.slug]);
+}
+for (const [key, slugs] of byKey) {
+  if (slugs.length > 1) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
+}
+const cids = rows
+  .map((r) => ({ slug: r.slug, cid: /cid=(\d+)/.exec(r.google_maps_url ?? "")?.[1] }))
+  .filter((x): x is { slug: string; cid: string } => !!x.cid);
+// Keyed by number: one firm in two categories shares one Maps listing.
+const runs = new Map<string, Set<string>>();
+for (const { cid } of cids) {
+  for (let i = 0; i + 9 <= cid.length; i++) runs.set(cid.slice(i, i + 9), (runs.get(cid.slice(i, i + 9)) ?? new Set()).add(cid));
+}
+const madeUpCids = new Set([...runs.values()].filter((set) => set.size > 1).flatMap((set) => [...set]));
+const sharing = new Set(cids.filter((x) => madeUpCids.has(x.cid)).map((x) => x.slug));
+if (sharing.size) madeUp.push(`google_maps_url numbers look made up (share digit runs), copy each from Google Maps: ${[...sharing].join(", ")}`);
+for (const r of rows) {
+  const decimals = (v: string) => (v.split(".")[1] ?? "").replace(/0+$/, "").length;
+  if (has(r, "lat") && (decimals(r.lat) <= 3 || decimals(r.lng) <= 3)) {
+    madeUp.push(`${r.slug}: lat/lng rounded to 3 decimals or less (${r.lat}, ${r.lng}) - copy from Google Maps`);
+  }
+  if (city !== "bratislava" && (r.animals ?? "").trim()) madeUp.push(`${r.slug}: animals is not collected - leave it empty`);
+}
+if (madeUp.length) {
+  failed = true;
+  console.log(`\nnot copied from the source (${madeUp.length}):`);
+  for (const m of madeUp) console.log(`  ${m}`);
+}
+
 // Review summaries are a second pass; coverage reported, not enforced.
 const rated = rows.filter((r) => Number(r.google_rating_count) >= 10);
 const withInsights = rated.filter((r) => insights.has(r.slug)).length;
