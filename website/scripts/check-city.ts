@@ -391,10 +391,39 @@ for (const r of rows) {
   }
   if (city !== "bratislava" && (r.animals ?? "").trim()) madeUp.push(`${r.slug}: animals is not collected - leave it empty`);
 }
+// The Google place ID is the "ChIJ..." one (in a copied link after
+// "!19s"), not the "0x...:0x..." feature ID; the pin is the one in the
+// copied link (!3d lat !4d lng), not a guess nearby (PR #144).
+for (const r of rows) {
+  if (has(r, "google_place_id") && !/^ChIJ[0-9A-Za-z_-]{20,}$/.test(r.google_place_id.trim())) {
+    madeUp.push(`${r.slug}: google_place_id "${r.google_place_id}" is not a place ID (ChIJ...) - take it from the Maps link after !19s`);
+  }
+  const pin = /!3d(-?[\d.]+)!4d(-?[\d.]+)/.exec(r.google_maps_url ?? "");
+  if (pin && has(r, "lat")) {
+    const off = metres(r, { lat: pin[1], lng: pin[2] } as Row);
+    if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
+  }
+}
 if (madeUp.length) {
   failed = true;
   console.log(`\nnot copied from the source (${madeUp.length}):`);
   for (const m of madeUp) console.log(`  ${m}`);
+}
+
+// Prices: a place of a priced category either has rows or says where it
+// looked ("prices: none (site - no cenník page, fb - not posted)").
+// Reported, not enforced yet: older data says only "not published".
+if (fs.existsSync(pricesFile)) {
+  const priced = new Set(
+    Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data.map((p) => p.business_slug)
+  );
+  const pricedCategory = rows.filter((r) => (SERVICES[r.category as keyof typeof SERVICES] ?? []).length > 0);
+  const withPrices = pricedCategory.filter((r) => priced.has(r.slug)).length;
+  const searched = pricedCategory.filter((r) => !priced.has(r.slug) && noted(r, "prices")).length;
+  const silentPrices = pricedCategory.length - withPrices - searched;
+  console.log(
+    `\nPrices: ${withPrices}/${pricedCategory.length} places with prices, ${searched} "prices: none (...)", ${silentPrices} without a search note`
+  );
 }
 
 // Review summaries are a second pass; coverage reported, not enforced.
