@@ -187,7 +187,7 @@ export async function ServicePricePage({
                         {line.business.phone && (
                           <a
                             href={`tel:${line.business.phone.replace(/\s+/g, "")}`}
-                            className="relative z-10 mt-1 inline-block text-xs font-semibold text-brand-orange hover:underline"
+                            className="relative z-10 mt-1 block w-fit text-xs font-semibold text-brand-orange hover:underline"
                           >
                             {t.actions.call}
                           </a>
