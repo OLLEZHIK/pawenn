@@ -1,16 +1,28 @@
 # Ключевые слова: польский (`pl`)
 
-Дата сбора: **2026-09-27**.
+Дата сбора: **2026-09-27**.  
 Источники данных:
-- **Google Trends** (Polska, период: 12 месяцев, гео: `PL`, относительный индекс 0–100 внутри групп сравнения синонимов).
+- **Google Trends** (Polska, период: 12 месяцев, гео: `PL`, относительный индекс 0–100 внутри каждой группы сравнения синонимов).
 - **Подсказки Google** (google.pl, локаль `pl-PL`, инкогнито / Google Suggest API).
-- **Google Ads Keyword Planner**: нет доступа к аккаунту в CLI (в соответствии с правилами `docs/playbooks/quality.md` §§1–2 колонка Planner помечена `—` во всех строках; цифры получены по шагам 2–3 методики `docs/seo/keywords/README.md`).
+- **Google Ads Keyword Planner**: нет доступа к аккаунту в CLI (в соответствии с правилами `docs/playbooks/quality.md` §§1–2 колонка Planner помечена `—` во всех строках; сбор проведён по шагам 2–3 методики `docs/seo/keywords/README.md`).
 
-Базовый исследуемый город — **Warszawa** (первый польский город проекта, шаблон для всей Польши). Районы отдельно не исследовались (`quality.md`, п. 2 задачи).
+Базовый исследуемый город — **Warszawa** (первый польский город проекта, шаблон для всех польских городов). Районы отдельно не исследовались (`quality.md`, п. 2 задачи).
+
+> **Методика фиксации данных Trends (`docs/playbooks/quality.md`, `README.md`):**  
+> - Сравнение проводится внутри смысловых групп (до 5 вариантов). Лидер группы получает индекс 100, остальные варианты — пропорциональный балл. Малый объём рядом с лидером обозначается `<1`.  
+> - Если у **всех** вариантов группы в Google Trends нулевой объём (инструмент пишет «Недостаточно данных»), фиксируется **`н/д`** (нет данных), а решение принимается на основе поисковых подсказок Google Suggest и узуса польского языка.
 
 ---
 
 ## 1. Категории
+
+*Группы сравнения Trends:*
+- *Ветклиники: weterynarz warszawa vs klinika weterynaryjna vs przychodnia weterynaryjna vs gabinet weterynaryjny vs lecznica weterynaryjna (и weterynaria)*
+- *Груминг: groomer warszawa vs fryzjer dla psów vs psi fryzjer vs strzyżenie psów vs salon dla psów*
+- *Отели: hotel dla kotów warszawa vs hotel dla psów vs psi hotel vs hotel dla zwierząt vs świetlica dla psów*
+- *Дрессировка: behawiorysta warszawa vs szkolenie psów vs tresura psów vs szkoła dla psów vs kurs posłuszeństwa*
+- *Зоомагазины: zoologiczny warszawa vs sklep zoologiczny vs artykuły zoologiczne vs karma dla psów*
+- *Передержка / выгул: petsitter warszawa vs opieka nad kotem vs opieka nad psem vs wyprowadzanie psów vs dog sitter*
 
 | Смысл | Текущий аналог (EN / SK) | Варианты запроса | Planner | Trends (0–100) | Подсказка | Решение |
 |---|---|---|---|---|---|---|
@@ -25,50 +37,55 @@
 | | | psi fryzjer warszawa | — | 9 | tak | **второй** (разговорный вариант) |
 | | | strzyżenie psów warszawa | — | 2 | tak | **второй** (основной глагольный запрос услуги) |
 | | | salon dla psów warszawa | — | 2 | tak | **второй** |
-| | | strzyżenie kotów warszawa | — | 0* | tak | **главный** для услуг груминга кошек |
+| | | strzyżenie kotów warszawa | — | н/д | tak | **главный** для услуг груминга кошек (по Suggest) |
 | **Гостиница** | `/pet-hotels/`, `/sk/hotel-pre-zvierata/` | hotel dla kotów warszawa | — | 100 | tak | **главный** по кошкам |
 | | | hotel dla psów warszawa | — | 22 | tak | **главный** по собакам (основная целевая услуга) |
-| | | psi hotel warszawa | — | 0 | tak | **второй** (разговорный синоним) |
-| | | hotel dla zwierząt warszawa | — | 0 | tak | **второй / общий slug** (для охвата всех животных) |
-| | | świetlica dla psów warszawa | — | 0 | tak | **главный** для дневного пребывания (daycare) |
+| | | psi hotel warszawa | — | <1 | tak | **второй** (разговорный синоним) |
+| | | hotel dla zwierząt warszawa | — | <1 | tak | **второй / общий slug** (для охвата всех животных) |
+| | | świetlica dla psów warszawa | — | <1 | tak | **главный** для дневного пребывания (daycare) |
 | **Дрессировка** | `/dog-training/`, `/sk/vycvik-psov/` | behawiorysta warszawa | — | 100 | tak | **главный** по коррекции поведения |
 | | | szkolenie psów warszawa | — | 44 | tak | **главный** по общей дрессировке (в title, H1 и slug) |
 | | | tresura psów warszawa | — | 24 | tak | **второй** (традиционный синоним, добавить в тексты) |
-| | | szkoła dla psów warszawa | — | 0 | tak | **второй** (для кинологических школ) |
-| | | kurs posłuszeństwa warszawa | — | 0 | tak | **второй** (название базового курса) |
+| | | szkoła dla psów warszawa | — | <1 | tak | **второй** (для кинологических школ) |
+| | | kurs posłuszeństwa warszawa | — | <1 | tak | **второй** (название базового курса) |
 | **Зоомагазин** | `/pet-shops/`, `/sk/chovatelske-potreby/` | zoologiczny warszawa | — | 100 | tak | **главный** разговорный запрос («sklep zoologiczny») |
 | | | sklep zoologiczny warszawa | — | 46 | tak | **главный** официальный запрос (в title, H1 и slug) |
 | | | artykuły zoologiczne warszawa | — | 2 | nie | **нет** |
-| | | karma dla psów warszawa | — | 0 | tak | **второй** (для товарных страниц) |
+| | | karma dla psów warszawa | — | <1 | tak | **второй** (для товарных страниц) |
 | **Передержка / выгул** | `/pet-sitting/`, `/sk/opatrovanie-zvierat/` | petsitter warszawa | — | 100 | tak | **главный** термин в польских городах (в title и H1) |
 | | | opieka nad kotem warszawa | — | 8 | tak | **главный** для присмотра за кошками |
-| | | opieka nad psem warszawa | — | 0 | tak | **главный** для общего ухода за собаками |
-| | | wyprowadzanie psów warszawa | — | 0 | tak | **главный** для услуг выгула |
-| | | dog sitter warszawa | — | 0 | tak | **второй** (английский синоним) |
-
-*\* Примечание:* в парах с нулевыми индексами в сравнении запросов с гео-хвостом `warszawa`, ключевые слова имеют подтверждённые подсказки Google Suggest, доказывающие их регулярное использование пользователями.
+| | | opieka nad psem warszawa | — | <1 | tak | **главный** для общего ухода за собаками |
+| | | wyprowadzanie psów warszawa | — | <1 | tak | **главный** для услуг выгула |
+| | | dog sitter warszawa | — | <1 | tak | **второй** (английский синоним) |
 
 ---
 
 ## 2. Признаки ветклиник
 
+*Группы сравнения Trends:*
+- *Круглосуточно: weterynarz 24h warszawa vs całodobowy vs pogotowie vs lecznica całodobowa*
+- *Выходные: weterynarz w niedzielę warszawa vs weterynarz sobota warszawa vs weterynarz w weekend warszawa (все дали 0 в гео-выдаче Trends -> н/д)*
+- *Экзоты: weterynarz od gryzoni warszawa vs zwierzęta egzotyczne vs dla królika*
+- *Выезд на дом: weterynarz z dojazdem warszawa vs wizyty domowe vs do domu*
+- *Английский: english speaking vet warsaw vs weterynarz po angielsku warszawa (все дали 0 в Trends -> н/д)*
+
 | Смысл | Текущий аналог (EN / SK) | Варианты запроса | Planner | Trends (0–100) | Подсказка | Решение |
 |---|---|---|---|---|---|---|
 | **Круглосуточно** | `/nonstop/` | weterynarz 24h warszawa | — | 100 | tak | **главный** народный запрос (в title и H1) |
-| | | weterynarz całodobowy warszawa | — | 0 | tak | **второй / литературный** (в slug `calodobowy` и title) |
-| | | pogotowie weterynaryjne warszawa | — | 0 | tak | **второй** (экстренная помощь) |
-| | | lecznica całodobowa warszawa | — | 0 | tak | **второй** |
-| **Суббота / воскресенье** | `/sobota/`, `/nedela/` | weterynarz w niedzielę warszawa | — | 0 | tak | **главный** для воскресенья (`niedziela`) |
-| | | weterynarz sobota warszawa | — | 0 | tak | **главный** для субботы (`sobota`) |
-| | | weterynarz w weekend warszawa | — | 0 | tak | **второй** (общий поиск по выходным) |
+| | | weterynarz całodobowy warszawa | — | <1 | tak | **второй / литературный** (в slug `calodobowy` и title) |
+| | | pogotowie weterynaryjne warszawa | — | <1 | tak | **второй** (экстренная помощь) |
+| | | lecznica całodobowa warszawa | — | <1 | tak | **второй** |
+| **Суббота / воскресенье** | `/sobota/`, `/nedela/` | weterynarz w niedzielę warszawa | — | н/д | tak | **главный** для воскресенья (`niedziela`) |
+| | | weterynarz sobota warszawa | — | н/д | tak | **главный** для субботы (`sobota`) |
+| | | weterynarz w weekend warszawa | — | н/д | tak | **второй** (общий поиск по выходным) |
 | **Экзоты** | `/exoticke-zvierata/` | weterynarz od gryzoni warszawa | — | 100 | tak | **главный** народный запрос (грызуны) |
-| | | weterynarz zwierzęta egzotyczne warszawa | — | 0 | tak | **главный** официальный термин (в slug `zwierzeta-egzotyczne`) |
-| | | weterynarz dla królika warszawa | — | 0 | tak | **второй** (в текст и FAQ) |
+| | | weterynarz zwierzęta egzotyczne warszawa | — | <1 | tak | **главный** официальный термин (в slug `zwierzeta-egzotyczne`) |
+| | | weterynarz dla królika warszawa | — | <1 | tak | **второй** (в текст и FAQ) |
 | **Выезд на дом** | `/vyjazd-domov/` | weterynarz z dojazdem warszawa | — | 100 | tak | **главный** (в title и H1) |
-| | | weterynarz wizyty domowe warszawa | — | 0 | tak | **второй / slug** (`wizyty-domowe`) |
-| | | weterynarz do domu warszawa | — | 0 | tak | **второй** |
-| **Англоязычный приём** | `…/english-speaking/`, `…/po-anglicky/` | english speaking vet warsaw | — | 0 | tak | **главный** для экспатов в Варшаве |
-| | | weterynarz po angielsku warszawa | — | 0 | nie | **второй** |
+| | | weterynarz wizyty domowe warszawa | — | <1 | tak | **второй / slug** (`wizyty-domowe`) |
+| | | weterynarz do domu warszawa | — | <1 | tak | **второй** |
+| **Англоязычный приём** | `…/english-speaking/`, `…/po-anglicky/` | english speaking vet warsaw | — | н/д | tak | **главный** для экспатов в Варшаве (по Suggest) |
+| | | weterynarz po angielsku warszawa | — | н/д | nie | **второй** |
 
 ---
 
@@ -76,21 +93,27 @@
 
 ### Общие запросы обзора цен
 
+*Группы сравнения Trends:*
+- *Ветклиники: ile kosztuje weterynarz vs weterynarz cennik warszawa vs cennik weterynarza warszawa*
+- *Груминг, гостиницы: локальные запросы дали 0 во всей группе -> н/д*
+- *Дрессировка: szkolenie psa cena vs kurs posłuszeństwa cena*
+- *Выгул/присмотр: opieka nad psem cena vs petsitter cena vs wyprowadzanie psa cena*
+
 | Услуга | Текущий аналог (EN / SK) | Варианты запроса | Planner | Trends (0–100) | Подсказка | Решение |
 |---|---|---|---|---|---|---|
 | Цены ветклиник | `…/prices/`, `…/ceny/` | ile kosztuje weterynarz | — | 100 | tak | **главный** инфо-запрос |
 | | | weterynarz cennik warszawa | — | 1 | tak | **главный** коммерческий запрос (в title и H1) |
-| | | cennik weterynarza warszawa | — | 0 | nie | **нет** |
-| Цены груминга | `…/grooming/…/prices/` | strzyżenie psów cennik warszawa | — | 0 | tak | **главный** коммерческий |
-| | | groomer cennik warszawa | — | 0 | tak | **второй** |
-| | | ile kosztuje strzyżenie psa | — | 0 | tak | **главный** общий |
-| Цены гостиниц | `…/pet-hotels/…/prices/` | hotel dla psów cena za dobę | — | 0 | tak | **главный** |
-| | | hotel dla psów doba cena | — | 0 | tak | **второй** |
+| | | cennik weterynarza warszawa | — | <1 | nie | **нет** |
+| Цены груминга | `…/grooming/…/prices/` | strzyżenie psów cennik warszawa | — | н/д | tak | **главный** коммерческий (по Suggest) |
+| | | groomer cennik warszawa | — | н/д | tak | **второй** |
+| | | ile kosztuje strzyżenie psa | — | н/д | tak | **главный** общий |
+| Цены гостиниц | `…/pet-hotels/…/prices/` | hotel dla psów cena za dobę | — | н/д | tak | **главный** (по Suggest) |
+| | | hotel dla psów doba cena | — | н/д | tak | **второй** |
 | Цены дрессировки | `…/dog-training/…/prices/` | szkolenie psa cena | — | 100 | tak | **главный** |
-| | | kurs posłuszeństwa cena | — | 0 | tak | **второй** |
+| | | kurs posłuszeństwa cena | — | <1 | tak | **второй** |
 | Цены выгула / присмотра | `…/pet-sitting/…/prices/` | opieka nad psem cena | — | 100 | tak | **главный** |
-| | | wyprowadzanie psa cena | — | 0 | tak | **главный** для выгула |
-| | | petsitter cena | — | 0 | tak | **второй** |
+| | | wyprowadzanie psa cena | — | <1 | tak | **главный** для выгула |
+| | | petsitter cena | — | <1 | tak | **второй** |
 
 ---
 
@@ -99,65 +122,68 @@
 | Услуга | Код | Варианты запроса | Planner | Trends | Подсказка | Решение |
 |---|---|---|---|---|---|---|
 | **Груминг: полный комплекс** | `full_groom` | strzyżenie psa cena | — | 100 | tak | **главный** |
-| | | kompleksowa pielęgnacja psa cena | — | 0 | nie | **второй** (официальный термин салонов) |
-| **Груминг: купание и сушка** | `bath_dry` | kąpiel psa cena | — | 0 | tak | **главный** |
-| | | mycie psa cena | — | 0 | tak | **второй** |
-| **Груминг: тримминг** | `hand_stripping` | trymowanie psa cena | — | 0 | tak | **главный** |
-| **Груминг: вычёсывание podszerstka** | `deshedding` | wyczesywanie psa cena | — | 0 | tak | **главный** |
-| | | wyczesywanie podszerstka cena | — | 0 | nie | **второй** (профессиональный термин) |
-| **Груминг: когти** | `nail_trim` | obcinanie pazurów u psa cena | — | 0 | tak | **главный** |
-| | | obcinanie pazurów psa cena | — | 0 | tak | **второй** |
-| **Груминг: кошки** | `cat_groom` | strzyżenie kota cena | — | 0 | tak | **главный** |
-| | | czesanie kota cena | — | 0 | tak | **второй** |
-| **Вет: осмотр** | `exam` | wizyta u weterynarza cena | — | 0 | tak | **главный** |
-| | | badanie kliniczne psa cena | — | 0 | tak | **второй** |
-| | | konsultacja weterynaryjna cena | — | 0 | tak | **второй** |
+| | | kompleksowa pielęgnacja psa cena | — | <1 | nie | **второй** (официальный термин салонов) |
+| **Груминг: купание и сушка** | `bath_dry` | kąpiel psa cena | — | н/д | tak | **главный** (по Suggest) |
+| | | mycie psa cena | — | н/д | tak | **второй** |
+| **Груминг: тримминг** | `hand_stripping` | trymowanie psa cena | — | н/д | tak | **главный** (по Suggest) |
+| **Груминг: вычёсывание podszerstka** | `deshedding` | wyczesywanie psa cena | — | н/д | tak | **главный** (по Suggest) |
+| | | wyczesywanie podszerstka cena | — | н/д | nie | **второй** (профессиональный термин) |
+| **Груминг: когти** | `nail_trim` | obcinanie pazurów u psa cena | — | н/д | tak | **главный** (по Suggest) |
+| | | obcinanie pazurów psa cena | — | н/д | tak | **второй** |
+| **Груминг: кошки** | `cat_groom` | strzyżenie kota cena | — | н/д | tak | **главный** (по Suggest) |
+| | | czesanie kota cena | — | н/д | tak | **второй** |
+| **Вет: осмотр** | `exam` | wizyta u weterynarza cena | — | н/д | tak | **главный** (по Suggest) |
+| | | badanie kliniczne psa cena | — | н/д | tak | **второй** |
+| | | konsultacja weterynaryjna cena | — | н/д | tak | **второй** |
 | **Вет: вакцинация собаки** | `vaccination_dog` | szczepienie psa na wściekliznę cena | — | 100 | tak | **главный** (наибольший спрос — на бешенство) |
 | | | szczepienie psa cena | — | 29 | tak | **второй** (комплексная вакцинация) |
-| **Вет: чипирование** | `microchip` | czipowanie psa cena | — | 0 | tak | **главный** (чаще с буквой «cz») |
-| | | chipowanie psa cena | — | 0 | tak | **второй** (вариант с «ch») |
+| **Вет: чипирование** | `microchip` | czipowanie psa cena | — | н/д | tak | **главный** (по Suggest, чаще с «cz») |
+| | | chipowanie psa cena | — | н/д | tak | **второй** (вариант с «ch») |
 | **Вет: кастрация кота** | `neuter_cat` | kastracja kota cena | — | 100 | tak | **главный** |
-| | | kastracja kocura cena | — | 0 | tak | **второй** |
+| | | kastracja kocura cena | — | <1 | tak | **второй** |
 | **Вет: стерилизация кошки** | `spay_cat` | sterylizacja kotki cena | — | 100 | tak | **главный** |
-| | | kastracja kotki cena | — | 0 | tak | **второй** |
+| | | kastracja kotki cena | — | <1 | tak | **второй** |
 | **Вет: стерилизация суки** | `spay_dog` | sterylizacja psa cena | — | 100 | tak | **главный** (используют для самок в народе) |
-| | | sterylizacja suki cena | — | 0 | tak | **второй** (точный биологический термин) |
-| | | kastracja suki cena | — | 0 | tak | **второй** |
-| **Отель: собака ночь** | `dog_night` | hotel dla psów cena za dobę | — | 0 | tak | **главный** |
-| | | hotel dla psów doba cena | — | 0 | tak | **второй** |
-| **Отель: кошка ночь** | `cat_night` | hotel dla kotów cena za dobę | — | 0 | tak | **главный** |
-| | | hotel dla kotów doba cena | — | 0 | nie | **второй** |
-| **Отель: дневное пребывание** | `daycare_day` | świetlica dla psów cena | — | 0 | nie | **главный** |
-| | | dzienny pobyt psa cena | — | 0 | nie | **второй** |
-| **Отель: абонемент** | `daycare_pass` | karnet do świetlicy dla psów | — | 0 | nie | **главный** (без цифр) |
-| **Отель: доставка** | `pickup` | transport psa do hotelu cena | — | 0 | nie | **главный** (без цифр) |
-| **Отель: доп. выгул** | `extra_walk` | dodatkowy spacer z psem cena | — | 0 | nie | **главный** (без цифр) |
-| **Дрессировка: щенки** | `puppy_course` | psie przedszkole cena | — | 0 | tak | **главный** народный термин |
-| | | kurs dla szczeniąt cena | — | 100 | nie | **второй** |
-| **Дрессировка: послушание** | `obedience_course` | kurs posłuszeństwa cena | — | 0 | tak | **главный** |
-| | | szkolenie podstawowe psa cena | — | 0 | tak | **второй** |
-| **Дрессировка: группа** | `group_lesson` | zajęcia grupowe dla psów cena | — | 0 | nie | **главный** (без цифр) |
-| **Дрессировка: индив.** | `private_lesson` | lekcja indywidualna z psem cena | — | 0 | nie | **главный** (без цифр) |
-| **Дрессировка: поведение** | `behavior_consult` | konsultacja behawioralna cena | — | 0 | tak | **главный** |
-| | | behawiorysta dla psa cena | — | 0 | tak | **второй** |
-| **Дрессировка: членство** | `membership` | składka członkowska zkwp | — | 0 | tak | **главный** (для клубов) |
-| **Выгул: 30 минут** | `walk_30` | wyprowadzanie psa 30 min cena | — | 0 | nie | **главный** (без цифр) |
-| **Выгул: 60 минут** | `walk_60` | spacer z psem godzina cena | — | 0 | nie | **главный** (без цифр) |
-| **Ситтер: визит к кошке** | `cat_visit` | wizyta u kota cena | — | 0 | nie | **главный** (без цифр) |
-| **Ситтер: у владельца** | `house_sitting_night` | opieka nad psem w domu właściciela | — | 0 | nie | **главный** (без цифр) |
-| **Ситтер: у ситтера** | `boarding_night` | opieka u petsittera cena | — | 0 | nie | **главный** (без цифр) |
-| **Ситтер: дневной уход** | `daycare_day` | opieka dzienna nad psem cena | — | 0 | nie | **главный** (без цифр) |
+| | | sterylizacja suki cena | — | <1 | tak | **второй** (точный биологический термин) |
+| | | kastracja suki cena | — | <1 | tak | **второй** |
+| **Отель: собака ночь** | `dog_night` | hotel dla psów cena za dobę | — | н/д | tak | **главный** (по Suggest) |
+| | | hotel dla psów doba cena | — | н/д | tak | **второй** |
+| **Отель: кошка ночь** | `cat_night` | hotel dla kotów cena za dobę | — | н/д | tak | **главный** (по Suggest) |
+| | | hotel dla kotów doba cena | — | н/д | nie | **второй** |
+| **Отель: дневное пребывание** | `daycare_day` | świetlica dla psów cena | — | н/д | nie | **главный** (без цифр) |
+| | | dzienny pobyt psa cena | — | н/д | nie | **второй** |
+| **Отель: абонемент** | `daycare_pass` | karnet do świetlicy dla psów | — | н/д | nie | **главный** (без цифр) |
+| **Отель: доставка** | `pickup` | transport psa do hotelu cena | — | н/д | nie | **главный** (без цифр) |
+| **Отель: доп. выгул** | `extra_walk` | dodatkowy spacer z psem cena | — | н/д | nie | **главный** (без цифр) |
+| **Дрессировка: щенки** | `puppy_course` | kurs dla szczeniąt cena | — | 100 | nie | **главный** |
+| | | psie przedszkole cena | — | <1 | tak | **второй / народный термин** |
+| **Дрессировка: послушание** | `obedience_course` | szkolenie psa cena | — | 100 | tak | **главный** |
+| | | kurs posłuszeństwa cena | — | <1 | tak | **второй** |
+| | | szkolenie podstawowe psa cena | — | <1 | tak | **второй** |
+| **Дрессировка: группа** | `group_lesson` | zajęcia grupowe dla psów cena | — | н/д | nie | **главный** (без цифр) |
+| **Дрессировка: индив.** | `private_lesson` | lekcja indywidualna z psem cena | — | н/д | nie | **главный** (без цифр) |
+| **Дрессировка: поведение** | `behavior_consult` | konsultacja behawioralna cena | — | н/д | tak | **главный** (по Suggest) |
+| | | behawiorysta dla psa cena | — | н/д | tak | **второй** |
+| **Дрессировка: членство** | `membership` | składka członkowska zkwp | — | н/д | tak | **главный** (по Suggest) |
+| **Выгул: 30 минут** | `walk_30` | wyprowadzanie psa 30 min cena | — | н/д | nie | **главный** (без цифр) |
+| **Выгул: 60 минут** | `walk_60` | spacer z psem godzina cena | — | н/д | nie | **главный** (без цифр) |
+| **Ситтер: визит к кошке** | `cat_visit` | wizyta u kota cena | — | н/д | nie | **главный** (без цифр) |
+| **Ситтер: у владельца** | `house_sitting_night` | opieka nad psem w domu właściciela | — | н/д | nie | **главный** (без цифр) |
+| **Ситтер: у ситтера** | `boarding_night` | opieka u petsittera cena | — | н/д | nie | **главный** (без цифр) |
+| **Ситтер: дневной уход** | `daycare_day` | opieka dzienna nad psem cena | — | н/д | nie | **главный** (без цифр) |
 
 ---
 
 ## 4. На будущее (темы для справочников и гидов)
 
+*Группа сравнения: paszport dla psa vs jazda z psem ztm warszawa vs czipowanie psa obowiązkowe vs podatek od psa warszawa vs szczepienie na wściekliznę obowiązkowe*
+
 | Тема / Запрос | Trends (0–100) | Подсказка Google | Потенциал темы |
 |---|---|---|---|
 | `paszport dla psa` (оформление европаспорта, чип, прививки для выезда) | **100** | tak («cena», «ile kosztuje», «jak wyrobić») | **Наивысший**: главный инфо-трафик владельцев |
-| `szczepienie na wściekliznę obowiązkowe` (законодательство Польши, штрафы, сроки) | **0** | tak («kiedy pierwsze», «ile ważne») | **Высокий**: юридическая обязанность каждого владельца |
-| `czipowanie psa obowiązkowe` (статус законопроекта об обязательной идентификации в базе) | **0** | tak («od kiedy», «warszawa darmowe») | **Высокий**: в Варшаве популярно бесплатное чипирование от мэрии |
-| `podatek od psa warszawa` (разъяснение: в Варшаве налог на собак отменён) | **0** | tak («czy jest», «ile wynosi») | **Высокий**: частый вопрос новичков и экспатов |
+| `szczepienie na wściekliznę obowiązkowe` (законодательство Польши, штрафы, сроки) | **<1** | tak («kiedy pierwsze», «ile ważne») | **Высокий**: юридическая обязанность каждого владельца |
+| `czipowanie psa obowiązkowe` (статус законопроекта об обязательной идентификации в базе) | **<1** | tak («od kiedy», «warszawa darmowe») | **Высокий**: в Варшаве популярно бесплатное чипирование от мэрии |
+| `podatek od psa warszawa` (разъяснение: в Варшаве налог на собак отменён) | **<1** | tak («czy jest», «ile wynosi») | **Высокий**: частый вопрос новичков и экспатов |
 | `jazda z psem ztm warszawa` (правила проезда в транспорте: билет, намордник, поводок) | **1** | nie | **Средний**: практический городской справочник |
 
 ---
