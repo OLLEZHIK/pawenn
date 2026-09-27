@@ -58,6 +58,10 @@ TypeScript сам показывает, что ещё не переведено:
      (как для словацкого: «Strihanie psov a psie salóny»);
    - `BUSINESS_SEGMENT` (`podnik` → `betrieb`), `CITY_SEGMENT`
      (`mesto` → `stadt`).
+   - страница места живёт в папке с именем сегмента: скопировать
+     `website/app/[lang]/podnik/[slug]/page.tsx` в
+     `website/app/[lang]/<сегмент>/[slug]/page.tsx` и поменять в ней
+     `SEGMENT` (без папки адрес места — 404).
 4. **`website/lib/services.ts`** и **`website/lib/vet.ts`** — подписи
    услуг цен и специализаций ветклиник (названия услуг — тоже по
    карте ключевых слов: «kastrácia fenky», а не «kastrácia suky»).

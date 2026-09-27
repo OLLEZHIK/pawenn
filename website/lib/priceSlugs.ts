@@ -8,50 +8,50 @@ import { SERVICES } from "./services";
 //   /<category>/<city>/prices/<service>/  one service, every place compared
 // The "prices" segment sits in the district slot, like "nonstop"; no
 // district may use it.
-export const PRICES_SEGMENT: Record<Locale, string> = { en: "prices", sk: "ceny" };
+export const PRICES_SEGMENT: Record<Locale, string> = { en: "prices", sk: "ceny", pl: "ceny" };
 
 /** URL slug per service code and language - written by hand, as people
  *  search it ("kastracia-kocura"), not generated from labels. */
 const SERVICE_SLUGS: Partial<Record<BusinessCategory, Record<string, Record<Locale, string>>>> = {
   GROOMING: {
-    full_groom: { en: "full-grooming", sk: "kompletna-uprava" },
-    bath_dry: { en: "bath-and-blow-dry", sk: "kupanie-a-fenovanie" },
-    hand_stripping: { en: "hand-stripping", sk: "trimovanie" },
-    deshedding: { en: "de-shedding", sk: "vycesavanie-podsady" },
-    nail_trim: { en: "nail-trim", sk: "strihanie-pazurikov" },
-    cat_groom: { en: "cat-grooming", sk: "uprava-macky" },
+    full_groom: { en: "full-grooming", sk: "kompletna-uprava", pl: "strzyzenie-psa" },
+    bath_dry: { en: "bath-and-blow-dry", sk: "kupanie-a-fenovanie", pl: "kapiel-i-suszenie" },
+    hand_stripping: { en: "hand-stripping", sk: "trimovanie", pl: "trymowanie" },
+    deshedding: { en: "de-shedding", sk: "vycesavanie-podsady", pl: "wyczesywanie-podszerstka" },
+    nail_trim: { en: "nail-trim", sk: "strihanie-pazurikov", pl: "obcinanie-pazurow" },
+    cat_groom: { en: "cat-grooming", sk: "uprava-macky", pl: "strzyzenie-kota" },
   },
   VET_CLINIC: {
-    exam: { en: "check-up", sk: "vysetrenie" },
-    vaccination_dog: { en: "dog-vaccination", sk: "ockovanie-psa" },
-    microchip: { en: "microchip", sk: "cipovanie" },
-    neuter_cat: { en: "cat-neutering", sk: "kastracia-kocura" },
-    spay_cat: { en: "cat-spaying", sk: "kastracia-macky" },
-    spay_dog: { en: "dog-spaying", sk: "kastracia-suky" },
+    exam: { en: "check-up", sk: "vysetrenie", pl: "badanie-kliniczne" },
+    vaccination_dog: { en: "dog-vaccination", sk: "ockovanie-psa", pl: "szczepienie-psa" },
+    microchip: { en: "microchip", sk: "cipovanie", pl: "czipowanie" },
+    neuter_cat: { en: "cat-neutering", sk: "kastracia-kocura", pl: "kastracja-kota" },
+    spay_cat: { en: "cat-spaying", sk: "kastracia-macky", pl: "sterylizacja-kotki" },
+    spay_dog: { en: "dog-spaying", sk: "kastracia-suky", pl: "sterylizacja-suki" },
   },
   PET_HOTEL: {
-    dog_night: { en: "dog-per-night", sk: "pes-noc" },
-    cat_night: { en: "cat-per-night", sk: "macka-noc" },
-    daycare_day: { en: "dog-daycare", sk: "psia-skolka" },
-    daycare_pass: { en: "daycare-pass", sk: "permanentka-do-skolky" },
-    pickup: { en: "pick-up-and-drop-off", sk: "dovoz-a-odvoz" },
-    extra_walk: { en: "extra-walk", sk: "vencenie-navyse" },
+    dog_night: { en: "dog-per-night", sk: "pes-noc", pl: "pies-doba" },
+    cat_night: { en: "cat-per-night", sk: "macka-noc", pl: "kot-doba" },
+    daycare_day: { en: "dog-daycare", sk: "psia-skolka", pl: "swietlica-dzien" },
+    daycare_pass: { en: "daycare-pass", sk: "permanentka-do-skolky", pl: "karnet-do-swietlicy" },
+    pickup: { en: "pick-up-and-drop-off", sk: "dovoz-a-odvoz", pl: "transport-zwierzaka" },
+    extra_walk: { en: "extra-walk", sk: "vencenie-navyse", pl: "dodatkowy-spacer" },
   },
   DOG_TRAINING: {
-    puppy_course: { en: "puppy-course", sk: "stenacia-skolka" },
-    obedience_course: { en: "obedience-course", sk: "kurz-poslusnosti" },
-    group_lesson: { en: "group-lesson", sk: "skupinova-hodina" },
-    private_lesson: { en: "private-lesson", sk: "individualna-hodina" },
-    behavior_consult: { en: "behaviour-consultation", sk: "konzultacia-spravania" },
-    membership: { en: "club-membership", sk: "clensky-poplatok" },
+    puppy_course: { en: "puppy-course", sk: "stenacia-skolka", pl: "psie-przedszkole" },
+    obedience_course: { en: "obedience-course", sk: "kurz-poslusnosti", pl: "kurs-posluszenstwa" },
+    group_lesson: { en: "group-lesson", sk: "skupinova-hodina", pl: "lekcja-grupowa" },
+    private_lesson: { en: "private-lesson", sk: "individualna-hodina", pl: "lekcja-indywidualna" },
+    behavior_consult: { en: "behaviour-consultation", sk: "konzultacia-spravania", pl: "konsultacja-behawioralna" },
+    membership: { en: "club-membership", sk: "clensky-poplatok", pl: "skladka-czlonkowska" },
   },
   PET_SITTING: {
-    walk_30: { en: "dog-walk-30-min", sk: "vencenie-30-min" },
-    walk_60: { en: "dog-walk-60-min", sk: "vencenie-60-min" },
-    cat_visit: { en: "cat-visit", sk: "navsteva-macky" },
-    house_sitting_night: { en: "overnight-at-your-home", sk: "strazenie-u-vas-doma" },
-    boarding_night: { en: "overnight-at-sitters-home", sk: "strazenie-u-opatrovatela" },
-    daycare_day: { en: "day-care", sk: "denne-strazenie" },
+    walk_30: { en: "dog-walk-30-min", sk: "vencenie-30-min", pl: "spacer-30-min" },
+    walk_60: { en: "dog-walk-60-min", sk: "vencenie-60-min", pl: "spacer-60-min" },
+    cat_visit: { en: "cat-visit", sk: "navsteva-macky", pl: "wizyta-u-kota" },
+    house_sitting_night: { en: "overnight-at-your-home", sk: "strazenie-u-vas-doma", pl: "opieka-u-wlasciciela" },
+    boarding_night: { en: "overnight-at-sitters-home", sk: "strazenie-u-opatrovatela", pl: "opieka-u-petsittera" },
+    daycare_day: { en: "day-care", sk: "denne-strazenie", pl: "opieka-dzienna" },
   },
 };
 

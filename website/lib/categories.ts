@@ -80,6 +80,15 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "chovatelske-potreby",
     PET_SITTING: "opatrovanie-zvierat",
   },
+  // docs/seo/keywords/pl.md, section 5.1 (PR #136).
+  pl: {
+    GROOMING: "groomer",
+    VET_CLINIC: "weterynarz",
+    PET_HOTEL: "hotel-dla-zwierzat",
+    DOG_TRAINING: "szkolenie-psow",
+    PET_SHOP: "sklep-zoologiczny",
+    PET_SITTING: "opieka-nad-zwierzetami",
+  },
 };
 
 const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -210,7 +219,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -228,7 +237,7 @@ export function listingPath(
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;
