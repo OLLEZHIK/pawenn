@@ -462,7 +462,8 @@ business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currenc
   сложить нельзя — `partial=yes` и `note` / `note_local`.
 - `google_maps_url`, `google_place_id`, координаты, оценка и число
   оценок — **скопированы** из карточки места в Google Maps, не
-  составлены и не округлены. `check-city` ловит одинаковые места,
+  составлены и не округлены. Не нашёл или не открылось — пусто и
+  `maps: none (...)` / `rating: none (...)` в `notes`: это засчитывается. `check-city` ловит одинаковые места,
   номера Maps с общими цифрами, координаты с ≤ 3 знаками после точки и
   заполненную колонку `animals` (PR #144).
 - В `prices.csv` — все колонки из раздела «Цены», даже пустые.
