@@ -8,7 +8,7 @@ import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/li
 import { SERVICES, serviceIncludes, serviceLabel } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
-import { TagIcon } from "./icons";
+import { ChevronRightIcon, TagIcon } from "./icons";
 
 // Price pages (owner, 2026-09-25; docs/seo/README.md, "Страницы цен"):
 // the answer first (range, median, how many places, date), then every
@@ -168,14 +168,17 @@ export async function ServicePricePage({
                       </span>
                     );
                   return (
-                    <tr key={line.business.id} className="align-top">
+                    // The whole row opens the place (a stretched link, owner
+                    // 2026-09-27: the name alone did not read as clickable);
+                    // "Call" and the price-list link stay above it.
+                    <tr key={line.business.id} className="group relative align-top transition-colors hover:bg-surface-sunken">
                       <td className="px-4 py-3 sm:px-6">
                         <Link
                           href={businessPath(locale, line.business.slug)}
                           prefetch={false}
-                          className="font-semibold text-foreground hover:text-brand-blue hover:underline"
+                          className="font-semibold text-[var(--accent,var(--brand-blue))] underline decoration-current/30 underline-offset-4 after:absolute after:inset-0 after:content-[''] group-hover:decoration-current"
                         >
-                          {line.business.name}
+                          <NameWithChevron name={line.business.name} />
                         </Link>
                         {line.business.districtName && (
                           <span className="block text-xs text-foreground/55">{line.business.districtName}</span>
@@ -184,7 +187,7 @@ export async function ServicePricePage({
                         {line.business.phone && (
                           <a
                             href={`tel:${line.business.phone.replace(/\s+/g, "")}`}
-                            className="mt-1 inline-block text-xs font-semibold text-brand-orange hover:underline"
+                            className="relative z-10 mt-1 inline-block text-xs font-semibold text-brand-orange hover:underline"
                           >
                             {t.actions.call}
                           </a>
@@ -197,7 +200,7 @@ export async function ServicePricePage({
                             href={line.rows[0].sourceUrl}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
-                            className="block text-xs font-normal text-foreground/45 hover:underline"
+                            className="relative z-10 block text-xs font-normal text-foreground/45 hover:underline"
                           >
                             {tp.source}
                           </a>
@@ -221,9 +224,13 @@ export async function ServicePricePage({
                 const r = line.rows[0];
                 const note = locale === "en" ? r.note : (r.noteLocal ?? r.note);
                 return (
-                  <li key={line.business.id} className="flex flex-wrap items-baseline justify-between gap-x-4 py-2.5">
-                    <Link href={businessPath(locale, line.business.slug)} prefetch={false} className="font-medium hover:underline">
-                      {line.business.name}
+                  <li key={line.business.id} className="group relative flex flex-wrap items-baseline justify-between gap-x-4 py-2.5">
+                    <Link
+                      href={businessPath(locale, line.business.slug)}
+                      prefetch={false}
+                      className="font-medium text-[var(--accent,var(--brand-blue))] underline decoration-current/30 underline-offset-4 after:absolute after:inset-0 after:content-[''] group-hover:decoration-current"
+                    >
+                      <NameWithChevron name={line.business.name} />
                     </Link>
                     <span className="font-semibold">
                       {priceText(line)}
@@ -338,5 +345,21 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
         </Link>
       </div>
     </main>
+  );
+}
+
+// The chevron sticks to the last word, so a wrapped name never leaves it
+// alone on a line.
+function NameWithChevron({ name }: { name: string }) {
+  const words = name.split(" ");
+  const last = words.pop();
+  return (
+    <>
+      {words.length > 0 && `${words.join(" ")} `}
+      <span className="whitespace-nowrap">
+        {last}
+        <ChevronRightIcon className="ml-0.5 inline-block h-4 w-4 align-[-3px] transition-transform group-hover:translate-x-0.5" />
+      </span>
+    </>
   );
 }
