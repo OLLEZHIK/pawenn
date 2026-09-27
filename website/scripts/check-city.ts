@@ -64,8 +64,10 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
   { field: "google_maps_url", target: 1, ok: (r) => has(r, "google_maps_url") || noted(r, "maps"), evidence: "maps" },
   { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
   // "Good to know" facts from the place's own site (docs/card-spec.md,
-  // section 9): codes, or "facts: none (...)" where nothing is stated.
-  { field: "facts", target: 0.8, ok: (r) => has(r, "facts"), evidence: "facts" },
+  // section 9): codes, or "facts: none (...)" where nothing is stated -
+  // both count, as the spec says; counting codes only rewarded guessing
+  // (Košice, PR #151).
+  { field: "facts", target: 0.8, ok: (r) => has(r, "facts") || noted(r, "facts"), evidence: "facts" },
   { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
   { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours"), evidence: "hours" },
 ];
