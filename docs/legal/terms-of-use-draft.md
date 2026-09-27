@@ -4,7 +4,7 @@
 
 *Last updated: September 20, 2026*
 
-Welcome to **Pawenn** (`pawenn.com`), an online directory designed to help pet owners discover pet care providers (grooming salons, veterinary clinics, pet boarding hotels, training academies, and pet stores) in Bratislava, Slovakia.
+Welcome to **Pawenn** (`pawenn.com`), an online directory designed to help pet owners discover pet care providers (grooming salons, veterinary clinics, pet boarding hotels, training academies, pet sitters and pet stores) in the cities listed on the site.
 
 These Terms of Use ("Terms") govern your access to and use of Pawenn. By accessing or browsing the site, you agree to these Terms.
 

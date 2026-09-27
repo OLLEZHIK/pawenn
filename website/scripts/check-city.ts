@@ -355,6 +355,24 @@ for (const r of rows) {
 for (const [key, slugs] of byKey) {
   if (slugs.length > 1) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
 }
+// A clinic and its vet often have two Google cards for one practice:
+// same category, same website, pins within 200 m (PR #144). One entry,
+// or "duplicate-check: different place (...)" in the notes of both.
+const domain = (u: string) => u.trim().toLowerCase().replace(/^https?:\/\//, "").replace(/^(www\.|m\.)/, "").split("/")[0];
+const metres = (a: Row, b: Row) => {
+  const dLat = (Number(a.lat) - Number(b.lat)) * 111_320;
+  const dLng = (Number(a.lng) - Number(b.lng)) * 111_320 * Math.cos((Number(a.lat) * Math.PI) / 180);
+  return Math.hypot(dLat, dLng);
+};
+const siteRows = rows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
+for (let i = 0; i < siteRows.length; i++) {
+  for (let j = i + 1; j < siteRows.length; j++) {
+    const [a, b] = [siteRows[i], siteRows[j]];
+    if (a.category !== b.category || domain(a.website) !== domain(b.website) || metres(a, b) > 200) continue;
+    if (/duplicate-check: /.test(a.notes ?? "") && /duplicate-check: /.test(b.notes ?? "")) continue;
+    madeUp.push(`probably one place twice (same website ${domain(a.website)}, ${Math.round(metres(a, b))} m apart): ${a.slug}, ${b.slug}`);
+  }
+}
 const cids = rows
   .map((r) => ({ slug: r.slug, cid: /cid=(\d+)/.exec(r.google_maps_url ?? "")?.[1] }))
   .filter((x): x is { slug: string; cid: string } => !!x.cid);
