@@ -1,6 +1,8 @@
 # Задача: Кошице — сводки отзывов и проверка цен
 
-**Исполнитель:** Antigravity IDE
+**Исполнитель:** Antigravity IDE — **закрыта 2026-09-27**: 4 сводки приняты
+(PR #156 → #151), остаток передан Antigravity:
+`tasks/antigravity-kosice-reviews-maps.md`.
 **Роль:** Content / data agent.
 **Тип:** контент по отзывам + добор данных, объём средний.
 **Ветка:** `antigravity/kosice-reviews-prices`
