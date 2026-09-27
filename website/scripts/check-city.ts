@@ -58,7 +58,10 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
   // "coords: none (mobile service ...)" note (docs/card-spec.md, section 3).
   { field: "lat / lng", target: 1, ok: (r) => (has(r, "lat") && has(r, "lng")) || noted(r, "coords") },
   { field: "phone / email / website", target: 1, ok: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
-  { field: "google_maps_url", target: 0.95, ok: (r) => has(r, "google_maps_url") },
+  // A Maps link copied from the place's card, or "maps: none (...)" where
+  // no card was found or Maps would not open: an honest gap beats a made-up
+  // link (PR #144, owner 2026-09-27). The reviewer checks the notes.
+  { field: "google_maps_url", target: 1, ok: (r) => has(r, "google_maps_url") || noted(r, "maps"), evidence: "maps" },
   { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
   // "Good to know" facts from the place's own site (docs/card-spec.md,
   // section 9): codes, or "facts: none (...)" where nothing is stated.
