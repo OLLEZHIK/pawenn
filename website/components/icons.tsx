@@ -200,6 +200,14 @@ export function RouteIcon({ className }: IconProps) {
   );
 }
 
+export function ChevronRightIcon({ className }: IconProps) {
+  return (
+    <StrokeIcon className={className}>
+      <path d="M8 5l5 5-5 5" />
+    </StrokeIcon>
+  );
+}
+
 export function ArrowRightIcon({ className }: IconProps) {
   return (
     <StrokeIcon className={className}>
