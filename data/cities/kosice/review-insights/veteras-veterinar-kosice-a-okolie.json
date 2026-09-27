@@ -4,80 +4,91 @@
   "google_maps_url": "https://www.google.com/maps/place/VETERAS+-+Veterin%C3%A1r+Ko%C5%A1ice+a+okolie/data=!4m7!3m6!1s0x473ee75503b4f875:0x116a62f684d8ed9!8m2!3d48.7965324!4d21.3012472!16s%2Fg%2F11ng6746vn!19sChIJdfi0A1XnPkcR2Y5NaC-mFgE?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2026-03-27",
   "period_to": "2026-09-27",
-  "reviews_in_period": 10,
+  "reviews_in_period": 5,
   "observed_at": "2026-09-27",
   "cards": [
     {
       "topic": "staff",
       "sentiment": "positive",
-      "mentions": 9,
+      "mentions": 5,
       "title": {
-        "en": "Extremely humane, dedicated, and empathetic veterinarians",
-        "sk": "Mimoriadne ľudskí, obetaví a empatickí veterinári"
+        "en": "Exceptional commitment and compassionate care",
+        "sk": "Výnimočná obetavosť a citlivý prístup"
       },
       "text": {
-        "en": "Clients consistently praise the veterinarian for an attentive, caring, and gentle demeanor towards both pets and owners. Reviews emphasize genuine empathy, clear explanations of treatment steps, and low-stress handling during every consultation in Košice.",
-        "sk": "Klienti zhodne chvália pozorný, láskavý a jemný prístup veterinárneho lekára k zvieratám aj ich majiteľom. Recenzie zdôrazňujú úprimnú empatiu, zrozumiteľné vysvetlenie liečebného postupu a bezstresové ošetrenie pri každej návšteve ambulancie v Košiciach."
+        "en": "Pet owners commend the long-standing dedication and deeply compassionate approach of the veterinarians in Budimír near Košice. Reviewers note that the team fights tirelessly for sick animals, offers home visits when needed, and chooses non-invasive treatments.",
+        "sk": "Majitelia zvierat vyzdvihujú dlhoročnú oddanosť a mimoriadne citlivý prístup veterinárok v Budimíre pri Košiciach. V recenziách sa opakuje, že lekárky nikdy nevzdávajú boj o ťažko chorých pacientov, v prípade potreby prídu na výjazd a volia šetrné riešenia."
       }
     },
     {
-      "topic": "communication",
+      "topic": "results",
       "sentiment": "positive",
-      "mentions": 8,
+      "mentions": 4,
       "title": {
-        "en": "Immediate phone response and willingness to travel",
-        "sk": "Rýchla telefonická odozva a ochota vyraziť do terénu"
+        "en": "Reliable treatment and grooming results",
+        "sk": "Spoľahlivé liečebné aj strihacie výsledky"
       },
       "text": {
-        "en": "Reviewers report accurate diagnostics, timely interventions, and reliable treatment plans for chronic and acute illnesses. Pets recover quickly, and owners appreciate follow-up advice, ongoing guidance, and clear instructions on home care after examinations.",
-        "sk": "Recenzenti hlásia presnú diagnostiku, včasné zásahy a spoľahlivé liečebné plány pri akútnych aj chronických ochoreniach. Zvieratá sa rýchlo zotavujú a majitelia oceňujú praktické rady, priebežnú podporu a zrozumiteľné inštrukcie pre domácu starostlivosť počas každej návštevy v Košiciach."
+        "en": "Clients consistently report positive therapeutic and grooming results. Reviews highlight successful recovery from pet injuries, long-term stabilization of critically ill dogs, and great satisfaction with the detailed coat trimming offered at the clinic.",
+        "sk": "Klienti vysoko oceňujú dosiahnuté liečebné aj hygienické výsledky. V hodnoteniach opisujú úspešné zvládnutie komplikovaných zranení, dlhodobú stabilizáciu vážne chorých psov aj veľkú spokojnosť s precíznym strihaním srsti priamo v priestoroch ambulancie."
       }
     },
     {
-      "topic": "prices",
+      "topic": "place",
       "sentiment": "positive",
-      "mentions": 6,
+      "mentions": 3,
       "title": {
-        "en": "Fair and reasonable pricing for mobile veterinary care",
-        "sk": "Férové a primerané ceny za výjazdové ošetrenie"
+        "en": "Calm courtyard location with parking",
+        "sk": "Pokojné dvorové prostredie s parkovaním"
       },
       "text": {
-        "en": "Pet owners note punctual consultations and fair, transparent pricing without hidden fees or unnecessary procedures. The clinic maintains good appointment scheduling, which significantly reduces stressful waiting room time for anxious pets and their families.",
-        "sk": "Majitelia zvierat si pochvaľujú dochvíľnosť vyšetrení a férové, transparentné ceny bez skrytých poplatkov a zbytočných úkonov. Ambulancia udržiava výborný systém objednávania, čo výrazne skracuje stresujúce čakanie nepokojných zvierat a ich rodín v čakárni."
+        "en": "Reviewers appreciate the peaceful location in the courtyard of a family house in Budimír. Visitors highlight easy courtyard parking, a quiet domestic atmosphere that keeps pets calm, and the practical combination of vet care with an on-site grooming salon.",
+        "sk": "Hodnotenia veľmi pozitívne opisujú zázemie ambulancie vo dvore rodinného domu v Budimíre. Návštevníci oceňujú bezproblémové parkovanie priamo vo dvore, pokojné domáce prostredie bez stresu pre zvieratá a dostupnosť strihacieho salónu na jednom mieste."
       }
     }
   ],
   "faq": [
     {
       "q": {
-        "en": "Does VETERAS provide home veterinary visits?",
-        "sk": "Poskytuje VETERAS výjazdy veterinára priamo domov?"
+        "en": "Is there parking available at the Budimír clinic?",
+        "sk": "Dá sa pri ambulancii v Budimíre bez problémov zaparkovať?"
       },
       "a": {
-        "en": "Yes, mobile house visits across Košice and surrounding villages are a core service of the practice.",
-        "sk": "Áno, výjazdová veterinárna starostlivosť priamo u majiteľa doma je jednou z hlavných služieb."
+        "en": "Yes, reviewers specifically praise convenient parking directly inside the courtyard of the premises.",
+        "sk": "Áno, recenzie výslovne chvália pohodlné a bezproblémové parkovanie priamo vo dvore areálu ambulancie."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do the veterinarians provide home visits?",
+        "sk": "Poskytujú veterinárky aj výjazdy priamo domov?"
+      },
+      "a": {
+        "en": "Yes, clients highlight that in difficult situations or emergencies the doctor is willing to visit patients at home.",
+        "sk": "Áno, klienti v recenziách oceňujú, že v prípade potreby či ťažkého stavu zvieraťa príde lekárka vyšetriť pacienta priamo domov."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dog grooming services available on-site?",
+        "sk": "Ponúka ambulancia aj služby strihania psov?"
+      },
+      "a": {
+        "en": "Yes, reviews note that a fully equipped dog grooming salon operates directly on the clinic premises.",
+        "sk": "Áno, hodnotenia uvádzajú, že priamo v priestoroch ambulancie funguje aj psí salón so strihaním a úpravou srsti."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "Where is the physical clinic located?",
-        "sk": "Kde sa nachádza kamenná ambulancia?"
+        "en": "Where is the clinic located?",
+        "sk": "Kde presne sa ambulancia nachádza?"
       },
       "a": {
-        "en": "The clinic is situated at Žižkova 13 in Košice (Juh district).",
-        "sk": "Ambulancia sídli na Žižkovej 13 v mestskej časti Košice-Juh."
-      },
-      "basis": "both"
-    },
-    {
-      "q": {
-        "en": "How can I book an appointment or house visit?",
-        "sk": "Ako si môžem dohodnúť vyšetrenie alebo výjazd?"
-      },
-      "a": {
-        "en": "Appointments and home calls are easily arranged by calling the clinic phone number.",
-        "sk": "Termín v ambulancii alebo výjazd k vám domov si jednoducho dohodnete telefonicky."
+        "en": "The clinic is located in Budimír (Budimír 227), easily accessible from Košice and neighboring municipalities.",
+        "sk": "Ambulancia sídli v obci Budimír (Budimír 227), s rýchlou dostupnosťou z Košíc aj okolitých obcí."
       },
       "basis": "both"
     }

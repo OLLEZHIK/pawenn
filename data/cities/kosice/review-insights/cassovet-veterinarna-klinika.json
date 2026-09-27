@@ -4,82 +4,93 @@
   "google_maps_url": "https://www.google.com/maps/place/Cassovet+-+veterin%C3%A1rna+klinika/data=!4m7!3m6!1s0x473ee04b0fac4bfd:0xec86cb855d527c87!8m2!3d48.7206482!4d21.214975!16s%2Fg%2F11bzx3ng08!19sChIJ_UusD0vgPkcRh3xSXYXLhuw?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2026-03-27",
   "period_to": "2026-09-27",
-  "reviews_in_period": 8,
+  "reviews_in_period": 5,
   "observed_at": "2026-09-27",
   "cards": [
     {
       "topic": "staff",
       "sentiment": "positive",
-      "mentions": 7,
+      "mentions": 5,
       "title": {
-        "en": "Professional veterinary team with thorough medical focus",
-        "sk": "Profesionálny tím veterinárov s dôkladným prístupom"
+        "en": "Empathetic and highly dedicated veterinary team",
+        "sk": "Empatický a vysoko obetavý tím veterinárov"
       },
       "text": {
-        "en": "Pet owners frequently praise the veterinary doctors and veterinary assistants for their empathetic, calm, and professional handling of dogs and cats. Many reviews emphasize that the team treats nervous pets with genuine patience and compassion during clinical visits.",
-        "sk": "Majitelia zvierat často chvália veterinárnych lekárov aj asistentov za empatický, pokojný a profesionálny prístup k psom a mačkám. Mnohé recenzie zdôrazňujú, že personál pristupuje k nepokojným zvieratám s úprimnou trpezlivosťou a porozumením v Košiciach-Západe."
+        "en": "Pet owners consistently praise the empathetic and professional staff at the clinic on KVP estate. Reviewers appreciate that the veterinarians take ample time to explain diagnoses clearly, manage difficult cases patiently, and treat pets with genuine care.",
+        "sk": "Majitelia zvierat vysoko oceňujú profesionálny a empatický prístup personálu na sídlisku KVP. Recenzie vyzdvihujú ochotu lekárov venovať pacientom dostatok času, zrozumiteľné vysvetlenie diagnóz aj citlivé zaobchádzanie so zvieratami bez zbytočného stresu."
       }
     },
     {
-      "topic": "place",
+      "topic": "results",
       "sentiment": "positive",
-      "mentions": 5,
+      "mentions": 4,
       "title": {
-        "en": "Modern clinic premises with in-house diagnostic tools",
-        "sk": "Moderné priestory kliniky s komplexnou diagnostikou"
+        "en": "Successful surgical and acute medical outcomes",
+        "sk": "Úspešná chirurgická a akútna liečba"
       },
       "text": {
-        "en": "Numerous reviewers report successful outcomes for complex surgical procedures, internal medicine treatments, and emergency care. Patients recover well, and owners appreciate thorough diagnostic explanations and diligent postoperative follow-ups throughout recovery.",
-        "sk": "Mnohí recenzenti hlásia úspešné výsledky pri náročných chirurgických zákrokoch, liečbe vnútorných chorôb aj akútnych stavoch. Pacienti sa po zákrokoch rýchlo zotavujú a majitelia oceňujú podrobné vysvetlenie diagnostiky a starostlivú pooperačnú kontrolu počas liečby."
+        "en": "Multiple clients report successful medical and surgical outcomes for their pets during critical situations. Reviewers highlight life-saving emergency surgeries, accurate diagnostic workups with ultrasound, and smooth recoveries after complex operations.",
+        "sk": "V recenziách sa opakovane spomína úspešná liečba akútnych stavov a chirurgických prípadov. Zákazníci opisujú záchranu života fenky pri nočnej operácii, rýchlu stabilizáciu tráviacich ťažkostí aj bezproblémovú rekonvalescenciu po operačných zákrokoch."
       }
     },
     {
       "topic": "waiting",
       "sentiment": "positive",
-      "mentions": 4,
+      "mentions": 3,
       "title": {
-        "en": "Well-timed appointments and weekend availability",
-        "sk": "Presné dodržiavanie termínov a víkendová prevádzka"
+        "en": "Prompt emergency triage and scheduling",
+        "sk": "Rýchle vybavenie pohotovosti a termínov"
       },
       "text": {
-        "en": "Clients value the well-equipped clinic environment, complete with modern diagnostic tools, clean examination rooms, and separate waiting areas. The organized facilities allow efficient workflows and calm consultations even during busy consultation hours in Košice.",
-        "sk": "Klienti oceňujú moderne vybavené priestory kliniky s diagnostickými prístrojmi, čistými vyšetrovňami a oddelenou čakárňou. Zariadené zázemie umožňuje plynulý chod vyšetrení a pokojné ošetrenie aj počas vyťažených ordinačných hodín v Košiciach na Západe pri každom dohodnutom termíne."
+        "en": "Clients commend the dependable emergency availability and prompt reception for urgent evening and holiday visits. Reviewers note accommodating appointment scheduling by phone and reassuring follow-up updates with photos while pets are in postoperative care.",
+        "sk": "Klienti oceňujú spoľahlivú dostupnosť pohotovostných vyšetrení aj rýchle vybavenie akútnych pacientov večer či cez sviatky. Veterinárna sestra ochotne zabezpečuje najbližšie voľné termíny a priebežne informuje majiteľov o stave hospitalizovaných zvierat."
       }
     }
   ],
   "faq": [
     {
       "q": {
-        "en": "Is Cassovet open on Sundays?",
-        "sk": "Je klinika Cassovet otvorená aj v nedeľu?"
+        "en": "How does emergency care work at Cassovet?",
+        "sk": "Ako funguje pohotovostná starostlivosť na klinike Cassovet?"
       },
       "a": {
-        "en": "Yes, Sunday afternoon consultation hours are open from 16:00 to 18:00 on Trieda KVP.",
-        "sk": "Áno, v nedeľu má klinika poobedňajšie ordinačné hodiny od 16:00 do 18:00."
+        "en": "The clinic operates an emergency phone line outside regular opening hours. Clients report prompt evening and holiday admissions for urgent surgical and medical cases.",
+        "sk": "Klinika prevádzkuje pohotovostnú telefónnu linku mimo bežných ordinačných hodín. Zákazníci potvrdzujú rýchly príjem akútnych a chirurgických prípadov večer aj cez sviatky."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "Where can visitors park when visiting the clinic?",
-        "sk": "Kde je možné pri návšteve kliniky zaparkovať?"
+        "en": "Are diagnostic tests performed on-site?",
+        "sk": "Vykonávajú sa diagnostické vyšetrenia priamo na mieste?"
       },
       "a": {
-        "en": "Public parking spaces are available directly around the building on Trieda KVP.",
-        "sk": "Parkovanie je k dispozícii na priľahlých parkovacích plochách priamo pri budove na Triede KVP."
+        "en": "Yes, reviews confirm immediate on-site blood tests and ultrasound imaging during acute visits, allowing veterinarians to determine treatment plans without delay.",
+        "sk": "Áno, recenzie potvrdzujú okamžité laboratórne vyšetrenia krvi a ultrazvukovú diagnostiku priamo na mieste, vďaka čomu lekári stanovia liečbu bez zbytočného odkladu."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "Do the doctors communicate in English?",
-        "sk": "Hovoria lekári na klinike po anglicky?"
+        "en": "Can animals stay overnight for postoperative observation?",
+        "sk": "Môžu zvieratá zostať na nočnej pooperačnej hospitalizácii?"
       },
       "a": {
-        "en": "Yes, the veterinary team speaks Slovak, English, and German to assist foreign clients.",
-        "sk": "Áno, veterinárny tím komunikuje v slovenskom, anglickom a nemeckom jazyku."
+        "en": "Yes, clients note that after urgent surgeries veterinary staff can monitor recovering pets overnight on the clinic premises.",
+        "sk": "Áno, zákazníci uvádzajú, že po urgentných operáciách personál kliniky zabezpečuje celonočný dohľad a monitorovanie zotavujúceho sa pacienta."
       },
-      "basis": "website"
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients receive updates after pet surgery?",
+        "sk": "Ako majitelia dostávajú informácie o stave zvieraťa po operácii?"
+      },
+      "a": {
+        "en": "Clients highlight attentive communication from veterinary nurses who promptly share status reports, photos, and video updates after surgical procedures.",
+        "sk": "Klienti vyzdvihujú ústretovú komunikáciu personálu, ktorý majiteľom po zákroku obratom posiela informácie o stave psíka vrátane fotografií a videí."
+      },
+      "basis": "reviews"
     }
   ]
 }

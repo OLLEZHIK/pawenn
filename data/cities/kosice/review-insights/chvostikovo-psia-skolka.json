@@ -4,82 +4,93 @@
   "google_maps_url": "https://www.google.com/maps/place/Chvost%C3%ADkovo+psia+%C5%A1k%C3%B4lka/data=!4m7!3m6!1s0x473ee1b9c6dba0a3:0x8af30332919e033!8m2!3d48.6988683!4d21.2596651!16s%2Fg%2F11w8js71jm!19sChIJo6DbxrnhPkcRM-AZKTMwrwg?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2026-03-27",
   "period_to": "2026-09-27",
-  "reviews_in_period": 7,
+  "reviews_in_period": 5,
   "observed_at": "2026-09-27",
   "cards": [
     {
-      "topic": "animals",
-      "sentiment": "positive",
-      "mentions": 7,
-      "title": {
-        "en": "Safe socialization and cage-free playtime for dogs",
-        "sk": "Bezpečná socializácia a celodenná voľnosť bez klietok"
-      },
-      "text": {
-        "en": "Dog owners express immense gratitude for the caring, loving, and attentive treatment their pets receive at daycare. Reviews emphasize that staff truly understand dog body language and look after each canine guest as their own family member in Košice across all regular appointments.",
-        "sk": "Majitelia psov vyjadrujú veľkú vďaku za láskavú, pozornú a obetavú starostlivosť, ktorú ich psíkovia v škôlke dostávajú. Recenzie zdôrazňujú, že personál skvele rozumie reči psieho tela a stará sa o každého psa ako o vlastného člena rodiny v Košiciach pri každom dohodnutom termíne."
-      }
-    },
-    {
       "topic": "staff",
-      "sentiment": "positive",
-      "mentions": 6,
-      "title": {
-        "en": "Caring, experienced caregivers with constant oversight",
-        "sk": "Láskavé a skúsené opatrovateľky so stálym dohľadom"
-      },
-      "text": {
-        "en": "Clients praise the safe, supervised playtime and professional socialization with other compatible dogs in spacious grounds. Dogs return home happy, healthy, well-exercised, and pleasantly tired after spending full active days in supervised daycare during their visits in Košice.",
-        "sk": "Klienti chvália bezpečné hry pod stálym dohľadom a odbornú socializáciu s ostatnými psíkmi v priestrannom areáli. Psíkovia sa vracajú domov šťastní, vybehaní a príjemne unavení po celom aktívnom dni strávenom v spoločnosti kamarátov počas každej návštevy v Košiciach."
-      }
-    },
-    {
-      "topic": "communication",
       "sentiment": "positive",
       "mentions": 5,
       "title": {
-        "en": "Regular daily photo and video updates for owners",
-        "sk": "Pravidelné fotky a videá počas celého dňa pre majiteľov"
+        "en": "Devoted and caring daycare operators",
+        "sk": "Obetaví a starostliví majitelia škôlky"
       },
       "text": {
-        "en": "Owners highlight reliable communication, receiving regular photo and video updates of their pets throughout their stay. The daycare facility is secure, clean, and provides tremendous peace of mind for working pet parents across Košice across all regular appointments.",
-        "sk": "Majitelia vyzdvihujú spoľahlivú komunikáciu a pravidelné zasielanie fotiek a videí z celého priebehu dňa. Zázemie škôlky je bezpečné, čisté a poskytuje majiteľom neoceniteľný pokoj na duši počas pracovných povinností v celých Košiciach pri každom dohodnutom termíne."
+        "en": "Dog owners express deep appreciation for the caring young couple operating the daycare on Poľská street. Reviews highlight their endless patience, warmth, and genuine love for animals, allowing owners to leave their pets during busy workdays with peace of mind.",
+        "sk": "Majitelia psíkov vyjadrujú veľké nadšenie z mladého páru, ktorý škôlku na Poľskej ulici prevádzkuje. V recenziách vyzdvihujú ich obrovskú trpezlivosť, srdečný prístup a skutočnú lásku k zvieratám, vďaka čomu zverujú svojich psov do škôlky s úplnou dôverou."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Enthusiastic dogs and welcoming large breeds",
+        "sk": "Nadšení psíci a prijímanie veľkých plemien"
+      },
+      "text": {
+        "en": "Reviewers emphasize the positive socialization and visible happiness of dogs across all sizes and temperaments. Clients appreciate that large breeds such as Great Danes and Rhodesian Ridgebacks are welcomed seamlessly and dogs eagerly anticipate their playmates.",
+        "sk": "Hodnotenia zdôrazňujú bezproblémovú socializáciu a skvelú náladu psíkov všetkých veľkostí. Klienti oceňujú, že škôlka bez problémov prijíma aj veľké a obrie plemená ako nemecká doga či rodézsky ridžbek a psy sa ráno tešia na spoločné hry so psími kamarátmi."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Active playtime and safe daily routine",
+        "sk": "Aktívne hry a bezpečný denný režim"
+      },
+      "text": {
+        "en": "The daycare facility provides a secure and active environment where energetic dogs can exercise freely. Reviewers highlight attentive daily walking, timely feeding, ball play, and safe group dynamics that leave pets pleasantly tired and content by evening.",
+        "sk": "Denná škôlka ponúka ideálne zázemie na bezpečné vybitie energie energických psov. Recenzenti vyzdvihujú pravidelné venčenie, kŕmenie, hry s loptičkami a bezpečný priestor, z ktorého sa psy vracajú domov príjemne unavení, spokojní a psychicky vyrovnaní."
       }
     }
   ],
   "faq": [
     {
       "q": {
-        "en": "Where is the Chvostíkovo daycare located?",
-        "sk": "Kde presne sídli psia škôlka Chvostíkovo?"
+        "en": "Does Chvostíkovo accept large dog breeds?",
+        "sk": "Prijíma škôlka Chvostíkovo aj veľké plemená psov?"
       },
       "a": {
-        "en": "The facility is situated at Poľská 6 in Košice-Juh.",
-        "sk": "Škôlka sídli na Poľskej ulici 6 v mestskej časti Košice-Juh."
+        "en": "Yes, reviewers specifically note that large and giant breeds such as Rhodesian Ridgebacks and Great Danes are accepted without any issues.",
+        "sk": "Áno, recenzie výslovne potvrdzujú, že škôlka bez problémov prijíma aj veľké a obrie plemená, ako sú rodézsky ridžbek či nemecká doga."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the daily routine for dogs in daycare?",
+        "sk": "Aký je denný režim psíkov v dennej škôlke?"
+      },
+      "a": {
+        "en": "Dogs enjoy supervised socialization, active ball games, outdoor walking, regular feeding, and quiet rest periods under continuous caregiver supervision.",
+        "sk": "Psíci majú zabezpečenú socializáciu pod dohľadom, hry s loptičkami, venčenie, kŕmenie a čas na oddych v kolektíve ostatných psov."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "Is a trial visit required before first stay?",
-        "sk": "Je pred prvým pobytom potrebná adaptačná návšteva?"
+        "en": "Is a trial stay required before regular daycare?",
+        "sk": "Vyžaduje sa pred nástupom do škôlky skúšobný pobyt?"
       },
       "a": {
-        "en": "Yes, an introductory trial visit ensures your pet feels comfortable with the pack.",
-        "sk": "Áno, krátka skúšobná návšteva je dôležitá pre overenie znášanlivosti psíka v kolektíve."
+        "en": "Yes, a trial stay is standard practice to verify how well the dog integrates with other dogs and adapts to the daycare environment.",
+        "sk": "Áno, pred pravidelnou dochádzkou sa absolvuje skúšobný pobyt, aby sa overilo, ako psík zvláda kolektív a prostredie škôlky."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "What are the weekday daycare hours?",
-        "sk": "V akom čase škôlka cez týždeň funguje?"
+        "en": "What are the operating hours of the daycare?",
+        "sk": "Aké sú prevádzkové hodiny škôlky?"
       },
       "a": {
-        "en": "Daycare operates Monday to Friday from 06:30 in the morning until 18:00.",
-        "sk": "Denná škôlka funguje od pondelka do piatka od 06:30 do 18:00."
+        "en": "The facility is open Monday to Friday from 06:30 to 18:00, making it convenient for owners during standard workdays.",
+        "sk": "Škôlka je otvorená v pracovných dňoch od pondelka do piatka od 06:30 do 18:00, čo vyhovuje bežnému pracovnému času majiteľov."
       },
-      "basis": "both"
+      "basis": "website"
     }
   ]
 }

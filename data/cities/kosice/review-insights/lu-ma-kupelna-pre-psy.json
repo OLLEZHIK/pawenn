@@ -4,80 +4,91 @@
   "google_maps_url": "https://www.google.com/maps/place/Lu.Ma.+K%C3%BApe%C4%BE%C5%88a+pre+psy/data=!4m7!3m6!1s0x473ee17c37132c19:0xa892990837a3ec56!8m2!3d48.7085553!4d21.267488!16s%2Fg%2F11jz6f93mp!19sChIJGSwTN3zhPkcRVuyjNwiZkqg?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2026-03-27",
   "period_to": "2026-09-27",
-  "reviews_in_period": 9,
+  "reviews_in_period": 5,
   "observed_at": "2026-09-27",
   "cards": [
     {
-      "topic": "staff",
-      "sentiment": "positive",
-      "mentions": 8,
-      "title": {
-        "en": "Gentle, skilled groomers creating a stress-free bath",
-        "sk": "Láskavé a skúsené groomerky s prístupom bez stresu"
-      },
-      "text": {
-        "en": "Pet owners highlight the convenience of the self-service dog washing facilities, equipped with professional raised tubs and blow dryers. Washing large or muddy dogs is easy, hygienic, and stress-free without making any mess in the home bathroom during their visits in Košice.",
-        "sk": "Majitelia psov vyzdvihujú pohodlie samoobslužného kúpania psov s profesionálnymi vyvýšenými vaňami a výkonnými fénmi. Kúpanie veľkých či zablatených psov je jednoduché, hygienické a bez zbytočného neporiadku v domácej kúpeľni v Košiciach pri každom dohodnutom termíne."
-      }
-    },
-    {
       "topic": "results",
-      "sentiment": "positive",
-      "mentions": 7,
-      "title": {
-        "en": "Silky, clean coats and professional breed styling",
-        "sk": "Hebká, voňavá srsť a profesionálna strihová úprava"
-      },
-      "text": {
-        "en": "Reviewers praise the salon owner for helpful guidance, friendly onboarding, and professional grooming assistance during visits. First-time visitors receive clear instructions on using equipment and shampoos safely for optimal coat cleaning results during their visits in Košice.",
-        "sk": "Recenzenti chvália majiteľku salónu za ochotné usmernenie, milé privítanie a odbornú asistenciu pri úprave srsti. Noví návštevníci dostanú jasné inštrukcie k obsluhe zariadenia a výberu šampónov pre dokonalý výsledok umytia ich psíka počas každej návštevy v Košiciach."
-      }
-    },
-    {
-      "topic": "place",
       "sentiment": "positive",
       "mentions": 5,
       "title": {
-        "en": "Spotless, modern grooming salon with ergonomic tubs",
-        "sk": "Čistý a moderný psí salón s ergonomickým vybavením"
+        "en": "Visible coat de-shedding and care results",
+        "sk": "Viditeľné výsledky odchlpovania a kúpania"
       },
       "text": {
-        "en": "Clients emphasize the clean, well-maintained premises, high-quality shampoos, and very affordable pricing for all dog sizes. The facility provides an efficient, practical solution for regular dog hygiene and coat care in the Košice-Sever district across all regular appointments.",
-        "sk": "Klienti zdôrazňujú čisté, udržiavané priestory, kvalitnú kozmetiku a veľmi dostupné ceny služieb pre všetky veľkosti psov. Prevádzka predstavuje praktické a efektívne riešenie pravidelnej hygieny a starostlivosti o srsť v Košiciach na Severe pri každom dohodnutom termíne."
+        "en": "Customers report outstanding visible grooming results at the salon on Jarmočná street. Reviews consistently praise the de-shedding treatments with noticeable before-and-after differences, fragrant thoroughly brushed coats, and soothing ozone therapy.",
+        "sk": "Zákazníci sú nadšení z viditeľných výsledkov úpravy srsti na Jarmočnej ulici v Košiciach. V recenziách vyzdvihujú najmä odchlpovaciu kúru s výrazným rozdielom pred a po zákroku, voňavú srsť, precízne vyčesanie a účinnú ozónoterapiu pre citlivú pokožku psíkov."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Kind and patient approach to every pet",
+        "sk": "Milý a trpezlivý prístup ku každému psíkovi"
+      },
+      "text": {
+        "en": "The salon team earns high praise for their friendly, patient, and caring demeanor with all dogs. Owners appreciate that groomers handle nervous pets gently, provide helpful advice on home coat maintenance, and quickly accommodate urgent appointment requests.",
+        "sk": "Personál salónu si získal klientov veľmi milým, trpezlivým a láskavým prístupom k psíkom. Majitelia vyzdvihujú, že personál zvieratá vôbec nestresuje, ochotne poradí s vhodnou následnou starostlivosťou a rýchlo nájde termín aj pri akútnej potrebe ošetrenia."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful consultations and souvenir photos",
+        "sk": "Užitočné poradenstvo a fotografie na pamiatku"
+      },
+      "text": {
+        "en": "Pet owners highly value clear communication and thoughtful customer touches during grooming appointments. Reviewers mention receiving updates on how their pet handled the bath, along with a keepsake photo and a stylish neck bandana as a delightful parting gift.",
+        "sk": "Klienti si veľmi pochvaľujú priebežnú komunikáciu počas procedúr a milé darčeky na pamiatku. Majitelia dostávajú informácie o tom, ako psík zvládol kúpanie, a ako príjemný bonus si odnášajú peknú pamätnú fotografiu či štýlovú šatku na krk pre svojho miláčika."
       }
     }
   ],
   "faq": [
     {
       "q": {
-        "en": "Where is the Lu.Ma. salon located?",
-        "sk": "Kde presne sídli salón Lu.Ma.?"
+        "en": "What is the de-shedding treatment at Lu.Ma.?",
+        "sk": "Čo zahŕňa odchlpovacia kúra v salóne Lu.Ma.?"
       },
       "a": {
-        "en": "The salon is situated at Trieda KVP 1 in Košice (Sídlisko KVP).",
-        "sk": "Salón sa nachádza na Triede KVP 1 v mestskej časti Košice - Sídlisko KVP."
+        "en": "Clients describe the de-shedding treatment as a comprehensive bathing and specialized detangling process that delivers a dramatic before-and-after difference in shedding.",
+        "sk": "Klienti opisujú odchlpovaciu kúru ako dôkladné kúpanie a špeciálne vyčesávanie podsady, ktoré prináša viditeľný rozdiel v pĺznutí pred a po procedúre."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is ozone therapy available at the salon?",
+        "sk": "Je v salóne k dispozícii ozónoterapia?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm ozone bath treatments are available for dogs needing dermatological care, with flexible scheduling for acute needs.",
+        "sk": "Áno, recenzie potvrdzujú dostupnosť ozónoterapie pre psy vyžadujúce regeneráciu pokožky, pričom personál vie vyhovieť aj pri akútnej potrebe termínu."
       },
       "basis": "both"
     },
     {
       "q": {
-        "en": "Can owners stay with their dog during the grooming session?",
-        "sk": "Môže majiteľ zostať pri psíkovi počas kúpania a strihania?"
+        "en": "Do clients receive photos of their groomed dogs?",
+        "sk": "Dostávajú majitelia fotografie svojich upravených psíkov?"
       },
       "a": {
-        "en": "Yes, owners are welcome to stay and support sensitive pets during treatment.",
-        "sk": "Áno, prítomnosť majiteľa počas procedúry je po dohode možná a pomáha citlivejším psom."
+        "en": "Yes, multiple reviewers mention receiving a souvenir photo and a decorative neck scarf upon picking up their groomed pet.",
+        "sk": "Áno, viacerí recenzenti uvádzajú, že ako milú pozornosť dostali pri prevzatí upraveného psíka pamätnú fotografiu a peknú šatku na krk."
       },
-      "basis": "both"
+      "basis": "reviews"
     },
     {
       "q": {
-        "en": "Is prior appointment reservation necessary?",
-        "sk": "Je nutné sa na kúpanie vopred objednať?"
+        "en": "Do dogs need an appointment in advance?",
+        "sk": "Je potrebné objednať sa na kúpanie vopred?"
       },
       "a": {
-        "en": "Yes, booking an appointment in advance by phone or online is required.",
-        "sk": "Áno, na termín kúpania alebo strihovej úpravy je potrebné sa vopred objednať."
+        "en": "Yes, grooming services are provided by prior appointment to ensure dedicated individual attention for each dog.",
+        "sk": "Áno, návštevu je potrebné si vopred rezervovať, aby bol zabezpečený pokojný a individuálny čas vyhradený pre každého psíka."
       },
       "basis": "both"
     }
