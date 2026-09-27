@@ -63,9 +63,10 @@ export const en = {
     fish: "Fish",
   } as Record<string, string>,
   home: {
-    metaTitle: (where: string) => `Pet Services ${where} – vets, grooming, pet hotels | Pawenn`,
-    metaDescription: (where: string) =>
-      `Find trusted pet services ${where} - groomers, vets, hotels, training and more`,
+    /** `where` is null once the site covers several cities. */
+    metaTitle: (where: string | null) => `Pet Services${where ? ` ${where}` : ""} – vets, grooming, pet hotels | Pawenn`,
+    metaDescription: (where: string | null) =>
+      `Find trusted pet services${where ? ` ${where}` : ""} - groomers, vets, hotels, training and more`,
     h1: "Happy pet, easy mind",
     subtitle: "Vets, groomers, pet hotels and trainers with phone numbers, opening hours and prices. Every listing says where the details come from and when we checked them.",
     popular: "Popular:",
@@ -77,6 +78,10 @@ export const en = {
     browseTitle: "What does your pet need today?",
     browseBody: "Six kinds of pet care, each with its own list of places and a source for every listing.",
     places: (n: number) => `${n} ${n === 1 ? "place" : "places"}`,
+    placesInCities: (n: number, cities: number) => `${n} ${n === 1 ? "place" : "places"} in ${cities} cities`,
+    chooseCityTitle: (label: string) => `${label}: choose a city`,
+    chooseCityIntro: "Pick your city - or let us find the nearest one.",
+    nearMe: "Nearest to me",
     exploreEyebrow: "Explore the city",
     exploreTitle: (city: string) => `What's in your part of ${city}?`,
     exploreBody: "Tap a district to see what's nearby. Bigger bubbles mean more places listed.",
@@ -122,7 +127,7 @@ export const en = {
         body: "Regular brushing catches mats before they need to be shaved out, and it's a lot cheaper than a grooming visit for a tangled coat.",
       },
     ] as { title: string; body?: string; items?: string[] }[],
-    ctaTitle: (where: string) => `Run a pet business ${where}?`,
+    ctaTitle: (where: string | null) => `Run a pet business${where ? ` ${where}` : ""}?`,
     ctaBody: "Add your salon, clinic or hotel, or tell us if something on your listing is out of date.",
     ctaButton: "Add or fix a listing",
   },
