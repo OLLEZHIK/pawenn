@@ -46,3 +46,16 @@ Veteras, UVLF, Denny, Labkáčik, PAWza/Jureková, KK Anička — 33 строк�
 - В PR: список мест с ≥ 20 оценками без сводки и причина; таблица по
   части 2 — сколько мест получили цены, сколько `prices: none (...)`.
 - Самопроверка `quality.md` (§2) в PR.
+
+## Часть 3. Телефоны, которых нет на сайте места (добавлено 2026-09-27)
+
+`npm run verify-city -- kosice` сверил телефоны с сайтами мест. 11 номеров
+«левая рука» исправила по сайтам (в `notes` — `phone: <страница>`). У этих
+6 мест номера на сайте нет — **скопировать телефон с карточки Google Maps**
+(не набирать) и записать в `notes` `phone: google maps, checked <дата>`:
+`mala-farma-kosice`, `mvdr-zuzana-strazanova-veterinarna-ambulancia`,
+`psia-sportova-akademia`, `salon-pre-psov-lump`,
+`zdraviezvierat-sk-prirodne-produkty-pre-zvieratka`,
+`veterinarna-klinika-slon` (на klinikaslon.sk — 0948 975 948 и адрес
+«Vozárova 4, 040 11», в данных — Vozárova 1, 040 17 и 055 729 02 88:
+проверить, то же ли это место).
