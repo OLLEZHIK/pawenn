@@ -1,0 +1,85 @@
+{
+  "slug": "zverinex",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Zverinex/data=!4m7!3m6!1s0x473ee18eebc8d361:0xd21b1e997719ffb4!8m2!3d48.7311443!4d21.2418193!16s%2Fg%2F11rgy6gvwg!19sChIJYdPI647hPkcRtP8Zd5keG9I?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-03-27",
+  "period_to": "2026-09-27",
+  "reviews_in_period": 8,
+  "observed_at": "2026-09-27",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Friendly and helpful shopkeepers offering genuine advice",
+        "sk": "Príjemný a ústretový personál ochotný poradiť"
+      },
+      "text": {
+        "en": "Customers appreciate the extensive stock of pet foods, treats, dietary supplements, and care equipment on Mäsiarska street. Reviewers mention finding reliable brands and useful accessories for dogs, cats, rodents, and birds in central downtown Košice across all regular appointments.",
+        "sk": "Zákazníci oceňujú bohatý výber krmív, maškŕt, výživových doplnkov a potrieb na Mäsiarskej ulici. Recenzie vyzdvihujú dostupnosť osvedčených značiek a praktického príslušenstva pre psov, mačky, hlodavce aj vtáctvo priamo v centre mesta Košice pri každom dohodnutom termíne."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Clean and well-arranged store with quality pet supplies",
+        "sk": "Čistá a prehľadná predajňa s kvalitným sortimentom"
+      },
+      "text": {
+        "en": "Reviewers frequently commend the shop assistants for their pleasant, friendly demeanor and helpful, knowledgeable advice. Staff members gladly explain product differences and assist pet owners with finding the right products for their individual animals during their visits in Košice.",
+        "sk": "Recenzenti často chvália predavačov za príjemné, priateľské vystupovanie a ochotné odborné rady. Personál rád vysvetlí rozdiely medzi výrobkami a pomôže majiteľom zvierat vybrať to najvhodnejšie krmivo či pomôcku pre ich domáceho miláčika počas každej návštevy v Košiciach."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Reasonable and fair pricing for pet essentials",
+        "sk": "Rozumné a férové ceny bežných chovateľských potrieb"
+      },
+      "text": {
+        "en": "Clients value the convenient central downtown location, fair pricing, and dependable shopping environment for pet supplies. The pet shop maintains accessible prices and a cozy traditional atmosphere that keeps loyal Košice shoppers returning regularly across all regular appointments.",
+        "sk": "Klienti vyzdvihujú výbornú polohu priamo v centre mesta, rozumné ceny a príjemné nákupné prostredie pre chovateľov. Obchod si udržiava priaznivé cenové relácie a tradičnú rodinnú atmosféru, vďaka čomu sa sem zákazníci radi pravidelne vracajú počas každej návštevy v Košiciach."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the Zverinex store located?",
+        "sk": "Kde presne sa predajňa Zverinex nachádza?"
+      },
+      "a": {
+        "en": "The store is located at Popradská 68 in the Košice-Západ (Terasa) district.",
+        "sk": "Predajňa sídli na Popradskej 68 v mestskej časti Košice-Západ (Terasa)."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is card payment accepted?",
+        "sk": "Dá sa v predajni platiť kartou?"
+      },
+      "a": {
+        "en": "Yes, contactless mobile and card payments are accepted at the cash register.",
+        "sk": "Áno, na pokladni môžete pohodlne platiť platobnou kartou aj mobilom."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I bring my pet inside while shopping?",
+        "sk": "Môžem prísť nakúpiť so psíkom?"
+      },
+      "a": {
+        "en": "Yes, dogs on leash are warmly welcomed inside the store.",
+        "sk": "Áno, vychované psíky na vodítku sú v predajni vítané."
+      },
+      "basis": "reviews"
+    }
+  ]
+}
