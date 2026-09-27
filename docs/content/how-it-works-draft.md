@@ -45,7 +45,7 @@ Yes, at any time. If you own or manage a listed salon, veterinary clinic, or pet
 No. In the MVP stage, Pawenn is a direct discovery directory, not a booking intermediary. When you find a service you like, you can call them directly (`tel:`), visit their official website, email them, or get driving/walking directions in your preferred map app. You arrange appointments directly with the provider on their own terms, without middleman fees.
 
 ### Do you collect my personal data when I browse?
-No. You do not need to register or log in to use Pawenn. We do not use cross-site tracking cookies or advertising pixels. Our website analytics are completely cookie-less and privacy-focused (powered by privacy-preserving analytics like Plausible / Umami), recording only aggregate page visits without storing personal identifiers or IP addresses.
+No. You do not need to register or log in to use Pawenn. We do not use cross-site tracking cookies or advertising pixels. Our website analytics (Vercel Web Analytics) set no cookies and show us only aggregated page visits - which pages are read, from which country and on which kind of device - not who you are. Details are in our [Privacy Policy](/en/privacy-policy/).
 
 ### How often is the information updated?
 We maintain an ongoing verification process. Every listing displays its last verified date. Information older than 90 days is flagged for re-check against official websites, registries, or direct confirmation with the business. If you spot an outdated phone number or address, you can notify us directly from the listing card.

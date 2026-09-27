@@ -2,7 +2,7 @@
 
 # Privacy Policy (Draft)
 
-*Last updated: September 25, 2026*
+*Last updated: September 27, 2026*
 
 This Privacy Policy explains how **Pawenn** ("we", "us", or "our"), accessible at `pawenn.com`, processes information when you use our online pet services directory.
 
@@ -42,8 +42,8 @@ When you interact with a business listing (for example, clicking to initiate a p
 - **Legal Basis:** Legitimate interests under Article 6(1)(f) GDPR (operating and evaluating the directory service).
 
 ### B. Website Analytics
-We utilize a privacy-respecting, cookieless web analytics solution (such as Plausible Analytics or Umami).
-- **Processing Details:** Analytics scripts measure aggregate page visits, device types (mobile vs. desktop), and country-level geographic location without storing persistent identifiers or setting cookies on your device.
+We use **Vercel Web Analytics**, a cookieless analytics service provided by Vercel Inc.
+- **Processing Details:** For each page view, the service records the time, the page address (with filtered query parameters), the referring website, approximate location (country, region, city), device type, operating system and browser with their versions. It sets no cookies on your device. Visits are counted using a hash created from the incoming request; this visitor session is not stored permanently and is discarded after 24 hours. Pawenn sees only aggregated statistics, not individual visitors, and the data is not used to follow you across other websites.
 - **Purpose:** To understand aggregate platform usage and improve site responsiveness without personal profiling.
 - **Legal Basis:** Legitimate interests under Article 6(1)(f) GDPR.
 
@@ -92,8 +92,8 @@ In accordance with the General Data Protection Regulation (Regulation (EU) 2016/
 
 We do not transfer your personal information to third parties, except for technical service providers (data processors) strictly necessary for hosting and delivering the platform:
 - **Hosting and Cloud Infrastructure:** Platform hosting and CDN edge delivery (e.g., Vercel / Cloudflare).
-- **Database Infrastructure:** Managed PostgreSQL database via Prisma Postgres (see `docs/database.md`).
-- **Analytics Provider:** Cookieless analytics provider operating under GDPR-compliant EU data processing agreements.
+- **Database Infrastructure:** Managed PostgreSQL database via Neon (see `docs/database.md`).
+- **Analytics Provider:** Vercel Inc. (Vercel Web Analytics, see section 3.B).
 
 All service providers process data strictly on our behalf under compliant Data Processing Agreements (DPAs).
 
