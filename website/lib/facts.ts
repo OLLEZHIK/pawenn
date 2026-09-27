@@ -154,6 +154,26 @@ const FAQ: Record<string, (category: BusinessCategory) => QA | null> = {
     en: { q: "Can we meet before booking?", a: "Yes, a meeting before the first booking is offered." },
     sk: { q: "Dá sa zoznámiť pred objednaním?", a: "Áno, pred prvým objednaním ponúkajú zoznámenie." },
   }),
+  pet_passport: () => ({
+    en: { q: "Can I get a pet passport there?", a: "Yes, the clinic issues EU pet passports." },
+    sk: { q: "Vystavia tu pas pre zviera?", a: "Áno, ambulancia vystavuje európsky pas pre zvieratá." },
+  }),
+  owner_can_stay: () => ({
+    en: { q: "Can I stay with my pet?", a: "Yes, the salon lets owners stay during grooming." },
+    sk: { q: "Môžem zostať pri zvieratku?", a: "Áno, salón umožňuje majiteľom zostať počas úpravy." },
+  }),
+  pickup_service: () => ({
+    en: { q: "Can they pick up my pet?", a: "Yes, the place offers pick-up and drop-off." },
+    sk: { q: "Prídu si po zvieratko?", a: "Áno, podnik ponúka dovoz a odvoz zvieratka." },
+  }),
+  cage_free: () => ({
+    en: { q: "Are pets kept in cages?", a: "No, by the place's own information it has no cages or kennels." },
+    sk: { q: "Sú zvieratá v klietkach?", a: "Nie, podľa informácií podniku bez klietok a kotercov." },
+  }),
+  medication: () => ({
+    en: { q: "Can they give my pet medication?", a: "Yes, the place states it gives medication." },
+    sk: { q: "Podajú zvieratku lieky?", a: "Áno, podnik uvádza, že podá lieky." },
+  }),
   delivery: () => ({
     en: { q: "Do they deliver?", a: "Yes, the shop offers delivery." },
     sk: { q: "Doručujú?", a: "Áno, obchod ponúka doručenie." },
