@@ -32,7 +32,6 @@ import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/
 import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { CategoryIcon } from "./CategoryIcon";
-import { AnimalIcon } from "./AnimalIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
 
 interface CategoryListingProps {
@@ -93,9 +92,10 @@ export async function CategoryListing({
   const servicePets: readonly string[] = category ? animalsForService(category) : ANIMALS;
   const animal = isAnimal(requestedAnimal) && servicePets.includes(requestedAnimal) ? requestedAnimal : undefined;
   // With a pet filter we still load the whole list: most places haven't
-  // told us every pet they cater for yet (Business.animals is mostly just
-  // dog/cat), so an unconfirmed place is shown in a second, clearly
-  // labelled group instead of vanishing from an empty result.
+  // told us every pet they cater for (Business.animals is no longer
+  // collected), so places confirmed for the pet come first and the rest
+  // follow in the same list - no separate "not yet confirmed" group
+  // (owner, 2026-09-27).
   // The city page (no category) lists every service; tiers still compare
   // each place with its own category.
   const [all, categoryAggregates, priceTiers, attributeCounts, categoryAnimals] = await Promise.all([
@@ -151,8 +151,7 @@ export async function CategoryListing({
   // An explicit sort wins over "near me" ordering (distance stays shown).
   const ordered = <T extends { business: (typeof all)[number]; km: number | null }>(items: T[]) =>
     sort ? sortByListing(items, sort, (i) => i.business) : origin ? [...items].sort(byDistance) : items;
-  const listItems = ordered(withDistance);
-  const unconfirmedList = ordered(unconfirmedItems);
+  const listItems = [...ordered(withDistance), ...ordered(unconfirmedItems)];
 
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
@@ -324,8 +323,7 @@ export async function CategoryListing({
 
           <p className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
             {origin && <RouteIcon className="h-4 w-4 text-brand-blue" />}
-            {animal ? t.listing.confirmedFor(found.length, t.animals[animal]) : t.listing.results(found.length)}
-            {unconfirmed.length > 0 ? ` · ${t.listing.moreToCheck(unconfirmed.length)}` : ""}
+            {t.listing.results(listItems.length)}
             {hiddenUnrated > 0 ? ` · ${t.listing.hiddenUnrated(hiddenUnrated)}` : ""}
             {hiddenNoHours > 0 ? ` · ${t.listing.hiddenNoHours(hiddenNoHours)}` : ""} ·{" "}
             {sort === "rating"
@@ -353,30 +351,6 @@ export async function CategoryListing({
               ))
             )}
           </div>
-
-          {animal && unconfirmedList.length > 0 && (
-            <section className="mt-10">
-              <div className="rounded-[var(--radius-card)] border border-dashed border-brand-amber/50 bg-brand-amber/5 p-5">
-                <h2 className="flex items-center gap-2 font-heading text-lg font-bold text-foreground">
-                  <AnimalIcon animal={animal} className="h-5 w-5 text-brand-amber" />
-                  {t.listing.unconfirmedTitle(t.animals[animal])}
-                </h2>
-                <p className="mt-1 text-sm text-foreground/70">{t.listing.unconfirmedBody}</p>
-              </div>
-              <div className="mt-4 space-y-4">
-                {unconfirmedList.map(({ business, km }) => (
-                  <BusinessCard
-                    key={business.id}
-                    business={business}
-                    priceTier={priceTiers.get(business.id) ?? null}
-                    locale={locale}
-                    distanceKm={km}
-                    showCategory={!category}
-                  />
-                ))}
-              </div>
-            </section>
-          )}
 
           {faqs.length > 0 && (
             <section className="mt-16">

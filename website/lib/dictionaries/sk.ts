@@ -251,11 +251,6 @@ export const sk: Dictionary = {
     allOf: (city: string) => `Celá ${city}`,
     results: (n: number) => `${n} ${plural("sk", n, { one: "výsledok", few: "výsledky", other: "výsledkov" })}`,
     forAnimal: (animal: string) => ` - ${animal.toLowerCase()}`,
-    unconfirmedTitle: (animal: string) => `Zatiaľ nepotvrdené: ${animal.toLowerCase()}`,
-    unconfirmedBody:
-      "Tieto podniky nám zatiaľ neuviedli, či sa venujú aj tomuto zvieraťu. Mnohé áno - pred návštevou im radšej zavolajte.",
-    moreToCheck: (n: number) => `ďalšie na overenie: ${n}`,
-    confirmedFor: (n: number, animal: string) => `${cap(animal)} – potvrdené: ${n}`,
     fairTurn: "poradie sa mení každý deň, aby mal každý rovnakú šancu",
     nearest: "najbližšie ako prvé",
     sortLabel: "Zoradiť",

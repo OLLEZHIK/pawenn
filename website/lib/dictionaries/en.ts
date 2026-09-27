@@ -230,11 +230,6 @@ export const en = {
     allOf: (city: string) => `All of ${city}`,
     results: (n: number) => `${n} ${n === 1 ? "result" : "results"}`,
     forAnimal: (animal: string) => ` for ${animal.toLowerCase()}`,
-    unconfirmedTitle: (animal: string) => `Not yet confirmed for ${animal.toLowerCase()}`,
-    unconfirmedBody:
-      "These places haven't told us whether they cater for this pet. Many do - give them a quick call before you go.",
-    moreToCheck: (n: number) => `${n} more to check`,
-    confirmedFor: (n: number, animal: string) => `${n} confirmed for ${animal.toLowerCase()}`,
     fairTurn: "order changes daily so everyone gets a fair turn",
     nearest: "nearest first",
     sortLabel: "Sort",
