@@ -2,6 +2,8 @@
 
 Dokument zawiera kompletne zestawienie polskich tłumaczeń wszystkich stałych, kodów i etykiet spoza głównego słownika (`website/lib/dictionaries/pl.ts`), zgodnie z wytycznymi `tasks/ide-language-pl-dictionary.md` i `docs/playbooks/add-language.md`.
 
+> Źródło prawdy — kod (`website/lib/*.ts`). Przy podłączeniu (PR #140) część podpisów skrócono lub ujednolicono, a odpowiedzi FAQ ograniczono do tego, co podaje samo miejsce.
+
 Podstawowe nazwy i terminy bazują na wynikach analizy słów kluczowych w `docs/seo/keywords/pl.md`.
 
 ---
