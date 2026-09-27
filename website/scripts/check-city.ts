@@ -412,7 +412,6 @@ if (madeUp.length) {
 
 // Prices: a place of a priced category either has rows or says where it
 // looked ("prices: none (site - no cenník page, fb - not posted)").
-// Reported, not enforced yet: older data says only "not published".
 if (fs.existsSync(pricesFile)) {
   const priced = new Set(
     Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data.map((p) => p.business_slug)
@@ -424,6 +423,12 @@ if (fs.existsSync(pricesFile)) {
   console.log(
     `\nPrices: ${withPrices}/${pricedCategory.length} places with prices, ${searched} "prices: none (...)", ${silentPrices} without a search note`
   );
+  if (silentPrices > 0) {
+    failed = true;
+    for (const r of pricedCategory.filter((x) => !priced.has(x.slug) && !noted(x, "prices"))) {
+      console.log(`  ${r.slug}: no prices and no "prices: none (...)" in notes`);
+    }
+  }
 }
 
 // Review summaries are a second pass; coverage reported, not enforced.
