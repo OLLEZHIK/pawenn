@@ -117,7 +117,7 @@
 
 ---
 
-### Конкретные услуги (36 услуг из `website/lib/priceSlugs.ts`)
+### Конкретные услуги (30 услуг из `website/lib/priceSlugs.ts`)
 
 | Услуга | Код | Варианты запроса | Planner | Trends | Подсказка | Решение |
 |---|---|---|---|---|---|---|
@@ -182,8 +182,8 @@
 |---|---|---|---|
 | `paszport dla psa` (оформление европаспорта, чип, прививки для выезда) | **100** | tak («cena», «ile kosztuje», «jak wyrobić») | **Наивысший**: главный инфо-трафик владельцев |
 | `szczepienie na wściekliznę obowiązkowe` (законодательство Польши, штрафы, сроки) | **<1** | tak («kiedy pierwsze», «ile ważne») | **Высокий**: юридическая обязанность каждого владельца |
-| `czipowanie psa obowiązkowe` (статус законопроекта об обязательной идентификации в базе) | **<1** | tak («od kiedy», «warszawa darmowe») | **Высокий**: в Варшаве популярно бесплатное чипирование от мэрии |
-| `podatek od psa warszawa` (разъяснение: в Варшаве налог на собак отменён) | **<1** | tak («czy jest», «ile wynosi») | **Высокий**: частый вопрос новичков и экспатов |
+| `czipowanie psa obowiązkowe` (обязательно ли чипирование) | **<1** | tak («od kiedy», «warszawa darmowe») | **Высокий**: частый вопрос владельцев |
+| `podatek od psa warszawa` (есть ли налог на собак и сколько) | **<1** | tak («czy jest», «ile wynosi») | **Высокий**: частый вопрос новичков и экспатов |
 | `jazda z psem ztm warszawa` (правила проезда в транспорте: билет, намордник, поводок) | **1** | nie | **Средний**: практический городской справочник |
 
 ---
@@ -219,7 +219,7 @@
 | Выезд на дом | `vyjazd-domov` | `wizyty-domowe` | Общепринятый термин для выездных ветеринарных врачей. |
 | Приём на английском | `po-anglicky` | `po-angielsku` | Точный аналог для экспатской страницы. |
 
-### 5.4. 36 услуг цен (`website/lib/priceSlugs.ts`)
+### 5.4. 30 услуг цен (`website/lib/priceSlugs.ts`)
 #### GROOMING:
 1. `full_groom` → `strzyzenie-psa` (или `kompletna-pielegnacja`)
 2. `bath_dry` → `kapiel-i-suszenie`
@@ -245,7 +245,7 @@
 18. `extra_walk` → `dodatkowy-spacer`
 
 #### DOG_TRAINING:
-19. `puppy_course` → `psie-przedszkole`
+19. `puppy_course` → `kurs-dla-szczeniat` (главный вариант, §3)
 20. `obedience_course` → `kurs-posluszenstwa`
 21. `group_lesson` → `lekcja-grupowa`
 22. `private_lesson` → `lekcja-indywidualna`
