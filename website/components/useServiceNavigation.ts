@@ -11,14 +11,16 @@ import type { Locale } from "@/lib/i18n";
  * Opening a service from the Browse menu asks for the visitor's location:
  * we pick the nearest city we cover and open that city's list sorted by
  * distance (?near=lat,lng). Denied, unavailable, slow (6 s) or far from
- * every city -> the default city's list, unsorted. The plain href stays
- * on the link, so this is progressive enhancement over a normal link.
+ * every city -> the default city's list, unsorted, or `fallbackPath` when
+ * given (several cities: the page where the visitor picks one). The plain
+ * href stays on the link, so this is progressive enhancement.
  */
 export function useServiceNavigation(
   locale: Locale,
   cities: CityPointLite[],
   defaultCitySlug: string,
-  onNavigate?: () => void
+  onNavigate?: () => void,
+  fallbackPath?: (category: BusinessCategory) => string
 ) {
   const router = useRouter();
   const [pending, setPending] = useState<BusinessCategory | null>(null);
@@ -30,7 +32,7 @@ export function useServiceNavigation(
     const fallback = () => {
       setPending(null);
       onNavigate?.();
-      router.push(listingPath(locale, category, defaultCitySlug));
+      router.push(fallbackPath ? fallbackPath(category) : listingPath(locale, category, defaultCitySlug));
     };
     if (!("geolocation" in navigator) || cities.length === 0) return fallback();
 

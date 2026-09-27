@@ -226,6 +226,12 @@ export function listingPath(
   return `/${locale}${base}`;
 }
 
+/** A service across cities: /en/vet-clinics/, /sk/veterinar/ - where the
+ *  visitor picks a city (docs/architecture/multi-city.md 3.1). */
+export function categoryHubPath(locale: Locale, category: BusinessCategory): string {
+  return `/${locale}/${categorySlug(category, locale)}/`;
+}
+
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
 export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto" };
