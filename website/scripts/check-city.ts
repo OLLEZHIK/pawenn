@@ -161,10 +161,14 @@ const bothLangs = (v: unknown) => {
   return cityLangs.every((l) => typeof o?.[l] === "string" && (o[l] as string).trim() !== "");
 };
 const insightErrors: string[] = [];
+// Texts padded to 250 characters with one stock phrase (lesson from PR
+// #156): the same last four words in texts of many places.
+const tailFiles = new Map<string, Set<string>>();
 for (const slug of insights) {
   const file = path.join(dir, "review-insights", `${slug}.json`);
   let data: {
     slug?: string;
+    reviews_in_period?: number;
     cards?: { title?: unknown; text?: unknown; mentions?: number }[];
     faq?: { q?: unknown; a?: unknown }[];
   };
@@ -182,8 +186,15 @@ for (const slug of insights) {
   cards.forEach((c, i) => {
     if (!bothLangs(c.title) || !bothLangs(c.text)) err(`card ${i + 1}: title and text need ${cityLangs.join(" + ")}`);
     if ((c.mentions ?? 0) < 3) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs 3+ reviewers`);
+    if (data.reviews_in_period !== undefined && (c.mentions ?? 0) > data.reviews_in_period)
+      err(`card ${i + 1}: mentions ${c.mentions} > reviews_in_period ${data.reviews_in_period}`);
     const text = c.text as Record<string, string> | undefined;
     for (const l of cityLangs) {
+      const t = text?.[l];
+      if (t) {
+        const tail = t.toLowerCase().replace(/[.!\s]+$/, "").split(/\s+/).slice(-4).join(" ");
+        (tailFiles.get(tail) ?? tailFiles.set(tail, new Set()).get(tail)!).add(slug);
+      }
       const n = text?.[l]?.length ?? 0;
       if (n && (n < 250 || n > 450)) err(`card ${i + 1}: text.${l} is ${n} characters, need 250-450`);
     }
@@ -193,6 +204,9 @@ for (const slug of insights) {
   faq.forEach((f, i) => {
     if (!bothLangs(f.q) || !bothLangs(f.a)) err(`FAQ ${i + 1}: q and a need ${cityLangs.join(" + ")}`);
   });
+}
+for (const [tail, files] of tailFiles) {
+  if (files.size >= 4) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
 }
 if (insightErrors.length) {
   failed = true;
