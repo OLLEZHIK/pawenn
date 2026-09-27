@@ -46,7 +46,7 @@ export function MythOrFact({ locale }: { locale: Locale }) {
             <SparkleIcon className="h-4 w-4" />
             {t.title}
           </p>
-          <div className="flex gap-1.5" aria-label={t.question(Math.min(index + 1, STATEMENTS.length), STATEMENTS.length)}>
+          <div className="flex gap-1.5" role="img" aria-label={t.question(Math.min(index + 1, STATEMENTS.length), STATEMENTS.length)}>
             {STATEMENTS.map((_, i) => (
               <span
                 key={i}

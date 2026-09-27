@@ -546,7 +546,7 @@ function ContactCard({ business, locale }: { business: BusinessWithRelations; lo
   return (
     <div className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-panel)] ring-1 ring-line">
       <h2 className="font-heading text-lg font-bold text-foreground">{t.getInTouch}</h2>
-      <dl className="mt-4 space-y-3 text-sm">
+      <div className="mt-4 space-y-3 text-sm">
         {business.phone && (
           <ContactRow icon={<PhoneIcon className="h-4 w-4" />} label={t.phone}>
             <a href={`tel:${business.phone}`} className="font-medium text-foreground hover:text-brand-blue">
@@ -593,7 +593,7 @@ function ContactCard({ business, locale }: { business: BusinessWithRelations; lo
             {business.district ? `, ${business.district.name}` : ""}
           </span>
         </ContactRow>
-      </dl>
+      </div>
       <div className="mt-5 border-t border-line pt-5">
         <QuickActions
           businessId={business.id}
@@ -614,8 +614,8 @@ function ContactRow({ icon, label, children }: { icon: React.ReactNode; label: s
     <div className="flex gap-3">
       <span className="accent-soft flex h-8 w-8 shrink-0 items-center justify-center rounded-lg">{icon}</span>
       <div className="min-w-0">
-        <dt className="text-xs text-foreground/50">{label}</dt>
-        <dd>{children}</dd>
+        <p className="text-xs text-foreground/50">{label}</p>
+        <div>{children}</div>
       </div>
     </div>
   );
