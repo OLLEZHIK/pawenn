@@ -122,6 +122,8 @@ model Business {
   emergencyNoteLocal    String?
   homeVisits            Boolean          @default(false)
   languagesSpoken       String[]         @default([])
+  /// "Good to know" codes from lib/facts.ts (docs/card-spec.md section 9).
+  facts                 String[]         @default([])
   district              District?        @relation(fields: [districtId], references: [id])
   city                  City?            @relation(fields: [cityId], references: [id])
   priceItems            PriceItem[]

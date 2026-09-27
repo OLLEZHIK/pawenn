@@ -31,6 +31,8 @@ import { ReviewInsightsSection } from "@/components/ReviewInsightsSection";
 import { OpeningHoursTable } from "@/components/OpeningHoursTable";
 import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
+import { PlaceFacts } from "@/components/PlaceFacts";
+import { CityPrices } from "@/components/CityPrices";
 import { cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
 import { specialtyLabel } from "@/lib/vet";
 import { parseReviewInsights } from "@/lib/reviewInsights";
@@ -304,6 +306,20 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
           {/* Prices right after contact (owner, 2026-09-25): the price is what
               people come to compare, each row against the city median. */}
           <PriceTable items={business.priceItems} category={business.category} locale={locale} market={marketPrices} citySlug={citySlug} />
+          {/* No prices of its own: the city's prices, clearly as the city's
+              (owner, 2026-09-26). */}
+          {business.priceItems.length === 0 && citySlug && city && (
+            <CityPrices category={business.category} market={marketPrices} locale={locale} citySlug={citySlug} where={inCity(locale, city)} />
+          )}
+
+          {/* Good to know: what the place states about booking, payment,
+              who it takes (docs/card-spec.md section 9). */}
+          <PlaceFacts
+            category={business.category}
+            facts={business.facts}
+            locale={locale}
+            withFaq={!insights || insights.faq.length === 0}
+          />
 
           {hasAbout && (
             <section className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
