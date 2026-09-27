@@ -47,6 +47,7 @@ import {
 } from "@/components/icons";
 import { AnimalIcon } from "@/components/AnimalIcon";
 import { PriceTier } from "./PriceTier";
+import { currencySign } from "@/lib/money";
 
 // Business detail page, shared by /business/{slug}/ (English) and
 // /{locale}/{localized segment}/{slug}/ (e.g. /sk/podnik/{slug}/).
@@ -183,7 +184,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
     if (spec.length) jsonLd.openingHoursSpecification = spec;
   }
   const level = priceTiers.get(business.id);
-  if (level) jsonLd.priceRange = (city?.currency === "EUR" || !city?.currency ? "€" : city.currency).repeat(level.tier);
+  if (level) jsonLd.priceRange = currencySign(locale, city?.currency ?? "EUR").repeat(level.tier);
   if (business.lat !== null && business.lng !== null) {
     jsonLd.geo = { "@type": "GeoCoordinates", latitude: business.lat, longitude: business.lng };
   }
