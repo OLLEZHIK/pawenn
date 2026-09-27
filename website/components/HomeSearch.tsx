@@ -151,7 +151,6 @@ export function HomeSearch({
     // No service picked: the city page listing every service.
     let path = categorySlug ? localePath(locale, `/${categorySlug}/${targetCity}/`) : cityPath(locale, targetCity);
     const params = new URLSearchParams();
-    if (animal) params.set("animal", animal);
     if (near) params.set("near", `${near.lat.toFixed(4)},${near.lng.toFixed(4)}`);
     const query = params.toString();
     if (query) path += `?${query}`;
