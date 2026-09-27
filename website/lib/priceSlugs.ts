@@ -38,7 +38,7 @@ const SERVICE_SLUGS: Partial<Record<BusinessCategory, Record<string, Record<Loca
     extra_walk: { en: "extra-walk", sk: "vencenie-navyse", pl: "dodatkowy-spacer" },
   },
   DOG_TRAINING: {
-    puppy_course: { en: "puppy-course", sk: "stenacia-skolka", pl: "psie-przedszkole" },
+    puppy_course: { en: "puppy-course", sk: "stenacia-skolka", pl: "kurs-dla-szczeniat" },
     obedience_course: { en: "obedience-course", sk: "kurz-poslusnosti", pl: "kurs-posluszenstwa" },
     group_lesson: { en: "group-lesson", sk: "skupinova-hodina", pl: "lekcja-grupowa" },
     private_lesson: { en: "private-lesson", sk: "individualna-hodina", pl: "lekcja-indywidualna" },

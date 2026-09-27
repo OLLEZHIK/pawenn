@@ -101,6 +101,14 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Chovateľské potreby",
     PET_SITTING: "Opatrovanie zvierat",
   },
+  pl: {
+    GROOMING: "Salony groomerskie",
+    VET_CLINIC: "Lecznice weterynaryjne",
+    PET_HOTEL: "Hotele dla zwierząt",
+    DOG_TRAINING: "Szkolenie psów",
+    PET_SHOP: "Sklepy zoologiczne",
+    PET_SITTING: "Opieka nad zwierzętami",
+  },
 };
 
 const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
@@ -112,6 +120,14 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "výcvik psa",
     PET_SHOP: "chovateľské potreby",
     PET_SITTING: "opatrovanie zvierat",
+  },
+  pl: {
+    GROOMING: "salon groomerski",
+    VET_CLINIC: "lecznica weterynaryjna",
+    PET_HOTEL: "hotel dla zwierząt",
+    DOG_TRAINING: "szkolenie psa",
+    PET_SHOP: "sklep zoologiczny",
+    PET_SITTING: "opieka nad zwierzętami",
   },
 };
 
@@ -134,6 +150,14 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "výcvik psov",
     PET_SHOP: "chovateľské potreby",
     PET_SITTING: "opatrovanie zvierat",
+  },
+  pl: {
+    GROOMING: "salony groomerskie",
+    VET_CLINIC: "lecznice weterynaryjne",
+    PET_HOTEL: "hotele dla zwierząt",
+    DOG_TRAINING: "szkoły i trenerzy psów",
+    PET_SHOP: "sklepy zoologiczne",
+    PET_SITTING: "petsitterzy",
   },
 };
 
@@ -159,6 +183,14 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Zverimex a chovateľské potreby",
     PET_SITTING: "Venčenie a stráženie psov",
   },
+  pl: {
+    GROOMING: "Groomer i strzyżenie psów",
+    VET_CLINIC: "Weterynarze i lecznice weterynaryjne",
+    PET_HOTEL: "Hotele dla psów i kotów",
+    DOG_TRAINING: "Szkolenie psów i behawioryści",
+    PET_SHOP: "Sklepy zoologiczne",
+    PET_SITTING: "Petsitterzy i wyprowadzanie psów",
+  },
 };
 
 const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -177,6 +209,14 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Kurzy pre šteňatá, poslušnosť a správanie",
     PET_SHOP: "Krmivo, hračky a potreby na každý deň",
     PET_SITTING: "Venčenie, návštevy a starostlivosť doma",
+  },
+  pl: {
+    GROOMING: "Kąpiel, strzyżenie, trymowanie i pazury",
+    VET_CLINIC: "Badania, szczepienia i pomoc w nagłych przypadkach",
+    PET_HOTEL: "Bezpieczny pobyt na czas Twojego wyjazdu",
+    DOG_TRAINING: "Psie przedszkole, posłuszeństwo i zachowanie",
+    PET_SHOP: "Karmy, zabawki i artykuły na co dzień",
+    PET_SITTING: "Spacery, wizyty i opieka w domu",
   },
 };
 
