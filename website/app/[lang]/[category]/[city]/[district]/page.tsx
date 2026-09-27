@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { categoryFromSlug, categoryLabel, categoryPlural, categorySeoTitle, categorySingular, listingPath } from "@/lib/categories";
+import { categoryFromSlug, categoryLabel, categoryPlural, categoryPricesName, categorySeoTitle, categorySingular, listingPath } from "@/lib/categories";
 import { getAttributeCounts, getCityBySlug, getDistrictBySlug, getCategoryAggregates, getMarketPrices } from "@/lib/data";
 import { PRICES_SEGMENT, pricesPath } from "@/lib/pricePages";
 import { PriceOverviewPage } from "@/components/PricePages";
@@ -59,13 +59,13 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
     const where = inCity(locale, city);
     const label = categoryLabel(category, locale);
     const services = (await getMarketPrices(category, city.slug)).size;
-    const title = tp.overviewMetaTitle(categorySeoTitle(category, locale), where);
+    const title = tp.overviewMetaTitle(categoryPricesName(category, locale), where);
     const description = tp.overviewMetaDescription(label, where, services);
     return {
       alternates: localeAlternates(locale, Object.fromEntries(locales.map((l) => [l, pricesPath(l, category, city.slug)]))),
       title: { absolute: title },
       description,
-      ...socialMeta({ title, description, path: pricesPath(locale, category, city.slug), locale, image: { title: tp.overviewH1(label, where), category } }),
+      ...socialMeta({ title, description, path: pricesPath(locale, category, city.slug), locale, image: { title: tp.overviewH1(categoryPricesName(category, locale), where), category } }),
     };
   }
 

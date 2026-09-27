@@ -435,8 +435,8 @@ export const en = {
   // overview per category. Numbers come preformatted (money, dates).
   prices: {
     crumb: "Prices",
-    overviewH1: (label: string, where: string) => `${label} ${where}: prices`,
-    overviewMetaTitle: (label: string, where: string) => `${label} ${where}: what things cost | Pawenn`,
+    overviewH1: (name: string, where: string) => `${name} ${where}`,
+    overviewMetaTitle: (name: string, where: string) => `${name} ${where} | Pawenn`,
     overviewIntro:
       "What each service costs, compared across the places that publish a price list. The median is the middle price: half the places charge less, half more.",
     overviewMetaDescription: (label: string, where: string, services: number) =>

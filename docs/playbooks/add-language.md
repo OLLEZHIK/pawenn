@@ -59,8 +59,10 @@ TypeScript сам показывает, что ещё не переведено:
    - `BUSINESS_SEGMENT` (`podnik` → `betrieb`), `CITY_SEGMENT`
      (`mesto` → `stadt`).
 4. **`website/lib/services.ts`** и **`website/lib/vet.ts`** — подписи
-   услуг цен и специализаций ветклиник (названия услуг — тоже по
-   карте ключевых слов: «kastrácia fenky», а не «kastrácia suky»).
+   услуг цен и специализаций ветклиник. У каждой услуги ещё **поле
+   `seo`** — поисковое название для страницы цены («Hotel pre psov na
+   noc», «Kastrácia fenky (suky)»): выводится из карты ключевых слов по
+   правилам `docs/seo/keywords/README.md` §3.1, не переводом подписи.
 5. **`website/lib/priceSlugs.ts`** — `PRICES_SEGMENT` (`ceny` →
    `preise`) и `SERVICE_SLUGS` для каждой услуги — адреса страниц цен.
 6. **`website/lib/attributePages.ts`** — `SLUGS` страниц признаков
