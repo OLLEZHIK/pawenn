@@ -5,7 +5,7 @@ import { CATEGORY_THEME, businessPath, categoryLabel, cityPath, listingPath } fr
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
-import { SERVICES, serviceIncludes, serviceLabel } from "@/lib/services";
+import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { TagIcon } from "./icons";
@@ -78,6 +78,9 @@ export async function ServicePricePage({
   const tp = t.prices;
   const where = inCity(locale, city);
   const service = serviceLabel(category, code, locale);
+  // Title, H1 and FAQ question use the search phrase ("Hotel pre psov na
+  // noc"); the breadcrumb keeps the short label.
+  const seoName = serviceSeoName(category, code, locale);
   const summary = await getPriceSummary(category, city.slug, code);
   const { market } = summary;
   const answer = answerText(locale, summary);
@@ -97,7 +100,7 @@ export async function ServicePricePage({
             mainEntity: [
               {
                 "@type": "Question",
-                name: tp.question(service, where),
+                name: tp.question(seoName, where),
                 acceptedAnswer: { "@type": "Answer", text: answer },
               },
             ],
@@ -107,7 +110,7 @@ export async function ServicePricePage({
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      name: tp.serviceH1(service, where),
+      name: tp.serviceH1(seoName, where),
       numberOfItems: compared.length,
       itemListElement: compared.map((line, i) => ({
         "@type": "ListItem",
@@ -131,7 +134,7 @@ export async function ServicePricePage({
         category={category}
         city={city}
         crumbs={[{ label: tp.crumb, href: pricesPath(locale, category, city.slug) }, { label: service }]}
-        title={tp.serviceH1(service, where)}
+        title={tp.serviceH1(seoName, where)}
         lead={answer ?? tp.fewPlaces(compared.length)}
       />
 

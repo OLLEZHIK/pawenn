@@ -6,48 +6,83 @@ import type { Locale } from "./locales";
 // with data agents (prices.csv price_code); labels are ours, per locale.
 // One label per site language; TypeScript flags a missing one when a
 // language is added (docs/playbooks/add-language.md).
-export type ServiceDef = { code: string } & Record<Locale, string>;
+// `seo`: how people search for the service's price, per language - the
+// title, H1 and FAQ question of its price page ("Hotel pre psov na noc v
+// Bratislave - od 16 EUR"). Rules: docs/seo/keywords/README.md, "Названия
+// услуг для страниц цен". Required for every language, so a new language
+// or service does not build without it. Price tables use the short label.
+export type ServiceDef = { code: string; seo: Record<Locale, string> } & Record<Locale, string>;
 
 export const SERVICES: Partial<Record<BusinessCategory, ServiceDef[]>> = {
   GROOMING: [
-    { code: "full_groom", en: "Full grooming", sk: "Kompletná úprava" },
-    { code: "bath_dry", en: "Bath & blow-dry", sk: "Kúpanie a fénovanie" },
-    { code: "hand_stripping", en: "Hand stripping", sk: "Trimovanie" },
-    { code: "deshedding", en: "De-shedding", sk: "Vyčesávanie podsady" },
-    { code: "nail_trim", en: "Nail trim", sk: "Strihanie pazúrov" },
-    { code: "cat_groom", en: "Cat grooming", sk: "Úprava mačky" },
+    { code: "full_groom", en: "Full grooming", sk: "Kompletná úprava",
+      seo: { en: "Dog grooming", sk: "Strihanie psa" } },
+    { code: "bath_dry", en: "Bath & blow-dry", sk: "Kúpanie a fénovanie",
+      seo: { en: "Dog bath and blow-dry", sk: "Kúpanie psa" } },
+    { code: "hand_stripping", en: "Hand stripping", sk: "Trimovanie",
+      seo: { en: "Dog hand stripping", sk: "Trimovanie psa" } },
+    { code: "deshedding", en: "De-shedding", sk: "Vyčesávanie podsady",
+      seo: { en: "Dog de-shedding", sk: "Vyčesávanie podsady psa" } },
+    { code: "nail_trim", en: "Nail trim", sk: "Strihanie pazúrov",
+      seo: { en: "Dog nail trim", sk: "Strihanie pazúrov psa" } },
+    { code: "cat_groom", en: "Cat grooming", sk: "Úprava mačky",
+      seo: { en: "Cat grooming", sk: "Strihanie mačky" } },
   ],
   VET_CLINIC: [
-    { code: "exam", en: "Check-up", sk: "Klinické vyšetrenie" },
-    { code: "vaccination_dog", en: "Dog vaccination", sk: "Očkovanie psa" },
-    { code: "microchip", en: "Microchip", sk: "Čipovanie" },
-    { code: "neuter_cat", en: "Cat neutering (male)", sk: "Kastrácia kocúra" },
-    { code: "spay_cat", en: "Cat spaying (female)", sk: "Kastrácia (sterilizácia) mačky" },
-    { code: "spay_dog", en: "Dog spaying (female)", sk: "Kastrácia fenky" },
+    { code: "exam", en: "Check-up", sk: "Klinické vyšetrenie",
+      seo: { en: "Vet check-up", sk: "Vyšetrenie u veterinára" } },
+    { code: "vaccination_dog", en: "Dog vaccination", sk: "Očkovanie psa",
+      seo: { en: "Dog vaccination", sk: "Očkovanie psa" } },
+    { code: "microchip", en: "Microchip", sk: "Čipovanie",
+      seo: { en: "Dog microchipping", sk: "Čipovanie psa" } },
+    { code: "neuter_cat", en: "Cat neutering (male)", sk: "Kastrácia kocúra",
+      seo: { en: "Cat neutering", sk: "Kastrácia kocúra" } },
+    { code: "spay_cat", en: "Cat spaying (female)", sk: "Kastrácia (sterilizácia) mačky",
+      seo: { en: "Cat spaying", sk: "Kastrácia (sterilizácia) mačky" } },
+    { code: "spay_dog", en: "Dog spaying (female)", sk: "Kastrácia fenky",
+      seo: { en: "Dog spaying", sk: "Kastrácia fenky (suky)" } },
   ],
   PET_HOTEL: [
-    { code: "dog_night", en: "Dog, per night", sk: "Pes, noc" },
-    { code: "cat_night", en: "Cat, per night", sk: "Mačka, noc" },
-    { code: "daycare_day", en: "Dog daycare, per day", sk: "Psia škôlka, deň" },
-    { code: "daycare_pass", en: "Daycare pass", sk: "Permanentka do škôlky" },
-    { code: "pickup", en: "Pick-up & drop-off", sk: "Dovoz a odvoz" },
-    { code: "extra_walk", en: "Extra walk / individual care", sk: "Venčenie navyše / individuálna starostlivosť" },
+    { code: "dog_night", en: "Dog, per night", sk: "Pes, noc",
+      seo: { en: "Dog hotel per night", sk: "Hotel pre psov na noc" } },
+    { code: "cat_night", en: "Cat, per night", sk: "Mačka, noc",
+      seo: { en: "Cat hotel per night", sk: "Hotel pre mačky na noc" } },
+    { code: "daycare_day", en: "Dog daycare, per day", sk: "Psia škôlka, deň",
+      seo: { en: "Dog daycare per day", sk: "Psia škôlka na deň" } },
+    { code: "daycare_pass", en: "Daycare pass", sk: "Permanentka do škôlky",
+      seo: { en: "Dog daycare pass", sk: "Permanentka do psej škôlky" } },
+    { code: "pickup", en: "Pick-up & drop-off", sk: "Dovoz a odvoz",
+      seo: { en: "Pet hotel pick-up and drop-off", sk: "Dovoz a odvoz psa do hotela" } },
+    { code: "extra_walk", en: "Extra walk / individual care", sk: "Venčenie navyše / individuálna starostlivosť",
+      seo: { en: "Extra walk at a dog hotel", sk: "Venčenie navyše v hoteli pre psov" } },
   ],
   DOG_TRAINING: [
-    { code: "puppy_course", en: "Puppy course", sk: "Šteňacia škôlka" },
-    { code: "obedience_course", en: "Basic obedience course", sk: "Kurz základnej poslušnosti" },
-    { code: "group_lesson", en: "Group lesson", sk: "Skupinová hodina" },
-    { code: "private_lesson", en: "Private lesson", sk: "Individuálna hodina" },
-    { code: "behavior_consult", en: "Behaviour consultation", sk: "Konzultácia problémového správania" },
-    { code: "membership", en: "Club membership", sk: "Členský poplatok" },
+    { code: "puppy_course", en: "Puppy course", sk: "Šteňacia škôlka",
+      seo: { en: "Puppy classes", sk: "Šteňacia škôlka" } },
+    { code: "obedience_course", en: "Basic obedience course", sk: "Kurz základnej poslušnosti",
+      seo: { en: "Dog obedience course", sk: "Kurz poslušnosti pre psa" } },
+    { code: "group_lesson", en: "Group lesson", sk: "Skupinová hodina",
+      seo: { en: "Group dog training class", sk: "Skupinový výcvik psa" } },
+    { code: "private_lesson", en: "Private lesson", sk: "Individuálna hodina",
+      seo: { en: "Private dog training lesson", sk: "Individuálny výcvik psa" } },
+    { code: "behavior_consult", en: "Behaviour consultation", sk: "Konzultácia problémového správania",
+      seo: { en: "Dog behaviour consultation", sk: "Konzultácia problémového správania psa" } },
+    { code: "membership", en: "Club membership", sk: "Členský poplatok",
+      seo: { en: "Dog club membership", sk: "Členský poplatok v kynologickom klube" } },
   ],
   PET_SITTING: [
-    { code: "walk_30", en: "Dog walk, 30 min", sk: "Venčenie 30 min" },
-    { code: "walk_60", en: "Dog walk, 60 min", sk: "Venčenie 60 min" },
-    { code: "cat_visit", en: "Cat visit", sk: "Návšteva mačky" },
-    { code: "house_sitting_night", en: "Overnight at your home", sk: "Stráženie u vás doma, noc" },
-    { code: "boarding_night", en: "Overnight at sitter's home", sk: "Stráženie u opatrovateľa, noc" },
-    { code: "daycare_day", en: "Day care", sk: "Denné stráženie" },
+    { code: "walk_30", en: "Dog walk, 30 min", sk: "Venčenie 30 min",
+      seo: { en: "Dog walking, 30 minutes", sk: "Venčenie psa na 30 minút" } },
+    { code: "walk_60", en: "Dog walk, 60 min", sk: "Venčenie 60 min",
+      seo: { en: "Dog walking, 1 hour", sk: "Venčenie psa na hodinu" } },
+    { code: "cat_visit", en: "Cat visit", sk: "Návšteva mačky",
+      seo: { en: "Cat sitting visit", sk: "Stráženie mačky – návšteva doma" } },
+    { code: "house_sitting_night", en: "Overnight at your home", sk: "Stráženie u vás doma, noc",
+      seo: { en: "Overnight pet sitting at your home", sk: "Stráženie psa u vás doma cez noc" } },
+    { code: "boarding_night", en: "Overnight at sitter's home", sk: "Stráženie u opatrovateľa, noc",
+      seo: { en: "Overnight dog boarding at a sitter's", sk: "Stráženie psa u opatrovateľa cez noc" } },
+    { code: "daycare_day", en: "Day care", sk: "Denné stráženie",
+      seo: { en: "Dog day care at a sitter's", sk: "Denné stráženie psa" } },
   ],
 };
 
@@ -58,6 +93,12 @@ export function serviceSlug(category: BusinessCategory, code: string): string {
 
 export function findService(category: BusinessCategory, code: string): ServiceDef | undefined {
   return SERVICES[category]?.find((s) => s.code === code);
+}
+
+/** Search phrase for the service price page (title, H1, FAQ). */
+export function serviceSeoName(category: BusinessCategory, code: string, locale: Locale): string {
+  const def = findService(category, code);
+  return def ? def.seo[locale] : code;
 }
 
 /** Label for a price row; falls back to English, then the raw code. */
