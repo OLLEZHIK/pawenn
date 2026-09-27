@@ -1,11 +1,11 @@
 # Задача: поисковые названия услуг на страницах цен (sk, en)
 
-**Исполнитель:** Antigravity IDE
+**Исполнитель:** Antigravity (Desktop / Hub)
 **Роль:** Research agent.
 **Тип:** исследование, объём небольшой (≈ 35 услуг, ≈ 80 запросов).
 **Ветка:** `antigravity/keywords-price-services`
-**Зависимости:** нет. Можно делать раньше или вперемешку с
-`ide-kosice-reviews-prices.md` — файлы не пересекаются.
+**Зависимости:** нет. Не пересекается с задачами IDE и Mac
+(`ide-kosice-reviews-prices.md`, `mac-city-warszawa.md`).
 
 Перед работой — `docs/playbooks/quality.md` и
 `docs/seo/keywords/README.md` (особенно §1 «Как собирать цифры» и §3.1
