@@ -1,17 +1,6 @@
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { currencySign } from "@/lib/money";
 import type { PriceLevel } from "@/lib/priceMarket";
-
-/** The currency's own sign: € for EUR, $ for USD, Kč for CZK. */
-function currencySign(locale: Locale, currency: string): string {
-  try {
-    return (
-      new Intl.NumberFormat(locale, { style: "currency", currency }).formatToParts(0).find((p) => p.type === "currency")
-        ?.value ?? currency
-    );
-  } catch {
-    return currency;
-  }
-}
 
 // Price level against the city market (lib/priceMarket.ts): € signs like
 // Google Maps plus the words - "Market price", "40% above market" - so
