@@ -98,7 +98,7 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   const what = aggregates.count === 1 ? categorySingular(category, locale) : categoryPlural(category, locale);
 
   return {
-    // Filter variants (?animal=, ?near=, ?sort=, ?rating=) point at the unfiltered page.
+    // Filter variants (?near=, ?sort=, ?rating=) point at the unfiltered page.
     alternates: localeAlternates(
       locale,
       Object.fromEntries(locales.map((l) => [l, listingPath(l, category, city.slug, district.slug)]))
@@ -121,7 +121,7 @@ export default async function CategoryCityDistrictPage({
   searchParams,
 }: {
   params: Promise<PageParams>;
-  searchParams: Promise<{ animal?: string; near?: string; sort?: string; rating?: string; open?: string }>;
+  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string }>;
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
@@ -129,7 +129,7 @@ export default async function CategoryCityDistrictPage({
     return <PriceOverviewPage locale={resolved.locale} category={resolved.category} city={resolved.city} />;
   }
 
-  const { animal, near, sort, rating, open } = await searchParams;
+  const { near, sort, rating, open } = await searchParams;
   const { locale, category, city } = resolved;
 
   return (
@@ -142,7 +142,6 @@ export default async function CategoryCityDistrictPage({
       districtInPhrases={resolved.attribute ? undefined : resolved.district.inPhrases}
       attributePage={resolved.attribute ?? undefined}
       open={open}
-      animal={animal}
       near={near}
       sort={sort}
       rating={rating}

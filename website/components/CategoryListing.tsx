@@ -5,7 +5,6 @@ import {
   getCategoryAggregates,
   getPriceTierMap,
   getAttributeCounts,
-  getAnimalsInCategory,
   distanceKm,
   parseNear,
   getMarketPrices,
@@ -21,7 +20,6 @@ import {
   listingPath,
 } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
-import { ANIMALS, animalsForService, isAnimal } from "@/lib/animals";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
 import { pricesPath } from "@/lib/priceSlugs";
@@ -44,7 +42,6 @@ interface CategoryListingProps {
   districtName?: string;
   /** District.inPhrases: "v Petržalke" for Slovak texts. */
   districtInPhrases?: unknown;
-  animal?: string;
   near?: string;
   sort?: string;
   rating?: string;
@@ -78,7 +75,6 @@ export async function CategoryListing({
   districtName,
   districtInPhrases,
   near,
-  animal: requestedAnimal,
   sort: requestedSort,
   rating: requestedRating,
   open,
@@ -89,17 +85,9 @@ export async function CategoryListing({
   const cityName = city.name;
   const sort = parseSort(requestedSort);
   const minRating = parseMinRating(requestedRating);
-  // Ignore a pet this service isn't for (e.g. ?animal=bird on dog training).
-  const servicePets: readonly string[] = category ? animalsForService(category) : ANIMALS;
-  const animal = isAnimal(requestedAnimal) && servicePets.includes(requestedAnimal) ? requestedAnimal : undefined;
-  // With a pet filter we still load the whole list: most places haven't
-  // told us every pet they cater for (Business.animals is no longer
-  // collected), so places confirmed for the pet come first and the rest
-  // follow in the same list - no separate "not yet confirmed" group
-  // (owner, 2026-09-27).
   // The city page (no category) lists every service; tiers still compare
   // each place with its own category.
-  const [all, categoryAggregates, priceTiers, attributeCounts, categoryAnimals] = await Promise.all([
+  const [all, categoryAggregates, priceTiers, attributeCounts] = await Promise.all([
     searchBusinesses({ category: category ?? undefined, citySlug, districtSlug }),
     category ? getCategoryAggregates(category, citySlug, districtSlug) : Promise.resolve(null),
     category
@@ -109,7 +97,6 @@ export async function CategoryListing({
         ),
     // The city page offers only the nonstop chip; a category all of its own.
     getAttributeCounts(category ?? "VET_CLINIC", citySlug),
-    category ? getAnimalsInCategory(category, citySlug) : Promise.resolve(null),
   ]);
   const hasPricePages = category ? (await getMarketPrices(category, citySlug)).size > 0 : false;
   const aggregates = categoryAggregates ?? {
@@ -119,7 +106,6 @@ export async function CategoryListing({
     priceTo: null,
     currency: city.currency ?? "EUR",
   };
-  const animalsPresent = categoryAnimals ?? [...new Set(all.flatMap((b) => b.animals))];
 
   const t = getDictionary(locale);
   const label = category ? categoryLabel(category, locale) : t.cityHub.h1Before;
@@ -130,7 +116,7 @@ export async function CategoryListing({
   // "Near me": sort by distance from the visitor, places without
   // coordinates last (in their usual daily order).
   const origin = parseNear(near);
-  // Rating filter first (Google rating as collected), then the pet split.
+  // Rating filter (Google rating as collected).
   // Open now: judged in the city's time zone at request time; a nonstop
   // clinic counts as open; places without hours are hidden and counted.
   const cityNow = localNow(cityTimezone(city));
@@ -140,19 +126,18 @@ export async function CategoryListing({
   const hiddenNoHours = openNowOnly ? scoped.filter((b) => openState(b) === null).length : 0;
   const rated = openFiltered.filter((b) => meetsMinRating(b, minRating));
   const hiddenUnrated = minRating ? openFiltered.filter((b) => b.googleRating === null).length : 0;
-  const found = animal ? rated.filter((b) => b.animals.includes(animal)) : rated;
-  const unconfirmed = animal ? rated.filter((b) => !b.animals.includes(animal)) : [];
   const toItem = (b: (typeof all)[number]) => ({
     business: b,
     km: origin && b.lat !== null && b.lng !== null ? distanceKm(origin.lat, origin.lng, b.lat, b.lng) : null,
   });
   const byDistance = (a: { km: number | null }, b: { km: number | null }) => (a.km ?? Infinity) - (b.km ?? Infinity);
-  const withDistance = found.map(toItem);
-  const unconfirmedItems = unconfirmed.map(toItem);
+  const withDistance = rated.map(toItem);
   // An explicit sort wins over "near me" ordering (distance stays shown).
-  const ordered = <T extends { business: (typeof all)[number]; km: number | null }>(items: T[]) =>
-    sort ? sortByListing(items, sort, (i) => i.business) : origin ? [...items].sort(byDistance) : items;
-  const listItems = [...ordered(withDistance), ...ordered(unconfirmedItems)];
+  const listItems = sort
+    ? sortByListing(withDistance, sort, (i) => i.business)
+    : origin
+      ? [...withDistance].sort(byDistance)
+      : withDistance;
 
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
@@ -312,14 +297,12 @@ export async function CategoryListing({
             category={category}
             citySlug={citySlug}
             currentDistrictSlug={attributePage ? attributeSlug(attributePage, locale) : districtSlug}
-            currentAnimal={animal}
             near={origin ? near : undefined}
             sort={sort}
             minRating={minRating}
             openNow={openNowOnly}
             showOpenNow={openNowOnly || all.some((b) => b.emergency247 || b.openingHours !== null)}
             attributes={attributeChips}
-            animals={servicePets.filter((a) => a === animal || animalsPresent.includes(a))}
           />
 
           <p className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
@@ -337,7 +320,7 @@ export async function CategoryListing({
           </p>
 
           <div className="mt-3 space-y-4">
-            {found.length === 0 && unconfirmed.length === 0 ? (
+            {listItems.length === 0 ? (
               <EmptyState resetHref={resetHref} locale={locale} />
             ) : (
               listItems.map(({ business, km }) => (
