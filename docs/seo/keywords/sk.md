@@ -1,10 +1,10 @@
 # Ключевые слова: словацкий (`sk`)
 
-Дата сбора: **2026-09-26**.
+Дата сбора: **2026-09-26**, дополнение по услугам цен: **2026-09-27**.
 Источники данных:
 - **Google Trends** (Slovakia, период: 12 месяцев, относительный индекс 0–100 внутри групп сравнения смыслов).
 - **Подсказки Google** (google.sk, локаль `sk-SK`, инкогнито / Google Suggest API).
-- **Google Ads Keyword Planner**: нет доступа к аккаунту в CLI (шаг пропущен в соответствии с инструкцией п. 1 задачи, сбор проведён по шагам 2–3).
+- **Google Ads Keyword Planner**: нет доступа к аккаунту в CLI (колонка `—` во всех строках в соответствии с quality.md §1).
 
 > Правка «левой руки» 2026-09-26 по указанию владельца: индексы Trends
 > для редких запросов (районы, строки со `*`) — **ориентир, не
@@ -93,39 +93,106 @@
 
 ## 3. Цены
 
-| Услуга | Сейчас на сайте | Варианты запроса | Planner | Trends | Подсказка | Решение |
-|---|---|---|---|---|---|---|
-| Обзор цен ветклиник | `…/veterinar/bratislava/ceny/` | veterina cenník bratislava | — | 100 | áno | **главный** |
-| | | veterinár ceny bratislava | — | 20 | nie | **второй** |
-| Кастрация кота | `kastracia-kocura` | kastrácia kocúra cena | — | 100 | áno | **главный** (точное попадание в slug) |
-| | | kastrácia mačky cena (подразумевают кота) | — | 80 | áno | **второй** (в текст описания) |
-| Кастрация кошки | `kastracia-macky` | kastrácia mačky cena | — | 100 | áno | **главный** (точное попадание в slug) |
-| | | sterilizácia mačky cena | — | 65 | áno | **второй** (высокий параллельный спрос, обязательно в текст!) |
-| Кастрация суки | `kastracia-suky` | kastrácia fenky cena | — | 100 | áno | **главный** народный запрос (люди ищут «fenka», а не «suka»! Добавить в title!) |
-| | | kastrácia suky cena | — | 30 | áno | **второй / текущий slug** (оставить slug `kastracia-suky`, в title дать «Kastrácia fenky / suky») |
-| | | sterilizácia suky / psa cena | — | 25 | áno | **второй** |
-| Вакцинация | `ockovanie-psa` | očkovanie psa cena | — | 100 | áno | **главный** (точное совпадение со слагом) |
-| | | očkovanie proti besnote cena | — | 40 | áno | **второй** |
-| Чипирование | `cipovanie` | čipovanie psa cena | — | 100 | áno | **главный** |
-| Осмотр | `vysetrenie` | vyšetrenie u veterinára cena | — | 0 | nie | **нет** (цену осмотра редко ищут отдельным запросом) |
-| Обзор цен груминга | `…/psi-salon/bratislava/ceny/` | strihanie psa cena / cenník | — | 100 | áno | **главный** (ищут «strihanie psa cena») |
-| | | psí salón cenník | — | 35 | nie | **второй** |
-| Полный груминг | `kompletna-uprava` | strihanie psa cena | — | 100 | áno | **главный** |
-| | | kompletná úprava psa cena | — | 0 | nie | **второй** (термин салонов, в описании) |
-| Купание | `kupanie-a-fenovanie` | kúpanie psa cena | — | 100 | áno | **главный** |
-| Тримминг | `trimovanie` | trimovanie psa cena | — | 100 | áno | **главный** |
-| Вычёсывание | `vycesavanie-podsady` | vyčesávanie podsady cena | — | 100 | áno | **главный** |
-| Когти | `strihanie-pazurikov` | strihanie pazúrov cena | — | 100 | áno | **главный** (чаще ищут «pazúrov», чем уменьшительное) |
-| | | strihanie pazúrikov psa cena | — | 30 | nie | **второй / текущий slug** |
-| Груминг кошки | `uprava-macky` | strihanie mačky cena | — | 20 | nie | **второй** |
-| Гостиница, ночь | `pes-noc`, `macka-noc` | hotel pre psov cena (za noc) | — | 100 | áno | **главный** для собак |
-| | | hotel pre mačky cena | — | 85 | áno | **главный** для кошек |
-| Детский сад | `psia-skolka` | psia škôlka cena | — | 100 | áno | **главный** |
-| Дрессировка | `kurz-poslusnosti`, `stenacia-skolka`, `individualna-hodina` | výcvik psa cena | — | 100 | áno | **главный** общий запрос цены |
-| | | kurz poslušnosti cena | — | 70 | áno | **главный** для курсов |
-| | | šteňacia škôlka cena | — | 15 | nie | **второй** |
-| Выгул | `vencenie-30-min`, `vencenie-60-min` | venčenie psa cena | — | 100 | áno | **главный** |
-| Передержка | `strazenie-u-vas-doma`, `strazenie-u-opatrovatela` | stráženie / opatrovanie psa cena | — | 100 | áno | **главный** |
+| Услуга | Сейчас на сайте | Варианты запроса | Planner | Trends | Подсказка | Решение | Название (§3.1) |
+|---|---|---|---|---|---|---|---|
+| Обзор цен ветклиник | `…/veterinar/bratislava/ceny/` | veterina cenník bratislava | — | 100 | áno | **главный** | — |
+| | | veterinár ceny bratislava | — | 20 | nie | **второй** | |
+| Кастрация кота | `kastracia-kocura` | kastrácia kocúra cena | — | 100 | áno | **главный** (точное попадание в slug) | — |
+| | | kastrácia mačky cena (подразумевают кота) | — | 80 | áno | **второй** (в текст описания) | |
+| Кастрация кошки | `kastracia-macky` | kastrácia mačky cena | — | 100 | áno | **главный** (точное попадание в slug) | — |
+| | | sterilizácia mačky cena | — | 65 | áno | **второй** (высокий параллельный спрос, обязательно в текст!) | |
+| Кастрация суки | `kastracia-suky` | kastrácia fenky cena | — | 100 | áno | **главный** народный запрос (люди ищут «fenka», а не «suka»! Добавить в title!) | — |
+| | | kastrácia suky cena | — | 30 | áno | **второй / текущий slug** (оставить slug `kastracia-suky`, в title дать «Kastrácia fenky / suky») | |
+| | | sterilizácia suky / psa cena | — | 25 | áno | **второй** | |
+| Вакцинация | `ockovanie-psa` | očkovanie psa cena | — | 100 | áno | **главный** (точное совпадение со слагом) | — |
+| | | očkovanie proti besnote cena | — | 40 | áno | **второй** | |
+| Чипирование | `cipovanie` | čipovanie psa cena | — | 100 | áno | **главный** | — |
+| Осмотр | `vysetrenie` | vyšetrenie u veterinára cena | — | 0 | nie | **нет** (цену осмотра редко ищут отдельным запросом) | — |
+| Обзор цен груминга | `…/psi-salon/bratislava/ceny/` | strihanie psa cena / cenník | — | 100 | áno | **главный** (ищут «strihanie psa cena») | — |
+| | | psí salón cenník | — | 35 | nie | **второй** | |
+| Полный груминг | `kompletna-uprava` | strihanie psa cena | — | 100 | áno | **главный** | — |
+| | | kompletná úprava psa cena | — | 0 | nie | **второй** (термин салонов, в описании) | |
+| Купание | `kupanie-a-fenovanie` | kúpanie psa cena | — | 100 | áno | **главный** | — |
+| Тримминг | `trimovanie` | trimovanie psa cena | — | 100 | áno | **главный** | — |
+| Вычёсывание | `vycesavanie-podsady` | vyčesávanie podsady cena | — | 100 | áno | **главный** | — |
+| Когти | `strihanie-pazurikov` | strihanie pazúrov cena | — | 100 | áno | **главный** (чаще ищут «pazúrov», чем уменьшительное) | — |
+| | | strihanie pazúrikov psa cena | — | 30 | nie | **второй / текущий slug** | |
+| Груминг кошки | `uprava-macky` | strihanie mačky cena | — | 20 | nie | **второй** | — |
+| Гостиница, ночь | `pes-noc`, `macka-noc` | hotel pre psov cena (za noc) | — | 100 | áno | **главный** для собак | — |
+| | | hotel pre mačky cena | — | 85 | áno | **главный** для кошек | |
+| Детский сад | `psia-skolka` | psia škôlka cena | — | 100 | áno | **главный** | — |
+| Дрессировка | `kurz-poslusnosti`, `stenacia-skolka`, `individualna-hodina` | výcvik psa cena | — | 100 | áno | **главный** общий запрос цены | — |
+| | | kurz poslušnosti cena | — | 70 | áno | **главный** для курсов | |
+| | | šteňacia škôlka cena | — | 15 | nie | **второй** | |
+| Выгул | `vencenie-30-min`, `vencenie-60-min` | venčenie psa cena | — | 100 | áno | **главный** | — |
+| Передержка | `strazenie-u-vas-doma`, `strazenie-u-opatrovatela` | stráženie / opatrovanie psa cena | — | 100 | áno | **главный** | — |
+| Абонемент в садик (`daycare_pass`) | Permanentka do psej škôlky | permanentka do psej škôlky cena | — | н/д | áno | **главный** (без цифр) | оставить |
+| | | psia škôlka permanentka cena | — | н/д | áno | второй | |
+| | | permanentka psia škôlka | — | н/д | áno | второй | |
+| | | balíček psia škôlka cena | — | н/д | nie | нет | |
+| Трансфер в отель (`pickup`) | Dovoz a odvoz psa do hotela | dovoz a odvoz psa do hotela | — | н/д | áno | **главный** (без цифр, точное описание) | оставить |
+| | | odvoz psa do hotela cena | — | н/д | nie | второй | |
+| | | taxi pre psov cena | — | н/д | nie | второй (подсказка «taxi pre psov bratislava») | |
+| | | preprava psa do hotela cena | — | н/д | nie | нет | |
+| Дополнительный выгул (`extra_walk`) | Venčenie navyše v hoteli pre psov | venčenie navyše v hoteli pre psov | — | н/д | nie | **главный** (без цифр, точный термин) | оставить |
+| | | extra venčenie psa cena | — | н/д | áno | второй | |
+| | | venčenie psa v hoteli cena | — | н/д | áno | второй | |
+| | | individuálne venčenie v hoteli pre psov | — | н/д | nie | нет | |
+| Групповой урок (`group_lesson`) | Skupinový výcvik psa | skupinový výcvik psa cena | — | н/д | áno | **главный** (без цифр) | оставить |
+| | | skupinový výcvik psa | — | н/д | nie | второй | |
+| | | skupinové cvičenie psov cena | — | н/д | áno | второй | |
+| | | výcvik psa v skupine cena | — | н/д | nie | нет | |
+| Индивидуальный урок (`private_lesson`) | Individuálny výcvik psa | individuálny výcvik psa | — | н/д | áno | **главный** (без цифр, активные подсказки BA, KE, TT) | оставить |
+| | | individuálny výcvik psa cena | — | н/д | áno | второй | |
+| | | individuálna hodina výcviku psa cena | — | н/д | áno | второй | |
+| | | súkromný výcvik psa cena | — | н/д | áno | второй | |
+| Консультация зоопсихолога (`behavior_consult`) | Konzultácia problémového správania psa | problémové správanie psa | — | н/д | áno | **главный** (подсказка «problémové správanie psa») | Konzultácia správania psa |
+| | | konzultácia správania psa cena | — | н/д | nie | второй | |
+| | | poradenstvo pre psov správanie cena | — | н/д | nie | нет | |
+| | | poruchy správania psov | — | н/д | nie | нет | |
+| Членство в клубе (`membership`) | Členský poplatok v kynologickom klube | členský poplatok v kynologickom klube | — | н/д | áno | **главный** (без цифр) | Členstvo v kynologickom klube |
+| | | členstvo v kynologickom klube cena | — | н/д | áno | второй (короткая естественная форма) | |
+| | | kynologický klub zápisné cena | — | н/д | nie | нет | |
+| | | poplatok kynologický klub | — | н/д | nie | нет | |
+| Визит к кошке (`cat_visit`) | Stráženie mačky – návšteva doma | návšteva mačky doma cena | — | н/д | nie | **главный** (без цифр, точная форма без тире) | Návšteva mačky doma |
+| | | stráženie mačky návšteva doma cena | — | н/д | áno | второй | |
+| | | opatrovanie mačky doma cena | — | н/д | áno | второй | |
+| | | kŕmenie mačky doma cena | — | н/д | áno | второй | |
+| Передержка дома у клиента (`house_sitting_night`) | Stráženie psa u vás doma cez noc | stráženie psa u vás doma cez noc | — | н/д | áno | **главный** (без цифр) | оставить |
+| | | nočné stráženie psa doma cena | — | н/д | áno | второй | |
+| | | stráženie psa doma cez noc cena | — | н/д | áno | второй | |
+| | | opatrovanie psa u majiteľa cez noc | — | н/д | nie | нет | |
+| Передержка у ситтера (`boarding_night`) | Stráženie psa u opatrovateľa cez noc | stráženie psa u opatrovateľa cez noc | — | н/д | áno | **главный** (без цифр, точная единица) | оставить |
+| | | opatrovanie psa u opatrovateľa cena | — | н/д | áno | второй | |
+| | | stráženie psa u opatrovateľa cena | — | н/д | áno | второй | |
+| | | domáca starostlivosť o psa cez noc cena | — | н/д | áno | нет | |
+| Дневной присмотр (`daycare_day`) | Denné stráženie psa | stráženie psa cez deň cena | — | н/д | áno | **главный** (без цифр) | оставить |
+| | | denné stráženie psa cena | — | н/д | nie | второй | |
+| | | denné opatrovanie psa cena | — | н/д | nie | второй | |
+| | | celodenné stráženie psa cena | — | н/д | áno | второй | |
+| Выгул 30 минут (`walk_30`) | Venčenie psa na 30 minút | venčenie psa na 30 minút cena | — | н/д | áno | **главный** (без цифр, без запятых) | оставить |
+| | | venčenie psa 30 minút cena | — | н/д | áno | второй | |
+| | | polhodinové venčenie psa cena | — | н/д | áno | второй | |
+| | | venčenie psa pol hodiny cena | — | н/д | áno | второй | |
+| Выгул 1 час (`walk_60`) | Venčenie psa na hodinu | venčenie psa na hodinu cena | — | н/д | áno | **главный** (без цифр) | оставить |
+| | | venčenie psa hodina cena | — | н/д | áno | второй | |
+| | | venčenie psa 60 minút cena | — | н/д | áno | второй | |
+| | | hodinové venčenie psa cena | — | н/д | nie | нет | |
+
+> **Проверка Google Trends (Slovakia, `geo=SK`):** для редких низкочастотных запросов услуг цен Trends в Словакии возвращает «Недостаточно данных» (`н/д`) из-за порога агрегации. Ссылки для воспроизведения групп сравнения:
+> - `daycare_pass`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=permanentka%20do%20psej%20%C5%A1k%C3%B4lky%20cena%2Cpsia%20%C5%A1k%C3%B4lka%20permanentka%20cena%2Cpermanentka%20psia%20%C5%A1k%C3%B4lka)
+> - `pickup`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=dovoz%20a%20odvoz%20psa%20do%20hotela%2Codvoz%20psa%20do%20hotela%20cena%2Ctaxi%20pre%20psov%20cena)
+> - `extra_walk`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=ven%C4%8Denie%20navy%C5%A1e%20v%20hoteli%20pre%20psov%2Cextra%20ven%C4%8Denie%20psa%20cena%2Cven%C4%8Denie%20psa%20v%20hoteli%20cena)
+> - `group_lesson`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=skupinov%C3%BD%20v%C3%BDcvik%20psa%20cena%2Cskupinov%C3%BD%20v%C3%BDcvik%20psa%2Cskupinov%C3%A9%20cvi%C4%8Denie%20psov%20cena)
+> - `private_lesson`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=individu%C3%A1lny%20v%C3%BDcvik%20psa%2Cindividu%C3%A1lny%20v%C3%BDcvik%20psa%20cena%2Cindividu%C3%A1lna%20hodina%20v%C3%BDcviku%20psa%20cena)
+> - `behavior_consult`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=probl%C3%A9mov%C3%A9%20spr%C3%A1vanie%20psa%2Ckonzult%C3%A1cia%20spr%C3%A1vania%20psa%20cena%2Cporadenstvo%20pre%20psov%20spr%C3%A1vanie%20cena)
+> - `membership`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=%C4%8Dlensk%C3%BD%20poplatok%20v%20kynologickom%20klube%2C%C4%8Dlenstvo%20v%20kynologickom%20klube%20cena%2Ckynologick%C3%BD%20klub%20z%C3%A1pisn%C3%A9%20cena)
+> - `cat_visit`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=n%C3%A1v%C5%A1teva%20ma%C4%8Dky%20doma%20cena%2Cstr%C3%A1%C5%BEenie%20ma%C4%8Dky%20n%C3%A1v%C5%A1teva%20doma%20cena%2Copatrovanie%20ma%C4%8Dky%20doma%20cena)
+> - `house_sitting_night`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=str%C3%A1%C5%BEenie%20psa%20doma%20cez%20noc%20cena%2Cstr%C3%A1%C5%BEenie%20psa%20u%20v%C3%A1s%20doma%20cez%20noc%2Cno%C4%8Dn%C3%A9%20str%C3%A1%C5%BEenie%20psa%20doma%20cena)
+> - `boarding_night`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=str%C3%A1%C5%BEenie%20psa%20u%20opatrovate%C4%BEa%20cez%20noc%2Copatrovanie%20psa%20u%20opatrovate%C4%BEa%20cena%2Cstr%C3%A1%C5%BEenie%20psa%20u%20opatrovate%C4%BEa%20cena)
+> - `daycare_day`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=str%C3%A1%C5%BEenie%20psa%20cez%20de%C5%88%20cena%2Cdenn%C3%A9%20str%C3%A1%C5%BEenie%20psa%20cena%2Cdenn%C3%A9%20opatrovanie%20psa%20cena)
+> - `walk_30`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=ven%C4%8Denie%20psa%20na%2030%20min%C3%BAt%20cena%2Cven%C4%8Denie%20psa%2030%20min%C3%BAt%20cena%2Cpolhodinov%C3%A9%20ven%C4%8Denie%20psa%20cena)
+> - `walk_60`: [Trends](https://trends.google.com/trends/explore?geo=SK&q=ven%C4%8Denie%20psa%20na%20hodinu%20cena%2Cven%C4%8Denie%20psa%20hodina%20cena%2Cven%C4%8Denie%20psa%2060%20min%C3%BAt%20cena)
 
 ---
 
