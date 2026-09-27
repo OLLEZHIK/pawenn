@@ -31,6 +31,7 @@ import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
+import { money } from "@/lib/money";
 
 interface CategoryListingProps {
   locale: Locale;
@@ -438,11 +439,11 @@ function buildFaqs({
   }
 
   if (aggregates.priceFrom !== null) {
-    const symbol = aggregates.currency === "EUR" ? "€" : aggregates.currency;
+    const price = (n: number) => money(n, aggregates.currency, locale);
     const range =
       aggregates.priceTo && aggregates.priceTo !== aggregates.priceFrom
-        ? `${symbol}${aggregates.priceFrom}–${symbol}${aggregates.priceTo}`
-        : `${t.from} ${symbol}${aggregates.priceFrom}`;
+        ? `${price(aggregates.priceFrom)}–${price(aggregates.priceTo)}`
+        : `${t.from} ${price(aggregates.priceFrom)}`;
     faqs.push({ question: t.faqPrice(singular, where, label), answer: t.faqPriceAnswer(range) });
   }
 
