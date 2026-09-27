@@ -49,7 +49,6 @@ export interface BusinessFilters {
   category?: BusinessCategory;
   citySlug: string;
   districtSlug?: string;
-  animal?: string;
 }
 
 // Deterministic pseudo-random order, stable within a day (changes daily) so
@@ -185,7 +184,6 @@ async function searchBusinessesRaw(filters: BusinessFilters): Promise<BusinessWi
   const where = {
     status: "PUBLISHED" as const,
     ...(filters.category ? { category: filters.category } : {}),
-    ...(filters.animal ? { animals: { has: filters.animal } } : {}),
     ...(filters.districtSlug ? inDistrictWhere(filters.citySlug, filters.districtSlug) : inCityWhere(filters.citySlug)),
   };
 
@@ -535,19 +533,7 @@ function reviveBusiness(b: BusinessWithRelations): BusinessWithRelations {
 }
 
 
-// Pets that at least one place in the category says it serves: the pet
-// filter hides the others (animals are no longer collected, so a pet with
-// no confirmed place would only ever show an empty list).
-async function getAnimalsInCategoryRaw(category: BusinessCategory, citySlug: string): Promise<string[]> {
-  const rows = await prisma.business.findMany({
-    where: { status: "PUBLISHED", category, ...inCityWhere(citySlug) },
-    select: { animals: true },
-  });
-  return [...new Set(rows.flatMap((r) => r.animals))];
-}
-
 export const getCityBySlug = cached(getCityBySlugRaw, "getCityBySlug");
-export const getAnimalsInCategory = cached(getAnimalsInCategoryRaw, "getAnimalsInCategory");
 export const getAllCities = cached(getAllCitiesRaw, "getAllCities");
 export const getDefaultCity = cached(getDefaultCityRaw, "getDefaultCity");
 export const getDistrictBySlug = cached(getDistrictBySlugRaw, "getDistrictBySlug");

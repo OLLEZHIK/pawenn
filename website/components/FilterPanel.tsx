@@ -4,10 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { BusinessCategory } from "@prisma/client";
-import { animalsForService } from "@/lib/animals";
 import { cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, type Locale } from "@/lib/i18n";
-import { AnimalIcon } from "./AnimalIcon";
 import { Dropdown } from "./Dropdown";
 import { MapPinIcon, StarIcon } from "./icons";
 import { MIN_RATINGS, type ListingSort, type MinRating } from "@/lib/listingSort";
@@ -21,7 +19,6 @@ interface FilterPanelProps {
   citySlug: string;
   /** District or attribute page the visitor is on, kept by the filters. */
   currentDistrictSlug?: string;
-  currentAnimal?: string;
   /** "lat,lng" when the list is sorted by distance - kept across filters. */
   near?: string;
   sort?: ListingSort;
@@ -33,8 +30,6 @@ interface FilterPanelProps {
   /** Attribute pages to offer (lib/attributePages.ts): links to their own
    *  indexable URLs, not query filters; the active one leads back. */
   attributes?: { key: string; label: string; href: string; active: boolean }[];
-  /** Pets to offer (ones with at least one place in the category). */
-  animals?: string[];
 }
 
 export function FilterPanel({
@@ -42,14 +37,12 @@ export function FilterPanel({
   category,
   citySlug,
   currentDistrictSlug,
-  currentAnimal,
   near,
   sort,
   minRating,
   openNow = false,
   showOpenNow = true,
   attributes = [],
-  animals,
 }: FilterPanelProps) {
   const router = useRouter();
   const t = getDictionary(locale);
@@ -61,7 +54,6 @@ export function FilterPanel({
   function withQuery(
     path: string,
     changes: {
-      animal?: string | null;
       sort?: string | null;
       rating?: string | null;
       open?: string | null;
@@ -69,12 +61,10 @@ export function FilterPanel({
     } = {}
   ) {
     const params = new URLSearchParams();
-    const animal = "animal" in changes ? changes.animal : currentAnimal;
     const sortValue = "sort" in changes ? changes.sort : sort;
     const rating = "rating" in changes ? changes.rating : minRating;
     const openValue = "open" in changes ? changes.open : openNow ? "1" : null;
     const nearValue = "near" in changes ? changes.near : near;
-    if (animal) params.set("animal", animal);
     if (nearValue) params.set("near", nearValue);
     if (sortValue) params.set("sort", sortValue);
     if (rating) params.set("rating", rating);
@@ -114,30 +104,6 @@ export function FilterPanel({
 
   return (
     <div className="space-y-3">
-      {/* Wraps onto a second line on phones instead of hiding pets
-          behind a sideways scroll nobody discovers. */}
-      <div
-        className="flex w-fit flex-wrap gap-1 rounded-[22px] bg-surface p-1 shadow-[var(--shadow-card)]"
-        role="group"
-        aria-label={t.listing.filterAnimal}
-      >
-        {[null, ...(animals ?? (category ? animalsForService(category) : []))].map((value) => {
-          const active = (currentAnimal ?? null) === value;
-          return (
-            <Link
-              key={value ?? "any"}
-              href={withQuery(locationPath, { animal: value })}
-              aria-current={active ? "true" : undefined}
-              scroll={false}
-              className={chip(active)}
-            >
-              {value && <AnimalIcon animal={value} className="h-4 w-4" />}
-              {value ? t.animals[value] : t.animals.any}
-            </Link>
-          );
-        })}
-      </div>
-
       {/* Near me, Open now (all categories) and attribute pages (vets:
           Nonstop, Saturday, Sunday, exotics, home visits). */}
       <div className="flex flex-wrap items-center gap-2">
