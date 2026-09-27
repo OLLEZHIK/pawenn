@@ -10,26 +10,60 @@
 Братислава — образец (`docs/growth-strategy.md` §0): делать ровно по
 шаблону, не больше и не меньше.
 
-## Сейчас: доработка PR #144 (первым делом)
+## Сейчас: доработка PR #144, раунд 2 (первым делом)
 
-Первая версия (Antigravity, PR #144) возвращена: в ней выдуманные
-значения. Полный разбор — комментарий «левой руки» в PR #144. Коротко:
+Раунд 1 сделан (ревью 27.09, коммит проверяющего `131ab93` уже в ветке).
+Осталось ровно три пункта. Работать в ветке `antigravity/city-kosice`:
+сначала `git pull`, потом **только новые коммиты поверх, без force-push**.
 
-1. Ссылку Google Maps, `google_place_id`, координаты, оценку и число
-   оценок **скопировать** из карточки места в Google Maps — около 40
-   мест сейчас с придуманными номерами и ID, 8 — с округлёнными
-   координатами. Не открылось — поле пустое и причина в `notes`.
-2. Дубль `vetanimal-veterinarna-ambulancia` / `veterinarna-klinika-petstar`
-   / `mvdr-jozef-berescak` — одна клиника: оставить одну запись.
-3. `animals` — очистить у всех.
-4. `prices.csv` — все колонки стандарта (`card-spec.md`, «Цены»); каждую
-   сумму сверить с прайсом по «Что считать»; ссылки-источники — рабочие
-   (сейчас 404 у Super Zoo, uvlf, vethaus).
-5. Факты (`facts`) и языки — только то, что написано на сайте места;
-   где сказано — ссылка в `notes`.
-6. Подтянуть `main` в ветку (там новый `check-city`) и добиться `READY`.
+**1. Дубли — оставить одну запись из пары.** Один сайт и одна точка на
+карте, разные карточки Google (клиника и врач). Оставить запись с
+большим числом оценок, вторую строку удалить (и её логотип, если он
+только у неё). Если это правда разные места — не удалять, а в `notes`
+обеих записей: `duplicate-check: different place (<чем отличаются, ссылка>)`.
 
-Порядок у IDE: сначала эта задача, потом `tasks/ide-city-warszawa.md`.
+| Пара | Общий сайт |
+|---|---|
+| `veterinarna-klinika-slon` / `mvdr-martin-mihaly` | klinikaslon.sk |
+| `veterinarna-ambulancia-mvdr-tomas-mihok-phd` / `veterinarna-ambulancia-a-psi-salon` | veterinarkosice.sk |
+| `veterinarna-ambulancia-mvdr-skalicky` / `zverolekar-kosice` | zverolekarkosice.sk |
+
+**2. `appointment_only` — у 17 мест нет доказательства.** Факт ставится
+только по прямым словам «len / iba / výhradne na objednávku» (или «na
+objednávku» при часах работы). «Можно записаться», «записанные идут
+первыми» — **не** `appointment_only` (`quality.md`, правило 7). Для
+каждого места ниже: нашёл прямые слова — в `notes` добавить
+`appointment_only: <URL страницы>`; не нашёл — убрать код из `facts`.
+Если у места после этого не осталось фактов — в `notes`
+`facts: none (<где смотрел>)`.
+
+`veterinar-mvdr-darina-pilecka`, `veterina-u-lisiaka`,
+`mvdr-zuzana-strazanova-veterinarna-ambulancia`,
+`veterinarna-ambulancia-a-psi-salon` (если не удалён в п. 1),
+`psi-salon-d-d`, `salon-pre-psov-lump`, `psi-salon-afrodita`,
+`psi-salon-alex`, `petra-dugas-strapacik`, `psi-salon-denny`,
+`salon-pre-psov-a-macky-verterra`, `bendziho-psi-salon`,
+`psi-wellness-salon-willow`, `studio-lia`, `salon-pre-psov-darwin-kosice`,
+`psi-salon-hafi-haf`, `samoobsluzna-kupelna-pre-psov`.
+
+Уже подтверждены (не трогать): `lu-ma-kupelna-pre-psy`,
+`salon-strapacik`, `paw-spa-u-algora`.
+
+**3. Ещё четыре факта без доказательства.** Так же: ссылка в `notes`
+(`parking: <URL>` и т.п.) или убрать код.
+- `veterinarna-klinika-pro-vet-mvdr-igor-capik` — `parking`;
+- `veterinarna-klinika-slon` — `pet_passport`, `parking`, `pharmacy_on_site`.
+
+**Не делать:** не трогать остальные места и поля (ссылки Maps,
+координаты, цены уже проверены); не добавлять новые факты без ссылки;
+не переписывать историю ветки.
+
+**Готово, когда:**
+- в PR #144 новый комментарий: по каждой паре из п. 1 — что сделано;
+  по каждому месту из п. 2 и 3 — «ссылка: …» или «убрано»;
+- `cd website && npm run check-city -- kosice` → `READY`, вывод в
+  комментарии;
+- в ветке только новые коммиты (без force-push).
 
 ## Что сделать
 
