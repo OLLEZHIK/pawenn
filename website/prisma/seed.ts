@@ -275,6 +275,7 @@ async function seedPrices(
   citySlug: string,
   businesses: Map<string, { id: number; category: BusinessCategory }>,
   serviceIds: Map<string, number>,
+  cityCurrency: string,
   rep: CityReport
 ) {
   const file = path.join(CITIES_DIR, citySlug, "prices.csv");
@@ -321,7 +322,8 @@ async function seedPrices(
       weightToKg: parseNullableFloat(row.weight_to_kg),
       priceFrom,
       priceTo: parseNullableFloat(row.price_to),
-      currency: nullableString(row.currency) ?? "EUR",
+      // An empty cell means the city's currency (city.json), never a guess.
+      currency: nullableString(row.currency)?.toUpperCase() ?? cityCurrency,
       sourceUrl,
       observedAt,
     });
@@ -477,7 +479,7 @@ async function seedCity(citySlug: string, serviceIds: Map<string, number>, hash:
     const b = await prisma.business.upsert({ where: { slug }, update: data, create: { ...data, slug } });
     seeded.set(slug, { id: b.id, category });
   });
-  await seedPrices(citySlug, seeded, serviceIds, rep);
+  await seedPrices(citySlug, seeded, serviceIds, city.currency ?? "EUR", rep);
   // Last, so a seed that fails halfway is retried on the next build.
   await prisma.city.update({ where: { id: city.id }, data: { seedHash: hash } });
 }

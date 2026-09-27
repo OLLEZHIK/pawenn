@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  getAllCities,
   getDefaultCity,
   getFeaturedBusinesses,
   getBusinessCount,
@@ -12,6 +13,7 @@ import {
   ALL_CATEGORIES,
   CATEGORY_THEME,
   categoryBlurb,
+  categoryHubPath,
   categoryLabel,
   listingPath,
 } from "@/lib/categories";
@@ -24,6 +26,7 @@ import { HeroIllustration } from "@/components/HeroIllustration";
 import { BusinessCard } from "@/components/BusinessCard";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { MythOrFact } from "@/components/MythOrFact";
+import { NearestCityNav } from "@/components/NearestCityNav";
 import {
   ArrowRightIcon,
   PhoneIcon,
@@ -37,8 +40,11 @@ const STEP_ICONS = [SearchIcon, ShieldCheckIcon, PhoneIcon];
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
-  const city = await getDefaultCity();
-  const where = inCity(lang, city ?? { name: "Bratislava" });
+  const [city, cities] = await Promise.all([getDefaultCity(), getAllCities()]);
+  // One city: the home page is that city's; several: no city in the title
+  // (docs/architecture/multi-city.md 3.1).
+  const homeCities = cities.filter((c) => localesForCity(c).includes(lang));
+  const where = homeCities.length > 1 ? null : inCity(lang, city ?? { name: "Bratislava" });
   const t = getDictionary(lang).home;
   const locales = localesForCity(city);
   return {
@@ -49,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       description: t.metaDescription(where),
       path: localePath(lang, "/"),
       locale: lang,
-      image: { title: t.h1, subtitle: where },
+      image: { title: t.h1, subtitle: where ?? undefined },
     }),
     alternates: localeAlternates(lang, Object.fromEntries(locales.map((l) => [l, localePath(l, "/")])), "/"),
   };
@@ -60,24 +66,37 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) notFound();
   const locale = lang;
   const t = getDictionary(locale).home;
-  const city = await getDefaultCity();
+  const [city, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
   const defaultSlug = city?.slug ?? "";
-  const [featured, counts, cityPoints, site] = await Promise.all([
-    getFeaturedBusinesses(defaultSlug),
-    getBusinessCount(defaultSlug),
+  // Cities that have this language (English: all). Several -> the cards sum
+  // them and open the nearest city (docs/architecture/multi-city.md 3.1).
+  const homeCities = allCities.filter((c) => localesForCity(c).includes(locale));
+  const multi = homeCities.length > 1;
+  const citySlugs = multi ? homeCities.map((c) => c.slug) : [defaultSlug];
+  const [featuredByCity, countsByCity, cityPoints, site] = await Promise.all([
+    Promise.all(citySlugs.map((slug) => getFeaturedBusinesses(slug))),
+    Promise.all(citySlugs.map((slug) => getBusinessCount(slug))),
     getCityPoints(),
     getSiteStats(),
   ]);
+  const featured = featuredByCity.flat().slice(0, 4);
+  const counts = {
+    byCategory: Object.fromEntries(
+      ALL_CATEGORIES.map((c) => [c, countsByCity.reduce((sum, x) => sum + (x.byCategory[c] ?? 0), 0)])
+    ) as Record<string, number>,
+  };
+  const citiesWith = (category: string) => countsByCity.filter((x) => (x.byCategory[category] ?? 0) > 0).length;
 
   const cityName = city?.name ?? "Bratislava";
   const citySlug = city?.slug ?? "";
 
   const categories = ALL_CATEGORIES.map((category) => ({
     slug: listingPath(locale, category, citySlug).split("/").filter(Boolean).at(1)!,
-    href: listingPath(locale, category, citySlug),
+    href: multi ? categoryHubPath(locale, category) : listingPath(locale, category, citySlug),
     category,
     label: categoryLabel(category, locale),
     count: counts.byCategory[category] ?? 0,
+    cities: citiesWith(category),
     accent: CATEGORY_THEME[category].accent,
     blurb: categoryBlurb(category, locale),
   }));
@@ -189,11 +208,17 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           title={t.browseTitle}
           body={t.browseBody}
         />
-        <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+        <NearestCityNav
+          locale={locale}
+          cities={multi ? cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng })) : []}
+          defaultCitySlug={citySlug}
+          className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3"
+        >
           {categories.map((c, i) => (
             <Link
               key={c.slug}
               href={c.href}
+              data-category={multi ? c.category : undefined}
               className="rise-in group relative flex flex-col overflow-hidden rounded-[var(--radius-card)] bg-surface p-4 shadow-[var(--shadow-card)] transition duration-300 hover:-translate-y-1 sm:p-6 hover:shadow-[var(--shadow-card-hover)]"
               style={{ "--accent": c.accent, animationDelay: `${i * 60}ms` } as React.CSSProperties}
             >
@@ -209,7 +234,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               <p className="relative mt-1.5 hidden text-foreground/65 sm:block">{c.blurb}</p>
               <div className="relative mt-auto flex items-center justify-between pt-4 sm:mt-6 sm:border-t sm:border-line">
                 <span className="text-sm font-medium text-foreground/70">
-                  {t.places(c.count)}
+                  {multi && c.cities > 1 ? t.placesInCities(c.count, c.cities) : t.places(c.count)}
                 </span>
                 <span
                   className="flex h-8 w-8 items-center justify-center rounded-full transition duration-300 group-hover:translate-x-1 sm:h-9 sm:w-9"
@@ -220,7 +245,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </div>
             </Link>
           ))}
-        </div>
+        </NearestCityNav>
       </section>
 
       {/* ---------- Featured partners ---------- */}
@@ -319,7 +344,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           <PawIcon className="pointer-events-none absolute -right-6 -top-6 h-48 w-48 rotate-12 text-white/10" />
           <PawIcon className="pointer-events-none absolute bottom-[-3rem] right-40 h-32 w-32 -rotate-12 text-white/10" />
           <div className="relative max-w-2xl">
-            <h2 className="text-3xl font-extrabold md:text-4xl">{t.ctaTitle(inCity(locale, city ?? { name: cityName }))}</h2>
+            <h2 className="text-3xl font-extrabold md:text-4xl">{t.ctaTitle(multi ? null : inCity(locale, city ?? { name: cityName }))}</h2>
             <p className="mt-3 text-lg text-white/85">
               {t.ctaBody}
             </p>

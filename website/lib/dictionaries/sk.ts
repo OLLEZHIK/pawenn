@@ -75,9 +75,10 @@ export const sk: Dictionary = {
     fish: "Ryba",
   },
   home: {
-    metaTitle: (where: string) => `Služby pre zvieratá ${skIn(where)} – veterinári, psie salóny, hotely | Pawenn`,
-    metaDescription: (where: string) =>
-      `Služby pre zvieratá ${skIn(where)} - psie salóny, veterinári, hotely pre zvieratá, výcvik a ďalšie, s kontaktom na jeden dotyk`,
+    metaTitle: (where: string | null) =>
+      `Služby pre zvieratá${where ? ` ${skIn(where)}` : ""} – veterinári, psie salóny, hotely | Pawenn`,
+    metaDescription: (where: string | null) =>
+      `Služby pre zvieratá${where ? ` ${skIn(where)}` : ""} - psie salóny, veterinári, hotely pre zvieratá, výcvik a ďalšie, s kontaktom na jeden dotyk`,
     h1: "Spokojné zviera, pokojný majiteľ",
     subtitle: "Veterinári, psie salóny, hotely a výcvik s\u00a0telefónom, otváracími hodinami a cenami. Pri každom podniku uvádzame, odkiaľ sú údaje a kedy sme ich overili.",
     popular: "Obľúbené:",
@@ -89,6 +90,11 @@ export const sk: Dictionary = {
     browseTitle: "Čo dnes potrebuje váš miláčik?",
     browseBody: "Šesť druhov starostlivosti, každý s vlastným zoznamom podnikov a zdrojom pri každom zázname.",
     places: (n: number) => `${n} ${plural("sk", n, { one: "podnik", few: "podniky", other: "podnikov" })}`,
+    placesInCities: (n: number, cities: number) =>
+      `${n} ${plural("sk", n, { one: "podnik", few: "podniky", other: "podnikov" })} v ${cities} ${plural("sk", cities, { one: "meste", few: "mestách", other: "mestách" })}`,
+    chooseCityTitle: (label: string) => `${label}: vyberte mesto`,
+    chooseCityIntro: "Vyberte si mesto - alebo nájdeme najbližšie za vás.",
+    nearMe: "Najbližšie ku mne",
     exploreEyebrow: "Preskúmajte mesto",
     exploreTitle: (city: string) => `Čo nájdete vo svojej časti mesta ${city}?`,
     exploreBody: "Ťuknite na mestskú časť a uvidíte, čo je nablízku. Väčšia bublina znamená viac podnikov.",
@@ -137,7 +143,7 @@ export const sk: Dictionary = {
         body: "Pravidelné kefovanie zachytí plsť skôr, než ju treba vystrihať - a je oveľa lacnejšie než návšteva salónu so zacuchanou srsťou.",
       },
     ],
-    ctaTitle: (where: string) => `Máte podnik pre zvieratá ${skIn(where)}?`,
+    ctaTitle: (where: string | null) => `Máte podnik pre zvieratá${where ? ` ${skIn(where)}` : ""}?`,
     ctaBody: "Pridajte svoj salón, ambulanciu alebo hotel, alebo nám dajte vedieť, ak niečo vo vašom zázname nesedí.",
     ctaButton: "Pridať alebo opraviť záznam",
   },

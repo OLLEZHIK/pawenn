@@ -8,15 +8,9 @@ import type { MarketPrice } from "./priceMarket";
 // client components) live in lib/priceSlugs.ts and are re-exported here.
 export { PRICES_SEGMENT, pricesPath, serviceCodeFromSlug, serviceSlugFor } from "./priceSlugs";
 
-export function money(value: number, currency: string, locale: Locale): string {
-  const digits = Number.isInteger(value) ? 0 : 2;
-  return new Intl.NumberFormat(locale, {
-    style: "currency",
-    currency,
-    minimumFractionDigits: digits,
-    maximumFractionDigits: digits,
-  }).format(value);
-}
+import { money } from "./money";
+
+export { money };
 
 export const comparable = (r: ServicePriceRow) => !r.partial && r.unit === null && !r.note;
 
