@@ -18,6 +18,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "card_payment", en: "Card payment", sk: "Platba kartou" },
     { code: "parking", en: "Parking", sk: "Parkovanie" },
     { code: "cats_waiting_room", en: "Separate waiting room for cats", sk: "Samostatná čakáreň pre mačky" },
+    { code: "pet_passport", en: "Issues EU pet passports", sk: "Vystavuje európsky pas pre zvieratá" },
+    { code: "pharmacy_on_site", en: "Pharmacy on site", sk: "Lekáreň na mieste" },
+    { code: "cat_friendly", en: "Cat Friendly Clinic certified", sk: "Certifikát Cat Friendly Clinic" },
   ],
   GROOMING: [
     { code: "cats", en: "Cats groomed too", sk: "Upravujú aj mačky" },
@@ -26,6 +29,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "appointment_only", en: "By appointment only", sk: "Len na objednávku" },
     { code: "online_booking", en: "Online booking", sk: "Objednanie online" },
     { code: "card_payment", en: "Card payment", sk: "Platba kartou" },
+    { code: "owner_can_stay", en: "You can stay with your pet", sk: "Môžete zostať pri zvieratku" },
+    { code: "natural_cosmetics", en: "Natural cosmetics", sk: "Prírodná kozmetika" },
+    { code: "pickup_service", en: "Pick-up and drop-off", sk: "Dovoz a odvoz zvieratka" },
   ],
   PET_HOTEL: [
     { code: "cats", en: "Takes cats", sk: "Prijímajú aj mačky" },
@@ -34,6 +40,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "trial_stay", en: "Trial day or visit before the stay", sk: "Skúšobný deň alebo návšteva vopred" },
     { code: "outdoor_run", en: "Outdoor run", sk: "Výbeh vonku" },
     { code: "supervision_24h", en: "Supervised 24 hours", sk: "Dozor 24 hodín" },
+    { code: "cage_free", en: "No cages or kennels", sk: "Bez klietok a kotercov" },
+    { code: "medication", en: "Gives medication", sk: "Podajú lieky" },
+    { code: "photo_updates", en: "Photo or video updates", sk: "Posielajú fotky alebo videá" },
   ],
   DOG_TRAINING: [
     { code: "group_classes", en: "Group classes", sk: "Skupinové kurzy" },
@@ -42,6 +51,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "training_ground", en: "Own training ground", sk: "Vlastné cvičisko" },
     { code: "home_training", en: "Training at your home", sk: "Výcvik u vás doma" },
     { code: "behaviour_problems", en: "Behaviour problems", sk: "Problémové správanie" },
+    { code: "certified_trainer", en: "Certified trainer", sk: "Certifikovaný tréner" },
+    { code: "online_lessons", en: "Online lessons", sk: "Online konzultácie" },
+    { code: "dog_sports", en: "Dog sports (agility, obedience)", sk: "Psie športy (agility, obedience)" },
   ],
   PET_SITTING: [
     { code: "dog_walking", en: "Dog walking", sk: "Venčenie psov" },
@@ -50,6 +62,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "boarding_at_sitter", en: "Boarding at the sitter's", sk: "Stráženie u opatrovateľa" },
     { code: "insured", en: "Insured", sk: "Poistenie zodpovednosti" },
     { code: "meet_greet", en: "Meet before booking", sk: "Zoznámenie pred objednaním" },
+    { code: "medication", en: "Gives medication", sk: "Podajú lieky" },
+    { code: "photo_updates", en: "Photo or video updates", sk: "Posielajú fotky alebo videá" },
+    { code: "first_aid", en: "Pet first-aid trained", sk: "Kurz prvej pomoci pre zvieratá" },
   ],
   PET_SHOP: [
     { code: "delivery", en: "Delivery", sk: "Doručenie" },
@@ -58,6 +73,9 @@ export const FACTS: Record<BusinessCategory, FactDef[]> = {
     { code: "card_payment", en: "Card payment", sk: "Platba kartou" },
     { code: "parking", en: "Parking", sk: "Parkovanie" },
     { code: "click_collect", en: "Order online, pick up in store", sk: "Objednávka online s osobným odberom" },
+    { code: "raw_food", en: "Raw food (BARF)", sk: "Surové krmivo (BARF)" },
+    { code: "aquarium_fish", en: "Aquarium fish", sk: "Akvaristika" },
+    { code: "exotic_supplies", en: "Supplies for exotic pets", sk: "Potreby pre exotické zvieratá" },
   ],
 };
 

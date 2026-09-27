@@ -199,12 +199,18 @@ cd website && npm run check-city -- <город>
 
 | Категория | Коды |
 |---|---|
-| Ветклиника | `walk_in` (приём без записи), `appointment_only`, `online_booking`, `card_payment`, `parking`, `cats_waiting_room` |
-| Груминг | `cats`, `all_sizes`, `small_dogs_only`, `appointment_only`, `online_booking`, `card_payment` |
-| Гостиница | `cats`, `small_dogs_only`, `vaccination_required`, `trial_stay` (пробный день / визит до заезда), `outdoor_run`, `supervision_24h` |
-| Дрессировка | `group_classes`, `private_lessons`, `puppy_classes`, `training_ground` (своё cvičisko), `home_training`, `behaviour_problems` |
-| Передержка | `dog_walking`, `cat_visits`, `home_sitting`, `boarding_at_sitter`, `insured` (страхование ответственности), `meet_greet` (знакомство до заказа) |
-| Зоомагазин | `delivery`, `vet_pharmacy`, `grooming_corner`, `card_payment`, `parking`, `click_collect` |
+| Ветклиника | `walk_in` (приём без записи), `appointment_only`, `online_booking`, `card_payment`, `parking`, `cats_waiting_room`, `pet_passport` (выдаёт европейский паспорт), `pharmacy_on_site`, `cat_friendly` (сертификат Cat Friendly Clinic) |
+| Груминг | `cats`, `all_sizes`, `small_dogs_only`, `appointment_only`, `online_booking`, `card_payment`, `owner_can_stay` (можно остаться рядом), `natural_cosmetics`, `pickup_service` (привезут и отвезут) |
+| Гостиница | `cats`, `small_dogs_only`, `vaccination_required`, `trial_stay` (пробный день / визит до заезда), `outdoor_run`, `supervision_24h`, `cage_free` (без клеток и вольеров), `medication` (дают лекарства), `photo_updates` |
+| Дрессировка | `group_classes`, `private_lessons`, `puppy_classes`, `training_ground` (своё cvičisko), `home_training`, `behaviour_problems`, `certified_trainer`, `online_lessons`, `dog_sports` |
+| Передержка | `dog_walking`, `cat_visits`, `home_sitting`, `boarding_at_sitter`, `insured` (страхование ответственности), `meet_greet` (знакомство до заказа), `medication`, `photo_updates`, `first_aid` |
+| Зоомагазин | `delivery`, `vet_pharmacy`, `grooming_corner`, `card_payment`, `parking`, `click_collect`, `raw_food` (BARF), `aquarium_fish`, `exotic_supplies` |
+
+**Это список, а не норма.** Записывать **все** пункты списка, которые
+подтверждены, и только их; сколько найдётся — столько и есть. Девять
+пунктов на категорию нужны, чтобы у места нашлось что-то полезное, даже
+если об одном (например, о парковке) оно не пишет. Расширен владельцем
+2026-09-27.
 
 - Только то, что **место само прямо пишет** на своём сайте или в
   официальной соцсети. Нет кода — значит «не указано», а не «нет».
