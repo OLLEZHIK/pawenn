@@ -115,6 +115,7 @@ const cityMeta = fs.existsSync(path.join(dir, "city.json"))
       lng?: number;
       locale?: string;
       locales?: string[];
+      currency?: string;
     })
   : {};
 const atCentre = rows.filter(
@@ -298,6 +299,11 @@ if (fs.existsSync(pricesFile)) {
     if (!(Number(p.price_from) > 0)) priceErrors.push(`${at}: price_from "${p.price_from}" is not a number`);
     if (!/^https?:\/\//.test(p.source_url ?? "")) priceErrors.push(`${at}: no source_url`);
     if (!["", "per_hour", "per_km"].includes((p.unit ?? "").trim())) priceErrors.push(`${at}: unit "${p.unit}"`);
+    // One currency per city: the one in city.json (an empty cell means it).
+    const currency = (p.currency ?? "").trim().toUpperCase();
+    if (currency && cityMeta.currency && currency !== cityMeta.currency.toUpperCase()) {
+      priceErrors.push(`${at}: currency ${currency}, city.json says ${cityMeta.currency}`);
+    }
     const note = (p.note ?? "").trim();
     const noteLocal = (p.note_local ?? "").trim();
     if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || !noteLocal)) {
