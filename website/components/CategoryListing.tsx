@@ -14,7 +14,7 @@ import {
   CATEGORY_THEME,
   categoryBlurb,
   categoryLabel,
-  categoryPlural, categorySingular,
+  categoryPlural, categorySeoTitle, categorySingular,
   businessPath,
   cityPath,
   listingPath,
@@ -214,7 +214,8 @@ export async function CategoryListing({
               ) : (
                 <>
                   <h1 className="text-3xl font-extrabold text-foreground md:text-5xl">
-                    {label} <span className="text-foreground/40">{where.split(" ")[0]}</span>{" "}
+                    {/* H1 = the search title: main query first (docs/seo/keywords). */}
+                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/40">{where.split(" ")[0]}</span>{" "}
                     {where.split(" ").slice(1).join(" ")}
                   </h1>
                   <p className="mt-2 text-lg text-foreground/65">
