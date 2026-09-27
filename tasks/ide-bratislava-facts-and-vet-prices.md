@@ -1,9 +1,9 @@
 # Задача: Братислава — «коротко о месте» для всех мест и цены ветклиник
 
-**Исполнитель:** Antigravity
+**Исполнитель:** Antigravity IDE (передана по указанию владельца, 2026-09-27)
 **Роль:** Data agent.
 **Тип:** добор данных по городу, объём средний (95 мест + 39 ветклиник).
-**Ветка:** `antigravity/bratislava-facts-and-vet-prices`
+**Ветка:** `antigravity/bratislava-facts-and-vet-prices` (у IDE ветки тоже `antigravity/…`)
 **Зависимости:** нет.
 
 Перед работой — `docs/playbooks/quality.md` (правила и самопроверка).
