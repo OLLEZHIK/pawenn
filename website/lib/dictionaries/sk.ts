@@ -465,8 +465,8 @@ export const sk: Dictionary = {
   },
   prices: {
     crumb: "Ceny",
-    overviewH1: (label: string, where: string) => `${cap(label)} ${skIn(where)} – ceny`,
-    overviewMetaTitle: (label: string, where: string) => `${cap(label)} ${skIn(where)} – cenník a ceny | Pawenn`,
+    overviewH1: (name: string, where: string) => `${name} ${skIn(where)} – ceny`,
+    overviewMetaTitle: (name: string, where: string) => `${name} ${skIn(where)} – cenník a ceny | Pawenn`,
     overviewIntro:
       "Koľko stojí ktorá služba – porovnanie podnikov, ktoré zverejňujú cenník. Medián je stredná cena: polovica podnikov je lacnejšia, polovica drahšia.",
     overviewMetaDescription: (label: string, where: string, services: number) =>

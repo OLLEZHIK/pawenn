@@ -139,6 +139,7 @@ Planner — `—` во всех строках.
 |---|---|
 | Название категории, title, описание | `website/lib/categories.ts`: `LABELS`, `SEO_TITLE`, `BLURBS`, `SLUGS` |
 | Страницы признаков (nonstop, sobota…) | `website/lib/attributePages.ts` (слаги), словарь `attributes` в `lib/dictionaries/<locale>.ts` |
+| Обзор цен категории (title, H1) | `website/lib/categories.ts`: `PRICES_NAME` — главный запрос цен категории из раздела 3 карты («Veterina», «Dog grooming prices») |
 | Страницы цен | `website/lib/priceSlugs.ts` (слаги услуг), `lib/services.ts` (короткие подписи и поле `seo` — поисковые названия, §3.1), словарь `prices` |
 | Главная, FAQ | словари `lib/dictionaries/<locale>.ts` |
 

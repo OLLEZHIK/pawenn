@@ -135,12 +135,12 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
 // English titles say which animals.
 const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
   en: {
-    GROOMING: "Dog & Cat Grooming",
+    GROOMING: "Dog Grooming & Groomers",
     VET_CLINIC: "Vets & Veterinary Clinics",
-    PET_HOTEL: "Pet Hotels & Dog Boarding",
+    PET_HOTEL: "Dog Hotels & Pet Boarding",
     DOG_TRAINING: "Dog Training & Puppy Classes",
     PET_SHOP: "Pet Shops",
-    PET_SITTING: "Pet Sitters & Dog Walkers",
+    PET_SITTING: "Dog Sitters & Dog Walkers",
   },
   sk: {
     GROOMING: "Strihanie psov a psie salóny",
@@ -149,6 +149,29 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Výcvik psov a kynológovia",
     PET_SHOP: "Zverimex a chovateľské potreby",
     PET_SITTING: "Venčenie a stráženie psov",
+  },
+};
+
+// Price overview (/<category>/<city>/prices) name: the main "prices"
+// query of the category from docs/seo/keywords/<locale>.md, section 3.
+// English carries "prices" itself; Slovak adds "– cenník a ceny" in the
+// dictionary template.
+const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
+  en: {
+    GROOMING: "Dog grooming prices",
+    VET_CLINIC: "Vet prices & clinic fees",
+    PET_HOTEL: "Dog hotel & boarding prices",
+    DOG_TRAINING: "Dog training prices",
+    PET_SHOP: "Pet shop prices",
+    PET_SITTING: "Dog sitting & walking prices",
+  },
+  sk: {
+    GROOMING: "Strihanie psa",
+    VET_CLINIC: "Veterina",
+    PET_HOTEL: "Hotel pre psov",
+    DOG_TRAINING: "Výcvik psa",
+    PET_SHOP: "Chovateľské potreby",
+    PET_SITTING: "Stráženie a venčenie psa",
   },
 };
 
@@ -203,6 +226,10 @@ export function categoryPlural(category: BusinessCategory, locale: Locale): stri
 
 export function categorySeoTitle(category: BusinessCategory, locale: Locale): string {
   return SEO_TITLE[locale][category];
+}
+
+export function categoryPricesName(category: BusinessCategory, locale: Locale): string {
+  return PRICES_NAME[locale][category];
 }
 
 export function categoryBlurb(category: BusinessCategory, locale: Locale): string {

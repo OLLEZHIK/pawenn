@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
 import { getMarketPrices, type ServicePriceRow } from "@/lib/data";
-import { CATEGORY_THEME, businessPath, categoryLabel, cityPath, listingPath } from "@/lib/categories";
+import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
@@ -288,7 +288,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
         category={category}
         city={city}
         crumbs={[{ label: tp.crumb }]}
-        title={tp.overviewH1(label, where)}
+        title={tp.overviewH1(categoryPricesName(category, locale), where)}
         lead={tp.overviewIntro}
       />
       <div className="mx-auto max-w-4xl space-y-6 px-4 pt-8">
