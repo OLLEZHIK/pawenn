@@ -4,7 +4,7 @@
 **Роль:** Data agent.
 **Тип:** новый город, объём средний (сколько мест реально есть, до 100).
 **Ветка:** `antigravity/city-presov`
-**Зависимости:** `tasks/ide-kosice-descriptions-hours.md` — сначала она
+**Зависимости:** `tasks/ide-kosice-logos.md` — сначала она (маленькая); `tasks/ide-kosice-descriptions-hours.md` — сначала она
 (там новые проверки `check-city`, и её уроки нужны здесь). Начать от
 `main` после её мерджа.
 

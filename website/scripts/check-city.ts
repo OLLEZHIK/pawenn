@@ -15,6 +15,7 @@ import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
+import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
 
 type Row = Record<string, string>;
 
@@ -54,7 +55,11 @@ const noWeekdays = (hours: string) => {
   if (["24h", "by-appointment"].includes(value)) return false;
   return !value.split(";").some((d) => /^(mo|tu|we|th|fr)\s/.test(d.trim()));
 };
-const logoOk = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(logosDir, r.logo_file.trim()));
+const logoExists = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(logosDir, r.logo_file.trim()));
+// A site icon (16-72 px) is not a logo: blurry in the card tile, and the
+// seed doesn't load it (reported below, not counted).
+const logoSmall = (r: Row) => (logoExists(r) ? logoTooSmall(path.join(logosDir, r.logo_file.trim())) : null);
+const logoOk = (r: Row) => logoExists(r) && !logoSmall(r);
 
 // Target share of places that must have each field. Logo, rating and
 // hours can be genuinely missing (no logo anywhere, fewer than 5 ratings,
@@ -145,6 +150,7 @@ const silent: string[] = [];
 for (const r of rows) {
   for (const c of CHECKS) {
     if (!c.evidence || c.ok(r) || noted(r, c.evidence)) continue;
+    if (c.evidence === "logo" && logoSmall(r)) continue; // own list below
     silent.push(`${r.slug}: no ${c.field} and no "${c.evidence}: none (...)" in notes`);
   }
 }
@@ -203,6 +209,21 @@ if (heavyLogos.length) {
   for (const r of heavyLogos) {
     const kb = Math.round(fs.statSync(path.join(logosDir, r.logo_file.trim())).size / 1024);
     console.log(`  ${r.slug}: ${r.logo_file} ${kb} KB`);
+  }
+}
+
+// Too small for the card tile: a site icon or a thin strip
+// (docs/playbooks/add-city.md, section 5). Find a bigger file or write
+// "logo: none (...)".
+const smallLogos = rows.filter((r) => logoSmall(r));
+if (smallLogos.length) {
+  failed = true;
+  console.log(
+    `\nLogos too small - need ${MIN_LOGO_LONG_SIDE} px on the long side and ${MIN_LOGO_SHORT_SIDE} px on the short one; a site icon is not a logo (${smallLogos.length}):`
+  );
+  for (const r of smallLogos) {
+    const size = logoSmall(r)!;
+    console.log(`  ${r.slug}: ${r.logo_file} ${size.width}x${size.height}`);
   }
 }
 
