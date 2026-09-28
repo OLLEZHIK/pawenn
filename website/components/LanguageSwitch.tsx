@@ -9,7 +9,7 @@ import { localeOfPath, switchLocalePath } from "@/lib/localeSwitch";
 // The page's language follows its URL (search engines send people to
 // the right version via hreflang), so there is no switch in the header -
 // just this quiet footer link to the same page in the other language.
-const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina" };
+const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "Polski" };
 
 export function LanguageSwitch({ locales }: { locales: Locale[] }) {
   const pathname = usePathname() ?? "/";
