@@ -86,7 +86,7 @@ const digitsOf = (s: string) => s.replace(/\D/g, "");
 const FACT_WORDS: Record<string, RegExp> = {
   card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz)|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
   pharmacy_on_site: /lekáre|lekárn|\bapte(k|cz)|pharmacy/i,
-  pet_passport: /pas(y|ov|u)? (pre|pro) (psa|zvier|mačk)|pet pas|paszport|passport|\bpas\b/i,
+  pet_passport: /\bpas(u|y|ov|om)?\b|pet pas|paszport|passport/i,
   parking: /parkov|parking/i,
   natural_cosmetics: /prírodn\w* kozmet|naturaln\w* kosmety|kosmetyk\w* naturaln|organic|bio kozmet|hypoalerg|hipoalerg/i,
   cage_free: /bez klietok|bez klatek|bezklatk|cage[- ]free|no cages/i,
