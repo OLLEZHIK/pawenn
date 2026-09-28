@@ -55,8 +55,8 @@ Kraków (Польша, задача Mac). Братислава — образе�
    правило отбора и число кандидатов — в PR.
 4. `data/cities/presov/prices.csv` — только опубликованные прайсы, в евро.
 5. Логотипы — `website/public/logos/presov/`, до 200 КБ.
-6. **Сводки отзывов не делать** — их делает «левая рука» через API
-   отзывов Google после мерджа.
+6. **Сводки отзывов не делать** — после мерджа это отдельная задача
+   Antigravity (Desktop).
 
 Запросы для поиска — главные варианты из `docs/seo/keywords/sk.md`
 («veterinár prešov», «strihanie psov prešov», «hotel pre psov prešov»,

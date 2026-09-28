@@ -58,8 +58,8 @@ Prešov (Словакия, задача IDE). Братислава — обра�
    половина); правило и число кандидатов — в PR.
 4. `data/cities/krakow/prices.csv` — только опубликованные прайсы, в злотых.
 5. Логотипы — `website/public/logos/krakow/`, до 200 КБ.
-6. **Сводки отзывов не делать** — их делает «левая рука» через API
-   отзывов Google после мерджа.
+6. **Сводки отзывов не делать** — после мерджа это отдельная задача
+   Antigravity (Desktop).
 
 Запросы — главные варианты из `docs/seo/keywords/pl.md` («weterynarz
 kraków», «groomer kraków», «hotel dla psów kraków», «szkolenie psów
