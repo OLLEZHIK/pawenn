@@ -1,0 +1,85 @@
+{
+  "slug": "elwet-klinika-weterynaryjna-24h",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=18141119518207867346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 65,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 29,
+      "title": {
+        "en": "Contrasting impressions between day and night shifts",
+        "pl": "Różne doświadczenia z dyżuru dziennego i nocnego"
+      },
+      "text": {
+        "en": "Daytime specialist consultations earn praise for thorough clinical analysis and supportive bedside manner. Conversely, reviews regarding overnight emergency visits are polarized, with some pet owners reporting rushed examinations and detached communication.",
+        "pl": "Dzienni specjaliści zbierają pochwały za wnikliwe analizy przypadków i ciepłe traktowanie pacjentów. Z kolei opinie z ostrych dyżurów nocnych są podzielone – część opiekunów narzeka na pośpiech personelu i zdawkowy sposób przekazywania informacji medycznych."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 20,
+      "title": {
+        "en": "Prolonged waiting times during emergency nights",
+        "pl": "Wydłużony czas oczekiwania na ostrym dyżurze"
+      },
+      "text": {
+        "en": "Numerous reviewers note that emergency admissions follow strict severity protocols, which can result in multiple hours of waiting in the lobby for stable animals. Visitors advise preparing for extended stays when arriving during night shifts or weekends.",
+        "pl": "Liczne komentarze wskazują, że kwalifikacja pacjentów zależy od stopnia zagrożenia życia, co przy stabilnym stanie oznacza nawet wielogodzinne czekanie. Osoby przyjeżdżające na ostry dyżur w nocy powinny uzbroić się w cierpliwość w trakcie oczekiwania na korytarzu."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 24,
+      "title": {
+        "en": "Advanced surgical equipment and hospital ward",
+        "pl": "Zaawansowany sprzęt operacyjny i hospitalizacja"
+      },
+      "text": {
+        "en": "Despite mixed opinions on waiting room dynamics, clients broadly acknowledge the strength of the surgical suite and intensive care ward. Complex orthopedic surgeries and intensive post-operative therapies frequently achieve successful and lasting outcomes.",
+        "pl": "Mimo uwag do czasu oczekiwania, opiekunowie doceniają zaplecze chirurgiczne i oddział intensywnej terapii. Zaawansowane zabiegi ortopedyczne i opieka pooperacyjna w szpitalu pomogły wielu czworonogom odzyskać zdrowie po ciężkich urazach i nagłych wypadkach."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Elwet clinic open 24 hours on al. Niepodległości?",
+        "pl": "Czy Elwet przy al. Niepodległości działa całodobowo?"
+      },
+      "a": {
+        "en": "Yes, Elwet maintains an around-the-clock veterinary hospital and emergency clinic 365 days a year.",
+        "pl": "Tak, placówka prowadzi całodobowy ostry dyżur i szpital dla zwierząt przez cały rok."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How are patients prioritized during night hours?",
+        "pl": "Jak ustalana jest kolejność przyjęć w nocy?"
+      },
+      "a": {
+        "en": "Admissions are governed by medical triage, with life-threatening cases treated before stable patients.",
+        "pl": "O kolejności przyjęć decyduje stan zdrowia pacjenta – przypadki ratujące życie mają bezwzględny priorytet."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is parking easily accessible near the clinic?",
+        "pl": "Czy pod kliniką można łatwo zaparkować?"
+      },
+      "a": {
+        "en": "There is a small parking lot, but spaces on al. Niepodległości can be very competitive during daytime hours.",
+        "pl": "Przy budynku znajduje się niewielki parking, jednak w ciągu dnia znalezienie wolnego miejsca bywa trudne."
+      },
+      "basis": "reviews"
+    }
+  ]
+}

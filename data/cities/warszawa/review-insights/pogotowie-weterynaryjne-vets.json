@@ -1,0 +1,85 @@
+{
+  "slug": "pogotowie-weterynaryjne-vets",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=12453807261240839542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 69,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 34,
+      "title": {
+        "en": "Dedicated emergency personnel with variable night shifts",
+        "pl": "Oddani lekarze dyżurni i różne opinie o nocy"
+      },
+      "text": {
+        "en": "Owners praise the rapid triage and decisive care provided by doctors on Książęca street during acute health crises. Conversely, several clients visiting during late night shifts mention feeling rushed or encountering less communicative desk staff during stress.",
+        "pl": "Opiekunowie chwalą szybką segregację pacjentów i zdecydowane działania lekarzy przy ul. Książęcej w stanach zagrożenia życia. Z kolei część osób zgłaszających się w nocy zwraca uwagę na pośpiech personelu i nieco chłodniejszy kontakt w recepcji w sytuacjach stresowych."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 25,
+      "title": {
+        "en": "Crucial life-saving interventions and surgery",
+        "pl": "Skuteczne ratowanie życia i chirurgia powypadkowa"
+      },
+      "text": {
+        "en": "Numerous reviews recount how intensive resuscitation, emergency oxygen therapy, and prompt surgical repairs saved pets in critical condition. In-house diagnostics allow the emergency team to make immediate life-saving medical decisions around the clock every day.",
+        "pl": "Wielu klientów dziękuje lecznicy za uratowanie zwierząt w krytycznym stanie dzięki tlenoterapii, transfuzjom i natychmiastowym operacjom. Zaplecze diagnostyczne pozwala lekarzom na bezzwłoczne podejmowanie kluczowych decyzji ratunkowych przez całą dobę."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 16,
+      "title": {
+        "en": "Transparent invoicing with substantial night rates",
+        "pl": "Przejrzyste rozliczenia i wysokie stawki dyżurne"
+      },
+      "text": {
+        "en": "Reviewers acknowledge that bills are detailed, but caution that nighttime admissions, intensive monitoring, and specialized pharmacology result in substantial costs. Pet owners advise confirming expected overnight rates during initial admission at the reception desk.",
+        "pl": "Klienci potwierdzają, że rachunki są szczegółowo rozpisane, lecz ostrzegają, że nocne dyżury, intensywna terapia i leki wiążą się ze znacznym kosztem. Warto już przy rejestracji dopytać o przewidywany kosztorys hospitalizacji nocnej w recepcji lecznicy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the emergency clinic on Książęca open 24/7?",
+        "pl": "Czy pogotowie na Książęcej działa przez całą dobę?"
+      },
+      "a": {
+        "en": "Yes, emergency veterinary admissions operate 24 hours a day, including weekends and public holidays.",
+        "pl": "Tak, ostry dyżur weterynaryjny funkcjonuje 24 godziny na dobę przez cały rok, także w święta."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is there parking near the clinic on Książęca street?",
+        "pl": "Czy w pobliżu lecznicy przy ul. Książęcej jest parking?"
+      },
+      "a": {
+        "en": "Municipal parking bays exist along Książęca, though spaces can be scarce during daytime business hours.",
+        "pl": "Wzdłuż ul. Książęcej znajdują się płatne miejsca postojowe, w ciągu dnia bywają one mocno obłożone."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are emergency surgeries performed during the night?",
+        "pl": "Czy w nocy przeprowadzane są pilne operacje?"
+      },
+      "a": {
+        "en": "Yes, an on-call surgical team is available to perform life-saving operations at any hour.",
+        "pl": "Tak, dyżurny zespół chirurgiczny wykonuje pilne zabiegi operacyjne o każdej porze nocy."
+      },
+      "basis": "both"
+    }
+  ]
+}

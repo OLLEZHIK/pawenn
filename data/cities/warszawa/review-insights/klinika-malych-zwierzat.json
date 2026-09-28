@@ -1,0 +1,85 @@
+{
+  "slug": "klinika-malych-zwierzat",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=816296502723002793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 56,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 22,
+      "title": {
+        "en": "Academic clinical competence and thorough exams",
+        "pl": "Akademicka wiedza i skrupulatne badania"
+      },
+      "text": {
+        "en": "Associated with the university veterinary faculty on Nowoursynowska street, the clinic is praised for high diagnostic rigor and academic precision. Attending clinicians perform comprehensive physical assessments and consult complex pathologies across specialties.",
+        "pl": "Powiązana z wydziałem medycyny weterynaryjnej klinika przy ul. Nowoursynowskiej słynie z akademickiej rzetelności. Lekarze drobiazgowo badają każdy przypadek, opierają się na aktualnej wiedzy naukowej i konsultują trudne schorzenia interdyscyplinarnie."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Specialized surgeries and university diagnostic equipment",
+        "pl": "Specjalistyczne operacje i diagnostyka kliniczna"
+      },
+      "text": {
+        "en": "Owners of pets requiring intricate neurosurgery, advanced orthopedics, or oncology treatment commend the academic hospital's outcomes. State-of-the-art imaging facilities and specialized surgical wards help achieve recoveries in demanding medical cases.",
+        "pl": "Opiekunowie zwierząt wymagających skomplikowanych zabiegów ortopedycznych, neurologicznych lub onkologicznych chwalą efekty terapii. Zaawansowane zaplecze obrazowe i sale operacyjne pozwalają na bezpieczne przeprowadzanie bardzo wymagających operacji."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Formal registration procedures and campus navigation",
+        "pl": "Procedury rejestracji i poruszanie się po kampusie"
+      },
+      "text": {
+        "en": "Some visitors mention that registration procedures on the university campus can feel bureaucratic compared to private neighborhood clinics. Arriving a bit early is recommended to complete paperwork and find the correct clinic entrance pavilion smoothly.",
+        "pl": "Część klientów zwraca uwagę, że procedury formalne na terenie kampusu bywają bardziej rozbudowane niż w małych lecznicach. Warto przybyć kilkanaście minut wcześniej, aby spokojnie zarejestrować pupila w okienku i odnaleźć właściwy pawilon kliniczny na uczelni."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the university clinic open 24/7 for acute emergencies?",
+        "pl": "Czy klinika akademicka prowadzi ostry dyżur całodobowy?"
+      },
+      "a": {
+        "en": "Yes, an emergency team operates around the clock for life-threatening cases and trauma patients.",
+        "pl": "Tak, szpital uniwersytecki zapewnia całodobową pomoc doraźną w stanach bezpośredniego zagrożenia życia."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where should visitors park on the SGGW campus?",
+        "pl": "Gdzie zaparkować samochód na terenie kampusu SGGW?"
+      },
+      "a": {
+        "en": "Designated visitor parking spaces are available near the clinic pavilion via the campus entrance gates.",
+        "pl": "Wokół pawilonu klinicznego na terenie kampusu wyznaczone są miejsca postojowe dla osób przywożących zwierzęta."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can advanced scans such as CT or MRI be scheduled here?",
+        "pl": "Czy w klinice można wykonać tomografię lub rezonans?"
+      },
+      "a": {
+        "en": "Yes, as a university center, modern imaging facilities including CT scanners are available on site.",
+        "pl": "Tak, jako ośrodek uniwersytecki placówka dysponuje pracownią zaawansowanej diagnostyki obrazowej, w tym tomografii."
+      },
+      "basis": "both"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "specvet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=17662824927426345763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 92,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 41,
+      "title": {
+        "en": "Acclaimed veterinary nephrology and internal specialists",
+        "pl": "Uznani eksperci nefrologii i interny weterynaryjnej"
+      },
+      "text": {
+        "en": "SpecVet on Rostafińskich street is renowned as a premier referral center for kidney diseases, feline nephrology, and hemodialysis. Doctors are commended for thorough medical analyses, innovative protocols, and supportive guidance for chronic patients.",
+        "pl": "SpecVet przy ul. Rostafińskich to wiodący ośrodek referencyjny w leczeniu chorób nerek, dializoterapii i interny. Lekarze zbierają znakomite oceny za wnikliwą analizę wyników badań, nowoczesne protokoły lecznicze i stałe wsparcie dla przewlekle chorych pacjentów."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 20,
+      "title": {
+        "en": "Extended quality of life for renal and chronic cases",
+        "pl": "Poprawa jakości życia pacjentów nefrologicznych"
+      },
+      "text": {
+        "en": "Many cat and dog owners describe how targeted therapy and specialized renal diets stabilized advanced renal failure that other clinics deemed hopeless. Animals often regain appetite, stable creatinine levels, and active behavior under specialized care.",
+        "pl": "Wielu opiekunów opisuje, jak indywidualnie dobrana terapia i leczenie nefrologiczne ustabilizowały niewydolność nerek uznawaną wcześniej za beznadziejną. Zwierzęta odzyskują apetyt, a parametry nerkowe ulegają zauważalnej i trwałej poprawie w badaniach krwi."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "High appointment demand and specialized scheduling",
+        "pl": "Duże zainteresowanie i wcześniejsze zapisy"
+      },
+      "text": {
+        "en": "Because pet owners seek out SpecVet from across Poland, booking non-urgent specialist consultations requires advance notice. Punctuality is generally respected, but complicated nephrology consultations can occasionally extend into subsequent appointment slots.",
+        "pl": "Z uwagi na duży napływ pacjentów z całego kraju, zapisy do czołowych specjalistów wymagają wcześniejszej rejestracji. Terminy są na ogół przestrzegane, choć bardzo skomplikowane przypadki nefrologiczne mogą niekiedy nieco przesunąć harmonogram przyjęć."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does SpecVet offer veterinary hemodialysis?",
+        "pl": "Czy w SpecVet wykonywane są dializy dla zwierząt?"
+      },
+      "a": {
+        "en": "Yes, SpecVet is one of the leading centers in Poland providing veterinary hemodialysis for kidney failure.",
+        "pl": "Tak, SpecVet jest jednym z nielicznych ośrodków w Polsce prowadzących hemodializy dla psów i kotów."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located near Pole Mokotowskie?",
+        "pl": "Gdzie dokładnie znajduje się lecznica przy Polu Mokotowskim?"
+      },
+      "a": {
+        "en": "The facility is situated at Rostafińskich 4 street, right next to the park area of Pole Mokotowskie.",
+        "pl": "Placówka mieści się przy ul. Rostafińskich 4, w bezpośrednim sąsiedztwie parku Pole Mokotowskie."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is advance booking required for nephrology consultations?",
+        "pl": "Czy do nefrologa trzeba zarejestrować się z wyprzedzeniem?"
+      },
+      "a": {
+        "en": "Yes, specialized nephrology appointments must be booked in advance due to high patient demand.",
+        "pl": "Tak, wizyty u specjalistów nefrologii wymagają wcześniejszego zapisu ze względu na duże obłożenie."
+      },
+      "basis": "both"
+    }
+  ]
+}

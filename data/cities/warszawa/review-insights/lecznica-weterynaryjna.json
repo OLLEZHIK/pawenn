@@ -1,0 +1,85 @@
+{
+  "slug": "lecznica-weterynaryjna",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=5147663605121485461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 20,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Approachable and reliable neighborhood care on Żytnia",
+        "pl": "Życzliwa i rzetelna opieka lekarska na Żytniej"
+      },
+      "text": {
+        "en": "Clients from Wola appreciate the friendly and calm demeanor of the veterinarians located on Żytnia street. Doctors perform attentive check-ups, readily explain prescriptions, and show genuine interest in the long-term well-being and health of dogs and cats.",
+        "pl": "Mieszkańcy Woli cenią przyjazną i spokojną atmosferę panującą w lecznicy przy ul. Żytniej. Lekarze wykonują dokładne badania ogólne, przystępnie wyjaśniają zalecenia farmakologiczne i okazują szczere zaangażowanie w zdrowie każdego czworonożnego pacjenta."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Effective routine therapies and preventive health",
+        "pl": "Skuteczne leczenie internistyczne i profilaktyka"
+      },
+      "text": {
+        "en": "Reviewers report good outcomes for common pet issues including ear infections, dermatological flare-ups, and digestive troubles. Preventive procedures such as vaccinations, parasite protection, and deworming are carried out smoothly and very efficiently.",
+        "pl": "Właściciele zwierząt opisują dobre rezultaty leczenia powszechnych dolegliwości, takich jak zapalenia uszu, problemy skórne czy niestrawność. Zabiegi profilaktyczne, w tym szczepienia ochronne i odrobaczanie, przebiegają sprawnie, terminowo i bez stresu."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Quiet courtyard location in Wola district",
+        "pl": "Spokojna lokalizacja w podwórzu na Woli"
+      },
+      "text": {
+        "en": "Tucked away in an internal courtyard off Żytnia street, the practice offers a peaceful retreat away from noisy street traffic. Pet owners note that the modest, clean interior provides a reassuring, quiet setting for timid animals awaiting examination.",
+        "pl": "Usytuowanie w zacisznym podwórzu przy ul. Żytniej pozwala uniknąć hałasu ruchliwej ulicy podczas wizyty. Klienci wskazują, że skromne, lecz schludne wnętrze gabinetu stwarza bezpieczną atmosferę sprzyjającą wyciszeniu lękliwych zwierząt w poczekalni."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do visitors find the clinic entrance on Żytnia?",
+        "pl": "Jak trafić do wejścia lecznicy przy ul. Żytniej?"
+      },
+      "a": {
+        "en": "The entrance is located within the courtyard behind the street-front building at Żytnia 15.",
+        "pl": "Gabinet mieści się wewnątrz podwórza kamienicy pod adresem ul. Żytnia 15, z wejściem przez bramę."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for routine vaccines?",
+        "pl": "Czy na szczepienia profilaktyczne trzeba się umawiać?"
+      },
+      "a": {
+        "en": "While phone scheduling is recommended, routine vaccinations and microchipping are also accepted during open clinic hours.",
+        "pl": "Zaleca się kontakt telefoniczny, jednak podstawowe szczepienia i chipowanie realizowane są na bieżąco."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer surgical treatments?",
+        "pl": "Czy w lecznicy wykonywane są zabiegi chirurgiczne?"
+      },
+      "a": {
+        "en": "Basic soft-tissue surgeries such as neutering and wound dressing are performed after prior medical qualification.",
+        "pl": "Podstawowe zabiegi chirurgii miękkiej oraz kastracje są wykonywane po wcześniejszej kwalifikacji pacjenta."
+      },
+      "basis": "both"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "klinika-weterynaryjna-pulawska",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=1670266970794880410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 102,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 44,
+      "title": {
+        "en": "Experienced doctors with variable reception feedback",
+        "pl": "Doświadczeni lekarze i mieszane opinie o recepcji"
+      },
+      "text": {
+        "en": "Pet owners speak highly of senior veterinary specialists and surgeons who demonstrate deep technical competence. In contrast, several reviews report friction at the reception desk, citing long phone hold times or occasional miscommunications regarding wait status.",
+        "pl": "Właściciele zwierząt z uznaniem wypowiadają się o wiedzy i opanowaniu lekarzy specjalistów oraz chirurgów. Z kolei praca recepcji budzi bardziej zróżnicowane odczucia – niektórzy klienci wskazują na trudności z dodzwonieniem się i zamieszanie w zapisach."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 35,
+      "title": {
+        "en": "Spacious facility on Kuropatwy with good parking",
+        "pl": "Przestronny obiekt przy Kuropatwy i wygodny parking"
+      },
+      "text": {
+        "en": "The facility at Kuropatwy street offers ample space, modern consultation rooms, and a dedicated patient parking area. Reviewers appreciate that the waiting area accommodates multiple animals comfortably without creating intense territorial stress or agitation.",
+        "pl": "Klinika przy ul. Kuropatwy wyróżnia się dużą przestrzenią, nowoczesnymi gabinetami oraz własnym parkingiem dla pacjentów. Klienci bardzo chwalą obszerną poczekalnię, w której łatwiej odseparować od siebie zestresowane psy i koty przed wejściem do lekarza."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 27,
+      "title": {
+        "en": "Wait times influenced by emergency arrivals",
+        "pl": "Czas oczekiwania zależny od nagłych pacjentów"
+      },
+      "text": {
+        "en": "Scheduled check-ups are occasionally pushed back when critical trauma cases arrive at the emergency station. Most reviewers understand the medical necessity of prioritizing unstable pets, though they advise planning extra buffer time for appointments.",
+        "pl": "Nawet wcześniej umówione konsultacje bywają opóźnione, gdy na ostry dyżur trafia pacjent wymagający natychmiastowej reanimacji. Większość opiekunów rozumie konieczność ratowania życia, lecz sugeruje zaplanowanie dodatkowego zapasu czasu w poczekalni."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the Kuropatwy clinic open throughout the night?",
+        "pl": "Czy klinika przy ul. Kuropatwy działa w nocy?"
+      },
+      "a": {
+        "en": "Yes, the facility maintains a continuous 24-hour emergency service for all pet species.",
+        "pl": "Tak, placówka zapewnia całodobową opiekę weterynaryjną i ostry dyżur chirurgiczny."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available on the clinic grounds?",
+        "pl": "Czy na terenie kliniki znajduje się parking dla klientów?"
+      },
+      "a": {
+        "en": "Yes, there is a dedicated customer parking lot directly adjacent to the clinic entrance.",
+        "pl": "Tak, tuż obok wejścia do kliniki znajduje się bezpłatny parking przeznaczony dla opiekunów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are ultrasound and laboratory tests performed immediately?",
+        "pl": "Czy badania USG i krew można wykonać od ręki?"
+      },
+      "a": {
+        "en": "Yes, in-house diagnostic devices allow doctors to perform ultrasound scans and obtain lab results promptly.",
+        "pl": "Tak, własne zaplecze diagnostyczne pozwala na natychmiastowe wykonanie USG oraz badań krwi."
+      },
+      "basis": "both"
+    }
+  ]
+}

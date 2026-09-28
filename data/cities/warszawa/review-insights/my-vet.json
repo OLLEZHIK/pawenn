@@ -1,0 +1,85 @@
+{
+  "slug": "my-vet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=2557391615336409969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 16,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Gentle downtown care on Grzybowska street",
+        "pl": "Troskliwa opieka w centrum przy Grzybowskiej"
+      },
+      "text": {
+        "en": "City center residents value the warm and competent attention given to pets at My Vet on Grzybowska. The veterinary team listens closely to owner concerns, handles frightened cats and small dogs gently, and establishes a friendly, unhurried atmosphere during each checkup.",
+        "pl": "Mieszkańcy Śródmieścia i Woli chwalą ciepłą i fachową opiekę w przychodni My Vet przy ul. Grzybowskiej. Zespół uważnie słucha opiekunów, delikatnie obchodzi się ze zestresowanymi kotami i psami, tworząc spokojną atmosferę podczas każdego badania kontrolnego."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Convenient central Warsaw clinic location",
+        "pl": "Wygodna lokalizacja w centrum Warszawy"
+      },
+      "text": {
+        "en": "Located conveniently in the Wola business district, the clinic is easy to visit on foot or by public transport. The interior is modern, clean, and organized, providing comfortable waiting conditions for neighborhood pets and their owners alike throughout the week.",
+        "pl": "Dogodne usytuowanie w nowoczesnej części Woli ułatwia dotarcie do gabinetu pieszo lub komunikacją miejską. Wnętrze jest estetyczne, czyste i dobrze urządzone, co zapewnia komfortowe warunki oczekiwania dla okolicznych mieszkańców z pupilami przez cały tydzień."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Reliable preventive care and wellness checks",
+        "pl": "Sprawna profilaktyka i badania kontrolne"
+      },
+      "text": {
+        "en": "Pet guardians report good clinical outcomes for vaccinations, health certificates, and routine blood panels. Preventive recommendations are customized to each pet's lifestyle, ensuring timely detection of minor issues before they become serious health obstacles.",
+        "pl": "Klienci zgłaszają bardzo dobre rezultaty szczepień, przeglądów zdrowotnych oraz okresowych badań krwi. Zalecenia profilaktyczne są dostosowywane do trybu życia zwierzęcia, co pozwala w porę wychwycić drobne nieprawidłowości zdrowotne i szybko zareagować."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can visits be scheduled outside standard business hours?",
+        "pl": "Czy można umówić wizytę w godzinach wieczornych?"
+      },
+      "a": {
+        "en": "The clinic operates until early evening on weekdays; advance booking is advised.",
+        "pl": "Przychodnia przyjmuje w dni powszednie do godzin wczesnowieczornych po wcześniejszym zapisie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is English spoken for international pet owners?",
+        "pl": "Czy w gabinecie możliwa jest obsługa w języku angielskim?"
+      },
+      "a": {
+        "en": "Yes, consultations in English are routinely provided for foreign residents in the area.",
+        "pl": "Tak, personel prowadzi konsultacje także w języku angielskim dla obcokrajowców mieszkających w stolicy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What diagnostic services are available on Grzybowska?",
+        "pl": "Jakie badania diagnostyczne są dostępne przy Grzybowskiej?"
+      },
+      "a": {
+        "en": "The clinic provides in-house blood analysis, ultrasound imaging, and microscopic cytology.",
+        "pl": "Placówka wykonuje na miejscu podstawowe badania krwi, badanie USG oraz mikroskopową ocenę cytologiczną."
+      },
+      "basis": "both"
+    }
+  ]
+}

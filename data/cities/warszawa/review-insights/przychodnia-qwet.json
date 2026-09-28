@@ -1,0 +1,85 @@
+{
+  "slug": "przychodnia-qwet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=17423044457599312549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 29,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 16,
+      "title": {
+        "en": "Committed and helpful vets on Obozowa in Wola",
+        "pl": "Zaangażowani weterynarze na Obozowej na Woli"
+      },
+      "text": {
+        "en": "Clients from Wola and Koło commend the veterinary staff on Obozowa street for their dedication and reassuring demeanor. Doctors demonstrate great skill with energetic dogs and shy cats, explaining diagnoses thoroughly without pushing unnecessary tests or costly treatments.",
+        "pl": "Klienci z Woli i Koła chwalą personel przy ul. Obozowej za oddanie pracy i wyrozumiałe podejście do zwierząt. Lekarze radzą sobie świetnie z energicznymi psami i płochliwymi kotami, rzetelnie objaśniając leczenie bez naciągania na zbędne badania diagnostyczne."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Effective therapies and surgical recovery",
+        "pl": "Skuteczne leczenie internistyczne i zabiegi"
+      },
+      "text": {
+        "en": "Reviews mention high satisfaction with both routine therapies and surgical interventions like spaying or lump removals. Post-operative checkups and pain management protocols are closely supervised, leading to prompt pet rehabilitation at home without complications.",
+        "pl": "W opiniach powtarzają się pochwały za skuteczność leczenia internistycznego oraz starannie wykonane zabiegi chirurgiczne i sterylizacje. Kontrole pooperacyjne i leczenie przeciwbólowe pozwalają zwierzętom na szybki powrót do pełnej formy w domowych warunkach."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Reasonable neighborhood rates on Obozowa",
+        "pl": "Przystępne ceny i uczciwe podejście do klienta"
+      },
+      "text": {
+        "en": "Many reviewers point out that consultation fees and diagnostic costs are very reasonable compared to larger Warsaw animal hospitals. Pet owners appreciate the honest estimates given before complex procedures or laboratory tests are scheduled and performed.",
+        "pl": "Wielu klientów podkreśla, że opłaty za wizyty i badania w przychodni Qwet są bardzo przystępne na tle dużych klinik całodobowych. Właściciele cenią szczere przedstawienie orientacyjnych kosztów przed rozpoczęciem planowanych procedur leczniczych w gabinecie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet owners walk in or is booking mandatory?",
+        "pl": "Czy do przychodni Qwet trzeba się wcześniej zapisywać?"
+      },
+      "a": {
+        "en": "Appointments by telephone are preferred, but walk-ins with sudden ailments are accommodated.",
+        "pl": "Preferowane są wcześniejsze zapisy telefoniczne, ale pacjenci z nagłymi objawami są przyjmowani na bieżąco."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Qwet clinic situated on Obozowa?",
+        "pl": "Gdzie dokładnie znajduje się przychodnia Qwet?"
+      },
+      "a": {
+        "en": "The facility is located at Obozowa 61, easily reachable by trams running through Wola.",
+        "pl": "Gabinet mieści się przy ul. Obozowej 61, z dogodnym dojazdem tramwajami kursującymi przez Wolę."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are dental cleanings performed at Qwet?",
+        "pl": "Czy w gabinecie wykonywane jest czyszczenie zębów?"
+      },
+      "a": {
+        "en": "Yes, ultrasonic dental scaling and polishing under monitored anesthesia are available.",
+        "pl": "Tak, placówka oferuje ultradźwiękowe usuwanie kamienia nazębnego w bezpiecznym znieczuleniu."
+      },
+      "basis": "both"
+    }
+  ]
+}

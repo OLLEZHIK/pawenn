@@ -1,0 +1,85 @@
+{
+  "slug": "centrum-zdrowia-malych-zwierzat",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=12800964752262104974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 77,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 28,
+      "title": {
+        "en": "Knowledgeable doctors on Śreniawitów street",
+        "pl": "Rzetelna wiedza i opieka przy Śreniawitów"
+      },
+      "text": {
+        "en": "Pet owners on Białołęka commend the attending doctors for their methodical diagnostic approach and patient consultations. The veterinary team takes the time to explain treatment plans clearly, answer questions, and avoid rushing through important appointments.",
+        "pl": "Właściciele psów i kotów z Białołęki chwalą lekarzy za dociekliwe diagnozowanie oraz spokojny przebieg każdej wizyty. Zespół dokładnie omawia dawkowanie leków i dalsze kroki lecznicze, nie wywierając presji czasu na opiekunach czworonożnych pacjentów."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Appointment scheduling versus emergency walk-ins",
+        "pl": "Wizyty na zapisy a nagłe przypadki z ulicy"
+      },
+      "text": {
+        "en": "While pre-booked appointments generally proceed with minimal delays, unexpected emergency arrivals can push back consultation times. Reviewers recommend arriving slightly ahead of time and being prepared for minor delays during busy late afternoon hours.",
+        "pl": "Wizyty umówione na konkretną godzinę przebiegają sprawnie, jednak nagłe przypadki wymagające pilnej interwencji mogą wpłynąć na grafik. Klienci doradzają wcześniejsze przybycie i wyrozumiałość w godzinach wzmożonego ruchu popołudniowego w poczekalni."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 14,
+      "title": {
+        "en": "Well-equipped clinical facilities and pharmacy",
+        "pl": "Nowoczesne wyposażenie i apteka na miejscu"
+      },
+      "text": {
+        "en": "Reviewers appreciate having access to in-house blood testing, ultrasound, and a well-stocked veterinary pharmacy under one roof. The premises are kept clean and organized, providing a comfortable environment for both animals and their owners during medical visits.",
+        "pl": "Opiekunowie doceniają dostęp do badań laboratoryjnych, aparatury USG oraz zaopatrzonej apteki weterynaryjnej w jednym miejscu. Gabinety są utrzymane w nienagannej czystości, co sprzyja wyciszeniu i spokojowi zwierząt podczas procedur medycznych i badań."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic offer 24/7 care in Białołęka?",
+        "pl": "Czy placówka świadczy pomoc całodobową na Białołęce?"
+      },
+      "a": {
+        "en": "Yes, the clinic operates 24 hours a day, providing continuous medical assistance for pets.",
+        "pl": "Tak, lecznica funkcjonuje całodobowo, oferując pomoc lekarską w dzień oraz podczas dyżuru nocnego."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can medications be purchased directly at the clinic?",
+        "pl": "Czy leki i karmy specjalistyczne można kupić na miejscu?"
+      },
+      "a": {
+        "en": "Yes, there is an on-site veterinary pharmacy stocking prescribed medicines and dietary feeds.",
+        "pl": "Tak, placówka posiada aptekę weterynaryjną z lekami na receptę oraz karmami weterynaryjnymi."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is phone booking required for consultations?",
+        "pl": "Czy konieczna jest wcześniejsza rejestracja telefoniczna?"
+      },
+      "a": {
+        "en": "Booking ahead is advised for routine visits, whereas emergency cases are accommodated without booking.",
+        "pl": "Zaleca się wcześniejsze zapisy na wizyty planowe, natomiast stany nagłe przyjmowane są w trybie pilnym."
+      },
+      "basis": "both"
+    }
+  ]
+}

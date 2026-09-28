@@ -1,0 +1,85 @@
+{
+  "slug": "planeta-zoo",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9273113859658354401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 17,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Helpful and welcoming downtown shopkeepers on Hoża",
+        "pl": "Uprzejma i pomocna obsługa w centrum przy Hożej"
+      },
+      "text": {
+        "en": "Clients from Śródmieście commend the staff at Planeta Zoo on Hoża street for their warm greeting, attentive service, and helpful advice. The sellers gladly assist with selecting fitting collars, coats, or nutritious wet food cans for urban dogs and cats of various breeds.",
+        "pl": "Klienci ze Śródmieścia chwalą personel sklepu Planeta Zoo przy ul. Hożej za uśmiech, pomocną dłoń i fachowe doradztwo. Sprzedawcy chętnie pomagają dobrać odpowiednią obrożę, szelki, ubranko oraz wartościowe karmy mokre dla psów i kotów mieszkających w miejskich warunkach."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Conveniently located pet shop in downtown Warsaw",
+        "pl": "Wygodny sklep zoologiczny w sercu Śródmieścia"
+      },
+      "text": {
+        "en": "Situated on Hoża street, this pet shop is very convenient for downtown apartment residents walking their dogs. The shelves are neatly packed with quality kibble, healthy treats, grooming brushes, and pet care accessories for everyday urban dog walking and home pet comfort.",
+        "pl": "Usytuowany przy ul. Hożej sklep jest bardzo dogodnym punktem dla mieszkańców centrum wyprowadzających psy na spacery. Półki są gęsto i starannie zaopatrzone w karmy, naturalne gryzaki, akcesoria pielęgnacyjne oraz żwirki higieniczne dla kotów miejskich."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Moderate pricing for city center pet supplies",
+        "pl": "Umiarkowane ceny w śródmiejskiej lokalizacji"
+      },
+      "text": {
+        "en": "Reviewers emphasize that despite its prime central location, the shop maintains fair and moderate prices on animal foods, litter, and treats. Regular customers appreciate reliable product availability and occasional seasonal discount promotions on staple goods in stock.",
+        "pl": "Klienci podkreślają, że mimo centralnej lokalizacji w Śródmieściu sklep utrzymuje rozsądne, umiarkowane ceny karm, żwirków i przysmaków. Stali klienci doceniają stałą dostępność ulubionych produktów oraz drobne promocje cenowe na karmy podstawowe i przysmaki."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Planeta Zoo situated in Śródmieście?",
+        "pl": "Gdzie dokładnie znajduje się sklep Planeta Zoo?"
+      },
+      "a": {
+        "en": "The shop is located at Hoża 39, right in the center of Warsaw close to Krucza and Marszałkowska.",
+        "pl": "Sklep mieści się przy ul. Hożej 39 w centrum Warszawy, niedaleko skrzyżowania z ul. Marszałkowską."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dogs allowed inside the store during shopping?",
+        "pl": "Czy do sklepu można wejść z psem na smyczy?"
+      },
+      "a": {
+        "en": "Yes, pets on leashes are fully welcome inside to try on harnesses or jackets.",
+        "pl": "Tak, psy są mile widziane i mogą na miejscu przymierzyć szelki, obroże lub płaszczyki."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the store carry veterinary dietary formulas?",
+        "pl": "Czy na miejscu można kupić karmy dietetyczne?"
+      },
+      "a": {
+        "en": "Yes, common gastrointestinal, renal, and hypoallergenic diets for dogs and cats are available.",
+        "pl": "Tak, w ofercie znajdują się popularne karmy weterynaryjne na dolegliwości nerkowe czy trawienne."
+      },
+      "basis": "reviews"
+    }
+  ]
+}

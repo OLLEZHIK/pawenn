@@ -1,0 +1,85 @@
+{
+  "slug": "gabinet-weterynaryjny",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=3511245676077808999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 15,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Helpful and experienced care on Aleja Wilanowska",
+        "pl": "Doświadczona i serdeczna opieka przy al. Wilanowskiej"
+      },
+      "text": {
+        "en": "Clients appreciate the calm, experienced approach of the veterinary doctor at Aleja Wilanowska. Consultations are conducted without haste, allowing time for thoughtful advice on animal nutrition, behavior, and ongoing preventive care throughout the pet's life.",
+        "pl": "Klienci doceniają spokojne i profesjonalne podejście lekarza przyjmującego przy al. Wilanowskiej. Wizyty przebiegają bez niepotrzebnego pośpiechu, z dużą uwagą poświęconą poradom żywieniowym, behawioralnym oraz regularnej profilaktyce zdrowotnej czworonogów."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Effective routine internal and preventive treatments",
+        "pl": "Skuteczne leczenie internistyczne i profilaktyka"
+      },
+      "text": {
+        "en": "Reviewers note consistently good treatment outcomes for ear infections, digestive upsets, and minor wounds. Vaccinations and health screenings are performed smoothly, keeping neighborhood animals protected and in excellent overall physical condition year after year.",
+        "pl": "Właściciele zwierząt opisują dobre rezultaty leczenia stanów zapalnych uszu, niestrawności oraz drobnych zranień. Szczepienia ochronne i przeglądy zdrowotne odbywają się sprawnie, utrzymując czworonogi w bardzo dobrej kondycji fizycznej przez cały rok."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Convenient Mokotów location with accessible parking",
+        "pl": "Wygodny dojazd na Mokotowie i bezpłatny parking"
+      },
+      "text": {
+        "en": "Situated along Aleja Wilanowska, the clinic is convenient to access by car or public transit from both Mokotów and Wilanów. Visitors value the quiet consulting room atmosphere, which keeps timid cats and dogs comfortable before examination and treatment.",
+        "pl": "Lokalizacja przy al. Wilanowskiej zapewnia dogodny dojazd samochodem i komunikacją miejską z terenu Mokotowa oraz Wilanowa. Klienci chwalą kameralne wnętrze gabinetu, w którym lękliwe psy i koty czują się bezpiecznie i bardzo spokojnie podczas całej wizyty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is phone booking necessary before visiting?",
+        "pl": "Czy przed przyjściem do gabinetu należy zadzwonić?"
+      },
+      "a": {
+        "en": "Yes, calling ahead ensures the doctor is available and prevents unnecessary waiting in reception.",
+        "pl": "Tak, wcześniejszy kontakt telefoniczny gwarantuje dostępność lekarza i brak kolejek w poczekalni."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where can visitors park their car near the practice?",
+        "pl": "Gdzie można zaparkować samochód przy gabinecie?"
+      },
+      "a": {
+        "en": "Parking spaces are available directly by the building off Aleja Wilanowska 364B.",
+        "pl": "Miejsca postojowe znajdują się bezpośrednio przy budynku pod adresem al. Wilanowska 364B."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are home veterinary visits offered by this clinic?",
+        "pl": "Czy gabinet oferuje wizyty domowe dla zwierząt?"
+      },
+      "a": {
+        "en": "Yes, home veterinary consultations can be scheduled by phone within the local area.",
+        "pl": "Tak, istnieje możliwość umówienia wizyty domowej na terenie okolicznych osiedli po uzgodnieniu telefonicznym."
+      },
+      "basis": "website"
+    }
+  ]
+}

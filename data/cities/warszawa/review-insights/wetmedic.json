@@ -1,0 +1,85 @@
+{
+  "slug": "wetmedic",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9311080427111382737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 31,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 18,
+      "title": {
+        "en": "Attentive veterinarians on Zwycięzców in Saska Kępa",
+        "pl": "Troskliwi weterynarze na Saskiej Kępie"
+      },
+      "text": {
+        "en": "Clients on Zwycięzców street commend the clinical team for their friendly communication and genuine interest in pet welfare. Doctors take ample time to answer questions, guide preventive vaccination schedules, and explain prescribed medications in plain language for every family.",
+        "pl": "Klienci przy ul. Zwycięzców doceniają zespół weterynaryjny za życzliwą komunikację i autentyczną troskę o zwierzęta. Lekarze poświęcają dużo czasu na odpowiedzi na pytania, planowanie profilaktyki oraz jasne omówienie dawkowania leków z każdym właścicielem."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Modern and hygienic Saska Kępa clinic premises",
+        "pl": "Nowoczesny i czysty gabinet na Saskiej Kępie"
+      },
+      "text": {
+        "en": "Visitors note the clean, contemporary aesthetic of the reception area and consulting rooms. The modern environment helps keep both dogs and cats calm before appointments, with proper sanitation standards consistently maintained throughout the clinic premises on Saska Kępa.",
+        "pl": "Osoby odwiedzające gabinet zwracają uwagę na czyste, nowoczesne wnętrza poczekalni i gabinetów zabiegowych. Schludne otoczenie sprzyja wyciszeniu psów i kotów przed badaniem, a wysokie standardy higieny są widoczne na każdym kroku w lokalu na Saskiej Kępie."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Fair pricing with clear itemized invoicing",
+        "pl": "Uczciwe ceny i przejrzyste rozliczenia wizyt"
+      },
+      "text": {
+        "en": "Reviewers consider treatment costs in Wetmedic fully aligned with standard Warsaw market rates. Pet owners appreciate upfront explanations of anticipated medication or test expenses, ensuring there are no unexpected surprises when paying at reception after treatments.",
+        "pl": "Ceny usług w Wetmedic są uznawane przez opiekunów za w pełni adekwatne do warszawskich standardów rynkowych. Klienci chwalą uprzednie informowanie o kosztach badań czy leków, co pozwala uniknąć przykrych niespodzianek przy rozliczeniu w recepcji gabinetu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet owners book visits online or by phone?",
+        "pl": "Czy wizyty można umawiać telefonicznie i przez internet?"
+      },
+      "a": {
+        "en": "Yes, visits can be arranged via phone call or through the clinic's online booking system.",
+        "pl": "Tak, rejestracja jest prowadzona telefonicznie oraz poprzez formularz internetowy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is parking easily accessible near the clinic?",
+        "pl": "Czy w pobliżu gabinetu można zaparkować samochód?"
+      },
+      "a": {
+        "en": "Street parking is available along Zwycięzców and neighboring residential streets in Saska Kępa.",
+        "pl": "Miejsca parkingowe znajdują się wzdłuż ul. Zwycięzców oraz w okolicznych uliczkach Saskiej Kępy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Wetmedic provide surgical procedures?",
+        "pl": "Czy Wetmedic wykonuje zabiegi chirurgiczne?"
+      },
+      "a": {
+        "en": "Yes, the clinic performs soft-tissue surgeries, neutering, and dental cleanings.",
+        "pl": "Tak, w placówce wykonywane są zabiegi chirurgii miękkiej, sterylizacje oraz sanacja jamy ustnej."
+      },
+      "basis": "website"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "vet4pet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=11171439973280538846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 35,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 19,
+      "title": {
+        "en": "Compassionate and thorough doctors on Grenadierów",
+        "pl": "Wnikliwi i pełni empatii lekarze na Pradze"
+      },
+      "text": {
+        "en": "Pet owners on Grenadierów street praise the veterinary personnel for their thorough examinations and gentle handling. The doctors explain clinical findings in detail, suggest balanced diagnostic steps, and foster trust with both pets and their guardians during appointments.",
+        "pl": "Opiekunowie zwierząt przy ul. Grenadierów chwalą personel za drobiazgowe badania i delikatne podejście do pacjentów. Lekarze dokładnie omawiają wyniki, proponują racjonalne kroki diagnostyczne i budują duże zaufanie u właścicieli czworonogów podczas wizyty kontrolnej."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Effective therapies for chronic and acute cases",
+        "pl": "Skuteczne leczenie ostrych i przewlekłych schorzeń"
+      },
+      "text": {
+        "en": "Numerous reviews recount successful recoveries from dental issues, skin allergies, and complicated feline disorders. Accurate diagnostic decisions and personalized treatment plans help restore pets to full health within expected recovery timeframes and without setbacks.",
+        "pl": "Wielu klientów opisuje pomyślny powrót zwierząt do zdrowia po zabiegach stomatologicznych, kuracjach dermatologicznych i schorzeniach kocich. Trafna diagnostyka i dobrane leki przynoszą widoczną poprawę samopoczucia leczonych czworonogów w krótkim czasie."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Prompt test feedback and telephone follow-up",
+        "pl": "Szybki kontakt telefoniczny i wyniki badań"
+      },
+      "text": {
+        "en": "Clients appreciate that the clinic promptly contacts them once lab test results arrive from the laboratory. Doctors readily answer follow-up questions over the telephone and provide clear instructions on ongoing medication adjustments whenever test values evolve.",
+        "pl": "Klienci doceniają szybki kontakt telefoniczny po otrzymaniu wyników badań laboratoryjnych z pracowni. Lekarze chętnie odpowiadają na dodatkowe pytania opiekunów i przekazują jasne wskazówki odnośnie do modyfikacji dawkowania leków telefonicznie w razie potrzeby."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Vet4Pet handle pet dentistry and scale removal?",
+        "pl": "Czy Vet4Pet prowadzi sanację zębów i stomatologię?"
+      },
+      "a": {
+        "en": "Yes, veterinary dental procedures and ultrasonic descaling under anesthesia are performed regularly.",
+        "pl": "Tak, gabinet regularnie wykonuje ultradźwiękowe usuwanie kamienia i zabiegi stomatologiczne w narkozie."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is the clinic accessible for strollers and pet carriers?",
+        "pl": "Czy wejście do przychodni jest wygodne z transporterem?"
+      },
+      "a": {
+        "en": "Yes, ground-floor access on Grenadierów street ensures comfortable entry with carriers or large dogs.",
+        "pl": "Tak, wejście z poziomu parteru przy ul. Grenadierów pozwala na swobodne wejście z psem lub transporterem."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can pet owners obtain international pet passports here?",
+        "pl": "Czy w gabinecie można wyrobić paszport dla zwierzęcia?"
+      },
+      "a": {
+        "en": "Yes, microchipping, rabies vaccination, and official passport issuance are available.",
+        "pl": "Tak, gabinet oferuje czipowanie, szczepienia przeciw wściekliźnie oraz wydawanie oficjalnych paszportów."
+      },
+      "basis": "both"
+    }
+  ]
+}

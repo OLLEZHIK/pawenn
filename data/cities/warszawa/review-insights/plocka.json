@@ -1,0 +1,85 @@
+{
+  "slug": "plocka",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=16221972446985227004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 13,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Competent and gentle vets on Płocka street",
+        "pl": "Kompetentni i delikatni lekarze na Płockiej"
+      },
+      "text": {
+        "en": "Clients from Wola commend the veterinary doctors at Płocka for their careful examinations and empathetic manner. Staff members explain diagnostic findings clearly and take time to comfort anxious pets, ensuring visits remain as stress-free as possible for everyone.",
+        "pl": "Klienci z Woli bardzo chwalą lekarzy z przychodni przy ul. Płockiej za dokładne badania i życzliwe podejście. Personel wyczerpująco tłumaczy diagnozy i dba o spokój lękliwych zwierząt, minimalizując stres towarzyszący badaniom klinicznym podczas każdej wizyty."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Successful medical therapies and preventive care",
+        "pl": "Trafne diagnozy internistyczne i profilaktyka"
+      },
+      "text": {
+        "en": "Pet owners report positive treatment results for dermatological flare-ups, digestive issues, and dental problems. Preventive vaccinations and parasite prevention plans are executed smoothly and on schedule, maintaining animal vitality and overall physical wellbeing.",
+        "pl": "Opiekunowie zgłaszają dobre efekty leczenia chorób skóry, dolegliwości żołądkowych oraz zabiegów stomatologicznych. Szczepienia profilaktyczne i ochrona przeciwpasożytnicza przebiegają sprawnie i terminowo, zapewniając zwierzętom zdrowie i doskonałą formę."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Modern and accessible clinic near Płocka metro",
+        "pl": "Nowoczesny gabinet blisko stacji metra Płocka"
+      },
+      "text": {
+        "en": "The clinic boasts a clean and well-kept interior with comfortable consulting rooms. Located close to the Płocka metro station and local tram stops, it is easily reachable on foot or via public transportation for residents across central Wola and surrounding areas.",
+        "pl": "Lecznica oferuje czyste, zadbane wnętrza i wygodne gabinety konsultacyjne. Położenie w bardzo bliskiej odległości od stacji metra Płocka oraz przystanków tramwajowych ułatwia szybki dojazd mieszkańcom Woli poruszającym się komunikacją miejską lub pieszo."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is telephone registration required before visits?",
+        "pl": "Czy na wizytę przy ul. Płockiej należy się zapisać?"
+      },
+      "a": {
+        "en": "Yes, booking appointments by phone is recommended to ensure prompt service without waiting.",
+        "pl": "Tak, telefoniczny zapis na określoną godzinę pozwala uniknąć dłuższego oczekiwania w kolejce."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are ultrasound examinations offered on site?",
+        "pl": "Czy w lecznicy wykonywane jest badanie USG?"
+      },
+      "a": {
+        "en": "Yes, abdominal ultrasound imaging is available by appointment with an imaging specialist.",
+        "pl": "Tak, badanie ultrasonograficzne jamy brzusznej jest dostępne po uprzednim zapisie na termin."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic issue pet passports and microchips?",
+        "pl": "Czy przychodnia wydaje paszporty i czipuje zwierzęta?"
+      },
+      "a": {
+        "en": "Yes, electronic transponder microchipping and European Union pet passports are provided.",
+        "pl": "Tak, placówka świadczy usługi elektronicznego czipowania oraz wystawiania paszportów dla zwierząt."
+      },
+      "basis": "website"
+    }
+  ]
+}

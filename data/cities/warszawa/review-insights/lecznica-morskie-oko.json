@@ -1,0 +1,85 @@
+{
+  "slug": "lecznica-morskie-oko",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=17466633812699551218&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 41,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 20,
+      "title": {
+        "en": "Experienced Mokotów team with empathetic care",
+        "pl": "Doświadczony zespół i empatyczne podejście"
+      },
+      "text": {
+        "en": "Pet owners frequently praise the veterinary doctors on Promenada street for their patience, clear explanations, and calm manner. Both routine checkups and complex therapies are handled with dedication, creating reassuring visits for nervous and timid animals during consultations.",
+        "pl": "Właściciele zwierząt chwalą lekarzy z ul. Promenada za opanowanie, cierpliwość i szczegółowe wyjaśnianie planu leczenia. Zarówno rutynowe kontrole, jak i skomplikowane terapie prowadzone są z zaangażowaniem, co skutecznie uspokaja zestresowanych pacjentów na stole badawczym."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 14,
+      "title": {
+        "en": "Successful internal therapies and swift diagnostics",
+        "pl": "Trafne diagnozy internistyczne i szybkie badania"
+      },
+      "text": {
+        "en": "Reviewers highlight effective resolution of chronic ailments, skin allergies, and sudden digestive disorders. Access to diagnostic tools enables doctors to identify medical issues rapidly and implement appropriate medical treatments without unnecessary delays or prolonged tests.",
+        "pl": "Opiekunowie opisują skuteczne leczenie przewlekłych chorób, alergii skórnych oraz ostrych zaburzeń pokarmowych u swoich pupili. Diagnostyka na miejscu pozwala lekarzom na szybkie rozpoznanie problemu zdrowotnego i natychmiastowe wdrożenie celowanej kuracji farmakologicznej."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Appointment scheduling and occasional afternoon delays",
+        "pl": "Zapisy na godziny i popołudniowy ruch"
+      },
+      "text": {
+        "en": "Appointments generally proceed according to schedule, but unexpected emergency cases can lead to minor delays in the waiting room during late afternoon peak hours. Most pet owners consider these occasional waits reasonable given the thorough care provided to every patient.",
+        "pl": "Wizyty na ogół odbywają się terminowo, jednak nagłe przypadki ratunkowe mogą wywołać niewielkie przesunięcia w poczekalni w godzinach popołudniowego szczytu. Większość klientów wykazuje pełne zrozumienie, doceniając rzetelność i brak pośpiechu przy badaniu każdego zwierzaka."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is advance booking required for consultation?",
+        "pl": "Czy na wizytę w lecznicy trzeba się wcześniej umówić?"
+      },
+      "a": {
+        "en": "Telephone booking is strongly recommended, although urgent medical cases are admitted as priority.",
+        "pl": "Zaleca się wcześniejszy kontakt telefoniczny, choć nagłe przypadki przyjmowane są priorytetowo."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic situated in Mokotów?",
+        "pl": "Gdzie dokładnie mieści się lecznica na Mokotowie?"
+      },
+      "a": {
+        "en": "The clinic is located at Promenada 4 street, close to Morskie Oko park.",
+        "pl": "Placówka znajduje się przy ul. Promenada 4, niedaleko parku Morskie Oko."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are ultrasound and blood tests available on site?",
+        "pl": "Czy na miejscu można wykonać USG oraz badania krwi?"
+      },
+      "a": {
+        "en": "Yes, basic blood diagnostics, microscopic exams, and ultrasound scans are carried out on site.",
+        "pl": "Tak, lecznica wykonuje na miejscu badania ultrasonograficzne, laboratoryjne i mikroskopowe."
+      },
+      "basis": "website"
+    }
+  ]
+}

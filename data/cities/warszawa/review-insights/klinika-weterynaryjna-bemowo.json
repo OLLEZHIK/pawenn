@@ -1,0 +1,96 @@
+{
+  "slug": "klinika-weterynaryjna-bemowo",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=8767986144572043596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 154,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 52,
+      "title": {
+        "en": "Dedicated specialists with varied night communication",
+        "pl": "Zaangażowani specjaliści i zróżnicowana komunikacja dyżurna"
+      },
+      "text": {
+        "en": "Many clients emphasize the great expertise of diagnostic doctors and surgeons, especially during scheduled daytime appointments. At the same time, several pet owners visiting during nighttime emergency hours report impersonal treatment or hurried conversations with on-call personnel.",
+        "pl": "Wielu opiekunów chwali wysokie kompetencje lekarzy internistów i chirurgów podczas planowych wizyt dziennych na Bemowie. Jednocześnie część osób korzystających z nocnego dyżuru zwraca uwagę na chłodne podejście i pośpiech dyżurującego personelu w sytuacjach nagłych."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 31,
+      "title": {
+        "en": "Triage priority and evening waiting times",
+        "pl": "Kolejka według pilności i oczekiwanie wieczorem"
+      },
+      "text": {
+        "en": "Visitors note that emergency cases requiring resuscitation or urgent stabilization are admitted immediately without delay. However, pet owners with non-life-threatening ailments frequently encounter long waiting times in the corridor during busy evening hours and weekends.",
+        "pl": "Klienci podkreślają, że pacjenci w stanie bezpośredniego zagrożenia życia są przyjmowani natychmiastowo. W przypadku lżejszych dolegliwości czas oczekiwania na korytarzu bywa jednak długi, zwłaszcza w godzinach wieczornych oraz w trakcie weekendowych dyżurów."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 28,
+      "title": {
+        "en": "Comprehensive diagnostics and hospital care",
+        "pl": "Kompleksowa diagnostyka i zaplecze szpitalne"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the wide range of diagnostic equipment available on site, including ultrasound, digital radiography, and blood analyzers. Many animals recovered successfully after emergency interventions and complex surgical procedures managed by the clinic.",
+        "pl": "Opiekunowie zwierząt doceniają bogate zaplecze sprzętowe na miejscu, w tym pracownię USG, RTG oraz własne laboratorium krwi. W licznych opiniach przewijają się historie udanych operacji i skutecznego ustabilizowania czworonogów w ciężkim stanie zdrowotnym."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic operate 24/7 for emergencies?",
+        "pl": "Czy klinika prowadzi całodobowy ostry dyżur?"
+      },
+      "a": {
+        "en": "Yes, the facility provides around-the-clock emergency veterinary care every day of the week, including public holidays.",
+        "pl": "Tak, placówka funkcjonuje w trybie całodobowym przez siedem dni w tygodniu, zapewniając pomoc weterynaryjną także w święta."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is prior booking required for regular check-ups?",
+        "pl": "Czy na wizyty planowe trzeba się wcześniej zapisać?"
+      },
+      "a": {
+        "en": "Advance phone booking is strongly recommended for consultations, ultrasound, and surgeries, while sudden emergencies are seen on arrival.",
+        "pl": "Wcześniejsza rejestracja telefoniczna jest zalecana przy konsultacjach i badaniach obrazowych, natomiast ostre stany przyjmowane są na bieżąco."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is there parking available near the clinic?",
+        "pl": "Czy przy klinice można wygodnie zaparkować samochód?"
+      },
+      "a": {
+        "en": "Public parking bays are situated along Powstańców Śląskich street, though spaces can be scarce during peak afternoon hours.",
+        "pl": "Wzdłuż ulicy Powstańców Śląskich znajdują się ogólnodostępne miejsca postojowe, chociaż w godzinach szczytu bywają mocno obłożone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can blood tests and ultrasound be performed on site?",
+        "pl": "Czy na miejscu można wykonać badania krwi i USG?"
+      },
+      "a": {
+        "en": "Yes, the clinic houses its own diagnostic laboratory and modern ultrasound equipment, delivering rapid results during visits.",
+        "pl": "Tak, placówka dysponuje własnym laboratorium analitycznym oraz pracownią USG, co pozwala uzyskać wyniki bez zwłoki."
+      },
+      "basis": "both"
+    }
+  ]
+}

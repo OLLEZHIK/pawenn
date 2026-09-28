@@ -1,0 +1,85 @@
+{
+  "slug": "saskavet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=17015573407428874977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 26,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "en": "Professional and caring team on Waszyngtona",
+        "pl": "Profesjonalna i troskliwa kadra przy Waszyngtona"
+      },
+      "text": {
+        "en": "Pet guardians commend the veterinary practitioners on al. Jerzego Waszyngtona for their thorough consultations and warm attitude. The staff shows great patience when handling timid animals and explains treatment options in an accessible way for everyone.",
+        "pl": "Opiekunowie czworonogów chwalą lekarzy przy al. Jerzego Waszyngtona za wnikliwe podejście i dużą życzliwość. Zespół wykazuje dużo cierpliwości wobec lękliwych zwierząt i w zrozumiały sposób objaśnia opiekunowi dostępne opcje terapeutyczne podczas wizyty."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "High success in internal and diagnostic therapies",
+        "pl": "Wysoka skuteczność leczenia i diagnostyki"
+      },
+      "text": {
+        "en": "Reviewers report excellent results in treating complex ear infections, chronic metabolic conditions, and joint problems. Modern ultrasound and blood profiling capabilities enable prompt diagnostic confirmation and noticeable health improvements in pet condition.",
+        "pl": "Klienci zgłaszają bardzo dobre rezultaty leczenia trudnych stanów zapalnych uszu, chorób metabolicznych i schorzeń stawów. Nowoczesne USG oraz analizy laboratoryjne pozwalają na szybkie postawienie trafnej diagnozy i pewny powrót zwierzęcia do pełnej formy."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Comfortable clinic near Rondo Wiatraczna",
+        "pl": "Wygodny gabinet w pobliżu Ronda Waszyngtona"
+      },
+      "text": {
+        "en": "The clinic boasts tidy examination spaces, well-organized reception management, and a calm atmosphere for pets. Its convenient location near major tram and bus stops along Waszyngtona makes appointments accessible from across Praga Południe and neighboring districts.",
+        "pl": "Przychodnia dysponuje bardzo czystymi gabinetami, sprawną recepcją i spokojną atmosferą sprzyjającą czworonogom. Dogodne usytuowanie przy głównych liniach tramwajowych wzdłuż al. Waszyngtona ułatwia dojazd z całej Pragi-Południe oraz sąsiadujących dzielnic."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is phone booking necessary before visiting SaskaVet?",
+        "pl": "Czy przed wizytą w SaskaVet należy zadzwonić?"
+      },
+      "a": {
+        "en": "Yes, scheduling an appointment by phone minimizes waiting room congestion and reduces stress.",
+        "pl": "Tak, telefoniczna rejestracja pozwala uniknąć dłuższego czekania w poczekalni i zmniejsza stres."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet owners perform ultrasound scans at SaskaVet?",
+        "pl": "Czy w SaskaVet można wykonać badanie USG?"
+      },
+      "a": {
+        "en": "Yes, comprehensive abdominal ultrasound examinations are conducted by experienced imaging doctors.",
+        "pl": "Tak, w przychodni wykonywane są kompleksowe badania USG jamy brzusznej przez doświadczonych diagnostów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does SaskaVet handle pet microchipping and passports?",
+        "pl": "Czy placówka wykonuje czipowanie i paszporty?"
+      },
+      "a": {
+        "en": "Yes, microchipping, rabies vaccinations, and EU pet passports are issued regularly.",
+        "pl": "Tak, gabinet realizuje elektroniczne znakowanie czipem, szczepienia i wydawanie paszportów UE."
+      },
+      "basis": "website"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "barber-pet-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=11985862933326704150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 16,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Patient and attentive pet stylists on Hrubieszowska",
+        "pl": "Cierpliwi i uważni styliści na Hrubieszowskiej"
+      },
+      "text": {
+        "en": "Dog owners commend the staff at Barber Pet on Hrubieszowska street for their calm manner and attentive listening. The stylists ask detailed questions about preferences before starting and treat anxious dogs with reassurance and warmth throughout the visit.",
+        "pl": "Właściciele psów chwalą personel Barber Pet przy ul. Hrubieszowskiej za opanowanie i uważne słuchanie wskazówek. Styliści szczegółowo pytają o oczekiwania przed rozpoczęciem pracy i otaczają lękliwe zwierzęta spokojem, zrozumieniem i serdeczną troską."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Modern haircuts and excellent deshedding care",
+        "pl": "Nowoczesne strzyżenie i świetne wyczesanie podszerstka"
+      },
+      "text": {
+        "en": "Reviews highlight neat scissor trimming, smooth fur blending, and thorough deshedding. Owners praise how handsome and refreshed their pets look after appointments, noting that trimmed fur remains tangle-free and easy to maintain at home for several weeks.",
+        "pl": "Opinie podkreślają staranne strzyżenie nożyczkami, gładkie cieniowanie oraz dokładne usuwanie martwego podszerstka. Właściciele chwalą elegancki wygląd pupili, zauważając, że skrócona szata nie plącze się i bardzo łatwo ją szczotkować oraz rozczesywać w domu."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Clean, well-equipped salon near Rondo Daszyńskiego",
+        "pl": "Czysty i dobrze wyposażony salon blisko Ronda Daszyńskiego"
+      },
+      "text": {
+        "en": "The salon features a bright, clean interior equipped with modern hydraulic grooming tables and professional bathtubs. Its location near Rondo Daszyńskiego makes it very convenient for pet owners living across western and central Warsaw neighborhoods and commuters.",
+        "pl": "Salon dysponuje jasnym, czystym wnętrzem wyposażonym w nowoczesne stoły hydrauliczne i profesjonalne wanny. Położenie w rejonie Ronda Daszyńskiego zapewnia bardzo dogodny dojazd samochodem i metrem dla mieszkańców Woli oraz okolicznych osiedli w centrum Warszawy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How can clients book an appointment at Barber Pet?",
+        "pl": "Jak można zarezerwować wizytę w Barber Pet?"
+      },
+      "a": {
+        "en": "Appointments can be booked online via Booksy or through direct telephone calls.",
+        "pl": "Rezerwacja wizyt odbywa się poprzez platformę Booksy lub bezpośrednio przez telefon."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the salon located on Hrubieszowska?",
+        "pl": "Gdzie dokładnie znajduje się salon przy ul. Hrubieszowskiej?"
+      },
+      "a": {
+        "en": "The facility is located at Hrubieszowska 6B (unit U2) in the modern development of Wola.",
+        "pl": "Lokal mieści się przy ul. Hrubieszowskiej 6B lok. U2 na nowym osiedlu mieszkaniowym na Woli."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom cats as well as dogs?",
+        "pl": "Czy salon przyjmuje koty na zabiegi pielęgnacyjne?"
+      },
+      "a": {
+        "en": "Yes, cat combing and deshedding services are provided by prior arrangement.",
+        "pl": "Tak, usługi wyczesywania i pielęgnacji kotów są realizowane po uprzednim umówieniu terminu."
+      },
+      "basis": "website"
+    }
+  ]
+}

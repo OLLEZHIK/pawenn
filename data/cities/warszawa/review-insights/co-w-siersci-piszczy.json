@@ -1,0 +1,85 @@
+{
+  "slug": "co-w-siersci-piszczy",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9386346611714352338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-03-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 12,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly neighborhood veterinarians in Praga",
+        "pl": "Przyjazny i zaangażowany zespół na Pradze"
+      },
+      "text": {
+        "en": "Clients warmly appreciate the welcoming and gentle attitude demonstrated by the veterinary team on Linneusza street. Doctors conduct examinations calmly, taking extra care to minimize pet anxiety and giving clear, practical advice on daily care, preventive habits, and diet.",
+        "pl": "Opiekunowie zwierząt z Pragi-Północ bardzo ciepło oceniają serdeczną atmosferę i delikatność lekarzy przy ul. Linneusza. Zespół podchodzi do czworonogów bez zbędnego pośpiechu, redukuje stres związany z badaniem i szczegółowo omawia domową profilaktykę zdrowotną."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm approach to timid dogs and cats",
+        "pl": "Spokojne podejście do lękliwych psów i kotów"
+      },
+      "text": {
+        "en": "Reviewers note that even animals with past veterinary traumas feel remarkably relaxed during consultations here. The staff uses treats, slow movements, and soothing tones to help cats and nervous dogs tolerate vaccinations and routine clinical procedures with ease.",
+        "pl": "W komentarzach przewijają się opinie, że nawet mocno zestresowane i lękliwe zwierzęta znoszą wizyty zaskakująco spokojnie. Personel chętnie sięga po smakołyki, wykonuje łagodne gesty i pozwala czworonogowi oswoić się z gabinetem przed rozpoczęciem zabiegu."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Clean and cozy neighborhood practice",
+        "pl": "Czysty i kameralny gabinet dzielnicowy"
+      },
+      "text": {
+        "en": "Visitors describe the clinic as well-maintained, tidy, and peaceful, offering a much more intimate atmosphere than large hospital facilities. Appointments generally run on schedule, preventing crowded waiting areas and unnecessary noise throughout consultations.",
+        "pl": "Klienci opisują przychodnię jako bardzo czystą, zadbaną i kameralną, co stanowi duży atut w porównaniu z wielkimi szpitalami. Wizyty są dobrze skoordynowane czasowo, dzięki czemu w poczekalni rzadko tworzy się tłok czy nerwowa atmosfera wśród pacjentów."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the clinic suitable for anxious or aggressive pets?",
+        "pl": "Czy gabinet jest odpowiedni dla zwierząt lękliwych?"
+      },
+      "a": {
+        "en": "Yes, reviewers specifically highlight the gentle handling and stress-reducing techniques used by the staff.",
+        "pl": "Tak, opiekunowie chwalą spokojne metody pracy i cierpliwe podejście do psów oraz kotów ze skłonnością do lęku."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do I need to make an appointment in advance?",
+        "pl": "Czy wizytę należy umówić z wyprzedzeniem?"
+      },
+      "a": {
+        "en": "Yes, scheduling visits by phone helps ensure low waiting times and prevents waiting room congestion.",
+        "pl": "Tak, telefoniczna rejestracja pozwala uniknąć kolejek i zapewnia komfortowy czas trwania konsultacji."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What services are provided on site?",
+        "pl": "Jakie usługi świadczy gabinet na miejscu?"
+      },
+      "a": {
+        "en": "The practice offers internal medicine, preventive vaccinations, microchipping, and basic laboratory diagnostics.",
+        "pl": "Gabinet prowadzi profilaktykę, szczepienia, chipowanie, leczenie chorób wewnętrznych oraz podstawowe badania."
+      },
+      "basis": "both"
+    }
+  ]
+}
