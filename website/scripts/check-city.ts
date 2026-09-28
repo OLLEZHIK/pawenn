@@ -46,6 +46,14 @@ const insights = new Set(
 
 const has = (r: Row, key: string) => (r[key] ?? "").trim() !== "";
 const noted = (r: Row, key: string) => new RegExp(`\\b${key}: none \\(.+\\)`).test(r.notes ?? "");
+// Hours count only when they say when the place is open on weekdays: a
+// line of weekend days alone ("sa closed; su closed", 35 Košice places;
+// "sa 08:30-12:30; su closed", Vetis) leaves Monday to Friday blank.
+const noWeekdays = (hours: string) => {
+  const value = hours.trim();
+  if (["24h", "by-appointment"].includes(value)) return false;
+  return !value.split(";").some((d) => /^(mo|tu|we|th|fr)\s/.test(d.trim()));
+};
 const logoOk = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(logosDir, r.logo_file.trim()));
 
 // Target share of places that must have each field. Logo, rating and
@@ -70,7 +78,7 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
   // (Košice, PR #151).
   { field: "facts", target: 0.8, ok: (r) => has(r, "facts") || noted(r, "facts"), evidence: "facts" },
   { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
-  { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours"), evidence: "hours" },
+  { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours") && !noWeekdays(r.opening_hours), evidence: "hours" },
 ];
 
 let failed = false;
@@ -106,6 +114,30 @@ if (badHours.length) {
   failed = true;
   console.log(`\nOpening hours the seed cannot read (${badHours.length}):`);
   for (const h of badHours) console.log(`  ${h.slug}: ${h.error}`);
+}
+
+// Descriptions are written for each place from its own site. One text per
+// category with the name swapped in says nothing about the place and puts
+// the same paragraph on dozens of pages: all of Košice and Warszawa
+// (2026-09-28). Compared without the place's name, by the last 12 words.
+const TEXT_FIELDS = ["short_description", "short_description_local", "description", "description_local"];
+const templated: string[] = [];
+for (const field of TEXT_FIELDS) {
+  const byTail = new Map<string, string[]>();
+  for (const r of rows) {
+    const words = (r[field] ?? "").split(r.name).join(" ").toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+    if (words.length < 6) continue;
+    const tail = words.slice(-12).join(" ");
+    byTail.set(tail, [...(byTail.get(tail) ?? []), r.slug]);
+  }
+  for (const slugs of byTail.values()) {
+    if (slugs.length > 1) templated.push(`${field}: same text on ${slugs.length} places - ${slugs.slice(0, 4).join(", ")}${slugs.length > 4 ? ", ..." : ""}`);
+  }
+}
+if (templated.length) {
+  failed = true;
+  console.log(`\nOne description on several places - write each from the place's site (${templated.length}):`);
+  for (const t of templated) console.log(`  ${t}`);
 }
 
 // Every missing logo, rating or hours needs a trace of the search.
@@ -203,6 +235,11 @@ for (const slug of insights) {
   const err = (m: string) => insightErrors.push(`${slug}: ${m}`);
   if (!slugs.has(slug)) err("no place with this slug in businesses.csv");
   if (data.slug !== slug) err(`"slug" is "${data.slug}", file name says "${slug}"`);
+  // More text reviews in the period than half of all Google ratings ever
+  // is not a count from the feed (Warszawa draft: 89 of 120).
+  const total = Number(allRows.find((r) => r.slug === slug)?.google_rating_count ?? 0);
+  if (total > 0 && (data.reviews_in_period ?? 0) > total / 2)
+    err(`reviews_in_period ${data.reviews_in_period} is more than half of all ${total} Google ratings - count the feed again`);
   const cards = data.cards ?? [];
   if (cards.length !== 3) err(`${cards.length} cards, need exactly 3`);
   cards.forEach((c, i) => {
