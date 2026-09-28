@@ -44,7 +44,7 @@ export const en = {
     metaDescription: (n: number, where: string) =>
       `${n} pet ${n === 1 ? "service" : "services"} ${where}: vets, groomers, pet hotels, dog trainers, pet shops and sitters, with opening hours, prices and one-tap contact.`,
     h1Before: "Pet services",
-    intro: "All pet services in one list: vets, groomers, pet hotels, trainers, pet shops and sitters, each with its source. Pick a service above to narrow it down.",
+    intro: "All pet services on one page: vets, groomers, pet hotels, trainers, pet shops and sitters, each with its source. A few places per service below; pick a service above for the full list.",
   },
   animals: {
     any: "Any pet",
@@ -233,6 +233,7 @@ export const en = {
     filterDistrict: "Filter by district",
     allOf: (city: string) => `All of ${city}`,
     results: (n: number) => `${n} ${n === 1 ? "result" : "results"}`,
+    seeAll: (label: string, n: number) => `All ${label.toLowerCase()} (${n})`,
     fairTurn: "order changes daily so everyone gets a fair turn",
     nearest: "nearest first",
     sortLabel: "Sort",

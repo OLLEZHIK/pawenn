@@ -1,0 +1,476 @@
+// Polish UI strings (docs/playbooks/add-language.md).
+import { plural } from "../locales";
+import type { Dictionary } from "./en";
+
+// Polish sentences need "in <place>" in the locative; `inCity` gives
+// "w Warszawie" for cities with a Polish in_city and "– Mokotów, Warszawa"
+// (a heading-style label) otherwise, which becomes "w rejonie ...".
+function plIn(where: string): string {
+  return where.startsWith("– ") ? `w rejonie ${where.slice(2)}` : where;
+}
+
+function cap(text: string): string {
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+// Polish needs the genitive after 5+ ("54 lecznic"), which the category
+// labels don't have: counts are of "miejsce" (1 miejsce, 2 miejsca,
+// 5 miejsc), like Slovak counts "podnik".
+
+export const pl: Dictionary = {
+  nav: {
+    browse: "Przeglądaj",
+    help: "Pomoc",
+    listBusiness: "Dodaj swoje miejsce na pawenn",
+    findCare: "Znajdź opiekę dla pupila",
+    browseServices: "Przeglądaj",
+    services: "Usługi",
+    foodAndSupplies: "Karmy i suplementy",
+    comingSoon: "Już wkrótce",
+    howItWorks: "Pomoc - jak działa pawenn",
+    listYourBusiness: "Dodaj miejsce",
+    openMenu: "Przeglądaj",
+    closeMenu: "Zamknij menu",
+    language: "Język",
+    locating: "Szukamy Twojego miasta…",
+  },
+  food: [
+    { label: "Karma dla psów", blurb: "Najlepsza karma dopasowana do rasy i wieku" },
+    { label: "Karma dla kotów", blurb: "Mokra, sucha i karmy weterynaryjne" },
+    { label: "Suplementy diety", blurb: "Stawy, skóra, sierść i trawienie" },
+  ],
+  footer: {
+    tagline: (where: string | null) =>
+      `Przyjazny i niezależny przewodnik po usługach dla zwierząt${where ? ` ${plIn(where)}` : ""}. Bez rejestracji i bez reklam – tylko sprawdzone informacje, dzięki którym możesz od razu zadzwonić.`,
+    sourced: "Każdy wpis odsyła do oficjalnego źródła",
+    services: "Usługi",
+    about: "pawenn",
+    legal: "Informacje prawne",
+    howItWorks: "Jak to działa",
+    addBusiness: "Dodaj miejsce",
+    fixListing: "Zgłoś poprawkę",
+    privacy: "Polityka prywatności",
+    terms: "Regulamin",
+    madeWithCare: (where: string | null) => `Z miłości do zwierząt${where ? ` ${plIn(where)}` : ""}`,
+    cities: "Miasta",
+  },
+  cityHub: {
+    metaTitle: (where: string) => `Usługi dla zwierząt ${where} – weterynarze, groomerzy, hotele | Pawenn`,
+    metaDescription: (n: number, where: string) =>
+      `Usługi dla zwierząt ${where}: ${n} ${plural("pl", n, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })} – weterynarze, groomerzy, hotele dla psów, szkolenia, sklepy zoologiczne i petsitterzy, z godzinami otwarcia, cenami i bezpośrednim kontaktem.`,
+    h1Before: "Usługi dla zwierząt",
+    intro: "Wszystkie usługi dla zwierząt w jednym miejscu: weterynarze, groomerzy, hotele, szkolenia, sklepy zoologiczne i petsitterzy, każde miejsce ze źródłem danych. Poniżej kilka miejsc z każdej kategorii, pełną listę zobaczysz po wybraniu kategorii powyżej.",
+  },
+  animals: {
+    any: "Wszystkie zwierzęta",
+    choose: "Jakie zwierzę?",
+    dog: "Psy",
+    cat: "Koty",
+    "small-pet": "Małe zwierzęta",
+    bird: "Ptaki",
+    fish: "Ryby",
+  } as Record<string, string>,
+  animalSingular: {
+    dog: "Pies",
+    cat: "Kot",
+    "small-pet": "Małe zwierzę",
+    bird: "Ptak",
+    fish: "Ryba",
+  } as Record<string, string>,
+  home: {
+    metaTitle: (where: string | null) =>
+      `Usługi dla zwierząt${where ? ` ${plIn(where)}` : ""} – weterynarze, groomerzy, hotele | Pawenn`,
+    metaDescription: (where: string | null) =>
+      `Znajdź zaufane usługi dla zwierząt${where ? ` ${plIn(where)}` : ""} – groomerzy, weterynarze, hotele, szkolenia i więcej z bezpośrednim kontaktem`,
+    h1: "Szczęśliwy pupil, spokojny opiekun",
+    subtitle: "Weterynarze, groomerzy, hotele dla psów i szkolenia z numerami telefonów, godzinami otwarcia i cenami. Przy każdym profilu podajemy źródło informacji oraz datę weryfikacji.",
+    popular: "Popularne:",
+    statCities: (n: number): string => plural("pl", n, { one: "miasto", few: "miasta", many: "miast", other: "miast" }),
+    statPlaces: (n: number): string => plural("pl", n, { one: "miejsce w katalogu", few: "miejsca w katalogu", many: "miejsc w katalogu", other: "miejsc w katalogu" }),
+    statCountries: (n: number): string => plural("pl", n, { one: "kraj", few: "kraje", many: "krajów", other: "krajów" }),
+    statKinds: (n: number): string => plural("pl", n, { one: "rodzaj usług", few: "rodzaje usług", many: "rodzajów usług", other: "rodzajów usług" }),
+    browseEyebrow: "Według usług",
+    browseTitle: "Czego dzisiaj potrzebuje Twój zwierzak?",
+    browseBody: "Sześć kategorii opieki, każda z kompletną listą miejsc i sprawdzonym źródłem danych.",
+    places: (n: number) => `${n} ${plural("pl", n, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
+    placesInCities: (n: number, cities: number) =>
+      `${n} ${plural("pl", n, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })} w ${cities} ${plural("pl", cities, { one: "mieście", few: "miastach", many: "miastach", other: "miastach" })}`,
+    chooseCityTitle: (label: string) => `${label}: wybierz miasto`,
+    chooseCityIntro: "Wybierz miasto – albo znajdziemy najbliższe za Ciebie.",
+    nearMe: "Najbliżej mnie",
+    exploreEyebrow: "Poznaj miasto",
+    exploreTitle: (city: string) => `Co znajdziesz w swojej części miasta (${city})?`,
+    exploreBody: "Kliknij dzielnicę, aby zobaczyć miejsca w pobliżu. Większa kropka oznacza więcej dostępnych miejsc.",
+    partnersEyebrow: "Partnerzy",
+    partnersTitle: "Wyróżnieni partnerzy",
+    partnersBody: "Płatne pozycje – zawsze wyraźnie oznaczone, nigdy nie mieszane ze standardowym rankingiem.",
+    howEyebrow: "Jak to działa",
+    howTitle: "Od „potrzebuję groomera” do kontaktu w minutę",
+    steps: [
+      { title: "Wybierz to, czego szukasz", body: "Wybierz zwierzaka, usługę i dzielnicę – lub po prostu przeglądaj całą kategorię." },
+      {
+        title: "Porównuj bez obaw",
+        body: "Każdy profil odsyła do oficjalnego źródła. Płatne pozycje są zawsze wyraźnie oznaczone.",
+      },
+      {
+        title: "Skontaktuj się bezpośrednio",
+        body: "Zadzwoń, przejdź na stronę lub wyznacz trasę jednym kliknięciem. Bez zakładania kont i prowizji.",
+      },
+    ],
+    howLink: "Jak weryfikujemy dane",
+    careEyebrow: "Kącik wiedzy o zwierzętach",
+    careTitle: "Sprawdź się i poznaj przydatne wskazówki",
+    careBody: "Krótki quiz o popularnych mitach na temat zwierząt oraz codzienne nawyki, o których warto pamiętać.",
+    tips: [
+      {
+        title: "Obcinaj pazury co 3–4 tygodnie",
+        body: "Zbyt długie pazury utrudniają psu i kotu chodzenie i mogą się rozdwajać. Regularne przycinanie zapewnia łapom komfort.",
+      },
+      {
+        title: "Dlaczego kot potrzebuje drapaka?",
+        body: "Nie chodzi o Twoje meble – drapanie rozciąga mięśnie, usuwa martwą łuskę pazura i oznacza terytorium. Kot robi to z natury.",
+      },
+      {
+        title: "Kiedy iść do weterynarza?",
+        items: [
+          "Je lub pije wyraźnie więcej lub mniej niż zwykle",
+          "Kuleje lub ma trudności ze wskakiwaniem",
+          "Każda zmiana w zachowaniu trwająca dłużej niż dwa dni",
+        ],
+      },
+      {
+        title: "Czesz psy krótkowłose co tydzień, a długowłose codziennie",
+        body: "Regularne czesanie zapobiega kołtunom i jest znacznie tańsze niż wizyta u groomera na rozczesywanie skołtunionej sierści.",
+      },
+    ] as { title: string; body?: string; items?: string[] }[],
+    ctaTitle: (where: string | null) => `Prowadzisz biznes dla zwierząt${where ? ` ${plIn(where)}` : ""}?`,
+    ctaBody: "Dodaj swój salon, lecznicę lub hotel albo zgłoś nam, jeśli Twoje dane wymagają aktualizacji.",
+    ctaButton: "Dodaj miejsce lub zgłoś poprawkę",
+  },
+  search: {
+    pet: "Zwierzę",
+    service: "Usługa",
+    where: "Lokalizacja",
+    petPlaceholder: "Jakie zwierzę?",
+    servicePlaceholder: "Jakiej usługi szukasz?",
+    all: (city: string) => `Całe miasto (${city})`,
+    search: "Szukaj",
+    showResults: "Pokaż wyniki",
+    stepPet: "1 · Twój zwierzak",
+    stepService: "2 · Usługa",
+    stepWhere: "3 · Lokalizacja",
+    popular: "Popularne",
+    close: "Zamknij",
+    nearMe: "W pobliżu",
+    nearYou: "W Twojej okolicy",
+    locatingYou: "Ustalamy Twoją lokalizację…",
+    geoDenied: "Nie ma problemu – wpisz swoje miasto.",
+    cityPlaceholder: "Wpisz miasto",
+    cityLabel: "Miasto",
+    cityNotCovered: (typed: string, cities: string) => `Nie ma nas jeszcze w ${typed}. Pawenn działa w: ${cities}.`,
+    geoFar: (city: string) => `Nie ma nas jeszcze w Twojej okolicy – wpisz miasto, np. ${city}.`,
+    dialogTitle: "Znajdź opiekę dla zwierzaka",
+    dialogBody: "Wybierz zwierzaka i usługę – pokażemy najbliższe sprawdzone miejsca.",
+  },
+  explorer: {
+    district: (city: string) => `dzielnica (${city})`,
+    placesListed: (n: number): string => plural("pl", n, { one: "miejsce w katalogu", few: "miejsca w katalogu", many: "miejsc w katalogu", other: "miejsc w katalogu" }),
+    tabs: "Dzielnice",
+  },
+  quiz: {
+    title: "Mit czy fakt?",
+    question: (i: number, n: number) => `Pytanie ${i} z ${n}`,
+    myth: "Mit",
+    fact: "Fakt",
+    correct: "Prawidłowo!",
+    notQuite: "Nie do końca.",
+    itsA: (isFact: boolean) => `To jest ${isFact ? "fakt" : "mit"}.`,
+    next: "Następne pytanie",
+    seeScore: "Zobacz wynik",
+    playAgain: "Zagraj ponownie",
+    perfect: "Bezbłędny wynik – Twój pupil jest w świetnych rękach!",
+    good: "Świetna robota – znasz się na rzeczy.",
+    meh: "Kilka niespodzianek – teraz już wiesz!",
+    statements: [
+      {
+        claim: "Ciepły i suchy nos oznacza, że pies jest chory.",
+        isFact: false,
+        explanation:
+          "Temperatura i wilgotność nosa u zdrowego psa zmieniają się w ciągu dnia. Apetyt, energia i zachowanie są znacznie lepszym wskaźnikiem zdrowia.",
+      },
+      {
+        claim: "Czekolada jest toksyczna dla psów.",
+        isFact: true,
+        explanation:
+          "Czekolada zawiera teobrominę, którą psy metabolizują bardzo powoli. Ciemna i gorzka czekolada są najbardziej niebezpieczne.",
+      },
+      {
+        claim: "Spodek mleka to dobry przysmak dla dorosłego kota.",
+        isFact: false,
+        explanation:
+          "Większość dorosłych kotów nie toleruje laktozy, a mleko wywołuje u nich problemy żołądkowe. Świeża woda to wszystko, czego potrzebują.",
+      },
+      {
+        claim: "Winogrona i rodzynki mogą być niebezpieczne dla psów.",
+        isFact: true,
+        explanation:
+          "Mogą wywołać ostrą niewydolność nerek u psów, a bezpieczna dawka nie istnieje. Trzymaj je poza zasięgiem zwierzaka.",
+      },
+      {
+        claim: "Merchanie ogonem zawsze oznacza zadowolonego psa.",
+        isFact: false,
+        explanation:
+          "Merchanie oznacza pobudzenie emocjonalne – to może być radość, ale także stres lub niepewność. Zawsze patrz na całe ciało psa, nie tylko na ogon.",
+      },
+      {
+        claim: "Koty zawsze spadają na cztery łapy, więc upadek z balkonu jest nieszkodliwy.",
+        isFact: false,
+        explanation:
+          "Koty posiadają odruch wyprostny, jednak upadki z okien i balkonów są częstą przyczyną ciężkich obrażeń. Balkon i okna należy zabezpieczyć siatką.",
+      },
+      {
+        claim: "Koty niewychodzące również powinny być szczepione.",
+        isFact: true,
+        explanation:
+          "Niektóre wirusy można przynieść do domu na butach lub ubraniu, a kot może trafić do lecznicy lub hotelu. Skonsultuj z weterynarzem pakiet szczepień.",
+      },
+    ],
+  },
+  listing: {
+    home: "Strona główna",
+    browseCount: (count: number, _what: string, where: string) =>
+      `${cap(plIn(where))} mamy ${count} ${plural("pl", count, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })} – przy każdym podajemy źródło danych.`,
+    listed: "w katalogu",
+    verified: "zweryfikowane",
+    priceRange: "zakres cen",
+    districts: "dzielnice",
+    from: "od",
+    otherServices: "Inne usługi",
+    filterDistrict: "Filtruj wg dzielnicy",
+    allOf: (city: string) => `${city} – całe miasto`,
+    results: (n: number) => `${n} ${plural("pl", n, { one: "wynik", few: "wyniki", many: "wyników", other: "wyników" })}`,
+    seeAll: (label: string, n: number) => `Wszystkie: ${label.toLowerCase()} (${n})`,
+    fairTurn: "kolejność zmienia się codziennie, by każde miejsce miało równe szanse",
+    nearest: "najbliżej",
+    sortLabel: "Sortuj",
+    sortRecommended: "Polecane",
+    sortNearest: "Najbliżej",
+    sortRating: "Najwyżej oceniane",
+    sortReviews: "Najwięcej opinii",
+    ratingFirst: "najwyżej oceniane",
+    reviewsFirst: "najwięcej opinii",
+    filterRating: "Filtruj wg ocen Google",
+    ratingAny: "Dowolna ocena",
+    hiddenUnrated: (n: number) => `ukryto ${n} bez oceny`,
+    openNowFilter: "Otwarte teraz",
+    allServices: "Wszystkie usługi",
+    geoOff: "Lokalizacja wyłączona – pokazujemy wszystkie miejsca.",
+    hiddenNoHours: (n: number) => `ukryto ${n} bez godzin otwarcia`,
+    kmAway: (km: string) => `${km} km stąd`,
+    goodToKnow: "Warto wiedzieć",
+    faqTitle: "Najczęstsze pytania",
+    byDistrict: "Według dzielnic",
+    missingTitle: "Znasz miejsce, którego tu brakuje?",
+    missingBody: "Daj nam znać lub zgłoś dane, które są nieaktualne.",
+    missingLink: "Dodaj miejsce lub zgłoś poprawkę",
+    emptyTitle: "Brak wyników",
+    emptyBody: "Żadne miejsce nie spełnia wybranych filtrów. Wybierz inną dzielnicę.",
+    reset: "Zresetuj filtry",
+    metaTitle: (label: string, where: string) => `${label} ${where} | Pawenn`,
+    metaDescription: (count: number, what: string, where: string) =>
+      `${cap(what)} ${plIn(where)}: ${count} ${plural("pl", count, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })} – dzielnica, godziny otwarcia i kontakt jednym kliknięciem: telefon, strona, dojazd.`,
+    faqCount: (pluralLabel: string, where: string) => `Ile miejsc w kategorii „${cap(pluralLabel)}” jest ${plIn(where)}?`,
+    faqCountAnswer: (n: number, _singular: string, where: string) =>
+      `${cap(plIn(where))} katalog obejmuje obecnie ${n} ${plural("pl", n, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}.`,
+    faqPrice: (_singular: string, where: string, pluralLabel: string) =>
+      `Jakie są ceny w kategorii „${cap(pluralLabel)}” ${plIn(where)}?`,
+    faqPriceAnswer: (range: string) => `Ceny w katalogu wahają się w granicach ${range}, na podstawie opublikowanych cenników.`,
+    faqVerified: (pluralStr: string, where: string) => `Które ${pluralStr} ${plIn(where)} są zweryfikowane?`,
+    faqVerifiedAnswer: (v: number, n: number, pct: number) =>
+      `${v} z ${n} profili (${pct}%) zostało ręcznie zweryfikowanych pod kątem aktualności danych.`,
+  },
+  card: {
+    priceLevel: (tier: number) => `Poziom cen ${tier} z 5`,
+    vsMarket: (pct: number, marketBand: boolean) =>
+      marketBand ? "Cena rynkowa" : pct < 0 ? `${-pct}% poniżej średniej` : `${pct}% powyżej średniej`,
+    vsMarketHint: "W porównaniu z medianą cen tych samych usług w mieście",
+  },
+  rating: {
+    countGoogle: (count: string) => `${count} · Google`,
+    aria: (value: string, count: number) => `Ocena ${value} na 5 z ${count} opinii w Google`,
+  },
+  insights: {
+    title: "Co mówią klienci",
+    summary: (n: number, period: string) => `Podsumowanie pawenn z ${n} opinii Google (${period})`,
+    allOnGoogle: "Wszystkie opinie w Google",
+    disclosure: "Podsumowanie publicznych opinii Google; pawenn nie weryfikuje ich treści.",
+    sentiment: { positive: "Przeważnie pozytywne", mixed: "Mieszane", negative: "Przeważnie negatywne" },
+    mentions: (m: number, n: number) => `${m} z ${n} opinii`,
+    faqTitle: "Pytania zadawane przez opiekunów",
+  },
+  actions: { call: "Zadzwoń", website: "Strona www", route: "Trasa" },
+  badges: { verified: (date: string) => `Zweryfikowano ${date}`, partner: "Partner" },
+  business: {
+    metaTitle: (name: string, label: string, where: string) => `${name} – ${label}${where ? ` ${where}` : ""}`,
+    metaDescription: (name: string, where: string) =>
+      `${name}${where ? ` ${where}` : ""}: adres, telefon, godziny otwarcia i dojazd.`,
+    metaDescriptionTail: (hasPrices: boolean) =>
+      `Godziny otwarcia${hasPrices ? ", cennik" : ""} oraz bezpośredni telefon, strona www i wskazówki dojazdu.`,
+    about: "O miejscu",
+    goodToKnow: "Warto wiedzieć",
+    goodToKnowNote: "Informacje podawane przez obiekt na jego własnej stronie www.",
+    faqTitle: "Warto wiedzieć przed wizytą",
+    cityPricesTitle: (where: string) => `Ceny w mieście (${where})`,
+    cityPricesIntro: "To miejsce nie publikuje cennika online. Dla porównania – stawki innych miejsc w mieście:",
+    cityPricesRow: (from: string, median: string, places: number) =>
+      `od ${from} · mediana ${median} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
+    welcomes: "Przyjmuje",
+    specialties: "Specjalizacje",
+    openingHours: "Godziny otwarcia",
+    prices: "Ceny",
+    standard: "Standard",
+    sizes: { MINI: "mini", SMALL: "małe", MEDIUM: "średnie", LARGE: "duże", XL: "bardzo duże" } as Record<string, string>,
+    location: "Lokalizacja",
+    openInMaps: "Otwórz w Mapach",
+    mapTitle: (name: string) => `Mapa z lokalizacją ${name}`,
+    reviews: "Opinie",
+    reviewsCount: (n: number) => `(${n} opinii)`,
+    fromN: (n: number) => `z ${n}`,
+    noReviews: "Brak opinii – dodaj pierwszą.",
+    leaveReview: "Dodaj opinię",
+    getInTouch: "Kontakt",
+    phone: "Telefon",
+    website: "Strona www",
+    email: "E-mail",
+    address: "Adres",
+    noFees: "Kontaktujesz się bezpośrednio z obiektem – pawenn nie pobiera żadnych opłat.",
+    keepExploring: "Przeglądaj dalej",
+    moreNearby: (label: string) => `Więcej miejsc w pobliżu (${label.toLowerCase()})`,
+    seeAll: "Zobacz wszystkie",
+    infoVerified: (date: string) => `Informacje zweryfikowane: ${date}`,
+    source: "źródło:",
+    reportIssue: "Zgłoś błąd",
+    days: { mo: "Poniedziałek", tu: "Wtorek", we: "Środa", th: "Czwartek", fr: "Piątek", sa: "Sobota", su: "Niedziela" } as Record<string, string>,
+    openNow: "Otwarte teraz",
+    closedNow: "Zamknięte",
+    closedDay: "Nieczynne",
+    allDay: "Otwarte całą dobę",
+    byAppointment: "Tylko po umówieniu",
+    hoursChecked: (date: string) => `Godziny sprawdzone ${date}`,
+    nonstop: "Całodobowo 24/7",
+    emergency: "Pogotowie",
+    placeIn: { before: (singular: string) => `${singular.charAt(0).toUpperCase()}${singular.slice(1)} – ` },
+    homeVisits: "Wizyty domowe",
+    languages: (list: string) => `Obsługa w językach: ${list}`,
+    instagram: "Instagram",
+    facebook: "Facebook",
+    priceFrom: (price: string) => `od ${price}`,
+    weightUpTo: (kg: string) => `do ${kg} kg`,
+    weightOver: (kg: string) => `powyżej ${kg} kg`,
+    weightRange: (from: string, to: string) => `${from}–${to} kg`,
+    pricesChecked: (date: string) => `Sprawdzono ${date}`,
+    priceList: "cennik",
+    perUnit: { per_hour: "/ godz.", per_km: "/ km" } as Record<string, string>,
+    notCompared: "nieporównywane z innymi miejscami",
+    cityMedian: (price: string, places: number) => `Mediana w mieście ${price} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
+    pricesDisclaimer: "Ceny na podstawie oficjalnego cennika obiektu z podanego dnia. Mogą ulec zmianie – potwierdź przed rezerwacją.",
+  },
+  reviewForm: {
+    name: "Twoje imię",
+    rating: "Ocena",
+    stars: (n: number) => `${n} ${plural("pl", n, { one: "gwiazdka", few: "gwiazdki", many: "gwiazdek", other: "gwiazdek" })}`,
+    review: "Opinia",
+    submit: "Dodaj opinię",
+    submitting: "Wysyłanie...",
+    thanks: "Dziękujemy! Twoja opinia pojawi się po weryfikacji.",
+    error: "Coś poszło nie tak.",
+  },
+  notFound: {
+    title: "Zgubiliśmy trop",
+    body: "Węszyliśmy wszędzie, ale nie znaleźliśmy tej strony. Mogła zostać przeniesiona lub adres zawiera błąd.",
+    back: "Wróć na stronę główną",
+  },
+  attributes: {
+    nonstop: {
+      chip: "Całodobowo 24/7",
+      h1: (where: string) => `Weterynarze całodobowi ${where}`,
+      lead: (n: number, total: number) =>
+        `${n} z ${total} lecznic weterynaryjnych przyjmuje pacjentów 24 godziny na dobę, 7 dni w tygodniu. Zadzwoń przed wyjazdem.`,
+      metaTitle: (where: string) => `Weterynarz całodobowy 24h ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "lecznica weterynaryjna", few: "lecznice weterynaryjne", many: "lecznic weterynaryjnych", other: "lecznic weterynaryjnych" })} ${where} z dyżurem całodobowym 24/7: adresy, telefony i dojazd.`,
+    },
+    saturday: {
+      chip: "Czynne w sobotę",
+      h1: (where: string) => `Weterynarze czynni w sobotę ${where}`,
+      lead: (n: number, total: number) => `${n} z ${total} lecznic weterynaryjnych jest otwartych w soboty. Godziny przyjęć poniżej, sprawdzone w każdej lecznicy.`,
+      metaTitle: (where: string) => `Weterynarze czynni w sobotę ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "lecznica weterynaryjna", few: "lecznice weterynaryjne", many: "lecznic weterynaryjnych", other: "lecznic weterynaryjnych" })} ${where} otwartych w sobotę: godziny, telefony i dojazd.`,
+    },
+    sunday: {
+      chip: "Czynne w niedzielę",
+      h1: (where: string) => `Weterynarze czynni w niedzielę ${where}`,
+      lead: (n: number, total: number) => `${n} z ${total} lecznic weterynaryjnych jest otwartych w niedziele. Godziny przyjęć poniżej, sprawdzone w każdej lecznicy.`,
+      metaTitle: (where: string) => `Weterynarze czynni w niedzielę ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "lecznica weterynaryjna", few: "lecznice weterynaryjne", many: "lecznic weterynaryjnych", other: "lecznic weterynaryjnych" })} ${where} otwartych w niedzielę: godziny, telefony i dojazd.`,
+    },
+    exotics: {
+      chip: "Zwierzęta egzotyczne",
+      h1: (where: string) => `Weterynarze dla zwierząt egzotycznych ${where}`,
+      lead: (n: number, total: number) =>
+        `${n} z ${total} lecznic weterynaryjnych leczy zwierzęta egzotyczne – gady, ptaki i gryzonie. Zadzwoń wcześniej, aby upewnić się co do gatunku.`,
+      metaTitle: (where: string) => `Weterynarz dla zwierząt egzotycznych ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "lecznica weterynaryjna", few: "lecznice weterynaryjne", many: "lecznic weterynaryjnych", other: "lecznic weterynaryjnych" })} ${where} leczących zwierzęta egzotyczne: gady, ptaki i gryzonie. Godziny, telefony i dojazd.`,
+    },
+    "home-visits": {
+      chip: "Wizyty domowe",
+      h1: (where: string) => `Weterynarze z dojazdem do domu ${where}`,
+      lead: (n: number, total: number) => `${n} z ${total} lecznic weterynaryjnych oferuje wizyty domowe.`,
+      metaTitle: (where: string) => `Weterynarz z dojazdem i wizyty domowe ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "weterynarz", few: "weterynarzy", many: "weterynarzy", other: "weterynarzy" })} ${where} z dojazdem do domu: telefony, godziny i zakres pomocy.`,
+    },
+    english: {
+      chip: "Obsługa po angielsku",
+      h1: (where: string) => `Weterynarze mówiący po angielsku ${where}`,
+      lead: (n: number, total: number) =>
+        `${n} z ${total} lecznic weterynaryjnych deklaruje na swojej stronie obsługę w języku angielskim. Upewnij się telefonicznie, kto ma dyżur.`,
+      metaTitle: (where: string) => `English-speaking vets ${where} | Pawenn`,
+      metaDescription: (n: number, where: string) =>
+        `${n} ${plural("pl", n, { one: "lecznica", few: "lecznice", many: "lecznic", other: "lecznic" })} ${where} z obsługą po angielsku według oficjalnych stron www: godziny, telefony i dojazd.`,
+    },
+  },
+  prices: {
+    crumb: "Ceny",
+    overviewH1: (name: string, where: string) => `${name} ${where} – cennik`,
+    overviewMetaTitle: (name: string, where: string) => `${name} ${where} – cennik i ceny | Pawenn`,
+    overviewIntro:
+      "Porównanie cen usług w miejscach, które publikują oficjalny cennik. Mediana to cena środkowa: połowa miejsc pobiera mniej, a połowa więcej.",
+    overviewMetaDescription: (label: string, where: string, services: number) =>
+      `${label} ${where}: porównanie cen ${services} usług w różnych miejscach wraz z medianą i zakresem cen. Na podstawie oficjalnych cenników z datami.`,
+    serviceH1: (service: string, where: string) => `${service} ${where}: ceny`,
+    serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – od ${from} | Pawenn`,
+    answer: (from: string, to: string, median: string, places: number, date: string) =>
+      `Ceny od ${from} do ${to}, mediana ${median}. Porównaliśmy ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}; cenniki sprawdzone ${date}.`,
+    fewPlaces: (places: number) =>
+      `Tylko ${places} ${plural("pl", places, { one: "miejsce publikuje", few: "miejsca publikują", many: "miejsc publikuje", other: "miejsc publikuje" })} dotąd tę cenę – zbyt mało, by stworzyć wiarygodne porównanie.`,
+    question: (service: string, where: string) => `Ile kosztuje ${service.toLowerCase()} ${where}?`,
+    includes: "Co obejmuje cena",
+    place: "Miejsce",
+    price: "Cena",
+    vsMarket: "Wobec rynku",
+    notComparedTitle: "Inne ceny (nieporównywane)",
+    notComparedIntro: "Ceny cząstkowe, stawki za godzinę lub za kilometr oraz usługi wykraczające poza standard.",
+    otherServices: "Pozostałe ceny",
+    service: "Usługa",
+    range: "Zakres",
+    median: "Mediana",
+    places: "Miejsca",
+    seeAll: (label: string) => `${label} – zobacz wszystkie`,
+    linkFromListing: (where: string) => `Ceny ${where}`,
+    source: "cennik",
+  },
+};

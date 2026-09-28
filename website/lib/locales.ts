@@ -1,7 +1,7 @@
 // The site's languages. Kept free of imports so proxy.ts can use it.
 // Adding a language: docs/playbooks/add-language.md.
 
-export const LOCALES = ["en", "sk"] as const;
+export const LOCALES = ["en", "sk", "pl"] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = "en";
 
@@ -10,7 +10,7 @@ export function isLocale(value: string): value is Locale {
 }
 
 /** BCP 47 tag for dates and plural rules. */
-export const DATE_LOCALE: Record<Locale, string> = { en: "en-GB", sk: "sk-SK" };
+export const DATE_LOCALE: Record<Locale, string> = { en: "en-GB", sk: "sk-SK", pl: "pl-PL" };
 
 /** Prefix a locale-neutral path ("/grooming/bratislava/") for a locale.
  *  Every language has its prefix, English too (language model v2, owner
@@ -30,6 +30,7 @@ export const LANG_COOKIE = "pawenn_lang";
  */
 export const COUNTRY_LANGUAGE: Record<string, Locale[]> = {
   SK: ["sk"],
+  PL: ["pl"],
 };
 
 /**
