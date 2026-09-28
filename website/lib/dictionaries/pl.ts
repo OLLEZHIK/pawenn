@@ -308,6 +308,7 @@ export const pl: Dictionary = {
     sentiment: { positive: "Przeważnie pozytywne", mixed: "Mieszane", negative: "Przeważnie negatywne" },
     mentions: (m: number, n: number) => `${m} z ${n} opinii`,
     faqTitle: "Pytania zadawane przez opiekunów",
+    shortNote: "Nie mamy jeszcze podsumowania opinii pawenn o tym miejscu. Ocena i wszystkie opinie są w Google.",
   },
   actions: { call: "Zadzwoń", website: "Strona www", route: "Trasa" },
   badges: { verified: (date: string) => `Zweryfikowano ${date}`, partner: "Partner" },

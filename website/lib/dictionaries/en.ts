@@ -293,6 +293,7 @@ export const en = {
     sentiment: { positive: "Mostly positive", mixed: "Mixed", negative: "Mostly negative" },
     mentions: (m: number, n: number) => `${m} of ${n} reviews`,
     faqTitle: "Questions owners ask",
+    shortNote: "No pawenn summary of reviews for this place yet. The rating and every review are on Google.",
   },
   actions: { call: "Call", website: "Website", route: "Route" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },

@@ -1,6 +1,7 @@
 import type { ReviewInsights, Sentiment } from "@/lib/reviewInsights";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { ArrowRightIcon } from "./icons";
+import { GoogleRating } from "./GoogleRating";
 
 // "What customers say" (docs/design-plan.md, "Сводка отзывов"): our
 // summary of public Google reviews. Deliberately not styled as reviews -
@@ -96,6 +97,53 @@ export function ReviewInsightsSection({ insights, locale }: { insights: ReviewIn
       )}
 
       <p className="mt-5 text-xs text-foreground/60">{t.disclosure}</p>
+    </section>
+  );
+}
+
+/**
+ * The same block for a place without a summary - fewer than 5 reviews with
+ * text even over 24 months, or not collected yet (docs/playbooks/
+ * review-insights.md, owner 2026-09-28). The note fits both, so it never
+ * claims "too few reviews" for a place nobody has read yet. No words about
+ * what reviews say - only Google's rating, the way to all reviews there and
+ * to leaving one here.
+ */
+export function ReviewInsightsShort({
+  rating,
+  count,
+  googleMapsUrl,
+  locale,
+}: {
+  rating: number;
+  count: number;
+  googleMapsUrl: string;
+  locale: Locale;
+}) {
+  const dict = getDictionary(locale);
+  const t = dict.insights;
+  return (
+    <section className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
+      <h2 className="text-xl font-bold text-foreground">{t.title}</h2>
+      <p className="mt-3">
+        <GoogleRating rating={rating} count={count} locale={locale} className="text-base text-foreground/70" />
+      </p>
+      <p className="mt-2 text-sm text-foreground/60">{t.shortNote}</p>
+      <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+        <a
+          href={googleMapsUrl}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue hover:underline"
+        >
+          {t.allOnGoogle}
+          <ArrowRightIcon className="h-4 w-4" />
+        </a>
+        <a href="#reviews" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-blue hover:underline">
+          {dict.business.leaveReview}
+          <ArrowRightIcon className="h-4 w-4" />
+        </a>
+      </div>
     </section>
   );
 }
