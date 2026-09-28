@@ -31,7 +31,7 @@ import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
-import { money } from "@/lib/money";
+import { money, moneyRange } from "@/lib/money";
 
 /** City page: places per service before the "see all" link. */
 const HUB_PER_CATEGORY = 5;
@@ -504,7 +504,7 @@ function buildFaqs({
     const price = (n: number) => money(n, aggregates.currency, locale);
     const range =
       aggregates.priceTo && aggregates.priceTo !== aggregates.priceFrom
-        ? `${price(aggregates.priceFrom)}–${price(aggregates.priceTo)}`
+        ? moneyRange(aggregates.priceFrom, aggregates.priceTo, aggregates.currency, locale)
         : `${t.from} ${price(aggregates.priceFrom)}`;
     faqs.push({ question: t.faqPrice(singular, where, label), answer: t.faqPriceAnswer(range) });
   }

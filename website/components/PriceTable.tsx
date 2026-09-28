@@ -5,6 +5,7 @@ import { formatDate, getDictionary, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 import { TagIcon } from "./icons";
 import { pricesPath } from "@/lib/priceSlugs";
+import { moneyRange } from "@/lib/money";
 import { MARKET_BAND, pctAgainst, type MarketPrice } from "@/lib/priceMarket";
 
 type PriceRow = BusinessWithRelations["priceItems"][number];
@@ -92,7 +93,7 @@ export function PriceTable({
           const from = Number(item.priceFrom);
           const to = item.priceTo === null ? null : Number(item.priceTo);
           const price =
-            to === null ? t.priceFrom(money(from, item.currency)) : to === from ? money(from, item.currency) : `${money(from, item.currency)}–${money(to, item.currency)}`;
+            to === null ? t.priceFrom(money(from, item.currency)) : to === from ? money(from, item.currency) : moneyRange(from, to, item.currency, locale);
           // Against the city median: once per service, on its cheapest
           // comparable row - the same "from" price the market is built of.
           const cityMarket = market?.get(code);

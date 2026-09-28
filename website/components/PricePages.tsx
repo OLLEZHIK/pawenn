@@ -5,6 +5,7 @@ import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPa
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
+import { moneyRange } from "@/lib/money";
 import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -123,7 +124,7 @@ export async function ServicePricePage({
 
   const priceText = (line: { from: number; to: number; currency: string }) =>
     line.to > line.from
-      ? `${money(line.from, line.currency, locale)}–${money(line.to, line.currency, locale)}`
+      ? moneyRange(line.from, line.to, line.currency, locale)
       : money(line.from, line.currency, locale);
 
   return (
@@ -324,12 +325,12 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
                         {serviceLabel(category, s.code, locale)}
                       </Link>
                       <span className="block text-xs text-foreground/60 sm:hidden">
-                        {money(m.min, m.currency, locale)}–{money(m.max, m.currency, locale)}
+                        {moneyRange(m.min, m.max, m.currency, locale)}
                       </span>
                     </td>
                     <td className="whitespace-nowrap px-4 py-3 text-right font-semibold">{money(m.median, m.currency, locale)}</td>
                     <td className="hidden whitespace-nowrap px-4 py-3 text-right text-foreground/70 sm:table-cell">
-                      {money(m.min, m.currency, locale)}–{money(m.max, m.currency, locale)}
+                      {moneyRange(m.min, m.max, m.currency, locale)}
                     </td>
                     <td className="px-4 py-3 text-right text-foreground/70 sm:pr-6">{m.places}</td>
                   </tr>
