@@ -250,6 +250,7 @@ export const pl: Dictionary = {
     allOf: (city: string) => `${city} – całe miasto`,
     results: (n: number) => `${n} ${plural("pl", n, { one: "wynik", few: "wyniki", many: "wyników", other: "wyników" })}`,
     seeAll: (label: string, n: number) => `Wszystkie: ${label.toLowerCase()} (${n})`,
+    showAll: (n: number) => `Pokaż wszystkie (${n})`,
     fairTurn: "kolejność zmienia się codziennie, by każde miejsce miało równe szanse",
     nearest: "najbliżej",
     sortLabel: "Sortuj",

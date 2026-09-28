@@ -121,7 +121,7 @@ export default async function CategoryCityDistrictPage({
   searchParams,
 }: {
   params: Promise<PageParams>;
-  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string }>;
+  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; all?: string }>;
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
@@ -129,7 +129,7 @@ export default async function CategoryCityDistrictPage({
     return <PriceOverviewPage locale={resolved.locale} category={resolved.category} city={resolved.city} />;
   }
 
-  const { near, sort, rating, open } = await searchParams;
+  const { near, sort, rating, open, all } = await searchParams;
   const { locale, category, city } = resolved;
 
   return (
@@ -143,6 +143,7 @@ export default async function CategoryCityDistrictPage({
       attributePage={resolved.attribute ?? undefined}
       open={open}
       near={near}
+      showAll={all}
       sort={sort}
       rating={rating}
     />

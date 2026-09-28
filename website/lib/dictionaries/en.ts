@@ -234,6 +234,7 @@ export const en = {
     allOf: (city: string) => `All of ${city}`,
     results: (n: number) => `${n} ${n === 1 ? "result" : "results"}`,
     seeAll: (label: string, n: number) => `All ${label.toLowerCase()} (${n})`,
+    showAll: (n: number) => `Show all ${n}`,
     fairTurn: "order changes daily so everyone gets a fair turn",
     nearest: "nearest first",
     sortLabel: "Sort",

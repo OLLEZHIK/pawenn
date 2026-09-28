@@ -256,6 +256,7 @@ export const sk: Dictionary = {
     allOf: (city: string) => `Celá ${city}`,
     results: (n: number) => `${n} ${plural("sk", n, { one: "výsledok", few: "výsledky", other: "výsledkov" })}`,
     seeAll: (label: string, n: number) => `Všetky: ${label.toLowerCase()} (${n})`,
+    showAll: (n: number) => `Zobraziť všetky (${n})`,
     fairTurn: "poradie sa mení každý deň, aby mal každý rovnakú šancu",
     nearest: "najbližšie ako prvé",
     sortLabel: "Zoradiť",

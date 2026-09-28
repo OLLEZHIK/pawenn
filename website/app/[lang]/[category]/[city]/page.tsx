@@ -84,12 +84,12 @@ export default async function CategoryCityPage({
   searchParams,
 }: {
   params: Promise<PageParams>;
-  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string }>;
+  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; all?: string }>;
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
 
-  const { near, sort, rating, open } = await searchParams;
+  const { near, sort, rating, open, all } = await searchParams;
   const { locale, category, city } = resolved;
 
   // No category: the city page, one list with every service.
@@ -99,6 +99,7 @@ export default async function CategoryCityPage({
       category={category}
       city={city}
       near={near}
+      showAll={all}
       sort={sort}
       rating={rating}
       open={open}
