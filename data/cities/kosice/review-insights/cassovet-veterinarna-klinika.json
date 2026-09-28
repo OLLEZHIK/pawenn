@@ -4,93 +4,82 @@
   "google_maps_url": "https://www.google.com/maps/place/Cassovet+-+veterin%C3%A1rna+klinika/data=!4m7!3m6!1s0x473ee04b0fac4bfd:0xec86cb855d527c87!8m2!3d48.7206482!4d21.214975!16s%2Fg%2F11bzx3ng08!19sChIJ_UusD0vgPkcRh3xSXYXLhuw?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2026-03-27",
   "period_to": "2026-09-27",
-  "reviews_in_period": 5,
+  "reviews_in_period": 15,
   "observed_at": "2026-09-27",
   "cards": [
     {
       "topic": "staff",
       "sentiment": "positive",
-      "mentions": 5,
+      "mentions": 13,
       "title": {
-        "en": "Empathetic and highly dedicated veterinary team",
-        "sk": "Empatický a vysoko obetavý tím veterinárov"
+        "en": "Empathetic and dedicated veterinary doctors",
+        "sk": "Empatickí a obetaví veterinárni lekári"
       },
       "text": {
-        "en": "Pet owners consistently praise the empathetic and professional staff at the clinic on KVP estate. Reviewers appreciate that the veterinarians take ample time to explain diagnoses clearly, manage difficult cases patiently, and treat pets with genuine care.",
-        "sk": "Majitelia zvierat vysoko oceňujú profesionálny a empatický prístup personálu na sídlisku KVP. Recenzie vyzdvihujú ochotu lekárov venovať pacientom dostatok času, zrozumiteľné vysvetlenie diagnóz aj citlivé zaobchádzanie so zvieratami bez zbytočného stresu."
+        "en": "Reviewers frequently highlight the compassionate approach of veterinarians including Dr. Palinsky, Dr. Šoltés, and Dr. Vilimová on Trieda SNP. Owners appreciate their patience, calm manner with nervous pets, and willingness to explain procedures thoroughly during consultations.",
+        "sk": "Recenzenti vyzdvihujú odborný a ľudský prístup lekárov vrátane Dr. Palinsky, Dr. Šoltésa a Dr. Vilimovej na Triede SNP. Majitelia oceňujú ich trpezlivosť, pokojné zaobchádzanie so zvieratami v strese a ochotu zrozumiteľne vysvetliť celý liečebný postup počas vyšetrení."
       }
     },
     {
       "topic": "results",
       "sentiment": "positive",
-      "mentions": 4,
+      "mentions": 11,
       "title": {
-        "en": "Successful surgical and acute medical outcomes",
-        "sk": "Úspešná chirurgická a akútna liečba"
+        "en": "Effective treatment and urgent surgeries",
+        "sk": "Úspešná liečba a urgentné operácie"
       },
       "text": {
-        "en": "Multiple clients report successful medical and surgical outcomes for their pets during critical situations. Reviewers highlight life-saving emergency surgeries, accurate diagnostic workups with ultrasound, and smooth recoveries after complex operations.",
-        "sk": "V recenziách sa opakovane spomína úspešná liečba akútnych stavov a chirurgických prípadov. Zákazníci opisujú záchranu života fenky pri nočnej operácii, rýchlu stabilizáciu tráviacich ťažkostí aj bezproblémovú rekonvalescenciu po operačných zákrokoch."
+        "en": "Pet owners report successful medical outcomes in critical situations, including emergency surgeries during night shifts, rapid stabilization of poisoned puppies, and accurate senior preventive diagnostics that uncovered complex conditions and saved animal lives.",
+        "sk": "Majitelia zvierat opisujú úspešné zákroky v kritických chvíľach, vrátane nočných operácií zachraňujúcich život, rýchlej stabilizácie otrávených šteniat a dôkladných geriatrických prehliadok, ktoré včas odhalili skryté ochorenia a pomohli pacientom k zotaveniu."
       }
     },
     {
       "topic": "waiting",
-      "sentiment": "positive",
-      "mentions": 3,
+      "sentiment": "mixed",
+      "mentions": 4,
       "title": {
-        "en": "Prompt emergency triage and scheduling",
-        "sk": "Rýchle vybavenie pohotovosti a termínov"
+        "en": "Emergency admissions and daytime fee questions",
+        "sk": "Pohotovostný príjem a denné poplatky"
       },
       "text": {
-        "en": "Clients commend the dependable emergency availability and prompt reception for urgent evening and holiday visits. Reviewers note accommodating appointment scheduling by phone and reassuring follow-up updates with photos while pets are in postoperative care.",
-        "sk": "Klienti oceňujú spoľahlivú dostupnosť pohotovostných vyšetrení aj rýchle vybavenie akútnych pacientov večer či cez sviatky. Veterinárna sestra ochotne zabezpečuje najbližšie voľné termíny a priebežne informuje majiteľov o stave hospitalizovaných zvierat."
+        "en": "While emergency cases are seen swiftly without prior appointments, some clients mention unexpected daytime emergency surcharges when arriving without advance booking for routine hygiene procedures, recommending scheduled visits for standard non-urgent care.",
+        "sk": "Zatiaľ čo akútne stavy na pohotovosti prijímajú lekári rýchlo aj v nočných hodinách, ojedinelá recenzia upozorňuje na pohotovostné príplatky pri neohlásenej dennej návšteve na bežné úkony, preto klienti odporúčajú štandardné ošetrenia vopred telefonicky objednať."
       }
     }
   ],
   "faq": [
     {
       "q": {
-        "en": "How does emergency care work at Cassovet?",
-        "sk": "Ako funguje pohotovostná starostlivosť na klinike Cassovet?"
+        "en": "Is the emergency service available 24/7 at Cassovet?",
+        "sk": "Poskytuje klinika Cassovet nepretržitú pohotovosť 24/7?"
       },
       "a": {
-        "en": "The clinic operates an emergency phone line outside regular opening hours. Clients report prompt evening and holiday admissions for urgent surgical and medical cases.",
-        "sk": "Klinika prevádzkuje pohotovostnú telefónnu linku mimo bežných ordinačných hodín. Zákazníci potvrdzujú rýchly príjem akútnych a chirurgických prípadov večer aj cez sviatky."
-      },
-      "basis": "both"
-    },
-    {
-      "q": {
-        "en": "Are diagnostic tests performed on-site?",
-        "sk": "Vykonávajú sa diagnostické vyšetrenia priamo na mieste?"
-      },
-      "a": {
-        "en": "Yes, reviews confirm immediate on-site blood tests and ultrasound imaging during acute visits, allowing veterinarians to determine treatment plans without delay.",
-        "sk": "Áno, recenzie potvrdzujú okamžité laboratórne vyšetrenia krvi a ultrazvukovú diagnostiku priamo na mieste, vďaka čomu lekári stanovia liečbu bez zbytočného odkladu."
-      },
-      "basis": "both"
-    },
-    {
-      "q": {
-        "en": "Can animals stay overnight for postoperative observation?",
-        "sk": "Môžu zvieratá zostať na nočnej pooperačnej hospitalizácii?"
-      },
-      "a": {
-        "en": "Yes, clients note that after urgent surgeries veterinary staff can monitor recovering pets overnight on the clinic premises.",
-        "sk": "Áno, zákazníci uvádzajú, že po urgentných operáciách personál kliniky zabezpečuje celonočný dohľad a monitorovanie zotavujúceho sa pacienta."
-      },
-      "basis": "both"
-    },
-    {
-      "q": {
-        "en": "How do clients receive updates after pet surgery?",
-        "sk": "Ako majitelia dostávajú informácie o stave zvieraťa po operácii?"
-      },
-      "a": {
-        "en": "Clients highlight attentive communication from veterinary nurses who promptly share status reports, photos, and video updates after surgical procedures.",
-        "sk": "Klienti vyzdvihujú ústretovú komunikáciu personálu, ktorý majiteľom po zákroku obratom posiela informácie o stave psíka vrátane fotografií a videí."
+        "en": "Yes, reviews confirm that veterinarians admit critical patients, perform diagnostic imaging, and conduct emergency surgeries late at night and during holidays.",
+        "sk": "Áno, recenzie potvrdzujú, že lekári prijímajú akútnych pacientov, vykonávajú ultrazvukové vyšetrenia aj operačné zákroky neskoro v noci aj cez sviatky."
       },
       "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients stay overnight with hospitalized animals?",
+        "sk": "Môže klinika zabezpečiť nočné monitorovanie po operácii?"
+      },
+      "a": {
+        "en": "Reviews mention that veterinary staff remained at the clinic overnight to closely monitor high-risk patients following urgent surgical procedures.",
+        "sk": "Recenzie uvádzajú, že službukonajúca lekárka zostala na klinike celú noc a monitorovala stav pacientky po náročnej akútnej operácii."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do clients need to book appointments in advance for routine checkups?",
+        "sk": "Je potrebné sa na bežnú prehliadku vopred objednať?"
+      },
+      "a": {
+        "en": "While urgent conditions are treated promptly, booking an appointment in advance via telephone is advised to avoid daytime emergency surcharges.",
+        "sk": "Hoci akútne prípady ošetria okamžite, na bežné vyšetrenia a preventívne zákroky sa odporúča vopred telefonicky dohodnúť presný termín."
+      },
+      "basis": "both"
     }
   ]
 }
