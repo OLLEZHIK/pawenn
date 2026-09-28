@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { getDefaultCity, getCityPoints } from "@/lib/data";
+import { getAllCities, getDefaultCity, getCityPoints } from "@/lib/data";
 import { ALL_CATEGORIES, CATEGORY_THEME, categoryBlurb, categoryLabel, categorySlug, listingPath } from "@/lib/categories";
-import { getDictionary, localePath, type Locale } from "@/lib/i18n";
+import { getDictionary, localePath, localesForCity, type Locale } from "@/lib/i18n";
 import { Logo } from "./Logo";
 import { MobileMenu } from "./MobileMenu";
 import { BrowseMenu, type ServiceLink } from "./BrowseMenu";
@@ -9,7 +9,13 @@ import { FindCareButton, SearchDialog } from "./SearchDialog";
 import { HeaderShell } from "./HeaderShell";
 
 export async function Header({ locale }: { locale: Locale }) {
-  const [city, cityPoints] = await Promise.all([getDefaultCity(), getCityPoints()]);
+  const [defaultCity, allCities, cityPoints] = await Promise.all([getDefaultCity(), getAllCities(), getCityPoints()]);
+  // Only cities that have this language: a Polish page linked the menu to
+  // /pl/.../bratislava/, which does not exist (404). The menu's city is the
+  // language's city, as in the footer; English keeps the default city.
+  const langCities = allCities.filter((c) => localesForCity(c).includes(locale));
+  const city =
+    defaultCity && langCities.some((c) => c.slug === defaultCity.slug) ? defaultCity : (langCities[0] ?? defaultCity);
   const citySlug = city?.slug ?? "";
   const t = getDictionary(locale);
 
@@ -20,7 +26,9 @@ export async function Header({ locale }: { locale: Locale }) {
     blurb: categoryBlurb(category, locale),
     accent: CATEGORY_THEME[category].accent,
   }));
-  const cities = cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }));
+  const cities = cityPoints
+    .filter((p) => langCities.some((c) => c.slug === p.slug))
+    .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }));
   const searchCategories = ALL_CATEGORIES.map((category) => ({
     slug: categorySlug(category, locale),
     label: categoryLabel(category, locale),

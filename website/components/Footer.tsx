@@ -72,7 +72,7 @@ export async function Footer({ locale }: { locale: Locale }) {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-sm text-white/50 sm:flex-row sm:items-center">
           <p>&copy; {new Date().getFullYear()} pawenn.com</p>
-          <LanguageSwitch locales={localesForCity(city)} />
+          <LanguageSwitch />
           <p>{t.madeWithCare(cityWhere)}</p>
         </div>
       </div>
