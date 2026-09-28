@@ -16,6 +16,21 @@ import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
 import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
+import {
+  EVIDENCE_COLUMNS,
+  EVIDENCE_FROM,
+  MAX_QUOTE,
+  MIN_QUOTE,
+  badField,
+  domainOf,
+  isGoogleMaps,
+  isSocial,
+  needsEvidence,
+  priceInQuotes,
+  quoteMismatch,
+  requiredEvidence,
+  squash,
+} from "./evidence";
 
 type Row = Record<string, string>;
 
@@ -61,43 +76,65 @@ const logoExists = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(lo
 const logoSmall = (r: Row) => (logoExists(r) ? logoTooSmall(path.join(logosDir, r.logo_file.trim())) : null);
 const logoOk = (r: Row) => logoExists(r) && !logoSmall(r);
 
-// Target share of places that must have each field. Logo, rating and
-// hours can be genuinely missing (no logo anywhere, fewer than 5 ratings,
-// hours not published) - the rest of the way to 100 % must be explained
-// in notes, never left silent.
-const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence?: string }[] = [
-  { field: "short_description + _local", target: 1, ok: (r) => has(r, "short_description") && has(r, "short_description_local") },
-  { field: "description + _local", target: 1, ok: (r) => has(r, "description") && has(r, "description_local") },
+// Target share of places that must have each field. A field counts when
+// it has a value or an honest "<field>: none (<where searched>)" line in
+// notes (owner, 2026-09-28): a gap that is written down costs an agent less
+// than a made-up value, so it never has to guess to reach a target. The
+// share with a real value is printed next to it; below the target it is a
+// warning the reviewer reads, not a failure.
+// "warn": the owner's minimum is about real values (docs/card-spec.md,
+// "Минимум качества"), so a low share of them is shown to the reviewer.
+const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?: string; warn?: boolean }[] = [
+  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && has(r, "short_description_local") },
+  { field: "description + _local", target: 1, value: (r) => has(r, "description") && has(r, "description_local") },
   // Mobile services with no premises have no coordinates, only a
   // "coords: none (mobile service ...)" note (docs/card-spec.md, section 3).
-  { field: "lat / lng", target: 1, ok: (r) => (has(r, "lat") && has(r, "lng")) || noted(r, "coords") },
-  { field: "phone / email / website", target: 1, ok: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
+  { field: "lat / lng", target: 1, value: (r) => has(r, "lat") && has(r, "lng"), none: "coords" },
+  { field: "phone / email / website", target: 1, value: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
   // A Maps link copied from the place's card, or "maps: none (...)" where
   // no card was found or Maps would not open: an honest gap beats a made-up
   // link (PR #144, owner 2026-09-27). The reviewer checks the notes.
-  { field: "google_maps_url", target: 1, ok: (r) => has(r, "google_maps_url") || noted(r, "maps"), evidence: "maps" },
-  { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
+  { field: "google_maps_url", target: 0.95, value: (r) => has(r, "google_maps_url"), none: "maps", warn: true },
+  { field: "logo", target: 0.8, value: logoOk, none: "logo", warn: true },
   // "Good to know" facts from the place's own site (docs/card-spec.md,
   // section 9): codes, or "facts: none (...)" where nothing is stated -
   // both count, as the spec says; counting codes only rewarded guessing
   // (Košice, PR #151).
-  { field: "facts", target: 0.8, ok: (r) => has(r, "facts") || noted(r, "facts"), evidence: "facts" },
-  { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
-  { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours") && !noWeekdays(r.opening_hours), evidence: "hours" },
+  { field: "facts", target: 0.8, value: (r) => has(r, "facts"), none: "facts" },
+  { field: "google_rating", target: 0.85, value: (r) => has(r, "google_rating") && has(r, "google_rating_count"), none: "rating", warn: true },
+  { field: "opening_hours", target: 0.9, value: (r) => has(r, "opening_hours") && !noWeekdays(r.opening_hours), none: "hours", warn: true },
 ];
+const counts = (c: (typeof CHECKS)[number], r: Row) => c.value(r) || (!!c.none && noted(r, c.none));
 
 let failed = false;
 const closedCount = allRows.length - rows.length;
 console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
-console.log("field                         have    share  target");
-for (const c of CHECKS) {
-  const n = rows.filter(c.ok).length;
-  const share = n / rows.length;
+console.log("field                         value   none   share  target");
+const lowValue: string[] = [];
+// Batch 0 of a city has only its candidates list (add-city.md, "Партии").
+if (!rows.length) console.log("(no places yet - batch 0: city.json and candidates.csv only)");
+for (const c of rows.length ? CHECKS : []) {
+  const withValue = rows.filter(c.value).length;
+  const withNone = rows.filter((r) => !c.value(r) && counts(c, r)).length;
+  const share = (withValue + withNone) / rows.length;
   const pass = share >= c.target;
   if (!pass) failed = true;
+  if (c.warn && withValue / rows.length < c.target) lowValue.push(`${c.field}: ${Math.round((withValue / rows.length) * 100)}% with a value (target ${Math.round(c.target * 100)}%), ${withNone} "${c.none}: none (...)"`);
   console.log(
-    `${c.field.padEnd(28)} ${`${n}/${rows.length}`.padStart(7)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
+    `${c.field.padEnd(28)} ${String(withValue).padStart(6)} ${String(withNone).padStart(6)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
   );
+}
+if (lowValue.length) {
+  console.log(`\nWarning - below target with a real value; the reviewer reads the "none" notes (${lowValue.length}):`);
+  for (const l of lowValue) console.log(`  ${l}`);
+}
+// More than half without Google Maps data is not a city without cards -
+// the tool did not work. Stop and say so in the PR (quality.md, rule 9).
+for (const key of ["maps", "rating"]) {
+  const none = rows.filter((r) => noted(r, key)).length;
+  if (rows.length >= 4 && none > rows.length / 2) {
+    console.log(`\nWarning - "${key}: none" at ${none} of ${rows.length} places: if Google Maps did not open, write it in the PR as an open question instead of collecting further.`);
+  }
 }
 
 // Slugs: the seed refuses anything but a-z, 0-9 and single hyphens, and a
@@ -149,9 +186,9 @@ if (templated.length) {
 const silent: string[] = [];
 for (const r of rows) {
   for (const c of CHECKS) {
-    if (!c.evidence || c.ok(r) || noted(r, c.evidence)) continue;
-    if (c.evidence === "logo" && logoSmall(r)) continue; // own list below
-    silent.push(`${r.slug}: no ${c.field} and no "${c.evidence}: none (...)" in notes`);
+    if (!c.none || counts(c, r)) continue;
+    if (c.none === "logo" && logoSmall(r)) continue; // own list below
+    silent.push(`${r.slug}: no ${c.field} and no "${c.none}: none (...)" in notes`);
   }
 }
 if (silent.length) {
@@ -235,6 +272,79 @@ const bothLangs = (v: unknown) => {
   const o = v as Record<string, unknown> | undefined;
   return cityLangs.every((l) => typeof o?.[l] === "string" && (o[l] as string).trim() !== "");
 };
+const TOPICS = ["staff", "results", "prices", "waiting", "place", "communication", "animals"];
+type FeedItem = { ago?: unknown; months?: unknown; stars?: unknown; topics?: unknown };
+function checkFeed(
+  data: { reviews_in_period?: number; period_from?: string; period_to?: string; cards?: { topic?: string; sentiment?: string; mentions?: number }[]; feed?: unknown },
+  ratings: number
+): string[] {
+  const errors: string[] = [];
+  if (!Array.isArray(data.feed)) return [`no "feed" - list every review with text in the period (review-insights.md, "Лента")`];
+  const feed = data.feed as FeedItem[];
+  if (feed.length !== data.reviews_in_period) errors.push(`feed has ${feed.length} reviews, reviews_in_period says ${data.reviews_in_period}`);
+  const from = new Date(data.period_from ?? ""), to = new Date(data.period_to ?? "");
+  const period = Math.round((to.getTime() - from.getTime()) / (30.44 * 24 * 3600 * 1000));
+  if (![6, 12, 24].includes(period)) errors.push(`period ${data.period_from} - ${data.period_to} is ${period} months, need 6, 12 or 24`);
+  let prev = 0;
+  const tally = new Map<string, { plus: number; minus: number; mixed: number }>();
+  feed.forEach((f, i) => {
+    const at = `feed ${i + 1}`;
+    if (typeof f.ago !== "string" || !f.ago.trim()) errors.push(`${at}: "ago" - copy it as Google shows it ("3 months ago")`);
+    const months = f.months as number;
+    if (!Number.isInteger(months) || months < 0) errors.push(`${at}: "months" ${JSON.stringify(f.months)} - a whole number from "ago"`);
+    else {
+      if (months < prev) errors.push(`${at}: ${months} months after ${prev} - list newest first`);
+      if ([6, 12, 24].includes(period) && months >= period) errors.push(`${at}: ${months} months ago is outside the ${period}-month period`);
+      prev = months;
+    }
+    const stars = f.stars as number;
+    if (!Number.isInteger(stars) || stars < 1 || stars > 5) errors.push(`${at}: "stars" ${JSON.stringify(f.stars)} - 1 to 5`);
+    const topics = (f.topics ?? {}) as Record<string, unknown>;
+    if (typeof topics !== "object" || Array.isArray(topics)) {
+      errors.push(`${at}: "topics" - an object like {"staff": "+"}`);
+      return;
+    }
+    for (const [t, v] of Object.entries(topics)) {
+      if (!TOPICS.includes(t)) errors.push(`${at}: topic "${t}" - one of ${TOPICS.join(", ")}`);
+      else if (v !== "+" && v !== "-" && v !== "~") errors.push(`${at}: ${t} "${v}" - "+", "-" or "~"`);
+      else {
+        const c = tally.get(t) ?? { plus: 0, minus: 0, mixed: 0 };
+        if (v === "+") c.plus++;
+        else if (v === "-") c.minus++;
+        else c.mixed++;
+        tally.set(t, c);
+      }
+    }
+    // A 1-2 star review with text complains about something.
+    if (Number.isInteger(stars) && stars <= 2 && !Object.values(topics).some((v) => v === "-" || v === "~")) {
+      errors.push(`${at}: ${stars} stars but no "-" topic - what does it criticise?`);
+    }
+  });
+  // Steps 6 -> 12 -> 24 months: the shortest period with 5+ reviews.
+  if (period === 12 && feed.filter((f) => (f.months as number) < 6).length >= 5) errors.push("5+ reviews in the last 6 months - the period is 6 months");
+  if (period === 24 && feed.filter((f) => (f.months as number) < 12).length >= 5) errors.push("5+ reviews in the last 12 months - the period is 12 months");
+  // Cards: the three most discussed topics, counted from the feed.
+  const countOf = (t: string) => {
+    const c = tally.get(t);
+    return c ? c.plus + c.minus + c.mixed : 0;
+  };
+  const ranked = [...tally.keys()].sort((a, b) => countOf(b) - countOf(a));
+  const third = countOf(ranked[2] ?? "");
+  for (const card of data.cards ?? []) {
+    const t = card.topic ?? "";
+    const n = countOf(t);
+    if (card.mentions !== n) errors.push(`card "${t}": mentions ${card.mentions}, the feed has ${n} reviews on it`);
+    if (n < third) errors.push(`card "${t}" (${n}) - not among the three most discussed topics (${ranked.slice(0, 3).map((x) => `${x} ${countOf(x)}`).join(", ")})`);
+    const c = tally.get(t);
+    if (c && n) {
+      // 4 complaints in 20 is a mixed card (review-insights.md, "Честность").
+      const expected = c.minus > c.plus ? "negative" : (c.minus + c.mixed / 2) / n >= 0.2 ? "mixed" : "positive";
+      if (card.sentiment !== expected) errors.push(`card "${t}": sentiment ${card.sentiment}, the feed says ${expected} (+${c.plus} -${c.minus} ~${c.mixed})`);
+    }
+  }
+  if (ratings > 0 && feed.length > ratings) errors.push(`feed has ${feed.length} reviews, the place has ${ratings} Google ratings in all`);
+  return errors;
+}
 const insightErrors: string[] = [];
 // Texts padded to 250 characters with one stock phrase (lesson from PR
 // #156): the same last four words in texts of many places.
@@ -244,8 +354,12 @@ for (const slug of insights) {
   let data: {
     slug?: string;
     reviews_in_period?: number;
-    cards?: { title?: unknown; text?: unknown; mentions?: number }[];
+    period_from?: string;
+    period_to?: string;
+    observed_at?: string;
+    cards?: { topic?: string; sentiment?: string; title?: unknown; text?: unknown; mentions?: number }[];
     faq?: { q?: unknown; a?: unknown }[];
+    feed?: unknown;
   };
   try {
     data = JSON.parse(fs.readFileSync(file, "utf-8"));
@@ -279,6 +393,16 @@ for (const slug of insights) {
       if (n && (n < 250 || n > 450)) err(`card ${i + 1}: text.${l} is ${n} characters, need 250-450`);
     }
   });
+  // The feed the summary is built from (docs/playbooks/review-insights.md,
+  // "Лента"): every review with text in the period, newest first, as
+  // Google shows it - how long ago, stars, and the topics it talks about.
+  // Mentions and sentiment of the cards are counted from it, so a summary
+  // either follows the reviews or fails here (Warszawa draft, PR #182: two
+  // critical reviews out of three, all cards positive).
+  if ((data.observed_at ?? "") >= EVIDENCE_FROM) {
+    const feedErrors = checkFeed(data, total);
+    for (const e of feedErrors) err(e);
+  }
   const faq = data.faq ?? [];
   if (faq.length < 3 || faq.length > 6) err(`${faq.length} FAQ, need 3-6`);
   faq.forEach((f, i) => {
@@ -524,6 +648,126 @@ if (fs.existsSync(pricesFile)) {
     for (const r of pricedCategory.filter((x) => !priced.has(x.slug) && !noted(x, "prices"))) {
       console.log(`  ${r.slug}: no prices and no "prices: none (...)" in notes`);
     }
+  }
+}
+
+// Evidence (docs/playbooks/quality.md, rule 8): one row per value taken
+// from a place's site - the page and a word-for-word quote from it. Rows
+// collected from EVIDENCE_FROM on need it; verify-city then looks for every
+// quote on its page. Older data is not re-proved.
+const evidenceRows: Row[] = [];
+const evidenceErrors: string[] = [];
+for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).sort()) {
+  const text = fs.readFileSync(path.join(dir, f), "utf-8");
+  const header = Papa.parse<string[]>(text.split("\n")[0]).data[0]?.map((h) => h.trim()) ?? [];
+  const missingCols = EVIDENCE_COLUMNS.filter((c) => !header.includes(c));
+  if (missingCols.length) {
+    evidenceErrors.push(`${f}: missing columns ${missingCols.join(", ")} (header: ${EVIDENCE_COLUMNS.join(",")})`);
+    continue;
+  }
+  Papa.parse<Row>(text, { header: true, skipEmptyLines: true }).data.forEach((e, i) => {
+    const at = `${f} line ${i + 2} (${e.business_slug}, ${e.field})`;
+    evidenceRows.push(e);
+    if (!slugs.has(e.business_slug)) evidenceErrors.push(`${at}: no place with this slug`);
+    const fieldError = badField((e.field ?? "").trim());
+    if (fieldError) evidenceErrors.push(`${at}: ${fieldError}`);
+    const quote = (e.quote ?? "").trim();
+    if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
+      evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
+    }
+    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote) : null;
+    if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
+    if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test((e.observed_at ?? "").trim())) evidenceErrors.push(`${at}: observed_at YYYY-MM-DD`);
+  });
+}
+const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
+const missingEvidence: string[] = [];
+const needing = rows.filter(needsEvidence);
+for (const r of needing) {
+  const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
+  if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
+}
+// Prices: the quote of each price line carries the number (or its parts).
+if (fs.existsSync(pricesFile)) {
+  const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  for (const p of prices.filter((x) => (x.observed_at ?? "").trim() >= EVIDENCE_FROM)) {
+    const quotes = evidenceOf(p.business_slug, `price:${p.price_code}`).map((e) => e.quote);
+    if (!quotes.length) {
+      missingEvidence.push(`${p.business_slug}: price:${p.price_code}`);
+      continue;
+    }
+    for (const v of [p.price_from, p.price_to].map((x) => (x ?? "").trim()).filter(Boolean)) {
+      if (!priceInQuotes(Number(v), quotes)) evidenceErrors.push(`${p.business_slug}, ${p.price_code}: ${v} is not in its quote(s) - "${quotes[0].slice(0, 60)}"`);
+    }
+  }
+}
+// One quote on many places from different sites is not copied from them.
+const byQuote = new Map<string, { slugs: Set<string>; domains: Set<string> }>();
+for (const e of evidenceRows) {
+  const q = squash(e.quote ?? "");
+  if (q.length < 20) continue;
+  const entry = byQuote.get(q) ?? { slugs: new Set(), domains: new Set() };
+  entry.slugs.add(e.business_slug);
+  entry.domains.add(domainOf(e.source_url ?? ""));
+  byQuote.set(q, entry);
+}
+for (const [q, { slugs: s, domains }] of byQuote) {
+  if (s.size >= 3 && domains.size >= 3) evidenceErrors.push(`same quote on ${s.size} places from ${domains.size} sites - "${q.slice(0, 50)}": ${[...s].slice(0, 4).join(", ")}`);
+}
+// Not the place's own site, a social page or its Maps card: a catalog is
+// never a source (add-city.md, "Откуда брать факты"). Listed for the
+// reviewer - a place can have a second domain (booking, chain site).
+const foreign = evidenceRows.filter((e) => {
+  const place = allRows.find((r) => r.slug === e.business_slug);
+  const url = (e.source_url ?? "").trim();
+  if (!place || !url || isSocial(url) || isGoogleMaps(url)) return false;
+  return !has(place, "website") || domainOf(place.website) !== domainOf(url);
+});
+console.log(
+  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} need them, ${missingEvidence.length} still miss some`
+);
+if (missingEvidence.length) {
+  failed = true;
+  console.log(`\nEvidence missing - a quote from the page for each value (quality.md, rule 8) (${missingEvidence.length}):`);
+  for (const m of missingEvidence) console.log(`  ${m}`);
+}
+if (evidenceErrors.length) {
+  failed = true;
+  console.log(`\nevidence (${evidenceErrors.length}):`);
+  for (const e of evidenceErrors) console.log(`  ${e}`);
+}
+if (foreign.length) {
+  console.log(`\nWarning - evidence not from the place's own site (${foreign.length}); a catalog is not a source:`);
+  for (const e of foreign.slice(0, 20)) console.log(`  ${e.business_slug} ${e.field}: ${e.source_url}`);
+}
+
+// Candidates (add-city.md, "Партии"): the list a city is collected from,
+// batch by batch - one row per place found, before the details.
+const candidatesFile = path.join(dir, "candidates.csv");
+if (fs.existsSync(candidatesFile)) {
+  const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
+  const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  const candErrors: string[] = [];
+  const seen = new Map<string, number>();
+  cands.forEach((c, i) => {
+    const at = `candidates.csv line ${i + 2} (${c.name})`;
+    if (!CATEGORIES.includes((c.category ?? "").trim())) candErrors.push(`${at}: category "${c.category}"`);
+    if (!(c.name ?? "").trim()) candErrors.push(`${at}: no name`);
+    const url = (c.google_maps_url ?? "").trim();
+    if (!url && !/maps: none \(.+\)/.test(c.notes ?? "")) candErrors.push(`${at}: no google_maps_url and no "maps: none (...)" in notes`);
+    if (url) {
+      if (seen.has(url)) candErrors.push(`${at}: same Maps link as line ${seen.get(url)}`);
+      seen.set(url, i + 2);
+    }
+    const n = (c.google_rating_count ?? "").trim();
+    if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
+  });
+  const perCategory = CATEGORIES.map((k) => `${k} ${cands.filter((c) => c.category === k).length}`).join(", ");
+  console.log(`\nCandidates: ${cands.length} (${perCategory})`);
+  if (candErrors.length) {
+    failed = true;
+    for (const e of candErrors) console.log(`  ${e}`);
   }
 }
 
