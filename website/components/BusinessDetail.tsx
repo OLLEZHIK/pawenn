@@ -367,7 +367,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
 
               {business.animals.length > 0 && (
                 <div className="mt-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-foreground/50">{t.business.welcomes}</p>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-foreground/60">{t.business.welcomes}</p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {business.animals.map((animal) => (
                       <span
@@ -384,7 +384,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
 
               {business.specialties.length > 0 && (
                 <div className="mt-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-foreground/50">{t.business.specialties}</p>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-foreground/60">{t.business.specialties}</p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {business.specialties.map((specialty) => (
                       <span
@@ -464,7 +464,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                         <StarRow rating={review.rating} />
                       </div>
                       <p className="mt-2 text-foreground/80">{review.comment}</p>
-                      <p className="mt-1 text-xs text-foreground/50">{formatDate(review.createdAt)}</p>
+                      <p className="mt-1 text-xs text-foreground/60">{formatDate(review.createdAt)}</p>
                     </li>
                   ))}
               </ul>
@@ -604,7 +604,7 @@ function ContactCard({ business, locale }: { business: BusinessWithRelations; lo
           locale={locale}
         />
       </div>
-      <p className="mt-4 text-xs text-foreground/50">{t.noFees}</p>
+      <p className="mt-4 text-xs text-foreground/60">{t.noFees}</p>
     </div>
   );
 }
@@ -614,7 +614,7 @@ function ContactRow({ icon, label, children }: { icon: React.ReactNode; label: s
     <div className="flex gap-3">
       <span className="accent-soft flex h-8 w-8 shrink-0 items-center justify-center rounded-lg">{icon}</span>
       <div className="min-w-0">
-        <p className="text-xs text-foreground/50">{label}</p>
+        <p className="text-xs text-foreground/60">{label}</p>
         <div>{children}</div>
       </div>
     </div>

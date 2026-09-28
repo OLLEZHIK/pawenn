@@ -33,6 +33,9 @@ import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
 import { money } from "@/lib/money";
 
+/** City page: places per service before the "see all" link. */
+const HUB_PER_CATEGORY = 5;
+
 interface CategoryListingProps {
   locale: Locale;
   /** null: the city page (/city/<slug>/) listing every service. */
@@ -139,6 +142,20 @@ export async function CategoryListing({
       ? [...withDistance].sort(byDistance)
       : withDistance;
 
+  // City page without filters: the first HUB_PER_CATEGORY places of each
+  // service (same daily order) and a link to the whole list, not every
+  // place of the city at once - the full list made the page ~1 MB and
+  // 4 000+ elements, slow on phones (Lighthouse 64). Any filter or sort
+  // shows the full list as before.
+  const grouped =
+    !category && !attributePage && !origin && !sort && !openNowOnly && !minRating
+      ? ALL_CATEGORIES.map((c) => {
+          const items = listItems.filter((i) => i.business.category === c);
+          return { category: c, total: items.length, items: items.slice(0, HUB_PER_CATEGORY) };
+        }).filter((g) => g.total > 0)
+      : null;
+  const shownItems = grouped ? grouped.flatMap((g) => g.items) : listItems;
+
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
   const chipCategory = category ?? "VET_CLINIC";
@@ -159,15 +176,15 @@ export async function CategoryListing({
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
       {/* The places on this page, in the order shown (SEO audit T15). */}
-      {listItems.length > 0 && (
+      {shownItems.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ItemList",
-              numberOfItems: listItems.length,
-              itemListElement: listItems.map((item, i) => ({
+              numberOfItems: shownItems.length,
+              itemListElement: shownItems.map((item, i) => ({
                 "@type": "ListItem",
                 position: i + 1,
                 name: item.business.name,
@@ -215,7 +232,7 @@ export async function CategoryListing({
                 <>
                   <h1 className="text-3xl font-extrabold text-foreground md:text-5xl">
                     {/* H1 = the search title: main query first (docs/seo/keywords). */}
-                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/40">{where.split(" ")[0]}</span>{" "}
+                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/50">{where.split(" ")[0]}</span>{" "}
                     {where.split(" ").slice(1).join(" ")}
                   </h1>
                   <p className="mt-2 text-lg text-foreground/65">
@@ -328,6 +345,44 @@ export async function CategoryListing({
           <div className="mt-3 space-y-4">
             {listItems.length === 0 ? (
               <EmptyState resetHref={resetHref} locale={locale} />
+            ) : grouped ? (
+              grouped.map((g) => {
+                const allHref = listingPath(locale, g.category, citySlug, districtSlug);
+                return (
+                  <section key={g.category} className="pt-4 first:pt-0">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <h2 className="text-xl font-extrabold text-foreground md:text-2xl">
+                        <Link href={allHref} prefetch={false} className="hover:text-brand-blue">
+                          {categoryLabel(g.category, locale)}
+                        </Link>
+                      </h2>
+                      <span className="shrink-0 text-sm text-foreground/60">{g.total}</span>
+                    </div>
+                    <div className="mt-3 space-y-4">
+                      {g.items.map(({ business, km }) => (
+                        <BusinessCard
+                          key={business.id}
+                          business={business}
+                          priceTier={priceTiers.get(business.id) ?? null}
+                          locale={locale}
+                          distanceKm={km}
+                          showCategory={false}
+                        />
+                      ))}
+                    </div>
+                    {g.total > g.items.length && (
+                      <Link
+                        href={allHref}
+                        prefetch={false}
+                        className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
+                      >
+                        {t.listing.seeAll(categoryLabel(g.category, locale), g.total)}
+                        <ArrowRightIcon className="h-4 w-4" />
+                      </Link>
+                    )}
+                  </section>
+                );
+              })
             ) : (
               listItems.map(({ business, km }) => (
                 <BusinessCard

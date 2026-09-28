@@ -108,7 +108,7 @@ export function MythOrFact({ locale }: { locale: Locale }) {
           <div className="rise-in mt-6 min-h-[15rem]" aria-live="polite">
             <p className="font-heading text-5xl font-extrabold md:text-6xl">
               {score}
-              <span className="text-white/40">/{STATEMENTS.length}</span>
+              <span className="text-white/60">/{STATEMENTS.length}</span>
             </p>
             <p className="mt-3 text-xl font-semibold">
               {score === STATEMENTS.length

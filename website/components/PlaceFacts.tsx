@@ -68,7 +68,7 @@ export function PlaceFacts({
         </div>
       )}
 
-      <p className="mt-4 text-xs text-foreground/50">{t.goodToKnowNote}</p>
+      <p className="mt-4 text-xs text-foreground/60">{t.goodToKnowNote}</p>
     </section>
   );
 }

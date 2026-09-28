@@ -75,7 +75,7 @@ export async function Footer({ locale }: { locale: Locale }) {
 function FooterColumn({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div>
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-white/40">{title}</p>
+      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-white/60">{title}</p>
       <ul className="mt-4 space-y-2.5 text-sm">{children}</ul>
     </div>
   );
