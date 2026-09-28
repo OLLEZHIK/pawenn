@@ -23,7 +23,7 @@ veterinarna-ambulancia-mvdr-pavol-cech, veterinarna-klinika-vrakuna.
 
 И один факт: у `petrooms-hotel-pre-macky` код `vaccination_required`
 ссылается на https://petrooms.sk/casto-kladene-otazky/, а на этой
-странице слова об очковании скрипт не нашёл.
+странице слов о вакцинации скрипт не нашёл.
 
 ## Что сделать
 
@@ -35,8 +35,8 @@ veterinarna-ambulancia-mvdr-pavol-cech, veterinarna-klinika-vrakuna.
      `phone: google maps, checked <дата>`.
    - Номер в данных совпадает с сайтом, но скрипт не нашёл (другой
      формат записи) — ничего не менять, отметить в PR.
-2. **Факт.** Найти на сайте petrooms.sk, где сказано про обязательное
-   очкование. Нашлось на другой странице — заменить ссылку в `notes`.
+2. **Факт.** Найти на сайте petrooms.sk, где сказано про обязательную
+   вакцинацию (očkovanie). Нашлось на другой странице — заменить ссылку в `notes`.
    Не нашлось нигде — убрать код `vaccination_required` из `facts`.
 
 В `businesses.csv` менять **только** `phone`, `facts` и `notes` этих 15
