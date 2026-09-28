@@ -1,0 +1,85 @@
+{
+  "slug": "klinika-malych-zvierat-uvlf-v-kosiciach",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Klinika+mal%C3%BDch+zvierat+UVLF+v+Ko%C5%A1iciach/data=!4m7!3m6!1s0x473ee0f1a3eca6cb:0x8370a6d1f99d8a91!8m2!3d48.7400459!4d21.2485159!16s%2Fg%2F1ptvy372z!19sChIJy6bso_HgPkcRkYqd-dGmcIM?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-03-27",
+  "period_to": "2026-09-27",
+  "reviews_in_period": 10,
+  "observed_at": "2026-09-27",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Top specialists versus night emergency complaints",
+        "sk": "Odborní špecialisti verzus nočná pohotovosť"
+      },
+      "text": {
+        "en": "Clients praise experienced university clinicians such as Dr. Bielik and Dr. Toholová for empathy and expertise. In contrast, several acute emergency reviewers express frustration over night staff communication, describing it as curt or unsympathetic during stressful moments.",
+        "sk": "Klienti vysoko vyzdvihujú skúsených univerzitných špecialistov ako Dr. Bielik či Dr. Toholová za ich odbornosť a empatiu. Naopak, viaceré nočné recenzie z pohotovosti kritizujú strohé a málo ústretové správanie službukonajúceho personálu v kritických chvíľach."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Advanced clinical care alongside critical cases",
+        "sk": "Špičková diagnostika verzus vážne prípady"
+      },
+      "text": {
+        "en": "While complex planned interventions benefit from advanced university equipment and specialized diagnostics, several urgent patients experienced adverse outcomes or disputed diagnoses, prompting some owners to seek second opinions at private practices.",
+        "sk": "Zatiaľ čo plánované zložité zákroky ťažia zo špičkovej univerzitnej techniky a rozsiahlej diagnostiky, pri akútnych hospitalizáciách viacero majiteľov čelilo nepriaznivým prognózam či sporným diagnózam a odporúča pri vážnych stavoch vyhľadať aj druhý názor."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Nonstop emergency service and night availability",
+        "sk": "Nepretržitá pohotovosť a nočná dostupnosť"
+      },
+      "text": {
+        "en": "The 24/7 operating hours on Komenského are valued as an essential emergency lifeline in the city. However, visitors note that access to specialized diagnostic imaging or immediate surgical staff can be constrained during night hours depending on duty staffing.",
+        "sk": "Nepretržitá prevádzka 24/7 na Komenského ulici predstavuje kľúčovú záchrannú sieť pre akútne stavy v meste. Návštevníci nočnej pohotovosti však upozorňujú na možné čakanie a limitovanú dostupnosť špecializovaných prístrojov v závislosti od nočnej služby."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the veterinary emergency clinic open nonstop 24/7?",
+        "sk": "Funguje pohotovosť na univerzitnej klinike nonstop 24/7?"
+      },
+      "a": {
+        "en": "Yes, UVLF operates a nonstop small animal emergency service on Komenského street for urgent medical crises.",
+        "sk": "Áno, univerzitná klinika na Komenského ulici zabezpečuje nepretržitú pohotovostnú službu pre akútne prípady malých zvierat."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can specialized examinations like CT or MRI be done during the night shift?",
+        "sk": "Dajú sa špecializované vyšetrenia ako CT či MRI urobiť v noci?"
+      },
+      "a": {
+        "en": "Customer feedback notes that advanced diagnostic machines require specialized technicians who may not be present on site overnight.",
+        "sk": "Z recenzií vyplýva, že špecializované prístroje vyžadujú prítomnosť konkrétnych odborníkov, ktorí nemusia byť v noci priamo na pracovisku."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat complex and specialized surgical cases?",
+        "sk": "Rieši klinika zložité a špecializované chirurgické zákroky?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that university specialists handle intricate surgeries and chronic medical conditions referred from other regional clinics.",
+        "sk": "Áno, recenzie potvrdzujú, že univerzitní profesori a špecialisti úspešne riešia náročné operácie a komplikované diagnózy z celého regiónu."
+      },
+      "basis": "both"
+    }
+  ]
+}

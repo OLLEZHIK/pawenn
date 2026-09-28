@@ -1,0 +1,85 @@
+{
+  "slug": "veterinarna-klinika-slon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rna+klinika+Slon/data=!4m7!3m6!1s0x473ee04508ced0e3:0xffa1a8af59748bfb!8m2!3d48.6993351!4d21.2316506!16s%2Fg%2F11j0jl6frz!19sChIJ49DOCEXgPkcR-4t0Wa-oof8?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-03-27",
+  "period_to": "2026-09-27",
+  "reviews_in_period": 8,
+  "observed_at": "2026-09-27",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Praise for named doctors versus service complaints",
+        "sk": "Pochvala lekárom verzus kritika recepcie"
+      },
+      "text": {
+        "en": "Clients warmly thank Dr. Domaniža, Dr. Hájková, Dr. Adamová, and Dr. Snútilová on Hellova for their profound empathy, detailed explanations, and gentle touch with nervous pets. However, isolated reviews express dissatisfaction with reception attitude and customer responsiveness.",
+        "sk": "Klienti úprimne ďakujú lekárom na Hellovej ulici vrátane Dr. Domanižu, Dr. Hájkovej, Dr. Adamovej a Dr. Snútilovej za empatiu, odborný výklad a trpezlivý prístup. Ojedinelé negatívne hlasy však vyčítajú nepríjemnú komunikáciu na recepcii a slabšiu ochotu pomôcť."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Life-saving FIP treatment and knee surgeries",
+        "sk": "Záchrana pri FIP a úspešné operácie kolena"
+      },
+      "text": {
+        "en": "Reviewers highlight outstanding clinical outcomes, notably successful knee surgeries with dogs walking normally within weeks, and rapid intervention saving a cat with acute FIP. Owners also appreciate calm and fearless ophthalmological examinations on timid cats.",
+        "sk": "Recenzenti vyzdvihujú výborné liečebné výsledky, predovšetkým bezchybné operácie kolenných väzov s rýchlym návratom k chôdzi a okamžitú záchrannú liečbu mačky s akútnou FIP. Majitelia oceňujú aj pokojný priebeh očných vyšetrení u bojazlivých zvierat."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Thorough surgical briefings and billing transparency",
+        "sk": "Vysvetlenie rizík zákroku a prehľadnosť cien"
+      },
+      "text": {
+        "en": "Surgeons are commended for outlining procedural risks clearly and answering questions calmly before operations take place. Conversely, one client voiced grievance over high cumulative treatment costs over extended therapy for a terminally ill feline patient.",
+        "sk": "Operatéri si získali dôveru podrobným vysvetlením rizík zákroku a trpezlivými odpoveďami pred každou operáciou. Naopak, jedna nespokojná recenzia kritizuje vysoké celkové výdavky pri dlhodobej liečbe ťažko chorého zvieratka, ktoré sa nepodarilo zachrániť."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform complex orthopedic knee surgeries?",
+        "sk": "Vykonáva klinika Slon ortopedické operácie kolena?"
+      },
+      "a": {
+        "en": "Yes, reviews describe successful knee operations performed by Dr. Domaniža, with dogs returning to smooth walking shortly after surgery.",
+        "sk": "Áno, recenzie opisujú úspešné operácie kolenných kĺbov u MVDr. Domanižu s rýchlou rekonvalescenciou a návratom k bezproblémovej chôdzi."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic treat feline infectious peritonitis (FIP)?",
+        "sk": "Má klinika skúsenosti s liečbou mačacej peritonitídy (FIP)?"
+      },
+      "a": {
+        "en": "Yes, customer testimonials confirm prompt emergency hospitalization and targeted therapy that successfully saved a cat diagnosed with FIP.",
+        "sk": "Áno, recenzie potvrdzujú okamžité nasadenie cielenej terapie a úspešnú záchranu mačky s akútnou diagnózou FIP."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located on Hellova street?",
+        "sk": "Kde presne sídli klinika na Hellovej ulici?"
+      },
+      "a": {
+        "en": "The clinic is situated at Hellova 4 in Košice (accessible from Vozárova) with dedicated customer entrance and parking.",
+        "sk": "Klinika sídli na adrese Hellova 4 v Košiciach (prístupná z Vozárovej ulice) s vyhradeným vstupom pre pacientov."
+      },
+      "basis": "both"
+    }
+  ]
+}
