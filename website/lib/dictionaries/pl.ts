@@ -59,7 +59,7 @@ export const pl: Dictionary = {
     metaDescription: (n: number, where: string) =>
       `Usługi dla zwierząt ${where}: ${n} ${plural("pl", n, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })} – weterynarze, groomerzy, hotele dla psów, szkolenia, sklepy zoologiczne i petsitterzy, z godzinami otwarcia, cenami i bezpośrednim kontaktem.`,
     h1Before: "Usługi dla zwierząt",
-    intro: "Wszystkie usługi dla zwierząt w jednym miejscu: weterynarze, groomerzy, hotele, szkolenia, sklepy zoologiczne i petsitterzy, każde miejsce ze źródłem danych. Wybierz kategorię powyżej, aby zawęzić listę.",
+    intro: "Wszystkie usługi dla zwierząt w jednym miejscu: weterynarze, groomerzy, hotele, szkolenia, sklepy zoologiczne i petsitterzy, każde miejsce ze źródłem danych. Poniżej kilka miejsc z każdej kategorii, pełną listę zobaczysz po wybraniu kategorii powyżej.",
   },
   animals: {
     any: "Wszystkie zwierzęta",
@@ -249,6 +249,7 @@ export const pl: Dictionary = {
     filterDistrict: "Filtruj wg dzielnicy",
     allOf: (city: string) => `${city} – całe miasto`,
     results: (n: number) => `${n} ${plural("pl", n, { one: "wynik", few: "wyniki", many: "wyników", other: "wyników" })}`,
+    seeAll: (label: string, n: number) => `Wszystkie: ${label.toLowerCase()} (${n})`,
     fairTurn: "kolejność zmienia się codziennie, by każde miejsce miało równe szanse",
     nearest: "najbliżej",
     sortLabel: "Sortuj",
