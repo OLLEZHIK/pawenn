@@ -35,6 +35,11 @@ import { money, moneyRange } from "@/lib/money";
 
 /** City page: places per service before the "see all" link. */
 const HUB_PER_CATEGORY = 5;
+/** Category, district and attribute pages: the first places before
+ *  "Show all" (owner, 2026-09-28: like the city page, everywhere). A list
+ *  only a little longer is shown whole - no "show 2 more". */
+const LIST_FIRST = 5;
+const LIST_COLLAPSE_FROM = LIST_FIRST + 4;
 
 interface CategoryListingProps {
   locale: Locale;
@@ -50,6 +55,8 @@ interface CategoryListingProps {
   rating?: string;
   /** "1" = only places open right now (their opening hours, city time). */
   open?: string;
+  /** "1" (?all=1) = the whole list on a category page (see LIST_FIRST). */
+  showAll?: string;
   /** An attribute page (/<vets>/<city>/nonstop, /sobota...): only places
    *  with the attribute (lib/attributePages.ts). */
   attributePage?: AttributeKey;
@@ -81,6 +88,7 @@ export async function CategoryListing({
   sort: requestedSort,
   rating: requestedRating,
   open,
+  showAll,
   attributePage,
 }: CategoryListingProps) {
   const openNowOnly = open === "1";
@@ -154,7 +162,11 @@ export async function CategoryListing({
           return { category: c, total: items.length, items: items.slice(0, HUB_PER_CATEGORY) };
         }).filter((g) => g.total > 0)
       : null;
-  const shownItems = grouped ? grouped.flatMap((g) => g.items) : listItems;
+  // Category pages without filters: the first LIST_FIRST places and a
+  // "Show all" link (?all=1, canonical stays the unfiltered page).
+  const collapsed =
+    !!category && !origin && !sort && !openNowOnly && !minRating && showAll !== "1" && listItems.length >= LIST_COLLAPSE_FROM;
+  const shownItems = grouped ? grouped.flatMap((g) => g.items) : collapsed ? listItems.slice(0, LIST_FIRST) : listItems;
 
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
@@ -384,7 +396,7 @@ export async function CategoryListing({
                 );
               })
             ) : (
-              listItems.map(({ business, km }) => (
+              shownItems.map(({ business, km }) => (
                 <BusinessCard
                   key={business.id}
                   business={business}
@@ -396,6 +408,16 @@ export async function CategoryListing({
               ))
             )}
           </div>
+          {collapsed && (
+            <Link
+              href="?all=1"
+              scroll={false}
+              className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
+            >
+              {t.listing.showAll(listItems.length)}
+              <ArrowRightIcon className="h-4 w-4" />
+            </Link>
+          )}
 
           {faqs.length > 0 && (
             <section className="mt-16">
