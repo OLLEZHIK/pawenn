@@ -166,7 +166,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
 
             <div className="mt-5 hidden flex-wrap items-center gap-2 text-sm md:flex lg:justify-start">
-              <span className="text-foreground/50">{t.popular}</span>
+              <span className="text-foreground/60">{t.popular}</span>
               {popularCategorySlugs.map((slug) => {
                 const c = categories.find((cat) => cat.slug === slug)!;
                 return (

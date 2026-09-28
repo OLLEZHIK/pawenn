@@ -137,7 +137,7 @@ export function BrowseMenu({ locale, t, food, services, cities, defaultCitySlug 
                   key={f.label}
                   className="flex items-start gap-3 rounded-[var(--radius-control)] p-3 opacity-70"
                 >
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surface-sunken text-foreground/50">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surface-sunken text-foreground/60">
                     <ShopBagIcon className="h-5 w-5" />
                   </span>
                   <span>
