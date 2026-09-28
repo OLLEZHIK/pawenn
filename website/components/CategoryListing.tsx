@@ -31,7 +31,15 @@ import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
-import { money } from "@/lib/money";
+import { money, moneyRange } from "@/lib/money";
+
+/** City page: places per service before the "see all" link. */
+const HUB_PER_CATEGORY = 5;
+/** Category, district and attribute pages: the first places before
+ *  "Show all" (owner, 2026-09-28: like the city page, everywhere). A list
+ *  only a little longer is shown whole - no "show 2 more". */
+const LIST_FIRST = 5;
+const LIST_COLLAPSE_FROM = LIST_FIRST + 4;
 
 interface CategoryListingProps {
   locale: Locale;
@@ -47,6 +55,8 @@ interface CategoryListingProps {
   rating?: string;
   /** "1" = only places open right now (their opening hours, city time). */
   open?: string;
+  /** "1" (?all=1) = the whole list on a category page (see LIST_FIRST). */
+  showAll?: string;
   /** An attribute page (/<vets>/<city>/nonstop, /sobota...): only places
    *  with the attribute (lib/attributePages.ts). */
   attributePage?: AttributeKey;
@@ -78,6 +88,7 @@ export async function CategoryListing({
   sort: requestedSort,
   rating: requestedRating,
   open,
+  showAll,
   attributePage,
 }: CategoryListingProps) {
   const openNowOnly = open === "1";
@@ -139,6 +150,24 @@ export async function CategoryListing({
       ? [...withDistance].sort(byDistance)
       : withDistance;
 
+  // City page without filters: the first HUB_PER_CATEGORY places of each
+  // service (same daily order) and a link to the whole list, not every
+  // place of the city at once - the full list made the page ~1 MB and
+  // 4 000+ elements, slow on phones (Lighthouse 64). Any filter or sort
+  // shows the full list as before.
+  const grouped =
+    !category && !attributePage && !origin && !sort && !openNowOnly && !minRating
+      ? ALL_CATEGORIES.map((c) => {
+          const items = listItems.filter((i) => i.business.category === c);
+          return { category: c, total: items.length, items: items.slice(0, HUB_PER_CATEGORY) };
+        }).filter((g) => g.total > 0)
+      : null;
+  // Category pages without filters: the first LIST_FIRST places and a
+  // "Show all" link (?all=1, canonical stays the unfiltered page).
+  const collapsed =
+    !!category && !origin && !sort && !openNowOnly && !minRating && showAll !== "1" && listItems.length >= LIST_COLLAPSE_FROM;
+  const shownItems = grouped ? grouped.flatMap((g) => g.items) : collapsed ? listItems.slice(0, LIST_FIRST) : listItems;
+
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
   const chipCategory = category ?? "VET_CLINIC";
@@ -159,15 +188,15 @@ export async function CategoryListing({
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
       {/* The places on this page, in the order shown (SEO audit T15). */}
-      {listItems.length > 0 && (
+      {shownItems.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ItemList",
-              numberOfItems: listItems.length,
-              itemListElement: listItems.map((item, i) => ({
+              numberOfItems: shownItems.length,
+              itemListElement: shownItems.map((item, i) => ({
                 "@type": "ListItem",
                 position: i + 1,
                 name: item.business.name,
@@ -215,7 +244,7 @@ export async function CategoryListing({
                 <>
                   <h1 className="text-3xl font-extrabold text-foreground md:text-5xl">
                     {/* H1 = the search title: main query first (docs/seo/keywords). */}
-                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/40">{where.split(" ")[0]}</span>{" "}
+                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/50">{where.split(" ")[0]}</span>{" "}
                     {where.split(" ").slice(1).join(" ")}
                   </h1>
                   <p className="mt-2 text-lg text-foreground/65">
@@ -232,9 +261,11 @@ export async function CategoryListing({
             </div>
           </div>
 
-          <dl className="mt-6 flex flex-wrap gap-2">
-            <Stat label={t.listing.listed} value={String(attributePage ? scoped.length : aggregates.count)} />
-            {aggregates.verifiedCount > 0 && <Stat label={t.listing.verified} value={String(aggregates.verifiedCount)} />}
+          <div className="mt-6 flex flex-wrap gap-2">
+            <dl className="contents">
+              <Stat label={t.listing.listed} value={String(attributePage ? scoped.length : aggregates.count)} />
+              {aggregates.verifiedCount > 0 && <Stat label={t.listing.verified} value={String(aggregates.verifiedCount)} />}
+            </dl>
             {/* The city's price pages for this category, once any service
                 has a market price (lib/pricePages.ts). */}
             {category && hasPricePages && (
@@ -246,7 +277,7 @@ export async function CategoryListing({
                 {t.prices.linkFromListing(inCity(locale, city))} →
               </Link>
             )}
-          </dl>
+          </div>
 
           {/* Switch service, keep the location */}
           {/* Wraps on phones: all six services stay visible, no hidden
@@ -306,7 +337,10 @@ export async function CategoryListing({
             attributes={attributeChips}
           />
 
-          <p className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
+          {/* A level-2 heading between the H1 and the cards' H3s (heading
+              order for screen readers); a <p> with role=heading so the
+              global h2 font rule does not change how it looks. */}
+          <p role="heading" aria-level={2} className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
             {origin && <RouteIcon className="h-4 w-4 text-brand-blue" />}
             {t.listing.results(listItems.length)}
             {hiddenUnrated > 0 ? ` · ${t.listing.hiddenUnrated(hiddenUnrated)}` : ""}
@@ -323,8 +357,46 @@ export async function CategoryListing({
           <div className="mt-3 space-y-4">
             {listItems.length === 0 ? (
               <EmptyState resetHref={resetHref} locale={locale} />
+            ) : grouped ? (
+              grouped.map((g) => {
+                const allHref = listingPath(locale, g.category, citySlug, districtSlug);
+                return (
+                  <section key={g.category} className="pt-4 first:pt-0">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <h2 className="text-xl font-extrabold text-foreground md:text-2xl">
+                        <Link href={allHref} prefetch={false} className="hover:text-brand-blue">
+                          {categoryLabel(g.category, locale)}
+                        </Link>
+                      </h2>
+                      <span className="shrink-0 text-sm text-foreground/60">{g.total}</span>
+                    </div>
+                    <div className="mt-3 space-y-4">
+                      {g.items.map(({ business, km }) => (
+                        <BusinessCard
+                          key={business.id}
+                          business={business}
+                          priceTier={priceTiers.get(business.id) ?? null}
+                          locale={locale}
+                          distanceKm={km}
+                          showCategory={false}
+                        />
+                      ))}
+                    </div>
+                    {g.total > g.items.length && (
+                      <Link
+                        href={allHref}
+                        prefetch={false}
+                        className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
+                      >
+                        {t.listing.seeAll(categoryLabel(g.category, locale), g.total)}
+                        <ArrowRightIcon className="h-4 w-4" />
+                      </Link>
+                    )}
+                  </section>
+                );
+              })
             ) : (
-              listItems.map(({ business, km }) => (
+              shownItems.map(({ business, km }) => (
                 <BusinessCard
                   key={business.id}
                   business={business}
@@ -336,6 +408,16 @@ export async function CategoryListing({
               ))
             )}
           </div>
+          {collapsed && (
+            <Link
+              href="?all=1"
+              scroll={false}
+              className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
+            >
+              {t.listing.showAll(listItems.length)}
+              <ArrowRightIcon className="h-4 w-4" />
+            </Link>
+          )}
 
           {faqs.length > 0 && (
             <section className="mt-16">
@@ -402,8 +484,9 @@ export async function CategoryListing({
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline gap-1.5 rounded-[var(--radius-pill)] bg-surface px-4 py-2 shadow-[var(--shadow-card)]">
-      <dd className="font-heading font-extrabold text-foreground">{value}</dd>
-      <dt className="text-sm text-foreground/60">{label}</dt>
+      {/* dt before dd (valid HTML); order-* keeps the number first. */}
+      <dt className="order-2 text-sm text-foreground/60">{label}</dt>
+      <dd className="order-1 font-heading font-extrabold text-foreground">{value}</dd>
     </div>
   );
 }
@@ -443,7 +526,7 @@ function buildFaqs({
     const price = (n: number) => money(n, aggregates.currency, locale);
     const range =
       aggregates.priceTo && aggregates.priceTo !== aggregates.priceFrom
-        ? `${price(aggregates.priceFrom)}–${price(aggregates.priceTo)}`
+        ? moneyRange(aggregates.priceFrom, aggregates.priceTo, aggregates.currency, locale)
         : `${t.from} ${price(aggregates.priceFrom)}`;
     faqs.push({ question: t.faqPrice(singular, where, label), answer: t.faqPriceAnswer(range) });
   }

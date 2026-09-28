@@ -74,17 +74,17 @@ export function Dropdown({
         {selected?.icon}
         <span className="min-w-0 flex-1">
           {variant === "bar" && label && (
-            <span className="block text-xs font-semibold uppercase tracking-wider text-foreground/50">{label}</span>
+            <span className="block text-xs font-semibold uppercase tracking-wider text-foreground/60">{label}</span>
           )}
           <span
             className={`block truncate ${variant === "bar" ? "text-[15px] font-medium" : "text-sm"} ${
-              selected ? "text-foreground" : variant === "bar" ? "text-foreground/60" : "text-foreground/50"
+              selected ? "text-foreground" : variant === "bar" ? "text-foreground/60" : "text-foreground/60"
             }`}
           >
             {selected?.label ?? placeholder}
           </span>
         </span>
-        <ChevronDownIcon className={`h-4 w-4 text-foreground/50 transition-transform ${open ? "rotate-180" : ""}`} />
+        <ChevronDownIcon className={`h-4 w-4 text-foreground/60 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
 
       {open && (

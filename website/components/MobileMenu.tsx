@@ -78,7 +78,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                 if ((e.target as HTMLElement).closest("a[data-close]")) setOpen(false);
               }}
             >
-              <p className="px-1 pb-2 pt-2 text-xs font-semibold uppercase tracking-wider text-foreground/50">
+              <p className="px-1 pb-2 pt-2 text-xs font-semibold uppercase tracking-wider text-foreground/60">
                 {t.nav.services}
               </p>
               <ul className="grid grid-cols-2 gap-3">
@@ -111,7 +111,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                 ))}
               </ul>
 
-              <p className="mt-6 flex items-center gap-2 px-1 pb-2 text-xs font-semibold uppercase tracking-wider text-foreground/50">
+              <p className="mt-6 flex items-center gap-2 px-1 pb-2 text-xs font-semibold uppercase tracking-wider text-foreground/60">
                 {t.nav.foodAndSupplies}
                 <span className="rounded-[var(--radius-pill)] bg-brand-orange-muted px-2 py-0.5 text-[10px] text-brand-orange-deep">
                   {t.nav.comingSoon}
@@ -123,7 +123,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                     key={f.label}
                       className="flex items-center gap-3 rounded-[var(--radius-control)] bg-surface/60 p-3 opacity-70"
                   >
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-surface-sunken text-foreground/50">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-surface-sunken text-foreground/60">
                       <ShopBagIcon className="h-4 w-4" />
                     </span>
                     <span>
@@ -141,7 +141,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                   className="flex items-center justify-between rounded-[var(--radius-control)] bg-surface px-4 py-3.5 font-medium"
                 >
                   {t.nav.howItWorks}
-                  <ArrowRightIcon className="h-4 w-4 text-foreground/50" />
+                  <ArrowRightIcon className="h-4 w-4 text-foreground/60" />
                 </Link>
                 <Link
                   data-close

@@ -10,7 +10,9 @@
 // - the phone from businesses.csv is written on the site (home page or a
 //   "kontakt" / "contact" page);
 // - "prices: none (no cenník page ...)" while the site links a price page
-//   (cenník, cennik, ceny, price) - a missed price list.
+//   (cenník, cennik, ceny, price) - a missed price list;
+// - a fact code with an evidence page ("card_payment: <url>" in notes)
+//   is actually named on that page (FACT_WORDS).
 // Uses curl with a desktop browser user agent: some sites refuse short
 // ones (docs/playbooks/quality.md).
 import { execFile } from "child_process";
@@ -77,7 +79,22 @@ const links = (html: string, base: string, re: RegExp) =>
     .filter((h): h is string => !!h);
 const digitsOf = (s: string) => s.replace(/\D/g, "");
 
-type Result = { slug: string; dead?: string; phone?: string; missedPrices?: string };
+// Fact codes whose evidence page ("code: <url>" in notes) must carry the
+// wording - sk, pl, en. Lesson from Warszawa (2026-09-28): the same
+// card_payment;pet_passport;pharmacy_on_site on 28 clinics, each "proved"
+// by a home page that says none of it. Codes not listed are not checked.
+const FACT_WORDS: Record<string, RegExp> = {
+  card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz)|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
+  pharmacy_on_site: /lekáre|lekárn|\bapte(k|cz)|pharmacy/i,
+  pet_passport: /\bpas(u|y|ov|om)?\b|pet pas|paszport|passport/i,
+  parking: /parkov|parking/i,
+  natural_cosmetics: /prírodn\w* kozmet|naturaln\w* kosmety|kosmetyk\w* naturaln|organic|bio kozmet|hypoalerg|hipoalerg/i,
+  cage_free: /bez klietok|bez klatek|bezklatk|cage[- ]free|no cages/i,
+  vaccination_required: /očkovan|szczepi|vaccin/i,
+  supervision_24h: /24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|24 godziny na dobę|24\/7|round the clock/i,
+};
+
+type Result = { slug: string; dead?: string; phone?: string; missedPrices?: string; facts?: string[]; factsChecked?: number };
 
 async function check(r: Row): Promise<Result | null> {
   const site = (r.website ?? "").trim();
@@ -116,18 +133,33 @@ async function check(r: Row): Promise<Result | null> {
     const priceLinks = links(home.body, site, /cenn?[ií]k|\/ceny|price|pricing|oplaty|op%C5%82aty/i);
     if (priceLinks.length) res.missedPrices = `notes say "prices: none", site links ${priceLinks[0]}`;
   }
-  return res.dead || res.phone || res.missedPrices ? res : null;
+  // Facts: the evidence page names the fact.
+  const pages = new Map<string, string>();
+  res.factsChecked = 0;
+  for (const code of (r.facts ?? "").split(/[;,]/).map((c) => c.trim()).filter(Boolean)) {
+    const words = FACT_WORDS[code];
+    const url = (r.notes ?? "").match(new RegExp(`(?:^|;\\s*)${code}: (https?://[^\\s;]+)`))?.[1];
+    if (!words || !url) continue;
+    if (!pages.has(url)) pages.set(url, (await curl(url)).body.replace(/<[^>]+>/g, " "));
+    res.factsChecked++;
+    if (!words.test(pages.get(url)!)) (res.facts ??= []).push(`${code} not stated on ${url}`);
+  }
+  return res;
 }
 
 async function main() {
   const withSite = rows.filter((r) => (r.website ?? "").trim() && !/facebook\.com|instagram\.com/i.test(r.website));
   const results: Result[] = [];
+  let factsChecked = 0;
   const queue = [...rows];
   await Promise.all(
     Array.from({ length: 10 }, async () => {
       for (let r = queue.shift(); r; r = queue.shift()) {
         const res = await check(r);
-        if (res) results.push(res);
+        if (res) {
+          factsChecked += res.factsChecked ?? 0;
+          if (res.dead || res.phone || res.missedPrices || res.facts) results.push(res);
+        }
       }
     })
   );
@@ -145,16 +177,24 @@ async function main() {
   section("Website does not exist or does not answer", dead, (r) => r.dead!);
   section("Phone not found on the place's site", phones, (r) => r.phone!);
   section("Price page on the site, but notes say none", prices, (r) => r.missedPrices!);
+  const factMisses = results.flatMap((r) => (r.facts ?? []).map((f) => ({ slug: r.slug, f })));
+  console.log(`Fact not stated on its evidence page (${factMisses.length}):`);
+  for (const m of factMisses) console.log(`  ${m.slug}: ${m.f}`);
+  console.log("");
 
   // A domain that does not exist is always wrong. A phone can legitimately
   // be missing from a site (an image, a booking widget) - a few are fine,
-  // a pattern is not. Every missed price page must be looked at.
+  // a pattern is not; the same for a fact worded differently than the
+  // check expects. Every missed price page must be looked at.
   const checkedPhones = withSite.length - dead.length;
   const phoneShare = checkedPhones ? phones.length / checkedPhones : 0;
-  const failed = dead.some((r) => r.dead!.startsWith("domain does not exist")) || phoneShare > 0.25 || prices.length > 0;
+  const factShare = factsChecked ? factMisses.length / factsChecked : 0;
+  const failed =
+    dead.some((r) => r.dead!.startsWith("domain does not exist")) || phoneShare > 0.25 || prices.length > 0 || factShare > 0.25;
   console.log(
     `Phones not on the site: ${phones.length}/${checkedPhones} (${Math.round(phoneShare * 100)}%, limit 25%)`
   );
+  console.log(`Facts not on their page: ${factMisses.length}/${factsChecked} (${Math.round(factShare * 100)}%, limit 25%)`);
   console.log(failed ? "\nNOT VERIFIED: fix the lines above." : "\nVERIFIED");
   process.exit(failed ? 1 : 0);
 }

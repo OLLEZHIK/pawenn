@@ -5,6 +5,7 @@ import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPa
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
+import { moneyRange } from "@/lib/money";
 import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -123,7 +124,7 @@ export async function ServicePricePage({
 
   const priceText = (line: { from: number; to: number; currency: string }) =>
     line.to > line.from
-      ? `${money(line.from, line.currency, locale)}–${money(line.to, line.currency, locale)}`
+      ? moneyRange(line.from, line.to, line.currency, locale)
       : money(line.from, line.currency, locale);
 
   return (
@@ -148,7 +149,7 @@ export async function ServicePricePage({
         {compared.length > 0 && (
           <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
             <table className="w-full text-left text-sm">
-              <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/50">
+              <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/60">
                 <tr>
                   <th className="px-4 py-3 font-semibold sm:px-6">{tp.place}</th>
                   <th className="px-4 py-3 text-right font-semibold">{tp.price}</th>
@@ -184,7 +185,7 @@ export async function ServicePricePage({
                           <NameWithChevron name={line.business.name} />
                         </Link>
                         {line.business.districtName && (
-                          <span className="block text-xs text-foreground/55">{line.business.districtName}</span>
+                          <span className="block text-xs text-foreground/60">{line.business.districtName}</span>
                         )}
                         {vs && <span className="mt-0.5 block text-xs font-medium sm:hidden">{vs}</span>}
                         {line.business.phone && (
@@ -203,7 +204,7 @@ export async function ServicePricePage({
                             href={line.rows[0].sourceUrl}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
-                            className="relative z-10 block text-xs font-normal text-foreground/45 hover:underline"
+                            className="relative z-10 block text-xs font-normal text-foreground/60 hover:underline"
                           >
                             {tp.source}
                           </a>
@@ -239,7 +240,7 @@ export async function ServicePricePage({
                       {priceText(line)}
                       {r.unit && <span className="font-normal text-foreground/60"> {t.business.perUnit[r.unit]}</span>}
                     </span>
-                    {note && <span className="w-full text-xs text-foreground/55">{note}</span>}
+                    {note && <span className="w-full text-xs text-foreground/60">{note}</span>}
                   </li>
                 );
               })}
@@ -247,7 +248,7 @@ export async function ServicePricePage({
           </section>
         )}
 
-        <p className="text-xs text-foreground/50">{t.business.pricesDisclaimer}</p>
+        <p className="text-xs text-foreground/60">{t.business.pricesDisclaimer}</p>
 
         {otherServices.length > 0 && (
           <section>
@@ -301,7 +302,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
       <div className="mx-auto max-w-4xl space-y-6 px-4 pt-8">
         <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
           <table className="w-full text-left text-sm">
-            <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/50">
+            <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/60">
               <tr>
                 <th className="px-4 py-3 font-semibold sm:px-6">{tp.service}</th>
                 <th className="px-4 py-3 text-right font-semibold">{tp.median}</th>
@@ -323,13 +324,13 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
                         <TagIcon className="h-4 w-4 text-[var(--accent,var(--brand-blue))]" />
                         {serviceLabel(category, s.code, locale)}
                       </Link>
-                      <span className="block text-xs text-foreground/55 sm:hidden">
-                        {money(m.min, m.currency, locale)}–{money(m.max, m.currency, locale)}
+                      <span className="block text-xs text-foreground/60 sm:hidden">
+                        {moneyRange(m.min, m.max, m.currency, locale)}
                       </span>
                     </td>
                     <td className="whitespace-nowrap px-4 py-3 text-right font-semibold">{money(m.median, m.currency, locale)}</td>
                     <td className="hidden whitespace-nowrap px-4 py-3 text-right text-foreground/70 sm:table-cell">
-                      {money(m.min, m.currency, locale)}–{money(m.max, m.currency, locale)}
+                      {moneyRange(m.min, m.max, m.currency, locale)}
                     </td>
                     <td className="px-4 py-3 text-right text-foreground/70 sm:pr-6">{m.places}</td>
                   </tr>
@@ -338,7 +339,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
             </tbody>
           </table>
         </section>
-        <p className="text-xs text-foreground/50">{t.business.pricesDisclaimer}</p>
+        <p className="text-xs text-foreground/60">{t.business.pricesDisclaimer}</p>
         <Link
           href={listingPath(locale, category, city.slug)}
           prefetch={false}

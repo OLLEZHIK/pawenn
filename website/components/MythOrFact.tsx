@@ -46,7 +46,7 @@ export function MythOrFact({ locale }: { locale: Locale }) {
             <SparkleIcon className="h-4 w-4" />
             {t.title}
           </p>
-          <div className="flex gap-1.5" aria-label={t.question(Math.min(index + 1, STATEMENTS.length), STATEMENTS.length)}>
+          <div className="flex gap-1.5" role="img" aria-label={t.question(Math.min(index + 1, STATEMENTS.length), STATEMENTS.length)}>
             {STATEMENTS.map((_, i) => (
               <span
                 key={i}
@@ -108,7 +108,7 @@ export function MythOrFact({ locale }: { locale: Locale }) {
           <div className="rise-in mt-6 min-h-[15rem]" aria-live="polite">
             <p className="font-heading text-5xl font-extrabold md:text-6xl">
               {score}
-              <span className="text-white/40">/{STATEMENTS.length}</span>
+              <span className="text-white/60">/{STATEMENTS.length}</span>
             </p>
             <p className="mt-3 text-xl font-semibold">
               {score === STATEMENTS.length

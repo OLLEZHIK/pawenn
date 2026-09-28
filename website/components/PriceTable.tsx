@@ -5,6 +5,7 @@ import { formatDate, getDictionary, type Locale } from "@/lib/i18n";
 import Link from "next/link";
 import { TagIcon } from "./icons";
 import { pricesPath } from "@/lib/priceSlugs";
+import { moneyRange } from "@/lib/money";
 import { MARKET_BAND, pctAgainst, type MarketPrice } from "@/lib/priceMarket";
 
 type PriceRow = BusinessWithRelations["priceItems"][number];
@@ -92,7 +93,7 @@ export function PriceTable({
           const from = Number(item.priceFrom);
           const to = item.priceTo === null ? null : Number(item.priceTo);
           const price =
-            to === null ? t.priceFrom(money(from, item.currency)) : to === from ? money(from, item.currency) : `${money(from, item.currency)}–${money(to, item.currency)}`;
+            to === null ? t.priceFrom(money(from, item.currency)) : to === from ? money(from, item.currency) : moneyRange(from, to, item.currency, locale);
           // Against the city median: once per service, on its cheapest
           // comparable row - the same "from" price the market is built of.
           const cityMarket = market?.get(code);
@@ -115,15 +116,15 @@ export function PriceTable({
                 ) : (
                   serviceLabel(category, code, locale)
                 )}
-                {w && <span className="text-foreground/50"> · {w}</span>}
-                {includes && <span className="block text-xs text-foreground/50">{includes}</span>}
+                {w && <span className="text-foreground/60"> · {w}</span>}
+                {includes && <span className="block text-xs text-foreground/60">{includes}</span>}
               </span>
               <span className="font-semibold text-foreground">
                 {price}
                 {unit && <span className="font-normal text-foreground/60"> {unit}</span>}
               </span>
               {(note || notCompared) && (
-                <span className="w-full text-xs text-foreground/50">
+                <span className="w-full text-xs text-foreground/60">
                   {[note, notCompared ? t.notCompared : null].filter(Boolean).join(" · ")}
                 </span>
               )}
@@ -138,14 +139,14 @@ export function PriceTable({
                   >
                     {card.vsMarket(vsMarket, Math.abs(vsMarket) <= MARKET_BAND)}
                   </span>
-                  <span className="text-foreground/50"> · {t.cityMedian(money(cityMarket.median, cityMarket.currency), cityMarket.places)}</span>
+                  <span className="text-foreground/60"> · {t.cityMedian(money(cityMarket.median, cityMarket.currency), cityMarket.places)}</span>
                 </span>
               )}
             </li>
           );
         })}
       </ul>
-      <p className="mt-3 border-t border-line pt-3 text-xs text-foreground/50">
+      <p className="mt-3 border-t border-line pt-3 text-xs text-foreground/60">
         {t.pricesChecked(first === last ? first : `${first} – ${last}`)} ·{" "}
         {sources.map((url, i) => (
           <span key={url}>

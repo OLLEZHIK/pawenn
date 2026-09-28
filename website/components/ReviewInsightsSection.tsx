@@ -70,7 +70,7 @@ export function ReviewInsightsSection({ insights, locale }: { insights: ReviewIn
               <span className={`rounded-[var(--radius-pill)] px-2 py-0.5 font-semibold ${SENTIMENT_STYLE[card.sentiment]}`}>
                 {t.sentiment[card.sentiment]}
               </span>
-              <span className="text-foreground/55">{t.mentions(card.mentions, n)}</span>
+              <span className="text-foreground/60">{t.mentions(card.mentions, n)}</span>
             </div>
             <h3 className="mt-2 font-semibold text-foreground">{card.title[locale]}</h3>
             <p className="mt-1.5 text-sm leading-relaxed text-foreground/75">{card.text[locale]}</p>
@@ -95,7 +95,7 @@ export function ReviewInsightsSection({ insights, locale }: { insights: ReviewIn
         </div>
       )}
 
-      <p className="mt-5 text-xs text-foreground/50">{t.disclosure}</p>
+      <p className="mt-5 text-xs text-foreground/60">{t.disclosure}</p>
     </section>
   );
 }

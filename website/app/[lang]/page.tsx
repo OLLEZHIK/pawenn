@@ -40,13 +40,15 @@ const STEP_ICONS = [SearchIcon, ShieldCheckIcon, PhoneIcon];
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
-  const [city, cities] = await Promise.all([getDefaultCity(), getAllCities()]);
+  const [defaultCity, cities] = await Promise.all([getDefaultCity(), getAllCities()]);
   // One city: the home page is that city's; several: no city in the title
   // (docs/architecture/multi-city.md 3.1).
   const homeCities = cities.filter((c) => localesForCity(c).includes(lang));
+  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
   const where = homeCities.length > 1 ? null : inCity(lang, city ?? { name: "Bratislava" });
   const t = getDictionary(lang).home;
-  const locales = localesForCity(city);
+  // Every language that has a city has a home page.
+  const locales = [...new Set(cities.flatMap((c) => localesForCity(c)))];
   return {
     title: { absolute: t.metaTitle(where) },
     description: t.metaDescription(where),
@@ -66,11 +68,13 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   if (!isLocale(lang)) notFound();
   const locale = lang;
   const t = getDictionary(locale).home;
-  const [city, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
-  const defaultSlug = city?.slug ?? "";
+  const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
   // Cities that have this language (English: all). Several -> the cards sum
   // them and open the nearest city (docs/architecture/multi-city.md 3.1).
+  // One -> the home page is that city's (the first Polish city on /pl/).
   const homeCities = allCities.filter((c) => localesForCity(c).includes(locale));
+  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
+  const defaultSlug = city?.slug ?? "";
   const multi = homeCities.length > 1;
   const citySlugs = multi ? homeCities.map((c) => c.slug) : [defaultSlug];
   const [featuredByCity, countsByCity, cityPoints, site] = await Promise.all([
@@ -166,7 +170,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
 
             <div className="mt-5 hidden flex-wrap items-center gap-2 text-sm md:flex lg:justify-start">
-              <span className="text-foreground/50">{t.popular}</span>
+              <span className="text-foreground/60">{t.popular}</span>
               {popularCategorySlugs.map((slug) => {
                 const c = categories.find((cat) => cat.slug === slug)!;
                 return (
