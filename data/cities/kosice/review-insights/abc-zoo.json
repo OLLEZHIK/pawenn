@@ -1,0 +1,85 @@
+{
+  "slug": "abc-zoo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ABC-ZOO/data=!4m7!3m6!1s0x473f20093a5946e3:0xcbdf2b1172be827a!8m2!3d48.691328!4d21.2768597!16s%2Fg%2F113gddyyj!19sChIJ40ZZOgkgP0cReoK-chEr38s?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 51,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 26,
+      "title": {
+        "en": "Speedy dispatch contrasting with packaging complaints",
+        "sk": "Rýchle vybavenie verzus sťažnosti na poškodené zásielky"
+      },
+      "text": {
+        "en": "The majority of online orders are processed and delivered promptly across Slovakia. However, critical reviews report repeated issues with parcels arriving damaged, torn kibble packaging, and slow resolution when contacting online chat for claims support regarding missing points.",
+        "sk": "Väčšina online objednávok je vybavená a doručená expresne po celom Slovensku. Časť recenzií však kritizuje poškodený tovar pri doručení, roztrhnuté vrecia s granulami či komplikovanejšie vybavovanie reklamácií a vernostných bodov cez zákaznícku podporu na chate pre nakupujúcich."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 18,
+      "title": {
+        "en": "Competitive pricing on bulk animal feeds",
+        "sk": "Výhodné ceny pri nákupe krmív vo veľkom"
+      },
+      "text": {
+        "en": "Buyers frequently highlight highly attractive price levels compared to traditional brick-and-mortar pet stores. Large packages of pet food, terrarium supplies, and aquarium goods are regularly praised as great value for regular pet caretakers and breeders across the region.",
+        "sk": "Nakupujúci pravidelne vyzdvihujú výhodné cenové relácie v porovnaní s bežnými kamennými chovateľskými potrebami. Veľké balenia granúl, terarijné vybavenie a krmivá pre ryby sú hodnotené ako cenovo veľmi prístupné pre bežných aj náročných chovateľov zvierat na východnom Slovensku."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 14,
+      "title": {
+        "en": "Helpful warehouse staff during personal pickups",
+        "sk": "Ochotný personál výdajného miesta v Košiciach"
+      },
+      "text": {
+        "en": "Customers utilizing the personal pickup option in Košice commend warehouse employees for friendly communication and prompt order handover. Even when clients arrive close to closing time, staff members are praised for preparing items cooperatively and handling requests courteously.",
+        "sk": "Zákazníci využívajúci osobný odber v Košiciach na Nižnej úvrati oceňujú ústretovosť skladníkov a rýchly výdaj tovaru. Personál je chválený za pomoc s prípravou urgentných nákupov aj tesne pred záverečnou a za profesionálne vystupovanie voči prichádzajúcim klientom z okolia."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can customers pick up online orders in person?",
+        "sk": "Je možný osobný odber objednávky v Košiciach?"
+      },
+      "a": {
+        "en": "Yes, personal collection is available directly at the company warehouse on Nižná úvrať 25.",
+        "sk": "Áno, osobný odber e-shopových objednávok je možný priamo vo výdajnom sklade na Nižnej úvrati 25."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are damaged package claims resolved?",
+        "sk": "Ako prebieha riešenie reklamácie poškodeného tovaru?"
+      },
+      "a": {
+        "en": "Reviews show that customer support often sends replacement goods or refunds after damage documentation is provided.",
+        "sk": "Recenzie uvádzajú, že podpora po nahlásení poškodenia zvykne zaslať náhradný tovar alebo vyriešiť náhradu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does ABC-ZOO operate a walk-in retail store?",
+        "sk": "Funguje v Košiciach klasická kamenná predajňa?"
+      },
+      "a": {
+        "en": "The facility primarily serves as an e-commerce logistics hub and collection point for prepared web orders.",
+        "sk": "Prevádzka slúži primárne ako logistické centrum a výdajné miesto pre vopred objednaný tovar cez internet."
+      },
+      "basis": "both"
+    }
+  ]
+}
