@@ -14,6 +14,7 @@ import Papa from "papaparse";
 import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
+import { parseOpeningHours } from "../lib/hours";
 
 type Row = Record<string, string>;
 
@@ -84,6 +85,27 @@ for (const c of CHECKS) {
   console.log(
     `${c.field.padEnd(28)} ${`${n}/${rows.length}`.padStart(7)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
   );
+}
+
+// Slugs: the seed refuses anything but a-z, 0-9 and single hyphens, and a
+// refused slug stops the whole production seed (first Warszawa data:
+// "kociocia---marta-galan", 2026-09-28).
+const badSlugs = allRows.map((r) => r.slug ?? "").filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
+if (badSlugs.length) {
+  failed = true;
+  console.log(`\nInvalid slug - only a-z, 0-9 and single hyphens (${badSlugs.length}):`);
+  for (const s of badSlugs) console.log(`  "${s}"`);
+}
+
+// Opening hours the seed can read (docs/card-spec.md: "su closed", not
+// "su off" - the seed drops unreadable hours silently; 32 Warszawa places).
+const badHours = rows
+  .map((r) => ({ slug: r.slug, error: r.opening_hours?.trim() ? parseOpeningHours(r.opening_hours).error : undefined }))
+  .filter((h) => h.error);
+if (badHours.length) {
+  failed = true;
+  console.log(`\nOpening hours the seed cannot read (${badHours.length}):`);
+  for (const h of badHours) console.log(`  ${h.slug}: ${h.error}`);
 }
 
 // Every missing logo, rating or hours needs a trace of the search.
