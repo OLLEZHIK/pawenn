@@ -9,7 +9,8 @@
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
-    "check-city": "tsx scripts/check-city.ts"
+    "check-city": "tsx scripts/check-city.ts",
+    "verify-city": "tsx scripts/verify-city.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

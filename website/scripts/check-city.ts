@@ -14,6 +14,7 @@ import Papa from "papaparse";
 import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
+import { parseOpeningHours } from "../lib/hours";
 
 type Row = Record<string, string>;
 
@@ -64,8 +65,10 @@ const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence
   { field: "google_maps_url", target: 1, ok: (r) => has(r, "google_maps_url") || noted(r, "maps"), evidence: "maps" },
   { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
   // "Good to know" facts from the place's own site (docs/card-spec.md,
-  // section 9): codes, or "facts: none (...)" where nothing is stated.
-  { field: "facts", target: 0.8, ok: (r) => has(r, "facts"), evidence: "facts" },
+  // section 9): codes, or "facts: none (...)" where nothing is stated -
+  // both count, as the spec says; counting codes only rewarded guessing
+  // (Košice, PR #151).
+  { field: "facts", target: 0.8, ok: (r) => has(r, "facts") || noted(r, "facts"), evidence: "facts" },
   { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
   { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours"), evidence: "hours" },
 ];
@@ -82,6 +85,27 @@ for (const c of CHECKS) {
   console.log(
     `${c.field.padEnd(28)} ${`${n}/${rows.length}`.padStart(7)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
   );
+}
+
+// Slugs: the seed refuses anything but a-z, 0-9 and single hyphens, and a
+// refused slug stops the whole production seed (first Warszawa data:
+// "kociocia---marta-galan", 2026-09-28).
+const badSlugs = allRows.map((r) => r.slug ?? "").filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
+if (badSlugs.length) {
+  failed = true;
+  console.log(`\nInvalid slug - only a-z, 0-9 and single hyphens (${badSlugs.length}):`);
+  for (const s of badSlugs) console.log(`  "${s}"`);
+}
+
+// Opening hours the seed can read (docs/card-spec.md: "su closed", not
+// "su off" - the seed drops unreadable hours silently; 32 Warszawa places).
+const badHours = rows
+  .map((r) => ({ slug: r.slug, error: r.opening_hours?.trim() ? parseOpeningHours(r.opening_hours).error : undefined }))
+  .filter((h) => h.error);
+if (badHours.length) {
+  failed = true;
+  console.log(`\nOpening hours the seed cannot read (${badHours.length}):`);
+  for (const h of badHours) console.log(`  ${h.slug}: ${h.error}`);
 }
 
 // Every missing logo, rating or hours needs a trace of the search.
@@ -159,10 +183,14 @@ const bothLangs = (v: unknown) => {
   return cityLangs.every((l) => typeof o?.[l] === "string" && (o[l] as string).trim() !== "");
 };
 const insightErrors: string[] = [];
+// Texts padded to 250 characters with one stock phrase (lesson from PR
+// #156): the same last four words in texts of many places.
+const tailFiles = new Map<string, Set<string>>();
 for (const slug of insights) {
   const file = path.join(dir, "review-insights", `${slug}.json`);
   let data: {
     slug?: string;
+    reviews_in_period?: number;
     cards?: { title?: unknown; text?: unknown; mentions?: number }[];
     faq?: { q?: unknown; a?: unknown }[];
   };
@@ -180,8 +208,15 @@ for (const slug of insights) {
   cards.forEach((c, i) => {
     if (!bothLangs(c.title) || !bothLangs(c.text)) err(`card ${i + 1}: title and text need ${cityLangs.join(" + ")}`);
     if ((c.mentions ?? 0) < 3) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs 3+ reviewers`);
+    if (data.reviews_in_period !== undefined && (c.mentions ?? 0) > data.reviews_in_period)
+      err(`card ${i + 1}: mentions ${c.mentions} > reviews_in_period ${data.reviews_in_period}`);
     const text = c.text as Record<string, string> | undefined;
     for (const l of cityLangs) {
+      const t = text?.[l];
+      if (t) {
+        const tail = t.toLowerCase().replace(/[.!\s]+$/, "").split(/\s+/).slice(-4).join(" ");
+        (tailFiles.get(tail) ?? tailFiles.set(tail, new Set()).get(tail)!).add(slug);
+      }
       const n = text?.[l]?.length ?? 0;
       if (n && (n < 250 || n > 450)) err(`card ${i + 1}: text.${l} is ${n} characters, need 250-450`);
     }
@@ -191,6 +226,9 @@ for (const slug of insights) {
   faq.forEach((f, i) => {
     if (!bothLangs(f.q) || !bothLangs(f.a)) err(`FAQ ${i + 1}: q and a need ${cityLangs.join(" + ")}`);
   });
+}
+for (const [tail, files] of tailFiles) {
+  if (files.size >= 4) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
 }
 if (insightErrors.length) {
   failed = true;
@@ -355,6 +393,24 @@ for (const r of rows) {
 for (const [key, slugs] of byKey) {
   if (slugs.length > 1) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
 }
+// A clinic and its vet often have two Google cards for one practice:
+// same category, same website, pins within 200 m (PR #144). One entry,
+// or "duplicate-check: different place (...)" in the notes of both.
+const domain = (u: string) => u.trim().toLowerCase().replace(/^https?:\/\//, "").replace(/^(www\.|m\.)/, "").split("/")[0];
+const metres = (a: Row, b: Row) => {
+  const dLat = (Number(a.lat) - Number(b.lat)) * 111_320;
+  const dLng = (Number(a.lng) - Number(b.lng)) * 111_320 * Math.cos((Number(a.lat) * Math.PI) / 180);
+  return Math.hypot(dLat, dLng);
+};
+const siteRows = rows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
+for (let i = 0; i < siteRows.length; i++) {
+  for (let j = i + 1; j < siteRows.length; j++) {
+    const [a, b] = [siteRows[i], siteRows[j]];
+    if (a.category !== b.category || domain(a.website) !== domain(b.website) || metres(a, b) > 200) continue;
+    if (/duplicate-check: /.test(a.notes ?? "") && /duplicate-check: /.test(b.notes ?? "")) continue;
+    madeUp.push(`probably one place twice (same website ${domain(a.website)}, ${Math.round(metres(a, b))} m apart): ${a.slug}, ${b.slug}`);
+  }
+}
 const cids = rows
   .map((r) => ({ slug: r.slug, cid: /cid=(\d+)/.exec(r.google_maps_url ?? "")?.[1] }))
   .filter((x): x is { slug: string; cid: string } => !!x.cid);
@@ -373,10 +429,44 @@ for (const r of rows) {
   }
   if (city !== "bratislava" && (r.animals ?? "").trim()) madeUp.push(`${r.slug}: animals is not collected - leave it empty`);
 }
+// The Google place ID is the "ChIJ..." one (in a copied link after
+// "!19s"), not the "0x...:0x..." feature ID; the pin is the one in the
+// copied link (!3d lat !4d lng), not a guess nearby (PR #144).
+for (const r of rows) {
+  if (has(r, "google_place_id") && !/^ChIJ[0-9A-Za-z_-]{20,}$/.test(r.google_place_id.trim())) {
+    madeUp.push(`${r.slug}: google_place_id "${r.google_place_id}" is not a place ID (ChIJ...) - take it from the Maps link after !19s`);
+  }
+  const pin = /!3d(-?[\d.]+)!4d(-?[\d.]+)/.exec(r.google_maps_url ?? "");
+  if (pin && has(r, "lat")) {
+    const off = metres(r, { lat: pin[1], lng: pin[2] } as Row);
+    if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
+  }
+}
 if (madeUp.length) {
   failed = true;
   console.log(`\nnot copied from the source (${madeUp.length}):`);
   for (const m of madeUp) console.log(`  ${m}`);
+}
+
+// Prices: a place of a priced category either has rows or says where it
+// looked ("prices: none (site - no cenník page, fb - not posted)").
+if (fs.existsSync(pricesFile)) {
+  const priced = new Set(
+    Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data.map((p) => p.business_slug)
+  );
+  const pricedCategory = rows.filter((r) => (SERVICES[r.category as keyof typeof SERVICES] ?? []).length > 0);
+  const withPrices = pricedCategory.filter((r) => priced.has(r.slug)).length;
+  const searched = pricedCategory.filter((r) => !priced.has(r.slug) && noted(r, "prices")).length;
+  const silentPrices = pricedCategory.length - withPrices - searched;
+  console.log(
+    `\nPrices: ${withPrices}/${pricedCategory.length} places with prices, ${searched} "prices: none (...)", ${silentPrices} without a search note`
+  );
+  if (silentPrices > 0) {
+    failed = true;
+    for (const r of pricedCategory.filter((x) => !priced.has(x.slug) && !noted(x, "prices"))) {
+      console.log(`  ${r.slug}: no prices and no "prices: none (...)" in notes`);
+    }
+  }
 }
 
 // Review summaries are a second pass; coverage reported, not enforced.

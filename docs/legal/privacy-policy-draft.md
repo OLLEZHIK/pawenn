@@ -6,7 +6,7 @@
 
 This Privacy Policy explains how **Pawenn** ("we", "us", or "our"), accessible at `pawenn.com`, processes information when you use our online pet services directory.
 
-Pawenn is designed as a **privacy-first, browse-first platform**. You do not need to create an account, register, or provide personal details to search, filter, and discover pet care services in Bratislava.
+Pawenn is designed as a **privacy-first, browse-first platform**. You do not need to create an account, register, or provide personal details to search, filter, and discover pet care services in the cities listed on the site.
 
 ---
 
@@ -55,7 +55,7 @@ If you choose to submit a correction, update prices, or suggest a new pet care f
 - **Legal Basis:** Consent under Article 6(1)(a) GDPR and legitimate interest under Article 6(1)(f) GDPR in maintaining accurate, up-to-date directory information.
 
 ### D. Public Business Directory Data
-The directory contains business information regarding pet grooming salons, veterinary clinics, pet boarding hotels, training academies, and pet stores operating in Bratislava.
+The directory contains business information regarding pet grooming salons, veterinary clinics, pet boarding hotels, training academies, pet sitters and pet stores operating in the cities listed on the site.
 - **Nature of Data:** This information consists of publicly available business contact information (company trade name, commercial address, public business telephone, public business email, website URL, and publicly advertised service fees).
 - **Rights of Business Representatives:** Business owners may claim, correct, update, or request the immediate removal of their business listing at any time by contacting `{EMAIL}`.
 

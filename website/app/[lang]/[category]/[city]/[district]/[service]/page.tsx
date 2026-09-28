@@ -5,7 +5,7 @@ import { getCityBySlug } from "@/lib/data";
 import { getDictionary, inCity, isLocale, localesForCity } from "@/lib/i18n";
 import { PRICES_SEGMENT, answerText, getPriceSummary, pricesPath, serviceCodeFromSlug } from "@/lib/pricePages";
 import { MIN_PLACES } from "@/lib/priceMarket";
-import { serviceLabel } from "@/lib/services";
+import { serviceSeoName } from "@/lib/services";
 import { localeAlternates, socialMeta } from "@/lib/seo";
 import { ServicePricePage } from "@/components/PricePages";
 
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   const { locale, category, city, code, summary } = resolved;
   const tp = getDictionary(locale).prices;
   const where = inCity(locale, city);
-  const service = serviceLabel(category, code, locale);
+  const service = serviceSeoName(category, code, locale);
   const market = summary.market;
   const from = market
     ? new Intl.NumberFormat(locale, { style: "currency", currency: market.currency, maximumFractionDigits: Number.isInteger(market.min) ? 0 : 2 }).format(market.min)

@@ -115,15 +115,15 @@ export function PriceTable({
                 ) : (
                   serviceLabel(category, code, locale)
                 )}
-                {w && <span className="text-foreground/50"> · {w}</span>}
-                {includes && <span className="block text-xs text-foreground/50">{includes}</span>}
+                {w && <span className="text-foreground/60"> · {w}</span>}
+                {includes && <span className="block text-xs text-foreground/60">{includes}</span>}
               </span>
               <span className="font-semibold text-foreground">
                 {price}
                 {unit && <span className="font-normal text-foreground/60"> {unit}</span>}
               </span>
               {(note || notCompared) && (
-                <span className="w-full text-xs text-foreground/50">
+                <span className="w-full text-xs text-foreground/60">
                   {[note, notCompared ? t.notCompared : null].filter(Boolean).join(" · ")}
                 </span>
               )}
@@ -138,14 +138,14 @@ export function PriceTable({
                   >
                     {card.vsMarket(vsMarket, Math.abs(vsMarket) <= MARKET_BAND)}
                   </span>
-                  <span className="text-foreground/50"> · {t.cityMedian(money(cityMarket.median, cityMarket.currency), cityMarket.places)}</span>
+                  <span className="text-foreground/60"> · {t.cityMedian(money(cityMarket.median, cityMarket.currency), cityMarket.places)}</span>
                 </span>
               )}
             </li>
           );
         })}
       </ul>
-      <p className="mt-3 border-t border-line pt-3 text-xs text-foreground/50">
+      <p className="mt-3 border-t border-line pt-3 text-xs text-foreground/60">
         {t.pricesChecked(first === last ? first : `${first} – ${last}`)} ·{" "}
         {sources.map((url, i) => (
           <span key={url}>

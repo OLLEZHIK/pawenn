@@ -1,14 +1,14 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
 import { getMarketPrices, type ServicePriceRow } from "@/lib/data";
-import { CATEGORY_THEME, businessPath, categoryLabel, cityPath, listingPath } from "@/lib/categories";
+import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
-import { SERVICES, serviceIncludes, serviceLabel } from "@/lib/services";
+import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
-import { TagIcon } from "./icons";
+import { ChevronRightIcon, TagIcon } from "./icons";
 
 // Price pages (owner, 2026-09-25; docs/seo/README.md, "Страницы цен"):
 // the answer first (range, median, how many places, date), then every
@@ -78,6 +78,9 @@ export async function ServicePricePage({
   const tp = t.prices;
   const where = inCity(locale, city);
   const service = serviceLabel(category, code, locale);
+  // Title, H1 and FAQ question use the search phrase ("Hotel pre psov na
+  // noc"); the breadcrumb keeps the short label.
+  const seoName = serviceSeoName(category, code, locale);
   const summary = await getPriceSummary(category, city.slug, code);
   const { market } = summary;
   const answer = answerText(locale, summary);
@@ -97,7 +100,7 @@ export async function ServicePricePage({
             mainEntity: [
               {
                 "@type": "Question",
-                name: tp.question(service, where),
+                name: tp.question(seoName, where),
                 acceptedAnswer: { "@type": "Answer", text: answer },
               },
             ],
@@ -107,7 +110,7 @@ export async function ServicePricePage({
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      name: tp.serviceH1(service, where),
+      name: tp.serviceH1(seoName, where),
       numberOfItems: compared.length,
       itemListElement: compared.map((line, i) => ({
         "@type": "ListItem",
@@ -131,7 +134,7 @@ export async function ServicePricePage({
         category={category}
         city={city}
         crumbs={[{ label: tp.crumb, href: pricesPath(locale, category, city.slug) }, { label: service }]}
-        title={tp.serviceH1(service, where)}
+        title={tp.serviceH1(seoName, where)}
         lead={answer ?? tp.fewPlaces(compared.length)}
       />
 
@@ -145,7 +148,7 @@ export async function ServicePricePage({
         {compared.length > 0 && (
           <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
             <table className="w-full text-left text-sm">
-              <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/50">
+              <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/60">
                 <tr>
                   <th className="px-4 py-3 font-semibold sm:px-6">{tp.place}</th>
                   <th className="px-4 py-3 text-right font-semibold">{tp.price}</th>
@@ -168,23 +171,26 @@ export async function ServicePricePage({
                       </span>
                     );
                   return (
-                    <tr key={line.business.id} className="align-top">
+                    // The whole row opens the place (a stretched link, owner
+                    // 2026-09-27: the name alone did not read as clickable);
+                    // "Call" and the price-list link stay above it.
+                    <tr key={line.business.id} className="group relative align-top transition-colors hover:bg-surface-sunken">
                       <td className="px-4 py-3 sm:px-6">
                         <Link
                           href={businessPath(locale, line.business.slug)}
                           prefetch={false}
-                          className="font-semibold text-foreground hover:text-brand-blue hover:underline"
+                          className="font-semibold text-[var(--accent,var(--brand-blue))] underline decoration-current/30 underline-offset-4 after:absolute after:inset-0 after:content-[''] group-hover:decoration-current"
                         >
-                          {line.business.name}
+                          <NameWithChevron name={line.business.name} />
                         </Link>
                         {line.business.districtName && (
-                          <span className="block text-xs text-foreground/55">{line.business.districtName}</span>
+                          <span className="block text-xs text-foreground/60">{line.business.districtName}</span>
                         )}
                         {vs && <span className="mt-0.5 block text-xs font-medium sm:hidden">{vs}</span>}
                         {line.business.phone && (
                           <a
                             href={`tel:${line.business.phone.replace(/\s+/g, "")}`}
-                            className="mt-1 inline-block text-xs font-semibold text-brand-orange hover:underline"
+                            className="relative z-10 mt-1 block w-fit text-xs font-semibold text-brand-orange hover:underline"
                           >
                             {t.actions.call}
                           </a>
@@ -197,7 +203,7 @@ export async function ServicePricePage({
                             href={line.rows[0].sourceUrl}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
-                            className="block text-xs font-normal text-foreground/45 hover:underline"
+                            className="relative z-10 block text-xs font-normal text-foreground/60 hover:underline"
                           >
                             {tp.source}
                           </a>
@@ -221,15 +227,19 @@ export async function ServicePricePage({
                 const r = line.rows[0];
                 const note = locale === "en" ? r.note : (r.noteLocal ?? r.note);
                 return (
-                  <li key={line.business.id} className="flex flex-wrap items-baseline justify-between gap-x-4 py-2.5">
-                    <Link href={businessPath(locale, line.business.slug)} prefetch={false} className="font-medium hover:underline">
-                      {line.business.name}
+                  <li key={line.business.id} className="group relative flex flex-wrap items-baseline justify-between gap-x-4 py-2.5">
+                    <Link
+                      href={businessPath(locale, line.business.slug)}
+                      prefetch={false}
+                      className="font-medium text-[var(--accent,var(--brand-blue))] underline decoration-current/30 underline-offset-4 after:absolute after:inset-0 after:content-[''] group-hover:decoration-current"
+                    >
+                      <NameWithChevron name={line.business.name} />
                     </Link>
                     <span className="font-semibold">
                       {priceText(line)}
                       {r.unit && <span className="font-normal text-foreground/60"> {t.business.perUnit[r.unit]}</span>}
                     </span>
-                    {note && <span className="w-full text-xs text-foreground/55">{note}</span>}
+                    {note && <span className="w-full text-xs text-foreground/60">{note}</span>}
                   </li>
                 );
               })}
@@ -237,7 +247,7 @@ export async function ServicePricePage({
           </section>
         )}
 
-        <p className="text-xs text-foreground/50">{t.business.pricesDisclaimer}</p>
+        <p className="text-xs text-foreground/60">{t.business.pricesDisclaimer}</p>
 
         {otherServices.length > 0 && (
           <section>
@@ -285,13 +295,13 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
         category={category}
         city={city}
         crumbs={[{ label: tp.crumb }]}
-        title={tp.overviewH1(label, where)}
+        title={tp.overviewH1(categoryPricesName(category, locale), where)}
         lead={tp.overviewIntro}
       />
       <div className="mx-auto max-w-4xl space-y-6 px-4 pt-8">
         <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
           <table className="w-full text-left text-sm">
-            <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/50">
+            <thead className="border-b border-line text-xs uppercase tracking-wider text-foreground/60">
               <tr>
                 <th className="px-4 py-3 font-semibold sm:px-6">{tp.service}</th>
                 <th className="px-4 py-3 text-right font-semibold">{tp.median}</th>
@@ -313,7 +323,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
                         <TagIcon className="h-4 w-4 text-[var(--accent,var(--brand-blue))]" />
                         {serviceLabel(category, s.code, locale)}
                       </Link>
-                      <span className="block text-xs text-foreground/55 sm:hidden">
+                      <span className="block text-xs text-foreground/60 sm:hidden">
                         {money(m.min, m.currency, locale)}–{money(m.max, m.currency, locale)}
                       </span>
                     </td>
@@ -328,7 +338,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
             </tbody>
           </table>
         </section>
-        <p className="text-xs text-foreground/50">{t.business.pricesDisclaimer}</p>
+        <p className="text-xs text-foreground/60">{t.business.pricesDisclaimer}</p>
         <Link
           href={listingPath(locale, category, city.slug)}
           prefetch={false}
@@ -338,5 +348,21 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
         </Link>
       </div>
     </main>
+  );
+}
+
+// The chevron sticks to the last word, so a wrapped name never leaves it
+// alone on a line.
+function NameWithChevron({ name }: { name: string }) {
+  const words = name.split(" ");
+  const last = words.pop();
+  return (
+    <>
+      {words.length > 0 && `${words.join(" ")} `}
+      <span className="whitespace-nowrap">
+        {last}
+        <ChevronRightIcon className="ml-0.5 inline-block h-4 w-4 align-[-3px] transition-transform group-hover:translate-x-0.5" />
+      </span>
+    </>
   );
 }

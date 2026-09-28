@@ -182,7 +182,7 @@ export function HomeSearch({
     </div>
   );
 
-  const stepLabel = "px-1 text-xs font-semibold uppercase tracking-wider text-foreground/50";
+  const stepLabel = "px-1 text-xs font-semibold uppercase tracking-wider text-foreground/60";
 
   const nearButton = canLocate && (
     <button
@@ -213,7 +213,7 @@ export function HomeSearch({
   // Boxed city field for the phone card and the dialog.
   const cityField = (
     <label className="mt-2 flex min-h-12 w-full items-center gap-2 rounded-[var(--radius-control)] bg-surface-sunken px-4 focus-within:ring-2 focus-within:ring-brand-blue/40">
-      <MapPinIcon className={`h-4 w-4 shrink-0 ${near ? "text-brand-blue" : "text-foreground/50"}`} />
+      <MapPinIcon className={`h-4 w-4 shrink-0 ${near ? "text-brand-blue" : "text-foreground/60"}`} />
       <span className="sr-only">{t.search.cityLabel}</span>
       <input
         ref={boxedInput}
@@ -224,7 +224,7 @@ export function HomeSearch({
         onKeyDown={(e) => e.key === "Enter" && goSearch()}
         placeholder={cityName}
         autoComplete="off"
-        className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 font-medium text-foreground outline-none placeholder:text-foreground/55 search-city"
+        className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 font-medium text-foreground outline-none placeholder:text-foreground/60 search-city"
       />
       {suggestions(`${listId}-boxed`)}
     </label>
@@ -292,10 +292,10 @@ export function HomeSearch({
           onClick={() => setCategoryOverlay(true)}
           className="mt-2 flex min-h-12 w-full items-center justify-between rounded-[var(--radius-control)] bg-surface-sunken px-4 text-left font-medium"
         >
-          <span className={selectedCategory ? "text-foreground" : "text-foreground/55"}>
+          <span className={selectedCategory ? "text-foreground" : "text-foreground/60"}>
             {selectedCategory?.label ?? t.search.servicePlaceholder}
           </span>
-          <ChevronDownIcon className="h-4 w-4 text-foreground/50" />
+          <ChevronDownIcon className="h-4 w-4 text-foreground/60" />
         </button>
 
         <div className={`mt-4 flex items-center justify-between gap-2 ${stepLabel}`}>
@@ -344,7 +344,7 @@ export function HomeSearch({
         />
         <span aria-hidden="true" className="h-8 w-px bg-line" />
         <label className="flex min-w-0 flex-[1.1] cursor-text flex-col rounded-[var(--radius-pill)] px-4 py-2.5 transition-colors hover:bg-surface-sunken focus-within:bg-surface-sunken focus-within:ring-2 focus-within:ring-brand-blue/40">
-          <span className="block text-xs font-semibold uppercase tracking-wider text-foreground/50">{t.search.where}</span>
+          <span className="block text-xs font-semibold uppercase tracking-wider text-foreground/60">{t.search.where}</span>
           <span className="flex items-center gap-1.5">
             <input
               ref={barInput}
@@ -441,7 +441,7 @@ function StepOverlay({
       <div className="flex-1 overflow-y-auto px-4 py-4">
         {popular.length > 0 && (
           <div className="mb-6">
-            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-foreground/50">{labels.popular}</p>
+            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-foreground/60">{labels.popular}</p>
             <div className="flex flex-wrap gap-2">
               {popular.map((o) => (
                 <button

@@ -14,7 +14,7 @@ import {
   CATEGORY_THEME,
   categoryBlurb,
   categoryLabel,
-  categoryPlural, categorySingular,
+  categoryPlural, categorySeoTitle, categorySingular,
   businessPath,
   cityPath,
   listingPath,
@@ -214,7 +214,8 @@ export async function CategoryListing({
               ) : (
                 <>
                   <h1 className="text-3xl font-extrabold text-foreground md:text-5xl">
-                    {label} <span className="text-foreground/40">{where.split(" ")[0]}</span>{" "}
+                    {/* H1 = the search title: main query first (docs/seo/keywords). */}
+                    {category ? categorySeoTitle(category, locale) : label} <span className="text-foreground/50">{where.split(" ")[0]}</span>{" "}
                     {where.split(" ").slice(1).join(" ")}
                   </h1>
                   <p className="mt-2 text-lg text-foreground/65">
@@ -231,9 +232,11 @@ export async function CategoryListing({
             </div>
           </div>
 
-          <dl className="mt-6 flex flex-wrap gap-2">
-            <Stat label={t.listing.listed} value={String(attributePage ? scoped.length : aggregates.count)} />
-            {aggregates.verifiedCount > 0 && <Stat label={t.listing.verified} value={String(aggregates.verifiedCount)} />}
+          <div className="mt-6 flex flex-wrap gap-2">
+            <dl className="contents">
+              <Stat label={t.listing.listed} value={String(attributePage ? scoped.length : aggregates.count)} />
+              {aggregates.verifiedCount > 0 && <Stat label={t.listing.verified} value={String(aggregates.verifiedCount)} />}
+            </dl>
             {/* The city's price pages for this category, once any service
                 has a market price (lib/pricePages.ts). */}
             {category && hasPricePages && (
@@ -245,7 +248,7 @@ export async function CategoryListing({
                 {t.prices.linkFromListing(inCity(locale, city))} →
               </Link>
             )}
-          </dl>
+          </div>
 
           {/* Switch service, keep the location */}
           {/* Wraps on phones: all six services stay visible, no hidden
@@ -305,7 +308,10 @@ export async function CategoryListing({
             attributes={attributeChips}
           />
 
-          <p className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
+          {/* A level-2 heading between the H1 and the cards' H3s (heading
+              order for screen readers); a <p> with role=heading so the
+              global h2 font rule does not change how it looks. */}
+          <p role="heading" aria-level={2} className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
             {origin && <RouteIcon className="h-4 w-4 text-brand-blue" />}
             {t.listing.results(listItems.length)}
             {hiddenUnrated > 0 ? ` · ${t.listing.hiddenUnrated(hiddenUnrated)}` : ""}
@@ -401,8 +407,9 @@ export async function CategoryListing({
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline gap-1.5 rounded-[var(--radius-pill)] bg-surface px-4 py-2 shadow-[var(--shadow-card)]">
-      <dd className="font-heading font-extrabold text-foreground">{value}</dd>
-      <dt className="text-sm text-foreground/60">{label}</dt>
+      {/* dt before dd (valid HTML); order-* keeps the number first. */}
+      <dt className="order-2 text-sm text-foreground/60">{label}</dt>
+      <dd className="order-1 font-heading font-extrabold text-foreground">{value}</dd>
     </div>
   );
 }

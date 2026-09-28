@@ -2,7 +2,7 @@
 
 # How It Works & FAQ
 
-Welcome to Pawenn — a transparent, community-first directory connecting dog and cat owners in Bratislava with verified local pet services, including grooming salons, veterinary clinics, pet hotels, and trainers.
+Welcome to Pawenn — a transparent, community-first directory connecting dog and cat owners in the cities we cover with verified local pet services, including grooming salons, veterinary clinics, pet hotels, and trainers.
 
 Our mission is straightforward: help you find reliable care for your pet in 2–3 clicks, with accurate prices, real contact information, and no hidden catches.
 
@@ -36,7 +36,7 @@ We believe pet owners deserve honest search results, not pay-to-win rankings:
 ## 2. Frequently Asked Questions (FAQ)
 
 ### How do you choose which businesses to list?
-We list legally operating, physical and licensed pet care service providers located in Bratislava and its 17 municipal districts. Each business must have verifiable contact details, a real physical location or certified service area, and an active business registration. We do not charge businesses to be included in our organic directory.
+We list legally operating, physical and licensed pet care service providers located in the cities listed on the site. Each business must have verifiable contact details, a real physical location or certified service area, and an active business registration. We do not charge businesses to be included in our organic directory.
 
 ### Can a business owner edit or remove their listing?
 Yes, at any time. If you own or manage a listed salon, veterinary clinic, or pet hotel, you can request corrections, update your service menu and pricing, or ask for complete removal. Simply click the "Suggest an edit" link on your listing page or contact us at `contact@pawenn.com` *(placeholder)*. We verify ownership and apply updates promptly.
