@@ -1,0 +1,85 @@
+{
+  "slug": "zverinex",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Zverinex/data=!4m7!3m6!1s0x473ee18eebc8d361:0xd21b1e997719ffb4!8m2!3d48.7311443!4d21.2418193!16s%2Fg%2F11rgy6gvwg!19sChIJYdPI647hPkcRtP8Zd5keG9I?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-03-27",
+  "period_to": "2026-09-27",
+  "reviews_in_period": 15,
+  "observed_at": "2026-09-27",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Convenient pet store versus irregular hours",
+        "sk": "Chovateľské potreby verzus nestále otváracie hodiny"
+      },
+      "text": {
+        "en": "While customers enjoy browsing pet treats and accessories while picking up parcels, multiple reviewers express deep frustration over unpredictable operating hours and unannounced midday closures that caused wasted trips to the shop on Cottbuská on multiple days.",
+        "sk": "Zatiaľ čo zákazníci radi využívajú nákup maškŕt a chovateľských potrieb pri vyzdvihovaní balíkov, viacero recenzentov vyjadruje veľkú nespokojnosť s nedodržiavaním otváracích hodín a nečakanými prestávkami na predajni na Cottbuskej ulici počas bežného dňa."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful store clerks and friendly parcel service",
+        "sk": "Ochotní predavači a ústretový výdaj zásielok"
+      },
+      "text": {
+        "en": "When the shop is open, staff members receive positive praise for being polite, attentive, and helpful. Customers appreciate thoughtful assistance, including a clerk who lent a phone charger so a customer could retrieve a parcel pin code to receive their goods.",
+        "sk": "Keď je predajňa otvorená, personál si získava pochvalu za zdvorilosť, ochotu a priateľský prístup. Zákazníci si cenia milú pomoc pri výbere krmív aj mimoriadnu ústretovosť zamestnanca, ktorý ochotne požičal nabíjačku na vybitý telefón pri vydávaní balíka."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Parcel notifications versus schedule updates",
+        "sk": "Notifikácie o zásielkach verzus oznamy na dverách"
+      },
+      "text": {
+        "en": "Some regular clients appreciate phone reminders when parcels are awaiting collection. However, others criticize the lack of online schedule updates on Google Maps, which leaves customers unaware of impromptu closures until arriving directly at the shop door.",
+        "sk": "Niektorí stáli klienti oceňujú, že im personál pri zabudnutom balíku zatelefonuje. Na druhej strane návštevníci kritizujú, že mimoriadne zmeny otváracích hodín bývajú oznámené len lístkom na dverách a nie sú vopred aktualizované na profile v Google Mapách."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Zverinex function as a parcel pickup point?",
+        "sk": "Funguje predajňa Zverinex aj ako odberné miesto balíkov?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that the shop serves as an active pickup location for courier services alongside selling pet supplies.",
+        "sk": "Áno, recenzie potvrdzujú, že predajňa slúži popri predaji potrieb pre zvieratá aj ako výdajné miesto kuriérskych zásielok."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are the store's opening hours always reliable?",
+        "sk": "Sú otváracie hodiny predajne vždy spoľahlivé?"
+      },
+      "a": {
+        "en": "Several reviews warn that the shop occasionally closes unexpectedly during scheduled hours, so checking ahead is advisable.",
+        "sk": "Viacerí zákazníci v recenziách upozorňujú na občasné neplánované zatvorenie počas dňa, preto je vhodné overiť si otvorenie vopred."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners buy treats while picking up parcels?",
+        "sk": "Dá sa pri vyzdvihnutí balíka nakúpiť krmivo pre domáce zvieratá?"
+      },
+      "a": {
+        "en": "Yes, customers appreciate being able to buy pet food, treats, and pet care essentials conveniently under one roof.",
+        "sk": "Áno, zákazníci si pochvaľujú možnosť popri zásielke pohodlne kúpiť maškrty, krmivá a doplnky pre svojich miláčikov."
+      },
+      "basis": "reviews"
+    }
+  ]
+}
