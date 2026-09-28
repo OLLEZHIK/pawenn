@@ -27,7 +27,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { BusinessCard, StarRow } from "@/components/BusinessCard";
 import { BusinessAvatar } from "@/components/BusinessAvatar";
 import { GoogleRating } from "@/components/GoogleRating";
-import { ReviewInsightsSection } from "@/components/ReviewInsightsSection";
+import { ReviewInsightsSection, ReviewInsightsShort } from "@/components/ReviewInsightsSection";
 import { OpeningHoursTable } from "@/components/OpeningHoursTable";
 import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
@@ -412,7 +412,20 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
             </section>
           )}
 
-          {insights && <ReviewInsightsSection insights={insights} locale={locale} />}
+          {insights ? (
+            <ReviewInsightsSection insights={insights} locale={locale} />
+          ) : (
+            business.googleMapsUrl &&
+            business.googleRating !== null &&
+            business.googleRatingCount !== null && (
+              <ReviewInsightsShort
+                rating={business.googleRating}
+                count={business.googleRatingCount}
+                googleMapsUrl={business.googleMapsUrl}
+                locale={locale}
+              />
+            )
+          )}
 
           <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
             <div className="flex items-center justify-between gap-3 p-6 pb-4">

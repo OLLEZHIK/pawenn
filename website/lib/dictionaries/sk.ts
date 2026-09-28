@@ -324,6 +324,7 @@ export const sk: Dictionary = {
     sentiment: { positive: "Prevažne pozitívne", mixed: "Zmiešané", negative: "Prevažne negatívne" },
     mentions: (m: number, n: number) => `${m} z ${n} recenzií`,
     faqTitle: "Časté otázky",
+    shortNote: "Zhrnutie recenzií od pawenn pre tento podnik zatiaľ nemáme. Hodnotenie a všetky recenzie nájdete na Google.",
   },
   actions: { call: "Zavolať", website: "Web", route: "Trasa" },
   badges: { verified: (date: string) => `Overené ${date}`, partner: "Partner" },
