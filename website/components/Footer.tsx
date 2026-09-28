@@ -7,8 +7,16 @@ import { Logo } from "./Logo";
 import { ShieldCheckIcon } from "./icons";
 
 export async function Footer({ locale }: { locale: Locale }) {
-  const [city, cities] = await Promise.all([getDefaultCity(), getAllCities()]);
+  const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
+  // The footer's city: the one this language belongs to (Polish ->
+  // Warszawa), like the home page; English keeps the default city.
+  const langCities = allCities.filter((c) => localesForCity(c).includes(locale));
+  const city =
+    defaultCity && langCities.some((c) => c.slug === defaultCity.slug) ? defaultCity : (langCities[0] ?? defaultCity);
   const citySlug = city?.slug ?? "";
+  // Cities of the same country only (owner, 2026-09-28): a Polish page
+  // lists Polish cities, not every city on the site.
+  const cities = city ? allCities.filter((c) => c.country === city.country) : allCities;
   // Name the city only while there is one; with several the site is generic.
   const cityWhere = cities.length === 1 ? inCity(locale, cities[0]) : null;
   const t = getDictionary(locale).footer;
