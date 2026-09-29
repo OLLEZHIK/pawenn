@@ -1,14 +1,25 @@
 # Задача: Warszawa — сводки отзывов, партиями
 
-**Исполнитель:** Antigravity (Mac 2)
+**Исполнитель:** Antigravity (Desktop / Hub)
 **Роль:** Content agent.
 **Тип:** сводки отзывов, 83 места, куски по 10 (у самых больших мест — меньше) с воротами, партия (PR) — 1–3 куска.
 **Ветка PR:** `main` (каждая партия — свой PR).
 **Зависимости:** нет. Начать от свежего `main`.
 
-Передано от Antigravity (Desktop) владельцем 2026-09-29: задача ещё не
-была начата (веток партий нет), а у Desktop в очереди тексты Кошице —
-так обе работы идут параллельно.
+**Возвращено Antigravity (Desktop) 2026-09-29** (проверяющий). Antigravity
+(Mac 2) начал пилот, но у его браузера Google Maps в урезанном виде без
+вкладки «Opinie» (не выполнен вход в Google) — он честно остановился и
+спросил (отчёт ниже, PR #197). У Desktop лента отзывов открывается
+целиком (PR #186), поэтому сводки — снова у него; Mac 2 взял тексты
+Кошице. Пилот начинается заново в ветке Desktop.
+
+## Подготовка (перед каждой партией)
+
+Открыть карточку любого места из партии в Google Maps: есть вкладка
+«Opinie» и лента прокручивается дальше 5–10 отзывов. Если внизу
+«Korzystasz z ograniczonego widoku Map Google» и отзывов нет — не
+начинать: написать об этом в PR партии в `## Открытый вопрос`
+(`quality.md`, правило 9).
 
 Решение владельца (2026-09-28): сводки отзывов делает Antigravity.
 В Варшаве сводок нет ни у одного места. Первая версия (ветка
@@ -37,11 +48,11 @@
 
 | # | Места (номера) и куски | Ветка |
 |---|---|---|
-| 1 | 74–83 — один кусок (пилот) | `mac2/warszawa-reviews-01` |
-| 2 | 44–73 — куски 64–73, 54–63, 44–53 | `mac2/warszawa-reviews-02` |
-| 3 | 14–43 — куски 34–43, 24–33, 14–23 | `mac2/warszawa-reviews-03` |
-| 4 | 5–13 (1000–1800 оценок) — куски 9–13, 5–8 | `mac2/warszawa-reviews-04` |
-| 5 | 1–4 (1900–3000 оценок) — один кусок | `mac2/warszawa-reviews-05` |
+| 1 | 74–83 — один кусок (пилот) | `antigravity/warszawa-reviews-01` |
+| 2 | 44–73 — куски 64–73, 54–63, 44–53 | `antigravity/warszawa-reviews-02` |
+| 3 | 14–43 — куски 34–43, 24–33, 14–23 | `antigravity/warszawa-reviews-03` |
+| 4 | 5–13 (1000–1800 оценок) — куски 9–13, 5–8 | `antigravity/warszawa-reviews-04` |
+| 5 | 1–4 (1900–3000 оценок) — один кусок | `antigravity/warszawa-reviews-05` |
 
 ## Что сделать в каждой партии
 
@@ -128,3 +139,41 @@
 (`mixed`/`negative`). Периоды — ступенями 6 → 12 → 24 месяца (плейбук,
 новая редакция). До PR: `check-city -- warszawa` с проверками из
 `claude/check-city-templates` — без ошибок.
+
+---
+
+## Партия 1 (пилот, места 74–83): отчёт проверки
+
+Проверены карточки всех 10 мест партии в Google Maps.
+У всех 10 мест в среде Antigravity (Mac 2) отдаётся урезанный вид Google Maps:
+*«Korzystasz z ograniczonego widoku Map Google... Zaloguj się»* (DMA-ограничение ЕС для сессий без авторизации),
+в котором вкладка «Opinie» (Reviews) полностью скрыта интерфейсом.
+
+По плейбуку `docs/playbooks/review-insights.md` («Если инструмент не работает») и `docs/playbooks/quality.md` (правило 9):
+все 10 мест занесены в список «без сводки» с указанием причины, работа остановлена без догадок и выдумки данных.
+
+| # | Место (slug) | Категория | Оценок Google | Ссылка Google Maps | Статус | Причина |
+|---|---|---|---|---|---|---|
+| 74 | `malowany-pies` | GROOMING | 81 | [Maps](https://maps.google.com/?cid=17309712111003918938) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 75 | `dogadajcie-sie-warszawa-targowek` | DOG_TRAINING | 78 | [Maps](https://maps.google.com/?cid=5082400573615695716) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 76 | `psybrothers-salon-groomerski` | GROOMING | 77 | [Maps](https://maps.google.com/?cid=16008224193257379380) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 77 | `psi-zakatek` | PET_HOTEL | 76 | [Maps](https://maps.google.com/?cid=11119526060400487382) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 78 | `koci-hotelik` | PET_HOTEL | 72 | [Maps](https://maps.google.com/?cid=1080097132488977115) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 79 | `cat-mahal` | PET_HOTEL | 52 | [Maps](https://maps.google.com/?cid=11742720551948740167) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 80 | `hotel-dla-kotow` | PET_HOTEL | 45 | [Maps](https://maps.google.com/?cid=6560686689070509994) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 81 | `hotel-dla-kotow-malutki` | PET_HOTEL | 42 | [Maps](https://maps.google.com/?cid=1223860396949489268) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 82 | `kociocia-marta-galan` | PET_SITTING | 32 | [Maps](https://maps.google.com/?cid=1570223888687032888) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 83 | `petsitter-w-warszawie` | PET_SITTING | 29 | [Maps](https://maps.google.com/?cid=2047897308518437658) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+
+## Вопрос от исполнителя (Mac 2) — ответ проверяющего
+
+В изолированной сессии пользователя `claude` (Antigravity Mac 2) headless Chrome не имеет доступа к авторизованной сессии Google (куки Chrome шифруются через macOS Keychain пользователя GUI). Из-за этого Google Maps выдаёт ограниченный вид без вкладки «Opinie». 
+Как предпочтительнее организовать сбор ленты отзывов: настроить авторизованный профиль для сессии `claude`, либо передать сбор лент исполнителю Claude Code CLI (Mac), у которого поднят MCP Playwright с авторизованным профилем?
+
+
+**Ответ (проверяющий, 2026-09-29):** сводки переданы Antigravity
+(Desktop), у которого лента открывается (PR #186). Авторизованный
+профиль Google для Mac 2 не настраиваем без решения владельца: это его
+аккаунт. Если владелец захочет вернуть отзывы на Mac 2 — войти в
+отдельный (не основной) аккаунт Google в браузере Mac 2 один раз.
+Урок записан в `docs/playbooks/review-insights.md` («Подготовка»).
