@@ -7,7 +7,14 @@
 // Checks, per place: texts in both languages, coordinates, a way to
 // contact, and for logo / Google rating / opening hours either a value or
 // a "<field>: none (<where searched>)" line in notes. Per city: coverage
-// of each field against its target.
+// of each field against its target, and a PASS gate for every chunk of
+// new data (scripts/chunks.ts).
+//
+//   npm run check-city -- warszawa --only=slug-a,slug-b
+//
+// checks only those places (the gate runs it this way for one chunk);
+// comparisons with the rest of the city - one text on several places,
+// the same Maps link twice - still see the whole city.
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -15,6 +22,23 @@ import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
+import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
+import { CHUNK_SIZE, allStamps, insightChunks, placeChunks, readStamp, stampValid } from "./chunks";
+import {
+  EVIDENCE_COLUMNS,
+  EVIDENCE_FROM,
+  MAX_QUOTE,
+  MIN_QUOTE,
+  badField,
+  domainOf,
+  isGoogleMaps,
+  isSocial,
+  needsEvidence,
+  priceInQuotes,
+  quoteMismatch,
+  requiredEvidence,
+  squash,
+} from "./evidence";
 
 type Row = Record<string, string>;
 
@@ -30,14 +54,28 @@ if (!fs.existsSync(dir)) {
   process.exit(2);
 }
 
+// Rows keep the file they came from: rows of a chunk file
+// (businesses-<NN>-<category>.csv) need evidence and a gate whatever
+// their dates say. A row with more cells than the header - text with a
+// comma and no quotes - shifts every column after it.
+const csvErrors: string[] = [];
 const allRows: Row[] = fs
   .readdirSync(dir)
   .filter((f) => /^businesses.*\.csv$/.test(f))
-  .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data);
+  .flatMap((f) => {
+    const parsed = Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true });
+    for (const e of parsed.errors) csvErrors.push(`${f} line ${(e.row ?? 0) + 2}: ${e.message} - put text with commas in "quotes"`);
+    return parsed.data.map((r) => ({ ...r, __file: f }));
+  });
+const inChunkFile = (r: Row) => /^businesses-/.test(r.__file ?? "");
 // closed=yes: permanently closed after it was listed - kept only so its old
 // URL redirects (docs/card-spec.md §11). Not shown, not counted below.
 const isClosed = (r: Row) => /^yes$/i.test((r.closed ?? "").trim());
-const rows = allRows.filter((r) => !isClosed(r));
+const only = process.argv.find((a) => a.startsWith("--only="))?.slice("--only=".length).split(",").filter(Boolean);
+const scope = only ? new Set(only) : null;
+const inScope = (slug: string) => !scope || scope.has(slug);
+const cityRows = allRows.filter((r) => !isClosed(r));
+const rows = cityRows.filter((r) => inScope(r.slug));
 const insights = new Set(
   fs.existsSync(path.join(dir, "review-insights"))
     ? fs.readdirSync(path.join(dir, "review-insights")).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""))
@@ -54,51 +92,86 @@ const noWeekdays = (hours: string) => {
   if (["24h", "by-appointment"].includes(value)) return false;
   return !value.split(";").some((d) => /^(mo|tu|we|th|fr)\s/.test(d.trim()));
 };
-const logoOk = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(logosDir, r.logo_file.trim()));
+const logoExists = (r: Row) => has(r, "logo_file") && fs.existsSync(path.join(logosDir, r.logo_file.trim()));
+// A site icon (16-72 px) is not a logo: blurry in the card tile, and the
+// seed doesn't load it (reported below, not counted).
+const logoSmall = (r: Row) => (logoExists(r) ? logoTooSmall(path.join(logosDir, r.logo_file.trim())) : null);
+const logoOk = (r: Row) => logoExists(r) && !logoSmall(r);
 
-// Target share of places that must have each field. Logo, rating and
-// hours can be genuinely missing (no logo anywhere, fewer than 5 ratings,
-// hours not published) - the rest of the way to 100 % must be explained
-// in notes, never left silent.
-const CHECKS: { field: string; target: number; ok: (r: Row) => boolean; evidence?: string }[] = [
-  { field: "short_description + _local", target: 1, ok: (r) => has(r, "short_description") && has(r, "short_description_local") },
-  { field: "description + _local", target: 1, ok: (r) => has(r, "description") && has(r, "description_local") },
+// Target share of places that must have each field. A field counts when
+// it has a value or an honest "<field>: none (<where searched>)" line in
+// notes (owner, 2026-09-28): a gap that is written down costs an agent less
+// than a made-up value, so it never has to guess to reach a target. The
+// share with a real value is printed next to it; below the target it is a
+// warning the reviewer reads, not a failure.
+// "warn": the owner's minimum is about real values (docs/card-spec.md,
+// "Минимум качества"), so a low share of them is shown to the reviewer.
+const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?: string; warn?: boolean }[] = [
+  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && has(r, "short_description_local") },
+  { field: "description + _local", target: 1, value: (r) => has(r, "description") && has(r, "description_local") },
   // Mobile services with no premises have no coordinates, only a
   // "coords: none (mobile service ...)" note (docs/card-spec.md, section 3).
-  { field: "lat / lng", target: 1, ok: (r) => (has(r, "lat") && has(r, "lng")) || noted(r, "coords") },
-  { field: "phone / email / website", target: 1, ok: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
+  { field: "lat / lng", target: 1, value: (r) => has(r, "lat") && has(r, "lng"), none: "coords" },
+  { field: "phone / email / website", target: 1, value: (r) => has(r, "phone") || has(r, "email") || has(r, "website") },
   // A Maps link copied from the place's card, or "maps: none (...)" where
   // no card was found or Maps would not open: an honest gap beats a made-up
   // link (PR #144, owner 2026-09-27). The reviewer checks the notes.
-  { field: "google_maps_url", target: 1, ok: (r) => has(r, "google_maps_url") || noted(r, "maps"), evidence: "maps" },
-  { field: "logo", target: 0.8, ok: logoOk, evidence: "logo" },
+  { field: "google_maps_url", target: 0.95, value: (r) => has(r, "google_maps_url"), none: "maps", warn: true },
+  { field: "logo", target: 0.8, value: logoOk, none: "logo", warn: true },
   // "Good to know" facts from the place's own site (docs/card-spec.md,
   // section 9): codes, or "facts: none (...)" where nothing is stated -
   // both count, as the spec says; counting codes only rewarded guessing
   // (Košice, PR #151).
-  { field: "facts", target: 0.8, ok: (r) => has(r, "facts") || noted(r, "facts"), evidence: "facts" },
-  { field: "google_rating", target: 0.85, ok: (r) => has(r, "google_rating") && has(r, "google_rating_count"), evidence: "rating" },
-  { field: "opening_hours", target: 0.9, ok: (r) => has(r, "opening_hours") && !noWeekdays(r.opening_hours), evidence: "hours" },
+  { field: "facts", target: 0.8, value: (r) => has(r, "facts"), none: "facts" },
+  { field: "google_rating", target: 0.85, value: (r) => has(r, "google_rating") && has(r, "google_rating_count"), none: "rating", warn: true },
+  { field: "opening_hours", target: 0.9, value: (r) => has(r, "opening_hours") && !noWeekdays(r.opening_hours), none: "hours", warn: true },
 ];
+const counts = (c: (typeof CHECKS)[number], r: Row) => c.value(r) || (!!c.none && noted(r, c.none));
 
 let failed = false;
 const closedCount = allRows.length - rows.length;
 console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
-console.log("field                         have    share  target");
-for (const c of CHECKS) {
-  const n = rows.filter(c.ok).length;
-  const share = n / rows.length;
+console.log("field                         value   none   share  target");
+const lowValue: string[] = [];
+// Batch 0 of a city has only its candidates list (add-city.md, "Партии").
+if (!rows.length) console.log("(no places yet - batch 0: city.json and candidates.csv only)");
+for (const c of rows.length ? CHECKS : []) {
+  const withValue = rows.filter(c.value).length;
+  const withNone = rows.filter((r) => !c.value(r) && counts(c, r)).length;
+  const share = (withValue + withNone) / rows.length;
   const pass = share >= c.target;
   if (!pass) failed = true;
+  if (c.warn && withValue / rows.length < c.target) lowValue.push(`${c.field}: ${Math.round((withValue / rows.length) * 100)}% with a value (target ${Math.round(c.target * 100)}%), ${withNone} "${c.none}: none (...)"`);
   console.log(
-    `${c.field.padEnd(28)} ${`${n}/${rows.length}`.padStart(7)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
+    `${c.field.padEnd(28)} ${String(withValue).padStart(6)} ${String(withNone).padStart(6)} ${`${Math.round(share * 100)}%`.padStart(7)} ${`${Math.round(c.target * 100)}%`.padStart(6)}  ${pass ? "ok" : "FAIL"}`
   );
+}
+if (lowValue.length) {
+  console.log(`\nWarning - below target with a real value; the reviewer reads the "none" notes (${lowValue.length}):`);
+  for (const l of lowValue) console.log(`  ${l}`);
+}
+// More than half without Google Maps data is not a city without cards -
+// the tool did not work. Stop and say so in the PR (quality.md, rule 9).
+for (const key of ["maps", "rating"]) {
+  const none = rows.filter((r) => noted(r, key)).length;
+  if (rows.length >= 4 && none > rows.length / 2) {
+    console.log(`\nWarning - "${key}: none" at ${none} of ${rows.length} places: if Google Maps did not open, write it in the PR as an open question instead of collecting further.`);
+  }
+}
+
+if (csvErrors.length) {
+  failed = true;
+  console.log(`\nCSV rows the seed would read wrong (${csvErrors.length}):`);
+  for (const e of csvErrors) console.log(`  ${e}`);
 }
 
 // Slugs: the seed refuses anything but a-z, 0-9 and single hyphens, and a
 // refused slug stops the whole production seed (first Warszawa data:
 // "kociocia---marta-galan", 2026-09-28).
-const badSlugs = allRows.map((r) => r.slug ?? "").filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
+const badSlugs = allRows
+  .filter((r) => inScope(r.slug))
+  .map((r) => r.slug ?? "")
+  .filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
 if (badSlugs.length) {
   failed = true;
   console.log(`\nInvalid slug - only a-z, 0-9 and single hyphens (${badSlugs.length}):`);
@@ -124,14 +197,14 @@ const TEXT_FIELDS = ["short_description", "short_description_local", "descriptio
 const templated: string[] = [];
 for (const field of TEXT_FIELDS) {
   const byTail = new Map<string, string[]>();
-  for (const r of rows) {
+  for (const r of cityRows) {
     const words = (r[field] ?? "").split(r.name).join(" ").toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean);
     if (words.length < 6) continue;
     const tail = words.slice(-12).join(" ");
     byTail.set(tail, [...(byTail.get(tail) ?? []), r.slug]);
   }
   for (const slugs of byTail.values()) {
-    if (slugs.length > 1) templated.push(`${field}: same text on ${slugs.length} places - ${slugs.slice(0, 4).join(", ")}${slugs.length > 4 ? ", ..." : ""}`);
+    if (slugs.length > 1 && slugs.some(inScope)) templated.push(`${field}: same text on ${slugs.length} places - ${slugs.slice(0, 4).join(", ")}${slugs.length > 4 ? ", ..." : ""}`);
   }
 }
 if (templated.length) {
@@ -144,8 +217,9 @@ if (templated.length) {
 const silent: string[] = [];
 for (const r of rows) {
   for (const c of CHECKS) {
-    if (!c.evidence || c.ok(r) || noted(r, c.evidence)) continue;
-    silent.push(`${r.slug}: no ${c.field} and no "${c.evidence}: none (...)" in notes`);
+    if (!c.none || counts(c, r)) continue;
+    if (c.none === "logo" && logoSmall(r)) continue; // own list below
+    silent.push(`${r.slug}: no ${c.field} and no "${c.none}: none (...)" in notes`);
   }
 }
 if (silent.length) {
@@ -206,6 +280,21 @@ if (heavyLogos.length) {
   }
 }
 
+// Too small for the card tile: a site icon or a thin strip
+// (docs/playbooks/add-city.md, section 5). Find a bigger file or write
+// "logo: none (...)".
+const smallLogos = rows.filter((r) => logoSmall(r));
+if (smallLogos.length) {
+  failed = true;
+  console.log(
+    `\nLogos too small - need ${MIN_LOGO_LONG_SIDE} px on the long side and ${MIN_LOGO_SHORT_SIDE} px on the short one; a site icon is not a logo (${smallLogos.length}):`
+  );
+  for (const r of smallLogos) {
+    const size = logoSmall(r)!;
+    console.log(`  ${r.slug}: ${r.logo_file} ${size.width}x${size.height}`);
+  }
+}
+
 // Review summaries follow one format (docs/playbooks/review-insights.md);
 // every text in English and in each language of the city.
 const slugs = new Set(allRows.map((r) => r.slug));
@@ -214,6 +303,79 @@ const bothLangs = (v: unknown) => {
   const o = v as Record<string, unknown> | undefined;
   return cityLangs.every((l) => typeof o?.[l] === "string" && (o[l] as string).trim() !== "");
 };
+const TOPICS = ["staff", "results", "prices", "waiting", "place", "communication", "animals"];
+type FeedItem = { ago?: unknown; months?: unknown; stars?: unknown; topics?: unknown };
+function checkFeed(
+  data: { reviews_in_period?: number; period_from?: string; period_to?: string; cards?: { topic?: string; sentiment?: string; mentions?: number }[]; feed?: unknown },
+  ratings: number
+): string[] {
+  const errors: string[] = [];
+  if (!Array.isArray(data.feed)) return [`no "feed" - list every review with text in the period (review-insights.md, "Лента")`];
+  const feed = data.feed as FeedItem[];
+  if (feed.length !== data.reviews_in_period) errors.push(`feed has ${feed.length} reviews, reviews_in_period says ${data.reviews_in_period}`);
+  const from = new Date(data.period_from ?? ""), to = new Date(data.period_to ?? "");
+  const period = Math.round((to.getTime() - from.getTime()) / (30.44 * 24 * 3600 * 1000));
+  if (![6, 12, 24].includes(period)) errors.push(`period ${data.period_from} - ${data.period_to} is ${period} months, need 6, 12 or 24`);
+  let prev = 0;
+  const tally = new Map<string, { plus: number; minus: number; mixed: number }>();
+  feed.forEach((f, i) => {
+    const at = `feed ${i + 1}`;
+    if (typeof f.ago !== "string" || !f.ago.trim()) errors.push(`${at}: "ago" - copy it as Google shows it ("3 months ago")`);
+    const months = f.months as number;
+    if (!Number.isInteger(months) || months < 0) errors.push(`${at}: "months" ${JSON.stringify(f.months)} - a whole number from "ago"`);
+    else {
+      if (months < prev) errors.push(`${at}: ${months} months after ${prev} - list newest first`);
+      if ([6, 12, 24].includes(period) && months >= period) errors.push(`${at}: ${months} months ago is outside the ${period}-month period`);
+      prev = months;
+    }
+    const stars = f.stars as number;
+    if (!Number.isInteger(stars) || stars < 1 || stars > 5) errors.push(`${at}: "stars" ${JSON.stringify(f.stars)} - 1 to 5`);
+    const topics = (f.topics ?? {}) as Record<string, unknown>;
+    if (typeof topics !== "object" || Array.isArray(topics)) {
+      errors.push(`${at}: "topics" - an object like {"staff": "+"}`);
+      return;
+    }
+    for (const [t, v] of Object.entries(topics)) {
+      if (!TOPICS.includes(t)) errors.push(`${at}: topic "${t}" - one of ${TOPICS.join(", ")}`);
+      else if (v !== "+" && v !== "-" && v !== "~") errors.push(`${at}: ${t} "${v}" - "+", "-" or "~"`);
+      else {
+        const c = tally.get(t) ?? { plus: 0, minus: 0, mixed: 0 };
+        if (v === "+") c.plus++;
+        else if (v === "-") c.minus++;
+        else c.mixed++;
+        tally.set(t, c);
+      }
+    }
+    // A 1-2 star review with text complains about something.
+    if (Number.isInteger(stars) && stars <= 2 && !Object.values(topics).some((v) => v === "-" || v === "~")) {
+      errors.push(`${at}: ${stars} stars but no "-" topic - what does it criticise?`);
+    }
+  });
+  // Steps 6 -> 12 -> 24 months: the shortest period with 5+ reviews.
+  if (period === 12 && feed.filter((f) => (f.months as number) < 6).length >= 5) errors.push("5+ reviews in the last 6 months - the period is 6 months");
+  if (period === 24 && feed.filter((f) => (f.months as number) < 12).length >= 5) errors.push("5+ reviews in the last 12 months - the period is 12 months");
+  // Cards: the three most discussed topics, counted from the feed.
+  const countOf = (t: string) => {
+    const c = tally.get(t);
+    return c ? c.plus + c.minus + c.mixed : 0;
+  };
+  const ranked = [...tally.keys()].sort((a, b) => countOf(b) - countOf(a));
+  const third = countOf(ranked[2] ?? "");
+  for (const card of data.cards ?? []) {
+    const t = card.topic ?? "";
+    const n = countOf(t);
+    if (card.mentions !== n) errors.push(`card "${t}": mentions ${card.mentions}, the feed has ${n} reviews on it`);
+    if (n < third) errors.push(`card "${t}" (${n}) - not among the three most discussed topics (${ranked.slice(0, 3).map((x) => `${x} ${countOf(x)}`).join(", ")})`);
+    const c = tally.get(t);
+    if (c && n) {
+      // 4 complaints in 20 is a mixed card (review-insights.md, "Честность").
+      const expected = c.minus > c.plus ? "negative" : (c.minus + c.mixed / 2) / n >= 0.2 ? "mixed" : "positive";
+      if (card.sentiment !== expected) errors.push(`card "${t}": sentiment ${card.sentiment}, the feed says ${expected} (+${c.plus} -${c.minus} ~${c.mixed})`);
+    }
+  }
+  if (ratings > 0 && feed.length > ratings) errors.push(`feed has ${feed.length} reviews, the place has ${ratings} Google ratings in all`);
+  return errors;
+}
 const insightErrors: string[] = [];
 // Texts padded to 250 characters with one stock phrase (lesson from PR
 // #156): the same last four words in texts of many places.
@@ -223,16 +385,22 @@ for (const slug of insights) {
   let data: {
     slug?: string;
     reviews_in_period?: number;
-    cards?: { title?: unknown; text?: unknown; mentions?: number }[];
+    period_from?: string;
+    period_to?: string;
+    observed_at?: string;
+    cards?: { topic?: string; sentiment?: string; title?: unknown; text?: unknown; mentions?: number }[];
     faq?: { q?: unknown; a?: unknown }[];
+    feed?: unknown;
   };
   try {
     data = JSON.parse(fs.readFileSync(file, "utf-8"));
   } catch {
-    insightErrors.push(`${slug}: not valid JSON`);
+    if (inScope(slug)) insightErrors.push(`${slug}: not valid JSON`);
     continue;
   }
-  const err = (m: string) => insightErrors.push(`${slug}: ${m}`);
+  const err = (m: string) => {
+    if (inScope(slug)) insightErrors.push(`${slug}: ${m}`);
+  };
   if (!slugs.has(slug)) err("no place with this slug in businesses.csv");
   if (data.slug !== slug) err(`"slug" is "${data.slug}", file name says "${slug}"`);
   // More text reviews in the period than half of all Google ratings ever
@@ -258,6 +426,16 @@ for (const slug of insights) {
       if (n && (n < 250 || n > 450)) err(`card ${i + 1}: text.${l} is ${n} characters, need 250-450`);
     }
   });
+  // The feed the summary is built from (docs/playbooks/review-insights.md,
+  // "Лента"): every review with text in the period, newest first, as
+  // Google shows it - how long ago, stars, and the topics it talks about.
+  // Mentions and sentiment of the cards are counted from it, so a summary
+  // either follows the reviews or fails here (Warszawa draft, PR #182: two
+  // critical reviews out of three, all cards positive).
+  if ((data.observed_at ?? "") >= EVIDENCE_FROM) {
+    const feedErrors = checkFeed(data, total);
+    for (const e of feedErrors) err(e);
+  }
   const faq = data.faq ?? [];
   if (faq.length < 3 || faq.length > 6) err(`${faq.length} FAQ, need 3-6`);
   faq.forEach((f, i) => {
@@ -265,7 +443,7 @@ for (const slug of insights) {
   });
 }
 for (const [tail, files] of tailFiles) {
-  if (files.size >= 4) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
+  if (files.size >= 4 && [...files].some(inScope)) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
 }
 if (insightErrors.length) {
   failed = true;
@@ -298,7 +476,7 @@ if (vetGaps.length) {
 // listed carries closed=yes with the evidence in notes.
 const CLOSED_WORDS = /(possibly|permanently) closed|trvalo zatvoren|natrvalo zatvoren|dauerhaft geschlossen|trvale zavřen/i;
 const closedIssues: string[] = [];
-for (const r of allRows) {
+for (const r of allRows.filter((x) => inScope(x.slug))) {
   if (isClosed(r) && !/\bclosed: \S/.test(r.notes ?? "")) {
     closedIssues.push(`${r.slug}: closed=yes needs "closed: (<where seen>, <date>)" in notes`);
   }
@@ -367,6 +545,7 @@ if (fs.existsSync(pricesFile)) {
   const categoryOf = new Map(allRows.map((r) => [r.slug, r.category]));
   const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
   prices.forEach((p, i) => {
+    if (!inScope(p.business_slug)) return;
     const at = `prices.csv line ${i + 2} (${p.business_slug}, ${p.price_code})`;
     const category = categoryOf.get(p.business_slug);
     if (!category) return priceErrors.push(`${at}: no place with this slug`);
@@ -419,7 +598,7 @@ if (fs.existsSync(pricesFile)) {
 // keeps its old values).
 const madeUp: string[] = [];
 const byKey = new Map<string, string[]>();
-for (const r of rows) {
+for (const r of cityRows) {
   const keys = [
     r.google_maps_url && `maps ${r.google_maps_url}`,
     r.google_place_id && `place_id ${r.google_place_id}`,
@@ -428,7 +607,7 @@ for (const r of rows) {
   for (const k of keys) byKey.set(`${r.category} ${k}`, [...(byKey.get(`${r.category} ${k}`) ?? []), r.slug]);
 }
 for (const [key, slugs] of byKey) {
-  if (slugs.length > 1) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
+  if (slugs.length > 1 && slugs.some(inScope)) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
 }
 // A clinic and its vet often have two Google cards for one practice:
 // same category, same website, pins within 200 m (PR #144). One entry,
@@ -439,16 +618,17 @@ const metres = (a: Row, b: Row) => {
   const dLng = (Number(a.lng) - Number(b.lng)) * 111_320 * Math.cos((Number(a.lat) * Math.PI) / 180);
   return Math.hypot(dLat, dLng);
 };
-const siteRows = rows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
+const siteRows = cityRows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
 for (let i = 0; i < siteRows.length; i++) {
   for (let j = i + 1; j < siteRows.length; j++) {
     const [a, b] = [siteRows[i], siteRows[j]];
+    if (!inScope(a.slug) && !inScope(b.slug)) continue;
     if (a.category !== b.category || domain(a.website) !== domain(b.website) || metres(a, b) > 200) continue;
     if (/duplicate-check: /.test(a.notes ?? "") && /duplicate-check: /.test(b.notes ?? "")) continue;
     madeUp.push(`probably one place twice (same website ${domain(a.website)}, ${Math.round(metres(a, b))} m apart): ${a.slug}, ${b.slug}`);
   }
 }
-const cids = rows
+const cids = cityRows
   .map((r) => ({ slug: r.slug, cid: /cid=(\d+)/.exec(r.google_maps_url ?? "")?.[1] }))
   .filter((x): x is { slug: string; cid: string } => !!x.cid);
 // Keyed by number: one firm in two categories shares one Maps listing.
@@ -457,7 +637,7 @@ for (const { cid } of cids) {
   for (let i = 0; i + 9 <= cid.length; i++) runs.set(cid.slice(i, i + 9), (runs.get(cid.slice(i, i + 9)) ?? new Set()).add(cid));
 }
 const madeUpCids = new Set([...runs.values()].filter((set) => set.size > 1).flatMap((set) => [...set]));
-const sharing = new Set(cids.filter((x) => madeUpCids.has(x.cid)).map((x) => x.slug));
+const sharing = new Set(cids.filter((x) => madeUpCids.has(x.cid) && inScope(x.slug)).map((x) => x.slug));
 if (sharing.size) madeUp.push(`google_maps_url numbers look made up (share digit runs), copy each from Google Maps: ${[...sharing].join(", ")}`);
 for (const r of rows) {
   const decimals = (v: string) => (v.split(".")[1] ?? "").replace(/0+$/, "").length;
@@ -503,6 +683,167 @@ if (fs.existsSync(pricesFile)) {
     for (const r of pricedCategory.filter((x) => !priced.has(x.slug) && !noted(x, "prices"))) {
       console.log(`  ${r.slug}: no prices and no "prices: none (...)" in notes`);
     }
+  }
+}
+
+// Evidence (docs/playbooks/quality.md, rule 8): one row per value taken
+// from a place's site - the page and a word-for-word quote from it. Rows
+// collected from EVIDENCE_FROM on need it; verify-city then looks for every
+// quote on its page. Older data is not re-proved.
+const evidenceRows: Row[] = [];
+const evidenceErrors: string[] = [];
+for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).sort()) {
+  const text = fs.readFileSync(path.join(dir, f), "utf-8");
+  const header = Papa.parse<string[]>(text.split("\n")[0]).data[0]?.map((h) => h.trim()) ?? [];
+  const missingCols = EVIDENCE_COLUMNS.filter((c) => !header.includes(c));
+  if (missingCols.length) {
+    evidenceErrors.push(`${f}: missing columns ${missingCols.join(", ")} (header: ${EVIDENCE_COLUMNS.join(",")})`);
+    continue;
+  }
+  Papa.parse<Row>(text, { header: true, skipEmptyLines: true }).data.forEach((e, i) => {
+    const at = `${f} line ${i + 2} (${e.business_slug}, ${e.field})`;
+    evidenceRows.push(e);
+    if (!inScope(e.business_slug)) return;
+    if (!slugs.has(e.business_slug)) evidenceErrors.push(`${at}: no place with this slug`);
+    const fieldError = badField((e.field ?? "").trim());
+    if (fieldError) evidenceErrors.push(`${at}: ${fieldError}`);
+    const quote = (e.quote ?? "").trim();
+    if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
+      evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
+    }
+    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote) : null;
+    if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
+    if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test((e.observed_at ?? "").trim())) evidenceErrors.push(`${at}: observed_at YYYY-MM-DD`);
+  });
+}
+const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
+const missingEvidence: string[] = [];
+const needing = rows.filter((r) => needsEvidence(r) || inChunkFile(r));
+for (const r of needing) {
+  const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
+  if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
+}
+// Prices: the quote of each price line carries the number (or its parts).
+if (fs.existsSync(pricesFile)) {
+  const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  for (const p of prices.filter((x) => (x.observed_at ?? "").trim() >= EVIDENCE_FROM && inScope(x.business_slug))) {
+    const quotes = evidenceOf(p.business_slug, `price:${p.price_code}`).map((e) => e.quote);
+    if (!quotes.length) {
+      missingEvidence.push(`${p.business_slug}: price:${p.price_code}`);
+      continue;
+    }
+    for (const v of [p.price_from, p.price_to].map((x) => (x ?? "").trim()).filter(Boolean)) {
+      if (!priceInQuotes(Number(v), quotes)) evidenceErrors.push(`${p.business_slug}, ${p.price_code}: ${v} is not in its quote(s) - "${quotes[0].slice(0, 60)}"`);
+    }
+  }
+}
+// One quote on many places from different sites is not copied from them.
+const byQuote = new Map<string, { slugs: Set<string>; domains: Set<string> }>();
+for (const e of evidenceRows) {
+  const q = squash(e.quote ?? "");
+  if (q.length < 20) continue;
+  const entry = byQuote.get(q) ?? { slugs: new Set(), domains: new Set() };
+  entry.slugs.add(e.business_slug);
+  entry.domains.add(domainOf(e.source_url ?? ""));
+  byQuote.set(q, entry);
+}
+for (const [q, { slugs: s, domains }] of byQuote) {
+  if (s.size >= 3 && domains.size >= 3 && [...s].some(inScope)) evidenceErrors.push(`same quote on ${s.size} places from ${domains.size} sites - "${q.slice(0, 50)}": ${[...s].slice(0, 4).join(", ")}`);
+}
+// Not the place's own site, a social page or its Maps card: a catalog is
+// never a source (add-city.md, "Откуда брать факты"). Listed for the
+// reviewer - a place can have a second domain (booking, chain site).
+const foreign = evidenceRows.filter((e) => {
+  if (!inScope(e.business_slug)) return false;
+  const place = allRows.find((r) => r.slug === e.business_slug);
+  const url = (e.source_url ?? "").trim();
+  if (!place || !url || isSocial(url) || isGoogleMaps(url)) return false;
+  return !has(place, "website") || domainOf(place.website) !== domainOf(url);
+});
+console.log(
+  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} need them, ${missingEvidence.length} still miss some`
+);
+if (missingEvidence.length) {
+  failed = true;
+  console.log(`\nEvidence missing - a quote from the page for each value (quality.md, rule 8) (${missingEvidence.length}):`);
+  for (const m of missingEvidence) console.log(`  ${m}`);
+}
+if (evidenceErrors.length) {
+  failed = true;
+  console.log(`\nevidence (${evidenceErrors.length}):`);
+  for (const e of evidenceErrors) console.log(`  ${e}`);
+}
+if (foreign.length) {
+  console.log(`\nWarning - evidence not from the place's own site (${foreign.length}); a catalog is not a source:`);
+  for (const e of foreign.slice(0, 20)) console.log(`  ${e.business_slug} ${e.field}: ${e.source_url}`);
+}
+
+// Candidates (add-city.md, "Партии"): the list a city is collected from,
+// batch by batch - one row per place found, before the details.
+const candidatesFile = path.join(dir, "candidates.csv");
+if (!scope && fs.existsSync(candidatesFile)) {
+  const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
+  const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  const candErrors: string[] = [];
+  const seen = new Map<string, number>();
+  cands.forEach((c, i) => {
+    const at = `candidates.csv line ${i + 2} (${c.name})`;
+    if (!CATEGORIES.includes((c.category ?? "").trim())) candErrors.push(`${at}: category "${c.category}"`);
+    if (!(c.name ?? "").trim()) candErrors.push(`${at}: no name`);
+    const url = (c.google_maps_url ?? "").trim();
+    if (!url && !/maps: none \(.+\)/.test(c.notes ?? "")) candErrors.push(`${at}: no google_maps_url and no "maps: none (...)" in notes`);
+    if (url) {
+      if (seen.has(url)) candErrors.push(`${at}: same Maps link as line ${seen.get(url)}`);
+      seen.set(url, i + 2);
+    }
+    const n = (c.google_rating_count ?? "").trim();
+    if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
+  });
+  const perCategory = CATEGORIES.map((k) => `${k} ${cands.filter((c) => c.category === k).length}`).join(", ");
+  console.log(`\nCandidates: ${cands.length} (${perCategory})`);
+  if (candErrors.length) {
+    failed = true;
+    for (const e of candErrors) console.log(`  ${e}`);
+  }
+}
+
+// Gates (quality.md, rule 10): every chunk of new data - a
+// businesses-<NN>-<category>.csv file, or up to 10 review summaries -
+// passed `npm run gate` and has not changed since. The stamp holds a
+// fingerprint of the chunk; any edit after the gate needs the gate again.
+if (!scope) {
+  const gateErrors: string[] = [];
+  const table: string[] = [];
+  for (const c of placeChunks(dir)) {
+    if (c.rows.length > CHUNK_SIZE) gateErrors.push(`businesses-${c.id}.csv: ${c.rows.length} places - a chunk is ${CHUNK_SIZE} at most, split the file`);
+    const st = readStamp(dir, c.id);
+    if (!st) gateErrors.push(`${c.id}: never passed the gate - run npm run gate -- ${city}`);
+    else if (!stampValid(dir, logosDir, st, c)) {
+      gateErrors.push(`${c.id}: ${st.result === "PASS" ? "changed after its gate" : "last gate FAIL"} - run npm run gate -- ${city}`);
+    }
+  }
+  const ins = insightChunks(dir);
+  for (const c of ins.stamped) {
+    const st = readStamp(dir, c.id);
+    if (!stampValid(dir, logosDir, st, c)) {
+      gateErrors.push(`${c.id}: ${st?.result === "PASS" ? "summaries changed after their gate" : "last gate FAIL"} - run npm run gate -- ${city}`);
+    }
+  }
+  if (ins.unstamped.length) gateErrors.push(`${ins.unstamped.length} review summaries never passed the gate: ${ins.unstamped.slice(0, 5).join(", ")}${ins.unstamped.length > 5 ? ", ..." : ""}`);
+  for (const st of allStamps(dir)) {
+    const rounds = st.history.length;
+    const first = st.history[0];
+    table.push(`  ${st.chunk.padEnd(24)} ${String(st.slugs.length).padStart(3)} places  ${st.result}  rounds ${rounds}${first && first.result === "FAIL" ? ` (first: ${first.listed} lines to fix)` : ""}`);
+  }
+  if (table.length) {
+    console.log(`\nGates (${table.length} chunks):`);
+    for (const t of table) console.log(t);
+  }
+  if (gateErrors.length) {
+    failed = true;
+    console.log(`\nChunks without a valid gate - check every ${CHUNK_SIZE} before the next (quality.md, rule 10) (${gateErrors.length}):`);
+    for (const e of gateErrors) console.log(`  ${e}`);
   }
 }
 
