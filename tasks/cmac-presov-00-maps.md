@@ -1,13 +1,14 @@
 # Задача: Prešov — партия 0, кандидаты и проход Maps
 
-**Исполнитель:** Claude Code CLI (локальный)
+**Исполнитель:** Claude Code CLI (Mac)
 **Роль:** Data agent.
 **Тип:** новый город, партия 0 (без мест), один PR.
-**Ветка:** `cli/presov-00-maps`
+**Ветка:** `cmac/presov-00-maps`
 **Ветка PR:** `city/presov` (ветка города; в `main` город уводит
 проверяющий одним PR, когда готовы все партии).
-**Зависимости:** нет. Эта задача разблокирует `ide-city-presov.md` и
-`antigravity-city-presov.md` — брать первой.
+**Зависимости:** нет. Эта задача разблокирует `mac2-city-presov.md`
+(Antigravity Mac 2). Порядок в очереди CLI (Mac) — `cmac-city-krakow.md`,
+«Очередь CLI (Mac)»: сразу после PR партии 2 Кракова.
 
 Решения владельца: следующие города — Prešov и Kraków (2026-09-28);
 специализация (2026-09-29, `AGENTS.md`, «Специализация») — всё с
@@ -32,7 +33,7 @@ Google Maps делает CLI, места по сайтам — Antigravity. Зд
 
 1. Ветка города, если её нет:
    `git fetch origin && git push origin origin/main:refs/heads/city/presov`.
-   Своя ветка `cli/presov-00-maps` — от `origin/city/presov`.
+   Своя ветка `cmac/presov-00-maps` — от `origin/city/presov`.
 2. `data/cities/presov/city.json` — `locale` `sk`, `locales` `["sk"]`,
    `in_city`: `{"en": "in Prešov", "sk": "v Prešove"}`, `timezone`
    `Europe/Bratislava`, `currency` `EUR` (образец — `data/cities/kosice/city.json`).
