@@ -31,11 +31,12 @@
 - **Claude Code CLI (Mac)** — ещё один исполнитель на Mac владельца,
   своя очередь задач (`cmac-*.md`).
 
-**Сейчас работают только агенты на Mac (владелец, 2026-09-29):**
-Antigravity (Mac), Antigravity (Mac 2) и Claude Code CLI (Mac). Задачи
-ставятся только им (`mac-`, `mac2-`, `cmac-`); Antigravity IDE, Desktop и
-локальный CLI на паузе, их открытые PR ждут их возвращения (PR #186 —
-сводки Кошице, Desktop).
+**Сейчас работают только Antigravity (Mac 2) и Claude Code CLI (Mac)
+(владелец, 2026-09-29).** Задачи ставятся только им (`mac2-`, `cmac-`).
+Antigravity (Mac), IDE, Desktop и локальный CLI на паузе: задачи
+Antigravity (Mac) переданы Mac 2 (его ветка `mac/warszawa-descriptions`
+продолжается в `mac2/…`), открытые PR остальных ждут их возвращения
+(PR #186 — сводки Кошице, Desktop).
 
 ## Проект
 
