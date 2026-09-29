@@ -213,6 +213,59 @@ if (templated.length) {
   for (const t of templated) console.log(`  ${t}`);
 }
 
+// Texts say only what the place says (add-city.md §3): no praise of our
+// own, and no claim the card's data contradicts. Lesson from the Warszawa
+// rewrite (2026-09-29): "modern", "renowned" in 37 of 85 texts; "doctors
+// consult in English" at a clinic whose notes say "site pl only".
+// An error for new data (chunk files, observed_at from EVIDENCE_FROM), a
+// warning for older rows until their texts are rewritten.
+const PROMO =
+  /\b(best|finest|top[- ]rated|leading|renowned|famous|professional|high[- ]quality|affordable|modern|contemporary|state[- ]of[- ]the[- ]art|cutting[- ]edge|experienced|premier|exceptional|outstanding|excellent|world[- ]class)\b|najlepsz|renomowan|profesjonaln|wysokiej jakości|przystępn\w* cen|nowoczesn|doświadczon|wyjątkow|doskonał|najlepš|profesionáln|kvalitn|dostupn\w* cen|modern[ýáé]|skúsen|výnimočn|vynikajúc/i;
+const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
+  {
+    what: "speaks English, but languages_spoken has no en",
+    says: /\benglish\b|angielsk|po angielsku|anglick|po anglicky/i,
+    ok: (r) => cityMetaLocale() === "en" || /(^|;)\s*en\s*(;|$)/.test(r.languages_spoken ?? ""),
+  },
+  {
+    what: "open round the clock, but hours are not 24h and there is no emergency note",
+    says: /24\s*\/\s*7|round[- ]the[- ]clock|around the clock|24 hours|nonstop|non-stop|całodob|całą dobę|nepretržit/i,
+    ok: (r) =>
+      /24h/.test(r.opening_hours ?? "") ||
+      /^yes$/i.test((r.emergency_24_7 ?? "").trim()) ||
+      has(r, "emergency_note") ||
+      /supervision_24h/.test(r.facts ?? ""), // a hotel's round-the-clock care
+  },
+  {
+    what: "issues pet passports, but facts has no pet_passport",
+    says: /passport|paszport|\bpas(y|u|ov)? pre|europsk\w* pas/i,
+    ok: (r) => /pet_passport/.test(r.facts ?? ""),
+  },
+];
+function cityMetaLocale(): string | undefined {
+  try {
+    return (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { locale?: string }).locale;
+  } catch {
+    return undefined;
+  }
+}
+const textIssues: { slug: string; strict: boolean; line: string }[] = [];
+for (const r of rows) {
+  const strict = needsEvidence(r) || inChunkFile(r);
+  const text = TEXT_FIELDS.map((f) => (r[f] ?? "").split(r.name).join(" ")).join(" \n ");
+  const promo = text.match(PROMO);
+  if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
+  for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+}
+if (textIssues.length) {
+  const strictOnes = textIssues.filter((t) => t.strict);
+  if (strictOnes.length) failed = true;
+  console.log(
+    `\n${strictOnes.length ? "" : "Warning - "}Texts that say more than the place and its data (${textIssues.length}; add-city.md §3):`
+  );
+  for (const t of textIssues) console.log(`  ${t.slug}: ${t.line}`);
+}
+
 // Every missing logo, rating or hours needs a trace of the search.
 const silent: string[] = [];
 for (const r of rows) {

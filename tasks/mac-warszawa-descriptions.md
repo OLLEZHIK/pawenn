@@ -76,6 +76,65 @@
   `npm run verify-city -- warszawa` → `VERIFIED`, вывод обоих целиком в PR.
 - В PR: 6 примеров «было → стало» (по одному на категорию) и список мест,
   где сайта нет и текст сделан по карточке Google.
-- Логотипы: сколько заменено, сколько `logo: none (...)`; доля логотипов
-  в `check-city` — не меньше 80 %.
+- Логотипы: сколько заменено, сколько `logo: none (...)`; в `check-city`
+  нет строк «Logos too small»; настоящих логотипов не меньше 80 % или у
+  каждого остального места `logo: none (где смотрел)`.
+- В `check-city` нет раздела «Texts that say more than the place and its
+  data» по Варшаве.
 - Самопроверка `quality.md` (§2) в PR.
+
+## Ревью ветки `mac/warszawa-descriptions` (коммит d45fc95) — доделать и открыть PR
+
+Оркестратор, 2026-09-29. Ветка запушена, **PR не открыт** — работа не
+сдана (`quality.md`, правило 4). Продолжать **в этой же ветке**, новую не
+создавать.
+
+**Что хорошо.** Шаблонов больше нет: у всех 85 мест свои тексты,
+`check-city` не находит одинаковых описаний. Менялись только четыре
+текстовых столбца, как в задаче.
+
+**Что доделать — три пункта.**
+
+1. **Подтянуть `main` в ветку** (там новые проверки):
+   `git checkout mac/warszawa-descriptions && git pull origin main`
+   (слияние, без rebase и без force-push). После этого
+   `cd website && npm install` и `npm run check-city -- warszawa`.
+
+2. **Тексты — только то, что место пишет само** (`add-city.md` §3).
+   `check-city` теперь печатает раздел «Texts that say more than the
+   place and its data» — сейчас в нём **34 строки** по вашим текстам:
+   - рекламные слова от себя у 32 мест: «modern», «professional»,
+     «experienced», «state-of-the-art», «cutting-edge», «nowoczesna»,
+     «doświadczony», «renomowany», «wyjątkowy» и т. п. Заменить на то,
+     что место делает («USG i RTG», «strzyżenie ras», «szkolenia
+     grupowe»), или убрать;
+   - `koniczynavet`: в тексте «консультации на польском и английском», а
+     в данных `languages: none (site pl only)`. Английского на сайте нет —
+     убрать из текста;
+   - `domowy-hotel-dla-psow-i-swin`: в тексте присмотр круглые сутки, а
+     фактов нет вовсе. Если сайт это пишет — поставить факт
+     `supervision_24h` со ссылкой-доказательством в `notes`, иначе убрать
+     из текста. Там же «One-of-a-kind», «cage-free», «customized diets» —
+     оставить только то, что есть на сайте.
+
+   Скрипт ловит не всё. Проверить глазами и остальные тексты: детали
+   вроде «Instructors help owners understand canine body language
+   thoroughly» (`co-pies-na-to-szkolenie-psow`, на сайте этого нет) или
+   «Staff advise on tailoring meals» — только если это написано на сайте
+   места. Не уверен — не писать.
+
+3. **Логотипы** (раздел «Логотипы» выше, добавлен 2026-09-28): 45 мест
+   с иконкой сайта 16–118 px (`check-city`: «Logos too small»).
+
+**Порядок работы — по 10 мест.** Исправить 10 мест (тексты и логотип) →
+`npm run check-city -- warszawa` → в списках нет этих 10 мест → коммит →
+следующие 10. (Ворота `npm run gate` здесь не нужны: это правка старого
+файла, а не новый кусок.)
+
+**Сдача:** `check-city` → `READY`, `verify-city` → `VERIFIED`, **открыть
+PR** в `main` с заголовком `Warszawa: descriptions and logos` и всем, что
+в «Готово, когда». Если какой-то сайт или логотип найти не удаётся —
+`logo: none (где смотрел)` и дальше; если не работает сам инструмент —
+открыть PR с тем, что есть, и описать это в `## Открытый вопрос`.
+
+После PR этой задачи — `tasks/mac-city-krakow.md` (партия 0).
