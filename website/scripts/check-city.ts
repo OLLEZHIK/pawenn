@@ -773,6 +773,36 @@ for (const r of rows) {
     if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
   }
 }
+// A city split between agents (AGENTS.md, "Специализация", owner
+// 2026-09-29): Claude Code CLI copies each place's Google Maps card into
+// candidates.csv (batch 0, the Maps pass), and the agent who collects the
+// places from their sites copies the Maps columns from there - it doesn't
+// open Google Maps. A Maps-pass list has a google_rating column; an older
+// list (Kraków) doesn't, and one agent takes those values from the card.
+const candidatesFile = path.join(dir, "candidates.csv");
+const candidates = fs.existsSync(candidatesFile)
+  ? Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true })
+  : null;
+const mapsPass = !!candidates?.meta.fields?.includes("google_rating");
+if (candidates && mapsPass) {
+  const byUrl = new Map(candidates.data.filter((c) => has(c, "google_maps_url")).map((c) => [c.google_maps_url.trim(), c]));
+  for (const r of rows.filter((r) => inChunkFile(r) && has(r, "google_maps_url"))) {
+    const c = byUrl.get(r.google_maps_url.trim());
+    if (!c) {
+      madeUp.push(`${r.slug}: google_maps_url is not in candidates.csv - copy this place's link from there, don't search Google Maps (AGENTS.md, "Специализация")`);
+      continue;
+    }
+    for (const key of ["google_rating", "google_rating_count"]) {
+      const want = (c[key] ?? "").trim();
+      if ((r[key] ?? "").trim() !== want) madeUp.push(`${r.slug}: ${key} "${(r[key] ?? "").trim()}" - candidates.csv has "${want}", copy it from there`);
+    }
+    // Hours "from the Maps card" are the ones the Maps pass copied; the
+    // site's own hours carry the site's page as hours_source_url.
+    if (isGoogleMaps(r.hours_source_url ?? "") && (r.opening_hours ?? "").trim() !== (c.opening_hours ?? "").trim()) {
+      madeUp.push(`${r.slug}: opening_hours from Google Maps "${(r.opening_hours ?? "").trim()}" - candidates.csv has "${(c.opening_hours ?? "").trim()}"; copy them, or take the site's hours with the site's page as hours_source_url`);
+    }
+  }
+}
 if (linkWarnings.length) {
   console.log(`\nWarning - Maps links that disagree with themselves, older rows (${linkWarnings.length}):`);
   for (const w of linkWarnings) console.log(`  ${w}`);
@@ -899,11 +929,11 @@ if (foreign.length) {
 
 // Candidates (add-city.md, "Партии"): the list a city is collected from,
 // batch by batch - one row per place found, before the details.
-const candidatesFile = path.join(dir, "candidates.csv");
-if (!scope && fs.existsSync(candidatesFile)) {
+if (!scope && candidates) {
   const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
-  const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  const cands = candidates.data;
   const candErrors: string[] = [];
+  for (const e of candidates.errors) candErrors.push(`candidates.csv line ${(e.row ?? 0) + 2}: ${e.message} - put text with commas in "quotes"`);
   const seen = new Map<string, number>();
   cands.forEach((c, i) => {
     const at = `candidates.csv line ${i + 2} (${c.name})`;
@@ -919,6 +949,18 @@ if (!scope && fs.existsSync(candidatesFile)) {
     }
     const n = (c.google_rating_count ?? "").trim();
     if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
+    // The Maps pass (AGENTS.md, "Специализация"): the card's rating, hours
+    // and date, as a place row would have them (add-city.md, section 4).
+    if (mapsPass && url) {
+      const stars = (c.google_rating ?? "").trim();
+      if (stars && !/^[1-5]\.\d$/.test(stars)) candErrors.push(`${at}: google_rating "${stars}" - as on the card, e.g. 4.7`);
+      if (!!stars !== !!n) candErrors.push(`${at}: google_rating and google_rating_count go together - both from the card, or both empty under 5 ratings`);
+      if (n && Number(n) < 5) candErrors.push(`${at}: ${n} ratings - under 5 leave both rating fields empty`);
+      if (!stars && !/rating: none \(.+\)/.test(c.notes ?? "")) candErrors.push(`${at}: no google_rating and no "rating: none (...)" in notes`);
+      const hoursError = parseOpeningHours(c.opening_hours).error;
+      if (hoursError) candErrors.push(`${at}: opening_hours - ${hoursError}`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test((c.observed_at ?? "").trim())) candErrors.push(`${at}: observed_at - the date the card was copied, YYYY-MM-DD`);
+    }
   });
   const perCategory = CATEGORIES.map((k) => `${k} ${cands.filter((c) => c.category === k).length}`).join(", ");
   console.log(`\nCandidates: ${cands.length} (${perCategory})`);
