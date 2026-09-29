@@ -4,8 +4,8 @@
 **Роль:** Data / content agent.
 **Тип:** исправление данных, объём маленький (≈15 мест, только тексты).
 **Ветка:** `antigravity/kosice-texts-sources`
-**Зависимости:** нет. Можно делать после текущих задач по отзывам
-(`antigravity-kosice-reviews-longer.md`, `antigravity-warszawa-reviews.md`).
+**Зависимости:** нет. Сводки Варшавы переданы Antigravity (Mac 2)
+(2026-09-29), так что эта задача — следующая для Desktop.
 
 Поставлено облачным Claude Code (оркестратор) 2026-09-29 по итогам ревью
 [#175](https://github.com/OLLEZHIK/shop/pull/175): замечания из
