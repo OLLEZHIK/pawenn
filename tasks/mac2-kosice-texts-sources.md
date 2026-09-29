@@ -70,3 +70,60 @@ suroviny), `chovprodukt` (mäsové taštičky), `eco-dog-walker`
   (сайт / соцсеть, с цитатой 3–5 слов; или «только данные строки»).
 - `cd website && npm run check-city -- kosice` → `READY`, вывод в PR.
 - Самопроверка `quality.md` (§2) в PR.
+
+## Ревью 2 — коммит 83fef03 (2026-09-29, 11:49)
+
+**Что сделано хорошо:**
+- у 11 мест без сайта улиц и районов больше нет, тексты короткие;
+- тексты `lu-ma-kupelna-pre-psy` и `cassovet-veterinarna-klinika` (RTG,
+  sono, лаборатория, мягкие ткани, похотовость) сходятся с сайтами;
+- у Petstar исправлен сайт;
+- самопроверка честная: невыполненные пункты не отмечены.
+
+**Что поправить — 4 пункта, в той же ветке:**
+
+1. **Цитаты в файл.** С 2026-09-29 `check-city` сравнивает ветку с
+   `main`: если текст места с сайтом переписан, нужна цитата
+   `description` (`quality.md`, правило 8). Сейчас `check-city -- kosice`
+   на ветке — `NOT READY`, цитат нет у `cassovet-veterinarna-klinika`,
+   `lu-ma-kupelna-pre-psy` и `prokop-luboslav-pro-aqua`. Цитаты уже
+   есть в описании PR — перенести их в
+   `data/cities/kosice/evidence-texts.csv`:
+
+   ```
+   business_slug,field,quote,source_url,observed_at
+   lu-ma-kupelna-pre-psy,description,"<цитата как есть на странице>",https://www.lumakupelna.sk/...,2026-09-29
+   ```
+
+   Формат — `add-city.md`, раздел 1.4. Цитата — дословно со страницы,
+   10–400 символов.
+2. **`cassovet-veterinarna-klinika`.** «orthopedic procedures» и «rapid
+   blood testing» я не нашёл ни на главной, ни на «Naše služby», ни на
+   «Moderné prístrojové vybavenie». Либо цитата со страницы, где это
+   написано, либо убрать из текста.
+3. **`prokop-luboslav-pro-aqua`.** Сайт пишет «pre morské i sladkovodné
+   akváriá» и про отдел teraristiky. Сейчас в тексте «focused on
+   freshwater aquaristics» — это сужает. Нужно «freshwater and marine»
+   или без уточнения.
+4. **Места без сайта — только категория и название.** Эти детали не
+   взяты ни из одного источника, их нужно убрать:
+   - `maskrtnik`: «dog bakery», «baked dog biscuits» / «pekáreň»,
+     «pečené sušienky»;
+   - `chovprodukt`: «bowls» / «misky na kŕmenie»;
+   - `barf-vet-veterinarna-ambulancia`: «advice on raw diets (BARF)» /
+     «poradenstvo k BARF strave» — это догадка по названию;
+   - `eco-dog-walker`: «home visits for feeding»;
+   - `mvdr-erik-hudec-…`: «under veterinary supervision» / «pod
+     dohľadom veterinára».
+
+   Например: «Pet shop in Košice.» / «Predajňa chovateľských potrieb v
+   Košiciach.».
+
+**Готово, когда:**
+- `cd website && npm run check-city -- kosice` → «Evidence missing» без
+  этих мест;
+- `npm run verify-city -- kosice` → `VERIFIED` (цитаты найдены);
+- вывод обоих скриптов — в PR.
+
+Правки из других разделов `check-city` (логотипы, рекламные слова у
+других мест) — не этой задачи: `mac2-kosice-logos.md` и следующие.
