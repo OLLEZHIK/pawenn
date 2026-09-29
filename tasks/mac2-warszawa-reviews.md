@@ -128,3 +128,34 @@
 (`mixed`/`negative`). Периоды — ступенями 6 → 12 → 24 месяца (плейбук,
 новая редакция). До PR: `check-city -- warszawa` с проверками из
 `claude/check-city-templates` — без ошибок.
+
+---
+
+## Партия 1 (пилот, места 74–83): отчёт проверки
+
+Проверены карточки всех 10 мест партии в Google Maps.
+У всех 10 мест в среде Antigravity (Mac 2) отдаётся урезанный вид Google Maps:
+*«Korzystasz z ograniczonego widoku Map Google... Zaloguj się»* (DMA-ограничение ЕС для сессий без авторизации),
+в котором вкладка «Opinie» (Reviews) полностью скрыта интерфейсом.
+
+По плейбуку `docs/playbooks/review-insights.md` («Если инструмент не работает») и `docs/playbooks/quality.md` (правило 9):
+все 10 мест занесены в список «без сводки» с указанием причины, работа остановлена без догадок и выдумки данных.
+
+| # | Место (slug) | Категория | Оценок Google | Ссылка Google Maps | Статус | Причина |
+|---|---|---|---|---|---|---|
+| 74 | `malowany-pies` | GROOMING | 81 | [Maps](https://maps.google.com/?cid=17309712111003918938) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 75 | `dogadajcie-sie-warszawa-targowek` | DOG_TRAINING | 78 | [Maps](https://maps.google.com/?cid=5082400573615695716) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 76 | `psybrothers-salon-groomerski` | GROOMING | 77 | [Maps](https://maps.google.com/?cid=16008224193257379380) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 77 | `psi-zakatek` | PET_HOTEL | 76 | [Maps](https://maps.google.com/?cid=11119526060400487382) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 78 | `koci-hotelik` | PET_HOTEL | 72 | [Maps](https://maps.google.com/?cid=1080097132488977115) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 79 | `cat-mahal` | PET_HOTEL | 52 | [Maps](https://maps.google.com/?cid=11742720551948740167) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 80 | `hotel-dla-kotow` | PET_HOTEL | 45 | [Maps](https://maps.google.com/?cid=6560686689070509994) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 81 | `hotel-dla-kotow-malutki` | PET_HOTEL | 42 | [Maps](https://maps.google.com/?cid=1223860396949489268) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 82 | `kociocia-marta-galan` | PET_SITTING | 32 | [Maps](https://maps.google.com/?cid=1570223888687032888) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+| 83 | `petsitter-w-warszawie` | PET_SITTING | 29 | [Maps](https://maps.google.com/?cid=2047897308518437658) | без сводки | Google Maps limited view (DMA, вкладка отзывов скрыта) |
+
+## Вопрос от исполнителя (ждём ответа)
+
+В изолированной сессии пользователя `claude` (Antigravity Mac 2) headless Chrome не имеет доступа к авторизованной сессии Google (куки Chrome шифруются через macOS Keychain пользователя GUI). Из-за этого Google Maps выдаёт ограниченный вид без вкладки «Opinie». 
+Как предпочтительнее организовать сбор ленты отзывов: настроить авторизованный профиль для сессии `claude`, либо передать сбор лент исполнителю Claude Code CLI (Mac), у которого поднят MCP Playwright с авторизованным профилем?
+
