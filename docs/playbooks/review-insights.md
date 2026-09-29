@@ -1,7 +1,9 @@
 # Инструкция: «Что говорят клиенты» — сводка отзывов и FAQ
 
-**Для кого:** исполнитель (Antigravity), любой город. Делается вторым
-проходом после `businesses.csv` города (`docs/playbooks/add-city.md`).
+**Для кого:** исполнитель — Claude Code CLI (`cli-`, `cmac-`; с
+2026-09-29 работа с Google Maps только у CLI, `AGENTS.md`,
+«Специализация»), любой город. Делается вторым проходом после
+`businesses.csv` города (`docs/playbooks/add-city.md`).
 Перед работой — `docs/playbooks/quality.md`.
 
 ## Зачем
