@@ -96,17 +96,18 @@ export const FACT_WORDS: Record<string, RegExp> = {
   cage_free: /bez klietok|bez klatek|bezklatk|bez kotc|cage[- ]free|no cages/i,
   vaccination_required: /očkovan|szczepi|vaccin/i,
   supervision_24h: /24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|24 godziny na dobę|24\/7|round the clock/i,
-  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|by appointment only|appointment only|only by appointment/i,
+  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|nie ?umówien\w*[^.]{0,60}nie (będą |są )?przyjmowan|przyjmujemy (wyłącznie|tylko) umówion|by appointment only|appointment only|only by appointment/i,
   walk_in: /bez objedn|bez obiednania|bez umówieni|bez zapisów|bez rejestracji|walk[- ]in|no appointment/i,
-  online_booking: /online|on-line|rezerva|objedna|umów|zarezerwuj|book/i,
+  online_booking: /online|on-line|rezerva|rezerwac|objedna|umów|zarezerwuj|book/i,
 };
 
 const LANGUAGE_WORDS: Record<string, RegExp> = {
-  en: /english|anglick|angličtin|angielsk|englisch|\ben\b|🇬🇧|🇺🇸/i,
-  de: /deutsch|nemeck|nemčin|niemieck|german|\bde\b|🇩🇪|🇦🇹/i,
+  en: /english|anglick|angličtin|angielsk|po angielsku|englisch|\ben\b|🇬🇧|🇺🇸/i,
+  de: /deutsch|nemeck|nemčin|německ|němčin|niemieck|po niemiecku|german|\bde\b|🇩🇪|🇦🇹/i,
   hu: /magyar|maďar|węgiersk|hungar|\bhu\b|🇭🇺/i,
-  uk: /ukrain|україн|\bua\b|🇺🇦/i,
-  ru: /rusk|rusky|rosyjsk|russian|русск|🇷🇺/i,
+  // Polish "ukraińskim" has ń, Slovak "ukrajinsky" has j (Kraków batch 1).
+  uk: /ukrai[nń]|ukrajin|україн|\bua\b|🇺🇦/i,
+  ru: /rusk|rusky|ruštin|rosyjsk|po rosyjsku|russian|русск|\bru\b|🇷🇺/i,
   pl: /pols(k|ki)|poľsk|polish|polnisch|🇵🇱/i,
   cs: /česk|češtin|czesk|czech|tschech|🇨🇿/i,
   sk: /slovensk|słowack|slovak|slowak|🇸🇰/i,
@@ -117,9 +118,17 @@ const LANGUAGE_WORDS: Record<string, RegExp> = {
 
 const NONSTOP_WORDS = /24\s*\/\s*7|24\s*h|24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|round the clock|24 hours/i;
 
+/** The page is the site's own version in that language: "?lang=en",
+ *  "/en/", "en." - docs/card-spec.md §8 counts a language version of the
+ *  site as that language (Retina, Kraków batch 1: WPML English pages). */
+export function isLanguageVersion(url: string, code: string): boolean {
+  return new RegExp(`[?&](lang|language|hl|locale)=${code}\\b|/${code}(/|$|\\?|#)|^https?://${code}\\.`, "i").test(url.trim());
+}
+
 /** A quote that does not name what it should prove: text of the error, or null. */
-export function quoteMismatch(field: string, quote: string): string | null {
+export function quoteMismatch(field: string, quote: string, url = ""): string | null {
   const [base, code] = field.split(":");
+  if (base === "languages" && isLanguageVersion(url, code)) return null;
   const re =
     base === "facts" ? FACT_WORDS[code] : base === "languages" ? LANGUAGE_WORDS[code] : base === "emergency_24_7" ? NONSTOP_WORDS : undefined;
   if (re && !re.test(quote)) return `quote does not name ${field}`;
@@ -181,4 +190,24 @@ export function squash(s: string): string {
     .replace(/[“”„«»]/g, '"')
     .replace(/[‘’‚´`]/g, "'")
     .replace(/\s+/g, "");
+}
+
+/** A Google Maps link copied from a place card carries the place twice:
+ *  the feature ID "!1s0x<a>:0x<b>" and the place ID "!19sChIJ…", which is
+ *  those two numbers encoded. A link put together by hand gets them out of
+ *  step. Returns an error text, or null when the link agrees with itself
+ *  (or does not carry both parts). Kraków batch 0: 481 of 481 agreed. */
+export function mapsLinkMismatch(url: string, placeId?: string): string | null {
+  const feature = /!1s0x([0-9a-f]+):0x([0-9a-f]+)/i.exec(url);
+  const pid = /!19s(ChIJ[0-9A-Za-z_-]+)/.exec(url)?.[1];
+  if (placeId && pid && placeId.trim() !== pid) return `google_place_id ${placeId.trim()} is not the one in its Maps link (${pid})`;
+  if (!feature || !pid) return null;
+  const bytes = Buffer.from(pid.replace(/-/g, "+").replace(/_/g, "/"), "base64");
+  if (bytes.length < 20 || bytes[0] !== 0x0a || bytes[2] !== 0x09 || bytes[11] !== 0x11) return `place ID ${pid} in the Maps link is not a Google place ID`;
+  const a = bytes.readBigUInt64LE(3).toString(16);
+  const b = bytes.readBigUInt64LE(12).toString(16);
+  if (a !== feature[1].toLowerCase().replace(/^0+/, "") || b !== feature[2].toLowerCase().replace(/^0+/, "")) {
+    return "the place ID and the feature ID in the Maps link are of two different places - copy the link from the card";
+  }
+  return null;
 }

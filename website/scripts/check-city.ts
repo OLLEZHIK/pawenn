@@ -15,6 +15,7 @@
 // checks only those places (the gate runs it this way for one chunk);
 // comparisons with the rest of the city - one text on several places,
 // the same Maps link twice - still see the whole city.
+import { execFileSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -22,6 +23,7 @@ import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
+import { inMultiPolygon } from "../lib/pointInPolygon";
 import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
 import { CHUNK_SIZE, allStamps, insightChunks, placeChunks, readStamp, stampValid } from "./chunks";
 import {
@@ -33,6 +35,7 @@ import {
   domainOf,
   isGoogleMaps,
   isSocial,
+  mapsLinkMismatch,
   needsEvidence,
   priceInQuotes,
   quoteMismatch,
@@ -129,7 +132,7 @@ const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?
 const counts = (c: (typeof CHECKS)[number], r: Row) => c.value(r) || (!!c.none && noted(r, c.none));
 
 let failed = false;
-const closedCount = allRows.length - rows.length;
+const closedCount = allRows.length - cityRows.length;
 console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
 console.log("field                         value   none   share  target");
 const lowValue: string[] = [];
@@ -194,6 +197,50 @@ if (badHours.length) {
 // the same paragraph on dozens of pages: all of Košice and Warszawa
 // (2026-09-28). Compared without the place's name, by the last 12 words.
 const TEXT_FIELDS = ["short_description", "short_description_local", "description", "description_local"];
+
+// Old rows changed on this branch (2026-09-29): new texts or new codes in an
+// old row are new writing and need what new rows need - a quote from the
+// site, text rules as errors. Mac rewrote all 85 Warszawa texts of old rows
+// without a quote and gave places services their sites don't list. The base
+// is where the branch left main; without git or origin/main, nothing is
+// compared.
+const CODE_FIELDS: [string, string][] = [["facts", "facts"], ["specialties", "specialties"], ["languages_spoken", "languages"]];
+const changedOnBranch = new Map<string, Set<string>>();
+try {
+  const git = (...args: string[]) => execFileSync("git", args, { cwd: path.join(process.cwd(), ".."), encoding: "utf-8", stdio: ["ignore", "pipe", "ignore"] });
+  const base = git("merge-base", "HEAD", "origin/main").trim();
+  for (const f of new Set(allRows.map((r) => r.__file))) {
+    let before: Row[];
+    try {
+      before = Papa.parse<Row>(git("show", `${base}:data/cities/${city}/${f}`), { header: true, skipEmptyLines: true }).data;
+    } catch {
+      continue; // a new file: its rows are new data anyway
+    }
+    const old = new Map(before.map((r) => [r.slug, r]));
+    for (const r of allRows.filter((x) => x.__file === f)) {
+      const o = old.get(r.slug);
+      if (!o) continue;
+      const keys = new Set<string>();
+      if (TEXT_FIELDS.some((k) => (r[k] ?? "").trim() !== (o[k] ?? "").trim())) keys.add("description");
+      for (const [col, key] of CODE_FIELDS) {
+        const had = new Set((o[col] ?? "").split(";").map((c) => c.trim()));
+        for (const c of (r[col] ?? "").split(";").map((x) => x.trim()).filter(Boolean)) if (!had.has(c)) keys.add(`${key}:${c}`);
+      }
+      if (keys.size) changedOnBranch.set(r.slug, keys);
+    }
+  }
+} catch {
+  // no git history here: only dates and chunk files mark new data
+}
+const isNewData = (r: Row) => needsEvidence(r) || inChunkFile(r);
+const strictText = (r: Row) => isNewData(r) || changedOnBranch.get(r.slug)?.has("description") === true;
+// A place with no site and no social page: the text can say only what the
+// row says (category, name, address). A long text with services has them
+// from nowhere (PR #199; 6 Warszawa places, 2026-09-29).
+const NO_SOURCE_TEXT = 220;
+const noSourceText = (r: Row) =>
+  !has(r, "website") && !has(r, "instagram") && !has(r, "facebook") &&
+  ["description", "description_local"].some((k) => (r[k] ?? "").trim().length > NO_SOURCE_TEXT);
 const templated: string[] = [];
 for (const field of TEXT_FIELDS) {
   const byTail = new Map<string, string[]>();
@@ -242,6 +289,15 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];
+// The text is for visitors, not a log of how we collected the card
+// (Kraków batch 2, PR #213: "its own website currently shows only a server
+// error", "opening hours come from the Google Maps card" in 7 texts). Where
+// we looked goes in notes.
+const SOURCE_TALK =
+  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)/i;
+// Opening hours are on the card; copied into the text they go stale when the
+// place changes them (a warning: "open on Sundays" is fine, times are not).
+const TIMES_IN_TEXT = /\b\d{1,2}[:.]\d{2}\b/;
 function cityMetaLocale(): string | undefined {
   try {
     return (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { locale?: string }).locale;
@@ -249,13 +305,74 @@ function cityMetaLocale(): string | undefined {
     return undefined;
   }
 }
+// Where the text puts the place (Mac 2's Košice rewrite, PR #199, 2026-09-29:
+// 9 of 11 texts moved places to streets and districts they are not in).
+// A district named in the text must be the one its coordinates fall in
+// (districts.geojson); a street named as the place's own must be in its
+// address - a warning only, since a text may mention a second site.
+type District = { name: string; forms: string[]; coords: number[][][][] };
+const districtsFile = path.join(dir, "districts.geojson");
+const districts: District[] = fs.existsSync(districtsFile)
+  ? (
+      JSON.parse(fs.readFileSync(districtsFile, "utf-8")) as {
+        features: { properties: { name: string; in?: Record<string, string> }; geometry: { type: string; coordinates: unknown } }[];
+      }
+    ).features.map((f) => ({
+      name: f.properties.name,
+      // "v Petržalke" -> "Petržalke": the name as the text would use it
+      forms: [f.properties.name, ...Object.values(f.properties.in ?? {}).map((x) => x.split(" ").slice(1).join(" "))].filter(
+        (x) => x.length >= 3
+      ),
+      coords: (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates) as number[][][][],
+    }))
+  : [];
+const wordIn = (text: string, word: string) =>
+  new RegExp(`(^|[^\\p{L}])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^\\p{L}]|$)`, "iu").test(text);
+const fold = (x: string) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const STREET = [
+  /\bon (?:the )?([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,40}?) (?:Street|street|Avenue|avenue|Road|road)\b/gu,
+  /\bna ([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30}?) ulici\b/gu,
+  /\bna ulici ([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30})/gu,
+  /\b(?:przy|na) ul(?:icy|\.) ?([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30})/gu,
+];
+const SECOND_SITE = /second|another|other site|also|drug|druh|ďalš|tiež|także|też/i;
+const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] => {
+  const out: { strict: boolean; line: string }[] = [];
+  const lat = Number(r.lat), lng = Number(r.lng);
+  if (districts.length && has(r, "lat") && has(r, "lng")) {
+    const own = districts.filter((d) => inMultiPolygon(lng, lat, d.coords)).map((d) => d.name);
+    for (const d of districts) {
+      if (own.includes(d.name)) continue;
+      const hit = d.forms.find((f) => wordIn(text, f));
+      if (hit) out.push({ strict: true, line: `text names district "${hit}", but the place is in ${own.join(", ") || "no district"} by its coordinates` });
+    }
+  }
+  const address = fold(r.address ?? "");
+  for (const re of STREET) {
+    for (const m of text.matchAll(re)) {
+      const before = text.slice(Math.max(0, (m.index ?? 0) - 40), m.index);
+      const stem = fold(m[1]).split(/\s+/).find((w) => w.length >= 4)?.slice(0, 4);
+      if (!stem || SECOND_SITE.test(before) || address.includes(stem)) continue;
+      out.push({ strict: false, line: `text puts the place on "${m[1].trim()}", the address is "${r.address}"` });
+    }
+  }
+  return out;
+};
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
-  const strict = needsEvidence(r) || inChunkFile(r);
+  const strict = strictText(r);
   const text = TEXT_FIELDS.map((f) => (r[f] ?? "").split(r.name).join(" ")).join(" \n ");
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  const source = text.match(SOURCE_TALK);
+  if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
+  const time = text.match(TIMES_IN_TEXT);
+  if (time) textIssues.push({ slug: r.slug, strict: false, line: `"${time[0]}" - hours in the text go stale; they are on the card already` });
+  for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
+  if (noSourceText(r)) {
+    textIssues.push({ slug: r.slug, strict, line: `no site or social page, but a text over ${NO_SOURCE_TEXT} characters - say only what the row says (category, name, address)` });
+  }
 }
 if (textIssues.length) {
   const strictOnes = textIssues.filter((t) => t.strict);
@@ -699,6 +816,7 @@ for (const r of rows) {
   }
   if (city !== "bratislava" && (r.animals ?? "").trim()) madeUp.push(`${r.slug}: animals is not collected - leave it empty`);
 }
+const linkWarnings: string[] = [];
 // The Google place ID is the "ChIJ..." one (in a copied link after
 // "!19s"), not the "0x...:0x..." feature ID; the pin is the one in the
 // copied link (!3d lat !4d lng), not a guess nearby (PR #144).
@@ -706,11 +824,49 @@ for (const r of rows) {
   if (has(r, "google_place_id") && !/^ChIJ[0-9A-Za-z_-]{20,}$/.test(r.google_place_id.trim())) {
     madeUp.push(`${r.slug}: google_place_id "${r.google_place_id}" is not a place ID (ChIJ...) - take it from the Maps link after !19s`);
   }
+  // The link agrees with itself (scripts/evidence.ts, mapsLinkMismatch):
+  // an error for new data, a warning for older rows.
+  const linkError = mapsLinkMismatch(r.google_maps_url ?? "", r.google_place_id);
+  if (linkError) (needsEvidence(r) || inChunkFile(r) ? madeUp : linkWarnings).push(`${r.slug}: ${linkError}`);
   const pin = /!3d(-?[\d.]+)!4d(-?[\d.]+)/.exec(r.google_maps_url ?? "");
   if (pin && has(r, "lat")) {
     const off = metres(r, { lat: pin[1], lng: pin[2] } as Row);
     if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
   }
+}
+// A city split between agents (AGENTS.md, "Специализация", owner
+// 2026-09-29): Claude Code CLI copies each place's Google Maps card into
+// candidates.csv (batch 0, the Maps pass), and the agent who collects the
+// places from their sites copies the Maps columns from there - it doesn't
+// open Google Maps. A Maps-pass list has a google_rating column; an older
+// list (Kraków) doesn't, and one agent takes those values from the card.
+const candidatesFile = path.join(dir, "candidates.csv");
+const candidates = fs.existsSync(candidatesFile)
+  ? Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true })
+  : null;
+const mapsPass = !!candidates?.meta.fields?.includes("google_rating");
+if (candidates && mapsPass) {
+  const byUrl = new Map(candidates.data.filter((c) => has(c, "google_maps_url")).map((c) => [c.google_maps_url.trim(), c]));
+  for (const r of rows.filter((r) => inChunkFile(r) && has(r, "google_maps_url"))) {
+    const c = byUrl.get(r.google_maps_url.trim());
+    if (!c) {
+      madeUp.push(`${r.slug}: google_maps_url is not in candidates.csv - copy this place's link from there, don't search Google Maps (AGENTS.md, "Специализация")`);
+      continue;
+    }
+    for (const key of ["google_rating", "google_rating_count"]) {
+      const want = (c[key] ?? "").trim();
+      if ((r[key] ?? "").trim() !== want) madeUp.push(`${r.slug}: ${key} "${(r[key] ?? "").trim()}" - candidates.csv has "${want}", copy it from there`);
+    }
+    // Hours "from the Maps card" are the ones the Maps pass copied; the
+    // site's own hours carry the site's page as hours_source_url.
+    if (isGoogleMaps(r.hours_source_url ?? "") && (r.opening_hours ?? "").trim() !== (c.opening_hours ?? "").trim()) {
+      madeUp.push(`${r.slug}: opening_hours from Google Maps "${(r.opening_hours ?? "").trim()}" - candidates.csv has "${(c.opening_hours ?? "").trim()}"; copy them, or take the site's hours with the site's page as hours_source_url`);
+    }
+  }
+}
+if (linkWarnings.length) {
+  console.log(`\nWarning - Maps links that disagree with themselves, older rows (${linkWarnings.length}):`);
+  for (const w of linkWarnings) console.log(`  ${w}`);
 }
 if (madeUp.length) {
   failed = true;
@@ -764,7 +920,7 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
     if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
       evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
     }
-    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote) : null;
+    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote, e.source_url ?? "") : null;
     if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
     if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test((e.observed_at ?? "").trim())) evidenceErrors.push(`${at}: observed_at YYYY-MM-DD`);
@@ -772,9 +928,12 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
 }
 const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
 const missingEvidence: string[] = [];
-const needing = rows.filter((r) => needsEvidence(r) || inChunkFile(r));
+const needing = rows.filter((r) => isNewData(r) || changedOnBranch.has(r.slug));
 for (const r of needing) {
-  const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
+  // An old row proves only what changed on this branch.
+  const changed = changedOnBranch.get(r.slug);
+  const required = requiredEvidence(r).filter((k) => isNewData(r) || changed?.has(k));
+  const need = required.filter((k) => evidenceOf(r.slug, k).length === 0);
   if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
 }
 // Prices: the quote of each price line carries the number (or its parts).
@@ -815,7 +974,7 @@ const foreign = evidenceRows.filter((e) => {
   return !has(place, "website") || domainOf(place.website) !== domainOf(url);
 });
 console.log(
-  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} need them, ${missingEvidence.length} still miss some`
+  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} or changed on this branch need them, ${missingEvidence.length} still miss some`
 );
 if (missingEvidence.length) {
   failed = true;
@@ -834,11 +993,11 @@ if (foreign.length) {
 
 // Candidates (add-city.md, "Партии"): the list a city is collected from,
 // batch by batch - one row per place found, before the details.
-const candidatesFile = path.join(dir, "candidates.csv");
-if (!scope && fs.existsSync(candidatesFile)) {
+if (!scope && candidates) {
   const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
-  const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  const cands = candidates.data;
   const candErrors: string[] = [];
+  for (const e of candidates.errors) candErrors.push(`candidates.csv line ${(e.row ?? 0) + 2}: ${e.message} - put text with commas in "quotes"`);
   const seen = new Map<string, number>();
   cands.forEach((c, i) => {
     const at = `candidates.csv line ${i + 2} (${c.name})`;
@@ -849,9 +1008,23 @@ if (!scope && fs.existsSync(candidatesFile)) {
     if (url) {
       if (seen.has(url)) candErrors.push(`${at}: same Maps link as line ${seen.get(url)}`);
       seen.set(url, i + 2);
+      const linkError = mapsLinkMismatch(url);
+      if (linkError) candErrors.push(`${at}: ${linkError}`);
     }
     const n = (c.google_rating_count ?? "").trim();
     if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
+    // The Maps pass (AGENTS.md, "Специализация"): the card's rating, hours
+    // and date, as a place row would have them (add-city.md, section 4).
+    if (mapsPass && url) {
+      const stars = (c.google_rating ?? "").trim();
+      if (stars && !/^[1-5]\.\d$/.test(stars)) candErrors.push(`${at}: google_rating "${stars}" - as on the card, e.g. 4.7`);
+      if (!!stars !== !!n) candErrors.push(`${at}: google_rating and google_rating_count go together - both from the card, or both empty under 5 ratings`);
+      if (n && Number(n) < 5) candErrors.push(`${at}: ${n} ratings - under 5 leave both rating fields empty`);
+      if (!stars && !/rating: none \(.+\)/.test(c.notes ?? "")) candErrors.push(`${at}: no google_rating and no "rating: none (...)" in notes`);
+      const hoursError = parseOpeningHours(c.opening_hours).error;
+      if (hoursError) candErrors.push(`${at}: opening_hours - ${hoursError}`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test((c.observed_at ?? "").trim())) candErrors.push(`${at}: observed_at - the date the card was copied, YYYY-MM-DD`);
+    }
   });
   const perCategory = CATEGORIES.map((k) => `${k} ${cands.filter((c) => c.category === k).length}`).join(", ");
   console.log(`\nCandidates: ${cands.length} (${perCategory})`);
