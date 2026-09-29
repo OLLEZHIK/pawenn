@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
+import { listingPath } from "@/lib/categories";
+import { usePageCity } from "./useHead";
 import type { CityPointLite } from "@/lib/geo";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import type { ServiceLink } from "./BrowseMenu";
@@ -23,7 +25,11 @@ interface MobileMenuProps {
 export function MobileMenu({ locale, services, cities, defaultCitySlug }: MobileMenuProps) {
   const [open, setOpen] = useState(false);
   const t = getDictionary(locale);
-  const { open: openService, pending } = useServiceNavigation(locale, cities, defaultCitySlug, () => setOpen(false));
+  // The page's own city (a Warszawa page opens Warszawa lists), else the
+  // language's city from the server.
+  const pageCity = usePageCity();
+  const citySlug = pageCity ?? defaultCitySlug;
+  const { open: openService, pending } = useServiceNavigation(locale, cities, citySlug, () => setOpen(false));
 
   useEffect(() => {
     if (!open) return;
@@ -85,7 +91,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                 {services.map((s, i) => (
                   <li key={s.href} className="rise-in" style={{ animationDelay: `${i * 40}ms` }}>
                     <Link
-                      href={s.href}
+                      href={listingPath(locale, s.category, citySlug)}
                       onClick={(e) => openService(s.category, e)}
                       className="flex h-full flex-col gap-3 rounded-[var(--radius-card)] bg-surface p-4 shadow-[var(--shadow-card)]"
                       style={{ "--accent": s.accent } as React.CSSProperties}

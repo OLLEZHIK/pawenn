@@ -32,6 +32,7 @@ import { Breadcrumbs } from "./Breadcrumbs";
 import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
 import { money, moneyRange } from "@/lib/money";
+import { PageCity } from "./PageCity";
 
 /** City page: places per service before the "see all" link. */
 const HUB_PER_CATEGORY = 5;
@@ -187,6 +188,7 @@ export async function CategoryListing({
 
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
+      <PageCity slug={city.slug} />
       {/* The places on this page, in the order shown (SEO audit T15). */}
       {shownItems.length > 0 && (
         <script

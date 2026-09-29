@@ -7,6 +7,7 @@ import { MobileMenu } from "./MobileMenu";
 import { BrowseMenu, type ServiceLink } from "./BrowseMenu";
 import { FindCareButton, SearchDialog } from "./SearchDialog";
 import { HeaderShell } from "./HeaderShell";
+import { LanguageSwitch } from "./LanguageSwitch";
 
 export async function Header({ locale }: { locale: Locale }) {
   const [defaultCity, allCities, cityPoints] = await Promise.all([getDefaultCity(), getAllCities(), getCityPoints()]);
@@ -66,6 +67,7 @@ export async function Header({ locale }: { locale: Locale }) {
           >
             {t.nav.listBusiness}
           </Link>
+          <LanguageSwitch variant="header" />
           <span aria-hidden="true" className="mx-2 h-8 w-px bg-foreground/15" />
           <FindCareButton
             label={t.nav.findCare}
@@ -75,6 +77,7 @@ export async function Header({ locale }: { locale: Locale }) {
 
         {/* Phones: a search button next to Browse opens the same dialog. */}
         <div className="flex items-center gap-2 lg:hidden">
+          <LanguageSwitch variant="header" />
           <FindCareButton
             compact
             label={t.nav.findCare}
