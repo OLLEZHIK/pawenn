@@ -27,7 +27,7 @@
 ```markdown
 # Задача: <что> — <город / объём>
 
-**Исполнитель:** <Antigravity IDE | Antigravity (Mac) | Antigravity (Desktop / Hub) | Claude Code CLI>
+**Исполнитель:** <Antigravity IDE | Antigravity (Mac) | Antigravity (Desktop / Hub) | Claude Code CLI | Claude Code CLI (Mac)>
 **Роль:** <Data agent | Content agent>
 **Тип:** <новый город | исправление данных | сводки отзывов>, куски по 10, партии по 1–3 куска.
 **Ветка PR:** <`city/<slug>` для нового города | `main`>
