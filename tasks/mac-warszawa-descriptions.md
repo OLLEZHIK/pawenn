@@ -7,6 +7,8 @@
 **Зависимости:** нет. Начать от свежего `main` (проверки из
 `claude/check-city-templates` уже в нём, PR #184).
 
+**Сейчас (проверяющий, 2026-09-29):** в ветке `mac/warszawa-descriptions` сделать «Ревью 3» (в конце файла), затем открыть PR.
+
 Поставлено «левой рукой» по указанию владельца (2026-09-28). Варшава
 на сайте с PR #169. Сводки отзывов (пункт 7 прежней задачи
 `mac-city-warszawa.md`) в эту задачу **не входят**: их делает «левая
@@ -167,3 +169,67 @@ PR** в `main` с заголовком `Warszawa: descriptions and logos` и в�
 Краков передан Claude Code CLI (Mac) (`tasks/cmac-city-krakow.md`,
 2026-09-29), чтобы город начался сейчас, а не после этой задачи.
 Следующую задачу для Antigravity (Mac) поставит проверяющий после PR.
+
+### Ревью 3 — ветка до коммита 6656868 (2026-09-29, 11:43)
+
+**Что сделано хорошо.** Пункты ревью 1 и 2 выполнены, `check-city` по
+старым правилам — `READY`:
+- рекламных слов нет, у `koniczynavet` больше нет английского;
+- 68 настоящих логотипов и 17 `logo: none (...)`;
+- специальности как в `main`; у `centrum-zdrowia-malych-zwierzat` коды
+  только убраны, а убирать можно без цитаты.
+
+Тексты `koniczynavet` и `kociocia-marta-galan` сходятся с сайтами.
+
+**Но тексты снова говорят больше, чем сайты.** Я сверил 4 сайта — у 2
+из них выдумка:
+- `malowany-pies`:
+  - «ozonoterapia», «hydromasaż», «czesanie kotów» — этого нет ни на
+    главной, ни в cenniku, ни на странице kąpieli;
+  - «strzyżenie wystawowe» — сайт прямо пишет «fryzury wystawowe
+    (obecnie niewykonywane)».
+- `psi-zakatek`: «24h supervision», ogrodzony ogród, leśne spacery,
+  diety, «bez kojców», «z dala od zgiełku» — на сайте ничего из этого
+  нет. Сайт пишет: «domowy hotel dla psów i kotów, petsitting, spacery
+  z psami oraz dzienną opiekę», а коты из текста пропали.
+- 6 мест без сайта и соцсетей — в текстах услуги из ниоткуда:
+  - `lecznica-weterynaryjna`: «digital radiology, ultrasound, soft
+    tissue operations, dental scaling»;
+  - `planeta-zoo`: «birds, small rodents… Helpful shop assistants
+    gladly recommend».
+
+Ещё про порядок работы: 9 коммитов «по 10 мест» появились за 3 минуты.
+Куски по 10 нужны, чтобы сверить 10 мест с сайтами до следующих 10, а не
+чтобы разложить готовую работу на коммиты.
+
+**Что теперь ловит скрипт (с 2026-09-29, `quality.md`, правило 8).**
+`check-city` сравнивает ветку с `main`:
+- у переписанного текста места с сайтом должна быть цитата
+  `description`;
+- у места без сайта и соцсетей текст длиннее 220 символов — ошибка.
+
+На твоей ветке с этой проверкой — `NOT READY`: 79 мест без цитаты и 6
+длинных текстов без источника.
+
+**Что сделать:**
+1. `git pull origin main` в ветку, потом `cd website && npm install`.
+2. Работать по 10 мест. Для каждого места с сайтом:
+   - открыть сайт;
+   - записать в `data/cities/warszawa/evidence-descriptions.csv` 1–3
+     строки с полем `description` — цитаты как есть со страниц, на
+     которых построен текст (услуги, животные, неотложка);
+     формат — `add-city.md`, раздел 1.4;
+   - всё в тексте, чего нет в цитатах, убрать.
+
+   Потом `npm run check-city -- warszawa`: в разделах «Evidence missing»
+   и «Texts…» не должно быть этих 10 мест. Коммит — следующие 10.
+3. У 6 мест без сайта (`lecznica-weterynaryjna`, `hau-mial`,
+   `beauty-dog-warszawa`, `psi-fryzjer`,
+   `groomer-z-nowolipek-psi-fryzjer-warszawa`, `planeta-zoo`) текст
+   только из строки: категория и название, до 220 символов. Например,
+   «Dog grooming salon in Warsaw.» / «Salon pielęgnacji psów w
+   Warszawie.».
+4. `check-city -- warszawa` → `READY`, `verify-city -- warszawa` →
+   `VERIFIED` (все цитаты найдены на страницах). Потом открыть PR
+   `Warszawa: descriptions and logos`, с выводом обоих скриптов и
+   самопроверкой.
