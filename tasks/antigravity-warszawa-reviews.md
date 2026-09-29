@@ -2,7 +2,7 @@
 
 **Исполнитель:** Antigravity (Desktop / Hub)
 **Роль:** Content agent.
-**Тип:** сводки отзывов, 83 места, партии по 4–10 мест.
+**Тип:** сводки отзывов, 83 места, куски по 10 (у самых больших мест — меньше) с воротами, партия (PR) — 1–3 куска.
 **Ветка PR:** `main` (каждая партия — свой PR).
 **Зависимости:** нет; порядок — после `antigravity-kosice-reviews-longer.md`
 (её PR #186 уже открыт). Начать от свежего `main`.
@@ -32,18 +32,13 @@
 Одна сессия — одна строка. Брать первую строку, у которой ещё нет
 ветки, если PR предыдущей строки смёржен.
 
-| # | Места (номера) | Ветка |
+| # | Места (номера) и куски | Ветка |
 |---|---|---|
-| 1 | 74–83 | `antigravity/warszawa-reviews-01` |
-| 2 | 64–73 | `antigravity/warszawa-reviews-02` |
-| 3 | 54–63 | `antigravity/warszawa-reviews-03` |
-| 4 | 44–53 | `antigravity/warszawa-reviews-04` |
-| 5 | 34–43 | `antigravity/warszawa-reviews-05` |
-| 6 | 24–33 | `antigravity/warszawa-reviews-06` |
-| 7 | 14–23 | `antigravity/warszawa-reviews-07` |
-| 8 | 9–13 (1100–1600 оценок) | `antigravity/warszawa-reviews-08` |
-| 9 | 5–8 | `antigravity/warszawa-reviews-09` |
-| 10 | 1–4 | `antigravity/warszawa-reviews-10` |
+| 1 | 74–83 — один кусок (пилот) | `antigravity/warszawa-reviews-01` |
+| 2 | 44–73 — куски 64–73, 54–63, 44–53 | `antigravity/warszawa-reviews-02` |
+| 3 | 14–43 — куски 34–43, 24–33, 14–23 | `antigravity/warszawa-reviews-03` |
+| 4 | 5–13 (1000–1800 оценок) — куски 9–13, 5–8 | `antigravity/warszawa-reviews-04` |
+| 5 | 1–4 (1900–3000 оценок) — один кусок | `antigravity/warszawa-reviews-05` |
 
 ## Что сделать в каждой партии
 
@@ -52,6 +47,10 @@
 6 месяцев; меньше 5 — за 12, потом за 24 месяца (плейбук, «Для каких
 мест»).
 
+- **Кусками с воротами** (`quality.md`, правило 10): сводки одного куска
+  → `cd website && npm run gate -- warszawa` → `GATE FAIL` — исправить по
+  ленте и снова, `GATE PASS` — закоммитить вместе со штампом
+  `data/cities/warszawa/checks/insights-<NN>.json` → следующий кусок.
 - ≥ 5 отзывов — файл `data/cities/warszawa/review-insights/<slug>.json`
   по плейбуку за самый короткий подходящий период, языки **`en` и
   `pl`** (польский — живой, не перевод). В файле — **лента `feed`**:
@@ -86,8 +85,10 @@
 
 - **PR открыт в `main`** (коммит — не сдача), заголовок
   `Warszawa: review summaries — партия <N>`.
-- `cd website && npm run check-city -- warszawa` → в разделе
-  `review-insights format` нет строк про места этой партии; вывод в PR.
+- У каждого куска партии — `GATE PASS` (штамп в `checks/`).
+- `cd website && npm run check-city -- warszawa` → в разделах
+  `review-insights format` и «Chunks without a valid gate» нет строк про
+  места этой партии; вывод в PR.
   (Остальные строки `NOT READY` Варшавы — логотипы, описания — не
   этой задачи: перечислить их в PR как «не моё».)
 - В PR — таблица по местам партии: ссылка на Maps, отзывов с текстом

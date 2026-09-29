@@ -2,7 +2,7 @@
 
 **Исполнитель:** Antigravity (Mac)
 **Роль:** Data agent.
-**Тип:** новый город (до 100 мест), партии по 10–15 мест одной категории.
+**Тип:** новый город (до 100 мест), куски по 10 мест с воротами, партия (PR) — 1–3 куска.
 **Ветка PR:** `city/krakow` (ветка города; в `main` город уводит
 проверяющий одним PR, когда готовы все партии).
 **Зависимости:** `tasks/mac-warszawa-descriptions.md` — сначала её PR
@@ -17,7 +17,8 @@ Prešov (Словакия, задача IDE). Братислава — обра�
 `docs/playbooks/quality.md`, правила 8 и 9, и `docs/playbooks/add-city.md`,
 разделы «Партии» и 1.4. Коротко: одна сессия — одна партия; к каждому
 значению с сайта — цитата со страницы в `evidence-<NN>-<категория>.csv`;
-не открылось — `none (...)`, это засчитывается.
+не открылось — `none (...)`, это засчитывается. **С 2026-09-29:** правило
+10 — кусками по 10 с `npm run gate` после каждого.
 
 ## Партии
 
@@ -28,15 +29,13 @@ Prešov (Словакия, задача IDE). Братислава — обра�
 | # | Что | Ветка |
 |---|---|---|
 | 0 | Создать ветку `city/krakow` (`add-city.md`, «Партии»); `city.json`, `districts.geojson`, `candidates.csv` — все 6 категорий, без деталей | `mac/krakow-00-candidates` |
-| 1 | VET_CLINIC, места 1–10 из `candidates.csv` по числу оценок | `mac/krakow-01-vet` |
-| 2 | VET_CLINIC, места 11–25 | `mac/krakow-02-vet` |
-| 3 | VET_CLINIC, места 26–40 | `mac/krakow-03-vet` |
-| 4 | GROOMING, места 1–15 | `mac/krakow-04-grooming` |
-| 5 | PET_SHOP, места 1–15 | `mac/krakow-05-shops` |
-| 6 | PET_HOTEL, места 1–15 | `mac/krakow-06-hotels` |
-| 7 | DOG_TRAINING и PET_SITTING — вместе до 15 | `mac/krakow-07-other` |
+| 1 | VET_CLINIC, места 1–10 из `candidates.csv` по числу оценок — кусок 01 (пилот) | `mac/krakow-01-vet` |
+| 2 | VET_CLINIC, места 11–40 — куски 02, 03, 04 | `mac/krakow-02-vet` |
+| 3 | VET_CLINIC, места 41–50 и GROOMING, места 1–20 — куски 05, 06, 07 | `mac/krakow-03-vet-grooming` |
+| 4 | PET_SHOP и PET_HOTEL — кусками по 10 одной категории, до 3 кусков | `mac/krakow-04-shops-hotels` |
+| 5 | DOG_TRAINING и PET_SITTING — кусками по 10 одной категории | `mac/krakow-05-other` |
 
-Строки 2–7 проверяющий уточнит по `candidates.csv` после ревью партии
+Строки 2–5 проверяющий уточнит по `candidates.csv` после ревью партии
 0: сколько мест брать в каждой категории (до 100 на город, ветклиники ≈
 половина, как в Братиславе), лишние строки уберёт, нужные добавит.
 Самому строки не менять.
@@ -65,6 +64,14 @@ Prešov (Словакия, задача IDE). Братислава — обра�
    каталоги, что с районами.
 
 ### Партии 1…n
+
+**Кусками по 10 с воротами** (`quality.md`, правило 10): 10 мест в файле
+куска `businesses-<NN>-<категория>.csv` (+ `evidence-<NN>-<категория>.csv`)
+→ `cd website && npm run gate -- krakow` → `GATE FAIL` — исправить по
+списку, заново открыв источник, и снова (3-й круг: несошедшееся — пусто
+и `none (...)`); `GATE PASS` — закоммитить кусок вместе со штампом
+`data/cities/krakow/checks/<NN>-<категория>.json` → следующие 10. `NN` —
+номер куска в городе по порядку.
 
 Места из строки таблицы — по **`docs/playbooks/add-city.md`**, поля — по
 **`docs/card-spec.md`**: файлы `businesses-<NN>-<категория>.csv` и
@@ -119,8 +126,9 @@ Prešov (Словакия, задача IDE). Братислава — обра�
 
 - **PR открыт в `city/krakow`** (коммит — не сдача), заголовок
   `City data: Kraków — партия <N> (<категория>)`.
-- `cd website && npm run check-city -- krakow` → `READY` и
-  `npm run verify-city -- krakow` → `VERIFIED` (с партии 1), вывод обоих
-  целиком в PR.
+- У каждого куска партии — `GATE PASS` (штамп в `checks/`).
+- `cd website && npm run check-city -- krakow` → `READY` (с таблицей
+  «Gates») и `npm run verify-city -- krakow` → `VERIFIED` (с партии 1),
+  вывод обоих целиком в PR.
 - В PR — самопроверка `quality.md` (§2), таблица заполненности по
   полям, что не нашлось и почему, где инструмент не сработал.

@@ -7,7 +7,14 @@
 // Checks, per place: texts in both languages, coordinates, a way to
 // contact, and for logo / Google rating / opening hours either a value or
 // a "<field>: none (<where searched>)" line in notes. Per city: coverage
-// of each field against its target.
+// of each field against its target, and a PASS gate for every chunk of
+// new data (scripts/chunks.ts).
+//
+//   npm run check-city -- warszawa --only=slug-a,slug-b
+//
+// checks only those places (the gate runs it this way for one chunk);
+// comparisons with the rest of the city - one text on several places,
+// the same Maps link twice - still see the whole city.
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -16,6 +23,7 @@ import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
 import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
+import { CHUNK_SIZE, allStamps, insightChunks, placeChunks, readStamp, stampValid } from "./chunks";
 import {
   EVIDENCE_COLUMNS,
   EVIDENCE_FROM,
@@ -46,14 +54,28 @@ if (!fs.existsSync(dir)) {
   process.exit(2);
 }
 
+// Rows keep the file they came from: rows of a chunk file
+// (businesses-<NN>-<category>.csv) need evidence and a gate whatever
+// their dates say. A row with more cells than the header - text with a
+// comma and no quotes - shifts every column after it.
+const csvErrors: string[] = [];
 const allRows: Row[] = fs
   .readdirSync(dir)
   .filter((f) => /^businesses.*\.csv$/.test(f))
-  .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data);
+  .flatMap((f) => {
+    const parsed = Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true });
+    for (const e of parsed.errors) csvErrors.push(`${f} line ${(e.row ?? 0) + 2}: ${e.message} - put text with commas in "quotes"`);
+    return parsed.data.map((r) => ({ ...r, __file: f }));
+  });
+const inChunkFile = (r: Row) => /^businesses-/.test(r.__file ?? "");
 // closed=yes: permanently closed after it was listed - kept only so its old
 // URL redirects (docs/card-spec.md §11). Not shown, not counted below.
 const isClosed = (r: Row) => /^yes$/i.test((r.closed ?? "").trim());
-const rows = allRows.filter((r) => !isClosed(r));
+const only = process.argv.find((a) => a.startsWith("--only="))?.slice("--only=".length).split(",").filter(Boolean);
+const scope = only ? new Set(only) : null;
+const inScope = (slug: string) => !scope || scope.has(slug);
+const cityRows = allRows.filter((r) => !isClosed(r));
+const rows = cityRows.filter((r) => inScope(r.slug));
 const insights = new Set(
   fs.existsSync(path.join(dir, "review-insights"))
     ? fs.readdirSync(path.join(dir, "review-insights")).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""))
@@ -137,10 +159,19 @@ for (const key of ["maps", "rating"]) {
   }
 }
 
+if (csvErrors.length) {
+  failed = true;
+  console.log(`\nCSV rows the seed would read wrong (${csvErrors.length}):`);
+  for (const e of csvErrors) console.log(`  ${e}`);
+}
+
 // Slugs: the seed refuses anything but a-z, 0-9 and single hyphens, and a
 // refused slug stops the whole production seed (first Warszawa data:
 // "kociocia---marta-galan", 2026-09-28).
-const badSlugs = allRows.map((r) => r.slug ?? "").filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
+const badSlugs = allRows
+  .filter((r) => inScope(r.slug))
+  .map((r) => r.slug ?? "")
+  .filter((s) => !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s));
 if (badSlugs.length) {
   failed = true;
   console.log(`\nInvalid slug - only a-z, 0-9 and single hyphens (${badSlugs.length}):`);
@@ -166,14 +197,14 @@ const TEXT_FIELDS = ["short_description", "short_description_local", "descriptio
 const templated: string[] = [];
 for (const field of TEXT_FIELDS) {
   const byTail = new Map<string, string[]>();
-  for (const r of rows) {
+  for (const r of cityRows) {
     const words = (r[field] ?? "").split(r.name).join(" ").toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean);
     if (words.length < 6) continue;
     const tail = words.slice(-12).join(" ");
     byTail.set(tail, [...(byTail.get(tail) ?? []), r.slug]);
   }
   for (const slugs of byTail.values()) {
-    if (slugs.length > 1) templated.push(`${field}: same text on ${slugs.length} places - ${slugs.slice(0, 4).join(", ")}${slugs.length > 4 ? ", ..." : ""}`);
+    if (slugs.length > 1 && slugs.some(inScope)) templated.push(`${field}: same text on ${slugs.length} places - ${slugs.slice(0, 4).join(", ")}${slugs.length > 4 ? ", ..." : ""}`);
   }
 }
 if (templated.length) {
@@ -364,10 +395,12 @@ for (const slug of insights) {
   try {
     data = JSON.parse(fs.readFileSync(file, "utf-8"));
   } catch {
-    insightErrors.push(`${slug}: not valid JSON`);
+    if (inScope(slug)) insightErrors.push(`${slug}: not valid JSON`);
     continue;
   }
-  const err = (m: string) => insightErrors.push(`${slug}: ${m}`);
+  const err = (m: string) => {
+    if (inScope(slug)) insightErrors.push(`${slug}: ${m}`);
+  };
   if (!slugs.has(slug)) err("no place with this slug in businesses.csv");
   if (data.slug !== slug) err(`"slug" is "${data.slug}", file name says "${slug}"`);
   // More text reviews in the period than half of all Google ratings ever
@@ -410,7 +443,7 @@ for (const slug of insights) {
   });
 }
 for (const [tail, files] of tailFiles) {
-  if (files.size >= 4) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
+  if (files.size >= 4 && [...files].some(inScope)) insightErrors.push(`${files.size} places end a text with the same "…${tail}" - stock padding, write from the reviews`);
 }
 if (insightErrors.length) {
   failed = true;
@@ -443,7 +476,7 @@ if (vetGaps.length) {
 // listed carries closed=yes with the evidence in notes.
 const CLOSED_WORDS = /(possibly|permanently) closed|trvalo zatvoren|natrvalo zatvoren|dauerhaft geschlossen|trvale zavřen/i;
 const closedIssues: string[] = [];
-for (const r of allRows) {
+for (const r of allRows.filter((x) => inScope(x.slug))) {
   if (isClosed(r) && !/\bclosed: \S/.test(r.notes ?? "")) {
     closedIssues.push(`${r.slug}: closed=yes needs "closed: (<where seen>, <date>)" in notes`);
   }
@@ -512,6 +545,7 @@ if (fs.existsSync(pricesFile)) {
   const categoryOf = new Map(allRows.map((r) => [r.slug, r.category]));
   const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
   prices.forEach((p, i) => {
+    if (!inScope(p.business_slug)) return;
     const at = `prices.csv line ${i + 2} (${p.business_slug}, ${p.price_code})`;
     const category = categoryOf.get(p.business_slug);
     if (!category) return priceErrors.push(`${at}: no place with this slug`);
@@ -564,7 +598,7 @@ if (fs.existsSync(pricesFile)) {
 // keeps its old values).
 const madeUp: string[] = [];
 const byKey = new Map<string, string[]>();
-for (const r of rows) {
+for (const r of cityRows) {
   const keys = [
     r.google_maps_url && `maps ${r.google_maps_url}`,
     r.google_place_id && `place_id ${r.google_place_id}`,
@@ -573,7 +607,7 @@ for (const r of rows) {
   for (const k of keys) byKey.set(`${r.category} ${k}`, [...(byKey.get(`${r.category} ${k}`) ?? []), r.slug]);
 }
 for (const [key, slugs] of byKey) {
-  if (slugs.length > 1) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
+  if (slugs.length > 1 && slugs.some(inScope)) madeUp.push(`same place listed ${slugs.length} times (${key.split(" ").slice(1, 2)}): ${slugs.join(", ")}`);
 }
 // A clinic and its vet often have two Google cards for one practice:
 // same category, same website, pins within 200 m (PR #144). One entry,
@@ -584,16 +618,17 @@ const metres = (a: Row, b: Row) => {
   const dLng = (Number(a.lng) - Number(b.lng)) * 111_320 * Math.cos((Number(a.lat) * Math.PI) / 180);
   return Math.hypot(dLat, dLng);
 };
-const siteRows = rows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
+const siteRows = cityRows.filter((r) => has(r, "website") && has(r, "lat") && !/facebook\.com|instagram\.com/.test(r.website));
 for (let i = 0; i < siteRows.length; i++) {
   for (let j = i + 1; j < siteRows.length; j++) {
     const [a, b] = [siteRows[i], siteRows[j]];
+    if (!inScope(a.slug) && !inScope(b.slug)) continue;
     if (a.category !== b.category || domain(a.website) !== domain(b.website) || metres(a, b) > 200) continue;
     if (/duplicate-check: /.test(a.notes ?? "") && /duplicate-check: /.test(b.notes ?? "")) continue;
     madeUp.push(`probably one place twice (same website ${domain(a.website)}, ${Math.round(metres(a, b))} m apart): ${a.slug}, ${b.slug}`);
   }
 }
-const cids = rows
+const cids = cityRows
   .map((r) => ({ slug: r.slug, cid: /cid=(\d+)/.exec(r.google_maps_url ?? "")?.[1] }))
   .filter((x): x is { slug: string; cid: string } => !!x.cid);
 // Keyed by number: one firm in two categories shares one Maps listing.
@@ -602,7 +637,7 @@ for (const { cid } of cids) {
   for (let i = 0; i + 9 <= cid.length; i++) runs.set(cid.slice(i, i + 9), (runs.get(cid.slice(i, i + 9)) ?? new Set()).add(cid));
 }
 const madeUpCids = new Set([...runs.values()].filter((set) => set.size > 1).flatMap((set) => [...set]));
-const sharing = new Set(cids.filter((x) => madeUpCids.has(x.cid)).map((x) => x.slug));
+const sharing = new Set(cids.filter((x) => madeUpCids.has(x.cid) && inScope(x.slug)).map((x) => x.slug));
 if (sharing.size) madeUp.push(`google_maps_url numbers look made up (share digit runs), copy each from Google Maps: ${[...sharing].join(", ")}`);
 for (const r of rows) {
   const decimals = (v: string) => (v.split(".")[1] ?? "").replace(/0+$/, "").length;
@@ -668,6 +703,7 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
   Papa.parse<Row>(text, { header: true, skipEmptyLines: true }).data.forEach((e, i) => {
     const at = `${f} line ${i + 2} (${e.business_slug}, ${e.field})`;
     evidenceRows.push(e);
+    if (!inScope(e.business_slug)) return;
     if (!slugs.has(e.business_slug)) evidenceErrors.push(`${at}: no place with this slug`);
     const fieldError = badField((e.field ?? "").trim());
     if (fieldError) evidenceErrors.push(`${at}: ${fieldError}`);
@@ -683,7 +719,7 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
 }
 const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
 const missingEvidence: string[] = [];
-const needing = rows.filter(needsEvidence);
+const needing = rows.filter((r) => needsEvidence(r) || inChunkFile(r));
 for (const r of needing) {
   const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
   if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
@@ -691,7 +727,7 @@ for (const r of needing) {
 // Prices: the quote of each price line carries the number (or its parts).
 if (fs.existsSync(pricesFile)) {
   const prices = Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
-  for (const p of prices.filter((x) => (x.observed_at ?? "").trim() >= EVIDENCE_FROM)) {
+  for (const p of prices.filter((x) => (x.observed_at ?? "").trim() >= EVIDENCE_FROM && inScope(x.business_slug))) {
     const quotes = evidenceOf(p.business_slug, `price:${p.price_code}`).map((e) => e.quote);
     if (!quotes.length) {
       missingEvidence.push(`${p.business_slug}: price:${p.price_code}`);
@@ -713,12 +749,13 @@ for (const e of evidenceRows) {
   byQuote.set(q, entry);
 }
 for (const [q, { slugs: s, domains }] of byQuote) {
-  if (s.size >= 3 && domains.size >= 3) evidenceErrors.push(`same quote on ${s.size} places from ${domains.size} sites - "${q.slice(0, 50)}": ${[...s].slice(0, 4).join(", ")}`);
+  if (s.size >= 3 && domains.size >= 3 && [...s].some(inScope)) evidenceErrors.push(`same quote on ${s.size} places from ${domains.size} sites - "${q.slice(0, 50)}": ${[...s].slice(0, 4).join(", ")}`);
 }
 // Not the place's own site, a social page or its Maps card: a catalog is
 // never a source (add-city.md, "Откуда брать факты"). Listed for the
 // reviewer - a place can have a second domain (booking, chain site).
 const foreign = evidenceRows.filter((e) => {
+  if (!inScope(e.business_slug)) return false;
   const place = allRows.find((r) => r.slug === e.business_slug);
   const url = (e.source_url ?? "").trim();
   if (!place || !url || isSocial(url) || isGoogleMaps(url)) return false;
@@ -745,7 +782,7 @@ if (foreign.length) {
 // Candidates (add-city.md, "Партии"): the list a city is collected from,
 // batch by batch - one row per place found, before the details.
 const candidatesFile = path.join(dir, "candidates.csv");
-if (fs.existsSync(candidatesFile)) {
+if (!scope && fs.existsSync(candidatesFile)) {
   const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
   const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
   const candErrors: string[] = [];
@@ -768,6 +805,45 @@ if (fs.existsSync(candidatesFile)) {
   if (candErrors.length) {
     failed = true;
     for (const e of candErrors) console.log(`  ${e}`);
+  }
+}
+
+// Gates (quality.md, rule 10): every chunk of new data - a
+// businesses-<NN>-<category>.csv file, or up to 10 review summaries -
+// passed `npm run gate` and has not changed since. The stamp holds a
+// fingerprint of the chunk; any edit after the gate needs the gate again.
+if (!scope) {
+  const gateErrors: string[] = [];
+  const table: string[] = [];
+  for (const c of placeChunks(dir)) {
+    if (c.rows.length > CHUNK_SIZE) gateErrors.push(`businesses-${c.id}.csv: ${c.rows.length} places - a chunk is ${CHUNK_SIZE} at most, split the file`);
+    const st = readStamp(dir, c.id);
+    if (!st) gateErrors.push(`${c.id}: never passed the gate - run npm run gate -- ${city}`);
+    else if (!stampValid(dir, logosDir, st, c)) {
+      gateErrors.push(`${c.id}: ${st.result === "PASS" ? "changed after its gate" : "last gate FAIL"} - run npm run gate -- ${city}`);
+    }
+  }
+  const ins = insightChunks(dir);
+  for (const c of ins.stamped) {
+    const st = readStamp(dir, c.id);
+    if (!stampValid(dir, logosDir, st, c)) {
+      gateErrors.push(`${c.id}: ${st?.result === "PASS" ? "summaries changed after their gate" : "last gate FAIL"} - run npm run gate -- ${city}`);
+    }
+  }
+  if (ins.unstamped.length) gateErrors.push(`${ins.unstamped.length} review summaries never passed the gate: ${ins.unstamped.slice(0, 5).join(", ")}${ins.unstamped.length > 5 ? ", ..." : ""}`);
+  for (const st of allStamps(dir)) {
+    const rounds = st.history.length;
+    const first = st.history[0];
+    table.push(`  ${st.chunk.padEnd(24)} ${String(st.slugs.length).padStart(3)} places  ${st.result}  rounds ${rounds}${first && first.result === "FAIL" ? ` (first: ${first.listed} lines to fix)` : ""}`);
+  }
+  if (table.length) {
+    console.log(`\nGates (${table.length} chunks):`);
+    for (const t of table) console.log(t);
+  }
+  if (gateErrors.length) {
+    failed = true;
+    console.log(`\nChunks without a valid gate - check every ${CHUNK_SIZE} before the next (quality.md, rule 10) (${gateErrors.length}):`);
+    for (const e of gateErrors) console.log(`  ${e}`);
   }
 }
 

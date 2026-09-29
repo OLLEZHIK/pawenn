@@ -2,7 +2,7 @@
 
 **Исполнитель:** Antigravity IDE
 **Роль:** Data agent.
-**Тип:** новый город, партии по 10–15 мест одной категории.
+**Тип:** новый город, куски по 10 мест с воротами, партия (PR) — 1–3 куска.
 **Ветка PR:** `city/presov` (ветка города; в `main` город уводит
 проверяющий одним PR, когда готовы все партии).
 **Зависимости:** `tasks/ide-kosice-logos.md` — сначала она (маленькая).
@@ -16,7 +16,8 @@ Kraków (Польша, задача Mac). Братислава — образе�
 `docs/playbooks/quality.md`, правила 8 и 9, и `docs/playbooks/add-city.md`,
 разделы «Партии» и 1.4. Коротко: одна сессия — одна партия; к каждому
 значению с сайта — цитата со страницы в `evidence-<NN>-<категория>.csv`;
-не открылось — `none (...)`, это засчитывается.
+не открылось — `none (...)`, это засчитывается. **С 2026-09-29:** правило
+10 — кусками по 10 с `npm run gate` после каждого.
 
 ## Партии
 
@@ -27,13 +28,12 @@ Kraków (Польша, задача Mac). Братислава — образе�
 | # | Что | Ветка |
 |---|---|---|
 | 0 | Создать ветку `city/presov` (`add-city.md`, «Партии»); `city.json`, `districts.geojson`, `candidates.csv` — все 6 категорий, без деталей | `antigravity/presov-00-candidates` |
-| 1 | VET_CLINIC, места 1–10 из `candidates.csv` по числу оценок | `antigravity/presov-01-vet` |
-| 2 | VET_CLINIC, места 11–25 | `antigravity/presov-02-vet` |
-| 3 | PET_SHOP, места 1–15 | `antigravity/presov-03-shops` |
-| 4 | GROOMING, места 1–15 | `antigravity/presov-04-grooming` |
-| 5 | PET_HOTEL, DOG_TRAINING, PET_SITTING — вместе до 15 | `antigravity/presov-05-other` |
+| 1 | VET_CLINIC, места 1–10 из `candidates.csv` по числу оценок — кусок 01 (пилот) | `antigravity/presov-01-vet` |
+| 2 | VET_CLINIC, места 11–30 — куски 02, 03 | `antigravity/presov-02-vet` |
+| 3 | PET_SHOP и GROOMING, места 1–10 каждой — куски 04, 05 | `antigravity/presov-03-shops-grooming` |
+| 4 | PET_HOTEL, DOG_TRAINING, PET_SITTING — кусками по 10 одной категории | `antigravity/presov-04-other` |
 
-Строки 2–5 проверяющий уточнит по `candidates.csv` после ревью партии
+Строки 2–4 проверяющий уточнит по `candidates.csv` после ревью партии
 0 (уберёт пустые, объединит маленькие категории, добавит строки, если
 мест больше). Самому строки не менять.
 
@@ -62,6 +62,14 @@ Kraków (Польша, задача Mac). Братислава — образе�
    каталоги, что с районами.
 
 ### Партии 1…n
+
+**Кусками по 10 с воротами** (`quality.md`, правило 10): 10 мест в файле
+куска `businesses-<NN>-<категория>.csv` (+ `evidence-<NN>-<категория>.csv`)
+→ `cd website && npm run gate -- presov` → `GATE FAIL` — исправить по
+списку, заново открыв источник, и снова (3-й круг: несошедшееся — пусто
+и `none (...)`); `GATE PASS` — закоммитить кусок вместе со штампом
+`data/cities/presov/checks/<NN>-<категория>.json` → следующие 10. `NN` —
+номер куска в городе по порядку.
 
 Места из строки таблицы — по **`docs/playbooks/add-city.md`**, поля — по
 **`docs/card-spec.md`**: файлы `businesses-<NN>-<категория>.csv` и
@@ -112,8 +120,9 @@ Kraków (Польша, задача Mac). Братислава — образе�
 
 - **PR открыт в `city/presov`** (коммит — не сдача), заголовок
   `City data: Prešov — партия <N> (<категория>)`.
-- `cd website && npm run check-city -- presov` → `READY` и
-  `npm run verify-city -- presov` → `VERIFIED` (с партии 1), вывод обоих
-  целиком в PR.
+- У каждого куска партии — `GATE PASS` (штамп в `checks/`).
+- `cd website && npm run check-city -- presov` → `READY` (с таблицей
+  «Gates») и `npm run verify-city -- presov` → `VERIFIED` (с партии 1),
+  вывод обоих целиком в PR.
 - В PR — самопроверка `quality.md` (§2), таблица заполненности по
   полям, что не нашлось и почему, где инструмент не сработал.

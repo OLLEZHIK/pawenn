@@ -3,6 +3,7 @@
 // reviewers run it on the PR branch. Exit code 1 means the PR is not ready.
 //
 //   npm run verify-city -- warszawa
+//   npm run verify-city -- warszawa --only=slug-a,slug-b   (one chunk: npm run gate)
 //
 // Per place with a website (lesson from the first Warszawa data, 2026-09-27:
 // invented phone numbers and domains that do not exist passed check-city):
@@ -33,11 +34,14 @@ if (!fs.existsSync(dir)) {
   console.error(`No data folder: ${dir}`);
   process.exit(2);
 }
-const rows: Row[] = fs
+const cityRowsAll: Row[] = fs
   .readdirSync(dir)
   .filter((f) => /^businesses.*\.csv$/.test(f))
   .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data)
   .filter((r) => !/^yes$/i.test((r.closed ?? "").trim()));
+const only = process.argv.find((a) => a.startsWith("--only="))?.slice("--only=".length).split(",").filter(Boolean);
+const inScope = (slug: string) => !only || only.includes(slug);
+const rows = cityRowsAll.filter((r) => inScope(r.slug));
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
@@ -149,7 +153,7 @@ const quotes: Quote[] = fs
   .filter((f) => /^evidence.*\.csv$/.test(f))
   .flatMap((f) => Papa.parse<Row>(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).data)
   .map((e) => ({ slug: e.business_slug, field: (e.field ?? "").trim(), url: (e.source_url ?? "").trim(), quote: (e.quote ?? "").trim() }))
-  .filter((e) => e.url && e.quote);
+  .filter((e) => e.url && e.quote && inScope(e.slug));
 const pageCache = new Map<string, Promise<{ code: number; body: string }>>();
 const page = (url: string) => pageCache.get(url) ?? pageCache.set(url, curl(url)).get(url)!;
 

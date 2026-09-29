@@ -10,7 +10,8 @@
     "postinstall": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
     "check-city": "tsx scripts/check-city.ts",
-    "verify-city": "tsx scripts/verify-city.ts"
+    "verify-city": "tsx scripts/verify-city.ts",
+    "gate": "tsx scripts/gate.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

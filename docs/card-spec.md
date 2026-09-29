@@ -463,6 +463,9 @@ business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currenc
   сайта, неотложка, цены, описание) — цитата в `evidence*.csv`
   (`docs/playbooks/add-city.md`, раздел 1.4); `verify-city` ищет её на
   странице. Правило для строк с `observed_at` от 2026-09-29.
+- Работа кусками по 10: у каждого куска `npm run gate` → `GATE PASS`,
+  штамп `checks/<кусок>.json` закоммичен вместе с ним
+  (`docs/playbooks/quality.md`, правило 10).
 - Все тексты есть в двух языках: нет `short_description` без
   `short_description_local` и наоборот; то же для `description` и
   review-insights.
