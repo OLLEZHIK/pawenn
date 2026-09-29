@@ -8,7 +8,6 @@
 **Зависимости:** `tasks/cmac-presov-00-maps.md` — партия 0 (список мест с
 данными Google Maps, делает Claude Code CLI (Mac)) должна быть смёржена
 в `city/presov`. До неё — свои задачи по порядку:
-`mac2-kosice-texts-sources.md` (замечания к PR #199),
 `mac2-bratislava-texts.md`, `mac2-kosice-logos.md`.
 
 **Сейчас (проверяющий, 2026-09-29):** ждёт партию 0 (Claude Code CLI (Mac)); проверяющий напишет здесь, когда она смёржена.
