@@ -289,6 +289,15 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];
+// The text is for visitors, not a log of how we collected the card
+// (Kraków batch 2, PR #213: "its own website currently shows only a server
+// error", "opening hours come from the Google Maps card" in 7 texts). Where
+// we looked goes in notes.
+const SOURCE_TALK =
+  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)/i;
+// Opening hours are on the card; copied into the text they go stale when the
+// place changes them (a warning: "open on Sundays" is fine, times are not).
+const TIMES_IN_TEXT = /\b\d{1,2}[:.]\d{2}\b/;
 function cityMetaLocale(): string | undefined {
   try {
     return (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { locale?: string }).locale;
@@ -356,6 +365,10 @@ for (const r of rows) {
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  const source = text.match(SOURCE_TALK);
+  if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
+  const time = text.match(TIMES_IN_TEXT);
+  if (time) textIssues.push({ slug: r.slug, strict: false, line: `"${time[0]}" - hours in the text go stale; they are on the card already` });
   for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
   if (noSourceText(r)) {
     textIssues.push({ slug: r.slug, strict, line: `no site or social page, but a text over ${NO_SOURCE_TEXT} characters - say only what the row says (category, name, address)` });

@@ -96,9 +96,9 @@ export const FACT_WORDS: Record<string, RegExp> = {
   cage_free: /bez klietok|bez klatek|bezklatk|bez kotc|cage[- ]free|no cages/i,
   vaccination_required: /očkovan|szczepi|vaccin/i,
   supervision_24h: /24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|24 godziny na dobę|24\/7|round the clock/i,
-  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|by appointment only|appointment only|only by appointment/i,
+  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|nie ?umówien\w*[^.]{0,60}nie (będą |są )?przyjmowan|przyjmujemy (wyłącznie|tylko) umówion|by appointment only|appointment only|only by appointment/i,
   walk_in: /bez objedn|bez obiednania|bez umówieni|bez zapisów|bez rejestracji|walk[- ]in|no appointment/i,
-  online_booking: /online|on-line|rezerva|objedna|umów|zarezerwuj|book/i,
+  online_booking: /online|on-line|rezerva|rezerwac|objedna|umów|zarezerwuj|book/i,
 };
 
 const LANGUAGE_WORDS: Record<string, RegExp> = {
