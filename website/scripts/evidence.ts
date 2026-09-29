@@ -182,3 +182,23 @@ export function squash(s: string): string {
     .replace(/[‘’‚´`]/g, "'")
     .replace(/\s+/g, "");
 }
+
+/** A Google Maps link copied from a place card carries the place twice:
+ *  the feature ID "!1s0x<a>:0x<b>" and the place ID "!19sChIJ…", which is
+ *  those two numbers encoded. A link put together by hand gets them out of
+ *  step. Returns an error text, or null when the link agrees with itself
+ *  (or does not carry both parts). Kraków batch 0: 481 of 481 agreed. */
+export function mapsLinkMismatch(url: string, placeId?: string): string | null {
+  const feature = /!1s0x([0-9a-f]+):0x([0-9a-f]+)/i.exec(url);
+  const pid = /!19s(ChIJ[0-9A-Za-z_-]+)/.exec(url)?.[1];
+  if (placeId && pid && placeId.trim() !== pid) return `google_place_id ${placeId.trim()} is not the one in its Maps link (${pid})`;
+  if (!feature || !pid) return null;
+  const bytes = Buffer.from(pid.replace(/-/g, "+").replace(/_/g, "/"), "base64");
+  if (bytes.length < 20 || bytes[0] !== 0x0a || bytes[2] !== 0x09 || bytes[11] !== 0x11) return `place ID ${pid} in the Maps link is not a Google place ID`;
+  const a = bytes.readBigUInt64LE(3).toString(16);
+  const b = bytes.readBigUInt64LE(12).toString(16);
+  if (a !== feature[1].toLowerCase().replace(/^0+/, "") || b !== feature[2].toLowerCase().replace(/^0+/, "")) {
+    return "the place ID and the feature ID in the Maps link are of two different places - copy the link from the card";
+  }
+  return null;
+}

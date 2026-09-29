@@ -33,6 +33,7 @@ import {
   domainOf,
   isGoogleMaps,
   isSocial,
+  mapsLinkMismatch,
   needsEvidence,
   priceInQuotes,
   quoteMismatch,
@@ -699,6 +700,7 @@ for (const r of rows) {
   }
   if (city !== "bratislava" && (r.animals ?? "").trim()) madeUp.push(`${r.slug}: animals is not collected - leave it empty`);
 }
+const linkWarnings: string[] = [];
 // The Google place ID is the "ChIJ..." one (in a copied link after
 // "!19s"), not the "0x...:0x..." feature ID; the pin is the one in the
 // copied link (!3d lat !4d lng), not a guess nearby (PR #144).
@@ -706,11 +708,19 @@ for (const r of rows) {
   if (has(r, "google_place_id") && !/^ChIJ[0-9A-Za-z_-]{20,}$/.test(r.google_place_id.trim())) {
     madeUp.push(`${r.slug}: google_place_id "${r.google_place_id}" is not a place ID (ChIJ...) - take it from the Maps link after !19s`);
   }
+  // The link agrees with itself (scripts/evidence.ts, mapsLinkMismatch):
+  // an error for new data, a warning for older rows.
+  const linkError = mapsLinkMismatch(r.google_maps_url ?? "", r.google_place_id);
+  if (linkError) (needsEvidence(r) || inChunkFile(r) ? madeUp : linkWarnings).push(`${r.slug}: ${linkError}`);
   const pin = /!3d(-?[\d.]+)!4d(-?[\d.]+)/.exec(r.google_maps_url ?? "");
   if (pin && has(r, "lat")) {
     const off = metres(r, { lat: pin[1], lng: pin[2] } as Row);
     if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
   }
+}
+if (linkWarnings.length) {
+  console.log(`\nWarning - Maps links that disagree with themselves, older rows (${linkWarnings.length}):`);
+  for (const w of linkWarnings) console.log(`  ${w}`);
 }
 if (madeUp.length) {
   failed = true;
@@ -849,6 +859,8 @@ if (!scope && fs.existsSync(candidatesFile)) {
     if (url) {
       if (seen.has(url)) candErrors.push(`${at}: same Maps link as line ${seen.get(url)}`);
       seen.set(url, i + 2);
+      const linkError = mapsLinkMismatch(url);
+      if (linkError) candErrors.push(`${at}: ${linkError}`);
     }
     const n = (c.google_rating_count ?? "").trim();
     if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
