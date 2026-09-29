@@ -102,11 +102,12 @@ export const FACT_WORDS: Record<string, RegExp> = {
 };
 
 const LANGUAGE_WORDS: Record<string, RegExp> = {
-  en: /english|anglick|angličtin|angielsk|englisch|\ben\b|🇬🇧|🇺🇸/i,
-  de: /deutsch|nemeck|nemčin|niemieck|german|\bde\b|🇩🇪|🇦🇹/i,
+  en: /english|anglick|angličtin|angielsk|po angielsku|englisch|\ben\b|🇬🇧|🇺🇸/i,
+  de: /deutsch|nemeck|nemčin|německ|němčin|niemieck|po niemiecku|german|\bde\b|🇩🇪|🇦🇹/i,
   hu: /magyar|maďar|węgiersk|hungar|\bhu\b|🇭🇺/i,
-  uk: /ukrain|україн|\bua\b|🇺🇦/i,
-  ru: /rusk|rusky|rosyjsk|russian|русск|🇷🇺/i,
+  // Polish "ukraińskim" has ń, Slovak "ukrajinsky" has j (Kraków batch 1).
+  uk: /ukrai[nń]|ukrajin|україн|\bua\b|🇺🇦/i,
+  ru: /rusk|rusky|ruštin|rosyjsk|po rosyjsku|russian|русск|\bru\b|🇷🇺/i,
   pl: /pols(k|ki)|poľsk|polish|polnisch|🇵🇱/i,
   cs: /česk|češtin|czesk|czech|tschech|🇨🇿/i,
   sk: /slovensk|słowack|slovak|slowak|🇸🇰/i,
@@ -117,9 +118,17 @@ const LANGUAGE_WORDS: Record<string, RegExp> = {
 
 const NONSTOP_WORDS = /24\s*\/\s*7|24\s*h|24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|round the clock|24 hours/i;
 
+/** The page is the site's own version in that language: "?lang=en",
+ *  "/en/", "en." - docs/card-spec.md §8 counts a language version of the
+ *  site as that language (Retina, Kraków batch 1: WPML English pages). */
+export function isLanguageVersion(url: string, code: string): boolean {
+  return new RegExp(`[?&](lang|language|hl|locale)=${code}\\b|/${code}(/|$|\\?|#)|^https?://${code}\\.`, "i").test(url.trim());
+}
+
 /** A quote that does not name what it should prove: text of the error, or null. */
-export function quoteMismatch(field: string, quote: string): string | null {
+export function quoteMismatch(field: string, quote: string, url = ""): string | null {
   const [base, code] = field.split(":");
+  if (base === "languages" && isLanguageVersion(url, code)) return null;
   const re =
     base === "facts" ? FACT_WORDS[code] : base === "languages" ? LANGUAGE_WORDS[code] : base === "emergency_24_7" ? NONSTOP_WORDS : undefined;
   if (re && !re.test(quote)) return `quote does not name ${field}`;

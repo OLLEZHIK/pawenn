@@ -22,6 +22,7 @@ import { SERVICES } from "../lib/services";
 import { VET_SPECIALTIES } from "../lib/vet";
 import { EXCLUSIVE_FACTS, FACTS } from "../lib/facts";
 import { parseOpeningHours } from "../lib/hours";
+import { inMultiPolygon } from "../lib/pointInPolygon";
 import { MIN_LOGO_LONG_SIDE, MIN_LOGO_SHORT_SIDE, logoTooSmall } from "../lib/imageSize";
 import { CHUNK_SIZE, allStamps, insightChunks, placeChunks, readStamp, stampValid } from "./chunks";
 import {
@@ -130,7 +131,7 @@ const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?
 const counts = (c: (typeof CHECKS)[number], r: Row) => c.value(r) || (!!c.none && noted(r, c.none));
 
 let failed = false;
-const closedCount = allRows.length - rows.length;
+const closedCount = allRows.length - cityRows.length;
 console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
 console.log("field                         value   none   share  target");
 const lowValue: string[] = [];
@@ -250,6 +251,59 @@ function cityMetaLocale(): string | undefined {
     return undefined;
   }
 }
+// Where the text puts the place (Mac 2's Košice rewrite, PR #199, 2026-09-29:
+// 9 of 11 texts moved places to streets and districts they are not in).
+// A district named in the text must be the one its coordinates fall in
+// (districts.geojson); a street named as the place's own must be in its
+// address - a warning only, since a text may mention a second site.
+type District = { name: string; forms: string[]; coords: number[][][][] };
+const districtsFile = path.join(dir, "districts.geojson");
+const districts: District[] = fs.existsSync(districtsFile)
+  ? (
+      JSON.parse(fs.readFileSync(districtsFile, "utf-8")) as {
+        features: { properties: { name: string; in?: Record<string, string> }; geometry: { type: string; coordinates: unknown } }[];
+      }
+    ).features.map((f) => ({
+      name: f.properties.name,
+      // "v Petržalke" -> "Petržalke": the name as the text would use it
+      forms: [f.properties.name, ...Object.values(f.properties.in ?? {}).map((x) => x.split(" ").slice(1).join(" "))].filter(
+        (x) => x.length >= 3
+      ),
+      coords: (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates) as number[][][][],
+    }))
+  : [];
+const wordIn = (text: string, word: string) =>
+  new RegExp(`(^|[^\\p{L}])${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^\\p{L}]|$)`, "iu").test(text);
+const fold = (x: string) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const STREET = [
+  /\bon (?:the )?([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,40}?) (?:Street|street|Avenue|avenue|Road|road)\b/gu,
+  /\bna ([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30}?) ulici\b/gu,
+  /\bna ulici ([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30})/gu,
+  /\b(?:przy|na) ul(?:icy|\.) ?([A-ZÀ-ŽŁŚŻŹĆŃ][\p{L}.' -]{2,30})/gu,
+];
+const SECOND_SITE = /second|another|other site|also|drug|druh|ďalš|tiež|także|też/i;
+const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] => {
+  const out: { strict: boolean; line: string }[] = [];
+  const lat = Number(r.lat), lng = Number(r.lng);
+  if (districts.length && has(r, "lat") && has(r, "lng")) {
+    const own = districts.filter((d) => inMultiPolygon(lng, lat, d.coords)).map((d) => d.name);
+    for (const d of districts) {
+      if (own.includes(d.name)) continue;
+      const hit = d.forms.find((f) => wordIn(text, f));
+      if (hit) out.push({ strict: true, line: `text names district "${hit}", but the place is in ${own.join(", ") || "no district"} by its coordinates` });
+    }
+  }
+  const address = fold(r.address ?? "");
+  for (const re of STREET) {
+    for (const m of text.matchAll(re)) {
+      const before = text.slice(Math.max(0, (m.index ?? 0) - 40), m.index);
+      const stem = fold(m[1]).split(/\s+/).find((w) => w.length >= 4)?.slice(0, 4);
+      if (!stem || SECOND_SITE.test(before) || address.includes(stem)) continue;
+      out.push({ strict: false, line: `text puts the place on "${m[1].trim()}", the address is "${r.address}"` });
+    }
+  }
+  return out;
+};
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
   const strict = needsEvidence(r) || inChunkFile(r);
@@ -257,6 +311,7 @@ for (const r of rows) {
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
 }
 if (textIssues.length) {
   const strictOnes = textIssues.filter((t) => t.strict);
@@ -774,7 +829,7 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
     if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
       evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
     }
-    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote) : null;
+    const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote, e.source_url ?? "") : null;
     if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
     if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test((e.observed_at ?? "").trim())) evidenceErrors.push(`${at}: observed_at YYYY-MM-DD`);
