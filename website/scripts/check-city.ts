@@ -15,6 +15,7 @@
 // checks only those places (the gate runs it this way for one chunk);
 // comparisons with the rest of the city - one text on several places,
 // the same Maps link twice - still see the whole city.
+import { execFileSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -196,6 +197,50 @@ if (badHours.length) {
 // the same paragraph on dozens of pages: all of Košice and Warszawa
 // (2026-09-28). Compared without the place's name, by the last 12 words.
 const TEXT_FIELDS = ["short_description", "short_description_local", "description", "description_local"];
+
+// Old rows changed on this branch (2026-09-29): new texts or new codes in an
+// old row are new writing and need what new rows need - a quote from the
+// site, text rules as errors. Mac rewrote all 85 Warszawa texts of old rows
+// without a quote and gave places services their sites don't list. The base
+// is where the branch left main; without git or origin/main, nothing is
+// compared.
+const CODE_FIELDS: [string, string][] = [["facts", "facts"], ["specialties", "specialties"], ["languages_spoken", "languages"]];
+const changedOnBranch = new Map<string, Set<string>>();
+try {
+  const git = (...args: string[]) => execFileSync("git", args, { cwd: path.join(process.cwd(), ".."), encoding: "utf-8", stdio: ["ignore", "pipe", "ignore"] });
+  const base = git("merge-base", "HEAD", "origin/main").trim();
+  for (const f of new Set(allRows.map((r) => r.__file))) {
+    let before: Row[];
+    try {
+      before = Papa.parse<Row>(git("show", `${base}:data/cities/${city}/${f}`), { header: true, skipEmptyLines: true }).data;
+    } catch {
+      continue; // a new file: its rows are new data anyway
+    }
+    const old = new Map(before.map((r) => [r.slug, r]));
+    for (const r of allRows.filter((x) => x.__file === f)) {
+      const o = old.get(r.slug);
+      if (!o) continue;
+      const keys = new Set<string>();
+      if (TEXT_FIELDS.some((k) => (r[k] ?? "").trim() !== (o[k] ?? "").trim())) keys.add("description");
+      for (const [col, key] of CODE_FIELDS) {
+        const had = new Set((o[col] ?? "").split(";").map((c) => c.trim()));
+        for (const c of (r[col] ?? "").split(";").map((x) => x.trim()).filter(Boolean)) if (!had.has(c)) keys.add(`${key}:${c}`);
+      }
+      if (keys.size) changedOnBranch.set(r.slug, keys);
+    }
+  }
+} catch {
+  // no git history here: only dates and chunk files mark new data
+}
+const isNewData = (r: Row) => needsEvidence(r) || inChunkFile(r);
+const strictText = (r: Row) => isNewData(r) || changedOnBranch.get(r.slug)?.has("description") === true;
+// A place with no site and no social page: the text can say only what the
+// row says (category, name, address). A long text with services has them
+// from nowhere (PR #199; 6 Warszawa places, 2026-09-29).
+const NO_SOURCE_TEXT = 220;
+const noSourceText = (r: Row) =>
+  !has(r, "website") && !has(r, "instagram") && !has(r, "facebook") &&
+  ["description", "description_local"].some((k) => (r[k] ?? "").trim().length > NO_SOURCE_TEXT);
 const templated: string[] = [];
 for (const field of TEXT_FIELDS) {
   const byTail = new Map<string, string[]>();
@@ -306,12 +351,15 @@ const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] 
 };
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
-  const strict = needsEvidence(r) || inChunkFile(r);
+  const strict = strictText(r);
   const text = TEXT_FIELDS.map((f) => (r[f] ?? "").split(r.name).join(" ")).join(" \n ");
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
   for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
+  if (noSourceText(r)) {
+    textIssues.push({ slug: r.slug, strict, line: `no site or social page, but a text over ${NO_SOURCE_TEXT} characters - say only what the row says (category, name, address)` });
+  }
 }
 if (textIssues.length) {
   const strictOnes = textIssues.filter((t) => t.strict);
@@ -867,9 +915,12 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
 }
 const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
 const missingEvidence: string[] = [];
-const needing = rows.filter((r) => needsEvidence(r) || inChunkFile(r));
+const needing = rows.filter((r) => isNewData(r) || changedOnBranch.has(r.slug));
 for (const r of needing) {
-  const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
+  // An old row proves only what changed on this branch.
+  const changed = changedOnBranch.get(r.slug);
+  const required = requiredEvidence(r).filter((k) => isNewData(r) || changed?.has(k));
+  const need = required.filter((k) => evidenceOf(r.slug, k).length === 0);
   if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
 }
 // Prices: the quote of each price line carries the number (or its parts).
@@ -910,7 +961,7 @@ const foreign = evidenceRows.filter((e) => {
   return !has(place, "website") || domainOf(place.website) !== domainOf(url);
 });
 console.log(
-  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} need them, ${missingEvidence.length} still miss some`
+  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} or changed on this branch need them, ${missingEvidence.length} still miss some`
 );
 if (missingEvidence.length) {
   failed = true;
