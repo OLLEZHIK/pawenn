@@ -10,6 +10,7 @@ import { SERVICES, findService, serviceSlug } from "../lib/services";
 import { parseOpeningHours } from "../lib/hours";
 import { inMultiPolygon } from "../lib/pointInPolygon";
 import { VET_SPECIALTIES } from "../lib/vet";
+import { logoTooSmall } from "../lib/imageSize";
 import { FACTS } from "../lib/facts";
 
 loadEnv({ path: path.join(process.cwd(), ".env.local"), quiet: true });
@@ -129,7 +130,10 @@ function businessFields(row: CsvRow, citySlug: string, rep: CityReport, logoDir:
   let logoFile: string | null = null;
   if (logo && /^[\w.-]+$/.test(logo)) {
     const rel = logoDir ? `${logoDir}/${logo}` : logo;
-    if (fs.existsSync(path.join(LOGOS_DIR, rel))) logoFile = rel;
+    const small = fs.existsSync(path.join(LOGOS_DIR, rel)) ? logoTooSmall(path.join(LOGOS_DIR, rel)) : null;
+    // A site icon shows blurry in the card tile: initials look better.
+    if (small) rep.warnings.push(`${name}: logo ${rel} is ${small.width}x${small.height} px, too small - not shown`);
+    else if (fs.existsSync(path.join(LOGOS_DIR, rel))) logoFile = rel;
     else rep.warnings.push(`${name}: logo file not found: public/logos/${rel}`);
   }
 
@@ -396,7 +400,7 @@ function claimCitySlugs(citySlug: string) {
 
 // Everything a city's rows are built from: its data folder, its logos
 // and the seed code itself (a code change reseeds every city).
-const SEED_CODE = ["prisma/seed.ts", "lib/services.ts", "lib/hours.ts", "lib/pointInPolygon.ts", "lib/vet.ts"];
+const SEED_CODE = ["prisma/seed.ts", "lib/services.ts", "lib/hours.ts", "lib/pointInPolygon.ts", "lib/vet.ts", "lib/imageSize.ts"];
 
 function filesUnder(dir: string): string[] {
   if (!fs.existsSync(dir)) return [];
@@ -412,8 +416,10 @@ function cityHash(citySlug: string): string {
   for (const file of filesUnder(path.join(CITIES_DIR, citySlug))) {
     hash.update(path.relative(CITIES_DIR, file)).update(fs.readFileSync(file));
   }
-  // Only which logos exist matters to the seed, not their bytes.
-  for (const file of filesUnder(path.join(LOGOS_DIR, citySlug))) hash.update(path.relative(LOGOS_DIR, file));
+  // Which logos exist and their size: a bigger file under the same name
+  // can turn a too-small logo into a shown one.
+  for (const file of filesUnder(path.join(LOGOS_DIR, citySlug)))
+    hash.update(path.relative(LOGOS_DIR, file)).update(String(fs.statSync(file).size));
   return hash.digest("hex");
 }
 
