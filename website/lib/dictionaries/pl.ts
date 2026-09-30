@@ -165,7 +165,7 @@ export const pl: Dictionary = {
     nearYou: "W Twojej okolicy",
     locatingYou: "Ustalamy Twoją lokalizację…",
     geoDenied: "Nie ma problemu – wpisz swoje miasto.",
-    cityPlaceholder: "Wpisz miasto",
+    cityPlaceholder: "Twoje miasto",
     cityLabel: "Miasto",
     cityNotCovered: (typed: string, cities: string) => `Nie ma nas jeszcze w ${typed}. Pawenn działa w: ${cities}.`,
     geoFar: (city: string) => `Nie ma nas jeszcze w Twojej okolicy – wpisz miasto, np. ${city}.`,

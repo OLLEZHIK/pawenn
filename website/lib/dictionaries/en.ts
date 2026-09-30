@@ -149,7 +149,7 @@ export const en = {
     nearYou: "Near you",
     locatingYou: "Finding your location…",
     geoDenied: "No problem - just type your city.",
-    cityPlaceholder: "Type a city",
+    cityPlaceholder: "Your city",
     cityLabel: "City",
     cityNotCovered: (typed: string, cities: string) => `We're not in ${typed} yet. Pawenn covers: ${cities}.`,
     geoFar: (city: string) => `We're not in your area yet - type a city, e.g. ${city}.`,

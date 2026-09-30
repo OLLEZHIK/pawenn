@@ -165,7 +165,7 @@ export const sk: Dictionary = {
     nearYou: "Vo vašej blízkosti",
     locatingYou: "Zisťujeme vašu polohu…",
     geoDenied: "Nevadí - napíšte svoje mesto.",
-    cityPlaceholder: "Napíšte mesto",
+    cityPlaceholder: "Vaše mesto",
     cityLabel: "Mesto",
     cityNotCovered: (typed: string, cities: string) => `V meste ${typed} zatiaľ nie sme. Pawenn nájdete v: ${cities}.`,
     geoFar: (city: string) => `Vo vašej oblasti zatiaľ nie sme - napíšte mesto, napr. ${city}.`,
