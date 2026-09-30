@@ -45,15 +45,24 @@ export function CityPrices({
         {rows.map((s) => {
           const m = market.get(s.code)!;
           return (
-            <li key={s.code} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5 py-2.5 text-sm">
-              <Link
-                href={pricesPath(locale, category, citySlug, s.code)}
-                prefetch={false}
-                className="text-foreground/80 hover:text-brand-blue hover:underline"
-              >
-                {serviceLabel(category, s.code, locale)}
-              </Link>
-              <span className="text-foreground/60">{t.cityPricesRow(money(m.min, m.currency), money(m.median, m.currency), m.places)}</span>
+            // One layout for every row (owner, 2026-09-30: rows "floated"
+            // between one and two lines): service and its range on the
+            // left, the typical (median) price big on the right.
+            <li key={s.code} className="flex items-center justify-between gap-4 py-3">
+              <div className="min-w-0">
+                <Link
+                  href={pricesPath(locale, category, citySlug, s.code)}
+                  prefetch={false}
+                  className="font-semibold text-foreground hover:text-brand-blue hover:underline"
+                >
+                  {serviceLabel(category, s.code, locale)}
+                </Link>
+                <p className="mt-0.5 text-xs text-foreground/55">{t.cityPricesMeta(money(m.min, m.currency), m.places)}</p>
+              </div>
+              <div className="shrink-0 text-right">
+                <p className="text-lg font-bold tabular-nums text-foreground">{money(m.median, m.currency)}</p>
+                <p className="text-xs text-foreground/55">{t.cityPricesMedian}</p>
+              </div>
             </li>
           );
         })}

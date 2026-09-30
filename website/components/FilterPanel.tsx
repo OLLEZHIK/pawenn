@@ -129,6 +129,9 @@ export function FilterPanel({
             key={a.key}
             href={withQuery(a.href)}
             aria-current={a.active ? "page" : undefined}
+            // Same list, another filter: stay where the chips are
+            // instead of jumping to the top (owner, 2026-09-30).
+            scroll={false}
             className={toggle(a.active, "bg-ink")}
           >
             {a.label}

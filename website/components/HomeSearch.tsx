@@ -11,6 +11,7 @@ import { ANIMALS, animalsForService, servicesForAnimal, type Animal } from "@/li
 import { CATEGORY_THEME, cityPath } from "@/lib/categories";
 import { getDictionary, localePath, type Locale } from "@/lib/i18n";
 import { nearestCity, type CityPointLite } from "@/lib/geo";
+import { startNavProgress } from "./NavProgress";
 
 export interface SearchOption {
   slug: string;
@@ -155,6 +156,7 @@ export function HomeSearch({
     const query = params.toString();
     if (query) path += `?${query}`;
     onNavigate?.();
+    startNavProgress();
     router.push(path);
   }
 

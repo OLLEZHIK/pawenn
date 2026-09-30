@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { listingPath } from "@/lib/categories";
 import { nearestCity, type CityPointLite } from "@/lib/geo";
+import { startNavProgress } from "./NavProgress";
 import type { Locale } from "@/lib/i18n";
 
 /**
@@ -34,6 +35,8 @@ export function VetNowButton({
   const [pending, setPending] = useState(false);
 
   function go() {
+    // Feedback at once: locating can take a few seconds.
+    startNavProgress();
     const open = (slug: string, near?: string) =>
       router.push(
         `${listingPath(locale, "VET_CLINIC", slug)}?open=1${near ? `&near=${near}` : ""}#results`,

@@ -348,8 +348,8 @@ export const en = {
     faqTitle: "Questions before you call",
     cityPricesTitle: (where: string) => `What it costs ${where}`,
     cityPricesIntro: "This place doesn't publish its prices. For comparison - what other places in the city charge:",
-    cityPricesRow: (from: string, median: string, places: number) =>
-      `from ${from} · median ${median} · ${places} ${places === 1 ? "place" : "places"}`,
+    cityPricesMedian: "typical",
+    cityPricesMeta: (from: string, places: number) => `from ${from} · ${places} ${places === 1 ? "place" : "places"}`,
     welcomes: "Welcomes",
     specialties: "Specialties",
     openingHours: "Opening hours",

@@ -362,8 +362,9 @@ export const pl: Dictionary = {
     faqTitle: "Warto wiedzieć przed wizytą",
     cityPricesTitle: (where: string) => `Ceny w mieście (${where})`,
     cityPricesIntro: "To miejsce nie publikuje cennika online. Dla porównania – stawki innych miejsc w mieście:",
-    cityPricesRow: (from: string, median: string, places: number) =>
-      `od ${from} · mediana ${median} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
+    cityPricesMedian: "typowo",
+    cityPricesMeta: (from: string, places: number) =>
+      `od ${from} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
     welcomes: "Przyjmuje",
     specialties: "Specjalizacje",
     openingHours: "Godziny otwarcia",
