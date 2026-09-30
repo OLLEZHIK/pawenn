@@ -303,7 +303,7 @@ export const en = {
       `${name}${where ? ` ${where}` : ""}: address, contact details and directions.`,
     /** After the place's own short description (SEO audit T11). */
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Opening hours${hasPrices ? ", prices" : ""} and one tap to call, visit the website or get directions.`,
+      `Opening hours${hasPrices ? ", prices" : ""}, phone and directions.`,
     about: "About",
     goodToKnow: "Good to know",
     goodToKnowNote: "As the place states it on its own website.",
