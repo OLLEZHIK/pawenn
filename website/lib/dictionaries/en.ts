@@ -295,6 +295,17 @@ export const en = {
     faqTitle: "Questions owners ask",
     shortNote: "No pawenn summary of reviews for this place yet. The rating and every review are on Google.",
   },
+  vetNow: {
+    button: "Vet open now",
+    buttonHint: "Nearest vets open right now",
+    locating: "Finding you…",
+    callFirst: "Call before you go: say what happened and check they can see you now.",
+    noneOpen: "No vet with published hours is open right now. These open soonest:",
+    opensToday: (time: string) => `opens today at ${time}`,
+    opensTomorrow: (time: string) => `opens tomorrow at ${time}`,
+    opensLater: (date: string, time: string) => `opens ${date} at ${time}`,
+    nonstopTitle: "Open 24/7",
+  },
   actions: { call: "Call", website: "Website", route: "Route" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },
   business: {

@@ -99,6 +99,30 @@ export function isOpenAt(hours: OpeningHours | null, at: { day: Day; minute: num
   return null;
 }
 
+/** When a closed place opens next: days from today (0 = today, 1 =
+ *  tomorrow ...) and the minute of that day; null when the hours never say
+ *  (no hours, only "by appointment"). Looks a week ahead. */
+export function nextOpening(hours: OpeningHours | null, at: { day: Day; minute: number }): { inDays: number; minute: number } | null {
+  if (!hours) return null;
+  const start = DAYS.indexOf(at.day);
+  for (let d = 0; d < 7; d++) {
+    const h = hours[DAYS[(start + d) % 7]];
+    if (!h) continue;
+    if (h.kind === "24h") return { inDays: d, minute: d === 0 ? at.minute : 0 };
+    if (h.kind !== "intervals") continue;
+    const from = h.intervals.map(([a]) => a).filter((a) => d > 0 || a > at.minute);
+    if (from.length) return { inDays: d, minute: Math.min(...from) };
+  }
+  return null;
+}
+
+/** "5. 10." - the date `inDays` from today in the city's time zone. */
+export function dateInDays(inDays: number, locale: string, timeZone: string, now: Date = new Date()): string {
+  return new Intl.DateTimeFormat(locale, { day: "numeric", month: "numeric", timeZone }).format(
+    new Date(now.getTime() + inDays * 86_400_000)
+  );
+}
+
 export function formatMinutes(m: number): string {
   return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
 }
