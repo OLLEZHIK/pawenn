@@ -117,3 +117,19 @@ sources:
   282/2002 Z. z., Slov-Lex);
 - по нашим ценам: kastrácia mačky, kastrácia fenky, strihanie psa,
   hotel pre psa; по нашим данным: veterinárna pohotovosť nonstop.
+
+Вторая партия (2026-09-30, «левая рука»), 4 статьи pl:
+- по закону и официальным страницам: czipowanie psa (ustawa o KROPiK,
+  Dz.U. 2026 poz. 755; программа Варшавы на warszawa19115.pl),
+  szczepienie psa na wściekliznę (Główny Inspektorat Weterynarii),
+  podróż z psem po UE (Your Europe);
+- по нашим ценам: strzyżenie psa (Варшава, 5 салонов).
+- Не написаны, нет официального источника или наших данных: opłata od
+  psa (есть только для Варшавы — «не взимается», статья из одной строки
+  не нужна; вернуться, когда появится Краков со ставкой из его uchwały),
+  kastracja, hotel dla psa, weterynarz całodobowy — в Варшаве пока нет
+  цен ветеринаров и гостиниц в `prices.csv`.
+- Урок: закон о KROPiK ещё не действует (вступит через 2 года после
+  ogłoszenia, 10.06.2026) — в статье о законе, который ещё не вступил,
+  первым абзацем писать, с какого момента он действует, а сроки — в
+  будущем времени.
