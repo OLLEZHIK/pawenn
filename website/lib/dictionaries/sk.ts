@@ -326,6 +326,13 @@ export const sk: Dictionary = {
     faqTitle: "Časté otázky",
     shortNote: "Zhrnutie recenzií od pawenn pre tento podnik zatiaľ nemáme. Hodnotenie a všetky recenzie nájdete na Google.",
   },
+  map: {
+    list: "Zoznam",
+    map: "Mapa",
+    details: "Detail",
+    close: "Zavrieť",
+    missing: (n: number) => `Bez presnej polohy, len v zozname: ${n}`,
+  },
   vetNow: {
     button: "Veterinár teraz",
     buttonHint: "Najbližší veterinári, ktorí majú práve otvorené",

@@ -295,6 +295,13 @@ export const en = {
     faqTitle: "Questions owners ask",
     shortNote: "No pawenn summary of reviews for this place yet. The rating and every review are on Google.",
   },
+  map: {
+    list: "List",
+    map: "Map",
+    details: "Details",
+    close: "Close",
+    missing: (n: number) => `Not on the map (no exact location): ${n}`,
+  },
   vetNow: {
     button: "Vet open now",
     buttonHint: "Nearest vets open right now",

@@ -7,8 +7,23 @@ import { CategoryIcon } from "./CategoryIcon";
 
 // Generic words that make poor initials ("Psí salón X" -> "X").
 const STOP_WORDS = new Set([
-  "psi", "psí", "salon", "salón", "pre", "psov", "a", "&",
-  "veterinarna", "veterinárna", "ambulancia", "klinika", "mvdr.", "mvdr", "s.r.o.", "-", "–",
+  "psi",
+  "psí",
+  "salon",
+  "salón",
+  "pre",
+  "psov",
+  "a",
+  "&",
+  "veterinarna",
+  "veterinárna",
+  "ambulancia",
+  "klinika",
+  "mvdr.",
+  "mvdr",
+  "s.r.o.",
+  "-",
+  "–",
 ]);
 
 function initialsFor(name: string): string {

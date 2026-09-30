@@ -65,7 +65,10 @@ export function FooterPlaces({
   const pageCity = cities.find((c) => segments.includes(c.slug));
   const country = pageCity?.country ?? homeCountry;
   const shown = country ? cities.filter((c) => c.country === country) : cities;
-  const servicesSlug = pageCity?.slug ?? (shown.find((c) => c.slug === defaultSlug) ?? shown[0])?.slug ?? defaultSlug;
+  const servicesSlug =
+    pageCity?.slug ??
+    (shown.find((c) => c.slug === defaultSlug) ?? shown[0])?.slug ??
+    defaultSlug;
   const scope = scopes[country ?? "*"] ?? scopes["*"];
   const countries = [...new Set(shown.map((c) => c.country))];
 
@@ -74,13 +77,18 @@ export function FooterPlaces({
       <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
         <div>
           {brand}
-          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">{scope.tagline}</p>
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
+            {scope.tagline}
+          </p>
           {badge}
         </div>
 
         <FooterColumn title={labels.services}>
           {categories.map(({ category, label }) => (
-            <FooterLink key={category} href={listingPath(locale, category, servicesSlug)}>
+            <FooterLink
+              key={category}
+              href={listingPath(locale, category, servicesSlug)}
+            >
               {label}
             </FooterLink>
           ))}
@@ -89,7 +97,11 @@ export function FooterPlaces({
         <FooterColumn title={labels.cities}>
           {countries.map((code) => (
             <li key={code} className="space-y-2.5">
-              {countries.length > 1 && <p className="pt-1 text-xs font-semibold text-white/50">{countryNames[code] ?? code}</p>}
+              {countries.length > 1 && (
+                <p className="pt-1 text-xs font-semibold text-white/50">
+                  {countryNames[code] ?? code}
+                </p>
+              )}
               <ul className="space-y-2.5">
                 {shown
                   .filter((c) => c.country === code)
@@ -116,19 +128,36 @@ export function FooterPlaces({
   );
 }
 
-export function FooterColumn({ title, children }: { title: string; children: React.ReactNode }) {
+export function FooterColumn({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
     <div>
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-white/60">{title}</p>
+      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-white/60">
+        {title}
+      </p>
       <ul className="mt-4 space-y-2.5 text-sm">{children}</ul>
     </div>
   );
 }
 
-export function FooterLink({ href, children }: { href: string; children: React.ReactNode }) {
+export function FooterLink({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
   return (
     <li>
-      <Link href={href} className="text-white/75 transition hover:text-brand-orange">
+      <Link
+        href={href}
+        className="text-white/75 transition hover:text-brand-orange"
+      >
         {children}
       </Link>
     </li>

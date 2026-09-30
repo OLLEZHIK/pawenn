@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
 import { GuideLinks } from "./Guides";
 import { VetNowButton } from "./VetNowButton";
+import { ListingMap, type MapPoint } from "./ListingMap";
 import {
   searchBusinesses,
   getCategoryAggregates,
@@ -187,6 +188,31 @@ export async function CategoryListing({
   const collapsed =
     !!category && !origin && !sort && !openNowOnly && !minRating && showAll !== "1" && listItems.length >= LIST_COLLAPSE_FROM;
   const shownItems = grouped ? grouped.flatMap((g) => g.items) : collapsed ? listItems.slice(0, LIST_FIRST) : listItems;
+
+  // Map points (beta, docs/architecture/map.md): every place of the
+  // filtered list, not only the first LIST_FIRST; places without
+  // coordinates are counted under the map, never placed by guess.
+  const km = (v: number | null) => (v === null ? null : t.listing.kmAway(v < 10 ? v.toFixed(1) : v.toFixed(0)));
+  const mapPoints: MapPoint[] = category
+    ? listItems.flatMap(({ business: b, km: d }) =>
+        b.lat !== null && b.lng !== null
+          ? [
+              {
+                id: b.id,
+                name: b.name,
+                href: businessPath(locale, b.slug),
+                lat: b.lat,
+                lng: b.lng,
+                phone: b.phone,
+                address: b.address,
+                district: b.district?.name ?? null,
+                rating: b.googleRating !== null ? b.googleRating.toFixed(1) : null,
+                km: km(d),
+              },
+            ]
+          : []
+      )
+    : [];
 
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
@@ -380,6 +406,14 @@ export async function CategoryListing({
             </p>
           )}
 
+          <ListingMap
+            locale={locale}
+            points={mapPoints}
+            missing={listItems.length - mapPoints.length}
+            accent={accent}
+            origin={origin}
+            labels={{ ...t.map, missing: t.map.missing(listItems.length - mapPoints.length) }}
+          >
           <div className="mt-3 space-y-4">
             {listItems.length === 0 ? (
               <>
@@ -465,6 +499,7 @@ export async function CategoryListing({
               <ArrowRightIcon className="h-4 w-4" />
             </Link>
           )}
+          </ListingMap>
 
           {/* Guides on this service in the page's language and country
               (docs/playbooks/guides.md): the catalogue links to them, they

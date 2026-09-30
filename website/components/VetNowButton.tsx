@@ -82,7 +82,7 @@ export function VetNowButton({
           type="button"
           onClick={go}
           disabled={pending}
-          className="fixed inset-x-4 bottom-4 z-40 flex h-14 items-center justify-center gap-2 rounded-[var(--radius-pill)] bg-red-600 px-6 text-base font-bold text-white shadow-[var(--shadow-panel)] active:scale-[0.99] md:hidden"
+          className="vet-now-floating fixed inset-x-4 bottom-4 z-40 flex h-14 items-center justify-center gap-2 rounded-[var(--radius-pill)] bg-red-600 px-6 text-base font-bold text-white shadow-[var(--shadow-panel)] active:scale-[0.99] md:hidden"
         >
           {icon}
           {pending ? locating : label}

@@ -310,6 +310,13 @@ export const pl: Dictionary = {
     faqTitle: "Pytania zadawane przez opiekunów",
     shortNote: "Nie mamy jeszcze podsumowania opinii pawenn o tym miejscu. Ocena i wszystkie opinie są w Google.",
   },
+  map: {
+    list: "Lista",
+    map: "Mapa",
+    details: "Szczegóły",
+    close: "Zamknij",
+    missing: (n: number) => `Bez dokładnej lokalizacji, tylko na liście: ${n}`,
+  },
   vetNow: {
     button: "Weterynarz teraz",
     buttonHint: "Najbliżsi weterynarze otwarci w tej chwili",

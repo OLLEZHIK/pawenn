@@ -26,7 +26,8 @@ function subscribe(onChange: () => void) {
   };
 }
 
-export function BetaGate({ children }: { children: React.ReactNode }) {
+/** True in a browser that opened ?beta=1 (false on the server). */
+export function useBeta(): boolean {
   const on = useSyncExternalStore(subscribe, read, () => false);
   useEffect(() => {
     try {
@@ -36,5 +37,9 @@ export function BetaGate({ children }: { children: React.ReactNode }) {
       if (flag) window.dispatchEvent(new Event(EVENT));
     } catch {}
   }, []);
-  return on ? <>{children}</> : null;
+  return on;
+}
+
+export function BetaGate({ children }: { children: React.ReactNode }) {
+  return useBeta() ? <>{children}</> : null;
 }
