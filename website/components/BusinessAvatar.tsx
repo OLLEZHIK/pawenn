@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import type { BusinessCategory } from "@prisma/client";
 import { CATEGORY_THEME } from "@/lib/categories";
 import { CategoryIcon } from "./CategoryIcon";
@@ -22,11 +25,12 @@ function initialsFor(name: string): string {
 // The business's own logo on a white tile when we have one (collected
 // from its official site), otherwise its initials on a category-tinted
 // tile - honest, no stock photo pretending to be the place. The category
-// icon sits as a small corner badge either way.
+// icon sits as a small corner badge either way. A logo that fails to load
+// falls back to the initials, never a broken-image icon (owner, 2026-09-30).
 export function BusinessAvatar({
   name,
   category,
-  logoUrl = null,
+  logoUrl: logoSrc = null,
   className,
 }: {
   name: string;
@@ -35,6 +39,8 @@ export function BusinessAvatar({
   className?: string;
 }) {
   const accent = CATEGORY_THEME[category].accent;
+  const [failed, setFailed] = useState(false);
+  const logoUrl = failed ? null : logoSrc;
   return (
     <div
       aria-hidden="true"
@@ -52,7 +58,18 @@ export function BusinessAvatar({
     >
       {logoUrl ? (
         // eslint-disable-next-line @next/next/no-img-element -- small static logos, mixed SVG/PNG/WebP
-        <img src={logoUrl} alt="" loading="lazy" className="h-[78%] w-[78%] rounded-lg object-contain" />
+        <img
+          src={logoUrl}
+          alt=""
+          loading="lazy"
+          className="h-[78%] w-[78%] rounded-lg object-contain"
+          onError={() => setFailed(true)}
+          // An error before hydration fires no onError: decode() rejects for
+          // a broken image and resolves for a good one (SVG included).
+          ref={(img) => {
+            if (img?.complete) img.decode().catch(() => setFailed(true));
+          }}
+        />
       ) : (
         initialsFor(name)
       )}

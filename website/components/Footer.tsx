@@ -1,26 +1,39 @@
-import Link from "next/link";
 import { getAllCities, getDefaultCity } from "@/lib/data";
 import { LanguageSwitch } from "./LanguageSwitch";
-import { ALL_CATEGORIES, categoryLabel, cityPath, listingPath } from "@/lib/categories";
+import { ALL_CATEGORIES, categoryLabel, cityPath } from "@/lib/categories";
 import { getDictionary, inCity, localesForCity, type Locale } from "@/lib/i18n";
+import { DATE_LOCALE } from "@/lib/locales";
 import { Logo } from "./Logo";
 import { ShieldCheckIcon } from "./icons";
 import { GUIDE_TEXT, guidesPath, listGuides } from "@/lib/guides";
+import { FooterColumn, FooterLink, FooterPlaces, type FooterScope } from "./FooterPlaces";
 
 export async function Footer({ locale }: { locale: Locale }) {
   const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
-  // The footer's city: the one this language belongs to (Polish ->
-  // Warszawa), like the home page; English keeps the default city.
-  const langCities = allCities.filter((c) => localesForCity(c).includes(locale));
-  const city =
-    defaultCity && langCities.some((c) => c.slug === defaultCity.slug) ? defaultCity : (langCities[0] ?? defaultCity);
-  const citySlug = city?.slug ?? "";
-  // Cities of the same country only (owner, 2026-09-28): a Polish page
-  // lists Polish cities, not every city on the site.
-  const cities = city ? allCities.filter((c) => c.country === city.country) : allCities;
-  // Name the city only while there is one; with several the site is generic.
-  const cityWhere = cities.length === 1 ? inCity(locale, cities[0]) : null;
   const t = getDictionary(locale).footer;
+
+  // Default city's country first, then the rest in data order.
+  const cities = [...allCities].sort(
+    (a, b) => Number(b.country === defaultCity?.country) - Number(a.country === defaultCity?.country)
+  );
+  // The country of this language, when there is exactly one: cities that
+  // list the language as their own (sk -> SK, pl -> PL). English is
+  // everyone's second language, so it has none until a city lists "en".
+  const ownCountries = [...new Set(cities.filter((c) => (c.locales ?? []).includes(locale)).map((c) => c.country))];
+  const homeCountry = ownCountries.length === 1 ? ownCountries[0] : null;
+
+  // Tagline and bottom line per country: "in <city>" only while the
+  // country has one city (the site is generic with several).
+  const scope = (list: typeof cities): FooterScope => {
+    const where = list.length === 1 ? inCity(locale, list[0]) : null;
+    return { tagline: t.tagline(where), made: t.madeWithCare(where) };
+  };
+  const countries = [...new Set(cities.map((c) => c.country))];
+  const scopes: Record<string, FooterScope> = { "*": scope(cities) };
+  for (const code of countries) scopes[code] = scope(cities.filter((c) => c.country === code));
+
+  const regionNames = new Intl.DisplayNames([DATE_LOCALE[locale]], { type: "region" });
+  const countryNames = Object.fromEntries(countries.map((code) => [code, regionNames.of(code) ?? code]));
 
   return (
     <footer className="relative mt-24 overflow-hidden bg-ink text-white">
@@ -30,73 +43,46 @@ export async function Footer({ locale }: { locale: Locale }) {
         style={{ background: "var(--brand-orange)" }}
       />
       <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-16">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
-          <div>
-            <Logo className="h-10 w-auto" wordmarkColor="#FFFFFF" />
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
-              {t.tagline(cityWhere)}
-            </p>
+        <FooterPlaces
+          locale={locale}
+          categories={ALL_CATEGORIES.map((category) => ({ category, label: categoryLabel(category, locale) }))}
+          // Every city's hub, in this language where the city has it.
+          cities={cities.map((c) => ({
+            slug: c.slug,
+            name: c.name,
+            country: c.country,
+            href: cityPath(localesForCity(c).includes(locale) ? locale : "en", c.slug),
+          }))}
+          countryNames={countryNames}
+          homeCountry={homeCountry}
+          defaultSlug={defaultCity?.slug ?? ""}
+          scopes={scopes}
+          labels={{ services: t.services, cities: t.cities }}
+          brand={<Logo className="h-10 w-auto" wordmarkColor="#FFFFFF" />}
+          badge={
             <p className="mt-5 inline-flex items-center gap-2 rounded-[var(--radius-pill)] bg-white/10 px-3 py-1.5 text-xs text-white/80">
               <ShieldCheckIcon className="h-4 w-4 text-brand-green" />
               {t.sourced}
             </p>
-          </div>
-
-          <FooterColumn title={t.services}>
-            {ALL_CATEGORIES.map((category) => (
-              <FooterLink key={category} href={listingPath(locale, category, citySlug)}>
-                {categoryLabel(category, locale)}
-              </FooterLink>
-            ))}
-          </FooterColumn>
-
-          {/* Every city's hub, in this language where the city has it. */}
-          <FooterColumn title={t.cities}>
-            {cities.map((c) => (
-              <FooterLink key={c.slug} href={cityPath(localesForCity(c).includes(locale) ? locale : "en", c.slug)}>
-                {c.name}
-              </FooterLink>
-            ))}
-          </FooterColumn>
-
-          <FooterColumn title={t.about}>
-            {listGuides(locale).length > 0 && <FooterLink href={guidesPath(locale)}>{GUIDE_TEXT[locale].nav}</FooterLink>}
-            <FooterLink href="/en/how-it-works/">{t.howItWorks}</FooterLink>
-            <FooterLink href="/en/add-or-fix-listing/">{t.addBusiness}</FooterLink>
-            <FooterLink href="/en/add-or-fix-listing/">{t.fixListing}</FooterLink>
-          </FooterColumn>
-
-          <FooterColumn title={t.legal}>
-            <FooterLink href="/en/privacy-policy/">{t.privacy}</FooterLink>
-            <FooterLink href="/en/terms-of-use/">{t.terms}</FooterLink>
-          </FooterColumn>
-        </div>
-
-        <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-sm text-white/50 sm:flex-row sm:items-center">
-          <p>&copy; {new Date().getFullYear()} pawenn.com</p>
-          <LanguageSwitch />
-          <p>{t.madeWithCare(cityWhere)}</p>
-        </div>
+          }
+          about={
+            <FooterColumn title={t.about}>
+              {listGuides(locale).length > 0 && <FooterLink href={guidesPath(locale)}>{GUIDE_TEXT[locale].nav}</FooterLink>}
+              <FooterLink href="/en/how-it-works/">{t.howItWorks}</FooterLink>
+              <FooterLink href="/en/add-or-fix-listing/">{t.addBusiness}</FooterLink>
+              <FooterLink href="/en/add-or-fix-listing/">{t.fixListing}</FooterLink>
+            </FooterColumn>
+          }
+          legal={
+            <FooterColumn title={t.legal}>
+              <FooterLink href="/en/privacy-policy/">{t.privacy}</FooterLink>
+              <FooterLink href="/en/terms-of-use/">{t.terms}</FooterLink>
+            </FooterColumn>
+          }
+          bottomLeft={<p>&copy; {new Date().getFullYear()} pawenn.com</p>}
+          bottomMiddle={<LanguageSwitch />}
+        />
       </div>
     </footer>
-  );
-}
-
-function FooterColumn({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <div>
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-white/60">{title}</p>
-      <ul className="mt-4 space-y-2.5 text-sm">{children}</ul>
-    </div>
-  );
-}
-
-function FooterLink({ href, children }: { href: string; children: React.ReactNode }) {
-  return (
-    <li>
-      <Link href={href} className="text-white/75 transition hover:text-brand-orange">
-        {children}
-      </Link>
-    </li>
   );
 }
