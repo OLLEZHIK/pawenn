@@ -5,6 +5,7 @@ import { attributePath, minToIndex } from "@/lib/attributePages";
 import { ALL_CATEGORIES, businessPath, cityPath, listingPath } from "@/lib/categories";
 import { localePath, localesForCity, type Locale } from "@/lib/i18n";
 import { SITE_URL } from "@/lib/site";
+import { guideAlternates, guidesPath, listGuides } from "@/lib/guides";
 
 const MIN_LISTED_FOR_INDEX = 3;
 
@@ -117,6 +118,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.6,
       })
     );
+  }
+
+  // Guides: the section page and every guide of each language, with the
+  // guide's other-language versions as alternates.
+  for (const locale of homeLocales) {
+    const guides = listGuides(locale);
+    if (guides.length === 0) continue;
+    entries.push({ url: `${SITE_URL}${guidesPath(locale)}`, changeFrequency: "weekly", priority: 0.6 });
+    for (const g of guides) {
+      const languages = Object.fromEntries(Object.entries(guideAlternates(g)).map(([l, p]) => [l, `${SITE_URL}${p}`]));
+      entries.push({
+        url: `${SITE_URL}${guidesPath(locale, g.slug)}`,
+        lastModified: new Date(g.updated),
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages },
+      });
+    }
   }
 
   return entries;

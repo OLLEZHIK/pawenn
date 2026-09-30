@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
+import { GuideLinks } from "./Guides";
 import {
   searchBusinesses,
   getCategoryAggregates,
@@ -418,6 +419,11 @@ export async function CategoryListing({
               <ArrowRightIcon className="h-4 w-4" />
             </Link>
           )}
+
+          {/* Guides on this service in the page's language and country
+              (docs/playbooks/guides.md): the catalogue links to them, they
+              link back. */}
+          {category && <GuideLinks locale={locale} category={category} country={city.country} />}
 
           {faqs.length > 0 && (
             <section className="mt-16">

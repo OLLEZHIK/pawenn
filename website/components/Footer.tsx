@@ -5,6 +5,7 @@ import { ALL_CATEGORIES, categoryLabel, cityPath, listingPath } from "@/lib/cate
 import { getDictionary, inCity, localesForCity, type Locale } from "@/lib/i18n";
 import { Logo } from "./Logo";
 import { ShieldCheckIcon } from "./icons";
+import { GUIDE_TEXT, guidesPath, listGuides } from "@/lib/guides";
 
 export async function Footer({ locale }: { locale: Locale }) {
   const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
@@ -59,6 +60,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           </FooterColumn>
 
           <FooterColumn title={t.about}>
+            {listGuides(locale).length > 0 && <FooterLink href={guidesPath(locale)}>{GUIDE_TEXT[locale].nav}</FooterLink>}
             <FooterLink href="/en/how-it-works/">{t.howItWorks}</FooterLink>
             <FooterLink href="/en/add-or-fix-listing/">{t.addBusiness}</FooterLink>
             <FooterLink href="/en/add-or-fix-listing/">{t.fixListing}</FooterLink>

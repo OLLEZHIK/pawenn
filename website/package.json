@@ -9,6 +9,7 @@
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
+    "check-guides": "tsx scripts/check-guides.ts",
     "check-city": "tsx scripts/check-city.ts",
     "verify-city": "tsx scripts/verify-city.ts",
     "gate": "tsx scripts/gate.ts"
