@@ -26,6 +26,7 @@ import { ReviewForm } from "@/components/ReviewForm";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { BusinessCard, StarRow } from "@/components/BusinessCard";
 import { BusinessAvatar } from "@/components/BusinessAvatar";
+import { ReportIssue } from "@/components/ReportIssue";
 import { GoogleRating } from "@/components/GoogleRating";
 import { ReviewInsightsSection, ReviewInsightsShort } from "@/components/ReviewInsightsSection";
 import { OpeningHoursTable } from "@/components/OpeningHoursTable";
@@ -517,12 +518,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                 )}
               </p>
             )}
-            <a
-              href={`mailto:{EMAIL}?subject=${encodeURIComponent(`Report an issue: ${business.name}`)}`}
-              className="mt-1 inline-block hover:underline"
-            >
-              {t.business.reportIssue}
-            </a>
+            <ReportIssue businessId={business.id} labels={t.report} />
           </footer>
         </div>
 

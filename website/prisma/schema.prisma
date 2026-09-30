@@ -128,6 +128,7 @@ model Business {
   city                  City?            @relation(fields: [cityId], references: [id])
   priceItems            PriceItem[]
   clickEvents           ClickEvent[]
+  issueReports          IssueReport[]
   reviews               Review[]
 }
 
@@ -212,6 +213,23 @@ model ClickEvent {
   referrerHost String?
   createdAt    DateTime  @default(now())
   business     Business  @relation(fields: [businessId], references: [id])
+}
+
+// "Report an issue" on a place page (docs/analytics/clicks.md): what a
+// visitor says is wrong. No name, email or IP - the text only.
+model IssueReport {
+  id         Int       @id @default(autoincrement())
+  businessId Int
+  /// hours | phone | address | website | prices | closed | other
+  kind       String
+  message    String?
+  page       String
+  createdAt  DateTime  @default(now())
+  /// Set when the fix is in the data (or the report was checked and wrong).
+  resolvedAt DateTime?
+  business   Business  @relation(fields: [businessId], references: [id])
+
+  @@index([createdAt])
 }
 
 enum ClickType {
