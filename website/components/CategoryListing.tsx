@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
 import { GuideLinks } from "./Guides";
-import { BetaGate } from "./BetaGate";
 import { VetNowButton } from "./VetNowButton";
 import {
   searchBusinesses,
@@ -376,11 +375,9 @@ export async function CategoryListing({
           </p>
 
           {openNowOnly && category === "VET_CLINIC" && (
-            <BetaGate>
-              <p className="mt-3 rounded-[var(--radius-control)] bg-red-600/10 px-4 py-3 text-sm font-semibold text-red-800">
-                {t.vetNow.callFirst}
-              </p>
-            </BetaGate>
+            <p className="mt-3 rounded-[var(--radius-control)] bg-red-600/10 px-4 py-3 text-sm font-semibold text-red-800">
+              {t.vetNow.callFirst}
+            </p>
           )}
 
           <div className="mt-3 space-y-4">
@@ -388,7 +385,7 @@ export async function CategoryListing({
               <>
                 <EmptyState resetHref={resetHref} locale={locale} />
                 {opensSoon.length > 0 && (
-                  <BetaGate>
+                  <>
                     <p className="pt-2 font-semibold text-foreground">{t.vetNow.noneOpen}</p>
                     <div className="mt-3 space-y-4">
                       {opensSoon.map(({ business, next }) => (
@@ -404,7 +401,7 @@ export async function CategoryListing({
                         </div>
                       ))}
                     </div>
-                  </BetaGate>
+                  </>
                 )}
               </>
             ) : grouped ? (
@@ -533,17 +530,15 @@ export async function CategoryListing({
         </aside>
       </div>
       {vetCityPoints.length > 0 && (
-        <BetaGate>
-          <VetNowButton
-            variant="floating"
-            locale={locale}
-            cities={vetCityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-            defaultCitySlug={citySlug}
-            label={t.vetNow.button}
-            hint={t.vetNow.buttonHint}
-            locating={t.vetNow.locating}
-          />
-        </BetaGate>
+        <VetNowButton
+          variant="floating"
+          locale={locale}
+          cities={vetCityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
+          defaultCitySlug={citySlug}
+          label={t.vetNow.button}
+          hint={t.vetNow.buttonHint}
+          locating={t.vetNow.locating}
+        />
       )}
     </main>
   );
