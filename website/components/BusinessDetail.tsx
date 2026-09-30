@@ -14,7 +14,7 @@ import {
 } from "@/lib/data";
 import { isDistrictLinkable } from "@/lib/districts";
 import type { BusinessWithRelations } from "@/lib/data";
-import { CATEGORY_THEME, businessPath, categoryLabel, categorySingular, cityPath, listingPath } from "@/lib/categories";
+import { CATEGORY_THEME, businessPath, categoryLabel, categorySingular, cityPath, listingPath, placeTitleTerm } from "@/lib/categories";
 import { formatDate as formatLocaleDate, getDictionary, localePath, inCity, localesForCity, type Locale } from "@/lib/i18n";
 import { localeAlternates, socialMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
@@ -67,20 +67,31 @@ export async function businessMetadata(locale: Locale, slug: string): Promise<Me
     : city
       ? inCity(locale, city)
       : "";
-  // Title "{Name} – {District}, {City} | Pawenn", shortened to stay about
-  // 60 characters; description from the place's own short text (SEO audit T11).
-  const place = [business.district?.name, city?.name].filter(Boolean).join(", ");
+  // Title "{Name} – {what people search}, {District}, {City}", shortened
+  // to about 60 characters (what Google shows) by dropping "| Pawenn", the
+  // city, then the district - the name and the service word stay. The
+  // description leads with what the place does and stays within about 155
+  // characters; the address is on the page and in JSON-LD
+  // (docs/seo/README.md, "Заголовок страницы места"; owner, 2026-09-30).
+  const term = placeTitleTerm(business.category, locale, business.name);
+  const head = term ? `${business.name} – ${term}` : business.name;
+  const district = business.district?.name;
   const titleOptions = [
-    `${business.name} – ${place} | Pawenn`,
-    `${business.name} – ${place}`,
-    business.district ? `${business.name} – ${business.district.name}` : business.name,
-    business.name,
+    [head, district, city?.name].filter(Boolean).join(", ") + " | Pawenn",
+    [head, district, city?.name].filter(Boolean).join(", "),
+    [head, district].filter(Boolean).join(", "),
+    head,
   ];
-  const title = titleOptions.find((o) => o.length <= 60) ?? business.name;
-  const summary = cardDescription(business, locale);
-  const description = summary
-    ? `${business.name}, ${business.address}. ${summary} ${t.metaDescriptionTail(business.priceItems.length > 0)}`
-    : t.metaDescription(business.name, where);
+  const title = titleOptions.find((o) => o.length <= 60) ?? head;
+  const place = [district, city?.name].filter(Boolean).join(", ");
+  const short = cardDescription(business, locale)?.trim();
+  const summary = short ? short.replace(/[.!]?$/, ".") : null;
+  const placeLine = place ? ` ${place}.` : "";
+  const tail = t.metaDescriptionTail(business.priceItems.length > 0);
+  const descriptionOptions = summary
+    ? [`${summary}${placeLine} ${tail}`, `${summary}${placeLine}`, summary]
+    : [t.metaDescription(business.name, where)];
+  const description = descriptionOptions.find((o) => o.length <= 160) ?? descriptionOptions[descriptionOptions.length - 1];
   const path = businessPath(locale, business.slug);
   return {
     title: { absolute: title },

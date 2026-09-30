@@ -317,7 +317,7 @@ export const pl: Dictionary = {
     metaDescription: (name: string, where: string) =>
       `${name}${where ? ` ${where}` : ""}: adres, telefon, godziny otwarcia i dojazd.`,
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Godziny otwarcia${hasPrices ? ", cennik" : ""} oraz bezpośredni telefon, strona www i wskazówki dojazdu.`,
+      `Godziny otwarcia${hasPrices ? ", cennik" : ""}, telefon i dojazd.`,
     about: "O miejscu",
     goodToKnow: "Warto wiedzieć",
     goodToKnowNote: "Informacje podawane przez obiekt na jego własnej stronie www.",

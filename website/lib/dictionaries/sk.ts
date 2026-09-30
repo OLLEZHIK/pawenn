@@ -333,7 +333,7 @@ export const sk: Dictionary = {
     metaDescription: (name: string, where: string) =>
       `${name}${where ? ` ${where}` : ""}: adresa, kontakt a trasa.`,
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Otváracie hodiny${hasPrices ? ", ceny" : ""} a telefón, web či trasa na jeden dotyk.`,
+      `Otváracie hodiny${hasPrices ? ", ceny" : ""}, telefón a trasa.`,
     about: "O podniku",
     goodToKnow: "Dobré vedieť",
     goodToKnowNote: "Tak, ako to podnik uvádza na svojom webe.",
