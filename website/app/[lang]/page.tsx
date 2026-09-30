@@ -21,6 +21,7 @@ import { getDictionary, inCity, isLocale, localePath, localesForCity } from "@/l
 import { localeAlternates, socialMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import { HomeSearch } from "@/components/HomeSearch";
+import { VetNowButton } from "@/components/VetNowButton";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { HeroIllustration } from "@/components/HeroIllustration";
 import { BusinessCard } from "@/components/BusinessCard";
@@ -157,6 +158,21 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               {t.h1}
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-lg text-foreground/70 lg:mx-0">{t.subtitle}</p>
+
+            {/* Phones: the emergency path first (owner, 2026-09-30). */}
+            <div className="mt-6 md:hidden">
+              <VetNowButton
+                variant="hero"
+                locale={locale}
+                cities={cityPoints
+                  .filter((p) => homeCities.some((c) => c.slug === p.slug))
+                  .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
+                defaultCitySlug={citySlug}
+                label={getDictionary(locale).vetNow.button}
+                hint={getDictionary(locale).vetNow.buttonHint}
+                locating={getDictionary(locale).vetNow.locating}
+              />
+            </div>
 
             <div id="search" className="mt-8 scroll-mt-28 lg:max-w-none">
               <HomeSearch
