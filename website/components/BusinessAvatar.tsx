@@ -79,10 +79,11 @@ export function BusinessAvatar({
           loading="lazy"
           className="h-[78%] w-[78%] rounded-lg object-contain"
           onError={() => setFailed(true)}
-          // An error before hydration fires no onError: decode() rejects for
-          // a broken image and resolves for a good one (SVG included).
+          // An error before hydration fires no onError: a finished image
+          // with no size is broken. SVGs are skipped - one without a set
+          // size can report 0 even when fine; they rely on onError.
           ref={(img) => {
-            if (img?.complete) img.decode().catch(() => setFailed(true));
+            if (img?.complete && img.naturalWidth === 0 && !/\.svg$/i.test(img.src)) setFailed(true);
           }}
         />
       ) : (

@@ -115,7 +115,9 @@ export function guideMetadata(guide: Guide): Metadata {
     title: { absolute: guide.title },
     description: guide.description,
     ...socialMeta({ title: guide.title, description: guide.description, path, locale: guide.locale }),
-    alternates: localeAlternates(guide.locale, guideAlternates(guide), guideAlternates(guide).en ?? path),
+    // x-default only from an English version: every page of a pair must
+    // name the same one, and "this page" differed between sk and pl.
+    alternates: localeAlternates(guide.locale, guideAlternates(guide)),
   };
 }
 

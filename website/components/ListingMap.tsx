@@ -26,6 +26,8 @@ export interface MapPoint {
   km: string | null;
 }
 
+const VIEW_KEY = "pawenn-listing-view";
+
 const ListingMapInner = dynamic(() => import("./ListingMapInner"), {
   ssr: false,
   loading: () => (
@@ -58,7 +60,22 @@ export function ListingMap({
   children: React.ReactNode;
 }) {
   const beta = useBeta();
-  const [view, setView] = useState<"list" | "map">("list");
+  // The chosen view survives filter changes (another URL remounts this
+  // component): kept for the tab session. Rendered output does not depend
+  // on it before hydration ends - the switch needs `beta`, false until then.
+  const [view, setViewState] = useState<"list" | "map">(() => {
+    try {
+      return typeof window !== "undefined" && sessionStorage.getItem(VIEW_KEY) === "map" ? "map" : "list";
+    } catch {
+      return "list";
+    }
+  });
+  const setView = (v: "list" | "map") => {
+    setViewState(v);
+    try {
+      sessionStorage.setItem(VIEW_KEY, v);
+    } catch {}
+  };
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const showMap = beta && view === "map" && points.length > 0;
   const selected = showMap
