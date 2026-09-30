@@ -56,7 +56,9 @@ Antigravity (Mac) переданы Mac 2 (его ветка `mac/warszawa-descri
 
 - **Название проекта:** каталог услуг для питомцев (Словакия, старт —
   Братислава).
-- **Репозиторий:** `https://github.com/OLLEZHIK/shop`.
+- **Репозиторий:** `https://github.com/OLLEZHIK/pawenn` (до 2026-09-30 —
+  `OLLEZHIK/shop`, старый адрес GitHub перенаправляет; в своём клоне
+  обновить: `git remote set-url origin https://github.com/OLLEZHIK/pawenn.git`).
 - **Ветка по умолчанию:** `main`.
 - **Братислава — MVP-город, образец для шаблонов, а не цель
   (владелец, 2026-09-26).** Делать то, что переносится на любой город
