@@ -4,6 +4,15 @@
 данные с Google Maps так же точно, как CLI. Пока экзамен не сдан,
 правило `AGENTS.md` («Специализация») остаётся: Google Maps — только CLI.
 
+## Кто сдаёт (2026-10-01)
+
+| Агент | Задача | Файл экзамена |
+|---|---|---|
+| Antigravity (Mac 2) | `tasks/mac2-maps-exam.md` | `data/exams/presov-maps-mac2.csv` |
+| Antigravity (ПК 1) | `tasks/pc1-maps-exam.md` | `data/exams/presov-maps-pc1.csv` |
+
+Одни и те же 10 мест — результаты двух сред можно сравнить напрямую.
+
 ## Как устроен
 
 - **Эталон** — места, которые CLI уже собрал с карты
