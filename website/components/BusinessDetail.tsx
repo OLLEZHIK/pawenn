@@ -12,6 +12,7 @@ import {
   getMarketPrices,
   getDistrictSummaries,
 } from "@/lib/data";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { isDistrictLinkable } from "@/lib/districts";
 import type { BusinessWithRelations } from "@/lib/data";
 import { CATEGORY_THEME, businessPath, categoryLabel, categorySingular, cityPath, listingPath, placeTitleTerm } from "@/lib/categories";
@@ -228,7 +229,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
 
   return (
     <main className="relative" style={{ "--accent": theme.accent } as React.CSSProperties}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
 
       {/* ---------- Header band ---------- */}
       <section className="under-header relative overflow-hidden border-b border-line">
