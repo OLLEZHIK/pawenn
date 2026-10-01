@@ -17,6 +17,7 @@ import {
   categoryLabel,
   listingPath,
 } from "@/lib/categories";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getDictionary, inCity, isLocale, localePath, localesForCity } from "@/lib/i18n";
 import { localeAlternates, socialMeta } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
@@ -126,7 +127,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
+          __html: safeJsonLd([
             {
               "@context": "https://schema.org",
               "@type": "Organization",

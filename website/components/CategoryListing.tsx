@@ -22,6 +22,7 @@ import {
   cityPath,
   listingPath,
 } from "@/lib/categories";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
@@ -212,7 +213,7 @@ export async function CategoryListing({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: safeJsonLd({
               "@context": "https://schema.org",
               "@type": "ItemList",
               numberOfItems: shownItems.length,
@@ -498,7 +499,7 @@ export async function CategoryListing({
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
+                  __html: safeJsonLd({
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
                     inLanguage: locale,

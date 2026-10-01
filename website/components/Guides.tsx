@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import type { BusinessCategory } from "@prisma/client";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getAllCities, getCategoryAggregates } from "@/lib/data";
 import { categoryLabel, listingPath } from "@/lib/categories";
 import { formatDate, localePath, localesForCity, type Locale } from "@/lib/i18n";
@@ -135,7 +136,7 @@ export function GuideArticle({ guide }: { guide: Guide }) {
   };
   return (
     <main className="mx-auto max-w-3xl px-4 pb-24 pt-8">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <Breadcrumbs
         items={[
           { label: t.home, href: localePath(guide.locale, "/") },

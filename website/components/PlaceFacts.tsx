@@ -1,4 +1,5 @@
 import type { BusinessCategory } from "@prisma/client";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { factFaq, factLabel } from "@/lib/facts";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { ShieldCheckIcon } from "./icons";
@@ -31,7 +32,7 @@ export function PlaceFacts({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: safeJsonLd({
               "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
