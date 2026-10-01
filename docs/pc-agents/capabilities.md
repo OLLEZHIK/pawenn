@@ -64,6 +64,8 @@ Ubuntu, Antigravity CLI `agy`), GitHub — аккаунт `wernir` (коллаб
 | Справочные данные из официальных документов (VZN, реестры, PDF) | ❔ | — | Пилот: `pc2-dog-tax-sk.md`, `pc4-completeness-registers.md` |
 | Аудит свежести по спискам `verify-city` | ❔ | — | Пилот: `pc3-audit-cities.md` |
 | Google Maps (карточки, отзывы) | ❔ экзамен в Docker | `pc1-maps-exam.md` | До экзамена — не давать (закреплено за CLI). Экзамен вслепую против данных CLI: `docs/pc-agents/maps-exam.md` |
+| Отзывы Google (лента `feed`) | ❔ экзамен | `mac2-reviews-exam.md` | До экзамена — только CLI. Экзамен: `docs/pc-agents/reviews-exam.md` |
+| Взаимная проверка чужого PR («напарник») | ❔ | — | Новая роль с 2026-10-01 (`pipeline.md`); облачный проверяющий выборочно перепроверяет напарника |
 | Фронтенд, вид сайта | ❌ | — | Не давать: только CLI, нужна визуальная проверка |
 
 ### Журнал ревью
