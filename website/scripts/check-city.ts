@@ -450,6 +450,20 @@ if (heavyLogos.length) {
   }
 }
 
+// An SVG is a document, not a picture: opened by its URL it runs its own
+// scripts on our domain. Logos are downloaded from other people's sites,
+// so an SVG may carry a script, an event handler or a javascript: link
+// (security review, 2026-10-01). Re-save it clean, or use a PNG.
+const SVG_ACTIVE = /<script|\son[a-z]+\s*=|javascript:|<foreignObject|<iframe|<embed|<object/i;
+const activeSvgs = rows.filter(
+  (r) => logoExists(r) && /\.svg$/i.test(r.logo_file.trim()) && SVG_ACTIVE.test(fs.readFileSync(path.join(logosDir, r.logo_file.trim()), "utf-8"))
+);
+if (activeSvgs.length) {
+  failed = true;
+  console.log(`\nSVG logos with scripts or event handlers - save as PNG or strip them (${activeSvgs.length}):`);
+  for (const r of activeSvgs) console.log(`  ${r.slug}: ${r.logo_file}`);
+}
+
 // Too small for the card tile: a site icon or a thin strip
 // (docs/playbooks/add-city.md, section 5). Find a bigger file or write
 // "logo: none (...)".
