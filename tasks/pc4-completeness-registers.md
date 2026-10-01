@@ -23,7 +23,7 @@
 |---|---|---|
 | 1 | Найти официальные списки ветеринаров SK (что есть, по каким городам, обновляется ли) и сверить с ним Bratislava VET_CLINIC — первые 10 найденных пропусков (пилот) | `pc4/registers-01-bratislava-vet` |
 | 2 | Bratislava VET_CLINIC — остальные; Košice VET_CLINIC | `pc4/registers-02-vet` |
-| 3 | Prešov (`city/presov`, `candidates.csv`) и следующие города SK — по решению проверяющего | `pc4/registers-03` |
+| 3 | Warszawa и Kraków: официальный список ветеринаров Польши (Krajowa Izba Lekarsko-Weterynaryjna или др.) — сначала исследование, что есть | `pc4/registers-03-pl` |
 
 ## Что сделать
 

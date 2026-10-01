@@ -1,4 +1,4 @@
-# Задача: налог на собаку (daň za psa) — города Словакии, по официальным VZN
+# Задача: налог на собаку (daň za psa) — Bratislava и Košice, по официальным VZN
 
 **Исполнитель:** Antigravity (ПК 2) — контейнер `agy2`, задачу передаёт диспетчер.
 **Роль:** Data agent.
@@ -24,9 +24,10 @@
 | # | Что | Ветка |
 |---|---|---|
 | 1 | Bratislava: как устроен налог (единый VZN города или по мestským častiam) + первые 10 строк — пилот | `pc2/dog-tax-01-bratislava` |
-| 2 | Bratislava — остальные строки; Košice | `pc2/dog-tax-02-bratislava-kosice` |
-| 3 | Prešov, Žilina, Nitra, Banská Bystrica, Trnava, Trenčín | `pc2/dog-tax-03-krajske-mesta` |
-| … | добавит проверяющий после пилота | |
+| 2 | Bratislava — остальные строки; Košice (с её mestskými časťami, если ставки там свои) | `pc2/dog-tax-02-bratislava-kosice` |
+
+Другие города Словакии не брать: новые города — только от 500 тысяч
+жителей (владелец, 2026-10-01), в Словакии таких больше нет.
 
 ## Что сделать
 
