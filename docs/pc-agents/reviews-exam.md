@@ -39,6 +39,15 @@
 ]
 ```
 
+## Кто сдаёт
+
+| Агент | Задача | Файл |
+|---|---|---|
+| Antigravity (Mac 2) | `tasks/mac2-reviews-exam.md` | `presov-reviews-mac2*.json` |
+| Antigravity (ПК 1) | `tasks/pc1-reviews-exam.md` | `presov-reviews-pc1.json` |
+
+Браузер и вход в Google в контейнере — `docs/pc-agents/browser-setup.md`.
+
 ## Сравнение
 
 ```
