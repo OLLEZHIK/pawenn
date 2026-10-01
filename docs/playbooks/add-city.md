@@ -13,7 +13,7 @@
 с таблицей «Партии». Промпт один на все партии:
 
 ```
-Ты — <исполнитель>, проект pawenn (репозиторий OLLEZHIK/shop).
+Ты — <исполнитель>, проект pawenn (репозиторий OLLEZHIK/pawenn).
 Прочитай AGENTS.md, docs/playbooks/quality.md и docs/playbooks/add-city.md.
 Проверь задачу: возьми следующую партию из таблицы «Партии» своего
 файла в tasks/ и сделай только её. Перед PR: npm run check-city -- <slug>

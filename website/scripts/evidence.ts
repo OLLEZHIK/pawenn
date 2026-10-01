@@ -88,9 +88,9 @@ export function badField(field: string): string | null {
 // A quote about something else is not evidence. Codes not listed are not
 // checked for wording (the page check still applies).
 export const FACT_WORDS: Record<string, RegExp> = {
-  card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz|u)|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
+  card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz|u)|kreditn[aá]?\s*kart|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
   pharmacy_on_site: /lekáre|lekárn|\bapte(k|cz)|pharmacy/i,
-  pet_passport: /\bpas(u|y|ov|om|ů)?\b|pet pas|paszport|passport/i,
+  pet_passport: /\bpas(u|y|ov|om|ů)?\b|pet\s*pas|paszport|passport/i,
   parking: /parkov|parking/i,
   natural_cosmetics: /prírodn\w* kozmet|naturaln\w* kosmety|kosmetyk\w* naturaln|organic|bio kozmet|hypoalerg|hipoalerg/i,
   cage_free: /bez klietok|bez klatek|bezklatk|bez kotc|cage[- ]free|no cages/i,
