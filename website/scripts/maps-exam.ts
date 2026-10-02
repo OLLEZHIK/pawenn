@@ -23,7 +23,14 @@ if (!city || !examArg) {
 const read = (file: string): Row[] =>
   Papa.parse<Row>(fs.readFileSync(file, "utf8"), { header: true, skipEmptyLines: true }).data;
 
-const reference = read(path.join(process.cwd(), "..", "data", "cities", city, "candidates.csv"));
+const referencePath = path.join(process.cwd(), "..", "data", "cities", city, "candidates.csv");
+// The check is blind: another agent collects the places again. Comparing
+// candidates.csv with itself proves nothing (PR #254).
+if (path.resolve(examArg) === path.resolve(referencePath) || fs.readFileSync(path.resolve(examArg), "utf8") === fs.readFileSync(referencePath, "utf8")) {
+  console.error("The exam file is candidates.csv itself - another agent must collect the places blind (pipeline.md). Lesson У-12.");
+  process.exit(2);
+}
+const reference = read(referencePath);
 const exam = read(path.resolve(examArg));
 
 const fold = (s: string) =>
