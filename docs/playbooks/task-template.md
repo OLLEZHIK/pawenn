@@ -35,11 +35,12 @@
 ```markdown
 # Задача: <что> — <город / объём>
 
-**Исполнитель:** <Antigravity IDE | Antigravity (Mac) | Antigravity (Mac 2) | Antigravity (Desktop / Hub) | Claude Code CLI | Claude Code CLI (Mac)>
+**Исполнитель:** <Antigravity IDE | Antigravity (Mac) | Antigravity (Mac 2) | Antigravity (Desktop / Hub) | Claude Code CLI | Claude Code CLI (Mac) | Antigravity (ПК) — контейнер выбирает диспетчер>
 **Роль:** <Data agent | Content agent>
 **Тип:** <новый город | исправление данных | сводки отзывов>, куски по 10, партии по 1–3 куска.
 **Ветка PR:** <`city/<slug>` для нового города | `main`>
 **Зависимости:** <нет | tasks/…>
+**Срочность:** <обычная | срочно, до <дата>> — для `pc-*`: по ней диспетчер решает порядок; номер ПК в задаче не писать.
 
 **Сейчас (проверяющий, <дата>):** <следующее действие исполнителя: начать с партии 0 | исправить по «Ревью N» | ждёт …>
 

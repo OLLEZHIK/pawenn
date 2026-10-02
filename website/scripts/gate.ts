@@ -80,9 +80,17 @@ const run = (script: string) => {
   });
   const out = `${res.stdout ?? ""}${res.stderr ?? ""}`;
   console.log(`---- ${script} ----${out}`);
-  return { ok: res.status === 0, listed: out.split("\n").filter((l) => /^ {2}\S/.test(l)).length };
+  return { ok: res.status === 0, listed: out.split("\n").filter((l) => /^ {2}\S/.test(l)).length, out };
 };
-const checks = [run("check-city.ts")];
+// A summaries chunk is judged by its summaries only: the places' texts and
+// logos belong to other tasks and their own gates (PR #257 failed on
+// Warsaw's template descriptions, not on a single summary).
+const insightsOnly = (c: ReturnType<typeof run>) => {
+  const section = c.out.split(/\n(?=\S)/).find((s) => /^review-insights format \(\d+\):/.test(s.trim())) ?? "";
+  const listed = section.split("\n").filter((l) => /^ {2}\S/.test(l)).length;
+  return { ...c, ok: listed === 0, listed };
+};
+const checks = [chunk.kind === "insights" ? insightsOnly(run("check-city.ts")) : run("check-city.ts")];
 // Sites, phones and quotes are checked for places; summaries are checked
 // against their own feed by check-city.
 if (chunk.kind === "places") checks.push(run("verify-city.ts"));

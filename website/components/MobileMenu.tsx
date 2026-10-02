@@ -3,11 +3,13 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
+import { listingPath } from "@/lib/categories";
+import { usePageCity } from "./useHead";
 import type { CityPointLite } from "@/lib/geo";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import type { ServiceLink } from "./BrowseMenu";
 import { CategoryIcon } from "./CategoryIcon";
-import { ArrowRightIcon, ChevronDownIcon, CloseIcon, MapPinIcon, ShopBagIcon } from "./icons";
+import { ArrowRightIcon, ChevronDownIcon, CloseIcon, MapPinIcon, MenuIcon, ShopBagIcon } from "./icons";
 import { useServiceNavigation } from "./useServiceNavigation";
 import { openSearch } from "./SearchDialog";
 
@@ -23,7 +25,11 @@ interface MobileMenuProps {
 export function MobileMenu({ locale, services, cities, defaultCitySlug }: MobileMenuProps) {
   const [open, setOpen] = useState(false);
   const t = getDictionary(locale);
-  const { open: openService, pending } = useServiceNavigation(locale, cities, defaultCitySlug, () => setOpen(false));
+  // The page's own city (a Warszawa page opens Warszawa lists), else the
+  // language's city from the server.
+  const pageCity = usePageCity();
+  const citySlug = pageCity ?? defaultCitySlug;
+  const { open: openService, pending } = useServiceNavigation(locale, cities, citySlug, () => setOpen(false));
 
   useEffect(() => {
     if (!open) return;
@@ -45,10 +51,13 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
         type="button"
         onClick={() => setOpen(true)}
         aria-expanded={open}
-        className="inline-flex h-11 items-center gap-1.5 rounded-[var(--radius-control)] bg-surface-sunken px-4 font-medium text-foreground lg:hidden"
+        aria-label={t.nav.openMenu}
+        className="inline-flex h-11 min-w-11 items-center justify-center gap-1 rounded-[var(--radius-control)] bg-surface-sunken px-3 font-medium text-foreground lg:hidden"
       >
-        {t.nav.openMenu}
-        <ChevronDownIcon className="h-4 w-4" />
+        {/* Narrow phones: an icon, so the language switch fits in the row. */}
+        <MenuIcon className="h-5 w-5 sm:hidden" />
+        <span className="hidden sm:inline">{t.nav.openMenu}</span>
+        <ChevronDownIcon className="hidden h-4 w-4 sm:block" />
       </button>
 
       {/* Portal: the sticky header's backdrop-filter would otherwise
@@ -85,7 +94,7 @@ export function MobileMenu({ locale, services, cities, defaultCitySlug }: Mobile
                 {services.map((s, i) => (
                   <li key={s.href} className="rise-in" style={{ animationDelay: `${i * 40}ms` }}>
                     <Link
-                      href={s.href}
+                      href={listingPath(locale, s.category, citySlug)}
                       onClick={(e) => openService(s.category, e)}
                       className="flex h-full flex-col gap-3 rounded-[var(--radius-card)] bg-surface p-4 shadow-[var(--shadow-card)]"
                       style={{ "--accent": s.accent } as React.CSSProperties}
