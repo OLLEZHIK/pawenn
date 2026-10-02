@@ -7,6 +7,7 @@ import { MobileMenu } from "./MobileMenu";
 import { BrowseMenu, type ServiceLink } from "./BrowseMenu";
 import { FindCareButton, SearchDialog } from "./SearchDialog";
 import { HeaderShell } from "./HeaderShell";
+import { LanguageSwitch } from "./LanguageSwitch";
 
 export async function Header({ locale }: { locale: Locale }) {
   const [defaultCity, allCities, cityPoints] = await Promise.all([getDefaultCity(), getAllCities(), getCityPoints()]);
@@ -37,9 +38,9 @@ export async function Header({ locale }: { locale: Locale }) {
 
   return (
     <HeaderShell>
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 py-3 sm:gap-4 md:py-4">
         <Link href={localePath(locale, "/")} aria-label="pawenn home" className="flex shrink-0 items-center">
-          <Logo className="h-9 w-auto md:h-10" />
+          <Logo className="h-8 w-auto sm:h-9 md:h-10" />
         </Link>
 
         {/* Zocdoc-style: Browse dropdown, plain text links, a divider,
@@ -66,6 +67,7 @@ export async function Header({ locale }: { locale: Locale }) {
           >
             {t.nav.listBusiness}
           </Link>
+          <LanguageSwitch variant="header" />
           <span aria-hidden="true" className="mx-2 h-8 w-px bg-foreground/15" />
           <FindCareButton
             label={t.nav.findCare}
@@ -74,7 +76,8 @@ export async function Header({ locale }: { locale: Locale }) {
         </nav>
 
         {/* Phones: a search button next to Browse opens the same dialog. */}
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex items-center gap-1.5 lg:hidden">
+          <LanguageSwitch variant="header" compact />
           <FindCareButton
             compact
             label={t.nav.findCare}

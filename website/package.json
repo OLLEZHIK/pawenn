@@ -9,9 +9,11 @@
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
+    "check-guides": "tsx scripts/check-guides.ts",
     "check-city": "tsx scripts/check-city.ts",
     "verify-city": "tsx scripts/verify-city.ts",
-    "gate": "tsx scripts/gate.ts"
+    "gate": "tsx scripts/gate.ts",
+    "agent-check": "tsx scripts/agent-check.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -20,7 +22,7 @@
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
     "@vercel/analytics": "^2.0.1",
-    "next": "16.3.5",
+    "next": "16.3.8",
     "papaparse": "^5.7.0",
     "pg": "^8.23.0",
     "react": "19.2.8",
@@ -35,7 +37,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.5",
+    "eslint-config-next": "16.3.8",
     "png-to-ico": "^3.0.2",
     "prisma": "^7.10.0",
     "tailwindcss": "^4",

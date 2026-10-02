@@ -2,6 +2,9 @@ import { prisma } from "@/lib/prisma";
 
 const MAX_NAME_LENGTH = 100;
 const MAX_COMMENT_LENGTH = 2000;
+// A person needs longer than this to fill the form (ReviewForm sends the
+// time since it was opened).
+const MIN_FILL_MS = 3000;
 
 export async function POST(request: Request) {
   let body: unknown;
@@ -15,7 +18,16 @@ export async function POST(request: Request) {
     return Response.json({ error: "Invalid request body." }, { status: 400 });
   }
 
-  const { businessId, authorName, rating, comment } = body as Record<string, unknown>;
+  const { businessId, authorName, rating, comment, homepage, elapsedMs } = body as Record<string, unknown>;
+
+  // Hidden field filled: a bot. Answer as if saved, so it does not retry.
+  if (typeof homepage === "string" && homepage.trim() !== "") {
+    return Response.json({ ok: true }, { status: 201 });
+  }
+
+  if (typeof elapsedMs !== "number" || !Number.isFinite(elapsedMs) || elapsedMs < MIN_FILL_MS) {
+    return Response.json({ error: "Please take a moment and send the review again." }, { status: 400 });
+  }
 
   if (typeof businessId !== "number" || !Number.isInteger(businessId) || businessId <= 0) {
     return Response.json({ error: "Invalid business." }, { status: 400 });

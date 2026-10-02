@@ -1,0 +1,85 @@
+{
+  "slug": "mvdr-ivana-opatova-veterinarna-ambulancia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/MVDr.+Ivana+Op%C3%A1tov%C3%A1+-+veterin%C3%A1rna+ambulancia/data=!4m7!3m6!1s0x473ee16a9a7a6bcf:0xb2fdf75dc57bf933!8m2!3d48.7420794!4d21.2828691!16s%2Fg%2F11b6d16k31!19sChIJz2t6mmrhPkcRM_l7xV33_bI?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 10,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Friendly personal care alongside sharp communication grievance",
+        "sk": "Láskavý prístup popri ostrej sťažnosti na komunikáciu"
+      },
+      "text": {
+        "en": "Many loyal clients commend Dr. Ivana Opátová for her warm attitude, precision, and patient handling of family dogs. Conversely, a severe critical review described extreme dissatisfaction with diagnostic communication and delayed laboratory test results during a critical case.",
+        "sk": "Mnohí dlhoroční klienti chvália MVDr. Ivanu Opátovú za milý, trpezlivý a precízny prístup k domácim psíkom. Naopak, jedna veľmi kritická recenzia vyjadrila nespokojnosť s nedostatočnou komunikáciou a meškaním pri oznamovaní výsledkov laboratórnych testov pri zhoršenom stave zvieraťa."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Renovated air-conditioned clinic premises on Konevova",
+        "sk": "Zrekonštruované klimatizované priestory na Konevovej"
+      },
+      "text": {
+        "en": "Reviewers frequently highlight the modern, freshly renovated facilities of the clinic on Maršála Koneva. The air-conditioned interior and clean, comfortable waiting area provide a stress-free environment for attending animals throughout all seasons of the year.",
+        "sk": "Recenzenti pravidelne vyzdvihujú vkusne zrekonštruované a moderné priestory ambulancie na ulici Maršála Koneva. Klimatizovaný interiér a čistá, upravená čakáreň vytvárajú príjemné zázemie pre ošetrované zvieratá počas celého roka bez zbytočného stresu či prehrievania."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Effective allergy management and recovery on infusions",
+        "sk": "Úspešná diagnostika alergií a zotavenie na infúziách"
+      },
+      "text": {
+        "en": "Positive reviews report successful clinical treatment of acute canine conditions, accurate identification of severe allergies, and uncomplicated healing after sterilization surgeries. Clients also appreciate careful monitoring during outpatient infusions in the clinic.",
+        "sk": "Pozitívne hodnotenia opisujú úspešné zvládnutie zdravotných ťažkostí u psov, presné určenie alergií a bezproblémové hojenie po kastrácii. Chovatelia oceňujú aj dôkladnú starostlivosť a dohľad personálu pri podávaní potrebných infúzií priamo v priestoroch ambulancie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the clinic premises renovated and air-conditioned?",
+        "sk": "Sú priestory ambulancie zrekonštruované a klimatizované?"
+      },
+      "a": {
+        "en": "Yes, customer reviews explicitly highlight the newly renovated and air-conditioned interior.",
+        "sk": "Áno, recenzie klientov chvália peknú rekonštrukciu a klimatizované priestory pre pacientov."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic administer veterinary infusions?",
+        "sk": "Podáva ambulancia pacientom infúznu terapiu?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that dogs receive supervised intravenous fluid infusions when clinically necessary.",
+        "sk": "Áno, recenzenti potvrdzujú aplikáciu infúzií s odborným dohľadom nad zvieratkom."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Dr. Opátová's clinic situated in Košice?",
+        "sk": "Kde presne sídli ambulancia MVDr. Opátovej?"
+      },
+      "a": {
+        "en": "The practice is located at Maršála Koneva 1 in the Dargovských hrdinov (Furča) district of Košice.",
+        "sk": "Ambulancia sídli na adrese Maršála Koneva 1 na sídlisku Dargovských hrdinov (Furča) v Košiciach."
+      },
+      "basis": "both"
+    }
+  ]
+}

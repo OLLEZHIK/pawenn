@@ -20,6 +20,29 @@ const nextConfig: NextConfig = {
     // app/global-not-found.tsx.
     globalNotFound: true,
   },
+  // Security check 2026-10-01 (tasks/cmac-security-fixes.md): no
+  // "X-Powered-By: Next.js", and the basic headers on every path. The CSP
+  // has no script-src on purpose - Next's inline scripts and Vercel
+  // Analytics would break without a separate check.
+  poweredByHeader: false,
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+          { key: "Content-Security-Policy", value: "frame-ancestors 'none'; base-uri 'self'; object-src 'none'" },
+        ],
+      },
+      {
+        // A logo SVG opened by its direct link runs no script.
+        source: "/logos/:path*.svg",
+        headers: [{ key: "Content-Security-Policy", value: "default-src 'none'; style-src 'unsafe-inline'; sandbox" }],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

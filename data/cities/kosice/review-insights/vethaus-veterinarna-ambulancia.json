@@ -1,0 +1,85 @@
+{
+  "slug": "vethaus-veterinarna-ambulancia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VetHaus+-+veterin%C3%A1rna+ambulancia/data=!4m7!3m6!1s0x473ee16a9a7a6bcf:0xb2fdf75dc57bf933!8m2!3d48.7295331!4d21.2891514!16s%2Fg%2F11b6d16k31!19sChIJz2t6mmrhPkcRM_l7xV33_bI?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 5,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Empathetic and thorough explanations by Dr. Haus",
+        "sk": "Empatický a podrobný výklad MVDr. Hausa a kolektívu"
+      },
+      "text": {
+        "en": "Clients warmly praise Dr. Haus and the veterinary team for their kind, helpful, and highly professional demeanor. Pet owners note that doctors outline all available medical alternatives calmly and explain diagnosis and therapeutic steps thoroughly to pet owners.",
+        "sk": "Klienti vyzdvihujú MVDr. Hausa a celý lekársky tím za veľmi príjemné, ochotné a profesionálne vystupovanie. Chovatelia oceňujú, že personál podrobne vysvetlí všetky možnosti liečby a trpezlivo informuje majiteľa o zdravotnom stave zvieraťa pri každej návšteve."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Modern diagnostics with on-site ultrasound and blood tests",
+        "sk": "Moderná diagnostika s ultrazvukom a rýchlym rozborom krvi"
+      },
+      "text": {
+        "en": "Reviewers highlight the modern medical equipment available at the practice, including ultrasound diagnostics and rapid on-site blood analysis. Patients receive comprehensive medical attention promptly without requiring referral trips elsewhere across Košice.",
+        "sk": "Recenzenti chvália moderné prístrojové vybavenie pracoviska vrátane sonografu a rýchlych rozborov krvi na mieste. Pacienti tak absolvujú kompletnú diagnostiku bez zbytočného odosielania na iné kliniky a s rýchlym určením diagnózy priamo v ambulancii."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Hygienic modern clinic with dedicated adjacent parking",
+        "sk": "Čisté moderné priestory s parkovaním priamo pri vchode"
+      },
+      "text": {
+        "en": "Pet parents commend the clinic on Herlianska for its immaculate cleanliness, pleasant interior atmosphere, and welcoming reception. Visitors also appreciate the convenience of designated parking spaces situated right next to the clinic entrance for easy patient arrival.",
+        "sk": "Majitelia psov a mačiek oceňujú príkladnú čistotu, moderné priestory a príjemnú atmosféru ambulancie na Herlianskej ulici. Návštevníci taktiež vyzdvihujú vyhradené parkovacie miesta priamo pri ambulancii, čo uľahčuje príchod so zvieratkom v aute bez komplikácií."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does VetHaus have on-site ultrasound and laboratory equipment?",
+        "sk": "Disponuje ambulancia ultrazvukom a laboratóriom na mieste?"
+      },
+      "a": {
+        "en": "Yes, customer reviews emphasize on-site ultrasound imaging and rapid blood testing during visits.",
+        "sk": "Áno, recenzie vyzdvihujú vyšetrenie sonografom a okamžité vyhodnotenie krvných testov."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available at VetHaus?",
+        "sk": "Je pri ambulancii VetHaus k dispozícii parkovanie?"
+      },
+      "a": {
+        "en": "Yes, dedicated parking spaces are available directly adjacent to the clinic building on Herlianska.",
+        "sk": "Áno, zákazníci majú k dispozícii vyhradené parkovacie miesta priamo pri objekte."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the VetHaus clinic located?",
+        "sk": "Kde presne sídli ambulancia VetHaus v Košiciach?"
+      },
+      "a": {
+        "en": "The clinic is located at Herlianska 37 in the Košická Nová Ves district of Košice.",
+        "sk": "Ambulancia sa nachádza na Herlianskej 37 v mestskej časti Košická Nová Ves."
+      },
+      "basis": "both"
+    }
+  ]
+}

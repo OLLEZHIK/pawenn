@@ -1,0 +1,103 @@
+{
+  "slug": "kociocia-marta-galan",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=1570223888687032888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Communication delays and response issues",
+        "pl": "Trudności z kontaktem i opóźnienia"
+      },
+      "text": {
+        "en": "Clients report mixed experiences with communication, with several critical reviews highlighting significant delays or unanswered messages. While pet-sitting customers praise detailed visit reports with photos, consultation clients express frustration over waiting days for replies or receiving no response to inquiries.",
+        "pl": "Klienci wskazują na istotne problemy z kontaktem, a w opiniach pojawiają się skargi na brak odpowiedzi lub wielodniowe oczekiwanie na wiadomości. O ile osoby korzystające z opieki chwalą codzienne relacje ze zdjęciami, o tyle klienci behawioralni wyrażają rozczarowanie słabą dostępnością na komunikatorach."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Professional sitter and behavioral advice",
+        "pl": "Profesjonalna opieka i wiedza behawioralna"
+      },
+      "text": {
+        "en": "Reviewers recognize Martas deep knowledge of feline habits and reliable pet-sitting assistance during owners travels. Clients value her well-structured written recommendations and responsible caretaking during home visits, describing her as a dedicated specialist who understands cat psychology.",
+        "pl": "Recenzenci doceniają wiedzę Marty w dziedzinie kociej natury oraz sumienność podczas wizyt domowych. Klienci cenią wyczerpujące zalecenia w formie pisemnej oraz odpowiedzialne podejście do opieki, opisując ją jako zaangażowaną specjalistkę, która potrafi celnie ocenić potrzeby czworonożnego podopiecznego."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive care for feline well-being",
+        "pl": "Dbałość o potrzeby i dobrostan kotów"
+      },
+      "text": {
+        "en": "Cat owners appreciate that pets receive thorough care and attention in their own home environment during travel. Reviewers note that cats remain calm and well-attended, while behavior consultations provide actionable strategies to address inter-cat tension and resocialization challenges.",
+        "pl": "Właściciele kotów doceniają, że zwierzęta są otoczone należytą troską w znanym sobie domowym otoczeniu podczas nieobecności domowników. Klienci wskazują, że koty znoszą rozłąkę spokojnie, a zalecenia behawioralne pomagają łagodzić konflikty między zwierzętami i wspierają proces resocjalizacji."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services does Kociocia offer?",
+        "pl": "Jakie usługi świadczy Kociocia?"
+      },
+      "a": {
+        "en": "Services include professional cat-sitting home visits during owners absence and feline behavioral consultations.",
+        "pl": "Oferta obejmuje domową opiekę nad kotami (petsitting) podczas wyjazdów oraz konsultacje behawioralne."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How are consultation recommendations delivered?",
+        "pl": "W jakiej formie przekazywane są zalecenia behawioralne?"
+      },
+      "a": {
+        "en": "Following an assessment, clients receive a comprehensive written recommendations plan in PDF format.",
+        "pl": "Po przeprowadzeniu wywiadu i wizyty klient otrzymuje szczegółowy plan zaleceń w formacie PDF."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do pet-sitting clients receive updates?",
+        "pl": "Czy podczas opieki przesyłane są relacje z wizyt?"
+      },
+      "a": {
+        "en": "Yes, the sitter sends daily reports including photos and videos showing the cat's condition during each visit.",
+        "pl": "Tak, petsitterka przesyła po każdej wizycie relacje ze zdjęciami oraz filmikami pokazującymi kota."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Kociocia based in Warsaw?",
+        "pl": "Gdzie zlokalizowana jest siedziba Kocioci?"
+      },
+      "a": {
+        "en": "The business is registered at Al. Jana Pawła II 36 in central Warsaw, offering home visits across the city.",
+        "pl": "Działalność zarejestrowana jest przy Al. Jana Pawła II 36 w Warszawie, a usługi świadczone są z dojazdem."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    { "ago": "6 months ago", "months": 6, "stars": 1, "topics": { "communication": "-" } },
+    { "ago": "a year ago", "months": 12, "stars": 3, "topics": { "communication": "-", "staff": "~", "animals": "~" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "communication": "+", "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 1, "topics": { "communication": "-" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "communication": "+", "staff": "+", "animals": "+" } }
+  ]
+}
