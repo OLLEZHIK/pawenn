@@ -9,7 +9,7 @@ pair: rabies-vaccination-dog
 sources:
   - https://www.wetgiw.gov.pl/nadzor-weterynaryjny/szczepienie-na-wscieklizne | Główny Inspektorat Weterynarii: Szczepienie przeciwko wściekliźnie | 2026-10-02
   - https://www.wetgiw.gov.pl/nadzor-weterynaryjny/wscieklizna | Główny Inspektorat Weterynarii: Wścieklizna i profilaktyka | 2026-10-02
-  - https://dziennikustaw.gov.pl/DU/2023/1075 | Dziennik Ustaw: Ustawa o ochronie zdrowia zwierząt (art. 56 i 85) | 2026-10-02
+  - https://eli.gov.pl/eli/DU/2025/1795/ogl | Dziennik Ustaw: ustawa z dnia 21 listopada 2025 r. o zdrowiu zwierząt (Dz.U. 2025 poz. 1795) | 2026-10-02
 ---
 Wścieklizna jest śmiertelną chorobą wirusową układu nerwowego, groźną zarówno dla zwierząt, jak i ludzi. W Polsce ochronne szczepienie psów jest prawnym obowiązkiem każdego opiekuna, niezależnie od tego, czy pies przebywa w domu, czy na posesji.
 
@@ -29,13 +29,11 @@ Nawet jeśli producent szczepionki deklaruje dłuższą ochronę immunologiczną
 
 Szczepienia dokonuje lekarz weterynarii świadczący usługi w ramach zakładu leczniczego dla zwierząt.
 
-Po podaniu szczepionki lekarz wydaje opiekunowi **zaświadczenie o szczepieniu** (z wpisanym numerem seryjnym szczepionki, datą i danymi psa) lub dokonuje odpowiedniego wpisu w [paszporcie zwierzęcia](/pl/poradnik/podroz-z-psem-w-ue/). Zaświadczenie to należy zachować i okazywać na żądanie policji, straży miejskiej lub inspekcji weterynaryjnej podczas kontroli.
+Po podaniu szczepionki lekarz wydaje opiekunowi **zaświadczenie o szczepieniu** (z wpisanym numerem seryjnym szczepionki, datą i danymi psa) lub dokonuje odpowiedniego wpisu w [paszporcie zwierzęcia](/pl/poradnik/podroz-z-psem-w-ue/). Zaświadczenie warto zachować: potwierdza termin szczepienia.
 
-## Co grozi za brak szczepienia psa
+## Podstawa prawna i aktualne przepisy
 
-Uchylanie się od obowiązku ochronnego szczepienia psa przeciwko wściekliźnie stanowi wykroczenie (art. 85 ust. 1a ustawy o ochronie zdrowia zwierząt oraz zwalczaniu chorób zakaźnych zwierząt).
-
-Opiekunowi, który nie dopełni obowiązku zaszczepienia psa w terminie, grozi **kara grzywny**. Mandat karny może nałożyć policja lub straż miejska, a w przypadku skierowania sprawy do sądu grzywna może być znacznie wyższa. Ponadto w przypadku pogryzienia człowieka nieszczepiony pies podlega uciążliwej i kosztownej obserwacji weterynaryjnej na koszt właściciela.
+Obowiązek szczepienia psów przeciwko wściekliźnie wynika z przepisów o zdrowiu zwierząt. Od 18 marca 2026 r. obowiązuje nowa ustawa z dnia 21 listopada 2025 r. o zdrowiu zwierząt, która zastąpiła większość przepisów dotychczasowej ustawy z 2004 r. Aktualne terminy i zasady podaje Główny Lekarz Weterynarii na stronie [wetgiw.gov.pl](https://www.wetgiw.gov.pl/nadzor-weterynaryjny/szczepienie-na-wscieklizne). Sankcje za niedopełnienie obowiązku sprawdź w obowiązujących przepisach lub zapytaj lekarza weterynarii.
 
 ## Kiedy szczepienie staje się ważne przy podróżach
 

@@ -8,13 +8,14 @@ categories: VET_CLINIC
 pair: microchip-dog
 sources:
   - https://www.wetgiw.gov.pl/nadzor-weterynaryjny/przemieszczenia-niehandlowe---podroz-ze-zwierzetami-towarzyszacymi | Główny Inspektorat Weterynarii: Identyfikacja zwierząt domowych w UE | 2026-10-02
-  - https://warszawa19115.pl/ | Urząd m.st. Warszawy: Elektroniczne znakowanie zwierząt | 2026-10-02
+  - https://www.gov.pl/web/rolnictwo/prezydent-podpisal-ustawe-o-krajowym-rejestrze-oznakowanych-psow-i-kotow | Ministerstwo Rolnictwa: ustawa o KROPiK | 2026-10-02
+  - https://warszawa19115.pl/-/finansowanie-zabiegow-kastracji-oraz-czipowania-zwierzat | Urząd m.st. Warszawy: Elektroniczne znakowanie zwierząt | 2026-10-02
 ---
 Czipowanie to najskuteczniejszy sposób na zabezpieczenie psa na wypadek ucieczki lub zaginięcia. Miniaturowy mikroczip pozwala służbom i lecznicom szybko odczytać dane opiekuna i bezpiecznie zwrócić pupila do domu.
 
 ## Czy czipowanie psa jest w Polsce obowiązkowe
 
-W Polsce czipowanie psów domowych, które nie wyjeżdżają poza granice kraju, nie jest jeszcze powszechnym obowiązkiem ustawowym na poziomie ogólnokrajowym. Obowiązek ten wprowadzają jednak poszczególne gminy w ramach lokalnych programów opieki nad zwierzętami, a także unijne przepisy dotyczące wyjazdów zagranicznych.
+W Polsce na dziś nie ma jeszcze ogólnokrajowego obowiązku czipowania psów, które nie wyjeżdżają za granicę. Zmienia to ustawa z dnia 15 maja 2026 r. o Krajowym Rejestrze Oznakowanych Psów i Kotów (KROPiK): wprowadza obowiązek oznakowania i rejestracji psa w rejestrze prowadzonym przez ARiMR, ale wchodzi w życie dopiero po upływie 2 lat od dnia ogłoszenia w Dzienniku Ustaw. Czip jest już dziś wymagany przy podróżach po UE (poniżej). Aktualne informacje: [gov.pl](https://www.gov.pl/web/rolnictwo/prezydent-podpisal-ustawe-o-krajowym-rejestrze-oznakowanych-psow-i-kotow).
 
 Czip jest bezwzględnie wymagany, jeśli planujesz wyrobić psu paszport i [podróżować z psem po krajach Unii Europejskiej](/pl/poradnik/podroz-z-psem-w-ue/). Oznakowanie mikroczipem musi nastąpić przed lub w dniu wykonania [szczepienia przeciwko wściekliźnie](/pl/poradnik/szczepienie-psa-przeciwko-wsciekliznie/).
 

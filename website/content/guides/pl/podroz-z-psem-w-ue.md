@@ -8,7 +8,7 @@ categories: VET_CLINIC
 pair: travel-eu-dog
 sources:
   - https://www.wetgiw.gov.pl/nadzor-weterynaryjny/przemieszczenia-niehandlowe---podroz-ze-zwierzetami-towarzyszacymi | Główny Inspektorat Weterynarii: Podróżowanie ze zwierzęciem domowym w UE | 2026-10-02
-  - https://dziennikustaw.gov.pl/DU/2024/1700 | Dziennik Ustaw: Rozporządzenie MRiRW w sprawie opłaty za paszport (Dz.U. 2024 poz. 1700) | 2026-10-02
+  - https://eli.gov.pl/eli/DU/2024/1694/ogl/pol | Dziennik Ustaw: Rozporządzenie MRiRW w sprawie opłaty za paszport (Dz.U. 2024 poz. 1694) | 2026-10-02
 ---
 Niekomercyjne podróżowanie z psem pomiędzy państwami członkowskimi Unii Europejskiej podlega jednolitym unijnym zasadom weterynaryjnym. Aby podróż przebiegła bez problemów, opiekun musi wcześniej zadbać o paszport, oznakowanie i profilaktykę zdrowotną.
 
@@ -30,7 +30,7 @@ Jeżeli kolejne szczepienie przypominające zostanie wykonane jeszcze w okresie 
 
 ## Ile kosztuje wyrobienie paszportu dla psa
 
-Wysokość opłaty za wydanie paszportu dla zwierzęcia towarzyszącego w Polsce jest uregulowana urzędowo. Zgodnie z rozporządzeniem Ministra Rolnictwa i Rozwoju Wsi z dnia 14 listopada 2024 r. (Dz.U. 2024 poz. 1700) urzędowa opłata wynosi:
+Wysokość opłaty za wydanie paszportu dla zwierzęcia towarzyszącego w Polsce jest uregulowana urzędowo. Zgodnie z rozporządzeniem Ministra Rolnictwa i Rozwoju Wsi z dnia 14 listopada 2024 r. (Dz.U. 2024 poz. 1694) urzędowa opłata wynosi:
 
 - **190 zł** — łączny koszt wydania paszportu (w tym 133 zł stanowi wynagrodzenie lekarza weterynarii, a 57 zł koszty administracyjne druku i rejestru).
 
