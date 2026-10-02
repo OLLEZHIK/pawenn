@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { SITE_URL } from "@/lib/site";
 
 export interface Crumb {
@@ -38,7 +39,7 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
           </li>
         ))}
       </ol>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
     </nav>
   );
 }

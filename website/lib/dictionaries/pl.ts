@@ -165,7 +165,7 @@ export const pl: Dictionary = {
     nearYou: "W Twojej okolicy",
     locatingYou: "Ustalamy Twoją lokalizację…",
     geoDenied: "Nie ma problemu – wpisz swoje miasto.",
-    cityPlaceholder: "Wpisz miasto",
+    cityPlaceholder: "Twoje miasto",
     cityLabel: "Miasto",
     cityNotCovered: (typed: string, cities: string) => `Nie ma nas jeszcze w ${typed}. Pawenn działa w: ${cities}.`,
     geoFar: (city: string) => `Nie ma nas jeszcze w Twojej okolicy – wpisz miasto, np. ${city}.`,
@@ -310,6 +310,17 @@ export const pl: Dictionary = {
     faqTitle: "Pytania zadawane przez opiekunów",
     shortNote: "Nie mamy jeszcze podsumowania opinii pawenn o tym miejscu. Ocena i wszystkie opinie są w Google.",
   },
+  vetNow: {
+    button: "Weterynarz teraz",
+    buttonHint: "Najbliżsi weterynarze otwarci w tej chwili",
+    locating: "Szukamy Twojej lokalizacji…",
+    callFirst: "Zadzwoń przed wyjazdem: powiedz, co się stało, i upewnij się, że mogą Cię przyjąć od razu.",
+    noneOpen: "W tej chwili żaden weterynarz z podanymi godzinami nie jest otwarty. Najszybciej otwierają:",
+    opensToday: (time: string) => `otwiera dziś o ${time}`,
+    opensTomorrow: (time: string) => `otwiera jutro o ${time}`,
+    opensLater: (date: string, time: string) => `otwiera ${date} o ${time}`,
+    nonstopTitle: "Całodobowo 24/7",
+  },
   actions: { call: "Zadzwoń", website: "Strona www", route: "Trasa" },
   badges: { verified: (date: string) => `Zweryfikowano ${date}`, partner: "Partner" },
   business: {
@@ -317,7 +328,7 @@ export const pl: Dictionary = {
     metaDescription: (name: string, where: string) =>
       `${name}${where ? ` ${where}` : ""}: adres, telefon, godziny otwarcia i dojazd.`,
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Godziny otwarcia${hasPrices ? ", cennik" : ""} oraz bezpośredni telefon, strona www i wskazówki dojazdu.`,
+      `Godziny otwarcia${hasPrices ? ", cennik" : ""}, telefon i dojazd.`,
     about: "O miejscu",
     goodToKnow: "Warto wiedzieć",
     goodToKnowNote: "Informacje podawane przez obiekt na jego własnej stronie www.",
