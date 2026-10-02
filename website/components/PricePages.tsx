@@ -11,6 +11,7 @@ import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/s
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { ChevronRightIcon, TagIcon } from "./icons";
+import { PageCity } from "./PageCity";
 
 // Price pages (owner, 2026-09-25; docs/seo/README.md, "Страницы цен"):
 // the answer first (range, median, how many places, date), then every
@@ -130,6 +131,7 @@ export async function ServicePricePage({
 
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
+      <PageCity slug={city.slug} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <Header
         locale={locale}
@@ -292,6 +294,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
 
   return (
     <main style={{ "--accent": CATEGORY_THEME[category].accent } as React.CSSProperties}>
+      <PageCity slug={city.slug} />
       <Header
         locale={locale}
         category={category}

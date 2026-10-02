@@ -1,0 +1,103 @@
+{
+  "slug": "cat-mahal",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=11742720551948740167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Relaxed stays and attentive feline care",
+        "pl": "Zrelaksowane koty i troskliwa opieka"
+      },
+      "text": {
+        "en": "Clients emphasize that cats return from CAT MAHAL calm, well-rested, and in cheerful spirits. Pet owners note that the friendly atmosphere and individual attention help felines adapt quickly to their new surroundings without experiencing separation anxiety during long boarding stays.",
+        "pl": "Klienci podkreślają, że koty wracają z hotelu CAT MAHAL wypoczęte, spokojne i w doskonałym nastroju. Opiekunowie zauważają, że przyjazne warunki oraz indywidualna uwaga pomagają zwierzętom szybko zaaklimatyzować się w nowym miejscu i bezstresowo spędzić nawet kilkunastodniową rozłąkę."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Clean rooms with climbing structures",
+        "pl": "Czyste pokoje z drapakami i półkami"
+      },
+      "text": {
+        "en": "Reviewers highlight the clean, hygienic, and well-organized accommodations. Rooms are thoroughly disinfected between guest stays and equipped with multiple wall shelves, climbing bridges, and scratching posts that keep curious cats active, entertained, and comfortable.",
+        "pl": "Recenzenci zwracają uwagę na czystość, higienę i przemyślane wyposażenie hotelu. Pokoje są starannie sprzątane i dezynfekowane przed każdym nowym gościem, a zamontowane na ścianach półki, mostki oraz drapaki zapewniają ciekawskim kotom mnóstwo atrakcji i bezpieczną przestrzeń do zabawy."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Compassionate approach by hotel host",
+        "pl": "Ciepłe i profesjonalne podejście opiekunki"
+      },
+      "text": {
+        "en": "Pet owners frequently commend Wiola for her genuine passion, gentle handling, and attentive communication. Clients value that she takes real interest in each cats comfort, sends reassuring daily reports, and provides thoughtful treats that make animals feel right at home.",
+        "pl": "Opiekunowie czworonogów chwalą panią Wiolę za szczere zamiłowanie do kotów, spokój oraz profesjonalne podejście. Klienci cenią jej troskę o dobre samopoczucie każdego zwierzaka, codzienne wiadomości oraz drobne upominki, dzięki którym koty czują się w hotelu jak u bliskiej osoby."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What facilities are in the rooms?",
+        "pl": "Jak wyposażone są pokoje dla kotów?"
+      },
+      "a": {
+        "en": "Rooms feature climbing shelves, scratching towers, and wall bridges designed to provide stimulation and safe resting spots.",
+        "pl": "Pokoje wyposażone są w drapaki, mostki ścienne oraz półki, które stwarzają bezpieczną przestrzeń do aktywności i odpoczynku."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do owners receive regular updates?",
+        "pl": "Czy właściciel otrzymuje relacje z pobytu?"
+      },
+      "a": {
+        "en": "Yes, the host provides regular photo and text updates so owners can monitor their cat's daily comfort.",
+        "pl": "Tak, opiekunka przesyła codzienne relacje zdjęciowe, informując o samopoczuciu i zachowaniu kota."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is CAT MAHAL located?",
+        "pl": "Gdzie mieści się hotel CAT MAHAL?"
+      },
+      "a": {
+        "en": "The hotel is located in Warsaw's Praga-Południe district at Jerzego Bukowskiego 7m/53.",
+        "pl": "Hotel znajduje się na warszawskiej Pradze-Południe przy ulicy Jerzego Bukowskiego 7m/53."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are rooms prepared between visits?",
+        "pl": "Jak przygotowywane są pokoje przed nowym gościem?"
+      },
+      "a": {
+        "en": "Rooms undergo thorough cleaning and disinfection between boarders to maintain strict veterinary hygiene.",
+        "pl": "Pokoje są dokładnie sprzątane i dezynfekowane pomiędzy pobytami kolejnych kotów dla zachowania higieny."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "3 weeks ago", "months": 0, "stars": 5, "topics": { "animals": "+", "place": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "animals": "+", "place": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "place": "+", "communication": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "place": "+", "communication": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "place": "+", "communication": "+" } }
+  ]
+}

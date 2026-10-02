@@ -1,0 +1,108 @@
+{
+  "slug": "koci-hotelik",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=1080097132488977115&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Comfortable and caring cat boarding",
+        "pl": "Komfortowa i troskliwa opieka nad kotami"
+      },
+      "text": {
+        "en": "Clients highlight the high standard of care provided to feline guests during temporary boarding stays. Cat owners emphasize that their pets return home healthy, well-fed, calm, and affectionate, showing that their individual daily routines, play needs, and dietary habits were respected.",
+        "pl": "Klienci podkreślają wysoki poziom opieki nad kocimi gośćmi w trakcie pobytu w hotelu. Właściciele kotów zwracają uwagę, że zwierzęta wracają do domów spokojne, zadbane, odkarmione i zrelaksowane, co potwierdza, że ich codzienne nawyki, potrzeba zabawy oraz spokoju były w pełni uszanowane."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Dedicated owners with genuine passion",
+        "pl": "Zaangażowani właściciele z pasją do kotów"
+      },
+      "text": {
+        "en": "Reviewers praise the hotel owners, particularly Blanka, for their warmhearted attitude and dedicated care for cats. Clients note that the hosts take time to bond with each boarder, follow feeding instructions diligently, and treat every guest with patience, warmth, and genuine commitment.",
+        "pl": "Recenzenci serdecznie chwalą właścicieli hotelu, w tym panią Blankę, za ciepłe i pełne zaangażowania podejście do kotów. Klienci doceniają, że gospodarze poświęcają czas na bliski kontakt z każdym podopiecznym, skrupulatnie przestrzegają zaleceń i traktują zwierzęta z autentyczną troską."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Regular reports with photos and videos",
+        "pl": "Regularne relacje ze zdjęciami i filmami"
+      },
+      "text": {
+        "en": "Pet owners appreciate the smooth, reassuring communication maintained throughout their cats stay. The hotel team provides regular updates alongside photographic and video reports, allowing owners to stay relaxed while away and observe how their pets adapt and interact.",
+        "pl": "Opiekunowie zwierząt bardzo cenią sprawny i uspokajający kontakt utrzymywany podczas całego pobytu kota. Właściciele hotelu na bieżąco przesyłają wiadomości ze zdjęciami i nagraniami wideo, co pozwala ze spokojem znosić rozłąkę i obserwować codzienne samopoczucie pupila."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How are cats housed at the hotel?",
+        "pl": "Jak wyglądają warunki pobytu dla kotów?"
+      },
+      "a": {
+        "en": "Each cat has its own dedicated room or enclosure, with opportunities for playtime and exploration in a secure area.",
+        "pl": "Każdy kot ma do dyspozycji własne bezpieczne pomieszczenie z możliwością zabawy na wybiegu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do owners receive photos and videos?",
+        "pl": "Czy właściciele otrzymują relacje zdjęciowe?"
+      },
+      "a": {
+        "en": "Yes, the hotel sends frequent updates with photos and video clips documenting the cat's mood and well-being.",
+        "pl": "Tak, obsługa regularnie przesyła wiadomości ze zdjęciami i filmikami pokazującymi samopoczucie kota."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Koci Hotelik located?",
+        "pl": "Gdzie znajduje się Koci Hotelik?"
+      },
+      "a": {
+        "en": "The facility is located in the Włochy district at Municypalna 37 in Warsaw.",
+        "pl": "Hotel położony jest w warszawskiej dzielnicy Włochy przy ulicy Municypalnej 37."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can dietary and medical instructions be followed?",
+        "pl": "Czy personel podaje leki i karmę właściciela?"
+      },
+      "a": {
+        "en": "Yes, the caretakers strictly follow individual nutritional regimens and medication guidelines provided by owners.",
+        "pl": "Tak, opiekunowie ściśle stosują się do wytycznych dotyczących żywienia oraz podawania leków."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "2 months ago", "months": 2, "stars": 5, "topics": { "staff": "+", "communication": "+", "animals": "+" } },
+    { "ago": "6 months ago", "months": 6, "stars": 5, "topics": { "animals": "+" } },
+    { "ago": "10 months ago", "months": 10, "stars": 5, "topics": { "animals": "+", "staff": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "communication": "+", "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "communication": "+", "staff": "+", "animals": "+", "place": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "communication": "+", "animals": "+", "place": "+" } }
+  ]
+}
