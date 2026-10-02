@@ -17,14 +17,9 @@ W cennikach hoteli podstawową jednostką rozliczeniową jest doba hotelowa. Sta
 
 ::price PET_HOTEL cat_night
 
-## Jakie warunki musi spełnić kot przed przyjęciem
+## Wymagania hotelu
 
-Hotele dla zwierząt dbają o zdrowie i bezpieczeństwo wszystkich podopiecznych, dlatego przed przyjęciem kota wymagają spełnienia określonych warunków profilaktycznych:
-
-- **Książeczka zdrowia i szczepienia** — aktualne szczepienie przeciwko podstawowym chorobom zakaźnym (koci katar, panleukopenia).
-- **Odrobaczenie i ochrona przeciw pasożytom** — potwierdzone wpisem odrobaczenie oraz zabezpieczenie przeciw pchłom i kleszczom wykonane na krótko przed pobytem.
-- **Identyfikacja** — coraz więcej placówek wymaga, aby kot posiadał [mikroczip](/pl/poradnik/czipowanie-psa/), co ułatwia identyfikację.
-- **Informacja o stanie zdrowia** — zgłoszenie chorób przewlekłych, alergii lub konieczności podawania leków.
+Warunki przyjęcia kota (dokumenty, szczepienia, zabezpieczenie przed pasożytami) ustala każdy hotel osobno. Zapytaj o nie przy rezerwacji, zanim zaplanujesz wyjazd. Kot z [mikroczipem](/pl/poradnik/czipowanie-psa/) łatwiej odnajduje się w razie ucieczki.
 
 ## Hotele dla zwierząt w Twoim mieście
 
