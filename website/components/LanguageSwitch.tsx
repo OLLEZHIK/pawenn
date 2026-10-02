@@ -21,7 +21,7 @@ function remember(l: Locale) {
   document.cookie = `${LANG_COOKIE}=${l}; Max-Age=31536000; Path=/; SameSite=Lax`;
 }
 
-export function LanguageSwitch({ variant = "footer" }: { variant?: "footer" | "header" }) {
+export function LanguageSwitch({ variant = "footer", compact = false }: { variant?: "footer" | "header"; compact?: boolean }) {
   const pathname = usePathname() ?? "/";
   const current = localeOfPath(pathname);
   const alternates = usePageAlternates();
@@ -32,10 +32,13 @@ export function LanguageSwitch({ variant = "footer" }: { variant?: "footer" | "h
   if (variant === "header") {
     // Two-letter codes in one pill: EN | PL.
     return (
-      <nav aria-label="Language" className="flex items-center rounded-[var(--radius-pill)] bg-surface-sunken p-1 text-sm font-semibold">
+      <nav
+        aria-label="Language"
+        className={`flex items-center rounded-[var(--radius-pill)] bg-surface-sunken p-1 font-semibold ${compact ? "text-xs" : "text-sm"}`}
+      >
         {shown.map((l) =>
           l === current ? (
-            <span key={l} aria-current="true" title={NAMES[l]} className="rounded-[var(--radius-pill)] bg-surface px-2.5 py-1 text-foreground shadow-[var(--shadow-card)]">
+            <span key={l} aria-current="true" title={NAMES[l]} className={`rounded-[var(--radius-pill)] bg-surface py-1 text-foreground shadow-[var(--shadow-card)] ${compact ? "px-2" : "px-2.5"}`}>
               {l.toUpperCase()}
             </span>
           ) : (
@@ -45,7 +48,7 @@ export function LanguageSwitch({ variant = "footer" }: { variant?: "footer" | "h
               hrefLang={l}
               title={NAMES[l]}
               onClick={() => remember(l)}
-              className="rounded-[var(--radius-pill)] px-2.5 py-1 text-foreground/60 transition hover:text-foreground"
+              className={`rounded-[var(--radius-pill)] py-1 text-foreground/60 transition hover:text-foreground ${compact ? "px-2" : "px-2.5"}`}
             >
               {l.toUpperCase()}
             </Link>
