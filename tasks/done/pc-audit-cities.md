@@ -8,7 +8,7 @@
 мест не трогать: их переписывает Antigravity (Mac 2)
 (`mac2-bratislava-texts.md`, `pc2-warszawa-descriptions.md`).
 
-**Сейчас (проверяющий, 2026-10-02, 11:00):** партия 2 (PR #258, ПК 4) — «Готово к мержу». Дальше — партия 3 (Košice). В неё же: `veterinarna-klinika-vrakuna` — домен `veterinar-vrakuna.sk` теперь у другой клиники (Závodský, Podunajská 23E): поле `website` очистить, `notes`: `website: none (domain now another practice, checked <дата>)`; работает ли место на Hradská 58 — `closed`-вопрос в PR, не решать самому.
+**Сейчас (проверяющий, 2026-10-02, решение владельца):** **закрыта.** Все PR смержены в `main`, работы по задаче больше нет. Файл перенесён в `tasks/done/`.
 Порядок городов — по размеру: Warszawa и Bratislava важнее Košice.
 
 Зачем: данные стареют — места закрываются, меняют телефоны и сайты.
