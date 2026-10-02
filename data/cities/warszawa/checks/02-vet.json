@@ -1,0 +1,40 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "zkw-przychodnia-weterynaryjna",
+    "animal-care-center",
+    "marcel2",
+    "i-zoliborska-przychodnia-weterynaryjna",
+    "przychodnia-weterynaryjna-bokserska",
+    "animal-center",
+    "poliogonowa-przychodnia-weterynaryjna",
+    "przychodnia-weterynaryjna-vika",
+    "citywetka",
+    "przychodnia-weterynaryjna-bolilapka"
+  ],
+  "hash": "ac4b7eaffb25dc747105bc899310e833ccaea2c412e265c69850276ef622e5a9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T19:09:41.288Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-02T19:13:00.934Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T19:14:18.419Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T19:14:59.586Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
