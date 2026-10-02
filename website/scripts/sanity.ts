@@ -94,6 +94,7 @@ for (const city of cities) {
 
   const bySlug = new Map<string, number>();
   const byPhone = new Map<string, string[]>();
+  const domainOf = new Map<string, string>();
   const bySpot = new Map<string, string[]>();
   const byNameAddr = new Map<string, string[]>();
 
@@ -125,6 +126,11 @@ for (const city of cities) {
         if (fake) f(slug, `phone "${phone}" looks fake (${fake})`);
         const key = national;
         byPhone.set(key, [...(byPhone.get(key) ?? []), slug]);
+        try {
+          domainOf.set(slug, new URL((r.website ?? "").trim()).hostname.replace(/^www\./, ""));
+        } catch {
+          domainOf.set(slug, "");
+        }
       }
     }
 
@@ -202,8 +208,12 @@ for (const city of cities) {
 
   for (const [slug, n] of bySlug) if (n > 1) f(slug, `slug appears ${n} times`);
   for (const [phone, slugs] of byPhone) {
-    const uniq = [...new Set(slugs)];
-    if (uniq.length > 1) w(uniq[0], `same phone ${phone} as ${uniq.slice(1).join(", ")} (one place twice, or a chain)`);
+    // One company with two services (same site) is fine; two sites on one number is not.
+    const uniq = [...new Set(slugs)].filter((x, _i, all) => {
+      const d = domainOf.get(x) ?? "";
+      return !d || all.filter((y) => (domainOf.get(y) ?? "") === d).length === 1;
+    });
+    if (uniq.length > 1) w(uniq[0], `same phone ${phone} as ${uniq.slice(1).join(", ")} (one place twice, a salon inside a clinic, or a wrong number)`);
   }
   for (const [spot, slugs] of bySpot) {
     const uniq = [...new Set(slugs)];
