@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getMarketPrices, type ServicePriceRow } from "@/lib/data";
 import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
@@ -10,6 +11,7 @@ import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/s
 import { SITE_URL } from "@/lib/site";
 import { Breadcrumbs } from "./Breadcrumbs";
 import { ChevronRightIcon, TagIcon } from "./icons";
+import { PageCity } from "./PageCity";
 
 // Price pages (owner, 2026-09-25; docs/seo/README.md, "Страницы цен"):
 // the answer first (range, median, how many places, date), then every
@@ -129,7 +131,8 @@ export async function ServicePricePage({
 
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <PageCity slug={city.slug} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <Header
         locale={locale}
         category={category}
@@ -291,6 +294,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
 
   return (
     <main style={{ "--accent": CATEGORY_THEME[category].accent } as React.CSSProperties}>
+      <PageCity slug={city.slug} />
       <Header
         locale={locale}
         category={category}

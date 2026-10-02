@@ -1,0 +1,85 @@
+{
+  "slug": "yanashop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Yanashop/data=!4m7!3m6!1s0x473ee16a9a7a6bcf:0xb2fdf75dc57bf933!8m2!3d48.7144243!4d21.2647781!16s%2Fg%2F11b6d16k31!19sChIJz2t6mmrhPkcRM_l7xV33_bI?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 6,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming shop assistants with sincere animal passion",
+        "sk": "Milá a ochotná obsluha so srdcom pre zvieratá"
+      },
+      "text": {
+        "en": "Reviewers warmly commend the sales staff at Yanashop for their kind, helpful, and knowledgeable approach. Shoppers emphasize that assistants are always ready to advise on optimal feeds and accessories, creating a genuinely friendly community atmosphere in the shop.",
+        "sk": "Recenzie vyzdvihujú personál predajne Yanashop za ich príjemný, priateľský a odborný prístup. Majitelia zvierat oceňujú ochotu obsluhy poradiť pri výbere krmiva a potrieb a vnímajú úprimný vzťah predavačiek ku zvieratám počas každej návštevy v tomto obchode."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Convenient location on Južná trieda with parcel pickup",
+        "sk": "Dostupná poloha na Južnej triede s výdajňou Packeta"
+      },
+      "text": {
+        "en": "Customers appreciate the cozy shop location on Južná trieda with street parking options and card payment convenience. In addition to pet supply retail, clients frequently praise the added utility of an integrated Packeta parcel pickup point on site for neighborhood residents.",
+        "sk": "Zákazníci oceňujú praktickú polohu predajne na Južnej triede, možnosť parkovania na ulici a bezhotovostnú platbu kartou. Chovatelia vyzdvihujú aj doplnkovú službu výdajného miesta Packeta, vďaka ktorej vybavia vyzdvihnutie zásielok spolu s nákupom chovateľských potrieb."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Active charitable support for homeless foster felines",
+        "sk": "Podpora útulkov a bezplatné krmivo pre mačky v núdzi"
+      },
+      "text": {
+        "en": "Animal lovers deeply appreciate Yanashop's active partnership with local shelters and animal welfare organizations. Reviewers praise the store for providing free cat food and support for rescued street cats, proving a sincere dedication to animal welfare across Košice.",
+        "sk": "Priaznivci zvierat vysoko vyzdvihujú spoluprácu predajne s útulkami a charitatívnymi organizáciami. Recenzenti ďakujú za poskytovanie bezplatného krmiva pre opustené pouličné mačky v dočasnej opatere, čo svedčí o skutočne veľkom srdci majiteľov pre záchranu zvierat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Yanashop serve as a Packeta parcel collection point?",
+        "sk": "Funguje v predajni výdajné miesto Packeta?"
+      },
+      "a": {
+        "en": "Yes, customer reviews confirm the convenient operation of a Packeta parcel pickup desk inside the store.",
+        "sk": "Áno, recenzie potvrdzujú možnosť pohodlného vyzdvihnutia balíkov cez službu Packeta."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store cooperate with local animal shelters?",
+        "sk": "Spolupracuje obchod s útulkami a občianskymi združeniami?"
+      },
+      "a": {
+        "en": "Yes, reviews commend Yanashop for donating food and supporting foster care for homeless cats.",
+        "sk": "Áno, recenzie chvália pomoc predajne pri darovaní krmiva pre mačky bez domova."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Yanashop located in Košice?",
+        "sk": "Kde presne sídli predajňa Yanashop?"
+      },
+      "a": {
+        "en": "The store is located at Južná trieda 17 in the southern inner district of Košice.",
+        "sk": "Predajňa sa nachádza na Južnej triede 17 v širšom centre Košíc."
+      },
+      "basis": "both"
+    }
+  ]
+}

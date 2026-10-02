@@ -1,0 +1,107 @@
+{
+  "slug": "psybrothers-salon-groomerski",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=16008224193257379380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle care and dedicated groomer",
+        "pl": "Delikatne podejście i troskliwy groomer"
+      },
+      "text": {
+        "en": "Clients consistently praise groomer Cyril for his polite manners, patience, and genuine affection for animals. Pet owners note that he creates a stress-free environment, takes time to understand specific styling wishes, and handles nervous or first-time canine visitors with remarkable gentleness.",
+        "pl": "Właściciele czworonogów zgodnie chwalą groomera Cyryla za uprzejmość, wyjątkową cierpliwość i szczere serce do zwierząt. Klienci podkreślają, że w salonie panuje bezstresowa atmosfera, a specjalista uważnie wsłuchuje się w życzenia opiekunów i podchodzi do każdego psa ze spokojem oraz troską."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Comfortable and stress-free pet experience",
+        "pl": "Komfortowa wizyta bez niepotrzebnego stresu"
+      },
+      "text": {
+        "en": "Reviewers frequently mention that dogs leave the salon cheerful, calm, and relaxed rather than intimidated. Grooming procedures are conducted with sensitivity to animal well-being, helping pets of various breeds feel secure throughout bathing, brushing, and haircutting.",
+        "pl": "W opiniach często powtarza się spostrzeżenie, że psy opuszczają salon radosne, spokojne i zrelaksowane, bez oznak lęku. Wszystkie zabiegi pielęgnacyjne przeprowadzane są z dbałością o dobrostan zwierzęcia, dzięki czemu czworonogi różnych ras czują się bezpiecznie podczas kąpieli i czesania."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Meticulous grooming and precise trimming",
+        "pl": "Staranne strzyżenie i estetyczna pielęgnacja"
+      },
+      "text": {
+        "en": "Pet owners express high satisfaction with the aesthetic results of baths and haircuts. Customers highlight beautifully trimmed paws, soft and spotlessly clean coats, and precise styling that highlights the natural beauty of both small breeds like poodles and larger dogs.",
+        "pl": "Opiekunowie zwierząt wyrażają duże zadowolenie z wizualnych efektów strzyżenia i kąpieli. Klienci zwracają uwagę na czystą, miękką sierść, starannie wymodelowane łapki oraz precyzyjne cięcie, które podkreśla walory sylwetki psów rasowych, takich jak pudle czy spaniele."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How can appointments be scheduled?",
+        "pl": "Jak można zarezerwować wizytę w salonie?"
+      },
+      "a": {
+        "en": "Appointments can be booked conveniently online via Booksy or directly by phone with the salon.",
+        "pl": "Wizytę można wygodnie umówić przez platformę Booksy lub kontaktując się telefonicznie z salonem."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How long does a grooming session take?",
+        "pl": "Ile trwa standardowa wizyta pielęgnacyjna?"
+      },
+      "a": {
+        "en": "Full grooming usually takes around two hours depending on the pet's size, coat condition, and required procedures.",
+        "pl": "Kompleksowa usługa trwa zazwyczaj około dwóch godzin w zależności od wielkości psa i stanu szaty."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the salon located?",
+        "pl": "Gdzie dokładnie mieści się salon?"
+      },
+      "a": {
+        "en": "The salon is located in the Powiśle district at Solec 81b/Lok.P33 in Warsaw.",
+        "pl": "Salon zlokalizowany jest na warszawskim Powiślu przy ulicy Solec 81b (lokal P33)."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are different dog breeds accepted?",
+        "pl": "Czy salon przyjmuje psy różnych ras?"
+      },
+      "a": {
+        "en": "Yes, the groomer cares for both small breeds such as poodles and larger long-haired dogs.",
+        "pl": "Tak, groomer pielęgnuje zarówno małe rasy ozdobne, jak i większe psy wymagające czesania i strzyżenia."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "3 hours ago", "months": 0, "stars": 5, "topics": { "results": "+", "animals": "+", "staff": "+", "waiting": "+" } },
+    { "ago": "a week ago", "months": 0, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+", "waiting": "+" } },
+    { "ago": "a week ago", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a week ago", "months": 0, "stars": 5, "topics": { "results": "+" } },
+    { "ago": "2 weeks ago", "months": 0, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "3 weeks ago", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "4 weeks ago", "months": 0, "stars": 5, "topics": { "results": "+" } },
+    { "ago": "4 weeks ago", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a month ago", "months": 1, "stars": 5, "topics": { "results": "+", "staff": "+", "animals": "+", "waiting": "+", "prices": "+" } }
+  ]
+}

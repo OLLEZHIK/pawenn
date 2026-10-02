@@ -149,7 +149,7 @@ export const en = {
     nearYou: "Near you",
     locatingYou: "Finding your location…",
     geoDenied: "No problem - just type your city.",
-    cityPlaceholder: "Type a city",
+    cityPlaceholder: "Your city",
     cityLabel: "City",
     cityNotCovered: (typed: string, cities: string) => `We're not in ${typed} yet. Pawenn covers: ${cities}.`,
     geoFar: (city: string) => `We're not in your area yet - type a city, e.g. ${city}.`,
@@ -295,6 +295,17 @@ export const en = {
     faqTitle: "Questions owners ask",
     shortNote: "No pawenn summary of reviews for this place yet. The rating and every review are on Google.",
   },
+  vetNow: {
+    button: "Vet open now",
+    buttonHint: "Nearest vets open right now",
+    locating: "Finding you…",
+    callFirst: "Call before you go: say what happened and check they can see you now.",
+    noneOpen: "No vet with published hours is open right now. These open soonest:",
+    opensToday: (time: string) => `opens today at ${time}`,
+    opensTomorrow: (time: string) => `opens tomorrow at ${time}`,
+    opensLater: (date: string, time: string) => `opens ${date} at ${time}`,
+    nonstopTitle: "Open 24/7",
+  },
   actions: { call: "Call", website: "Website", route: "Route" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },
   business: {
@@ -303,7 +314,7 @@ export const en = {
       `${name}${where ? ` ${where}` : ""}: address, contact details and directions.`,
     /** After the place's own short description (SEO audit T11). */
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Opening hours${hasPrices ? ", prices" : ""} and one tap to call, visit the website or get directions.`,
+      `Opening hours${hasPrices ? ", prices" : ""}, phone and directions.`,
     about: "About",
     goodToKnow: "Good to know",
     goodToKnowNote: "As the place states it on its own website.",

@@ -1,0 +1,85 @@
+{
+  "slug": "veterinarna-ambulancia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rna+ambulancia/data=!4m7!3m6!1s0x473ee0f91b72e5cb:0x7d6a749ea5a9d8c3!8m2!3d48.710777!4d21.222718!16s%2Fg%2F11b6dfg872!19sChIJy-VyG_ngPkcRw9ippJ50an0?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 10,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Pragmatic medical guidance beside an isolated attitude complaint",
+        "sk": "Vecný odborný prístup popri ojedinelej sťažnosti na správanie"
+      },
+      "text": {
+        "en": "Most pet owners praise attending veterinarians on Cottbuská for their sensible advice, professionalism, and readiness to explain procedures clearly. However, one review sharply criticized doctor attitude, alleging an unfriendly interaction during treatment at the clinic.",
+        "sk": "Väčšina majiteľov zvierat chváli lekárov na Cottbuskej za vecný prístup, zdravý rozum a ochotu zrozumiteľne vysvetliť liečbu. Jedna recenzia sa však sťažovala na nepríjemné a arogantné správanie personálu pri ošetrení zvieraťa v priestoroch ambulancie na KVP."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Saturday opening and willingness to assist before closing",
+        "sk": "Sobotňajšie hodiny a ochota ošetriť pacienta pred záverečnou"
+      },
+      "text": {
+        "en": "Clients appreciate the flexible weekend availability, specifically praising the clinic for willingly examining urgent feline patients on Saturday shortly before closing hours. Swift reception helps prevent health deterioration during weekends for domestic companion animals.",
+        "sk": "Klienti vyzdvihujú víkendovú dostupnosť ambulancie a ochotu lekárky prijať a dôkladne vyšetriť mačku v sobotu aj krátko pred koncom ordinačných hodín. Rýchle vybavenie bez zbytočného odkladu chovatelia vnímajú ako veľkú pomoc v núdzi počas víkendových dní."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Affordable rates and transparent treatment costs",
+        "sk": "Priaznivé ceny a finančná dostupnosť zákrokov"
+      },
+      "text": {
+        "en": "Pet parents regularly commend the clinic for keeping treatment prices fair and affordable. Reviewers emphasize that standard checkups and routine therapeutic procedures are priced reasonably without unnecessary markups on medicines or basic clinical consultations.",
+        "sk": "Majitelia psov a mačiek oceňujú priaznivé a primerané ceny za bežné aj akútne veterinárne úkony. Recenzie podotýkajú, že ošetrenie a potrebné lieky sú cenovo dostupné pre širokú verejnosť bez neprimeraného navyšovania poplatkov za základné vyšetrenia a konzultácie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the clinic open for examinations on Saturdays?",
+        "sk": "Poskytuje ambulancia vyšetrenia aj v sobotu?"
+      },
+      "a": {
+        "en": "Yes, customer testimonials confirm that the clinic operates Saturday hours and accommodates urgent weekend cases.",
+        "sk": "Áno, recenzie potvrdzujú sobotňajšiu prevádzku a ochotu lekárov pomôcť aj cez víkend."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate veterinary fees at the clinic?",
+        "sk": "Ako hodnotia návštevníci ceny za veterinárne úkony?"
+      },
+      "a": {
+        "en": "Reviews describe the pricing as affordable, sensible, and very reasonable for common clinical interventions.",
+        "sk": "Recenzenti opisujú ceny ako veľmi dostupné, primerané a férové voči majiteľom."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located on Cottbuská?",
+        "sk": "Kde presne sídli táto veterinárna ambulancia?"
+      },
+      "a": {
+        "en": "The practice is situated at Cottbuská 34 on the Sídlisko KVP in Košice.",
+        "sk": "Ambulancia sa nachádza na adrese Cottbuská 34 na sídlisku KVP v Košiciach."
+      },
+      "basis": "both"
+    }
+  ]
+}

@@ -289,6 +289,15 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];
+// The text is for visitors, not a log of how we collected the card
+// (Kraków batch 2, PR #213: "its own website currently shows only a server
+// error", "opening hours come from the Google Maps card" in 7 texts). Where
+// we looked goes in notes.
+const SOURCE_TALK =
+  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)/i;
+// Opening hours are on the card; copied into the text they go stale when the
+// place changes them (a warning: "open on Sundays" is fine, times are not).
+const TIMES_IN_TEXT = /\b\d{1,2}[:.]\d{2}\b/;
 function cityMetaLocale(): string | undefined {
   try {
     return (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { locale?: string }).locale;
@@ -356,6 +365,10 @@ for (const r of rows) {
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  const source = text.match(SOURCE_TALK);
+  if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
+  const time = text.match(TIMES_IN_TEXT);
+  if (time) textIssues.push({ slug: r.slug, strict: false, line: `"${time[0]}" - hours in the text go stale; they are on the card already` });
   for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
   if (noSourceText(r)) {
     textIssues.push({ slug: r.slug, strict, line: `no site or social page, but a text over ${NO_SOURCE_TEXT} characters - say only what the row says (category, name, address)` });
@@ -435,6 +448,20 @@ if (heavyLogos.length) {
     const kb = Math.round(fs.statSync(path.join(logosDir, r.logo_file.trim())).size / 1024);
     console.log(`  ${r.slug}: ${r.logo_file} ${kb} KB`);
   }
+}
+
+// An SVG is a document, not a picture: opened by its URL it runs its own
+// scripts on our domain. Logos are downloaded from other people's sites,
+// so an SVG may carry a script, an event handler or a javascript: link
+// (security review, 2026-10-01). Re-save it clean, or use a PNG.
+const SVG_ACTIVE = /<script|\son[a-z]+\s*=|javascript:|<foreignObject|<iframe|<embed|<object/i;
+const activeSvgs = rows.filter(
+  (r) => logoExists(r) && /\.svg$/i.test(r.logo_file.trim()) && SVG_ACTIVE.test(fs.readFileSync(path.join(logosDir, r.logo_file.trim()), "utf-8"))
+);
+if (activeSvgs.length) {
+  failed = true;
+  console.log(`\nSVG logos with scripts or event handlers - save as PNG or strip them (${activeSvgs.length}):`);
+  for (const r of activeSvgs) console.log(`  ${r.slug}: ${r.logo_file}`);
 }
 
 // Too small for the card tile: a site icon or a thin strip
@@ -907,6 +934,11 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
     if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
       evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
     }
+    // A bot wall or a page title is not the text a value is built on (PR #244).
+    if (/please wait while|request is being verified|one moment, please|checking your browser|just a moment\.\.\.|enable javascript/i.test(quote))
+      evidenceErrors.push(`${at}: quote is a bot-protection page, not the place's text - open the page in a browser or write "none (...)"`);
+    else if ((e.field ?? "").trim() === "description" && quote.length < 40)
+      evidenceErrors.push(`${at}: description quote of ${quote.length} characters looks like a page title - quote the sentence the description is built on - "${quote}"`);
     const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote, e.source_url ?? "") : null;
     if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
     if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
