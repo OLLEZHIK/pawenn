@@ -13,6 +13,7 @@
     "check-city": "tsx scripts/check-city.ts",
     "verify-city": "tsx scripts/verify-city.ts",
     "gate": "tsx scripts/gate.ts",
+    "ready-city": "tsx scripts/ready-city.ts",
     "agent-check": "tsx scripts/agent-check.ts",
     "sanity": "tsx scripts/sanity.ts"
   },
