@@ -1,16 +1,17 @@
 # Задача: Warszawa — описания мест по их сайтам
 
-**Исполнитель:** Antigravity (Mac 2)
+**Исполнитель:** Antigravity (ПК 2) — контейнер `agy2`, задачу передаёт диспетчер.
 **Роль:** Content agent.
 **Тип:** исправление данных города, объём средний (85 мест).
-**Ветка:** `mac2/warszawa-descriptions` — от `origin/mac/warszawa-descriptions`
+**Ветка:** `pc2/warszawa-descriptions` — от `origin/mac/warszawa-descriptions`
 (там работа Antigravity (Mac): тексты и логотипы)
 **Зависимости:** нет.
 
-**Сейчас (проверяющий, 2026-09-29 12:50):** вторая в очереди новых задач Mac 2 — после PR логотипов Кошице. Создать ветку от работы Mac и подтянуть `main`:
-`git fetch origin && git checkout -b mac2/warszawa-descriptions origin/mac/warszawa-descriptions && git pull origin main`,
-потом `cd website && npm install`. Сделать «Ревью 3» (в конце файла) по 10 мест и открыть PR `Warszawa: descriptions and logos`.
+**Сейчас (проверяющий, 2026-10-02):** первая задача `agy2`. Ветка от работы Antigravity (Mac), с подтянутым `main`:
+`git fetch origin && git checkout -b pc2/warszawa-descriptions origin/mac/warszawa-descriptions && git pull --no-rebase origin main`,
+потом `cd website && npm install`. Сделать «Ревью» в конце файла (3 пункта) кусками по 10 мест с воротами, открыть PR `Warszawa: descriptions and logos` и ждать проверки напарника (ПК 1) и ревью. Пока ждёшь — `pc2-warszawa-prices.md`.
 
+**Передано Antigravity (ПК 2) 2026-10-02** (владелец: Варшаву доделывают агенты на ПК, Mac 2 пока не работает). До этого —
 **Передано Antigravity (Mac 2) 2026-09-29** (владелец: пока из
 Antigravity работает только Mac 2). Antigravity (Mac) переписал тексты
 и заменил логотипы в ветке `mac/warszawa-descriptions`, но PR не открыл.

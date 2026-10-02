@@ -6,7 +6,7 @@
 **Ветка PR:** `main`.
 **Зависимости:** нет. Нужен контейнер `agy3` (создаёт владелец). Тексты
 мест не трогать: их переписывает Antigravity (Mac 2)
-(`mac2-bratislava-texts.md`, `mac2-warszawa-descriptions.md`).
+(`mac2-bratislava-texts.md`, `pc2-warszawa-descriptions.md`).
 
 **Сейчас (проверяющий, 2026-10-01):** пока нет `agy3`, диспетчер может отдать задачу `agy1` после правок по Прешову (тогда ветки — `pc1/audit-…`). Начать с партии 1 (пилот), PR и ждать ревью.
 Порядок городов — по размеру: Warszawa и Bratislava важнее Košice.
