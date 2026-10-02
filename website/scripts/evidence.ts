@@ -88,17 +88,17 @@ export function badField(field: string): string | null {
 // A quote about something else is not evidence. Codes not listed are not
 // checked for wording (the page check still applies).
 export const FACT_WORDS: Record<string, RegExp> = {
-  card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz|u)|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
+  card_payment: /kart(ou|ami|ą|a płatnicz|y płatnicz|u)|kreditn[aá]?\s*kart|platb\w* kart|płatno\w* kart|terminal|\bblik|visa|mastercard|card payment|pay by card/i,
   pharmacy_on_site: /lekáre|lekárn|\bapte(k|cz)|pharmacy/i,
-  pet_passport: /\bpas(u|y|ov|om|ů)?\b|pet pas|paszport|passport/i,
+  pet_passport: /\bpas(u|y|ov|om|ů)?\b|pet\s*pas|paszport|passport/i,
   parking: /parkov|parking/i,
   natural_cosmetics: /prírodn\w* kozmet|naturaln\w* kosmety|kosmetyk\w* naturaln|organic|bio kozmet|hypoalerg|hipoalerg/i,
   cage_free: /bez klietok|bez klatek|bezklatk|bez kotc|cage[- ]free|no cages/i,
   vaccination_required: /očkovan|szczepi|vaccin/i,
   supervision_24h: /24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|24 godziny na dobę|24\/7|round the clock/i,
-  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|by appointment only|appointment only|only by appointment/i,
+  appointment_only: /len na objedn|iba na objedn|výhradne na objedn|výlučne na objedn|podľa objedn|objedn[^.]{0,40}nutn|nutn[^.]{0,40}objedn|tylko po (wcześniejszym )?umówieni|wyłącznie po umówieni|wizyty wyłącznie|nie ?umówien\w*[^.]{0,60}nie (będą |są )?przyjmowan|przyjmujemy (wyłącznie|tylko) umówion|by appointment only|appointment only|only by appointment/i,
   walk_in: /bez objedn|bez obiednania|bez umówieni|bez zapisów|bez rejestracji|walk[- ]in|no appointment/i,
-  online_booking: /online|on-line|rezerva|objedna|umów|zarezerwuj|book/i,
+  online_booking: /online|on-line|rezerva|rezerwac|objedna|umów|zarezerwuj|book/i,
 };
 
 const LANGUAGE_WORDS: Record<string, RegExp> = {

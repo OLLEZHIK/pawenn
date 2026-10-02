@@ -15,6 +15,7 @@
 // checks only those places (the gate runs it this way for one chunk);
 // comparisons with the rest of the city - one text on several places,
 // the same Maps link twice - still see the whole city.
+import { execFileSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -196,6 +197,50 @@ if (badHours.length) {
 // the same paragraph on dozens of pages: all of Košice and Warszawa
 // (2026-09-28). Compared without the place's name, by the last 12 words.
 const TEXT_FIELDS = ["short_description", "short_description_local", "description", "description_local"];
+
+// Old rows changed on this branch (2026-09-29): new texts or new codes in an
+// old row are new writing and need what new rows need - a quote from the
+// site, text rules as errors. Mac rewrote all 85 Warszawa texts of old rows
+// without a quote and gave places services their sites don't list. The base
+// is where the branch left main; without git or origin/main, nothing is
+// compared.
+const CODE_FIELDS: [string, string][] = [["facts", "facts"], ["specialties", "specialties"], ["languages_spoken", "languages"]];
+const changedOnBranch = new Map<string, Set<string>>();
+try {
+  const git = (...args: string[]) => execFileSync("git", args, { cwd: path.join(process.cwd(), ".."), encoding: "utf-8", stdio: ["ignore", "pipe", "ignore"] });
+  const base = git("merge-base", "HEAD", "origin/main").trim();
+  for (const f of new Set(allRows.map((r) => r.__file))) {
+    let before: Row[];
+    try {
+      before = Papa.parse<Row>(git("show", `${base}:data/cities/${city}/${f}`), { header: true, skipEmptyLines: true }).data;
+    } catch {
+      continue; // a new file: its rows are new data anyway
+    }
+    const old = new Map(before.map((r) => [r.slug, r]));
+    for (const r of allRows.filter((x) => x.__file === f)) {
+      const o = old.get(r.slug);
+      if (!o) continue;
+      const keys = new Set<string>();
+      if (TEXT_FIELDS.some((k) => (r[k] ?? "").trim() !== (o[k] ?? "").trim())) keys.add("description");
+      for (const [col, key] of CODE_FIELDS) {
+        const had = new Set((o[col] ?? "").split(";").map((c) => c.trim()));
+        for (const c of (r[col] ?? "").split(";").map((x) => x.trim()).filter(Boolean)) if (!had.has(c)) keys.add(`${key}:${c}`);
+      }
+      if (keys.size) changedOnBranch.set(r.slug, keys);
+    }
+  }
+} catch {
+  // no git history here: only dates and chunk files mark new data
+}
+const isNewData = (r: Row) => needsEvidence(r) || inChunkFile(r);
+const strictText = (r: Row) => isNewData(r) || changedOnBranch.get(r.slug)?.has("description") === true;
+// A place with no site and no social page: the text can say only what the
+// row says (category, name, address). A long text with services has them
+// from nowhere (PR #199; 6 Warszawa places, 2026-09-29).
+const NO_SOURCE_TEXT = 220;
+const noSourceText = (r: Row) =>
+  !has(r, "website") && !has(r, "instagram") && !has(r, "facebook") &&
+  ["description", "description_local"].some((k) => (r[k] ?? "").trim().length > NO_SOURCE_TEXT);
 const templated: string[] = [];
 for (const field of TEXT_FIELDS) {
   const byTail = new Map<string, string[]>();
@@ -244,6 +289,15 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];
+// The text is for visitors, not a log of how we collected the card
+// (Kraków batch 2, PR #213: "its own website currently shows only a server
+// error", "opening hours come from the Google Maps card" in 7 texts). Where
+// we looked goes in notes.
+const SOURCE_TALK =
+  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)/i;
+// Opening hours are on the card; copied into the text they go stale when the
+// place changes them (a warning: "open on Sundays" is fine, times are not).
+const TIMES_IN_TEXT = /\b\d{1,2}[:.]\d{2}\b/;
 function cityMetaLocale(): string | undefined {
   try {
     return (JSON.parse(fs.readFileSync(path.join(dir, "city.json"), "utf-8")) as { locale?: string }).locale;
@@ -306,12 +360,19 @@ const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] 
 };
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
-  const strict = needsEvidence(r) || inChunkFile(r);
+  const strict = strictText(r);
   const text = TEXT_FIELDS.map((f) => (r[f] ?? "").split(r.name).join(" ")).join(" \n ");
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  const source = text.match(SOURCE_TALK);
+  if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
+  const time = text.match(TIMES_IN_TEXT);
+  if (time) textIssues.push({ slug: r.slug, strict: false, line: `"${time[0]}" - hours in the text go stale; they are on the card already` });
   for (const w of whereIssues(r, text)) textIssues.push({ slug: r.slug, strict: strict && w.strict, line: w.line });
+  if (noSourceText(r)) {
+    textIssues.push({ slug: r.slug, strict, line: `no site or social page, but a text over ${NO_SOURCE_TEXT} characters - say only what the row says (category, name, address)` });
+  }
 }
 if (textIssues.length) {
   const strictOnes = textIssues.filter((t) => t.strict);
@@ -387,6 +448,20 @@ if (heavyLogos.length) {
     const kb = Math.round(fs.statSync(path.join(logosDir, r.logo_file.trim())).size / 1024);
     console.log(`  ${r.slug}: ${r.logo_file} ${kb} KB`);
   }
+}
+
+// An SVG is a document, not a picture: opened by its URL it runs its own
+// scripts on our domain. Logos are downloaded from other people's sites,
+// so an SVG may carry a script, an event handler or a javascript: link
+// (security review, 2026-10-01). Re-save it clean, or use a PNG.
+const SVG_ACTIVE = /<script|\son[a-z]+\s*=|javascript:|<foreignObject|<iframe|<embed|<object/i;
+const activeSvgs = rows.filter(
+  (r) => logoExists(r) && /\.svg$/i.test(r.logo_file.trim()) && SVG_ACTIVE.test(fs.readFileSync(path.join(logosDir, r.logo_file.trim()), "utf-8"))
+);
+if (activeSvgs.length) {
+  failed = true;
+  console.log(`\nSVG logos with scripts or event handlers - save as PNG or strip them (${activeSvgs.length}):`);
+  for (const r of activeSvgs) console.log(`  ${r.slug}: ${r.logo_file}`);
 }
 
 // Too small for the card tile: a site icon or a thin strip
@@ -773,6 +848,36 @@ for (const r of rows) {
     if (off > 200) madeUp.push(`${r.slug}: lat/lng ${Math.round(off)} m from the pin in its Maps link - use ${pin[1]}, ${pin[2]}`);
   }
 }
+// A city split between agents (AGENTS.md, "Специализация", owner
+// 2026-09-29): Claude Code CLI copies each place's Google Maps card into
+// candidates.csv (batch 0, the Maps pass), and the agent who collects the
+// places from their sites copies the Maps columns from there - it doesn't
+// open Google Maps. A Maps-pass list has a google_rating column; an older
+// list (Kraków) doesn't, and one agent takes those values from the card.
+const candidatesFile = path.join(dir, "candidates.csv");
+const candidates = fs.existsSync(candidatesFile)
+  ? Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true })
+  : null;
+const mapsPass = !!candidates?.meta.fields?.includes("google_rating");
+if (candidates && mapsPass) {
+  const byUrl = new Map(candidates.data.filter((c) => has(c, "google_maps_url")).map((c) => [c.google_maps_url.trim(), c]));
+  for (const r of rows.filter((r) => inChunkFile(r) && has(r, "google_maps_url"))) {
+    const c = byUrl.get(r.google_maps_url.trim());
+    if (!c) {
+      madeUp.push(`${r.slug}: google_maps_url is not in candidates.csv - copy this place's link from there, don't search Google Maps (AGENTS.md, "Специализация")`);
+      continue;
+    }
+    for (const key of ["google_rating", "google_rating_count"]) {
+      const want = (c[key] ?? "").trim();
+      if ((r[key] ?? "").trim() !== want) madeUp.push(`${r.slug}: ${key} "${(r[key] ?? "").trim()}" - candidates.csv has "${want}", copy it from there`);
+    }
+    // Hours "from the Maps card" are the ones the Maps pass copied; the
+    // site's own hours carry the site's page as hours_source_url.
+    if (isGoogleMaps(r.hours_source_url ?? "") && (r.opening_hours ?? "").trim() !== (c.opening_hours ?? "").trim()) {
+      madeUp.push(`${r.slug}: opening_hours from Google Maps "${(r.opening_hours ?? "").trim()}" - candidates.csv has "${(c.opening_hours ?? "").trim()}"; copy them, or take the site's hours with the site's page as hours_source_url`);
+    }
+  }
+}
 if (linkWarnings.length) {
   console.log(`\nWarning - Maps links that disagree with themselves, older rows (${linkWarnings.length}):`);
   for (const w of linkWarnings) console.log(`  ${w}`);
@@ -837,9 +942,12 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
 }
 const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
 const missingEvidence: string[] = [];
-const needing = rows.filter((r) => needsEvidence(r) || inChunkFile(r));
+const needing = rows.filter((r) => isNewData(r) || changedOnBranch.has(r.slug));
 for (const r of needing) {
-  const need = requiredEvidence(r).filter((k) => evidenceOf(r.slug, k).length === 0);
+  // An old row proves only what changed on this branch.
+  const changed = changedOnBranch.get(r.slug);
+  const required = requiredEvidence(r).filter((k) => isNewData(r) || changed?.has(k));
+  const need = required.filter((k) => evidenceOf(r.slug, k).length === 0);
   if (need.length) missingEvidence.push(`${r.slug}: ${need.join(", ")}`);
 }
 // Prices: the quote of each price line carries the number (or its parts).
@@ -880,7 +988,7 @@ const foreign = evidenceRows.filter((e) => {
   return !has(place, "website") || domainOf(place.website) !== domainOf(url);
 });
 console.log(
-  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} need them, ${missingEvidence.length} still miss some`
+  `\nEvidence: ${evidenceRows.length} quotes; ${needing.length} places collected from ${EVIDENCE_FROM} or changed on this branch need them, ${missingEvidence.length} still miss some`
 );
 if (missingEvidence.length) {
   failed = true;
@@ -899,11 +1007,11 @@ if (foreign.length) {
 
 // Candidates (add-city.md, "Партии"): the list a city is collected from,
 // batch by batch - one row per place found, before the details.
-const candidatesFile = path.join(dir, "candidates.csv");
-if (!scope && fs.existsSync(candidatesFile)) {
+if (!scope && candidates) {
   const CATEGORIES = ["VET_CLINIC", "PET_SHOP", "GROOMING", "PET_HOTEL", "DOG_TRAINING", "PET_SITTING"];
-  const cands = Papa.parse<Row>(fs.readFileSync(candidatesFile, "utf-8"), { header: true, skipEmptyLines: true }).data;
+  const cands = candidates.data;
   const candErrors: string[] = [];
+  for (const e of candidates.errors) candErrors.push(`candidates.csv line ${(e.row ?? 0) + 2}: ${e.message} - put text with commas in "quotes"`);
   const seen = new Map<string, number>();
   cands.forEach((c, i) => {
     const at = `candidates.csv line ${i + 2} (${c.name})`;
@@ -919,6 +1027,18 @@ if (!scope && fs.existsSync(candidatesFile)) {
     }
     const n = (c.google_rating_count ?? "").trim();
     if (n && !/^\d+$/.test(n)) candErrors.push(`${at}: google_rating_count "${n}" - a whole number as on the card`);
+    // The Maps pass (AGENTS.md, "Специализация"): the card's rating, hours
+    // and date, as a place row would have them (add-city.md, section 4).
+    if (mapsPass && url) {
+      const stars = (c.google_rating ?? "").trim();
+      if (stars && !/^[1-5]\.\d$/.test(stars)) candErrors.push(`${at}: google_rating "${stars}" - as on the card, e.g. 4.7`);
+      if (!!stars !== !!n) candErrors.push(`${at}: google_rating and google_rating_count go together - both from the card, or both empty under 5 ratings`);
+      if (n && Number(n) < 5) candErrors.push(`${at}: ${n} ratings - under 5 leave both rating fields empty`);
+      if (!stars && !/rating: none \(.+\)/.test(c.notes ?? "")) candErrors.push(`${at}: no google_rating and no "rating: none (...)" in notes`);
+      const hoursError = parseOpeningHours(c.opening_hours).error;
+      if (hoursError) candErrors.push(`${at}: opening_hours - ${hoursError}`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test((c.observed_at ?? "").trim())) candErrors.push(`${at}: observed_at - the date the card was copied, YYYY-MM-DD`);
+    }
   });
   const perCategory = CATEGORIES.map((k) => `${k} ${cands.filter((c) => c.category === k).length}`).join(", ");
   console.log(`\nCandidates: ${cands.length} (${perCategory})`);

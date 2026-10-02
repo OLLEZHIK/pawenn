@@ -222,7 +222,7 @@ export function HomeSearch({
         onChange={(e) => onCityChange(e.target.value)}
         onFocus={() => near && onCityChange("")}
         onKeyDown={(e) => e.key === "Enter" && goSearch()}
-        placeholder={cityName}
+        placeholder={t.search.cityPlaceholder}
         autoComplete="off"
         className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 font-medium text-foreground outline-none placeholder:text-foreground/60 search-city"
       />
@@ -353,7 +353,7 @@ export function HomeSearch({
               onChange={(e) => onCityChange(e.target.value)}
               onFocus={() => near && onCityChange("")}
               onKeyDown={(e) => e.key === "Enter" && goSearch()}
-              placeholder={cityName}
+              placeholder={t.search.cityPlaceholder}
               autoComplete="off"
               className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 text-[15px] font-medium text-foreground outline-none placeholder:text-foreground/60 search-city"
             />

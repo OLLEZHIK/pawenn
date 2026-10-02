@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getMarketPrices, type ServicePriceRow } from "@/lib/data";
 import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
@@ -129,7 +130,7 @@ export async function ServicePricePage({
 
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <Header
         locale={locale}
         category={category}

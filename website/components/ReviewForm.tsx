@@ -1,12 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 export function ReviewForm({ businessId, locale }: { businessId: number; locale: Locale }) {
   const t = getDictionary(locale).reviewForm;
   const [status, setStatus] = useState<"idle" | "submitting" | "done" | "error">("idle");
   const [error, setError] = useState<string | null>(null);
+  // When the form was opened: the API refuses a review sent faster than a
+  // person can type one (bots post at once).
+  const openedAt = useRef(0);
+  useEffect(() => {
+    openedAt.current = performance.now();
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -20,6 +26,9 @@ export function ReviewForm({ businessId, locale }: { businessId: number; locale:
       authorName: String(formData.get("authorName") ?? ""),
       rating: Number(formData.get("rating")),
       comment: String(formData.get("comment") ?? ""),
+      // Hidden from people, filled by bots that fill every field.
+      homepage: String(formData.get("homepage") ?? ""),
+      elapsedMs: e.timeStamp - openedAt.current,
     };
 
     try {
@@ -49,7 +58,7 @@ export function ReviewForm({ businessId, locale }: { businessId: number; locale:
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-3">
+    <form onSubmit={handleSubmit} className="relative space-y-3">
       <div>
         <label htmlFor="authorName" className="block text-sm font-medium text-foreground">
           {t.name}
@@ -94,6 +103,11 @@ export function ReviewForm({ businessId, locale }: { businessId: number; locale:
           rows={4}
           className="mt-1 w-full rounded-[var(--radius-control)] border-2 border-line bg-surface px-3 py-2.5 transition focus:border-brand-blue focus:outline-none"
         />
+      </div>
+
+      <div aria-hidden="true" className="absolute -left-[10000px] h-px w-px overflow-hidden">
+        <label htmlFor="homepage">Homepage</label>
+        <input id="homepage" name="homepage" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
       {error && <p className="text-sm text-red-600">{error}</p>}
