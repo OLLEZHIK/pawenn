@@ -230,12 +230,8 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
 
   return (
     <main className="relative" style={{ "--accent": theme.accent } as React.CSSProperties}>
-<<<<<<< HEAD
       {city && <PageCity slug={city.slug} />}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-=======
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
->>>>>>> origin/main
 
       {/* ---------- Header band ---------- */}
       <section className="under-header relative overflow-hidden border-b border-line">
