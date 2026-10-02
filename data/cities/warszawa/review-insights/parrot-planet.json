@@ -1,0 +1,145 @@
+{
+  "slug": "parrot-planet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=16274331422036608578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Fast parcel delivery mixed with product quality issues",
+        "pl": "Sprawna wysyłka kontra zastrzeżenia do jakości towaru"
+      },
+      "text": {
+        "en": "Customers report contrasting experiences with orders. While satisfied buyers highlight that packages often arrive within a single day in perfect condition, disappointed shoppers mention receiving dusty or defective goods that required formal return claims.",
+        "pl": "Opinie o realizowanych zamówieniach są podzielone. Zadowoleni klienci chwalą błyskawiczne dostawy paczek w ciągu jednego dnia, podczas gdy inni zgłaszają zastrzeżenia dotyczące zakurzonego towaru lub wadliwych produktów wymagających procedury reklamacyjnej."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Broad assortment with occasional packaging lapses",
+        "pl": "Bogaty asortyment i sporadyczne błędy w pakowaniu"
+      },
+      "text": {
+        "en": "The store offers an impressive selection of specialized foods, mineral supplements, and parrot accessories with helpful descriptions. However, critical reviews note that orders can sometimes look haphazardly packaged or not properly cleaned before dispatch.",
+        "pl": "Sklep zapewnia bogaty wybór specjalistycznych karm, suplementów mineralnych oraz akcesoriów dla papug z rzetelnymi opisami. Krytyczne głosy zwracają jednak uwagę, że przesyłki bywają pakowane niedbale i sprawiają wrażenie nieodpowiednio zabezpieczonych."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Responsive initial contact but difficult refund support",
+        "pl": "Sprawny pierwszy kontakt, lecz trudności z reklamacjami"
+      },
+      "text": {
+        "en": "While standard inquiries can receive quick and efficient responses, customers filing complaints or seeking refunds report frustrating delays. Reviewers cite prolonged waiting times for bank transfers and terse, unhelpful email communication during disputes.",
+        "pl": "Podczas gdy standardowe zapytania bywają obsługiwane sprawnie, klienci zgłaszający reklamacje lub zwroty środków napotykają spore trudności. W recenzjach pojawiają się uwagi o długim oczekiwaniu na przelew oraz lakonicznych odpowiedziach mailowych zespołu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What specialized items does Parrot Planet sell?",
+        "pl": "Co oferuje sklep Parrot Planet?"
+      },
+      "a": {
+        "en": "The store specializes in avian care, offering seeds, extruded pellets, foraging toys, cages, perches, and vitamin supplements for parrots.",
+        "pl": "Sklep specjalizuje się w produktach dla ptaków, oferując mieszanki nasion, granulaty, zabawki do żerowania, klatki oraz witaminy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in Warsaw?",
+        "pl": "Gdzie znajduje się sklep w Warszawie?"
+      },
+      "a": {
+        "en": "The physical store is situated at Al. Jana Pawła II 27 in central Warsaw.",
+        "pl": "Sklep stacjonarny mieści się przy Al. Jana Pawła II 27 w centrum Warszawy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How quickly are online orders processed?",
+        "pl": "Jak szybko realizowane są zamówienia?"
+      },
+      "a": {
+        "en": "Many customers report next-day delivery, though buyers recommend inspecting contents promptly upon arrival.",
+        "pl": "Wielu klientów potwierdza doręczenie już następnego dnia, choć zaleca się sprawdzenie stanu przesyłki zaraz po odbiorze."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are product returns and complaints handled?",
+        "pl": "Jak przebiega proces reklamacji?"
+      },
+      "a": {
+        "en": "Returns are accepted according to store policy, but buyers advise keeping complete transaction records in case delays occur.",
+        "pl": "Reklamacje są rozpatrywane zgodnie z regulaminem, jednak klienci radzą zachować potwierdzenia płatności w razie opóźnień."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
