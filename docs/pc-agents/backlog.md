@@ -16,6 +16,9 @@ Claude Code). Готовая задача — файл `tasks/pc-*.md` (без �
 |---|---|---|
 | ПК 2 | `pc2-warszawa-descriptions.md` — описания и логотипы Варшавы | PR #244 на проверке |
 | ПК 2 | `pc2-warszawa-prices.md` — цены Варшавы | после описаний |
+| свободный ПК | `pc-city-wroclaw-maps.md` — Wrocław, проход Google Maps (нужен вход в Google) | свободна, пилот: `city.json`, районы, кусок 01 |
+| свободный ПК | `pc-city-wroclaw-places.md` — Wrocław, места по сайтам | ждёт кусок 01 карты |
+| свободный ПК | `pc-city-wroclaw-reviews.md` — Wrocław, сводки отзывов | ждёт город в `main` |
 | свободный ПК | `pc-audit-cities.md` — аудит свежести Bratislava, Košice, Warszawa | свободна, диспетчер выбирает контейнер |
 | свободный ПК | `pc-dog-tax-sk.md` — налог на собаку по VZN | свободна |
 | свободный ПК | `pc-completeness-registers.md` — пропущенные места по официальным спискам | свободна |
@@ -29,7 +32,7 @@ Claude Code). Готовая задача — файл `tasks/pc-*.md` (без �
 `docs/seo/keywords/sk.md`.
 
 1. **Новые города — только от 500 тысяч жителей** (владелец, 2026-10-01):
-   Wrocław, Łódź, Poznań (`pl` уже есть); потом Praha, Wien, Budapest
+   Wrocław (в работе с 2026-10-02), Łódź, Poznań (`pl` уже есть); потом Praha, Wien, Budapest
    (новый язык — решение владельца). Каждый — по сайтам после партии 0
    от CLI (Google Maps), как было в Прешове. Узкое место — CLI: партию 0
    делает только он.
