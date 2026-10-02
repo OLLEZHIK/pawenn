@@ -1,0 +1,45 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "a-z-wet",
+    "przychodnia-weterynaryjna-oaza",
+    "medicavet",
+    "przychodnia-weterynaryjna-karat",
+    "vet-and-pet",
+    "ginvet",
+    "canfelis",
+    "gabinet-weterynaryjny-wesola",
+    "ochwet",
+    "przychodnia-weterynaryjna-lupus"
+  ],
+  "hash": "1fd6e845725cdc3b66e3a5f1cb3800fd2ccb3cfde858d1dfca9d9f7c03a8ad7b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T18:05:46.231Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-02T18:08:18.658Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-02T18:11:01.271Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-02T18:12:06.466Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T18:13:37.242Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
