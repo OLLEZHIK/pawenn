@@ -49,6 +49,7 @@ import {
 import { AnimalIcon } from "@/components/AnimalIcon";
 import { PriceTier } from "./PriceTier";
 import { currencySign } from "@/lib/money";
+import { PageCity } from "./PageCity";
 
 // Business detail page, shared by /business/{slug}/ (English) and
 // /{locale}/{localized segment}/{slug}/ (e.g. /sk/podnik/{slug}/).
@@ -229,6 +230,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
 
   return (
     <main className="relative" style={{ "--accent": theme.accent } as React.CSSProperties}>
+      {city && <PageCity slug={city.slug} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
 
       {/* ---------- Header band ---------- */}
