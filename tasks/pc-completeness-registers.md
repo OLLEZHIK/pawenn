@@ -88,3 +88,9 @@
    сомнение — `maybe_duplicate_of`, как сделано.
 5. В PR пересчитать статистику в рабочих местах: сколько в Bratislave,
    сколько совпало с каталогом, сколько пропусков.
+
+Напарник (ПК 4) в PR #252 нашёл ещё: MVDr. Andrej Barta и MVDr. Zuzana
+Bartová работают в `mlynvet`, MVDr. Boris Bartoš — в
+`veterinarna-klinika-lapvet`, MVDr. Bystrík Ambruš — в
+`vetpetrzalka-veterinarna-ambulancia`: это не пропуски. Сверка по
+рабочему месту (п. 1, 4 выше) такие случаи и отсеет.
