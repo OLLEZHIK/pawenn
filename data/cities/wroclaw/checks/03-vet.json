@@ -1,0 +1,65 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "lesnickie-centrum-weterynarii",
+    "przychodnia-weterynaryjna-vetin",
+    "terenda-witold",
+    "oltaszynska",
+    "centrum-okulistyki-weterynaryjnej-eyevet",
+    "goldenvet",
+    "lovet-przychodnia-weterynaryjna",
+    "gabinet-weterynaryjny-vets-and-pets-zakladowa",
+    "legwan",
+    "vetos"
+  ],
+  "hash": "d2ef8faf5dd33e8d855588da446cd847ca3a08919d059d88d83ccaf53c1214ea",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T12:32:52.181Z",
+      "result": "FAIL",
+      "listed": 53
+    },
+    {
+      "at": "2026-10-02T12:33:51.777Z",
+      "result": "FAIL",
+      "listed": 53
+    },
+    {
+      "at": "2026-10-02T12:35:48.272Z",
+      "result": "FAIL",
+      "listed": 53
+    },
+    {
+      "at": "2026-10-02T12:48:01.018Z",
+      "result": "FAIL",
+      "listed": 49
+    },
+    {
+      "at": "2026-10-02T13:35:41.017Z",
+      "result": "FAIL",
+      "listed": 49
+    },
+    {
+      "at": "2026-10-02T13:45:31.424Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-02T13:46:21.482Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-02T13:47:34.364Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T14:30:11.377Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
