@@ -1,0 +1,85 @@
+{
+  "slug": "m-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/M-Vet/data=!4m7!3m6!1s0x473ee04f3d2f9247:0xce23a49e623eb6ff!8m2!3d48.7118228!4d21.2335171!16s%2Fg%2F11b6dsmj2g!19sChIJR5IvPU_gPkcR_7Y-Yp6kI84?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 8,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Warm empathy and compassionate veterinary care",
+        "sk": "Srdečná empatia a ľudský prístup lekárok"
+      },
+      "text": {
+        "en": "Pet owners warmly praise the veterinary team at M-Vet on Magurská street for their outstanding empathy and genuine kindness. Reviewers specifically highlight Dr. Nulasiová for her compassionate connection with patients and attentive listening to owners during consultations.",
+        "sk": "Majitelia zvierat svorne chvália tím veterinárnej ambulancie M-Vet na Magurskej ulici za mimoriadne ľudský a citlivý prístup. Recenzenti menovite vyzdvihujú MVDr. Nulasiovú za jej láskavý vzťah k pacientom a trpezlivé načúvanie obavám prichádzajúcich chovateľov počas každej návštevy."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Clear diagnostic explanations and patient guidance",
+        "sk": "Zrozumiteľný výklad diagnózy a trpezlivé odpovede"
+      },
+      "text": {
+        "en": "Clients appreciate the thorough and transparent communication maintained throughout examinations. Attending veterinarians carefully explain treatment steps, answer clinical questions without rushing, and provide reassuring guidance to worried owners at every stage.",
+        "sk": "Klienti oceňujú otvorenú a podrobnú komunikáciu počas každého vyšetrenia. Ošetrujúce lekárky detailne objasňujú liečebné postupy, ochotne odpovedajú na otázky bez zbytočného náhlenia a poskytujú majiteľom potrebnú istotu pri zdravotných ťažkostiach zvierat v každom štádiu."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Prompt appointment scheduling without undue delays",
+        "sk": "Rýchle objednanie a plynulé vybavenie pacientov"
+      },
+      "text": {
+        "en": "Reviewers note efficient organizational flow when scheduling visits and obtaining clinical care. Patients are accommodated swiftly for scheduled appointments, minimizing prolonged waiting room stress for both anxious dogs and companion cats arriving for treatment.",
+        "sk": "Recenzie vyzdvihujú bezproblémovú organizáciu pri objednávaní termínov a rýchle vybavenie potrebných úkonov. Pacienti sú prijímaní plynulo, čo výrazne znižuje stres z dlhého čakania v čakárni tak pre bojazlivé psíky, ako aj pre citlivé mačky prichádzajúce na ošetrenie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians explain clinical treatment options clearly?",
+        "sk": "Vysvetlia lekárky postup vyšetrenia a liečby?"
+      },
+      "a": {
+        "en": "Yes, reviews emphasize that the doctors patiently describe diagnostics and answer all pet care questions.",
+        "sk": "Áno, recenzie opakovane zdôrazňujú podrobné a pokojné vysvetlenie liečebných krokov majiteľom."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate appointment scheduling at M-Vet?",
+        "sk": "Ako hodnotia klienti objednávanie na termín?"
+      },
+      "a": {
+        "en": "Clients commend the swift ordering process and prompt treatment without prolonged waiting times.",
+        "sk": "Klienti chvália rýchle dohodnutie termínu a bezproblémový priebeh ošetrenia bez zbytočného zdržania."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the M-Vet clinic located in Košice?",
+        "sk": "Kde presne sídli veterinárna ambulancia M-Vet?"
+      },
+      "a": {
+        "en": "The clinic is situated on Magurská 2 in the Staré Mesto district of Košice.",
+        "sk": "Ambulancia sídli na Magurskej 2 v mestskej časti Košice-Staré Mesto."
+      },
+      "basis": "both"
+    }
+  ]
+}

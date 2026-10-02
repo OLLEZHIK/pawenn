@@ -53,3 +53,15 @@ kúpeľňa pre psov) — все, у кого сейчас нет файла в
 - В PR — таблица по всем 39 местам: ссылка на Maps, отзывов с текстом
   за 12 и за 24 месяца, какой период взят, сводка есть / нет.
 - Самопроверка `quality.md` (§2) в PR.
+
+## Итог выполнения (2026-09-28)
+
+Все 39 мест проверены по карточкам Google Maps с сортировкой «Najnovšie» (Newest):
+- **10 мест** получили сводку за **12 месяцев** (`period_from: "2025-09-28"`, $\ge 5$ отзывов с текстом за 12м):
+  `super-zoo`, `abc-zoo`, `m-vet`, `mvdr-ildiko-kinyikova-veterinarka-ambulancia-4-nohych`, `veterinarna-klinika-pro-vet-mvdr-igor-capik`, `abovzoo-chovatelske-potreby`, `salon-pre-psov-lump`, `sivet-veterinarna-ambulancia-peres`, `psie-centrum-pozitiv`, `veterina-u-lisiaka`.
+- **12 мест** получили сводку за **24 месяца** (`period_from: "2024-09-28"`, $< 5$ за 12м, но $\ge 5$ за 24м):
+  `krmiva-sk-chovatelske-potreby`, `veterinar-mvdr-darina-pilecka`, `mvdr-ivana-opatova-veterinarna-ambulancia`, `veterinarna-ambulancia`, `vetis`, `atos-dog`, `vet-mandelik-s-r-o-mvdr-rene-mandelik-phd`, `yanashop`, `hotel-pre-psov-terra-animal`, `maskrtnik`, `veterinarna-ambulancia-abovzoo`, `vethaus-veterinarna-ambulancia`.
+- **17 мест** остались без сводки ($< 5$ отзывов с текстом за 24 месяца) и занесены в итоговую таблицу в PR с точным числом отзывов.
+- Все созданные 22 файла строго соответствуют требованиям плейбука (3 карточки, 3 FAQ, 250–450 символов на EN и SK, уникальные окончания, честные факты из отзывов).
+- `cd website && npm run check-city -- kosice` успешно выводит `READY`.
+

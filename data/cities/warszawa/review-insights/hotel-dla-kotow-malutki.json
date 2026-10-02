@@ -1,0 +1,114 @@
+{
+  "slug": "hotel-dla-kotow-malutki",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=1223860396949489268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "en": "Attentive care and peaceful boarding",
+        "pl": "Troskliwa opieka i spokojny pobyt"
+      },
+      "text": {
+        "en": "Most clients report that their cats return home clean, well-fed, calm, and in good health after staying at the facility. Regular visitors note that even timid indoor cats manage the separation comfortably when provided with individual attention and gentle handling from the caretaker.",
+        "pl": "Większość klientów zauważa, że koty wracają do domu czyste, odkarmione, spokojne i w dobrej kondycji po pobycie w hoteliku. Stali bywalcy wskazują, że nawet nieśmiałe koty niewychodzące dobrze znoszą rozłąkę z domem dzięki indywidualnej uwadze i delikatnemu podejściu ze strony opiekunki."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Experienced and approachable hotel owner",
+        "pl": "Doświadczona i życzliwa właścicielka hotelu"
+      },
+      "text": {
+        "en": "Reviewers frequently praise Dorota for her friendly communication, patience, and years of experience with feline guests. Clients appreciate that she listens carefully to owners requests, keeps them informed via phone and messaging apps, and understands the adaptation process of different cats.",
+        "pl": "Recenzenci chwalą panią Dorotę za życzliwy kontakt, cierpliwość oraz wieloletnie doświadczenie w opiece nad kotami. Klienci doceniają, że uważnie wsłuchuje się w zalecenia właścicieli, utrzymuje kontakt telefoniczny i przez komunikatory oraz dobrze rozumie proces adaptacji zwierząt w nowym otoczeniu."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Intimate space with mixed opinions",
+        "pl": "Kameralna przestrzeń i zróżnicowane opinie"
+      },
+      "text": {
+        "en": "Opinions regarding the boarding space are divided among visitors. While several long-term clients appreciate the cozy home setting, wall shelves, and freedom for cats to roam the apartment, critical reviews argue that the room is too confined and that having multiple cats in a compact room is unsuitable.",
+        "pl": "Opinie na temat przestrzeni hotelowej są podzielone wśród gości. Podczas gdy stali klienci doceniają domowy, kameralny klimat, zamontowane półki i swobodę poruszania się po mieszkaniu, w krytycznych głosach pojawiają się uwagi, że pokój jest zbyt mały, a liczba przebywających w nim kotów bywa nadmierna."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How is the boarding area arranged?",
+        "pl": "Jak wygląda przestrzeń dla kotów w hotelu?"
+      },
+      "a": {
+        "en": "The hotel is an intimate home-based facility where cats have access to shelves, wall bridges, and room space.",
+        "pl": "Hotelik to kameralne miejsce o charakterze domowym, wyposażone w ścienne półki, mostki i miejsca do odpoczynku."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the owner keep in touch?",
+        "pl": "Jak wygląda kontakt z opiekunką podczas pobytu?"
+      },
+      "a": {
+        "en": "The owner communicates via phone calls, SMS, WhatsApp, and email, providing updates and photos of the cat.",
+        "pl": "Opiekunka utrzymuje kontakt telefoniczny, mailowy oraz przez WhatsApp i SMS, przesyłając wiadomości i zdjęcia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Hotel Malutki located?",
+        "pl": "Gdzie znajduje się Hotel dla Kotów MALUTKI?"
+      },
+      "a": {
+        "en": "The hotel is located in Warsaw's Żoliborz district at Pawła Suzina 3.",
+        "pl": "Hotelik mieści się na warszawskim Żoliborzu przy ulicy Pawła Suzina 3."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are long boarding stays accepted?",
+        "pl": "Czy hotel przyjmuje koty na dłuższe pobyty?"
+      },
+      "a": {
+        "en": "Yes, clients report leaving their cats for extended periods of several weeks without issues.",
+        "pl": "Tak, goście z powodzeniem zostawiają koty na dłuższe pobyty trwające nawet kilka tygodni."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "3 months ago", "months": 3, "stars": 5, "topics": { "animals": "+", "place": "+" } },
+    { "ago": "3 months ago", "months": 3, "stars": 5, "topics": { "animals": "+", "communication": "+" } },
+    { "ago": "9 months ago", "months": 9, "stars": 5, "topics": { "staff": "+" } },
+    { "ago": "Edited 9 months ago", "months": 9, "stars": 5, "topics": { "animals": "+", "place": "+", "staff": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "animals": "+", "communication": "+", "staff": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 1, "topics": { "place": "-", "animals": "-" } },
+    { "ago": "a year ago", "months": 12, "stars": 1, "topics": { "place": "-", "staff": "-", "animals": "-" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "place": "+", "animals": "+", "staff": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "communication": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "staff": "+", "communication": "+", "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "place": "+", "animals": "+", "staff": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "animals": "+" } },
+    { "ago": "a year ago", "months": 12, "stars": 5, "topics": { "animals": "+" } }
+  ]
+}

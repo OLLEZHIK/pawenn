@@ -50,12 +50,18 @@ for (const f of files) {
   else if (f.startsWith("tasks/")) warns.push(`${f}: task files - only a "Вопрос от исполнителя" section may be added`);
 }
 
-// 3. Place data without the gate stamp of its chunk.
-const cities = new Set(files.map((f) => f.match(/^data\/cities\/([^/]+)\/(?!checks\/)/)?.[1]).filter(Boolean) as string[]);
+// 3. Place data without the gate stamp of its chunk. The gate sees only
+// chunk files (businesses-NN-*.csv, evidence-NN-*.csv) and review summaries;
+// an edit of an old single businesses.csv has no chunk to stamp - there
+// check-city READY and verify-city VERIFIED are the check (PR #244).
+const GATED = /^data\/cities\/([^/]+)\/((businesses|evidence)-\d[^/]*\.csv|review-insights\/[^/]+\.json)$/;
+const cities = new Set(files.map((f) => f.match(GATED)?.[1]).filter(Boolean) as string[]);
 for (const city of cities) {
   if (!files.some((f) => f.startsWith(`data/cities/${city}/checks/`)))
     fails.push(`data/cities/${city}: data changed, no gate stamp in checks/ - lessons.md У-10`);
 }
+for (const city of new Set(files.map((f) => f.match(/^data\/cities\/([^/]+)\/businesses\.csv$/)?.[1]).filter(Boolean) as string[]))
+  if (!cities.has(city)) warns.push(`data/cities/${city}/businesses.csv: old single file, no gate - PR needs check-city READY and verify-city VERIFIED output`);
 
 // 4. Size: a PR is at most 3 chunks of 10.
 const rowsChanged = (file: string) => {
