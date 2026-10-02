@@ -9,7 +9,7 @@
 | Агент | Задача | Файл экзамена |
 |---|---|---|
 | Antigravity (Mac 2) | `tasks/mac2-maps-exam.md` | `data/exams/presov-maps-mac2.csv` |
-| Antigravity (ПК 1) | `tasks/pc1-maps-exam.md` | `data/exams/presov-maps-pc1.csv` |
+| Antigravity (ПК 1) | снят владельцем 2026-10-02 | — |
 
 Одни и те же 10 мест — результаты двух сред можно сравнить напрямую.
 
