@@ -934,6 +934,11 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
     if (quote.length < MIN_QUOTE || quote.length > MAX_QUOTE) {
       evidenceErrors.push(`${at}: quote of ${quote.length} characters - copy ${MIN_QUOTE}-${MAX_QUOTE} characters from the page as they are`);
     }
+    // A bot wall or a page title is not the text a value is built on (PR #244).
+    if (/please wait while|request is being verified|one moment, please|checking your browser|just a moment\.\.\.|enable javascript/i.test(quote))
+      evidenceErrors.push(`${at}: quote is a bot-protection page, not the place's text - open the page in a browser or write "none (...)"`);
+    else if ((e.field ?? "").trim() === "description" && quote.length < 40)
+      evidenceErrors.push(`${at}: description quote of ${quote.length} characters looks like a page title - quote the sentence the description is built on - "${quote}"`);
     const mismatch = quote && !fieldError ? quoteMismatch(e.field.trim(), quote, e.source_url ?? "") : null;
     if (mismatch) evidenceErrors.push(`${at}: ${mismatch} - "${quote.slice(0, 60)}"`);
     if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);

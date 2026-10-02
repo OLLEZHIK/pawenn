@@ -1,0 +1,104 @@
+{
+  "slug": "dogadajcie-sie-warszawa-targowek",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=5082400573615695716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2025-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Empathetic approach to dog behavior",
+        "pl": "Empatyczne podejście do potrzeb psów"
+      },
+      "text": {
+        "en": "Clients consistently praise the school for its gentle and understanding approach to dogs of various ages and temperaments. Owners of puppies and young dogs report that the classes help strengthen mutual trust, reduce stress during training, and create a strong foundation for everyday cooperation.",
+        "pl": "Opiekunowie psów podkreślają pełne empatii i cierpliwości podejście do czworonogów w różnym wieku i o odmiennych charakterach. Uczestnicy kursów dla szczeniąt zaznaczają, że zajęcia budują głęboką więź z psem, eliminują zbędny stres podczas nauki i uczą spokojnego porozumienia na co dzień."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Experienced and supportive dog trainers",
+        "pl": "Doświadczeni i wspierający instruktorzy szkolenia"
+      },
+      "text": {
+        "en": "Reviewers highlight the high competence, warmth, and dedication of the training instructors. Clients appreciate that trainers provide clear explanations, practical tips tailored to individual challenges, and calm support that helps owners navigate difficult behavioral stages without feeling overwhelmed.",
+        "pl": "Klienci wyróżniają wysokie kompetencje, zaangażowanie i życzliwość instruktorów prowadzących zajęcia. W recenzjach docenia się jasne instrukcje, praktyczne wskazówki dopasowane do indywidualnych trudności oraz spokojne wsparcie, które pomaga opiekunom przejść przez wymagające etapy wychowania psa."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Noticeable progress in everyday habits",
+        "pl": "Wyraźne postępy w codziennym zachowaniu"
+      },
+      "text": {
+        "en": "Dog owners report tangible and lasting improvements in their pets behavior following the courses. Participants emphasize that practical exercises during classes translate directly into calmer walks, better self-control in urban settings, and a deeper understanding of canine communication signals.",
+        "pl": "Uczestnicy kursów zwracają uwagę na wyraźną i trwałą poprawę zachowania swoich psów po ukończeniu szkolenia. Praktyczne ćwiczenia przekładają się bezpośrednio na spokojniejsze spacery, większą samokontrolę zwierzęcia w mieście oraz lepsze rozumienie sygnałów wysyłanych przez czworonoga."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What puppy courses are available?",
+        "pl": "Jakie kursy są dostępne dla szczeniąt?"
+      },
+      "a": {
+        "en": "The school organizes specialized courses such as Szczeniaczkowo designed for early socialization and basic obedience.",
+        "pl": "Szkoła organizuje kurs Szczeniaczkowo, który skupia się na wczesnej socjalizacji i podstawach posłuszeństwa."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How large are the training groups?",
+        "pl": "Jak liczne są grupy szkoleniowe?"
+      },
+      "a": {
+        "en": "Classes are conducted in small groups to allow trainers to focus on each dog and owner individually.",
+        "pl": "Zajęcia odbywają się w małych kameralnych grupach, co pozwala trenerom poświęcić uwagę każdemu psu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where do the indoor classes take place?",
+        "pl": "Gdzie odbywają się zajęcia na sali?"
+      },
+      "a": {
+        "en": "Indoor training sessions are held in a warm, clean training room located at Radzymińska 147 in Targówek.",
+        "pl": "Zajęcia na sali odbywają się w czystej i ogrzewanej sali szkoleniowej przy ul. Radzymińskiej 147 na Targówku."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are follow-up courses offered after puppy school?",
+        "pl": "Czy po kursie szczenięcym można kontynuować naukę?"
+      },
+      "a": {
+        "en": "Yes, graduates can continue training in advanced modules such as Młodzieżowo and outdoor walking classes.",
+        "pl": "Tak, po kursie podstawowym dostępne są kolejne etapy, m.in. Młodzieżowo oraz zajęcia spacerowe."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "4 months ago", "months": 4, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "5 months ago", "months": 5, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "5 months ago", "months": 5, "stars": 5, "topics": { "staff": "+", "place": "+", "animals": "+" } },
+    { "ago": "7 months ago", "months": 7, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "7 months ago", "months": 7, "stars": 5, "topics": { "staff": "+", "results": "+", "place": "+", "animals": "+" } },
+    { "ago": "7 months ago", "months": 7, "stars": 5, "topics": { "staff": "+", "results": "+", "place": "+", "animals": "+" } }
+  ]
+}

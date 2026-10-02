@@ -1,0 +1,85 @@
+{
+  "slug": "maskrtnik",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ma%C5%A1krtn%C3%ADk/data=!4m7!3m6!1s0x473edf8a14775c8b:0xa3d925d51e147d18!8m2!3d48.6832927!4d21.2855604!16s%2Fg%2F11crt2kwv6!19sChIJi1x3FIrfPkcRGH0UHtUl2aM?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 5,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly owner welcoming pets and ordering special items",
+        "sk": "Milý majiteľ s ochotou doobjednať tovar na prianie"
+      },
+      "text": {
+        "en": "Customers highlight the warm, personal, and patient attitude of the shop owner. Reviewers appreciate that he willingly spends time advising shoppers, lets visiting dogs play inside, and promptly orders specialized feeds if currently out of stock on store shelves.",
+        "sk": "Zákazníci vyzdvihujú milý, ústretový a osobný prístup majiteľa predajne. Recenzie oceňujú jeho trpezlivosť pri poradenstve, priateľský vzťah k prichádzajúcim psíkom a ochotu bez problémov doobjednať špecifický tovar na želanie zákazníka, ak práve chýba na regáli."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable stock of favorite granules and quality treats",
+        "sk": "Spoľahlivá ponuka obľúbených granúl a kvalitných maškŕt"
+      },
+      "text": {
+        "en": "Shoppers express continuous satisfaction with the selection of high-quality animal nutrition and specialty treats. Regular visitors emphasize that their required kibble brands are consistently stocked and fresh for their four-legged companions at all times.",
+        "sk": "Nakupujúci vyjadrujú veľkú spokojnosť s ponukou kvalitných krmív a chutných maškŕt pre psov a mačky. Pravidelní zákazníci zdôrazňujú, že v predajni vždy nájdu svoje preferované značky čerstvých granúl a odchádzajú s kompletným nákupom pre štvornohých miláčikov."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Cozy neighborhood store with practical parcel collection",
+        "sk": "Útulná susedská predajňa s výdajným miestom balíkov"
+      },
+      "text": {
+        "en": "Despite its compact floor area on Bukovecká, customers describe the store interior as pleasant, welcoming, and tidy. Shoppers also commend the practical option to collect parcel deliveries on site while picking up pet food supplies during regular neighborhood walks.",
+        "sk": "Napriek menšej rozlohe na Bukoveckej ulici opisujú zákazníci predajňu ako veľmi príjemné a čisté miesto na nákup. Chovatelia taktiež pozitívne hodnotia praktickú možnosť vyzdvihnúť si poštové zásielky priamo v priestoroch obchodu popri bežnom nákupe krmiva na sídlisku."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the shop order pet feeds upon customer request?",
+        "sk": "Objedná predajňa krmivo na želanie zákazníka?"
+      },
+      "a": {
+        "en": "Yes, customer reviews confirm that the owner readily orders requested pet supplies if not in stock.",
+        "sk": "Áno, recenzie potvrdzujú ochotu majiteľa bez problémov zabezpečiť a doobjednať žiadaný tovar."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop provide parcel pickup services?",
+        "sk": "Funguje v predajni Maškrtník výdajné miesto pre zásielky?"
+      },
+      "a": {
+        "en": "Yes, reviews mention the convenient option of picking up parcel shipments directly at the store.",
+        "sk": "Áno, zákaznícke hodnotenia spomínajú praktickú možnosť vyzdvihnutia balíkových zásielok."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Maškrtník located in Košice?",
+        "sk": "Kde presne sídli predajňa Maškrtník?"
+      },
+      "a": {
+        "en": "The shop is located at Bukovecká 1 in the Nad Jazerom district of Košice.",
+        "sk": "Predajňa sa nachádza na Bukoveckej 1 na sídlisku Nad Jazerom v Košiciach."
+      },
+      "basis": "both"
+    }
+  ]
+}

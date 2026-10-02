@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { listingPath } from "@/lib/categories";
+import { usePageCity } from "./useHead";
 import type { BusinessCategory } from "@prisma/client";
 import type { CityPointLite } from "@/lib/geo";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -34,7 +36,11 @@ export function BrowseMenu({ locale, t, food, services, cities, defaultCitySlug 
   const [open, setOpen] = useState(false);
   const [group, setGroup] = useState<Group>("services");
   const rootRef = useRef<HTMLDivElement>(null);
-  const { open: openService, pending } = useServiceNavigation(locale, cities, defaultCitySlug, () => setOpen(false));
+  // The page's own city (a Warszawa page opens Warszawa lists), else the
+  // language's city from the server.
+  const pageCity = usePageCity();
+  const citySlug = pageCity ?? defaultCitySlug;
+  const { open: openService, pending } = useServiceNavigation(locale, cities, citySlug, () => setOpen(false));
 
   useEffect(() => {
     if (!open) return;
@@ -103,7 +109,7 @@ export function BrowseMenu({ locale, t, food, services, cities, defaultCitySlug 
               {services.map((s) => (
                 <li key={s.href}>
                   <Link
-                    href={s.href}
+                    href={listingPath(locale, s.category, citySlug)}
                     onClick={(e) => {
                       openService(s.category, e);
                     }}
