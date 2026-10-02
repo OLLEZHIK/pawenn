@@ -56,4 +56,4 @@ Maps, PR #234.
 
 **У-10. Один кусок — 10 мест, следующий — после `GATE PASS`, кусок
 коммитится со штампом `checks/`.** Данные без штампа `check-city` не
-пропустит. Ловит `agent-check`.
+пропустит. Ловит `agent-check`. Город со старым единым `businesses.csv` (Bratislava, Košice, Warszawa) кусков и ворот не имеет: там проверка — `check-city` `READY` и `verify-city` `VERIFIED` в PR (проверяющий, 2026-10-02, PR #244).

@@ -9,7 +9,7 @@
 
 **Сейчас (проверяющий, 2026-10-02):** первая задача `agy2`. Ветка от работы Antigravity (Mac), с подтянутым `main`:
 `git fetch origin && git checkout -b pc2/warszawa-descriptions origin/mac/warszawa-descriptions && git pull --no-rebase origin main`,
-потом `cd website && npm install`. Сделать «Ревью» в конце файла (3 пункта) кусками по 10 мест с воротами, открыть PR `Warszawa: descriptions and logos` и ждать проверки напарника (ПК 1) и ревью. Пока ждёшь — `pc2-warszawa-prices.md`.
+потом `cd website && npm install`. Сделать «Ревью» в конце файла (3 пункта) по 10 мест (`check-city` после каждых 10; ворот `gate` здесь нет — у Варшавы один `businesses.csv`, кусков нет), открыть PR `Warszawa: descriptions and logos` и ждать проверки напарника (ПК 1) и ревью. Пока ждёшь — `pc2-warszawa-prices.md`.
 
 **Передано Antigravity (ПК 2) 2026-10-02** (владелец: Варшаву доделывают агенты на ПК, Mac 2 пока не работает). До этого —
 **Передано Antigravity (Mac 2) 2026-09-29** (владелец: пока из
