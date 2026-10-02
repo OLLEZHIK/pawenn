@@ -12,7 +12,8 @@
     "check-guides": "tsx scripts/check-guides.ts",
     "check-city": "tsx scripts/check-city.ts",
     "verify-city": "tsx scripts/verify-city.ts",
-    "gate": "tsx scripts/gate.ts"
+    "gate": "tsx scripts/gate.ts",
+    "agent-check": "tsx scripts/agent-check.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

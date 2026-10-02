@@ -44,8 +44,9 @@ for (const ref of reference) {
     continue;
   }
   // The exam may be newer (extra reviews on top) or older (reference has extra on top).
-  let best = { shift: 0, ok: -1, n: 0 };
-  for (let shift = -3; shift <= 3; shift++) {
+  // Smallest shift first, so a tie keeps the feeds as they are.
+  let best = { shift: 0, ok: -1, n: 0, gap: 0 };
+  for (const shift of [0, 1, -1, 2, -2, 3, -3]) {
     const a = shift >= 0 ? got.feed.slice(shift) : got.feed;
     const b = shift >= 0 ? ref.feed : ref.feed.slice(-shift);
     const n = Math.min(a.length, b.length);
@@ -53,12 +54,14 @@ for (const ref of reference) {
     for (let i = 0; i < n; i++) {
       if (a[i].stars === b[i].stars && Math.abs(a[i].months - b[i].months) <= 1) ok++;
     }
-    if (ok > best.ok) best = { shift, ok, n };
+    if (ok > best.ok) best = { shift, ok, n, gap: Math.abs(a.length - b.length) };
   }
-  const countGap = Math.abs(got.feed.length - Math.abs(best.shift) - ref.feed.length);
+  const countGap = best.gap;
   pairs += best.n;
   agree += best.ok;
-  const share = best.n ? best.ok / best.n : 0;
+  // A place with no reviews in the period on one side: agreement as long
+  // as the other side has at most 2 (written since, or just before).
+  const share = best.n ? best.ok / best.n : countGap <= 2 ? 1 : 0;
   if (countGap > 2 || share < 0.9) failed = true;
   console.log(
     `${label} ${String(ref.feed.length).padStart(4)} ${String(got.feed.length).padStart(5)} ${String(best.shift).padStart(5)}  ${best.ok}/${best.n}` +
