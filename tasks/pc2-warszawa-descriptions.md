@@ -7,9 +7,7 @@
 (там работа Antigravity (Mac): тексты и логотипы)
 **Зависимости:** нет.
 
-**Сейчас (проверяющий, 2026-10-02):** первая задача `agy2`. Ветка от работы Antigravity (Mac), с подтянутым `main`:
-`git fetch origin && git checkout -b pc2/warszawa-descriptions origin/mac/warszawa-descriptions && git pull --no-rebase origin main`,
-потом `cd website && npm install`. Сделать «Ревью» в конце файла (3 пункта) кусками по 10 мест с воротами, открыть PR `Warszawa: descriptions and logos` и ждать проверки напарника (ПК 1) и ревью. Пока ждёшь — `pc2-warszawa-prices.md`.
+**Сейчас (проверяющий, 2026-10-02, после ревью PR #244):** исправить по «Ревью 4» в конце файла в той же ветке `pc2/warszawa-descriptions`, сначала `git pull --no-rebase origin main` (там новая проверка `check-city`). Готово, когда `check-city warszawa` → `READY` (24 строки «page title» / «bot-protection» ушли), `verify-city` → `VERIFIED`; один push, вывод обоих — комментарием в PR #244. Проверку напарника (ПК 1) — после этого push.
 
 **Передано Antigravity (ПК 2) 2026-10-02** (владелец: Варшаву доделывают агенты на ПК, Mac 2 пока не работает). До этого —
 **Передано Antigravity (Mac 2) 2026-09-29** (владелец: пока из
@@ -243,3 +241,34 @@ PR** в `main` с заголовком `Warszawa: descriptions and logos` и в�
    `VERIFIED` (все цитаты найдены на страницах). Потом открыть PR
    `Warszawa: descriptions and logos`, с выводом обоих скриптов и
    самопроверкой.
+
+
+## Ревью 4 (проверяющий, PR #244, 2026-10-02)
+
+Тексты стали живыми, сверил 4 места с сайтами (`koci-hotelik`,
+`co-pies-na-to-szkolenie-psow`, `sklep-zoologiczny-bocja`,
+`hotel-kocie-gniazdko`) — основное совпадает. `check-city` → `READY`,
+`verify-city` → `VERIFIED` (проверил сам). Ворота `gate` для Варшавы не
+нужны: `agent-check` исправлен, FAIL «no gate stamp» на этом PR больше
+нет. Не принято из-за цитат (`quality.md`, правило 8; урок У-11):
+
+1. **Цитата — заголовок страницы, а не текст, на котором построено
+   описание.** У 45 из 79 мест: «Koci Hotelik - Hotel dla kotów
+   Warszawa», «Co pies na to? | .:: Szkolenie psów ::.», «Klienci
+   polecają Sklep Bocja»… Такая цитата не доказывает ни одной детали.
+   Нужна фраза со страницы, где видны детали описания (у `koci-hotelik`
+   есть: «na pograniczu warszawskich Włoch i Opaczy», «8 w pełni
+   wyposażonych, bezpiecznych boksów»). Можно 2–3 строки цитат на место.
+   `check-city` теперь ловит цитаты короче 40 знаков (24 места); у
+   остальных заголовков длиннее 40 — тоже заменить, проверяющий смотрит
+   их руками.
+2. **Деталь без цитаты — убрать из текста.** `koci-hotelik`: «dbałość o
+   dietę», «relacje zdjęciowe» на главной странице не нашёл; есть на
+   другой странице — цитата оттуда, нет — убрать из всех 4 полей.
+3. **`hotel-kocie-gniazdko`: цитата — антибот-заглушка** «Please wait
+   while your request is being verified...». Текст сайта агент не видел,
+   а описание пишет про боксы и кормление. Открыть сайт в браузере
+   (Chrome в контейнере) и цитировать; не открывается — описание только
+   из строки (категория, название, адрес), как у мест без сайта.
+4. В PR — таблица «было → стало» для цитат исправленных мест не нужна:
+   хватит вывода `check-city` и `verify-city`.
