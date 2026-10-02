@@ -1,0 +1,35 @@
+{
+  "chunk": "06-hotel",
+  "kind": "places",
+  "slugs": [
+    "psotel-fido",
+    "city-pets-by-paws-n-board",
+    "piesolandia",
+    "bone-pet-club",
+    "pupile-zofia-tutak",
+    "ohana-dogs",
+    "hotel-dla-psow-luzna-smycz",
+    "hotel-dla-kotow-bella",
+    "hotel-dla-psow-u-ewy",
+    "zielony-kotel"
+  ],
+  "hash": "1a553f21a8c9f41a1f72d649a41237aaf6f0b06be8d04b2affb97c479797e4d8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T21:29:54.722Z",
+      "result": "FAIL",
+      "listed": 96
+    },
+    {
+      "at": "2026-10-02T21:35:11.292Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T21:36:41.472Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
