@@ -46,9 +46,10 @@ Claude Code CLI на ПК (`D:\docker\shop`, в `.git/agent` —
 
 Файлом в контейнер, в PowerShell (одинарные кавычки — PowerShell их не трогает):
 `docker cp D:\docker\task-agyN.md agyN:/tmp/task.md`, затем
-`docker exec agyN bash -lc 'cd ~/pawenn && agy -p "$(cat /tmp/task.md)" --dangerously-skip-permissions'`
-(запуск без подтверждений — только пока владелец у ПК, `AGENTS.md`,
-«Критическая инфраструктура», п. 6).
+`docker exec -d -u ubuntu agyN bash -lc 'cd ~/shop && agy -p "$(cat /tmp/task.md)" --dangerously-skip-permissions > ~/agy-logs/<дата>-<задача>.log 2>&1'`
+(клон в контейнерах — `~/shop`; `-d` — агент работает и после выхода
+диспетчера, его ответ и блок ИТОГ — в логе; запуск без подтверждений —
+только пока владелец у ПК, `AGENTS.md`, «Критическая инфраструктура», п. 6).
 
 ```
 Ты — Antigravity (ПК N). Перед работой:

@@ -26,8 +26,9 @@
 1. Ветка `pc1/reviews-exam-presov` от свежего `main`. **Не открывать**
    ветку `cmac/reviews-exam-reference` и файлы `data/exams/*reviews*`
    других агентов — экзамен вслепую.
-2. Браузер — Playwright с профилем `~/.agy-google-profile`
-   (`browser-setup.md`, раздел 4). Перед сбором проверить: у «Salón pre
+2. Браузер — инструменты MCP `playwright` (Chrome в окне, профиль
+   `~/.config/chrome-google`; `browser-setup.md`, раздел 4; headless не
+   запускать). Перед сбором проверить: у «Salón pre
    psov LEO» видно больше 5 отзывов и нет окна «Prihláste sa». Есть окно —
    остановиться и написать диспетчеру.
 3. Файл `data/exams/presov-reviews-pc1.json` — формат из
