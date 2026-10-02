@@ -1,5 +1,7 @@
 # Экзамен по Google Maps для Antigravity
 
+**Экзамены отменены владельцем 2026-10-02** («хватит давать экзамены, дай реальные задачи»). Файл — история; новых экзаменов не ставить.
+
 Решение владельца (2026-10-01): проверить, может ли Antigravity собирать
 данные с Google Maps так же точно, как CLI. Пока экзамен не сдан,
 правило `AGENTS.md` («Специализация») остаётся: Google Maps — только CLI.
@@ -9,7 +11,7 @@
 | Агент | Задача | Файл экзамена |
 |---|---|---|
 | Antigravity (Mac 2) | `tasks/mac2-maps-exam.md` | `data/exams/presov-maps-mac2.csv` |
-| Antigravity (ПК 1) | `tasks/pc1-maps-exam.md` | `data/exams/presov-maps-pc1.csv` |
+| Antigravity (ПК 1) | `tasks/done/pc1-maps-exam.md` (отменено) | `data/exams/presov-maps-pc1.csv` |
 
 Одни и те же 10 мест — результаты двух сред можно сравнить напрямую.
 

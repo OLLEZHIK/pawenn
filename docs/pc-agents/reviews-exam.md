@@ -1,5 +1,7 @@
 # Экзамен по отзывам Google для Antigravity
 
+**Экзамены отменены владельцем 2026-10-02** («хватит давать экзамены, дай реальные задачи»). Файл — история; новых экзаменов не ставить.
+
 Решение владельца (2026-10-01): проверить, может ли Antigravity собирать
 ленту отзывов (`feed` в `review-insights`, `docs/playbooks/review-insights.md`)
 так же точно, как CLI. Пока экзамен не сдан, отзывы и сводки — только CLI
@@ -44,7 +46,7 @@
 | Агент | Задача | Файл |
 |---|---|---|
 | Antigravity (Mac 2) | `tasks/mac2-reviews-exam.md` | `presov-reviews-mac2*.json` |
-| Antigravity (ПК 1) | `tasks/pc1-reviews-exam.md` | `presov-reviews-pc1.json` |
+| Antigravity (ПК 1) | `tasks/done/pc1-reviews-exam.md` (отменено) | `presov-reviews-pc1.json` |
 
 Браузер и вход в Google в контейнере — `docs/pc-agents/browser-setup.md`.
 
