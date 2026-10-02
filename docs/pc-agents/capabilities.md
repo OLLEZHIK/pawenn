@@ -90,7 +90,7 @@ Ubuntu, Antigravity CLI `agy`), GitHub — аккаунт `wernir` (коллаб
 |---|---|---|
 | Push в `main` | ❌ запрещено ruleset'ом (так и задумано): `GH013`, «Cannot update this protected ref» | владелец, 2026-10-02 |
 | Ветка, push, PR от `wernir` | ❔ первая задача | — |
-| Первая задача | `pc2-dog-tax-sk.md` (пилот, ждать ревью) | — |
+| Первая задача | `pc2-warszawa-descriptions.md` (доделать работу Mac по ревью), потом `pc2-warszawa-prices.md` | владелец, 2026-10-02 |
 
 ## Antigravity (Mac 2) — только экзамен по Google Maps
 
