@@ -20,8 +20,17 @@ if (!city || !examArg) {
   console.error("Usage: npx tsx scripts/maps-exam.ts <city> <exam.csv>");
   process.exit(2);
 }
-const read = (file: string): Row[] =>
-  Papa.parse<Row>(fs.readFileSync(file, "utf8"), { header: true, skipEmptyLines: true }).data;
+const read = (file: string): Row[] => {
+  const rows = Papa.parse<Row>(fs.readFileSync(file, "utf8"), { header: true, skipEmptyLines: true }).data;
+  // A Maps link like ".../@51.13,17.07,17z/..." has commas: unquoted, it
+  // shifts every column after it and the whole exam reads as wrong (PR #254).
+  const shifted = rows.findIndex((r) => "__parsed_extra" in r);
+  if (shifted >= 0) {
+    console.error(`${file} line ${shifted + 2}: more columns than the header - a value with commas (the Maps link) must be in "quotes". Lesson У-13.`);
+    process.exit(2);
+  }
+  return rows;
+};
 
 const referencePath = path.join(process.cwd(), "..", "data", "cities", city, "candidates.csv");
 // The check is blind: another agent collects the places again. Comparing
@@ -35,7 +44,10 @@ const exam = read(path.resolve(examArg));
 
 const fold = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const placeId = (url: string) => url.match(/!19s([^?&!]+)/)?.[1] ?? url.match(/!1s(0x[0-9a-f]+:0x[0-9a-f]+)/i)?.[1] ?? "";
+// A Maps link carries the place id (!19sChIJ…), the feature id (!1s0x…:0x…)
+// or both; two links name the same place if any id they share is equal.
+const placeIds = (url: string) =>
+  [url.match(/!19s([^?&!]+)/)?.[1], url.match(/!1s(0x[0-9a-f]+:0x[0-9a-f]+)/i)?.[1]?.toLowerCase()].filter(Boolean) as string[];
 const coords = (url: string) => {
   const m = url.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
   return m ? [Number(m[1]), Number(m[2])] : null;
@@ -58,7 +70,7 @@ const overlap = (a: string, b: string) => {
 
 // Each check gets the exam value and the reference value, both non-empty.
 const CHECKS: Record<string, (got: string, want: string) => boolean> = {
-  place_id: (g, w) => placeId(g) !== "" && placeId(g) === placeId(w),
+  place_id: (g, w) => placeIds(g).some((id) => placeIds(w).includes(id)),
   coords: (g, w) => {
     const a = coords(g);
     const b = coords(w);
