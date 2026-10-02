@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { getAllCities, getDefaultCity } from "@/lib/data";
 import { LanguageSwitch } from "./LanguageSwitch";
-import { ALL_CATEGORIES, categoryLabel, cityPath, listingPath } from "@/lib/categories";
+import { FooterCityColumns } from "./FooterCityColumns";
+import { ALL_CATEGORIES, categoryLabel } from "@/lib/categories";
 import { getDictionary, inCity, localesForCity, type Locale } from "@/lib/i18n";
 import { Logo } from "./Logo";
 import { ShieldCheckIcon } from "./icons";
+import { GUIDE_TEXT, guidesPath, listGuides } from "@/lib/guides";
 
 export async function Footer({ locale }: { locale: Locale }) {
   const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
@@ -41,24 +43,17 @@ export async function Footer({ locale }: { locale: Locale }) {
             </p>
           </div>
 
-          <FooterColumn title={t.services}>
-            {ALL_CATEGORIES.map((category) => (
-              <FooterLink key={category} href={listingPath(locale, category, citySlug)}>
-                {categoryLabel(category, locale)}
-              </FooterLink>
-            ))}
-          </FooterColumn>
-
-          {/* Every city's hub, in this language where the city has it. */}
-          <FooterColumn title={t.cities}>
-            {cities.map((c) => (
-              <FooterLink key={c.slug} href={cityPath(localesForCity(c).includes(locale) ? locale : "en", c.slug)}>
-                {c.name}
-              </FooterLink>
-            ))}
-          </FooterColumn>
+          {/* Services and cities follow the page's own city (client side). */}
+          <FooterCityColumns
+            locale={locale}
+            cities={allCities.map((c) => ({ slug: c.slug, name: c.name, country: c.country, locales: localesForCity(c) }))}
+            fallbackCitySlug={citySlug}
+            categories={ALL_CATEGORIES.map((category) => ({ category, label: categoryLabel(category, locale) }))}
+            titles={{ services: t.services, cities: t.cities }}
+          />
 
           <FooterColumn title={t.about}>
+            {listGuides(locale).length > 0 && <FooterLink href={guidesPath(locale)}>{GUIDE_TEXT[locale].nav}</FooterLink>}
             <FooterLink href="/en/how-it-works/">{t.howItWorks}</FooterLink>
             <FooterLink href="/en/add-or-fix-listing/">{t.addBusiness}</FooterLink>
             <FooterLink href="/en/add-or-fix-listing/">{t.fixListing}</FooterLink>

@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import type { ReviewInsights, Sentiment } from "@/lib/reviewInsights";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { ArrowRightIcon } from "./icons";
@@ -42,7 +43,7 @@ export function ReviewInsightsSection({ insights, locale }: { insights: ReviewIn
   return (
     <section className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
       {faqJsonLd && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(faqJsonLd) }} />
       )}
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div>

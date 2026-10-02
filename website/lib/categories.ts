@@ -273,6 +273,48 @@ export function categoryLabel(category: BusinessCategory, locale: Locale): strin
   return LABELS[locale][category];
 }
 
+// The word people search for a place of this kind, for the place page
+// title ("AhojVET – veterinár, Staré Mesto, Bratislava"): the main query
+// of each category in docs/seo/keywords/<lang>.md, neutral where the main
+// query names one animal (hotels take cats too). `word` finds the word
+// already in the place's name ("Veterinárna ambulancia X"), so it is not
+// said twice; English matches whole words, so a Slovak "Veterinárna" name
+// still gets "vet" on the English page (docs/seo/README.md, "Заголовок страницы места").
+const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: RegExp }>> = {
+  en: {
+    VET_CLINIC: { term: "vet", word: /^(vet|vets|veterinary)$/ },
+    GROOMING: { term: "dog grooming", word: /^groom/ },
+    PET_HOTEL: { term: "pet hotel", word: /^hotel/ },
+    DOG_TRAINING: { term: "dog training", word: /^train/ },
+    PET_SHOP: { term: "pet shop", word: /^shop/ },
+    PET_SITTING: { term: "pet sitter", word: /^sitt/ },
+  },
+  sk: {
+    VET_CLINIC: { term: "veterinár", word: /^veterin/ },
+    GROOMING: { term: "strihanie psov", word: /^strihan/ },
+    PET_HOTEL: { term: "hotel pre zvieratá", word: /^hotel/ },
+    DOG_TRAINING: { term: "výcvik psov", word: /^vycvik/ },
+    PET_SHOP: { term: "zverimex", word: /^zverimex/ },
+    PET_SITTING: { term: "venčenie psov", word: /^vencen/ },
+  },
+  pl: {
+    VET_CLINIC: { term: "weterynarz", word: /^weteryn/ },
+    GROOMING: { term: "groomer", word: /^groom/ },
+    PET_HOTEL: { term: "hotel dla zwierząt", word: /^hotel/ },
+    DOG_TRAINING: { term: "szkolenie psów", word: /^szkoleni/ },
+    PET_SHOP: { term: "sklep zoologiczny", word: /^zoolog/ },
+    PET_SITTING: { term: "petsitter", word: /^petsit/ },
+  },
+};
+
+const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+/** The search word for a place's title, or null when its name already says it. */
+export function placeTitleTerm(category: BusinessCategory, locale: Locale, name: string): string | null {
+  const { term, word } = PLACE_TERM[locale][category];
+  return fold(name).split(/[^a-z0-9]+/).some((w) => word.test(w)) ? null : term;
+}
+
 export function categorySingular(category: BusinessCategory, locale: Locale): string {
   return SINGULAR[locale][category];
 }

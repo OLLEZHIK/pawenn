@@ -1,0 +1,85 @@
+{
+  "slug": "super-zoo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Super+Zoo/data=!4m7!3m6!1s0x473edf8a14775c8b:0xa3d925d51e147d18!8m2!3d48.6832927!4d21.2855604!16s%2Fg%2F11crt2kwv6!19sChIJi1x3FIrfPkcRGH0UHtUl2aM?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 6,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful staff providing expert pet advice",
+        "sk": "Ochotný personál s odborným poradenstvom"
+      },
+      "text": {
+        "en": "Customers shopping at the Nad Jazerom branch consistently highlight the welcoming attitude of the shop assistants. Reviewers warmly praise staff members like Bibi for patiently explaining urinary diet options and showing functional accessories like drinking fountains for domestic cats.",
+        "sk": "Zákazníci predajne Nad Jazerom opakovane vyzdvihujú ústretový a ochotný prístup personálu. Recenzie chvália asistentky predaja vrátane pani Bibi za trpezlivé vysvetlenie diétnych granúl či praktickú ukážku fontánok pre mačky počas nákupu chovateľských potrieb pre domáce zvieratá."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming atmosphere for visiting four-legged companions",
+        "sk": "Príjemná atmosféra pre sprevádzajúce zvieratká"
+      },
+      "text": {
+        "en": "Visitors warmly appreciate the pet-friendly environment of the store, noting that four-legged companions are greeted with affection. Multiple reviewers mention the presence of a friendly resident dog accompanying shoppers, creating a cheerful mood throughout the aisles.",
+        "sk": "Návštevníci oceňujú priateľské prostredie celej predajne, v ktorej sú štvornohí spoločníci vždy srdečne vítaní. Viaceré recenzie spomínajú prítomnosť pokojného psíka vedúcej, ktorý spríjemňuje nákup a vytvára uvoľnenú náladu pre nakupujúcich majiteľov psov a mačiek."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Broad assortment alongside isolated quality grievances",
+        "sk": "Široký sortiment popri ojedinelej reklamácii kvality"
+      },
+      "text": {
+        "en": "The store reliably supplies essential feeds, litter, and equipment for household pets. While most shoppers leave completely satisfied with available stock, one client reported receiving an infested feed package, noting that customer support offered a store refund upon return.",
+        "sk": "Predajňa spoľahlivo zabezpečuje krmivá, stelivá a chovateľské potreby pre domáce zvieratá. Kým väčšina zákazníkov odchádza s kompletným nákupom, jedna recenzia upozornila na znehodnotené balenie krmiva, pričom personál ponúkol vrátenie peňazí priamo na predajni po doručení tovaru."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the Nad Jazerom store pet-friendly?",
+        "sk": "Môžu zákazníci prísť na predajňu so psom?"
+      },
+      "a": {
+        "en": "Yes, customer reviews confirm that well-behaved dogs are welcomed inside the store by the staff.",
+        "sk": "Áno, recenzie zákazníkov potvrdzujú priateľský prístup personálu ku psíkom sprevádzajúcim majiteľov."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the staff advise on specialized cat diets?",
+        "sk": "Poradia predavačky s výberom špeciálneho krmiva?"
+      },
+      "a": {
+        "en": "Yes, shoppers commend staff for actively helping choose suitable urinary diets and wet feeds.",
+        "sk": "Áno, recenzenti chvália ochotu personálu pri výbere granúl na močové cesty či kapsičiek."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is this Super Zoo store located?",
+        "sk": "Kde presne sídli predajňa Super Zoo Nad Jazerom?"
+      },
+      "a": {
+        "en": "The store is located in the shopping area at Napájadlá 1 in the Nad Jazerom district of Košice.",
+        "sk": "Predajňa sa nachádza v nákupnej zóne na adrese Napájadlá 1 na sídlisku Nad Jazerom v Košiciach."
+      },
+      "basis": "both"
+    }
+  ]
+}
