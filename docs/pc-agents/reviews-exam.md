@@ -1,5 +1,7 @@
 # Экзамен по отзывам Google для Antigravity
 
+**Экзамены отменены владельцем 2026-10-02** («хватит давать экзамены, дай реальные задачи»). Файл — история; новых экзаменов не ставить. Отзывы и сводки — только CLI.
+
 Решение владельца (2026-10-01): проверить, может ли Antigravity собирать
 ленту отзывов (`feed` в `review-insights`, `docs/playbooks/review-insights.md`)
 так же точно, как CLI. Пока экзамен не сдан, отзывы и сводки — только CLI
@@ -9,7 +11,7 @@
 
 - **Эталона в репозитории нет**: ни в одной сводке ещё нет ленты. Поэтому
   эталон один раз собирает CLI (Mac) — задача
-  `tasks/cmac-reviews-exam-reference.md`, 7 мест: 5 небольших и 2 с сотнями
+  `tasks/done/cmac-reviews-exam-reference.md`, 7 мест: 5 небольших и 2 с сотнями
   оценок — длинная лента проверяет, видит ли агент весь список.
 - **Отзывы меняются каждый день.** Экзамен — не позже чем через 3 дня
   после эталона. Скрипт выравнивает ленты: у более свежей сверху может
@@ -43,8 +45,8 @@
 
 | Агент | Задача | Файл |
 |---|---|---|
-| Antigravity (Mac 2) | `tasks/mac2-reviews-exam.md` | `presov-reviews-mac2*.json` |
-| Antigravity (ПК 1) | `tasks/pc1-reviews-exam.md` | `presov-reviews-pc1.json` |
+| Antigravity (Mac 2) | `tasks/done/mac2-reviews-exam.md` | `presov-reviews-mac2*.json` |
+| Antigravity (ПК 1) | снят владельцем 2026-10-02 | — |
 
 Браузер и вход в Google в контейнере — `docs/pc-agents/browser-setup.md`.
 
