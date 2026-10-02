@@ -1,5 +1,7 @@
 import Link from "next/link";
 import type { BusinessCategory, City } from "@prisma/client";
+import { GuideLinks } from "./Guides";
+import { VetNowButton } from "./VetNowButton";
 import {
   searchBusinesses,
   getCategoryAggregates,
@@ -8,6 +10,7 @@ import {
   distanceKm,
   parseNear,
   getMarketPrices,
+  getCityPoints,
 } from "@/lib/data";
 import {
   ALL_CATEGORIES,
@@ -19,13 +22,14 @@ import {
   cityPath,
   listingPath,
 } from "@/lib/categories";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
 import { pricesPath } from "@/lib/priceSlugs";
 import { FilterPanel } from "./FilterPanel";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
-import { cityTimezone, hoursFromStored, isOpenAt, localNow } from "@/lib/hours";
+import { cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
 import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/listingSort";
 import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -136,6 +140,23 @@ export async function CategoryListing({
   const scoped = attributePage ? all.filter((b) => hasAttribute(b, attributePage)) : all;
   const openFiltered = openNowOnly ? scoped.filter((b) => openState(b) === true) : scoped;
   const hiddenNoHours = openNowOnly ? scoped.filter((b) => openState(b) === null).length : 0;
+  // "Vet open now" with nothing open (night, Sunday in a small city): the
+  // places that open soonest, with when (owner, 2026-09-30; beta).
+  const opensSoon =
+    openNowOnly && category === "VET_CLINIC"
+      ? scoped
+          .map((b) => ({ business: b, next: nextOpening(hoursFromStored(b.openingHours), cityNow) }))
+          .filter((x): x is { business: (typeof all)[number]; next: { inDays: number; minute: number } } => x.next !== null)
+          .sort((a, b) => a.next.inDays - b.next.inDays || a.next.minute - b.next.minute)
+          .slice(0, 5)
+      : [];
+  const opensLabel = (next: { inDays: number; minute: number }) => {
+    const time = formatMinutes(next.minute);
+    if (next.inDays === 0) return t.vetNow.opensToday(time);
+    if (next.inDays === 1) return t.vetNow.opensTomorrow(time);
+    return t.vetNow.opensLater(dateInDays(next.inDays, locale, cityTimezone(city)), time);
+  };
+  const vetCityPoints = category === "VET_CLINIC" && !openNowOnly ? (await getCityPoints()).filter((p) => p.slug === citySlug) : [];
   const rated = openFiltered.filter((b) => meetsMinRating(b, minRating));
   const hiddenUnrated = minRating ? openFiltered.filter((b) => b.googleRating === null).length : 0;
   const toItem = (b: (typeof all)[number]) => ({
@@ -194,7 +215,7 @@ export async function CategoryListing({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: safeJsonLd({
               "@context": "https://schema.org",
               "@type": "ItemList",
               numberOfItems: shownItems.length,
@@ -342,7 +363,7 @@ export async function CategoryListing({
           {/* A level-2 heading between the H1 and the cards' H3s (heading
               order for screen readers); a <p> with role=heading so the
               global h2 font rule does not change how it looks. */}
-          <p role="heading" aria-level={2} className="mt-6 flex items-center gap-1.5 text-sm text-foreground/60">
+          <p id="results" role="heading" aria-level={2} className="mt-6 flex scroll-mt-24 items-center gap-1.5 text-sm text-foreground/60">
             {origin && <RouteIcon className="h-4 w-4 text-brand-blue" />}
             {t.listing.results(listItems.length)}
             {hiddenUnrated > 0 ? ` · ${t.listing.hiddenUnrated(hiddenUnrated)}` : ""}
@@ -356,9 +377,36 @@ export async function CategoryListing({
                   : t.listing.fairTurn}
           </p>
 
+          {openNowOnly && category === "VET_CLINIC" && (
+            <p className="mt-3 rounded-[var(--radius-control)] bg-red-600/10 px-4 py-3 text-sm font-semibold text-red-800">
+              {t.vetNow.callFirst}
+            </p>
+          )}
+
           <div className="mt-3 space-y-4">
             {listItems.length === 0 ? (
-              <EmptyState resetHref={resetHref} locale={locale} />
+              <>
+                <EmptyState resetHref={resetHref} locale={locale} />
+                {opensSoon.length > 0 && (
+                  <>
+                    <p className="pt-2 font-semibold text-foreground">{t.vetNow.noneOpen}</p>
+                    <div className="mt-3 space-y-4">
+                      {opensSoon.map(({ business, next }) => (
+                        <div key={business.id}>
+                          <p className="mb-1.5 text-sm font-semibold text-brand-blue">{opensLabel(next)}</p>
+                          <BusinessCard
+                            business={business}
+                            priceTier={priceTiers.get(business.id) ?? null}
+                            locale={locale}
+                            distanceKm={origin && business.lat !== null && business.lng !== null ? distanceKm(origin.lat, origin.lng, business.lat, business.lng) : null}
+                            showCategory={false}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
+              </>
             ) : grouped ? (
               grouped.map((g) => {
                 const allHref = listingPath(locale, g.category, citySlug, districtSlug);
@@ -421,6 +469,11 @@ export async function CategoryListing({
             </Link>
           )}
 
+          {/* Guides on this service in the page's language and country
+              (docs/playbooks/guides.md): the catalogue links to them, they
+              link back. */}
+          {category && <GuideLinks locale={locale} category={category} country={city.country} />}
+
           {faqs.length > 0 && (
             <section className="mt-16">
               <p className="eyebrow">{t.listing.goodToKnow}</p>
@@ -448,7 +501,7 @@ export async function CategoryListing({
               <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
+                  __html: safeJsonLd({
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
                     inLanguage: locale,
@@ -479,6 +532,17 @@ export async function CategoryListing({
           </div>
         </aside>
       </div>
+      {vetCityPoints.length > 0 && (
+        <VetNowButton
+          variant="floating"
+          locale={locale}
+          cities={vetCityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
+          defaultCitySlug={citySlug}
+          label={t.vetNow.button}
+          hint={t.vetNow.buttonHint}
+          locating={t.vetNow.locating}
+        />
+      )}
     </main>
   );
 }

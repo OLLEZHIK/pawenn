@@ -1,6 +1,9 @@
+import { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 
 const VALID_TYPES = ["CALL", "WEB", "ROUTE", "EMAIL"] as const;
+const MAX_PAGE_LENGTH = 300;
+const MAX_REFERRER_HOST_LENGTH = 255;
 type ClickType = (typeof VALID_TYPES)[number];
 
 export async function POST(request: Request) {
@@ -25,19 +28,31 @@ export async function POST(request: Request) {
     return Response.json({ error: "Invalid click type." }, { status: 400 });
   }
 
-  if (typeof page !== "string" || page.length === 0) {
+  if (typeof page !== "string" || page.length === 0 || page.length > MAX_PAGE_LENGTH) {
     return Response.json({ error: "Invalid page." }, { status: 400 });
   }
 
+  if (typeof referrerHost === "string" && referrerHost.length > MAX_REFERRER_HOST_LENGTH) {
+    return Response.json({ error: "Invalid referrer." }, { status: 400 });
+  }
+
   // No cookies, no IP - see docs/concept.md section 9.
-  await prisma.clickEvent.create({
-    data: {
-      businessId,
-      type: type as ClickType,
-      page,
-      referrerHost: typeof referrerHost === "string" ? referrerHost : null,
-    },
-  });
+  try {
+    await prisma.clickEvent.create({
+      data: {
+        businessId,
+        type: type as ClickType,
+        page,
+        referrerHost: typeof referrerHost === "string" ? referrerHost : null,
+      },
+    });
+  } catch (e) {
+    // An id with no business is the caller's mistake, not a server error.
+    if (e instanceof Prisma.PrismaClientKnownRequestError && e.code === "P2003") {
+      return Response.json({ error: "Business not found." }, { status: 404 });
+    }
+    throw e;
+  }
 
   return Response.json({ ok: true }, { status: 201 });
 }

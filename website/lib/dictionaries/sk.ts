@@ -165,7 +165,7 @@ export const sk: Dictionary = {
     nearYou: "Vo vašej blízkosti",
     locatingYou: "Zisťujeme vašu polohu…",
     geoDenied: "Nevadí - napíšte svoje mesto.",
-    cityPlaceholder: "Napíšte mesto",
+    cityPlaceholder: "Vaše mesto",
     cityLabel: "Mesto",
     cityNotCovered: (typed: string, cities: string) => `V meste ${typed} zatiaľ nie sme. Pawenn nájdete v: ${cities}.`,
     geoFar: (city: string) => `Vo vašej oblasti zatiaľ nie sme - napíšte mesto, napr. ${city}.`,
@@ -326,6 +326,17 @@ export const sk: Dictionary = {
     faqTitle: "Časté otázky",
     shortNote: "Zhrnutie recenzií od pawenn pre tento podnik zatiaľ nemáme. Hodnotenie a všetky recenzie nájdete na Google.",
   },
+  vetNow: {
+    button: "Veterinár teraz",
+    buttonHint: "Najbližší veterinári, ktorí majú práve otvorené",
+    locating: "Hľadáme vašu polohu…",
+    callFirst: "Pred cestou zavolajte: povedzte, čo sa stalo, a overte si, či vás môžu hneď prijať.",
+    noneOpen: "Práve teraz nemá otvorené žiadny veterinár so zverejnenými hodinami. Najskôr otvárajú:",
+    opensToday: (time: string) => `otvára dnes o ${time}`,
+    opensTomorrow: (time: string) => `otvára zajtra o ${time}`,
+    opensLater: (date: string, time: string) => `otvára ${date} o ${time}`,
+    nonstopTitle: "Nonstop 24/7",
+  },
   actions: { call: "Zavolať", website: "Web", route: "Trasa" },
   badges: { verified: (date: string) => `Overené ${date}`, partner: "Partner" },
   business: {
@@ -333,7 +344,7 @@ export const sk: Dictionary = {
     metaDescription: (name: string, where: string) =>
       `${name}${where ? ` ${where}` : ""}: adresa, kontakt a trasa.`,
     metaDescriptionTail: (hasPrices: boolean) =>
-      `Otváracie hodiny${hasPrices ? ", ceny" : ""} a telefón, web či trasa na jeden dotyk.`,
+      `Otváracie hodiny${hasPrices ? ", ceny" : ""}, telefón a trasa.`,
     about: "O podniku",
     goodToKnow: "Dobré vedieť",
     goodToKnowNote: "Tak, ako to podnik uvádza na svojom webe.",
