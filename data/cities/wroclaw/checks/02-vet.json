@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "fizjo-wet",
+    "przychodnia-weterynaryjna-devon",
+    "archivet",
+    "specjalistyczna-przychodnia-weterynaryjna-interwet",
+    "arkadia",
+    "vita-wet-sylwia-szczepanska",
+    "przychodnia-weterynaryjna-optovet-wroclaw",
+    "doran",
+    "felis-specjalistyczna-przychodnia-weterynaryjna",
+    "katedra-chorob-wewnetrznych-upwr"
+  ],
+  "hash": "c0033cee0cb42909fc9d23375e2e70b75372296f0e9dfeeb19641eab8b7d219b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T12:07:47.589Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-02T12:13:43.565Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
