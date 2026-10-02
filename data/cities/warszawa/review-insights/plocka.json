@@ -1,0 +1,168 @@
+{
+  "slug": "plocka",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=16221972446985227004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Experienced leadership and dedicated staff",
+        "pl": "Doświadczone kierownictwo i oddany personel"
+      },
+      "text": {
+        "en": "Pet parents warmly praise Dr. Agnieszka Chełmińska-Walerzak for her dedication, diagnostic insight, and reassuring attitude. While the core team receives strong appreciation, a reviewer felt that younger assistant doctors needed closer supervision during complex cases.",
+        "pl": "Opiekunowie zwierząt serdecznie chwalą doktor Agnieszkę Chełmińską-Walerzak za profesjonalizm, wiedzę oraz ciepłe podejście. Choć stały zespół cieszy się zaufaniem, w opiniach pojawił się głos, że młodsi lekarze dyżurni potrzebują większego wsparcia przy trudniejszych przypadkach."
+      },
+      "mentions": 8,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Effective management of feline illnesses",
+        "pl": "Skuteczne leczenie chorób u kotów"
+      },
+      "text": {
+        "en": "Several clients report accurate medical diagnoses and vital therapy, crediting the clinic with saving very sick pets when other vets were uncertain. However, one owner reported a lack of progress after an initial appointment, deciding to seek care elsewhere.",
+        "pl": "Wielu właścicieli czworonogów opisuje trafne diagnozy i skuteczne leczenie ratujące życie, szczególnie w przypadku ciężko chorych kotów. Zdarzyła się jednak opinia osoby zawiedzionej brakiem szybkiej poprawy po wdrożonej terapii, co skłoniło ją do wizyty w innej lecznicy."
+      },
+      "mentions": 4,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "waiting",
+      "title": {
+        "en": "Emergency intake and waiting room delays",
+        "pl": "Pilne przyjęcia i kolejki w poczekalni"
+      },
+      "text": {
+        "en": "Reviewers appreciate being admitted without a scheduled booking in emergency circumstances, even right before evening closing time. Conversely, peak clinic hours can occasionally create delays and waiting times when multiple urgent cases overlap at the facility.",
+        "pl": "Klienci doceniają możliwość przyjęcia w nagłych przypadkach bez wcześniejszego zapisu, także tuż przed końcem pracy lecznicy. Jednocześnie w poczekalni mogą tworzyć się kolejki i wydłużać czas oczekiwania, zwłaszcza gdy jednocześnie trafi tam kilku pilnych pacjentów."
+      },
+      "mentions": 3,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept emergency patients without booking?",
+        "pl": "Czy lecznica przyjmuje pacjentów w nagłych wypadkach bez zapisu?"
+      },
+      "a": {
+        "en": "Yes, clients report being accepted without prior appointment when urgent veterinary intervention is required.",
+        "pl": "Tak, klienci wspominają o możliwości pilnego przyjęcia bez zapisu w nagłych sytuacjach zdrowotnych u zwierząt."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic situated in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się gabinet?"
+      },
+      "a": {
+        "en": "The practice is located at Płocka 17/lok U5 in the Wola district of Warsaw.",
+        "pl": "Lokal mieści się przy ulicy Płockiej 17/lok U5 na warszawskiej Woli."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Which animals are most frequently treated here?",
+        "pl": "Jakie zwierzęta są tu najczęściej leczone?"
+      },
+      "a": {
+        "en": "The clinic primarily cares for dogs and cats, with reviewers particularly highlighting feline medical treatment.",
+        "pl": "Lecznica przyjmuje psy i koty, a recenzenci szczególnie często opisują specjalistyczną opiekę nad kotami."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "reviews_in_period": 9
+}
