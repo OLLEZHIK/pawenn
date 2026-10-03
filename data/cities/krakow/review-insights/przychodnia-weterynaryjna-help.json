@@ -1,0 +1,142 @@
+{
+  "slug": "przychodnia-weterynaryjna-help",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Help.+Przychodnia+weterynaryjna.+Us%C5%82ugi+weterynaryjne/data=!4m7!3m6!1s0x47165a49cb3bed3f:0x89b8bcef42f3f9d4!8m2!3d50.090078!4d19.91229!16s%2Fg%2F1tpc6q0b!19sChIJP-07y0laFkcR1PnzQu-8uIk?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "pl": "Rodzinna kadra chirurgów i pasja",
+        "en": "Family team of surgeons and dedication"
+      },
+      "text": {
+        "pl": "Większość klientów bardzo ciepło ocenia rodzinny zespół przychodni – dr. Seydou, dr. Filipa oraz panią Sanatę. Opiekunowie chwalą ich talent chirurgiczny, życzliwość, uśmiech oraz bezinteresowną pomoc po godzinach, choć jedna osoba narzekała na koszt wizyty.",
+        "en": "Most clients warmly praise the family veterinary team—Dr. Seydou, Dr. Filip, and Sanata. Pet owners highlight their surgical skill, kindness, cheerful demeanor, and dedicated help after hours, though one reviewer complained about high emergency fees."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pl": "Troska o psy i bezdomne koty",
+        "en": "Care for dogs and rescue cats"
+      },
+      "text": {
+        "pl": "Opiekunowie zwierząt doceniają traktowanie psów z ogromnym zrozumieniem, cierpliwością i miłością. W recenzjach wyróżnia się również bezinteresowne zaangażowanie w pomoc bezdomnym, ciężarnym kotkom, które zostały bezpiecznie wysterylizowane, odrobaczone oraz zaczipowane.",
+        "en": "Pet owners deeply appreciate the heartfelt love, patience, and gentleness shown to dogs in their clinical care. Reviews also commend selfless assistance provided to pregnant rescue cats that were safely spayed, dewormed, and microchipped before finding permanent homes."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pl": "Skuteczne zabiegi chirurgiczne i pomoc",
+        "en": "Successful surgeries and practical assistance"
+      },
+      "text": {
+        "pl": "Klienci chwalą znakomite umiejętności operacyjne lekarzy, w tym sprawnie przeprowadzone zabiegi sterylizacji oraz skomplikowane usunięcie zbędnego mikroczipa po godzinach pracy, co umożliwiło pupilowi terminowy i bezpieczny wyjazd za granicę bez zbędnego stresu.",
+        "en": "Clients commend the doctors' outstanding surgical expertise, highlighting successful routine spay surgeries and an intricate after-hours microchip extraction that saved a pet's scheduled international journey, completely resolving a distressing situation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Gdzie znajduje się Przychodnia Weterynaryjna Help?",
+        "en": "Where is the Help veterinary clinic located?"
+      },
+      "a": {
+        "pl": "Przychodnia mieści się przy ul. Opolskiej 47 w krakowskich Krowodrzach.",
+        "en": "The clinic is located at ul. Opolska 47 in the Krowodrza district of Kraków."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "W jakich zabiegach specjalizują się lekarze placówki?",
+        "en": "What procedures do the clinic's veterinarians specialize in?"
+      },
+      "a": {
+        "pl": "Lekarze są cenionymi chirurgami wykonującymi operacje tkanek miękkich oraz sterylizacje.",
+        "en": "The doctors are praised soft-tissue surgeons performing operations and spay/neuter procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pl": "Czy w przychodni można oznakować zwierzę mikroczipem?",
+        "en": "Can animals be microchipped at the clinic?"
+      },
+      "a": {
+        "pl": "Tak, placówka oferuje czipowanie, rejestrację oraz usuwanie uszkodzonych czipów.",
+        "en": "Yes, the practice performs microchipping, registration, and removal of faulty chips."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
