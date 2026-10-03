@@ -1,0 +1,155 @@
+{
+  "slug": "doglamour",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doglamour+Salon+Strzy%C5%BCenia+Ps%C3%B3w/data=!4m7!3m6!1s0x47165b9e42353835:0xa49368a3ca22dee3!8m2!3d50.0730805!4d19.9577253!16s%2Fg%2F11h51jhwl1!19sChIJNTg1Qp5bFkcR494iyqNok6Q?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly stylists and cordial customer service",
+        "pl": "Sympatyczne stylistki i serdeczna obsługa"
+      },
+      "text": {
+        "en": "Clients praise the welcoming atmosphere created by Ms. Klaudia and the styling team. Reviewers frequently describe the staff as patient, polite, and genuinely devoted to making salon visits comfortable for pets and their owners throughout every treatment.",
+        "pl": "Klienci chwalą ciepłą atmosferę tworzoną przez panią Klaudię oraz zespół salonu. Recenzenci opisują pracownice jako cierpliwe, uprzejme i szczerze zaangażowane w to, aby wizyta była komfortowa zarówno dla psa, jak i dla właściciela na każdym etapie zabiegu."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle approach reducing pet stress",
+        "pl": "Łagodne podejście redukujące stres u zwierząt"
+      },
+      "text": {
+        "en": "Owners of spaniels, poodles, and regular pet clients report that their dogs enter the salon happily and feel secure. The groomers handle pets with care, minimizing the typical stress associated with bathing and grooming routines even during long sessions.",
+        "pl": "Właściciele spanieli, pudli oraz stali klienci wskazują, że ich czworonogi chętnie przychodzą do salonu i czują się w nim bezpiecznie. Groomerki podchodzą do zwierząt z troską, skutecznie ograniczając stres związany z kąpielą i zabiegami pielęgnacyjnymi."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "High visual styling with occasional length notes",
+        "pl": "Wysoka estetyka strzyżenia z uwagami o długości"
+      },
+      "text": {
+        "en": "Most reviews express delight with perfectly trimmed, soft, and beautifully smelling coats. One customer noted that their pet was clipped shorter than agreed upon, along with an extra dematting charge, while most rated the final aesthetic results 5 stars.",
+        "pl": "Większość opinii zachwyca się nienagannym strzyżeniem, miękkością i pięknym zapachem sierści. Jeden klient zgłosił zastrzeżenie co do zbyt krótkiego wygolenia wbrew wcześniejszym ustaleniom, jednak pozostali ocenili efekt estetyczny na najwyższe noty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do pets experience stress during visits to Doglamour?",
+        "pl": "Czy psy stresują się podczas wizyty w salonie Doglamour?"
+      },
+      "a": {
+        "en": "Long-term clients state that their dogs willingly visit and remain relaxed thanks to the gentle approach of the team.",
+        "pl": "Stali klienci wskazują, że ich psy chętnie przychodzą do salonu i nie stresują się dzięki spokojnemu podejściu groomerek."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the groomers experienced with various dog breeds like poodles and spaniels?",
+        "pl": "Czy salon ma doświadczenie z rasami takimi jak pudle czy spaniele?"
+      },
+      "a": {
+        "en": "Yes, reviewers specifically mention successful styling of cocker spaniels, poodles, and mixed-breed dogs.",
+        "pl": "Tak, recenzje wprost opisują udaną i profesjonalną pielęgnację spanieli, pudli oraz innych ras psów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients return regularly as loyal customers?",
+        "pl": "Czy salon posiada grono stałych, regularnych klientów?"
+      },
+      "a": {
+        "en": "Yes, several reviewers note returning consistently for months or even years with their pets.",
+        "pl": "Tak, wielu klientów podkreśla, że regularnie przyprowadza swoje czworonogi do salonu od wielu miesięcy lub lat."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is there an additional charge for matted fur?",
+        "pl": "Czy za rozczesywanie lub usuwanie kołtunów naliczana jest dopłata?"
+      },
+      "a": {
+        "en": "Feedback indicates that heavily matted coats may incur an additional fee, so clarifying preferences in advance is advised.",
+        "pl": "Z opinii wynika, że mocno skołtuniona sierść może wiązać się z dodatkową opłatą, dlatego warto ustalić szczegóły przed zabiegiem."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

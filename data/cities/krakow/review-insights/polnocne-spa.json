@@ -1,0 +1,165 @@
+{
+  "slug": "polnocne-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/P%C3%B3%C5%82nocne+SPA/data=!4m7!3m6!1s0x47165bc277ea08bb:0xe08f5cad376ecd83!8m2!3d50.0733196!4d19.9179555!16s%2Fg%2F11gk5f4d3z!19sChIJuwjqd8JbFkcRg81uN61cj-A?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed impressions of salon customer service",
+        "pl": "Podzielone oceny obsługi w salonie"
+      },
+      "text": {
+        "pl": "Wielu stałych bywalców chwali groomerkę za uprzejmość, duże doświadczenie oraz sprawny kontakt przy rezerwacji wizyt. Równocześnie w nowszych wpisach pojawiły się poważne skargi na brak empatii, pośpiech oraz mało delikatne traktowanie zwierząt podczas zabiegów pielęgnacyjnych.",
+        "en": "Many recurring clients praise the groomer for politeness, practical expertise, and prompt booking communication. Concurrently, recent reviews raise substantial concerns regarding a perceived lack of empathy, hurried sessions, and overly rough handling during coat care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Thorough coat brushing and tidy cuts",
+        "pl": "Staranna pielęgnacja i kąpiele samojedów"
+      },
+      "text": {
+        "pl": "Większość klientów jest bardzo zadowolona z efektów wizyty, podkreślając pięknie wyczesane samojedy, maltańczyki oraz zadbane koty. Zdarzyło się jednak zgłoszenie skaleczenia wilczego pazura, co wymagało późniejszego leczenia weterynaryjnego i opatrunków.",
+        "en": "The majority of customers express satisfaction with grooming results, highlighting cleanly brushed Samoyeds, Maltese dogs, and neat cats. However, one owner reported a torn dewclaw that necessitated subsequent veterinary dressing and antibiotic treatment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Varying stress levels during pet visits",
+        "pl": "Zróżnicowane doświadczenia w traktowaniu pupili"
+      },
+      "text": {
+        "pl": "Część właścicieli deklaruje, że ich psy i koty chętnie wracają do salonu i czują się swobodnie podczas zabiegów. Z kolei inni recenzenci zgłaszają silny stres u kotów podnoszonych za kark oraz narastający lęk psów przed kolejnymi zabiegami pielęgnacyjnymi.",
+        "en": "Several pet guardians note that their animals visit happily and remain composed throughout their care appointments. In contrast, other reviewers report acute stress in cats handled roughly by the scruff, as well as heightened anxiety in sensitive dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the Północne SPA grooming salon located?",
+        "pl": "Gdzie mieści się salon Północne SPA?"
+      },
+      "a": {
+        "en": "The salon is located at Północna 24 in the Prądnik Biały district of Kraków.",
+        "pl": "Salon zlokalizowany jest przy ulicy Północnej 24 na krakowskim Prądniku Białym."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are feline grooming sessions offered at the salon?",
+        "pl": "Czy salon przyjmuje koty na zabiegi pielęgnacyjne?"
+      },
+      "a": {
+        "en": "Yes, customer reviews confirm grooming and thorough de-shedding sessions for cats.",
+        "pl": "Tak, opinie klientów potwierdzają realizację zabiegów wyczesywania i pielęgnacji kotów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom large thick-coated dog breeds?",
+        "pl": "Czy salon obsługuje duże rasy psów z gęstą sierścią?"
+      },
+      "a": {
+        "en": "Yes, reviews describe comprehensive bathing and de-shedding sessions for large breeds like Samoyeds.",
+        "pl": "Tak, recenzje wspominają o kąpielach i dokładnym wyczesywaniu dużych psów, na przykład samojedów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe booking appointments?",
+        "pl": "Jak klienci oceniają ustalanie terminów wizyt?"
+      },
+      "a": {
+        "en": "Most clients appreciate direct contact and smooth appointment arrangements over the phone.",
+        "pl": "Większość klientów pozytywnie ocenia bezpośredni kontakt i sprawne uzgadnianie terminów."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

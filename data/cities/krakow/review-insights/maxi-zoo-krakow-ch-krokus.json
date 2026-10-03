@@ -1,0 +1,180 @@
+{
+  "slug": "maxi-zoo-krakow-ch-krokus",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maxi+Zoo+Krak%C3%B3w+CH+Krokus/data=!4m7!3m6!1s0x47165bf9e74a2925:0xc33bb94ce753908c!8m2!3d50.0870664!4d19.9822396!16s%2Fg%2F11p06xvczk!19sChIJJSlK5_lbFkcRjJBT50y5O8M?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly store assistants with mixed experiences",
+        "pl": "Uprzejme doradztwo z pojedynczymi zastrzeżeniami"
+      },
+      "text": {
+        "pl": "Większość klientów bardzo pozytywnie ocenia zaangażowanie i pomoc personelu w kompletowaniu wyprawek dla szczeniąt i kociąt. Zdarzają się jednak pojedyncze głosy krytyczne dotyczące niemiłych uwag przy kasie czy odmowy obsługi klienta tuż przed samym zamknięciem marketu.",
+        "en": "Most shoppers warmly commend the helpfulness of the sales team when putting together starter kits for young kittens and puppies. However, occasional critical reviews mention brusque cashier remarks or rigid closing time policies directly at the customer checkout counter."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Large store with wide inventory and promos",
+        "pl": "Duży market zoologiczny i częste promocje"
+      },
+      "text": {
+        "pl": "Klienci doceniają przestronność marketu w CH Krokus, szeroki wybór drapaków i zabawek oraz atrakcyjne ceny promocyjnych karm. Wśród opinii pojawiła się jednak uwaga dotycząca konieczności dokładnej weryfikacji dat ważności produktów znajdujących się na półkach.",
+        "en": "Customers appreciate the spacious supermarket layout in CH Krokus, the wide variety of scratching posts and toys, and good promotional prices. A critical review noted the need to check expiration dates on pet food packaging displayed on the retail sales floor."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Comprehensive supplies for puppies and kittens",
+        "pl": "Szeroka oferta dla psów i kotów"
+      },
+      "text": {
+        "pl": "Właściciele zwierząt chętnie odwiedzają sklep w poszukiwaniu karm i przysmaków dla swoich psów i kotów, bardzo doceniając otwartość na pupili. Na miejscu można dobrać odpowiednie akcesoria i skonsultować potrzeby żywieniowe rosnących zwierząt domowych z obsługą.",
+        "en": "Pet parents frequently visit the store for specialized diets and treats for dogs and cats, appreciating the pet-friendly policy. The shop allows owners to select fitting gear and consult dietary requirements for growing domestic animals during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Maxi Zoo CH Krokus situated?",
+        "pl": "Gdzie znajduje się Maxi Zoo w CH Krokus?"
+      },
+      "a": {
+        "en": "The store is located at Aleja Generała Tadeusza Bora-Komorowskiego 37 inside CH Krokus in Kraków.",
+        "pl": "Sklep mieści się przy Alei Generała Tadeusza Bora-Komorowskiego 37 w centrum handlowym CH Krokus w Krakowie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What are the opening hours of this Maxi Zoo branch?",
+        "pl": "W jakich godzinach otwarty jest ten oddział Maxi Zoo?"
+      },
+      "a": {
+        "en": "The store is open Monday through Saturday from 09:00 to 20:00, and is closed on Sundays.",
+        "pl": "Sklep jest czynny od poniedziałku do soboty w godzinach 09:00–20:00, w niedziele jest zamknięty."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can customers visit Maxi Zoo with their pets?",
+        "pl": "Czy można wejść do sklepu ze zwierzęciem?"
+      },
+      "a": {
+        "en": "Yes, Maxi Zoo welcomes pets with their owners and allows testing accessories in store.",
+        "pl": "Tak, sklep jest w pełni przyjazny zwierzętom i umożliwia wejście z pupilem na zakupy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are promotions and online order pickup available?",
+        "pl": "Czy sklep oferuje promocje i odbiór zamówień internetowych?"
+      },
+      "a": {
+        "en": "Yes, regular promotional discounts on food are available, as well as in-store pickup for online orders.",
+        "pl": "Tak, market oferuje cykliczne promocje na karmy i akcesoria oraz usługę odbioru zamówień internetowych."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 miesięcy temu",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "~",
+        "animals": "-"
+      }
+    }
+  ]
+}
