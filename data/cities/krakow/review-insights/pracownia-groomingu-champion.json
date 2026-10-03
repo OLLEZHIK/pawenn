@@ -1,0 +1,135 @@
+{
+  "slug": "pracownia-groomingu-champion",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pracownia+groomingu+Champion/data=!4m7!3m6!1s0x47165c9a5064ffbf:0xeeea0f1e53565481!8m2!3d50.033255!4d19.9331213!16s%2Fg%2F11f57szbw5!19sChIJv_9kUJpcFkcRgVRWUx4P6u4?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pl": "Podejście do lękliwych psów i kotów",
+        "en": "Care for anxious dogs and cats"
+      },
+      "text": {
+        "pl": "Większość klientów podkreśla cierpliwość personelu wobec lękliwych i trudnych w pielęgnacji zwierząt, w tym psów oraz kotów rasy Maine Coon. Jedna z opinii zawiera jednak poważną krytykę dotyczącą niedokładnego strzyżenia kota i stresu wywołanego podczas zabiegu.",
+        "en": "Most pet owners highlight the team's patience when working with anxious or sensitive animals, including timid dogs and large Maine Coon cats. However, one critical review complained about poor cat haircut results and considerable stress caused during the grooming session."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pl": "Doświadczenie i zaangażowanie groomerek",
+        "en": "Expertise and commitment of groomers"
+      },
+      "text": {
+        "pl": "Klienci chwalą groomerki Hannę, Kingę i Klaudię za fachową wiedzę, pasję oraz praktyczne porady dotyczące domowej higieny jamy ustnej i czesania. Właściciele czworonogów doceniają serdeczną atmosferę i indywidualne podejście do każdego odwiedzającego salon czworonoga.",
+        "en": "Clients praise groomers Hanna, Kinga, and Klaudia for their professional knowledge, passion, and valuable practical guidance on canine dental care and brushing. Pet guardians value the warm salon atmosphere and the individualized attention given to every four-legged visitor."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pl": "Efekty strzyżenia i higieny zębów",
+        "en": "Grooming results and dental hygiene"
+      },
+      "text": {
+        "pl": "Pozytywne recenzje doceniają bardzo dokładne usuwanie kołtunów maszynką, bezstresowe czyszczenie zębów bez narkozy oraz estetyczne fryzury. Zdarzyła się jednak również jedna wyraźnie negatywna opinia zarzucająca nierówne i niedbałe przystrzyżenie szyi, brzucha i łap u kota.",
+        "en": "Positive reviews appreciate thorough mat removal, gentle dental tartar cleaning without sedation, and well-styled coats. However, one sharply critical comment pointed out an uneven haircut on a cat's neck, paws, and belly, leading to owner dissatisfaction."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Czy w salonie wykonywane jest czyszczenie zębów?",
+        "en": "Is dental teeth cleaning provided at the salon?"
+      },
+      "a": {
+        "pl": "Tak, w salonie wykonywane jest kosmetyczne czyszczenie zębów u psów.",
+        "en": "Yes, the salon provides cosmetic canine teeth cleaning services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pl": "Czy salon przyjmuje koty na pielęgnację?",
+        "en": "Does the grooming salon accept cats?"
+      },
+      "a": {
+        "pl": "Tak, personel wykonuje rozczesywanie, usuwanie kołtunów i strzyżenie kotów.",
+        "en": "Yes, the groomers handle brushing, mat removal, and coat trimming for cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pl": "Gdzie mieści się Pracownia groomingu Champion?",
+        "en": "Where is Pracownia Champion located in Kraków?"
+      },
+      "a": {
+        "pl": "Salon znajduje się przy ul. Tadeusza Szafrana 5A w krakowskich Dębnikach.",
+        "en": "The studio is located at ul. Tadeusza Szafrana 5A in the Dębniki district of Kraków."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
