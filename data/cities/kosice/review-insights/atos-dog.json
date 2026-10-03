@@ -1,0 +1,85 @@
+{
+  "slug": "atos-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ATOS+DOG/data=!4m7!3m6!1s0x473ee16a9a7a6bcf:0xb2fdf75dc57bf933!8m2!3d48.730304!4d21.2586749!16s%2Fg%2F11b6d16k31!19sChIJz2t6mmrhPkcRM_l7xV33_bI?authuser=0&hl=sk&g_ep=EgoyMDI2MDkyMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-09-28",
+  "period_to": "2026-09-28",
+  "reviews_in_period": 6,
+  "observed_at": "2026-09-28",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive owner advice and patient sizing for dogs",
+        "sk": "Ústretové poradenstvo majiteľa a trpezlivé skúšanie výbavy"
+      },
+      "text": {
+        "en": "Pet parents praise the store owner for his welcoming, accommodating, and patient demeanor. Customers highlight his keen eye for sizing harnesses and coats accurately, remaining exceptionally gentle even when nervous dogs misbehave while trying on gear during the fitting session.",
+        "sk": "Majitelia psov vysoko oceňujú majiteľa predajne za jeho mimoriadne ochotný, milý a trpezlivý prístup k zákazníkom. Recenzie vyzdvihujú presný odhad veľkostí postrojov a oblečenia a pokojné zaobchádzanie aj s neposednými psíkmi pri skúšaní výbavy priamo na predajni."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Cozy living-room atmosphere with accessible parking",
+        "sk": "Útulná domácka atmosféra s dostupným parkovaním"
+      },
+      "text": {
+        "en": "Visitors warmly describe the shop as cozy and inviting, reminiscent of a friendly living room rather than a sterile store. Reviewers also appreciate the straightforward access on Obrancov mieru and easily accessible parking options in the immediate vicinity of the storefront.",
+        "sk": "Návštevníci opisujú predajňu ako útulný priestor s príjemnou domáckou atmosférou, kde sa človek aj pes cítia uvoľnene a vítane. Zákazníci taktiež chvália pohodlnú polohu na ulici Obrancov mieru a bezproblémové možnosti parkovania v bezprostrednej blízkosti obchodu."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Quality natural treats, kibble, and fast order dispatch",
+        "sk": "Kvalitné prírodné maškrty, krmivá a rýchle dodanie"
+      },
+      "text": {
+        "en": "Long-term buyers consistently commend the store for its hand-picked range of quality kibble, natural treats, and pet accessories. Customers note that goods are selected with genuine care for animal health and orders are prepared swiftly for waiting pet companions.",
+        "sk": "Dlhoroční zákazníci opakovane chvália starostlivo vybraný sortiment kvalitných granúl, prírodných maškŕt a potrieb pre psov. Chovatelia oceňujú, že predajňa ponúka poctivé produkty pre zdravie zvierat a objednávky pripravuje veľmi promptne bez zbytočného čakania majiteľov."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can dogs try on harnesses and coats inside the store?",
+        "sk": "Môžu si psíky v predajni vyskúšať postroj alebo oblečenie?"
+      },
+      "a": {
+        "en": "Yes, reviews praise the owner for patiently assisting pet parents with trying on and fitting dog gear.",
+        "sk": "Áno, recenzie potvrdzujú trpezlivé skúšanie a odbornú pomoc majiteľa pri výbere veľkosti."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available near Atos Dog?",
+        "sk": "Dá sa pri predajni Atos Dog pohodlne zaparkovať?"
+      },
+      "a": {
+        "en": "Yes, customer testimonials highlight readily accessible parking near the store premises.",
+        "sk": "Áno, zákaznícke recenzie spomínajú ľahko dostupné parkovanie v blízkosti predajne."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in Košice?",
+        "sk": "Kde sa predajňa Atos Dog nachádza?"
+      },
+      "a": {
+        "en": "The store is located at Obrancov mieru 18 in the Sever district of Košice.",
+        "sk": "Predajňa sídli na adrese Obrancov mieru 18 v mestskej časti Košice-Sever."
+      },
+      "basis": "both"
+    }
+  ]
+}
