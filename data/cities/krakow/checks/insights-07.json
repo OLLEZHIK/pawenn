@@ -2,17 +2,32 @@
   "chunk": "insights-07",
   "kind": "insights",
   "slugs": [
-    "blekitna-planeta",
-    "gabinet-weterynaryjny-krzysztof-klimas",
-    "klinika-weterynaryjna-skotnicka-24h",
-    "przychodnia-weterynaryjna-help",
-    "przychodnia-weterynaryjna-zwierzyniec"
+    "amigo",
+    "dog-house-zabiniec",
+    "doglamour",
+    "lapka-moment",
+    "maxvet-centrum-weterynaryjne-krakow-szafirowa",
+    "przychodnia-weterynaryjna-figaro",
+    "przychodnia-weterynaryjna-vet-complex",
+    "psia-eskadra",
+    "spazurem",
+    "zwierzogrod-przychodnia-weterynaryjna"
   ],
-  "hash": "dcab294878f03212c1510875d9f68840abf2499d20ddfc7cf40c3394633b3247",
+  "hash": "73e6ba38539b54c5ea26ae4c375bcab407361b6bea0d5a1c55cd8f4bb5741448",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T14:01:50.860Z",
+      "at": "2026-10-03T14:09:06.509Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-03T14:11:46.798Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T14:12:14.098Z",
       "result": "PASS",
       "listed": 0
     }
