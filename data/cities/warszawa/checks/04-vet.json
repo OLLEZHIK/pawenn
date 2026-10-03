@@ -1,0 +1,65 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "pupilmed",
+    "cztery-lapy-gabinet-weterynaryjny",
+    "brodnowskie-centrum-weterynaryjne",
+    "przychodnia-weterynaryjna-teodor",
+    "pomocna-lapa",
+    "przychodnia-weterynaryjna-dr-wet",
+    "amiculus",
+    "przychodnia-weterynaryjna-kochanowskiego",
+    "dom-vet-przychodnia-weterynaryjna",
+    "przychodnia-dla-zwierzat-4-lapki"
+  ],
+  "hash": "3b423c1035d746f6e72b4d26436b747e4e0dbd07eb6004fd346dcd29d8be88a6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T21:34:14.347Z",
+      "result": "FAIL",
+      "listed": 58
+    },
+    {
+      "at": "2026-10-02T21:38:59.358Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-02T21:42:05.110Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T21:44:13.850Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T21:45:19.264Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T22:59:11.739Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-02T23:03:03.152Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-02T23:06:47.408Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T00:18:27.267Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

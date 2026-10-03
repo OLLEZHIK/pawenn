@@ -1,0 +1,596 @@
+{
+  "slug": "klinika-weterynaryjna-pulawska",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=1670266970794880410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 58,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 46,
+      "title": {
+        "en": "Renowned surgical experts and reception friction",
+        "pl": "Cenieni lekarze specjaliści i trudności w rejestracji"
+      },
+      "text": {
+        "en": "Clients express deep gratitude to surgeons and attending veterinarians, particularly Dr. Bissenik, for profound clinical competence, patience, and empathetic care. Conversely, multiple visitors voice sharp dissatisfaction regarding receptionists, citing indifference and unhelpful phone manner.",
+        "pl": "Opiekunowie zwierząt wyrażają ogromną wdzięczność lekarzom i chirurgom, w tym dr. Bissenikowi, za wysoki kunszt medyczny, zaangażowanie i ratowanie czworonogów. Z kolei negatywne oceny dotyczą pracy rejestracji, gdzie klienci wskazują na chłodną obsługę i brak empatii przy zgłoszeniach."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 18,
+      "title": {
+        "en": "Significant appointment delays and waiting times",
+        "pl": "Znaczne opóźnienia i długi czas oczekiwania"
+      },
+      "text": {
+        "en": "A considerable volume of feedback criticizes substantial scheduling delays, noting that visits often start 30 to 60 minutes after the appointed time. Pet parents point out that acute weekend queues and delayed emergency triage place excessive stress on suffering animals.",
+        "pl": "Wielu recenzentów zwraca uwagę na chroniczne opóźnienia w przyjęciach, podkreślając, że na wejście do gabinetu czeka się od 30 minut do ponad godziny mimo wcześniejszych zapisów. Właściciele czworonogów zaznaczają, że długie kolejki w poczekalni generują niepotrzebny stres u chorych pupili."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Effective specialized operations and orthopedics",
+        "pl": "Skuteczne operacje specjalistyczne i ortopedia"
+      },
+      "text": {
+        "en": "Reviewers emphasize successful orthopedic procedures, arthroscopy, and complex emergency surgeries that restored full mobility to injured pets. Numerous pet owners report that their dogs and cats recovered smoothly after difficult operations and post-traumatic interventions.",
+        "pl": "Klienci chwalą wysoki poziom skomplikowanych zabiegów ortopedycznych, artroskopii oraz operacji ratujących życie, które przywróciły sprawność rannym czworonogom. Liczni opiekunowie wskazują, że psy i koty szybko wróciły do zdrowia dzięki trafnej diagnostyce obrazowej i chirurgii."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic handle orthopedic surgeries?",
+        "pl": "Czy klinika przeprowadza operacje ortopedyczne?"
+      },
+      "a": {
+        "en": "Yes, the facility is well regarded for specialized orthopedic interventions, arthroscopy, and bone fracture treatments.",
+        "pl": "Tak, placówka słynie z zaawansowanych operacji ortopedycznych, artroskopii oraz chirurgii urazowej u psów i kotów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointment delays common at the clinic?",
+        "pl": "Czy w klinice zdarzają się opóźnienia wizyt?"
+      },
+      "a": {
+        "en": "Reviewers frequently note delays ranging from 30 minutes to over an hour due to urgent emergency admissions.",
+        "pl": "Klienci w opiniach regularnie wspominają o opóźnieniach sięgających od pół godziny do ponad godziny przy nagłych przypadkach."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Klinika Puławska located?",
+        "pl": "Gdzie mieści się Klinika Weterynaryjna Puławska?"
+      },
+      "a": {
+        "en": "The clinic is located at Kuropatwy 40 in Warsaw's Ursynów district.",
+        "pl": "Klinika znajduje się przy ulicy Kuropatwy 40 na warszawskim Ursynowie."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients access night emergency care?",
+        "pl": "Czy placówka zapewnia pomoc w nocy?"
+      },
+      "a": {
+        "en": "The facility operates round-the-clock emergency services, though visitors suggest calling ahead to confirm availability.",
+        "pl": "Lecznica prowadzi całodobowe dyżury nagłe, jednak opiekunowie radzą uprzednio potwierdzić dostępność lekarza telefonicznie."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "9 godzin temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 11 godzin temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "wczoraj",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 dni temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 3 dni temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "~",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "place": "+",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "communication": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
