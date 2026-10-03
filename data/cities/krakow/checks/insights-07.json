@@ -2,19 +2,32 @@
   "chunk": "insights-07",
   "kind": "insights",
   "slugs": [
-    "lis-pawel-gabinet-weterynaryjny",
-    "proton-rezonans-dla-zwierzat",
-    "przychodnia-weterynaryjna-folwark-zwierzecy",
-    "przychodnia-weterynaryjna-mruczek",
-    "przychodnia-weterynaryjna-wibrys",
-    "przystas-janina-gabinet-weterynaryjny",
-    "psi-ekspert"
+    "amigo",
+    "dog-house-zabiniec",
+    "doglamour",
+    "lapka-moment",
+    "maxvet-centrum-weterynaryjne-krakow-szafirowa",
+    "przychodnia-weterynaryjna-figaro",
+    "przychodnia-weterynaryjna-vet-complex",
+    "psia-eskadra",
+    "spazurem",
+    "zwierzogrod-przychodnia-weterynaryjna"
   ],
-  "hash": "c258f97d0b03bb20b4fe149269fd37fc9e6d4d8a2b5e8bf7dba11132d40b7833",
+  "hash": "73e6ba38539b54c5ea26ae4c375bcab407361b6bea0d5a1c55cd8f4bb5741448",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T14:03:59.724Z",
+      "at": "2026-10-03T14:09:06.509Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-03T14:11:46.798Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T14:12:14.098Z",
       "result": "PASS",
       "listed": 0
     }
