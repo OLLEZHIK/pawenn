@@ -1,0 +1,160 @@
+{
+  "slug": "gabinet-weterynaryjny",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=3511245676077808999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "Edited a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Devoted and empathetic veterinarian",
+        "pl": "Oddana i empatyczna lekarka weterynarii"
+      },
+      "text": {
+        "en": "Clients express deep loyalty to Dr. Joanna Zdrał, highlighting her empathy, gentle manner with animals, and attentiveness to caregivers over many years. While Dr. Joanna is widely lauded, one review voiced a preference for seeing her personally over other staff.",
+        "pl": "Klienci wyrażają wielkie zaufanie do doktor Joanny Zdrał, wskazując na jej empatię, delikatność wobec zwierząt i zrozumienie dla opiekunów. Podczas gdy sama doktor zbiera znakomite opinie, jeden z recenzentów wolał trafiać wyłącznie pod jej bezpośrednią opiekę."
+      },
+      "mentions": 7,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "animals",
+      "title": {
+        "en": "Gentle handling of cats and dogs",
+        "pl": "Czułe traktowanie psów i kotów"
+      },
+      "text": {
+        "en": "Reviewers emphasize the kind and tender treatment provided to pets during examinations and routine check-ups. Owners appreciate that animals remain calm and well-managed, with veterinarians minimizing fear and handling patients with genuine affection.",
+        "pl": "Recenzenci podkreślają łagodne i serdeczne podejście do czworonogów podczas badań oraz wizyt kontrolnych. Właściciele doceniają, że zwierzęta zachowują spokój, a personel dba o ich dobre samopoczucie, ograniczając niepotrzebny stres podczas zabiegów."
+      },
+      "mentions": 4,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Clear guidance and English support",
+        "pl": "Jasny kontakt i obsługa po angielsku"
+      },
+      "text": {
+        "en": "Pet owners appreciate straightforward and concise communication regarding diagnostics, preventative care, and therapies. International clients particularly commend the facility for offering seamless and welcoming assistance in English for foreign pet caregivers.",
+        "pl": "Właściciele zwierząt bardzo chwalą rzeczową i przejrzystą komunikację w kwestiach diagnozy, profilaktyki oraz zaleceń terapeutycznych. Klienci obcojęzyczni szczególnie doceniają bezproblemową, w pełni zrozumiałą i życzliwą pomoc udzielaną w języku angielskim."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is veterinary assistance available in English?",
+        "pl": "Czy w gabinecie można uzyskać pomoc w języku angielskim?"
+      },
+      "a": {
+        "en": "Yes, foreign pet owners specifically report receiving comprehensive and helpful consultations in English.",
+        "pl": "Tak, klienci zagraniczni w recenzjach podkreślają sprawną i profesjonalną obsługę w języku angielskim."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Warsaw?",
+        "pl": "Gdzie znajduje się gabinet w Warszawie?"
+      },
+      "a": {
+        "en": "The practice is located at Aleja Wilanowska 364B in the Mokotów district of Warsaw.",
+        "pl": "Gabinet mieści się przy Alei Wilanowskiej 364B na warszawskim Mokotowie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are offered at this practice?",
+        "pl": "Jaki zakres usług świadczy gabinet?"
+      },
+      "a": {
+        "en": "The office provides general consultations, diagnostics, internal medicine, vaccinations, and ongoing healthcare for pets.",
+        "pl": "Placówka zapewnia konsultacje ogólne, diagnostykę internistyczną, profilaktykę, szczepienia oraz leczenie psów i kotów."
+      },
+      "basis": "both"
+    }
+  ],
+  "reviews_in_period": 8
+}

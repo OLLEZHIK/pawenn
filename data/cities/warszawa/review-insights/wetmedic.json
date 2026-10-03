@@ -1,0 +1,241 @@
+{
+  "slug": "wetmedic",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9311080427111382737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Attentive specialists and mixed experiences",
+        "pl": "Zaangażowani lekarze i zróżnicowane opinie"
+      },
+      "text": {
+        "en": "Many clients warmly praise the veterinarians at Wetmedic, commending orthopedic care and kind, empathetic assistance during regular and urgent visits. Conversely, a few reviewers voiced dissatisfaction with specific consultations or communication about diagnostic plans.",
+        "pl": "Wielu klientów serdecznie docenia lekarzy w przychodni Wetmedic, chwaląc opiekę ortopedyczną oraz życzliwe podejście podczas wizyt kontrolnych. Zdarzyły się jednak także głosy krytyczne dotyczące pojedynczych konsultacji specjalistycznych i komunikacji."
+      },
+      "mentions": 12,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Joint recovery and complex surgical therapy",
+        "pl": "Powrót do sprawności i leczenie pooperacyjne"
+      },
+      "text": {
+        "en": "Pet owners report successful orthopedic therapies, effective rehabilitation after spine procedures, and life-saving interventions for sick dogs and cats. On the other hand, some reviewers expressed frustration when prescribed pills failed to resolve acute symptoms promptly.",
+        "pl": "Opiekunowie zwierząt w opiniach opisują udane terapie ortopedyczne, sprawną rehabilitację po operacjach kręgosłupa oraz pomoc ratującą życie czworonogów. Z kolei część recenzentów wyraziła rozczarowanie brakiem szybkiej poprawy po wdrożeniu początkowego leczenia farmakologicznego."
+      },
+      "mentions": 7,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "prices",
+      "title": {
+        "en": "Concerns regarding consultation and test fees",
+        "pl": "Zastrzeżenia do cen wizyt i badań"
+      },
+      "text": {
+        "en": "Several reviewers expressed discontent with the clinic's billing, mentioning high charges for follow-up visits, blood tests, and wound cleanings. Clients note that treatment estimates can vary and suggest requesting explicit cost details before diagnostic work.",
+        "pl": "Kilku recenzentów wyraziło wyraźne niezadowolenie z cennika przychodni, wskazując na wysokie koszty wizyt kontrolnych, badań krwi oraz opatrywania ran. Opiekunowie radzą dopytywać o przewidywane koszty jeszcze przed rozpoczęciem procedur diagnostycznych."
+      },
+      "mentions": 4,
+      "sentiment": "negative"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What veterinary specializations are available at Wetmedic?",
+        "pl": "W jakich dziedzinach specjalizuje się lecznica Wetmedic?"
+      },
+      "a": {
+        "en": "The practice is known for veterinary orthopedics, surgical rehabilitation, internal medicine, and routine preventative care.",
+        "pl": "Placówka jest ceniona za konsultacje ortopedyczne, rehabilitację pooperacyjną, internę oraz profilaktykę psów i kotów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się przychodnia Wetmedic?"
+      },
+      "a": {
+        "en": "The clinic is located at Zwycięzców 40/lok U7 in the Saska Kępa neighborhood of Praga-Południe.",
+        "pl": "Przychodnia znajduje się przy ulicy Zwycięzców 40/lok U7 na Saskiej Kępie w dzielnicy Praga-Południe."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can dogs undergo post-surgery rehabilitation here?",
+        "pl": "Czy w klinice prowadzona jest rehabilitacja po zabiegach?"
+      },
+      "a": {
+        "en": "Yes, clients highlight successful postoperative rehabilitation, including recovery following canine spinal and joint procedures.",
+        "pl": "Tak, klienci w recenzjach wspominają o skutecznej rehabilitacji i rekonwalescencji po zabiegach ortopedycznych i neurologicznych."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "reviews_in_period": 18
+}

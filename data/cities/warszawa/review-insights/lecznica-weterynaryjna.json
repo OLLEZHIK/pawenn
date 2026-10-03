@@ -1,0 +1,168 @@
+{
+  "slug": "lecznica-weterynaryjna",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=5147663605121485461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate reception staff with doctor continuity issues",
+        "pl": "Empatyczna recepcja i brak ciągłości lekarzy prowadzących"
+      },
+      "text": {
+        "en": "Clients warmly praise individual receptionists and attending veterinarians for kindness, calm communication, and emergency reassurance. Conversely, severe criticisms highlight rotating medical staff across sequential shifts and lack of unified accountability during critical cases.",
+        "pl": "Klienci ciepło wypowiadają się o życzliwości i empatii pracowników recepcji oraz lekarzy udzielających pierwszej pomocy w nagłych sytuacjach. Z drugiej strony pojawiają się poważne zarzuty dotyczące ciągłej rotacji personelu medycznego i braku jednego lekarza prowadzącego."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Mixed therapy outcomes and critical diagnostic complaints",
+        "pl": "Mieszane efekty leczenia i zarzuty o błędne diagnozy"
+      },
+      "text": {
+        "en": "While prompt basic therapies and feline sterilizations receive positive feedback, grave grievances involve missed oncological diagnoses and rapid patient decline during hospital stays. Unhappy owners report having to seek urgent second opinions elsewhere to identify underlying illnesses.",
+        "pl": "Podczas gdy rutynowe zabiegi, sterylizacje i podstawowe badania przebiegają sprawnie, w opiniach pojawiają się bolesne skargi na nierozpoznane nowotwory i pogorszenie stanu zdrowia hospitalizowanych zwierząt. Część właścicieli musiała szukać ratunku w innych klinikach."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "High treatment invoices and non-transparent pricing structure",
+        "pl": "Wysokie koszty leczenia i brak przejrzystości cennika"
+      },
+      "text": {
+        "en": "Reviewers express sharp dissatisfaction with veterinary bills, describing high emergency fees and unclear itemized charges for routine procedures. Clients note that multi-day hospital therapies lead to unexpected expenses without prior upfront cost estimates.",
+        "pl": "Opiekunowie zwierząt wyrażają wyraźne niezadowolenie z wysokości rachunków za leczenie, wskazując na nieprzejrzyste pozycje na paragonach i wysokie opłaty dyżurowe. Klienci podkreślają, że kilkudniowy pobyt w szpitalu wiąże się ze znacznym i niespodziewanym wydatkiem."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services are offered at Lecznica Żytnia?",
+        "pl": "Jakie usługi świadczy Lecznica przy ulicy Żytniej?"
+      },
+      "a": {
+        "en": "The clinic provides general examinations, vaccinations, laboratory blood sampling, X-rays, and basic surgeries.",
+        "pl": "Lecznica oferuje podstawowe badania kliniczne, szczepienia, badania laboratoryjne, diagnostykę RTG oraz zabiegi chirurgiczne."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located?",
+        "pl": "Gdzie znajduje się lecznica?"
+      },
+      "a": {
+        "en": "The practice is situated in the courtyard at Żytnia 15 in Warsaw's Wola district.",
+        "pl": "Placówka mieści się w podwórzu przy ulicy Żytniej 15 na warszawskiej Woli."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are there complaints regarding doctor rotation?",
+        "pl": "Czy klienci zgłaszają uwagi do ciągłości leczenia?"
+      },
+      "a": {
+        "en": "Several reviewers note that pets are frequently examined by different doctors across successive visits without consistent handover.",
+        "pl": "W kilku opiniach opiekunowie zwracają uwagę na częstą rotację lekarzy i brak jednego stałego specjalisty prowadzącego terapię."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are prices perceived by visitors?",
+        "pl": "Jak klienci oceniają ceny w lecznicy?"
+      },
+      "a": {
+        "en": "Opinions vary from affordable basic services to complaints about high, unclear charges during extended hospitalization.",
+        "pl": "Oceny są podzielone – proste zabiegi bywają uznawane za przystępne, lecz hospitalizacja i badania budzą zastrzeżenia co do kosztów."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 dni temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    }
+  ]
+}
