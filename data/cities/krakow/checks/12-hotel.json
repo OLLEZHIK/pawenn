@@ -13,7 +13,7 @@
     "hotel-dla-kotow-kototel",
     "hotel-kocie-sprawki"
   ],
-  "hash": "4c68896a885f91a75f3c4345daf7149441499a4d0219eae0be4921eb1932df92",
+  "hash": "99aa4563c8c285988fb8df461ba31efb1010fa3b7c05bdd4eecb553a3b2784d7",
   "result": "PASS",
   "history": [
     {
@@ -33,6 +33,16 @@
     },
     {
       "at": "2026-10-03T05:18:06.823Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T05:48:43.739Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-03T05:52:34.166Z",
       "result": "PASS",
       "listed": 0
     }
