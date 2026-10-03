@@ -105,7 +105,10 @@ for (const city of cities) {
       continue;
     }
     bySlug.set(slug, (bySlug.get(slug) ?? 0) + 1);
-    if ((r.closed ?? "").trim().toLowerCase() === "yes") continue;
+    // The site and ready-city treat ANY non-empty value as "closed": "no" hides the place (2026-10-03, Warszawa, 70 places).
+    const closedValue = (r.closed ?? "").trim();
+    if (closedValue && closedValue.toLowerCase() !== "yes") f(slug, `closed is "${closedValue}" - leave it empty for an open place, "yes" only for a closed one`);
+    if (closedValue) continue;
 
     // Phone
     const phone = (r.phone ?? "").trim();
