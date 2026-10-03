@@ -1,0 +1,141 @@
+{
+  "slug": "abwet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Abwet/data=!4m7!3m6!1s0x471643785b6cbae9:0xeebb4a8607f2fd!8m2!3d50.0128865!4d20.0122446!16s%2Fg%2F1pw3x2bw0!19sChIJ6bpsW3hDFkcR_fIHhkq77gA?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Modern clinic facilities and client trust",
+        "pl": "Nowoczesne wnętrza i zaufanie opiekunów"
+      },
+      "text": {
+        "en": "Most clients praise the clean, modern clinic spaces, broad diagnostic equipment, and non-commercial approach to animal healthcare. However, isolated reviews express deep disappointment from guardians who lost trust after critical health issues were initially missed.",
+        "pl": "Większość klientów bardzo pozytywnie ocenia estetykę przychodni, czyste gabinety oraz brak komercyjnego nastawienia personelu. Zdarzają się jednak pojedyncze głosy rozczarowania od osób, które utraciły zaufanie do placówki po przeoczeniu poważnego stanu chorobowego."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Professional staff with contrasting opinions",
+        "pl": "Profesjonalny zespół i zróżnicowane oceny"
+      },
+      "text": {
+        "en": "The veterinary team receives warm commendations for their politeness, prompt consultations, empathy, and ability to communicate in English. At the same time, critical feedback points out insufficient diagnostic thoroughness during a complex medical presentation.",
+        "pl": "Personel medyczny otrzymuje wiele ciepłych słów za uprzejmość, sprawne konsultacje, zaangażowanie i możliwość rozmowy po angielsku. Równocześnie pojawia się krytyczna opinia dotycząca niewystarczającej dociekliwości diagnostycznej w skomplikowanym przypadku."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Caring pet treatments and diagnostic caution",
+        "pl": "Troskliwa opieka i ostrożność diagnostyczna"
+      },
+      "text": {
+        "en": "Many dog and cat guardians report positive experiences with routine vaccinations, ultrasound scans, and surgical interventions for their pets. However, one reviewer stresses the critical importance of performing deeper imaging earlier in older dogs showing anemia.",
+        "pl": "Wielu opiekunów psów i kotów z zadowoleniem opisuje przebieg rutynowych szczepień, badań ultrasonograficznych oraz udanych operacji. Jeden z recenzentów zwraca jednak uwagę na konieczność szybszego pogłębiania diagnostyki obrazowej u starszych psów z anemią."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can consultations at Abwet be conducted in English?",
+        "pl": "Czy w przychodni Abwet można porozumieć się po angielsku?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that staff are courteous and ready to provide veterinary service in English if needed.",
+        "pl": "Tak, klienci potwierdzają, że uprzejmy personel w razie potrzeby prowadzi obsługę weterynaryjną w języku angielskim."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are ultrasound imaging scans available on site?",
+        "pl": "Czy na miejscu wykonywane są badania USG?"
+      },
+      "a": {
+        "en": "Yes, the practice offers fast and professional ultrasound diagnostic scans for pets.",
+        "pl": "Tak, w przychodni przeprowadzane są szybkie i profesjonalne badania ultrasonograficzne zwierząt."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What services do pet owners praise most often?",
+        "pl": "Jakie usługi opiekunowie chwalą najczęściej?"
+      },
+      "a": {
+        "en": "Clients appreciate non-commercial care, preventive vaccinations, and post-surgical recovery monitoring.",
+        "pl": "Klienci doceniają niekomercyjne podejście, profilaktyczne szczepienia oraz opiekę po przebytych zabiegach."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

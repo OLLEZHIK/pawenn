@@ -2,22 +2,27 @@
   "chunk": "insights-15",
   "kind": "insights",
   "slugs": [
-    "hau-clever",
-    "hotel-dla-kotow-kototel",
-    "koci-jezyk",
-    "kociologia",
-    "na-psi-rozum",
-    "petsy-domowy-hotel-dla-psow-i-kotow-krakow",
-    "psiemka-hotel-dla-psow-krakow",
-    "space4dogs",
-    "why-not-dog",
-    "z-psem-pod-lape"
+    "abwet",
+    "bazyliszek",
+    "kordianavet",
+    "przychodnia-dla-zwierzat-wnuk",
+    "przychodnia-weterynaryjna-hyrax",
+    "przychodnia-weterynaryjna-med-vet",
+    "przychodnia-weterynaryjna-uniwet",
+    "sklep-zoologiczny-altum",
+    "veticor",
+    "zdrowy-zwierzak"
   ],
-  "hash": "e591a9430f10bccb069d55d318953e1114a3cbdd7d92db818b0c6dc130dcb198",
+  "hash": "a307331388249687f4897896b6fb6dfbdcaa297bb4dcfe35fc03f081a4a2630b",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T14:44:56.517Z",
+      "at": "2026-10-03T14:46:51.305Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-03T14:47:05.202Z",
       "result": "PASS",
       "listed": 0
     }
