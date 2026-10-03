@@ -1,0 +1,348 @@
+{
+  "slug": "klinika-malych-zwierzat",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=816296502723002793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 31,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 19,
+      "title": {
+        "en": "Academic specialists praised alongside reception friction",
+        "pl": "Wysoko cenieni lekarze akademiccy i uwagi do recepcji"
+      },
+      "text": {
+        "en": "Clients highlight the exceptional knowledge of university veterinarians, naming Dr. Barański and Dr. Bober for thorough diagnostics and empathetic approach. Meanwhile, critical voices report frustrating interactions at the registration desk, citing slow administrative handling.",
+        "pl": "Opiekunowie zwierząt z uznaniem wypowiadają się o wiedzy lekarzy uniwersyteckich, w tym dr. Barańskiego i dr Bober, chwaląc rzetelne badania i empatię. Krytyczne uwagi dotyczą jednak recepcji, gdzie klienci wskazują na powolną obsługę i brak odpowiedniej koordynacji."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Advanced imaging diagnostics and complex internal medicine",
+        "pl": "Zaawansowana diagnostyka obrazowa i leczenie trudnych przypadków"
+      },
+      "text": {
+        "en": "Reviewers emphasize high-quality computed tomography, ultrasound examinations, and successful medical interventions in demanding chronic disorders. At the same time, some pet owners express dissatisfaction regarding inconsistent diagnostic coordination between rotating doctors.",
+        "pl": "Klienci doceniają dostęp do zaawansowanego sprzętu, w tym tomografii komputerowej, USG oraz skutecznej diagnostyki skomplikowanych chorób. Część opiekunów zwraca jednak uwagę na niespójne zalecenia wynikające z częstej rotacji lekarzy prowadzących terapię."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Protracted check-in queues and admission delays",
+        "pl": "Długie kolejki do rejestracji i opóźnienia przyjęć"
+      },
+      "text": {
+        "en": "Visitors note significant waiting periods before entering consultations, with queues at registration frequently stretching to 40 minutes. Pet parents recommend arriving well ahead of schedule and budgeting extra time when attending specialized diagnostic exams.",
+        "pl": "Osoby odwiedzające klinikę zwracają uwagę na długi czas oczekiwania na przyjęcie oraz kolejki do okienka rejestracyjnego sięgające 40 minut. Opiekunowie radzą przybyć ze sporym wyprzedzeniem i zarezerwować dodatkowy czas w przypadku planowanych badań diagnostycznych."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is advanced diagnostic imaging such as CT available on site?",
+        "pl": "Czy na miejscu dostępna jest tomografia komputerowa?"
+      },
+      "a": {
+        "en": "Yes, as an academic veterinary center, the clinic offers computed tomography, digital X-rays, and specialized ultrasound.",
+        "pl": "Tak, jako klinika uniwersytecka placówka posiada tomograf komputerowy, RTG cyfrowe oraz zaawansowaną aparaturę USG."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are there queues at the reception desk?",
+        "pl": "Czy w rejestracji tworzą się kolejki?"
+      },
+      "a": {
+        "en": "Reviewers frequently mention administrative queues, noting waits of 30 to 40 minutes at the reception desk.",
+        "pl": "Klienci często wspominają o konieczności oczekiwania w kolejce do rejestracji, co bywa uciążliwe w godzinach szczytu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Klinika Małych Zwierząt located?",
+        "pl": "Gdzie znajduje się Klinika Małych Zwierząt?"
+      },
+      "a": {
+        "en": "The facility is located on the SGGW university campus at Nowoursynowska 159c in Warsaw's Ursynów district.",
+        "pl": "Klinika mieści się na terenie kampusu SGGW przy ulicy Nowoursynowskiej 159c na warszawskim Ursynowie."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can multiple specialized consultations be performed in one place?",
+        "pl": "Czy na miejscu przyjmują specjaliści różnych dziedzin?"
+      },
+      "a": {
+        "en": "Yes, the clinic houses specialists in radiology, internal medicine, surgery, neurology, and cardiology.",
+        "pl": "Tak, w placówce konsultują specjaliści z zakresu radiologii, interny, chirurgii, neurologii oraz kardiologii."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "wczoraj",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "~"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
