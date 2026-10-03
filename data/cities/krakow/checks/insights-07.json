@@ -2,22 +2,32 @@
   "chunk": "insights-07",
   "kind": "insights",
   "slugs": [
-    "bialy-pies",
-    "contact-dogs",
-    "dogmydog",
-    "dogtandem",
-    "haustyle",
-    "paczus-hotel-dla-krolikow-i-gryzoni",
-    "pet-spa-dorota-sitko",
-    "psia-lapa",
-    "show-dog",
-    "zwierzakomania"
+    "amigo",
+    "dog-house-zabiniec",
+    "doglamour",
+    "lapka-moment",
+    "maxvet-centrum-weterynaryjne-krakow-szafirowa",
+    "przychodnia-weterynaryjna-figaro",
+    "przychodnia-weterynaryjna-vet-complex",
+    "psia-eskadra",
+    "spazurem",
+    "zwierzogrod-przychodnia-weterynaryjna"
   ],
-  "hash": "30c2c00c54cc1582d015054a2bcdb63493f26c8bae69d064dc686fc67cb7b205",
+  "hash": "73e6ba38539b54c5ea26ae4c375bcab407361b6bea0d5a1c55cd8f4bb5741448",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T14:01:35.312Z",
+      "at": "2026-10-03T14:09:06.509Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-03T14:11:46.798Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T14:12:14.098Z",
       "result": "PASS",
       "listed": 0
     }
