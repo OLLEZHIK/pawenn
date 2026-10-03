@@ -1,0 +1,151 @@
+{
+  "slug": "planeta-zoo",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9273113859658354401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Charming, well-maintained downtown neighborhood pet shop",
+        "pl": "Klimatyczny i zadbany śródmiejski sklep zoologiczny"
+      },
+      "text": {
+        "en": "Reviewers praise this cozy pet shop on Hoża for its clean, inviting interior and convenient central location. While the retail floor is relatively compact and shampoo options are selective, visitors readily find essential foods, healthy chews, and everyday supplies.",
+        "pl": "Recenzenci chwalą przytulny sklep przy ulicy Hożej za czyste, estetyczne wnętrze oraz dogodną lokalizację w centrum miasta. Choć powierzchnia jest kameralna, a wybór szamponów ograniczony, klienci bez trudu znajdują podstawowe karmy i zdrowe akcesoria."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Knowledgeable, friendly, and animal-loving seller",
+        "pl": "Wiedza, życzliwość i serdeczne podejście sprzedawcy"
+      },
+      "text": {
+        "en": "Customers describe the sales staff as exceptionally friendly, experienced, and genuinely passionate about pet care. Shoppers note that the seller welcomes visiting dogs warmly, offering biscuits and helpful product advice in a personalized and attentive manner.",
+        "pl": "Klienci opisują obsługę jako niezwykle uprzejmą, doświadczoną i pełną pasji do opieki nad zwierzętami. Odwiedzający zwracają uwagę na ciepłe powitanie czworonogów, poczęstunek chrupkiem oraz fachowe doradztwo personelu w doborze odpowiednich artykułów."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive guidance and helpful customer consultations",
+        "pl": "Uważne doradztwo i życzliwa pomoc w zakupach"
+      },
+      "text": {
+        "en": "Shoppers emphasize the dedicated customer service provided in the store. The seller takes time to understand individual pet dietary requirements, advises on suitable chew textures, and ensures every customer feels warmly attended to throughout their visit.",
+        "pl": "Klienci podkreślają wysoki poziom bezpośredniej obsługi w sklepie. Sprzedawca poświęca czas na rozmowę o potrzebach żywieniowych zwierząt, doradza odpowiednie twardości gryzaków i dba o to, by każdy odwiedzający poczuł się w pełni zaopiekowany podczas zakupów."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What products are sold at Planeta Zoo?",
+        "pl": "Co oferuje sklep Planeta Zoo?"
+      },
+      "a": {
+        "en": "The shop carries dry and wet dog and cat foods, pet treats, toys, basic care items, and everyday pet accessories.",
+        "pl": "Sklep prowadzi sprzedaż karm suchych i mokrych dla psów i kotów, przysmaków, zabawek oraz podstawowych akcesoriów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Planeta Zoo located in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się sklep Planeta Zoo?"
+      },
+      "a": {
+        "en": "The store is located at Hoża 39 in the Śródmieście district of central Warsaw.",
+        "pl": "Sklep znajduje się przy ulicy Hożej 39 w warszawskim Śródmieściu."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can dogs enter the shop with their owners?",
+        "pl": "Czy do sklepu można wejść z psem?"
+      },
+      "a": {
+        "en": "Yes, dogs are warmly welcomed inside, and the seller often greets them with biscuits.",
+        "pl": "Tak, czworonogi są mile widziane w sklepie, a sprzedawca chętnie częstuje je smakołykami."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is there a wide selection of specialty pet shampoos?",
+        "pl": "Czy w sklepie jest duży wybór specjalistycznych szamponów?"
+      },
+      "a": {
+        "en": "Shoppers note that grooming cosmetics and shampoos are limited, so calling ahead for specialty bath products is advised.",
+        "pl": "Klienci wskazują, że wybór kosmetyków do kąpieli jest skromny, dlatego warto wcześniej upewnić się o dostępności szamponu."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
