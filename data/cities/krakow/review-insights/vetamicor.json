@@ -1,0 +1,136 @@
+{
+  "slug": "vetamicor",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Przychodnia+Weterynaryjna+Vetamicor/data=!4m7!3m6!1s0x47165b44e87fa4e7:0xf9ddc86ee1d42c12!8m2!3d50.0443259!4d19.9526625!16s%2Fg%2F1q5d61tdz!19sChIJ56R_6ERbFkcREizU4W7I3fk?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Clinical treatments and acute assistance",
+        "pl": "Wyniki zabiegów i pomoc w nagłych stanach"
+      },
+      "text": {
+        "pl": "Większość recenzentów chwali pomoc przy nagłych problemach, takich jak bezpieczne usuwanie kleszczy u psów podróżujących turystów. Pojawiła się jednak krytyczna uwaga dotycząca nieskutecznego leczenia gruczołów okołoodbytowych i związanego z tym kosztu.",
+        "en": "Most reviewers commend compassionate assistance during unforeseen pet emergencies, such as tick removal for traveling dogs. However, an isolated critical review mentions unsuccessful treatment of anal gland inflammation and associated medical expenses without health relief."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Doctor communication and professional approach",
+        "pl": "Podejście personelu i komunikacja lekarza"
+      },
+      "text": {
+        "pl": "Klienci w większości bardzo pozytywnie oceniają uprzejmość, delikatność i fachową wiedzę dyżurującego weterynarza. Zadowoleni opiekunowie podkreślają troskliwe nastawienie do pacjenta, chociaż pojedyncza krytyczna opinia zarzuca brak dociekliwości przy wykonanym zabiegu.",
+        "en": "Clients predominantly appreciate the politeness, gentleness, and clinical competence of the attending veterinarian. Satisfied pet owners emphasize attentive bedside communication, though one critical review expressed dissatisfaction with consultation thoroughness."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle bedside handling of canine patients",
+        "pl": "Troska i opieka nad psami w gabinecie"
+      },
+      "text": {
+        "pl": "Opiekunowie czworonogów wskazują na delikatne i spokojne podejście lekarza do psów podczas rutynowych oraz doraźnych wizyt. Chociaż ogólny odbiór pozostaje serdeczny, niezadowolony właściciel zgłosił zastrzeżenia co do braku ulgi w cierpieniu leczonego pupila po podaniu leków.",
+        "en": "Canine owners note the gentle, calming touch of the doctor during routine and spontaneous checkups. While prevailing experiences remain caring, one dissatisfied client reported concerns about lack of physical relief following prescribed veterinary treatment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is clinic Vetamicor located in Kraków?",
+        "pl": "Gdzie mieści się przychodnia Vetamicor w Krakowie?"
+      },
+      "a": {
+        "en": "The clinic is located at ulica Krakusa 6 in the Podgórze district.",
+        "pl": "Przychodnia mieści się przy ulicy Krakusa 6 w krakowskim Podgórzu."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can tourists get prompt assistance for tick removal?",
+        "pl": "Czy turyści z psem mogą liczyć na pomoc przy usunięciu kleszcza?"
+      },
+      "a": {
+        "en": "Yes, reviews describe quick and delicate help for out-of-town visitors.",
+        "pl": "Tak, recenzje opisują sprawną pomoc w usunięciu pasożyta u psa turystów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients perceive veterinary service pricing?",
+        "pl": "Jak klienci oceniają cennik usług w Vetamicor?"
+      },
+      "a": {
+        "en": "Most clients find prices affordable, though complex cases can cost more.",
+        "pl": "Większość uważa ceny za przystępne, choć trudniejsze zabiegi bywają droższe."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
