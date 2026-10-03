@@ -2,22 +2,27 @@
   "chunk": "insights-05",
   "kind": "insights",
   "slugs": [
-    "aqua-plant",
-    "aquael-zoo-ch-bronowice",
-    "hotel-dla-psow-szarikton",
-    "lessie-gabinet-weterynaryjny",
-    "medicavet-przychodnia-weterynaryjna",
-    "midi-zoo-sklep-zoologiczny",
-    "mydog",
-    "pracownia-groomingu-champion",
-    "przychodnia-weterynaryjna-nasza",
-    "zwierzeca-przystan-przychodnia-weterynaryjna"
+    "dog-house-piastow",
+    "dogs-bay-domowy-hotel-dla-psow",
+    "fenek",
+    "gabinet-weterynaryjny-ambuvet",
+    "groomer-vision",
+    "pies-i-przyjaciele",
+    "podgorskie-centrum-weterynaryjne",
+    "reksvet-przychodnia-weterynaryjna",
+    "royal-vet",
+    "super-zoo-ph-zakopianka"
   ],
-  "hash": "c080deabcd52b49184914fe27e3262a091259900fe0c8032ae7be68489a848e7",
+  "hash": "1003900fe62430047c372d5b103a75f73c04613b49b2eb0e195e20d839697336",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T13:51:33.356Z",
+      "at": "2026-10-03T13:54:56.062Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T13:55:20.293Z",
       "result": "PASS",
       "listed": 0
     }
