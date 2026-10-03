@@ -1,0 +1,188 @@
+{
+  "slug": "show-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Show+Dog+Salon+Piel%C4%99gnacji+Ps%C3%B3w+i+Kot%C3%B3w+Krak%C3%B3w/data=!4m7!3m6!1s0x47165dc5c16d0663:0x828411d982a0040a!8m2!3d50.0313225!4d19.9203068!16s%2Fg%2F11kqhbqs6x!19sChIJYwZtwcVdFkcRCgSggtkRhII?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Thorough deshedding and exhibition coat prep",
+        "pl": "Dokładne wyczesywanie i wystawowy wygląd sierści"
+      },
+      "text": {
+        "pl": "Większość klientów bardzo chwali kunszt pielęgnacyjny, wskazując na pięknie ostrzyżone psy, puszystą szatę u samojedów oraz znaczne ograniczenie wypadania podszerstka w domu. Zdarzyło się jednak pojedyncze zastrzeżenie dotyczące niedoczesanych kołtunów za uchem u psa.",
+        "en": "Most clients commend the grooming craftsmanship, praising beautifully scissored coats, fluffy Samoyed fur, and significant deshedding in home spaces. However, an isolated critical comment mentioned missed tangles behind the ears after an appointment was concluded."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Skilled staff with occasional communication critiques",
+        "pl": "Doświadczony personel i sporadyczne uwagi"
+      },
+      "text": {
+        "pl": "Opiekunowie cenią zespół za życzliwość, fachową wiedzę o rasach i spokojną atmosferę podczas zabiegów. Jednocześnie nieliczni klienci zwracają uwagę na niejasne informacje o kosztach przy odbiorze lub zbyt bezpośrednie uwagi personelu dotyczące stanu podszerstka pupila.",
+        "en": "Owners appreciate the grooming crew for their cordiality, deep breed knowledge, and reassuring environment during care. Concurrently, a few clients noted vague cost communication upon pickup or overly direct remarks regarding pre-existing coat condition on arrival."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Careful handling for dogs and cats",
+        "pl": "Cierpliwe podejście do psów i kotów"
+      },
+      "text": {
+        "pl": "W recenzjach dominuje zadowolenie ze spokojnego i delikatnego obchodzenia się z dużymi psami oraz kotami, które nie odczuwają lęku przy czesaniu szaty. Pojawiła się jednak pojedyncza uwaga o wzroście wrażliwości zwierzaka na dotyk po powrocie z wizyty pielęgnacyjnej.",
+        "en": "Reviews overwhelmingly emphasize patient handling of large canine breeds and felines, noting calm behavior during coat detangling. Nonetheless, one reviewer expressed concern about their dog showing increased sensitivity to home brushing after their salon visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Show Dog salon located in Kraków?",
+        "pl": "Gdzie znajduje się salon Show Dog w Krakowie?"
+      },
+      "a": {
+        "en": "The salon operates in the Podgórze Duchackie district of Kraków.",
+        "pl": "Salon mieści się na terenie dzielnicy Podgórze Duchackie w Krakowie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the salon specialize in dense-coated breeds like Samoyeds?",
+        "pl": "Czy salon specjalizuje się w pielęgnacji samojedów?"
+      },
+      "a": {
+        "en": "Yes, numerous reviews praise thorough bath, blowout, and deshedding treatments for double-coated breeds.",
+        "pl": "Tak, liczne recenzje chwalą kąpiele, suszenie i wyczesywanie ras z gęstym podszerstkiem."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can cats be booked for deshedding and grooming?",
+        "pl": "Czy salon przyjmuje koty na pielęgnację?"
+      },
+      "a": {
+        "en": "Yes, customer feedback confirms delicate and professional deshedding services for cats.",
+        "pl": "Tak, opinie klientów potwierdzają profesjonalne wyczesywanie i pielęgnację kotów."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "w tym tygodniu",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "animals": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "~",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
