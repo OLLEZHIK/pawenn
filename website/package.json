@@ -14,6 +14,8 @@
     "verify-city": "tsx scripts/verify-city.ts",
     "gate": "tsx scripts/gate.ts",
     "ready-city": "tsx scripts/ready-city.ts",
+    "reviews-queue": "tsx scripts/reviews-queue.ts",
+    "check-raw-reviews": "tsx scripts/check-raw-reviews.ts",
     "agent-check": "tsx scripts/agent-check.ts",
     "sanity": "tsx scripts/sanity.ts"
   },
