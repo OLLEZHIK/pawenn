@@ -1,0 +1,40 @@
+{
+  "chunk": "16-vet",
+  "kind": "places",
+  "slugs": [
+    "przychodnia-weterynaryjna-lovet",
+    "nevavet-przychodnia-weterynaryjna",
+    "przychodnia-weterynaryjna-ortowet",
+    "rydlowka-przychodnia-weterynaryjna",
+    "gabinet-weterynaryjny-dermvet",
+    "podgorskie-centrum-weterynaryjne",
+    "gabinet-weterynaryjny-ambuvet",
+    "royal-vet",
+    "reksvet-przychodnia-weterynaryjna",
+    "klinika-weterynaryjna-tenvet-24-7"
+  ],
+  "hash": "552dff3043f99c588c282be2c46153deeae26dc0c04d54599f7ba367e22753d5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T06:45:14.513Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-03T06:47:21.415Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T06:47:46.279Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T06:48:19.207Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
