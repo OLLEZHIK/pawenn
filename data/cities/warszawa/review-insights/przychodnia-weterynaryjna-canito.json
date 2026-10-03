@@ -1,0 +1,154 @@
+{
+  "slug": "przychodnia-weterynaryjna-canito",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=9974424739873154288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Holistic, knowledgeable, and honest doctor",
+        "pl": "Holistyczny, rzetelny i empatyczny lekarz"
+      },
+      "text": {
+        "en": "Clients have immense confidence in Dr. Paweł, praising his holistic mindset, deep medical expertise, and transparent communication. Long-term pet parents value his empathy and ethical dedication to animal welfare without pushing redundant treatments.",
+        "pl": "Klienci darzą ogromnym zaufaniem doktora Pawła, chwaląc jego całościowe podejście do zdrowia pacjentów, wiedzę i uczciwość. Wieloletni opiekunowie cenią empatię oraz etyczne podejście, bez naciągania na niepotrzebne leki czy procedury medyczne w gabinecie."
+      },
+      "mentions": 7,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "animals",
+      "title": {
+        "en": "Affectionate care for dogs and cats",
+        "pl": "Czuła opieka nad psami i kotami"
+      },
+      "text": {
+        "en": "Reviewers emphasize the veterinarian's genuine love and calming approach toward both dogs and cats. Handlers note that pets are handled with gentle patience during clinical visits, reducing stress and allowing thorough examinations without fear or panic.",
+        "pl": "Opiekunowie zwierząt podkreślają autentyczne serce i życzliwość doktora do psów i kotów. Właściciele zauważają, że czworonogi są badane ze spokojem i cierpliwością, co pozwala zredukować stres w gabinecie i ułatwia przeprowadzenie niezbędnych zabiegów."
+      },
+      "mentions": 4,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Effective treatments and preventative guidance",
+        "pl": "Skuteczna terapia i zalecenia profilaktyczne"
+      },
+      "text": {
+        "en": "Reviewers emphasize years of reliable health maintenance for both cats and dogs, with pet owners noting swift recoveries under the doctor's care. However, one client reported a serious infection in a young puppy following initial consultation advice.",
+        "pl": "Opiekunowie podkreślają wieloletnią skuteczną opiekę nad psami i kotami, wskazując na trafne diagnozy i powrót zwierząt do zdrowia. Zdarzyła się jednak także krytyczna opinia dotycząca ciężkiej infekcji u szczeniaka po wizycie konsultacyjnej w lecznicy."
+      },
+      "mentions": 4,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's pricing policy?",
+        "pl": "Jak klienci oceniają politykę cenową przychodni?"
+      },
+      "a": {
+        "en": "Pet owners appreciate honest, fair pricing and note that the doctor avoids prescribing unnecessary or expensive procedures.",
+        "pl": "Opiekunowie chwalą rozsądne i uczciwe ceny, zaznaczając, że lekarz nie naciąga na zbędne badania i zbędne wydatki."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the veterinary clinic located in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się przychodnia Canito?"
+      },
+      "a": {
+        "en": "The practice is situated at Zygmunta Modzelewskiego 56 in the Mokotów district of Warsaw.",
+        "pl": "Przychodnia mieści się przy ulicy Zygmunta Modzelewskiego 56 na warszawskim Mokotowie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can both cats and dogs receive comprehensive treatment here?",
+        "pl": "Czy w lecznicy można kompleksowo leczyć psy i koty?"
+      },
+      "a": {
+        "en": "Yes, clients frequently bring both feline and canine companions for routine diagnostics, preventative care, and ongoing medical therapies.",
+        "pl": "Tak, klienci regularnie przyprowadzają tu zarówno koty, jak i psy na badania profilaktyczne, szczepienia oraz leczenie chorób."
+      },
+      "basis": "both"
+    }
+  ],
+  "reviews_in_period": 7
+}
