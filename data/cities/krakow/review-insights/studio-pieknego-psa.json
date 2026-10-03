@@ -1,0 +1,135 @@
+{
+  "slug": "studio-pieknego-psa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Studio+Pi%C4%99knego+Psa/data=!4m7!3m6!1s0x47165b5f332d8be7:0xa5c00b1c55c95a61!8m2!3d50.0240305!4d19.9394156!16s%2Fg%2F1td57byg!19sChIJ54stM19bFkcRYVrJVRwLwKU?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Experienced instructors and grooming expertise",
+        "pl": "Doświadczeni instruktorzy i wiedza groomerska"
+      },
+      "text": {
+        "pl": "Opiekunowie psów i kursanci bardzo ciepło wypowiadają się o pani Marcie i panu Januszu, chwaląc ich cierpliwość, otwartość oraz profesjonalizm. Klienci doceniają praktyczne wskazówki dotyczące domowej higieny zębów i doboru odpowiednich kosmetyków dla czworonogów.",
+        "en": "Pet owners and trainees speak warmly of instructors Marta and Janusz, praising their patient demeanor, openness, and professional expertise. Customers value practical guidance regarding at-home dental hygiene and appropriate cosmetic products for their pets."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Modern studio with varied client impressions",
+        "pl": "Nowoczesne studio z odmiennymi opiniami"
+      },
+      "text": {
+        "pl": "Większość recenzentów chwali przyjazną atmosferę oraz dobre wyposażenie salonu po zmianie lokalizacji, uznając go za znakomite miejsce do pielęgnacji i szkoleń. Pojawiła się jednak pojedyncza skrajnie negatywna opinia bez podania szczegółów, krytykująca całokształt wizyty.",
+        "en": "Most reviewers praise the friendly atmosphere and well-equipped facilities following the studio's relocation, calling it an excellent venue for grooming and training. However, an isolated highly critical rating without detailed context expressed broad dissatisfaction."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle procedures and non-anesthetic dental care",
+        "pl": "Bezpieczne zabiegi i czyszczenie zębów bez narkozy"
+      },
+      "text": {
+        "pl": "Klienci wyróżniają studio za umiejętność bezstresowej pracy ze zwierzętami podczas czyszczenia kamienia nazębnego bez użycia narkozy. Opiekunowie mogą asystować przy zabiegu, co znacząco zmniejsza niepokój u psów i buduje zaufanie czworonogów do opiekunów.",
+        "en": "Clients commend the studio for stress-free animal handling during ultrasonic dental scaling performed without general anesthesia. Owners appreciate being allowed to accompany their dogs during treatments, which substantially lowers anxiety for sensitive pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Studio Pięknego Psa located?",
+        "pl": "Gdzie mieści się Studio Pięknego Psa?"
+      },
+      "a": {
+        "en": "The salon is situated at Beskidzka 30A in the Podgórze Duchackie district of Kraków.",
+        "pl": "Salon znajduje się przy ulicy Beskidzkiej 30A w krakowskiej dzielnicy Podgórze Duchackie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the studio offer dental cleaning without anesthesia?",
+        "pl": "Czy studio oferuje czyszczenie zębów bez narkozy?"
+      },
+      "a": {
+        "en": "Yes, customer reviews highlight ultrasonic tartar removal performed safely without general anesthesia.",
+        "pl": "Tak, opinie klientów wskazują na wykonywanie zabiegów usuwania kamienia nazębnego bez znieczulenia ogólnego."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the studio conduct professional grooming courses?",
+        "pl": "Czy w salonie prowadzone są szkolenia groomerskie?"
+      },
+      "a": {
+        "en": "Yes, the facility conducts practical training courses for aspiring pet groomers.",
+        "pl": "Tak, placówka organizuje profesjonalne kursy i szkolenia dla przyszłych groomerów z dużą ilością praktyki."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 miesięcy temu",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
