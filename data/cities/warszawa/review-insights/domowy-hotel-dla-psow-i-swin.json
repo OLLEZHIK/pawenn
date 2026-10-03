@@ -1,0 +1,146 @@
+{
+  "slug": "domowy-hotel-dla-psow-i-swin",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=7312628086428374350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2025-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Pet socialization and freedom on the grounds",
+        "pl": "Swoboda i socjalizacja zwierząt na wybiegu"
+      },
+      "text": {
+        "en": "Long-standing clients appreciate the homely atmosphere where dogs can run freely, relax, and interact with other domestic animals and rescued pigs. Conversely, a critical incident involving an escaped dog highlighted serious concerns regarding supervision and containment.",
+        "pl": "Wieloletni klienci cenią domową atmosferę, w której psy mogą swobodnie biegać, odpoczywać i przebywać z innymi zwierzętami oraz świnkami. Jednak krytyczna opinia dotycząca ucieczki psa poza teren obiektu uwidoczniła obawy związane z nadzorem i zabezpieczeniem ogrodzenia."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Spacious green property with enclosure security questions",
+        "pl": "Przestronny zielony teren a szczelność zabezpieczeń"
+      },
+      "text": {
+        "en": "Reviewers emphasize the unique natural setting in the green Wawer district, providing ample space for dogs that dislike cramped kennel boarding. At the same time, the reported escape incident prompted scrutiny over whether boundaries are fully secured against agile pets.",
+        "pl": "Recenzenci podkreślają wyjątkowe położenie na zielonym Wawrze, oferujące dużo przestrzeni dla psów nielubiących klatek i boksów. Równocześnie incydent z ucieczką psa zwrócił uwagę opiekunów na konieczność upewnienia się, że cała posesja jest w pełni szczelnie ogrodzona."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Dedicated animal passion alongside safety concerns",
+        "pl": "Pasja do opieki nad zwierzętami i kwestie bezpieczeństwa"
+      },
+      "text": {
+        "en": "Repeat boarders warmly praise the owners lifelong passion for animals and relaxed hospitality over ten years of service. Nevertheless, one owner felt the caretaker acted irresponsibly when their pet slipped away from the premises before being found by city guards.",
+        "pl": "Stali bywalcy ciepło opisują autentyczną pasję gospodarza do zwierząt oraz swobodne podejście wypracowane przez całą dekadę działalności. Z kolei właściciel uciekiniera zarzucił brak odpowiedniej czujności w pilnowaniu powierzonego pod opiekę czworonoga."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What type of boarding does Domowy hotel dla psów i świń offer?",
+        "pl": "Jaki rodzaj opieki oferuje Domowy hotel dla psów i świń?"
+      },
+      "a": {
+        "en": "The facility offers domestic, cage-free boarding on a spacious home property where dogs live alongside household animals.",
+        "pl": "Ośrodek oferuje domowy, bezklatkowy pobyt na dużej posesji, gdzie psy przebywają razem ze zwierzętami domowymi."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the boarding facility located?",
+        "pl": "Gdzie znajduje się ten hotel dla zwierząt?"
+      },
+      "a": {
+        "en": "The hotel is located in the green and tranquil Wawer district of Warsaw at Podkowy 59.",
+        "pl": "Hotel mieści się w zielonej i spokojnej części warszawskiego Wawra przy ulicy Podkowy 59."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do dogs have access to open yards?",
+        "pl": "Czy psy mają swobodny dostęp do ogrodu?"
+      },
+      "a": {
+        "en": "Yes, dogs have regular access to outdoor green areas for recreation and socialization throughout the day.",
+        "pl": "Tak, czworonogi mają swobodny dostęp do przestrzeni na świeżym powietrzu do zabawy i odpoczynku w ciągu dnia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are pets supervised on the property?",
+        "pl": "Jak wygląda nadzór nad zwierzętami na posesji?"
+      },
+      "a": {
+        "en": "The owner lives on the premises and provides full-time domestic supervision, though owners of escape-prone dogs should discuss fencing security.",
+        "pl": "Właściciel mieszka na miejscu i osobiście dogląda podopiecznych, jednak w przypadku psów uciekających warto omówić kwestię zabezpieczeń."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
