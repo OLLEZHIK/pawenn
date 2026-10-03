@@ -1,0 +1,35 @@
+{
+  "chunk": "08-shop",
+  "kind": "places",
+  "slugs": [
+    "diskus-zoo",
+    "maxi-zoo-ostrobramska",
+    "maxi-zoo-sadyba-best-mall",
+    "maxi-zoo-czarodzieja",
+    "maxi-zoo-homepark-targowek",
+    "maxi-zoo-aleja-wilanowska",
+    "clarias",
+    "maxi-zoo-pasaz-gorczewska",
+    "tapajos",
+    "neon-zoo"
+  ],
+  "hash": "ea8a93066b9666aab057ceab13953e1e1e14fe51875b23db7505e11f5a6ffb70",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T00:23:31.158Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-03T00:26:06.101Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-03T00:26:56.617Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
