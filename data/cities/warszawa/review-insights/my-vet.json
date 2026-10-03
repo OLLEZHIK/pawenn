@@ -1,0 +1,162 @@
+{
+  "slug": "my-vet",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=2557391615336409969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Warm, empathetic, and dedicated veterinarians",
+        "pl": "Ciepły, empatyczny i oddany zespół lekarzy"
+      },
+      "text": {
+        "en": "Clients consistently praise the doctors, particularly Dr. Anna, for their deep empathy, family-like atmosphere, and unwavering dedication over many years. Owners value that veterinary professionals listen attentively and support caregivers through challenging moments.",
+        "pl": "Klienci niezmiennie chwalą personel lecznicy, w tym doktor Annę, za ogromną empatię, rodzinną atmosferę oraz wieloletnie oddanie pacjentom. Opiekunowie czują się wysłuchani i mogą liczyć na serdeczne wsparcie lekarzy nawet w najtrudniejszych chwilach."
+      },
+      "mentions": 7,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "animals",
+      "title": {
+        "en": "Loving and gentle attitude toward pets",
+        "pl": "Pełne czułości podejście do psów i kotów"
+      },
+      "text": {
+        "en": "Reviewers emphasize the tender and respectful handling received by dogs and cats, from routine visits to critical postoperative care. Pets are treated with genuine affection, ensuring veterinary visits remain calm and reassuring rather than frightening.",
+        "pl": "Recenzenci szczególnie podkreślają łagodne i pełne szacunku traktowanie psów i kotów, od rutynowych szczepień po opiekę pooperacyjną. Lekarze podchodzą do zwierząt z autentycznym sercem, dzięki czemu wizyty przebiegają spokojnie i bez wywoływania stresu."
+      },
+      "mentions": 5,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Life-saving surgeries and reliable diagnostics",
+        "pl": "Zabiegi ratujące życie i trafna diagnoza"
+      },
+      "text": {
+        "en": "Pet parents credit the veterinary practice with saving pets' lives during procedures such as spaying, where underlying acute issues were promptly identified and resolved. Long-term clients report years of dependable medical care and successful treatments.",
+        "pl": "Właściciele zwierząt dziękują lecznicy za uratowanie życia ich pupilom podczas zabiegów chirurgicznych, gdy lekarze natychmiast wykryli i wyleczyli ukryte powikłania. Stali bywalcy potwierdzają wieloletnią skuteczność leczenia oraz trafność stawianych diagnoz."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the clinic suitable for international pet owners?",
+        "pl": "Czy w klinice można porozumieć się po angielsku?"
+      },
+      "a": {
+        "en": "Yes, clients specifically note receiving welcoming and helpful veterinary consultations in English.",
+        "pl": "Tak, klienci obcojęzyczni w recenzjach wspominają o życzliwej i sprawnej obsłudze w języku angielskim."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się lecznica My Vet?"
+      },
+      "a": {
+        "en": "The practice is situated at Grzybowska 39 in the Wola district of Warsaw.",
+        "pl": "Lecznica mieści się przy ulicy Grzybowskiej 39 na warszawskiej Woli."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What veterinary services does My Vet provide?",
+        "pl": "Jaki zakres opieki weterynaryjnej zapewnia My Vet?"
+      },
+      "a": {
+        "en": "The clinic provides general healthcare, surgery, internal diagnostics, vaccinations, and long-term companion animal therapy.",
+        "pl": "Placówka oferuje konsultacje ogólne, chirurgię, diagnostykę internistyczną, profilaktykę oraz stałą opiekę nad psami i kotami."
+      },
+      "basis": "both"
+    }
+  ],
+  "reviews_in_period": 8
+}
