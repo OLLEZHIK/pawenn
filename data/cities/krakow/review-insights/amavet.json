@@ -1,0 +1,503 @@
+{
+  "slug": "amavet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amavet/data=!4m7!3m6!1s0x4716452695c4618f:0x87c76173cb0ee976!8m2!3d50.0684163!4d20.0133054!16s%2Fg%2F1tg66v99!19sChIJj2HElSZFFkcRdukOy3Nhx4c?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 42,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 30,
+      "title": {
+        "en": "Contrasting opinions on medical team approach",
+        "pl": "Zróżnicowane opinie o podejściu lekarzy"
+      },
+      "text": {
+        "en": "Feedback regarding clinic staff is sharply divided between clients who praise compassionate doctors and others reporting dismissive communication. Many pet parents appreciate thorough explanations from certain vets, while others criticize perceived indifference during stressful visits.",
+        "pl": "Opinie o zespole przychodni są wyraźnie podzielone między klientów chwalących życzliwość wybranych lekarzy a osoby zgłaszające chłodne podejście. Część opiekunów chwali cierpliwe wyjaśnienia, podczas gdy inni narzekają na brak empatii w trudnych chwilach."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 24,
+      "title": {
+        "en": "Mixed feedback on pet handling during exams",
+        "pl": "Mieszane relacje z postępowania ze zwierzętami"
+      },
+      "text": {
+        "en": "Reviewers present varying accounts of how dogs and cats are handled during examinations and diagnostic procedures. While satisfied owners observe gentle care and patience, several critical reviews describe hurried handling that elevated fear and anxiety in sensitive pets.",
+        "pl": "Klienci przedstawiają zróżnicowane doświadczenia z badania czworonogów w gabinecie. Podczas gdy zadowoleni opiekunowie dostrzegają delikatność i spokój, część recenzji krytycznych wskazuje na pośpiech i niepotrzebny stres wywołany u bardziej lękliwych zwierząt."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 23,
+      "title": {
+        "en": "Varying success in diagnostics and treatments",
+        "pl": "Zróżnicowane oceny skuteczności leczenia"
+      },
+      "text": {
+        "en": "Outcomes of therapies and diagnostic assessments receive mixed appraisal from reviewers over recent months. Numerous guardians credit the team with successful surgeries and accurate diagnoses, whereas dissatisfied clients express frustration over unresolved symptoms.",
+        "pl": "Rezultaty wdrożonych terapii i badań diagnostycznych spotykają się z mieszanymi ocenami właścicieli zwierząt. Wielu opiekunów dziękuje za trafną pomoc i udane zabiegi, jednak część klientów wyraża rozczarowanie brakiem poprawy stanu zdrowia pupila i przedłużającym się leczeniem."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the Amavet clinic located?",
+        "pl": "Gdzie znajduje się przychodnia Amavet?"
+      },
+      "a": {
+        "en": "Amavet is situated at Centralna 41 in the Czyżyny district of Kraków.",
+        "pl": "Przychodnia Amavet mieści się przy ulicy Centralnej 41 w krakowskiej dzielnicy Czyżyny."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How can an appointment be booked?",
+        "pl": "W jaki sposób można zarezerwować wizytę?"
+      },
+      "a": {
+        "en": "Appointments can be scheduled by contacting the reception desk by phone or through online appointment forms.",
+        "pl": "Wizyty można umawiać telefonicznie kontaktując się z rejestracją lub za pośrednictwem formularza online."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What medical specializations are offered?",
+        "pl": "W jakich dziedzinach specjalizuje się przychodnia?"
+      },
+      "a": {
+        "en": "The clinic provides internal medicine, soft surgery, cardiology, dermatology, and diagnostic ultrasound.",
+        "pl": "Placówka oferuje pomoc w zakresie chorób wewnętrznych, chirurgii miękkiej, kardiologii, dermatologii i USG."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available at the clinic?",
+        "pl": "Czy przy lecznicy dostępny jest parking?"
+      },
+      "a": {
+        "en": "Yes, parking spaces for clients are situated directly outside the entrance to the clinic.",
+        "pl": "Tak, miejsca postojowe dla zmotoryzowanych klientów znajdują się bezpośrednio przed wejściem do budynku."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 dni temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "place": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "+",
+        "waiting": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "-",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "place": "~",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "waiting": "-",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "waiting": "+"
+      }
+    }
+  ]
+}

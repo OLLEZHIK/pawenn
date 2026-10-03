@@ -1,0 +1,40 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "psi-ekspert",
+    "hitt-dog",
+    "dooobry-pies",
+    "psia-eskadra",
+    "tellmehau",
+    "dogfather",
+    "contact-dogs",
+    "bialy-pies",
+    "dogtandem",
+    "dogmydog"
+  ],
+  "hash": "f0dba9d909ec67766ef7c79010935c860efdc4761753bba726698a6691c30781",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T03:42:18.723Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T03:42:38.935Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T03:44:59.686Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-03T03:46:34.548Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
