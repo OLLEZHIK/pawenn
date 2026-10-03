@@ -1,0 +1,40 @@
+{
+  "chunk": "13-shop",
+  "kind": "places",
+  "slugs": [
+    "vaunarium",
+    "gielda-zoologiczna",
+    "kundelove",
+    "puma-hurtownia-zoologiczna",
+    "midi-zoo-sklep-zoologiczny",
+    "aqua-plant",
+    "aquael-zoo-ch-bronowice",
+    "sklep-zoologiczny-dh-wanda",
+    "maxi-zoo-krakow-ch-nowe-czyzyny",
+    "zoo-nutrient-sklep-zoologiczny"
+  ],
+  "hash": "416c1351d39d50127dd0b478b40af335fcb18252e3caf0f8006bca33690927f0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T05:09:37.982Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-03T05:11:57.926Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T05:13:58.572Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T05:14:22.975Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

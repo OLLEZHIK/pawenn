@@ -1,0 +1,55 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "vetamicor",
+    "gabinet-weterynaryjny-centaur",
+    "rajvet",
+    "malys-miroslaw-lecznica-weterynaryjna",
+    "przychodnia-weterynaryjna-lupus-winnicka",
+    "lis-pawel-gabinet-weterynaryjny",
+    "przystas-janina-gabinet-weterynaryjny",
+    "przychodnia-weterynaryjna-mruczek",
+    "przychodnia-weterynaryjna-wibrys",
+    "przychodnia-weterynaryjna-iris"
+  ],
+  "hash": "10dd38739a7e70e3cef60ee36e4eb8abbffd5d156e353700edd1911aa694ef46",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T03:08:58.191Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-03T03:10:13.380Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-03T03:12:36.997Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-03T03:14:03.151Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T08:59:52.152Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T11:09:56.067Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-03T11:10:11.732Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
