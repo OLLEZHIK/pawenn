@@ -1,0 +1,35 @@
+{
+  "chunk": "17-shop",
+  "kind": "places",
+  "slugs": [
+    "sklep-zoologiczno-wedkarski-rybka",
+    "blekitna-planeta",
+    "psishop",
+    "bocja-grota-roweckiego",
+    "choomiki",
+    "maxi-zoo-krakow-ch-krokus",
+    "fenek",
+    "super-zoo-ph-zakopianka",
+    "terra-gadzior",
+    "akwa-marin"
+  ],
+  "hash": "2c50b0adbfabee1b9222d138fcf2ad670c60176488b5c9943265a16bdf47c78a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T07:34:29.387Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-03T07:34:53.871Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T07:35:52.852Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
