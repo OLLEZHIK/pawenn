@@ -1,0 +1,153 @@
+{
+  "slug": "hotel-dla-psow-szarikton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hotel+dla+ps%C3%B3w+%E2%80%9E+Szarikton+%E2%80%9E/data=!4m7!3m6!1s0x47164340ecd05abf:0xf3223bba0d3c5439!8m2!3d50.0088962!4d19.9741651!16s%2Fg%2F1thpvkx7!19sChIJv1rQ7EBDFkcROVQ8Dbo7IvM?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "pl": "Życzliwa i troskliwa opieka personelu",
+        "en": "Caring and dedicated hotel attendants"
+      },
+      "text": {
+        "pl": "Większość opiekunów psów bardzo ciepło wypowiada się o zaangażowaniu i życzliwości pracownic hotelu, doceniając ich profesjonalizm i empatię. Jedna klientka zgłosiła jednak rozczarowanie brakiem kontaktu i odmową przyjęcia psa wykazującego zachowania lękowo-agresywne.",
+        "en": "Most dog owners speak very warmly of the attentiveness and kindness shown by the staff, praising their calm competence and care. However, one prospective client expressed frustration over communication delays and a refusal to accommodate an aggressive canine guest."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pl": "Zadowolone i wybiegane czworonogi",
+        "en": "Happy and active canine guests"
+      },
+      "text": {
+        "pl": "Klienci wielokrotnie podkreślają, że ich psy wracają z pobytu w hotelu radosne, czyste, zadbane i dobrze wybiegane na świeżym powietrzu. Właściciele dużych ras, w tym owczarków szwajcarskich, regularnie powierzają hotelowi swoje czworonogi podczas urlopów.",
+        "en": "Clients repeatedly observe that their dogs return from their hotel stay cheerful, well-groomed, and thoroughly exercised outdoors. Owners of large breeds, including Swiss Shepherds, routinely entrust their companions to this facility during family vacations."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pl": "Bezpieczne warunki i przestrzeń hotelowa",
+        "en": "Safe grounds and hotel facilities"
+      },
+      "text": {
+        "pl": "Właściciele czworonogów doceniają odpowiednie warunki lokalowe, bardzo obszerne wybiegi oraz bezpieczne otoczenie zapewniające psom komfortowy pobyt z dala od miejskiego zgiełku. Ośrodek cieszy się zaufaniem stałych bywalców powracających tu regularnie od lat.",
+        "en": "Dog owners appreciate the suitable indoor accommodations, expansive fenced play areas, and secure surroundings that guarantee a comfortable, stress-free retreat. The kennel facility enjoys the trust of recurring visitors returning over multiple seasons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Gdzie znajduje się hotel dla psów Szarikton?",
+        "en": "Where is the Szarikton dog hotel located?"
+      },
+      "a": {
+        "pl": "Hotel mieści się przy ul. Kłuszyńskiej 17 na obrzeżach krakowskiego Swoszowic.",
+        "en": "The boarding facility is located at ul. Kłuszyńska 17 in Swoszowice, Kraków."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "Jakie warunki pobytu zapewnia hotel Szarikton?",
+        "en": "What accommodations does the Szarikton hotel offer?"
+      },
+      "a": {
+        "pl": "Psy mają do dyspozycji bezpieczne boksy, wybiegi ogrodowe oraz stałą opiekę opiekunów.",
+        "en": "Dogs enjoy secure indoor enclosures, fenced outdoor exercise runs, and attentive care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pl": "Czy hotel przyjmuje każdego psa?",
+        "en": "Does the hotel accept all dogs without restriction?"
+      },
+      "a": {
+        "pl": "Przed pobytem hotel weryfikuje zachowanie zwierzęcia; może odmówić przyjęcia psów agresywnych.",
+        "en": "Prior to boarding, behavior is evaluated; the facility may decline aggressive animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
