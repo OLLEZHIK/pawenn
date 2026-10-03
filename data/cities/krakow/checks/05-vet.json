@@ -1,0 +1,40 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "vetamicor",
+    "gabinet-weterynaryjny-centaur",
+    "rajvet",
+    "malys-miroslaw-lecznica-weterynaryjna",
+    "przychodnia-weterynaryjna-lupus",
+    "lis-pawel-gabinet-weterynaryjny",
+    "przystas-janina-gabinet-weterynaryjny",
+    "przychodnia-weterynaryjna-mruczek",
+    "przychodnia-weterynaryjna-wibrys",
+    "przychodnia-weterynaryjna-iris"
+  ],
+  "hash": "335718b229f1807a80699b97ec786a35f6561c6d6cb71722e95c045981f792a0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T03:08:58.191Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-03T03:10:13.380Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-03T03:12:36.997Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-03T03:14:03.151Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
