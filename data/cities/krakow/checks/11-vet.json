@@ -1,0 +1,35 @@
+{
+  "chunk": "11-vet",
+  "kind": "places",
+  "slugs": [
+    "gabinet-weterynaryjny-dobry-weterynarz",
+    "gabinet-weterynaryjny-bialy-kiel",
+    "miau-hau-gabinet-weterynaryjny",
+    "madvet-gabinet-weterynaryjny",
+    "przychodnia-weterynaryjna-zwierzyniec",
+    "advet-lek-wet-marcin-adamczyk",
+    "gabinet-weterynaryjny-krzysztof-klimas",
+    "przychodnia-weterynaryjna-help",
+    "klinika-weterynaryjna-skotnicka-24h",
+    "przychodnia-weterynaryjna-fiolkowet"
+  ],
+  "hash": "45fd496daaf9f65a26d739fb8bec3cb773321dd7ead52d079a6be98b212f5b03",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T04:58:37.748Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-03T05:00:43.386Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T05:04:02.732Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
