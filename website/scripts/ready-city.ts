@@ -56,6 +56,28 @@ for (const g of GATES) {
   results.push({ name: g.name, pass, tail: lines.slice(-4).join("\n") });
 }
 
+// Slugs are page addresses and must be unique across ALL cities: the
+// production seed stops on a duplicate and the whole deploy fails (Kraków and
+// Warszawa both had "przychodnia-weterynaryjna-lupus", 2026-10-03).
+{
+  const owner = new Map<string, string>();
+  const dupes: string[] = [];
+  const citiesRoot = path.join(process.cwd(), "..", "data", "cities");
+  for (const c of fs.readdirSync(citiesRoot)) {
+    const dir = path.join(citiesRoot, c);
+    if (!fs.existsSync(path.join(dir, "city.json"))) continue;
+    for (const f of fs.readdirSync(dir).filter((x) => /^businesses.*\.csv$/.test(x))) {
+      for (const r of readCsv(path.join(dir, f))) {
+        if (!r.slug) continue;
+        const prev = owner.get(r.slug);
+        if (prev && prev !== c) dupes.push(`${r.slug}: ${prev} and ${c}`);
+        else owner.set(r.slug, c);
+      }
+    }
+  }
+  results.push({ name: "slugs unique across cities", pass: dupes.length === 0, tail: dupes.slice(0, 6).join("\n") });
+}
+
 // ---- 2. numbers -----------------------------------------------------------
 const businessFiles = fs.readdirSync(dataDir).filter((f) => /^businesses.*\.csv$/.test(f));
 const rows = businessFiles.flatMap((f) => readCsv(path.join(dataDir, f))).filter((r) => r.slug && !r.closed);

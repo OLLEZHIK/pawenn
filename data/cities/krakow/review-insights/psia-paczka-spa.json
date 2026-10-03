@@ -1,0 +1,132 @@
+{
+  "slug": "psia-paczka-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Psia+Paczka+Spa+dla+Psa/data=!4m7!3m6!1s0x471645963f32256b:0x6492caf1378e87c!8m2!3d50.0805069!4d20.0124784!16s%2Fg%2F11nnwb93ly!19sChIJayUyP5ZFFkcRfOh4E68sSQY?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for anxious and rescue dogs",
+        "pl": "Bezstresowa pielęgnacja psów lękliwych"
+      },
+      "text": {
+        "pl": "Opiekunowie czworonogów doceniają wyrozumiałe podejście do psów po trudnych przejściach ze schronisk oraz wrażliwych szczeniąt. Zabiegi kąpieli i trymowania odbywają się bez niepotrzebnego pośpiechu, co pozwala pupilom zachować spokój i zaufanie do personelu.",
+        "en": "Pet parents particularly value the understanding approach shown to rescue dogs and young puppies. Bathing and hand-stripping procedures are conducted without undue rush, helping sensitive animals stay calm and comfortable throughout their grooming session."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive groomers with personal approach",
+        "pl": "Empatyczna kadra i indywidualne podejście"
+      },
+      "text": {
+        "pl": "W recenzjach klienci wielokrotnie wyróżniają panią Ulę oraz zespół salonu za cierpliwość, elastyczność i świetną komunikację. Właściciele psów bardzo cenią możliwość obejrzenia nagrań wideo z przebiegu zabiegów, co daje im pełne poczucie bezpieczeństwa o psa.",
+        "en": "Reviews highlight groomer Ula and the staff for their immense patience, flexibility, and reassuring communication. Pet owners appreciate receiving video updates during the appointment, providing total peace of mind that their companions are in safe hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Precise hand-stripping and stylish coats",
+        "pl": "Precyzyjne trymowanie i zadbany wygląd"
+      },
+      "text": {
+        "pl": "Klienci wyrażają duży zachwyt starannym wykończeniem psich fryzur, równym trymowaniem szaty oraz miękką i lśniącą sierścią po kąpieli. Nawet w przypadku psów trudniejszych zabiegi obcinania pazurków i czyszczenia zębów są realizowane bardzo sprawnie i bez stresu.",
+        "en": "Clients express great satisfaction with neat styling, exact hand-stripping, and soft, glossy coats following baths. Even with spirited or restless dogs, routine treatments such as nail clipping and teeth cleaning are completed safely and without stress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Psia Paczka Spa located?",
+        "pl": "Gdzie znajduje się salon Psia Paczka Spa?"
+      },
+      "a": {
+        "en": "The salon is located at Osiedle Oświecenia 36/U-8 in the Mistrzejowice district of Kraków.",
+        "pl": "Salon mieści się na Osiedlu Oświecenia 36/U-8 w krakowskich Mistrzejowicach."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can owners see video updates of the session?",
+        "pl": "Czy w salonie można zobaczyć relacje wideo z zabiegu?"
+      },
+      "a": {
+        "en": "Yes, owners note that the team often shares video clips showing how the dog behaves during grooming.",
+        "pl": "Tak, opiekunowie wspominają, że personel udostępnia nagrania wideo z przebiegu pielęgnacji."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the studio offer hand-stripping?",
+        "pl": "Czy salon wykonuje trymowanie psów szorstkowłosych?"
+      },
+      "a": {
+        "en": "Yes, the salon provides skilled hand-stripping for wire-haired breeds and mixed-breed dogs.",
+        "pl": "Tak, w ofercie znajduje się profesjonalne trymowanie psów ras takich jak westa czy adopciaki."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

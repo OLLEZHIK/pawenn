@@ -2,19 +2,26 @@
   "chunk": "insights-03",
   "kind": "insights",
   "slugs": [
-    "lis-pawel-gabinet-weterynaryjny",
-    "proton-rezonans-dla-zwierzat",
-    "przychodnia-weterynaryjna-folwark-zwierzecy",
-    "przychodnia-weterynaryjna-mruczek",
-    "przychodnia-weterynaryjna-wibrys",
-    "przystas-janina-gabinet-weterynaryjny",
-    "psi-ekspert"
+    "fafel-grooming-salon",
+    "kotel",
+    "pani-pupilowa",
+    "petsitter-ogonek",
+    "psia-paczka-spa",
+    "salon-scoobydoo",
+    "studio-pieknego-psa",
+    "uroda-czterolapa",
+    "wyczesani-salon-pielegnacji-psow"
   ],
-  "hash": "c258f97d0b03bb20b4fe149269fd37fc9e6d4d8a2b5e8bf7dba11132d40b7833",
+  "hash": "212fdf170bdf732a99f60a40e6b0ca525903487ae2c0b6d93efa4cbd65139e8c",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T13:29:52.268Z",
+      "at": "2026-10-03T13:23:00.723Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-03T13:23:23.770Z",
       "result": "PASS",
       "listed": 0
     }
