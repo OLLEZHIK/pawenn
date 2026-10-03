@@ -2,19 +2,27 @@
   "chunk": "insights-05",
   "kind": "insights",
   "slugs": [
-    "dooobry-pies",
-    "hitt-dog",
-    "klinika-weterynaryjna-tenvet-24-7",
-    "przychodnia-weterynaryjna-animali",
-    "salon-karusek",
-    "specjalistyczne-centrum-weterynaryjne",
-    "vet-premium-balicka"
+    "dog-house-piastow",
+    "dogs-bay-domowy-hotel-dla-psow",
+    "fenek",
+    "gabinet-weterynaryjny-ambuvet",
+    "groomer-vision",
+    "pies-i-przyjaciele",
+    "podgorskie-centrum-weterynaryjne",
+    "reksvet-przychodnia-weterynaryjna",
+    "royal-vet",
+    "super-zoo-ph-zakopianka"
   ],
-  "hash": "3f80e9e7181340bb0b9a3fdd1fb7d2c3e3f5de2abbada13ec1d5f2b96b385aba",
+  "hash": "1003900fe62430047c372d5b103a75f73c04613b49b2eb0e195e20d839697336",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T13:57:15.849Z",
+      "at": "2026-10-03T13:54:56.062Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T13:55:20.293Z",
       "result": "PASS",
       "listed": 0
     }
