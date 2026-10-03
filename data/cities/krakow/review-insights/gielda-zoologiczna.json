@@ -1,0 +1,137 @@
+{
+  "slug": "gielda-zoologiczna",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Gie%C5%82da+Zoologiczna/data=!4m7!3m6!1s0x47165bd6eaa63a41:0xb4766e6ae5e292e2!8m2!3d50.0798469!4d19.8786151!16s%2Fg%2F1thx7bjw!19sChIJQTqm6tZbFkcR4pLi5WpudrQ?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Variable stall selection and stock availability",
+        "pl": "Zmienna dostępność towarów i liczba stoisk"
+      },
+      "text": {
+        "pl": "Odwiedzający zwracają uwagę na bardzo zmienną ofertę giełdy w Bronowicach. Kupujący udane zakupy łączą z wczesnym przybyciem tuż po otwarciu, gdyż towar szybko się wyprzedaje, natomiast późniejsi goście narzekają na skromniejszą liczbę wystawców i ograniczony asortyment.",
+        "en": "Visitors point out fluctuating market availability in Bronowice. Successful purchases are closely tied to arriving early as stock sells out fast, whereas afternoon visitors frequently report fewer active stalls and a diminished selection of pet goods."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Market hall scale and afternoon activity",
+        "pl": "Warunki halowe i popołudniowa pustka"
+      },
+      "text": {
+        "pl": "Opinie opisują halę giełdową jako przestrzeń, która tętni życiem wyłącznie o świcie. Osoby przyjeżdżające po południu zastają często całkowicie opustoszałe stanowiska i pozamykane punkty, dlatego stali bywalcy rekomendują wizytę w porannych godzinach otwarcia.",
+        "en": "Reviews portray the market pavilion as vibrant primarily during early morning hours. Visitors arriving later in the day often encounter deserted stalls and packed vendors, prompting regular shoppers to advise strictly early visits upon gates opening."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Aquarium fish and ornamental pond breeders",
+        "pl": "Oferta ryb akwariowych i hodowlanych"
+      },
+      "text": {
+        "pl": "W opiniach przewija się tematyka stoisk z rybkami i ptakami. Klienci chwalą wiosenną obecność hodowców ryb stawowych, takich jak orfy czy jesiotry, jednak akwaryści zauważają mniejszą liczbę gatunków w porównaniu z ubiegłymi latami funkcjonowania giełdy.",
+        "en": "Feedback frequently touches upon aquarium fish and pet bird stalls. Shoppers appreciate seasonal breeders of cold-water pond fish like orfs and sturgeons, although hobbyists notice substantially fewer aquarium species compared to historical market trade peaks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where does the pet exchange take place in Kraków?",
+        "pl": "Gdzie odbywa się Giełda Zoologiczna w Krakowie?"
+      },
+      "a": {
+        "en": "The trade market is held at ulica Balicka 56 in Bronowice Małe.",
+        "pl": "Giełda organizowana jest przy ulicy Balickiej 56 w Bronowicach Małych."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "When is the best time to visit the market?",
+        "pl": "O jakiej porze najlepiej odwiedzić giełdę?"
+      },
+      "a": {
+        "en": "Reviews strongly advise arriving early in the morning before stalls pack up.",
+        "pl": "Opinie zdecydowanie zalecają przybycie rano, zanim stoiska zakończą sprzedaż."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pond and aquarium fish available for purchase?",
+        "pl": "Czy na giełdzie można kupić ryby do oczka i akwarium?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm seasonal availability of pond fish and aquarium species.",
+        "pl": "Tak, recenzje potwierdzają obecność hodowców ryb ozdobnych i akwariowych."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 dni temu",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "place": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "results": "~",
+        "animals": "~",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "results": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
