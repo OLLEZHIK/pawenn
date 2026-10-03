@@ -2,19 +2,26 @@
   "chunk": "insights-03",
   "kind": "insights",
   "slugs": [
-    "dooobry-pies",
-    "hitt-dog",
-    "klinika-weterynaryjna-tenvet-24-7",
-    "przychodnia-weterynaryjna-animali",
-    "salon-karusek",
-    "specjalistyczne-centrum-weterynaryjne",
-    "vet-premium-balicka"
+    "fafel-grooming-salon",
+    "kotel",
+    "pani-pupilowa",
+    "petsitter-ogonek",
+    "psia-paczka-spa",
+    "salon-scoobydoo",
+    "studio-pieknego-psa",
+    "uroda-czterolapa",
+    "wyczesani-salon-pielegnacji-psow"
   ],
-  "hash": "3f80e9e7181340bb0b9a3fdd1fb7d2c3e3f5de2abbada13ec1d5f2b96b385aba",
+  "hash": "212fdf170bdf732a99f60a40e6b0ca525903487ae2c0b6d93efa4cbd65139e8c",
   "result": "PASS",
   "history": [
     {
-      "at": "2026-10-03T13:27:43.776Z",
+      "at": "2026-10-03T13:23:00.723Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-03T13:23:23.770Z",
       "result": "PASS",
       "listed": 0
     }
