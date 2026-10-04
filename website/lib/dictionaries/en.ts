@@ -74,6 +74,7 @@ export const en = {
     statPlaces: (n: number): string => (n === 1 ? "place listed" : "places listed"),
     statCountries: (n: number): string => (n === 1 ? "country" : "countries"),
     statKinds: (n: number): string => (n === 1 ? "kind of service" : "kinds of service"),
+    statPeople: "people who could use Pawenn",
     browseEyebrow: "Browse by service",
     browseTitle: "What does your pet need today?",
     browseBody: "Six kinds of pet care, each with its own list of places and a source for every listing.",
