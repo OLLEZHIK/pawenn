@@ -1,0 +1,136 @@
+{
+  "slug": "hotel-dla-psow-dogotel",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hotel+dla+ps%C3%B3w+Dogotel/data=!4m7!3m6!1s0x470fc1d78c5f67cd:0x362ce1012088f525!8m2!3d51.122006!4d16.955111!16s%2Fg%2F11cjh_lk4s!19sChIJzWdfjNfBD0cRJfWIIAHhLDY?authuser=0&hl=pl&entry=ttu",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Canine boarding and training experiences",
+        "pl": "Pobyty i doświadczenia ze szkolenia psów"
+      },
+      "text": {
+        "en": "Most returning clients describe dogs feeling comfortable, calm, and affectionate with the hosts during boarding stays. Canines enjoy peaceful spaces for daily rest and outdoor runs. In sharp contrast, a severe critical complaint alleges harsh dominance training methods, resulting in a mixed overall assessment for animals.",
+        "pl": "Większość stałych klientów opisuje, że psy czują się w hotelu spokojnie, swobodnie i chętnie witają opiekunów podczas kolejnych pobytów. Czworonogi mają zapewnione bezpieczne warunki do odpoczynku i wybiegu. Z kolei ostra opinia krytyczna zarzuca stosowanie przestarzałych metod szkoleniowych, co tworzy mieszany obraz opieki."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Peaceful environment for dog stays",
+        "pl": "Spokojne miejsce na pobyt psów"
+      },
+      "text": {
+        "en": "Dog owners appreciate the facility as a secure second home where pets have quiet areas for resting and playing while families travel. The spacious outdoor grounds and suburban setting in Wrocław provide an orderly, pleasant atmosphere away from urban traffic and daily commotion.",
+        "pl": "Właściciele psów cenią to miejsce jako bezpieczny drugi dom, w którym czworonogi mają ciche warunki do wypoczynku i zabawy podczas wyjazdów rodziny. Przestronny, ogrodzony teren zielony na wrocławskich Nowych Dworach sprzyja wyciszeniu i bezstresowemu spędzaniu czasu z dala od miejskiego hałasu."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Calm handlers and controversial training",
+        "pl": "Opanowani opiekunowie i spór o metody"
+      },
+      "text": {
+        "en": "Clients who regularly rely on Leszek and Iwona emphasize their balanced, observant demeanor when handling fearful or reactive dogs. The caretakers maintain a patient routine during stays. However, an adversarial critical review sharply condemns the training philosophy and reliance on dominance concepts.",
+        "pl": "Klienci regularnie powierzający psy panu Leszkowi i pani Iwonie chwalą ich rozwagę, opanowanie oraz spokój w codziennej pracy z lękliwymi psami. Opiekunowie dbają o przewidywalny rytm dnia. Jednocześnie mocno krytyczny głos zarzuca ośrodkowi nieodpowiednie podejście trenerskie oparte na dawnej teorii dominacji."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do hosts handle timid or nervous dogs?",
+        "pl": "Czy opiekunowie radzą sobie z lękliwymi psami?"
+      },
+      "a": {
+        "en": "Yes, clients with anxious dogs note that the hosts remain calm, observant, and patient during boarding.",
+        "pl": "Tak, klienci z niepewnymi psami zauważają, że opiekunowie wykazują spokój, rozwagę i cierpliwość."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Dogotel combine boarding with dog training?",
+        "pl": "Czy Dogotel łączy hotel ze szkoleniem psów?"
+      },
+      "a": {
+        "en": "Yes, reviews describe long-standing experience in dog handling, behavioural work, and boarding care.",
+        "pl": "Tak, opinie wspominają o wieloletnim doświadczeniu w pracy z psami, szkoleniach oraz opiece hotelowej."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are boarding prices considered reasonable?",
+        "pl": "Czy ceny pobytu w hotelu są przystępne?"
+      },
+      "a": {
+        "en": "Yes, reviewer evaluations highlight affordable pricing for personalized pet boarding in Wrocław.",
+        "pl": "Tak, opinie klientów bezpośrednio oceniają koszt opieki jako przystępny i adekwatny do warunków."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 6 miesięcy temu",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

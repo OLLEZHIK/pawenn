@@ -1,0 +1,35 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "neuroteam",
+    "animalvet",
+    "stanczyk-janusz",
+    "gabinet-weterynaryjny-dawid-kienig-siwek",
+    "przychodnia-weterynaryjna-my-vet",
+    "leo",
+    "przychodnia-weterynaryjna-remedium",
+    "goldvet",
+    "salamandra-przychodnia-weterynaryjna",
+    "przychodnia-weterynaryjna-magvet"
+  ],
+  "hash": "72f54f5f6e040cce3ee7fa5a2355acf36285157c92ba857072b8ff2e187d2795",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-04T12:14:17.518Z",
+      "result": "FAIL",
+      "listed": 48
+    },
+    {
+      "at": "2026-10-04T12:16:12.356Z",
+      "result": "FAIL",
+      "listed": 48
+    },
+    {
+      "at": "2026-10-04T12:23:03.135Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
