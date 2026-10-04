@@ -5,6 +5,7 @@ import { getMarketPrices, type ServicePriceRow } from "@/lib/data";
 import { CATEGORY_THEME, businessPath, categoryLabel, categoryPricesName, cityPath, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { MARKET_BAND, pctAgainst } from "@/lib/priceMarket";
+import { priceTone, TONE_TEXT } from "@/lib/priceTone";
 import { answerText, comparable, getPriceSummary, money, pricesPath } from "@/lib/pricePages";
 import { moneyRange } from "@/lib/money";
 import { SERVICES, serviceIncludes, serviceLabel, serviceSeoName } from "@/lib/services";
@@ -164,13 +165,7 @@ export async function ServicePricePage({
                   const pct = market && market.currency === line.currency ? pctAgainst(line.from, market.median) : null;
                   const vs =
                     pct === null ? null : (
-                      <span
-                        className={
-                          Math.abs(pct) <= MARKET_BAND
-                            ? "text-foreground/70"
-                            : "text-[var(--accent,var(--brand-blue))]"
-                        }
-                      >
+                      <span className={`whitespace-nowrap font-semibold ${TONE_TEXT[priceTone(pct)]}`}>
                         {Math.abs(pct) <= MARKET_BAND
                           ? t.card.vsMarket(pct, true)
                           : line.from < market!.median
