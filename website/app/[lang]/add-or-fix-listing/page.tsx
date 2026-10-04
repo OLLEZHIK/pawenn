@@ -1,13 +1,18 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/site";
+import { socialMeta } from "@/lib/seo";
 import { ArrowRightIcon, MailIcon, ShieldCheckIcon, SparkleIcon, TagIcon } from "@/components/icons";
 
+const TITLE = "Add or Fix a Listing | Pawenn";
+const DESCRIPTION = "Add your pet business or correct details on an existing Pawenn listing.";
+
 export const metadata: Metadata = {
-  title: "Add or Fix a Listing - pawenn",
-  description: "Add your business or correct details on an existing pawenn listing.",
+  title: TITLE,
+  description: DESCRIPTION,
   // English only; v2 URL with the /en/ prefix.
   alternates: { canonical: `${SITE_URL}/en/add-or-fix-listing/` },
+  ...socialMeta({ title: TITLE, description: DESCRIPTION, path: "/en/add-or-fix-listing/", locale: "en" }),
 };
 
 const WHAT_TO_INCLUDE = [
