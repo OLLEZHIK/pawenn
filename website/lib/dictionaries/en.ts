@@ -321,9 +321,7 @@ export const en = {
     goodToKnowNote: "As the place states it on its own website.",
     faqTitle: "Questions before you call",
     cityPricesTitle: (where: string) => `What it costs ${where}`,
-    cityPricesIntro: "This place doesn't publish its prices. For comparison - what other places in the city charge:",
-    cityPricesRow: (from: string, median: string, places: number) =>
-      `from ${from} · median ${median} · ${places} ${places === 1 ? "place" : "places"}`,
+    cityPricesIntro: "No price list here. Typical prices in the city:",
     welcomes: "Welcomes",
     specialties: "Specialties",
     openingHours: "Opening hours",
