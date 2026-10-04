@@ -189,7 +189,9 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 cityName={cityName}
                 categories={categories.map((c) => ({ slug: c.slug, label: c.label, category: c.category }))}
                 popularCategorySlugs={popularCategorySlugs}
-                cities={cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
+                cities={cityPoints
+                  .filter((p) => homeCities.some((c) => c.slug === p.slug))
+                  .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
               />
             </div>
 
@@ -238,7 +240,13 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         />
         <NearestCityNav
           locale={locale}
-          cities={multi ? cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng })) : []}
+          cities={
+            multi
+              ? cityPoints
+                  .filter((p) => homeCities.some((c) => c.slug === p.slug))
+                  .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))
+              : []
+          }
           defaultCitySlug={citySlug}
           className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3"
         >
