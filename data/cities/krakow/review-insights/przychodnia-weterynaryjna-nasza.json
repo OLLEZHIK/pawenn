@@ -1,0 +1,184 @@
+{
+  "slug": "przychodnia-weterynaryjna-nasza",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Przychodnia+Weterynaryjna+%22Nasza%22+%7C+Weterynarz+Krak%C3%B3w/data=!4m7!3m6!1s0x47165b0d14c37e47:0x7bc00664958ce49a!8m2!3d50.083559!4d19.9106878!16s%2Fg%2F11g0g1nq9x!19sChIJR37DFA1bFkcRmuSMlWQGwHs?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "pl": "Kompetencje lekarzy i zróżnicowane oceny",
+        "en": "Veterinary competence and mixed evaluations"
+      },
+      "text": {
+        "pl": "Część opiekunów bardzo ceni wiedzę dr Hanny Bobki, dr Niny oraz dietetyk Marii Budzyk za wnikliwe konsultacje i zaangażowanie. Z drugiej strony dwie opinie zarzucają lecznicy odmowę udzielenia doraźnej pomocy w nagłej sytuacji oraz nastawienie na zysk.",
+        "en": "Several clients hold Dr. Hanna Bobka, Dr. Nina, and pet nutritionist Maria Budzyk in high regard for their insightful consultations. Conversely, two negative reviews accuse the practice of declining emergency assistance and prioritizing clinic profits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "pl": "Troska o zwierzęta i zabiegi",
+        "en": "Patient care and medical procedures"
+      },
+      "text": {
+        "pl": "Wielu stałych klientów darzy lecznicę głębokim zaufaniem w prowadzeniu psów przewlekle chorych i dietoterapii. Pojawiły się jednak krytyczne recenzje dotyczące nieprawidłowo przeprowadzonej kastracji chemicznej psa i braku oczekiwanych efektów hormonalnych po zabiegu.",
+        "en": "Many long-term visitors express trust in the clinic's care for chronically sick dogs and tailored dietary plans. However, critical reviews describe severe dissatisfaction regarding an ineffective chemical castration that failed to reduce testosterone levels."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "pl": "Obsługa zgłoszeń i przepływ informacji",
+        "en": "Customer communications and complaint resolution"
+      },
+      "text": {
+        "pl": "Klienci zgłaszają poważne zastrzeżenia do procedury rozpatrywania reklamacji – opiekunowie czekali ponad dwa miesiące na odpowiedź w sprawie powikłań powizytowych. Mimo że kontakt bieżący bywa sprawny, w sytuacjach spornych dialog ulegał zupełnemu zerwaniu.",
+        "en": "Clients voice sharp criticism over the practice's grievance handling, noting that inquiries and complaints went unanswered for over two months. While routine visit follow-ups are described as prompt, communication broke down during contentious disputes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Czy w przychodni przyjmuje dietetyk zwierzęcy?",
+        "en": "Is a pet nutritionist available at the clinic?"
+      },
+      "a": {
+        "pl": "Tak, konsultacji żywieniowych dla psów i kotów udziela dietetyk Maria Budzyk.",
+        "en": "Yes, dietary consultations for pets are conducted by nutritionist Maria Budzyk."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pl": "Gdzie znajduje się Przychodnia Weterynaryjna Nasza?",
+        "en": "Where is Przychodnia Nasza located in Kraków?"
+      },
+      "a": {
+        "pl": "Lecznica mieści się przy ul. Kazimierza Wyki 11 w krakowskich Krowodrzach.",
+        "en": "The practice is situated at ul. Kazimierza Wyki 11 in the Krowodrza district of Kraków."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "Czy w placówce wykonywane są zabiegi kastracji?",
+        "en": "Are pet castration services performed here?"
+      },
+      "a": {
+        "pl": "Tak, przychodnia oferuje zabiegi chirurgiczne oraz kastrację chemiczną.",
+        "en": "Yes, the clinic performs both surgical procedures and chemical castration."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "-",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

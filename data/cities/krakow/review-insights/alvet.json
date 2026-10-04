@@ -1,0 +1,145 @@
+{
+  "slug": "alvet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Przychodnia+Weterynaryjna+ALVET+Olga+Jaworska/data=!4m7!3m6!1s0x47165bc912921323:0x92935412dd95550a!8m2!3d50.0800898!4d19.8931639!16s%2Fg%2F1hc5g9cmk!19sChIJIxOSEslbFkcRClWV3RJUk5I?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Accurate diagnostics and lifesaving clinical care",
+        "pl": "Trafna diagnostyka i skuteczne leczenie"
+      },
+      "text": {
+        "pl": "Opiekunowie zwierząt jednogłośnie chwalą wysoką skuteczność terapii i rzetelną diagnostykę kliniczną, w tym szczegółowe badania kardiologiczne oraz echo serca. W recenzjach pojawiają się serdeczne podziękowania za uratowanie życia czworonogów i bezpieczne, bezstresowe kontrole zdrowotne.",
+        "en": "Pet owners unanimously praise high therapeutic effectiveness and thorough clinical diagnostics, including detailed echocardiography and cardiology checks. Reviewers express heartfelt gratitude for lifesaving medical interventions and safe, stress-free health examinations."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Empathetic doctors with meticulous attention",
+        "pl": "Empatyczne lekarki i pełen profesjonalizm"
+      },
+      "text": {
+        "pl": "Właściciele czworonogów doceniają wiedzę, spokój oraz zaangażowanie doktor Olgi Jaworskiej i lekarki Kingi. Personel szczegółowo wyjaśnia plan leczenia, okazuje cierpliwość, rozwiewa wątpliwości i dba o pełen komfort pacjentów przez wszystkie lata opieki profilaktycznej.",
+        "en": "Animal owners commend the clinical skill, calm demeanor, and dedication of Dr. Olga Jaworska and vet Kinga. The medical staff thoroughly explains therapeutic regimens, demonstrating patience, answering questions, and providing reassuring comfort across long-term care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Stress-free examinations for dogs and cats",
+        "pl": "Łagodne podejście do psów i kotów"
+      },
+      "text": {
+        "pl": "Klienci podkreślają wyjątkowo łagodne i delikatne traktowanie kotów oraz psów podczas wizyt w gabinecie. Badania przebiegają bez niepotrzebnego lęku, a personel z empatią i uwagą podchodzi nawet do najbardziej zestresowanych i wrażliwych zwierzaków z problemami zdrowotnymi.",
+        "en": "Clients highlight exceptionally gentle and considerate handling of cats and dogs during consultations. Clinical examinations proceed with minimal stress, while medical team members treat even the most anxious and sensitive companion animals with genuine empathy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is veterinary clinic ALVET located in Kraków?",
+        "pl": "Gdzie znajduje się Przychodnia Weterynaryjna ALVET?"
+      },
+      "a": {
+        "en": "The clinic is located at ulica Na Błonie 9A in the Bronowice district.",
+        "pl": "Przychodnia mieści się przy ulicy Na Błonie 9A w dzielnicy Bronowice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform pet echocardiography?",
+        "pl": "Czy w przychodni wykonywane jest echo serca zwierząt?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm thorough cardiology checkups and ultrasound diagnostics.",
+        "pl": "Tak, recenzje potwierdzają dokładne badania kardiologiczne i echo serca."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do doctors provide long-term care from puppyhood?",
+        "pl": "Czy lekarze prowadzą zwierzęta od wieku szczenięcego?"
+      },
+      "a": {
+        "en": "Yes, clients report regular preventive care lasting several years.",
+        "pl": "Tak, klienci opisują stałe leczenie profilaktyczne trwające od lat."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 miesięcy temu",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

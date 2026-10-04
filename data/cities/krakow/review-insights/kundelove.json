@@ -1,0 +1,149 @@
+{
+  "slug": "kundelove",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kundelove/data=!4m7!3m6!1s0x47165d68594afe81:0xef2f76233c050b40!8m2!3d50.0020904!4d19.8987662!16s%2Fg%2F11j4n9rf68!19sChIJgf5KWWhdFkcRQAsFPCN2L-8?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Quality pet food and diverse dog accessories",
+        "pl": "Wysokiej jakości karmy i akcesoria dla psów"
+      },
+      "text": {
+        "pl": "Mieszkańcy osiedla Kliny chwalą bogaty wybór produktów dla psów i kotów, w tym stałą dostępność karm, zdrowych smaczków, suplementów oraz zabawek. Klienci doceniają starannie wyselekcjonowane towary wysokiej jakości, dopasowane do potrzeb domowych czworonogów.",
+        "en": "Residents of the Kliny neighborhood praise the rich assortment for dogs and cats, including steady supplies of quality food, treats, supplements, and toys. Clients value carefully selected premium goods tailored specifically to companion pet health and nutrition."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful store advice and welcoming team",
+        "pl": "Pomocne doradztwo i przyjazna obsługa"
+      },
+      "text": {
+        "pl": "W opiniach regularnie pojawiają się pochwały pod adresem sprzedawców, którzy zawsze chętnie i profesjonalnie doradzają w doborze karmy czy akcesoriów. Obsługa wykazuje dużą wiedzę produktową i dba o serdeczną, domową atmosferę podczas każdej wizyty w sklepie.",
+        "en": "Reviews consistently commend shop assistants who eagerly and professionally offer helpful nutritional and accessory guidance. The staff demonstrates comprehensive product knowledge and fosters a remarkably welcoming, friendly atmosphere throughout shopping visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Pet-friendly atmosphere for visiting dogs",
+        "pl": "Przyjazne podejście do czworonożnych gości"
+      },
+      "text": {
+        "pl": "Klienci podkreślają, że salon jest w pełni otwarty na zwierzęta wchodzące razem ze swoimi opiekunami. Pracownicy traktują czworonożnych gości z wielką sympatią, dzięki czemu wspólne zakupy na Klinach są czystą przyjemnością dla psów i ich zadowolonych właścicieli.",
+        "en": "Clients highlight that the pet boutique warmly welcomes dogs accompanying their owners inside. The personnel treats visiting pets with authentic kindness, turning neighbourhood shopping outings into a truly delightful canine experience for pets and owners alike."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is pet boutique Kundelove situated in Kraków?",
+        "pl": "Gdzie na mapie Krakowa mieści się sklep Kundelove?"
+      },
+      "a": {
+        "en": "The store is located at ulica Komuny Paryskiej 28B on osiedle Kliny.",
+        "pl": "Sklep mieści się przy ulicy Komuny Paryskiej 28B na osiedlu Kliny."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet owners enter the shop together with their dogs?",
+        "pl": "Czy do sklepu można wejść razem ze swoim psem?"
+      },
+      "a": {
+        "en": "Yes, reviews highlight a very friendly attitude towards visiting dogs.",
+        "pl": "Tak, recenzje chwalą serdeczne podejście obsługi do odwiedzających psów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop stock specialized cat and dog foods?",
+        "pl": "Czy w ofercie stale dostępne są specjalistyczne karmy?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm reliable availability of quality pet food and treats.",
+        "pl": "Tak, opinie potwierdzają stałą dostępność karm i zdrowych smaczków."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // The gate after every chunk of 10 (docs/playbooks/quality.md, rule 10).
 //
 //   npm run gate -- <city>            the next chunk that has no valid PASS
-//   npm run gate -- <city> <chunk>    one chunk by name ("03-vet", "insights-02")
+//   npm run gate -- <city> <chunk>    one chunk by name ("03-vet", "insights-<first-slug>")
 //
 // Runs check-city and verify-city on that chunk only - its places against
 // their sites, its quotes against their pages, its review summaries against
@@ -58,7 +58,8 @@ if (wanted) {
   chunk = pending[0];
   waiting = pending.length - 1;
   if (!chunk && insights.unstamped.length) {
-    chunk = { id: nextInsightsId(dir), kind: "insights", slugs: insights.unstamped.slice(0, CHUNK_SIZE), files: [] };
+    const slugs = [...insights.unstamped].sort().slice(0, CHUNK_SIZE);
+    chunk = { id: nextInsightsId(dir, slugs), kind: "insights", slugs, files: [] };
     waiting = insights.unstamped.length > CHUNK_SIZE ? 1 : 0;
   }
 }
