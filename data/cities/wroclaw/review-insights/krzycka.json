@@ -1,0 +1,489 @@
+{
+  "slug": "krzycka",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Krzycka/data=!4m7!3m6!1s0x470fc3c88d9cd01f:0xfe7a4a773eb5cce7!8m2!3d51.0679101!4d16.9905176!16s%2Fg%2F1tdyphvf!19sChIJH9CcjcjDD0cR58y1PndKev4?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 40,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 32,
+      "title": {
+        "en": "Experienced doctors and surgical specialists",
+        "pl": "Doświadczeni lekarze i specjaliści chirurdzy"
+      },
+      "text": {
+        "en": "Guardians express sincere appreciation for dedicated veterinarians and surgeons, praising their diagnostic thoroughness and warm bedside manner. Doctors are commended for patiently answering questions, though some clients note delays at the reception desk.",
+        "pl": "Opiekunowie wyrażają duże uznanie dla zaangażowanych lekarzy i chirurgów, chwaląc ich wnikliwość diagnostyczną oraz ciepłe podejście. Zespół medyczny cierpliwie odpowiada na pytania, choć część klientów zwraca uwagę na opóźnienia w pracy samej recepcji."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 27,
+      "title": {
+        "en": "Dental surgery and medical therapies",
+        "pl": "Zabiegi stomatologiczne i terapie lecznicze"
+      },
+      "text": {
+        "en": "Many clients highlight excellent outcomes after complex dental operations, ultrasound checkups, and dermatological therapies. In contrast, several reviews report dissatisfaction regarding delayed treatment documentation or prolonged recovery after surgical interventions.",
+        "pl": "Wielu klientów podkreśla doskonałe rezultaty po skomplikowanych zabiegach stomatologicznych, badaniach USG i leczeniu skóry. Z kolei kilka opinii wyraża rozczarowanie z powodu opóźnień w wydawaniu dokumentacji leczenia lub przedłużającej się rekonwalescencji."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 25,
+      "title": {
+        "en": "Patient comfort and veterinary handling",
+        "pl": "Komfort pacjentów i opieka weterynaryjna"
+      },
+      "text": {
+        "en": "Veterinarians handle dogs and cats with calm reassurance, helping reduce stress during clinical examinations and post-operative monitoring. However, mixed comments mention that long waits in busy waiting areas can cause unnecessary agitation for sensitive animals.",
+        "pl": "Lekarze podchodzą do psów i kotów ze spokojem, co pomaga ograniczyć stres podczas badań klinicznych i kontroli pozabiegowych. Z drugiej strony mieszane opinie wskazują, że dłuższe oczekiwanie w poczekalni bywa uciążliwe dla bardziej lękliwych czworonogów."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform pet dental treatments and oral surgery?",
+        "pl": "Czy w przychodni Krzycka wykonywane są zabiegi stomatologiczne dla zwierząt?"
+      },
+      "a": {
+        "en": "Yes, reviews highlight dedicated dental procedures, teeth cleaning, and oral surgery carried out by clinic doctors.",
+        "pl": "Tak, opinie klientów podkreślają profesjonalne zabiegi dentystyczne, sanację jamy ustnej i chirurgię stomatologiczną."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can veterinary consultations be conducted in English?",
+        "pl": "Czy konsultacje weterynaryjne są dostępne w języku angielskim?"
+      },
+      "a": {
+        "en": "Yes, official clinic details and foreign patient reviews confirm services in Polish and English.",
+        "pl": "Tak, oficjalne dane placówki oraz opinie klientów zagranicznych potwierdzają obsługę po polsku i angielsku."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How can clients book an appointment at Krzycka?",
+        "pl": "Jak można zarezerwować wizytę w przychodni Krzycka?"
+      },
+      "a": {
+        "en": "Appointments can be booked online through the clinic reservation system or by telephone contact.",
+        "pl": "Wizytę można umówić za pośrednictwem internetowego systemu rezerwacji lub telefonicznie w rejestracji."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edytowano tydzień temu",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "~",
+        "waiting": "~",
+        "communication": "~",
+        "results": "~",
+        "animals": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "results": "-",
+        "place": "+",
+        "animals": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "results": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
