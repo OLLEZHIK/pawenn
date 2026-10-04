@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "klinika-psa-i-kota",
+    "skvet-klinika-weterynaryjna",
+    "zwierzyniec",
+    "provet",
+    "przychodnia-weterynaryjna-neovet",
+    "przychodnia-weterynaryjna-ekovet",
+    "krzycka",
+    "przychodnia-weterynaryjna-vetan-3",
+    "przychodnia-weterynaryjna-kumak",
+    "gryf"
+  ],
+  "hash": "e5a6d12f024ee030b89a626d34ce9c00a2155759ff072e4cbfe659788d975725",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T11:29:19.680Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-02T11:30:58.723Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

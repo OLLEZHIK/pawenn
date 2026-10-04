@@ -1,0 +1,164 @@
+{
+  "slug": "kakadu-zoo-hallera",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kakadu+Zoo/@51.0890969,16.998364,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc23b39648097:0x922561dd3aaadb81!8m2!3d51.0890969!4d16.998364!16s%2Fg%2F1tkv8h1p?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Serious concerns over animal welfare",
+        "pl": "Poważny niepokój o dobrostan zwierząt"
+      },
+      "text": {
+        "en": "Most reviewers express serious concern regarding the housing conditions of animals in the store. Shoppers highlight cramped cages for rodents, rabbits lacking water access, sickly aquarium fish, and inaccurate sex determination by staff when selling pet rats.",
+        "pl": "Większość recenzentów z niepokojem opisuje warunki utrzymania zwierząt w lokalu. Klienci zwracają uwagę na ciasne klatki dla gryzoni, brak dostępu do wody u królików, chore rybki w małych akwariach oraz pomyłki pracowników przy określaniu płci sprzedawanych gryzoni."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Blocked aisles and cluttered shopping space",
+        "pl": "Zastawione alejki i chaos w lokalu"
+      },
+      "text": {
+        "en": "Shoppers criticize the retail floor layout at the al. Hallera branch. Reviews note warehouse delivery pallets obstructing pathways, difficult navigation through cramped aisles, elevated noise, and poor cleanliness, all of which negatively impact the shopping experience.",
+        "pl": "Klienci krytykują organizację przestrzeni handlowej w sklepie przy alei Hallera. Zwracają uwagę na palety z towarem blokujące przejścia, trudności z poruszaniem się między regałami oraz hałas i brak czystości, co negatywnie wpływa na odbiór tego punktu handlowego."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical remarks regarding staff conduct",
+        "pl": "Krytyczne opinie o podejściu personelu"
+      },
+      "text": {
+        "en": "Reviews of the store personnel are predominantly critical. Shoppers mention unsolicited remarks by staff regarding the temperament of visiting dogs, contentious disputes during customer complaints, and unfulfilled phone call commitments regarding pet orders.",
+        "pl": "Opinie o personelu są w przeważającej mierze krytyczne. Klienci wspominają o nieproszonych uwagach pracowników dotyczących wychowania i rasy przyprowadzonych psów, sporach przy składaniu reklamacji oraz braku obiecanego kontaktu telefonicznego w sprawach zamówień."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are pet rodents and birds offered for sale in the branch?",
+        "pl": "Czy w sklepie prowadzona jest sprzedaż gryzoni i ptaków?"
+      },
+      "a": {
+        "en": "Yes, small pets are sold, though customer feedback raises substantial concerns over enclosure welfare.",
+        "pl": "Tak, sklep oferuje małe zwierzęta, jednak opinie klientów wskazują na zastrzeżenia co do ich warunków."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers bring their pet dogs inside the store?",
+        "pl": "Czy można wejść do sklepu z własnym psem?"
+      },
+      "a": {
+        "en": "Visiting with a dog is possible, but reviewers note uncomfortable unsolicited remarks from staff.",
+        "pl": "Wejście z psem jest możliwe, ale klienci wspominają o nieprzyjemnych komentarzach personelu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet cages and general accessories stocked?",
+        "pl": "Czy w salonie dostępny jest asortyment klatek i akcesoriów?"
+      },
+      "a": {
+        "en": "Yes, the branch maintains a sizeable selection of bird cages, pet carriers, and standard pet foods.",
+        "pl": "Tak, sklep posiada duży wybór klatek dla ptaków, transporterów oraz karm bytowych."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "animals": "~",
+        "place": "~",
+        "prices": "~",
+        "waiting": "~",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "place": "-",
+        "waiting": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "7 miesięcy temu",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "place": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "best-groom-studio",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BEST+GROOM+STUDIO/@51.0836807,17.0384243,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2f7c44f30b1:0xfa473c5008e1f423!8m2!3d51.0836807!4d17.0384243!16s%2Fg%2F11f01qx71q?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Thorough coat trimming and cat brushing",
+        "pl": "Staranne strzyżenie i dokładne wyczesywanie"
+      },
+      "text": {
+        "en": "Pet owners generally praise the visual results achieved at the salon on aleja Armii Krajowej. Reviews highlight neat trimming, thorough de-shedding of cats and dogs, and a tidy overall appearance, though occasional feedback describes the cut as merely average.",
+        "pl": "Opiekunowie psów i kotów na ogół chwalą wizualny efekt zabiegów w salonie przy alei Armii Krajowej. Recenzje wskazują na estetyczne strzyżenie, porządne wyczesywanie podszerstka oraz ładny wygląd zwierząt, choć zdarzają się głosy o przeciętnym cięciu."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Divided feedback on pet stress",
+        "pl": "Zróżnicowane opinie o komforcie pupili"
+      },
+      "text": {
+        "en": "Feedback regarding the emotional comfort of pets is distinctly mixed. Some guardians report complete trust, happy animals, and great handling of demanding dogs, whereas critical reviews mention significant stress during visits and lasting fear of grooming tools.",
+        "pl": "Opinie na temat samopoczucia zwierząt są podzielone. Część klientów opisuje pełne zaufanie, radość pupili i świetną współpracę z trudnymi psami, podczas gdy niezadowoleni opiekunowie zgłaszają duży stres psa po wizycie oraz późniejsze lęki przed czesaniem."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed impressions of staff approach",
+        "pl": "Niejednorodne oceny podejścia personelu"
+      },
+      "text": {
+        "en": "Client impressions of the studio team vary considerably. On one hand, satisfied owners appreciate the groomers' willingness to work with restless animals, while on the other hand, reviewers complain about phone mix-ups, tense interactions, and poor customer care.",
+        "pl": "Klienci różnie oceniają kontakt z pracownikami studia. Z jednej strony pojawia się wdzięczność za cierpliwość i podjęcie się pielęgnacji niesfornego pupila, z drugiej strony krytycy narzekają na trudności w komunikacji, błędy telefoniczne i nerwową atmosferę."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon accept cats for grooming?",
+        "pl": "Czy salon podejmuje się pielęgnacji kotów?"
+      },
+      "a": {
+        "en": "Yes, reviews mention successful and thorough coat brushing for cats.",
+        "pl": "Tak, recenzje wspominają o bardzo udanym i dokładnym wyczesywaniu kotów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What payment methods are accepted?",
+        "pl": "Jakie formy płatności są akceptowane na miejscu?"
+      },
+      "a": {
+        "en": "Clients note in reviews that the studio accepts cash payments only.",
+        "pl": "Klienci w opiniach zwracają uwagę, że w salonie obowiązuje płatność wyłącznie gotówką."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can difficult or restless dogs be groomed here?",
+        "pl": "Czy w salonie można strzyc trudne lub niesforne psy?"
+      },
+      "a": {
+        "en": "Reviews indicate that groomers take on restless pets, though some owners express concerns over stress levels.",
+        "pl": "Opinie wskazują, że groomerzy podejmują się pracy z niesfornymi psami, choć niektórzy właściciele zgłaszają obawy o poziom stresu pupila."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 2 tygodnie temu",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "~",
+        "animals": "-",
+        "prices": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 2 tygodnie temu",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "+",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "+",
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

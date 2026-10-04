@@ -1,0 +1,150 @@
+{
+  "slug": "pracownia-cztery-lapy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pracownia+CZTERY+%C5%81APY/@51.133701,17.0244666,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9f2b914c47d:0xde087f4036ef8ff3!8m2!3d51.133701!4d17.0244666!16s%2Fg%2F11b7cm26gh?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle care with rare concerns",
+        "pl": "Troska o zwierzęta i pojedyncze zastrzeżenia"
+      },
+      "text": {
+        "en": "Most guardians praise the gentle and caring approach of the grooming team towards their pets. Owners note that dogs return home calm, well-groomed, and cheerful. However, one reviewer reported dissatisfaction regarding a lack of proper handling and patience from a staff member.",
+        "pl": "Większość opiekunów chwali cierpliwe i ciepłe podejście personelu do czworonogów. Klienci zauważają, że psy po zabiegach wracają zrelaksowane, zadbane i zadowolone. Pojawiła się jednak pojedyncza krytyczna opinia dotycząca braku właściwego podejścia do psa ze strony jednej z pracownic salonu."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated team and service feedback",
+        "pl": "Zaangażowany zespół i zróżnicowane opinie"
+      },
+      "text": {
+        "en": "Clients largely express high appreciation for the professionalism and dedication of the team led by Pani Patrycja, emphasizing a friendly atmosphere. While regular visitors commend their service, one review noted a negative impression regarding interpersonal communication with a specific staff member.",
+        "pl": "Klienci w przeważającej mierze pozytywnie oceniają profesjonalizm i zaangażowanie zespołu pani Patrycji, podkreślając przyjazną atmosferę podczas wizyt. Mimo licznych wyrazów uznania od stałych klientów, jeden z odwiedzających zgłosił negatywne odczucia dotyczące kontaktu z jedną z zatrudnionych osób."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Precise styling and grooming finish",
+        "pl": "Staranne strzyżenie i estetyczne fryzury"
+      },
+      "text": {
+        "en": "Dog owners report great satisfaction with the visual results of the grooming sessions. Reviews consistently emphasize precision in coat clipping, flattering haircuts tailored to individual breeds, and noticeable comfort for pets following thorough brushing and trimming.",
+        "pl": "Opiekunowie psów wyrażają duże zadowolenie z efektów wizualnych zabiegów pielęgnacyjnych. W recenzjach podkreślana jest dokładność strzyżenia, estetyczne dopasowanie fryzury do rasy oraz ogólny komfort i ulga zwierząt po starannym wyczesaniu i skróceniu szaty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do dogs handle grooming visits here?",
+        "pl": "Jak psy znoszą zabiegi w tej pracowni?"
+      },
+      "a": {
+        "en": "Most clients report that their dogs leave calm, refreshed, and cheerful, though one visitor noted pet stress.",
+        "pl": "Większość klientów podkreśla, że psy opuszczają salon spokojne i zadowolone, choć pojawiła się też jedna uwaga o stresie."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners book haircuts for various dog breeds?",
+        "pl": "Czy można umówić strzyżenie dla psów różnych ras?"
+      },
+      "a": {
+        "en": "Yes, reviews describe successful grooming treatments for diverse breeds, ranging from small companion dogs to larger pets.",
+        "pl": "Tak, opinie opisują udane zabiegi pielęgnacyjne dla psów wielu ras, od mniejszych pupili po większe czworonogi."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the salon recommended for regular pet maintenance?",
+        "pl": "Czy salon jest polecany na regularną pielęgnację?"
+      },
+      "a": {
+        "en": "Yes, several reviewers mention visiting the salon regularly for multiple years and returning with their pets.",
+        "pl": "Tak, wielu recenzentów wskazuje, że korzysta z usług salonu regularnie od kilku lat."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "rok temu",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "rok temu",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "rok temu",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "podaj-lapke",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Podaj+%C5%81apk%C4%99/data=!4m7!3m6!1s0x470fe806ad8a9de7:0x3df1bb0252954cf8!8m2!3d51.1055531!4d17.1126322!16s%2Fg%2F1tgz923s!19sChIJ552KrQboD0cR-EyVUgK78T0?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Dedicated doctors amid service grievances",
+        "pl": "Oddani lekarze i skargi opiekunów"
+      },
+      "text": {
+        "en": "Long-standing clients express profound gratitude to doctors like Dr. Magdalena Stasiak for years of loyal, compassionate support. Conversely, critical visitors report cold reception, lack of empathy, and unwillingness to assist emergency cases outside appointments.",
+        "pl": "Wieloletni klienci wyrażają głęboką wdzięczność doktor Magdalenie Stasiak za lata empatycznej i rzetelnej opieki nad pupilami. Z drugiej strony pojawiają się ostre skargi na chłodne traktowanie w recepcji oraz odmowę pomocy w nagłych sytuacjach bez zapisu."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Polarized accounts of clinical pet care",
+        "pl": "Skrajne opinie o empatii zespołu"
+      },
+      "text": {
+        "en": "Satisfied pet parents describe tender handling during oncology therapy, dental care, and compassionate end-of-life support. In sharp contrast, frustrated owners accuse the clinic of turning away a seizing dog and prioritizing billing over animal welfare.",
+        "pl": "Zadowoleni właściciele chwalą czułą opiekę przy nowotworach, stomatologii oraz godne pożegnania sędziwych zwierząt. Z kolei niezadowoleni klienci zarzucają placówce odesłanie psa w trakcie ataku padaczki i przedkładanie zysku nad zdrowie cierpiącego czworonoga."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Disputed clinical treatment outcomes and prescriptions",
+        "pl": "Sporne rezultaty leczenia i zaleceń terapeutycznych"
+      },
+      "text": {
+        "en": "While regular patrons credit doctors with accurate diagnoses and effective tooth extractions, multiple critical reviewers express strong dissatisfaction. Complaints allege unnecessary costly medications, questionable tests, and ineffective clinical assistance.",
+        "pl": "Choć stali bywalcy zawdzięczają klinice trafne diagnozy i udane zabiegi stomatologiczne, kilku recenzentów wyraża silne rozczarowanie. W skargach podnoszone są zarzuty naciągania na drogie leki, zbędne badania diagnostyczne i brak realnej pomocy medycznej."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept emergency drop-in patients without booking?",
+        "pl": "Czy gabinet przyjmuje nagłe przypadki bez wcześniejszego zapisu?"
+      },
+      "a": {
+        "en": "Reviews indicate strict scheduling policies, with multiple clients reporting that emergency walk-ins were redirected elsewhere.",
+        "pl": "Opinie wskazują na rygorystyczne przestrzeganie grafiku, a kilku klientów zgłaszało odesłanie nagłych przypadków do innych lecznic."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can senior dogs receive long-term chronic disease management?",
+        "pl": "Czy gabinet prowadzi wieloletnią terapię przewlekle chorych psów?"
+      },
+      "a": {
+        "en": "Yes, regular clients highlight dedicated multi-year oncology and geriatric management for aging dogs.",
+        "pl": "Tak, stali opiekunowie podkreślają wieloletnie zaangażowanie w prowadzenie terapii onkologicznych i geriatrycznych."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dental sanitation and tooth extractions performed on site?",
+        "pl": "Czy na miejscu wykonywane są zabiegi sanacji jamy ustnej i ekstrakcji zębów?"
+      },
+      "a": {
+        "en": "Yes, patient reviews confirm routine dental hygiene procedures and surgical tooth extractions.",
+        "pl": "Tak, recenzje opiekunów potwierdzają zabiegi higienizacyjne oraz chirurgiczne usuwanie chorych zębów u psów."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
