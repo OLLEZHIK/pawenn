@@ -1,0 +1,148 @@
+{
+  "slug": "azory",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Azory+Gabinet+Weterynaryjny/data=!4m7!3m6!1s0x47165a35f53f143d:0x6ea59c0371b869b7!8m2!3d50.087119!4d19.908135!16s%2Fg%2F1tf646mz!19sChIJPRQ_9TVaFkcRt2m4cQOcpW4?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive clinicians with genuine heart for animals",
+        "pl": "Troskliwi lekarze z wielkim sercem do pacjentów"
+      },
+      "text": {
+        "en": "Pet owners warmly commend the entire veterinary team for their exceptional dedication, deep clinical knowledge, and approachable manner. Both male and female doctors earn sincere gratitude for supporting worried owners and explaining treatments clearly.",
+        "pl": "Opiekunowie zwierząt bardzo ciepło oceniają cały zespół weterynaryjny za ogromne zaangażowanie, wiedzę medyczną oraz życzliwość. Lekarze zyskują wielkie uznanie za empatię, stałe wsparcie w trudnych chwilach oraz przystępne wyjaśnianie zaleceń terapeutycznych."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle approach to traumatized and young pets",
+        "pl": "Łagodne podejście do zwierząt po traumie i młodych"
+      },
+      "text": {
+        "en": "The practice excels at calming anxious patients, including rescue cats with severe trauma and young kittens receiving first vaccines. Reviewers praise the gentle, painless handling during blood draws, FIV/FeLV testing, and comprehensive clinical examinations.",
+        "pl": "Gabinet doskonale radzi sobie z troskliwą opieką nad czworonogami po trudnych przejściach i traumach oraz małymi kociętami. Właściciele chwalą bezstresowe podejście personelu podczas pierwszych szczepień, pobierania krwi do testów FIV/FeLV oraz badań ogólnych."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt emergency acceptance and after-hours availability",
+        "pl": "Szybka pomoc doraźna i przyjęcia po godzinach"
+      },
+      "text": {
+        "en": "Reviewers emphasize the clinicians' willingness to help in urgent situations, including accepting patients after regular closing hours or assisting over weekends. Acute symptoms and pressing needs are examined promptly on site without unnecessary delays.",
+        "pl": "Klienci podkreślają stałą gotowość lecznicy do niesienia pomocy w nagłych sytuacjach, w tym możliwość przyjęcia pacjenta po regularnych godzinach pracy lub w weekend. Ostre dolegliwości i pilne potrzeby są zaopatrywane sprawnie na miejscu bez zbędnej zwłoki."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the practice perform viral screening tests like FIV and FeLV?",
+        "pl": "Czy w gabinecie można wykonać testy w kierunku FIV i FeLV?"
+      },
+      "a": {
+        "en": "Yes, reviewers report smooth, gentle blood draws for FIV and FeLV diagnostics in cats.",
+        "pl": "Tak, klienci potwierdzają bezproblemowe pobieranie krwi i wykonywanie testów FIV oraz FeLV."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can acutely ill pets be seen after regular working hours?",
+        "pl": "Czy w pilnych przypadkach można liczyć na pomoc po godzinach pracy?"
+      },
+      "a": {
+        "en": "Yes, pet owners report being admitted in emergency circumstances even after closing time.",
+        "pl": "Tak, opiekunowie wspominają o pomocy w nagłych sytuacjach doraźnych także po godzinach otwarcia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can specialized prescription diets and pet food be purchased on site?",
+        "pl": "Czy na miejscu można kupić specjalistyczną karmę weterynaryjną?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention purchasing recommended dietary formulas and consulting ingredients with the doctor.",
+        "pl": "Tak, w gabinecie można zakupić karmy lecznicze i skonsultować ich skład z lekarzem."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
