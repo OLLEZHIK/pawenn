@@ -1,0 +1,148 @@
+{
+  "slug": "strefa-psa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Strefa+Psa+PSI+FRYZJER+groomer,+fryzjer+dla+zwierz%C4%85t/@51.0601248,17.0256622,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3ad7911f831:0x747d4b00bb2beed9!8m2!3d51.0601248!4d17.0256622!16s%2Fg%2F11h8n0358f?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Thorough coat trimming and styling",
+        "pl": "Staranne strzyżenie i pielęgnacja szaty"
+      },
+      "text": {
+        "en": "Most clients praise the salon for neat haircuts, meticulous nail trimming, and clean, fragrant coats after grooming sessions. While majority of owners note striking visual transformations, one reviewer felt standard bathing was less tailored to thick double-coated retriever breeds.",
+        "pl": "Większość klientów chwali salon za precyzyjne strzyżenie, obcinanie pazurków oraz świeżą i czystą sierść po zakończonych zabiegach. Choć niemal wszyscy opiekunowie doceniają estetyczną metamorfozę swoich psów, pojedyncza recenzja wskazała na mniej wyspecjalizowaną kąpiel labradora."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient and friendly grooming specialists",
+        "pl": "Cierpliwy i życzliwy zespół groomerek"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the groomers for their polite communication, unhurried demeanor, and thorough expertise. Clients highlight that specialists such as Kamila and Olesia communicate gently with dogs throughout the session, creating a reassuring atmosphere.",
+        "pl": "Właściciele psów pozytywnie oceniają kulturę osobistą, życzliwość oraz spokojne tempo pracy personelu. Klienci szczególnie wyróżniają groomerki Kamilę i Olesię, wskazując na ich łagodne zwracanie się do czworonogów oraz profesjonalne podejście do wykonywanych obowiązków."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Empathetic handling and pet comfort",
+        "pl": "Empatyczne traktowanie i komfort czworonogów"
+      },
+      "text": {
+        "en": "Reviewers emphasize that dogs are treated with great sensitivity, patience, and care during grooming procedures. Multiple owners observe that their pets remain calm, experience minimal anxiety, and willingly enter the facility for subsequent hygiene treatments.",
+        "pl": "Opiekunowie podkreślają, że czworonogi są traktowane z empatią, spokojem oraz dbałością o ich poczucie bezpieczeństwa. Recenzenci zwracają uwagę, że psy nie odczuwają stresu w trakcie zabiegów pielęgnacyjnych i chętnie przekraczają próg salonu przy kolejnych wizytach."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What treatments are performed during grooming visits?",
+        "pl": "Jakie zabiegi są wykonywane podczas wizyty pielęgnacyjnej?"
+      },
+      "a": {
+        "en": "Clients mention complete bathing, thorough coat clipping, hygiene trims, and careful claw clipping.",
+        "pl": "W recenzjach wymieniane są kąpiele, staranne strzyżenie szaty, zabiegi higieniczne oraz skracanie pazurków."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long does a full grooming appointment usually take?",
+        "pl": "Ile trwa kompleksowa wizyta pielęgnacyjna?"
+      },
+      "a": {
+        "en": "Reviewers note that thorough grooming procedures for medium-sized dogs generally take around two hours.",
+        "pl": "Z opinii wynika, że kompleksowa pielęgnacja średniej wielkości psa zajmuje zazwyczaj około dwóch godzin."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do anxious dogs react to the salon environment?",
+        "pl": "Jak czworonogi reagują na zabiegi w salonie?"
+      },
+      "a": {
+        "en": "Owners report that gentle speaking and unhurried handling help dogs remain calm and comfortable throughout the visit.",
+        "pl": "Opiekunowie wskazują, że łagodne podejście i spokojne tempo pracy pozwalają psom zachować spokój podczas wizyty."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "results": "~",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
