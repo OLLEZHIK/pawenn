@@ -1,0 +1,155 @@
+{
+  "slug": "kotel",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kotel/data=!4m7!3m6!1s0x471645e86825bbb9:0x92a53dd47b9b19ce!8m2!3d50.0436807!4d20.0580718!16s%2Fg%2F11f6kyxqjb!19sChIJubslaOhFFkcRzhmbe9Q9pZI?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Varied assessments of safety and hotel facilities",
+        "pl": "Zróżnicowane oceny bezpieczeństwa i warunków hotelu"
+      },
+      "text": {
+        "pl": "Podczas gdy część klientów uważa hotel za doskonale przygotowany i cichy koci azyl, w recenzjach z lata 2026 roku pojawiły się poważne zarzuty dotyczące bezpieczeństwa. Opiekunowie zgłosili incydent ucieczki lękliwego kota przez niezabezpieczone siatką okno dachowe.",
+        "en": "While some clients view the hotel as a quiet and well-equipped sanctuary, several reviews from summer 2026 express grave security concerns. Cat owners reported an incident where an anxious cat managed to escape through an unsecured skylight window on the upper floor."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Feline accommodations and a distressing escape",
+        "pl": "Pobyty kotów i incydent zaginięcia pupila"
+      },
+      "text": {
+        "pl": "Wielu właścicieli podkreśla, że ich czworonogi wracają z pobytów wypoczęte i zrelaksowane, świetnie znosząc nawet dłuższe rozstania. Jednak przypadek ucieczki kota i wielogodzinnych nocnych poszukiwań wywołał ogromny niepokój o procedury ochrony delikatnych zwierząt.",
+        "en": "Many keepers report that their cats return home calm, well-nourished, and relaxed after weekend and holiday stays. Conversely, the distressing escape of a resident feline that required lengthy overnight searches raised serious questions about feline security protocols."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated caregiving and disputed emergency response",
+        "pl": "Zaangażowanie w opiekę i zastrzeżenia do reakcji"
+      },
+      "text": {
+        "pl": "Część opiekunów bardzo chwali panią Magdę za profesjonalizm, troskę o dobrostan podopiecznych oraz sprawną komunikację. Z kolei właściciele poszkodowanego zwierzęcia zarzucili brak wystarczającej empatii i niewspółmierną reakcję po ucieczce kota z pokoju hotelowego.",
+        "en": "Some owners speak highly of caregiver Magda, appreciating her attentive nature, dietary adherence, and regular photo updates. In contrast, the owners of the escaped cat felt that the management lacked sufficient empathy and urgency during the stressful search effort."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Kotel cat hotel located?",
+        "pl": "Gdzie mieści się hotel dla kotów Kotel?"
+      },
+      "a": {
+        "en": "The facility is situated at Wielicka 250 in the Bieńczyce district of Kraków.",
+        "pl": "Obiekt znajduje się przy ulicy Wielickiej 250 w krakowskiej dzielnicy Bieżanów-Prokocim."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the staff send updates and photos during the stay?",
+        "pl": "Czy personel przesyła zdjęcia i relacje podczas pobytu?"
+      },
+      "a": {
+        "en": "Yes, cat owners confirm receiving regular text updates and photographs of their pets.",
+        "pl": "Tak, opiekunowie kotów potwierdzają regularne otrzymywanie wiadomości i fotografii pupili."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Which animals are accepted at Kotel?",
+        "pl": "Jakie zwierzęta przyjmuje Kotel?"
+      },
+      "a": {
+        "en": "The hotel is an accommodation dedicated exclusively to feline guests.",
+        "pl": "Hotel jest obiektem dedykowanym wyłącznie opiece nad kotami."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

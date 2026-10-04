@@ -1,0 +1,148 @@
+{
+  "slug": "salon-scoobydoo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Salon+Piel%C4%99gnacji+Ps%C3%B3w+i+Kot%C3%B3w+ScoobyDoo/data=!4m7!3m6!1s0x47165b4632c73929:0xd0ace4caef75c637!8m2!3d50.0816141!4d19.892544!16s%2Fg%2F11qm3v2nrp!19sChIJKTnHMkZbFkcRN8Z178rkrNA?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Extraordinary patience and warm personal care",
+        "pl": "Nadzwyczajna cierpliwość i ciepłe podejście"
+      },
+      "text": {
+        "pl": "Opiekunowie czworonogów zachwycają się empatią pani Sary, która potrafi nawiązać natychmiastowy kontakt nawet z psami po traumach i kocimi seniorami. Zespół wykazuje ogromne zrozumienie dla lęków zwierząt, pracując na podłodze, by nie narażać ich na stres.",
+        "en": "Pet parents are deeply appreciative of groomer Sara's empathy and calm manner, easily connecting with traumatized rescues and elderly cats. The groomer demonstrates genuine sensitivity toward pet fears, frequently working on the floor to reduce height anxiety."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Stress-free adaptation visits for dogs and cats",
+        "pl": "Bezstresowe wizyty adaptacyjne dla psów i kotów"
+      },
+      "text": {
+        "pl": "Klienci podkreślają, że salon jest wspaniałym miejscem dla zwierząt wrażliwych, starszych oraz z problemami dermatologicznymi. Wizyty adaptacyjne pozwalają psom stopniowo oswoić się z dźwiękiem maszynki i suszarki, budując długotrwałe zaufanie do zabiegów.",
+        "en": "Customer feedback underscores that the salon excels at caring for sensitive, aging, or fearful animals with skin conditions. Gentle introductory adaptation sessions help dogs become accustomed to clipper and dryer noises, fostering lasting confidence and calm."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Careful trimming and refreshed coats",
+        "pl": "Precyzyjne cięcie i zadbana szata"
+      },
+      "text": {
+        "pl": "Właściciele psów ras maltipoo, yorków czy kundelków chwalą estetykę wykonanych zabiegów, równą linię strzyżenia oraz dokładne wyczesanie podszerstka. Zwierzęta po kąpieli i czyszczeniu uszu prezentują się doskonale, a ich sierść pozostaje miękka i pachnąca.",
+        "en": "Owners of maltipoos, Yorkies, and mixed-breed dogs praise the aesthetic quality of the haircuts, even scissoring, and thorough deshedding. Pets leave the salon looking refreshed, beautifully styled, with clean ears and noticeably soft, pleasantly scented fur."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is ScoobyDoo salon located?",
+        "pl": "Gdzie znajduje się salon ScoobyDoo?"
+      },
+      "a": {
+        "en": "The salon is situated at Bronowicka 128 in the Bronowice district of Kraków.",
+        "pl": "Salon mieści się przy ulicy Bronowickiej 128 w krakowskich Bronowicach."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom cats?",
+        "pl": "Czy salon przyjmuje również koty?"
+      },
+      "a": {
+        "en": "Yes, customer reviews confirm skilled grooming and deshedding services for cats.",
+        "pl": "Tak, opinie klientów potwierdzają profesjonalną pielęgnację i wyczesywanie kotów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are adaptation visits available for timid pets?",
+        "pl": "Czy w salonie organizowane są wizyty adaptacyjne?"
+      },
+      "a": {
+        "en": "Yes, the salon provides gentle adaptation visits for puppies and timid pets.",
+        "pl": "Tak, salon oferuje spokojne wizyty adaptacyjne dla szczeniąt i psów zrażonych do pielęgnacji."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
