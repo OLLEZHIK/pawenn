@@ -1,0 +1,180 @@
+{
+  "slug": "rita-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/RITA-VET/data=!4m7!3m6!1s0x470fe9945562304f:0x509e33a3dacfe660!8m2!3d51.1348995!4d17.0388504!16s%2Fg%2F1tmxd8mr!19sChIJTzBiVZTpD0cRYObP2qMznlA?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate and dedicated veterinary medical team",
+        "pl": "Empatyczny i oddany zespół gabinetu weterynaryjnego"
+      },
+      "text": {
+        "en": "Clients warmly thank the veterinary team, specifically Dr. Henrieta Lorenz and Dr. Joanna Paszkowska, for exceptional medical dedication, empathy, and professional expertise. Doctors take time to answer questions and maintain active interest in patient recovery.",
+        "pl": "Klienci gorąco dziękują zespołowi, w szczególności doktor Henriecie Lorenz i doktor Joannie Paszkowskiej, za ogromne oddanie, empatię i wiedzę. Lekarki wyczerpująco odpowiadają na pytania opiekunów i stale interesują się stanem zdrowia leczonych pacjentów."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Affectionate care with occasional mixed opinions",
+        "pl": "Czuła opieka ze sporadycznymi uwagami krytycznymi"
+      },
+      "text": {
+        "en": "Most guardians describe warm, respectful care where animals are treated like beloved family members during examinations. However, one client expressed sharp disappointment regarding persistent parasitic gastrointestinal troubles after a consultation.",
+        "pl": "Większość opiekunów opisuje bardzo serdeczną opiekę, w której czworonogi są traktowane z wielką miłością i szacunkiem jak prawdziwi domownicy. Zdarzają się jednak pojedyncze głosy krytyczne dotyczące przedłużających się dolegliwości jelitowych i doboru leków u psa."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Successful tumor resections and swift recovery",
+        "pl": "Pomyślne operacje onkologiczne i sprawna rekonwalescencja"
+      },
+      "text": {
+        "en": "Reviewers emphasize life-saving surgical outcomes, including meticulous mammary and uterine tumor resections with swift wound healing. Clients report fast recovery after surgeries and reliable diagnostic check-ups that put pet owners thoroughly at ease.",
+        "pl": "W opiniach wyróżniają się relacje o ratujących życie operacjach usunięcia guzów listwy mlecznej i macicy, po których rany pooperacyjne goiły się wzorowo. Klienci chwalą szybki powrót pupili do sprawności oraz rzetelne badania kontrolne dające pełen spokój opiekunom."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are soft-tissue oncological surgical procedures performed here?",
+        "pl": "Czy w gabinecie przeprowadzane są operacje onkologiczne tkanek miękkich?"
+      },
+      "a": {
+        "en": "Yes, clients report successful surgical resections of mammary and reproductive tumors with thorough postoperative monitoring.",
+        "pl": "Tak, opinie potwierdzają udane operacje wycięcia guzów i staranną opiekę pooperacyjną nad rekonwalescentami."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can routine diagnostic examinations be carried out without pet stress?",
+        "pl": "Czy badania profilaktyczne i przeglądowe odbywają się bezstresowo?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate tidy facilities and gentle communication from clinicians during health check-ups.",
+        "pl": "Tak, właściciele chwalą czystość gabinetu oraz spokojne, życzliwe podejście personelu podczas rutynowych wizyt."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical procedures scheduled by prior appointment?",
+        "pl": "Czy na zabiegi chirurgiczne obowiązują wcześniejsze zapisy?"
+      },
+      "a": {
+        "en": "Yes, operative treatments require prior qualifying examinations and advance date coordination with attending surgeons.",
+        "pl": "Tak, zabiegi operacyjne wymagają wcześniejszej kwalifikacji lekarskiej i rezerwacji terminu w gabinecie."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    }
+  ]
+}
