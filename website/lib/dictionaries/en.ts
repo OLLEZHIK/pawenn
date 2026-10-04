@@ -278,8 +278,8 @@ export const en = {
   card: {
     priceLevel: (tier: number) => `Price level ${tier} of 5`,
     /** Against the city market price (lib/priceMarket.ts): 0 = within the market band. */
-    vsMarket: (pct: number, marketBand: boolean) =>
-      marketBand ? "City average" : pct < 0 ? `${-pct}% below market` : `${pct}% above market`,
+    vsMarket: (pct: number, marketBand: boolean): string =>
+      marketBand ? "City average" : pct < 0 ? "Below city average" : "Above city average",
     vsMarketHint: "Compared with the average price of the same services in the city",
   },
   rating: {
@@ -321,7 +321,7 @@ export const en = {
     goodToKnowNote: "As the place states it on its own website.",
     faqTitle: "Questions before you call",
     cityPricesTitle: (where: string) => `What it costs ${where}`,
-    cityPricesIntro: "No price list here. Typical prices in the city:",
+    cityPricesIntro: "No price list here. Average prices in the city:",
     welcomes: "Welcomes",
     specialties: "Specialties",
     openingHours: "Opening hours",
@@ -375,7 +375,6 @@ export const en = {
     priceList: "price list",
     perUnit: { per_hour: "/ hour", per_km: "/ km" } as Record<string, string>,
     notCompared: "not compared with other places",
-    cityMedian: (price: string, places: number) => `City average ${price} · ${places} places`,
     pricesDisclaimer: "Prices as published by the place on the date shown. They can change - confirm before you book.",
   },
   reviewForm: {
@@ -468,7 +467,7 @@ export const en = {
     includes: "What the price includes",
     place: "Place",
     price: "Price",
-    vsMarket: "Against the market",
+    vsMarket: "Against the city average",
     notComparedTitle: "Other prices (not compared)",
     notComparedIntro: "Partial prices, prices per hour or per km, or ones that include more than the standard.",
     otherServices: "Other prices",

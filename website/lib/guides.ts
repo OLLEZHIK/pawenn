@@ -53,7 +53,7 @@ export const GUIDE_TEXT: Record<
     updated: "Updated",
     related: "Good to know",
     home: "Home",
-    priceLine: (median, range, places) => `median ${median}, ${range} (${places} ${places === 1 ? "place" : "places"})`,
+    priceLine: (median, range, places) => `average ${median}, ${range} (${places} ${places === 1 ? "place" : "places"})`,
     pricesLink: "All prices",
     nav: "Guides",
   },
@@ -66,7 +66,7 @@ export const GUIDE_TEXT: Record<
     related: "Užitočné vedieť",
     home: "Domov",
     priceLine: (median, range, places) =>
-      `medián ${median}, ${range} (${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })})`,
+      `priemer ${median}, ${range} (${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })})`,
     pricesLink: "Všetky ceny",
     nav: "Poradňa",
   },
@@ -79,7 +79,7 @@ export const GUIDE_TEXT: Record<
     related: "Warto wiedzieć",
     home: "Strona główna",
     priceLine: (median, range, places) =>
-      `mediana ${median}, ${range} (${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })})`,
+      `średnia ${median}, ${range} (${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })})`,
     pricesLink: "Wszystkie ceny",
     nav: "Poradnik",
   },

@@ -4,7 +4,7 @@ import type { PriceLevel } from "@/lib/priceMarket";
 import { TONE_TEXT } from "@/lib/priceTone";
 
 // Price level against the city market (lib/priceMarket.ts): € signs like
-// Google Maps plus the words - "Market price", "40% above market" - so
+// Google Maps plus the words - "City average", "Above city average" - so
 // the signs mean something. `withLabel` off: signs only (tight spots).
 export function PriceTier({
   level,
