@@ -90,9 +90,15 @@ export default async function CategoryHubPage({
         cities={rows.map(({ city }) => ({ slug: city.slug, name: city.name }))}
         placeholder={d.search.cityPlaceholder}
         label={d.search.cityLabel}
+        freeText={
+          locale === "en"
+            ? { notCovered: d.search.cityNotCovered("{typed}", rows.map(({ city }) => city.name).join(", ")) }
+            : undefined
+        }
       />
       </div>
 
+      {locale !== "en" && (
       <ul className="mt-8 divide-y divide-line overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
         {rows.map(({ city, count }) => (
           <li key={city.slug}>
@@ -109,6 +115,7 @@ export default async function CategoryHubPage({
           </li>
         ))}
       </ul>
+      )}
     </main>
   );
 }
