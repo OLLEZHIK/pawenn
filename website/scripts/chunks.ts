@@ -142,9 +142,9 @@ export function insightChunks(dir: string): { stamped: Chunk[]; unstamped: strin
   return { stamped, unstamped: [...fresh].filter((s) => !covered.has(s)) };
 }
 
-export function nextInsightsId(dir: string): string {
-  const n = allStamps(dir)
-    .filter((s) => s.kind === "insights")
-    .map((s) => Number(s.chunk.replace(/\D/g, "")) || 0);
-  return `insights-${String((n.length ? Math.max(...n) : 0) + 1).padStart(2, "0")}`;
+/** Stamp id from the first slug of the chunk, not a running number: two agents
+ *  stamping different summaries in parallel can no longer pick the same id and
+ *  collide on checks/insights-NN.json. */
+export function nextInsightsId(_dir: string, slugs: string[]): string {
+  return `insights-${[...slugs].sort()[0]}`;
 }

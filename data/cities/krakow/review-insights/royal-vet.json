@@ -1,0 +1,174 @@
+{
+  "slug": "royal-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ROYAL-VET/data=!4m7!3m6!1s0x4716451076f92e43:0x75cc4cd7de6dfd79!8m2!3d50.0704135!4d20.0390731!16s%2Fg%2F11gzrqc5z!19sChIJQy75dhBFFkcRef1t3tdMzHU?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Experienced and compassionate veterinarians",
+        "pl": "Doświadczeni i empatyczni lekarze weterynarii"
+      },
+      "text": {
+        "pl": "Większość klientów bardzo ciepło ocenia zespół lecznicy Royal-Vet, wyróżniając dr Janę, dr Dorotę oraz dr. Szymona za profesjonalizm i serdeczność. Lekarze cierpliwie odpowiadają na wszelkie pytania opiekunów i walczą o zdrowie pacjentów z ogromnym oddaniem.",
+        "en": "Most clients warmly commend the Royal-Vet team, highlighting clinic doctors for their reassuring professionalism and thoughtful demeanor. Veterinarians take time to answer all guardian inquiries thoroughly and dedicate great effort to diagnosing complex conditions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Successful health stabilization and treatments",
+        "pl": "Skuteczne ratowanie zdrowia i trafne terapie"
+      },
+      "text": {
+        "pl": "Właściciele zwierząt opisują spektakularne rezultaty terapii, dziękując zespołowi za uratowanie życia ciężko chorych psów i kotów. Choć pojawił się pojedynczy głos krytyczny wobec wczesnej diagnostyki USG, większość relacji potwierdza wysoką skuteczność leczenia.",
+        "en": "Guardians recount successful medical interventions, thanking the hospital staff for saving seriously ill feline and canine patients. While one review expresses reservations regarding an initial ultrasound assessment, the majority of accounts highlight dependable recovery."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle care for cats and dogs",
+        "pl": "Troskliwe podejście do psów i kotów"
+      },
+      "text": {
+        "pl": "Recenzenci podkreślają łagodne i pełne szacunku traktowanie zwierząt, które pomaga zredukować stres w trakcie badań i zabiegów medycznych. Lekarze potrafią zdobyć zaufanie nawet trudnych i wymagających pacjentów, zapewniając im bezpieczną i troskliwą opiekę.",
+        "en": "Reviewers emphasize the gentle and respectful bedside manner shown toward animals, which alleviates anxiety during testing and treatments. Clinicians succeed in gaining the trust of even cautious or demanding patients, delivering supportive and reassuring medical care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Royal-Vet clinic situated in Kraków?",
+        "pl": "Gdzie zlokalizowana jest przychodnia Royal-Vet?"
+      },
+      "a": {
+        "en": "The clinic is located at os. Centrum E 15 in the Nowa Huta district of Kraków.",
+        "pl": "Przychodnia mieści się na os. Centrum E 15 w krakowskiej Nowej Hucie."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What veterinary fields are practiced at Royal-Vet?",
+        "pl": "W jakich dziedzinach specjalizuje się placówka?"
+      },
+      "a": {
+        "en": "The center specializes in soft tissue and orthopedic surgery, animal physiotherapy, endoscopy, imaging, and exotic pet care.",
+        "pl": "Lecznica oferuje chirurgię, ortopedię, rehabilitację zwierząt, endoskopię, badania RTG i USG oraz leczenie egzotyków."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What are the consultation hours of Royal-Vet?",
+        "pl": "Jakie są godziny otwarcia przychodni?"
+      },
+      "a": {
+        "en": "Royal-Vet operates Monday to Friday from 10:00 to 19:00, and weekends from 10:00 to 15:00.",
+        "pl": "Lecznica przyjmuje od poniedziałku do piątku w godzinach 10:00–19:00, a w soboty i niedziele od 10:00 do 15:00."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is the facility open on weekends?",
+        "pl": "Czy przychodnia przyjmuje pacjentów w weekendy?"
+      },
+      "a": {
+        "en": "Yes, Royal-Vet provides weekend consultation hours on both Saturday and Sunday between 10:00 and 15:00.",
+        "pl": "Tak, w przychodni dyżury weekendowe odbywają się w soboty i niedziele od 10:00 do 15:00."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
