@@ -4,6 +4,7 @@ import { notFound, redirect } from "next/navigation";
 import { CATEGORY_THEME, categoryFromSlug, categoryHubPath, categoryLabel, listingPath } from "@/lib/categories";
 import { getAllCities, getBusinessCount, getCityPoints } from "@/lib/data";
 import { getDictionary, isLocale, localesForCity } from "@/lib/i18n";
+import { CityPicker } from "@/components/CityPicker";
 import { NearestCityNav } from "@/components/NearestCityNav";
 import { ArrowRightIcon, MapPinIcon } from "@/components/icons";
 
@@ -47,7 +48,8 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
   if (rows.length === 0) notFound();
   if (rows.length === 1) redirect(listingPath(locale, category, rows[0].city.slug));
 
-  const t = getDictionary(locale).home;
+  const d = getDictionary(locale);
+  const t = d.home;
   const points = (await getCityPoints()).filter((p) => rows.some((r) => r.city.slug === p.slug));
   const accent = CATEGORY_THEME[category].accent;
 
@@ -58,11 +60,11 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
       </h1>
       <p className="mt-3 text-foreground/70">{t.chooseCityIntro}</p>
 
+      <div className="mt-6 flex flex-wrap items-center gap-3">
       <NearestCityNav
         locale={locale}
         cities={points.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
         defaultCitySlug={rows[0].city.slug}
-        className="mt-6"
       >
         <Link
           href={categoryHubPath(locale, category)}
@@ -73,6 +75,14 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
           {t.nearMe}
         </Link>
       </NearestCityNav>
+      <CityPicker
+        locale={locale}
+        category={category}
+        cities={rows.map(({ city }) => ({ slug: city.slug, name: city.name }))}
+        placeholder={d.search.cityPlaceholder}
+        label={d.search.cityLabel}
+      />
+      </div>
 
       <ul className="mt-8 divide-y divide-line overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
         {rows.map(({ city, count }) => (

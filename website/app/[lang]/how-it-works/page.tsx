@@ -24,7 +24,7 @@ export function generateStaticParams() {
 
 export default async function HowItWorksPage({ params }: { params: Promise<{ lang: string }> }) {
   if ((await params).lang !== "en") notFound();
-  const content = readDocsMarkdown("content/how-it-works-draft.md");
+  const content = readDocsMarkdown("content/how-it-works.md");
   return (
     <main className="mx-auto max-w-3xl px-4 py-10 md:py-16">
       <article className="rounded-[28px] bg-surface p-6 shadow-[var(--shadow-card)] md:p-12">

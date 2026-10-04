@@ -1,5 +1,3 @@
-> DRAFT. Contact/legal details still placeholders — see docs/legal/
-
 # How It Works & FAQ
 
 Welcome to Pawenn — a transparent, community-first directory connecting dog and cat owners in the cities we cover with verified local pet services, including grooming salons, veterinary clinics, pet hotels, and trainers.
@@ -39,7 +37,7 @@ We believe pet owners deserve honest search results, not pay-to-win rankings:
 We list legally operating, physical and licensed pet care service providers located in the cities listed on the site. Each business must have verifiable contact details, a real physical location or certified service area, and an active business registration. We do not charge businesses to be included in our organic directory.
 
 ### Can a business owner edit or remove their listing?
-Yes, at any time. If you own or manage a listed salon, veterinary clinic, or pet hotel, you can request corrections, update your service menu and pricing, or ask for complete removal. Simply click the "Suggest an edit" link on your listing page or contact us at `contact@pawenn.com` *(placeholder)*. We verify ownership and apply updates promptly.
+Yes, at any time. If you own or manage a listed salon, veterinary clinic, or pet hotel, you can request corrections, update your service menu and pricing, or ask for complete removal. Simply click the "Suggest an edit" link on your listing page or contact us at `contact@pawenn.com`. We verify ownership and apply updates promptly.
 
 ### Is Pawenn a booking platform?
 No. In the MVP stage, Pawenn is a direct discovery directory, not a booking intermediary. When you find a service you like, you can call them directly (`tel:`), visit their official website, email them, or get driving/walking directions in your preferred map app. You arrange appointments directly with the provider on their own terms, without middleman fees.

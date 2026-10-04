@@ -117,7 +117,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     { value: site.countries, label: t.statCountries(site.countries) },
     { value: site.cities, label: t.statCities(site.cities) },
     { value: site.places, label: t.statPlaces(site.places) },
-    { value: site.kinds, label: t.statKinds(site.kinds) },
+    { value: `${new Intl.NumberFormat(locale).format(site.potentialUsers)}+`, label: t.statPeople },
   ];
 
   return (
