@@ -89,6 +89,7 @@ export const pl: Dictionary = {
     statPlaces: (n: number): string => plural("pl", n, { one: "miejsce w katalogu", few: "miejsca w katalogu", many: "miejsc w katalogu", other: "miejsc w katalogu" }),
     statCountries: (n: number): string => plural("pl", n, { one: "kraj", few: "kraje", many: "krajów", other: "krajów" }),
     statKinds: (n: number): string => plural("pl", n, { one: "rodzaj usług", few: "rodzaje usług", many: "rodzajów usług", other: "rodzajów usług" }),
+    statPeople: "osób, którym może pomóc Pawenn",
     browseEyebrow: "Według usług",
     browseTitle: "Czego dzisiaj potrzebuje Twój zwierzak?",
     browseBody: "Sześć kategorii opieki, każda z kompletną listą miejsc i sprawdzonym źródłem danych.",

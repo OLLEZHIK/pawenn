@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_URL } from "@/lib/site";
 import { socialMeta } from "@/lib/seo";
 import { ArrowRightIcon, MailIcon, ShieldCheckIcon, SparkleIcon, TagIcon } from "@/components/icons";
 
@@ -41,11 +41,11 @@ export default async function AddOrFixListingPage({ params }: { params: Promise<
           <p className="eyebrow text-brand-orange!">For pet businesses</p>
           <h1 className="mt-3 text-4xl font-extrabold md:text-5xl">Add or fix a listing</h1>
           <p className="mt-4 text-lg leading-relaxed text-white/75">
-            Run a pet service business in Bratislava and don&apos;t see it listed? Spotted incorrect contact details,
+            Run a pet service business in one of our cities and don&apos;t see it listed? Spotted incorrect contact details,
             prices, or hours on an existing listing? Let us know and we&apos;ll review it.
           </p>
           <a
-            href="mailto:{EMAIL}?subject=Add%20or%20fix%20a%20listing"
+            href={`mailto:${CONTACT_EMAIL}?subject=Add%20or%20fix%20a%20listing`}
             className="mt-8 inline-flex min-h-12 items-center gap-2 rounded-[var(--radius-pill)] bg-brand-orange px-6 py-3 font-semibold text-white transition hover:bg-white hover:text-ink"
           >
             <MailIcon className="h-5 w-5" />
