@@ -1,0 +1,148 @@
+{
+  "slug": "pod-jaszczurami-305",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pod+Jaszczurami+305/data=!4m7!3m6!1s0x470fc271bd5adae9:0x7e89552c48ec0005!8m2!3d51.1030111!4d17.0327547!16s%2Fg%2F1v6wn0t3!19sChIJ6dpavXHCD0cRBQDsSCxViX4?hl=pl",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Exceptional care across species",
+        "pl": "Wyjątkowa opieka nad różnymi gatunkami"
+      },
+      "text": {
+        "en": "Owners praise the clinic for helping diverse species, including dogs, sick cats, and small hamsters after accidental poisoning. The veterinarian shows remarkable patience and gentle care, providing emergency support where other clinics refused to consult small rodents.",
+        "pl": "Opiekunowie chwalą lecznicę za pomoc różnym gatunkom, w tym psom, chorym kotom oraz małym chomikom po przypadkowym zatruciu. Lekarz wykazuje ogromną cierpliwość i troskę, ratując zwierzęta nawet wtedy, gdy inne gabinety odmówiły przyjęcia małych gryzoni w nagłym stanie."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate doctor and isolated complaint",
+        "pl": "Empatyczny lekarz i pojedyncza skarga"
+      },
+      "text": {
+        "en": "The vast majority of reviews describe Dr. Marcin as a warm, highly dedicated veterinarian who spends abundant time explaining every diagnostic step. However, one tragic review bitterly blames the clinic for fatal errors and lack of proper intuition in treating a young dog.",
+        "pl": "Zdecydowana większość recenzji opisuje pana Marcina jako ciepłego, serdecznego lekarza z powołania, który poświęca pacjentom mnóstwo czasu na wyjaśnienia. W opiniach widnieje jednak jedna dramatyczna skarga zarzucająca błąd w sztuce i brak czujności w leczeniu młodego psa."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Successful treatments and severe grievance",
+        "pl": "Skuteczne terapie i bolesne zastrzeżenie"
+      },
+      "text": {
+        "en": "Clients express deep gratitude for lifesaving poison interventions and recurrent cures of severely ill family pets. The veterinary team takes prompt, effective action in emergency situations. Nevertheless, the presence of an unfortunate fatal outcome creates a mixed overall record for medical results.",
+        "pl": "Klienci wyrażają głęboką wdzięczność za szybki ratunek przy zatruciach oraz skuteczne wyleczenie ciężkich schorzeń u czworonogów. Zespół podejmuje natychmiastowe działania w nagłych wypadkach. Z powodu jednego zgłoszonego przypadku ze skutkiem śmiertelnym ogólny bilans efektów leczenia pozostaje zrównoważony."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept small exotic pets and hamsters?",
+        "pl": "Czy gabinet przyjmuje małe gryzonie i chomiki?"
+      },
+      "a": {
+        "en": "Yes, clients specifically emphasize successful emergency help for small rodents and hamsters.",
+        "pl": "Tak, klienci w opiniach wyraźnie podkreślają skuteczną pomoc małym gryzoniom i chomikom w nagłych wypadkach."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the doctor take time to explain treatment plans?",
+        "pl": "Czy lekarz poświęca czas na omówienie leczenia?"
+      },
+      "a": {
+        "en": "Yes, visitors appreciate that the doctor never rushes, explaining the situation and next steps thoroughly.",
+        "pl": "Tak, opiekunowie doceniają, że lekarz nie spieszy się i dokładnie wyjaśnia stan zdrowia oraz dalsze zalecenia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices considered reasonable?",
+        "pl": "Czy ceny w gabinecie są przystępne?"
+      },
+      "a": {
+        "en": "Yes, reviewers explicitly mark the service pricing as attractive and fair for the care provided.",
+        "pl": "Tak, w recenzjach klienci bezpośrednio wskazują na atrakcyjne i uczciwe ceny świadczonych usług."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "18 godzin temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "wczoraj",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
