@@ -351,9 +351,7 @@ export const sk: Dictionary = {
     goodToKnowNote: "Tak, ako to podnik uvádza na svojom webe.",
     faqTitle: "Otázky pred telefonátom",
     cityPricesTitle: (where: string) => `Koľko to stojí ${skIn(where)}`,
-    cityPricesIntro: "Tento podnik ceny nezverejňuje. Na porovnanie - koľko si účtujú iné podniky v meste:",
-    cityPricesRow: (from: string, median: string, places: number) =>
-      `od ${from} · medián ${median} · ${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })}`,
+    cityPricesIntro: "Cenník nie je zverejnený. Typické ceny v meste:",
     welcomes: "Prijíma",
     specialties: "Špecializácie",
     openingHours: "Otváracie hodiny",
