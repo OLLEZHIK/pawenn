@@ -176,8 +176,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 cities={cityPoints
                   .filter((p) => homeCities.some((c) => c.slug === p.slug))
                   .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-                defaultCitySlug={citySlug}
-                label={getDictionary(locale).vetNow.button}
+                                label={getDictionary(locale).vetNow.button}
                 hint={getDictionary(locale).vetNow.buttonHint}
                 locating={getDictionary(locale).vetNow.locating}
               />

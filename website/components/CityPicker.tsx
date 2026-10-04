@@ -23,12 +23,15 @@ export function CityPicker({
   cities,
   placeholder,
   label,
+  suffix = "",
 }: {
   locale: Locale;
   category: BusinessCategory;
   cities: { slug: string; name: string }[];
   placeholder: string;
   label: string;
+  /** Added to the city list link, e.g. "?open=1#results". */
+  suffix?: string;
 }) {
   const router = useRouter();
   const listId = useId();
@@ -45,7 +48,7 @@ export function CityPicker({
   }
 
   function go(city: { slug: string }) {
-    router.push(listingPath(locale, category, city.slug));
+    router.push(`${listingPath(locale, category, city.slug)}${suffix}`);
   }
 
   return (
