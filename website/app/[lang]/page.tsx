@@ -39,6 +39,14 @@ import {
 
 const STEP_ICONS = [SearchIcon, ShieldCheckIcon, PhoneIcon];
 
+// The city the home page works on. Only cities that have this language: with
+// two Polish cities the site's default city (Bratislava) was picked for /pl/,
+// and "Vet open now" opened /pl/.../bratislava/, a 404. Same rule as the header.
+function pickHomeCity<T extends { slug: string }>(homeCities: T[], defaultCity: T | null): T | null {
+  if (defaultCity && homeCities.some((c) => c.slug === defaultCity.slug)) return defaultCity;
+  return homeCities[0] ?? defaultCity;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
@@ -46,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   // One city: the home page is that city's; several: no city in the title
   // (docs/architecture/multi-city.md 3.1).
   const homeCities = cities.filter((c) => localesForCity(c).includes(lang));
-  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
+    const city = pickHomeCity(homeCities, defaultCity);
   const where = homeCities.length > 1 ? null : inCity(lang, city ?? { name: "Bratislava" });
   const t = getDictionary(lang).home;
   // Every language that has a city has a home page.
@@ -75,7 +83,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   // them and open the nearest city (docs/architecture/multi-city.md 3.1).
   // One -> the home page is that city's (the first Polish city on /pl/).
   const homeCities = allCities.filter((c) => localesForCity(c).includes(locale));
-  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
+    const city = pickHomeCity(homeCities, defaultCity);
   const defaultSlug = city?.slug ?? "";
   const multi = homeCities.length > 1;
   const citySlugs = multi ? homeCities.map((c) => c.slug) : [defaultSlug];
