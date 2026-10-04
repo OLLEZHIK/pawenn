@@ -6,7 +6,8 @@ import Link from "next/link";
 import { TagIcon } from "./icons";
 import { pricesPath } from "@/lib/priceSlugs";
 import { moneyRange } from "@/lib/money";
-import type { MarketPrice } from "@/lib/priceMarket";
+import { pctAgainst, type MarketPrice } from "@/lib/priceMarket";
+import { priceTone, TONE_TEXT } from "@/lib/priceTone";
 
 type PriceRow = BusinessWithRelations["priceItems"][number];
 
@@ -85,7 +86,7 @@ export function PriceTable({
     // City average and how far this price is from it, in money, not percent.
     const compare =
       comparable.length > 0 && cityMarket && cityMarket.currency === headline.currency
-        ? { average: cityMarket.median, diff: from - cityMarket.median }
+        ? { average: cityMarket.median, diff: from - cityMarket.median, tone: priceTone(pctAgainst(from, cityMarket.median)) }
         : null;
     return { code, own, headline, from, compare, bySize: own.length > 1 };
   });
@@ -118,7 +119,7 @@ export function PriceTable({
                     <div className="text-sm text-foreground/60">
                       {t.cityAverage(money(compare.average, headline.currency))}
                       {Math.round(Math.abs(compare.diff)) > 0 && (
-                        <span className={compare.diff < 0 ? " font-semibold text-green-700" : " font-semibold"}>
+                        <span className={` whitespace-nowrap font-semibold ${TONE_TEXT[compare.tone]}`}>
                           {" · "}
                           {compare.diff < 0
                             ? t.lessBy(money(Math.abs(compare.diff), headline.currency))
