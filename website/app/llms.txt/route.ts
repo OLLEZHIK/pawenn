@@ -37,7 +37,7 @@ export async function GET() {
   const homeLocales = [...new Set(cities.flatMap((c) => localesForCity(c)))];
   const body = `# pawenn
 
-> A directory of pet services: grooming salons, veterinary clinics, pet hotels, dog trainers, pet shops and pet sitters, with real contact details, opening hours and prices sourced from each business, and price pages that compare what each service costs across a city (median, range, date checked). Cities: ${cities.map((c) => c.name).join(", ")}. Every page is in English, and also in the city's local language where it has one.
+> A directory of pet services: grooming salons, veterinary clinics, pet hotels, dog trainers, pet shops and pet sitters, with real contact details, opening hours and prices sourced from each business, and price pages that compare what each service costs across a city (average, range, date checked). Cities: ${cities.map((c) => c.name).join(", ")}. Every page is in English, and also in the city's local language where it has one.
 
 ${homeLocales.map((l) => `- [Home${l === "en" ? "" : ` (${l.toUpperCase()})`}](${SITE_URL}${localePath(l, "/")})`).join("\n")}
 - [How it works](${SITE_URL}/en/how-it-works/)
