@@ -1,0 +1,580 @@
+{
+  "slug": "neuroteam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/NeuroTeam+Specjalistyczna+Przychodnia+Weterynaryjna/@51.1489648,17.1285167,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe97ae9cb47e5:0x31c83a19eeef026f!8m2!3d51.1489648!4d17.1285167!16s%2Fg%2F11sm758n4s?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 51,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 36,
+      "title": {
+        "en": "Skilled specialists with reception critiques",
+        "pl": "Doświadczeni specjaliści i uwagi do recepcji"
+      },
+      "text": {
+        "en": "Numerous clients express profound appreciation for neurologists such as Dr Aleksandra Banasik, Dr Agata Guzikowska, and Dr Yaroslav Yarotnyk. While the clinical specialists receive glowing feedback for their expertise, some reviews criticize reception coordination.",
+        "pl": "Wielu klientów wyraża głęboką wdzięczność neurologom, w tym doktor Aleksandrze Banasik, doktor Agacie Guzikowskiej i doktorowi Yarotnykowi. Podczas gdy lekarze są chwaleni za wiedzę i zaangażowanie, część opinii zgłasza uwagi do organizacji pracy recepcji lecznicy."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 30,
+      "title": {
+        "en": "Care for pets with severe neurological issues",
+        "pl": "Opieka nad zwierzętami ze schorzeniami układu nerwowego"
+      },
+      "text": {
+        "en": "Owners bring dogs and cats suffering from spinal disc herniation, seizures, and limb paralysis for specialized neurological support. Reviewers frequently describe how dedicated clinicians saved paralyzed pets and guided anxious families through complex recovery phases.",
+        "pl": "Opiekunowie zgłaszają się z psami i kotami zmagającymi się z dyskopatią, padaczką oraz niedowładem kończyn. Klienci wielokrotnie opisują uratowanie sprawności sparaliżowanych czworonogów oraz profesjonalne wsparcie personelu w trudnych etapach rehabilitacji."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 29,
+      "title": {
+        "en": "Advanced MRI diagnostics and disputed outcomes",
+        "pl": "Zaawansowany rezonans i sporne wyniki terapii"
+      },
+      "text": {
+        "en": "Many guardians credit successful neurosurgeries and advanced MRI imaging with restoring their pets' mobility and saving lives. Conversely, critical reviews complain about inconclusive MRI descriptions, heavy medication regimens, and lack of improvement after costly surgeries.",
+        "pl": "Wielu opiekunów przypisuje udanym operacjom neurologicznym i badaniom MRI uratowanie życia oraz sprawności swoich pupili. Z drugiej strony głosy krytyczne zarzucają klinice mało precyzyjne opisy rezonansu, nadmiar leków oraz brak poprawy po kosztownych zabiegach."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What diagnostic equipment is available at NeuroTeam?",
+        "pl": "Jakim sprzętem diagnostycznym dysponuje NeuroTeam?"
+      },
+      "a": {
+        "en": "The clinic features an advanced magnetic resonance imaging (MRI) scanner dedicated to pet neurological diagnostics.",
+        "pl": "Klinika dysponuje własnym aparatem rezonansu magnetycznego (MRI) do zaawansowanej diagnostyki neurologicznej."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does NeuroTeam perform emergency neurological admissions?",
+        "pl": "Czy NeuroTeam przyjmuje pacjentów w trybie pilnym?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that critically deteriorating pets are accepted on an urgent emergency basis for rapid evaluation.",
+        "pl": "Tak, opinie potwierdzają przyjmowanie pacjentów w stanie nagłym w trybie cito na pilną konsultację i diagnostykę."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointment delays common at the clinic?",
+        "pl": "Czy w klinice zdarzają się opóźnienia w przyjęciach?"
+      },
+      "a": {
+        "en": "While visits are thorough, reviewers occasionally report schedule delays due to emergency cases and reception delays.",
+        "pl": "Wizyty są wnikliwe, jednak z uwagi na nagłe przypadki i pracę rejestracji mogą zdarzyć się przesunięcia godzin wizyt."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "15 godzin temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 dni temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 dni temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "~",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "waiting": "-",
+        "prices": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "communication": "-"
+      }
+    }
+  ]
+}
