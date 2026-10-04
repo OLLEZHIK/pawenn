@@ -1,5 +1,6 @@
 import { unstable_cache } from "next/cache";
 import { prisma } from "./prisma";
+import { potentialUsers } from "./population";
 import type { Business, BusinessCategory, District, City } from "@prisma/client";
 import { CATEGORY_LABELS, categorySlugFromEnum } from "./categories";
 import type { Locale } from "./i18n";
@@ -250,10 +251,10 @@ async function getBusinessCountRaw(citySlug: string): Promise<{ total: number; b
 
 /** Home page numbers for the whole site, every city (owner, 2026-09-26):
  *  countries, cities, places and kinds of service with at least one place. */
-async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; places: number; kinds: number }> {
+async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; places: number; kinds: number; potentialUsers: number }> {
   const published = { status: "PUBLISHED" as const };
   const [cities, categories] = await Promise.all([
-    prisma.city.findMany({ where: { businesses: { some: published } }, select: { country: true } }),
+    prisma.city.findMany({ where: { businesses: { some: published } }, select: { country: true, slug: true } }),
     prisma.business.groupBy({ by: ["category"], where: published, _count: { _all: true } }),
   ]);
   return {
@@ -261,6 +262,7 @@ async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; p
     cities: cities.length,
     places: categories.reduce((sum, c) => sum + c._count._all, 0),
     kinds: categories.length,
+    potentialUsers: potentialUsers(cities.map((c) => c.slug)),
   };
 }
 
