@@ -1,0 +1,103 @@
+{
+  "slug": "psi-salon-zuzana",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=17686732626512645415",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Professional advice with mixed communication feedback",
+        "sk": "Odborné poradenstvo s rozporuplnou komunikáciou"
+      },
+      "text": {
+        "en": "Most dog owners in Ružinov commend the friendly attitude, helpful coat care advice, and extensive experience of the groomer. However, one review complained about inappropriate commentary during nail trimming and expressed dissatisfaction with the communication.",
+        "sk": "Väčšina majiteľov v Ružinove oceňuje milý a ochotný prístup majiteľky salónu, jej cenné rady k domácej úprave srsti a dlhoročné skúsenosti. Jedna recenzia však kritizovala nevhodné poznámky pri strihaní pazúrikov a celkovú nespokojnosť s komunikáciou personálu."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Quality coat styling and grooming outcomes",
+        "sk": "Kvalitná úprava srsti a výsledok strihania"
+      },
+      "text": {
+        "en": "Satisfied clients praise thorough coat styling and neat grooming results across different dog breeds, noting their pets look clean and well-kept. Nevertheless, one client reported an incomplete nail grinding procedure and an unrequested service added during the visit.",
+        "sk": "Spokojní zákazníci chvália čistú a precíznu úpravu srsti u rôznych plemien psov, pričom oceňujú pekný vzhľad svojich miláčikov po návšteve. Vyskytla sa však aj sťažnosť na neúplné ošetrenie pazúrikov a vykonanie nevyžiadaného úkonu bez predošlého súhlasu majiteľa."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling of dogs of various ages",
+        "sk": "Trpezlivý prístup k psom rôzneho veku"
+      },
+      "text": {
+        "en": "Dog owners highlight gentle and considerate handling adapted to the pet's temperament, including patient care for senior and sensitive dogs. Reviewers note that dogs leave the salon content and that grooming is handled with appropriate patience and calm attention.",
+        "sk": "Majitelia psov vyzdvihujú trpezlivé zaobchádzanie so zvieratami prispôsobené ich individuálnej povahe, vrátane starostlivosti o starších a citlivejších psov. Recenzenti uvádzajú, že psíkovia odchádzajú zo salónu spokojní a úprava prebieha bez zbytočného stresu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Psí salón Zuzana located?",
+        "sk": "Kde sa Psí salón Zuzana nachádza?"
+      },
+      "a": {
+        "en": "The salon is located on Rezedová 5 in the Ružinov district of Bratislava.",
+        "sk": "Salón sa nachádza na Rezedovej 5 v mestskej časti Bratislava – Ružinov."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What grooming services are available?",
+        "sk": "Aké služby salón pre psov poskytuje?"
+      },
+      "a": {
+        "en": "The salon offers dog bathing, haircuts, coat grooming, claw trimming, and ear and eye cleaning.",
+        "sk": "Salón ponúka kúpanie, strihanie srsti, kompletnú úpravu psov, strihanie pazúrikov a čistenie uší a očí."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is an appointment required before visiting?",
+        "sk": "Je potrebné sa na strihanie vopred objednať?"
+      },
+      "a": {
+        "en": "Yes, services are provided by appointment, which must be agreed upon by phone in advance.",
+        "sk": "Áno, návšteva prebieha na objednávku po predchádzajúcom telefonickom dohovore."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the groomer provide advice on home coat care?",
+        "sk": "Poskytuje personál poradenstvo ohľadom domácej starostlivosti o srsť?"
+      },
+      "a": {
+        "en": "Yes, clients mention receiving practical guidance and tips on maintaining their dog's coat at home between salon visits.",
+        "sk": "Áno, majitelia v recenziách spomínajú užitočné rady a odporúčania na domácu úpravu a údržbu srsti medzi návštevami."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "pred 7 mesiacmi", "months": 7, "stars": 5, "topics": { "staff": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 1, "topics": { "staff": "-", "results": "-", "prices": "-" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "results": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "results": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+", "results": "+" } }
+  ]
+}

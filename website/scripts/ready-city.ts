@@ -125,7 +125,7 @@ out.push("\n## Покрытие по категориям\n\n| Категори�
 for (const cat of categories) {
   const c = rows.filter((r) => r.category === cat);
   out.push(
-    `| ${cat} | ${c.length} | ${share(c.filter((r) => r.logo_file).length, c.length)} | ${share(c.filter((r) => r.google_rating).length, c.length)} | ${share(c.filter((r) => r.opening_hours).length, c.length)} | ${share(c.filter((r) => pricedSlugs.has(r.slug)).length, c.length)} | ${share(c.filter((r) => insightSlugs.has(r.slug)).length, c.length)} |`,
+    `| ${cat} | ${c.length} | ${share(c.filter((r) => r.logo_file).length, c.length)} | ${share(c.filter((r) => r.google_rating).length, c.length)} | ${share(c.filter((r) => r.opening_hours).length, c.length)} | ${cat === "PET_SHOP" ? "— (нет услуг с ценой)" : share(c.filter((r) => pricedSlugs.has(r.slug)).length, c.length)} | ${share(c.filter((r) => insightSlugs.has(r.slug)).length, c.length)} |`,
   );
 }
 
