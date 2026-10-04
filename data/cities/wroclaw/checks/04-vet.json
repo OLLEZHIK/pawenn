@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "gabinet-weterynaryjny-pawel-jonkisz",
+    "przychodnia-weterynaryjna-zako",
+    "davet",
+    "ervet-przychodnia-weterynaryjna",
+    "gabinet-weterynaryjny-muchobor",
+    "rita-vet",
+    "podaj-lapke",
+    "na-koziej",
+    "multivet",
+    "pod-jaszczurami-305"
+  ],
+  "hash": "6d83e47e24b746af833f98bf125951af2d37766d6a8d39e87d314d843c5396a8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-04T11:53:06.561Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-04T11:54:41.475Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
