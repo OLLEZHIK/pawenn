@@ -1,0 +1,35 @@
+{
+  "chunk": "insights-07",
+  "kind": "insights",
+  "slugs": [
+    "amigo",
+    "dog-house-zabiniec",
+    "doglamour",
+    "lapka-moment",
+    "maxvet-centrum-weterynaryjne-krakow-szafirowa",
+    "przychodnia-weterynaryjna-figaro",
+    "przychodnia-weterynaryjna-vet-complex",
+    "psia-eskadra",
+    "spazurem",
+    "zwierzogrod-przychodnia-weterynaryjna"
+  ],
+  "hash": "73e6ba38539b54c5ea26ae4c375bcab407361b6bea0d5a1c55cd8f4bb5741448",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-03T14:09:06.509Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-03T14:11:46.798Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-03T14:12:14.098Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

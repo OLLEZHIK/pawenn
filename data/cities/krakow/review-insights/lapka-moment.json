@@ -1,0 +1,146 @@
+{
+  "slug": "lapka-moment",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/LAPka+MOMENT.+Salon+groomerski/data=!4m7!3m6!1s0x471643924851ff77:0xe4c8875290980d41!8m2!3d50.0097516!4d20.022649!16s%2Fg%2F11qqlcxf7l!19sChIJd_9RSJJDFkcRQQ2YkFKHyOQ?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable groomers alongside communication disputes",
+        "pl": "Fachowe groomerki i sporadyczne spory organizacyjne"
+      },
+      "text": {
+        "en": "Several clients commend the friendly and informative communication during visits with young cats and dogs. However, critical reviews expressed annoyance regarding unclear arrival expectations, time scheduling, and difficulty handling restless pets calmly.",
+        "pl": "Część klientów bardzo chwali miłą i pomocną postawę personelu oraz cenne wskazówki przy pierwszej wizycie młodego kota. W recenzjach krytycznych pojawiły się jednak uwagi o braku jasnej informacji o czasie trwania wizyty i trudnościach z ruchliwym psem w salonie."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Care for varied dog breeds and feline visitors",
+        "pl": "Opieka nad różnymi rasami psów i kotami"
+      },
+      "text": {
+        "en": "The salon welcomes a diverse range of pets including Akitas, cats, and small canine companions. While satisfied clients report calm and comfortable visits, two reviewers mentioned that their pets were stressed or that sessions could not be fully finished on site.",
+        "pl": "Salon przyjmuje szeroki wachlarz zwierząt, w tym akity, koty i małe rasy psów. Choć zadowoleni klienci opisują spokojny przebieg wizyt, dwoje recenzentów wspomniało o stresie pupila i przerwaniu strzyżenia przed jego pełnym zakończeniem podczas wizyty w salonie."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "High grooming standards with mixed service feedback",
+        "pl": "Wysoki standard pielęgnacji ze zróżnicowanymi ocenami"
+      },
+      "text": {
+        "en": "Positive feedback praises thorough ear cleaning, combing, and nail clipping leaving pets looking magnificent and groomed. Conversely, one client reported dissatisfaction with cut styling and hair in the pet's eyes, alongside an unexpected price update.",
+        "pl": "Pozytywne opinie chwalą staranne czyszczenie uszu, wyczesywanie i obcinanie pazurków, po których zwierzęta wyglądają wspaniale. Z kolei jedna klientka zgłosiła niezadowolenie z fryzury i włosów w oczach psa oraz nagłej zmiany ceny za wykonaną usługę strzyżenia."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon groom cats as well as dogs?",
+        "pl": "Czy salon oferuje kompleksową pielęgnację kotów?"
+      },
+      "a": {
+        "en": "Yes, clients confirm cat grooming services including gentle combing, ear cleaning, and nail clipping.",
+        "pl": "Tak, opiekunowie kotów potwierdzają zabiegi wyczesywania, czyszczenia uszu oraz bezpiecznego obcinania pazurków."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How should owners prepare for a first-time cat visit?",
+        "pl": "Jak przygotować się do pierwszej wizyty z kotem?"
+      },
+      "a": {
+        "en": "Owners may need to accompany their cat during adaptation and should confirm expected visit durations beforehand.",
+        "pl": "Warto upewnić się co do wymaganego czasu wizyty, gdyż w niektórych przypadkach opiekun może towarzyszyć pupilowi."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices communicated clearly prior to service?",
+        "pl": "Czy ostateczny koszt usługi jest ustalany przed wizytą?"
+      },
+      "a": {
+        "en": "Standard rates are posted, though clients advise verifying any potential extra charges for matted fur in advance.",
+        "pl": "Cennik jest dostępny, lecz klienci sugerują doprecyzowanie ewentualnych dopłat za rozczesywanie przed zabiegiem."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon handle large breeds like Akitas?",
+        "pl": "Czy salon podejmuje się pielęgnacji dużych ras, np. akity?"
+      },
+      "a": {
+        "en": "Yes, Akita owners report very satisfactory and professional grooming experiences.",
+        "pl": "Tak, właściciele akit potwierdzają w pełni profesjonalne i satysfakcjonujące przeprowadzenie wizyty."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edytowano tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "+",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "+",
+        "results": "-"
+      }
+    }
+  ]
+}
