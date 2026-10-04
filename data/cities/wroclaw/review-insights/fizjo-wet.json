@@ -1,0 +1,204 @@
+{
+  "slug": "fizjo-wet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fizjo-Wet/data=!4m7!3m6!1s0x470fc255c59795fb:0x760e7f2a6e4a8072!8m2!3d51.0732593!4d17.0329017!16s%2Fg%2F1ty72_9w!19sChIJ-5WXxVXCD0cRcoBKbip_DnY?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Dedicated doctors and attentive team",
+        "pl": "Zaangażowani lekarze i troskliwy zespół"
+      },
+      "text": {
+        "en": "Pet guardians warmly highlight the dedication of Dr. Dorota Strugała, Dr. Piwońska, and the clinic team, praising their patience and medical knowledge. Most visitors feel supported, though isolated reviews mention difficulties handling anxious dogs during blood draws and mixed experiences with visit continuity.",
+        "pl": "Klienci bardzo ciepło opisują zaangażowanie dr Doroty Strugały, dr Piwońskiej oraz zespołu recepcji, chwaląc ich cierpliwość i fachową wiedzę. Większość opiekunów czuje się wysłuchana, choć pojedyncze opinie wskazują na trudności z opanowaniem nerwowego psa przy pobieraniu krwi oraz potrzebę lepszej ciągłości leczenia."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Smooth surgeries and comprehensive diagnostics",
+        "pl": "Sprawne zabiegi i kompleksowa diagnostyka"
+      },
+      "text": {
+        "en": "Animal owners emphasize successful surgical procedures, including complication-free spaying and dependable diagnostic evaluations. The practice delivers comprehensive internal care and veterinary rehabilitation, effectively stabilizing chronically ill cats and dogs recovering from injuries.",
+        "pl": "Opiekunowie zwierząt podkreślają skuteczne zabiegi chirurgiczne, w tym bezproblemowe sterylizacje oraz rzetelne badania diagnostyczne. Lecznica zapewnia szeroki zakres opieki internistycznej i rehabilitacyjnej, pomagając ustabilizować stan przewlekle chorych kotów oraz psów po urazach."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle approach to canine and feline patients",
+        "pl": "Delikatne podejście do psów i kotów"
+      },
+      "text": {
+        "en": "Reviews consistently commend the staff for their gentle and calm handling of feline and canine patients. The medical team strives to maintain a low-stress environment for young puppies, kittens, and adult pets alike, greatly easing routine checkups and recovery procedures.",
+        "pl": "W opiniach regularnie powtarza się pochwała za delikatne i bezstresowe podejście do czworonogów. Zespół stara się stworzyć spokojną atmosferę zarówno dla szczeniąt i kociąt, jak i dla dorosłych pacjentów, co ułatwia przejście badań kontrolnych i zabiegów pielęgnacyjnych."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fizjo-Wet perform surgical spaying and neutering?",
+        "pl": "Czy Fizjo-Wet wykonuje zabiegi sterylizacji i kastracji?"
+      },
+      "a": {
+        "en": "Yes, clients confirm smooth, complication-free surgical spaying with prompt next-day recovery.",
+        "pl": "Tak, klienci potwierdzają sprawnie przeprowadzone zabiegi sterylizacji, po których zwierzęta szybko wracają do formy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer pet rehabilitation and physiotherapy?",
+        "pl": "Czy przychodnia oferuje rehabilitację i fizjoterapię zwierząt?"
+      },
+      "a": {
+        "en": "Yes, the practice specializes in physical therapy, post-injury rehabilitation, and mobility support for pets.",
+        "pl": "Tak, placówka specjalizuje się w fizjoterapii, rehabilitacji pourazowej oraz wsparciu sprawności ruchowej zwierząt."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is prior booking required before visiting?",
+        "pl": "Czy przed wizytą wymagana jest wcześniejsza rejestracja?"
+      },
+      "a": {
+        "en": "Yes, appointments should be scheduled in advance by phone to avoid waiting and ensure specialist availability.",
+        "pl": "Tak, zaleca się wcześniejszy kontakt telefoniczny w celu umówienia dogodnego terminu i uniknięcia kolejek."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 4 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 4 miesiące temu",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 4,
+      "topics": {}
+    }
+  ]
+}
