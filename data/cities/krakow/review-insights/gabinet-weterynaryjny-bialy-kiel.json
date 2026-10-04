@@ -1,0 +1,137 @@
+{
+  "slug": "gabinet-weterynaryjny-bialy-kiel",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Gabinet+Weterynaryjny+Bia%C5%82y+Kie%C5%82/data=!4m7!3m6!1s0x4716434f769ee73d:0x92c82207353ebfc1!8m2!3d50.015868!4d19.9675404!16s%2Fg%2F11c3k2x1dc!19sChIJPeeedk9DFkcRwb8-NQciyJI?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pl": "Kompetencje lekarki i zróżnicowane opinie",
+        "en": "Veterinarian competence and divided feedback"
+      },
+      "text": {
+        "pl": "Większość klientów bardzo chwali panią Patrycję za empatię, wiedzę i determinację w wyprowadzaniu starszych kotów z ciężkich stanów zdrowotnych. Pojawiła się jednak także ostra opinia zarzucająca lekarce nieuprzejme traktowanie i zawyżenie kosztu wizyty.",
+        "en": "Most clients speak highly of Dr. Patrycja for her empathy, diagnostic expertise, and determination in rehabilitating senior felines from severe illnesses. However, a sharply critical review complained about unpleasant communication and disproportionate charges."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pl": "Opieka nad schorowanymi psami i kotami",
+        "en": "Care for ailing dogs and cats"
+      },
+      "text": {
+        "pl": "Właściciele starszych psów i kotów doceniają troskę oraz ratowanie życia zwierząt uznanych w innych gabinetach za nieuleczalne. Z kolei w krytycznym wpisie klientka wyraziła żal z powodu bolesnego i jej zdaniem zbyt drogiego zabiegu toalety gruczołów u małego psa.",
+        "en": "Owners of senior companion animals value the compassionate care and successful treatments of pets deemed hopeless elsewhere. In contrast, one dissatisfied client expressed frustration regarding a painful and reportedly overpriced anal gland procedure on a small dog."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pl": "Stosunek cen do wykonanych zabiegów",
+        "en": "Pricing transparency and procedure costs"
+      },
+      "text": {
+        "pl": "Dwie opinie podkreślają przyzwoite, bardzo uczciwe stawki za leczenie i brak nieuzasadnionego naciągania klientów na dodatkowe koszty. W opozycji do nich jedna klientka poczuła się obciążona zbyt wysoką kwotą za prostą toaletę gruczołów okołoodbytowych u małego psa.",
+        "en": "Two reviews highlight reasonable, very fair treatment rates and the complete lack of unwarranted price padding. In contrast, one client felt charged excessively for routine anal sac expression on a miniature dog, reflecting polarized views on procedure costs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Gdzie mieści się Gabinet Weterynaryjny Biały Kieł?",
+        "en": "Where is the Biały Kieł veterinary clinic located?"
+      },
+      "a": {
+        "pl": "Gabinet znajduje się przy ul. Korpala 14 w krakowskich Swoszowicach.",
+        "en": "The practice is situated at ul. Korpala 14 in Swoszowice, Kraków."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "Czy w gabinecie leczy się zwierzęta geriatryczne?",
+        "en": "Does the practice treat senior and geriatric pets?"
+      },
+      "a": {
+        "pl": "Tak, klienci w opiniach opisują udane prowadzenie kilkunastoletnich psów i kotów.",
+        "en": "Yes, client reviews describe successful management of geriatric dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pl": "Jakie są opinie o cenach w gabinecie Biały Kieł?",
+        "en": "What do clients say about prices at Biały Kieł?"
+      },
+      "a": {
+        "pl": "Część klientów chwali uczciwe ceny, choć zdarzają się też uwagi krytyczne dotyczące pojedynczych usług.",
+        "en": "Several clients praise fair rates, although occasional criticisms of specific charges exist."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

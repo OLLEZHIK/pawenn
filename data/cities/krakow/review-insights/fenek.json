@@ -1,0 +1,144 @@
+{
+  "slug": "fenek",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/FENEK/data=!4m7!3m6!1s0x471643621a55370f:0x348dd0160fa9d013!8m2!3d50.0230126!4d19.999118!16s%2Fg%2F11f3c1p9s1!19sChIJDzdVGmJDFkcRE9CpDxbQjTQ?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Passionate and knowledgeable shop owner",
+        "pl": "Pasja i fachowe doradztwo właściciela"
+      },
+      "text": {
+        "pl": "Klienci są zachwyceni zaangażowaniem właściciela, który z autentyczną troską doradza w wyborze odpowiedniej karmy i akcesoriów. W opiniach powtarzają się pochwały za serdeczność, chęć bezinteresownej pomocy oraz gotowość do dzielenia się darmowymi próbkami diet.",
+        "en": "Shoppers are delighted by the dedication of the store owner, who offers heartfelt advice when choosing suitable feeds and accessories. Reviews consistently praise the warm demeanor, genuine helpfulness, and willingness to provide free samples of pet diets to test."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Well stocked local pet boutique",
+        "pl": "Świetnie zaopatrzony sklep zoologiczny"
+      },
+      "text": {
+        "pl": "Osoby robiące tu zakupy zwracają uwagę na bogate zaopatrzenie w karmy dobrej jakości oraz niezbędne artykuły dla psów, kotów i gryzoni. Lokal jest czysty i dobrze zorganizowany, a na półkach znajdują się starannie dobrane produkty niedostępne w typowych marketach.",
+        "en": "Visitors note the comprehensive inventory of quality pet food and necessary daily essentials for dogs, cats, and small animals. The premises are tidy and neatly arranged, featuring selected premium products that are often unavailable in generic grocery chains."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming space dedicated to pets",
+        "pl": "Miejsce z miłością do zwierząt"
+      },
+      "text": {
+        "pl": "Recenzenci wskazują, że każde odwiedzające zwierzę jest w sklepie traktowane z najwyższą uwagą, a jego dobro stawiane jest na pierwszym miejscu. Właściciel pomaga dobrać zdrowe posiłki nawet dla wybrednych czworonogów, dbając o ich zrównoważony rozwój i kondycję.",
+        "en": "Reviewers indicate that visiting animals are treated with the highest care, with their health and comfort placed front and center. The owner readily helps select nutritious diets even for fussy pets, prioritizing their balanced nourishment and overall vitality."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Fenek pet store located?",
+        "pl": "Gdzie znajduje się sklep Fenek w Krakowie?"
+      },
+      "a": {
+        "en": "The store is located at Bieżanowska 88 in the Prokocim neighborhood of Kraków.",
+        "pl": "Sklep mieści się przy ulicy Bieżanowskiej 88 w krakowskim Prokocimiu."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does Fenek provide free food samples for pets?",
+        "pl": "Czy w sklepie można otrzymać darmowe próbki karm?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that the owner generously offers sample portions to ensure pets enjoy their meals.",
+        "pl": "Tak, z opinii wynika, że właściciel chętnie częstuje próbkami karm, aby sprawdzić preferencje pupila."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the opening hours of Fenek store?",
+        "pl": "W jakich godzinach otwarty jest sklep Fenek?"
+      },
+      "a": {
+        "en": "Fenek opens Monday through Friday 10:00–17:45, Saturday 09:00–14:00, and is closed on Sundays.",
+        "pl": "Sklep jest czynny od poniedziałku do piątku w godzinach 10:00–17:45, w soboty 09:00–14:00, w niedziele zamknięty."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What supplies can be purchased at the shop?",
+        "pl": "Jaki asortyment jest dostępny w sklepie?"
+      },
+      "a": {
+        "en": "The boutique stocks high-quality food, treats, harnesses, toys, and care items for dogs, cats, and small pets.",
+        "pl": "W ofercie znajdują się wysokiej jakości karmy, przysmaki, akcesoria spacerowe oraz artykuły higieniczne dla zwierząt."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
