@@ -5,7 +5,7 @@ import { readDocsMarkdown } from "@/lib/content";
 import { MarkdownContent } from "@/components/MarkdownContent";
 
 export const metadata: Metadata = {
-  title: "Terms of Use - pawenn",
+  title: "Terms of Use | Pawenn",
   description: "Terms governing the use of pawenn.",
   robots: { index: false, follow: true },
   // English only; v2 URL with the /en/ prefix.
