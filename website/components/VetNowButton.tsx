@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { listingPath } from "@/lib/categories";
+import { categoryHubPath, listingPath } from "@/lib/categories";
 import { nearestCity, type CityPointLite } from "@/lib/geo";
 import type { Locale } from "@/lib/i18n";
 
@@ -16,7 +16,6 @@ import type { Locale } from "@/lib/i18n";
 export function VetNowButton({
   locale,
   cities,
-  defaultCitySlug,
   label,
   hint,
   locating,
@@ -24,7 +23,6 @@ export function VetNowButton({
 }: {
   locale: Locale;
   cities: CityPointLite[];
-  defaultCitySlug: string;
   label: string;
   hint: string;
   locating: string;
@@ -38,22 +36,22 @@ export function VetNowButton({
       router.push(
         `${listingPath(locale, "VET_CLINIC", slug)}?open=1${near ? `&near=${near}` : ""}#results`,
       );
-    if (!("geolocation" in navigator) || cities.length === 0)
-      return open(defaultCitySlug);
+    // No location: the visitor picks a city of their language (the hub page
+    // keeps "open now"); a language with one city goes straight to it.
+    const pickCity = () => router.push(`${categoryHubPath(locale, "VET_CLINIC")}?open=1`);
+    if (!("geolocation" in navigator) || cities.length === 0) return pickCity();
     setPending(true);
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const { latitude, longitude } = pos.coords;
         const city = nearestCity(cities, latitude, longitude);
         setPending(false);
-        open(
-          city?.slug ?? defaultCitySlug,
-          city ? `${latitude.toFixed(4)},${longitude.toFixed(4)}` : undefined,
-        );
+        if (!city) return pickCity();
+        open(city.slug, `${latitude.toFixed(4)},${longitude.toFixed(4)}`);
       },
       () => {
         setPending(false);
-        open(defaultCitySlug);
+        pickCity();
       },
       { timeout: 6000, maximumAge: 10 * 60 * 1000 },
     );

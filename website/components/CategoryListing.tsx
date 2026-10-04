@@ -537,8 +537,7 @@ export async function CategoryListing({
           variant="floating"
           locale={locale}
           cities={vetCityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-          defaultCitySlug={citySlug}
-          label={t.vetNow.button}
+                    label={t.vetNow.button}
           hint={t.vetNow.buttonHint}
           locating={t.vetNow.locating}
         />
