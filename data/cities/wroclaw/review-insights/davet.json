@@ -1,0 +1,162 @@
+{
+  "slug": "davet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DaVet/data=!4m7!3m6!1s0x470fc2612fb02d99:0x5111337b02d48c1a!8m2!3d51.0904096!4d17.0401785!16s%2Fg%2F11cs628hb_!19sChIJmS2wL2HCD0cRGozUAnszEVE?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Competent veterinarians dedicated to their vocation",
+        "pl": "Kompetentni weterynarze oddani misji zawodowej"
+      },
+      "text": {
+        "en": "Clients enthusiastically praise the attending doctors, notably Dr. Aleksander Hołdys, for exemplary competence, kindness, and dedication. Clinicians explain medical aspects thoroughly and show touching commitment even during difficult palliative circumstances.",
+        "pl": "Klienci entuzjastycznie oceniają lekarzy, w tym doktora Aleksandra Hołdysa, za wysokie kompetencje, życzliwość i zaangażowanie. Lekarze szczegółowo objaśniają stan zdrowia zwierząt i okazują ogromne wsparcie właścicielom także w trudnych momentach pożegnań."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Fair and exceptionally affordable treatment rates",
+        "pl": "Uczciwe i wyjątkowo przystępne ceny leczenia"
+      },
+      "text": {
+        "en": "Reviewers frequently emphasize very attractive and transparent pricing across examinations, routine blood tests, and minor procedures. Visitors observe that top-tier medical help is offered without inflated bills, making regular pet healthcare accessible.",
+        "pl": "Opiekunowie zwierząt wielokrotnie podkreślają bardzo atrakcyjne i przejrzyste ceny badań krwi, profilaktyki oraz drobnych zabiegów. Klienci zaznaczają z uznaniem, że profesjonalna pomoc medyczna świadczona jest tutaj bez windowania rachunków w lecznicy."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle and patient attitude towards animals",
+        "pl": "Łagodne i cierpliwe podejście do czworonogów"
+      },
+      "text": {
+        "en": "Visitors note delicate, calm handling that prevents dogs and cats from feeling stressed during consultation visits. Attentive veterinarians adapt their pace to the animal temperament, making visits quick, safe, and comfortable for four-legged patients.",
+        "pl": "Właściciele zwracają uwagę na delikatne i spokojne traktowanie pacjentów, dzięki czemu psy i koty nie odczuwają zbędnego lęku. Lekarze dostosowują tempo badania do temperamentu zwierzęcia, dbając o jego pełen komfort i bezpieczeństwo w trakcie wizyty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are diagnostic blood tests available at competitive prices?",
+        "pl": "Czy badania krwi są wykonywane w przystępnych cenach?"
+      },
+      "a": {
+        "en": "Yes, clients specifically praise comprehensive laboratory screening packages offered at lower rates than city averages.",
+        "pl": "Tak, recenzenci wyraźnie chwalą pakiety badań laboratoryjnych dostępne w znacznie niższych cenach niż w innych lecznicach."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is payment by bank card supported in the clinic?",
+        "pl": "Czy w gabinecie można płacić kartą płatniczą?"
+      },
+      "a": {
+        "en": "Reviewers note that card payments may not be available, advising pet owners to prepare cash or alternative methods.",
+        "pl": "Opinie klientów wspominają o braku terminala płatniczego, sugerując przygotowanie gotówki przed planowaną wizytą."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can senior pets receive compassionate palliative care?",
+        "pl": "Czy starsze zwierzęta mogą liczyć na opiekę paliatywną?"
+      },
+      "a": {
+        "en": "Yes, pet parents highlight touching empathy, pain management, and support during the final stages of a pet life.",
+        "pl": "Tak, opiekunowie podkreślają wielką empatię, kontrolę bólu i wsparcie lekarzy w opiece nad sędziwymi zwierzętami."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

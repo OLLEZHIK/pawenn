@@ -1,0 +1,166 @@
+{
+  "slug": "multivet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Multivet/data=!4m7!3m6!1s0x470fc21742b05ad9:0xad23964ffcc9e7bc!8m2!3d51.0984122!4d17.0051081!16s%2Fg%2F1q5d61yd_!19sChIJ2VqwQhfCD0cRvOfJ_E-WI60?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Committed doctors and varied reviews",
+        "pl": "Zaangażowani lekarze i zróżnicowane opinie"
+      },
+      "text": {
+        "en": "Most animal owners highly value Dr. Gabriela Szubert and Dr. Agata for dedication, pleasant service, and genuine passion. Nevertheless, disappointed clients complain about poor empathy and perceived commercial focus during urgent end-of-life situations.",
+        "pl": "Większość właścicieli bardzo ceni dr Gabrielę Szubert oraz dr Agatę za zaangażowanie, uprzejmą obsługę i pracę z powołania. Zdarzają się jednak zawiedzeni klienci, zarzucający personelowi chłodne podejście i komercyjne nastawienie w stanach krytycznych."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Warm approach to domestic pets",
+        "pl": "Ciepłe podejście do domowych zwierząt"
+      },
+      "text": {
+        "en": "Guardians frequently note that veterinarians show genuine affection and a steady, patient hand with both cats and dogs. Even long-term feline patients receive considerate attention, making routine clinical treatments comfortable and safe for beloved household pets.",
+        "pl": "Opiekunowie regularnie zaznaczają, że lekarki mają świetną rękę do zwierząt i okazują czworonogom dużo cierpliwego serca. Nawet wieloletni koci pacjenci czują się w gabinecie bezpiecznie, co ułatwia przeprowadzanie rutynowych procedur leczniczych bez zbędnego stresu."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Smooth procedures and diagnostic doubts",
+        "pl": "Udane zabiegi i wątpliwości diagnostyczne"
+      },
+      "text": {
+        "en": "Positive reviews highlight accurate diagnoses, successful surgical operations, and helpful medical guidance for ailing pets. In contrast, negative feedback points to unresolved skin scratching causes, disputed fees, and dissatisfaction with palliative procedures.",
+        "pl": "Pozytywne opinie podkreślają trafne diagnozy, bezproblemowo wykonane zabiegi chirurgiczne oraz sprawną pomoc chorym zwierzętom. Krytyczne głosy wytykają natomiast trudności w ustaleniu przyczyn świądu łap, wysokie koszty oraz zastrzeżenia do procedur paliatywnych."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does MultiVet perform surgical procedures?",
+        "pl": "Czy MultiVet wykonuje zabiegi chirurgiczne?"
+      },
+      "a": {
+        "en": "Yes, clients confirm smoothly conducted surgical procedures and accurate pre-operative diagnostics.",
+        "pl": "Tak, klienci potwierdzają sprawnie i profesjonalnie przeprowadzone zabiegi oraz trafną diagnostykę."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments organized punctually?",
+        "pl": "Czy wizyty przebiegają sprawnie i terminowo?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate good overall organization and smooth communication when arranging visits.",
+        "pl": "Tak, opiekunowie chwalą sprawny kontakt i dobrą organizację przyjęć w placówce."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can blood tests and ultrasound be performed on site?",
+        "pl": "Czy na miejscu można wykonać badania krwi i USG?"
+      },
+      "a": {
+        "en": "Yes, the practice conducts ultrasound imaging and basic laboratory blood diagnostics on site.",
+        "pl": "Tak, przychodnia wykonuje na miejscu diagnostykę obrazową USG oraz podstawowe badania krwi."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "+"
+      }
+    }
+  ]
+}
