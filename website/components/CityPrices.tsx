@@ -44,9 +44,6 @@ export function CityPrices({
       <ul className="mt-3 divide-y divide-line">
         {rows.map((s) => {
           const m = market.get(s.code)!;
-          // Where the typical (median) price sits between cheapest and dearest.
-          const spread = m.max - m.min;
-          const at = spread > 0 ? Math.min(100, Math.max(0, ((m.median - m.min) / spread) * 100)) : null;
           return (
             <li key={s.code} className="py-3">
               <div className="flex items-baseline justify-between gap-4">
@@ -59,21 +56,6 @@ export function CityPrices({
                 </Link>
                 <span className="shrink-0 text-lg font-extrabold text-foreground">{money(m.median, m.currency)}</span>
               </div>
-              {at !== null && (
-                <div className="mt-2">
-                  <div className="relative h-1.5 rounded-full bg-[var(--accent,var(--brand-blue))]/15">
-                    <span
-                      aria-hidden="true"
-                      className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--accent,var(--brand-blue))] ring-2 ring-surface"
-                      style={{ left: `${at}%` }}
-                    />
-                  </div>
-                  <div className="mt-1 flex justify-between text-xs text-foreground/50">
-                    <span>{money(m.min, m.currency)}</span>
-                    <span>{money(m.max, m.currency)}</span>
-                  </div>
-                </div>
-              )}
             </li>
           );
         })}
