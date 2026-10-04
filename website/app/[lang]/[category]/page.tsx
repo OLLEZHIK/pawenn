@@ -41,12 +41,20 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   return { title: { absolute: title }, robots: { index: false, follow: true } };
 }
 
-export default async function CategoryHubPage({ params }: { params: Promise<PageParams> }) {
+export default async function CategoryHubPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<PageParams>;
+  searchParams: Promise<{ open?: string }>;
+}) {
   const resolved = await resolve(params);
+  // "Vet open now" without a location lands here: the choice keeps the filter.
+  const suffix = (await searchParams).open === "1" ? "?open=1#results" : "";
   if (!resolved) notFound();
   const { locale, category, rows } = resolved;
   if (rows.length === 0) notFound();
-  if (rows.length === 1) redirect(listingPath(locale, category, rows[0].city.slug));
+  if (rows.length === 1) redirect(`${listingPath(locale, category, rows[0].city.slug)}${suffix}`);
 
   const d = getDictionary(locale);
   const t = d.home;
@@ -78,6 +86,7 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
       <CityPicker
         locale={locale}
         category={category}
+        suffix={suffix}
         cities={rows.map(({ city }) => ({ slug: city.slug, name: city.name }))}
         placeholder={d.search.cityPlaceholder}
         label={d.search.cityLabel}
@@ -88,7 +97,7 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
         {rows.map(({ city, count }) => (
           <li key={city.slug}>
             <Link
-              href={listingPath(locale, category, city.slug)}
+              href={`${listingPath(locale, category, city.slug)}${suffix}`}
               className="flex items-center justify-between gap-4 px-5 py-4 hover:bg-surface-sunken"
             >
               <span className="font-semibold text-foreground">{city.name}</span>
