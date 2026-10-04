@@ -6,7 +6,8 @@ import Link from "next/link";
 import { TagIcon } from "./icons";
 import { pricesPath } from "@/lib/priceSlugs";
 import { moneyRange } from "@/lib/money";
-import { MARKET_BAND, pctAgainst, type MarketPrice } from "@/lib/priceMarket";
+import { pctAgainst, type MarketPrice } from "@/lib/priceMarket";
+import { priceTone, TONE_TEXT } from "@/lib/priceTone";
 
 type PriceRow = BusinessWithRelations["priceItems"][number];
 
@@ -33,7 +34,6 @@ export function PriceTable({
   citySlug?: string;
 }) {
   const t = getDictionary(locale).business;
-  const card = getDictionary(locale).card;
   const order = (SERVICES[category] ?? []).map((s) => s.code);
   const rows = items
     .filter((i) => i.service.code && order.includes(i.service.code))
@@ -83,12 +83,10 @@ export function PriceTable({
     const headline = (comparable.length ? comparable : own).reduce((min, r) => (Number(r.priceFrom) < Number(min.priceFrom) ? r : min));
     const from = Number(headline.priceFrom);
     const cityMarket = market?.get(code);
+    // City average and how far this price is from it, in money, not percent.
     const compare =
       comparable.length > 0 && cityMarket && cityMarket.currency === headline.currency
-        ? {
-            pct: pctAgainst(from, cityMarket.median),
-            at: cityMarket.max > cityMarket.min ? Math.min(100, Math.max(0, ((from - cityMarket.min) / (cityMarket.max - cityMarket.min)) * 100)) : 50,
-          }
+        ? { average: cityMarket.median, diff: from - cityMarket.median, tone: priceTone(pctAgainst(from, cityMarket.median)) }
         : null;
     return { code, own, headline, from, compare, bySize: own.length > 1 };
   });
@@ -104,7 +102,6 @@ export function PriceTable({
           const unit = headline.unit ? t.perUnit[headline.unit] : null;
           const to = headline.priceTo === null ? null : Number(headline.priceTo);
           const single = !bySize && to !== null && to !== from;
-          const level = compare ? (Math.abs(compare.pct) <= MARKET_BAND ? "avg" : compare.pct < 0 ? "below" : "above") : null;
           return (
             <li key={code} className="py-4">
               <div className="flex items-center justify-between gap-4">
@@ -118,11 +115,20 @@ export function PriceTable({
                       serviceLabel(category, code, locale)
                     )}
                   </div>
-                  {(bySize || headline.partial) && (
+                  {compare && (
                     <div className="text-sm text-foreground/60">
-                      {[bySize ? t.priceBySize : null, headline.partial ? t.notCompared : null].filter(Boolean).join(" · ")}
+                      {t.cityAverage(money(compare.average, headline.currency))}
+                      {Math.round(Math.abs(compare.diff)) > 0 && (
+                        <span className={` whitespace-nowrap font-semibold ${TONE_TEXT[compare.tone]}`}>
+                          {" · "}
+                          {compare.diff < 0
+                            ? t.lessBy(money(Math.abs(compare.diff), headline.currency))
+                            : t.moreBy(money(compare.diff, headline.currency))}
+                        </span>
+                      )}
                     </div>
                   )}
+                  {!compare && headline.partial && <div className="text-sm text-foreground/60">{t.notCompared}</div>}
                 </div>
                 <div className="shrink-0 text-right">
                   {(bySize || headline.partial || to === null) && !unit && <span className="mr-1 text-xs font-medium text-foreground/60">{t.priceFrom("").trim()}</span>}
@@ -132,23 +138,6 @@ export function PriceTable({
                   {unit && <span className="ml-1 text-sm font-normal text-foreground/60">{unit}</span>}
                 </div>
               </div>
-              {compare && level && (
-                <div className="mt-3" title={card.vsMarket(compare.pct, level === "avg")}>
-                  <div className="relative h-1.5 rounded-full bg-[var(--accent,var(--brand-blue))]/15" aria-hidden="true">
-                    <span
-                      className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--accent,var(--brand-blue))] ring-2 ring-surface"
-                      style={{ left: `${compare.at}%` }}
-                    />
-                  </div>
-                  <p
-                    className={`mt-1.5 text-xs font-bold ${
-                      level === "below" ? "text-green-700" : level === "above" ? "text-[var(--accent,var(--brand-blue))]" : "text-foreground/60"
-                    }`}
-                  >
-                    {level === "below" ? t.priceBelow : level === "above" ? t.priceAbove : t.priceAverage}
-                  </p>
-                </div>
-              )}
             </li>
           );
         })}
