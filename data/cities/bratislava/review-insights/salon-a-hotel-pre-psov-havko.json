@@ -1,0 +1,106 @@
+{
+  "slug": "salon-a-hotel-pre-psov-havko",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=8154006210408458313",
+  "period_from": "2024-10-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Gentle and stress-free care for pets",
+        "sk": "Láskavý a bezstresový prístup k psíkom"
+      },
+      "text": {
+        "en": "Dog owners in Podunajské Biskupice consistently praise the gentle and considerate handling of their pets. Reviews regularly note that dogs leave both the grooming salon and the boarding hotel happy and relaxed, returning for future stays without anxiety or fear.",
+        "sk": "Majitelia psov v Podunajských Biskupiciach vyzdvihujú láskavý a trpezlivý prístup ku zvieratám. Recenzie zhodne uvádzajú, že psíkovia odchádzajú zo salónu aj hotela pokojní a spokojní, pričom pri ďalších návštevách sa do zariadenia tešia bez strachu či stresu."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming, reliable, and attentive owner",
+        "sk": "Príjemná, ústretová a spoľahlivá majiteľka"
+      },
+      "text": {
+        "en": "Clients frequently commend the welcoming, warm, and accommodating attitude of the owner. Reviews emphasize dependable service, reliable adherence to all agreed arrangements, and a dedicated willingness to tailor care to each dog's specific personality and habits.",
+        "sk": "Zákazníci veľmi pozitívne hodnotia príjemné, priateľské a ústretové správanie majiteľky prevádzky. V recenziách sa opakovane spomína jej spoľahlivosť, presné dodržiavanie všetkých dohodnutých podmienok a ochota prispôsobiť starostlivosť individuálnym potrebám každého psa."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "High satisfaction with grooming and boarding",
+        "sk": "Veľká spokojnosť so službami salónu aj hotela"
+      },
+      "text": {
+        "en": "Clients express great satisfaction with the overall quality of grooming and boarding services. Reviewers commend thorough coat styling as well as reliable overnight pet care, which prompts many dog owners to recommend the facility and return on a regular basis.",
+        "sk": "Klienti vyjadrujú veľkú spokojnosť s celkovou kvalitou poskytovaných služieb v salóne aj hoteli. Hodnotiaci oceňujú dôslednú a trpezlivú úpravu srsti aj spoľahlivú hotelovú starostlivosť, vďaka čomu toto zariadenie pravidelne odporúčajú známym a opakovane sa doň vracajú."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services does Havko provide for dogs?",
+        "sk": "Aké služby zariadenie Havko pre psov poskytuje?"
+      },
+      "a": {
+        "en": "Havko operates both as a dog grooming salon and as a boarding hotel offering short-term and holiday care.",
+        "sk": "Prevádzka Havko funguje ako psí salón s úpravou srsti a zároveň ako hotel pre psov ponúkajúci krátkodobý pobyt."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the salon and hotel located?",
+        "sk": "Kde presne sa salón a hotel Havko nachádza?"
+      },
+      "a": {
+        "en": "The facility is located on Jegenešská 3 in the Podunajské Biskupice district of Bratislava.",
+        "sk": "Zariadenie sa nachádza na Jegenešskej 3 v mestskej časti Bratislava – Podunajské Biskupice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do dogs feel during and after boarding stays?",
+        "sk": "Ako zvládajú psíkovia hotelový pobyt v zariadení?"
+      },
+      "a": {
+        "en": "Reviewers emphasize that dogs feel safe and content during their stays, returning home in high spirits.",
+        "sk": "Recenzenti zdôrazňujú, že psíkovia zvládajú pobyt bez stresu, sú spokojní a tešia sa na ďalšie návštevy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is prior booking required for grooming and hotel stays?",
+        "sk": "Je potrebné si termín v salóne alebo hoteli vopred rezervovať?"
+      },
+      "a": {
+        "en": "Yes, both grooming appointments and hotel boarding must be scheduled in advance to ensure availability.",
+        "sk": "Áno, termín strihania aj hotelové ubytovanie je potrebné vopred dohodnúť a zarezervovať."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    { "ago": "pred 2 týždňami", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+", "results": "+" } },
+    { "ago": "pred mesiacom", "months": 1, "stars": 5, "topics": { "staff": "+", "animals": "+", "results": "+" } },
+    { "ago": "pred 11 mesiacmi", "months": 11, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "animals": "+", "results": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "animals": "+", "results": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "pred rokom", "months": 12, "stars": 5, "topics": { "animals": "+", "results": "+" } }
+  ]
+}
