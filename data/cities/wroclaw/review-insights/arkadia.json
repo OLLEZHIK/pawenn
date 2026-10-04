@@ -1,0 +1,163 @@
+{
+  "slug": "arkadia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arkadia/data=!4m7!3m6!1s0x470fc1b8b766febb:0xfe0e1f2db87c62d5!8m2!3d51.1016239!4d16.9498898!16s%2Fg%2F11f546_tbr!19sChIJu_5mt7jBD0cR1WJ8uC0fDv4?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Polite staff with occasional rotation concerns",
+        "pl": "Uprzejmy personel z uwagami o rotacji lekarzy"
+      },
+      "text": {
+        "en": "Most clients speak favorably of the veterinary team's dedication, politeness, and clear communication regarding treatment options. However, one detailed review raised concerns about staff rotation, noting that a pet was seen by different doctors across successive consultations.",
+        "pl": "Większość klientów bardzo dobrze ocenia zaangażowanie i kulturę osobistą zespołu Arkadii, doceniając jasne wyjaśnianie planu terapii. Pojawiła się jednak uwaga dotycząca rotacji personelu, przez którą zwierzak był konsultowany przez różnych lekarzy na kolejnych wizytach."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Effective bladder therapies and imaging critique",
+        "pl": "Skuteczne leczenie pęcherza i uwagi do USG"
+      },
+      "text": {
+        "en": "Owners commend successful treatments for urinary bladder stones, smooth surgeries, and effective medications prescribed for dogs. Conversely, reviews also record a serious criticism regarding older ultrasound imaging equipment and delayed detection of intestinal oncology in a cat.",
+        "pl": "Opiekunowie chwalą skuteczną pomoc przy kamicy pęcherza, udane zabiegi chirurgiczne oraz celnie dobrane leki dla psów. W recenzjach odnotowano jednak poważne zastrzeżenie do starszego aparatu USG i niedopatrzenia zmian nowotworowych jelita u kociego pacjenta."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm, supportive atmosphere for pet care",
+        "pl": "Spokojna i pełna empatii opieka nad zwierzętami"
+      },
+      "text": {
+        "en": "Reviews frequently commend the team for their caring attitude toward canine and feline patients, keeping anxiety low during medical visits. Veterinarians approach animals calmly and gently, ensuring their safety and physical comfort throughout all diagnostic stages.",
+        "pl": "W opiniach wielokrotnie powtarza się pochwała za serdeczny stosunek do psów i kotów oraz minimalizowanie stresu podczas procedur medycznych. Lekarze podchodzą do zwierząt z wyczuciem i spokojem, dbając o ich bezpieczeństwo na każdym etapie diagnostyki i leczenia."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Arkadia treat complex urinary conditions in dogs?",
+        "pl": "Czy Arkadia prowadzi leczenie skomplikowanych chorób pęcherza u psów?"
+      },
+      "a": {
+        "en": "Yes, clients highlight effective therapies and surgical resolutions for recurrent cystitis and bladder stones.",
+        "pl": "Tak, opiekunowie chwalą trafną terapię i zabiegi chirurgiczne przy nawracających zapaleniach pęcherza i kamicy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices at Arkadia considered affordable?",
+        "pl": "Jak oceniane są ceny usług weterynaryjnych w Arkadii?"
+      },
+      "a": {
+        "en": "Reviewers generally find prices reasonable and attractive compared to larger veterinary hospitals.",
+        "pl": "Większość recenzentów uznaje ceny za przystępne i umiarkowane w porównaniu z dużymi klinikami całodobowymi."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long has Arkadia operated in Wrocław?",
+        "pl": "Jak długo przychodnia Arkadia działa na rynku wrocławskim?"
+      },
+      "a": {
+        "en": "Multiple reviews mention long-standing relationships with the clinic spanning up to sixteen years.",
+        "pl": "Liczne opinie wspominają o stałej opiece nad pupilami kontynuowanej nawet przez szesnaście lat."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edytowano 4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

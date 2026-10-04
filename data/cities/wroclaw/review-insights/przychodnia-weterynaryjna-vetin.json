@@ -1,0 +1,169 @@
+{
+  "slug": "przychodnia-weterynaryjna-vetin",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Przychodnia+weterynaryjna+Vetin/data=!4m7!3m6!1s0x470fe9764ff48167:0x9b757c739fc44425!8m2!3d51.1550773!4d17.0445683!16s%2Fg%2F1hc27m7f0!19sChIJZ4H0T3bpD0cRJUTEn3N8dZs?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "observed_at": "2026-10-04",
+  "reviews_in_period": 9,
+  "cards": [
+    {
+      "topic": "staff",
+      "mentions": 8,
+      "sentiment": "positive",
+      "title": {
+        "en": "Caring veterinary team and gentle approach",
+        "pl": "Troskliwy zespół weterynaryjny i ciepłe podejście"
+      },
+      "text": {
+        "en": "Pet owners commend the clinic staff for patience, warm bedside manner, and detailed explanations during visits. Doctors take their time without rushing and treat every patient tenderly, while an isolated review mentioned an impolite encounter during an acute visit.",
+        "pl": "Opiekunowie zwierząt chwalą personel przychodni za cierpliwość, życzliwe podejście oraz dokładne objaśnianie przebiegu leczenia. Lekarze badają pacjentów bez pośpiechu i z dużą empatią, choć w pojedynczej relacji opisano nieprzyjemne doświadczenie podczas nagłej wizyty."
+      }
+    },
+    {
+      "topic": "animals",
+      "mentions": 5,
+      "sentiment": "positive",
+      "title": {
+        "en": "Loving care for dogs, cats and rabbits",
+        "pl": "Troskliwa opieka nad psami, kotami i królikami"
+      },
+      "text": {
+        "en": "Caregivers of dogs, cats, and small mammals emphasize that animals feel remarkably safe during procedures. Even nervous or older pets with complex health histories receive affectionate attention and stress-free handling throughout their clinical stay in Wrocław.",
+        "pl": "Opiekunowie psów, kotów oraz drobnych ssaków podkreślają, że ich pupile czują się w gabinecie wyjątkowo bezpiecznie. Nawet lękliwe lub starsze czworonogi z bogatą historią chorobową spotykają się z czułym i bezstresowym traktowaniem na każdym etapie wizyty."
+      }
+    },
+    {
+      "topic": "results",
+      "mentions": 5,
+      "sentiment": "mixed",
+      "title": {
+        "en": "Advanced surgical equipment and recovery feedback",
+        "pl": "Nowoczesny sprzęt zabiegowy i wyniki leczenia"
+      },
+      "text": {
+        "en": "Clients appreciate successful surgical interventions, modern diagnostic apparatus, and dependable postoperative guidance that helped pets recover quickly. Conversely, one reviewer voiced strong dissatisfaction with a pessimistic prognosis given to an acutely ill dog.",
+        "pl": "Klienci doceniają skuteczne interwencje chirurgiczne, nowoczesne zaplecze diagnostyczne oraz rzetelne zalecenia pooperacyjne, dzięki którym zwierzęta wracają do sił. Z kolei jeden z opiekunów wyraził niezadowolenie ze zbyt pesymistycznej diagnozy postawionej choremu psu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Vetin provide care for rabbits and rodents?",
+        "pl": "Czy Vetin przyjmuje króliki i gryzonie?"
+      },
+      "a": {
+        "en": "Yes, the practice regularly cares for rabbits and small companion mammals alongside dogs and cats.",
+        "pl": "Tak, przychodnia regularnie prowadzi pacjentów króliczych i drobne ssaki obok psów i kotów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are surgical procedures performed with modern anesthesia?",
+        "pl": "Czy zabiegi chirurgiczne odbywają się w bezpiecznej narkozie?"
+      },
+      "a": {
+        "en": "Yes, the clinic uses advanced equipment and dedicated surgical and anesthesiology monitoring.",
+        "pl": "Tak, placówka dysponuje nowoczesnym sprzętem oraz zapewnia nadzór chirurgiczny i anestezjologiczny."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is appointment booking available online?",
+        "pl": "Czy wizytę można umówić przez internet?"
+      },
+      "a": {
+        "en": "Yes, visits can be arranged through an online booking system for owner convenience.",
+        "pl": "Tak, terminy wizyt można wygodnie rezerwować za pośrednictwem systemu online."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
