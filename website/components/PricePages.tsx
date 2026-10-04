@@ -171,7 +171,11 @@ export async function ServicePricePage({
                             : "text-[var(--accent,var(--brand-blue))]"
                         }
                       >
-                        {t.card.vsMarket(pct, Math.abs(pct) <= MARKET_BAND)}
+                        {Math.abs(pct) <= MARKET_BAND
+                          ? t.card.vsMarket(pct, true)
+                          : line.from < market!.median
+                            ? t.business.lessBy(money(market!.median - line.from, line.currency, locale))
+                            : t.business.moreBy(money(line.from - market!.median, line.currency, locale))}
                       </span>
                     );
                   return (

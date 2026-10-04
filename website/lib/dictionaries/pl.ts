@@ -294,8 +294,8 @@ export const pl: Dictionary = {
   card: {
     priceLevel: (tier: number) => `Poziom cen ${tier} z 5`,
     vsMarket: (pct: number, marketBand: boolean) =>
-      marketBand ? "Cena rynkowa" : pct < 0 ? `${-pct}% poniżej średniej` : `${pct}% powyżej średniej`,
-    vsMarketHint: "W porównaniu z medianą cen tych samych usług w mieście",
+      marketBand ? "Średnia w mieście" : pct < 0 ? `${-pct}% poniżej średniej` : `${pct}% powyżej średniej`,
+    vsMarketHint: "W porównaniu ze średnią ceną tych samych usług w mieście",
   },
   rating: {
     countGoogle: (count: string) => `${count} · Google`,
@@ -376,10 +376,9 @@ export const pl: Dictionary = {
     languages: (list: string) => `Obsługa w językach: ${list}`,
     instagram: "Instagram",
     facebook: "Facebook",
-    priceBelow: "Poniżej średniej w mieście",
-    priceAverage: "Średnia w mieście",
-    priceAbove: "Powyżej średniej w mieście",
-    priceBySize: "zależy od wagi",
+    cityAverage: (price: string) => `Średnia w mieście ${price}`,
+    lessBy: (amount: string) => `o ${amount} mniej`,
+    moreBy: (amount: string) => `o ${amount} więcej`,
     allPrices: (n: number) => `Wszystkie ceny (${n})`,
     priceFrom: (price: string) => `od ${price}`,
     weightUpTo: (kg: string) => `do ${kg} kg`,
@@ -389,7 +388,7 @@ export const pl: Dictionary = {
     priceList: "cennik",
     perUnit: { per_hour: "/ godz.", per_km: "/ km" } as Record<string, string>,
     notCompared: "nieporównywane z innymi miejscami",
-    cityMedian: (price: string, places: number) => `Mediana w mieście ${price} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
+    cityMedian: (price: string, places: number) => `Średnia w mieście ${price} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
     pricesDisclaimer: "Ceny na podstawie oficjalnego cennika obiektu z podanego dnia. Mogą ulec zmianie – potwierdź przed rezerwacją.",
   },
   reviewForm: {
@@ -465,13 +464,13 @@ export const pl: Dictionary = {
     overviewH1: (name: string, where: string) => `${name} ${where} – cennik`,
     overviewMetaTitle: (name: string, where: string) => `${name} ${where} – cennik i ceny | Pawenn`,
     overviewIntro:
-      "Porównanie cen usług w miejscach, które publikują oficjalny cennik. Mediana to cena środkowa: połowa miejsc pobiera mniej, a połowa więcej.",
+      "Porównanie cen usług w miejscach, które publikują oficjalny cennik. Średnia to tu cena środkowa: połowa miejsc pobiera mniej, a połowa więcej.",
     overviewMetaDescription: (label: string, where: string, services: number) =>
-      `${label} ${where}: porównanie cen ${services} usług w różnych miejscach wraz z medianą i zakresem cen. Na podstawie oficjalnych cenników z datami.`,
+      `${label} ${where}: porównanie cen ${services} usług w różnych miejscach wraz ze średnią i zakresem cen. Na podstawie oficjalnych cenników z datami.`,
     serviceH1: (service: string, where: string) => `${service} ${where}: ceny`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – od ${from} | Pawenn`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
-      `Ceny od ${from} do ${to}, mediana ${median}. Porównaliśmy ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}; cenniki sprawdzone ${date}.`,
+      `Ceny od ${from} do ${to}, średnia ${median}. Porównaliśmy ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}; cenniki sprawdzone ${date}.`,
     fewPlaces: (places: number) =>
       `Tylko ${places} ${plural("pl", places, { one: "miejsce publikuje", few: "miejsca publikują", many: "miejsc publikuje", other: "miejsc publikuje" })} dotąd tę cenę – zbyt mało, by stworzyć wiarygodne porównanie.`,
     question: (service: string, where: string) => `Ile kosztuje ${service.toLowerCase()} ${where}?`,
@@ -484,7 +483,7 @@ export const pl: Dictionary = {
     otherServices: "Pozostałe ceny",
     service: "Usługa",
     range: "Zakres",
-    median: "Mediana",
+    median: "Średnia",
     places: "Miejsca",
     seeAll: (label: string) => `${label} – zobacz wszystkie`,
     linkFromListing: (where: string) => `Ceny ${where}`,
