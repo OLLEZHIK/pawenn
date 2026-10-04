@@ -1,0 +1,104 @@
+{
+  "slug": "veterinarna-klinika-slnecnice",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=8054031007315086551",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated and highly skilled veterinary team",
+        "sk": "Odborný a ochotný veterinárny tím"
+      },
+      "text": {
+        "en": "Most reviewers commend the professional expertise and helpful attitude of the veterinarians and clinic staff in Petržalka. Pet owners value clear explanations, thorough communication, and follow-up guidance, although one reviewer was dissatisfied with staff conduct.",
+        "sk": "Väčšina recenzií vyzdvihuje vysokú profesionalitu lekárov a ochotu celého personálu v Petržalke. Klienti oceňujú dôkladné vysvetlenie diagnóz, trpezlivú komunikáciu a telefonické konzultácie aj v zložitých prípadoch, hoci jeden kritik vytkol odmerané správanie."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive and compassionate pet care",
+        "sk": "Citlivá a obetavá starostlivosť o zvieratá"
+      },
+      "text": {
+        "en": "Reviewers predominantly highlight sensitive and patient handling of dogs, cats, and small pets, including senior animals needing urgent help. While most clients report a caring and calm approach, an occasional negative review felt the empathy toward pets could be improved.",
+        "sk": "Hodnotenia vo väčšine prípadov opisujú citlivé a jemné zaobchádzanie so psami, mačkami aj drobnými cicavcami vrátane starších zvierat v akútnom stave. Zatiaľ čo väčšina majiteľov hlási pokojné vyšetrenia, ojedinelá recenzia namietala nedostatok empatie k pacientovi."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable treatments and successful procedures",
+        "sk": "Spoľahlivá liečba a úspešné zákroky"
+      },
+      "text": {
+        "en": "Pet owners frequently praise successful surgeries and effective treatment plans for both acute conditions and chronic ailments. Feedback highlights well-managed operations, accurate diagnostic decisions, and successful outcomes even for high-risk and elderly animals.",
+        "sk": "Klienti v recenziách oceňujú úspešné operačné zákroky a presne zvolenú liečbu pri náhlych aj dlhodobých zdravotných ťažkostiach. Majitelia vyzdvihujú zvládnuté chirurgické operácie, stanovenie správnych diagnóz a záchranu zvierat aj vo vážnom alebo seniorskom veku."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How can clients book an appointment at the clinic?",
+        "sk": "Ako sa môžu klienti objednať na vyšetrenie na klinike?"
+      },
+      "a": {
+        "en": "Appointments can be booked in advance online via the website form or by calling the clinic phone number.",
+        "sk": "Na vyšetrenie sa dá objednať vopred prostredníctvom formulára na webovej stránke alebo telefonicky."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located and is parking available?",
+        "sk": "Kde sa klinika nachádza a je k dispozícii parkovanie?"
+      },
+      "a": {
+        "en": "The clinic is located on Zuzany Chalupovej 7A in the Slnečnice development in Petržalka, with designated client parking available right outside.",
+        "sk": "Klinika sídli na ulici Zuzany Chalupovej 7A v zóne Slnečnice v Petržalke a klienti majú k dispozícii vyhradené parkovacie miesta priamo pred budovou."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat exotic or small mammals?",
+        "sk": "Ošetrujú na klinike aj drobné cicavce alebo exotické zvieratá?"
+      },
+      "a": {
+        "en": "Yes, veterinary care and surgical procedures are provided for dogs, cats, as well as rabbits and small pets.",
+        "sk": "Áno, klinika zabezpečuje veterinárnu starostlivosť a chirurgické zákroky pre psy, mačky, ako aj králiky a drobné hlodavce."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic provide urgent consultations and follow-up guidance?",
+        "sk": "Poskytuje klinika urgentné konzultácie a sledovanie stavu pacienta?"
+      },
+      "a": {
+        "en": "Yes, clients mention prompt responses in acute emergencies and helpful telephone consultations regarding treatment progress.",
+        "sk": "Áno, majitelia v recenziách vyzdvihujú rýchlu reakciu v núdzových situáciách aj telefonické konzultácie pri sledovaní stavu pacienta."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "pred mesiacom", "months": 1, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "pred mesiacom", "months": 1, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "pred 2 mesiacmi", "months": 2, "stars": 5, "topics": { "staff": "+", "prices": "+" } },
+    { "ago": "pred 3 mesiacmi", "months": 3, "stars": 1, "topics": { "staff": "-", "prices": "-", "animals": "-" } },
+    { "ago": "pred 5 mesiacmi", "months": 5, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "pred 5 mesiacmi", "months": 5, "stars": 5, "topics": { "staff": "+", "place": "+" } }
+  ]
+}
