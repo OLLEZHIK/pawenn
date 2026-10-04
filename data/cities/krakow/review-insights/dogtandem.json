@@ -1,0 +1,135 @@
+{
+  "slug": "dogtandem",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DogTandem+-+Szko%C5%82a+dla+ps%C3%B3w/data=!4m7!3m6!1s0x47165b96179441a3:0xf413385f2ec4e01d!8m2!3d50.0668793!4d19.9254116!16s%2Fg%2F11vl5clc05!19sChIJo0GUF5ZbFkcRHeDELl84E_Q?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated coaches with mixed individual experiences",
+        "pl": "Zaangażowani trenerzy i zróżnicowane oceny"
+      },
+      "text": {
+        "pl": "Większość opiekunów z uznaniem opisuje panią Magdę za cierpliwość, serdeczność oraz wiedzę szkoleniową w pracy z psem. Wśród opinii pojawiła się jednak krytyczna relacja dotycząca protekcjonalnego podejścia innego trenera podczas indywidualnej konsultacji noseworku.",
+        "en": "Most handlers warmly praise trainer Magda for her patience, cordiality, and instructional expertise in dog training. Concurrently, one critical review described an overly patronizing tone from another trainer during a private nosework consultation session."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Solid training outcomes with consultation critique",
+        "pl": "Dobre efekty szkolenia i uwaga krytyczna"
+      },
+      "text": {
+        "pl": "Klienci kursów grupowych i spacerów socjalizacyjnych obserwują wyraźne opanowanie emocji i bezproblemowe spacery po centrum miasta. Jednocześnie pojedyncza opinia wskazuje na brak praktycznych efektów podczas nieudanej sesji noseworku dla psa lękowego w szkole.",
+        "en": "Clients in group courses and socialization walks observe noticeable emotional regulation and calm strolls through central Kraków. Meanwhile, a single review reported lack of practical progress during an unsuccessful nosework session for a reactive dog in the facility."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Positive socialization for varied dog breeds",
+        "pl": "Pozytywna socjalizacja psów różnych ras"
+      },
+      "text": {
+        "pl": "Uczestnicy doceniają wsparcie w budowaniu więzi z młodymi pinczerami i border collie, podkreślając bezpieczne środowisko do integracji czworonogów. Treningi pomagają zrównoważyć energię psów i uczą je spokojnego funkcjonowania w otoczeniu innych zwierząt na co dzień.",
+        "en": "Handlers value support in bonding with energetic young Pinschers and Border Collies, emphasizing a safe environment for canine socialization. Exercises help balance high energy levels and encourage calm behavior around other dogs during everyday routines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where do DogTandem classes take place?",
+        "pl": "Gdzie odbywają się zajęcia szkoły DogTandem?"
+      },
+      "a": {
+        "en": "The school conducts training sessions and walks in central Kraków locations.",
+        "pl": "Szkoła realizuje treningi oraz spacery w dogodnych lokalizacjach w centrum Krakowa."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What training activities are available?",
+        "pl": "Jakie aktywności szkoleniowe oferuje szkoła?"
+      },
+      "a": {
+        "en": "DogTandem organizes nosework classes, obedience sessions, socialization walks, and training camps.",
+        "pl": "DogTandem organizuje zajęcia noseworku, obedience, spacery integracyjne oraz obozy wyjazdowe."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are group socialization walks suitable for young dogs?",
+        "pl": "Czy grupowe spacery są odpowiednie dla młodych psów?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that adolescent and energetic dogs benefit greatly from guided socialization walks.",
+        "pl": "Tak, recenzje potwierdzają, że młode i energiczne psy szybko uczą się spokoju na spacerach socjalizacyjnych."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

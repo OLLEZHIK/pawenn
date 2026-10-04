@@ -1,0 +1,158 @@
+{
+  "slug": "przychodnia-weterynaryjna-morgan",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Przychodnia+weterynaryjna/data=!4m7!3m6!1s0x47165cde853c074d:0xb69f25b2e57a8292!8m2!3d50.0009723!4d19.9144908!16s%2Fg%2F1w4vhnr_!19sChIJTQc8hd5cFkcRkoJ65bIln7Y?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Empathetic doctors with organizational critique",
+        "pl": "Empatyczni lekarze i uwagi organizacyjne"
+      },
+      "text": {
+        "en": "Many pet owners warmly praise Dr Ewa Kalisz for her great heart towards animals, skilful administration of injections, and genuine dedication. Conversely, a critical review describes organizational disarray and frustration regarding appointment clarity.",
+        "pl": "Wielu opiekunów bardzo ciepło ocenia dr Ewę Kalisz za wielkie serce do zwierząt, sprawne wykonywanie iniekcji oraz autentyczne powołanie. Pojawia się jednak także krytyczny głos wskazujący na zamieszanie organizacyjne i nieporozumienia przy zapisach na badania."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Care for dogs, cats, and rescue kittens",
+        "pl": "Troska o psy, koty i bezdomne kocięta"
+      },
+      "text": {
+        "en": "Reviewers appreciate the team's compassionate involvement in helping sick dogs, cats, and homeless rescue kittens. At the same time, an owner of an anxious canine patient noted unnecessary distress when an ultrasound scan was declined during busy morning hours.",
+        "pl": "Klienci doceniają pomoc niesioną chorym psom, kotom oraz potrzebującym bezdomnym kociętom. Z drugiej strony właściciel problematycznego psa zwrócił uwagę na niepotrzebny stres zwierzęcia z pełnym pęcherzem w sytuacji, gdy odmówiono wykonania badania USG w kolejce."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Accurate treatments alongside diagnostic hurdles",
+        "pl": "Trafne terapie i trudności diagnostyczne"
+      },
+      "text": {
+        "en": "Guardians report effective medical therapy, prompt relief from acute illnesses, and accurate diagnoses that restored pet vitality. Nevertheless, one reviewer voiced dissatisfaction over delays and inconsistent scheduling for urgent abdominal ultrasound scans.",
+        "pl": "Opiekunowie zgłaszają skuteczne terapie farmakologiczne, szybką pomoc w nagłych dolegliwościach oraz trafne diagnozy przywracające zdrowie pupilom. Z kolei w jednej z opinii opisano niezadowolenie z trudności w terminowym zrealizowaniu planowanego badania USG jamy brzusznej."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic offer affordable veterinary pricing?",
+        "pl": "Czy ceny usług w przychodni są korzystne?"
+      },
+      "a": {
+        "en": "Yes, multiple clients emphasize honest, very fair pricing without unnecessary markups or redundant procedures.",
+        "pl": "Tak, klienci wielokrotnie podkreślają bardzo korzystne, uczciwe ceny bez naciągania na zbędne koszty."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment booking required for ultrasound tests?",
+        "pl": "Czy na badanie USG trzeba się wcześniej zapisać?"
+      },
+      "a": {
+        "en": "Reviews suggest scheduling ultrasound examinations in advance to ensure the doctor has dedicated time.",
+        "pl": "Z opinii wynika, że na badanie ultrasonograficzne warto umówić się z wyprzedzeniem, by lekarz dysponował czasem."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Morgan clinic help homeless animals and kittens?",
+        "pl": "Czy przychodnia Morgan pomaga bezdomnym zwierzętom i kociętom?"
+      },
+      "a": {
+        "en": "Yes, reviewers express gratitude for empathetic medical assistance provided to rescue and stray kittens.",
+        "pl": "Tak, opiekunowie dziękują za empatyczną pomoc medyczną udzielaną bezdomnym i uratowanym kociętom."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
