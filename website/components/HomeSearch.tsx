@@ -98,10 +98,12 @@ export function HomeSearch({
         const { latitude, longitude } = pos.coords;
         const city = nearestCity(cities, latitude, longitude);
         if (!city) return typeByHand("far");
+        // Straight to the results (owner, 2026-10-04): the field only said
+        // "Near you" and nothing else happened until Search was pressed.
         setNear({ lat: latitude, lng: longitude, citySlug: city.slug });
         setCityText("");
         setCityError(null);
-        setGeoStatus("idle");
+        openCity(city.slug, { lat: latitude, lng: longitude });
       },
       () => typeByHand("denied"),
       { timeout: 8000, maximumAge: 10 * 60 * 1000 }
@@ -170,6 +172,17 @@ export function HomeSearch({
     if (allowed && selectedCategory && !allowed.includes(selectedCategory.category)) setCategorySlug(null);
   }
 
+  /** Opens the list (or the city page, no service picked) of a city. */
+  function openCity(targetCity: string, coords?: { lat: number; lng: number }) {
+    let path = categorySlug ? localePath(locale, `/${categorySlug}/${targetCity}/`) : cityPath(locale, targetCity);
+    const params = new URLSearchParams();
+    if (coords) params.set("near", `${coords.lat.toFixed(4)},${coords.lng.toFixed(4)}`);
+    const query = params.toString();
+    if (query) path += `?${query}`;
+    onNavigate?.();
+    router.push(path);
+  }
+
   function goSearch() {
     const targetCity = near?.citySlug ?? resolveCity(cityText);
     if (!targetCity) {
@@ -178,14 +191,7 @@ export function HomeSearch({
       focusCity();
       return;
     }
-    // No service picked: the city page listing every service.
-    let path = categorySlug ? localePath(locale, `/${categorySlug}/${targetCity}/`) : cityPath(locale, targetCity);
-    const params = new URLSearchParams();
-    if (near) params.set("near", `${near.lat.toFixed(4)},${near.lng.toFixed(4)}`);
-    const query = params.toString();
-    if (query) path += `?${query}`;
-    onNavigate?.();
-    router.push(path);
+    openCity(targetCity, near ?? undefined);
   }
 
   const petChips = (
