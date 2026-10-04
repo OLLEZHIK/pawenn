@@ -88,7 +88,7 @@ export function CityPicker({
           e.preventDefault();
           submit();
         }}
-        className={`${freeText ? "min-w-0 flex-1" : "w-44"} bg-transparent py-2 text-foreground outline-none focus:outline-none focus-visible:outline-none placeholder:text-foreground/50`}
+        className={`${freeText ? "min-w-0 flex-1" : "w-44"} bg-transparent text-foreground appearance-none border-0 p-0 outline-none placeholder:text-foreground/50 search-city`}
       />
       {freeText && (
         <button type="button" onClick={submit} aria-label={label} className="-mr-2 grid h-8 w-8 place-items-center rounded-full text-foreground/60 hover:bg-surface-sunken hover:text-foreground">
