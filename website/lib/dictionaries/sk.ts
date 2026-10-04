@@ -86,6 +86,7 @@ export const sk: Dictionary = {
     statPlaces: (n: number) => plural("sk", n, { one: "podnik v zozname", few: "podniky v zozname", other: "podnikov v zozname" }),
     statCountries: (n: number) => plural("sk", n, { one: "krajina", few: "krajiny", other: "krajín" }),
     statKinds: (n: number) => plural("sk", n, { one: "druh služieb", few: "druhy služieb", other: "druhov služieb" }),
+    statPeople: "ľudí, ktorým môže Pawenn pomôcť",
     browseEyebrow: "Podľa služby",
     browseTitle: "Čo dnes potrebuje váš miláčik?",
     browseBody: "Šesť druhov starostlivosti, každý s vlastným zoznamom podnikov a zdrojom pri každom zázname.",

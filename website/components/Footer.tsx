@@ -31,7 +31,7 @@ export async function Footer({ locale }: { locale: Locale }) {
         style={{ background: "var(--brand-orange)" }}
       />
       <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-16">
-        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Logo className="h-10 w-auto" wordmarkColor="#FFFFFF" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
@@ -43,13 +43,13 @@ export async function Footer({ locale }: { locale: Locale }) {
             </p>
           </div>
 
-          {/* Services and cities follow the page's own city (client side). */}
+          {/* Services follow the page's own city (client side). */}
           <FooterCityColumns
             locale={locale}
             cities={allCities.map((c) => ({ slug: c.slug, name: c.name, country: c.country, locales: localesForCity(c) }))}
             fallbackCitySlug={citySlug}
             categories={ALL_CATEGORIES.map((category) => ({ category, label: categoryLabel(category, locale) }))}
-            titles={{ services: t.services, cities: t.cities }}
+            titles={{ services: t.services }}
           />
 
           <FooterColumn title={t.about}>
