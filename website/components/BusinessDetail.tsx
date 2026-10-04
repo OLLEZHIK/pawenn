@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
@@ -521,7 +522,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
               </p>
             )}
             <a
-              href={`mailto:{EMAIL}?subject=${encodeURIComponent(`Report an issue: ${business.name}`)}`}
+              href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Report an issue: ${business.name}`)}`}
               className="mt-1 inline-block hover:underline"
             >
               {t.business.reportIssue}
