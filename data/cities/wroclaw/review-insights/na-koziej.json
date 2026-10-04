@@ -1,0 +1,155 @@
+{
+  "slug": "na-koziej",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Na+Koziej/data=!4m7!3m6!1s0x470feac2dddd99f7:0x8ce0f12bbfa33832!8m2!3d51.1581938!4d16.9275921!16s%2Fg%2F1tcvsl1h!19sChIJ95nd3cLqD0cRMjijvyvx4Iw?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Care for dogs and cats",
+        "pl": "Opieka nad psami i kotami"
+      },
+      "text": {
+        "en": "Clients bring both dogs and young cats to the clinic for medical assistance and checkups. Pet owners appreciate the gentle handling of animals during routine visits, though several guardians experienced profound distress over difficult feline illnesses.",
+        "pl": "Klienci przyprowadzają do lecznicy zarówno psy, jak i młode koty na badania i doraźną pomoc. Opiekunowie doceniają łagodne podejście do czworonogów podczas rutynowych wizyt, aczkolwiek część właścicieli przeżyła trudne chwile przy ciężkich chorobach kotów."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated doctors with divided opinions",
+        "pl": "Zaangażowane lekarki i podzielone opinie"
+      },
+      "text": {
+        "en": "Many reviewers warmly praise the attending vet for great empathy, calm demeanor, and patient explanations of health matters. Conversely, several critical voices strongly question the staff's attentiveness and clinical intuition during serious feline crises.",
+        "pl": "Wielu klientów bardzo ciepło chwali lekarkę za dużą empatię, spokój oraz cierpliwe tłumaczenie wszelkich zaleceń. Z drugiej strony pojawiają się wyraźne głosy krytyczne, zarzucające personelowi brak wnikliwości i niedostateczną czujność w nagłych stanach kotów."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Effective help and diagnosis disputes",
+        "pl": "Skuteczna pomoc i sporne diagnozy"
+      },
+      "text": {
+        "en": "A number of pet guardians report reliable diagnostics and successful treatments for their dogs, feeling well assisted by the clinic. However, critical reviews describe severe therapeutic complications, distress, and disputed blood pressure assessments in deteriorating cats.",
+        "pl": "Część opiekunów opisuje trafną diagnozę i skuteczne leczenie swoich psów, dziękując za uratowanie zdrowia pupila i rzetelną pomoc. Równocześnie krytyczne opinie wskazują na poważne komplikacje terapeutyczne, stres oraz sporną ocenę nadciśnienia u osłabionych pacjentów."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do doctors explain treatment steps clearly?",
+        "pl": "Czy lekarze jasno tłumaczą plan leczenia?"
+      },
+      "a": {
+        "en": "Yes, satisfied clients mention that the vet explains medical issues calmly and thoroughly, though critical cases report communication gaps.",
+        "pl": "Tak, zadowoleni klienci wskazują, że lekarka spokojnie i rzeczowo tłumaczy kwestie leczenia, choć w trudnych przypadkach brakowało porozumienia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required in advance?",
+        "pl": "Czy przed wizytą trzeba się umawiać?"
+      },
+      "a": {
+        "en": "Calling ahead is recommended to confirm specialist availability and avoid unnecessary waiting times.",
+        "pl": "Zaleca się wcześniejszy kontakt telefoniczny, aby upewnić się o dostępności lekarza i uniknąć dłuższego oczekiwania."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat cats and dogs?",
+        "pl": "Czy przychodnia przyjmuje psy i koty?"
+      },
+      "a": {
+        "en": "Yes, the practice regularly consults both canine and feline patients for diagnostics and internal medicine.",
+        "pl": "Tak, placówka regularnie konsultuje pacjentów psich i kocich w zakresie profilaktyki oraz chorób wewnętrznych."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 tygodnie temu",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

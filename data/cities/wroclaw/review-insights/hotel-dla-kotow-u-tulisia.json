@@ -1,0 +1,137 @@
+{
+  "slug": "hotel-dla-kotow-u-tulisia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hotel+dla+kot%C3%B3w+U+TULISIA+%28Wroc%C5%82aw%29/data=!4m7!3m6!1s0x470fe9f4ca6f07ff:0x52756122441c6fef!8m2!3d51.1031036!4d17.1143968!16s%2Fg%2F11w_z2syjh!19sChIJ_wdvyvTpD0cR728cRCJhdVI?authuser=0&hl=pl&entry=ttu",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Stress-free vacation for cats",
+        "pl": "Bezstresowe wakacje dla kotów"
+      },
+      "text": {
+        "en": "Feline guardians enthusiastically report that their cats spend vacation boarding completely without stress, returning home joyful, calm, and well looked after. The personalized care provides a soothing environment even for sensitive feline temperaments needing gentle attention.",
+        "pl": "Opiekunowie kotów z entuzjazmem podkreślają, że ich mruczki spędzają wakacje w hoteliku zupełnie bez stresu, wracając do domu zadowolone, zrelaksowane i zadbane. Indywidualna troska tworzy spokojne i przyjazne warunki nawet dla wrażliwych kocich gości wymagających łagodnego podejścia."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Wonderful domestic hotel conditions",
+        "pl": "Wspaniałe warunki domowego hoteliku"
+      },
+      "text": {
+        "en": "Reviewers describe U Tulisa as a cozy and comforting haven where feline guests enjoy excellent domestic accommodation. The peaceful setting and cleanliness provide pet owners with complete peace of mind while traveling away from Wrocław, knowing their pets are safely housed.",
+        "pl": "Recenzenci opisują ośrodek U Tulisa jako przytulne i bezpieczne miejsce z doskonałymi warunkami domowymi. Kameralne otoczenie, cisza oraz dbałość o czystość zapewniają właścicielom pełen spokój podczas wyjazdów poza Wrocław, dając pewność, że ich pupile przebywają w świetnych rękach."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Heartfelt care by Mrs. Małgosia",
+        "pl": "Ciepła opieka pani Małgosi"
+      },
+      "text": {
+        "en": "Visitors express deep appreciation to caretaker Małgosia for exceptional empathy, understanding feline routines, and personal devotion. Her attentive approach ensures that every cat receives genuine warmth, regular feeding according to habit, and routine daily communication.",
+        "pl": "Klienci wyrażają ogromną wdzięczność pani Małgosi za serdeczność, doskonałe zrozumienie kocich potrzeb i wielkie serce do zwierząt. Jej troskliwe podejście gwarantuje każdemu kotu prawdziwe ciepło, poszanowanie codziennych przyzwyczajeń oraz regularny kontakt z opiekunami."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the cat hotel send regular updates and photos?",
+        "pl": "Czy hotel dla kotów wysyła bieżące relacje i zdjęcia?"
+      },
+      "a": {
+        "en": "Yes, clients confirm receiving daily photo updates via WhatsApp documenting their cat's contentment.",
+        "pl": "Tak, klienci potwierdzają codzienne fotorelacje przesyłane przez aplikację WhatsApp z pobytu kotka."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the boarding environment calm and stress-free for cats?",
+        "pl": "Czy warunki w hoteliku są spokojne i bezstresowe?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize that cats settle in peacefully and return home calm and happy.",
+        "pl": "Tak, opiekunowie podkreślają, że koty czują się bezpiecznie i wracają z pobytu zrelaksowane."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How can a stay be booked at U Tulisa?",
+        "pl": "Jak można zarezerwować pobyt w hotelu U Tulisa?"
+      },
+      "a": {
+        "en": "Reservations should be arranged in advance via phone or social media to ensure quiet room availability.",
+        "pl": "Pobyt należy uzgodnić z wyprzedzeniem telefonicznie lub przez media społecznościowe, aby zarezerwować miejsce."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
