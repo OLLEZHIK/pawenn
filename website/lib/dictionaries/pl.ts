@@ -294,7 +294,7 @@ export const pl: Dictionary = {
   card: {
     priceLevel: (tier: number) => `Poziom cen ${tier} z 5`,
     vsMarket: (pct: number, marketBand: boolean) =>
-      marketBand ? "Średnia w mieście" : pct < 0 ? `${-pct}% poniżej średniej` : `${pct}% powyżej średniej`,
+      marketBand ? "Średnia w mieście" : pct < 0 ? "Poniżej średniej w mieście" : "Powyżej średniej w mieście",
     vsMarketHint: "W porównaniu ze średnią ceną tych samych usług w mieście",
   },
   rating: {
@@ -335,7 +335,7 @@ export const pl: Dictionary = {
     goodToKnowNote: "Informacje podawane przez obiekt na jego własnej stronie www.",
     faqTitle: "Warto wiedzieć przed wizytą",
     cityPricesTitle: (where: string) => `Ceny ${where}`,
-    cityPricesIntro: "Brak cennika online. Typowe ceny w mieście:",
+    cityPricesIntro: "Brak cennika online. Średnie ceny w mieście:",
     welcomes: "Przyjmuje",
     specialties: "Specjalizacje",
     openingHours: "Godziny otwarcia",
@@ -388,7 +388,6 @@ export const pl: Dictionary = {
     priceList: "cennik",
     perUnit: { per_hour: "/ godz.", per_km: "/ km" } as Record<string, string>,
     notCompared: "nieporównywane z innymi miejscami",
-    cityMedian: (price: string, places: number) => `Średnia w mieście ${price} · ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}`,
     pricesDisclaimer: "Ceny na podstawie oficjalnego cennika obiektu z podanego dnia. Mogą ulec zmianie – potwierdź przed rezerwacją.",
   },
   reviewForm: {
@@ -477,7 +476,7 @@ export const pl: Dictionary = {
     includes: "Co obejmuje cena",
     place: "Miejsce",
     price: "Cena",
-    vsMarket: "Wobec rynku",
+    vsMarket: "Wobec średniej w mieście",
     notComparedTitle: "Inne ceny (nieporównywane)",
     notComparedIntro: "Ceny cząstkowe, stawki za godzinę lub za kilometr oraz usługi wykraczające poza standard.",
     otherServices: "Pozostałe ceny",

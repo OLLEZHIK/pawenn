@@ -310,7 +310,7 @@ export const sk: Dictionary = {
   card: {
     priceLevel: (tier: number) => `Cenová úroveň ${tier} z 5`,
     vsMarket: (pct: number, marketBand: boolean) =>
-      marketBand ? "Priemer v meste" : pct < 0 ? `o ${-pct} % pod trhom` : `o ${pct} % nad trhom`,
+      marketBand ? "Priemer v meste" : pct < 0 ? "Pod priemerom v meste" : "Nad priemerom v meste",
     vsMarketHint: "V porovnaní s priemerom cien rovnakých služieb v meste",
   },
   rating: {
@@ -351,7 +351,7 @@ export const sk: Dictionary = {
     goodToKnowNote: "Tak, ako to podnik uvádza na svojom webe.",
     faqTitle: "Otázky pred telefonátom",
     cityPricesTitle: (where: string) => `Koľko to stojí ${skIn(where)}`,
-    cityPricesIntro: "Cenník nie je zverejnený. Typické ceny v meste:",
+    cityPricesIntro: "Cenník nie je zverejnený. Priemerné ceny v meste:",
     welcomes: "Prijíma",
     specialties: "Špecializácie",
     openingHours: "Otváracie hodiny",
@@ -406,8 +406,6 @@ export const sk: Dictionary = {
     priceList: "cenník",
     perUnit: { per_hour: "/ hod.", per_km: "/ km" },
     notCompared: "neporovnávame s inými podnikmi",
-    cityMedian: (price: string, places: number) =>
-      `Priemer v meste ${price} · ${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })}`,
     pricesDisclaimer: "Ceny tak, ako ich podnik zverejnil k uvedenému dátumu. Môžu sa zmeniť - pred objednaním si ich overte.",
   },
   reviewForm: {
@@ -498,7 +496,7 @@ export const sk: Dictionary = {
     includes: "Čo zahŕňa cena",
     place: "Podnik",
     price: "Cena",
-    vsMarket: "Oproti trhu",
+    vsMarket: "Oproti priemeru v meste",
     notComparedTitle: "Ďalšie ceny (neporovnávame)",
     notComparedIntro: "Čiastočné ceny, ceny za hodinu či kilometer alebo ceny, ktoré zahŕňajú viac ako štandard.",
     otherServices: "Ďalšie ceny",
