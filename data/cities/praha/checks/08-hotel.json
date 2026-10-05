@@ -1,0 +1,35 @@
+{
+  "chunk": "08-hotel",
+  "kind": "places",
+  "slugs": [
+    "holidaycat",
+    "psi-skolka-happy-dog",
+    "psi-skolka-a-hotel-skolkapropejska",
+    "psi-centrum-pluto",
+    "relaxacni-penzion-pro-psy-lucky"
+  ],
+  "hash": "931d78ce5f51106187ab9f499e5adfa71c5efbe9e6e5cf6a3643fd733f06a915",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T06:45:39.952Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T06:46:25.526Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-05T06:47:12.955Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T06:49:47.400Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
