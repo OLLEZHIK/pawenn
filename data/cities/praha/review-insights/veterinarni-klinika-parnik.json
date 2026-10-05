@@ -1,0 +1,137 @@
+{
+  "slug": "veterinarni-klinika-parnik",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rn%C3%AD+klinika+Parn%C3%ADk/data=!4m7!3m6!1s0x470bed44d026ed35:0x6abe8d08784b77e3!8m2!3d50.1069629!4d14.5724034!16s%2Fg%2F1tdwntj5!19sChIJNe0m0ETtC0cR43dLeAiNvmo?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Professional doctors and divergent reviews",
+        "cs": "Odborní lékaři a protichůdné zkušenosti"
+      },
+      "text": {
+        "en": "Several reviews praise the veterinarians for their attentive attitude, with Dr. Pohanková and Dr. Bonk highlighted for empathy and expertise. Conversely, a detailed critical review describes substantial dissatisfaction with clinical conduct, expressing dismay over perceived haste and lack of post-procedure care.",
+        "cs": "Několik recenzí vyzdvihuje vstřícnost a odbornou úroveň ošetřujících lékařů, přičemž doktorka Pohanková i doktor Bonk sklízejí uznání za empatii k pacientům. Naproti tomu se objevuje i ostrá kritika postupu personálu, kde klientka vyjadřuje nespokojenost s rychlým odbavením a nedostatečným ošetřením rány."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Pet empathy alongside procedural concerns",
+        "cs": "Péče o zvířata a výhrady"
+      },
+      "text": {
+        "en": "Pet guardians appreciate that veterinarians demonstrate sensitivity during surgical interventions and consultations with companion animals. Nevertheless, one reviewer voiced strong reservations regarding insufficient local disinfection following a tick removal, cautioning other owners about clinical thoroughness.",
+        "cs": "Chovatelé oceňují citlivý přístup lékařů při plánovaných operacích a vyšetřeních jejich psů. Na druhé straně se však objevila vážná výtka chovatelky, které vadilo opomenutí základní dezinfekce po odstranění parazita, což vedlo ke ztrátě její důvěry v pečlivost zákroku."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Surgical success and treatment disputes",
+        "cs": "Výsledky operací a sporné úkony"
+      },
+      "text": {
+        "en": "Clients report fully satisfactory treatment outcomes for complex surgical procedures such as hernia repairs on small dogs. In contrast, critical feedback notes dissatisfaction with minor outpatient care where simple wound management was allegedly neglected and disputed in later communications.",
+        "cs": "Klienti uvádějí bezproblémové a trvalé zotavení zvířat po náročnějších chirurgických zákrocích, jako jsou operace kýly u malých psů. Oproti tomu stojí negativní zkušenost s banálním ambulantním úkonem, kde byl podle chovatelky zanedbán standardní hygienický postup ošetření."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What surgeries do clients highlight at Parník?",
+        "cs": "Které chirurgické zákroky na klinice Parník klienti zmiňují?"
+      },
+      "a": {
+        "en": "Reviews specifically mention successful hernia surgical operations performed on small dog breeds.",
+        "cs": "Recenze výslovně zmiňují úspěšně zvládnuté operace kýly u malých psích plemen."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients consult the pricelist before minor procedures?",
+        "cs": "Je k dispozici ceník před provedením drobných úkonů?"
+      },
+      "a": {
+        "en": "According to feedback, fees are posted on site, but asking about prices before treatment is advisable.",
+        "cs": "Podle zkušeností visí ceník v ordinaci, nicméně doporučuje se ověřit si cenu za úkon předem."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is it easy to find the clinic building?",
+        "cs": "Lze budovu kliniky snadno najít?"
+      },
+      "a": {
+        "en": "Yes, visitors mention a well-visible and easily accessible clinic building in Prague 14.",
+        "cs": "Ano, návštěvníci zmiňují dobře viditelnou a dostupnou budovu zdravotnického střediska na Praze 14."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Upraveno před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
