@@ -1,0 +1,35 @@
+{
+  "chunk": "10-shop",
+  "kind": "places",
+  "slugs": [
+    "super-zoo-praha-cerny-most",
+    "super-zoo-zlicin",
+    "spokojeny-pes-na-pankraci",
+    "spokojeny-pes-korunni",
+    "super-zoo-bucharova",
+    "pet-center-namesti-republiky",
+    "we-love-dogs-hunter-mala-strana",
+    "pet-center-novy-smichov",
+    "super-granule",
+    "pet-center-flora"
+  ],
+  "hash": "7637016e4d17800e1a6a140719b7b67d7a4fc61eb9ca9b2088df6f25debecc19",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T07:16:11.086Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-05T07:18:54.476Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T07:19:53.392Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
