@@ -1,0 +1,161 @@
+{
+  "slug": "ok-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/OK-VET+spol+s+r.o./data=!4m7!3m6!1s0x470bbe46c2bd2ac7:0x7375dff5f0710edc!8m2!3d50.0714497!4d14.2998094!16s%2Fg%2F1tk1lq4b!19sChIJxyq9wka-C0cR3A5x8PXfdXM?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Helpfulness and skill of veterinary team",
+        "cs": "Ochota a odbornost veterinárního týmu"
+      },
+      "text": {
+        "en": "Clients predominantly highlight the humane, responsive, and empathetic attitude of the staff, especially Dr. Radek Zusko. Doctors communicate calmly and explain procedures thoroughly, with only a single rabbit owner noting a cooler reception during examination.",
+        "cs": "Klienti v převážné většině vyzdvihují lidský, vstřícný a empatický přístup personálu, zejména MVDr. Radka Zuska. Lékaři komunikují klidně a trpělivě vysvětlují postupy, pouze v jednom případě si majitel králíka stěžoval na chladnější chování při vyšetření."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Procedure effectiveness and diagnostic accuracy",
+        "cs": "Efektivita zákroků a diagnostika"
+      },
+      "text": {
+        "en": "Pet guardians praise quick treatment of cut paw pads and effective interventions that helped animals avoid general anesthesia. An isolated critical experience involved an unrecognized rabbit diagnosis that was subsequently identified by another clinic.",
+        "cs": "Chovatelé chválí rychlé ošetření rozříznuté tlapky i efektivní zákroky, díky kterým se mazlíčci vyhnuli celkové anestezii. Ojedinělá negativní zkušenost se týká nerozpoznané diagnózy u králíka, kterou následně úspěšně identifikovalo jiné odborné pracoviště."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt admission and appointment scheduling",
+        "cs": "Rychlost přijetí a objednací termíny"
+      },
+      "text": {
+        "en": "Reviews confirm minimal waiting times and convenient same-day online booking when neighboring practices were fully booked. Additionally, the veterinarians attend to acute injuries immediately and handle minor issues like tick removal promptly without delays.",
+        "cs": "Recenze potvrzují minimální čekání a možnost rychlého online objednání na tentýž den, když jiné kliniky neměly volno. Lékaři navíc bez prodlení ošetřují akutní případy a drobnější úkony, jako je vytažení klíštěte, řeší promptně a bez zbytečných prodlev."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients book an appointment at OK-VET online?",
+        "cs": "Lze se na veterinární kliniku OK-VET objednat online?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate the option of easy same-day online appointment booking.",
+        "cs": "Ano, klienti oceňují možnost snadného online objednání i na tentýž den."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does OK-VET attend to pets with acute injuries?",
+        "cs": "Ošetří na klinice OK-VET zvíře s akutním zraněním?"
+      },
+      "a": {
+        "en": "Yes, pet owners in reviews confirm immediate and caring assistance for injuries, such as cut paws.",
+        "cs": "Ano, majitelé v recenzích potvrzují okamžité a ochotné přijetí zvířat při úrazech, například při poranění tlapky."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the clinic's pricing policy?",
+        "cs": "Jak zákazníci hodnotí cenovou politiku kliniky?"
+      },
+      "a": {
+        "en": "Clients consider fees fair and appreciate that veterinarians sometimes do not charge for brief check-ups.",
+        "cs": "Klienti považují ceny za férové a oceňují, že za krátké pětiminutové kontroly lékaři někdy neúčtují poplatek."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 2 dny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 2 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

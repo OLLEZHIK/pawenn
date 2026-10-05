@@ -1,0 +1,255 @@
+{
+  "slug": "regia-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Regia+Vet+s.r.o./data=!4m7!3m6!1s0x470b9215fc65733d:0x172672943fc57768!8m2!3d50.0285297!4d14.4901715!16s%2Fg%2F1tcxyjpv!19sChIJPXNl_BWSC0cRaHfFP5RyJhc?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 18,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 15,
+      "title": {
+        "cs": "Odborný tým s výhradami k recepci",
+        "en": "Expert medical team and reception issues"
+      },
+      "text": {
+        "cs": "Mnozí klienti vyjadřují vděčnost lékařům za empatii, vysokou odbornost a lidský přístup při řešení složitých onemocnění zvířat. Několik chovatelů však vyjadřuje rozčarování z jednání na recepci a odmítnutí pacientů v akutním stavu z důvodu plné kapacity kliniky.",
+        "en": "Many clients express deep gratitude to veterinarians for empathy, expertise, and humane care in managing complex illnesses. However, several pet owners voice frustration over front desk interactions and being turned away during emergencies due to full schedules."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "cs": "Péče o onkologické i chirurgické pacienty",
+        "en": "Dedicated oncology and surgical care"
+      },
+      "text": {
+        "cs": "Chovatelé psů i koček velmi oceňují citlivé zacházení a špičkovou onkologickou podporu, která vážně nemocným zvířatům pomohla prodloužit život. Oproti tomu kritické hlasy upozorňují na nedostatečnou péči o zraněná zvířata a pooperační komplikace u koček.",
+        "en": "Guardians of dogs and cats appreciate sensitive handling and specialist oncology therapies that extended the lives of critically ill pets. Conversely, critical reviews point out inadequate response to injured emergency walk-ins and post-op issues in cats."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "cs": "Úspěšná léčba a chirurgické komplikace",
+        "en": "Advanced treatments and surgical complications"
+      },
+      "text": {
+        "cs": "Klinika je chválena za skvělé výsledky v dermatologii, řešení ušních potíží a náročné onkologické terapie, kde jiná pracoviště nestačila. Objevují se však i stížnosti na neúspěšné zákroky, vysoké ceny a pooperační komplikace po běžné sterilizaci koček.",
+        "en": "The hospital is praised for strong results in veterinary dermatology, ear treatments, and complex oncology therapies where other clinics failed. Yet some owners report unexpected surgical complications and costly outcomes following routine feline surgeries."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Přijímá klinika Regia Vet akutní pacienty bez objednání?",
+        "en": "Does Regia Vet accept urgent walk-in cases without an appointment?"
+      },
+      "a": {
+        "cs": "Klinika preferuje objednané pacienty; při akutním případu je nutné předem zavolat, kapacita bývá plná.",
+        "en": "The clinic prioritizes scheduled visits; calling ahead in acute cases is required as capacity is often full."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Poskytuje klinika specializovanou onkologickou péči?",
+        "en": "Does the clinic offer specialized cancer treatments?"
+      },
+      "a": {
+        "cs": "Ano, klienti vyzdvihují dlouhodobou onkologickou péči a léčbu chronických nádorových onemocnění.",
+        "en": "Yes, clients highlight dedicated oncology diagnostics and therapy for complex oncological conditions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "cs": "Jaké jsou možnosti parkování u kliniky?",
+        "en": "What are the parking conditions near the clinic?"
+      },
+      "a": {
+        "cs": "Někteří recenzenti upozorňují na obtížnější parkování v bezprostřední blízkosti ordinace.",
+        "en": "Some reviewers note that finding parking directly adjacent to the clinic premises can be challenging."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Upraveno před 3 měsíci",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
