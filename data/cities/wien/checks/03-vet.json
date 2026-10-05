@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "tierklinik-doebling",
+    "tierarztwien",
+    "tierarztzentrum-essling",
+    "tierambulanz-prater",
+    "tierarztpraxis-dr-nora-marx-dawid",
+    "tierarztpraxis-neulinggasse",
+    "tierarztpraxis-kagran",
+    "tierarzt-stadlau-volker-harra",
+    "tiermedizinisches-zentrum-20",
+    "tierarztpraxis-breitenlee-dr-susanne-balazs"
+  ],
+  "hash": "94fabee2ea7349cd8ee6f1a46c118204a2a0c3c800999ca52c7f01df7fd9f04f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T17:29:27.290Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-05T17:37:09.589Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
