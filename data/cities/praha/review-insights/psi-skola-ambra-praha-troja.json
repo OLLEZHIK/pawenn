@@ -1,0 +1,140 @@
+{
+  "slug": "psi-skola-ambra-praha-troja",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+%C5%A1kola+Ambra+-+Praha+Troja/@50.0875,14.4213,12z/data=!4m6!3m5!1s0x470beb2d3eefcef7:0x742a9338ea78e875!8m2!3d50.113292!4d14.4259582!16s%2Fg%2F1v16p01q?hl=cs",
+  "period_from": "2025-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Trpělivý instruktor a vstřícný přístup",
+        "en": "Patient instructor and welcoming guidance"
+      },
+      "text": {
+        "cs": "Klienti v hodnoceních vyzdvihují klidný, přátelský a trpělivý přístup trenéra pana Palouška. Majitelé psů oceňují, že instruktor vše srozumitelně vysvětlí a ochotně poradí při výchově štěňat i dospělých psů. Atmosféra na cvičišti v Troji je podle návštěvníků příjemná a na každou lekci se těší.",
+        "en": "Clients highlight the calm, friendly, and patient approach of trainer Mr. Paloušek in Prague-Troja. Dog owners appreciate that the instructor explains every exercise clearly and provides helpful advice for both puppies and adult dogs. The training atmosphere is welcoming, making handlers look forward to lessons."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Viditelný pokrok a spolehlivá poslušnost",
+        "en": "Visible progress and reliable obedience"
+      },
+      "text": {
+        "cs": "Chovatelé popisují znatelné zlepšení v poslušnosti a reakcích psa na povely již během základních kurzů. Většina recenzentů potvrzuje, že se soužití se psem po absolvování výcviku stalo mnohem příjemnějším a bezproblémovým. Dlouhodobí návštěvníci oceňují spolehlivé základy pro běžný život i pokročilý výcvik.",
+        "en": "Handlers report noticeable improvements in dog obedience and responsiveness to commands during basic courses. Most reviewers confirm that daily life with their dogs became significantly smoother following training. Long-term attendees value the dependable foundation provided for everyday companion behavior."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Jasné vedení lekcí a domluva",
+        "en": "Clear lesson guidance and communication"
+      },
+      "text": {
+        "cs": "Účastníci kurzů velmi pozitivně hodnotí srozumitelnou komunikaci během lekcí i při domluvě termínů. Trenér srozumitelně vysvětluje techniku cvičení a snaží se časově vyjít vstříc potřebám psovodů. Majitelé chválí věcné a přehledné pokyny, které usnadňují následný trénink doma.",
+        "en": "Course participants appreciate clear and constructive communication during lessons and when arranging schedules. The trainer provides accessible explanations of training techniques and accommodates the scheduling needs of handlers. Dog owners praise actionable guidance that simplifies training at home."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Je výcvik vhodný i pro štěňata?",
+        "en": "Is the training suitable for young puppies?"
+      },
+      "a": {
+        "cs": "Ano, škola nabízí základní kurzy poslušnosti a socializace vhodné pro štěňata od raného věku.",
+        "en": "Yes, the school provides foundational obedience and socialization courses suitable for young puppies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Přizpůsobuje trenér termíny lekcí možnostem majitelů?",
+        "en": "Does the trainer offer flexible lesson scheduling?"
+      },
+      "a": {
+        "cs": "Ano, klienti v recenzích chválí vstřícnost a možnost individuálního přizpůsobení časů výcviku.",
+        "en": "Yes, clients commend the flexibility and willingness to tailor training hours to owners' schedules."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Kde probíhá výcvik psů školy Ambra?",
+        "en": "Where does the Ambra dog training take place?"
+      },
+      "a": {
+        "cs": "Výcvik probíhá na vybaveném cvičišti v klidném prostředí v Praze-Troji s dobrou dostupností.",
+        "en": "Training takes place at an equipped training ground in a quiet setting in Prague-Troja."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 7 měsíci",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 7 měsíci",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 8 měsíci",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "~",
+        "prices": "-",
+        "animals": "~"
+      }
+    }
+  ]
+}
