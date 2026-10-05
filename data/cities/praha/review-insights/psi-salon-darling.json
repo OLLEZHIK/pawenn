@@ -1,0 +1,153 @@
+{
+  "slug": "psi-salon-darling",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+salon+-+Darling,+st%C5%99%C3%ADh%C3%A1n%C3%AD+a+trimov%C3%A1n%C3%AD+ps%C5%AF/data=!4m7!3m6!1s0x470b949f3bd72fc1:0x860c38e0f06abfa2!8m2!3d50.0909113!4d14.4790762!16s%2Fg%2F11gfdsyv78!19sChIJwS_XO5-UC0cRor9q8OA4DIY?hl=cs",
+  "period_from": "2024-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive and patient grooming team",
+        "cs": "Vstřícný a trpělivý personál salonu"
+      },
+      "text": {
+        "en": "Clients regularly highlight the caring approach of the groomers, noting great patience with restless dogs and long-term loyalty over many years. While one visitor reported a closed salon during their scheduled time, overall feedback for staff empathy remains decidedly favorable.",
+        "cs": "Zákazníci vyzdvihují vstřícné a trpělivé vystupování střihaček, ke kterým se mnozí majitelé vracejí řadu let. I když jedna recenze zmiňuje zklamání ze zamčeného salonu v domluveném čase, naprostá většina chválí jejich spolehlivost, ochotu a citlivé vedení úpravy srsti."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm atmosphere for sensitive pets",
+        "cs": "Klidný přístup i k citlivým psům"
+      },
+      "text": {
+        "en": "Reviewers appreciate how the salon manages animals of diverse temperaments, including elderly maltese dogs and difficult-to-groom poodles. Pets quickly feel secure in the gentle hands of the groomers, leaving without signs of excessive agitation or nervousness.",
+        "cs": "Chovatelé oceňují klidné zacházení se psy různých povah i věku, včetně starších maltézáčků nebo hůře zvladatelných pudlů. Zvířata se v salonu rychle uklidní a z procedury odcházejí v pohodě, aniž by je samotný proces stříhání zbytečně stresoval či lekal."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Quality styling and breed cuts",
+        "cs": "Kvalitní střih a celková úprava"
+      },
+      "text": {
+        "en": "Owners praise the aesthetic quality of dog haircuts, emphasizing clean trim lines and careful coat treatment according to expectations. The end result reliably matches breed standards, and clients gladly recommend the salon for routine aesthetic maintenance.",
+        "cs": "Majitelé pejsků chválí čistý a precizní střih srsti, který odpovídá požadavkům plemene i domluvě s majitelem. Výsledný vzhled je podle recenzí velmi pěkný a upravený, což majitelé oceňují zejména u plemen náročných na pravidelnou fazonu a rozčesávání."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Psí salon Darling situated?",
+        "cs": "Kde přesně salon Darling sídlí?"
+      },
+      "a": {
+        "en": "The grooming salon is located at Hořanská 1510/1 in Prague 3-Žižkov.",
+        "cs": "Psí salon se nachází na adrese Hořanská 1510/1 v Praze 3 na Žižkově."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do they handle older or nervous dogs?",
+        "cs": "Zvládají v salonu i starší nebo bojácné psy?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that groomers handle senior and sensitive dogs with great patience and care.",
+        "cs": "Ano, hodnocení potvrzují trpělivý a empatický přístup i k psím seniorům či citlivějším jedincům."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is prior booking required before a visit?",
+        "cs": "Je nutné se na stříhání předem objednat?"
+      },
+      "a": {
+        "en": "Yes, visits must be arranged in advance by telephone.",
+        "cs": "Ano, návštěvy a termíny úpravy srsti je potřeba domluvit předem telefonicky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 7 měsíci",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
