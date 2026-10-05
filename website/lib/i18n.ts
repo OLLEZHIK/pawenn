@@ -17,6 +17,7 @@ import { en, type Dictionary } from "./dictionaries/en";
 import { sk } from "./dictionaries/sk";
 // Translated by IDE (tasks/ide-language-pl-dictionary.md).
 import { pl } from "./dictionaries/pl";
+import { cs } from "./dictionaries/cs";
 
 export { LOCALES, DEFAULT_LOCALE, isLocale, localePath, plural, type Locale } from "./locales";
 export type { Dictionary };
@@ -51,7 +52,7 @@ export function inCity(locale: Locale, city: CityPhrases): string {
   return locale === "en" ? `in ${city.name}` : `– ${city.name}`;
 }
 
-const DICTIONARIES: Record<Locale, Dictionary> = { en, sk, pl };
+const DICTIONARIES: Record<Locale, Dictionary> = { en, sk, pl, cs };
 
 export function getDictionary(locale: Locale): Dictionary {
   return DICTIONARIES[locale];
