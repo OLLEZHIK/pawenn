@@ -1,0 +1,30 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "vycvik-psu-jaros",
+    "trener-psu-adam-holeksa",
+    "psi-skola-ambra-praha-troja",
+    "trener-psu-robert-zlocha",
+    "treninkove-centrum-hodny-pes"
+  ],
+  "hash": "c2a3235ea324e4bd1d4420942054b79e182f9c81c46f1836cad2e2caaadeabc9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T06:47:22.726Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T06:49:05.537Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-05T06:49:38.074Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
