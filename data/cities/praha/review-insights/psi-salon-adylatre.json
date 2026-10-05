@@ -1,0 +1,134 @@
+{
+  "slug": "psi-salon-adylatre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+salon+AdylaTre/data=!4m7!3m6!1s0x470b9530072571f1:0x514d954c8827db83!8m2!3d50.1054693!4d14.3955043!16s%2Fg%2F11cmywhvfs!19sChIJ8XElBzCVC0cRg9sniEyVTVE?hl=cs",
+  "period_from": "2025-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive team and calm attitude",
+        "cs": "Vstřícný personál a klidné jednání"
+      },
+      "text": {
+        "en": "Clients praise the salon assistants for their friendly, calm, and accommodating approach, which immediately dispels initial nervousness. Reviewers also appreciate the staff's willingness to send progress photos during procedures and explain individual treatment steps.",
+        "cs": "Zákazníci chválí personál salonu za přátelské, klidné a vstřícné jednání, které jim pomáhá odbourat počáteční obavy z první návštěvy. Majitelé psů vyzdvihují také ochotu posílat fotografie v průběhu úpravy a srozumitelně popsat jednotlivé kroky potřebné péče o srst i zuby."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dental cleaning and trim precision",
+        "cs": "Čištění zubů a kvalita trimování"
+      },
+      "text": {
+        "en": "Pet owners highlight the high quality of non-anesthetic dental hygiene, which dogs tolerate smoothly and without stress. Feedback also praises thorough wire-haired coat stripping and general styling, confirming that dogs leave the salon clean and well maintained.",
+        "cs": "Chovatelé vyzdvihují vysokou kvalitu ultrazvukového čištění zubů bez narkózy, které zvířata zvládají bez potíží a stresu. Pozitivní recenze zmiňují také pečlivé trimování hrubosrstých psů a celkový střih, díky němuž se klienti do salonu pravidelně vracejí."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling of nervous dogs",
+        "cs": "Šetrný přístup k citlivým psům"
+      },
+      "text": {
+        "en": "Reviewers emphasize that dogs feel safe and well cared for even during delicate procedures such as tooth scaling. Owners of sensitive pets note that the groomers maintain patience and a soothing atmosphere, allowing anxious dogs to undergo grooming comfortably.",
+        "cs": "Majitelé zdůrazňují, že se jejich psi cítí v salonu bezpečně i při náročnějších procedurách, jako je zubní hygiena. Recenze potvrzují trpělivý přístup a klidnou atmosféru, díky které se dříve bázlivá zvířata zbavují stresu a na návštěvu reagují spokojeně."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon offer teeth cleaning without anesthesia?",
+        "cs": "Provádí salon čištění psích zubů bez narkózy?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm professional cosmetic teeth cleaning that dogs manage without stress.",
+        "cs": "Ano, klienti v recenzích potvrzují šetrné čištění zubů, které psi zvládají bez problémů."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners receive photo updates during the appointment?",
+        "cs": "Lze během procedury obdržet fotografie pejska?"
+      },
+      "a": {
+        "en": "Yes, customers appreciate that staff are willing to send photo updates while working.",
+        "cs": "Ano, zákazníci oceňují ochotu personálu posílat průběžné fotografie ze salonu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Psí salon AdylaTre situated?",
+        "cs": "Kde se salon AdylaTre v Praze nachází?"
+      },
+      "a": {
+        "en": "The salon is located in Prague 6 (Dejvice) on Čínská street.",
+        "cs": "Salon se nachází v Praze 6 v Dejvicích v Čínské ulici."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 10 měsíci",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
