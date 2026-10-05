@@ -89,6 +89,14 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "sklep-zoologiczny",
     PET_SITTING: "opieka-nad-zwierzetami",
   },
+  cs: {
+    GROOMING: "psi-salon",
+    VET_CLINIC: "veterina",
+    PET_HOTEL: "hotel-pro-zvirata",
+    DOG_TRAINING: "vycvik-psu",
+    PET_SHOP: "zverimex",
+    PET_SITTING: "hlidani-zvirat",
+  },
 };
 
 const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -109,6 +117,14 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Sklepy zoologiczne",
     PET_SITTING: "Opieka nad zwierzętami",
   },
+  cs: {
+    GROOMING: "Psí salony",
+    VET_CLINIC: "Veterinární kliniky",
+    PET_HOTEL: "Hotely pro zvířata",
+    DOG_TRAINING: "Výcvik psů",
+    PET_SHOP: "Zverimexy",
+    PET_SITTING: "Hlídání zvířat",
+  },
 };
 
 const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
@@ -128,6 +144,14 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "szkolenie psa",
     PET_SHOP: "sklep zoologiczny",
     PET_SITTING: "opieka nad zwierzętami",
+  },
+  cs: {
+    GROOMING: "psí salon",
+    VET_CLINIC: "veterinární klinika",
+    PET_HOTEL: "hotel pro zvířata",
+    DOG_TRAINING: "výcvik psa",
+    PET_SHOP: "zverimex",
+    PET_SITTING: "hlídání zvířat",
   },
 };
 
@@ -158,6 +182,14 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "szkoły i trenerzy psów",
     PET_SHOP: "sklepy zoologiczne",
     PET_SITTING: "petsitterzy",
+  },
+  cs: {
+    GROOMING: "psí salony",
+    VET_CLINIC: "veterinární kliniky",
+    PET_HOTEL: "hotely pro zvířata",
+    DOG_TRAINING: "školy a trenéři psů",
+    PET_SHOP: "zverimexy",
+    PET_SITTING: "hlídači zvířat",
   },
 };
 
@@ -191,6 +223,14 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Sklepy zoologiczne",
     PET_SITTING: "Petsitterzy i wyprowadzanie psów",
   },
+  cs: {
+    GROOMING: "Stříhání psů a psí salony",
+    VET_CLINIC: "Veterina a veterináři",
+    PET_HOTEL: "Psí hotely a hotely pro zvířata",
+    DOG_TRAINING: "Výcvik psů a cvičáky",
+    PET_SHOP: "Zverimex a chovatelské potřeby",
+    PET_SITTING: "Hlídání a venčení psů",
+  },
 };
 
 // Price overview (/<category>/<city>/prices) name: the main "prices"
@@ -222,6 +262,14 @@ const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Sklep zoologiczny",
     PET_SITTING: "Opieka nad psem",
   },
+  cs: {
+    GROOMING: "Stříhání psů",
+    VET_CLINIC: "Veterina",
+    PET_HOTEL: "Hotel pro psy",
+    DOG_TRAINING: "Výcvik psa",
+    PET_SHOP: "Zverimex",
+    PET_SITTING: "Hlídání a venčení psa",
+  },
 };
 
 const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -248,6 +296,14 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Psie przedszkole, posłuszeństwo i zachowanie",
     PET_SHOP: "Karmy, zabawki i artykuły na co dzień",
     PET_SITTING: "Spacery, wizyty i opieka w domu",
+  },
+  cs: {
+    GROOMING: "Koupání, stříhání, trimování a péče o drápky",
+    VET_CLINIC: "Prohlídky, očkování a pohotovost",
+    PET_HOTEL: "Bezpečný pobyt, když jste na cestách",
+    DOG_TRAINING: "Kurzy pro štěňata, poslušnost a chování",
+    PET_SHOP: "Krmivo, hračky a potřeby na každý den",
+    PET_SITTING: "Venčení, návštěvy a péče doma",
   },
 };
 
@@ -305,6 +361,14 @@ const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: 
     PET_SHOP: { term: "sklep zoologiczny", word: /^zoolog/ },
     PET_SITTING: { term: "petsitter", word: /^petsit/ },
   },
+  cs: {
+    VET_CLINIC: { term: "veterina", word: /^veterin/ },
+    GROOMING: { term: "psí salon", word: /^(salon|grooming|strihan)/ },
+    PET_HOTEL: { term: "hotel pro zvířata", word: /^hotel/ },
+    DOG_TRAINING: { term: "výcvik psů", word: /^(vycvik|kynolog|cvicak)/ },
+    PET_SHOP: { term: "zverimex", word: /^zverimex/ },
+    PET_SITTING: { term: "hlídání psů", word: /^(hlidani|venceni)/ },
+  },
 };
 
 const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -336,7 +400,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -360,7 +424,7 @@ export function categoryHubPath(locale: Locale, category: BusinessCategory): str
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;

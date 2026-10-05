@@ -14,14 +14,14 @@ export type AttributeKey = "nonstop" | "saturday" | "sunday" | "exotics" | "home
 
 /** URL slug per attribute and language - as people search it. */
 const SLUGS: Record<AttributeKey, Record<Locale, string>> = {
-  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy" },
-  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota" },
-  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela" },
-  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne" },
-  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe" },
+  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy", cs: "nonstop" },
+  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota", cs: "sobota" },
+  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela", cs: "nedele" },
+  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne", cs: "exoticka-zvirata" },
+  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe", cs: "vyjezd-domu" },
   // "english speaking vet bratislava" / "veterinár po anglicky"
   // (docs/seo/keywords/en.md, sk.md; owner, 2026-09-26).
-  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku" },
+  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku", cs: "anglicky" },
 };
 
 /** Which attributes each category offers, in chip order. Only attributes

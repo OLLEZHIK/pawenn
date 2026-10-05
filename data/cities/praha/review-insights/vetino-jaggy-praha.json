@@ -1,0 +1,423 @@
+{
+  "slug": "vetino-jaggy-praha",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VETINO+Jaggy+Praha+a.s./data=!4m7!3m6!1s0x470bbe47ef53113f:0x338e3fc88ec3820c!8m2!3d50.0738966!4d14.3048108!16s%2Fg%2F1yhbnrrhv!19sChIJPxFT70e-C0cRDILDjsg_jjM?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 34,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 26,
+      "title": {
+        "cs": "Přední neurologové a specializovaný tým",
+        "en": "Leading neurologists and specialized clinicians"
+      },
+      "text": {
+        "cs": "Klinika je vysoce ceněna pro výjimečné odborné znalosti neurologů a chirurgů, kteří zvládají složité operace páteře a léčbu epilepsie. Personál na lůžkovém oddělení i recepci sklízí chválu za empatický přístup k vyděšeným majitelům zvířat. Lékaři dokáží srozumitelně popsat i velmi komplikované diagnózy.",
+        "en": "The referral hospital is widely respected for the specialized expertise of neurologists and surgeons handling spinal cases and epilepsy. Inpatient nursing staff and receptionists receive warm feedback for empathetic care toward distressed owners. Clinicians explain complex medical conditions clearly."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 15,
+      "title": {
+        "cs": "Pohotovostní příjem a delší čekání",
+        "en": "Emergency admissions and waiting intervals"
+      },
+      "text": {
+        "cs": "Pohotovostní služba je o víkendech a nocích velmi vytížená, což může vést k delšímu čekání v čekárně u méně naléhavých případů. Klienti vyzdvihují rychlé zahájení diagnostiky u pacientů s akutním ochrnutím nebo těžkým záchvatem. U plánovaných návštěv probíhá příjem zpravidla bez výraznějších zpoždění.",
+        "en": "The emergency department experiences heavy demand at night and on weekends, causing extended waits for non-critical presentations. However, clients commend rapid triage when dealing with acute paralysis or severe seizures. Scheduled appointments generally proceed with minimal delays."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "cs": "Průběžné informace během hospitalizace",
+        "en": "Progress updates during inpatient hospitalization"
+      },
+      "text": {
+        "cs": "Většina majitelů oceňuje pravidelné telefonické zprávy o zdravotním stavu hospitalizovaného zvířete i podrobné vysvětlení výsledků magnetické rezonance. Komunikace lékařů po zákroku bývá hodnocena velmi pozitivně. Ojedinělé výtky směřují k administrativním přehlédnutím při vydávání receptů.",
+        "en": "Most pet guardians appreciate regular phone updates on their hospitalized animal's condition and clear MRI result debriefs. Clinician updates following surgery receive very positive marks. Occasional criticisms mention minor administrative oversights when issuing medication prescriptions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Disponuje klinika Vetino Jaggy vyšetřením magnetickou rezonancí (MRI)?",
+        "en": "Does Vetino Jaggy have magnetic resonance imaging (MRI) on site?"
+      },
+      "a": {
+        "cs": "Ano, klinika je předním pražským referenčním pracovištěm s vlastním zařízením pro magnetickou rezonanci a CT vyšetření.",
+        "en": "Yes, the clinic is a premier Prague referral center featuring its own on-site MRI and computed tomography scanners."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "cs": "Funguje na klinice noční a víkendová pohotovost?",
+        "en": "Does the hospital operate a night and weekend emergency service?"
+      },
+      "a": {
+        "cs": "Ano, nemocnice zajišťuje 24hodinovou pohotovost pro akutní a neurologické pacienty; před příjezdem se doporučuje telefonát.",
+        "en": "Yes, the hospital maintains 24-hour emergency coverage for acute and neurological cases; calling prior to arrival is advised."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "cs": "Je při hospitalizaci zvířete vyžadována finanční záloha?",
+        "en": "Is a monetary deposit required for animal hospitalization?"
+      },
+      "a": {
+        "cs": "Ano, při příjmu zvířete na jednotku intenzivní péče nebo k operaci klinika běžně požaduje složení zálohy na léčbu.",
+        "en": "Yes, when admitting a pet to intensive care or for scheduled surgery, the clinic standardly requires an upfront deposit."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 3 týdny",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "-",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "-",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "~",
+        "prices": "+",
+        "waiting": "-",
+        "place": "~",
+        "communication": "~",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "~",
+        "prices": "-",
+        "waiting": "-",
+        "place": "~",
+        "communication": "~",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "Upraveno před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "place": "~",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "-",
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "-",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "veterinarni-klinika-sokolniky",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rn%C3%AD+Klinika+Sokoln%C3%ADky/data=!4m7!3m6!1s0x470beb3f81783901:0xa0f5a9d195caddee!8m2!3d50.1273129!4d14.4510299!16s%2Fg%2F1tykt2pr!19sChIJATl4gT_rC0cR7t3KldGp9aA?hl=cs",
+  "period_from": "2025-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful doctors and varying doctor impressions",
+        "cs": "Vstřícní lékaři a rozdíly mezi směnami"
+      },
+      "text": {
+        "en": "Most clients appreciate the pleasant and caring approach of the clinic's veterinarians, with Dr. Poživilová and Dr. Marx praised for their attentive service. A few longtime visitors note that clinical experiences vary depending on which doctor is on duty, occasionally missing the consistency of previous years.",
+        "cs": "Většina klientů chválí ochotu a milé vystupování lékařského týmu, přičemž doktorka Poživilová a doktor Marx sklízejí vřelá poděkování za péči o psy. Někteří dlouholetí návštěvníci však poznamenávají, že úroveň se může lišit podle sloužícího lékaře a délky jeho praxe."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for older dogs",
+        "cs": "Péče o psí seniory a přístup"
+      },
+      "text": {
+        "en": "Pet guardians commend the practice for their gentle handling of older dogs, specifically praising cardiovascular check-ups and targeted medications that help manage chronic health issues. Reviewers feel that the veterinary team genuinely cares about animals and strives to alleviate their stress.",
+        "cs": "Majitelé zvířat vyzdvihují šetrné vyšetření starších psů, kde oceňují kardiologické kontroly i nasazení léků na zpomalení srdečních vad. V recenzích je patrné, že personál přistupuje ke zvířatům s opravdovým zájmem a snaží se chránit pacienty před zbytečným stresem."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Accurate diagnoses and past care comparisons",
+        "cs": "Přesná diagnostika a srovnání s minulostí"
+      },
+      "text": {
+        "en": "Clients report successful treatment of prostate ailments and heart murmurs following prompt ECG and X-ray examinations. On the other hand, a critical review from a longtime patron argued that overall care standards had dipped following an ownership transition.",
+        "cs": "Klienti popisují úspěšnou léčbu onemocnění prostaty i srdečního šelestu na základě provedeného EKG a rentgenu. Naproti tomu dlouholetý návštěvník vyjádřil zklamání a pocit, že po dřívější změně majitele úroveň péče a organizace ordinace poněkud poklesla."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients book appointments by phone reliably?",
+        "cs": "Lze se na vyšetření spolehlivě objednat po telefonu?"
+      },
+      "a": {
+        "en": "Yes, reviews highlight smooth phone scheduling with agreed appointment times being respected.",
+        "cs": "Ano, klienti v recenzích chválí bezproblémové telefonické objednání a dodržování smluveného času."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic tools like ECG and X-ray available on site?",
+        "cs": "Provádí klinika diagnostiku pomocí EKG a rentgenu?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that on-site ECG and X-ray examinations are readily performed when needed.",
+        "cs": "Ano, recenzenti potvrzují možnost okamžitého provedení EKG vyšetření i rentgenových snímků přímo na místě."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long are waiting times for walk-in patients?",
+        "cs": "Jak dlouhá je čekací doba bez předchozího objednání?"
+      },
+      "a": {
+        "en": "Without an appointment, wait times during busy afternoon hours can extend significantly.",
+        "cs": "Při návštěvě bez objednání může být čekací doba v odpoledních hodinách podstatně delší."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "~",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 7 měsíci",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 9 měsíci",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 10 měsíci",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "před 11 měsíci",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 11 měsíci",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
