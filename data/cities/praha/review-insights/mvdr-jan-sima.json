@@ -1,0 +1,143 @@
+{
+  "slug": "mvdr-jan-sima",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/MVDr.+Jan+%C5%A0%C3%ADma/data=!4m7!3m6!1s0x470beada6863dfeb:0x432eef897e25b8!8m2!3d50.125977!4d14.4117844!16s%2Fg%2F1pxwf91s2!19sChIJ699jaNrqC0cRuCV-ie8uQwA?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Lidský přístup a důvěra chovatelů",
+        "en": "Humane attitude and client trust"
+      },
+      "text": {
+        "cs": "MVDr. Jan Šíma i jeho sestřičky se těší mimořádné důvěře chovatelů z celé Prahy. Recenzenti vyzdvihují lidský přístup, přímé a férové jednání bez zbytečného navyšování nákladů a vysokou empatii. Klienti zdůrazňují, že pan doktor ordinuje s láskou k profesi a ke zvířatům přistupuje s maximální ohleduplností.",
+        "en": "Dr. Jan Šíma and his nursing staff enjoy deep trust from pet owners across Prague. Reviewers praise their humane demeanor, transparent advice without unnecessary upsells, and strong empathy. Clients emphasize that the veterinarian works with true dedication to animal wellbeing and patient comfort."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Úspěšné operace a stomatologické zákroky",
+        "en": "Successful surgeries and dental procedures"
+      },
+      "text": {
+        "cs": "Chovatelé jsou velmi spokojeni s výsledky operačních výkonů i běžných veterinárních zákroků. Recenze zmiňují bezproblémové trhání mléčných zubů u štěňat i opakované náročnější operace u dlouhodobých pacientů, které proběhly bez jakýchkoliv komplikací. Zákazníci považují péči v ordinaci za naprosto spolehlivou.",
+        "en": "Guardians express strong satisfaction with surgical outcomes and routine veterinary procedures. Reviews cite smooth deciduous tooth extractions in young puppies as well as multiple surgeries in older pets without complications. Clients consider the treatment outcomes and general medical care fully dependable."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "cs": "Klidné ošetření a nadšení mazlíčků",
+        "en": "Calm examinations and stress-free visits"
+      },
+      "text": {
+        "cs": "Majitelé psů oceňují, že jejich čtyřnozí parťáci chodí do ordinace bez obvyklého strachu a s nadšením. Personál dokáže navodit klidnou atmosféru, což usnadňuje vyšetření i drobných plemen, jako jsou čivavy. Citlivé zacházení se zvířaty je jedním z hlavních důvodů dlouhodobé věrnosti klientů.",
+        "en": "Dog owners appreciate that their pets enter the surgery without anxiety, often feeling enthusiastic during visits. The veterinary team fosters a calming clinic atmosphere, easing treatment for smaller breeds like chihuahuas. Gentle handling remains a primary reason behind long-standing customer loyalty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Provádí ordinace stomatologické zákroky u štěňat?",
+        "en": "Does the clinic perform dental extractions for puppies?"
+      },
+      "a": {
+        "cs": "Ano, klienti v recenzích potvrzují bezproblémové trhání mléčných zubů bez komplikací.",
+        "en": "Yes, client reviews confirm smooth deciduous puppy tooth extractions carried out without complications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Jaké jsou zkušenosti klientů s cenovou politikou?",
+        "en": "What is client feedback regarding pricing policy?"
+      },
+      "a": {
+        "cs": "Zákazníci oceňují férové jednání, rozumné ceny a absenci zbytečných finančních výdajů.",
+        "en": "Clients value fair communication, sensible pricing, and the absence of unnecessary diagnostic markups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Jak zvířata obvykle snášejí návštěvu ordinace?",
+        "en": "How do pets usually tolerate clinic visits?"
+      },
+      "a": {
+        "cs": "Chovatelé uvádějí, že zvířata snášejí návštěvy klidně a do ordinace vstupují bez stresu a strachu.",
+        "en": "Pet guardians note that animals tolerate consultations calmly, entering the clinic without fear or tension."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

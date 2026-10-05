@@ -1,0 +1,152 @@
+{
+  "slug": "psi-skolka-a-hotel-nejen-pro-pejsky",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+%C5%A1kolka+a+hotel+-+nejen-pro-pejsky/@50.0875,14.4213,12z/data=!4m6!3m5!1s0x470b92a9c253a69f:0xc08be9b6acc9500!8m2!3d50.0861072!4d14.5753952!16s%2Fg%2F11bw46grlp?hl=cs",
+  "period_from": "2025-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive boarding for all dog sizes",
+        "cs": "Péče o psy všech plemen a velikostí"
+      },
+      "text": {
+        "en": "Clients appreciate the loving care provided to visiting dogs, ranging from playful shelter rescues to giant leonbergers. Canines enjoy ample daily playtime, social interaction with other pets, and return home in relaxed and satisfied physical condition.",
+        "cs": "Zákazníci oceňují laskavou péči o psy nejrůznějších plemen, od menších adoptovaných kříženců až po obří leonbergery. Zvířata mají během pobytu dostatek vyžití a pohybu s psími kamarády a domů se vracejí odpočatá, vyběhaná a v dobré fyzické i psychické pohodě."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Warm and reassuring facility owner",
+        "cs": "Ochotná a vstřícná paní majitelka"
+      },
+      "text": {
+        "en": "Dog owners repeatedly commend the friendly personality, warm attentiveness, and professional dedication of the owner. She accommodates individual owner requests and sends video updates of pets playing, significantly easing worries while guardians are traveling away.",
+        "cs": "Majitelé psů chválí přátelský přístup a spolehlivost provozovatelky Edity Bartošové. Paní majitelka vychází vstříc individuálním požadavkům, se zvířaty to umí a posílá majitelům krátká videa z pobytu, což přináší klid rodinám trávícím dovolenou bez svého pejska."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Spacious garden and outdoor grounds",
+        "cs": "Velká zahrada a příjemné zázemí"
+      },
+      "text": {
+        "en": "Visitors praise the expansive garden grounds that allow energetic dogs to run freely throughout the day. The accommodations offer comfortable sheltered spaces where active pets can rest peacefully after long hours of supervised outdoor socialization.",
+        "cs": "V recenzích je vyzdvihována prostorná zahrada, kde mohou psi bezpečně běhat a trávit většinu dne venku. Zázemí nabízí útulné a čisté prostory pro odpočinek, takže i temperamentní zvířata po celodenním programu na čerstvém vzduchu spokojeně odpočívají."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the daycare and hotel facility located?",
+        "cs": "Kde přesně se psí školka a hotel nachází?"
+      },
+      "a": {
+        "en": "The facility is located on Českobrodská 835 in Prague-Dolní Počernice.",
+        "cs": "Areál se nachází na adrese Českobrodská 835 v Praze-Dolních Počernicích."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do dogs have access to an outdoor garden?",
+        "cs": "Mají ubytovaní psi přístup na zahradu?"
+      },
+      "a": {
+        "en": "Yes, dogs spend substantial outdoor time in a large and well-maintained garden run.",
+        "cs": "Ano, zařízení disponuje velkou oplocenou zahradou, kde psi tráví většinu dne hrou a pohybem."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can owners receive video updates during boarding?",
+        "cs": "Posílá školka zprávy a videa z průběhu pobytu?"
+      },
+      "a": {
+        "en": "Yes, the owner regularly informs guardians by sharing video clips of their pets.",
+        "cs": "Ano, majitelka během pobytu ochotně posílá videa a zprávy o tom, jak se pejskovi daří."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 6 měsíci",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 7 měsíci",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
