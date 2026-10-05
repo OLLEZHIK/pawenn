@@ -1,0 +1,161 @@
+{
+  "slug": "altavet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ALTAVET+veterinary+hospital/data=!4m7!3m6!1s0x470b9326ae3b9635:0x8fd288e39ad92049!8m2!3d50.0857217!4d14.5110497!16s%2Fg%2F1vpfh7zs!19sChIJNZY7riaTC0cRSSDZmuOI0o8?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Empathy and professionalism of healthcare team",
+        "cs": "Empatie a vystupování zdravotníků"
+      },
+      "text": {
+        "en": "Pet owners commend the friendly, helpful, and sensitive conduct of doctors and veterinary nurses, even during late evening hours. Clients appreciate empathetic support during difficult times, though one reviewer viewed routine care as somewhat less meticulous.",
+        "cs": "Majitelé zvířat chválí příjemné, vstřícné a citlivé vystupování lékařů a sestřiček, a to i v pozdních večerních hodinách. Zákazníci oceňují lidskou podporu v těžkých chvílích, ačkoliv jeden recenzent vnímal přístup lékaře při běžném úkonu jako méně pečlivý."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Care for dogs, cats, and rabbits",
+        "cs": "Péče o psy, kočky a králíky"
+      },
+      "text": {
+        "en": "The practice provides veterinary care across a broad range of domestic pets, from small dogs to cats and rabbits. Clients express satisfaction with gum inflammation treatment, pet passport issuance, and gentle rabbit examinations with future preventive advice.",
+        "cs": "Ordinace poskytuje veterinární péči širokému spektru domácích mazlíčků, od malých psů po kočky a králíky. Klienti vyjadřují spokojenost s ošetřením zubního zánětu, vystavením pasu i citlivým vyšetřením králíka s doporučením vhodné prevence do budoucna."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Consultations and telephone accessibility",
+        "cs": "Konzultace zákroků a telefonická dostupnost"
+      },
+      "text": {
+        "en": "Most clients appreciate thorough answers to their questions and detailed explanations of clinical procedures on site. Negative feedback, however, points to a lack of vaccine consultation for a kitten and an unhelpful response during an emergency evening phone call.",
+        "cs": "Většina zákazníků oceňuje ochotné zodpovězení všech dotazů i podrobné vysvětlení léčebného postupu na klinice. Negativní ohlasy však poukazují na chybějící konzultaci alternativ při očkování kotěte a na odmítnutí pomoci při nouzovém večerním telefonátu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does ALTAVET treat patients during late evening hours?",
+        "cs": "Ošetří na klinice ALTAVET pacienty i ve večerních hodinách?"
+      },
+      "a": {
+        "en": "Yes, clients in reviews mention attentive examinations and treatments provided even after 9 PM.",
+        "cs": "Ano, klienti v recenzích zmiňují ochotné vyšetření a zaléčení zvířat i po deváté hodině večer."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic issue international pet passports?",
+        "cs": "Vystavuje klinika mezinárodní pasy pro zvířata?"
+      },
+      "a": {
+        "en": "Yes, guardians confirm seamless pet passport issuance and microchipping for travel.",
+        "cs": "Ano, chovatelé potvrzují bezproblémové vystavení cestovního pasu a aplikaci mikročipu."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are rabbits and small rodents treated at ALTAVET?",
+        "cs": "Léčí na klinice také králíky a hlodavce?"
+      },
+      "a": {
+        "en": "Yes, veterinarians thoroughly examine rabbits and provide owners with sound preventive advice.",
+        "cs": "Ano, lékaři pečlivě vyšetřují králíky a poskytují majitelům odborná doporučení k prevenci."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 4 dny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Upraveno před měsícem",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

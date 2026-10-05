@@ -1,0 +1,160 @@
+{
+  "slug": "veterinarni-klinika-na-hradku",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rn%C3%AD+klinika+Na+hr%C3%A1dku/data=!4m7!3m6!1s0x470b94f56c1345c9:0xaac4ecbccf859ccb!8m2!3d50.071707!4d14.4195386!16s%2Fg%2F1vhq2f1c!19sChIJyUUTbPWUC0cRy5yFz7zsxKo?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Experienced surgeon and sharp staff polarization",
+        "cs": "Zkušený chirurg a rozporuplné hodnocení týmu"
+      },
+      "text": {
+        "en": "Dr. Roman Skala receives glowing recommendations from longtime clients for knee ligament surgery and orthopedics. At the same time, recent reviews contain serious complaints regarding other attending veterinarians, with allegations of rough handling of exotic birds, communication breakdowns, and perceived lack of care.",
+        "cs": "Dlouholetí klienti velmi chválí doktora Romana Skalu za odborné ortopedické operace vazů a vstřícný přístup. Současně se však v hodnoceních objevují ostré stížnosti na jiné ošetřující lékaře, kde zákazníci kritizují necitlivou manipulaci s exotickými ptáky, aroganci na recepci i zanedbání péče."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Orthopedic success alongside medical grievances",
+        "cs": "Úspěšná ortopedie a výhrady k léčbě"
+      },
+      "text": {
+        "en": "Orthopedic interventions for canine joint injuries show strong outcomes with high owner satisfaction. Conversely, grave dissatisfaction is voiced by a cat guardian who reported a fatal medical complication during emergency intervention on an elderly cat, urging greater diagnostic caution.",
+        "cs": "Ortopedické operace kloubů a vazů u psů přinášejí výborné výsledky a rychlou rekonvalescenci zvířat. Na druhé straně se objevuje závažná stížnost na tragický průběh zákroku u starší kočky, kde majitelka vyčítá ošetřující lékařce chybně zvolený invazivní postup."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "High fees and cash payment preferences",
+        "cs": "Vysoké poplatky a platby v hotovosti"
+      },
+      "text": {
+        "en": "While orthopedic procedures are considered reasonably priced by satisfied clients, other visitors criticize excessive costs for brief consultations and nail trimming. Reviewers also express unease about instances where immediate cash payments were firmly prioritized over card processing.",
+        "cs": "Zatímco složitější operace vnímají spokojení klienti jako cenově dostupné, u běžných konzultací a zastřihování drápků považují někteří návštěvníci ceny za přemrštěné. Negativně je hodnocen také tlak na platbu v hotovosti namísto pohodlné platby kartou."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What treatments is Dr. Skala praised for?",
+        "cs": "Které zákroky u pana doktora Skaly klienti chválí?"
+      },
+      "a": {
+        "en": "Clients specifically praise Dr. Skala for intricate orthopedic procedures and knee ligament repairs in dogs.",
+        "cs": "Klienti výslovně oceňují ortopedické výkony, zejména náročné operace kolenních vazů u psů."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat birds and exotic pets?",
+        "cs": "Ošetřuje klinika také ptáky a exotická zvířata?"
+      },
+      "a": {
+        "en": "Clients visit with parrots and birds, although recent feedback on avian handling has been controversial.",
+        "cs": "Klienti přicházejí i s papoušky, ačkoli nedávné zkušenosti s manipulací u ptáků vzbudily výhrady."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients pay by debit or credit card?",
+        "cs": "Lze na klinice platit platební kartou?"
+      },
+      "a": {
+        "en": "Reviews suggest preparing cash, as clients report that cash payments have been specifically requested.",
+        "cs": "Doporučuje se mít s sebou hotovost, protože recenzenti zmiňují výzvy k platbě v hotovosti."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Upraveno před 2 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Upraveno před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

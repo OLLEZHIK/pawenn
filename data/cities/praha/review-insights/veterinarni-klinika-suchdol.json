@@ -1,0 +1,145 @@
+{
+  "slug": "veterinarni-klinika-suchdol",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rn%C3%AD+Klinika+Suchdol+s.r.o./data=!4m7!3m6!1s0x470beaa2dbd5a989:0x75fb46773f732de1!8m2!3d50.1361424!4d14.3811753!16s%2Fg%2F1tffn1jr!19sChIJianV26LqC0cR4S1zP3dG-3U?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly veterinary team with isolated critique",
+        "cs": "Přátelský tým lékařů a ojedinělá nespokojenost"
+      },
+      "text": {
+        "en": "Pet guardians predominantly praise the accommodating, friendly, and professional veterinary team who explain diagnostics and post-op care clearly and admit patients early. However, one review expresses dissatisfaction with a particular doctor manner.",
+        "cs": "Chovatelé zvířat převážně chválí velmi vstřícný, milý a profesionální personál ordinace, který podrobně vysvětlí plán vyšetření i pooperační péči a ochotně přijme pacienty i dříve. Jedna recenze však vyjadřuje nespokojenost s vystupováním konkrétní lékařky."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and comprehensive animal treatment",
+        "cs": "Svědomitá péče o psy, kočky i králíky"
+      },
+      "text": {
+        "en": "Reviews emphasize attentive patient care across species, including blood tests for cats, cruciate ligament surgery for dogs, and emergency fracture repair for a rabbit. Guardians appreciate gentle handling that minimizes discomfort during consultations.",
+        "cs": "Recenze vyzdvihují pečlivou starostlivost o domácí mazlíčky napříč druhy, ať už jde o diagnostické testy u koček, náročnou léčbu vazů u psů nebo ošetření fraktury u králíka. Majitelé oceňují něžné zacházení se zvířaty a minimalizaci jejich nepohodlí."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Skilled orthopaedics and complex surgeries",
+        "cs": "Úspěšná ortopedie i výhrada k přístupu"
+      },
+      "text": {
+        "en": "Clients recommend the facility as a dependable orthopaedic specialist, citing successful cruciate ligament operations in dogs and same-day fracture surgeries for rabbits. Conversely, one client voiced overall dissatisfaction with the outcome of their visit.",
+        "cs": "Klienti doporučují pracoviště jako spolehlivého specialistu na ortopedii, který úspěšně zvládl operaci zkřížených vazů fenky i akutní zákrok u králíka ještě v den úrazu. Jeden z majitelů naproti tomu uvádí celkovou nespokojenost s výsledkem návštěvy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic offer specialised orthopaedic care?",
+        "cs": "Poskytuje klinika specializovanou ortopedickou péči?"
+      },
+      "a": {
+        "en": "Yes, clients highlight orthopaedic treatments, including cruciate ligament repairs in dogs and emergency fracture procedures.",
+        "cs": "Ano, klienti v recenzích vyzdvihují ortopedické zákroky, včetně operací zkřížených vazů u psů a řešení akutních fraktur."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can consultations be conducted in English?",
+        "cs": "Je možné se na klinice domluvit anglicky?"
+      },
+      "a": {
+        "en": "Yes, foreign owners confirm the presence of English-speaking veterinary staff and smooth booking procedures.",
+        "cs": "Ano, zahraniční majitelé v recenzích potvrzují dostupnost anglicky mluvících veterinárních lékařů a snadné objednání."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the parking options at the practice?",
+        "cs": "Jaké jsou možnosti parkování u ordinace?"
+      },
+      "a": {
+        "en": "Clients note that convenient parking spaces are readily available right next to the clinic premises.",
+        "cs": "Klienti uvádějí, že bezprostředně vedle kliniky je k dispozici pohodlné parkování pro motoristy."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 5 měsíci",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
