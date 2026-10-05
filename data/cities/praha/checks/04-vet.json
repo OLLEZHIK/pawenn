@@ -1,0 +1,35 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "metropolevet-veterinarni-klinika",
+    "veterinarni-klinika-vet-pet",
+    "veterinarni-klinika-ivet",
+    "veterinarni-klinika-michle-mvdr-david-jira",
+    "veterinarni-klinika-panda",
+    "mvdr-jan-sima",
+    "veterinarni-klinika-praha-4-vethope",
+    "veterinarni-ordinace-mvdr-martin-smelhaus",
+    "veterinarni-ordinace-mvdr-michaely-riedlove",
+    "veterina-donovalska"
+  ],
+  "hash": "3847395c3e4fa41b34bf2111de6aa406b570835776d3d0c9f3df798f1b7b0a31",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T05:25:34.964Z",
+      "result": "FAIL",
+      "listed": 64
+    },
+    {
+      "at": "2026-10-05T05:35:37.334Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T05:37:01.226Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
