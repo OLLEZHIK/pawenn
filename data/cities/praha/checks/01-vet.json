@@ -1,0 +1,35 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "vetcentrum-duchek",
+    "aa-vet",
+    "veterinarni-klinika-erika",
+    "veterinarni-klinika-podebradska",
+    "vetino-jaggy-praha",
+    "veterinarni-klinika-parnik",
+    "veterinarni-klinika-nusle",
+    "h-vet",
+    "vetpoint-filip-mara",
+    "veterinarni-klinika-na-hurce"
+  ],
+  "hash": "a5b6c187645122bdcb29780624a64dc45a56dd59e48ad8700e51860b90c8574e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T07:25:27.515Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-05T07:29:36.953Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T07:31:06.419Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

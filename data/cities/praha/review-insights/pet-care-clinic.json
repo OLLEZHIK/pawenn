@@ -1,0 +1,147 @@
+{
+  "slug": "pet-care-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Care+Clinic/data=!4m7!3m6!1s0x470b94b103ec8027:0x65debdddbb07d50!8m2!3d50.1013115!4d14.4479597!16s%2Fg%2F1v75qm8k!19sChIJJ4DsA7GUC0cRUH2w293rXQY?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Professional care from doctors and nurses",
+        "cs": "Profesionální přístup lékařů a sester"
+      },
+      "text": {
+        "en": "Clients express complete satisfaction with the veterinary team, specifically highlighting Dr. Stehlík, Dr. Bulavová, and Dr. Ivo. Staff are described as remarkably kind, calm, and experienced, providing thorough post-procedure guidance for at-home recovery.",
+        "cs": "Zákazníci vyjadřují absolutní spokojenost s týmem lékařů, zejména s MVDr. Stehlíkem, MVDr. Bulavovou a doktorem Ivem. Personál je popisován jako mimořádně vstřícný, klidný a zkušený, přičemž po každém zákroku podrobně vysvětlí další domácí péči o zvíře."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle care for companion animals",
+        "cs": "Šetrná péče o domácí mazlíčky"
+      },
+      "text": {
+        "en": "Owners of dogs, cats, and rabbits regularly visit the practice, appreciating the staff's natural gentleness toward animals. Pets tolerate examinations without unnecessary fear or pain, and rabbit owners commend years of dedicated and responsible healthcare.",
+        "cs": "Na kliniku pravidelně docházejí majitelé psů, koček i králíků a oceňují přirozený respekt personálu k jejich mazlíčkům. Zvířata zvládají vyšetření bez zbytečného strachu a bolesti, a chovatelé králíčků chválí dlouhodobou a zodpovědnou péči o své ušáky."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Excellent communication and fluent English",
+        "cs": "Výborná komunikace a angličtina"
+      },
+      "text": {
+        "en": "Reviews emphasize prompt, clear, and friendly communication between the veterinary team and pet owners. International clients particularly appreciate the veterinarians' fluent English, helpful advice, and timely reminders regarding essential preventive steps.",
+        "cs": "Recenze vyzdvihují rychlou, srozumitelnou a přátelskou komunikaci celého zdravotnického týmu se všemi zákazníky. Cizojazyční klienti velmi oceňují plynnou angličtinu lékařů, ochotu poradit po telefonu a včasné připomenutí důležitých preventivních úkonů."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can international clients communicate in English at Pet Care Clinic?",
+        "cs": "Domluví se na Pet Care Clinic klienti v angličtině?"
+      },
+      "a": {
+        "en": "Yes, international owners in reviews confirm fluent and accommodating English spoken by staff.",
+        "cs": "Ano, zahraniční majitelé v recenzích potvrzují perfektní a plynulou angličtinu personálu."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Pet Care Clinic issue pet passports for traveling abroad?",
+        "cs": "Vystavuje klinika pasy pro cesty do zahraničí?"
+      },
+      "a": {
+        "en": "Yes, clients in reviews confirm smooth and fast processing of pet travel passports.",
+        "cs": "Ano, klienti v recenzích zmiňují hladké a rychlé vyřízení cestovního pasu pro mazlíčka."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic cater to rabbits and small companion animals?",
+        "cs": "Specializuje se klinika také na léčbu králíků?"
+      },
+      "a": {
+        "en": "Yes, rabbit owners in reviews consistently praise the team's veterinary expertise and gentle care.",
+        "cs": "Ano, majitelé králíků v recenzích dlouhodobě chválí vysokou odbornost a citlivý přístup lékařů."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
