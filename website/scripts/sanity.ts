@@ -42,11 +42,12 @@ const COUNTRY = {
 } as const;
 
 // Phone digits that are not a real subscriber number: all one digit, a run
-// 1234567 / 7654321, or a repeated short block (123123123).
+// 1234567 / 7654321, or a short block repeated three times (123123123;
+// two repeats are real numbers: +420 252 252 111, Medicanima, Praha).
 function fakePhone(national: string): string | null {
   if (/^(\d)\1+$/.test(national)) return "one digit repeated";
   if (/(0123456|1234567|2345678|3456789|9876543|8765432|7654321|6543210)/.test(national)) return "a digit sequence";
-  if (/^(\d{2,4})\1+\d{0,3}$/.test(national) && new Set(national).size <= 3) return "a short block repeated";
+  if (/^(\d{2,4})\1{2,}\d{0,3}$/.test(national) && new Set(national).size <= 3) return "a short block repeated";
   if (new Set(national).size <= 2) return "two digits only";
   return null;
 }
