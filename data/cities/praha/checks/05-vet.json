@@ -1,0 +1,40 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "veterinarni-klinika-medicanima",
+    "veterina-belohorska",
+    "veterinarni-klinika-suchdol",
+    "veterinarni-klinika-modrany",
+    "uno-veterinarni-klinika",
+    "nas-veterinar",
+    "veterinarni-klinika-u-andela",
+    "veterinarni-klinika-uhrineves",
+    "hanima-veterinary-clinic",
+    "mvdr-vaclav-cizek"
+  ],
+  "hash": "6b451b011224af1ad5cd21296cb74b37a8e45ae0d167d3ba7bf2a0c48094fc99",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T05:26:52.213Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-05T05:29:10.705Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-05T05:34:21.520Z",
+      "result": "FAIL",
+      "listed": 151
+    },
+    {
+      "at": "2026-10-05T05:37:38.547Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
