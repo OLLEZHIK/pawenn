@@ -1,0 +1,139 @@
+{
+  "slug": "psi-salon-zoostyle",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+salon+ZooStyle+-+st%C5%99%C3%ADh%C3%A1n%C3%AD+ps%C5%AF+Praha/data=!4m7!3m6!1s0x470b95779c8d52bf:0x8e5096ba5e255ce0!8m2!3d50.0703083!4d14.4477322!16s%2Fg%2F11qp2s_xdd!19sChIJv1KNnHeVC0cR4FwlXrqWUI4?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "cs": "Trpělivý a empatický přístup kadeřnice",
+        "en": "Patient and empathetic groomer approach"
+      },
+      "text": {
+        "cs": "Všechny recenze za uplynulý půlrok jednohlasně vyzdvihují trpělivost, laskavost a профессионализм paní Julie. Klienti zdůrazňují její obětavý přístup k vyděšeným a starším psům z útulku, ochotu přizpůsobit tempo práce a bezproblémové domlouvání detailů i přes případnou jazykovou bariéru.",
+        "en": "All reviews over the past six months unanimously praise the patience, kindness, and professionalism of groomer Julia. Clients emphasize her considerate handling of frightened senior rescue dogs, her willingness to adjust the working pace, and smooth coordination despite any language differences."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Šetrná péče o bázlivé a staré psy",
+        "en": "Gentle care for nervous and senior dogs"
+      },
+      "text": {
+        "cs": "Chovatelé oceňují citlivé a klidné zacházení přizpůsobené reakcím konkrétního zvířete. Paní kadeřnice pracuje tak, aby psy nestresovala, což je klíčové zejména pro adoptované či úzkostlivé mazlíčky. Zvířata se v salonu cítí bezpečně a majitelé mohou průběh úpravy osobně sledovat.",
+        "en": "Owners appreciate sensitive, calm handling adapted to each dog's emotional state. The groomer works carefully to avoid causing stress, which is essential for rescued or anxious pets. Dogs feel safe in the salon environment, and owners are welcome to stay and observe the grooming process."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Perfektní vyčesání a upravená srst",
+        "en": "Careful coat brushing and neat styling"
+      },
+      "text": {
+        "cs": "Majitelé psů jsou velmi spokojeni s odvedenou prací při úpravě srsti, důkladném vyčesání a celkovém výsledku stříhání. Pejsci odcházejí krásně upravení, čistí a voňaví. I v případech, kdy starého či traumatizovaného psa nelze kompletně ostříhat, zvládá salon bezpečnou a šetrnou údržbu.",
+        "en": "Dog owners express high satisfaction with the grooming work, thorough brushing, and final coat appearance. Pets leave the salon looking neat, clean, and smelling fresh. Even when senior or traumatized dogs cannot be fully clipped, the salon provides safe, gentle de-shedding and maintenance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Přijímá salon i bázlivé nebo starší psy z útulku?",
+        "en": "Does the salon accept timid or senior rescue dogs?"
+      },
+      "a": {
+        "cs": "Ano, klienti v recenzích chválí mimořádnou trpělivost a citlivou péči o staré i traumatizované psy.",
+        "en": "Yes, clients in reviews praise exceptional patience and sensitive care for older and traumatized dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Jakým způsobem probíhá komunikace a objednání?",
+        "en": "How can clients communicate and schedule visits?"
+      },
+      "a": {
+        "cs": "Zákazníci uvádějí snadnou a rychlou domluvu termínů prostřednictvím SMS zpráv a e-mailu.",
+        "en": "Customers report easy and prompt communication via SMS messages and email."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "cs": "Může majitel zůstat se psem během úpravy?",
+        "en": "Can owners stay with their dog during the appointment?"
+      },
+      "a": {
+        "cs": "Ano, majitelé v recenzích potvrzují možnost být u psa a sledovat jeho reakce během česání.",
+        "en": "Yes, pet owners in reviews confirm the option to remain present and watch their dog during care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

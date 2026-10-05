@@ -1,0 +1,146 @@
+{
+  "slug": "psi-salon-champion",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ps%C3%AD+salon+CHAMPION/data=!4m7!3m6!1s0x470b927b301da777:0x6c1398edb840f2c1!8m2!3d50.0478111!4d14.542532!16s%2Fg%2F11b6j9cf8h!19sChIJd6cdMHuSC0cRwfJAuO2YE2w?hl=cs",
+  "period_from": "2024-10-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Professional skills and groomer demeanor",
+        "cs": "Zručnost kadeřnice a přístup k zákazníkům"
+      },
+      "text": {
+        "en": "The majority of clients speak highly of the owner Petra, praising her quick hand, flexibility to accommodate urgent requests, and overall helpfulness. Aside from a single critical review pointing out perceived brusqueness, reviewers describe her as skilled and polite.",
+        "cs": "Většina zákazníků si velmi pochvaluje majitelku Petru, vyzdvihuje její zručnost, rychlost při práci i ochotu pomoci v akutní situaci. Ačkoliv se v hodnoceních objevil jeden negativní hlas kritizující komunikaci, převládají zkušenosti s milou a šikovnou kadeřnicí."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Haircut precision and nail clipping",
+        "cs": "Kvalita sestřihu a úprava drápků"
+      },
+      "text": {
+        "en": "Visitors consistently express satisfaction with breed styling, coat trims, and gentle nail clipping. Reviewers also highlight successful hand-stripping of wire-haired dogs like Irish Terriers, noting that dogs leave the salon looking neat and properly groomed.",
+        "cs": "Klienti vyjadřují spokojenost s celkovým sestřihem psů, zkracováním srsti i bezproblémovým stříháním drápků. Kladné ohlasy zmiňují také precizní trimování hrubosrstých plemen, jako je irský teriér, přičemž zvířata odcházejí ze salonu upravená a s čistým střihem."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling of visiting dogs",
+        "cs": "Šetrné zacházení se psími zákazníky"
+      },
+      "text": {
+        "en": "Pet guardians appreciate that the groomer treats dogs with care, helps relieve them from heavy coats during summer heat, and keeps them comfortable. Customers note that their dogs were happy in her presence and showed no distress during routine grooming procedures.",
+        "cs": "Chovatelé oceňují klidné a citlivé zacházení se psy, které jim pomáhá zvládnout zkrácení husté srsti zejména v letních vedrech. Recenze uvádějí, že fenky i psi reagovali na kadeřnici přátelsky a procedury proběhly bez zbytečného neklidu a stresu pro zvíře."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is nail clipping included in the grooming service?",
+        "cs": "Je stříhání drápků součástí úpravy srsti?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that nail clipping is routinely provided alongside haircuts.",
+        "cs": "Ano, klienti v recenzích potvrzují, že stříhání drápků probíhá běžně v rámci úpravy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the groomer perform wire-haired coat stripping?",
+        "cs": "Provádí salon trimování hrubosrstých psů?"
+      },
+      "a": {
+        "en": "Yes, positive feedback highlights quality stripping for breeds such as Irish Terriers.",
+        "cs": "Ano, recenze výslovně chválí kvalitní trimování hrubosrstých plemen, jako je irský teriér."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners stay inside the salon during grooming?",
+        "cs": "Mohou majitelé zůstat se psem během stříhání?"
+      },
+      "a": {
+        "en": "One reviewer noted that owners typically do not remain present in the grooming area during the procedure.",
+        "cs": "Jedna z recenzí zmiňuje, že přítomnost majitele u stolu během procedury salon standardně neumožňuje."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před rokem",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
