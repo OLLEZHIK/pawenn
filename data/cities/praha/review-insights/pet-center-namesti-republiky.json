@@ -1,0 +1,160 @@
+{
+  "slug": "pet-center-namesti-republiky",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Center/@50.0875,14.4213,12z/data=!4m6!3m5!1s0x470b94ea966e6b75:0xbf9c6f6c004cb437!8m2!3d50.0891861!4d14.4287219!16s%2Fg%2F11h07pl14h?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "cs": "Poloha v centru a omezený vstup",
+        "en": "Central mall location and access limits"
+      },
+      "text": {
+        "cs": "Prodejna těží z výborné dostupnosti přímo v nákupním centru Palladium na náměstí Republiky. Návštěvníci však narážejí na zákaz vstupu se psy do prostor obchodního domu, což komplikuje nákup potřeb přímo se zvířetem. Část zákazníků v recenzích také kritizuje podmínky vystavování živých zvířat v klecích.",
+        "en": "The store benefits from high accessibility within the Palladium shopping center on Náměstí Republiky. However, visitors face mall regulations prohibiting entry with dogs, complicating shopping alongside their pets. Several reviewers also raise ethical concerns regarding live animal housing conditions inside the shop."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Ochotný personál a odborné poradenství",
+        "en": "Helpful store assistants and expert advice"
+      },
+      "text": {
+        "cs": "Zákazníci chválí vstřícné a milé vystupování prodavaček na této pobočce. Personál ochotně pomáhá s výběrem vhodného krmiva, doporučuje alternativy dietních produktů a aktivně se věnuje nakupujícím. Návštěvníci vyjadřují spokojenost s rychlou obsluhou a přátelskou atmosférou při nákupu krmiv i doplňků.",
+        "en": "Customers frequently praise the sales clerks for their courteous, friendly, and helpful demeanor. Store staff assist shoppers with selecting appropriate pet food diets, recommend nutritional alternatives, and answer product questions. Visitors report fast service and a welcoming attitude from floor assistants."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "cs": "Bohatý sortiment krmiv a slabší doplňky",
+        "en": "Broad food selection with accessory gaps"
+      },
+      "text": {
+        "cs": "V nabídce chovatelé nacházejí široký výběr granulí, konzerv i pamlsků pro psy a kočky včetně dietních receptur. Současně se však objevují zkušenosti s omezenou nabídkou specifického zboží, například pláštěnek pro psy nebo steliv pro kočky. Celkovou spokojenost s nákupem krmiv tak doplňují výhrady k šíři výbavy.",
+        "en": "Pet guardians find a varied selection of dry kibble, wet food, and cat and dog treats, including specialized dietary recipes. Nevertheless, some shoppers encounter stock gaps for specific accessories, such as dog raincoats or particular cat litters. Overall product satisfaction is tempered by niche equipment limits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Lze do prodejny přijít přímo se psem?",
+        "en": "Can pet owners enter the shop with their dog?"
+      },
+      "a": {
+        "cs": "Vstup se psy je problematický kvůli obecnému zákazu vstupu se zvířaty do nákupního centra Palladium.",
+        "en": "Visiting with a dog is restricted by general building regulations prohibiting pets inside the Palladium shopping center."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Nabízí pobočka poradenství při výběru krmiva?",
+        "en": "Does store staff assist with pet food recommendations?"
+      },
+      "a": {
+        "cs": "Ano, personál prodejny ochotně radí s volbou krmiv pro kočky i psy a hledá vhodné alternativy.",
+        "en": "Yes, sales clerks readily guide customers in choosing diets and finding suitable nutritional options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Kde přesně se prodejna nachází?",
+        "en": "Where is the branch located?"
+      },
+      "a": {
+        "cs": "Prodejna sídlí v obchodním centru Palladium na náměstí Republiky v centru Prahy.",
+        "en": "The branch is situated inside the Palladium shopping mall at Náměstí Republiky in central Prague."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
