@@ -35,7 +35,7 @@
 3. **Данные города в `main` — только целым городом** (`city/<город>`), кусками в `main` не идёт.
 4. **PR агентов в `city/*` не трогаю ни я, ни владелец**: их ведёт диспетчер.
 5. **Критическая инфраструктура** (Vercel, секреты, база, новые аккаунты агентов) — только по слову владельца в чате.
-6. **Кнопка мержа.** У PR с коммитами Claude правило ветки `main` требует «дополнительное одобрение» (`require_extra_approval_for_unattributed_changes`), поэтому владельцу нужно выбрать «Bypass rules and merge». Если это мешает — можно выключить этот пункт в ruleset (настройки GitHub, решение владельца): тогда кнопка станет обычной.
+6. **Кнопка мержа.** В `main` могут вливать только участники из bypass list ruleset «bot» (сейчас — Repository admin, то есть владелец): правило «Restrict updates» (предупреждение «Cannot update this protected ref»). Поэтому владельцу нужно нажать «Bypass rules and merge». Пункт «additional approval for unattributed Copilot pull requests» к этому не относится (он про Copilot и работает только при ненулевом числе одобрений). Чтобы мержила сессия Claude, ей нужно разрешение в `.claude/settings.json` (правила `Bash(gh api repos/OLLEZHIK/pawenn/pulls/*/merge*)` и `Bash(gh api repos/OLLEZHIK/pawenn/pulls -X POST*)`); крупные мержи с кодом сайта всё равно только по слову владельца.
 
 ## Как смержить PR владельцу (30 секунд)
 
