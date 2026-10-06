@@ -40,6 +40,7 @@ const COUNTRY = {
   SK: { dial: "421", national: /^[2-9]\d{8}$/, postal: /\b\d{3} ?\d{2}\b/ },
   CZ: { dial: "420", national: /^[2-9]\d{8}$/, postal: /\b\d{3} ?\d{2}\b/ },
   AT: { dial: "43", national: /^[1-9]\d{3,12}$/, postal: /\b\d{4}\b/ },
+  DE: { dial: "49", national: /^[1-9]\d{5,13}$/, postal: /\b\d{5}\b/ },
 } as const;
 
 // Phone digits that are not a real subscriber number: all one digit, a run
@@ -126,6 +127,7 @@ for (const city of cities) {
           else national = national.slice(country.dial.length);
         } else if (national.startsWith("00" + country.dial)) national = national.slice(2 + country.dial.length);
         else if (national.startsWith("0")) national = national.slice(1);
+        if (digits.startsWith("+" + country.dial) && national.startsWith("0")) f(slug, `phone "${phone}" has a trunk 0 after +${country.dial} (write +${country.dial} ${national.slice(1)}, not +${country.dial} 0…)`);
         if (!country.national.test(national) && national.length !== 0 && (digits.startsWith("+" + country.dial) || !digits.startsWith("+")))
           f(slug, `phone "${phone}" is not a ${meta.country} number (needs ${country.dial} + 9 digits)`);
         const fake = fakePhone(national);
