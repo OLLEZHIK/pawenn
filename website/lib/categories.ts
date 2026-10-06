@@ -97,6 +97,14 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "zverimex",
     PET_SITTING: "hlidani-zvirat",
   },
+  de: {
+    GROOMING: "hundesalon",
+    VET_CLINIC: "tierarzt",
+    PET_HOTEL: "tierpension",
+    DOG_TRAINING: "hundeschule",
+    PET_SHOP: "tierhandlung",
+    PET_SITTING: "tierbetreuung",
+  },
 };
 
 const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -125,6 +133,14 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Zverimexy",
     PET_SITTING: "Hlídání zvířat",
   },
+  de: {
+    GROOMING: "Hundesalons",
+    VET_CLINIC: "Tierärzte",
+    PET_HOTEL: "Tierpensionen",
+    DOG_TRAINING: "Hundeschulen",
+    PET_SHOP: "Tierhandlungen",
+    PET_SITTING: "Tierbetreuung",
+  },
 };
 
 const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
@@ -152,6 +168,14 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "výcvik psa",
     PET_SHOP: "zverimex",
     PET_SITTING: "hlídání zvířat",
+  },
+  de: {
+    GROOMING: "Hundesalon",
+    VET_CLINIC: "Tierarzt",
+    PET_HOTEL: "Tierpension",
+    DOG_TRAINING: "Hundeschule",
+    PET_SHOP: "Tierhandlung",
+    PET_SITTING: "Tierbetreuung",
   },
 };
 
@@ -190,6 +214,14 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "školy a trenéři psů",
     PET_SHOP: "zverimexy",
     PET_SITTING: "hlídači zvířat",
+  },
+  de: {
+    GROOMING: "Hundesalons",
+    VET_CLINIC: "Tierärzte und Tierkliniken",
+    PET_HOTEL: "Tierpensionen",
+    DOG_TRAINING: "Hundeschulen und Hundetrainer",
+    PET_SHOP: "Tierhandlungen",
+    PET_SITTING: "Tierbetreuer",
   },
 };
 
@@ -231,6 +263,14 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Zverimex a chovatelské potřeby",
     PET_SITTING: "Hlídání a venčení psů",
   },
+  de: {
+    GROOMING: "Hundesalon & Hundefriseur",
+    VET_CLINIC: "Tierarzt & Tierklinik",
+    PET_HOTEL: "Hundepension & Tierpension",
+    DOG_TRAINING: "Hundeschule & Hundetraining",
+    PET_SHOP: "Tierhandlung & Tierbedarf",
+    PET_SITTING: "Hundebetreuung & Hundesitter",
+  },
 };
 
 // Price overview (/<category>/<city>/prices) name: the main "prices"
@@ -270,6 +310,14 @@ const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Zverimex",
     PET_SITTING: "Hlídání a venčení psa",
   },
+  de: {
+    GROOMING: "Hund scheren",
+    VET_CLINIC: "Tierarzt",
+    PET_HOTEL: "Hundepension",
+    DOG_TRAINING: "Hundeschule",
+    PET_SHOP: "Tierhandlung",
+    PET_SITTING: "Hundebetreuung",
+  },
 };
 
 const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -304,6 +352,14 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Kurzy pro štěňata, poslušnost a chování",
     PET_SHOP: "Krmivo, hračky a potřeby na každý den",
     PET_SITTING: "Venčení, návštěvy a péče doma",
+  },
+  de: {
+    GROOMING: "Baden, Scheren, Trimmen und Krallenpflege",
+    VET_CLINIC: "Untersuchung, Impfung und Notdienst",
+    PET_HOTEL: "Sicherer Aufenthalt, während Sie unterwegs sind",
+    DOG_TRAINING: "Welpenkurse, Gehorsam und Verhalten",
+    PET_SHOP: "Futter, Spielzeug und Alltagsbedarf",
+    PET_SITTING: "Gassigehen, Besuche und Betreuung zu Hause",
   },
 };
 
@@ -369,6 +425,14 @@ const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: 
     PET_SHOP: { term: "zverimex", word: /^zverimex/ },
     PET_SITTING: { term: "hlídání psů", word: /^(hlidani|venceni)/ },
   },
+  de: {
+    VET_CLINIC: { term: "Tierarzt", word: /^(tierarzt|tierklinik|tieraerzt)/ },
+    GROOMING: { term: "Hundesalon", word: /^(hundesalon|hundefriseur|groom)/ },
+    PET_HOTEL: { term: "Tierpension", word: /^(tierpension|hundepension|katzenpension|hotel)/ },
+    DOG_TRAINING: { term: "Hundeschule", word: /^(hundeschule|hundetrain|welpen)/ },
+    PET_SHOP: { term: "Tierhandlung", word: /^(tierhandlung|zoo|tierbedarf)/ },
+    PET_SITTING: { term: "Hundebetreuung", word: /^(hundebetreuung|hundesitter|tierbetreuung|tiersitter)/ },
+  },
 };
 
 const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -400,7 +464,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -424,7 +488,7 @@ export function categoryHubPath(locale: Locale, category: BusinessCategory): str
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;
