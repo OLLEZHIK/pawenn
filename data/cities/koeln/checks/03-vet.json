@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "tieraerzte-koeln-behlert",
+    "kleintierpraxis-morlak",
+    "tierarztpraxis-busch-vogelsang",
+    "dr-nahrgang-koeln",
+    "tierarztpraxis-graumann",
+    "tierarztpraxis-balg",
+    "kleintierpraxis-wilms",
+    "dr-von-prittwitz-koeln",
+    "tierarztpraxis-dr-wahle",
+    "dr-mollidor-koeln"
+  ],
+  "hash": "7108f2f1c934ec10ae288bfe56d69bfe14a31c39aa195e1c0881b7d8b38e034a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T14:12:15.818Z",
+      "result": "FAIL",
+      "listed": 63
+    },
+    {
+      "at": "2026-10-06T15:50:06.002Z",
+      "result": "FAIL",
+      "listed": 34
+    },
+    {
+      "at": "2026-10-06T16:12:33.085Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T16:13:15.276Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
