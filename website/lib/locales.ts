@@ -33,6 +33,7 @@ export const COUNTRY_LANGUAGE: Record<string, Locale[]> = {
   PL: ["pl"],
   CZ: ["cs"],
   AT: ["de"],
+  DE: ["de"],
 };
 
 /**
