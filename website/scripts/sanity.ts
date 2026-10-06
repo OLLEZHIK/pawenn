@@ -127,6 +127,7 @@ for (const city of cities) {
           else national = national.slice(country.dial.length);
         } else if (national.startsWith("00" + country.dial)) national = national.slice(2 + country.dial.length);
         else if (national.startsWith("0")) national = national.slice(1);
+        if (digits.startsWith("+" + country.dial) && national.startsWith("0")) f(slug, `phone "${phone}" has a trunk 0 after +${country.dial} (write +${country.dial} ${national.slice(1)}, not +${country.dial} 0…)`);
         if (!country.national.test(national) && national.length !== 0 && (digits.startsWith("+" + country.dial) || !digits.startsWith("+")))
           f(slug, `phone "${phone}" is not a ${meta.country} number (needs ${country.dial} + 9 digits)`);
         const fake = fakePhone(national);
