@@ -1,5 +1,6 @@
 import type { BusinessCategory } from "@prisma/client";
 import { CATEGORY_THEME } from "@/lib/categories";
+import { LIGHT_LOGOS } from "@/lib/lightLogos";
 import { CategoryIcon } from "./CategoryIcon";
 
 // Generic words that make poor initials ("Psí salón X" -> "X").
@@ -39,7 +40,7 @@ export function BusinessAvatar({
     <div
       aria-hidden="true"
       className={`relative flex items-center justify-center rounded-2xl font-heading font-extrabold ${
-        logoUrl ? "bg-white ring-1 ring-line" : ""
+        logoUrl ? `${LIGHT_LOGOS.has(logoUrl) ? "bg-[#2b3038]" : "bg-white"} ring-1 ring-line` : ""
       } ${className ?? ""}`}
       style={
         logoUrl
