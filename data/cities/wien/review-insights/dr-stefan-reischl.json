@@ -1,0 +1,157 @@
+{
+  "slug": "dr-stefan-reischl",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.+Stefan+Reischl/@48.2279885,16.3391766,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07d6d651f475:0x239e5f47ffc05170!8m2!3d48.2279885!4d16.3391766!16s%2Fg%2F1tfbgjly?authuser=0&hl=de",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Empathischer Tierarzt mit langjähriger Erfahrung",
+        "en": "Empathetic veterinarian with lasting trust"
+      },
+      "text": {
+        "de": "Dr. Reischl und seine Assistentin werden von Kundinnen für ihre warmherzige und fachlich fundierte Art geschätzt. Stammkunden vertrauen der Praxis teils seit über einem Jahrzehnt und heben hervor, dass das Wohl des Patienten spürbar im Mittelpunkt steht.",
+        "en": "Dr. Reischl and his veterinary assistant receive warm praise for their kind and knowledgeable demeanour. Long-term clients have trusted the practice for over a decade, emphasizing that animal well-being is genuinely placed ahead of commercial motives."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Rasche Termine und kurzfristige Erreichbarkeit",
+        "en": "Prompt appointments and flexible access"
+      },
+      "text": {
+        "de": "Die Terminvergabe verläuft nach Kundenaussagen unkompliziert und zügig. Selbst bei dringendem Bedarf ohne vorherige Anmeldung wurden Tierhalter in der Praxis freundlich aufgenommen und zeitnah betreut, wodurch akute Sorgen und Fragen rasch abgeklärt werden konnten.",
+        "en": "Scheduling appointments is described by pet owners as straightforward and prompt. Even in urgent circumstances without advance notice, visitors were accommodated warmly at the practice and received timely care, allowing immediate health concerns to be addressed quickly."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Behutsamer Umgang mit Welpen und Kätzchen",
+        "en": "Gentle approach to young and sensitive pets"
+      },
+      "text": {
+        "de": "Bei Erstuntersuchungen und Impfungen von Jungtieren gehen der Tierarzt und seine Assistentin besonders rücksichtsvoll vor. Besitzerinnen von Welpen und Kätzchen berichten von einer entspannten Atmosphäre, die anfängliche Nervosität bei Tier und Mensch spürbar mindert.",
+        "en": "During initial vaccinations and health checks of young animals, the veterinarian and his assistant act with notable tenderness. Owners of puppies and kittens report a calm atmosphere that alleviates stress for both animals and guardians from the start."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Sind bei Dr. Reischl kurzfristige Termine möglich?",
+        "en": "Are short-notice appointments available with Dr. Reischl?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten, dass die Praxis auch kurzfristig erreichbar ist und bei dringenden Fällen zügig hilft.",
+        "en": "Yes, clients report that the clinic is reachable on short notice and provides prompt assistance in urgent situations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden in der Praxis Erstimpfungen für Jungtiere durchgeführt?",
+        "en": "Does the clinic carry out initial vaccinations for young pets?"
+      },
+      "a": {
+        "de": "Ja, Welpen und junge Kätzchen werden routinemäßig untersucht und mit den empfohlenen Schutzimpfungen versorgt.",
+        "en": "Yes, puppies and young kittens routinely receive pediatric examinations and recommended protective vaccinations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden Behandlungen in der Praxis auf Deutsch durchgeführt?",
+        "en": "Are consultations conducted in German?"
+      },
+      "a": {
+        "de": "Ja, Konsultationen und Aufklärungsgespräche finden auf Deutsch statt und werden von Klienten als sehr verständlich gelobt.",
+        "en": "Yes, consultations and explanations are conducted in German and are praised by clients for exceptional clarity."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Bearbeitet: vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
