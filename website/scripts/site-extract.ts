@@ -127,6 +127,22 @@ function quotes(text: string, re: RegExp, max: number): string[] {
   return out;
 }
 
+type Quote = { quote: string; url: string };
+
+/** Quotes from several pages, each with the page it stands on (evidence needs source_url). */
+function quotesFrom(pages: { url: string; text: string }[], re: RegExp, max: number): Quote[] {
+  const out: Quote[] = [];
+  for (const pg of pages) {
+    for (const quote of quotes(pg.text, re, max)) {
+      if (!out.some((o) => o.quote === quote)) out.push({ quote, url: pg.url });
+      if (out.length >= max) return out;
+    }
+  }
+  return out;
+}
+
+const digits = (v: string) => v.replace(/\D/g, "");
+
 function jsonLd(html: string): unknown[] {
   const out: unknown[] = [];
   for (const m of html.matchAll(/<script[^>]+type\s*=\s*["']?application\/ld\+json["']?[^>]*>([\s\S]*?)<\/script>/gi)) {
@@ -213,6 +229,14 @@ function subpages(base: string, links: { href: string | null; label: string }[])
 
 type Result = Record<string, unknown>;
 
+function phoneCheck(csvPhone: string, tels: string[], text: string): string {
+  const want = digits(csvPhone);
+  if (want.length < 6) return "no-phone-in-csv";
+  const tail = want.slice(-8);
+  const onSite = [...tels.map(digits), digits(text)].some((d) => d.includes(tail));
+  return onSite ? "on-site" : "not-found";
+}
+
 async function extract(row: Row): Promise<Result> {
   const site = (row.website ?? "").trim();
   const base: Result = { name: row.name, website: site, fetched_at: new Date().toISOString().slice(0, 10) };
@@ -242,13 +266,15 @@ async function extract(row: Row): Promise<Result> {
     social: [...new Set(pages.flatMap((x) => x.social))],
     logo_candidates: [...new Set(pages.flatMap((x) => x.logoCandidates))].slice(0, 10),
     price_page: pages.find((x) => (x as { kind?: string }).kind === "price")?.url ?? null,
-    // each string below is a verbatim line of a page: usable as an evidence quote
+    // phone from candidates.csv against the site (verify-city does the same later)
+    phone_check: phoneCheck(row.phone ?? "", pages.flatMap((x) => x.tel), allText),
+    // each quote is a verbatim line of the page named in its url: usable in evidence*.csv
     quotes: {
-      hours: quotes(allText, KEYWORDS.hours, 6),
-      emergency: quotes(allText, KEYWORDS.emergency, 4),
-      languages: quotes(allText, KEYWORDS.languages, 4),
-      home_visits: quotes(allText, KEYWORDS.homeVisit, 2),
-      prices: quotes(priceText || allText, KEYWORDS.price, 12),
+      hours: quotesFrom(pages, KEYWORDS.hours, 6),
+      emergency: quotesFrom(pages, KEYWORDS.emergency, 4),
+      languages: quotesFrom(pages, KEYWORDS.languages, 4),
+      home_visits: quotesFrom(pages, KEYWORDS.homeVisit, 2),
+      prices: quotesFrom(priceText ? pages.filter((x) => (x as { kind?: string }).kind === "price") : pages, KEYWORDS.price, 12),
     },
     home_text: p.text.slice(0, 3500),
     price_text: priceText.slice(0, 6000) || null,
@@ -273,7 +299,7 @@ async function main() {
   const args = process.argv.slice(2);
   const city = args.find((a) => !a.startsWith("--"));
   if (!city) {
-    console.error("usage: npm run site-extract -- <city> [--csv=path] [--only=slug,slug] [--limit=N]");
+    console.error("usage: npm run site-extract -- <city> [--csv=path] [--only=slug,slug] [--limit=N] [--refresh]");
     process.exit(2);
   }
   const opt = (k: string) => (args.find((a) => a.startsWith(`--${k}=`)) ?? "").slice(k.length + 3);
@@ -281,6 +307,7 @@ async function main() {
   const csv = opt("csv") || path.join(dir, "candidates.csv");
   const only = opt("only") ? new Set(opt("only").split(",")) : null;
   const limit = Number(opt("limit")) || Infinity;
+  const refresh = args.includes("--refresh");
   let rows = (Papa.parse<Row>(fs.readFileSync(csv, "utf8"), { header: true, skipEmptyLines: true }).data as Row[]).filter((r) => r.name);
   if (only) rows = rows.filter((r) => only.has(slugify(r.name)));
   rows = rows.slice(0, limit);
@@ -289,21 +316,57 @@ async function main() {
 
   const t0 = Date.now();
   const results = await pool(rows, 3, async (r, i) => {
+    const file = path.join(out, `${slugify(r.name)}.json`);
+    // a place read well before is not opened again (--refresh forces it); failures are retried
+    if (!refresh && fs.existsSync(file)) {
+      const old = JSON.parse(fs.readFileSync(file, "utf8")) as Result;
+      if (old.status === "ok" || old.status === "thin" || old.status === "no-site" || old.status === "social-or-maps") {
+        process.stderr.write(`\r${i + 1}/${rows.length}`);
+        return old;
+      }
+    }
     const res = await extract(r);
-    fs.writeFileSync(path.join(out, `${slugify(r.name)}.json`), JSON.stringify(res, null, 1) + "\n");
+    fs.writeFileSync(file, JSON.stringify(res, null, 1) + "\n");
     process.stderr.write(`\r${i + 1}/${rows.length}`);
     return res;
   });
   process.stderr.write("\n");
+
+  // _summary.json: one line per place - what the agent still has to open by hand
+  const summary = rows.map((r, i) => ({
+    slug: slugify(r.name),
+    status: results[i].status,
+    why: results[i].note ?? null,
+    website: r.website || null,
+    phone_check: results[i].phone_check ?? null,
+  }));
+  fs.writeFileSync(path.join(out, "_summary.json"), JSON.stringify(summary, null, 1) + "\n");
+
+  // evidence-suggestions.csv: unambiguous fields only (hours, emergency note, home visits).
+  // languages / facts / price need a code the agent decides; the agent copies a row
+  // into evidence*.csv only after reading the line in its context.
+  const today = new Date().toISOString().slice(0, 10);
+  const ev: string[][] = [["business_slug", "field", "quote", "source_url", "observed_at"]];
+  rows.forEach((r, i) => {
+    const q = results[i].quotes as Record<string, Quote[]> | undefined;
+    if (!q) return;
+    const add = (field: string, list: Quote[], n: number) => list.slice(0, n).forEach((x) => ev.push([slugify(r.name), field, x.quote, x.url, today]));
+    add("opening_hours", q.hours, 1);
+    add("emergency_note", q.emergency, 1);
+    add("home_visits", q.home_visits, 1);
+  });
+  fs.writeFileSync(path.join(out, "evidence-suggestions.csv"), Papa.unparse(ev) + "\n");
 
   const count = (s: string) => results.filter((r) => r.status === s).length;
   const have = (f: (r: Result) => boolean) => results.filter((r) => r.status === "ok" || r.status === "thin").filter(f).length;
   const read = count("ok") + count("thin");
   console.log(`site-extract ${city}: ${rows.length} places in ${Math.round((Date.now() - t0) / 1000)} s -> ${path.relative(process.cwd(), out)}`);
   console.log(`  read ok ${count("ok")}, thin (JS) ${count("thin")}, unreadable ${count("unreadable")}, social/Maps ${count("social-or-maps")}, no site ${count("no-site")}`);
-  const q = (k: string) => have((r) => ((r.quotes as Record<string, string[]>)?.[k]?.length ?? 0) > 0);
+  const q = (k: string) => have((r) => ((r.quotes as Record<string, Quote[]>)?.[k]?.length ?? 0) > 0);
   console.log(`  of ${read} read: phone on site ${have((r) => (r.phones_on_site as string[]).length > 0)}, JSON-LD ${have((r) => !!r.structured)}, social links ${have((r) => (r.social as string[]).length > 0)}, logo candidates ${have((r) => (r.logo_candidates as string[]).length > 0)}, price page ${have((r) => !!r.price_page)}`);
+  console.log(`  phone from candidates.csv: on site ${have((r) => r.phone_check === "on-site")}, NOT found ${have((r) => r.phone_check === "not-found")}`);
   console.log(`  quotes found: hours ${q("hours")}, emergency ${q("emergency")}, languages ${q("languages")}, prices ${q("prices")}`);
+  console.log(`  files: ${path.relative(process.cwd(), out)}/{_summary.json, evidence-suggestions.csv, <slug>.json}`);
 }
 
 main();
