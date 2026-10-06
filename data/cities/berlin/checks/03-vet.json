@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "valera-tierklinik-berlin",
+    "rex-tierarztpraxis-berlin-neukoelln",
+    "tierarzt-stolle-malorny-voester-berlin-wilmersdorf",
+    "rex-tierarztpraxis-berlin-friedrichshain",
+    "tierarztpraxis-am-westend",
+    "tierarzt-kutzner",
+    "tierarztpraxis-kaulsdorf",
+    "rex-tierarztpraxis-berlin-schoeneberg",
+    "tierarzt-mattke",
+    "kleintierzentrum-hermsdorf"
+  ],
+  "hash": "0f6072d0f32923acb60c6296b14e499217ec0b6369ee95fa4b4065553d536d0c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T14:08:09.362Z",
+      "result": "FAIL",
+      "listed": 71
+    },
+    {
+      "at": "2026-10-06T14:11:02.388Z",
+      "result": "FAIL",
+      "listed": 71
+    },
+    {
+      "at": "2026-10-06T14:29:39.071Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T14:31:06.588Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
