@@ -1,0 +1,134 @@
+{
+  "slug": "tierarztzentrum-essling",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztzentrum+E%C3%9Fling/@48.2131564,16.5265389,17z/data=!3m1!4b1!4m6!3m5!1s0x476d01ca232e85b1:0x10979197f951f8ef!8m2!3d48.2131564!4d16.5265389!16s%2Fg%2F1tdr6_1x?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Nettes Ärzte- und Pflegepersonal mit Kritikpunkt",
+        "en": "Kind medical and nursing staff"
+      },
+      "text": {
+        "de": "Viele Patientenbesitzer in Wien-Donaustadt schätzen die Ärzte und das Pflegepersonal als äußerst freundlich und engagiert. Langjährige Kunden betonen die Leidenschaft, mit der die Tiere betreut werden. Demgegenüber steht eine Beschwerde über eine fatale Fehldiagnose bei einem schwerkranken Hund mit Kehlkopftumor.",
+        "en": "Many pet guardians in Vienna's Donaustadt describe the veterinarians and nursing staff as extremely friendly and committed. Longtime clients emphasize the genuine dedication shown to their animals. Conversely, a serious complaint criticized a fatal misdiagnosis involving a severely ill dog suffering from a laryngeal tumor."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Fürsorgliche Betreuung von Hund und Katze",
+        "en": "Attentive care for dogs and cats"
+      },
+      "text": {
+        "de": "Halter betonen die sorgfältige Untersuchung und Behandlung von Katzen, Welpen und Hunden. In erfolgreichen Fällen konnte selbst schwer erkrankten Kätzchen das Leben gerettet werden, und junge Welpen werden behutsam an Impfungen herangeführt. Das Wohl der tierischen Patienten steht bei Routinevisiten stets im Vordergrund.",
+        "en": "Owners highlight the careful examination and treatment of cats, puppies, and adult dogs. In successful cases, life-saving interventions rescued sick kittens, while young puppies experienced calm, gentle vaccinations. The health and comfort of animal companions remain central throughout routine clinical consultations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Lebensrettende Behandlung neben ernster Fehldiagnose",
+        "en": "Life-saving care alongside serious misdiagnosis"
+      },
+      "text": {
+        "de": "Die Erfahrungen mit den Behandlungsergebnissen sind geteilt. Während Stammkunden von erfolgreichen Lebensrettungen bei Jungtieren und reibungslosen Routineimpfungen berichten, schildert ein Halter eine folgenschwere Verwechslung eines Tumors mit einer einfachen Angina, die tragisch für das Tier endete.",
+        "en": "Experiences with treatment outcomes are divided. While longtime clients report successful life-saving care for young animals and smooth routine vaccinations, one owner described a tragic misdiagnosis where a serious tumor was mistaken for minor tonsillitis, leading to a devastating outcome."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie schnell wird man bei akuten Beschwerden des Haustiers empfangen?",
+        "en": "How promptly are urgent companion pet concerns seen at the clinic?"
+      },
+      "a": {
+        "de": "Rezensenten bestätigen, dass man bei plötzlich auftretenden akuten Symptomen sehr schnell in die Praxis kommen kann.",
+        "en": "Reviewers confirm that animals presenting sudden acute symptoms are accommodated at the surgery very quickly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden in der Klinik auch junge Welpen und Kätzchen versorgt?",
+        "en": "Does the veterinary clinic treat young puppies and small kittens?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten von erfolgreichen Rettungen kleiner Kätzchen sowie angenehm verlaufenen ersten Impfungen bei Welpen.",
+        "en": "Yes, clients report life-saving recoveries for sick kittens as well as smooth, pleasant first vaccinations for puppies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gab es in der Vergangenheit Beschwerden über diagnostische Fehleinschätzungen?",
+        "en": "Have there been client complaints concerning diagnostic misjudgments?"
+      },
+      "a": {
+        "de": "Ja, ein Halter kritisierte die vorübergehende Einstufung eines Kehlkopftumors als Angina bei einem akut erkrankten Hund.",
+        "en": "Yes, one owner criticized a case where a canine laryngeal tumor was initially misidentified as minor angina."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 5 Tagen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "+",
+        "results": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
