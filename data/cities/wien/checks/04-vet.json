@@ -1,0 +1,35 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "tierambulatorium-wienerberg",
+    "tierarztpraxis-franz",
+    "tierarztpraxis-elterleinplatz",
+    "tierarztpraxis-dr-julia-israiloff",
+    "zoodoc",
+    "tierarztpraxis-dr-tanja-schneider",
+    "tierzentrum-am-augarten",
+    "universitaetsklinik-fuer-kleintiere",
+    "tierarztpraxis-im-schwarzspanierhof",
+    "dr-stefan-reischl"
+  ],
+  "hash": "77b2c5a193989bf24aaa4bc4ad7881be198b25c24ba280b5000a91bf0a8830de",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T06:02:19.154Z",
+      "result": "FAIL",
+      "listed": 228
+    },
+    {
+      "at": "2026-10-06T06:24:28.222Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-06T06:27:13.970Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
