@@ -1,0 +1,139 @@
+{
+  "slug": "hundesalon-pluesch",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Pl%C3%BCsch/@48.1981409,16.398667,17z/data=!3m1!4b1!4m6!3m5!1s0x6ebd40da26e52c3d:0xeb80e80ed664987b!8m2!3d48.1981409!4d16.398667!16s%2Fg%2F11k3r78b8d?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Geteilte Meinungen zum Team",
+        "en": "Divided feedback on staff interaction"
+      },
+      "text": {
+        "de": "Einige Stammkunden schätzen das Salonteam für seine Geduld, Hilfsbereitschaft und das Eingehen auf Wünsche bei der Fellpflege. Im Gegensatz dazu berichten einzelne unzufriedene Stimmen von unfreundlichem Auftreten und empfanden die Betreuung als wenig sympathisch. Die Gesamtwahrnehmung des Personals fällt daher spürbar unterschiedlich aus.",
+        "en": "Several regular clients appreciate the grooming team for patience, helpful advice, and accommodating styling requests. Conversely, isolated critical reviews describe interactions as unfriendly and lacking courtesy. Consequently, customer feedback regarding staff manner remains divided between enthusiastic praise and distinct disappointment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Gekonntes Styling bei dichtem Fell",
+        "en": "Skilled styling for demanding coats"
+      },
+      "text": {
+        "de": "Besitzer von Rassen mit anspruchsvollerem Fell wie Chow-Chow, Zwergspitz oder Shih Tzu loben das saubere Schnittbild und die gründliche Schur. Verfilzungen werden entwirrt und rassetypische Wünsche wunschgemäß umgesetzt. Das gepflegte Aussehen der Tiere nach der Behandlung wird von zufriedenen Kunden wiederholt hervorgehoben.",
+        "en": "Owners of dogs with demanding double coats such as Chow Chows, Pomeranians, or Shih Tzus praise clean trimming and thorough brushing. Tangled fur is untangled and breed-specific grooming preferences are followed neatly. Satisfied customers repeatedly emphasize that their dogs look fresh and nicely styled following their visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Wohlbefinden und Stressbelastung der Hunde",
+        "en": "Pet comfort and stress concerns"
+      },
+      "text": {
+        "de": "Während ein zufriedener Halter von vorfreudigen Hunden und liebevoller Zuwendung berichtet, wiegen zwei kritische Rezensionen schwer. Dort wird geschildert, dass sich Vierbeiner während des Besuchs unwohl fühlten oder nach dem Termin verstört wirkten. Wegen dieser Belastung raten die Betroffenen von weiteren Friseurbesuchen ab.",
+        "en": "While one satisfied client describes a dog eager to enter the salon due to gentle handling, two critical reviews raise serious concerns. These customers recount that their pets felt distressed during appointments or returned visibly unsettled. Due to these negative experiences, the affected owners advise caution when visiting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden im Salon auch schwierige Fellarten gepflegt?",
+        "en": "Does the salon groom double coats and complex fur?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben gelungene Behandlungen bei Chow-Chows, Zwergspitzen und verfilztem Fell positiv hervor.",
+        "en": "Yes, customers highlight successful care for Chow Chows, Pomeranians, and matted coats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Geht das Personal auf individuelle Schnittwünsche ein?",
+        "en": "Does staff accommodate individual styling requests?"
+      },
+      "a": {
+        "de": "Ja, zufriedene Kunden bestätigen, dass gewünschte Schnittlängen und Wünsche umgesetzt werden.",
+        "en": "Yes, satisfied clients confirm that specific coat length preferences and requests are respected."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Hat der Salon feste Öffnungszeiten an Werktagen?",
+        "en": "Does the salon have fixed weekday opening hours?"
+      },
+      "a": {
+        "de": "Ja, der Salon öffnet von Dienstag bis Samstag zu festen Zeiten, montags ist Ruhetag.",
+        "en": "Yes, the salon opens Tuesdays through Saturdays with established hours, and is closed on Mondays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    }
+  ]
+}

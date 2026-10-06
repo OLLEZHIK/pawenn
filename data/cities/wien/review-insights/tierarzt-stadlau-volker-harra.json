@@ -1,0 +1,184 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarzt+Stadlau+Volker+Harra/@48.228,16.4558,17z/data=!3m1!4b1!4m6!3m5!1s0x476d012d8ce33e25:0xd857d88db00655da!8m2!3d48.228!4d16.4558!16s%2Fg%2F1v7tk4vc?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "de": "Freundliches Team mit Personalwechseln",
+        "en": "Friendly team facing staff turnover"
+      },
+      "text": {
+        "de": "Viele Kunden schätzen das Praxisteam für seine Hilfsbereitschaft, Fachkompetenz und herzliche Betreuung. Einige langjährige Tierhalter bemerken jedoch spürbare Personalwechsel im letzten Jahr und äußern Kritik an der Kontinuität sowie an der Empathie im Krisenfall.",
+        "en": "Many clients appreciate the clinic team for their helpfulness, expertise, and warm patient support. However, several regular visitors noted notable staff turnover over the past year, raising concerns regarding care continuity and empathy in crisis situations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "de": "Rettende Behandlungen neben schweren Zwischenfällen",
+        "en": "Life-saving therapies beside severe complications"
+      },
+      "text": {
+        "de": "Rezensenten berichten von erfolgreichen Rettungen bei Notfällen, gelungenen Zahn-OPs und fundierter Kleintierdiagnostik. Demgegenüber stehen Berichte über tragische Zwischenfälle in der Narkose-Aufwachphase sowie Kritik an fehlender Klärung nach Behandlungsfehlern.",
+        "en": "Reviewers report successful emergency rescues, effective dental surgeries, and sound diagnostic investigations for small animals. In contrast, tragic accounts describe complications during post-operative recovery, accompanied by calls for greater accountability."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Besonderes Engagement für Kaninchen und Hunde",
+        "en": "Dedicated care for rabbits and dogs"
+      },
+      "text": {
+        "de": "Tierhalter loben den liebevollen Umgang mit Hunden und heben insbesondere die seltene Spezialisierung und Erfahrung bei Kaninchen hervor. Tastuntersuchungen, Ultraschall und Laboranalysen werden für kleine Heimtiere stets mit viel Sorgfalt durchgeführt.",
+        "en": "Pet owners praise the gentle handling of dogs and specifically emphasize rare diagnostic expertise with pet rabbits. Physical examinations, ultrasound, and laboratory diagnostics are performed thoroughly with remarkable attention to small animal welfare."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Ist die Praxis auf Kaninchen und Kleintiere spezialisiert?",
+        "en": "Does the clinic specialize in rabbits and small mammals?"
+      },
+      "a": {
+        "de": "Ja, Kunden loben ausdrücklich die fundierte Diagnostik und Behandlung bei Magen- und Blasenproblemen von Kaninchen.",
+        "en": "Yes, pet owners specifically praise thorough diagnostics and care for gastrointestinal and urinary issues in rabbits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden vor Ort Operationen und Laboranalysen durchgeführt?",
+        "en": "Are surgical procedures and lab diagnostics performed on site?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von chirurgischen Eingriffen sowie labormäßigen und bildgebenden Untersuchungen.",
+        "en": "Yes, clients report surgical treatments alongside in-house laboratory and imaging diagnostics."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Notfälle auch am Wochenende behandelt werden?",
+        "en": "Can acute emergencies be treated on Saturdays?"
+      },
+      "a": {
+        "de": "Ja, Tierhalter berichten von rascher notfallmäßiger Versorgung ihrer Tiere auch an Samstagen.",
+        "en": "Yes, pet owners report prompt emergency assistance provided for their pets on Saturdays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 7 Monaten",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 7 Monaten",
+      "months": 7,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 7 Monaten",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ],
+  "slug": "tierarzt-stadlau-volker-harra",
+  "reviews_in_period": 11
+}
