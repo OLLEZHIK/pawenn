@@ -1,0 +1,137 @@
+{
+  "slug": "pintu",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PINTU/@48.2092007,16.3719463,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07678634f0d1:0x184c7a6ffced4477!8m2!3d48.2092007!4d16.3719463!16s%2Fg%2F11sw2hlwln?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Edles Geschäft in zentraler Lage",
+        "en": "Elegant boutique in central location"
+      },
+      "text": {
+        "de": "Kunden loben das Geschäft für seine ansprechende Gestaltung und die erstklassige Lage im Stadtzentrum. Der Salon wirkt modern und ähnelt einem gehobenen Concept-Store mit einladendem Wartebereich samt Kaffeeangebot. Die gepflegte Optik der Räumlichkeiten hinterlässt bei vielen Besuchern einen positiven Eindruck.",
+        "en": "Clients praise the boutique for its attractive interior design and prime downtown location. The salon presents a stylish, upscale appearance featuring a comfortable waiting lounge complete with coffee for owners. The tidy and chic environment consistently makes a favorable first impression on visitors."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Geteilte Erfahrungen mit dem Personal",
+        "en": "Critical feedback regarding staff attitude"
+      },
+      "text": {
+        "de": "Mehrere Rezensionen äußern deutliche Kritik am Verhalten und an der mangelnden Einfühlsamkeit einzelner Mitarbeiterinnen. Kunden beklagen unhöfliche Kommunikation, mangelndes Eingehen auf Wünsche und Sprachbarrieren. Positives Feedback hebt hingegen eine hilfsbereite und auskunftsfreudige Beratung im Verkauf hervor.",
+        "en": "Several reviews express sharp disappointment regarding employee attitude and a lack of empathy during handling. Customers cite dismissive communication, ignored instructions, and language barriers. Conversely, some positive feedback mentions helpful and informative advice given at the retail counter."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Kritik an Schnitt und Zahnreinigung",
+        "en": "Criticism of haircut and dental care"
+      },
+      "text": {
+        "de": "Die Einschätzungen zu den Pflegeergebnissen fallen gemischt bis kritisch aus. Während einzelne Kunden mit der Zahnpflege sehr zufrieden waren, bemängeln andere ungleichmäßige Scherenschnitte und unklare Methoden bei der Zahnreinigung. Mehrere Tierhalter empfanden die Behandlung als unzureichend für den verlangten Preis.",
+        "en": "Opinions regarding grooming outcomes range from satisfied to distinctly critical. While one client commended dental care, others criticized uneven scissor work and questioned procedures used during teeth cleaning. Multiple owners felt that the treatments received did not reflect professional standards."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Bietet der Salon Zahnreinigung für Hunde an?",
+        "en": "Does the salon offer dental cleaning for dogs?"
+      },
+      "a": {
+        "de": "Ja, Kundenbewertungen erwähnen Zahnpflegebehandlungen, wobei die eingesetzten Methoden unterschiedlich bewertet werden.",
+        "en": "Yes, reviews mention dental care treatments, though client feedback on methods varies considerably."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es einen Wartebereich für Hundehalter?",
+        "en": "Is there a waiting lounge for pet owners?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten positiv über einen gemütlichen Wartebereich mit Kaffee während der Behandlung.",
+        "en": "Yes, owners note that the store features a comfortable waiting area with coffee during appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie empfinden Kunden die Mitarbeiterkommunikation?",
+        "en": "How do customers perceive staff communication?"
+      },
+      "a": {
+        "de": "Erfahrungen gehen auseinander: Neben hilfsbereitem Ladenpersonal berichten manche Kunden über mangelndes Eingehen auf Wünsche.",
+        "en": "Experiences vary: alongside helpful store staff, some clients report uncooperative communication in grooming."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "+",
+        "results": "-"
+      }
+    }
+  ]
+}
