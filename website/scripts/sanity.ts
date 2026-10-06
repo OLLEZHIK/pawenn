@@ -117,7 +117,10 @@ for (const city of cities) {
     // Phone
     const phone = (r.phone ?? "").trim();
     if (phone) {
-      const digits = phone.replace(/[^\d+]/g, "");
+      // "+43 (0) 1 607 88 67": the (0) is the trunk-prefix notation, not a digit of the number (Vienna, 2026-10-06).
+      const bracketZero = /\(0\)/.test(phone);
+      if (bracketZero) w(slug, `phone "${phone}" has "(0)": write it without, e.g. ${phone.replace(/\s*\(0\)\s*/, " ").replace(/\s+/g, " ").trim()}`);
+      const digits = phone.replace(/\(0\)/g, "").replace(/[^\d+]/g, "");
       const m = digits.match(/^\+?(\d+)$/);
       if (!m) f(slug, `phone "${phone}" has characters other than digits`);
       else {
