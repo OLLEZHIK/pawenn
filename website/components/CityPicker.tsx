@@ -30,9 +30,8 @@ export interface PickerCity {
  * - Nearest to me: opens the nearest city's list sorted by distance. No
  *   location (denied, unavailable, too far from every city) - a message and the
  *   cursor in the field, never a silent no-op.
- * - Field, `freeText` (English): no list of cities up front; as the visitor types,
- *   the cities that START with those letters appear ("war" -> Warszawa). Other
- *   languages: the browser's suggestion list.
+ * - Field, `freeText` (all languages, owner 2026-10-06): no list of cities up front; as the visitor types,
+ *   the cities that START with those letters appear ("war" -> Warszawa).
  * `open` keeps the "open now" filter ("Vet open now" lands here).
  */
 export function CityPicker({
