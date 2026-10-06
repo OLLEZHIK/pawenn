@@ -13,7 +13,7 @@
     "the-dog-care-company",
     "dogsclub"
   ],
-  "hash": "320e73315255eba77e1372b5cc6868bbdc4f7e81f1eaa4bd210a0810458d3ea7",
+  "hash": "ae1a49d0bb8560e4cd4dcfbf16dfbb6e9f40b23d2e45fed9cca117fb9fb59b76",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,16 @@
     },
     {
       "at": "2026-10-06T05:52:10.923Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T23:35:40.761Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-06T23:36:30.209Z",
       "result": "PASS",
       "listed": 0
     }
