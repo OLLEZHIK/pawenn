@@ -21,14 +21,19 @@ export function PriceTier({
 }) {
   const sign = currencySign(locale, currency ?? "EUR");
   const t = getDictionary(locale).card;
+  // "Kč"/"zł" repeated back to back read as one word ("KčKčKč"): space every sign, wider for letter signs.
+  const gap = sign.length > 1 ? "gap-1" : "gap-px";
   const words = t.vsMarket(level.pct, level.tier === 3);
   // Same colours as every price comparison: green cheaper, red dearer, grey about average.
   const tone = TONE_TEXT[level.tier === 3 ? "normal" : level.pct < 0 ? "less" : "more"];
   return (
     <span title={t.vsMarketHint} className={`inline-flex items-baseline gap-1.5 ${className}`}>
-      <span role="img" aria-label={`${t.priceLevel(level.tier)}: ${words}`}>
-        <span className={`font-semibold ${tone}`}>{sign.repeat(level.tier)}</span>
-        <span className="text-foreground/25">{sign.repeat(5 - level.tier)}</span>
+      <span role="img" aria-label={`${t.priceLevel(level.tier)}: ${words}`} className={`inline-flex ${gap}`}>
+        {Array.from({ length: 5 }, (_, i) => (
+          <span key={i} aria-hidden="true" className={i < level.tier ? `font-semibold ${tone}` : "text-foreground/25"}>
+            {sign}
+          </span>
+        ))}
       </span>
       {withLabel && <span className={`text-xs font-medium ${tone}`}>{words}</span>}
     </span>
