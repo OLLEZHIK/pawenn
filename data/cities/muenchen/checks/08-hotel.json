@@ -1,0 +1,30 @@
+{
+  "chunk": "08-hotel",
+  "kind": "places",
+  "slugs": [
+    "hundepension-am-birkensee",
+    "charlies-crew",
+    "hundebetreuung-im-olympiapark",
+    "die-fellnasen",
+    "we-are-dogs"
+  ],
+  "hash": "bf762f59e42ad6071299ce614c1f89a048e6446a4cd8b8b64fe8ccb945719532",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T18:52:34.950Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-06T18:52:52.319Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-06T18:54:57.567Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
