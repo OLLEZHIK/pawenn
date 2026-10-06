@@ -1,0 +1,40 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "dr-beate-degen",
+    "dr-georg-wlodarczyk",
+    "tierarztpraxis-mech",
+    "tierarztpraxis-am-stadtwald",
+    "hno-praxis-koeln-nord",
+    "tierarzt-stefan-augustiniok",
+    "tierarztpraxis-in-junkersdorf",
+    "kleintierinternisten-und-vetneuro-koeln",
+    "mvz-medicover-koeln",
+    "dr-jochen-vom-bruch"
+  ],
+  "hash": "321ac818b223a58542f4d3be3795f4da965ba498009adc5447fabd7bde76ee31",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T16:55:41.336Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-06T16:57:37.318Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T17:00:10.348Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-06T17:01:37.241Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
