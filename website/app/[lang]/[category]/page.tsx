@@ -73,7 +73,7 @@ export default async function CategoryHubPage({
           locale={locale}
           category={category}
           open={open}
-          freeText={locale === "en"}
+          freeText
           cities={rows.map(({ city }) => {
             const p = points.find((x) => x.slug === city.slug);
             return { slug: city.slug, name: city.name, lat: p?.lat ?? 0, lng: p?.lng ?? 0 };

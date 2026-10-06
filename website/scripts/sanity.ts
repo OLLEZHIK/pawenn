@@ -39,6 +39,7 @@ const COUNTRY = {
   PL: { dial: "48", national: /^[1-9]\d{8}$/, postal: /\b\d{2}-\d{3}\b/ },
   SK: { dial: "421", national: /^[2-9]\d{8}$/, postal: /\b\d{3} ?\d{2}\b/ },
   CZ: { dial: "420", national: /^[2-9]\d{8}$/, postal: /\b\d{3} ?\d{2}\b/ },
+  AT: { dial: "43", national: /^[1-9]\d{3,12}$/, postal: /\b\d{4}\b/ },
 } as const;
 
 // Phone digits that are not a real subscriber number: all one digit, a run
