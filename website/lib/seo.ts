@@ -26,7 +26,7 @@ export function localeAlternates(
   };
 }
 
-const OG_LOCALE: Record<Locale, string> = { en: "en_US", sk: "sk_SK", pl: "pl_PL", cs: "cs_CZ" };
+const OG_LOCALE: Record<Locale, string> = { en: "en_US", sk: "sk_SK", pl: "pl_PL", cs: "cs_CZ", de: "de_AT" };
 
 /** Link preview image for a page: app/og/route.tsx draws it from these texts. */
 export function ogImageUrl(title: string, subtitle?: string, category?: string): string {

@@ -3,6 +3,8 @@ import { pricesPath } from "@/lib/pricePages";
 import { serviceLabel } from "@/lib/services";
 import { ALL_CATEGORIES, categoryLabel, listingPath } from "@/lib/categories";
 import { getDictionary, inCity, localePath, localesForCity } from "@/lib/i18n";
+import { guidesPath, listGuides } from "@/lib/guides";
+import { LOCALES } from "@/lib/locales";
 import { SITE_URL } from "@/lib/site";
 
 // Machine-readable site summary for LLM crawlers: every city, every
@@ -34,6 +36,17 @@ export async function GET() {
     return `## ${city.name} (${city.country})\n\n${blocks.join("\n\n")}`;
   }));
 
+  // Guides: answers with an official source for every fact, per language.
+  const guideBlocks = LOCALES.flatMap((locale) => {
+    const guides = listGuides(locale);
+    if (guides.length === 0) return [];
+    const lines = guides.map((g) => `- [${g.h1}](${SITE_URL}${guidesPath(locale, g.slug)}): ${g.description}`).join("\n");
+    return [`### ${locale === "en" ? "English" : locale.toUpperCase()}\n\n${lines}`];
+  });
+  const guidesSection = guideBlocks.length
+    ? `## Guides\n\nPlain-language answers to what pet owners search for (microchip, rabies, travel, dog tax, what a service costs). Every fact cites an official source with the date it was checked; prices come from our own comparison.\n\n${guideBlocks.join("\n\n")}\n\n`
+    : "";
+
   const homeLocales = [...new Set(cities.flatMap((c) => localesForCity(c)))];
   const body = `# pawenn
 
@@ -42,7 +55,7 @@ export async function GET() {
 ${homeLocales.map((l) => `- [Home${l === "en" ? "" : ` (${l.toUpperCase()})`}](${SITE_URL}${localePath(l, "/")})`).join("\n")}
 - [How it works](${SITE_URL}/en/how-it-works/)
 
-${sections.join("\n\n")}
+${guidesSection}${sections.join("\n\n")}
 `;
 
   return new Response(body, {
