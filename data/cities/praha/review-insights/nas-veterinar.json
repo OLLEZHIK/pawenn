@@ -1,0 +1,134 @@
+{
+  "slug": "nas-veterinar",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/N%C3%A1%C5%A1+veterin%C3%A1%C5%99/data=!4m7!3m6!1s0x470b96cb2bdfa205:0x3b0fbfa8849df7b1!8m2!3d50.0053859!4d14.4162657!16s%2Fg%2F11g8t_m8v3!19sChIJBaLfK8uWC0cRsfedhKi_Dzs?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "cs": "Vstřícný personál a pečlivá péče",
+        "en": "Attentive staff and thorough care"
+      },
+      "text": {
+        "cs": "Klienti v hodnoceních chválí lidský přístup všech pracovníků od recepce až po samotné lékařky. Oceňují ochotu srozumitelně vysvětlit každý krok léčby a velkou empatii při ošetřování. Majitelé zvířat zmiňují pocit bezpečí a dlouhodobou důvěru, kterou k týmu mají i při řešení vážnějších zdravotních potíží.",
+        "en": "Clients consistently praise the kind approach of the entire team, from reception to the attending veterinarians. Pet owners appreciate clear explanations of all treatments and genuine empathy during examinations. Reviewers highlight feeling supported and trusting the practice for long-term health needs."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "cs": "Laskavé zacházení se psy i kočkami",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "cs": "Chovatelé vyzdvihují velmi citlivé chování personálu k ošetřovaným zvířatům. V recenzích popisují, že se psi ani kočky při vyšetřeních nebáli a personál s nimi jednal klidně a trpělivě. Pacienti odcházejí v dobré pohodě, což majitelé považují za velkou přednost ordinace v Modřanech.",
+        "en": "Guardians commend the team's gentle attitude towards visiting pets. Feedback shows that dogs and cats experience minimal stress during routine checkups thanks to patient and calm handling. Pet owners appreciate this reassuring care, noting that their animals stay comfortable throughout their visits."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "cs": "Příjemné prostředí ordinace i recepce",
+        "en": "Comfortable clinic and reception spaces"
+      },
+      "text": {
+        "cs": "Recenzenti pozitivně hodnotí čisté, upravené a klidné zázemí veterinárního pracoviště. Zákazníci se cítí příjemně v čekárně i v samotných vyšetřovnách, kde je dostatek prostoru. Chovatelé oceňují, že klinika poskytuje důstojné a pohodlné zázemí pro zvířata i jejich doprovod.",
+        "en": "Reviewers emphasize the clean, orderly, and calm clinic facilities in Prague. Visitors feel comfortable in both the waiting lounge and the consultation rooms where there is ample space. Pet guardians appreciate that the veterinary clinic provides a welcoming setting for both animals and owners."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Jak personál přistupuje k bojácným psům?",
+        "en": "How does the team handle nervous dogs?"
+      },
+      "a": {
+        "cs": "Klienti potvrzují, že personál zachází se zvířaty trpělivě a s citem, takže se psi při vyšetření zbytečně nebojí.",
+        "en": "Clients confirm that the team handles pets patiently and gently, helping nervous dogs stay calm during checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Poskytují lékaři zpětnou vazbu po návštěvě?",
+        "en": "Do veterinarians follow up after consultations?"
+      },
+      "a": {
+        "cs": "Ano, chovatelé v recenzích uvádějí, že lékařka v případě potřeby aktivně telefonicky zjišťuje zdravotní stav pacienta.",
+        "en": "Yes, pet owners mention that the vet proactively checks in by phone regarding the animal's recovery and condition."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Jaké je zázemí kliniky Náš veterinář?",
+        "en": "What are the facilities like at Náš veterinář?"
+      },
+      "a": {
+        "cs": "Ordinace i recepce jsou podle zákazníků čisté, přehledné a nabízejí přátelskou atmosféru bez zbytečného stresu.",
+        "en": "According to visitors, the practice and reception are tidy, comfortable, and offer a relaxed, stress-free atmosphere."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 2 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "regia-vet",
+    "animal-clinic-bila-hora",
+    "veterinarni-klinika-na-vyhlidce",
+    "veterinarni-klinika-fenix",
+    "ok-vet",
+    "veterina-svobodnik",
+    "altavet",
+    "pet-care-clinic",
+    "veterinarni-klinika-hloubetin",
+    "veterinarni-ambulance-aa-vet"
+  ],
+  "hash": "2dc663fba34b567c0c7f3fd21e0dafb88b4fec5e3fd46312733d0f58547d05b2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T05:27:52.685Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-05T05:32:15.103Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-05T05:35:17.622Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

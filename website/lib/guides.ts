@@ -28,7 +28,7 @@ import type { BusinessCategory } from "@prisma/client";
 import type { Locale } from "./i18n";
 import { plural } from "./locales";
 
-export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik" };
+export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna" };
 
 export const GUIDE_TEXT: Record<
   Locale,
@@ -82,6 +82,19 @@ export const GUIDE_TEXT: Record<
       `średnia ${median}, ${range} (${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })})`,
     pricesLink: "Wszystkie ceny",
     nav: "Poradnik",
+  },
+  cs: {
+    hubTitle: "Poradna pro majitele zvířat | Pawenn",
+    hubH1: "Poradna pro majitele zvířat",
+    hubIntro: "Povinnosti, termíny a ceny, na které se ptají majitelé zvířat – každý údaj s oficiálním zdrojem.",
+    sources: "Zdroje",
+    updated: "Aktualizováno",
+    related: "Užitečné vědět",
+    home: "Domů",
+    priceLine: (median, range, places) =>
+      `průměr ${median}, ${range} (${places} ${plural("cs", places, { one: "podnik", few: "podniky", many: "podniku", other: "podniků" })})`,
+    pricesLink: "Všechny ceny",
+    nav: "Poradna",
   },
 };
 

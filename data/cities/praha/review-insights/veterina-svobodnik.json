@@ -1,0 +1,183 @@
+{
+  "slug": "veterina-svobodnik",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterina+Svobodn%C3%ADk+MVDr.+Igor+Svobodn%C3%ADk/data=!4m7!3m6!1s0x470beb43c3b6177b:0x7ef751563d1ab605!8m2!3d50.1249218!4d14.4585734!16s%2Fg%2F1tjt0n86!19sChIJexe2w0PrC0cRBbYaPVZR934?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 10,
+      "title": {
+        "cs": "Převládající kritika chování personálu",
+        "en": "Prevailing criticism of staff behavior"
+      },
+      "text": {
+        "cs": "Zatímco někteří dlouholetí klienti chválí lidský přístup doktora Svobodníka, v posledních měsících výrazně převažují negativní ohlasy. Recenzenti si stěžují na arogantní chování personálu a sestřiček, nedostatek empatie i nepříjemnou atmosféru v ordinaci.",
+        "en": "While some long-term clients commend Dr. Svobodník for his humane demeanor, negative feedback has been prominent in recent months. Reviewers frequently report arrogant interactions from staff and nurses, citing a noticeable lack of empathy during visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "cs": "Vážné pochybnosti o léčebné péči",
+        "en": "Serious doubts regarding treatment outcomes"
+      },
+      "text": {
+        "cs": "Vedle pozitivních zkušeností se stomatologickými zákroky popisuje více chovatelů neúspěšné návštěvy, které nevedly ke zlepšení stavu zvířete. Zákazníci zmiňují nesprávné stanovení diagnózy u koček i komplikace po anestezii u drobných savců v ordinaci.",
+        "en": "Alongside successful dental surgeries, multiple guardians recount ineffective visits that failed to improve their pet's health condition. Customers highlight diagnostic shortcomings in feline patients as well as anesthesia complications in small animals."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "cs": "Rozdílné zacházení se zvířecími pacienty",
+        "en": "Varying handling of animal patients"
+      },
+      "text": {
+        "cs": "Někteří majitelé oceňují ohleduplnost a snahu vyjít vstříc stresovaným psům při zákroku v celkové anestezii. Oproti tomu další recenze popisují nešetrné odebírání krve u koček nebo nedostatečnou odbornost při ošetřování drobných zvířat, jako jsou králíci.",
+        "en": "Some pet owners appreciate thoughtful handling and patience shown to stressed dogs during general anesthesia procedures. In contrast, other reviews report rough blood sampling in cats and insufficient familiarity with exotic pets such as domestic rabbits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Provádí klinika stomatologické zákroky v narkóze?",
+        "en": "Does the clinic perform dental surgery under anesthesia?"
+      },
+      "a": {
+        "cs": "Ano, klienti v recenzích zmiňují úspěšné trhání zubů a ošetření chrupu v celkové anestezii.",
+        "en": "Yes, clients in reviews confirm successful tooth extractions and dental procedures under general anesthesia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Je klinika doporučována pro ošetření králíků a hlodavců?",
+        "en": "Is the practice recommended for rabbits and small rodents?"
+      },
+      "a": {
+        "cs": "Ohlasy na ošetření drobných savců jsou smíšené; někteří chovatelé doporučují vyhledat specialistu.",
+        "en": "Reviews concerning small mammals are mixed; some owners suggest seeking dedicated exotic pet specialists."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Jak klienti hodnotí komunikaci a přístup sestřiček?",
+        "en": "How do clients rate communication with clinic nurses?"
+      },
+      "a": {
+        "cs": "V nedávných recenzích se objevují stížnosti na chladný přístup a neochotu personálu na recepci.",
+        "en": "Recent reviews reflect complaints regarding perceived coldness and reluctance from front desk staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Upraveno před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

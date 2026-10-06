@@ -1,0 +1,179 @@
+{
+  "slug": "salon-richie",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Salon+Richie/data=!4m7!3m6!1s0x470b9484e282627d:0xef613b1a7c45ae80!8m2!3d50.0763591!4d14.442887!16s%2Fg%2F11fy4l2d4f!19sChIJfWKC4oSUC0cRgK5FfBo7Ye8?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Thorough coat detangling and grooming",
+        "cs": "Důkladné rozčesání srsti a úprava"
+      },
+      "text": {
+        "en": "Clients praise the noticeable transformation in their pets' appearances after grooming. The team successfully untangles severely matted fur on large cats and long-haired dogs, providing gentle bathing with suitable cosmetics and precise breed haircuts.",
+        "cs": "Zákazníci velmi chválí viditelnou proměnu vzhledu svých mazlíčků po návštěvě salonu. Tým si úspěšně poradí i se zanedbanou a zplstnatělou srstí velkých koček či psů, zajistí šetrné mytí vhodnou kosmetikou a provede precizní střih podle přání majitele."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly stylists with patient approach",
+        "cs": "Příjemný personál s trpělivým přístupem"
+      },
+      "text": {
+        "en": "Most pet guardians commend the stylists for their politeness, attentive communication, and patient handling. Although one visitor complained about unprofessional conduct, the vast majority experience prompt, reassuring service from the dedicated team.",
+        "cs": "Většina chovatelů vyzdvihuje vstřícnost, ochotu a trpělivý přístup ošetřovatelů. Ačkoli se vyskytla ojedinělá výtka k nevhodnému chování, převážná většina zákazníků hodnotí vystupování personálu jako velmi přátelské, vysoce profesionální a vždy uklidňující."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Relaxed atmosphere for dogs and cats",
+        "cs": "Klidná atmosféra pro psy i kočky"
+      },
+      "text": {
+        "en": "Reviewers emphasize how relaxed animals feel during spa treatments and styling. Even first-time visitors like large Maine Coon cats or sensitive terriers handle the procedures smoothly without distress, departing in a calm, playful, and cheerful mood.",
+        "cs": "Recenzenti zdůrazňují, že zvířata zvládají lázeňskou péči i stříhání v naprostém klidu a pohodě. Dokonce i kočky při své první návštěvě nebo citliví teriéři snášejí procedury bez zbytečného stresu a ze salonu odcházejí příjemně uvolnění a v dobré náladě."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon groom cats with matted fur?",
+        "cs": "Upravuje salon i kočky se zplstnatělou srstí?"
+      },
+      "a": {
+        "en": "Yes, stylists handle dematting and combing for long-haired cats such as Maine Coons.",
+        "cs": "Ano, ošetřovatelé si poradí s vyčesáním a rozpletením zplstnatělé srsti u koček jako mainská mývalí."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are hypoallergenic cosmetics available for sensitive dogs?",
+        "cs": "Používá salon šetrnou kosmetiku pro alergické psy?"
+      },
+      "a": {
+        "en": "Yes, staff carefully consider coat allergies and select gentle, suitable shampoos.",
+        "cs": "Ano, personál zohledňuje kožní alergie a vybírá jemné šampony vhodné pro citlivá zvířata."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet teeth cleaning be arranged alongside grooming?",
+        "cs": "Lze k úpravě srsti objednat i čištění zubů?"
+      },
+      "a": {
+        "en": "Yes, the salon offers dental cleaning as part of comprehensive pet care packages.",
+        "cs": "Ano, salon nabízí čištění zubů v rámci komplexních balíčků péče o mazlíčky."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
