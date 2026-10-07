@@ -1,0 +1,148 @@
+{
+  "slug": "tierarztpraxis-cimander",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Cimander/@50.8608444,6.9538835,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf24e54dc02363:0x57e6452926327b8d!8m2!3d50.8608444!4d6.9538835!16s%2Fg%2F1tj51qx1?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Langjährige Betreuung mit geteilten Notfallerfahrungen",
+        "en": "Longstanding care with mixed emergency encounters"
+      },
+      "text": {
+        "de": "Stammkundinnen und -kunden schätzen Tierärztin Cimander in Köln-Rondorf für ihre ruhige, freundliche und geduldige Art im Behandlungsalltag. Viele Halter vertrauen ihr seit Jahren die gesundheitliche Begleitung an. Demgegenüber steht ein einzelner Notfallbericht über einen emotional aufgeladenen Konflikt bei einer Akutvorstellung am Wochenende.",
+        "en": "Regular clients appreciate veterinarian Cimander in Cologne-Rondorf for her calm, friendly, and patient demeanour during everyday consultations. Many guardians have relied on her for years. Conversely, an isolated emergency report notes an emotionally heated dispute during an acute weekend presentation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Behutsamer Umgang mit Hunden und Katzen",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "de": "Patientenbesitzer heben den liebevollen und respektvollen Umgang mit ihren Tieren positiv hervor. Ob Vorsorgeuntersuchungen, Impfungen, Chippen oder die Betreuung schwer erkrankter Kater: Tiere werden ohne Hektik untersucht. Halter betonen, dass das Wohl der Vierbeiner bei den therapeutischen Schritten stets im Mittelpunkt steht.",
+        "en": "Pet parents emphasize the affectionate and respectful handling of their companion animals. Whether routine checkups, vaccinations, microchipping, or treating acutely ill cats, pets undergo examination without rush. Handlers highlight that the animal's wellbeing remains central to clinical procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Erfolgreiche Routinebehandlungen und strittige Notfalldiagnose",
+        "en": "Routine treatment success alongside disputed diagnosis"
+      },
+      "text": {
+        "de": "Mehrere Halter berichten von hervorragender Versorgung und erfolgreicher Genesung kranker Tiere, einschließlich Zahnbehandlungen, Notfallsprechstunden und OPs. Gleichzeitig schildert eine Rezension eine strittige Verdachtsdiagnose bezüglich Herz- und Lungenerkrankungen bei einem Hund, die kardiologisch nicht bestätigt wurde.",
+        "en": "Several pet guardians report excellent recovery and successful care for sick animals, including dental hygiene, emergency hours, and surgical procedures. Simultaneously, one review describes a contested tentative diagnosis regarding cardiac and pulmonary anomalies in a dog that was subsequently refuted."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis Routineleistungen wie Impfungen und Zahnreinigungen angeboten?",
+        "en": "Does the clinic offer routine care such as vaccinations and dental cleaning?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von langjährig durchgeführten Impfungen, Zahnreinigungen, Chipsetzungen und operativen Eingriffen.",
+        "en": "Yes, clients report long-standing services including vaccinations, dental cleanings, microchipping, and surgical procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es eine Notfallsprechstunde für akut erkrankte Tiere?",
+        "en": "Is an emergency consultation available for acutely ill pets?"
+      },
+      "a": {
+        "de": "Ja, Halter erwähnen die Inanspruchnahme von Notfallterminen am Wochenende und bei akuten Erkrankungen.",
+        "en": "Yes, owners mention utilizing emergency consultations during weekends and for sudden acute conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie bewerten Kunden das Preis-Leistungs-Verhältnis?",
+        "en": "How do clients evaluate the value for money?"
+      },
+      "a": {
+        "de": "Stammkunden empfinden die Behandlungskosten im Alltag als fair und nachvollziehbar kalkuliert.",
+        "en": "Regular clients perceive everyday treatment expenses as fair and sensibly calculated."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
