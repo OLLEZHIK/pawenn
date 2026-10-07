@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "northside-veterinary-clinic",
+    "heart-of-harlem-veterinary-clinic",
+    "pure-paws-veterinary-care-of-clinton-hill",
+    "bensonhurst-veterinary-care",
+    "kew-gardens-animal-hospital",
+    "iac-urgent-vets-queens-animal-emergency-hospital",
+    "north-shore-animal-hospital",
+    "lefferts-animal-hospital",
+    "the-pet-doctor-of-flushing",
+    "veterinary-care-group-middle-village"
+  ],
+  "hash": "a91549cc3b1ddea81f367f620e7cd5e71038c08610a47b50194d71b4409023bf",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T12:53:54.871Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-07T12:55:02.177Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
