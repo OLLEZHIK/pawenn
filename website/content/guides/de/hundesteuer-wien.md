@@ -40,4 +40,4 @@ Wer in Wien einen Hund hält, muss eine **Haftpflichtversicherung über mindeste
 
 ::places VET_CLINIC
 
-Mehr dazu: [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/)
+Mehr dazu: [Hund halten in Wien: Sachkunde, Chip, Leine](/de/ratgeber/hundehaltung-wien/) · [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/)

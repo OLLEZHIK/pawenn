@@ -48,4 +48,4 @@ Für bestimmte Fälle ist eine Befreiung möglich – die Stadt nennt sie auf ih
 
 ::places VET_CLINIC
 
-Mehr dazu: [Hundesteuer in Köln](/de/ratgeber/hundesteuer-koeln/) · [Hundesteuer in Berlin](/de/ratgeber/hundesteuer-berlin/)
+Mehr dazu: [Leinenpflicht in München](/de/ratgeber/leinenpflicht-muenchen/) · [Hundesteuer in Köln](/de/ratgeber/hundesteuer-koeln/) · [Hundesteuer in Berlin](/de/ratgeber/hundesteuer-berlin/)

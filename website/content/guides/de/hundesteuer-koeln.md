@@ -37,4 +37,4 @@ Die Anmeldung zur Hundesteuer erledigen Sie **online** im Verfahren der Stadt K�
 
 ::places VET_CLINIC
 
-Mehr dazu: [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/) · [Hundesteuer in Hamburg](/de/ratgeber/hundesteuer-hamburg/)
+Mehr dazu: [Leinenpflicht und große Hunde in Köln](/de/ratgeber/hundegesetz-koeln/) · [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/) · [Hundesteuer in Hamburg](/de/ratgeber/hundesteuer-hamburg/)

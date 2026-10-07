@@ -45,4 +45,4 @@ Für die erste Untersuchung, die Impfungen oder einen Welpenkurs: [Tierärzte in
 
 ::places VET_CLINIC
 
-Mehr dazu: [Hundesteuer in Hamburg](/de/ratgeber/hundesteuer-hamburg/) · [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/)
+Mehr dazu: [Hundegesetz Berlin: Leine, Chip und Sachkunde](/de/ratgeber/hundegesetz-berlin/) · [Hundesteuer in Hamburg](/de/ratgeber/hundesteuer-hamburg/) · [Hundesteuer in München](/de/ratgeber/hundesteuer-muenchen/)
