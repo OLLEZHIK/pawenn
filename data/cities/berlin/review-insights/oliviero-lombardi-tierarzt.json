@@ -1,0 +1,153 @@
+{
+  "slug": "oliviero-lombardi-tierarzt",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Oliviero+Lombardi+Tierarzt/@52.4619444,13.435,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84f83195f972b:0xcdda0b7293025c3f!8m2!3d52.4619444!4d13.435!16s%2Fg%2F1tc_33hm?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Große Erfahrung und herzliche Tierarztbetreuung",
+        "en": "Deep experience and warm veterinary care"
+      },
+      "text": {
+        "de": "Dr. Lombardi und seine Praxishilfe werden von Kunden als überaus freundlich, ruhig und verständnisvoll beschrieben. Behandlungsoptionen werden verständlich erklärt und Behandlungen zielgerichtet ohne unnötige Zusatzkosten durchgeführt. Tierhalter schätzen die verlässliche Atmosphäre.",
+        "en": "Dr. Lombardi and his assistant are described by clients as exceedingly friendly, calm, and understanding. Therapeutic options are explained clearly, and treatments are carried out without superfluous add-on costs. Pet owners value the dependable, steady atmosphere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Geduldige Behandlung sensibler Patienten",
+        "en": "Patient care for anxious animal patients"
+      },
+      "text": {
+        "de": "Halter loben den einfühlsamen Umgang mit ängstlichen Hunden sowie die sorgfältige Betreuung von Katzen. Das Tierwohl steht spürbar an erster Stelle, und die Behandler nehmen sich auch bei Notfällen kurz vor Praxisschluss noch die notwendige Zeit für die Patienten.",
+        "en": "Guardians praise the empathetic approach with timid dogs as well as attentive treatment for cats. Animal well-being visibly ranks as the primary goal, and practitioners take necessary time for their patients even during emergencies right before closing hours."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Verlässliche Heilung neben Kritik an Therapiestopp",
+        "en": "Reliable treatment beside criticism of paused therapy"
+      },
+      "text": {
+        "de": "Stammkunden schildern erfolgreiche Behandlungen und anhaltendes Vertrauen über mehrere Jahre hinweg. Ein Halter von Kleintieren kritisierte jedoch die Entscheidung, bei chronischen Atemwegsinfekten auf weitere Antibiotika zu verzichten, was zum Arztwechsel führte.",
+        "en": "Long-term clients describe successful treatments and sustained trust spanning several years. However, a small-pet owner criticized the decision to pause ongoing antibiotic therapy for chronic respiratory infections, which led to seeking care elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Nimmt sich der Tierarzt auch bei Notfällen kurzfristig Zeit?",
+        "en": "Does the vet attend to emergencies on short notice?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten positiv, dass auch kurz vor Ende der regulären Sprechzeiten Notfälle ruhig und sorgfältig versorgt wurden.",
+        "en": "Yes, clients report positively that even right before closing time, urgent cases were treated calmly and thoroughly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie geht das Team mit ängstlichen Tieren um?",
+        "en": "How does the team handle anxious pets?"
+      },
+      "a": {
+        "de": "Halter heben hervor, dass mit Angstpatienten besonders geduldig, ruhig und einfühlsam umgegangen wird.",
+        "en": "Owners highlight that anxious patients are treated with exceptional patience, calm, and sensitivity."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden unnötige Zusatzuntersuchungen vermieden?",
+        "en": "Are unnecessary extra procedures avoided?"
+      },
+      "a": {
+        "de": "Rezensenten schätzen, dass Behandlungen zielgerichtet erfolgen und keine überflüssigen Leistungen aufgedrängt werden.",
+        "en": "Reviewers appreciate that treatments remain targeted and no superfluous medical services are pushed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "tierarztpraxis-waumiau",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+WauMiau+(Janett+Neumann)/@52.5459621,13.593221,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84bb62f3f865f:0xdbd9c96699d1a868!8m2!3d52.5459621!4d13.593221!16s%2Fg%2F1tj95fx_?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Einfühlsame Tierärztin und freundliche Beratung",
+        "en": "Compassionate veterinarian and friendly guidance"
+      },
+      "text": {
+        "de": "Tierhalter heben die herzliche und bodenständige Art von Janett Neumann und ihrem Team hervor. Untersuchungen werden ohne Hektik durchgeführt, und Halter erhalten praktische Hilfestellungen für die Eingabe von Medikamenten zu Hause. Die persönliche Zugewandtheit sorgt für ein vertrauensvolles Miteinander.",
+        "en": "Pet guardians emphasize the warm and down-to-earth demeanor of Janett Neumann and her team. Examinations proceed without rush, and owners receive practical tips for administering medication at home. This personal commitment fosters strong mutual trust."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Bodenständige Tarife mit geteilter Kosteneinschätzung",
+        "en": "Moderate fees with varying cost perspectives"
+      },
+      "text": {
+        "de": "Mehrere Kunden bezeichnen das Preis-Leistungs-Verhältnis als überzeugend und empfinden die Behandlungsgebühren als fair kalkuliert. Demgegenüber steht eine Rückmeldung, die einzelne tierärztliche Maßnahmen und Präparate als kostspielig bewertet, auch wenn die fachliche Leistung geschätzt wurde.",
+        "en": "Several clients consider the price-to-performance ratio convincing and view treatment fees as fairly calculated. In contrast, one reviewer noted that specific medical interventions and prescriptions felt expensive, even while acknowledging the quality of care provided."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Zuverlässige Heilerfolge und langjährige Betreuung",
+        "en": "Reliable clinical outcomes and enduring support"
+      },
+      "text": {
+        "de": "Klienten berichten von verlässlichen Behandlungserfolgen bei Routinekontrollen und akuten Beschwerden ihrer Haustiere. Viele Familien vertrauen der Praxis seit vielen Jahren als festem Ansprechpartner. Die sorgfältigen Untersuchungen führen zu spürbarer Besserung bei Hunden und Katzen.",
+        "en": "Clients report dependable medical outcomes during routine checkups and acute conditions affecting their pets. Many families have trusted the practice as their primary care provider for many years. Diligent examinations deliver tangible improvements for cats and dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Welche Öffnungszeiten gelten für die Praxis in Hellersdorf?",
+        "en": "What are the opening hours for the clinic in Hellersdorf?"
+      },
+      "a": {
+        "de": "Die Praxis ist wochentags vormittags und nachmittags geöffnet sowie samstags von 10:00 bis 12:00 Uhr besetzt; mittwochnachmittags ist geschlossen.",
+        "en": "The clinic opens weekday mornings and afternoons, plus Saturdays from 10:00 to 12:00; it is closed on Wednesday afternoons."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden Haltern praktische Pflegetipps für zu Hause erklärt?",
+        "en": "Are pet owners shown practical care routines for home?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten, dass die Tierärztin die Anwendung von Medikamenten wie Augentropfen verständlich vorführt.",
+        "en": "Yes, owners report that the veterinarian clearly demonstrates how to administer medicines such as eye drops."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es eine Betreuung für Hunde und Katzen?",
+        "en": "Are both dogs and cats treated at the clinic?"
+      },
+      "a": {
+        "de": "Ja, die Praxis betreut regulär sowohl Hunde als auch Katzen bei Vorsorge und Behandlung.",
+        "en": "Yes, the practice regularly attends to both dogs and cats for preventive care and medical treatment."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "~",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}
