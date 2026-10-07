@@ -1,0 +1,135 @@
+{
+  "slug": "kleintierpraxis-kirchdorf",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kleintierpraxis+Kirchdorf/@53.4950256,10.0118972,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18e1f16fe4527:0x665c614c99a0e47d!8m2!3d53.4950256!4d10.0118972!16s%2Fg%2F1vpprl4g?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Einfühlsame Tierärztin und freundliche Praxisbegleitung",
+        "en": "Empathetic veterinarian and friendly clinic team"
+      },
+      "text": {
+        "de": "Tierhalter in Hamburg-Wilhelmsburg schätzen Frau Rose und ihre tiermedizinischen Fachangestellten für ihre zugewandte und ruhige Art. Stammkunden loben das fundierte Fachwissen und die Geduld, mit der auf gesundheitliche Probleme eingegangen wird. Viele Kunden fühlen sich bei Fragen rundum ehrlich und verlässlich beraten.",
+        "en": "Pet owners in Hamburg-Wilhelmsburg praise Dr. Rose and her veterinary assistants for their warm, calming approach. Long-term clients commend sound medical knowledge and patient attention given to every health concern. Many visitors emphasize that they feel honestly and reliably advised throughout each appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Liebevolle und druckfreie Behandlung für Haustiere",
+        "en": "Affectionate and stress-free care for companion pets"
+      },
+      "text": {
+        "de": "Besonders positiv heben Katzen- und Hundehalter den rücksichtsvollen Umgang mit scheuen Vierbeinern hervor. Bei Angstpatienten wird behutsam und ohne Druck gearbeitet, sodass Tiere während der Untersuchung ruhig bleiben. Halter betonen dankbar die liebevolle Fürsorge, mit der das Team ihren tierischen Begleitern begegnet.",
+        "en": "Cat and dog guardians particularly highlight considerate handling shown toward nervous four-legged patients. Anxious animals are treated gently without pressure, helping them remain relaxed throughout examinations. Owners gratefully emphasize the loving attention staff extends to their companion animals at every visit."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Verständliche Beratung bei einzelnen Erreichbarkeitsproblemen",
+        "en": "Clear consultations alongside occasional accessibility issues"
+      },
+      "text": {
+        "de": "Mehrere Kunden loben die transparente Erklärung aller Behandlungsschritte und der anfallenden Kosten vor der Untersuchung. Ein Rezensent berichtete jedoch verärgert von geschlossenen Türen und fehlender telefonischer Erreichbarkeit während der regulären Öffnungszeiten, was bei einem kranken Tier zu großer Frustration führte.",
+        "en": "Several clients praise the transparent explanation of all medical steps and associated costs before treatment commences. However, one reviewer reported frustration over locked clinic doors and unanswered phone calls during posted hours, causing significant stress when seeking help for an unwell pet companion."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie geht das Praxisteam mit ängstlichen Katzen um?",
+        "en": "How does clinic staff handle nervous cats?"
+      },
+      "a": {
+        "de": "Halter berichten von einer beruhigenden, geduldigen Herangehensweise ganz ohne Druck und Stress.",
+        "en": "Pet guardians report a calming, patient approach carried out entirely without pressure or stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Behandlungsschritte und Kosten vorab erklärt?",
+        "en": "Are treatment steps and costs explained in advance?"
+      },
+      "a": {
+        "de": "Ja, Kunden bestätigen eine transparente Vorabberatung zu allen geplanten Schritten und Gebühren.",
+        "en": "Yes, clients confirm transparent advance guidance covering all planned procedures and fees."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Termine für Hunde und Katzen angeboten?",
+        "en": "Are appointments offered for dogs and cats?"
+      },
+      "a": {
+        "de": "Die Praxis betreut Hunde und Katzen im Rahmen regulärer Sprechstunden in Wilhelmsburg.",
+        "en": "The clinic cares for dogs and cats during scheduled consultation hours in Wilhelmsburg."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
