@@ -1,0 +1,230 @@
+{
+  "slug": "petco-sheepshead-bay",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petco/data=!4m7!3m6!1s0x89c244622b6fe1f9:0x2a38c326feb75296!8m2!3d40.5899932!4d-73.9534595!16s%2Fg%2F1wyc57bm!19sChIJ-eFvK2JEwokRllK3_ibDOCo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNC4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 19,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Divergent feedback on customer support"
+      },
+      "text": {
+        "en": "Shopper reviews on store personnel present contrasting experiences at the Avenue Y store. Multiple customers highlight accommodating and courteous cashiers who process returns smoothly and assist with merchandise questions. However, several visitors report confrontational interactions with management and express distress over poor staff communication."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Stock shortages despite aquatic variety"
+      },
+      "text": {
+        "en": "Pet owners appreciate the diverse selection of freshwater and saltwater fish supplies available in the aquatics aisle. Nonetheless, multiple patrons encounter inventory shortages in everyday goods, pointing out empty refrigerated pet food cases and missing container sizes for treats. Product availability appears inconsistent across visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Concerns over pet safety and comfort"
+      },
+      "text": {
+        "en": "Several reviewers express strong apprehension regarding animal care in the facility. Visitors report seeing overcrowded enclosures for reptiles and small pets, while one pet parent describes a frightening nail-trimming session in the grooming salon where an anxious rescue dog struggled under improper restraint without staff de-escalation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the Sheepshead Bay location provide dog grooming?"
+      },
+      "a": {
+        "en": "Yes, full-service grooming is available on site, though several reviewers urge owners to monitor anxious animals closely."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is live aquarium stock available at this store?"
+      },
+      "a": {
+        "en": "Yes, the store carries live freshwater and saltwater fish, alongside aquarium tanks, filters, and care supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this location match online discount promotions?"
+      },
+      "a": {
+        "en": "Customers report occasional difficulties redeeming promotional email discounts at checkout, suggesting verification with cashiers prior to purchase."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
