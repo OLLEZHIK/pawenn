@@ -13,7 +13,7 @@
     "tiermedizinisches-zentrum-20",
     "tierarztpraxis-breitenlee-dr-susanne-balazs"
   ],
-  "hash": "043e361de6d21381955a091bffbf1138e45230eb2ec46891187310fb0be62c5a",
+  "hash": "8daaca00bbcb201c1eba190b9f6ca4dffa7f29d389f523bf8ffffdba1b7365ec",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,21 @@
     },
     {
       "at": "2026-10-06T18:18:32.911Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T02:39:24.358Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-07T02:43:27.437Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-07T02:45:31.927Z",
       "result": "PASS",
       "listed": 0
     }

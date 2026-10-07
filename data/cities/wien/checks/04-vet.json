@@ -13,7 +13,7 @@
     "tierarztpraxis-im-schwarzspanierhof",
     "dr-stefan-reischl"
   ],
-  "hash": "77b2c5a193989bf24aaa4bc4ad7881be198b25c24ba280b5000a91bf0a8830de",
+  "hash": "7a9c1b4780a59f844e494201f44b38d7303b2fe2b7ac034f54e9524ce0874c62",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,16 @@
     },
     {
       "at": "2026-10-06T06:27:13.970Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T02:41:59.688Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-07T02:45:31.928Z",
       "result": "PASS",
       "listed": 0
     }
