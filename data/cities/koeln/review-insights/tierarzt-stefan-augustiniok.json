@@ -1,0 +1,132 @@
+{
+  "slug": "tierarzt-stefan-augustiniok",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarzt+Stefan+Augustiniok/@50.9634994,6.9744158,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf25852efd2673:0x1b798e4fbe61fa4d!8m2!3d50.9634994!4d6.9744158!16s%2Fg%2F11b6dwvg7f?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Langjährige Erfahrung mit ernster Gegenstimme",
+        "en": "Longstanding experience with critical voice"
+      },
+      "text": {
+        "de": "Viele Kunden beschreiben Dr. Augustiniok als sympathischen, ruhigen Tierarzt, der sich Zeit für seine Patienten nimmt und fachlich überzeugt. Demgegenüber steht eine deutliche Beschwerde über unzureichende Gründlichkeit, die nach Darstellung des Halters zu fatalen Folgen führte.",
+        "en": "Many clients describe Dr. Augustiniok as a sympathetic, calm veterinarian who takes time for his patients and shows deep practical expertise. In stark contrast, one severe complaint points to insufficient clinical diligence that allegedly resulted in fatal consequences."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Geteilte Resultate bei medizinischer Behandlung",
+        "en": "Mixed outcomes across veterinary treatments"
+      },
+      "text": {
+        "de": "Während Halter von rascher und unkomplizierter Hilfe bei Notfällen und Parasitenbefall berichten, schildert ein Tierbesitzer einen tragischen Fall einer vermuteten Fehldiagnose bei einer schwer erkrankten Katze, bei der ernste Ursachen zu spät erkannt wurden.",
+        "en": "While pet owners report swift and effective care during acute visits or parasite treatments, one reviewer recounts a tragic outcome involving an alleged misdiagnosis in a severely ill cat whose critical condition was unfortunately recognized too late elsewhere."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Verständnisvolle Beratung mit punktuellem Konflikt",
+        "en": "Supportive advice with isolated conflict"
+      },
+      "text": {
+        "de": "Zufriedene Tierhalter loben den freundlichen und professionellen Austausch bei Fragen zur Gesundheit ihres Vierbeiners. In einem Einzelfall wird der ärztliche Rat jedoch scharf kritisiert, da empfohlene Maßnahmen die ernsten Symptome des Tieres nicht lindern konnten.",
+        "en": "Satisfied pet owners commend the friendly and professional communication regarding health matters of their animals. However, in an isolated case, the veterinary advice received severe criticism when suggested dietary remedies failed to address serious medical problems."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es Sprechstunden ohne vorherige Terminvereinbarung?",
+        "en": "Are walk-in consultations available without appointment?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von der Möglichkeit, die Praxis während der regulären Sprechzeiten ohne Termin aufzusuchen.",
+        "en": "Yes, clients mention the option of visiting the veterinary clinic without an appointment during open hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden akute Notfälle in der Praxis behandelt?",
+        "en": "Are acute emergencies treated at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Tierhalter heben hervor, dass bei dringenden Anliegen auch kurzfristig Hilfe geleistet wird.",
+        "en": "Yes, pet owners highlight that prompt medical assistance is provided for urgent clinical concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie wird der Umgang mit Hunden und Katzen bewertet?",
+        "en": "How is the handling of dogs and cats evaluated?"
+      },
+      "a": {
+        "de": "Besitzer schätzen die ruhige Art des Tierarztes, weisen jedoch vereinzelt auf geteilte Erfahrungen bei Diagnosen hin.",
+        "en": "Owners value the vet's calm demeanour, while noting occasional contrasting views regarding complex diagnoses."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

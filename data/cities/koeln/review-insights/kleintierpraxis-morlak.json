@@ -1,0 +1,97 @@
+{
+  "slug": "kleintierpraxis-morlak",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kleintierpraxis+Morlak/@50.9788648,6.8920959,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf3adbb49e356f:0xf137ee1dfa52f4eb!8m2!3d50.9788648!4d6.8920959!16s%2Fg%2F1tcq9b9x?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "de": "Hohes Engagement und langjähriges Vertrauen",
+        "en": "High dedication and client trust"
+      },
+      "text": {
+        "de": "Tierbesitzerinnen und Tierbesitzer schätzen Dr. Monika Morlak und ihr Praxisteam in Köln-Esch für ihre ruhige, gründliche und herzliche Betreuung. Halter betonen das außergewöhnliche Engagement der Ärztin, die sich selbst in ihrer Freizeit fachlich austauscht, um schwierigen Patienten zu helfen.",
+        "en": "Pet owners praise Dr. Monika Morlak and her clinical team in Cologne-Esch for their calm, thorough, and affectionate veterinary care. Clients highlight the doctor's extraordinary commitment, consulting specialized colleague networks even in her free time to assist complex cases."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Liebevolle Zuwendung für ängstliche Patienten",
+        "en": "Caring attention for fearful patient animals"
+      },
+      "text": {
+        "de": "In den Rezensionen wird der feinfühlige Umgang mit nervösen Katzen und scheuen Hunden hervorgehoben. Untersuchungen verlaufen stressarm und vorsichtig, und bei schweren gesundheitlichen Krisen oder Abschieden erhalten Tier und Halter so viel Zeit und Ruhe wie nötig.",
+        "en": "Reviews frequently emphasize the sensitive treatment provided to nervous cats and timid dogs. Consultations proceed quietly and cautiously, and during severe medical crises or final farewells, pets and owners receive all the time, dignity, and peace they require."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Verständliche Aufklärung ohne übertriebenes Drama",
+        "en": "Clear explanations without unnecessary drama"
+      },
+      "text": {
+        "de": "Patientenbesitzer loben die verständliche und sachliche Kommunikation in der Praxis. Symptome, therapeutische Optionen und Laborwerte werden nachvollziehbar erklärt, was den Tierhaltern auch in belastenden Situationen Sicherheit und Orientierung vermittelt.",
+        "en": "Pet owners commend the clear and grounded communication maintained throughout appointments. Clinical symptoms, therapeutic alternatives, and laboratory blood values are explained plainly, providing reassurance and guidance to owners during stressful moments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie erfolgt die Terminvergabe in der Praxis?",
+        "en": "How are appointments arranged at the clinic?"
+      },
+      "a": {
+        "de": "Behandlungen erfolgen ausschließlich nach vorheriger telefonischer Terminabsprache, um Wartezeiten und Stress für Tiere gering zu halten.",
+        "en": "Consultations take place strictly by prior telephone appointment to minimize waiting times and stress for visiting pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Behandelt die Praxis auch komplexe und langwierige Krankheitsfälle?",
+        "en": "Does the practice manage complex and chronic medical conditions?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von engagierter Betreuung bei schwierigen Diagnosen, internistischer Diagnostik und interkollegialer Beratung.",
+        "en": "Yes, owners report dedicated long-term care for complicated diagnoses, internal medicine cases, and peer consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Verfügt die Praxis über ein eigenes Praxislabor?",
+        "en": "Does the clinic have an in-house veterinary laboratory?"
+      },
+      "a": {
+        "de": "Ja, die Praxis führt Blutuntersuchungen und Laboranalysen durch, um Krankheitsverläufe zeitnah und präzise zu überwachen.",
+        "en": "Yes, the clinic performs blood tests and laboratory diagnostic workups to monitor clinical progress promptly and accurately."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    { "ago": "vor 1 Tag", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+", "communication": "+" } },
+    { "ago": "vor einer Woche", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "Bearbeitet: vor einer Woche", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "vor 2 Wochen", "months": 0, "stars": 5, "topics": { "staff": "+", "animals": "+" } },
+    { "ago": "vor einem Monat", "months": 1, "stars": 5, "topics": { "staff": "+", "results": "+", "animals": "+" } },
+    { "ago": "vor einem Monat", "months": 1, "stars": 5, "topics": { "staff": "+", "waiting": "+" } },
+    { "ago": "Bearbeitet: vor 2 Monaten", "months": 2, "stars": 5, "topics": { "staff": "+", "animals": "+", "communication": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+" } },
+    { "ago": "Bearbeitet: vor 4 Monaten", "months": 4, "stars": 5, "topics": { "staff": "+", "results": "+", "communication": "+", "animals": "+" } },
+    { "ago": "vor 5 Monaten", "months": 5, "stars": 5, "topics": { "staff": "+" } }
+  ]
+}

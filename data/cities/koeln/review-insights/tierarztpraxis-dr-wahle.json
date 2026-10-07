@@ -1,0 +1,138 @@
+{
+  "slug": "tierarztpraxis-dr-wahle",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Dr.+Wahle/@50.9701763,6.9634994,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf258a18359b39:0xbf2c82aee1d06399!8m2!3d50.9701763!4d6.9634994!16s%2Fg%2F11b6dr90b3?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Ruhige und hochprofessionelle Betreuung",
+        "en": "Calm and highly professional care"
+      },
+      "text": {
+        "de": "Tierhalter loben Dr. Wahle und sein Team für ihre gelassene und überaus empathische Arbeitsweise. Selbst bei unruhigen Tieren strahlen die Behandler Ruhe aus und nehmen sich viel Zeit. Untersuchungen werden ausführlich besprochen, ohne Hektik oder das Gefühl von Massenabfertigung.",
+        "en": "Pet owners commend Dr. Wahle and his team for their composed and exceptionally empathetic approach. Even with nervous patients, the clinical staff maintains composure and takes ample time. Examinations are explained thoroughly, avoiding any sense of rush or assembly-line treatment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Liebevoller Umgang mit Hunden und Katzen",
+        "en": "Affectionate care for dogs and cats"
+      },
+      "text": {
+        "de": "In den Berichten wird die spürbare Tierliebe des gesamten Personals hervorgehoben. Sowohl Hunde als auch Katzen werden sanft und geduldig behandelt. Auch bei traurigen Abschieden oder sensiblen Behandlungen fühlen sich Patientenbesitzer verständnisvoll begleitet.",
+        "en": "Reviews emphasize the staff's genuine devotion and gentle demeanor toward dogs and cats. Animals are handled with patient care during checkups and treatments. Even during challenging medical moments or difficult farewells, owners feel compassionately supported."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Erfolgreiche Behandlungen und sichere Narkosen",
+        "en": "Successful treatments and safe anesthesia"
+      },
+      "text": {
+        "de": "Kunden berichten von hervorragenden medizinischen Ergebnissen bei Routineeingriffen und Notfällen. Behandlungen unter Narkose sowie die Überwachung bis zum vollständigen Aufwachen verlaufen zuverlässig, sodass Tierhalter volles Vertrauen in die Versorgung haben.",
+        "en": "Clients report outstanding clinical results for routine procedures and unexpected emergencies. Treatments requiring anesthesia, including monitoring until animals awaken fully, proceed smoothly, giving pet owners complete confidence in the veterinary practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie wird mit ängstlichen Tieren umgegangen?",
+        "en": "How are nervous or fearful pets handled?"
+      },
+      "a": {
+        "de": "Halter heben hervor, dass Dr. Wahle sehr ruhig agiert, was besonders unruhigen Hunden Sicherheit gibt.",
+        "en": "Owners emphasize that Dr. Wahle acts very calmly, which provides reassurance to restless and anxious dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wird das Tier nach Narkosen betreut?",
+        "en": "Are patients monitored following anesthesia?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von einer engmaschigen und fürsorglichen Nachbetreuung bis zum Aufwachen.",
+        "en": "Yes, clients report close and attentive monitoring until the animal is fully awake."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie funktioniert die Terminorganisation?",
+        "en": "How well organized are appointment bookings?"
+      },
+      "a": {
+        "de": "Besucher loben die zuverlässige Erreichbarkeit und strukturierte Planung ohne lange Wartezeiten.",
+        "en": "Visitors praise dependable phone accessibility and structured planning with minimal wait times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

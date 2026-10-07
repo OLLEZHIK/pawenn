@@ -1,0 +1,133 @@
+{
+  "slug": "dr-beate-degen",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.+Beate+Degen+Tier%C3%A4rztin/@50.952542,6.953503,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf2595856b3e6d:0x77c271ca78bb31e5!8m2!3d50.952542!4d6.953503!16s%2Fg%2F1tf7_x63?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Geschätzte Erfahrung bei vereinzelter Ablehnung",
+        "en": "Valued experience alongside isolated disapproval"
+      },
+      "text": {
+        "de": "Frau Dr. Degen wird von den meisten Kunden in Köln für ihre langjährige Erfahrung und hilfsbereite Art geschätzt. Tierhalter betonen ihr menschliches Engagement bei ernsten Erkrankungen und Wildtieren. Dem steht jedoch eine pointierte negative Bewertung gegenüber, die Haltern ohne weitere Begründung empfahl, die Praxis ganz zu meiden.",
+        "en": "Dr. Degen is appreciated by most clients in Cologne for her extensive experience and helpful demeanor. Pet owners highlight her human empathy when treating critical illnesses or injured wildlife. However, this contrasts with a pointed negative review that advised pet owners without further elaboration to avoid the practice entirely."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Einsatz für Katzen und verletzte Wildtiere",
+        "en": "Commitment to felines and injured wildlife"
+      },
+      "text": {
+        "de": "Katzenhalter berichten von einer einfühlsamen Begleitung ihrer Tiere bei Routineoperationen und schweren Lähmungen. Zudem zeigte das Praxisteam spontane Hilfsbereitschaft, als eine schwer verletzte Taube gebracht wurde, und erlöste das Tier sanft. Kunden schätzen den vorurteilslosen Einsatz für Schützlinge aller Art.",
+        "en": "Cat owners report compassionate handling of their pets during routine procedures and paralysis treatments. The team also showed spontaneous readiness to help when an injured wild pigeon was brought in, ensuring the animal was gently relieved of suffering. Clients value the clinic's dedicated approach toward animals in distress."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Erfolgreiche Kastrationen und gerettete Patienten",
+        "en": "Successful neutering surgeries and saved lives"
+      },
+      "text": {
+        "de": "Besitzer von Maine-Coon-Katzen schildern reibungslose Kastrationen mit sauberer Wundheilung und unkompliziertem Fädenziehen. In einem anderen Fall rettete die Ärztin einer verunfallten Katze das Leben, während andere Stellen zur Einschläferung geraten hatten. Die medizinischen Ergebnisse werden von zufriedenen Kunden als überzeugend bewertet.",
+        "en": "Owners of Maine Coon cats recount smooth neutering surgeries with clean healing and uncomplicated stitch removal. In another case, the veterinarian saved the life of an injured cat after other clinics had proposed euthanasia. Satisfied clients evaluate the medical treatment outcomes and diagnostic decisions as highly successful."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis Kastrationen bei Katzen durchgeführt?",
+        "en": "Are feline neutering procedures performed at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Katzenhalter berichten von reibungslosen Kastrationen mit guter Wundheilung und unkomplizierter Nachkontrolle.",
+        "en": "Yes, cat owners report smooth neutering surgeries with solid wound healing and straightforward checkups."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Nimmt die Praxis auch verletzte Wildtiere an?",
+        "en": "Does the practice accept injured wildlife?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben positiv hervor, dass eine verletzte Taube unkompliziert aufgenommen und vor Leiden bewahrt wurde.",
+        "en": "Yes, clients positively emphasize that an injured pigeon was taken in without red tape and relieved of pain."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet Dr. Degen Hausbesuche an?",
+        "en": "Does Dr. Degen provide veterinary home visits?"
+      },
+      "a": {
+        "de": "Ja, die Praxis bietet nach vorheriger Absprache auch Hausbesuche für Tierhalter im Kölner Stadtgebiet an.",
+        "en": "Yes, the veterinary surgery provides home visits within the Cologne urban area by prior arrangement."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
