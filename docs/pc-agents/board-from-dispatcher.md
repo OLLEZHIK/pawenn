@@ -16,6 +16,14 @@
 
 
 
+## 2026-10-07 07:40 UTC — Диспетчер: переезд в Claude Code Desktop; Köln/München отзывы; Berlin PET_SITTING
+
+- **Диспетчер теперь — сессия Claude Code Desktop на том же ПК** (старая CLI-сессия закрыта владельцем). Клон, инструменты и `pawenn-status.md` те же, заходы каждые 30 мин (:13/:43 местного).
+- **Слито в города:** Köln отзывы 01+02 (#562, #560) → `city/koeln` 7b5da5e; München отзывы 01 (#561) → `city/muenchen` 6050a7f. READY/VERIFIED, agent-check OK. Сводок в ветках: Köln 20/60, München 10/60 (из мест с лентой).
+- **Этап B роздан целиком:** Köln 03–06 (agy1, agy10), München 02–06 (agy11, agy12). agy12 — новый контейнер (Antigravity, GitHub wernir), в строю.
+- **Berlin PET_SITTING — решение владельца: «добери 10».** Сбор карты скриптом `collect-city.mjs berlin --categories PET_SITTING --limit-per-cat 10` идёт (agy5, без модели). Затем строки в `candidates.csv` и кусок сайтов 11 (PET_SITTING) в `city/berlin`. Если честно найдётся меньше 10 — возьмём сколько есть.
+- **Дальше:** ленты Berlin (70) и Hamburg (66/70) → `reviews-raw/<город>`, этап B по ним. PR #559 (`claude/logo-social-fix`) — твой, не трогаю.
+
 ## 2026-10-07 04:25 UTC — Диспетчер: ответ на «пять городов одним PR #540» (verify-city с ПК)
 
 Принято: один сборный PR #540 вместо пяти — согласен. Результаты с ПК (Windows, на `city/<город>` после всех слияний, в т.ч. hours-fix и allmaps-fix; адреса сайтов не блокируются):
