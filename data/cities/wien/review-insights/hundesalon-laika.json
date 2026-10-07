@@ -1,0 +1,147 @@
+{
+  "slug": "hundesalon-laika",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Laika/@48.2210641,16.3617339,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07d1fb3f4f51:0x3bf058cb9c395a72!8m2!3d48.2210641!4d16.3617339!16s%2Fg%2F11f5q0ggvc?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Gemischte Rückmeldungen zum Haarschnitt",
+        "en": "Mixed opinions on grooming precision"
+      },
+      "text": {
+        "de": "Während die Mehrheit der Kundschaft mit dem Schnittbild bei Maltesern oder Katzen sehr zufrieden ist und die saubere Schur schätzt, äußert eine Rezension deutliche Kritik. Bemängelt wurden ungleiche Längen und sichtbare Schnittspuren im Fell eines Shih Tzus. Die übrigen Besucher heben die handwerkliche Sorgfalt positiv hervor.",
+        "en": "While most clients express satisfaction with coat styling for Maltese dogs and longhair cats, one customer reports uneven trimming with noticeable scissor marks on a Shih Tzu. The remaining reviewers praise the tidy finish and care given to coat grooming, noting that their companions leave the salon looking neat and tidy."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Freundliche und geduldige Betreuung",
+        "en": "Friendly and caring salon approach"
+      },
+      "text": {
+        "de": "In den positiven Berichten wird die Friseurin als herzlich, aufmerksam und zuvorkommend beschrieben. Kunden schätzen die unaufgeregte Art, mit der sie auf die Wünsche der Halter eingeht und Tiere ruhig empfängt. Die persönliche Zuwendung sorgt dafür, dass sich Besucher bei der Übergabe ihrer Vierbeiner gut aufgehoben fühlen.",
+        "en": "Positive feedback characterizes the groomer as kind, attentive, and welcoming. Pet owners appreciate the calm attitude shown when receiving animals and addressing grooming requests. This attentive interaction helps owners feel comfortable when leaving their dogs or cats in the salon for their appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Ruhiger Umgang mit Hunden und Katzen",
+        "en": "Calm handling of dogs and cats"
+      },
+      "text": {
+        "de": "Mehrere Kunden heben hervor, dass Tiere den Friseurbesuch entspannt und ohne übermäßige Hektik erleben. Sowohl größere Hunde wie Huskys als auch Katzen werden einfühlsam behandelt, sodass sie sich während der Fellpflege beruhigen können. Die schonende Herangehensweise erleichtert empfindlichen Vierbeinern den Pflegetermin.",
+        "en": "Several clients emphasize that animals get through their appointments calmly and without stress. Both larger breeds like huskies and sensitive cats receive considerate handling that keeps them settled during coat work. This patient approach helps nervous pets tolerate clipping and brushing routines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden im Salon auch Katzen geschoren?",
+        "en": "Does the salon provide grooming for cats?"
+      },
+      "a": {
+        "de": "Ja, mehrere Rezensenten berichten über das regelmäßige Scheren von Langhaarkatzen.",
+        "en": "Yes, multiple reviewers report regular coat shearing and brushing for longhair cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Wie kurzfristig sind Termine verfügbar?",
+        "en": "How quickly can appointments be scheduled?"
+      },
+      "a": {
+        "de": "Kunden schätzen in ihren Bewertungen, dass Termine teils auch kurzfristig vereinbart werden können.",
+        "en": "Clients note in reviews that grooming appointments can often be arranged on relatively short notice."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Müssen Termine vorab gebucht werden?",
+        "en": "Are appointments required in advance?"
+      },
+      "a": {
+        "de": "Ja, der Salon arbeitet nach vorheriger Terminvereinbarung, die online gebucht werden kann.",
+        "en": "Yes, the salon operates by prior arrangement and provides an online booking system."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 4 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

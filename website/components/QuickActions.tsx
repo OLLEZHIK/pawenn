@@ -3,6 +3,7 @@
 import type { ClickType } from "@prisma/client";
 import { GlobeIcon, PhoneIcon, RouteIcon } from "./icons";
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { gaEvent } from "@/lib/analytics";
 
 interface QuickActionsProps {
   businessId: number;
@@ -16,6 +17,8 @@ interface QuickActionsProps {
 }
 
 function trackClick(businessId: number, type: ClickType) {
+  // GA4 too (only with the visitor's consent): call_click, web_click, route_click
+  gaEvent(`${type.toLowerCase()}_click`, { business_id: businessId });
   const referrerHost = document.referrer ? safeHost(document.referrer) : null;
   fetch("/api/click", {
     method: "POST",

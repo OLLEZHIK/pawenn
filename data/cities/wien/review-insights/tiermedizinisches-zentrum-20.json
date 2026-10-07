@@ -1,0 +1,178 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tiermedizinisches+Zentrum+20/@48.24363,16.3766157,17z/data=!3m1!4b1!4m6!3m5!1s0x476d06468dfeb401:0x93ed5b47b8daa9f0!8m2!3d48.24363!4d16.3766157!16s%2Fg%2F11b7fxfqsb?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "de": "Einfühlsames und kompetentes Ärzteteam",
+        "en": "Empathetic and competent veterinary staff"
+      },
+      "text": {
+        "de": "Tierhalter loben Dr. Nowak und sein Team für ihren engagierten, sehr herzlichen Einsatz und die ausführliche Beratung. Rezensenten betonen das große Vertrauen bei chirurgischen Eingriffen, wenngleich einzelne Kunden von Abweisungen am Telefon berichten.",
+        "en": "Pet owners commend Dr. Nowak and his team for their dedicated, warm approach and thorough consultation. Reviewers emphasize their great trust during surgical procedures, although isolated clients mention being turned away over the phone when calling for appointments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Erfolgreiche Operationen und Lebensrettungen",
+        "en": "Successful surgeries and life-saving interventions"
+      },
+      "text": {
+        "de": "Mehrere Rezensenten bedanken sich für geglückte lebensrettende Eingriffe bei betagten Hunden sowie für reibungslos verlaufene Katzenoperationen. Die medizinische Versorgung und die Nachsorge werden von Tierbesitzern als hervorragend und zuverlässig beschrieben.",
+        "en": "Multiple reviewers express deep gratitude for successful life-saving operations in elderly dogs as well as smooth surgical procedures in cats. The veterinary care and attentive post-operative support are described as outstanding and dependable by pet owners."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Kritik an Wartezeiten und Terminknappheit",
+        "en": "Criticism of waiting times and scheduling"
+      },
+      "text": {
+        "de": "Während akut erkrankte Tiere gelegentlich rasch zwischengeschoben werden, beklagen andere Tierhalter sehr lange Wartezeiten trotz vereinbarten Termins. Zudem berichten Kunden über Engpässe bei der Terminvergabe, wodurch Notfallpatienten teils abgewiesen wurden.",
+        "en": "While critically ill pets are occasionally squeezed in promptly, other owners complain of very long waiting times despite having a scheduled appointment. Customers also note tight appointment availability, which occasionally led to urgent patients being turned away."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wer leitet das Tiermedizinische Zentrum 20?",
+        "en": "Who heads Tiermedizinisches Zentrum 20?"
+      },
+      "a": {
+        "de": "Die Praxis wird von Tierarzt Dr. Nowak gemeinsam mit seinem Team geleitet.",
+        "en": "The clinic is directed by veterinarian Dr. Nowak alongside his medical staff."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden vor Ort Operationen bei Katzen und Hunden durchgeführt?",
+        "en": "Are surgical operations for cats and dogs performed here?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von erfolgreich durchgeführten Operationen bei Katzen und Hunden.",
+        "en": "Yes, customers report successfully performed surgeries in cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Kann man im Notfall ohne Voranmeldung kommen?",
+        "en": "Can pet owners arrive without prior notice in emergencies?"
+      },
+      "a": {
+        "de": "Aufgrund knapper Terminkapazitäten wird eine vorherige telefonische Kontaktaufnahme dringend angeraten.",
+        "en": "Due to tight appointment schedules, calling ahead before arriving is strongly advised."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 4 Tagen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ],
+  "slug": "tiermedizinisches-zentrum-20",
+  "reviews_in_period": 10
+}
