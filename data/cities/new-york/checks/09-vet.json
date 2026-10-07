@@ -1,0 +1,35 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "west-village-veterinary-hospital",
+    "riverside-veterinary-care-on-columbus",
+    "franklin-ave-animal-hospital",
+    "animal-clinic-of-queens",
+    "bedford-stuyvesant-veterinary-clinic",
+    "carnegie-hill-veterinarians",
+    "park-slope-veterinary-center",
+    "bluepearl-pet-hospital-downtown-nyc",
+    "broadway-animal-hospital-of-riverdale",
+    "heights-animal-hospital"
+  ],
+  "hash": "a469dae4e549a8dba4805d3f6b9a4165f7e2cda327b4b860281b2dabea9e5e57",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T12:53:04.325Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-07T12:56:37.013Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T12:57:22.421Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
