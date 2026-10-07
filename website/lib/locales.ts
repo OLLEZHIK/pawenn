@@ -10,7 +10,7 @@ export function isLocale(value: string): value is Locale {
 }
 
 /** BCP 47 tag for dates and plural rules. */
-export const DATE_LOCALE: Record<Locale, string> = { en: "en-GB", sk: "sk-SK", pl: "pl-PL", cs: "cs-CZ", de: "de-AT" };
+export const DATE_LOCALE: Record<Locale, string> = { en: "en-GB", sk: "sk-SK", pl: "pl-PL", cs: "cs-CZ", de: "de-DE" };
 
 /** Prefix a locale-neutral path ("/grooming/bratislava/") for a locale.
  *  Every language has its prefix, English too (language model v2, owner
