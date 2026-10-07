@@ -29,7 +29,7 @@ import { SITE_URL } from "@/lib/site";
 import { pricesPath } from "@/lib/priceSlugs";
 import { FilterPanel } from "./FilterPanel";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
-import { cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
+import { cityClock, cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
 import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/listingSort";
 import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -151,7 +151,7 @@ export async function CategoryListing({
           .slice(0, 5)
       : [];
   const opensLabel = (next: { inDays: number; minute: number }) => {
-    const time = formatMinutes(next.minute);
+    const time = formatMinutes(next.minute, cityClock(city));
     if (next.inDays === 0) return t.vetNow.opensToday(time);
     if (next.inDays === 1) return t.vetNow.opensTomorrow(time);
     return t.vetNow.opensLater(dateInDays(next.inDays, locale, cityTimezone(city)), time);

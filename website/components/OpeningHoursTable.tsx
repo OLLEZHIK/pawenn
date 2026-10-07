@@ -1,4 +1,4 @@
-import { DAYS, formatMinutes, hoursFromStored } from "@/lib/hours";
+import { DAYS, formatMinutes, hoursFromStored, type Clock } from "@/lib/hours";
 import { formatDate, getDictionary, type Locale } from "@/lib/i18n";
 import { ClockIcon } from "./icons";
 import { OpenNowBadge } from "./OpenNowBadge";
@@ -11,12 +11,14 @@ export function OpeningHoursTable({
   locale,
   sourceUrl,
   observedAt,
+  clock = "h23",
 }: {
   hours: unknown;
   timeZone: string;
   locale: Locale;
   sourceUrl: string | null;
   observedAt: Date | null;
+  clock?: Clock;
 }) {
   const parsed = hoursFromStored(hours);
   if (!parsed) return null;
@@ -37,11 +39,12 @@ export function OpeningHoursTable({
           const value =
             h.kind === "closed"
               ? t.closedDay
-              : h.kind === "24h"
+              : h.kind === "24h" || (h.kind === "intervals" && h.intervals.length === 1 && h.intervals[0][0] === 0 && h.intervals[0][1] === 24 * 60)
                 ? t.allDay
                 : h.kind === "by-appointment"
                   ? t.byAppointment
-                  : h.intervals.map(([a, b]) => `${formatMinutes(a)}–${formatMinutes(b)}`).join(", ");
+                  : // Word joiners keep one interval on one line; two intervals wrap at the comma.
+                    h.intervals.map(([a, b]) => `${formatMinutes(a, clock)}\u2060–\u2060${formatMinutes(b, clock)}`).join(", ");
           return (
             <div key={day} className="flex justify-between gap-4 py-2">
               <dt className="text-foreground/60">{t.days[day]}</dt>
