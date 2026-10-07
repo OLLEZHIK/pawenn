@@ -8,6 +8,7 @@ import { LANG_COOKIE, LOCALES } from "@/lib/locales";
 import { localeOfPath } from "@/lib/localeSwitch";
 import { ChevronDownIcon } from "./icons";
 import { usePageAlternates } from "./useHead";
+import { gaEvent } from "@/lib/analytics";
 
 // The page's language follows its URL (search engines send people to
 // the right version via hreflang). The switch offers exactly the page's
@@ -20,6 +21,7 @@ const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "P
 // Remembered for the root "/" only (docs/design-plan.md 2.2): a
 // functional cookie set by the visitor's own choice.
 function remember(l: Locale) {
+  gaEvent("language_switch", { language: l });
   document.cookie = `${LANG_COOKIE}=${l}; Max-Age=31536000; Path=/; SameSite=Lax`;
 }
 

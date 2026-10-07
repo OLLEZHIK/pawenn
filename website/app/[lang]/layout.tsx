@@ -4,7 +4,9 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { LOCALES, isLocale } from "@/lib/i18n";
+import { LOCALES, getDictionary, isLocale } from "@/lib/i18n";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { measurementId } from "@/lib/analytics";
 
 const bodyFont = Inter({
   subsets: ["latin", "latin-ext"],
@@ -34,6 +36,8 @@ export default async function RootLayout({
 }>) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
+  const gaId = measurementId(process.env.NEXT_PUBLIC_GA_ID);
+  const t = getDictionary(lang);
 
   return (
     <html lang={lang} className={`${headingFont.variable} ${bodyFont.variable}`}>
@@ -42,6 +46,15 @@ export default async function RootLayout({
         {children}
         <Footer locale={lang} />
         <Analytics />
+        {gaId && (
+          <GoogleAnalytics
+            id={gaId}
+            text={t.consent.text}
+            allow={t.consent.allow}
+            decline={t.consent.decline}
+            policyLabel={t.footer.privacy}
+          />
+        )}
       </body>
     </html>
   );
