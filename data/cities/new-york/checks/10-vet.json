@@ -1,0 +1,35 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "small-door-veterinary-west-village",
+    "pawsitive-veterinary-of-new-york",
+    "completecare-veterinary-center",
+    "ivy-pets-midwood",
+    "vetco-total-care",
+    "bay-street-animal-hospital",
+    "tri-boro-animal-hospital",
+    "veterinary-care-group-whitestone",
+    "brilliant-veterinary-care",
+    "gotham-veterinary-center"
+  ],
+  "hash": "cb0bb4fa0b036108252b531d5c7ce42dfef2d89b9ffd40b1b56ad998d6062c5c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T12:43:48.928Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-07T12:49:35.726Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T12:50:33.155Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
