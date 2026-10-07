@@ -59,12 +59,13 @@ for (const g of guides) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(s.checked)) err(`source ${s.url}: no checked date (YYYY-MM-DD)`);
   }
   for (const c of g.categories) if (!ALL_CATEGORIES.includes(c)) err(`unknown category ${c}`);
+  if (g.city && !fs.existsSync(path.join(process.cwd(), "..", "data", "cities", g.city, "city.json"))) err(`city "${g.city}": no data/cities/${g.city}`);
   for (const m of g.body.matchAll(/^::(\w+)\s+(\S+)(?:\s+(\S+))?\s*$/gm)) {
     if (!["price", "places"].includes(m[1])) err(`unknown block ::${m[1]}`);
     if (!ALL_CATEGORIES.includes(m[2] as (typeof ALL_CATEGORIES)[number])) err(`::${m[1]}: unknown category ${m[2]}`);
     if (m[1] === "price" && (!m[3] || !priceCodes.has(m[3]))) err(`::price: no prices for service "${m[3] ?? ""}"`);
   }
-  for (const m of g.body.matchAll(/\]\((\/[a-z]{2}\/(?:poradna|poradnik|guides)\/([a-z0-9-]+)\/)\)/g)) {
+  for (const m of g.body.matchAll(/\]\((\/[a-z]{2}\/(?:poradna|poradnik|guides|ratgeber)\/([a-z0-9-]+)\/)\)/g)) {
     const [, locale] = m[1].split("/");
     if (!guides.some((o) => o.locale === locale && o.slug === m[2]) && !fs.existsSync(path.join(root, locale, `${m[2]}.md`)))
       err(`link to a guide that does not exist: ${m[1]}`);

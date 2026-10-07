@@ -17,6 +17,8 @@
 | sk | `/sk/poradna/` | `/sk/poradna/cipovanie-psa/` |
 | pl | `/pl/poradnik/` | `/pl/poradnik/czipowanie-psa/` |
 | en | `/en/guides/` | `/en/guides/travel-eu-dog/` |
+| cs | `/cs/poradna/` | `/cs/poradna/cipovani-psa/` |
+| de | `/de/ratgeber/` | `/de/ratgeber/hundesteuer-berlin/` |
 
 - Файл статьи: `website/content/guides/<язык>/<slug>.md`. Slug — на
   языке статьи, главный запрос темы (`cipovanie-psa`, не `chip-sk-1`).
@@ -46,6 +48,9 @@ sources:
   160.
 - `categories` — к каким категориям статья относится: на их страницах
   (в стране статьи) появится блок «Užitočné vedieť» со ссылкой на неё.
+- `city` — необязательно: slug города для темы одного города
+  («Hundesteuer Berlin»). Тогда ссылка в блоке «Gut zu wissen» есть только
+  на страницах этого города и стоит первой; без `city` — во всей стране.
 - `sources` — **официальные источники** (ведомство, закон, сайт
   города) с датой проверки. Каждый факт статьи должен быть в одном из
   них. Нет источника — факта в статье нет.

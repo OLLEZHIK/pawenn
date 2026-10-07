@@ -207,8 +207,21 @@ export function GuidesHub({ locale }: { locale: Locale }) {
 }
 
 /** "Good to know" on a category page: guides on the same topic, same language and country. */
-export function GuideLinks({ locale, category, country }: { locale: Locale; category: BusinessCategory; country: string | null | undefined }) {
-  const guides = guidesFor(locale, category, country).slice(0, 4);
+export function GuideLinks({
+  locale,
+  category,
+  country,
+  citySlug,
+}: {
+  locale: Locale;
+  category: BusinessCategory;
+  country: string | null | undefined;
+  citySlug?: string;
+}) {
+  // City-only guides first: on a Berlin page, "Hundesteuer Berlin" before country-wide topics.
+  const guides = guidesFor(locale, category, country, citySlug)
+    .sort((a, b) => Number(!!b.city) - Number(!!a.city))
+    .slice(0, 4);
   if (guides.length === 0) return null;
   return (
     <section className="mt-10">

@@ -1,0 +1,147 @@
+{
+  "slug": "brodnowskie-centrum-weterynaryjne",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Br%C3%B3dnowskie+Centrum+Weterynaryjne/data=!4m7!3m6!1s0x471eceae297c8605:0x4c56adc2c2032ed2!8m2!3d52.2890337!4d21.0317193!16s%2Fg%2F11c46lq0f2!19sChIJBYZ8Ka7OHkcR0i4DwsKtVkw?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Helpful veterinary doctors facing communication critiques",
+        "pl": "Pomocny personel i rozbieżne oceny obsługi"
+      },
+      "text": {
+        "en": "Several pet owners praise the attending veterinarians for their kindness, dedication, and prompt medical assistance when treating chronic feline ailments. At the same time, dissatisfied clients voice sharp criticism regarding unpleasant staff behavior, perceived lack of empathy, and unprofessional treatment during stressful clinic visits.",
+        "pl": "Część opiekunów chwali lekarzy za życzliwość, profesjonalne podejście i szybką pomoc niesioną kotom leczonym w placówce od wielu lat. Jednocześnie w opiniach pojawiają się ostre głosy krytyczne dotyczące opryskliwego zachowania personelu, braku wyczucia oraz nieprzyjemnej atmosfery podczas trudnych wizyt z chorym czworonogiem."
+      },
+      "mentions": 5,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Successful surgical operations and routine care",
+        "pl": "Pomyślne zabiegi chirurgiczne i profilaktyka"
+      },
+      "text": {
+        "en": "Clients report very positive results from surgical procedures such as neutering and spaying, as well as dependable long-term therapy for household cats. Caregivers emphasize that post-operative recovery instructions are provided clearly, giving owners reassurance and confidence regarding their pets' swift recuperation.",
+        "pl": "Klienci zgłaszają bardzo pomyślne rezultaty rutynowych operacji chirurgicznych, takich jak kastracja i sterylizacja, a także wieloletniej terapii kotów. Opiekunowie podkreślają, że zalecenia pozabiegowe są przekazywane w sposób klarowny, co daje właścicielom poczucie bezpieczeństwa i spokoju o szybki powrót pupila do zdrowia."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Clear pre-op instructions alongside communication grievances",
+        "pl": "Szczegółowe wyjaśnienia i zastrzeżenia do komunikacji"
+      },
+      "text": {
+        "en": "Pet owners appreciate thorough pre-procedure explanations where the surgical course and aftercare are outlined step by step with great precision. Conversely, negative feedback highlights poor communication standards from individual staff members, leaving some visitors feeling dismissed and upset by the tone of dialogue.",
+        "pl": "Opiekunowie doceniają szczegółowe objaśnienia przed zabiegami, gdzie przebieg procedury i opieka domowa są tłumaczone krok po kroku z dużą dokładnością. Z drugiej strony w opiniach pojawiają się zarzuty wobec niskiego poziomu kultury osobistej części personelu, co sprawia, że niektórzy klienci czuli się zlekceważeni."
+      },
+      "mentions": 3,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What surgical operations are carried out at the center?",
+        "pl": "Jakie zabiegi chirurgiczne są wykonywane w centrum?"
+      },
+      "a": {
+        "en": "The clinic performs procedures such as spaying, neutering, and routine soft-tissue surgical operations.",
+        "pl": "Placówka wykonuje m.in. zabiegi kastracji, sterylizacji oraz podstawowe operacje chirurgii miękkiej."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do caregivers receive guidance prior to surgical procedures?",
+        "pl": "Czy przed zabiegiem opiekun otrzymuje zalecenia postępowania?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that doctors clearly outline the procedure steps and provide explicit post-surgery guidelines.",
+        "pl": "Tak, klienci potwierdzają, że lekarze szczegółowo wyjaśniają przebieg zabiegu i przekazują jasne wytyczne pozabiegowe."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment scheduling required for spaying and neutering?",
+        "pl": "Czy na sterylizację lub kastrację obowiązują wcześniejsze zapisy?"
+      },
+      "a": {
+        "en": "Yes, surgical operations require scheduled appointment slots and pre-procedural fasting for the animal.",
+        "pl": "Tak, zabiegi chirurgiczne wymagają wcześniejszego uzgodnienia terminu i przygotowania zwierzęcia na czczo."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
