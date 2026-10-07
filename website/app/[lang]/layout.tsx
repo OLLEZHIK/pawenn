@@ -6,7 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LOCALES, getDictionary, isLocale } from "@/lib/i18n";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
-import { measurementId } from "@/lib/analytics";
+import { gaMeasurementId } from "@/lib/analytics";
 
 const bodyFont = Inter({
   subsets: ["latin", "latin-ext"],
@@ -36,7 +36,7 @@ export default async function RootLayout({
 }>) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
-  const gaId = measurementId(process.env.NEXT_PUBLIC_GA_ID);
+  const gaId = gaMeasurementId();
   const t = getDictionary(lang);
 
   return (

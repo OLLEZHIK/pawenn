@@ -1,8 +1,7 @@
 // Google Analytics 4 behind the visitor's consent (owner, 2026-10-07:
 // "GA4 + banner"). Nothing from Google loads until the visitor presses
 // "allow"; the choice is kept in this browser (localStorage) and can be
-// changed from the footer ("Cookie settings"). Runs only when the
-// measurement ID is set (NEXT_PUBLIC_GA_ID on Vercel).
+// changed from the footer ("Cookie settings").
 
 export const CONSENT_KEY = "pawenn-analytics-consent";
 /** Fired when the choice changes or the footer link asks to choose again. */
@@ -15,6 +14,15 @@ declare global {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
   }
+}
+
+// The site's GA4 stream (owner, 2026-10-07). Public by nature: every page
+// that loads GA4 shows it. NEXT_PUBLIC_GA_ID on Vercel overrides it; "off"
+// switches GA4 and the banner off without a code change.
+const GA_STREAM = "G-L1HVFGV7ZX";
+
+export function gaMeasurementId(): string | null {
+  return measurementId(process.env.NEXT_PUBLIC_GA_ID ?? GA_STREAM);
 }
 
 /** "G-XXXXXXX" or null: an ID of another shape is not put into a script URL. */
