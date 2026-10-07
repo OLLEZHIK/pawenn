@@ -1,0 +1,145 @@
+{
+  "slug": "tierarztpraxis-sonja-hedinger",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Sonja+Hedinger/@53.5800078,10.1554909,17z/data=!3m1!4b1!4m6!3m5!1s0x47b189bdcf848e0f:0xae1064dc6451ee89!8m2!3d53.5800078!4d10.1554909!16s%2Fg%2F11b6dfgklx?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "de": "Engagierte Ärztin bei geteiltem Empfang",
+        "en": "Caring veterinarian with mixed desk service"
+      },
+      "text": {
+        "de": "Frau Hedinger selbst wird von vielen Patientenbesitzern als herzliche, kompetente und verständnisvolle Tierärztin gelobt, die Diagnosen geduldig erklärt. Demgegenüber äußern mehrere Rezensenten deutliche Kritik an der Sprechstundenhilfe am Empfang, die in akuten Situationen als unfreundlich und abweisend empfunden wurde.",
+        "en": "Sonja Hedinger herself is praised by many pet owners as a cordial, knowledgeable, and empathetic vet who explains diagnoses thoroughly. In contrast, several reviewers voice clear criticism regarding the front desk reception staff, who were perceived as unfriendly and dismissive in urgent circumstances."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Liebevolle Betreuung mit kritischen Ausnahmen",
+        "en": "Loving care alongside critical incidents"
+      },
+      "text": {
+        "de": "Mehrere Tierhalter heben den feinfühligen und professionellen Umgang mit Hunden und Katzen während regulärer Termine hervor. Allerdings berichtet ein Katzenhalter von einer traumatischen Erfahrung, bei der ein schwer krankes Tier in der Praxis nicht mehr angenommen und an eine entfernte Klinik verwiesen wurde.",
+        "en": "Multiple owners highlight the delicate and skilled handling shown to dogs and cats during routine visits. However, one cat guardian recounts a distressing experience where a severely ill animal was turned away at the reception desk and redirected to a distant clinic."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Erhebliche Hürden bei Notfallterminen",
+        "en": "Significant barriers to emergency appointments"
+      },
+      "text": {
+        "de": "Während Stammkunden vereinzelt von kurzfristiger Hilfe bei akuten Beschwerden berichten, bemängeln andere Rezensenten eine strikte Abweisung von Notfällen ohne vorherige Terminabsprache. Betroffene schildern, dass sie trotz akuter Notlage weggeschickt wurden und weite Wege zu anderen Notfallpraxen auf sich nehmen mussten.",
+        "en": "While regular clients occasionally report prompt assistance for acute conditions, other reviewers criticize the strict rejection of urgent emergency cases without pre-booked slots. Distressed owners describe being turned away during critical emergencies, requiring them to travel long distances to alternative clinics."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Notfälle ohne Termin in die Praxis kommen?",
+        "en": "Can emergency walk-in cases be seen without an appointment?"
+      },
+      "a": {
+        "de": "Kundenrezensionen weisen darauf hin, dass Notfälle ohne Voranmeldung am Empfang abgewiesen werden können.",
+        "en": "Customer reviews indicate that emergencies without prior appointments risk being turned away at the front desk."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Nimmt sich Tierärztin Sonja Hedinger Zeit für Erklärungen?",
+        "en": "Does vet Sonja Hedinger take time to explain medical issues?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen loben die ausführlichen und verständnisvollen Beratungsgespräche mit der Ärztin.",
+        "en": "Yes, owners commend the thorough and compassionate consultations provided by the doctor."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Hunde und Katzen in der Praxis gleichermaßen betreut?",
+        "en": "Are dogs and cats treated equally at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Rezensionen schildern Behandlungen für Hunde und Katzen, weisen jedoch auf unterschiedliche Erfahrungen am Empfang hin.",
+        "en": "Yes, reviews describe treatment for both dogs and cats, though noting varying experiences at reception."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
