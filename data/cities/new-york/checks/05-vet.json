@@ -1,0 +1,40 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "queens-animal-hospital",
+    "brooklyn-veterinary-group",
+    "williamsburg-veterinary-clinic",
+    "veg-er-for-pets-chelsea",
+    "middletown-animal-clinic",
+    "sheepshead-bay-veterinary-group",
+    "astoria-veterinary-group",
+    "vinegar-hill-veterinary-group-dumbo",
+    "williamsburg-animal-clinic",
+    "maspeth-animal-hospital"
+  ],
+  "hash": "86d9cf78d34760c13e29d5a5673b1fa4d30a1b3251cd08767a595e61c290bdf3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T13:29:19.898Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-07T13:35:04.623Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-07T13:36:36.887Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T13:37:57.601Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
