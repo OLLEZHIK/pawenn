@@ -53,14 +53,18 @@ const slugs = new Set(
     .map((r) => r.slug),
 );
 
-// "2 miesiące temu" / "pred 3 mesiacmi" / "a year ago" -> months (days and weeks = 0).
+// "2 miesiące temu" / "pred 3 mesiacmi" / "vor 4 Monaten" / "před 2 měsíci" / "a year ago" -> months
+// (days, weeks, hours and "yesterday/today" = 0). "Bearbeitet: vor …" / "Edited …" prefixes are fine.
 function monthsFromAgo(ago: string): number | null {
   const s = ago.toLowerCase();
-  if (/(dzień|dni|dnia|dňom|dňami|deň|dni|day|week|tydz|týž|tyd|hour|godz|hod)/.test(s)) return 0;
+  // de: Tag(en), Woche(n), Stunde(n), Minute(n), gestern, heute; cs: den/dny/dní, týden/týdny, hodin, minut
+  if (/(dzień|dni|dnia|dňom|dňami|deň|day|week|tydz|týž|tyd|hour|godz|hod|\btage?n?\b|woche|stunde|\bstd\b|minut|gestern|heute|\bden\b|\bdny\b|\bdní\b|týden|týdn|hodin)/.test(s)) return 0;
   const n = s.match(/\d+/);
   const k = n ? Number(n[0]) : 1;
-  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year)/.test(s)) return 12 * k;
-  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month)/.test(s)) return k;
+  // years: pl rok/lat, sk rok, en year, de Jahr(en), cs rok/roky/let
+  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year|jahr|\blet\b|\blety\b)/.test(s)) return 12 * k;
+  // months: pl miesiąc, sk mesiac, en month, de Monat(en), cs měsíc
+  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month|monat|měsíc|měsíci|měsíce|měsíců)/.test(s)) return k;
   return null;
 }
 

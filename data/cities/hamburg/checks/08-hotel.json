@@ -1,0 +1,35 @@
+{
+  "chunk": "08-hotel",
+  "kind": "places",
+  "slugs": [
+    "grap-tanja-katzenpension",
+    "shyva-hundezentrum",
+    "daily-dogs-alles-fuer-ihren-hund",
+    "conny-sielke",
+    "pico-bello-hundepension-und-friseur"
+  ],
+  "hash": "628632ea52d667da213892f2eccf786f4a1e307ec07dc231e5204c86a0145434",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T19:14:51.001Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-06T19:18:36.981Z",
+      "result": "FAIL",
+      "listed": 20
+    },
+    {
+      "at": "2026-10-06T19:23:21.713Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T19:24:12.555Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
