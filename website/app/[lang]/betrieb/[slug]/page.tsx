@@ -8,6 +8,14 @@ import { isLocale } from "@/lib/i18n";
 // /business/{slug}/ (app/[lang]/business).
 const SEGMENT = "betrieb";
 
+// Built on the first visit, then served from Vercel's cache until the next
+// deploy (owner, 2026-10-07: speed). The data only changes with a deploy and
+// "open now" is computed in the browser; before this every visit rendered
+// the page again in the function.
+export function generateStaticParams() {
+  return [];
+}
+
 interface PageParams {
   lang: string;
   slug: string;
