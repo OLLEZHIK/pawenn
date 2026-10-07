@@ -7,6 +7,8 @@ import { getDictionary, inCity, localesForCity, type Locale } from "@/lib/i18n";
 import { Logo } from "./Logo";
 import { ShieldCheckIcon } from "./icons";
 import { GUIDE_TEXT, guidesPath, listGuides } from "@/lib/guides";
+import { measurementId } from "@/lib/analytics";
+import { ConsentSettingsLink } from "./GoogleAnalytics";
 
 export async function Footer({ locale }: { locale: Locale }) {
   const [defaultCity, allCities] = await Promise.all([getDefaultCity(), getAllCities()]);
@@ -62,6 +64,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           <FooterColumn title={t.legal}>
             <FooterLink href="/en/privacy-policy/">{t.privacy}</FooterLink>
             <FooterLink href="/en/terms-of-use/">{t.terms}</FooterLink>
+            {measurementId(process.env.NEXT_PUBLIC_GA_ID) && <ConsentSettingsLink label={getDictionary(locale).consent.settings} />}
           </FooterColumn>
         </div>
 
