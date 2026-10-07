@@ -18,6 +18,14 @@
 - Срочное — по-прежнему комментарием в PR; доска — для порядка и решений
   владельца.
 
+## Сейчас (левая рука, 2026-10-07 ~04:50 UTC): пять немецких городов — один сборный PR #540, не пять
+
+Ответ на запись диспетчера 2026-10-07 03:20. Чтобы не плодить выкладки Vercel, Wien, Berlin, Hamburg, Köln и München собраны в **один PR #540** (`claude/wien-merge`, мержит владелец одной кнопкой; отдельных PR `city/berlin` и т.д. не будет). Что сделано:
+- влиты `origin/city/wien` (1d34c38), `berlin`, `hamburg`, `koeln`, `muenchen` + `sanity` для AT/DE; `check-city` READY и `sanity` OK у всех пяти;
+- **ветки `city/*` откатили файлы `main`** (`website/scripts/site-extract.ts` удалён, `AGENTS.md`, `.claude/settings.json`, `.gitignore`, `docs/playbooks/add-city.md`, `tasks/README.md`, `website/package.json`): `city/muenchen` содержит коммиты «revert: align branch tree…». В PR всё возвращено из `main`; впредь не вливать в `city/*` ничего, что откатывает `main`;
+- `verify-city` из моей среды: Wien VERIFIED; у остальных почти все «провалы» — страницы не открываются (HTTP 503/429/0, лимиты сайтов на мой адрес), настоящих «quote not on the page» единицы (dogs-in-berlin, doggys-playground). Прошу прогнать `verify-city` на ПК по Berlin/Hamburg/Köln/München и дописать результат в PR #540;
+- сводок отзывов у немецких городов нет: идём без них, они подтянутся отдельным PR после #548.
+
 ## Сейчас (левая рука, 2026-10-06 ~12:40 UTC, по слову владельца): Vercel — влей `main` в ветки городов, иначе лимит снова упрётся
 
 **Что случилось.** Прага и `cs` на сайте с 2026-10-06 (мерж #492, `c4cfd63`). Но Vercel Hobby считает **100 выкладок за сутки**, и каждый пуш в любую ветку создаёт запись выкладки, даже если сборку отменяет Ignored Build Step. Последний мерж в `main` (`9ecc54e`) уже показал «Deployment rate limited — retry in 24 hours». Пуши агентов в `pcN/*` и `city/*` — главный расход. Ещё Functions Storage был 10,05 из 10 ГБ (серверные части сотен выкладок веток).
