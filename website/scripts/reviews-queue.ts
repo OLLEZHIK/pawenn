@@ -5,14 +5,15 @@
 // places that make the best card.
 //
 //   npm run reviews-queue -- krakow
-//   npm run reviews-queue -- krakow --limit=40 --min-ratings=20
+//   npm run reviews-queue -- krakow --limit=40 --min-ratings=5
 //   npm run reviews-queue -- krakow --slugs      (slugs only, one per line)
 //
 // Order = popularity first (number of Google ratings), then what makes the
 // card look complete: own site, logo, prices, hours. A place without a
 // summary file, with enough ratings, is in the queue. It does not know the
 // number of text reviews - the collector measures that, and the writer skips
-// a place with fewer than 5 text reviews in 24 months.
+// a place with fewer than 3 text reviews in 24 months (owner, 2026-10-07:
+// was 5; and from 5 Google ratings, was 20).
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -21,12 +22,12 @@ type Row = Record<string, string>;
 
 const city = process.argv[2];
 if (!city || city.startsWith("--")) {
-  console.error("Usage: npm run reviews-queue -- <city> [--limit=N] [--min-ratings=20] [--slugs]");
+  console.error("Usage: npm run reviews-queue -- <city> [--limit=N] [--min-ratings=5] [--slugs]");
   process.exit(2);
 }
 const arg = (name: string) => process.argv.find((a) => a.startsWith(`--${name}=`))?.slice(name.length + 3);
 const limit = Number(arg("limit") ?? 0);
-const minRatings = Number(arg("min-ratings") ?? 20);
+const minRatings = Number(arg("min-ratings") ?? 5);
 const slugsOnly = process.argv.includes("--slugs");
 
 const dir = path.join(process.cwd(), "..", "data", "cities", city);

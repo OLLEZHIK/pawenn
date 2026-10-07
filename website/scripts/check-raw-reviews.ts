@@ -16,11 +16,14 @@
 // end of the list (`complete: true` = the collector scrolled that far).
 //
 // Prints per place how many text reviews fall in 6 / 12 / 24 months, which
-// period the summary takes (shortest with >= 5) or "skip" (< 5 in 24 months),
+// period the summary takes (shortest with >= 5, else 24 months with >= 3) or
+// "skip" (< 3 in 24 months),
 // and exits 1 on a malformed file.
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
+
+const MIN_TEXT_REVIEWS = 3;
 
 type Review = { ago: string; months: number; stars: number; text: string };
 type Raw = {
@@ -106,13 +109,16 @@ for (const f of files) {
   });
   const count = (limit: number) => (d.reviews ?? []).filter((r) => r.months < limit).length;
   const [m6, m12, m24] = [count(6), count(12), count(24)];
-  const period = m6 >= 5 ? "6" : m12 >= 5 ? "12" : m24 >= 5 ? "24" : "skip";
+  // Shortest period with 5 text reviews; with fewer, all 24 months from 3 up
+  // (owner, 2026-10-07: "можешь делать по трём" - an empty block looks worse
+  // than a short summary that says it rests on 3 reviews).
+  const period = m6 >= 5 ? "6" : m12 >= 5 ? "12" : m24 >= MIN_TEXT_REVIEWS ? "24" : "skip";
   if (problems.length) {
     failed = true;
     console.log(`FAIL ${slug}`);
     for (const p of problems.slice(0, 6)) console.log(`  - ${p}`);
   }
-  rows.push(`${slug} | ${m6} / ${m12} / ${m24} | ${period === "skip" ? "skip (< 5 in 24 months)" : `summary for ${period} months`}`);
+  rows.push(`${slug} | ${m6} / ${m12} / ${m24} | ${period === "skip" ? `skip (< ${MIN_TEXT_REVIEWS} in 24 months)` : `summary for ${period} months`}`);
 }
 console.log("\nslug | text reviews in 6 / 12 / 24 months | period");
 for (const r of rows) console.log(r);

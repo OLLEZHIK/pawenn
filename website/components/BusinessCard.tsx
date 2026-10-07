@@ -11,6 +11,9 @@ import { GoogleRating } from "./GoogleRating";
 import { ArrowRightIcon, MapPinIcon, RouteIcon } from "./icons";
 import { PriceTier } from "./PriceTier";
 import type { PriceLevel } from "@/lib/priceMarket";
+import { logoAspect } from "@/lib/logoSize";
+import { money } from "@/lib/money";
+import { parseReviewInsights, type InsightCard } from "@/lib/reviewInsights";
 
 interface BusinessCardProps {
   business: BusinessWithRelations;
@@ -28,6 +31,29 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
   const rating = averageRating(business.reviews);
   const description = cardDescription(business, locale);
   const accent = CATEGORY_THEME[business.category].accent;
+  // Wide wordmark logos get a wide tile; in a square one they shrank to a
+  // thin line and the card looked logo-less (owner, 2026-10-07).
+  const aspect = business.logoFile ? logoAspect(business.logoFile) : null;
+  const tile =
+    aspect !== null && aspect >= 2.2
+      ? "h-14 w-24 sm:h-16 sm:w-28"
+      : aspect !== null && aspect >= 1.5
+        ? "h-14 w-[4.75rem] sm:h-16 sm:w-[5.5rem]"
+        : "h-14 w-14 sm:h-16 sm:w-16";
+  // One line from the review summary under the rating (owner, 2026-10-07):
+  // the most-mentioned praise, else the most-mentioned topic as it is.
+  const insights = parseReviewInsights(business.reviewInsights, locale);
+  const highlight = insights ? pickHighlight(insights.cards) : null;
+  // A price for every place that has one: the € level when the city has a
+  // market to compare with, otherwise "from 45 €" (owner, 2026-10-07).
+  const fromPrice =
+    priceTier === null
+      ? business.priceItems
+          .filter((p) => !p.partial && !p.unit)
+          .map((p) => ({ value: Number(p.priceFrom), currency: p.currency }))
+          .filter((p) => p.value > 0)
+          .sort((a, b) => a.value - b.value)[0] ?? null
+      : null;
 
   return (
     <article
@@ -46,7 +72,7 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
         name={business.name}
         category={business.category}
         logoUrl={logoUrl(business.logoFile)}
-        className="h-14 w-14 shrink-0 text-lg sm:h-16 sm:w-16"
+        className={`${tile} shrink-0 text-lg`}
       />
 
       <div className="pointer-events-none relative z-10 min-w-0 flex-1">
@@ -87,7 +113,20 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
             </span>
           )}
           {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
+          {fromPrice && (
+            <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
+          )}
         </div>
+
+        {highlight && (
+          <p className="mt-1.5 flex items-start gap-1.5 text-sm font-medium text-foreground/85">
+            <span aria-hidden="true">{SENTIMENT_ICON[highlight.sentiment]}</span>
+            <span className="line-clamp-2">
+              <span className="sr-only">{t.insights.title}: </span>
+              {highlight.title[locale] ?? highlight.title.en}
+            </span>
+          </p>
+        )}
 
         {description && <p className="mt-2 line-clamp-2 text-sm text-foreground/70">{description}</p>}
 
@@ -111,6 +150,13 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
       </div>
     </article>
   );
+}
+
+const SENTIMENT_ICON: Record<InsightCard["sentiment"], string> = { positive: "👍", mixed: "💬", negative: "👎" };
+
+function pickHighlight(cards: InsightCard[]): InsightCard | null {
+  const byMentions = [...cards].sort((a, b) => b.mentions - a.mentions);
+  return byMentions.find((c) => c.sentiment === "positive") ?? byMentions[0] ?? null;
 }
 
 export function StarRow({ rating }: { rating: number }) {
