@@ -1,0 +1,35 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "felmo-mobiler-tierarzt-hamburg",
+    "kleintierzentrum-kotzian",
+    "tierarztpraxis-dr-eva-tutlies",
+    "die-hamburger-tieraerzte",
+    "tierklinik-fuhlsbuettel",
+    "d-kauffmann-h22-tierarzt",
+    "tierarzt-beethovenstrasse-dr-westphalen",
+    "tierarztpraxis-dr-kathrin-reuter",
+    "filu-tierarztpraxis-winterhuder-weg",
+    "tierarztpraxis-alsterhoehe"
+  ],
+  "hash": "be32753969c4fabd1c73c9ed6754d4c9fd0104701fb3b5d25faed0a29e560f57",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T09:53:00.417Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-06T09:55:03.154Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-06T09:56:28.321Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
