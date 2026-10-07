@@ -13,7 +13,7 @@
     "tierarzt-munchen-dr-med-vet-klaus-sommer",
     "kleintierpraxis-dr-jutta-herrle-munchen"
   ],
-  "hash": "579d6fbeb686bc8c0b6b73bcb5b531fc4647e9d480373c79b8ac5c9cec50003a",
+  "hash": "321e4da3ea30cdb642614a05bcea9f7ffc85385f43fada0e9519b273c1048927",
   "result": "PASS",
   "history": [
     {
@@ -33,6 +33,16 @@
     },
     {
       "at": "2026-10-06T19:02:01.379Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T00:37:11.204Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-07T00:37:55.469Z",
       "result": "PASS",
       "listed": 0
     }
