@@ -1,0 +1,331 @@
+{
+  "slug": "banfield-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/@40.6890473,-73.9911852,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25a4e5080eadf:0x1982384636cfc677!8m2!3d40.6890473!4d-73.9911852!16s%2Fg%2F1tdhmr8j?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 27,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 22,
+      "title": {
+        "en": "Praise for vets amid staff friction"
+      },
+      "text": {
+        "en": "Pet parents frequently highlight the gentle bedside manner and attentive care provided by primary veterinarians, particularly Dr. Martinez. Several clients note accommodating and polite interactions during wellness checks. However, multiple visitors criticize front-desk representatives and management for dismissive attitudes and unhelpful customer service."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 14,
+      "title": {
+        "en": "Persistent communication and scheduling friction"
+      },
+      "text": {
+        "en": "Clients report recurrent problems reaching the clinic by phone, describing extended hold times reaching forty-five minutes and unexpected disconnections. Other reviewers mention unnotified appointment cancellations, misplaced patient history records, and conflicting scheduling information between online booking channels and the front desk."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 10,
+      "title": {
+        "en": "Extended delays past appointment times"
+      },
+      "text": {
+        "en": "Lengthy wait times are a consistent complaint among visitors at this location. Several reviewers state that drop-offs and scheduled visits routinely experience delays of forty-five minutes to over an hour before a veterinarian is available. Pet owners also note that crowded check-in queues can complicate busy work schedules."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners stay with their pet inside the examination room?"
+      },
+      "a": {
+        "en": "Recent client reviews indicate pet parents are often asked to hand their animals off to staff rather than accompanying them into private examination rooms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are appointment wait times at this location?"
+      },
+      "a": {
+        "en": "Pet parents report regular delays ranging from thirty minutes to over an hour past their scheduled appointment time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What preventive care services are available?"
+      },
+      "a": {
+        "en": "The hospital provides comprehensive wellness checkups, routine vaccinations, microchipping, and Optimum Wellness Plans with in-house pharmacy support."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does this clinic treat life-threatening emergencies?"
+      },
+      "a": {
+        "en": "The facility operates as a general wellness practice and advises pet owners to contact local emergency veterinary hospitals for critical trauma."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "~",
+        "staff": "+"
+      }
+    }
+  ]
+}
