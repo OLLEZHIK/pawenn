@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(gh api repos/OLLEZHIK/pawenn/pulls/*/merge*)",
-      "Bash(gh api repos/OLLEZHIK/pawenn/pulls -X POST*)"
-    ]
-  }
-}
