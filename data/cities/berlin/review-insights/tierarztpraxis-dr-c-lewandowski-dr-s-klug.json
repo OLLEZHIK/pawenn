@@ -1,0 +1,141 @@
+{
+  "slug": "tierarztpraxis-dr-c-lewandowski-dr-s-klug",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Dr.+C.+Lewandowski+%26+Dr.+S.+Klug/@52.4232555,13.4368328,17z/data=!3m1!4b1!4m6!3m5!1s0x47a845bb255dd6e1:0x9687f8251270e7d0!8m2!3d52.4232555!4d13.4368328!16s%2Fg%2F1tdm2rn2?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Kompetente Beratung und herzliche Praxisatmosphäre",
+        "en": "Competent guidance and welcoming clinic atmosphere"
+      },
+      "text": {
+        "de": "Besitzer heben hervor, dass sowohl die Tierärztinnen als auch die medizinischen Fachangestellten sehr freundlich, hilfsbereit und fachlich versiert auftreten. Das Team nimmt sich Zeit für eine sorgfältige Betreuung. Kunden fühlen sich und ihre Tiere fachlich bestens aufgehoben.",
+        "en": "Pet owners emphasize that both the veterinarians and veterinary assistants act very friendly, helpful, and professionally adept. The staff takes time to provide attentive medical care. Clients feel their four-legged companions are in capable, trustworthy hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Gezielte Diagnostik und spürbare Behandlungserfolge",
+        "en": "Targeted diagnostics and tangible treatment success"
+      },
+      "text": {
+        "de": "Rezensenten schätzen das strukturierte Vorgehen mit Labor und Ultraschall, das auch bei langwierigen Beschwerden zur richtigen Diagnose führte. Vorherige Fehlbehandlungen wurden erfolgreich korrigiert. Die medizinische Versorgung wird von Haltern uneingeschränkt weiterempfohlen.",
+        "en": "Reviewers value the methodical diagnostic approach utilizing lab tests and ultrasound, which yielded the correct diagnosis even for lingering symptoms. Previous unsuccessful treatments were resolved. Clients unreservedly recommend the clinic's therapeutic care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Einfühlsamer und professioneller Umgang mit Tieren",
+        "en": "Gentle and professional interaction with pets"
+      },
+      "text": {
+        "de": "Tierhalter loben den liebevollen und respektvollen Umgang mit Hunden und Katzen bei allen Untersuchungen. Das Wohl des Tieres steht für das Praxisteam erkennbar im Mittelpunkt. Selbst bei schmerzhaften Beschwerden bleiben Patienten durch die ruhige Art erstaunlich gelassen.",
+        "en": "Pet owners praise the loving and respectful handling of dogs and cats across all checkups. Animal welfare is clearly prioritized by the veterinary team. Even when coping with painful conditions, animal patients remain surprisingly calm thanks to the quiet demeanor."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Welche Diagnostik steht bei unklaren Beschwerden bereit?",
+        "en": "What diagnostic tools are available for unclear symptoms?"
+      },
+      "a": {
+        "de": "Kunden berichten von raschen Blutuntersuchungen im Labor und Sonografie direkt vor Ort zur Ursachenklärung.",
+        "en": "Clients report on-site laboratory blood testing and ultrasound sonography used to pinpoint underlying causes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie wird der Umgang des Teams mit Haustieren beschrieben?",
+        "en": "How is the staff's handling of pets described?"
+      },
+      "a": {
+        "de": "Rezensenten loben den ruhigen, herzlichen und respektvollen Umgang sowohl mit Hunden als auch mit Katzen.",
+        "en": "Reviewers praise the calm, warm, and respectful interaction with both canine and feline patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie bewerten Kunden die Praxisabläufe?",
+        "en": "How do clients evaluate clinic organization?"
+      },
+      "a": {
+        "de": "Während medizinisch zielgerichtet gearbeitet wird, empfand ein Halter die Organisation als etwas unstrukturiert.",
+        "en": "While medical work is targeted, one client experienced overall clinic workflow as somewhat unstructured."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
