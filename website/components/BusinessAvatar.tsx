@@ -53,7 +53,7 @@ export function BusinessAvatar({
     >
       {logoUrl ? (
         // eslint-disable-next-line @next/next/no-img-element -- small static logos, mixed SVG/PNG/WebP
-        <img src={logoUrl} alt="" loading="lazy" className="h-[78%] w-[78%] rounded-lg object-contain" />
+        <img src={logoUrl} alt="" loading="lazy" className="h-[84%] w-[88%] rounded-lg object-contain" />
       ) : (
         initialsFor(name)
       )}
