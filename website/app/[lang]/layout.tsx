@@ -40,7 +40,10 @@ export default async function RootLayout({
   const t = getDictionary(lang);
 
   return (
-    <html lang={lang} className={`${headingFont.variable} ${bodyFont.variable}`}>
+    // globals.css scrolls smoothly; this lets Next.js switch it off during a page
+    // change, or the jump to the top is cut short and a phone lands on the footer
+    // (owner, 2026-10-07; Next 16 needs the attribute, upgrading/version-16.md).
+    <html lang={lang} data-scroll-behavior="smooth" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <body>
         <Header locale={lang} />
         {children}
