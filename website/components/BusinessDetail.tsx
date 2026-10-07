@@ -658,11 +658,13 @@ function safeHost(url: string): string | null {
 }
 
 
-/** "instagram.com/vetline_sk" style label for a social profile URL. */
+/** "vetline_sk" style label for a social profile URL: the network is already
+ *  named by the row label, so only the path (the handle) is shown. */
 function socialHandle(url: string): string {
   try {
     const u = new URL(url);
-    return `${u.hostname.replace(/^www\./, "")}${u.pathname.replace(/\/$/, "")}`;
+    const path = u.pathname.replace(/^\/|\/$/g, "");
+    return path || u.hostname.replace(/^www\./, "");
   } catch {
     return url;
   }
