@@ -40,75 +40,87 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/en/add-or-fix-listing/`, changeFrequency: "monthly", priority: 0.3 },
   ];
 
-  for (const city of cities) {
-    const total = (await getBusinessCount(city.slug)).total;
-    if (total >= MIN_LISTED_FOR_INDEX) {
+  // The queries below run in parallel, not one after another: the build
+  // starts with an empty data cache, and ~1,000 sequential round trips to
+  // Neon (6 categories x 11 cities x every district) took the sitemap past
+  // the 60-second page limit and failed the deploy (2026-10-07, #579).
+  // Entries keep the same order as before: cities, then category x city.
+  const cityTotals = await Promise.all(cities.map((city) => getBusinessCount(city.slug)));
+  cities.forEach((city, i) => {
+    if (cityTotals[i].total >= MIN_LISTED_FOR_INDEX) {
       entries.push(
         ...localized(localesForCity(city), (l) => cityPath(l, city.slug), { changeFrequency: "weekly", priority: 0.9 })
       );
     }
-  }
+  });
 
-  for (const category of ALL_CATEGORIES) {
-    for (const city of cities) {
-      const locales = localesForCity(city);
-      const cityAggregates = await getCategoryAggregates(category, city.slug);
-      if (cityAggregates.count >= MIN_LISTED_FOR_INDEX) {
-        entries.push(
-          ...localized(locales, (l) => listingPath(l, category, city.slug), { changeFrequency: "daily", priority: 0.9 })
-        );
-      }
-
-      // Attribute pages (nonstop, Saturday, Sunday, exotics, home visits):
-      // indexed from minToIndex places - lib/attributePages.ts.
-      for (const [key, count] of await getAttributeCounts(category, city.slug)) {
-        if (count >= minToIndex(key)) {
-          entries.push(
-            ...localized(locales, (l) => attributePath(l, category, city.slug, key), {
-              changeFrequency: "daily",
-              priority: 0.8,
-            })
-          );
+  const blocks = await Promise.all(
+    ALL_CATEGORIES.flatMap((category) =>
+      cities.map(async (city): Promise<Entry[]> => {
+        const out: Entry[] = [];
+        const locales = localesForCity(city);
+        const cityDistricts = districts.filter((d) => d.cityId === city.id);
+        const [cityAggregates, attributeCounts, market, districtAggregates] = await Promise.all([
+          getCategoryAggregates(category, city.slug),
+          getAttributeCounts(category, city.slug),
+          getMarketPrices(category, city.slug),
+          Promise.all(cityDistricts.map((d) => getCategoryAggregates(category, city.slug, d.slug))),
+        ]);
+        if (cityAggregates.count >= MIN_LISTED_FOR_INDEX) {
+          out.push(...localized(locales, (l) => listingPath(l, category, city.slug), { changeFrequency: "daily", priority: 0.9 }));
         }
-      }
 
-      // Price pages: the overview and each service with a market price
-      // (at least 3 comparable prices) - lib/pricePages.ts.
-      const market = await getMarketPrices(category, city.slug);
-      if (market.size > 0) {
-        const summaries = await Promise.all([...market.keys()].map((code) => getPriceSummary(category, city.slug, code)));
-        const checked = summaries.map((s) => s.checked).filter((d): d is Date => d !== null);
-        entries.push(
-          ...localized(locales, (l) => pricesPath(l, category, city.slug), {
-            lastModified: checked.length ? new Date(Math.max(...checked.map((d) => d.getTime()))) : undefined,
-            changeFrequency: "weekly",
-            priority: 0.8,
-          })
-        );
-        [...market.keys()].forEach((code, i) => {
-          entries.push(
-            ...localized(locales, (l) => pricesPath(l, category, city.slug, code), {
-              lastModified: summaries[i].checked ?? undefined,
+        // Attribute pages (nonstop, Saturday, Sunday, exotics, home visits):
+        // indexed from minToIndex places - lib/attributePages.ts.
+        for (const [key, count] of attributeCounts) {
+          if (count >= minToIndex(key)) {
+            out.push(
+              ...localized(locales, (l) => attributePath(l, category, city.slug, key), {
+                changeFrequency: "daily",
+                priority: 0.8,
+              })
+            );
+          }
+        }
+
+        // Price pages: the overview and each service with a market price
+        // (at least 3 comparable prices) - lib/pricePages.ts.
+        if (market.size > 0) {
+          const summaries = await Promise.all([...market.keys()].map((code) => getPriceSummary(category, city.slug, code)));
+          const checked = summaries.map((s) => s.checked).filter((d): d is Date => d !== null);
+          out.push(
+            ...localized(locales, (l) => pricesPath(l, category, city.slug), {
+              lastModified: checked.length ? new Date(Math.max(...checked.map((d) => d.getTime()))) : undefined,
               changeFrequency: "weekly",
               priority: 0.8,
             })
           );
-        });
-      }
-
-      for (const district of districts.filter((d) => d.cityId === city.id)) {
-        const districtAggregates = await getCategoryAggregates(category, city.slug, district.slug);
-        if (districtAggregates.count >= MIN_LISTED_FOR_INDEX) {
-          entries.push(
-            ...localized(locales, (l) => listingPath(l, category, city.slug, district.slug), {
-              changeFrequency: "daily",
-              priority: 0.7,
-            })
-          );
+          [...market.keys()].forEach((code, i) => {
+            out.push(
+              ...localized(locales, (l) => pricesPath(l, category, city.slug, code), {
+                lastModified: summaries[i].checked ?? undefined,
+                changeFrequency: "weekly",
+                priority: 0.8,
+              })
+            );
+          });
         }
-      }
-    }
-  }
+
+        cityDistricts.forEach((district, i) => {
+          if (districtAggregates[i].count >= MIN_LISTED_FOR_INDEX) {
+            out.push(
+              ...localized(locales, (l) => listingPath(l, category, city.slug, district.slug), {
+                changeFrequency: "daily",
+                priority: 0.7,
+              })
+            );
+          }
+        });
+        return out;
+      })
+    )
+  );
+  for (const block of blocks) entries.push(...block);
 
   for (const business of businesses) {
     entries.push(
