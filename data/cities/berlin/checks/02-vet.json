@@ -1,0 +1,45 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "kleintierpraxis-jan-schneider",
+    "tierarztpraxis-hinter-der-muehle",
+    "tierarztpraxis-vormum-mahlsdorf",
+    "tierarztpraxis-am-arnimplatz",
+    "tierarztpraxis-thomas-goebel",
+    "tieraerzteteam-hansavet",
+    "chirurgische-kleintierpraxis-martin-koehle",
+    "tierarztpraxis-wolfgang-beck",
+    "exopet-tierarztpraxis-mutschmann",
+    "tierarztpraxis-fenina-burwieck"
+  ],
+  "hash": "6a9139de6dc3fc5453e452158e92a198502486e4971108e53501693019bef624",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T08:44:27.176Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-06T08:49:36.225Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-06T08:51:07.116Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-06T08:51:47.031Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T08:52:35.164Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

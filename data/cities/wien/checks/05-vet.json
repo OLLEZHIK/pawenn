@@ -1,0 +1,45 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "tierarzt-alterlaa-dr-alibegovic",
+    "kleintierkardiologie-dr-kosztolich",
+    "tierarztpraxis-tierleben",
+    "tierarztpraxis-weiglgasse",
+    "tierambulatorium-herbert-kindler",
+    "tierarzt-1110-praxisgemeinschaft-am-geiselberg",
+    "tierarztpraxis-rankgasse",
+    "tierarzt-geis",
+    "tierordination-elderschplatz",
+    "tierarztpraxis-dorazio"
+  ],
+  "hash": "b89c301647b7202531279f78dbdde97a59b525a746b587cda12d823e83185279",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T17:31:43.412Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-05T18:24:45.274Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-05T18:25:50.578Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T18:20:00.407Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T02:45:31.928Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

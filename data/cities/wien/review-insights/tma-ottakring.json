@@ -1,0 +1,175 @@
+{
+  "slug": "tma-ottakring",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/tma+ottakring+-+tiermedizinische+Ambulanz+Ottakring/@48.2180027,16.3119556,17z/data=!3m1!4b1!4m6!3m5!1s0x476d0812a6c84c25:0xa4bb10c0a8132870!8m2!3d48.2180027!4d16.3119556!16s%2Fg%2F1td1_1fs?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "de": "Freundliches und verlässliches Ärzteteam",
+        "en": "Friendly and reliable veterinary staff"
+      },
+      "text": {
+        "de": "Tierbesitzer beschreiben das Personal der tiermedizinischen Ambulanz Ottakring als herzlich, einfühlsam und fachlich versiert. Sowohl die Tierärzte als auch die Assistentinnen nehmen Sorgen der Halter ernst und begleiten Untersuchungen geduldig. Kunden fühlen sich in der Praxis gut aufgehoben und verstanden.",
+        "en": "Pet owners describe the team at the Ottakring veterinary clinic as kind, empathetic, and proficient. Both veterinarians and clinic assistants take client concerns seriously and conduct examinations with patience. Visitors report feeling well supported and understood throughout their clinic visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Treffsichere Diagnostik und wirksame Therapien",
+        "en": "Accurate diagnostics and effective therapies"
+      },
+      "text": {
+        "de": "In mehreren Berichten wird die präzise Befundung hervorgehoben, durch die unklare Erkrankungen rasch erkannt und erfolgreich behandelt wurden. Kunden schildern etwa gelungene Tumoroperationen und nachhaltige Besserungen bei Hunden und Katzen. Die vorgeschlagenen Behandlungspläne schaffen bei Haltern großes Vertrauen.",
+        "en": "Several reports highlight accurate medical diagnoses that quickly identified obscure conditions and led to successful recoveries. Clients share positive outcomes following tumor surgeries and effective treatments for dogs and cats. Recommended clinical care plans inspire strong owner confidence."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Ausführliche Beratung neben telefonischer Kritik",
+        "en": "Thorough advice alongside phone critique"
+      },
+      "text": {
+        "de": "Vor Ort schätzen Tierhalter die transparente Aufklärung über Krankheiten und den ehrlichen Austausch zu Behandlungsschritten sehr. Gleichzeitig berichtet ein Rezensent von Problemen bei der telefonischen Erreichbarkeit der Notrufnummer außerhalb regulärer Zeiten. Die Kommunikation vor Ort wird insgesamt positiver bewertet.",
+        "en": "During clinic visits, pet owners highly value transparent explanations about diagnoses and honest discussions on treatment steps. At the same time, one reviewer noted difficulties reaching the emergency telephone line outside regular hours. In-person consultations are perceived substantially more positively."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie gründlich ist die Diagnostik in der TMA Ottakring?",
+        "en": "How thorough is diagnosis at TMA Ottakring?"
+      },
+      "a": {
+        "de": "Rezensenten berichten, dass Krankheitsursachen durch genaue Untersuchungen rasch identifiziert und passend behandelt werden.",
+        "en": "Reviewers state that medical issues are identified swiftly through careful examinations and treated effectively."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Kritik an der Erreichbarkeit per Telefon?",
+        "en": "Is there criticism regarding telephone reachability?"
+      },
+      "a": {
+        "de": "Ein Kunde bemängelte fehlende Erreichbarkeit unter der Notfallnummer, während Beratungen vor Ort durchwegs gelobt werden.",
+        "en": "One client noted issues reaching the emergency phone line, whereas in-person consultations receive consistent praise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Tiere im Notfall kurzfristig versorgt?",
+        "en": "Are emergency patients admitted on short notice?"
+      },
+      "a": {
+        "de": "Ja, mehrere Halter schildern, dass sie nach telefonischer Rücksprache kurzfristig dazwischengeschoben wurden.",
+        "en": "Yes, multiple owners describe being squeezed in promptly following a brief telephone registration."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 28 Minuten",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

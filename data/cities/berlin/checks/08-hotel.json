@@ -1,0 +1,35 @@
+{
+  "chunk": "08-hotel",
+  "kind": "places",
+  "slugs": [
+    "hundepension-liane-kramer",
+    "katzenparadies-schoenholz",
+    "katzenhotel-kleiner-tiger",
+    "individuelle-hundebetreuung",
+    "berliner-tierdroschke",
+    "annehunde",
+    "tierpension-schnurrhaar",
+    "4-pfoetchen-und-co",
+    "katzenpension-tragert",
+    "hundepension-berlin"
+  ],
+  "hash": "f378066c429ae9db66c6e76fe665f246ea2cfc5519931f9d21ca298966168126",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T11:57:42.217Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-06T12:00:25.371Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-06T12:11:09.051Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

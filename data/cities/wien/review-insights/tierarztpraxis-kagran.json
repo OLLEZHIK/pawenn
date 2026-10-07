@@ -1,0 +1,194 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Kagran/@48.2475539,16.4409455,17z/data=!3m1!4b1!4m6!3m5!1s0x476d06bbc2e0f73f:0x38cfe5a0f43fe5f2!8m2!3d48.2475539!4d16.4409455!16s%2Fg%2F1tfwc92c?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "de": "Kompetentes Team und engagierte Beratung",
+        "en": "Competent team and dedicated advice"
+      },
+      "text": {
+        "de": "Viele Kunden loben die Tierärzte für ihr Engagement, ihr Einfühlungsvermögen und die gründliche Beratung bei Erkrankungen. Einzelne Rezensenten äußern jedoch Kritik an unnahbarem Verhalten von Assistenzkräften oder fühlten sich bei Beschwerden abgewiesen.",
+        "en": "Many clients commend the veterinarians for their dedication, empathy, and thorough diagnostic advice during health concerns. However, isolated reviews voice frustration over perceived aloofness among assistant staff or felt dismissed when raising issues."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Erfolgreiche Therapien neben Diagnoseschwierigkeiten",
+        "en": "Successful therapies alongside diagnostic challenges"
+      },
+      "text": {
+        "de": "Rezensenten berichten von ausgezeichneten Behandlungserfolgen bei schwerem Parasitenbefall, komplexen Zahn-OPs und chronischen Krankheiten. Demgegenüber steht vereinzelt Kritik an ausbleibender Besserung bei akuten Atemproblemen trotz mehrerer Vorstellungen.",
+        "en": "Reviewers report outstanding therapeutic results in managing severe parasites, complex dental surgeries, and chronic illnesses. In contrast, occasional criticism notes a lack of health recovery during acute respiratory distress despite multiple visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Verständnisvolle Behandlung ängstlicher Patienten",
+        "en": "Empathetic handling of anxious animal patients"
+      },
+      "text": {
+        "de": "Tierhalter heben hervor, wie geduldig das Team mit verängstigten oder bissigen Tieren umgeht. Auch Hausbesuche zur Begleitung am Lebensende oder Behandlungen von kleinen Heimtieren wie Ratten werden mit großer Fürsorge und Fingerspitzengefühl durchgeführt.",
+        "en": "Pet owners emphasize how patiently the staff handles frightened or defensive animals. Home visits for compassionate end-of-life care and clinical treatments for small domestic pets such as rats are carried out with profound gentleness and sensitivity."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis Kagran auch Heimtiere wie Ratten behandelt?",
+        "en": "Does the Kagran practice also treat small pets such as rats?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten positiv über Behandlungen von Kleinsäugern und Ratten.",
+        "en": "Yes, clients report positive treatment experiences for small mammals and pet rats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Führt die Praxis chirurgische Zahneingriffe durch?",
+        "en": "Does the practice perform surgical dental procedures?"
+      },
+      "a": {
+        "de": "Ja, Kunden erwähnen erfolgreich durchgeführte aufwendige Zahnoperationen bei Katzen.",
+        "en": "Yes, customers mention successfully performed complex dental surgeries in cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Hausbesuche für Einschläferungen angeboten?",
+        "en": "Are home visits available for euthanasia?"
+      },
+      "a": {
+        "de": "Ja, Tierhalter schätzen die einfühlsame Begleitung bei Hausbesuchen am Lebensende.",
+        "en": "Yes, pet owners value compassionate home visits for end-of-life care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Tagen",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ],
+  "slug": "tierarztpraxis-kagran",
+  "reviews_in_period": 12
+}

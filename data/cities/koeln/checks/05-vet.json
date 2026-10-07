@@ -1,0 +1,29 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "tierarztpraxis-peter-altdorf",
+    "tierarztpraxis-cimander",
+    "rex-tierarztpraxis-koeln-innenstadt",
+    "tierarzt-dr-joest",
+    "tierarztpraxis-dr-bathen-noethen",
+    "tierarztpraxis-welters",
+    "tierarztpraxis-schockhoven-koeln-sued",
+    "tierarztpraxis-weiden",
+    "dr-wolfgang-goebel"
+  ],
+  "hash": "743636eabd3107ae3f5795534e8176b51b6b0b4dae87350944dd5ca7d64cfb74",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T17:40:07.544Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-06T17:42:23.635Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
