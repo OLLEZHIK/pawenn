@@ -1,0 +1,141 @@
+{
+  "slug": "tierarztpraxis-dr-graf",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Siegfried+Graf/@48.1661888,11.6565632,17z/data=!3m1!4b1!4m6!3m5!1s0x479e7529d22d8563:0x2814ff2d618d0ac2!8m2!3d48.1661888!4d11.6565632!16s%2Fg%2F1tj7vcgx?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Engagierter Tierarzt mit hoher Fachkompetenz",
+        "en": "Dedicated veterinarian with high professional expertise"
+      },
+      "text": {
+        "de": "Patientenbesitzer schätzen Dr. Siegfried Graf und sein Praxisteam für ihre freundliche Art und das spürbare Engagement. Selbst an hektischen Arbeitstagen nimmt sich der Tierarzt Zeit für ausführliche Gespräche und beantwortet alle Fragen der Halter geduldig. Das Team am Empfang wird als aufmerksam und hilfsbereit wahrgenommen.",
+        "en": "Pet owners commend Dr. Siegfried Graf and his clinic team for their welcoming manner and sincere dedication. Even on busy workdays, the veterinarian dedicates plenty of time to thorough consultations and answers all questions patiently. The front desk staff is consistently experienced as attentive and helpful."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Fundierte Behandlungsmethoden und kontinuierliche Weiterbildung",
+        "en": "Sound medical treatments and ongoing education"
+      },
+      "text": {
+        "de": "Rezensenten heben hervor, dass Behandlungen auf dem neuesten tiermedizinischen Stand durchgeführt werden. Auch bei schwierigen oder ungewöhnlichen Krankheitsbildern sucht Dr. Graf beharrlich nach passenden therapeutischen Lösungen. Die medizinische Versorgung von Hunden und Kleintieren führt regelmäßig zu stabilen Behandlungserfolgen.",
+        "en": "Reviewers emphasize that clinical treatments are delivered in accordance with modern veterinary standards. Even when facing complex or unusual medical cases, Dr. Graf perseveres to identify suitable therapeutic solutions. Clinical care for dogs and small animals consistently achieves dependable recovery outcomes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Liebevoller Umgang mit Hunden und Patienten",
+        "en": "Gentle treatment of dogs and patients"
+      },
+      "text": {
+        "de": "Halter betonen den behutsamen und wertschätzenden Umgang mit ihren Vierbeinern in der Praxis in Bogenhausen. Das Wohl der Tiere steht bei allen Untersuchungen im Vordergrund, was auch nervösen Hunden den Besuch erleichtert. Patientenbesitzer schätzen das spürbare Einfühlungsvermögen während der gesamten Behandlung.",
+        "en": "Guardians highlight the considerate and respectful handling of their animal companions at the Bogenhausen clinic. The well-being of pets remains central to every examination, noticeably easing visits for nervous dogs. Pet owners appreciate the tangible empathy demonstrated throughout every medical consultation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Nimmt sich Dr. Graf auch bei komplexen Fällen Zeit für Fragen?",
+        "en": "Does Dr. Graf take time for questions in complex cases?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten, dass der Tierarzt selbst an vollen Tagen geduldig alle Fragen beantwortet.",
+        "en": "Yes, owners report that the veterinarian answers all questions patiently even on busy days."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Notfälle und akute Erkrankungen zeitnah versorgt?",
+        "en": "Are emergencies and acute illnesses treated promptly?"
+      },
+      "a": {
+        "de": "Ja, in dringenden Fällen ermöglicht die Praxis kurzfristige Termine zur Erstversorgung.",
+        "en": "Yes, in urgent clinical situations, the clinic arranges prompt consultations for initial care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Muss trotz Termin mit Wartezeiten gerechnet werden?",
+        "en": "Should visitors expect waiting times despite an appointment?"
+      },
+      "a": {
+        "de": "Ja, Rezensenten weisen darauf hin, dass es aufgrund von Notfällen zu Wartezeiten kommen kann.",
+        "en": "Yes, reviewers note that emergency cases may occasionally lead to longer waiting times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "~"
+      }
+    }
+  ]
+}
