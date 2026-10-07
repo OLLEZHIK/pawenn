@@ -1,0 +1,153 @@
+{
+  "slug": "tierarztpraxis-breitenlee-dr-susanne-balazs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Breitenlee+-+Dr.+Susanne+Bal%C3%A1zs/@48.2455296,16.4836294,17z/data=!3m1!4b1!4m6!3m5!1s0x476d015cd63f071d:0xb265a77e4f0087c1!8m2!3d48.2455296!4d16.4836294!16s%2Fg%2F1td70t6n?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "de": "Engagierte Praxis mit geteilten Haltermeinungen",
+        "en": "Dedicated practice with divided owner opinions"
+      },
+      "text": {
+        "de": "Viele Tierhalter in Wien-Donaustadt schätzen Dr. Susanne Balázs als liebevolle, genaue und hilfsbereite Tierärztin, die sich viel Zeit für ihre Patienten nimmt. Demgegenüber stehen jedoch zwei sehr kritische Bewertungen, in denen unpassendes Auftreten und mangelnde Sensibilität gegenüber Tieren scharf bemängelt wurden.",
+        "en": "Many pet owners in Vienna's Donaustadt appreciate Dr. Susanne Balázs as an affectionate, thorough, and helpful veterinarian who takes ample time for patients. In contrast, two sharply negative reviews criticized her demeanor and perceived lack of sensitivity when handling animals during clinical consultations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Unterschiedliche Erfahrungen beim Umgang mit Tieren",
+        "en": "Contrasting experiences in handling animals"
+      },
+      "text": {
+        "de": "Während Stammkunden die einfühlsame Begleitung beim Abschied von geliebten Perserkatzen hervorheben, berichtet ein Katzenhalter von grober Fixierung und unnötigem Stress während einer Impfung. Das Feedback zur tiergerechten Behandlung fällt in den Rückmeldungen der letzten Monate daher deutlich gespalten aus.",
+        "en": "While long-term clients commend compassionate end-of-life care for beloved Persian cats, another owner reported rough handling and unnecessary distress during a vaccination. Consequently, customer feedback regarding animal welfare and gentle handling has been noticeably polarized over recent months."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Ausführliche Gespräche und umstrittene Befunde",
+        "en": "Detailed discussions and contested findings"
+      },
+      "text": {
+        "de": "Mehrere Halter loben die genaue Beratung und die Zeit, die für Behandlungsgespräche eingeräumt wird. Gegensätzlich dazu schildert ein Rezensent ein Kommunikationsproblem bezüglich strittiger Operationsvorschläge und problematischer Einträge in die Patientenakte, die für Unverständnis und Verärgerung sorgten.",
+        "en": "Several guardians praise the meticulous consultations and the time provided during treatment discussions. Conversely, one review detailed serious communication disputes concerning questionable surgery recommendations and controversial patient record notes, leading to profound disagreement."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie wird die Begleitung beim Abschied von schwerkranken Tieren beschrieben?",
+        "en": "How is end-of-life care for terminally ill companion pets reviewed?"
+      },
+      "a": {
+        "de": "Kunden heben hervor, dass Einschläferungen von Frau Dr. Balázs sehr liebevoll und mit ausreichend Zeit für die Halter begleitet wurden.",
+        "en": "Clients highlight that euthanasia procedures by Dr. Balázs were conducted with great sensitivity and ample time for pet parents."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gab es Kritik am Umgang mit gestressten Katzen?",
+        "en": "Has there been criticism concerning the handling of stressed cats?"
+      },
+      "a": {
+        "de": "Ja, eine Halterin kritisierte das gewaltsame Festhalten einer Katze im Käfig bei einer Impfung und umstrittene Operationsratschläge.",
+        "en": "Yes, an owner criticized forceful restraint of a cat in a transport cage during vaccination and contested surgery recommendations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Nimmt sich die Tierärztin Zeit für genaue Untersuchungen?",
+        "en": "Does the veterinarian take time for thorough clinical examinations?"
+      },
+      "a": {
+        "de": "Zufriedene Stammkunden betonen, dass die Tierärztin sehr gewissenhaft arbeitet und sich ausreichend Zeit für Untersuchungen nimmt.",
+        "en": "Satisfied regular clients emphasize that the veterinarian works conscientiously and dedicates ample time to diagnostic examinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

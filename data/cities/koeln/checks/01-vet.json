@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "felmo-koeln",
+    "vet-zentrum-koeln",
+    "tieraerzte-an-der-kapelle",
+    "tierarztpraxis-dr-von-stumberg",
+    "tieraerzte-vom-aachener-weiher",
+    "tierarztpraxis-dr-caglar",
+    "tierarztpraxis-am-muelheimer-stadtgarten",
+    "tierarztpraxis-fell-und-feder",
+    "tierarztpraxis-engels",
+    "tierarztpraxis-wagemann"
+  ],
+  "hash": "9c654317933e18d1634ddc45aa1109414569a74883ed8b2ab507d59eb38a2798",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T12:54:27.846Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-06T12:56:44.805Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

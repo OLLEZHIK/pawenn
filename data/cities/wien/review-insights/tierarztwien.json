@@ -1,0 +1,155 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/TierarztWien/@48.1698387,16.3597631,17z/data=!3m1!4b1!4m6!3m5!1s0x476da976e7838619:0x36898ee7872b53e!8m2!3d48.1698387!4d16.3597631!16s%2Fg%2F11fctxz6b8?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Einfühlsames und bemühtes Praxisteam",
+        "en": "Caring and committed clinic staff"
+      },
+      "text": {
+        "de": "Rezensenten beschreiben die Tierärztinnen als sehr freundlich, verständnisvoll und bemüht um das Wohl der tierischen Patienten. Besonders positiv hervorgehoben wird der respektvolle und geduldige Beistand bei Hausbesuchen, während vereinzelt Kritik am Umgangston laut wird.",
+        "en": "Reviewers describe the veterinary team as compassionate, friendly, and deeply dedicated to their patients. Pet owners particularly value the respectful and gentle support provided during home visits, though isolated feedback mentions dissatisfaction with staff communication."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Zuverlässige Diagnostik und Behandlung",
+        "en": "Reliable diagnostics and effective care"
+      },
+      "text": {
+        "de": "Kunden berichten von rascher Hilfe bei akuten Beschwerden von Kaninchen, Hunden und Katzen. Ob Röntgenuntersuchung, Zahnkürzungen bei Kleintieren oder die Begleitung langjähriger Haustiere – die Behandlungen führten verlässlich zur Besserung und schufen großes Vertrauen.",
+        "en": "Pet owners report prompt and successful medical assistance for acute issues in rabbits, dogs, and cats. From x-ray diagnostics and dental corrections to managing aging pets, the medical treatments reliably improved health conditions and built strong trust among long-term clients."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Liebevolle Betreuung auch für Heimtiere",
+        "en": "Gentle handling including small pets"
+      },
+      "text": {
+        "de": "Tierhalter betonen, wie wohl sich ihre Haustiere in der Praxis fühlen. Das Team geht behutsam auf Hunde, Katzen und Kaninchen ein, vermeidet unnötigen Stress und bietet bei schwerkranken Tieren auch würdevolle Versorgung im gewohnten häuslichen Umfeld an.",
+        "en": "Owners emphasize how comfortable their pets feel during visits. The staff handles dogs, cats, and rabbits with exceptional care, actively minimizing stress and providing compassionate, dignified home care for critically ill animals in their familiar surroundings."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis TierarztWien auch Kaninchen behandelt?",
+        "en": "Does TierarztWien treat rabbits and small pets?"
+      },
+      "a": {
+        "de": "Ja, Kunden loben ausdrücklich die kompetente Behandlung von Kaninchen inklusive Röntgen und Zahnkorrekturen.",
+        "en": "Yes, pet owners specifically praise skilled rabbit care including radiography and dental trimming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet die Praxis Hausbesuche für Notfälle an?",
+        "en": "Does the clinic offer home visits for urgent situations?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten dankbar über einfühlsame Hausbesuche, insbesondere zur friedlichen Erlösung betagter Tiere.",
+        "en": "Yes, clients gratefully report compassionate home visits, particularly for peaceful end-of-life care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Ist für einen Besuch eine Terminvereinbarung zwingend?",
+        "en": "Is an appointment mandatory for consultation?"
+      },
+      "a": {
+        "de": "Kunden schätzen die Möglichkeit kurzer Wartezeiten auch ohne vorherige feste Terminvereinbarung.",
+        "en": "Clients appreciate manageable wait times even when arriving without a prior fixed appointment."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ],
+  "slug": "tierarztwien",
+  "reviews_in_period": 7
+}

@@ -1,0 +1,142 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Neulinggasse/@48.1991763,16.3865044,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07701890cd47:0x1724ff1bf52ff3e2!8m2!3d48.1991763!4d16.3865044!16s%2Fg%2F1w97t5vf?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Erfahrener und geschätzter Tierarzt",
+        "en": "Experienced and valued veterinarian"
+      },
+      "text": {
+        "de": "Viele Tierbesitzer vertrauen Dr. Helmut Kofler und seinem Team seit vielen Jahren. Rezensenten betonen die fachliche Kompetenz und das offene Ohr für Sorgen rund um Haustiere. Eine Einzelstimme kritisierte hingegen, bei Gewichtsverlust nicht ernst genommen worden zu sein.",
+        "en": "Many pet owners have placed their trust in Dr. Helmut Kofler and his team for many years. Reviewers praise their clinical expertise and readiness to listen carefully to owner concerns, although an isolated review felt that unexpected weight loss was not investigated thoroughly."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Einfühlsame Fürsorge in schweren Phasen",
+        "en": "Compassionate care during difficult times"
+      },
+      "text": {
+        "de": "Kunden schätzen die engagierte Betreuung ihrer Hunde und Katzen in der Praxis. Besonders in schwierigen Lebensphasen und bei schwerkranken Tieren nimmt sich das Team viel Zeit, um die letzte Zeit der Vierbeiner so angenehm und würdevoll wie möglich zu gestalten.",
+        "en": "Clients deeply appreciate the dedicated attention given to their dogs and cats. Especially in difficult situations and during terminal illness, the team takes dedicated time to ensure the final period of an animal's life is as comfortable and dignified as possible."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Medizinische Behandlung mit geteilter Resonanz",
+        "en": "Medical treatments with mixed feedback"
+      },
+      "text": {
+        "de": "Langjährige Halter loben die Tiermedizin auf hohem Niveau und die wirksame medikamentöse Hilfe bei akuten Beschwerden. Dennoch berichten einzelne Kunden von wiederkehrenden Symptomen oder von fehlender weiterführender Diagnostik bei starkem Gewichtsverlust.",
+        "en": "Long-standing pet owners praise high-standard veterinary medicine and effective medication for acute health issues. However, isolated reviewers report recurring symptoms or felt that progressive weight loss warranted more comprehensive diagnostic follow-up."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wer leitet die Tierarztpraxis Neulinggasse?",
+        "en": "Who leads the Neulinggasse veterinary practice?"
+      },
+      "a": {
+        "de": "Die Praxis wird von Dr. Helmut Kofler gemeinsam mit seinem tierärztlichen Team geführt.",
+        "en": "The clinic is directed by Dr. Helmut Kofler alongside his experienced veterinary staff."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden auch geriatrische und schwerkranke Tiere betreut?",
+        "en": "Does the clinic manage senior and palliative patients?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben die einfühlsame palliative Betreuung und Begleitung älterer Haustiere hervor.",
+        "en": "Yes, customers highlight the empathetic palliative support and dedicated care for elderly pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Behandelt die Praxis sowohl Hunde als auch Katzen?",
+        "en": "Does the clinic treat both dogs and cats?"
+      },
+      "a": {
+        "de": "Ja, in den Bewertungen wird die regelmäßige Behandlung von Hunden und Katzen positiv beschrieben.",
+        "en": "Yes, customer reviews frequently describe ongoing medical care for both dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 17 Stunden",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ],
+  "slug": "tierarztpraxis-neulinggasse",
+  "reviews_in_period": 6
+}

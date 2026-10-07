@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "fachtieraerzte-althangrund",
+    "tierplus-wien-stadlau",
+    "tierarztzentrum-am-seepark",
+    "tma-ottakring",
+    "tierambulanz-brigittenauerlaende",
+    "tierarztpraxis-strebersdorf",
+    "tierambulatorium-draschepark",
+    "tierarztpraxis-dr-florian-teufel",
+    "katzenpraxis-dr-hoyer-dr-kamm",
+    "tierambulatorium-oberlaa"
+  ],
+  "hash": "a49cd60b882b8f00cb73a81ff83a4c5ddf648d37868f2f32a0d91dc0e99d619b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-05T16:50:25.069Z",
+      "result": "FAIL",
+      "listed": 18
+    },
+    {
+      "at": "2026-10-05T16:52:27.511Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
