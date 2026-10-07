@@ -1,0 +1,122 @@
+{
+  "slug": "cross-bronx-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cross+Bronx+Pet+Shop/@40.8310634,-73.8545513,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f4c6128ef0e3:0x583ec98e46ec809!8m2!3d40.8310634!4d-73.8545513!16s%2Fg%2F1tf2504n?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Neighborhood supply selection and inventory limits"
+      },
+      "text": {
+        "en": "Customers appreciate the shop for carrying an extensive assortment of dog food, collars, and pet accessories in the Bronx. However, shoppers note certain inventory boundaries, such as the absence of live aquarium fish, meaning selection focuses primarily on dogs, cats, and everyday companion supplies."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and welcoming store associates"
+      },
+      "text": {
+        "en": "Visitors highlight the warm and attentive customer service provided by retail staff and groomers. Employees are described as kind, accommodating, and eager to assist when guiding shoppers through pet food options or checking in animals for grooming services."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affectionate atmosphere for household companions"
+      },
+      "text": {
+        "en": "Reviewers note that the store maintains a pet-friendly environment with adorable resident cats and gentle care during grooming sessions. Pet parents feel comfortable bringing their dogs inside for supplies and haircuts, appreciating the staff's gentle attitude."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Cross Bronx Pet Shop offer pet grooming services?"
+      },
+      "a": {
+        "en": "Yes, customers report taking their dogs here for routine haircuts and grooming appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of supplies are stocked in the store?"
+      },
+      "a": {
+        "en": "Reviewers highlight an extensive selection of dog collars, premium pet foods, and everyday animal care accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop carry live fish or aquarium supplies?"
+      },
+      "a": {
+        "en": "No, reviewers note that the pet shop does not sell live fish, focusing instead on dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
