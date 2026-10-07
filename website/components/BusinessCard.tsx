@@ -41,7 +41,8 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
         ? "h-14 w-[4.75rem] sm:h-16 sm:w-[5.5rem]"
         : "h-14 w-14 sm:h-16 sm:w-16";
   // One line from the review summary under the rating (owner, 2026-10-07):
-  // the most-mentioned praise, else the most-mentioned topic as it is.
+  // the most-mentioned praise, else the most-mentioned topic as it is; text
+  // only, no icons (owner, 2026-10-07).
   const insights = parseReviewInsights(business.reviewInsights, locale);
   const highlight = insights ? pickHighlight(insights.cards) : null;
   // A price for every place that has one: the € level when the city has a
@@ -119,12 +120,9 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
         </div>
 
         {highlight && (
-          <p className="mt-1.5 flex items-start gap-1.5 text-sm font-medium text-foreground/85">
-            <span aria-hidden="true">{SENTIMENT_ICON[highlight.sentiment]}</span>
-            <span className="line-clamp-2">
-              <span className="sr-only">{t.insights.title}: </span>
-              {highlight.title[locale] ?? highlight.title.en}
-            </span>
+          <p className="mt-1.5 line-clamp-2 text-sm font-medium text-foreground/85">
+            <span className="sr-only">{t.insights.title}: </span>
+            {highlight.title[locale] ?? highlight.title.en}
           </p>
         )}
 
@@ -151,8 +149,6 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
     </article>
   );
 }
-
-const SENTIMENT_ICON: Record<InsightCard["sentiment"], string> = { positive: "👍", mixed: "💬", negative: "👎" };
 
 function pickHighlight(cards: InsightCard[]): InsightCard | null {
   const byMentions = [...cards].sort((a, b) => b.mentions - a.mentions);
