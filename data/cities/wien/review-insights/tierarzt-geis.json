@@ -1,0 +1,137 @@
+{
+  "slug": "tierarzt-geis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dipl-TA+Mag.+Susanna+Geis/@48.1765791,16.4151527,17z/data=!3m1!4b1!4m6!3m5!1s0x476da9f8fa3805e9:0x41280cdd7cc3966b!8m2!3d48.1765791!4d16.4151527!16s%2Fg%2F1tksm4qh?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Freundliche Betreuung bei geteilten Kundenerfahrungen",
+        "en": "Friendly care alongside split client experiences"
+      },
+      "text": {
+        "de": "Mag. Susanna Geis und ihre Assistentin werden von vielen Haltern für ihre verständnisvolle und beruhigende Art gelobt. Bei Routinebesuchen nehmen sie sich Zeit für Aufklärung. Ein sehr kritischer Rezensent beklagte jedoch mangelnde Hilfe bei einer akuten Verschlechterung nach einer Kastration.",
+        "en": "Dr. Susanna Geis and her assistant are praised by many owners for their reassuring and gentle bedside manner. Routine visits include detailed explanations. However, a deeply critical review alleged insufficient support during acute complications following neutering."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Liebevoller Umgang mit Katzen und Kätzchen",
+        "en": "Affectionate handling of felines and kittens"
+      },
+      "text": {
+        "de": "Katzenhalter betonen, wie wohl sich junge Kätzchen und ältere Kater in der Ordination fühlen. Die Behandlungen verlaufen ruhig, und selbst nervöse Tiere fassen schnell Zutrauen. Die einfühlsame Betreuung wird von vielen Familien als Grund für regelmäßige Folgebesuche genannt.",
+        "en": "Cat owners highlight how comfortable young kittens and senior cats feel inside the surgery. Procedures proceed calmly, allowing nervous felines to gain confidence quickly. This gentle approach is cited by many households as the main reason for returning."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Rasche Terminvergabe ohne lange Wartezeiten",
+        "en": "Prompt appointment scheduling without long waits"
+      },
+      "text": {
+        "de": "Rezensenten heben hervor, dass Termine häufig noch am selben Tag oder für den nächsten Tag vergeben werden. In der Praxis verlaufen die Abläufe gut organisiert, sodass Patientenbesitzer kaum Wartezeit im Vorraum verbringen müssen. Auch Sofort-Blutbilder beschleunigen die Befundung.",
+        "en": "Reviewers note that appointments are frequently arranged on the very same day or by the next morning. Practice workflows are well organized, sparing owners prolonged waiting room stays. In-house instant blood tests further speed up diagnostic results."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Welche Zahlungsmöglichkeiten gibt es in der Praxis von Mag. Geis?",
+        "en": "Which payment methods are accepted at Mag. Geis's clinic?"
+      },
+      "a": {
+        "de": "Kunden berichten, dass in der Ordination ausschließlich Barzahlung möglich ist und Kosten vorab kommuniziert werden.",
+        "en": "Clients report that only cash payment is accepted, with estimated costs communicated in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Laborbefunde wie Blutbilder direkt vor Ort ausgewertet werden?",
+        "en": "Can laboratory blood tests be processed directly on-site?"
+      },
+      "a": {
+        "de": "Ja, die Praxis führt Blutanalysen selbst durch, sodass Befunde sehr rasch vorliegen.",
+        "en": "Yes, blood diagnostics are conducted on-site, delivering fast turnaround times for results."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie schnell erhält man bei akuten Anliegen einen Behandlungstermin?",
+        "en": "How quickly can one obtain an appointment for urgent concerns?"
+      },
+      "a": {
+        "de": "Tierbesitzer schätzen die unkomplizierte Terminvergabe oft noch am selben Tag nach telefonischer Rücksprache.",
+        "en": "Pet owners appreciate straightforward appointment scheduling often on the same day via phone."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
