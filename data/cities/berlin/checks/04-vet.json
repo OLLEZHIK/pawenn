@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "tierarztpraxis-wagner-berlin",
+    "dr-ulusal-tierarzt-gesundbrunnen",
+    "tierarztpraxis-dr-koenig",
+    "tierarztpraxis-dr-c-lewandowski-dr-s-klug",
+    "tieraerztin-denisse-barrera",
+    "oliviero-lombardi-tierarzt",
+    "medivet-tierarztpraxis",
+    "kleintierpraxis-dr-kuntze",
+    "dr-med-vet-leszek-chelminski",
+    "kleintierpraxis-dr-med-vet-sven-albrecht"
+  ],
+  "hash": "d2a19536fe92dab1318d6209dfc86e72c19ce22880d00e265c826c78408c2351",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T11:10:32.941Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-06T11:19:05.716Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
