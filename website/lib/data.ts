@@ -34,7 +34,9 @@ export type BusinessWithRelations = Business & {
 // hour or per km, not partial ones like surgery without anaesthesia, and
 // not ones that include more than the standard (a `note` such as "incl.
 // hospitalisation") - docs/card-spec.md, "Цены".
-const COMPARABLE_PRICE = { partial: false, unit: null, note: null } as const;
+// Prices with a short note ("small dogs") count too (owner, 2026-10-07: more
+// prices on the cards); partial and per-hour / per-km prices still do not.
+const COMPARABLE_PRICE = { partial: false, unit: null } as const;
 
 const PUBLISHED_REVIEWS = { where: { status: "PUBLISHED" as const } };
 
