@@ -1,0 +1,175 @@
+{
+  "slug": "pleasant-plains-animal-hospital-south",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pleasant+Plains+Animal+Hospital+South/@40.5314362,-74.1934898,17z/data=!3m1!4b1!4m6!3m5!1s0x89c24ab2b66706b3:0xe55a04ac70e6ff1b!8m2!3d40.5314362!4d-74.1934898!16s%2Fg%2F1trqj3lz?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Supportive clinical staff with corporate critiques"
+      },
+      "text": {
+        "en": "Long-term clients praise attending veterinarians, including Dr. Meleleo, for empathetic guidance and attentiveness during difficult medical decisions and end-of-life care. However, dissatisfied reviewers argue that practice culture has grown transactional, claiming that staff interactions sometimes emphasize financial billing over compassionate patient relationships."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Routine surgical recovery alongside diagnostic disputes"
+      },
+      "text": {
+        "en": "Several pet owners report positive outcomes following surgical procedures and praise attentive post-operative check-ins. On the other hand, multiple reviewers question clinical decisions, citing delayed identification of ear infections that required costlier interventions and recommendations for invasive procedures where conservative care was preferred."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Persistent client concerns over high fees"
+      },
+      "text": {
+        "en": "Pricing and billing policies receive sharp criticism across multiple client reviews. Pet owners report steep charges for routine ear treatments, costly add-on estimates such as multi-thousand-dollar dental cleanings, and perceived pressure to pursue invasive procedures rather than conservative medical management."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the hospital handle post-surgical care?"
+      },
+      "a": {
+        "en": "Pet owners report thorough follow-up after surgery, noting that clinic staff call to check on recovery progress and answer ongoing care questions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accommodate large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, multiple long-term clients mention bringing large breed dogs for routine wellness, preventative care, and specialized treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are detailed estimates provided before treatment?"
+      },
+      "a": {
+        "en": "While staff discuss treatment plans, several clients advise reviewing estimates carefully, as add-on diagnostic and dental recommendations can significantly increase the total bill."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
