@@ -1,0 +1,274 @@
+{
+  "slug": "verg-brooklyn",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VERG+Brooklyn/@40.6784792,-73.9827207,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25a51b374b1bb:0x618e4a7b186fa859!8m2!3d40.6784792!4d-73.9827207!16s%2Fg%2F1tj7fzqf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 16,
+      "title": {
+        "en": "Dedicated doctors alongside triage inconsistencies"
+      },
+      "text": {
+        "en": "Pet owners express sincere appreciation for intensive care veterinarians and front-desk coordinators, citing empathetic support and clear consultations during midnight crises. Several clients praise specific attending doctors for patient dedication. In contrast, other reviews describe encounters with rushed clinicians or unresponsive triage personnel."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 13,
+      "title": {
+        "en": "Concerns regarding updates and communication"
+      },
+      "text": {
+        "en": "Communication gaps during emergency visits are a common source of client frustration. Pet parents cite long intervals without status updates while waiting, difficulty obtaining diagnostic test results from specialty departments, and unanswered phone messages following discharge. Clearer timeline expectations are frequently requested."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Varied outcomes in critical care"
+      },
+      "text": {
+        "en": "Reviewers report life-saving interventions for pets facing severe blockages, trauma, and acute distress, praising the clinical competence of the inpatient team. Conversely, some pet owners recount heartbreaking pet losses, unresolved medical symptoms, or adverse reactions to prescribed medications during emergency care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is emergency veterinary care available around the clock?"
+      },
+      "a": {
+        "en": "Yes, the hospital operates twenty-four hours a day, providing continuous emergency intake and critical intensive care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are emergency walk-ins prioritized?"
+      },
+      "a": {
+        "en": "Triage nurses immediately assess incoming patients, with life-threatening medical emergencies seen ahead of stable animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should owners expect regarding waiting times?"
+      },
+      "a": {
+        "en": "Pet parents report that non-critical emergency visits can involve waiting several hours during peak overnight periods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specialty departments available on site?"
+      },
+      "a": {
+        "en": "Yes, the center provides specialized care in internal medicine, surgery, and cardiology alongside its emergency department."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

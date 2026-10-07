@@ -1,0 +1,203 @@
+{
+  "slug": "howard-beach-animal-clinic-pc",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Howard+Beach+Animal+Clinic+PC/@40.6520609,-73.8378081,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2678111493c9f:0xa677b6803e236f93!8m2!3d40.6520609!4d-73.8378081!16s%2Fg%2F1tff3z5f?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Trusted long-term veterinarians and staff"
+      },
+      "text": {
+        "en": "Many clients who have visited the clinic for decades express deep loyalty to the veterinary team, specifically commending Dr. Roufail and Dr. Monaco. Pet owners describe warm, knowledgeable doctors and assistants who treat animals gently and take time to address questions, though a minority of reviewers felt empathy was lacking during crises."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Client concerns about rising medical costs"
+      },
+      "text": {
+        "en": "Several pet parents express frustration with unexpected price escalations and procedure costs. Reviewers mention dental surgery estimates increasing significantly upon tooth extraction, high charges for diagnostic imaging, and costly clinic transfer recommendations, leading some clients to question billing transparency."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Friction in referrals and record delivery"
+      },
+      "text": {
+        "en": "Clients note communication difficulties regarding medical records and referral protocols. Reviewers report experiencing delays when requesting dental X-ray files, as well as unclear instructions when directed to outside facilities that lacked required equipment. Positive feedback highlights doctors who clearly explain treatment options."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do pet owners need to schedule appointments in advance?"
+      },
+      "a": {
+        "en": "Appointments are recommended, as clients note the waiting room can get crowded with wait times of thirty to sixty minutes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What routine surgical procedures does the clinic offer?"
+      },
+      "a": {
+        "en": "The clinic performs routine soft tissue surgeries, dental cleanings, echocardiograms, and general diagnostic wellness care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the practice handle critical emergency cases?"
+      },
+      "a": {
+        "en": "The clinic manages urgent care but may refer pets to specialized hospital centers if specialized equipment is needed."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are detailed treatment estimates provided prior to procedures?"
+      },
+      "a": {
+        "en": "Pet parents report that veterinarians outline procedural options, though additional surgical findings can alter final costs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

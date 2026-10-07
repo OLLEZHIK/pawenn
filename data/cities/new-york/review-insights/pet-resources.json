@@ -1,0 +1,219 @@
+{
+  "slug": "pet-resources",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Resources/@40.8189071,-73.9027663,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f5b2408742f1:0x7a683e9e27de39c5!8m2!3d40.8189071!4d-73.9027663!16s%2Fg%2F1tj5rny_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive and knowledgeable store staff"
+      },
+      "text": {
+        "en": "Local pet owners praise the friendly and welcoming attitude of the store personnel and management. Reviewers appreciate the staff willingness to share practical pet care advice, guide first-time puppy owners, and answer detailed questions about reptile supplies. The family-owned neighborhood atmosphere is repeatedly highlighted by loyal customers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Extensive inventory with return limitations"
+      },
+      "text": {
+        "en": "Customers value the store broad inventory, including a diverse stock of dog products, reptile food, live crickets, and aquarium supplies. The facility is described as well maintained and clean. However, a few shoppers express disappointment with strict store policies prohibiting live fish exchanges, as well as occasional supply shortages."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Focus on reptile and fish care"
+      },
+      "text": {
+        "en": "The shop receives substantial praise for supporting specialized animals, particularly exotic reptiles, companion birds, and colorful aquarium fish. Customers regularly purchase feeder insects and express confidence in staff familiarity with exotic pet husbandry, though one reviewer noted concerns regarding feeder goldfish hardiness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the store carry supplies for reptiles and exotic pets?"
+      },
+      "a": {
+        "en": "Yes, the shop stocks live feeder insects, crickets, frozen rodents, and habitat accessories for reptiles and amphibians."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What is the return policy on live fish purchases?"
+      },
+      "a": {
+        "en": "Customer feedback indicates that the store does not offer exchanges or returns on live fish once purchased."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is veterinary assistance accessible at this location?"
+      },
+      "a": {
+        "en": "The store hosts an on-site veterinary clinic, though customers advise verifying clinic hours in advance before visiting."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in New York?"
+      },
+      "a": {
+        "en": "The store is located in the South Bronx, serving neighborhood pet owners with food, gear, and supplies."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
