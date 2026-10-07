@@ -1,0 +1,35 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "mobiler-tiernotdienst-koeln",
+    "tierarztpraxis-dr-anette-huhn",
+    "filu-tierarztpraxis-rudolfplatz",
+    "tiergesundheitszentrum-an-der-flora",
+    "fachtierarztzentrum-koeln-merheim",
+    "tieraerztliche-praxis-dr-behrens-dr-rick",
+    "tierarztpraxis-daub-szattelberger",
+    "tierarztpraxis-in-rondorf",
+    "tierarztpraxis-ulrich",
+    "tierarztpraxis-michael-pirron"
+  ],
+  "hash": "055bafddc1c8ca2a2247f638a8cefda5edaa38d0e42444edab0d687cb57504b8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T13:46:52.773Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-06T13:48:33.359Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T13:49:48.039Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
