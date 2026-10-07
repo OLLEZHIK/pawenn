@@ -1,0 +1,35 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "city-veterinary-care",
+    "animal-hospital-of-brooklyn",
+    "oceanside-animal-clinic",
+    "forest-hills-cat-hospital",
+    "liberty-animal-clinic",
+    "worth-street-veterinary-center",
+    "glendale-veterinary-clinic",
+    "st-mina-animal-clinic",
+    "rivergate-veterinary-clinic",
+    "queens-low-cost-veterinary-center"
+  ],
+  "hash": "4a3de0731a24f962e4587b1f515d69479e3aa60b872c46f469a88edd4d17b2c6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T12:42:54.673Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-07T12:46:27.581Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T12:48:12.017Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
