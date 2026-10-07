@@ -35,7 +35,7 @@ import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
 import { PlaceFacts } from "@/components/PlaceFacts";
 import { CityPrices } from "@/components/CityPrices";
-import { cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
+import { cityClock, cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
 import { specialtyLabel } from "@/lib/vet";
 import { parseReviewInsights } from "@/lib/reviewInsights";
 import {
@@ -421,6 +421,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                     locale={locale}
                     sourceUrl={business.hoursSourceUrl}
                     observedAt={business.hoursObservedAt}
+                    clock={cityClock(business.city ?? business.district?.city)}
                   />
                 </div>
               )}
@@ -658,11 +659,13 @@ function safeHost(url: string): string | null {
 }
 
 
-/** "instagram.com/vetline_sk" style label for a social profile URL. */
+/** "vetline_sk" style label for a social profile URL: the network is already
+ *  named by the row label, so only the path (the handle) is shown. */
 function socialHandle(url: string): string {
   try {
     const u = new URL(url);
-    return `${u.hostname.replace(/^www\./, "")}${u.pathname.replace(/\/$/, "")}`;
+    const path = u.pathname.replace(/^\/|\/$/g, "");
+    return path || u.hostname.replace(/^www\./, "");
   } catch {
     return url;
   }

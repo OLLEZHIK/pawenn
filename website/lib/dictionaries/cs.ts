@@ -374,6 +374,7 @@ export const cs: Dictionary = {
     opensLater: (date: string, time: string) => `otevírá ${date} v ${time}`,
     nonstopTitle: "Nonstop 24/7",
   },
+  consent: { text: "Rádi bychom používali cookies Google Analytics, abychom viděli, jak se web používá, a mohli ho zlepšovat. Jen pokud to povolíte.", allow: "Povolit", decline: "Odmítnout", settings: "Nastavení cookies" },
   actions: { call: "Zavolat", website: "Web", route: "Trasa" },
   badges: { verified: (date: string) => `Ověřeno ${date}`, partner: "Partner" },
   business: {

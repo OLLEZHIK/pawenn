@@ -41,16 +41,21 @@ const COUNTRY = {
   CZ: { dial: "420", national: /^[2-9]\d{8}$/, postal: /\b\d{3} ?\d{2}\b/ },
   AT: { dial: "43", national: /^[1-9]\d{3,12}$/, postal: /\b\d{4}\b/ },
   DE: { dial: "49", national: /^[1-9]\d{5,13}$/, postal: /\b\d{5}\b/ },
+  // NANP: area code and exchange never start with 0 or 1; written
+  // "+1 212-555-1234" (New York, 2026-10-07). ZIP: 5 digits (ZIP+4 passes too).
+  US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;
 
 // Phone digits that are not a real subscriber number: all one digit, a run
 // 1234567 / 7654321, or a short block repeated three times (123123123;
 // two repeats are real numbers: +420 252 252 111, Medicanima, Praha).
-function fakePhone(national: string): string | null {
+function fakePhone(national: string, country?: string): string | null {
   if (/^(\d)\1+$/.test(national)) return "one digit repeated";
   if (/(0123456|1234567|2345678|3456789|9876543|8765432|7654321|6543210)/.test(national)) return "a digit sequence";
   if (/^(\d{2,4})\1{2,}\d{0,3}$/.test(national) && new Set(national).size <= 3) return "a short block repeated";
   if (new Set(national).size <= 2) return "two digits only";
+  // 555-0100..555-0199 is reserved for films and examples in North America.
+  if (country === "US" && /^\d{3}55501\d{2}$/.test(national)) return "a 555-01xx example number";
   return null;
 }
 
@@ -132,8 +137,8 @@ for (const city of cities) {
         else if (national.startsWith("0")) national = national.slice(1);
         if (digits.startsWith("+" + country.dial) && national.startsWith("0")) f(slug, `phone "${phone}" has a trunk 0 after +${country.dial} (write +${country.dial} ${national.slice(1)}, not +${country.dial} 0…)`);
         if (!country.national.test(national) && national.length !== 0 && (digits.startsWith("+" + country.dial) || !digits.startsWith("+")))
-          f(slug, `phone "${phone}" is not a ${meta.country} number (needs ${country.dial} + 9 digits)`);
-        const fake = fakePhone(national);
+          f(slug, `phone "${phone}" is not a ${meta.country} number (+${country.dial}, then ${national.length} digits do not fit)`);
+        const fake = fakePhone(national, meta.country);
         if (fake) f(slug, `phone "${phone}" looks fake (${fake})`);
         const key = national;
         byPhone.set(key, [...(byPhone.get(key) ?? []), slug]);
