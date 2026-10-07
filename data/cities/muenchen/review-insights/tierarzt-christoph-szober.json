@@ -1,0 +1,132 @@
+{
+  "slug": "tierarzt-christoph-szober",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarzt+Dr.+Christoph+Szober/@48.1126251,11.5341117,17z/data=!3m1!4b1!4m6!3m5!1s0x479dd8cc69ad90c5:0xba7fd77c697c3cc!8m2!3d48.1126251!4d11.5341117!16s%2Fg%2F1tdxjvth?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Freundlicher und kollegialer Umgang des Tierarztes",
+        "en": "Friendly and personable manner of veterinarian"
+      },
+      "text": {
+        "de": "Tierhalter schätzen Dr. Christoph Szober und sein Praxisteam für ihre sympathische und zugewandte Art. Der Tierarzt nimmt sich Zeit für die Anliegen der Besitzer und begegnet ihnen auf Augenhöhe. Das gesamte Team wird als hilfsbereit, kompetent und ausgesprochen tierlieb wahrgenommen.",
+        "en": "Pet owners commend Dr. Christoph Szober and his clinic team for their welcoming and attentive attitude. The veterinarian takes time to address owners' concerns and communicates on equal terms. The entire practice team is perceived as helpful, capable, and genuinely devoted to animals."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Verständliche Beratung auch auf Englisch",
+        "en": "Clear advice also in English"
+      },
+      "text": {
+        "de": "Besucher loben die ausführlichen und geduldigen Erklärungen vor medizinischen Eingriffen. Internationale Tierhalter heben positiv hervor, dass Dr. Szober fließend Englisch spricht und Sprachbarrieren unkompliziert abbaut. Befunde und Behandlungsschritte werden verständlich und ohne Zeitdruck besprochen.",
+        "en": "Visitors commend the detailed and patient explanations provided before medical procedures. International pet owners appreciate that Dr. Szober speaks fluent English, removing communication barriers seamlessly. Diagnoses and clinical steps are discussed clearly and without any sense of rushing."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Fürsorgliche Behandlung für Hunde und Katzen",
+        "en": "Careful handling for dogs and cats"
+      },
+      "text": {
+        "de": "Kunden betonen den einfühlsamen Umgang mit jungen Katzen und älteren Hunden in der Sendlinger Praxis. Dr. Szober geht ruhig auf ängstliche Haustiere ein und sorgt für eine entspannte Atmosphäre während der Untersuchung. Auch nach chirurgischen Eingriffen erholen sich die tierischen Patienten zügig.",
+        "en": "Clients emphasize the compassionate care given to young cats and senior dogs at the Sendling clinic. Dr. Szober approaches anxious companion animals calmly, fostering a relaxed environment during medical exams. Even following surgical operations, animal patients recover swiftly and comfortably."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Bietet Dr. Szober Behandlungen auch auf Englisch an?",
+        "en": "Does Dr. Szober provide consultations in English?"
+      },
+      "a": {
+        "de": "Ja, Dr. Szober spricht fließend Englisch und berät internationale Tierhalter in ihrer Sprache.",
+        "en": "Yes, Dr. Szober speaks fluent English and consults international pet owners in English."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden in der Praxis Routineoperationen wie Kastrationen durchgeführt?",
+        "en": "Are routine surgeries like neutering performed at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Eingriffe wie Kastrationen bei Katzen werden routiniert und mit schonender Narkose durchgeführt.",
+        "en": "Yes, routine procedures such as feline neutering are performed regularly with gentle anesthesia."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden auch ältere Hunde und Katzen intensiv betreut?",
+        "en": "Are senior dogs and cats provided with specialized care?"
+      },
+      "a": {
+        "de": "Ja, Halter heben die sorgfältige und einfühlsame Versorgung von Tiersenioren positiv hervor.",
+        "en": "Yes, owners specifically highlight the attentive and gentle care provided for senior pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
