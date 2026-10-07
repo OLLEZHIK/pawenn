@@ -434,7 +434,10 @@ export async function CategoryListing({
                     </div>
                     {g.total > g.items.length && (
                       <Link
-                        href={allHref}
+                        // "See all" opens the whole list at once: without ?all=1
+                        // the category page showed 5 again with a second "Show
+                        // all" (owner, 2026-10-07).
+                        href={`${allHref}?all=1`}
                         prefetch={false}
                         className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
                       >
