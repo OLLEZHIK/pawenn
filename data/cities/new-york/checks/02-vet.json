@@ -1,0 +1,35 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "verg-brooklyn",
+    "bluepearl-pet-hospital-midtown",
+    "howard-beach-animal-clinic-pc",
+    "richmond-valley-veterinary-practice",
+    "bluepearl-pet-hospital-brooklyn",
+    "juniper-valley-animal-hospital",
+    "rockaway-beach-veterinary-services",
+    "center-for-avian-exotic-medicine",
+    "bond-vet-upper-east-side-at-62nd-street",
+    "riverdale-veterinary-group-pc"
+  ],
+  "hash": "3f3325ee45f9e21046afde6f82292c49e8352ffb7f9c38ea215f9c84dfed7f12",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T13:41:56.104Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-07T13:52:14.319Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T13:53:21.108Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
