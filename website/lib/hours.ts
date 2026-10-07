@@ -123,8 +123,23 @@ export function dateInDays(inDays: number, locale: string, timeZone: string, now
   );
 }
 
-export function formatMinutes(m: number): string {
-  return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+/** How a city writes times: "18:00", or "6:00 PM" where the country's
+ *  signs and sites use a 12-hour clock (US, New York 2026-10-07). Hours are
+ *  always stored 24-hour; this is only how they are shown. */
+export type Clock = "h23" | "h12";
+const H12_COUNTRIES = new Set(["US"]);
+export function cityClock(city: { country?: string | null } | null | undefined): Clock {
+  return city?.country && H12_COUNTRIES.has(city.country.toUpperCase()) ? "h12" : "h23";
+}
+
+export function formatMinutes(m: number, clock: Clock = "h23"): string {
+  const mm = String(m % 60).padStart(2, "0");
+  if (clock === "h12") {
+    const h = Math.floor(m / 60) % 24;
+    // No-break space: "PM" never wraps away from its time on a phone.
+    return `${h % 12 === 0 ? 12 : h % 12}:${mm}\u00a0${h < 12 ? "AM" : "PM"}`;
+  }
+  return `${String(Math.floor(m / 60)).padStart(2, "0")}:${mm}`;
 }
 
 const SCHEMA_DAY: Record<Day, string> = {

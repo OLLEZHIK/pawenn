@@ -35,7 +35,7 @@ import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
 import { PlaceFacts } from "@/components/PlaceFacts";
 import { CityPrices } from "@/components/CityPrices";
-import { cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
+import { cityClock, cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
 import { specialtyLabel } from "@/lib/vet";
 import { parseReviewInsights } from "@/lib/reviewInsights";
 import {
@@ -421,6 +421,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                     locale={locale}
                     sourceUrl={business.hoursSourceUrl}
                     observedAt={business.hoursObservedAt}
+                    clock={cityClock(business.city ?? business.district?.city)}
                   />
                 </div>
               )}

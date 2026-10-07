@@ -109,9 +109,13 @@ const logoOk = (r: Row) => logoExists(r) && !logoSmall(r);
 // warning the reviewer reads, not a failure.
 // "warn": the owner's minimum is about real values (docs/card-spec.md,
 // "Минимум качества"), so a low share of them is shown to the reviewer.
+// A city whose own language is English (New York, owner 2026-10-07) has
+// no second text: the "_local" columns stay empty and the site shows the
+// English ones.
+const englishCity = cityMetaLocale() === "en";
 const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?: string; warn?: boolean }[] = [
-  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && has(r, "short_description_local") },
-  { field: "description + _local", target: 1, value: (r) => has(r, "description") && has(r, "description_local") },
+  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && (englishCity || has(r, "short_description_local")) },
+  { field: "description + _local", target: 1, value: (r) => has(r, "description") && (englishCity || has(r, "description_local")) },
   // Mobile services with no premises have no coordinates, only a
   // "coords: none (mobile service ...)" note (docs/card-spec.md, section 3).
   { field: "lat / lng", target: 1, value: (r) => has(r, "lat") && has(r, "lng"), none: "coords" },
@@ -645,7 +649,7 @@ for (const r of rows) {
   if (cityMeta.locale !== "en" && !has(r, "languages_spoken") && !noted(r, "languages")) {
     vetGaps.push(`${r.slug}: no languages_spoken and no "languages: none (...)" in notes`);
   }
-  if (has(r, "emergency_note") !== has(r, "emergency_note_local")) {
+  if (!englishCity && has(r, "emergency_note") !== has(r, "emergency_note_local")) {
     vetGaps.push(`${r.slug}: emergency_note and emergency_note_local go together`);
   }
 }
@@ -747,10 +751,10 @@ if (fs.existsSync(pricesFile)) {
     }
     const note = (p.note ?? "").trim();
     const noteLocal = (p.note_local ?? "").trim();
-    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || !noteLocal)) {
-      priceErrors.push(`${at}: partial=yes needs note and note_local`);
+    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || (!englishCity && !noteLocal))) {
+      priceErrors.push(englishCity ? `${at}: partial=yes needs note` : `${at}: partial=yes needs note and note_local`);
     }
-    if (!!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
+    if (!englishCity && !!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
     if (note.length > 40 || noteLocal.length > 40) priceErrors.push(`${at}: note over 40 characters`);
   });
 }
