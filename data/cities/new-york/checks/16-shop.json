@@ -1,0 +1,35 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "brooklyn-zoo-aquarium-pet-store",
+    "r-k-pet-shop",
+    "pet-delight",
+    "zoo-rama-pet-shop",
+    "paradise-aquarium",
+    "gabby-pets",
+    "the-pet-store",
+    "pet-city",
+    "tropical-pets",
+    "crosby-pet-center-inc"
+  ],
+  "hash": "b64eed8a3fa5b808a9b487962d1d47850fab3c08b21bf31f49c0f27ebbb4f33b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T19:20:55.306Z",
+      "result": "FAIL",
+      "listed": 38
+    },
+    {
+      "at": "2026-10-07T19:22:21.333Z",
+      "result": "FAIL",
+      "listed": 38
+    },
+    {
+      "at": "2026-10-07T19:26:56.560Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
