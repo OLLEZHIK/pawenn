@@ -1,0 +1,146 @@
+{
+  "slug": "tierarztpraxis-trelder-weg",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterinary+practice+Trelder+Weg+-+Veterinarian+Hamburg/@53.4682006,9.9678122,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1919bf62d989f:0x6ba9784f479d2011!8m2!3d53.4682006!4d9.9678122!16s%2Fg%2F1tcwg1f8?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "de": "Freundliches Team mit geteilten Erfahrungen",
+        "en": "Friendly clinic team with contrasting views"
+      },
+      "text": {
+        "de": "Mehrere Rezensenten loben das Praxisteam im Trelder Weg für seine freundliche, lösungsorientierte und kompetente Art. Halter schätzen nützliche Ratschläge und faire Beratungen. Dagegen äußern andere Stimmen Unmut über mangelndes Mitgefühl und eine abweisende Reaktion bei der Vorstellung eines verletzten Wildvogels.",
+        "en": "Several reviewers commend the team on Trelder Weg for their friendly, pragmatic, and skilled approach. Pet owners value useful advice and honest consultations. Conversely, critical feedback reports a lack of empathy and a dismissive reaction when a member of the public brought in an injured wild bird."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Hundefreundliche Betreuung bei Artengrenzen",
+        "en": "Dog-friendly care with species limitations"
+      },
+      "text": {
+        "de": "Für Haustiere wie Hunde beschreiben Halter eine liebevolle, patientenorientierte Atmosphäre, in der sich Tiere wohlfühlen. Gleichzeitig wird deutlich, dass Wildtiere wie Tauben vor Ort nicht versorgt werden, was bei Findern auf Unverständnis stößt und zu emotionalen Enttäuschungen führt.",
+        "en": "For domestic pets such as dogs, owners describe a welcoming, animal-centered atmosphere where pets feel comfortable. At the same time, it is noted that wildlife like injured pigeons is not treated on site, which creates frustration and disappointment among wildlife finders seeking help."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Solide Behandlung und Weiterleitung",
+        "en": "Sound clinical care and timely referral"
+      },
+      "text": {
+        "de": "Tierbesitzer schätzen, dass die Behandler ihre eigenen Grenzen kennen und Patienten bei komplexen Befunden an Spezialkliniken weiterleiten, statt unnötige Behandlungsversuche zu starten. Neben zufriedenen Kunden gibt es jedoch auch knappe negative Rückmeldungen zur allgemeinen Zufriedenheit.",
+        "en": "Pet owners appreciate that practitioners recognize clinical limits and forward complex cases to specialized animal hospitals rather than prolonging treatments unnecessarily. Alongside satisfied feedback, brief negative ratings also reflect general dissatisfaction with outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es in der Praxis Sprechstunden am Samstag?",
+        "en": "Does the veterinary clinic offer Saturday consultation hours?"
+      },
+      "a": {
+        "de": "Ja, Rezensenten heben die praktische Sprechstunde am Samstag positiv hervor.",
+        "en": "Yes, reviewers appreciate the convenient consultation hours offered on Saturdays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden verletzte Wildtiere oder Tauben in der Praxis behandelt?",
+        "en": "Are injured wild animals or pigeons treated at the clinic?"
+      },
+      "a": {
+        "de": "Nein, Kundenberichte weisen darauf hin, dass Wildtiere an externe Auffangstationen verwiesen werden.",
+        "en": "No, customer feedback indicates that wild animals are referred to external rescue centers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie schätzen Kunden das Preisniveau der Praxis ein?",
+        "en": "How do clients assess the pricing level of the clinic?"
+      },
+      "a": {
+        "de": "In Bewertungen werden die Preise als moderat, fair und lösungsorientiert beschrieben.",
+        "en": "In reviews, prices are described by clients as moderate, fair, and reasonable."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
