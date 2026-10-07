@@ -1,0 +1,196 @@
+{
+  "slug": "tierarztpraxis-in-junkersdorf",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+in+Junkersdorf/@50.9245886,6.8744613,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf3b3788724bbf:0x47e3a488246996fc!8m2!3d50.9245886!4d6.8744613!16s%2Fg%2F11q89mvcdl?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "de": "Einfühlsames und engagiertes Praxisteam",
+        "en": "Empathetic and dedicated practice team"
+      },
+      "text": {
+        "de": "Tierhalter loben die familiäre Atmosphäre und die herzliche Betreuung in der Praxis in Köln-Junkersdorf. Das Team nimmt sich viel Zeit für die Untersuchung und beantwortet Rückfragen geduldig und verständlich. Vereinzelte Kritik betrifft die telefonische Erreichbarkeit im Reklamationsfall.",
+        "en": "Pet owners commend the welcoming atmosphere and compassionate care at the veterinary practice in Cologne-Junkersdorf. The team takes ample time for medical examinations and addresses questions patiently. Occasional feedback notes difficulties reaching the clinic by phone after issues arise."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Behutsamer Umgang mit Hunden und Katzen",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "de": "Viele Kunden heben hervor, dass Hunde und Katzen während der Behandlung ruhig und liebevoll begleitet werden. Auch bei Notfällen oder nervösen Tieren strahlen die Behandler Gelassenheit aus, sodass sich Vierbeiner und Besitzer während des Termins gut aufgehoben fühlen.",
+        "en": "Many clients highlight that dogs and cats receive calm and affectionate handling during visits. Even in emergency situations or with anxious pets, the clinical team conveys reassurance, helping four-legged patients and their guardians feel comfortable throughout the appointment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Geduldige Beratung mit geteilter Kritik",
+        "en": "Patient consultations with mixed feedback"
+      },
+      "text": {
+        "de": "In den meisten Berichten wird die ausführliche Aufklärung zu Diagnosen und Behandlungen sehr geschätzt. Kunden fühlen sich bei Rückfragen ernst genommen. Einzelne Halter bemängeln jedoch mangelnde Gesprächsbereitschaft und zusätzliche Gebühren bei Nachfragen zu Behandlungen.",
+        "en": "Most reviews appreciate the thorough explanations regarding clinical diagnoses and medical therapies. Clients feel respected when asking questions. However, isolated reviews criticise a reluctance to provide phone consultations and extra fees for discussing previous treatments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis Notfälle versorgt?",
+        "en": "Are emergency cases handled at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von schneller und einfühlsamer Hilfe bei akuten Wochenend- und Notfallbesuchen.",
+        "en": "Yes, pet owners report prompt and compassionate assistance during acute weekend and emergency visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Nimmt sich das Team ausreichend Zeit für Fragen?",
+        "en": "Does the team take enough time for owner questions?"
+      },
+      "a": {
+        "de": "Ja, Besucher heben hervor, dass Behandler geduldig auf alle Anliegen eingehen und Befunde verständlich erklären.",
+        "en": "Yes, visitors emphasize that clinicians address all inquiries patiently and explain medical findings clearly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Hunde und Katzen gleichermaßen behandelt?",
+        "en": "Are both dogs and cats treated at the practice?"
+      },
+      "a": {
+        "de": "Ja, in den Erfahrungsberichten wird die Versorgung von Hunden und Katzen gleichermaßen positiv beschrieben.",
+        "en": "Yes, customer experiences describe compassionate medical care for both canine and feline patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es feste Sprechzeiten an Werktagen?",
+        "en": "Are there scheduled consultation hours on weekdays?"
+      },
+      "a": {
+        "de": "Ja, die Praxis bietet an Werktagen regelmäßige Termine sowie gesonderte Akutsprechstunden an.",
+        "en": "Yes, the practice offers regular appointment hours on weekdays alongside dedicated acute consultation windows."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

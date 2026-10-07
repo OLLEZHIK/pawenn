@@ -1,0 +1,172 @@
+{
+  "slug": "kleintierzentrum-hermsdorf",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kleintierzentrum+Hermsdorf+(ehemals+Tierarztpraxis+Matthias+M%C3%BCller)/@52.6140853,13.3167598,17z/data=!3m1!4b1!4m6!3m5!1s0x47a854999e94d179:0x9ef1706da39ce2c1!8m2!3d52.6140853!4d13.3167598!16s%2Fg%2F1tf_rxk_?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "de": "Freundliches Auftreten mit deutlicher Kritik",
+        "en": "Friendly reception alongside notable criticism"
+      },
+      "text": {
+        "de": "Ein Teil der Tierhalter lobt das freundliche Verhalten und die schnelle Terminannahme bei Akutfällen. Andere Berichte kritisieren jedoch mangelnde Hygiene bei Eingriffen, unzureichende Voruntersuchungen und ein distanziertes Auftreten jüngerer Kollegen. Die Zufriedenheit variiert daher stark.",
+        "en": "A segment of clients commends the friendly conduct and rapid intake for urgent cases. Conversely, other reports criticize hygiene shortcomings during interventions, inadequate baseline exams, and perceived aloofness from junior staff. Client satisfaction diverges substantially."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Geteilte Erfahrungen bei der Tierbehandlung",
+        "en": "Divided experiences in animal handling"
+      },
+      "text": {
+        "de": "Während Halterinnen die sensible Begleitung beim Abschiednehmen im Ruheraum schätzen, berichten andere von riskanten Situationen nach operativen Eingriffen. Mangelnde Sorgfalt bei venösen Zugängen führte in Einzelfällen zu Komplikationen. Das Feedback zur Tierbetreuung ist entsprechend gespalten.",
+        "en": "While guardians value sensitive companionship during end-of-life farewells in the quiet room, others report hazardous situations following surgical procedures. Careless handling during catheter placement caused complications in individual instances, dividing feedback."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Negative Berichte über operative Resultate",
+        "en": "Adverse reports regarding surgical outcomes"
+      },
+      "text": {
+        "de": "Mehrere Rezensenten äußern schwere Vorwürfe hinsichtlich des Behandlungserfolgs in der Praxis. Kritisiert werden übersehene Bänderverletzungen, Wundinfektionen infolge unsauberer Zugänge sowie fehlende Labordiagnostik bei geschwächten Tieren. Die Resultate werden überwiegend negativ bewertet.",
+        "en": "Multiple reviewers express serious concerns regarding therapeutic outcomes at the facility. Critiques cite missed ligament tears, postoperative infections caused by contaminated catheters, and omitted lab diagnostics in fragile animals. Outcomes are predominantly rated negatively."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es einen separaten Raum für den Abschied von Haustieren?",
+        "en": "Is there a private room for saying goodbye to pets?"
+      },
+      "a": {
+        "de": "Ja, im Untergeschoss existiert ein geschützter Raum für einen ruhigen und ungestörten Abschied.",
+        "en": "Yes, a sheltered room exists in the basement allowing quiet and undisturbed farewells."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Notfälle auch ohne Termin vorgestellt werden?",
+        "en": "Can emergency patients be presented without an appointment?"
+      },
+      "a": {
+        "de": "Ja, akute Notfallpatienten werden nach telefonischer Anmeldung auch ohne Termin angenommen.",
+        "en": "Yes, acute emergency patients are accepted without a fixed appointment following telephone notice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden vor Ort Operationen und Röntgenuntersuchungen durchgeführt?",
+        "en": "Are operations and digital x-ray diagnostics performed on site?"
+      },
+      "a": {
+        "de": "Ja, die Praxis verfügt über Räumlichkeiten für operative Eingriffe und Röntgendiagnostik.",
+        "en": "Yes, the clinic is equipped with facilities for surgical operations and radiographic diagnostics."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Bearbeitet: vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
