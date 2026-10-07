@@ -1,0 +1,142 @@
+{
+  "slug": "tierarztpraxis-ulrich",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Ulrich/@50.9427382,7.0003015,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf25dd5dbd6ef3:0x1b41680d2979e27c!8m2!3d50.9427382!4d7.0003015!16s%2Fg%2F1tf7q698?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Herzliche und pragmatische tierärztliche Betreuung",
+        "en": "Warm and pragmatic veterinary care"
+      },
+      "text": {
+        "de": "Tierhalter schätzen Dr. Ulrich und ihr Team in Köln-Zollstock für ihre unkomplizierte, verlässliche und einfühlsame Art. Kundinnen betonen, dass in der Praxis ohne unnötige Hektik gearbeitet wird und das Wohl der Tiere sowie eine ehrliche Beratung stets an erster Stelle stehen.",
+        "en": "Pet owners appreciate Dr. Ulrich and her team in Cologne-Zollstock for their straightforward, dependable, and compassionate approach. Clients emphasize that the practice works without unnecessary haste, always prioritizing animal welfare and honest guidance above all else."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Behutsamer Beistand für ängstliche Vierbeiner",
+        "en": "Gentle support for anxious pets"
+      },
+      "text": {
+        "de": "In den Bewertungen wird hervorgehoben, wie geduldig das Team mit nervösen Katzen oder Tierschutzhunden mit schwieriger Vorgeschichte umgeht. Selbst bei ängstlichen Tieren gelingt die Behandlung ruhig, und bei schweren Abschieden erhalten Halter ausreichend Zeit ohne Zeitdruck.",
+        "en": "Reviews highlight how patiently the team handles nervous cats or rescue dogs with challenging medical backgrounds. Even with frightened pets, treatments proceed calmly, and during painful farewells, owners are given ample time and space without feeling rushed."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Transparente Beratung ohne unnötige Zusatzkosten",
+        "en": "Transparent advice without unnecessary extras"
+      },
+      "text": {
+        "de": "Besucher heben die ehrliche und transparente Kommunikation der Tierärztin positiv hervor. Vorgeschlagene Behandlungen werden verständlich erklärt, und Kunden loben ausdrücklich, dass keine überflüssigen Untersuchungen oder kostspieligen Zusatzleistungen aufgedrängt werden.",
+        "en": "Visitors positively highlight the veterinarian's honest and clear communication. Recommended treatments are explained in easily understood terms, and clients explicitly praise that no redundant diagnostics or costly extra procedures are pushed onto pet owners."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis auch Tierschutzhunde und Angstpatienten behandelt?",
+        "en": "Does the practice treat rescue dogs and anxious pets?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von sehr geduldigem und verständnisvollem Umgang mit ängstlichen Katzen und traumatisierten Hunden aus dem Auslandstierschutz.",
+        "en": "Yes, owners report very patient and empathetic handling of fearful cats and rescue dogs brought in from animal welfare shelters."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie beurteilen Kunden die Kostenstruktur der Behandlungen?",
+        "en": "How do clients evaluate the treatment pricing structure?"
+      },
+      "a": {
+        "de": "Kunden heben hervor, dass Behandlungen pragmatisch und kostengünstig kalkuliert werden, ohne dass unnötige Zusatzleistungen empfohlen werden.",
+        "en": "Clients emphasize that therapies are calculated pragmatisch and moderately, without pushing superfluous treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet die Praxis chirurgische Eingriffe und Zahnbehandlungen an?",
+        "en": "Does the practice offer surgical procedures and dentistry?"
+      },
+      "a": {
+        "de": "Ja, die Praxis führt Weichteiloperationen, Kastrationen sowie zahnmedizinische Behandlungen und Röntgenuntersuchungen durch.",
+        "en": "Yes, the clinic performs soft-tissue surgeries, neutering procedures, dental cleanings, and diagnostic radiography."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "tierarztpraxis-claudia-pastor",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.med.vet.+Claudia+Pastor+Tier%C3%A4rztin/@52.54868,13.3531601,17z/data=!3m1!4b1!4m6!3m5!1s0x47a8517e21566743:0x114581b9a63794aa!8m2!3d52.54868!4d13.3531601!16s%2Fg%2F1tv235bz?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Herzliches Praxisteam mit großem Einsatz",
+        "en": "Warm practice team with high commitment"
+      },
+      "text": {
+        "de": "Die Mehrheit der Klienten lobt Dr. Pastor und ihr Team für eine einfühlsame, professionelle Betreuung und verständliche Erklärungen. Bei unvorhergesehenen Notfällen schätzen Halter die Hilfsbereitschaft, auch über die reguläre Arbeitszeit hinaus. Ein einzelner Rezensent empfand den Empfang dagegen als abweisend.",
+        "en": "The majority of clients commend Dr. Pastor and her team for compassionate, professional care and clear explanations. In urgent situations, pet owners appreciate staff willingness to assist beyond regular working hours. An isolated reviewer, in contrast, felt received in an unfriendly manner."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Gute Routineerfolge bei einzelnen Vorbehalten",
+        "en": "Solid routine outcomes with occasional reservations"
+      },
+      "text": {
+        "de": "Viele Tierhalter berichten von gelungenen Kastrationen, schnellen Heilungsverläufen und einer zuverlässigen Grundversorgung für Hunde und Katzen. Dennoch gibt es vereinzelte negative Rückmeldungen, in denen eine unzureichende Untersuchung vor Verabreichung von Medikamenten oder unklare Therapieansätze kritisiert werden.",
+        "en": "Many pet guardians report successful neutering procedures, prompt recoveries, and dependable primary care for dogs and cats. Still, isolated negative comments criticize consultations perceived as hasty prior to administering medication or express skepticism about treatment plans."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Überwiegend einfühlsamer Umgang mit Patienten",
+        "en": "Mostly gentle and attentive animal care"
+      },
+      "text": {
+        "de": "Hunde und Katzen werden in der Praxis meist liebevoll und geduldig umsorgt, sodass Tiere die Räumlichkeiten gelassen verlassen. Mehrere Halter betonen das spürbare Wohlbefinden ihrer Schützlinge während der Behandlung. Demgegenüber steht ein Bericht über verängstigtes Verhalten einer Katze während des Kontakts.",
+        "en": "Dogs and cats are generally treated with patience and warmth in the clinic, allowing pets to leave appointments in good spirits. Several owners highlight noticeable comfort shown by their companions. By contrast, one review recounts a frightened reaction from a cat during examination."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Kann man Termine online oder telefonisch vereinbaren?",
+        "en": "Can appointments be booked online or by phone?"
+      },
+      "a": {
+        "de": "Ja, Termine können telefonisch sowie über ein Online-Buchungsformular auf der Website reserviert werden.",
+        "en": "Yes, appointments can be scheduled by phone or through the online booking tool on the website."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "de": "Werden Notfälle auch ohne Termin angenommen?",
+        "en": "Are emergency cases accepted without an appointment?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten, dass akute Notfälle auch ohne Voranmeldung engagiert versorgt werden.",
+        "en": "Yes, pet owners report that acute emergencies are treated committedly even without prior booking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet die Praxis eine Wochenendsprechstunde an?",
+        "en": "Does the clinic offer weekend consultation hours?"
+      },
+      "a": {
+        "de": "Ja, samstags und sonntags gibt es jeweils eine zweistündige Nachmittagssprechstunde von 14:00 bis 16:00 Uhr.",
+        "en": "Yes, two-hour afternoon consultation hours are offered on Saturdays and Sundays from 14:00 to 16:00."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 5 Tagen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
