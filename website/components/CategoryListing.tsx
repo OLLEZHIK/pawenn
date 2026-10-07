@@ -475,7 +475,7 @@ export async function CategoryListing({
           {/* Guides on this service in the page's language and country
               (docs/playbooks/guides.md): the catalogue links to them, they
               link back. */}
-          {category && <GuideLinks locale={locale} category={category} country={city.country} />}
+          {category && <GuideLinks locale={locale} category={category} country={city.country} citySlug={city.slug} />}
 
           {faqs.length > 0 && (
             <section className="mt-16">
