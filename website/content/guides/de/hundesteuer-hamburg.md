@@ -40,4 +40,4 @@ Für eine Befreiung oder Ermäßigung gibt es eigene Anträge auf hamburg.de: [B
 
 ::places VET_CLINIC
 
-Mehr dazu: [Hundesteuer in Berlin](/de/ratgeber/hundesteuer-berlin/) · [Hundesteuer in Köln](/de/ratgeber/hundesteuer-koeln/)
+Mehr dazu: [Hundegesetz Hamburg: Register und Leine](/de/ratgeber/hundegesetz-hamburg/) · [Hundesteuer in Berlin](/de/ratgeber/hundesteuer-berlin/) · [Hundesteuer in Köln](/de/ratgeber/hundesteuer-koeln/)
