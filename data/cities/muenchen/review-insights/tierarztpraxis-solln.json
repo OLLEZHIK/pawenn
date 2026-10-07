@@ -1,0 +1,158 @@
+{
+  "slug": "tierarztpraxis-solln",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Solln/@48.073184,11.5117465,17z",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Netter Arzt und herzliches Praxisteam in Solln",
+        "en": "Friendly vet and warm practice team in Solln"
+      },
+      "text": {
+        "de": "Tierhalter heben den netten, kompetenten und einfühlsamen Arzt sowie die freundlichen Helferinnen der Praxis hervor. Das gesamte Team wird als zugewandt, verlässlich und aufmerksam beschrieben. Mehrere Bewertende berichten, dass sie besonders die persönliche Betreuung und das Engagement der Praxis schätzen.",
+        "en": "Pet owners highlight the friendly, competent, and empathetic vet as well as the warm nursing staff. The entire team is described as attentive, reliable, and caring. Several reviewers specifically appreciate the personal attention and commitment shown by the practice."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Kompetente Begleitung auch bei chronischen Erkrankungen",
+        "en": "Competent care including for chronic conditions"
+      },
+      "text": {
+        "de": "Mehrere Halter berichten von verlässlicher und einfühlsamer Behandlung bei ernsthaften Erkrankungen. Ein Hund mit Leishmaniose wird seit vier Jahren in der Praxis begleitet. Dazu kommen fundierte Informationen zu Krankheitsverläufen, Therapien, Impfungen und Reisekrankheiten. Kurzfristige Termine werden laut einer Bewertung ermöglicht.",
+        "en": "Several owners report reliable and empathetic treatment for serious conditions. A dog with leishmaniasis has been managed at the practice for four years. Thorough information on disease progression, therapies, vaccinations, and travel-related conditions is also provided. Short-notice appointments are possible according to one review."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Ruhiger Umgang auch mit ängstlichen Hunden",
+        "en": "Calm handling even of anxious dogs"
+      },
+      "text": {
+        "de": "Tierhalter berichten, dass das Team mit ängstlichen Hunden besonders geduldig und liebevoll umgeht. Ein ängstlicher Pittie-Mix liebt laut seiner Besitzerin das Team und fühlt sich bei jedem Besuch wohl. Die Praxis in Solln gilt bei Stammkunden als vertrauensvolle Anlaufstelle für ihre Hunde.",
+        "en": "Pet owners report that the team handles anxious dogs with particular patience and care. According to its owner, an anxious Pittie mix loves the team and feels comfortable at every visit. The Solln practice is regarded by regular clients as a trustworthy destination for their dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Behandelt die Praxis auch chronisch kranke Hunde langfristig?",
+        "en": "Does the practice provide long-term care for chronically ill dogs?"
+      },
+      "a": {
+        "de": "Ja, laut einer Bewertung begleitet die Praxis seit vier Jahren einen Hund mit Leishmaniose.",
+        "en": "Yes, according to a review, the practice has been managing a dog with leishmaniasis for four years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Informationen zu Reisekrankheiten für Hunde?",
+        "en": "Is information on travel-related diseases for dogs available?"
+      },
+      "a": {
+        "de": "Ja, laut einer Bewertung bietet die Praxis fundierte Informationen zu Impfungen und Erkrankungen bei Auslandsreisen mit Hunden.",
+        "en": "Yes, according to a review, the practice provides detailed information on vaccinations and diseases when travelling abroad with dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können auch kurzfristige Termine vergeben werden?",
+        "en": "Are short-notice appointments available?"
+      },
+      "a": {
+        "de": "Ja, laut einer Bewertung sind kurzfristige Termine in der Praxis möglich.",
+        "en": "Yes, according to a review, short-notice appointments are available at the practice."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
