@@ -1,0 +1,175 @@
+{
+  "slug": "tierarztpraxis-u-lutterothstrasse",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+am+U-Bahnhof+Lutterothstra%C3%9Fe/@53.5824508,9.9482594,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18f4d1e257db3:0x1ec114ad4354c465!8m2!3d53.5824508!4d9.9482594!16s%2Fg%2F1pp2tfgw0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Engagiertes Team bei Tag und Nacht",
+        "en": "Dedicated clinic staff day and night"
+      },
+      "text": {
+        "de": "Besitzer schätzen die einfühlsame und kompetente Betreuung durch die Tierärztinnen und das Praxisteam in Eimsbüttel. Selbst bei nächtlichen Notfällen oder an Feiertagen wird das Team als mitfühlend und einsatzbereit wahrgenommen. Vereinzelte Kritik betrifft telefonische Ablehnungen im Notdienst oder Unstimmigkeiten am Empfang.",
+        "en": "Pet owners appreciate the empathetic and skilled care provided by the veterinarians and team in Eimsbüttel. Even during late-night emergencies or public holidays, staff members are perceived as compassionate and attentive. Occasional criticism mentions telephone rejections during emergency shifts or front desk disputes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Geduldige Behandlung sensibler Patienten",
+        "en": "Patient treatment of sensitive pets"
+      },
+      "text": {
+        "de": "In mehreren Berichten wird hervorgehoben, wie liebevoll mit verängstigten Tieren umgegangen wird. Bei nervösen Katzen sorgt das Team für ein leeres Wartezimmer und arbeitet mit beruhigenden Snacks ohne Druck. Auch verletzte Hunde werden nach Unfällen rasch und schonend versorgt, sodass die Tiere die Praxis entspannt verlassen.",
+        "en": "Multiple reviews highlight the affectionate handling of frightened animals. For anxious cats, staff arrange quiet waiting areas and work calmly with treats without rushing. Injured dogs also receive prompt and gentle attention following accidents, allowing animals to recover without lingering trauma from their clinic visit."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Schnelle Notversorgung mit geteilten Stimmen",
+        "en": "Prompt urgent care with mixed feedback"
+      },
+      "text": {
+        "de": "Halter loben die zügige Versorgung bei Schnittwunden oder akuten Erkrankungen, auch spät am Abend. Routinetermine wie Impfungen und Dokumentenprüfungen laufen ohne Verzögerung ab. Allerdings berichtet ein Rezensent negativ darüber, dass ein Notfallanruf abgewiesen und an einen externen Anbieter verwiesen wurde.",
+        "en": "Owners praise the fast emergency treatment for lacerations or acute conditions, even late at night. Routine appointments such as vaccinations and travel document checks run without delay. However, one reviewer reports negative experience after an urgent emergency call was declined and redirected to an outside provider."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es eine Notdienstversorgung außerhalb der regulären Öffnungszeiten?",
+        "en": "Is emergency veterinary care provided outside regular opening hours?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von Behandlungen bei Notfällen am späten Abend sowie an Feiertagen.",
+        "en": "Yes, clients report receiving emergency treatments late in the evening and on public holidays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie geht das Team mit ängstlichen Katzen um?",
+        "en": "How does the clinic handle fearful cats?"
+      },
+      "a": {
+        "de": "Das Personal schafft stressarme Bedingungen im Wartezimmer und untersucht Tiere mit viel Ruhe und Snacks.",
+        "en": "The staff creates low-stress conditions in the waiting room and examines pets calmly using treats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Reisepapiere für das Ausland geprüft?",
+        "en": "Are pet travel documents for foreign trips reviewed?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen heben die Unterstützung bei der Durchsicht internationaler Dokumente positiv hervor.",
+        "en": "Yes, owners praise the staff for helping review and explain international travel documentation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 6 Tagen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

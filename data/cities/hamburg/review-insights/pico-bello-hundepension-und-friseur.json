@@ -1,0 +1,142 @@
+{
+  "slug": "pico-bello-hundepension-und-friseur",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pico+bello+hundepension+und+friseur/@53.5668859,10.0221082,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18f076a8d8249:0x4e9975b21e417f00!8m2!3d53.5668859!4d10.0221082!16s%2Fg%2F11j5tzpw0t?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Freundliche und beruhigende Betreuung",
+        "en": "Friendly and calming groomer care"
+      },
+      "text": {
+        "de": "Mehrere Kunden loben Hundefriseur Antonio für seine ruhige Art und seinen zuvorkommenden Umgang. Auch Halter mit ängstlichen Tieren berichten, dass er sich geduldig Zeit nimmt und eine gelassene Umgebung schafft. Seine freundliche Haltung wird selbst in Rückmeldungen mit gemischtem Gesamteindruck positiv hervorgehoben.",
+        "en": "Several pet owners praise groomer Antonio for his calm manner and courteous approach. Clients with nervous pets report that he takes patient care to create an unhurried, reassuring environment. Even reviews that express reservations about specific cuts explicitly acknowledge his friendly, well-mannered attitude."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Geteilte Erfahrungen beim Tierumgang",
+        "en": "Mixed experiences with pet handling"
+      },
+      "text": {
+        "de": "Ein Teil der Kundschaft schildert, dass sich selbst nervöse Hunde während des Termins entspannen und die Behandlung stressfrei überstehen. Demgegenüber steht jedoch ein Vorfall, bei dem Schnurrhaare und Wimpern eines Hundes abrasiert wurden, was zu starkem Unmut führte. Die Erfahrungen im Umgang fallen daher unterschiedlich aus.",
+        "en": "Part of the clientele highlights that even anxious dogs remain relaxed during visits and manage their grooming without distress. Conversely, a severe complaint reported that whiskers and eyelashes were shaved off a pet, causing deep dismay. Feedback regarding hands-on treatment therefore shows distinctly varied impressions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Kritik an Schuren und Schnitttechnik",
+        "en": "Criticism of clipping and styling"
+      },
+      "text": {
+        "de": "Während einige Stammkunden mit dem Pflegebild ihrer Pudel sehr zufrieden sind, überwiegt bei speziellen Rassen deutliche Kritik am Schnitt. Bemängelt wird unter anderem das Rasieren statt Zupfen bei rauhaarigen Rassen wie Border Terriern sowie unpassende Schnitte. Halter raten dazu, gewünschte Pflegeschritte vorab genau abzustimmen.",
+        "en": "While some regular patrons express satisfaction with their poodles' appearance, reviews for other breeds voice substantial criticism. Complaints focus on clipping instead of hand-stripping wire-haired coats like Border Terriers and flawed styling choices. Owners advise clarifying specific trimming expectations in advance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden im Salon Zwergpudel gepflegt?",
+        "en": "Are toy and miniature poodles groomed?"
+      },
+      "a": {
+        "de": "Ja, Stammkunden bringen ihre Zwergpudel regelmäßig zur Pflege und Schere in den Salon.",
+        "en": "Yes, regular clients bring their toy and miniature poodles for routine clipping and coat care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wird Handtrimmen für rauhaarige Hunde angeboten?",
+        "en": "Is hand-stripping available for wire-haired breeds?"
+      },
+      "a": {
+        "de": "Laut Kundenberichten wurde bei Terriern teils rasiert statt gezupft; Wünsche sollten vorab geklärt werden.",
+        "en": "According to reviews, wire coats were partly clipped rather than hand-stripped; owners should clarify methods beforehand."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet der Betrieb auch Tagesbetreuung an?",
+        "en": "Does the facility also provide dog daycare?"
+      },
+      "a": {
+        "de": "Ja, laut Betreiberangaben umfasst das Angebot neben Fellpflege auch Tagesbetreuung und Gassi-Services.",
+        "en": "Yes, according to business information, services include dog daycare and walking alongside grooming."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
