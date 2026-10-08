@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "bronx-veterinary-center",
+    "the-schwarzman-animal-medical-center",
+    "animal-hospital-of-morris-park",
+    "inwood-animal-clinic",
+    "bronx-veterinary-center-of-eastchester-road",
+    "bond-vet-cobble-hill",
+    "veg-er-for-pets-williamsburg",
+    "aspca-animal-hospital-by-appointment-only",
+    "veg-er-for-pets-upper-east-side",
+    "veg-er-for-pets-ralph-ave"
+  ],
+  "hash": "b7cd5bc49a8210809833cb910913e56a4d96f34b603fbf47036e8d1944befda1",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T12:25:51.313Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-07T12:43:00.479Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

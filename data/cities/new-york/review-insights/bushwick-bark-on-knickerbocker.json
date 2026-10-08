@@ -1,0 +1,123 @@
+{
+  "slug": "bushwick-bark-on-knickerbocker",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bushwick+Bark+on+Knickerbocker/@40.7040128,-73.9272314,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25c030a62d2fd:0xd50b30f053734ee7!8m2!3d40.7040128!4d-73.9272314!16s%2Fg%2F1pp2tgz3_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Caring handling for cats and dogs"
+      },
+      "text": {
+        "en": "Pet owners appreciate the thoughtful care provided during cat nail trims and visits for treats. Reviewers note staff are attentive to nervous pets and strict on vaccination requirements, though one client felt a groomer lacked patience with heavily matted fur."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly team with occasional friction"
+      },
+      "text": {
+        "en": "Most visitors describe the neighborhood store staff as warm, patient, and conversational during walk-in visits. However, one dog guardian reported a tense interaction with a salon groomer who refused to work through mats without a full shave and returned their dog wet."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming neighborhood pet shop setting"
+      },
+      "text": {
+        "en": "Shoppers highlight the cozy shop floor stocked with quality cat toys, specialty food brands, and wholesome baked treats. Visitors enjoy stopping by with their pets and appreciate the visible adoption area featuring rescue kittens looking for loving homes in Bushwick."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they trim cat nails?"
+      },
+      "a": {
+        "en": "Yes, clients frequently bring their cats in for quick and routine nail trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop require proof of pet vaccinations?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the business is strictly observant of required pet vaccines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are adoptable pets present in the shop?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that rescue cats and kittens available for adoption are often hosted inside the shop."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "pawsitive-veterinary-of-new-york",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PAWSitive+Veterinary+of+New+York/@40.647222,-73.969101,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25b3b1b6b756b:0xe0520dc76774f8b6!8m2!3d40.647222!4d-73.969101!16s%2Fg%2F1tmg7gpb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Warm team with occasional availability gaps"
+      },
+      "text": {
+        "en": "Many pet owners praise Dr. Perry and the clinic's assistants for their warmth, sweetness, and thorough medical explanations. Longtime clients note that the staff treats pets like family and provides genuine support during illnesses. However, one reviewer had a distressing experience when the clinic was fully booked during an emergency, leaving a dying cat without immediate intake or assistance."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Reasonable care with occasional billing disputes"
+      },
+      "text": {
+        "en": "Client reviews reflect mixed views regarding treatment fees at this Flatbush practice. Multiple reviewers describe the clinic as very affordable, noting minimal charges during ongoing care and an absence of unneeded upselling. Conversely, other clients report high multi-pet exam totals, expensive prescription food recommendations, and repeat examination charges after incomplete visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Loving care alongside animal handling concerns"
+      },
+      "text": {
+        "en": "Several pet owners emphasize that their dogs loved visiting the clinic and that staff members are attentive and gentle with fur babies. Longtime clients felt confident bringing their pets here for years. In contrast, one cat owner reported that their pet returned from the back treatment area visibly agitated and fearful after an exam for an injured nail."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does PAWSitive Veterinary of New York handle after-hours emergencies?"
+      },
+      "a": {
+        "en": "Reviewers note that the clinic operates on scheduled appointments and may turn away emergency cases when fully booked, requiring visits to an emergency hospital."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do pet owners rate the affordability of the clinic?"
+      },
+      "a": {
+        "en": "Many clients find routine visits and chronic care affordable, though specialized treatments and multi-pet visits can lead to higher totals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients book appointments online?"
+      },
+      "a": {
+        "en": "Yes, pet owners can schedule veterinary appointments online through the clinic's booking system."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "en": "The veterinary practice is located at 1103 Church Avenue in the Flatbush neighborhood of Brooklyn."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "prices": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

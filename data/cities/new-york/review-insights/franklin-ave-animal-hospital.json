@@ -1,0 +1,196 @@
+{
+  "slug": "franklin-ave-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Franklin+Ave+Animal+Hospital/@40.6770607,-73.9558865,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25bd4051a5ec5:0x2190a9ca9086e7cb!8m2!3d40.6770607!4d-73.9558865!16s%2Fg%2F11gmfymjnf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Attentive and compassionate veterinary team"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the doctors and technicians at Franklin Ave Animal Hospital for their thorough and empathetic care. Multiple clients highlight practitioners like Dr. Arrieta and Dr. Isaacson for taking time to explain treatment choices without rushing. One reviewer had a negative experience with front desk attitude, but most families report great clinical dedication."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Gentle handling for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize how gently cats and dogs are handled during exams, physical therapy, and end-of-life care. Clients note that veterinarians create a calm, supportive environment for nervous rescues and senior animals, accommodating comfort items and treats during clinical visits. Although one owner felt their pet was ignored, most report genuine tenderness and respect."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair and transparent treatment pricing"
+      },
+      "text": {
+        "en": "Clients describe the clinic's pricing as reasonable and honest compared to other veterinary providers across the city. Owners appreciate that veterinarians outline medical options clearly without pushing unnecessary treatments or add-on procedures. Multiple reviewers note that estimates are given up front, helping families make informed decisions about ongoing care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Franklin Ave Animal Hospital offer physical therapy?"
+      },
+      "a": {
+        "en": "Yes, pet owners highlight rehabilitation services including water treadmill exercise and laser therapy for orthopedic issues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are nervous or anxious pets handled during exams?"
+      },
+      "a": {
+        "en": "Clients report that clinicians handle nervous animals patiently, allowing comfort blankets, treats, and unhurried appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners schedule appointments online?"
+      },
+      "a": {
+        "en": "Yes, appointments can be scheduled online through the hospital's booking portal or by contacting the clinic directly."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat exotic pets?"
+      },
+      "a": {
+        "en": "Yes, Franklin Ave Animal Hospital provides medical care for exotic animals alongside cats and dogs."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

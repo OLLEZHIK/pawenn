@@ -16,6 +16,11 @@
 //    1 / 5 = further.
 
 export const MIN_PLACES = 3;
+/** € signs on cards: a service counts from 2 places (owner, 2026-10-07: a
+ *  price level wherever a city has prices at all; with 3, most cities
+ *  outside Slovakia and Prague showed almost no signs). Price pages and the
+ *  sitemap keep MIN_PLACES: a "market price" page needs 3. */
+export const MIN_PLACES_FOR_LEVEL = 2;
 
 /** Percent from the market price that still reads as "market price". */
 export const MARKET_BAND = 7.5;
@@ -66,8 +71,8 @@ function placePrices(prices: ComparablePrice[]): Map<number, Map<string, number>
   return byPlace;
 }
 
-/** Market price per service code, only where MIN_PLACES places publish one. */
-export function marketPrices(prices: ComparablePrice[]): Map<string, MarketPrice> {
+/** Market price per service code, only where minPlaces places publish one. */
+export function marketPrices(prices: ComparablePrice[], minPlaces = MIN_PLACES): Map<string, MarketPrice> {
   const byPlace = placePrices(prices);
   const currencyByCode = new Map(prices.map((p) => [p.code, p.currency]));
   const byCode = new Map<string, number[]>();
@@ -76,7 +81,7 @@ export function marketPrices(prices: ComparablePrice[]): Map<string, MarketPrice
   }
   const market = new Map<string, MarketPrice>();
   for (const [code, values] of byCode) {
-    if (values.length >= MIN_PLACES) {
+    if (values.length >= minPlaces) {
       market.set(code, {
         median: median(values),
         min: Math.min(...values),
@@ -104,7 +109,7 @@ export function pctAgainst(price: number, market: number): number {
 
 /** Price level per place: only places with at least one service that has a market price. */
 export function priceLevels(prices: ComparablePrice[]): Map<number, PriceLevel> {
-  const market = marketPrices(prices);
+  const market = marketPrices(prices, MIN_PLACES_FOR_LEVEL);
   const levels = new Map<number, PriceLevel>();
   for (const [businessId, services] of placePrices(prices)) {
     const ratios = [...services]

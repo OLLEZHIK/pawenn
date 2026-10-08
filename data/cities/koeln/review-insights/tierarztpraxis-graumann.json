@@ -1,0 +1,153 @@
+{
+  "slug": "tierarztpraxis-graumann",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Graumann/@50.9995572,6.9744158,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf2fe6480bdfb9:0x80352ffb462c1e79!8m2!3d50.9995572!4d6.9744158!16s%2Fg%2F11b6dwvff_?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Kompetentes und engagiertes Praxisteam",
+        "en": "Competent and committed clinic staff"
+      },
+      "text": {
+        "de": "Tierhalter loben Dr. Graumann und sein Personal für die ruhige und fachlich versierte Betreuung. Das Team nimmt sich Zeit für Untersuchungen und erklärt medizinische Schritte verständlich. Ein negativer Bericht kritisiert jedoch die Erreichbarkeit und Gebühren während des Notdienstes.",
+        "en": "Pet owners commend Dr. Graumann and his team for their calm and medically proficient care. The clinic staff takes ample time for checkups and explains treatment steps clearly. However, an isolated negative review criticises emergency phone responsiveness and off-hours surcharges."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Einfühlsame Versorgung von Hunden und Katzen",
+        "en": "Compassionate treatment for dogs and cats"
+      },
+      "text": {
+        "de": "Besucher betonen, dass das Wohl von Hunden und Katzen im Mittelpunkt steht. Ob bei operativen Eingriffen, Routineuntersuchungen oder der Begleitung älterer Tiere: Halter schätzen den behutsamen Umgang und die Suche nach verträglichen Lösungen für empfindliche Vierbeiner.",
+        "en": "Visitors emphasize that the wellbeing of dogs and cats remains paramount. Whether for surgical interventions, routine examinations, or senior pet care, owners appreciate the gentle handling and the search for well-tolerated medical solutions for sensitive companion animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Erfolgreiche Operationen und verlässliche Narkosen",
+        "en": "Successful surgeries and reliable anesthesia"
+      },
+      "text": {
+        "de": "Kunden berichten von gelungenen Operationen, etwa bei Tumorerkrankungen, die nach gründlicher Voruntersuchung zügig durchgeführt wurden. Auch Narkosen bei sensiblen Tieren verliefen komplikationslos, und Patientenbesitzer fühlten sich während der Behandlung gut aufgehoben.",
+        "en": "Clients report successful operations, such as tumor removals, performed swiftly following thorough diagnostic ultrasound. Anesthesia in sensitive patients proceeded without complications, leaving pet guardians confident in the veterinary care provided by the practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in der Praxis Operationen durchgeführt?",
+        "en": "Are surgical procedures performed at the clinic?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von zügigen und erfolgreichen Operationen, beispielsweise bei Milztumoren.",
+        "en": "Yes, owners report prompt and successful surgical procedures, such as splenic tumor operations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Ultraschalluntersuchungen vor Ort?",
+        "en": "Are ultrasound examinations available on site?"
+      },
+      "a": {
+        "de": "Ja, Tumore und andere Beschwerden werden direkt in der Praxis mittels Ultraschall diagnostiziert.",
+        "en": "Yes, tumors and other internal conditions are diagnosed directly at the clinic using ultrasound."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Wie wird der Umgang mit sensiblen Tieren beschrieben?",
+        "en": "How is the handling of sensitive animals described?"
+      },
+      "a": {
+        "de": "Besitzer heben hervor, dass Narkosen schonend dosiert und Vierbeiner sehr geduldig behandelt werden.",
+        "en": "Owners emphasize that anesthesia is tailored gently and animals are treated with patience."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 16 Stunden",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 7 Monaten",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

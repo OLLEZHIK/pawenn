@@ -479,7 +479,7 @@ export const pl: Dictionary = {
     price: "Cena",
     vsMarket: "Wobec średniej w mieście",
     notComparedTitle: "Inne ceny (nieporównywane)",
-    notComparedIntro: "Ceny cząstkowe, stawki za godzinę lub za kilometr oraz usługi wykraczające poza standard.",
+    notComparedIntro: "Ceny cząstkowe oraz stawki za godzinę lub za kilometr.",
     otherServices: "Pozostałe ceny",
     service: "Usługa",
     range: "Zakres",

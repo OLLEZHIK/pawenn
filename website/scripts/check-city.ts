@@ -597,10 +597,16 @@ for (const slug of insights) {
   if (total > 0 && (data.reviews_in_period ?? 0) > total / 2)
     err(`reviews_in_period ${data.reviews_in_period} is more than half of all ${total} Google ratings - count the feed again`);
   const cards = data.cards ?? [];
-  if (cards.length !== 3) err(`${cards.length} cards, need exactly 3`);
+  // A small summary from 3-4 text reviews (owner, 2026-10-07: "можешь делать
+  // по трём"): 1-3 cards, a topic from 2 reviewers. From 5 reviews: 3 cards,
+  // a topic from 3 reviewers, as before.
+  const small = (data.reviews_in_period ?? 0) < 5;
+  const minMentions = small ? 2 : 3;
+  if (small ? cards.length < 1 || cards.length > 3 : cards.length !== 3)
+    err(`${cards.length} cards, need ${small ? "1-3 (fewer than 5 reviews)" : "exactly 3"}`);
   cards.forEach((c, i) => {
     if (!bothLangs(c.title) || !bothLangs(c.text)) err(`card ${i + 1}: title and text need ${cityLangs.join(" + ")}`);
-    if ((c.mentions ?? 0) < 3) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs 3+ reviewers`);
+    if ((c.mentions ?? 0) < minMentions) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs ${minMentions}+ reviewers`);
     if (data.reviews_in_period !== undefined && (c.mentions ?? 0) > data.reviews_in_period)
       err(`card ${i + 1}: mentions ${c.mentions} > reviews_in_period ${data.reviews_in_period}`);
     const text = c.text as Record<string, string> | undefined;

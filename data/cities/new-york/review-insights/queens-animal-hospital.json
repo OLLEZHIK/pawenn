@@ -1,0 +1,170 @@
+{
+  "slug": "queens-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Queens+Animal+Hospital/@40.7449535,-73.9069378,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25f1e228eab0d:0xee33a45138481e08!8m2!3d40.7449535!4d-73.9069378!16s%2Fg%2F1tj4zmpg?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Welcoming clinic staff and compassionate doctors"
+      },
+      "text": {
+        "en": "Pet owners commend the supportive and reassuring demeanor of the veterinary team, specifically noting the thorough examinations provided by Dr. Arias and Dr. Patel. Front-desk staff are described as friendly and welcoming, though an isolated review reports frustration with clinical attentiveness during diagnostic testing."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm and comforting care for young pets"
+      },
+      "text": {
+        "en": "Reviewers frequently highlight how relaxed their kittens and cats remained during first-time visits and vaccination appointments. The clinic staff show great gentleness and affection toward visiting animals, creating a stress-free examination environment that puts both pets and owners at ease."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Detailed test reviews alongside follow-up lapses"
+      },
+      "text": {
+        "en": "Client experiences with clinical communication show noticeable variation. Several owners appreciate thorough telephone follow-ups from veterinarians explaining diagnostic results in depth, whereas a dissatisfied reviewer experienced unreturned calls and missing laboratory test reports."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How quickly can appointments be scheduled?"
+      },
+      "a": {
+        "en": "Reviewers report easy scheduling, with several clients securing next-day appointments for routine shots and emergency visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic test results explained thoroughly?"
+      },
+      "a": {
+        "en": "Most clients note that veterinarians personally call to discuss laboratory test results in detail, though isolated delays have been reported."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is this veterinary hospital kitten friendly?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers highlight positive first-time veterinary checkups and vaccination visits for young kittens."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

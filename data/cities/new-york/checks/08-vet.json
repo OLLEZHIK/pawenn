@@ -1,0 +1,35 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "animal-clinic-of-bay-ridge",
+    "faithful-friends-animal-hospital",
+    "greenwood-veterinary-care",
+    "alison-animal-hospital",
+    "4-legged-friends-veterinary-clinic-pc",
+    "marine-park-veterinary-group",
+    "bushwick-veterinary-center",
+    "bellerose-animal-hospital",
+    "forest-hills-veterinary-care-a-petone-veterinary-hospital",
+    "greater-staten-island-veterinary-services"
+  ],
+  "hash": "5517d8f9ba9703f8ff8be745d2c899d11092e83a098f4d8d59343aeeb9863bd8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T13:29:18.462Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-07T13:35:30.052Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T13:37:25.012Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

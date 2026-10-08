@@ -1,0 +1,164 @@
+{
+  "slug": "petnesswanderer",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetnessWanderer/@40.8461918,-73.9340416,17z/data=!3m1!4b1!4m6!3m5!1s0x89c259cfb4966b5b:0xb4ee8896b6f662e7!8m2!3d40.8461918!4d-73.9340416!16s%2Fg%2F11fj86mj1y?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Persistent complaints of hostile service"
+      },
+      "text": {
+        "en": "Customer reviews for this salon reveal serious tensions between clients and staff members. While a few patrons felt welcomed and appreciated the salon's ambiance, a strong majority of recent reviewers describe encounters marked by hostility, rude front desk interactions, and dismissive treatment when issues arose. Several pet parents reported feeling deeply uncomfortable during drop-off and pickup."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Serious concerns over pet handling"
+      },
+      "text": {
+        "en": "Recent feedback shows widespread worry regarding how pets are handled behind closed doors. Although one client noted their large dog was put at ease during a session, multiple pet owners express sharp concern over perceived rough handling, signs of pet distress after grooming, and an apparent lack of gentleness toward vulnerable animals. Several clients vowed never to return."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Digital updates paired with disputes"
+      },
+      "text": {
+        "en": "Reviews depict contrasting experiences with salon communication. Satisfied clients appreciate receiving real-time text updates, pictures, and video clips documenting their pet's grooming progress. Conversely, several dissatisfied customers recount heated arguments over unanticipated charges and service complaints, stating their feedback was brushed off rather than resolved."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does PetnessWanderer send updates during the grooming session?"
+      },
+      "a": {
+        "en": "Yes, satisfied clients note that groomers sometimes send photos and video status reports via text while working on their pet."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are extra fees applied for matted fur or special baths?"
+      },
+      "a": {
+        "en": "Multiple reviewers mention being quoted additional surcharges for de-matting and flea treatments during or after the service."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What specialty grooming options are offered?"
+      },
+      "a": {
+        "en": "Reviewers mention creative services such as fur dye alongside standard bath, teeth cleaning, and coat styling packages."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "animals": "+",
+        "results": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

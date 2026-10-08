@@ -1,0 +1,277 @@
+{
+  "slug": "rex-tierarztpraxis-berlin-neukoelln",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rex+Tierarztpraxis+Berlin-Neuk%C3%B6lln/@52.4807233,13.4258771,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84f02117b7aa1:0x8e984c17afbad159!8m2!3d52.4807233!4d13.4258771!16s%2Fg%2F11sk2_b56b?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 18,
+      "title": {
+        "de": "Freundliches Personal und einfühlsame Betreuung",
+        "en": "Friendly clinic staff and empathetic care"
+      },
+      "text": {
+        "de": "Viele Kunden loben das verständnisvolle und freundliche Auftreten der Tierärztinnen in Berlin-Neukölln. Bei Untersuchungen wird sich Zeit für Fragen genommen und auch englischsprachige Beratung angeboten. Einzelne Halter bemerken jedoch personelle Engpässe und ein zeitweise gestresst wirkendes Praxisteam.",
+        "en": "Many clients commend the understanding and friendly demeanor of the veterinarians in Berlin-Neukölln. Consultations allow time for questions, with English-language support readily available. However, individual owners note staffing shortages and occasionally stressed team members."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "de": "Häufige Kritik an unklaren Behandlungsergebnissen",
+        "en": "Frequent criticism over clinical treatment outcomes"
+      },
+      "text": {
+        "de": "Mehrere Kunden beklagen unzureichende Diagnostik bei Infektionen, unklare Medikationsentscheidungen und ausbleibende Besserung. Zwar berichten einige Halter von schneller Akuthilfe, doch überwiegen kritische Berichte zu fehlgeschlagenen Therapien. Die therapeutische Qualität wird daher wiederholt bemängelt.",
+        "en": "Multiple clients complain about inadequate diagnostics for infections, unclear medication choices, and lack of recovery. While some owners report swift acute aid, critical reviews regarding failed treatments predominate. Therapeutic quality is therefore repeatedly faulted by guardians."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "de": "Wiederholte Kritik an hohen Behandlungskosten",
+        "en": "Repeated criticism regarding high treatment costs"
+      },
+      "text": {
+        "de": "Ein erheblicher Teil der Bewertungen bemängelt ein als überteuert empfundenes Preisniveau im Vergleich zu anderen Praxen. Halter kritisieren unerwartete Gebühren für Standarduntersuchungen sowie Zusatzkosten bei Akutfällen. Mehrere Kunden empfinden die Abrechnungsstruktur als wenig transparent.",
+        "en": "A substantial proportion of reviews criticizes pricing perceived as steep compared to alternative practices. Owners highlight unexpected fees for standard check-ups and extra charges during acute visits. Multiple clients describe the billing structure as lacking sufficient transparency."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Ist eine Online-Terminbuchung über die App möglich?",
+        "en": "Can appointments be booked online via the app?"
+      },
+      "a": {
+        "de": "Ja, Halter heben die praktische Terminvergabe und digitale Aktenführung über die Praxis-App hervor.",
+        "en": "Yes, clients highlight the convenient scheduling and digital record-keeping through the clinic app."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Wird in der Praxis auch auf Englisch beraten?",
+        "en": "Are consultations available in English?"
+      },
+      "a": {
+        "de": "Ja, englischsprachige Tierhalter schätzen die unkomplizierte Verständigung mit dem Praxisteam.",
+        "en": "Yes, English-speaking pet owners appreciate straightforward communication with the veterinary staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es getrennte Wartezimmer für Hunde und Katzen?",
+        "en": "Are there separate waiting rooms for dogs and cats?"
+      },
+      "a": {
+        "de": "Ja, getrennte Wartebereiche ermöglichen einen ruhigeren Aufenthalt für Hunde und Katzen.",
+        "en": "Yes, separate waiting rooms provide a calmer visit for both dogs and cats."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "~",
+        "animals": "+",
+        "place": "+",
+        "waiting": "-",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "prices": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

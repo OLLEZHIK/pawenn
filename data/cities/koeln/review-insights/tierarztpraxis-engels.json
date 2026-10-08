@@ -1,0 +1,171 @@
+{
+  "slug": "tierarztpraxis-engels",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Engels/@50.955698,6.9226532,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf256a853c2c0f:0xf8139a646382da05!8m2!3d50.955698!4d6.9226532!16s%2Fg%2F1vgw_wry?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "de": "Langjährige Betreuung mit geteilten Meinungen",
+        "en": "Longstanding care with divided feedback"
+      },
+      "text": {
+        "de": "Viele Tierbesitzer schätzen das erfahrene Team für seine freundliche und ruhige Art im Behandlungszimmer. Mehrere Stammkunden vertrauen der Praxis seit Jahren. Kritische Stimmen bemängeln jedoch schroffere Kommunikation am Telefon oder mangelndes Feingefühl bei ernsten Diagnosen.",
+        "en": "Many pet owners praise the experienced team for their friendly and composed manner in the examination rooms. Longtime clients have trusted the clinic for years. However, critical reviews mention blunt telephone communication or perceived insensitivity during serious diagnoses."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Schnelle Termine bei beengtem Wartebereich",
+        "en": "Quick appointments despite crowded waiting"
+      },
+      "text": {
+        "de": "Einige Kunden loben die rasche Vergabe von Notfallterminen und kurze Verzögerungen vor der Behandlung. Zugleich wird die Situation im kleinen Wartezimmer an der Hauptstraße kritisiert, wo sich wartende Hunde und Katzen auf engem Raum begegnen und Straßenlärm Unruhe stiften kann.",
+        "en": "Several clients praise the prompt availability of appointments and brief waiting times prior to checkups. However, the compact waiting room adjacent to a busy main street is criticized, as dogs and cats wait in cramped proximity while road traffic noise can create extra stress."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Behutsamer Umgang mit ängstlichen Katzen",
+        "en": "Gentle handling of fearful cats"
+      },
+      "text": {
+        "de": "Halterinnen und Halter berichten positiv über die beruhigende Atmosphäre bei Untersuchungen aufgeregter Katzen. Das Personal nimmt sich ausreichend Zeit, um die Tiere schrittweise an die Untersuchung zu gewöhnen, sodass Behandlungen ohne unnötigen Stress abgeschlossen werden.",
+        "en": "Clients report positively on the soothing atmosphere maintained during examinations of anxious cats. The staff take sufficient time to gradually accustom the animals to the medical procedures, allowing checkups to be completed without unnecessary emotional distress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie ist die Situation im Wartezimmer?",
+        "en": "What is the waiting room situation like?"
+      },
+      "a": {
+        "de": "Der Wartebereich ist eher kompakt; Kunden raten dazu, unruhige Tiere bei Straßenverkehr gut zu sichern.",
+        "en": "The waiting area is quite compact; clients advise keeping nervous pets securely held near the busy street."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Termine kurzfristig vergeben werden?",
+        "en": "Can appointments be booked on short notice?"
+      },
+      "a": {
+        "de": "Ja, in akuten Fällen vergeben die Mitarbeiter nach telefonischer Absprache sehr zeitnah Untersuchungstermine.",
+        "en": "Yes, in acute situations staff provide consultation slots very promptly following a telephone call."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Proben direkt vor Ort ausgewertet werden?",
+        "en": "Can lab samples be analyzed directly on site?"
+      },
+      "a": {
+        "de": "Ja, bestimmte Laborproben wie Urintests können direkt während der laufenden Behandlung ausgewertet werden.",
+        "en": "Yes, certain diagnostic tests such as urine analysis can be evaluated directly on site during the visit."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

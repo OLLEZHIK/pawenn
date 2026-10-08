@@ -1,0 +1,154 @@
+{
+  "slug": "tierarztpraxis-fuhlsbuettel-nord",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterinary+practice+Fuhlsb%C3%BCttel+Nord/@53.6404111,10.0189209,17z/data=!3m1!4b1!4m6!3m5!1s0x47b1884c0f8f4025:0x37a447569b5df391!8m2!3d53.6404111!4d10.0189209!16s%2Fg%2F1wrtbxrc?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Freundliches und bodenständiges Team",
+        "en": "Friendly and grounded clinic team"
+      },
+      "text": {
+        "de": "Tierhalter loben das Team von Cathérine Sanders für seinen herzlichen und ehrlichen Umgang. In den Bewertungen wird hervorgehoben, dass die Mitarbeitenden sich viel Zeit nehmen und stets das Tierwohl in den Vordergrund stellen. Auch bei unvorhergesehenen Zwischenfällen reagiert das Personal besonnen und klärt alle offenen Fragen.",
+        "en": "Pet owners commend Cathérine Sanders and her team for their sincere and warm approach. Reviews emphasize that staff members dedicate ample time to patients and prioritize animal welfare over profit. Even during unexpected surgical complications, the team acts thoughtfully and resolves all questions directly."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Ruhiger Umgang mit ängstlichen Tieren",
+        "en": "Gentle handling of fearful pets"
+      },
+      "text": {
+        "de": "In den Berichten wird der behutsame Umgang mit Hunden und Katzen hervorgehoben. Das Praxisteam spricht leise mit ängstlichen Vierbeinern und nimmt ihnen durch Geduld den Stress. Auch chronisch kranke Tiere wie Kater mit FIV werden verständnisvoll begleitet, sodass sich Halter und Patienten während der Termine sicher fühlen.",
+        "en": "Reviews emphasize the gentle care provided to dogs and cats during examinations. The team speaks quietly with nervous pets and reduces stress through calm patience. Chronically ill companions, including cats diagnosed with FIV, receive attentive care that helps owners and pets feel entirely at ease during appointments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Sorgfältige Eingriffe und klare Beratung",
+        "en": "Careful surgeries and clear guidance"
+      },
+      "text": {
+        "de": "Kunden berichten von gelungenen Routineeingriffen wie Kastrationen und einer zuverlässigen Nachsorge. Zudem schätzen Tierhalter die Transparenz bei medizinischen Grenzen: Kann eine Behandlung vor Ort nicht optimal erfolgen, überweist die Praxis zügig an spezialisierte Fachkliniken, um das beste Ergebnis zu sichern.",
+        "en": "Clients report successful routine procedures such as neutering along with dependable post-operative care. In addition, owners value the clinic's honesty regarding treatment limits: if a procedure cannot be performed on site, the practice promptly refers patients to specialized clinics to secure optimal outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Bietet die Praxis eine kurzfristige Terminvergabe an?",
+        "en": "Does the clinic offer short-term appointment booking?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von zeitnahen Terminen bei dringenden Beschwerden.",
+        "en": "Yes, owners report obtaining prompt appointments for urgent health concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Termine auch online vereinbart werden?",
+        "en": "Can appointments be booked online?"
+      },
+      "a": {
+        "de": "Ja, die Praxis stellt auf ihrer Website eine Online-Terminbuchung bereit.",
+        "en": "Yes, the practice provides online appointment scheduling through its website."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "de": "Werden Überweisungen an Spezialisten vorgenommen?",
+        "en": "Does the practice refer cases to specialists?"
+      },
+      "a": {
+        "de": "Ja, bei Behandlungen außerhalb des eigenen Spektrums verweist das Team an Fachpraxen.",
+        "en": "Yes, for treatments outside its internal scope, the team refers patients to specialized vets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 8 Monaten",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

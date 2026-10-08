@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LOCALES, getDictionary, isLocale } from "@/lib/i18n";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { ScrollReset } from "@/components/ScrollReset";
 import { gaMeasurementId } from "@/lib/analytics";
 
 const bodyFont = Inter({
@@ -45,6 +46,7 @@ export default async function RootLayout({
     // (owner, 2026-10-07; Next 16 needs the attribute, upgrading/version-16.md).
     <html lang={lang} data-scroll-behavior="smooth" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <body>
+        <ScrollReset />
         <Header locale={lang} />
         {children}
         <Footer locale={lang} />
