@@ -72,12 +72,17 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
 
       {/* Card format (owner, 2026-09-24): the business's logo, or its
           initials when it has none; photos live on the place page. */}
-      <BusinessAvatar
-        name={business.name}
-        category={business.category}
-        logoUrl={logoUrl(business.logoFile)}
-        className={`${tile} shrink-0 text-lg`}
-      />
+      {/* Wider screens: the logo sits centred in a column of one width for
+          every card, so names, details and buttons start on the same line
+          whatever the logo's shape (owner, 2026-10-08). */}
+      <div className="shrink-0 sm:flex sm:w-28 sm:justify-center">
+        <BusinessAvatar
+          name={business.name}
+          category={business.category}
+          logoUrl={logoUrl(business.logoFile)}
+          className={`${tile} shrink-0 text-lg`}
+        />
+      </div>
 
       <div className="pointer-events-none relative z-10 min-w-0 flex-1">
         <div className="flex items-start justify-between gap-3">
