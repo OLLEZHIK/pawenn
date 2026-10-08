@@ -1,0 +1,133 @@
+{
+  "slug": "lucy-s-lucky-dogs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucy's+Lucky+Dogs/@40.7086199,-73.9431294,17z/data=!3m1!4b1!4m6!3m5!1s0x89c259514d402d5d:0x55e29701b181df9f!8m2!3d40.7086199!4d-73.9431294!16s%2Fg%2F1tfstsyh?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attractive styling alongside coat trimming concerns"
+      },
+      "text": {
+        "en": "Many dog owners praise the grooming outcomes on Graham Avenue, noting clean coats, tidy paws, and neat finishes on their pets. Regular visitors return for reliable styling. However, one client felt disappointed when their double-coated dog was shaved short contrary to specific instructions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly team with scheduling friction"
+      },
+      "text": {
+        "en": "Longtime clients speak warmly of the front desk and groomers, describing them as patient and flexible with routine appointments. Conversely, two reviewers reported dismissive interactions at drop-off, including turning away walk-ins early and ignoring styling preferences."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling for sensitive dogs"
+      },
+      "text": {
+        "en": "Clients appreciate how groomers manage pets with difficult temperaments or physical sensitivities, including dogs prone to nipping when matted. Pet parents feel reassured that their animals are handled calmly without undue stress throughout the salon session."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do I need to book in advance or can I walk in?"
+      },
+      "a": {
+        "en": "The salon fills up rapidly, and reviewers advise booking early as same-day walk-in slots can close before midday."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the groomers handle dogs that get nippy or nervous?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff have practical experience handling sensitive dogs and managing matted fur safely."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specific coat trimming requests followed?"
+      },
+      "a": {
+        "en": "Most visits run smoothly, though owners suggest stating styling instructions clearly at check-in to avoid unwanted close cuts."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "~"
+      }
+    }
+  ]
+}
