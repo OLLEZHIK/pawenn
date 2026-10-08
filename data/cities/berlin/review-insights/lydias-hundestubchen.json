@@ -1,0 +1,136 @@
+{
+  "slug": "lydias-hundestubchen",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lydias+Hundest%C3%BCbchen/@52.5610071,13.4105555,17z/data=!3m1!4b1!4m6!3m5!1s0x47a852127bdcb8c9:0xb5c7938de8cb122d!8m2!3d52.5610071!4d13.4105555!16s%2Fg%2F1tcwq4yn?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Persönliche Betreuung mit gemischten Stimmen",
+        "en": "Personal styling with contrasting impressions"
+      },
+      "text": {
+        "de": "Mehrere Stammkunden loben Lydia für ihre verlässliche und routinierte Arbeit im Salon. Demgegenüber steht eine Beschwerde über einen als barsch und abweisend empfundenen Umgangston sowie fehlende Kulanz bei Absprachen. Die persönliche Kommunikation wird daher je nach Besuch sehr unterschiedlich wahrgenommen.",
+        "en": "Several regular clients praise Lydia for her dependable and seasoned grooming craft. On the other hand, one critical review complains about a blunt, dismissive tone and inflexible communication. Pet owners therefore describe their personal customer service experience quite differently."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Gepflegte Schnitte und sauberes Krallenschneiden",
+        "en": "Neat haircuts and careful nail trimming"
+      },
+      "text": {
+        "de": "Halter äußern sich sehr zufrieden über die optischen Ergebnisse und die handwerkliche Ausführung. Sowohl das vollständige Frisieren als auch das regelmäßige Krallenschneiden gelingen sauber und formgerecht. Die beständige Qualität der Pflege wird von langjährigen Kunden besonders hervorgehoben.",
+        "en": "Dog owners express clear satisfaction with the visual results and reliable craftsmanship. Both complete haircuts and routine nail clipping are carried out neatly and according to breed standards. Longstanding visitors frequently emphasize this consistent grooming quality over many years."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Ruhige Hand mit einzelnen Meinungsverschiedenheiten",
+        "en": "Steady handling with occasional disagreements"
+      },
+      "text": {
+        "de": "Kunden heben positiv hervor, dass Lydia selbst wasserscheue oder lebhafte Hunde mit Geduld beruhigen und behandeln kann. Eine negative Rückmeldung kritisiert jedoch scharfe Vorwürfe bezüglich Verfilzungen und eine ablehnende Haltung bei schwierigem Fell. Das Verhalten gegenüber Hunden polarisiert vereinzelt.",
+        "en": "Visitors note appreciatively that Lydia manages to calm and groom water-shy or spirited dogs with patience. A contrasting negative review, however, reports harsh comments regarding matting and reluctance to handle difficult coat textures. Animal care approaches thus elicit divided reactions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Hunde auch nur zum Krallenschneiden kommen?",
+        "en": "Can dogs come in just for nail clipping?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten, dass das Schneiden der Krallen unkompliziert und fachgerecht durchgeführt wird.",
+        "en": "Yes, owners report that nail clipping is performed straightforwardly and skillfully as a standalone visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie geht die Friseurin mit wasserscheuen Tieren um?",
+        "en": "How does the groomer handle water-shy animals?"
+      },
+      "a": {
+        "de": "Stammkunden erwähnen, dass Lydia geduldig auf Hunde eingeht, die Scheren oder Baden normalerweise meiden.",
+        "en": "Regular clients mention that Lydia patiently handles dogs that typically dislike scissors or bathing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie wird das Preis-Leistungs-Verhältnis bewertet?",
+        "en": "How do customers evaluate the pricing?"
+      },
+      "a": {
+        "de": "Bewertungen beschreiben die Preise im Stübchen als fair und im Vergleich günstig für die gebotene Arbeit.",
+        "en": "Reviews describe the pricing at the salon as fair and comparatively affordable for the work provided."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 7 Monaten",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
