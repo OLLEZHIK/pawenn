@@ -599,7 +599,7 @@ export const cs: Dictionary = {
     price: "Cena",
     vsMarket: "Oproti průměru ve městě",
     notComparedTitle: "Další ceny (neporovnávané)",
-    notComparedIntro: "Dílčí ceny, sazby za hodinu či kilometr nebo služby nad rámec běžného standardu.",
+    notComparedIntro: "Dílčí ceny a sazby za hodinu či kilometr.",
     otherServices: "Další ceny",
     service: "Služba",
     range: "Rozmezí",
