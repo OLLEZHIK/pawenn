@@ -1,0 +1,160 @@
+{
+  "slug": "petco-union-square",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petco/data=!4m7!3m6!1s0x89c259a212f7bdad:0xaf44b237dcb0c4c5!8m2!3d40.7363801!4d-73.9888543!16s%2Fg%2F1tdng52x!19sChIJrb33EqJZwokRxcSw3DeyRK8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNC4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed feedback on employee assistance"
+      },
+      "text": {
+        "en": "Shoppers visiting the Union Square flagship store share contrasting impressions of the staff. Multiple patrons praise welcoming greetings and helpful customer service when browsing retail aisles. Conversely, other customers report encountering dismissive employee attitudes and experiencing poor communication when trying to address pricing concerns with store management."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Spacious store with occasional stock gaps"
+      },
+      "text": {
+        "en": "Customers appreciate the multi-level retail layout and the wide assortment of companion pet supplies located centrally in Manhattan. While many visitors describe the store environment as clean and well-arranged, several reviews note gaps in specific product categories, including inconsistent availability and limited choices in cat litter supplies."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustration with management follow-up"
+      },
+      "text": {
+        "en": "Communication reliability emerges as a recurring issue among recent reviewers at this location. Although floor associates occasionally offer assistance upon arrival, visitors highlight instances where managers failed to return promised phone calls regarding pricing discrepancies, leaving customer concerns and disputed charges completely unaddressed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the Union Square store offer in-store grooming?"
+      },
+      "a": {
+        "en": "Yes, full dog grooming services are available on site, though customers recommend confirming pricing details before drop-off."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are in-store prices identical to the Petco website?"
+      },
+      "a": {
+        "en": "Reviewers note that in-store service rates and posted product prices may differ from online quotes, so verifying costs at the register is advised."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can shoppers bring companion animals into the store?"
+      },
+      "a": {
+        "en": "Yes, leashed pets are welcome inside the flagship store while owners browse or attend grooming appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    }
+  ]
+}

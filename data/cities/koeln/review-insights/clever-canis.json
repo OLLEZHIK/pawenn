@@ -1,0 +1,94 @@
+{
+  "slug": "clever-canis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundeschule+Clever+Canis+K%C3%B6ln+-+Mike+Salentin/@50.90666,7.02685,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf246bcf3f9909:0xfe0fe3372c05051a!8m2!3d50.90666!4d7.02685!16s%2Fg%2F11dxktw1y8?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Engagiertes Training mit Mike Salentin",
+        "en": "Dedicated training with Mike Salentin"
+      },
+      "text": {
+        "de": "Hundehalterinnen und Hundehalter schätzen Mike Salentin und sein Team in Köln-Zollstock für ihren herzlichen, pragmatischen und humorvollen Unterrichtsstil. Kundinnen heben hervor, dass der Trainer stets ansprechbar ist, viel Erfahrung mitbringt und sich viel Zeit für Mensch und Hund nimmt.",
+        "en": "Dog owners appreciate Mike Salentin and his team in Cologne-Zollstock for their welcoming, pragmatic, and humorous teaching approach. Clients emphasize that the trainer is consistently accessible, brings deep expertise, and dedicates genuine time to both dogs and owners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Verständliche Erklärungen und praxisnahe Ratschläge",
+        "en": "Clear explanations and practical training advice"
+      },
+      "text": {
+        "de": "In den Rückmeldungen wird die klare, verständliche und bildhafte Vermittlung der Trainingsschritte hervorgehoben. Hundebesitzer schätzen die alltagstauglichen Tipps bei Einzelstunden sowie die lockere Atmosphäre, in der Fragen jederzeit offen und ohne Vorurteile besprochen werden.",
+        "en": "Reviews particularly praise the clear, accessible, and structured communication of training exercises. Dog guardians value the realistic everyday advice given during private lessons, along with a relaxed environment where questions can be discussed openly and without judgment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Vielseitige Kursangebote und spürbare Lernerfolge",
+        "en": "Diverse course offerings and visible progress"
+      },
+      "text": {
+        "de": "Teilnehmer berichten von erfolgreichen Fortschritten vom Welpenkurs über Junghundegruppen bis hin zu Fortgeschrittenenstunden. Regelmäßige Social Walks im Gruppenverband und gezielte Kurse wie Leinenführigkeit und Antigiftködertraining stärken das Vertrauen zwischen Hund und Halter.",
+        "en": "Participants report sustained learning progress, progressing from puppy and adolescent courses up to advanced obedience sessions. Regular group social walks and specialized training, including loose-leash walking and anti-poison bait aversion, significantly strengthen human-canine bonds."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Welche Kurse bietet die Hundeschule an?",
+        "en": "What types of training courses does the dog school offer?"
+      },
+      "a": {
+        "de": "Das Programm umfasst Welpen- und Junghundekurse, Einzeltraining, Leinenführigkeit, Antigiftködertraining und geführte Social Walks.",
+        "en": "The curriculum features puppy and adolescent groups, private lessons, loose-leash walking, toxic bait aversion, and guided social walks."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Gibt es flexible 10er-Karten für Trainingsstunden?",
+        "en": "Are flexible multi-session pass cards available for classes?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben das flexible Kartensystem mit 10er-Karten positiv hervor, das eine unkomplizierte Teilnahme an Gruppenstunden ermöglicht.",
+        "en": "Yes, clients praise the practical 10-session punch card system that allows flexible participation across various group classes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Begleitet die Hundeschule Teams von der Welpenzeit an langfristig?",
+        "en": "Does the dog school accompany handler teams long-term from puppyhood?"
+      },
+      "a": {
+        "de": "Ja, viele Halter nutzen das aufeinander aufbauende Kursangebot von der frühen Welpenphase bis zu Fortgeschrittenengruppen über mehrere Jahre.",
+        "en": "Yes, many handlers utilize the sequential course curriculum from early puppyhood into advanced training groups over multiple years."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "communication": "+", "animals": "+", "results": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "communication": "+", "animals": "+", "results": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "communication": "+", "results": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "results": "+", "prices": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "communication": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+", "communication": "+", "results": "+" } },
+    { "ago": "vor 3 Monaten", "months": 3, "stars": 5, "topics": { "staff": "+" } }
+  ]
+}

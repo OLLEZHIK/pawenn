@@ -1,0 +1,153 @@
+{
+  "slug": "mac-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/MAC+Dog+Grooming/@40.6799037,-73.844118,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25df5b7073e89:0x60c50cf39a9380ea!8m2!3d40.6799037!4d-73.844118!16s%2Fg%2F1v1tn_pp?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Longtime groomers with mixed service feedback"
+      },
+      "text": {
+        "en": "Many long-term customers commend groomers Nick and Clark for their accommodating scheduling, welcoming attitude, and polite treatment of regular visitors. In contrast, several negative reviews describe defensive or dismissive customer service when clients attempted to address grooming complaints or asked about delays."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Adorable breed styling alongside uneven trims"
+      },
+      "text": {
+        "en": "Regular clients love the finished styling on small and large breeds alike, frequently highlighting cute rounded facial trims and long-lasting fresh scents. However, unhappy reviewers noted uneven coat lengths, missed eye cleaning, and accidental skin irritation following routine bath and sanitary trim appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for familiar dogs"
+      },
+      "text": {
+        "en": "Most pet owners emphasize that their dogs love visiting the salon and return home relaxed, cheerful, and comfortable after being handled by experienced groomers. A single critical reviewer reported finding unusual bruises on a nervous dog, though the majority of clients describe calm and patient treatment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can they accommodate large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients with large dogs praise groomer Clark for his gentle and capable handling of bigger breeds over many years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is last-minute scheduling available?"
+      },
+      "a": {
+        "en": "Reviewers note that the owners frequently accommodate short-notice grooming requests when owners need urgent appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do dogs typically react to grooming sessions here?"
+      },
+      "a": {
+        "en": "Most pet parents report their dogs are happy and relaxed upon pickup, though careful communication regarding sensitive skin is advised."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "slug": "tierarztpraxis-am-eichtalpark",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Am+Eichtalpark/@53.5748007,10.0735596,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18bff72ae57c5:0xf445edfc70064d71!8m2!3d53.5748007!4d10.0735596!16s%2Fg%2F1tfbmck8?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "de": "Wertgeschätzte Ärzte und engagierte Helferinnen",
+        "en": "Valued veterinarians and dedicated assistants"
+      },
+      "text": {
+        "de": "Patientenbesitzer in Hamburg-Wandsbek schätzen Dr. Tüzün und Dr. Clausen für ihre ehrliche, gründliche und empathische Art. Sie erklären Diagnosen verständlich und vermeiden unnötige Behandlungen. Auch die tiermedizinischen Fachangestellten werden für ihren herzlichen Empfang und ihre Hilfsbereitschaft gelobt.",
+        "en": "Pet owners in Hamburg-Wandsbek praise Dr. Tüzün and Dr. Clausen for their candid, thorough, and compassionate demeanor. They explain clinical diagnoses clearly and avoid proposing redundant procedures. Veterinary assistants also earn warm compliments for their welcoming and helpful front-desk manner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "de": "Vogelkunde und gespaltene Erfahrungen beim Handling",
+        "en": "Avian care and divided handling feedback"
+      },
+      "text": {
+        "de": "Besonders hervorgehoben wird die vogelkundige Kompetenz bei Wellensittichen sowie die Fürsorge für Hunde und Katzen. Mehrere Halter berichten von gelungener Notfallhilfe. Vereinzelt kritisieren Tierbesitzer jedoch ein zu forciertes Festhalten junger Hunde bei Impfungen oder mangelnde Routine bei kleineren Nagetieren.",
+        "en": "Specialist expertise in avian medicine for budgerigars alongside attentive care for dogs and cats receives prominent praise. Several owners recount timely emergency assistance. Nevertheless, isolated reviews criticize overly firm restraint during puppy shots or limited familiarity with small rodents."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "de": "Günstige GOT-Sätze neben Kritik an Notfallkosten",
+        "en": "Fair baseline rates alongside emergency cost concerns"
+      },
+      "text": {
+        "de": "Zahlreiche Halter heben die fairen Gebührensätze der Praxis hervor und empfinden Standarduntersuchungen als preislich sehr transparent. Auf der anderen Seite empfanden einzelne Kunden Rechnungen bei akuten Vorstellungen, speziellen Ergänzungsmitteln oder Nagerbehandlungen als unverhältnismäßig teuer.",
+        "en": "Numerous clients highlight the practice's fair fee rates, noting that standard examinations remain transparently and modestly priced. Conversely, individual clients felt that charges for emergency presentations, specialist dietary supplements, or small mammal care were disproportionately steep."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Behandelt die Praxis auch Vögel wie Wellensittiche?",
+        "en": "Does the practice treat pet birds such as budgerigars?"
+      },
+      "a": {
+        "de": "Ja, Halter heben Dr. Tüzün als kompetenten und liebevollen Tierarzt für Ziervögel besonders positiv hervor.",
+        "en": "Yes, clients specifically recommend Dr. Tüzün for his specialized and affectionate care of companion birds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie werden akute Notfälle in der Praxis gehandhabt?",
+        "en": "How are urgent emergency cases handled at the clinic?"
+      },
+      "a": {
+        "de": "Einige Spontanfälle wurden umgehend aufgenommen, während andere Halter berichten, bei voller Auslastung an Kliniken verwiesen worden zu sein.",
+        "en": "Some walk-in emergencies were treated promptly, whereas other owners report being redirected to clinics when fully booked."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Parkmöglichkeiten vor der Praxis?",
+        "en": "Is parking available directly outside the practice?"
+      },
+      "a": {
+        "de": "Ja, Kunden erwähnen günstige Parkplätze direkt vor der Praxistür in Wandsbek.",
+        "en": "Yes, visitors mention convenient parking spaces right outside the entrance in Wandsbek."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

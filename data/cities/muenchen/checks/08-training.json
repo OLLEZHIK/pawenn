@@ -1,0 +1,30 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "freude-am-hund-olympiapark",
+    "sirius-hundeschule",
+    "freude-am-hund-pasing",
+    "huni-hunde-uni",
+    "die-hunde-lehrer"
+  ],
+  "hash": "3ac5c42a88fa3be1c84d6bdfb662989681f24dfc272ed7df140e52217e245966",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T18:55:13.722Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-06T18:56:04.031Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-06T18:56:51.762Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

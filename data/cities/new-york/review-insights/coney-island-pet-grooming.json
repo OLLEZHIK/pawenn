@@ -1,0 +1,137 @@
+{
+  "slug": "coney-island-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Coney+Island+Pet+Grooming/@40.5773787,-73.9976936,17z/data=!3m1!4b1!4m6!3m5!1s0x89c245c7a74a196b:0xa59c33001833f8ea!8m2!3d40.5773787!4d-73.9976936!16s%2Fg%2F11b6gkgtwc?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Neat haircuts and detailed styling"
+      },
+      "text": {
+        "en": "Pet parents in Coney Island praise the salon for neat haircuts, clean finishes, and charming finishing touches like bows. Reviewers mention that both dogs and cats emerge looking refreshed and tidy, with bonus touches such as complimentary nail trims included."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle touch with timid pets"
+      },
+      "text": {
+        "en": "Reviewers note that the groomers handle small and nervous animals with patience, calming pets that typically resist handling. One client highlighted that an anxious chihuahua allowed nail trims here without protest, and feline clients are groomed with equal gentleness."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Courteous and attentive grooming team"
+      },
+      "text": {
+        "en": "Clients consistently describe the salon team as polite, attentive, and respectful. Pet owners appreciate clear communication regarding expected results and feel confident entrusting their animals to attentive stylists who clearly care about companion pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they groom cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention bringing cats for bath and grooming sessions with clean results."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff handle dogs that are scared of nail trims?"
+      },
+      "a": {
+        "en": "Clients report quick and gentle nail trims even for small dogs that resist trimming elsewhere."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customers describe the service pricing?"
+      },
+      "a": {
+        "en": "Reviewers note that price quotes are reasonable and align with neighborhood grooming rates."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

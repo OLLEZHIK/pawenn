@@ -1,0 +1,222 @@
+{
+  "slug": "animal-hospital-of-brooklyn",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Hospital+of+Brooklyn/@40.6146634,-73.9285601,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2435b931b0e1f:0x41dc13796e83124c!8m2!3d40.6146634!4d-73.9285601!16s%2Fg%2F1tg363p4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Good vets, mixed experience at the front desk"
+      },
+      "text": {
+        "en": "Reviewers who describe the veterinarians — including Dr. Campanile — are generally positive, calling them knowledgeable, patient, and thorough. However, multiple owners describe front desk staff as rude, impatient, and prone to mishandling situations. At least one incident involved an entire waiting line being turned away without notice when the clinic unexpectedly locked up."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Repeated issues with front desk communication"
+      },
+      "text": {
+        "en": "Several reviewers specifically call out the front desk for poor communication — including an appointment cancellation with no notice, mis-informative guidance, and promotional terms not honored as advertised. The pattern suggests a gap between the quality of veterinary care and the reliability of administrative handling."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Facility concerns alongside affordable care"
+      },
+      "text": {
+        "en": "Reviewers note a broken entrance door and an incident where the gate was inexplicably lowered during business hours, causing appointments to be abandoned. The clinic is otherwise cited for competitive pricing, with affordable fees noted as a key reason some clients continue returning despite other concerns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Animal Hospital of Brooklyn offer boarding?"
+      },
+      "a": {
+        "en": "Yes, one reviewer who used boarding for 10 days reports excellent care, including daily baths and grooming by the vet staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the prices at this clinic affordable?"
+      },
+      "a": {
+        "en": "Multiple reviewers describe the fees as notably cheap and inexpensive compared to other vets in Brooklyn."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How is the front desk experience?"
+      },
+      "a": {
+        "en": "Reviews are mixed — several clients describe front desk staff as unkind or impatient, while the vets themselves consistently receive positive mentions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "tieraerzte-koeln-behlert",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tier%C3%A4rzte+K%C3%B6ln+-+Dr.+Behlert+%26+Dr.+Teschner/@50.9312109,6.9324021,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf250080644365:0x93dd67df66e62551!8m2!3d50.9312109!4d6.9324021!16s%2Fg%2F1tdstk2p?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Langjähriges Vertrauen mit ernster Kritik",
+        "en": "Longstanding trust with serious criticism"
+      },
+      "text": {
+        "de": "Die Mehrheit der Halter schätzt das Team um Dr. Behlert und Dr. Teschner für freundliche und kompetente Beratungen, teils über viele Jahre hinweg. Ein kritischer Bericht bemängelt jedoch fehlende Gründlichkeit und das Gefühl, bei akuten Krankheitssymptomen nicht ausreichend ernst genommen worden zu sein.",
+        "en": "The majority of pet owners praise the team around Dr. Behlert and Dr. Teschner for friendly and competent consultations, often over many years. However, a critical report notes insufficient diagnostic thoroughness and feeling dismissed during an acute, life-threatening emergency."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Geteilte Erfahrungen bei Behandlungen",
+        "en": "Mixed experiences with treatment outcomes"
+      },
+      "text": {
+        "de": "Mehrere Patientenbesitzer berichten von rascher und erfolgreicher medizinischer Hilfe, dank derer sich ihre Tiere schnell erholten. Demgegenüber steht ein Fall, in dem trotz alarmierender Symptome keine weiterführende Diagnostik erfolgte und das Tier kurz darauf verstarb.",
+        "en": "Several pet owners report prompt and successful medical assistance that helped their animals recover swiftly. In contrast, one case describes how, despite alarming symptoms, no further diagnostic investigations were conducted and the companion animal died shortly thereafter."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Liebevolle Hinwendung zu Hunden",
+        "en": "Affectionate care for canine patients"
+      },
+      "text": {
+        "de": "Halter heben hervor, dass Behandler im Praxisalltag herzlich mit Hunden umgehen und ihnen eine angenehme Umgebung schaffen. Patientenbesitzer schätzen den respektvollen Umgang und die Bereitschaft, auf individuelle Eigenheiten der Vierbeiner während der Untersuchung einzugehen.",
+        "en": "Owners highlight that clinicians treat canine patients with warmth and provide a reassuring clinic atmosphere. Pet owners appreciate the respectful approach and willingness to accommodate individual traits and stress levels during routine health checkups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wird in der Praxis auch auf Englisch beraten?",
+        "en": "Are consultations available in English?"
+      },
+      "a": {
+        "de": "Ja, englischsprachige Tierhalter berichten von einer freundlichen und respektvollen Verständigung vor Ort.",
+        "en": "Yes, English-speaking pet owners report friendly, respectful, and clear communication on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie fallen die Wartezeiten bei Terminen aus?",
+        "en": "How are waiting times during scheduled appointments?"
+      },
+      "a": {
+        "de": "Langjährige Kunden heben kurze Wartezeiten und eine zügige Terminabwicklung in der Praxis hervor.",
+        "en": "Longstanding clients highlight short waiting times and efficient appointment handling at the clinic."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Kommen Patienten auch von außerhalb nach Köln?",
+        "en": "Do clients travel from outside Cologne to the clinic?"
+      },
+      "a": {
+        "de": "Ja, Stammkunden nehmen aufgrund ihrer positiven Erfahrungen auch Anfahrten aus Nachbarkreisen auf sich.",
+        "en": "Yes, loyal clients travel from surrounding districts because of their longstanding positive experiences."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "greenwood-veterinary-care",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Greenwood+Veterinary+Care/data=!4m7!3m6!1s0x89c25ba2f65a99eb:0x2db458961fdfb6ee!8m2!3d40.660809!4d-73.9942743!16s%2Fg%2F11f6248r9q!19sChIJ65la9qJbwokR7rbfH5ZYtC0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNC4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "title": {
+        "en": "Dedicated veterinarians and compassionate assistants"
+      },
+      "text": {
+        "en": "Pet owners express deep trust in Dr. Rudy Zamora and Dr. Grillo, praising their medical attentiveness, warmth, and unhurried consultations. Veterinary technicians and front-desk coordinator Duncan receive consistent commendation for kindness during stressful visits. However, two reviewers noted frustrations with phone service efficiency and doctor responsiveness."
+      },
+      "mentions": 14
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "title": {
+        "en": "Gentle handling for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize how comfortably anxious cats and rescue dogs are treated during appointments. Clients note that veterinarians handle nervous pets with remarkable sweetness, helping pets settle down quickly for examinations and dental surgery. Owners of elderly animals particularly appreciate the patient, loving atmosphere maintained across the clinic."
+      },
+      "mentions": 6
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Attentive discussions alongside telephone delays"
+      },
+      "text": {
+        "en": "In exam rooms, veterinarians are praised for providing detailed explanations and answering owner questions with care. On the other hand, multiple reviewers report frustrating communication hurdles outside the exam room, such as protracted waits for diagnostic lab results, difficulty coordinating prescription refills, and unreturned phone inquiries."
+      },
+      "mentions": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic handle nervous or rescue pets?"
+      },
+      "a": {
+        "en": "Reviewers report that the staff is exceptionally gentle and patient, helping frightened dogs and cats feel comfortable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available on site?"
+      },
+      "a": {
+        "en": "Yes, the clinic provides dedicated on-site parking for clients visiting the facility."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are phone questions answered by staff?"
+      },
+      "a": {
+        "en": "Clients note that front desk staff can answer routine questions, though some report delays when ordering prescription refills."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform dental surgery on older pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers report successful dental cleanings and surgeries on senior cats and dogs with careful monitoring."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "communication": "~",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

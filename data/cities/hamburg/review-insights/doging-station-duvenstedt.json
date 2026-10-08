@@ -1,0 +1,130 @@
+{
+  "slug": "doging-station-duvenstedt",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOGing+Station+Hundesalon+Duvenstedt/@53.7088974,10.1062771,17z/data=!3m1!4b1!4m6!3m5!1s0x47b2270c2f5ad153:0xb1ff0f3f1bef7c7d!8m2!3d53.7088974!4d10.1062771!16s%2Fg%2F11hz_m2xb_?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Freundliches und zügiges Pflegeteam",
+        "en": "Friendly and efficient grooming staff"
+      },
+      "text": {
+        "de": "Besucher der Station in Hamburg-Duvenstedt heben das aufmerksame Auftreten des Teams hervor. Pflegerinnen wie Nele arbeiten routiniert und zügig, sodass die Termine für Hund und Halter angenehm kurz bleiben. Die freundliche Ansprache sorgt für eine willkommene Salonatmosphäre.",
+        "en": "Visitors to the Duvenstedt branch in Hamburg praise the courteous and capable staff. Groomers like Nele work swiftly and proficiently, ensuring grooming sessions remain pleasantly brief for pets and owners. The friendly demeanor fosters a welcoming atmosphere throughout each visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Gepflegtes Aussehen und ordentlicher Schnitt",
+        "en": "Neat trims and refreshed coat appearance"
+      },
+      "text": {
+        "de": "Kunden zeigen sich sehr zufrieden mit dem äußeren Erscheinungsbild ihrer Hunde nach dem Frisieren. Vom Trimmen bis zum Formschnitt bei Lockenhunden wie Bernedoodles wird das Fell sauber aufbereitet. Viele Halter bemerken erfreut, dass ihr Vierbeiner nach dem Besuch wie verwandelt aussieht.",
+        "en": "Clients express great satisfaction with their pets' refreshed appearance after grooming. From hand-stripping to breed-typical cuts for curly coats like Bernedoodles, coat styling is performed neatly. Several owners delightedly note that their companions look completely revitalized post-visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Positive Stimmung bei den Hunden",
+        "en": "Calm and cheerful pets after grooming"
+      },
+      "text": {
+        "de": "Tierhalter berichten, dass ihre Vierbeiner gerne in den Salon kommen und der nächste Termin ohne Furcht erwartet wird. Durch die zügige und zugleich behutsame Pflege empfinden Hunde die Prozedur als wenig belastend. Die Vierbeiner bleiben während des Aufenthalts entspannt und aufgeweckt.",
+        "en": "Pet owners report that their dogs gladly visit the salon, looking forward to subsequent grooming appointments without hesitation. Thanks to prompt and gentle handling, pets experience minimal discomfort during their routine. The animals remain composed, relaxed, and cheerful throughout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden in Duvenstedt auch Mischlinge und Doodles frisiert?",
+        "en": "Do groomers style mixed breeds and doodle coats?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten über gelungene Haarschnitte bei Rassen und Mischlingen wie Bernedoodles.",
+        "en": "Yes, clients specifically report positive grooming outcomes for breeds and mixes such as Bernedoodles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie lange dauern die Pflegetermine im Salon üblicherweise?",
+        "en": "How long do grooming appointments typically take?"
+      },
+      "a": {
+        "de": "Kunden heben hervor, dass die Pflegegriffe zügig und routiniert ausgeführt werden, um Stress zu vermeiden.",
+        "en": "Customers note that grooming tasks are executed swiftly and routinely to minimize pet stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie bewerten Halter das Preisniveau der Station?",
+        "en": "How do clients perceive the salon's price levels?"
+      },
+      "a": {
+        "de": "Besucher stufen die Preise als gehoben ein, betonen jedoch die handwerklich ordentliche Ausführung.",
+        "en": "Visitors view pricing as somewhat higher but emphasize the neat, dependable quality of the trimming."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 5 Tagen",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "vor 8 Monaten",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

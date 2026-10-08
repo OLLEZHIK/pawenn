@@ -1,0 +1,128 @@
+{
+  "slug": "petsmart-doggie-day-camp",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Doggie+Day+Camp/@40.5658634,-74.1101485,17z/data=!3m1!4b1!4m6!3m5!1s0x89c249fa24b9cfe5:0x5112c2a88d46948b!8m2!3d40.5658634!4d-74.1101485!16s%2Fg%2F11sfb66yxw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Staff turnover and training concerns"
+      },
+      "text": {
+        "en": "While one pet parent appreciates staff members who show affection to visiting animals, multiple reviewers express disappointment with personnel at this location. Complaints cite cashier indifference regarding retail supplies and concerns that hotel and day camp attendants lack adequate training to handle boarding guests safely."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Facility shortages and location decline"
+      },
+      "text": {
+        "en": "A loyal customer still regards the store as a regular destination, but other visitors note declining standards at the Hylan Boulevard location. Shoppers report a complete lack of shopping baskets and carts during visits, as well as an overall drop in facility oversight across retail and camp areas."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Management replies beside order friction"
+      },
+      "text": {
+        "en": "Store management regularly posts polite digital replies thanking customers for positive star ratings on Google. In contrast, shoppers note frustrating communication breakdowns when handling retail issues, such as disputed order refunds for items mistakenly marked as picked up by the store system."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this location offer dog day camp and boarding?"
+      },
+      "a": {
+        "en": "Yes, the facility includes a PetSmart PetsHotel and Doggie Day Camp offering daytime play and overnight stays for companion animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What concerns have clients raised about day camp staffing?"
+      },
+      "a": {
+        "en": "Reviewers have raised concerns regarding attendant training and supervision quality in the boarding and day camp areas."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are retail supplies and shopping carts readily available?"
+      },
+      "a": {
+        "en": "Shoppers have reported shortages of carts and baskets in the retail section, advising visitors buying bulky items to plan accordingly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

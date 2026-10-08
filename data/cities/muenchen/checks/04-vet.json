@@ -1,0 +1,50 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "tierarztpraxis-dr-wittmann",
+    "tierarztpraxis-munchen-laim-dr-med-vet-ursula-link",
+    "rex-tierarztpraxis-munchen-schwabing",
+    "tierarztpraxis-dr-thomas-bauer-reptilien-fische",
+    "tierarztpraxis-dr-aumuller",
+    "tierarztin-kleintierpraxis-dr-andrea-obermuller-munchen",
+    "dr-med-vet-susanne-rohrl-tierarztin",
+    "tierzahnzentrum-munchen",
+    "tierarzt-munchen-dr-med-vet-klaus-sommer",
+    "kleintierpraxis-dr-jutta-herrle-munchen"
+  ],
+  "hash": "321e4da3ea30cdb642614a05bcea9f7ffc85385f43fada0e9519b273c1048927",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T18:55:52.094Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-06T18:58:06.473Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T18:58:45.456Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T19:02:01.379Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T00:37:11.204Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-07T00:37:55.469Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

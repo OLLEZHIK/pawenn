@@ -1,0 +1,123 @@
+{
+  "slug": "marine-park-veterinary-group",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Marine+Park+Veterinary+Group/@40.6096562,-73.9317359,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2435e2228aa6d:0xad2eeadd0770954a!8m2!3d40.6096562!4d-73.9317359!16s%2Fg%2F1v42gq8w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Caring clinicians despite phone service complaints"
+      },
+      "text": {
+        "en": "Feedback regarding the veterinary staff is divided between positive visits and critical administrative experiences. Several pet owners praise the veterinarians and veterinary technicians for being kind, caring, and compassionate when treating sick pets. Conversely, other reviewers report encountering rude, sarcastic phone interactions with reception staff and felt that clinicians lacked attentiveness during surgical decisions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle hands contrasted by procedural distress"
+      },
+      "text": {
+        "en": "Clients who had positive experiences report that the clinical staff handled their sick cats and dogs with gentle hands and genuine empathy. They felt reassured that their pets were kept comfortable during routine treatments. On the other hand, one critical owner expressed serious distress after a pet underwent extensive dental extractions that permanently altered the animal's ability to eat hard food."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Phone scheduling barriers and surgical surprises"
+      },
+      "text": {
+        "en": "Communication emerges as a significant concern among recent reviewers, leading to an overall negative rating on this topic. Clients report rude, dismissive telephone interactions when trying to schedule appointments or inquire about vaccine availability and fees. Another reviewer described a lack of promised surgical updates, learning the full extent of an extensive procedure only upon arriving at discharge."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What do clients report about booking appointments by phone?"
+      },
+      "a": {
+        "en": "Recent reviewers describe mixed experiences with phone scheduling, with some noting difficulties getting clear pricing or availability details before visiting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the veterinary team during in-person care?"
+      },
+      "a": {
+        "en": "Satisfied pet owners praise the veterinarians and technicians for compassionate hands-on care when pets are sick or injured."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing estimates provided prior to procedures?"
+      },
+      "a": {
+        "en": "While routine care is standard, at least one reviewer cautioned that major surgical bills significantly exceeded initial verbal estimates."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

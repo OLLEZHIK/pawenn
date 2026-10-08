@@ -8,6 +8,7 @@ import { LANG_COOKIE, LOCALES } from "@/lib/locales";
 import { localeOfPath } from "@/lib/localeSwitch";
 import { ChevronDownIcon } from "./icons";
 import { usePageAlternates } from "./useHead";
+import { gaEvent } from "@/lib/analytics";
 
 // The page's language follows its URL (search engines send people to
 // the right version via hreflang). The switch offers exactly the page's
@@ -15,11 +16,12 @@ import { usePageAlternates } from "./useHead";
 // (a Polish city: English and Polski; a Slovak one: English and
 // Slovenčina). The footer's old guess linked English Warszawa pages to
 // /sk/.../warszawa/, a 404 (SEO check, 2026-09-28).
-const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "Polski", cs: "Čeština" };
+const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "Polski", cs: "Čeština", de: "Deutsch" };
 
 // Remembered for the root "/" only (docs/design-plan.md 2.2): a
 // functional cookie set by the visitor's own choice.
 function remember(l: Locale) {
+  gaEvent("language_switch", { language: l });
   document.cookie = `${LANG_COOKIE}=${l}; Max-Age=31536000; Path=/; SameSite=Lax`;
 }
 

@@ -307,6 +307,8 @@ export const en = {
     opensLater: (date: string, time: string) => `opens ${date} at ${time}`,
     nonstopTitle: "Open 24/7",
   },
+  /** Analytics consent banner (GA4 runs only after "allow"). */
+  consent: { text: "We would like to use Google Analytics cookies to see how the site is used and make it better. Only if you allow it.", allow: "Allow", decline: "Decline", settings: "Cookie settings" },
   actions: { call: "Call", website: "Website", route: "Route" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },
   business: {
@@ -469,7 +471,7 @@ export const en = {
     price: "Price",
     vsMarket: "Against the city average",
     notComparedTitle: "Other prices (not compared)",
-    notComparedIntro: "Partial prices, prices per hour or per km, or ones that include more than the standard.",
+    notComparedIntro: "Partial prices and prices per hour or per km.",
     otherServices: "Other prices",
     service: "Service",
     range: "Range",

@@ -232,7 +232,7 @@ async function seedDistricts(cityId: number, citySlug: string): Promise<District
   const geo = JSON.parse(fs.readFileSync(file, "utf-8")) as {
     features: {
       properties: { name: string; slug: string; in?: Record<string, string> };
-      geometry: { type: string; coordinates: number[][][][] };
+      geometry: { type: string; coordinates: number[][][][] | number[][][] };
     }[];
   };
   return inBatches(geo.features, BATCH, async (f) => {
@@ -243,7 +243,9 @@ async function seedDistricts(cityId: number, citySlug: string): Promise<District
       update: { name, inPhrases },
       create: { name, slug, cityId, inPhrases },
     });
-    return { id: district.id, slug, coordinates: f.geometry.coordinates };
+    // Some cities' districts are plain Polygons: wrap them as MultiPolygons.
+    const coordinates = (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates) as number[][][][];
+    return { id: district.id, slug, coordinates };
   });
 }
 

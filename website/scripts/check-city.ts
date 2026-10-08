@@ -109,9 +109,13 @@ const logoOk = (r: Row) => logoExists(r) && !logoSmall(r);
 // warning the reviewer reads, not a failure.
 // "warn": the owner's minimum is about real values (docs/card-spec.md,
 // "Минимум качества"), so a low share of them is shown to the reviewer.
+// A city whose own language is English (New York, owner 2026-10-07) has
+// no second text: the "_local" columns stay empty and the site shows the
+// English ones.
+const englishCity = cityMetaLocale() === "en";
 const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?: string; warn?: boolean }[] = [
-  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && has(r, "short_description_local") },
-  { field: "description + _local", target: 1, value: (r) => has(r, "description") && has(r, "description_local") },
+  { field: "short_description + _local", target: 1, value: (r) => has(r, "short_description") && (englishCity || has(r, "short_description_local")) },
+  { field: "description + _local", target: 1, value: (r) => has(r, "description") && (englishCity || has(r, "description_local")) },
   // Mobile services with no premises have no coordinates, only a
   // "coords: none (mobile service ...)" note (docs/card-spec.md, section 3).
   { field: "lat / lng", target: 1, value: (r) => has(r, "lat") && has(r, "lng"), none: "coords" },
@@ -593,10 +597,16 @@ for (const slug of insights) {
   if (total > 0 && (data.reviews_in_period ?? 0) > total / 2)
     err(`reviews_in_period ${data.reviews_in_period} is more than half of all ${total} Google ratings - count the feed again`);
   const cards = data.cards ?? [];
-  if (cards.length !== 3) err(`${cards.length} cards, need exactly 3`);
+  // A small summary from 3-4 text reviews (owner, 2026-10-07: "можешь делать
+  // по трём"): 1-3 cards, a topic from 2 reviewers. From 5 reviews: 3 cards,
+  // a topic from 3 reviewers, as before.
+  const small = (data.reviews_in_period ?? 0) < 5;
+  const minMentions = small ? 2 : 3;
+  if (small ? cards.length < 1 || cards.length > 3 : cards.length !== 3)
+    err(`${cards.length} cards, need ${small ? "1-3 (fewer than 5 reviews)" : "exactly 3"}`);
   cards.forEach((c, i) => {
     if (!bothLangs(c.title) || !bothLangs(c.text)) err(`card ${i + 1}: title and text need ${cityLangs.join(" + ")}`);
-    if ((c.mentions ?? 0) < 3) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs 3+ reviewers`);
+    if ((c.mentions ?? 0) < minMentions) err(`card ${i + 1}: mentions ${c.mentions}, a topic needs ${minMentions}+ reviewers`);
     if (data.reviews_in_period !== undefined && (c.mentions ?? 0) > data.reviews_in_period)
       err(`card ${i + 1}: mentions ${c.mentions} > reviews_in_period ${data.reviews_in_period}`);
     const text = c.text as Record<string, string> | undefined;
@@ -645,7 +655,7 @@ for (const r of rows) {
   if (cityMeta.locale !== "en" && !has(r, "languages_spoken") && !noted(r, "languages")) {
     vetGaps.push(`${r.slug}: no languages_spoken and no "languages: none (...)" in notes`);
   }
-  if (has(r, "emergency_note") !== has(r, "emergency_note_local")) {
+  if (!englishCity && has(r, "emergency_note") !== has(r, "emergency_note_local")) {
     vetGaps.push(`${r.slug}: emergency_note and emergency_note_local go together`);
   }
 }
@@ -747,10 +757,10 @@ if (fs.existsSync(pricesFile)) {
     }
     const note = (p.note ?? "").trim();
     const noteLocal = (p.note_local ?? "").trim();
-    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || !noteLocal)) {
-      priceErrors.push(`${at}: partial=yes needs note and note_local`);
+    if (/^yes$/i.test((p.partial ?? "").trim()) && (!note || (!englishCity && !noteLocal))) {
+      priceErrors.push(englishCity ? `${at}: partial=yes needs note` : `${at}: partial=yes needs note and note_local`);
     }
-    if (!!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
+    if (!englishCity && !!note !== !!noteLocal) priceErrors.push(`${at}: note and note_local go together`);
     if (note.length > 40 || noteLocal.length > 40) priceErrors.push(`${at}: note over 40 characters`);
   });
 }

@@ -1,0 +1,145 @@
+{
+  "slug": "aquaristik-and-animal-world",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Aquaristik+%26+Animal+World/@50.9328203,7.0090885,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf26760df76587:0xad652750e39aa35f!8m2!3d50.9328203!4d7.0090885!16s%2Fg%2F11b6dfg83x?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "de": "Geteilte Erfahrungen mit dem Ladenpersonal",
+        "en": "Divided feedback regarding shop staff"
+      },
+      "text": {
+        "de": "Mehrere Kundinnen und Kunden berichten von ungeduldigem oder abweisendem Verhalten des Verkaufspersonals im Fachgeschäft in Köln-Kalk. Neben Berichten über fehlende Serviceorientierung heben einzelne Käufer jedoch auch eine hilfsbereite und unkomplizierte Fachberatung bei Aquaristikfragen hervor.",
+        "en": "Multiple shoppers report impatient or unwelcoming behavior from the retail staff at the store in Cologne-Kalk. Beside complaints about a lack of service orientation, individual buyers also emphasize helpful and straightforward guidance regarding freshwater aquariums."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "de": "Wiederholte Kritik an der Kundenkommunikation",
+        "en": "Frequent criticism of client communication"
+      },
+      "text": {
+        "de": "In den Rückmeldungen wird wiederholt mangelnde Erreichbarkeit und ein schroffer Umgangston bei telefonischen Anfragen bemängelt. Während einzelne Kunden eine kulante Abwicklung bei Reklamationen loben, berichten andere von abgeblockten Klärungsversuchen und abrupt beendeten Telefonaten.",
+        "en": "Customer reviews repeatedly note difficulties reaching the shop and a curt tone during phone inquiries. While individual patrons appreciate accommodating handling of returns, others describe rejected attempts to resolve concerns and abruptly terminated telephone calls."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Bemängelte Verkaufsatmosphäre und große Beckenauswahl",
+        "en": "Criticized store atmosphere and tank variety"
+      },
+      "text": {
+        "de": "Besucher äußern Kritik an der Enge im Verkaufsraum sowie an unangenehmen Gerüchen im Laden. Gleichzeitig heben zufriedene Aquarianer die überraschend breite Auswahl an Becken, Pflanzen und Zubehör hervor, die das Fachgeschäft im rechtsrheinischen Köln bietet.",
+        "en": "Visitors criticize crowded sales areas and noticeable damp odors inside the shop. At the same time, satisfied aquarium enthusiasts highlight the surprisingly extensive selection of fish tanks, aquatic plants, and equipment offered on the right bank of Cologne."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Hat das Zoofachgeschäft donnerstags geöffnet?",
+        "en": "Is the pet shop open on Thursdays?"
+      },
+      "a": {
+        "de": "Nein, Kundinnen weisen darauf hin, dass der Laden donnerstags geschlossen bleibt.",
+        "en": "No, customers note that the retail shop remains closed on Thursdays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet das Geschäft Unterstützung bei der Aquarieneinrichtung an?",
+        "en": "Does the shop assist with aquarium setup?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von individueller Beratung und Vor-Ort-Unterstützung bei der Neueinrichtung von Süßwasseraquarien.",
+        "en": "Yes, buyers report personal consultations and assistance when setting up freshwater biotopes at home."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Welche Tiere und Produkte führt das Fachgeschäft?",
+        "en": "Which animals and supplies does the shop carry?"
+      },
+      "a": {
+        "de": "Neben Zubehör, Pflanzen und Technik für Aquarien führt das Geschäft Fische, Kleintierbedarf sowie Vögel wie Wellensittiche.",
+        "en": "Beside accessories, plants, and technical equipment for aquariums, the store sells ornamental fish, small pet supplies, and birds like budgerigars."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function GlobalNotFound() {
   return (
-    <html lang="en" className={`${headingFont.variable} ${bodyFont.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <body>
         <NotFoundContent />
       </body>

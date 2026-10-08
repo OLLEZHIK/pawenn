@@ -1,0 +1,120 @@
+{
+  "slug": "digs-canine-hotel-spa-daycare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DIGS+Canine+Hotel+Spa+%26+Daycare/@40.7029276,-73.9841896,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25b51a2139dd5:0x8da25960a70299f7!8m2!3d40.7029276!4d-73.9841896!16s%2Fg%2F11fvlhcnq3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Caring attendants alongside service concerns"
+      },
+      "text": {
+        "en": "Several pet owners praise the staff for taking extra steps, such as transporting an ill boarding puppy to a local veterinarian and providing daily photo updates. In contrast, critical reviewers report unaddressed communication lapses and an employee adding a tip without consent."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive boarding care with isolated neglect"
+      },
+      "text": {
+        "en": "Most clients report that their dogs enjoyed safe, comfortable boarding stays and received diligent medical and personal attention. However, one long-term patron observed inadequate water provision and found their pet distressed without supervision during a recent stay."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean boarding and grooming amenities"
+      },
+      "text": {
+        "en": "Visitors highlight the modern and tidy environment, pointing to spotless dog boarding suites and well-maintained daycare areas. Pet parents consider the facility a convenient destination for overnight stays, grooming appointments, and daytime play sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do staff provide photo updates while dogs are boarded?"
+      },
+      "a": {
+        "en": "Yes, customers mention receiving daily pictures and progress reports while their pets stay at the facility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do attendants handle sudden medical needs during boarding?"
+      },
+      "a": {
+        "en": "Reviewers note staff transported a sick puppy to an outside veterinarian and administered prescribed medications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are daycare and grooming services offered together?"
+      },
+      "a": {
+        "en": "Yes, patrons describe booking daycare, grooming baths, and boarding under the same roof."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

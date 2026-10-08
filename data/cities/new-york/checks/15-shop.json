@@ -1,0 +1,35 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "petco-union-square",
+    "petco-rego-park",
+    "petco-sheepshead-bay",
+    "petsmart-atlantic-ave",
+    "petsmart-forest-ave",
+    "petsmart-avenue-d",
+    "pet-resources",
+    "wagwear",
+    "unleashed-by-petco",
+    "cross-bronx-pet-shop"
+  ],
+  "hash": "f3ae328dd648bf1eab3f2e6d371db81e3894334df39f977ecb24c2e660bfe90d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-07T16:03:12.983Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-07T16:10:16.391Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T16:10:58.601Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

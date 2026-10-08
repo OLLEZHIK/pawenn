@@ -1,0 +1,140 @@
+{
+  "slug": "pet-city",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+City/@40.852879,-73.9055112,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f471e6f29ce3:0x756a2d192ada1639!8m2!3d40.852879!4d-73.9055112!16s%2Fg%2F1vfn7l9n?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive assistance alongside mixed staffing remarks"
+      },
+      "text": {
+        "en": "Most visitors praise the friendly service at this Mount Hope pet shop, particularly highlighting helpful guidance in the aquarium section. Customers appreciate staff helping them select proper supplies. However, one reviewer reported an unpleasant encounter with an impaired employee behind the counter."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Handy store location with uneven inventory"
+      },
+      "text": {
+        "en": "Shoppers find the store convenient for everyday neighborhood pet purchases, noting that it stocks most essential supplies for domestic pets and home aquariums. At the same time, an inquiry revealed gaps in specialty animal availability, such as ferrets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Broad pet food selection with specific limits"
+      },
+      "text": {
+        "en": "Pet owners value finding nutrition and goods for reptiles, ornamental fish, and common domestic companions. Reviewers mention sourcing snake food and aquarium essentials smoothly, though availability for specific small animals like rats or ferrets remains inconsistent."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet City stock reptile and snake food?"
+      },
+      "a": {
+        "en": "Yes, customers report purchasing snake nutrition and reptile supplies at this Bronx location."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can shoppers find fish and aquarium supplies here?"
+      },
+      "a": {
+        "en": "Yes, reviewers specifically mention an aquarium department with fish options and helpful staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are live small mammals like ferrets sold at the store?"
+      },
+      "a": {
+        "en": "Customer feedback indicates that small mammals such as ferrets are generally not available."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

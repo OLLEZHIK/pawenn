@@ -17,7 +17,8 @@
     "reviews-queue": "tsx scripts/reviews-queue.ts",
     "check-raw-reviews": "tsx scripts/check-raw-reviews.ts",
     "agent-check": "tsx scripts/agent-check.ts",
-    "sanity": "tsx scripts/sanity.ts"
+    "sanity": "tsx scripts/sanity.ts",
+    "site-extract": "tsx scripts/site-extract.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

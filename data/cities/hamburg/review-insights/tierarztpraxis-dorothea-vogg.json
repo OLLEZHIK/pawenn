@@ -1,0 +1,145 @@
+{
+  "slug": "tierarztpraxis-dorothea-vogg",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Dorothea+Vogg/@53.5794503,9.7892186,17z/data=!3m1!4b1!4m6!3m5!1s0x47b183664d47d047:0x3be538df2047db37!8m2!3d53.5794503!4d9.7892186!16s%2Fg%2F11b6cr4xpm?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Beratungsstarkes und verlässliches Team",
+        "en": "Supportive and dependable clinic staff"
+      },
+      "text": {
+        "de": "Tierhalter beschreiben Frau Vogg und ihr Praxisteam in Sülldorf als freundlich, geduldig und fachlich kompetent. Im Kollegium berät man sich bei unklaren Befunden gemeinsam, um tragfähige Lösungen zu finden. Vereinzelt gibt es jedoch Unmut über als hoch empfundene Rechnungen und fehlende Kulanz bei Abrechnungsfragen.",
+        "en": "Pet owners describe Dorothea Vogg and her clinic team in Sülldorf as friendly, patient, and clinically proficient. Practitioners consult together on ambiguous cases to ensure sound solutions. However, isolated reviews voice frustration over fees perceived as excessive and inflexible billing policies."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Erfolgreiche Operationen und Nachsorge",
+        "en": "Successful surgeries and follow-up care"
+      },
+      "text": {
+        "de": "In den Erfahrungsberichten werden geglückte operative Eingriffe bei Hunden und eine sorgsame Nachbetreuung hervorgehoben. Auch bei kleineren Behandlungen wie Parasitenbefall oder Impfungen führen die verordneten Maßnahmen rasch zum gewünschten Heilerfolg, was für Zufriedenheit bei den Tierhaltern sorgt.",
+        "en": "Reviews emphasize successful surgical interventions in canine patients alongside careful post-operative monitoring. For routine matters such as parasite infections or vaccinations, prescribed therapies also achieve prompt recovery, generating solid confidence among local pet owners."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Rücksichtsvolle Zuwendung für Hunde",
+        "en": "Thoughtful attention for pet dogs"
+      },
+      "text": {
+        "de": "Besucher betonen den liebevollen und zugewandten Umgang der Behandler mit ihren Vierbeinern. Selbst Erstbesucher fühlen sich dank der entspannten Atmosphäre gut aufgehoben. Die großzügige Raumaufteilung im Wartezimmer ermöglicht es den Tieren zudem, ausreichend Abstand zueinander zu halten.",
+        "en": "Visitors note the affectionate and considerate approach that practitioners show toward canine patients. Even first-time visitors feel thoroughly comfortable thanks to the relaxed environment. The spacious layout of the waiting area also allows animals to maintain ample distance from one another."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es Parkplätze direkt an der Praxis?",
+        "en": "Is parking available directly at the practice?"
+      },
+      "a": {
+        "de": "Ja, Kunden bestätigen, dass Parkmöglichkeiten unmittelbar vor der Tür vorhanden sind.",
+        "en": "Yes, clients confirm that parking spaces are conveniently available right outside the door."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet das Wartezimmer ausreichend Platz für Tiere?",
+        "en": "Does the waiting area offer enough space for pets?"
+      },
+      "a": {
+        "de": "Ja, Halter heben hervor, dass Tiere im Wartezimmer genügend Abstand zueinander halten können.",
+        "en": "Yes, owners highlight that animals have plenty of room to avoid stressful proximity."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Führt die Tierarztpraxis chirurgische Operationen durch?",
+        "en": "Does the veterinary clinic perform surgical operations?"
+      },
+      "a": {
+        "de": "Ja, Rezensionen berichten von erfolgreich durchgeführten Operationen inklusive Nachsorge.",
+        "en": "Yes, reviews describe successfully conducted surgical procedures including aftercare."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -32,7 +32,7 @@ function placeLines(rows: ServicePriceRow[]) {
     .sort((a, b) => a.from - b.from);
 }
 
-function Header({
+export function PageHeader({
   locale,
   category,
   city,
@@ -134,7 +134,7 @@ export async function ServicePricePage({
     <main style={{ "--accent": accent } as React.CSSProperties}>
       <PageCity slug={city.slug} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
-      <Header
+      <PageHeader
         locale={locale}
         category={category}
         city={city}
@@ -294,7 +294,7 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
   return (
     <main style={{ "--accent": CATEGORY_THEME[category].accent } as React.CSSProperties}>
       <PageCity slug={city.slug} />
-      <Header
+      <PageHeader
         locale={locale}
         category={category}
         city={city}

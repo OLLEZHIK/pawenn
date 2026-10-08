@@ -1,0 +1,30 @@
+{
+  "chunk": "08-hotel",
+  "kind": "places",
+  "slugs": [
+    "hotel4paws",
+    "das-hundekoerberl",
+    "hundehort-wien",
+    "sitz-platz",
+    "jederhund"
+  ],
+  "hash": "5c6c2758bdfe6c334e5f3eff6b23dae128806fc80eee23f62346218e6cbc22f0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T08:56:40.211Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-06T08:59:51.974Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T09:03:39.985Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
