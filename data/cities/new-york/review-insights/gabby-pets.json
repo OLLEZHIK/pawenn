@@ -1,0 +1,159 @@
+{
+  "slug": "gabby-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Gabby+Pets/@40.8579657,-73.8991752,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f479bfec8a7f:0x6272b77ce8e113f3!8m2!3d40.8579657!4d-73.8991752!16s%2Fg%2F11bvv562n2?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Frictions over service and ownership"
+      },
+      "text": {
+        "en": "Customer sentiment highlights marked frustration with staff and management. While one shopper found a store clerk polite and pleasant, multiple reviewers voice disappointment with aggressive sales tactics, refusal to process straightforward merchandise exchanges, and dismissive customer service. Long-time patrons frequently lament a decline in personal attention following changes in shop leadership."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Criticism of steep price increases"
+      },
+      "text": {
+        "en": "Reviewers express strong dissatisfaction with the store's current pricing structure across both supplies and services. Pet owners complain that basic grooming rates have escalated sharply from historical levels. Additionally, customers report high costs for puppies, questionable billing add-ons, and expensive retail items that fail to match the overall quality of service delivered."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Limited retail inventory and waiting space"
+      },
+      "text": {
+        "en": "Shoppers note significant physical changes to the storefront and its merchandise selection. While one long-term visitor celebrated the shop remaining open for years, others criticize the removal of indoor seating, forcing clients to wait outside in cold weather during grooming. Furthermore, reviewers note a restricted inventory with fewer product varieties than expected."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Gabby Pets offer pet grooming services?"
+      },
+      "a": {
+        "en": "Yes, the shop provides grooming and nail trimming for cats and dogs, though several recent reviewers reported steep price increases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers sit inside while waiting for grooming?"
+      },
+      "a": {
+        "en": "Recent feedback indicates that the former indoor seating area was removed, requiring pet owners to stand or wait outside the store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the store return and exchange policy according to reviewers?"
+      },
+      "a": {
+        "en": "Reviewers note that staff can be rigid regarding exchanges and transactions, advising shoppers to verify product selections prior to purchase."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 3,
+      "topics": {
+        "prices": "-",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    }
+  ]
+}

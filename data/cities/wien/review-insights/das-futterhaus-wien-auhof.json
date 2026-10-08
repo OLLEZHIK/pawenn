@@ -1,0 +1,156 @@
+{
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DAS+FUTTERHAUS+-+Wien+Auhof/@48.2054036,16.2241941,17z/data=!3m1!4b1!4m6!3m5!1s0x476da75bec184baf:0xc53bbc44b154a12f!8m2!3d48.2054036!4d16.2241941!16s%2Fg%2F11c2mwl3lq?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-06",
+  "period_to": "2026-10-06",
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "de": "Geteilte Erfahrungen mit dem Personal",
+        "en": "Mixed experiences with customer service"
+      },
+      "text": {
+        "de": "Während der modernisierte Laden gelobt wird, berichten mehrere Kunden von unfreundlicher und wenig kulanter Behandlung durch das Personal nach der Neueröffnung. Reklamationen und Umtauschwünsche wurden teils schroff abgewiesen, was für Unmut bei Stammkunden sorgte.",
+        "en": "While the modernized store layout receives praise, several shoppers report unfriendly and unhelpful customer service following the change in franchise management. Returns and product inquiries were met with abrupt refusals, creating frustration among regular visitors."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Modernes Geschäft nach frischem Umbau",
+        "en": "Modern store environment after renovation"
+      },
+      "text": {
+        "de": "Käufer schätzen die übersichtliche und helle Verkaufsfläche nach dem Umbau im Jänner sehr. Der Markt wirkt freundlich und gut strukturiert, wenngleich an heißen Sommertagen von einzelnen Kunden das Fehlen einer funktionierenden Klimaanlage angemerkt wurde.",
+        "en": "Shoppers highly appreciate the well-organized and bright sales floor following renovations completed in January. The store feels welcoming and cleanly structured, although individual customers noted the absence of effective air conditioning on hot summer days."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Breite Auswahl an Tierfutter",
+        "en": "Wide selection of pet supplies"
+      },
+      "text": {
+        "de": "Rezensenten betonen das umfangreiche Sortiment des Marktes, insbesondere für Kleintiere, Nager und Hunde. Viele Kunden finden verlässlich das gesuchte Futter, Spezialprodukte sowie praktische Vorrats- und Großpackungen an Einstreu direkt im Geschäft.",
+        "en": "Reviewers highlight the broad selection of pet food and essential care items available, especially for small rodents and dogs. Many customers reliably find their preferred nutritional brands, specialty products, and bulk supply packs of bedding in stock."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wurde die Filiale Auhof kürzlich modernisiert?",
+        "en": "Has the Auhof branch been renovated recently?"
+      },
+      "a": {
+        "de": "Ja, Kunden erwähnen die Neugestaltung der Verkaufsfläche nach einem Umbau und Betreiberwechsel im Jänner.",
+        "en": "Yes, customers mention the updated store design following renovation and franchise management change in January."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Großpackungen für Einstreu und Nagerfutter?",
+        "en": "Does the store sell bulk packs of bedding and rodent food?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben das gute Angebot an Großpackungen für Einstreu und Kleintiernahrung hervor.",
+        "en": "Yes, customers highlight the solid selection of large-size packs for bedding and small animal food."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Welche Produkte sind im Futterhaus Auhof erhältlich?",
+        "en": "What products are available at Futterhaus Auhof?"
+      },
+      "a": {
+        "de": "Der Fachmarkt führt Futter, Zubehör und Pflegeartikel für Hunde, Katzen, Nager und andere Haustiere.",
+        "en": "The store offers food, accessories, and supplies for dogs, cats, small animals, and other pets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 7 Monaten",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 9 Monaten",
+      "months": 9,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ],
+  "slug": "das-futterhaus-wien-auhof",
+  "reviews_in_period": 8
+}

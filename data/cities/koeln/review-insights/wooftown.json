@@ -1,0 +1,133 @@
+{
+  "slug": "wooftown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wooftown+Hundetagesst%C3%A4tte+K%C3%B6ln/@50.9036239,6.9312632,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf25abc6a80133:0xb3cd167674232289!8m2!3d50.9036239!4d6.9312632!16s%2Fg%2F11p0wfsdx0?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Herzliches und engagiertes Betreuungsteam",
+        "en": "Warm and dedicated daycare team"
+      },
+      "text": {
+        "de": "Hundehalterinnen und Hundehalter loben Lukas und sein Team in Zollstock für ihren liebevollen und aufmerksamen Umgang mit den anvertrauten Tieren. Kundinnen heben hervor, dass sich die Betreuer viel Zeit für eine behutsame Eingewöhnung nehmen und mit großem Feingefühl für die einzelnen Charaktere arbeiten.",
+        "en": "Dog owners consistently praise Lukas and his team in Zollstock for their affectionate and attentive care of every visiting canine. Clients highlight that the staff dedicates plenty of patience to gentle introductions, managing individual personalities with genuine empathy and thoughtful routines throughout the day."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Artgerechter Freilauf in verträglichen Gruppen",
+        "en": "Social pack play and gentle care"
+      },
+      "text": {
+        "de": "In den Erfahrungsberichten wird hervorgehoben, wie wohl sich die Hunde während des Aufenthalts fühlen. Die Tiere können den Tag gemeinsam mit Artgenossen im gesicherten Auslauf verbringen und kommen ausgelastet nach Hause. Halter betonen, dass auch sensible Vierbeiner große Freude beim Eintreffen zeigen.",
+        "en": "Reviews repeatedly note how relaxed and content dogs feel throughout their stay at the facility. Canines spend structured days alongside compatible group companions in secure play zones and return balanced. Owners observe that even sensitive four-legged guests exhibit lively excitement upon arriving at daycare."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Spürbares Wohlbefinden und verlässliche Entlastung",
+        "en": "Noticeable canine wellbeing and reliable relief"
+      },
+      "text": {
+        "de": "Kundinnen und Kunden schätzen die spürbare Ausgeglichenheit ihrer Hunde nach dem Betreuungstag. Die sorgfältige Struktur aus Spielphasen und Ruhezeiten ermöglicht Berufstätigen einen beruhigten Alltag, da ihre Vierbeiner gut versorgt werden und sich sichtbar auf jeden neuen Tag in der Einrichtung freuen.",
+        "en": "Clients appreciate the visible contentment of their companions following a full day at the center. The balanced combination of supervised activity and calm resting phases provides working owners peace of mind, knowing their pets are looked after reliably and eagerly look forward to every subsequent daycare visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es bei Wooftown einen Probetag vor der Aufnahme?",
+        "en": "Does Wooftown offer an introductory trial day?"
+      },
+      "a": {
+        "de": "Ja, laut Website und Rezensionen wird eine strukturierte Kennenlernphase durchgeführt, um das Rudel passend zusammenzustellen.",
+        "en": "Yes, both the website and reviews confirm a structured introduction process to ensure dogs integrate well into the group."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Wie gut ist die Hundetagesstätte telefonisch oder per E-Mail erreichbar?",
+        "en": "How reachable is the daycare by phone or email?"
+      },
+      "a": {
+        "de": "Während die Vor-Ort-Betreuung gelobt wird, bemängelte eine Rezension unbeantwortete Anrufe und Mailbox-Nachrichten bei Erstanfragen.",
+        "en": "While daycare staff is praised on site, one review reported difficulties reaching the center by phone or mailbox when making initial inquiries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können Hunde den ganzen Tag draußen spielen?",
+        "en": "Do dogs spend the whole day playing outdoors?"
+      },
+      "a": {
+        "de": "Das Gelände bietet gestaltete Außenzonen und Liegeflächen, wobei Wert auf einen Wechsel aus Aktivität und Ruhe gelegt wird.",
+        "en": "The grounds feature designed outdoor play and resting areas, emphasizing a balanced balance of active play and quiet rest."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

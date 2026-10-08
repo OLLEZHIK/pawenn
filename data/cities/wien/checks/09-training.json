@@ -1,0 +1,35 @@
+{
+  "chunk": "09-training",
+  "kind": "places",
+  "slugs": [
+    "the-hounds-and-company",
+    "pfotenzentrum",
+    "svoe-stadlau-hundeschule-1220",
+    "hund-und-gluecklich",
+    "hundeschule-mannsberger"
+  ],
+  "hash": "316ff4e81abe6ad82c67cc6270c97bdd45dd3d492f8fcf442272244239a60e36",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T07:02:03.206Z",
+      "result": "FAIL",
+      "listed": 57
+    },
+    {
+      "at": "2026-10-06T07:05:23.902Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-06T07:08:09.477Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-06T07:11:01.023Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

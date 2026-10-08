@@ -1,0 +1,124 @@
+{
+  "slug": "mr-paw-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mr.+Paw+Pet+Grooming/@40.7422805,-73.8785281,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25fad737c6109:0x66a2278e37600c31!8m2!3d40.7422805!4d-73.8785281!16s%2Fg%2F11ddxkv84c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Generally neat cuts with occasional surprises"
+      },
+      "text": {
+        "en": "Most customers report fresh, neat coats and pleasant-smelling pets following baths and haircuts, including delicate feline grooming. However, one dog owner expressed strong disappointment after a Goldendoodle was shaved much shorter than requested without prior consultation, advising clearer communication on length."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for nervous animals"
+      },
+      "text": {
+        "en": "Pet parents appreciate the patient, low-stress care provided during bath and styling sessions. Multiple reviewers note that pets frightened by previous groomers felt calm and secure at the salon, leaving without stress. Cat owners also report careful, considerate handling during complete washes."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive staff with communication feedback"
+      },
+      "text": {
+        "en": "Reviewers generally praise the team for being kind, knowledgeable, and receptive to pet needs. While regular visitors appreciate the accommodating attitude, a dissatisfied client felt the groomer failed to follow explicit styling requests and should have confirmed before drastically trimming the dog's fur."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they groom cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that the salon provides gentle washing, trimming, blow drying, and eye cleaning for cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do they accommodate dogs that fear grooming?"
+      },
+      "a": {
+        "en": "Owners report that the staff takes extra time and patience to help nervous or traumatized dogs feel comfortable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Should owners provide specific cut instructions?"
+      },
+      "a": {
+        "en": "Reviewers advise clearly confirming haircut length and coat preferences with the groomer before drop-off to avoid misunderstandings."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -45,7 +45,20 @@ const rows = cityRowsAll.filter((r) => inScope(r.slug));
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
-function curl(url: string): Promise<{ code: number; body: string }> {
+// A site that does not answer once (timeout, reset, 429, 5xx) is asked
+// again twice, 3 s and 6 s later. Without this a run on a busy network
+// gave a false NOT VERIFIED - 18-20 % of quotes "not on the page", 2-3 % a
+// minute later (dispatcher, 2026-10-07). 404 and other answers are final.
+async function curl(url: string): Promise<{ code: number; body: string }> {
+  let res = await curlOnce(url);
+  for (let attempt = 1; attempt <= 2 && (res.code === 0 || res.code === 429 || res.code >= 500); attempt++) {
+    await new Promise((r) => setTimeout(r, 3000 * attempt));
+    res = await curlOnce(url);
+  }
+  return res;
+}
+
+function curlOnce(url: string): Promise<{ code: number; body: string }> {
   return new Promise((resolve) => {
     execFile(
       "curl",

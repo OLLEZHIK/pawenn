@@ -16,11 +16,14 @@
 // end of the list (`complete: true` = the collector scrolled that far).
 //
 // Prints per place how many text reviews fall in 6 / 12 / 24 months, which
-// period the summary takes (shortest with >= 5) or "skip" (< 5 in 24 months),
+// period the summary takes (shortest with >= 5, else 24 months with >= 3) or
+// "skip" (< 3 in 24 months),
 // and exits 1 on a malformed file.
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
+
+const MIN_TEXT_REVIEWS = 3;
 
 type Review = { ago: string; months: number; stars: number; text: string };
 type Raw = {
@@ -53,14 +56,18 @@ const slugs = new Set(
     .map((r) => r.slug),
 );
 
-// "2 miesiące temu" / "pred 3 mesiacmi" / "a year ago" -> months (days and weeks = 0).
+// "2 miesiące temu" / "pred 3 mesiacmi" / "vor 4 Monaten" / "před 2 měsíci" / "a year ago" -> months
+// (days, weeks, hours and "yesterday/today" = 0). "Bearbeitet: vor …" / "Edited …" prefixes are fine.
 function monthsFromAgo(ago: string): number | null {
   const s = ago.toLowerCase();
-  if (/(dzień|dni|dnia|dňom|dňami|deň|dni|day|week|tydz|týž|tyd|hour|godz|hod)/.test(s)) return 0;
+  // de: Tag(en), Woche(n), Stunde(n), Minute(n), gestern, heute; cs: den/dny/dní, týden/týdny, hodin, minut
+  if (/(dzień|dni|dnia|dňom|dňami|deň|day|week|tydz|týž|tyd|hour|godz|hod|\btage?n?\b|woche|stunde|\bstd\b|minut|gestern|heute|\bden\b|\bdny\b|\bdní\b|týden|týdn|hodin)/.test(s)) return 0;
   const n = s.match(/\d+/);
   const k = n ? Number(n[0]) : 1;
-  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year)/.test(s)) return 12 * k;
-  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month)/.test(s)) return k;
+  // years: pl rok/lat, sk rok, en year, de Jahr(en), cs rok/roky/let
+  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year|jahr|\blet\b|\blety\b)/.test(s)) return 12 * k;
+  // months: pl miesiąc, sk mesiac, en month, de Monat(en), cs měsíc
+  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month|monat|měsíc|měsíci|měsíce|měsíců)/.test(s)) return k;
   return null;
 }
 
@@ -102,13 +109,16 @@ for (const f of files) {
   });
   const count = (limit: number) => (d.reviews ?? []).filter((r) => r.months < limit).length;
   const [m6, m12, m24] = [count(6), count(12), count(24)];
-  const period = m6 >= 5 ? "6" : m12 >= 5 ? "12" : m24 >= 5 ? "24" : "skip";
+  // Shortest period with 5 text reviews; with fewer, all 24 months from 3 up
+  // (owner, 2026-10-07: "можешь делать по трём" - an empty block looks worse
+  // than a short summary that says it rests on 3 reviews).
+  const period = m6 >= 5 ? "6" : m12 >= 5 ? "12" : m24 >= MIN_TEXT_REVIEWS ? "24" : "skip";
   if (problems.length) {
     failed = true;
     console.log(`FAIL ${slug}`);
     for (const p of problems.slice(0, 6)) console.log(`  - ${p}`);
   }
-  rows.push(`${slug} | ${m6} / ${m12} / ${m24} | ${period === "skip" ? "skip (< 5 in 24 months)" : `summary for ${period} months`}`);
+  rows.push(`${slug} | ${m6} / ${m12} / ${m24} | ${period === "skip" ? `skip (< ${MIN_TEXT_REVIEWS} in 24 months)` : `summary for ${period} months`}`);
 }
 console.log("\nslug | text reviews in 6 / 12 / 24 months | period");
 for (const r of rows) console.log(r);

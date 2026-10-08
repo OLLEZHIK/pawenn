@@ -4,7 +4,10 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { LOCALES, isLocale } from "@/lib/i18n";
+import { LOCALES, getDictionary, isLocale } from "@/lib/i18n";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { ScrollReset } from "@/components/ScrollReset";
+import { gaMeasurementId } from "@/lib/analytics";
 
 const bodyFont = Inter({
   subsets: ["latin", "latin-ext"],
@@ -34,14 +37,29 @@ export default async function RootLayout({
 }>) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
+  const gaId = gaMeasurementId();
+  const t = getDictionary(lang);
 
   return (
-    <html lang={lang} className={`${headingFont.variable} ${bodyFont.variable}`}>
+    // globals.css scrolls smoothly; this lets Next.js switch it off during a page
+    // change, or the jump to the top is cut short and a phone lands on the footer
+    // (owner, 2026-10-07; Next 16 needs the attribute, upgrading/version-16.md).
+    <html lang={lang} data-scroll-behavior="smooth" className={`${headingFont.variable} ${bodyFont.variable}`}>
       <body>
+        <ScrollReset />
         <Header locale={lang} />
         {children}
         <Footer locale={lang} />
         <Analytics />
+        {gaId && (
+          <GoogleAnalytics
+            id={gaId}
+            text={t.consent.text}
+            allow={t.consent.allow}
+            decline={t.consent.decline}
+            policyLabel={t.footer.privacy}
+          />
+        )}
       </body>
     </html>
   );

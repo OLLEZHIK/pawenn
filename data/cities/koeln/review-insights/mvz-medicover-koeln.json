@@ -1,0 +1,196 @@
+{
+  "slug": "mvz-medicover-koeln",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/MVZ+Medicover+K%C3%B6ln/@50.938883,6.9427329,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf25a666e8ec43:0x4d5f4749cb94fbdb!8m2!3d50.938883!4d6.9427329!16s%2Fg%2F11b6d274x1?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "de": "Geteiltes Feedback zum Praxisteam",
+        "en": "Divided feedback on practice staff"
+      },
+      "text": {
+        "de": "Die Erfahrungen mit dem medizinischen Personal fallen unterschiedlich aus. Während Mitarbeiter im Labor und einzelne Ärztinnen für ihr freundliches und kompetentes Auftreten gelobt werden, beklagen andere Patienten mangelnde Empathie, fehlenden Respekt und Zurückweisung bei sensiblen Behandlungsanliegen.",
+        "en": "Patient experiences with clinic staff show noticeable divergence. While laboratory personnel and specific doctors receive praise for dedicated and friendly interactions, others report feeling dismissed, lacking empathy and facing critical attitudes during sensitive medical consultations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "de": "Erhebliche Kritik an der Kommunikation",
+        "en": "Substantial criticism of clinic communication"
+      },
+      "text": {
+        "de": "Zahlreiche Bewertungen kritisieren die Erreichbarkeit und den Austausch mit der Praxis. Vor allem das automatisierte Telefonsystem und unbeantwortete Anfragen stoßen auf Unmut. Zudem berichten Patienten von Problemen bei der Ausstellung von Unterlagen und unzureichender Information im Vorfeld.",
+        "en": "Numerous patient reviews raise concerns regarding communication and general accessibility. The automated telephone assistant and unanswered queries cause widespread frustration. Patients also encounter difficulties regarding insurance documentation and insufficiently communicated requirements."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "de": "Lange Wartezeiten und Terminengpässe",
+        "en": "Prolonged wait times and scheduling"
+      },
+      "text": {
+        "de": "Patienten berichten von monatelangen Vorlaufzeiten für Ersttermine und spürbaren Verzögerungen vor Ort im Wartezimmer. Zwar nehmen einige Besucher Wartezeiten für ausführliche Beratungen in Kauf, viele bemängeln jedoch das Zeitmanagement und Schwierigkeiten bei der Terminvereinbarung.",
+        "en": "Patients report multi-month delays when seeking initial consultations, along with on-site waiting times upon arrival. While some accept delays because specific physicians dedicate ample time to consultations, multiple reviewers express dissatisfaction with overall appointment management."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie wird die Erreichbarkeit der Praxis bewertet?",
+        "en": "How do patients evaluate practice accessibility?"
+      },
+      "a": {
+        "de": "Patienten berichten von Hürden bei telefonischen Anfragen und kritisieren den Einsatz automatisierter Sprachassistenten.",
+        "en": "Patients mention barriers with telephone inquiries and criticize reliance on automated virtual phone assistants."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Muss man mit längeren Wartezeiten rechnen?",
+        "en": "Should visitors expect lengthy waiting times?"
+      },
+      "a": {
+        "de": "Ja, Berichte erwähnen teils längere Vorlaufzeiten für Erstgespräche sowie Wartezeiten im Praxisbereich.",
+        "en": "Yes, reviews describe considerable lead times for initial appointments alongside waiting periods on-site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es ein praxiseigenes Labor?",
+        "en": "Does the medical center feature an on-site laboratory?"
+      },
+      "a": {
+        "de": "Ja, das Personal im Labor wird von Patienten mehrfach für schnelle und freundliche Abläufe hervorgehoben.",
+        "en": "Yes, patients repeatedly highlight laboratory staff for friendly interactions and efficient workflows."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

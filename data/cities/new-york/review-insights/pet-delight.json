@@ -1,0 +1,138 @@
+{
+  "slug": "pet-delight",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Delight/@40.661784,-74.000535,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25ae97d350adb:0x148c025765109936!8m2!3d40.661784!4d-74.000535!16s%2Fg%2F1tdmld9l?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Vast inventory with mixed store atmosphere"
+      },
+      "text": {
+        "en": "Shoppers consistently praise the extensive selection of everyday pet essentials and specialty goods, noting hard-to-find items in stock. Most visitors find it a convenient neighborhood resource in Brooklyn, though one reviewer reported a disorganized and uninviting store layout during their visit."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful assistance with occasional service issues"
+      },
+      "text": {
+        "en": "Most reviewers describe the personnel as friendly, attentive, and helpful, noting that employees often carry heavy bags of pet food to customer vehicles. However, one customer expressed frustration after feeling ignored by unmotivated staff during a visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable nutrition and supplies for pets"
+      },
+      "text": {
+        "en": "Pet parents highlight the store as a dependable destination for canine nutrition and specialized companion care products. Reviewers mention traveling across boroughs specifically to purchase tailored formulations, such as kangaroo meat diet for dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do employees help carry heavy pet food to customer cars?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that staff routinely carry heavy bags of animal feed directly to customer vehicles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Pet Delight stock specialty dietary dog foods?"
+      },
+      "a": {
+        "en": "Yes, customers note finding niche formulations such as kangaroo dog food readily available on store shelves."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How broad is the product selection?"
+      },
+      "a": {
+        "en": "Shoppers describe a wide product range stocking almost every pet supply and dietary product they needed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

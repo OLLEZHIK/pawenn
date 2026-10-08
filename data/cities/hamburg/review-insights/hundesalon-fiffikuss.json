@@ -1,0 +1,143 @@
+{
+  "slug": "hundesalon-fiffikuss",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Fiffikuss/@53.4391295,9.9888589,17z/data=!3m1!4b1!4m6!3m5!1s0x4163993ffb59812d:0x468b0bc62fbe050e!8m2!3d53.4391295!4d9.9888589!16s%2Fg%2F1v8304p_?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Gemischte Rückmeldungen zum Haarschnitt",
+        "en": "Mixed feedback on haircut quality"
+      },
+      "text": {
+        "de": "Ein Großteil der Kundschaft ist mit der zügigen und sauberen Schur für den Sommer zufrieden. Es gibt jedoch auch deutliche Kritik an einem ungleichmäßigen Schnitt bei einem Pudel, bei dem Beinlängen variierten. Zudem kam es laut einer Rezension zu einer Schnittverletzung am Ballen, was Halter zur Vorsicht mahnt.",
+        "en": "A majority of clients express satisfaction with quick and clean summer coat clips. However, reviews also feature serious criticism concerning an uneven cut on a poodle with mismatched leg lengths. One review additionally reported a cut paw pad requiring care, prompting owners to emphasize careful attention during visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Freundliche und erfahrene Inhaberin",
+        "en": "Friendly and experienced salon owner"
+      },
+      "text": {
+        "de": "Inhaberin Gabi Adler wird von langjährigen Stammkunden als herzliche und direkte Person geschätzt. Sie arbeitet routiniert, berät verständlich und nimmt sich Zeit für ein persönliches Gespräch. Viele Besucher halten ihr seit Jahren die Treue und schätzen ihre unkomplizierte Art bei der Terminabwicklung vor Ort.",
+        "en": "Long-standing regular clients appreciate salon owner Gabi Adler as a warm, straightforward professional. She works swiftly, provides clear advice, and remains open for personal conversation. Many customers have trusted her for years, valuing her approachable attitude and uncomplicated appointment scheduling on site."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Uneinheitliche Eindrücke beim Tierumgang",
+        "en": "Varied impressions of pet handling"
+      },
+      "text": {
+        "de": "Mehrere Halter loben die geduldige Zuwendung bei Welpen und betonen, dass gezielte Griffe dem Schutz des Tieres beim Schneiden dienen. Demgegenüber steht jedoch ein Bericht über eine Verletzung am Ballen und Hektik bei der Pflege. Das Wohlbefinden der Vierbeiner wird von Kunden daher unterschiedlich wahrgenommen.",
+        "en": "Several owners commend the patient handling shown towards puppies, noting that firm holding techniques are necessary for safety during scissor work. In contrast, one report complained of a pad injury and rushed treatment. As a result, client impressions regarding animal comfort and handling remain distinctly divided."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden Welpen an die Fellpflege herangeführt?",
+        "en": "Are puppies introduced to grooming care?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten, dass Welpen geduldig und mit schützenden Griffen an die Pflegeschritte herangeführt werden.",
+        "en": "Yes, clients report that puppies are introduced patiently with protective holding techniques during early visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Hunde für den Sommer geschoren?",
+        "en": "Are dogs clipped for warm summer months?"
+      },
+      "a": {
+        "de": "Ja, mehrere Rezensionen heben passende Sommerschuren für Hunde hervor.",
+        "en": "Yes, several reviews highlight convenient summer clippings for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es klimatisierte Räume im Salon?",
+        "en": "Is the grooming salon air-conditioned?"
+      },
+      "a": {
+        "de": "Ja, in Kundenbewertungen wird die vorhandene Klimaanlage im Salon positiv erwähnt.",
+        "en": "Yes, client reviews positively mention the salon's air conditioning."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

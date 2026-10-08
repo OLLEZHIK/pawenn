@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
   // those to the slash-less form, so crawlers hit a redirect on every
   // sitemap URL.
   trailingSlash: true,
+  // A page built at deploy time may take up to 3 minutes (default 60 s):
+  // the sitemap reads the whole catalogue from Neon with an empty cache,
+  // and with 11 cities it went past 60 s (2026-10-07, deploy of #579).
+  staticPageGenerationTimeout: 180,
   experimental: {
     // The root layout lives under app/[lang], so unmatched URLs need
     // app/global-not-found.tsx.

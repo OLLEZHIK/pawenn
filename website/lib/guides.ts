@@ -28,7 +28,7 @@ import type { BusinessCategory } from "@prisma/client";
 import type { Locale } from "./i18n";
 import { plural } from "./locales";
 
-export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna" };
+export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber" };
 
 export const GUIDE_TEXT: Record<
   Locale,
@@ -96,6 +96,18 @@ export const GUIDE_TEXT: Record<
     pricesLink: "Všechny ceny",
     nav: "Poradna",
   },
+  de: {
+    hubTitle: "Ratgeber für Tierhalter | Pawenn",
+    hubH1: "Ratgeber für Tierhalter",
+    hubIntro: "Pflichten, Fristen und Preise, nach denen Tierhalter fragen – jede Angabe mit offizieller Quelle.",
+    sources: "Quellen",
+    updated: "Aktualisiert",
+    related: "Gut zu wissen",
+    home: "Startseite",
+    priceLine: (median, range, places) => `Durchschnitt ${median}, ${range} (${places} ${places === 1 ? "Ort" : "Orte"})`,
+    pricesLink: "Alle Preise",
+    nav: "Ratgeber",
+  },
 };
 
 export interface GuideSource {
@@ -112,6 +124,9 @@ export interface Guide {
   h1: string;
   updated: string;
   country: string;
+  /** Optional city slug for a city-only topic ("Hundesteuer Berlin"): its
+   *  "Good to know" link shows only on that city's pages. */
+  city: string | null;
   categories: BusinessCategory[];
   pair: string | null;
   sources: GuideSource[];
@@ -155,6 +170,7 @@ export function parseGuide(locale: Locale, slug: string, raw: string): Guide {
     h1: str("h1"),
     updated: str("updated"),
     country: str("country"),
+    city: str("city") || null,
     categories: str("categories").split(/[,\s]+/).filter(Boolean) as BusinessCategory[],
     pair: str("pair") || null,
     sources,
@@ -195,6 +211,8 @@ export function guideAlternates(guide: Guide): Partial<Record<Locale, string>> {
 }
 
 /** Guides for a category page ("Good to know"): same language, same country. */
-export function guidesFor(locale: Locale, category: BusinessCategory, country: string | null | undefined): Guide[] {
-  return listGuides(locale).filter((g) => g.categories.includes(category) && (!country || g.country === country));
+export function guidesFor(locale: Locale, category: BusinessCategory, country: string | null | undefined, citySlug?: string): Guide[] {
+  return listGuides(locale).filter(
+    (g) => g.categories.includes(category) && (!country || g.country === country) && (!g.city || !citySlug || g.city === citySlug)
+  );
 }

@@ -322,6 +322,7 @@ export const pl: Dictionary = {
     opensLater: (date: string, time: string) => `otwiera ${date} o ${time}`,
     nonstopTitle: "Całodobowo 24/7",
   },
+  consent: { text: "Chcielibyśmy używać plików cookie Google Analytics, aby wiedzieć, jak korzystasz ze strony, i ją ulepszać. Tylko jeśli się zgodzisz.", allow: "Zezwól", decline: "Odrzuć", settings: "Ustawienia cookie" },
   actions: { call: "Zadzwoń", website: "Strona www", route: "Trasa" },
   badges: { verified: (date: string) => `Zweryfikowano ${date}`, partner: "Partner" },
   business: {
@@ -478,7 +479,7 @@ export const pl: Dictionary = {
     price: "Cena",
     vsMarket: "Wobec średniej w mieście",
     notComparedTitle: "Inne ceny (nieporównywane)",
-    notComparedIntro: "Ceny cząstkowe, stawki za godzinę lub za kilometr oraz usługi wykraczające poza standard.",
+    notComparedIntro: "Ceny cząstkowe oraz stawki za godzinę lub za kilometr.",
     otherServices: "Pozostałe ceny",
     service: "Usługa",
     range: "Zakres",

@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "tieraerztliches-institut-fuer-angewandte-kleintiermedizin",
+    "kleintierpraxis-ehestorfer-weg",
+    "tiergesundheitszentrum-hamburg",
+    "dr-fenske-tierarztpraxis-hamburg-bergedorf",
+    "tierklinik-im-alstertal",
+    "kleintierzentrum-merkurpark",
+    "janusz-baba",
+    "anicura-tieraerztliche-spezialisten-hamburg",
+    "anicura-hamburg-niendorf",
+    "veternicum-altona"
+  ],
+  "hash": "f433c38bf4b98cb2a98642631846300f56b70d957c0bf9842c0c140c6520f659",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T11:30:07.890Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-06T11:31:32.727Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

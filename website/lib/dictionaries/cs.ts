@@ -374,6 +374,7 @@ export const cs: Dictionary = {
     opensLater: (date: string, time: string) => `otevírá ${date} v ${time}`,
     nonstopTitle: "Nonstop 24/7",
   },
+  consent: { text: "Rádi bychom používali cookies Google Analytics, abychom viděli, jak se web používá, a mohli ho zlepšovat. Jen pokud to povolíte.", allow: "Povolit", decline: "Odmítnout", settings: "Nastavení cookies" },
   actions: { call: "Zavolat", website: "Web", route: "Trasa" },
   badges: { verified: (date: string) => `Ověřeno ${date}`, partner: "Partner" },
   business: {
@@ -598,7 +599,7 @@ export const cs: Dictionary = {
     price: "Cena",
     vsMarket: "Oproti průměru ve městě",
     notComparedTitle: "Další ceny (neporovnávané)",
-    notComparedIntro: "Dílčí ceny, sazby za hodinu či kilometr nebo služby nad rámec běžného standardu.",
+    notComparedIntro: "Dílčí ceny a sazby za hodinu či kilometr.",
     otherServices: "Další ceny",
     service: "Služba",
     range: "Rozmezí",

@@ -1,0 +1,30 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "tierarztpraxis-solln",
+    "kleintierpraxis-dr-sylvia-belgard-dr-karin-dorweiler-munchen",
+    "tierarztpraxis-am-durchblick",
+    "tierarztpraxis-christian-kiessling",
+    "tierarztpraxis-dr-josef-bock",
+    "kleintierpraxis-michaela-gussmann-munchen",
+    "tierarztpraxis-berg-am-laim",
+    "kleintierpraxis-kirchtrudering",
+    "dr-med-vet-tina-holscher-tierarzt",
+    "dr-med-vet-sylvia-schwarz"
+  ],
+  "hash": "ddc7adb395bc3536a0100673d638ba526e66431cbabbca04c31d1b85781fed69",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T19:29:18.271Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-06T19:31:52.406Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

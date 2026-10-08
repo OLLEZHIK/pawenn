@@ -1,0 +1,122 @@
+{
+  "slug": "whitestone-doghouse",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Whitestone+Doghouse/@40.7893894,-73.8138407,17z/data=!3m1!4b1!4m6!3m5!1s0x89c28bba09f0062b:0xa8006a0d7165a252!8m2!3d40.7893894!4d-73.8138407!16s%2Fg%2F1xb2fhq3?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Affectionate care balanced against safety complaints"
+      },
+      "text": {
+        "en": "Several reviewers describe happy boarding stays where dogs were treated like family, receiving daily playtime and individual care. However, severe complaints allege pet distress, including an outdoor barking dog in extreme summer heat and an injured back following a grooming session."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful ownership with serious mistreatment claims"
+      },
+      "text": {
+        "en": "Satisfied customers praise the owner Mike and grooming crew for friendly attitudes, courteous greetings, and regular video check-ins. Conversely, a dissatisfied client accused staff of mishandling their pet during drop-off and failing to address resulting physical trauma."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Boarding facility with difficult street parking"
+      },
+      "text": {
+        "en": "Clients describe a welcoming boarding environment equipped for extended stays, appreciating photo check-ins while traveling abroad. However, reviewers warn that the busy street location makes vehicle parking challenging, while another noted a dog left in the outside yard during heat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do owners receive video updates during boarding?"
+      },
+      "a": {
+        "en": "Yes, clients boarding pets for vacations mention receiving daily videos and photo updates from the owner."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking easy to find near Whitestone Doghouse?"
+      },
+      "a": {
+        "en": "Reviewers note that the shop sits on a busy commercial street where vehicle parking is often difficult to find."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are both boarding and grooming services available?"
+      },
+      "a": {
+        "en": "Yes, customers describe using the facility for both multi-week dog boarding and routine haircuts."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "~"
+      }
+    }
+  ]
+}
