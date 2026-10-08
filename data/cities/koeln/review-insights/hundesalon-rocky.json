@@ -1,0 +1,110 @@
+{
+  "slug": "hundesalon-rocky",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Rocky/@50.9208897,6.9569843,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf244f6fb9b82d:0xd7ad3f804e509bfa!8m2!3d50.9208897!4d6.9569843!16s%2Fg%2F1th5bq8v?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Zwiespältige Eindrücke zum Umgangston",
+        "en": "Contrasting impressions of salon staff"
+      },
+      "text": {
+        "de": "Die Meinungen über die Inhaberin an der Elsaßstraße gehen deutlich auseinander. Langjährige Stammkunden schätzen ihre direkte Art als echtes Kölner Original und fühlen sich mit ihren Vierbeinern wohl. Andere Halter empfanden das Auftreten jedoch als unhöflich und fühlten sich bei der Beratung abgewiesen.",
+        "en": "Feedback regarding the owner on Elsaßstraße varies considerably among pet owners. Long-term regulars describe her direct communication as authentic local character and feel welcome with their dogs. Other reviewers, however, perceived the manner as discourteous and felt unwelcome during consultations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 2,
+      "title": {
+        "de": "Kritik an telefonischer Terminabsprache",
+        "en": "Critique of telephone appointment booking"
+      },
+      "text": {
+        "de": "Mehrere Anrufer äußern Unzufriedenheit über die Kommunikation im Vorfeld eines Besuchs. Berichtet wird über abweisende und unmotivierte Gespräche bei der Terminanfrage, weshalb sich Halter gegen einen Termin im Salon entschieden haben. Eine verlässlichere Abstimmung wird von Neukunden vermisst.",
+        "en": "Multiple callers express dissatisfaction with the initial communication prior to visiting. Reviews describe dismissive and unmotivated phone exchanges when requesting appointments, prompting pet parents to look for other salons. First-time clients note that booking could be handled much more pleasantly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie wird der Umgangston der Inhaberin wahrgenommen?",
+        "en": "How is the owner's tone perceived by customers?"
+      },
+      "a": {
+        "de": "Stammgäste schätzen ihre direkte Art als Kölsches Urgestein, während Neukunden den Tonfall teils als unfreundlich kritisieren.",
+        "en": "Regulars value her direct Cologne character, whereas several new clients criticize the demeanor as rather discourteous."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie läuft die Terminvergabe im Hundesalon Rocky ab?",
+        "en": "How does appointment scheduling work at Hundesalon Rocky?"
+      },
+      "a": {
+        "de": "Termine werden telefonisch angefragt, wobei manche Anrufer über abweisende Rückmeldungen am Telefon berichten.",
+        "en": "Appointments are requested by phone, though some callers report abrupt responses during their initial call."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie beurteilen Kunden die Preise für die Hundepflege?",
+        "en": "How do clients rate the grooming rates at the salon?"
+      },
+      "a": {
+        "de": "Zufriedene Kunden heben hervor, dass die Fellpflege preiswert und fair kalkuliert ist.",
+        "en": "Satisfied customers highlight that grooming care is reasonably and fairly priced."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
