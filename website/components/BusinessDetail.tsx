@@ -29,6 +29,8 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { BusinessCard, StarRow } from "@/components/BusinessCard";
 import { BusinessAvatar } from "@/components/BusinessAvatar";
 import { GoogleRating } from "@/components/GoogleRating";
+import { BEST_TEXT, bestName, bestPath, rankBest } from "@/lib/bestPages";
+import { whereLabel } from "@/components/CategoryListing";
 import { ReviewInsightsSection, ReviewInsightsShort } from "@/components/ReviewInsightsSection";
 import { OpeningHoursTable } from "@/components/OpeningHoursTable";
 import { OpenNowBadge } from "@/components/OpenNowBadge";
@@ -145,6 +147,19 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
     getDistrictSummaries(citySlug ?? ""),
   ]);
   const similar = similarRaw.filter((b) => b.id !== business.id).slice(0, 4);
+  // Its place in a "best" list (lib/bestPages.ts): the district's when it
+  // is there, else the city's - a link to the list and a reason to trust.
+  const districtSlug = business.district?.slug;
+  const districtBest = districtSlug ? rankBest(similarRaw.filter((b) => b.district?.slug === districtSlug)) : [];
+  const cityBest = rankBest(similarRaw);
+  const bestRank = (() => {
+    const inDistrict = districtBest.findIndex((b) => b.id === business.id);
+    if (inDistrict >= 0 && city && business.district)
+      return { n: inDistrict + 1, href: bestPath(locale, business.category, city.slug, districtSlug), where: whereLabel(locale, city, business.district) };
+    const inCity = cityBest.findIndex((b) => b.id === business.id);
+    if (inCity >= 0 && city) return { n: inCity + 1, href: bestPath(locale, business.category, city.slug), where: whereLabel(locale, city) };
+    return null;
+  })();
 
   const mapQuery =
     business.lat !== null && business.lng !== null
@@ -291,6 +306,11 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                 )}
                 {priceTiers.has(business.id) && (
                   <PriceTier level={priceTiers.get(business.id)!} currency={city?.currency} locale={locale} className="text-sm" />
+                )}
+                {bestRank && (
+                  <Link href={bestRank.href} className="text-sm font-semibold text-[var(--accent,var(--brand-blue))] hover:underline">
+                    {BEST_TEXT[locale].rank(bestRank.n)} · {bestName(business.category, locale)} {bestRank.where}
+                  </Link>
                 )}
                 {rating !== null && (
                   <a href="#reviews" className="flex items-center gap-1.5 hover:opacity-80">
