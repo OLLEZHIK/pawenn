@@ -1,0 +1,98 @@
+{
+  "slug": "r-k-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/R+%26+K+Pet+Shop/@40.8422222,-73.885,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f48ba0967ca5:0x15153d4650650cd6!8m2!3d40.8422222!4d-73.885!16s%2Fg%2F11bzvwms7m?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Neighborhood storefront with uncertain status"
+      },
+      "text": {
+        "en": "Several reviewers note this neighborhood pet shop in the Bronx for its unique selection of feeder animals and exotic pets. However, a recent one-star report claims the storefront is no longer operating at this location, creating uncertainty about its current status."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Rare exotic reptiles and feeder mice"
+      },
+      "text": {
+        "en": "Customers specifically visit for rare exotic species and live feeder supplies that are difficult to find elsewhere in New York. The shop is noted for carrying tropical fish, bearded dragons, cornsnakes, and live rodents for pet owners who keep snakes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does R & K Pet Shop sell live feeder mice and rats?"
+      },
+      "a": {
+        "en": "Yes, customers mention buying live mice and rats for snakes at prices competitive with chain stores."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What kind of reptiles does the shop carry?"
+      },
+      "a": {
+        "en": "Reviewers mention tropical fish, bearded dragons, cornsnakes, and various exotic lizards and snakes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the storefront currently open?"
+      },
+      "a": {
+        "en": "A recent review noted the store may no longer be open, so customers advise verifying by phone before traveling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
