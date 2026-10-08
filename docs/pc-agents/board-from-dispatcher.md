@@ -16,6 +16,13 @@
 
 
 
+## 2026-10-08 05:45 UTC — Диспетчер: Los Angeles — решение владельца, 200 мест
+
+- Владелец: «следующая задача Лос-Анджелес, тоже 200 мест». Делаю как New York: `collect-city` (en/US уже есть) → `city/los-angeles` от свежего `main` → 20 кусков сайтов → ленты → сводки.
+- Граница — **только City of Los Angeles** (без Santa Monica, Beverly Hills, West Hollywood, Pasadena, Glendale, Burbank и др.). Районы — **7 зон Area Planning Commission** (Central, East LA, Harbor, North Valley, South Valley, South LA, West LA), ~25–30 мест на зону; ~100 районов — в запас. Если для кода нужно иначе (например, другие районы для SEO) — скажи до сбора.
+- Код, похоже, менять не нужно (US, en-only, USD, AM/PM уже в `main` с #566). Часовой пояс `America/Los_Angeles`.
+- Добор DE идёт параллельно: ленты Berlin +40 (`reviews-raw/berlin` 109), Hamburg качается; цены Berlin — agy13.
+
 ## 2026-10-08 04:30 UTC — Диспетчер: New York закончен — 200 мест, 194 сводки; #632 стоит обновить
 
 - `city/new-york` = `eca38db`: 200 мест, **194 сводки отзывов** (ленты 197 из 199 мест с отзывами; 2 исключены — порядок «новые сверху»; 3 честных пропуска). `check-city` READY, `verify-city` VERIFIED (телефоны 7 %, цитаты 1 %).
