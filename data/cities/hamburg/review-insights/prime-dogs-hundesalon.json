@@ -1,0 +1,144 @@
+{
+  "slug": "prime-dogs-hundesalon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Prime+Dogs+Hundesalon/@53.6422822,10.1122706,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18bf7a8a2180d:0xedf43945bb9d0637!8m2!3d53.6422822!4d10.1122706!16s%2Fg%2F11vyr86wlj?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Kompetente Beratung und herzlicher Empfang",
+        "en": "Expert advice and welcoming service"
+      },
+      "text": {
+        "de": "Kunden in Hamburg-Sasel loben das Team für seine kundenorientierte Art und fachliche Expertise. Die Halter fühlen sich vom ersten Moment an verstanden und schätzen die ausführliche Abstimmung der gewünschten Behandlungen. Das Auftreten wird als herzlich, aufmerksam und absolut verlässlich wahrgenommen.",
+        "en": "Clients in Hamburg-Sasel commend the salon staff for their customer-focused attitude and grooming expertise. Pet owners feel well understood from their very first visit and appreciate detailed consultations on coat care. The overall service is described as attentive, warm, and thoroughly professional."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Geduldiger Umgang bei sensiblen Pflegeschritten",
+        "en": "Patient care during sensitive grooming"
+      },
+      "text": {
+        "de": "Hundehalter schätzen die Sensibilität, mit der die Tiere während des Termins umsorgt werden. Selbst Vierbeiner, die bei Berührungen an den Pfoten skeptisch reagieren, werden mit viel Geduld und Einfühlungsvermögen herangeführt. Die Hunde bleiben ruhig und fühlen sich in der saloninternen Umgebung sichtlich wohl.",
+        "en": "Dog guardians praise the sensitive approach shown toward pets throughout their appointments. Even companions that are uneasy with paw handling or nail clipping are guided with patience and gentle reassurance. Pets stay relaxed and clearly feel comfortable in the peaceful salon environment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Wunschgemäße Schnitte und saubere Krallenpflege",
+        "en": "Custom haircuts and thorough nail care"
+      },
+      "text": {
+        "de": "Die Rückmeldungen zu den optischen Ergebnissen fallen durchweg begeistert aus. Kunden berichten, dass Vorlagen und Fotowünsche exakt nach Vorbild umgesetzt werden und das Fell danach frisch glänzt. Auch kürzere Routineleistungen wie die Krallenpflege werden gründlich und handwerklich einwandfrei erledigt.",
+        "en": "Feedback regarding grooming outcomes is consistently enthusiastic. Clients report that photo inspirations and styling wishes are matched accurately, leaving coats clean, neat, and shiny. Shorter routine tasks like nail trimming are equally completed with precision and dependable craftsmanship."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Fotovorlagen für den Haarschnitt mitgebracht werden?",
+        "en": "Can photo references be brought for dog styling?"
+      },
+      "a": {
+        "de": "Ja, Rezensenten heben hervor, dass gewünschte Frisuren anhand von Bildern sehr präzise nachgearbeitet werden.",
+        "en": "Yes, reviewers highlight that styling references from photos are replicated accurately."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie gehen die Mitarbeiter mit Hunden um, die Krallenschneiden scheuen?",
+        "en": "How does the team handle dogs that dislike nail trimming?"
+      },
+      "a": {
+        "de": "Kunden berichten von ruhiger und geduldiger Betreuung, sodass auch skeptische Vierbeiner stressfrei versorgt werden.",
+        "en": "Clients report patient handling that allows even hesitant pets to be treated without stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Welche Pflegeleistungen bietet der Salon an?",
+        "en": "What grooming treatments does the salon provide?"
+      },
+      "a": {
+        "de": "Das Angebot umfasst Baden, Föhnen, Scheren, Schneiden sowie Ohren- und Pfotenpflege.",
+        "en": "Services include bathing, blow-drying, clipping, hand styling, as well as ear and paw care."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 1 Tag",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
