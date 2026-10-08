@@ -499,7 +499,7 @@ export const sk: Dictionary = {
     price: "Cena",
     vsMarket: "Oproti priemeru v meste",
     notComparedTitle: "Ďalšie ceny (neporovnávame)",
-    notComparedIntro: "Čiastočné ceny, ceny za hodinu či kilometer alebo ceny, ktoré zahŕňajú viac ako štandard.",
+    notComparedIntro: "Čiastočné ceny a ceny za hodinu či kilometer.",
     otherServices: "Ďalšie ceny",
     service: "Služba",
     range: "Rozpätie",
