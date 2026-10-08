@@ -1,0 +1,126 @@
+{
+  "slug": "beauty-dog-solln",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Beauty+Dog+Solln/@48.0718953,11.5181446,17z/data=!3m1!4b1!4m6!3m5!1s0x479dd8d6e1e83833:0xf1791efb842b6849!8m2!3d48.0718953!4d11.5181446!16s%2Fg%2F1tg672bb?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Freundliche und geduldige Betreuung in Solln",
+        "en": "Friendly and patient grooming in Solln"
+      },
+      "text": {
+        "de": "Stammkunden loben die herzliche, geduldige und aufmerksame Art der Inhaberin Sandra im Salon in München-Solln. Die Friseurin nimmt sich Zeit für die vierbeinigen Kunden und schafft eine entspannte Atmosphäre auf dem Pflegetisch. Halter schätzen die langjährige Verlässlichkeit und fühlen sich mit ihren Tieren rundum gut aufgehoben.",
+        "en": "Regular clients commend the warm, patient, and attentive manner of owner Sandra at the salon in Munich-Solln. The groomer takes ample time for four-legged visitors, creating a relaxed mood on the table. Pet parents appreciate the long-standing reliability and feel completely confident in the care provided."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Einfühlsamer Umgang mit kleinen Rassen",
+        "en": "Gentle approach with smaller dog breeds"
+      },
+      "text": {
+        "de": "Besitzer kleinerer Rassen wie Shih Tzus oder Maltesern betonen den behutsamen Umgang während des Frisierens. Selbst Tiere, die bei der Fellpflege normalerweise unruhig reagieren, lassen sich hier geduldig baden und bürsten. Die fürsorgliche Behandlung sorgt dafür, dass Hunde den Salonbesuch ohne erkennbaren Stress erleben.",
+        "en": "Owners of smaller breeds such as Shih Tzus highlight the considerate handling throughout grooming appointments. Even pets that are typically uneasy during coat maintenance remain calm during washing and brushing. This tender approach helps ensure dogs experience their styling visit with minimal stress."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Geschmackvolle Schur und gepflegter Sommerschnitt",
+        "en": "Tasteful clipping and fresh summer styling"
+      },
+      "text": {
+        "de": "Die Qualität der Schnitte und Scherarbeiten überzeugt die Kundschaft seit vielen Jahren. Halter heben die fachmännische und geschmackvolle Umsetzung von Rassestandards sowie alltagstauglichen Sommerfrisuren hervor. Nach dem Termin verlassen die Hunde den Salon mit tadellos gepflegtem Fell und einem optisch sauberen Erscheinungsbild.",
+        "en": "The craftsmanship of clipping and scissor styling has satisfied returning clients for years. Guardians highlight the skillful and tasteful execution of breed profiles as well as practical summer cuts. Following appointments, dogs leave the salon sporting neatly groomed coats and a clean, fresh look."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie bewerten Kunden das Preisniveau im Salon?",
+        "en": "How do clients perceive the salon pricing?"
+      },
+      "a": {
+        "de": "Einzelne Halter stufen die Preise als gehoben ein, schätzen im Gegenzug jedoch die fachliche Gründlichkeit.",
+        "en": "Occasional reviewers view the prices as higher, but note this is balanced by meticulous grooming standards."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden dort auch Rassen wie Shih Tzus gepflegt?",
+        "en": "Are breeds like Shih Tzus groomed at the salon?"
+      },
+      "a": {
+        "de": "Ja, Stammkunden lassen ihre Shih Tzus hier seit Jahren für regelmäßige Sommer- und Pflegeschnitte frisieren.",
+        "en": "Yes, long-term clients have brought their Shih Tzus here for years for regular summer and maintenance trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Ist der Salon für nervöse Hunde geeignet?",
+        "en": "Is the salon suitable for nervous dogs?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von geduldiger Zuwendung, sodass sich auch sensible Tiere ruhig pflegen lassen.",
+        "en": "Yes, clients report patient, gentle attention that allows even sensitive dogs to remain calm."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
