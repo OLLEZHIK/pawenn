@@ -1,0 +1,136 @@
+{
+  "slug": "paradise-aquarium",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Paradise+Aquarium/@40.7085487,-73.8983513,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25e84825308db:0xdf80b803017dd630!8m2!3d40.7085487!4d-73.8983513!16s%2Fg%2F1thtf1cb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Quirky neighborhood aquarium haven"
+      },
+      "text": {
+        "en": "Aquarium enthusiasts describe this Ridgewood storefront as a local hidden gem filled with diverse aquatic life and specialty tank gear. Most visitors enjoy browsing the unique variety of species and supplies packed into the space. At the same time, one reviewer noted the quirky, somewhat cluttered and unconventional environment, commenting that the eccentric shop seemingly has a life of its own."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful clerks beside standoffish moments"
+      },
+      "text": {
+        "en": "Customer interactions with store employees draw mixed reactions. Several hobbyists praise the friendly staff for offering useful pointers about setting up tanks and caring for specialty livestock. However, another shopper encountered indifferent service at the checkout counter, feeling ignored by a clerk focused on their phone and unassisted when selecting aquatic livestock."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Vibrant and healthy aquatic livestock"
+      },
+      "text": {
+        "en": "Reviewers emphasize the health and wide variety of aquarium inhabitants, especially hardy locally bred fish that adjust smoothly to home tanks. Exotic pet owners consider the shop an essential resource in Queens. Dedicated hobbyists note that with appropriate home water parameters, fish purchased here thrive reliably without the losses often encountered at standard commercial outlets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Paradise Aquarium stock exotic aquatic species?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight the shop as an excellent local destination for exotic fish, varied aquatic species, and specialized aquarium supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the fish bred locally or easy to acclimate?"
+      },
+      "a": {
+        "en": "Customers appreciate that the store carries locally bred fish varieties that are healthy, colorful, and adapt well to domestic aquarium water."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the retail prices for aquarium goods?"
+      },
+      "a": {
+        "en": "Reviewers generally consider prices very reasonable and competitive for live fish and basic aquatic accessories compared to larger chain stores."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "prices": "+",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

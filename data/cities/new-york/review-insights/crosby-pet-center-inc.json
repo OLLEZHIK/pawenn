@@ -1,0 +1,196 @@
+{
+  "slug": "crosby-pet-center-inc",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Crosby+Pet+Center+Inc/@40.8447982,-73.8305296,17z/data=!3m1!4b1!4m6!3m5!1s0x89c28b508469c1ad:0x625854ccec0ddf91!8m2!3d40.8447982!4d-73.8305296!16s%2Fg%2F1tj58pr5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Helpful and knowledgeable floor staff"
+      },
+      "text": {
+        "en": "Shoppers consistently praise the retail team for their friendly demeanor, attentive customer service, and practical guidance on pet nutrition and care. Long-time customers appreciate employees taking time to answer product questions without rushing. While one reviewer criticized an interaction with management, the vast majority commend the floor team for creating a welcoming neighborhood vibe."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Affordable grooming alongside retail markups"
+      },
+      "text": {
+        "en": "Customer sentiment regarding pricing is distinctly split between services and merchandise. Pet owners praise the salon for reasonably priced, high-value dog grooming compared to other Bronx shops. In contrast, several shoppers complain about steep retail markups on specialty accessories, feeder insects, and packaged pet foods compared to online sellers and big-box retailers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Organized shop with occasional stock concerns"
+      },
+      "text": {
+        "en": "Most visitors describe a clean, neatly arranged, and well-stocked neighborhood pet store featuring a solid variety of natural pet foods and supplies. Customers appreciate the convenient local layout and pleasant atmosphere. However, one dissatisfied customer reported noticing out-of-date food packages on the shelves, urging the store to monitor product expiration dates more closely."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Crosby Pet Center offer pet grooming services?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the shop provides full dog grooming services on-site with competitive neighborhood pricing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What kinds of pet supplies are available in store?"
+      },
+      "a": {
+        "en": "The shop stocks a wide variety of natural pet foods, meal toppers, pet treats, collars, and live feeder insects like wax worms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff assist with recommendations for picky pets?"
+      },
+      "a": {
+        "en": "Yes, multiple customers report that retail employees offer helpful suggestions and product advice for pets with selective appetites."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    }
+  ]
+}
