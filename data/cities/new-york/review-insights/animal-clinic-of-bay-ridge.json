@@ -1,0 +1,145 @@
+{
+  "slug": "animal-clinic-of-bay-ridge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Clinic+of+Bay+Ridge/@40.6192041,-74.022097,17z/data=!3m1!4b1!4m6!3m5!1s0x89c24566fb346ff7:0x44a887d5254071c0!8m2!3d40.6192041!4d-74.022097!16s%2Fg%2F1vg6vn4p?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "title": {
+        "en": "Trusted long-term neighborhood veterinary team"
+      },
+      "text": {
+        "en": "Dr. Ibrahim and staff member Kim earn heartfelt praise from multi-year clients for their genuine dedication, empathy, and responsive care. Pet parents emphasize feeling supported throughout routine visits and stressful emergencies. One critical reviewer, however, was upset that the clinic turned away a found stray dog requiring immediate emergency attention."
+      },
+      "mentions": 6
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "title": {
+        "en": "Fair and transparent neighborhood pricing"
+      },
+      "text": {
+        "en": "Reviewers celebrate the practice for keeping veterinary care genuinely affordable and honest over decades of service. Clients highlight specific examples of reasonable billing, such as a full infection treatment plan for just over one hundred dollars and discounted cremation services during bereavement. Pet parents consider the pricing among the fairest in Brooklyn."
+      },
+      "mentions": 3
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "title": {
+        "en": "Effective treatments and peace of mind"
+      },
+      "text": {
+        "en": "Pet owners report quick recoveries for severe ear infections, paw injuries, and chronic ailments under Dr. Ibrahim's assertive treatment plans. Clients appreciate that the veterinary team outlines clear multi-day recovery roadmaps and schedules diagnostic follow-ups only when necessary. Reviewers emphasize that pets return home pain-free and quickly regain mobility."
+      },
+      "mentions": 3
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Animal Clinic of Bay Ridge require appointments?"
+      },
+      "a": {
+        "en": "The clinic operates as a walk-in veterinary practice, though clients advise arriving early as waits can vary."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How long has the clinic served the neighborhood?"
+      },
+      "a": {
+        "en": "Long-standing clients report bringing their pets to this clinic for over a decade, praising its consistent reliability."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices affordable for routine care and medications?"
+      },
+      "a": {
+        "en": "Reviewers highlight transparent, budget-friendly rates for examinations, treatments, and prescriptions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic help with international pet paperwork?"
+      },
+      "a": {
+        "en": "Yes, clients who travel abroad report relying on Dr. Ibrahim for vaccines, certificates, and travel documentation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
