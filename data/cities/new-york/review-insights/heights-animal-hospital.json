@@ -1,0 +1,185 @@
+{
+  "slug": "heights-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Heights+Animal+Hospital/@40.750553,-73.8948347,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25f05d7df3bf3:0x9c0a011f721da465!8m2!3d40.750553!4d-73.8948347!16s%2Fg%2F1tgddb8c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Experienced veterinarians alongside front desk complaints"
+      },
+      "text": {
+        "en": "Opinions regarding the staff at this Jackson Heights clinic are sharply divided. Longtime clients praise Dr. Riehle and several veterinary technicians for their medical expertise, accurate diagnoses, and dedication to neighborhood animals. In contrast, multiple reviewers report encounters with rude, dismissive receptionists and describe the veteran doctor as impatient or grumpy during stressful visits."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Extended lobby waits and scheduling issues"
+      },
+      "text": {
+        "en": "Pet owners express frustration over long wait times at Heights Animal Hospital. Reviewers report waiting well over an hour past scheduled appointment times, noting that walk-ins or later arrivals were sometimes called in first without explanation. Clients also mention arriving during published weekday hours only to find the clinic unexpectedly closed."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Unhelpful phone inquiries and abrupt interactions"
+      },
+      "text": {
+        "en": "Communication is a recurring complaint among reviewers contacting the practice. Several pet owners describe unhelpful phone interactions, including unanswered calls or staff cutting callers off abruptly when asking about travel certificates. While some clients appreciate calm in-person medical explanations, others report a lack of basic courtesy from front desk staff."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How long should pet owners expect to wait for appointments?"
+      },
+      "a": {
+        "en": "Reviewers report that waits can exceed an hour even with scheduled appointments, especially during busy clinic hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Heights Animal Hospital issue international travel certificates?"
+      },
+      "a": {
+        "en": "Reviews note that the clinic declined paperwork for certain international destinations; owners should call ahead to confirm specific travel documents."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic have an in-house pharmacy?"
+      },
+      "a": {
+        "en": "Yes, Heights Animal Hospital maintains an on-site pharmacy for prescription pet medications and routine treatments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Heights Animal Hospital located?"
+      },
+      "a": {
+        "en": "The clinic is located at 71-02 35th Avenue in Jackson Heights, Queens."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
