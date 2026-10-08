@@ -1,0 +1,203 @@
+{
+  "slug": "aspca-community-veterinary-clinic-appointment-only",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ASPCA+Community+Veterinary+Clinic+(Appointment+Only)/@40.8232954,-73.9103088,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f5fd9ab985dd:0x8f471872ed88f212!8m2!3d40.8232954!4d-73.9103088!16s%2Fg%2F11j820nj_p?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Caring veterinary personnel despite administrative strain"
+      },
+      "text": {
+        "en": "Medical providers and technicians earn heartfelt praise from local owners for their empathy, dedication, and respectful treatment of pets during spay, neuter, and vaccination visits. However, front-desk interactions draw criticism from patrons who feel turned away without clear guidance."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 9,
+      "title": {
+        "en": "Severe confusion over booking and eligibility"
+      },
+      "text": {
+        "en": "Pet owners report widespread frustration with telephone availability and conflicting booking instructions. Many clients describe calling for months without reaching a representative or arriving in person only to learn about unadvertised zip-code eligibility restrictions and unposted appointment requirements."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Protracted waitlists and scarce appointments"
+      },
+      "text": {
+        "en": "Securing an appointment at the Bronx clinic is widely described as challenging and stressful. Reviewers recount calling for months without securing a visit or standing in early morning lines outside only to discover that just a couple of appointment slots are open for the upcoming weeks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can appointments be scheduled over the phone?"
+      },
+      "a": {
+        "en": "Clients report that phone lines are often congested with automated messages, and in-person registration or email outreach is often required."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are all Bronx residents eligible for subsidized veterinary care?"
+      },
+      "a": {
+        "en": "No, subsidized clinic services are restricted to specific local zip codes (such as 10451, 10454, 10455, 10456, and 10459); owners must verify eligibility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What procedures are performed at this ASPCA clinic?"
+      },
+      "a": {
+        "en": "The clinic primarily focuses on spay and neuter surgeries, essential vaccinations, microchipping, and compassionate end-of-life care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

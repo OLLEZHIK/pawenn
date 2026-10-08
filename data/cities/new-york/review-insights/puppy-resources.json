@@ -1,0 +1,177 @@
+{
+  "slug": "puppy-resources",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puppy+Resources/@40.8215128,-73.890028,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f4554b3ec2df:0xca266ce161ce873!8m2!3d40.8215128!4d-73.890028!16s%2Fg%2F1tjfhsl9?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Applauded styling mixed with shave complaints"
+      },
+      "text": {
+        "en": "Multiple clients report great grooming outcomes for huskies and young pups, praising neat cuts, clean teeth, and cute trims. Conversely, severe complaints describe uneven styling, shaved-off facial whiskers, and razor burn causing substantial pet distress after salon visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive groomers alongside unaddressed grievances"
+      },
+      "text": {
+        "en": "Several pet owners praise individual team members like Miriam for warm communication and patient guidance during visits. However, dissatisfied customers report that management was dismissive and unsupportive when confronted with critical grooming mishaps and live animal sales questions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical handling and welfare incidents"
+      },
+      "text": {
+        "en": "While some owners note their dogs stayed calm during routine grooming, multiple serious reviews allege traumatic handling. Pet owners describe dogs sustaining razor abrasions and severe bleeding, alongside separate criticisms regarding small animal housing and return policies in the store."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What grooming services are offered for young puppies?"
+      },
+      "a": {
+        "en": "Reviewers mention puppy packages including first haircuts, baths, nail trimming, and basic teeth cleaning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customers describe the staff's communication?"
+      },
+      "a": {
+        "en": "Experiences are split; regular visitors praise specific friendly groomers, while others report unhelpful management when issues arise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are live small animals sold at this location?"
+      },
+      "a": {
+        "en": "Reviews indicate that small animals like hamsters have been sold on-site, though policies generally prohibit returns."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

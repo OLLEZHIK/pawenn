@@ -1,0 +1,178 @@
+{
+  "slug": "st-mina-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/St+Mina+Animal+Clinic/@40.6917839,-73.8649876,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25de77e27107d:0x9952e48de33835e8!8m2!3d40.6917839!4d-73.8649876!16s%2Fg%2F1tdwr015?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate doctors beside communication gaps"
+      },
+      "text": {
+        "en": "Many pet owners praise Dr. Popac and the veterinary technicians for compassionate handling, clear treatment options, and bilingual support. On the other hand, some reviewers felt their medical concerns were dismissed casually or that doctors failed to provide sufficient diagnostic explanations during serious illnesses."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Budget-friendly care contrasted with diagnostic fees"
+      },
+      "text": {
+        "en": "Several clients highlight fair pricing, noting that basic examinations and wellness plans remain significantly more accessible than nearby emergency hospitals. Conversely, other visitors found extensive laboratory work and X-rays costly, especially when tests did not produce a clear diagnosis or remedy."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Affectionate care alongside treatment disputes"
+      },
+      "text": {
+        "en": "Reviewers describe warm, attentive treatment for puppies and injured stray cats, appreciating that staff welcome patients with genuine affection. However, a few pet parents voiced distress over perceived medical oversight during wound care and urgent interventions for severely sick animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the clinic staff bilingual?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that clinic personnel speak both English and Spanish, making communication easy for Spanish-speaking pet parents."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does St Mina Animal Clinic offer in-house diagnostics?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the hospital provides same-day blood work and radiography to evaluate urgent medical conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients perceive the clinic's fees?"
+      },
+      "a": {
+        "en": "Many pet parents consider the routine fees affordable compared to specialty centers, though some note that advanced diagnostic testing can add up quickly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

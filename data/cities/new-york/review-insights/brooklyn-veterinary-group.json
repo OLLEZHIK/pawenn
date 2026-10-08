@@ -1,0 +1,163 @@
+{
+  "slug": "brooklyn-veterinary-group",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Brooklyn+Veterinary+Group/@40.6143951,-74.0005377,17z/data=!3m1!4b1!4m6!3m5!1s0x89c24516aa1637db:0xac0283fca0292aa0!8m2!3d40.6143951!4d-74.0005377!16s%2Fg%2F1v5fstkn?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Praise for attentive doctors and supportive technicians"
+      },
+      "text": {
+        "en": "Clients consistently commend doctors like Dr. Gambino, Dr. Dodd, and Dr. Pernice for their thorough examinations, clinical empathy, and dedication to patient care. Veterinary technicians and front-desk personnel receive warm appreciation, although a lone review notes an unwelcoming reception interaction upon arrival."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Compassionate approach to nervous and senior pets"
+      },
+      "text": {
+        "en": "Pet parents highlight the staff's gentle handling of fragile seniors and aggressive or fearful animals. Reviewers describe how technicians successfully calm anxious pets during imaging and examinations, showing genuine affection and treating every visiting dog and cat like their own family member."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Clear consultations and responsive medical guidance"
+      },
+      "text": {
+        "en": "Communication receives high praise across client feedback. Veterinarians dedicate generous time to answering owner questions about diet, preventative vaccines, and ongoing treatments, with pet parents noting fast email replies and thorough explanations regarding complex health issues."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the practice handle difficult or anxious pets?"
+      },
+      "a": {
+        "en": "Reviewers emphasize that the staff excels at soothing fearful or reactive animals, successfully completing procedures like X-rays without undue distress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are doctors available for questions between appointments?"
+      },
+      "a": {
+        "en": "Clients report prompt communication, noting that veterinarians readily answer email inquiries and provide ongoing reassurance for chronic conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees considered reasonable by clients?"
+      },
+      "a": {
+        "en": "Pet owners find the clinic's fees fair and reasonable compared to other veterinary facilities in the Brooklyn area."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

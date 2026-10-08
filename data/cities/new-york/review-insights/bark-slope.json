@@ -1,0 +1,151 @@
+{
+  "slug": "bark-slope",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bark+Slope/@40.6695164,-73.9857638,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25ba9c9554d21:0xcf266bb5748695c!8m2!3d40.6695164!4d-73.9857638!16s%2Fg%2F1tg4m90b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Warm and accommodating neighborhood team"
+      },
+      "text": {
+        "en": "Clients speak warmly of team members like Jenn, Jamie, and Australia for their welcoming attitude and flexibility. Multiple pet owners emphasize that staff recognize returning dogs by name and accommodate last-minute scheduling changes or urgent care situations without hesitation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle attention for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers report that dogs eagerly run to meet the staff, whether for outdoor walks, daycare drop-offs, or salon visits. Guardians of anxious pups and multiple small rescue dogs note that the team creates a calming environment and sends pets home with cheerful bandanas."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Fresh cuts and self-serve washing"
+      },
+      "text": {
+        "en": "Customers highlight satisfying grooming outcomes, including neat summer trims, gentle nail maintenance, and accessible self-serve dog wash stations. Pet parents appreciate that grooming sessions leave pets smelling fresh, well-brushed, and relaxed rather than stressed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they offer self-service dog wash stations?"
+      },
+      "a": {
+        "en": "Yes, clients frequently use the facility's self-serve bath stations for quick and convenient wash routines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dog walking and pet sitting services available?"
+      },
+      "a": {
+        "en": "Yes, reviewers rely on the business for scheduled neighborhood walks, in-home pet sitting, and emergency visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can they accommodate anxious dogs during grooming?"
+      },
+      "a": {
+        "en": "Yes, dog owners note that groomers handle nervous and skittish pets with patience and reassurance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "an hour ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "an hour ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "an hour ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

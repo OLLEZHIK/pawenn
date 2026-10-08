@@ -1,0 +1,182 @@
+{
+  "slug": "petcare-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petcare+Animal+Clinic/@40.7571491,-73.809918,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2603bc86a1d81:0x7f1286242b32285c!8m2!3d40.7571491!4d-73.809918!16s%2Fg%2F1td54bvt?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Dr. Chew praised; one vet draws repeated complaints"
+      },
+      "text": {
+        "en": "Dr. Chew and Dr. Jonathan receive strong praise for kindness, straight talk, and genuine care without unnecessary upselling. However, several reviewers single out a younger doctor as rushed, dismissive, and critical toward pet owners — one reviewer explicitly avoids him. The clinic overall earns loyal long-term clients, but the experience varies noticeably by which vet is seen."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Strong outcomes from experienced vets, serious concerns noted"
+      },
+      "text": {
+        "en": "Most reviewers report positive outcomes and feel their pets receive attentive, knowledgeable care. However, two critical reviewers describe deeply troubling experiences — including a pet given inappropriate care at end of life. These account for a minority but involve serious concerns that prospective clients should weigh."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mostly fair pricing with some negative feedback"
+      },
+      "text": {
+        "en": "Several owners highlight that Dr. Chew is upfront about costs and won't recommend anything unless he genuinely thinks it's necessary. Long-term clients describe prices as reasonable and appreciate honest guidance. However, at least one dissatisfied reviewer describes the clinic as money-focused, creating a mixed overall picture on pricing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I request a specific vet at Petcare Animal Clinic?"
+      },
+      "a": {
+        "en": "Reviewers suggest it's possible to request Dr. Chew or Dr. Jonathan specifically — some mention actively avoiding one of the other doctors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Petcare Animal Clinic perform surgeries like spaying and neutering?"
+      },
+      "a": {
+        "en": "Based on reviewer mentions, the clinic does offer such procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the front desk staff?"
+      },
+      "a": {
+        "en": "Most reviewers describe the staff as friendly, knowledgeable, and welcoming, though experiences with individual doctors vary."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "~",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

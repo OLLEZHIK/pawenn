@@ -1,0 +1,155 @@
+{
+  "slug": "animal-clinic-of-queens",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Clinic+of+Queens/@40.7092621,-73.8989187,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25e8497402a49:0x6abf3eb2cff1ba2d!8m2!3d40.7092621!4d-73.8989187!16s%2Fg%2F1td6hdct?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Conflicting experiences with veterinary team"
+      },
+      "text": {
+        "en": "Reviewers express polarized opinions regarding clinic personnel. Several loyal clients praise veterinary technicians Veronica, Angela, and Leslie for their warm empathy and commend Dr. Mucera for comforting senior pets and explaining treatment plans. Conversely, a majority of recent reviewers criticize the lead doctor for rushed visits, abrasive interactions, and an unwillingness to answer client questions."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Persistent complaints of inflated fees"
+      },
+      "text": {
+        "en": "Clients voice sharp frustration concerning the clinic's fee structure and diagnostic billing. Multiple pet owners describe feeling pressured into extensive testing batteries, receiving costly injections without prior explanation, and facing bills reaching hundreds or thousands of dollars for inconclusive care. Pet parents urge prospective visitors to request itemized fee estimates beforehand."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle routine care alongside handling dispute"
+      },
+      "text": {
+        "en": "Perceptions of animal care vary widely depending on the practitioner and visit type. Several pet parents report that gentle veterinary technicians handle newborn puppies and stressed dogs with admirable patience, ensuring pets stay calm during blood draws. In contrast, one feline owner lodged a serious complaint regarding rough and stressful physical handling of their cat during an examination."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Animal Clinic of Queens see puppies and kittens for initial wellness exams?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians examine newborn litters, administer early vaccinations, and conduct routine developmental checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners expect regarding diagnostic testing costs?"
+      },
+      "a": {
+        "en": "Multiple clients recommend asking for upfront cost breakdowns, as owners report frequent recommendations for extensive lab tests and injections."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do veterinary technicians interact with stressed or nervous pets?"
+      },
+      "a": {
+        "en": "Several reviews commend clinic technicians for gentle and attentive handling during blood draws and routine physical checkups."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

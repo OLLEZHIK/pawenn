@@ -1,0 +1,149 @@
+{
+  "slug": "my-two-dogs-dog-grooming-dog-training",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/My+Two+Dogs+Dog+Grooming+%26+Dog+Training/@40.7056365,-73.9434447,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2595011f3b3ad:0x2791d74e1672680!8m2!3d40.7056365!4d-73.9434447!16s%2Fg%2F1tk640q_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Supportive and patient grooming team"
+      },
+      "text": {
+        "en": "Clients frequently highlight owners Annie and Gary for their genuine kindness and reassuring demeanor. Reviewers appreciate that the team takes time to consult on specific needs, responds promptly to inquiries, and maintains a calm atmosphere that puts nervous pets and pet parents at ease during visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for anxious pets"
+      },
+      "text": {
+        "en": "Multiple pet parents describe exceptional patience when handling nervous or reactive dogs. Reviewers share that staff accommodate sensitive pups with favorite treats, work quickly during nail trims to minimize discomfort, and prioritize each animal's emotional well-being above mere cosmetic speed."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Clean styling alongside occasional dissatisfaction"
+      },
+      "text": {
+        "en": "Most customers praise neat, clean haircuts and efficient nail trimming sessions that leave pets comfortable and looking great. However, feedback is not entirely unanimous, as one client left a brief negative rating stating they would not recommend the service following their experience."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the team handle anxious dogs during nail trims?"
+      },
+      "a": {
+        "en": "Yes, clients report staff work quickly and encourage owners to bring treats to help soothe anxious pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How can clients prepare for an appointment with a sensitive pup?"
+      },
+      "a": {
+        "en": "Owners note the salon suggests booking early morning slots to avoid noise and bringing favorite comfort treats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients ask questions before booking a grooming session?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate email communication for specific styling questions, though walk-in inquiries can be limited when doors are secured."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

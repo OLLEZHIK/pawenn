@@ -1,0 +1,137 @@
+{
+  "slug": "lucky-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+Dog/@40.63419,-73.971709,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25ddc2f0ffd2d:0xcabd3e68f57cb5c9!8m2!3d40.63419!4d-73.971709!16s%2Fg%2F11mq7y571q?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Supportive sitters alongside service dispute"
+      },
+      "text": {
+        "en": "Most reviewers praise owner Andrew and his team for their calm presence, reliability, and warm care during daily walks and extended boarding stays. However, one client reported a deeply frustrating experience with a replacement walker, citing lateness, rough handling, and an abrupt cancellation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle boarding for anxious rescues"
+      },
+      "text": {
+        "en": "Multiple pet parents emphasize that Andrew excels with nervous or skittish dogs, helping them decompress and feel safe in a home environment. Conversely, a critical review noted distress when an employee rushed an apprehensive dog during an apartment pickup rather than waiting patiently."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Regular app updates with communication dispute"
+      },
+      "text": {
+        "en": "Clients generally appreciate timely scheduling, GPS tracking of walks, and photo updates delivered through the pet portal app. In contrast, one unhappy customer reported unannounced rate adjustments, delayed scheduling notices, and sudden account deactivation following a customer complaint."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do pet owners receive updates during walks or boarding?"
+      },
+      "a": {
+        "en": "Reviewers note that updates, photos, and walk GPS maps are delivered through a mobile pet care application."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Lucky Dog offer home-style dog boarding?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention booking extended home boarding stays where dogs are integrated into household routines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the team accommodate anxious rescue dogs?"
+      },
+      "a": {
+        "en": "Most clients report positive experiences with skittish dogs, though one reviewer noted challenges with walker patience."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

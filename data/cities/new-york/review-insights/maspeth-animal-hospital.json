@@ -1,0 +1,158 @@
+{
+  "slug": "maspeth-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maspeth+Animal+Hospital/@40.7277639,-73.891785,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25ef67da25b03:0x9979dae06b03ec02!8m2!3d40.7277639!4d-73.891785!16s%2Fg%2F12hn_zq54?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated doctors and friendly receptionists"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary team, specifically highlighting Dr. Henin, Dr. Allam, and front desk coordinators such as Adrianna and Cristina. Reviewers note that staff members are respectful, attentive, and genuinely invested in patient welfare, making visits reassuring and well organized."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Loving and thoughtful patient care"
+      },
+      "text": {
+        "en": "Clients describe a gentle, affectionate approach toward both cats and dogs during medical examinations and surgical follow-ups. Attendants handle pets carefully to minimize discomfort, helping anxious kittens and ailing pets feel calm while receiving necessary veterinary attention."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Successful surgical and diagnostic outcomes"
+      },
+      "text": {
+        "en": "Several reviewers credit the clinic with life-saving emergency surgeries and successful long-term treatment plans for sick animals. From routine immunizations and travel certificates to urgent surgical interventions, clients report reliable recovery and positive health outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform emergency surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that veterinary surgeons have performed urgent, life-saving operations for critically ill cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the front desk staff and check-in procedures rated?"
+      },
+      "a": {
+        "en": "Clients describe the front office team as friendly, organized, and helpful, ensuring that check-ins and discharge instructions run smoothly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners obtain routine immunizations and travel certificates?"
+      },
+      "a": {
+        "en": "Yes, the clinic regularly handles standard wellness examinations, preventative vaccines, and documentation for pet travel."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

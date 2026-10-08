@@ -1,0 +1,160 @@
+{
+  "slug": "williamsburg-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Williamsburg+Veterinary+Clinic/@40.7165693,-73.9626383,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25966c5e13d1d:0x3c13438f54a3bd9b!8m2!3d40.7165693!4d-73.9626383!16s%2Fg%2F11hcdvlt5w?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Dedicated medical staff and skilled doctors"
+      },
+      "text": {
+        "en": "Veterinarians including Dr. Rizzi, Dr. Glenn, and Dr. Chen receive enthusiastic praise for their detailed examinations, clinical expertise, and supportive bedside manner. Clients commend the helpful reception and nursing teams, though one client experienced an unprofessional phone interaction when calling for diagnostic test updates."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Accessible digital channels alongside phone friction"
+      },
+      "text": {
+        "en": "Pet owners value having multiple convenient communication options, highlighting quick responses through text, email, and telephone for appointment advice and medical records. However, one reviewer reported significant frustration with being cut off and hung up on by a front-desk staff member while awaiting results."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive care and gentle handling for pets"
+      },
+      "text": {
+        "en": "Clients frequently point out how well the practice caters to cats and dogs, particularly noting gentle handling of sensitive felines. Reviewers appreciate that veterinarians remain patient and caring during routine exams, international travel certification visits, and ongoing management of chronic illnesses."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic assist with international pet travel certificates?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that veterinarians provide expert preparation of international health certificates, including documentation for Great Britain and the European Union."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How can pet owners reach the clinic for advice?"
+      },
+      "a": {
+        "en": "Clients report that the office is easily reachable by text message, email, or telephone for quick questions, scheduling, and medical records."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency walk-in appointments accommodated?"
+      },
+      "a": {
+        "en": "Reviewers report that the front desk makes efforts to fit in emergency visits when urgent medical issues arise for established patients."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

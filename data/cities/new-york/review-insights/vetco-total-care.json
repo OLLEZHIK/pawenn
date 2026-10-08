@@ -1,0 +1,145 @@
+{
+  "slug": "vetco-total-care",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/@40.5281756,-74.2284869,17z/data=!3m1!4b1!4m6!3m5!1s0x89c3b5c6093463bd:0x4b38c9a78f513e4c!8m2!3d40.5281756!4d-74.2284869!16s%2Fg%2F11sgr21r7c?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated hospital doctors alongside service refusals"
+      },
+      "text": {
+        "en": "Pet owners at this Staten Island Petco hospital praise the veterinary team, especially Dr. Saad, Fran, and Victoria, for their attentiveness, compassion, and cheerful attitude. Reviewers note that hospital staff go above and beyond for pet surgery and recovery. However, one reviewer was turned away when seeking routine vaccines for a rescue kitten, expressing frustration with reception staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Caring approach for dogs and cats"
+      },
+      "text": {
+        "en": "Reviewers emphasize that veterinarians and veterinary assistants demonstrate genuine affection and care toward animals. Clients note that clinicians handle muzzled dogs with patience and understanding, helping anxious pets relax without fear during examinations. Pet parents appreciate that staff members take time to bond with animals rather than rushing medical procedures."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive follow-ups with occasional policy friction"
+      },
+      "text": {
+        "en": "Clients appreciate direct communication from veterinarians, noting that Dr. Saad personally phoned multiple times to check on a recovering surgery patient and promptly approved prescription refills. However, another client reported frustrating communication when reception staff insisted a newly rescued kitten required a doctor visit before receiving vaccinations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Vetco Total Care located in Staten Island?"
+      },
+      "a": {
+        "en": "The hospital is located inside Petco at 165 Bricktown Way, Suite 1C, in Staten Island."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do doctors follow up after surgical procedures?"
+      },
+      "a": {
+        "en": "Pet owners report that veterinary surgeons personally call clients multiple times after surgery to monitor recovery and schedule stitch removal."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be scheduled online?"
+      },
+      "a": {
+        "en": "Yes, clients can book veterinary appointments online through Petco's booking portal."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the hospital require exams before administering vaccines to rescues?"
+      },
+      "a": {
+        "en": "Reviewers note that the clinic requires a preliminary doctor examination before providing vaccinations for newly adopted or rescue animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

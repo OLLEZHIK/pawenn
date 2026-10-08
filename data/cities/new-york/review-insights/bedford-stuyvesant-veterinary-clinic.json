@@ -1,0 +1,157 @@
+{
+  "slug": "bedford-stuyvesant-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bedford+Stuyvesant+Veterinary+Clinic/@40.6803042,-73.9450227,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25b8f02a0e4cf:0xda9d73723dcc273f!8m2!3d40.6803042!4d-73.9450227!16s%2Fg%2F1t_tl6f7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Sharp divide on clinical competence"
+      },
+      "text": {
+        "en": "Recent reviews reflect conflicting impressions of the medical team. Several pet owners speak highly of Dr. Pruden for her warm bedside manner, thorough aftercare instructions, and supportive care during routine visits. However, a majority of recent reviewers report frustrating experiences, alleging inaccurate diagnostic assessments, rushed evaluations, and dismissive staff communication during urgent visits."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Complaints regarding unexpected medical fees"
+      },
+      "text": {
+        "en": "Clients express significant dissatisfaction with the clinic's billing practices. While one owner appreciated not being pushed into unnecessary procedures, multiple reviewers describe aggressive upselling for extra examinations, surprise add-ons during basic vaccination visits, and elevated charges for routine treatments. Pet parents urge incoming clients to clarify exact costs prior to care."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns about cleanliness and clutter"
+      },
+      "text": {
+        "en": "Multiple visitors criticize the condition of the waiting room and examination spaces. Reviewers describe cluttered consultation rooms, uncleaned surfaces, visible trash on floors, and crowded lobby conditions that made waiting uncomfortable for distressed pets. These environmental shortcomings prompted several owners to seek care elsewhere for major medical issues."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Bedford Stuyvesant Veterinary Clinic handle emergency cases?"
+      },
+      "a": {
+        "en": "Reviewers suggest seeking specialized emergency hospitals for critical crises, as clients report delays and limited on-site laboratory capacity."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments strictly honored on time?"
+      },
+      "a": {
+        "en": "Clients mention occasional delays of 30 minutes or more past scheduled appointment times before being seen by a clinician."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the feedback regarding pricing and estimates?"
+      },
+      "a": {
+        "en": "Several recent reviewers advise confirming fees beforehand, as owners note surprise charges and upselling for supplementary tests during routine visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "prices": "~"
+      }
+    }
+  ]
+}
