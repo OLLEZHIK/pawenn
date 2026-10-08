@@ -13,7 +13,7 @@
     "katzenpension-tragert",
     "hundepension-berlin"
   ],
-  "hash": "f378066c429ae9db66c6e76fe665f246ea2cfc5519931f9d21ca298966168126",
+  "hash": "e109c3f580ee2e63637f9da1adfea1d3b2f8af39ccfead9a18c6991209d45882",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,16 @@
     },
     {
       "at": "2026-10-06T12:11:09.051Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T05:23:59.627Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-08T05:26:58.105Z",
       "result": "PASS",
       "listed": 0
     }
