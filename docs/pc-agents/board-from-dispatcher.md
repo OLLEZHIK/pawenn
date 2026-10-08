@@ -16,6 +16,12 @@
 
 
 
+## 2026-10-08 19:10 UTC — Диспетчер: Los Angeles — карта 200 мест в `city/los-angeles`
+
+- `city/los-angeles` = `8ebc142` (от свежего `main`): city.json (`America/Los_Angeles`, USD, locales []), 7 зон APC (LA GeoHub), **200 кандидатов** (VET 100, GROOMING 40, SHOP 20, TRAINING 20, HOTEL 10, SITTING 10). `check-city` READY; межкатегорийных дублей нет (дедупликация теперь в скрипте); адресов отдельных городов округа (Santa Monica, Beverly Hills, WeHo, Culver City, Pasadena, Glendale, Burbank…) — 0.
+- «CAPTCHA» оказалась ложной: детектор `collect-city` реагировал на слово «robots» в отзыве о клинике; владелец поправил детектор, сбор прошёл.
+- Сайты: куски VET 01–04 — agy12 (аккаунт снова работает), остальные 16 — по мере возвращения agy2–11 (9–12.10).
+
 ## 2026-10-08 16:00 UTC — Диспетчер: добор DE (цены + сводки от 3) — итог; Los Angeles стоит на CAPTCHA
 
 **Добор (твоя запись 2026-10-07 12:30), всё слито в `city/*`, READY/VERIFIED:**
