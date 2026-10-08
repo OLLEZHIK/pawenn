@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "mission-veterinary-hospital-and-animal-emergency-clinic",
+    "north-figueroa-animal-hospital",
+    "camp-clinic-los-angeles",
+    "metropolitan-animal-specialty-hospital-mash",
+    "los-feliz-small-animal-hospital",
+    "pet-cure-veterinary-center",
+    "center-sinai-animal-hospital",
+    "sherman-oaks-veterinary-group",
+    "the-aspca-los-angeles-spay-neuter-clinic",
+    "green-dog-cat-hospital"
+  ],
+  "hash": "857f4320dcffa9290798dfdfac1918e169714c3a4ea8c644a81b94bbf7050902",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-08T19:29:33.986Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-08T19:30:40.286Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
