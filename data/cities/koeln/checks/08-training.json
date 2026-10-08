@@ -8,11 +8,21 @@
     "clever-canis",
     "hundeschule-colonia"
   ],
-  "hash": "668d17a6641ac4093e79e1df6d798ff2fe92476d315d2f5a6a975c12dc1409c9",
+  "hash": "734c1c686dd8a8788cbbfefafcb3e949e5ac2207bdbe5049e8100ec43114c219",
   "result": "PASS",
   "history": [
     {
       "at": "2026-10-06T14:05:53.820Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T09:41:41.749Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-08T09:43:07.585Z",
       "result": "PASS",
       "listed": 0
     }
