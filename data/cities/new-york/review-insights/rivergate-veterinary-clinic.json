@@ -1,0 +1,171 @@
+{
+  "slug": "rivergate-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rivergate+Veterinary+Clinic/@40.7457166,-73.9716251,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25905250a6057:0xace0502d923274d9!8m2!3d40.7457166!4d-73.9716251!16s%2Fg%2F1tg3b_zk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Respected doctors alongside reception complaints"
+      },
+      "text": {
+        "en": "Senior veterinarians Dr. Peter Kross, Dr. Eve, and Dr. Cavanagh receive glowing praise for their kindness, medical thoroughness, and gentle handling of pets. Long-standing clients trust the clinical team completely. Conversely, several recent visitors express frustration with front desk receptionists, citing unwelcoming attitudes and conflicts regarding scheduling."
+      },
+      "mentions": 8
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "title": {
+        "en": "Extended delays and scheduling friction"
+      },
+      "text": {
+        "en": "Multiple reviewers report significant waiting room delays, with wait times exceeding thirty to forty minutes past appointed slots. Clients express distress when anxious pets become agitated while waiting on the floor. Disappointed visitors also note instances where later arrivals were called in ahead of them, leading to complaints about appointment management."
+      },
+      "mentions": 3
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Attentive doctor calls despite desk lapses"
+      },
+      "text": {
+        "en": "Clients value when veterinarians like Dr. Eve personally call to discuss lab results and treatment options in detail, or when staff member Leo assists with travel documentation. However, communication breakdowns at check-in draw sharp criticism, particularly when staff fail to provide realistic wait estimates or inform owners about running behind schedule."
+      },
+      "mentions": 3
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians call personally with test results?"
+      },
+      "a": {
+        "en": "Yes, clients note that doctors personally telephone pet parents to explain test findings and adjust care plans."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic assist with international pet travel?"
+      },
+      "a": {
+        "en": "Reviewers highlight helpful staff assistance and knowledgeable guidance when preparing international travel documentation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners expect regarding wait times?"
+      },
+      "a": {
+        "en": "Several recent reviewers report significant delays past scheduled appointment times, advising clients to plan for extra time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are cats and dogs treated at Rivergate?"
+      },
+      "a": {
+        "en": "Yes, reviewers bring both cats and dogs, praising doctors for patient and caring handling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

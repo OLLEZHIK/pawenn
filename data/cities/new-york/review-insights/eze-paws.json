@@ -1,0 +1,246 @@
+{
+  "slug": "eze-paws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Eze+Paws/@40.7795366,-73.7940536,17z/data=!3m1!4b1!4m6!3m5!1s0x89c28bd9fd43e3a7:0xdba28b83e3c07f27!8m2!3d40.7795366!4d-73.7940536!16s%2Fg%2F11vl2nrcpd?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Uneven grooming outcomes following management shift"
+      },
+      "text": {
+        "en": "While satisfied customers praise sharp scissor cuts and clean baths, recent reviews report a noticeable decline in styling precision under new ownership. Clients complain of uneven fur lengths, missed nail clippings, and haircuts that did not match reference photos provided at drop-off."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Caring pet handling alongside grooming injuries"
+      },
+      "text": {
+        "en": "Longtime patrons previously trusted the salon for calm and gentle handling of sensitive dogs. However, several recent visitors reported distressed pets, cut skin near sensitive areas, and a bleeding dew claw clipped too close, prompting safety warnings from longtime neighborhood clients."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Customer service friction under new management"
+      },
+      "text": {
+        "en": "Reviewers highlight a stark contrast between the attentive former owners and the current management team. Recent customers report uncommunicative front desk staff who dismissed haircut concerns, altered pricing structures without warning, and failed to apologize for grooming errors."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Has Eze Paws recently changed ownership?"
+      },
+      "a": {
+        "en": "Yes, multiple reviews note a recent change in salon management and grooming staff that affected service and pricing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners provide reference photos for haircuts?"
+      },
+      "a": {
+        "en": "Owners report submitting reference photos, though recent reviewers caution that newer staff struggled to replicate requested styles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Have grooming prices increased recently?"
+      },
+      "a": {
+        "en": "Yes, several recent clients report price increases of forty percent or more compared to historical rates under prior management."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
