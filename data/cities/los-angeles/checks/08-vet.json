@@ -1,0 +1,50 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "shelter-veterinary",
+    "green-dog-dental-and-veterinary-center-venice",
+    "holiday-humane-society-clinic",
+    "banfield-pet-hospital-pico",
+    "value-vet-westwood",
+    "northridge-animal-medical-center",
+    "ace-animal-hospital",
+    "simon-veterinary-surgical-sherman-oaks",
+    "beverly-oaks-animal-hospital",
+    "modern-animal-studio-city"
+  ],
+  "hash": "3762a5827869b7be129e4ec037ecb5251bb4ab19625298bb5fac04a72407d493",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T10:10:47.916Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-09T10:13:34.676Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-09T10:19:35.904Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-09T10:26:21.596Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-09T10:27:14.266Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T10:32:31.292Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
