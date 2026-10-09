@@ -1,0 +1,160 @@
+{
+  "slug": "value-vet-westwood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Value+Vet+Inc./data=!4m7!3m6!1s0x80c2bb7e4caadd27:0xbdda0a34cd1c35a8!8m2!3d34.057471!4d-118.4428334!16s%2Fg%2F1tdqnxx7!19sChIJJ92qTH67woARqDUczTQK2r0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate doctors alongside staff hurdles"
+      },
+      "text": {
+        "en": "Many clients commend Dr. Werber and Dr. Leslie Davidson for their warm manner, gentle touch, and knowledgeable evaluations. In contrast, several reviewers voice frustration with reception staff, citing unreturned messages, unhelpful phone encounters, and missed follow-up."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Phone unresponsiveness and customer friction"
+      },
+      "text": {
+        "en": "Communication is a primary source of complaint among dissatisfied clients, who report unanswered phone calls, abrupt telephone exchanges, and lack of follow-up on laboratory results. Meanwhile, some clients note that emailing the team yields faster responses."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable care and practical fees"
+      },
+      "text": {
+        "en": "Pet owners appreciate the accessible fee structure, highlighting affordable dental cleanings and routine exams compared to corporate veterinary chains. Clients such as local students and long-term pet parents value receiving dependable care at manageable prices."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients view the clinic veterinary pricing?"
+      },
+      "a": {
+        "en": "Reviewers emphasize that services, particularly dental extractions and wellness checkups, are significantly more affordable than nearby practices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the best way to contact the clinic?"
+      },
+      "a": {
+        "en": "While some reviewers report phone delays and unreturned calls, clients note that email communication often produces faster replies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency situations handled quickly?"
+      },
+      "a": {
+        "en": "Clients mention prompt, compassionate care during sudden minor emergencies like bee stings, though appointment availability varies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
