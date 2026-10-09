@@ -1,0 +1,132 @@
+{
+  "slug": "la-dogworks",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/LA+Dogworks/data=!4m7!3m6!1s0x80c2bf2c3a02e885:0x413745d610604d5c!8m2!3d34.0894444!4d-118.3383333!16s%2Fg%2F1tfd2nw8!19sChIJhegCOiy_woARXE1gENZFN0E?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive caregivers with customer service dispute"
+      },
+      "text": {
+        "en": "Most dog owners praise individual team members and the owner for providing caring supervision and thorough facility tours. Nonetheless, one critical review highlights sharp dissatisfaction with front-desk interactions, citing rude customer communication."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Spacious 24-hour daycare and playrooms"
+      },
+      "text": {
+        "en": "Clients frequently compliment the clean and thoughtfully designed facility, highlighting specialized spaces like the Zen Den and observation areas. Owners also value the round-the-clock operating schedule, which offers essential flexibility for busy routines."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Thoughtful socialization for young pups"
+      },
+      "text": {
+        "en": "Reviewers emphasize the gentle introduction provided to puppies and first-time daycare visitors. Pet parents report feeling reassured by attentive staff who monitor canine play groups carefully and ensure younger dogs socialize safely without feeling overwhelmed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the daycare facility operate 24 hours?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the 24-hour daycare schedule as a major convenience for owners with demanding or irregular work hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can new clients tour the boarding areas?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe comprehensive facility tours where staff showcase the playrooms, observation areas, and quiet Zen Den."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are young puppies accepted for daycare?"
+      },
+      "a": {
+        "en": "Pet owners report bringing five-month-old puppies for supervised daycare stays and gentle introductory socialization."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
