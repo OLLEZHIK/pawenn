@@ -1,0 +1,142 @@
+{
+  "slug": "centinela-feed-pet-supplies-centinela",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centinela+Feed+%26+Pet+Supplies/data=!4m7!3m6!1s0x80c2ba5db049fa13:0x9d371b9cf6fd7f7e!8m2!3d34.0025674!4d-118.4315638!16s%2Fg%2F1td3lvzj!19sChIJE_pJsF26woARfn_99pwbN50?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful store associates and feedback"
+      },
+      "text": {
+        "en": "Several shoppers praise the floor staff for being courteous, welcoming, and helpful when locating pet foods and supplies. However, negative feedback mentions blunt interactions with management and unannounced early store closures. While most visits are pleasant, customer service experiences vary depending on the visit."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Convenient storefront and parking access"
+      },
+      "text": {
+        "en": "Customers appreciate the convenient store location on Centinela Avenue, citing straightforward on-site parking as a notable benefit. Reviewers also mention a tidy store layout that makes browsing for supplies quick and simple. Local pet rescue groups also use the premises for scheduled community adoption events."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Food selection and self-wash amenities"
+      },
+      "text": {
+        "en": "Shoppers appreciate the broad inventory of dog and cat foods, including raw feeds and wellness diets. Regular visitors highlight the value of store discount coupons on recurring food purchases. In contrast, one reviewer expressed frustration with unexpected changes to self-wash bathing hours and lack of updated notices."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this store location offer on-site parking?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate the convenient on-site parking lot adjacent to the shop entrance."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are pet adoption events hosted at the store?"
+      },
+      "a": {
+        "en": "Yes, local animal rescue groups regularly hold weekend pet adoption events at the store location."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop provide a self-serve pet wash?"
+      },
+      "a": {
+        "en": "Yes, the location features self-serve dog wash tubs, though customers advise checking current daily hours in advance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}

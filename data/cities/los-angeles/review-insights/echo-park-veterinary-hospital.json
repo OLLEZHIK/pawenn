@@ -1,0 +1,206 @@
+{
+  "slug": "echo-park-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Echo+Park+Veterinary+Hospital/data=!4m7!3m6!1s0x80c2c789642c28bf:0xc8bd4090be8ac745!8m2!3d34.087162!4d-118.260053!16s%2Fg%2F1w0h7sfb!19sChIJvygsZInHwoARRceKvpBAvcg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Attentive caregivers with occasional friction"
+      },
+      "text": {
+        "en": "Pet owners frequently highlight kind and communicative care from clinicians such as Dr. Przekop and veterinary nurse Holly Polk. Many clients appreciate doctors who explain treatments without applying sales pressure. Conversely, negative reviews cite rushed transactional attitudes and brief phone conversations during inquiries."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Transparent pricing alongside procedural costs"
+      },
+      "text": {
+        "en": "Multiple clients commend the hospital for fair examination rates, clear cost estimates, and refusing to upsell unnecessary diagnostic tests. Routine checkup fees are viewed as reasonable by several pet parents. Nonetheless, other reviewers noted significant expenses for comprehensive imaging and repeat radiographs for injuries."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Diagnostic assessments and patient outcomes"
+      },
+      "text": {
+        "en": "Reviewers report positive medical recoveries from acute poisonings, eye infections, and urgent health conditions treated on the same day. Clients value thorough diagnostic workups that resolve uncomfortable symptoms in companion animals. However, one owner reported a missed diagnosis on leg imaging that required follow-up care elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept walk-in patients on weekends?"
+      },
+      "a": {
+        "en": "Yes, clients report visiting as walk-ins on Sundays for urgent eye infections and acute health issues."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the hospital communicate fees openly before treatment?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the staff explains procedural costs clearly without pushing unnecessary testing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the hospital handle urgent health problems?"
+      },
+      "a": {
+        "en": "Yes, pet parents report receiving prompt treatment on the same day for sudden illnesses and urgent canine ailments."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "~",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
