@@ -1,0 +1,138 @@
+{
+  "slug": "bowie-barker-west-hollywood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bowie+Barker+West+Hollywood/data=!4m7!3m6!1s0x80c2b99880c293cf:0x5c3358ece700e05f!8m2!3d34.0764501!4d-118.3557626!16s%2Fg%2F11rqmds4jf!19sChIJz5PCgJi5woARX-AA5-xYM1w?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed experiences with pet comfort"
+      },
+      "text": {
+        "en": "Pet owners share contrasting experiences regarding their dogs' comfort during appointments. Some clients report that attendants were very gentle, offering treats and soothing attention to help nervous puppies acclimate. Conversely, other reviews describe pets feeling traumatized by lengthy appointments or contracting worms following a grooming visit, leading those owners to seek alternative care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varying consistency in haircut styling"
+      },
+      "text": {
+        "en": "Opinions on haircut quality and finish are divided among reviewers. Happy customers report loving their dog's appearance and establishing regular grooming routines. However, dissatisfied clients complain of incomplete grooms despite premium fees, citing untrimmed nails, uneven fur framing, neglected paw trimming, and dogs requiring repeat visits to finish basic brushing."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly attendants alongside dismissive encounters"
+      },
+      "text": {
+        "en": "Feedback regarding customer service is polarized. Several reviewers express warm gratitude toward staff members who were caring and attentive to their puppies. In contrast, another customer felt dismissed when staff proposed cutting a dog's coat drastically short rather than spending time brushing it, describing the employee's attitude as rude and unaccommodating."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do attendants support nervous dogs during their first groom?"
+      },
+      "a": {
+        "en": "Reviewers mention that attendants offer treats, pet anxious dogs, and check on them frequently to build comfort."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should owners check before leaving after a grooming appointment?"
+      },
+      "a": {
+        "en": "Some clients advise inspecting nail trimming and sanitary cuts closely, as a few reviews reported incomplete styling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments completed within expected timeframes?"
+      },
+      "a": {
+        "en": "While many visits go smoothly, an owner reported an appointment taking multiple hours and requiring a second visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the salon's grooming prices perceived?"
+      },
+      "a": {
+        "en": "A reviewer noted paying nearly two hundred dollars for styling and felt the final result did not justify the high cost."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
