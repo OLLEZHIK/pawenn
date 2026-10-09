@@ -1,0 +1,140 @@
+{
+  "slug": "pet-source-1901",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Source+1901/data=!4m7!3m6!1s0x80c2c7a2060efda9:0xb48f439fdea7540c!8m2!3d34.0543378!4d-118.2757003!16s%2Fg%2F1tr17vch!19sChIJqf0OBqLHwoARDFSn3p9Dj7Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Clean and well-organized neighborhood store"
+      },
+      "text": {
+        "en": "Customers consistently highlight the tidy, well-maintained shop floor and wide inventory of pet food and accessories. Reviewers appreciate finding a comprehensive assortment of supplies for household pets under one roof. The retail environment is frequently described as clean, welcoming, and easy to navigate for routine shopping trips."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and friendly retail clerks"
+      },
+      "text": {
+        "en": "Shoppers praise the on-site team for their attentive customer service and readiness to assist with product inquiries. Multiple pet owners note that staff members are welcoming and courteous when helping patrons locate specific pet provisions. In-person service is regarded as friendly and dependable throughout regular shopping visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Supplies and care for diverse pets"
+      },
+      "text": {
+        "en": "Pet owners appreciate that the store accommodates a diverse assortment of domestic animals, carrying specialized food and accessories for cats, dogs, and smaller pets. Reviewers also mention seeing a variety of live animals and finding essential specialty supplies that cater to specific companion animal needs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What payment methods are accepted at the store?"
+      },
+      "a": {
+        "en": "Reviewers note that the store operates on a cash-only basis, so shoppers should prepare cash before visiting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I call the store to check product inventory?"
+      },
+      "a": {
+        "en": "Customers report that phone calls frequently go unanswered, making visiting the shop in person the most reliable way to check stock."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store carry supplies for cats?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention purchasing food, litter, and daily accessories for cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are live pets available at this location?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers mention seeing a variety of pets and small companion animals available in the store."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    }
+  ]
+}
