@@ -1,0 +1,165 @@
+{
+  "slug": "john-s-feed-2",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/John%27s+Feed+2/data=!4m7!3m6!1s0x80c2c911337450b7:0x596e019f26078f92!8m2!3d33.9745219!4d-118.2353477!16s%2Fg%2F1tcx_2rs!19sChIJt1B0MxHJwoARko8HJp8Bblk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical views on customer service"
+      },
+      "text": {
+        "en": "Customer service receives predominantly critical reviews from recent shoppers. While some buyers find staff friendly and knowledgeable regarding poultry feed, multiple visitors report unhelpful attitudes, dismissive answers from cashiers, and being ignored by floor employees when requesting assistance."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed opinions on merchandise pricing"
+      },
+      "text": {
+        "en": "Pricing feedback is split among shoppers. Several customers appreciate affordable rates on chicken grains and animal supplements, praising the variety of bulk supplies. Conversely, other reviewers consider the prices high for accessories and feel that animal welfare did not match the prices paid."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied reports on animal conditions"
+      },
+      "text": {
+        "en": "Shoppers share mixed observations regarding animals and poultry in the shop. Buyers seeking chicks note helpful advice from experienced workers. However, a critical review noted overcrowded cages and expressed concern that certain small animals needed greater care and cleaner enclosures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of pet feed are sold here?"
+      },
+      "a": {
+        "en": "Shoppers find chicken feed, bird seed, grains, pet vitamins, and supplies for farm animals as well as domestic pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I order online for store pickup?"
+      },
+      "a": {
+        "en": "Yes, the shop supports online ordering through its digital ordering storefront for quick customer pickup."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How long does it take to get assistance?"
+      },
+      "a": {
+        "en": "While checkout is often quick, some reviewers report waiting up to twenty minutes to get assistance from floor staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are live chicks and poultry available?"
+      },
+      "a": {
+        "en": "Yes, shoppers mention purchasing chicks and obtaining advice from staff regarding proper poultry feed and care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

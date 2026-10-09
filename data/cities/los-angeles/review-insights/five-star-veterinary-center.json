@@ -1,0 +1,187 @@
+{
+  "slug": "five-star-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Star+Veterinary+Center/data=!4m7!3m6!1s0x80c28e29a089ba5b:0xe0e31c704190c2fa!8m2!3d34.3093875!4d-118.4320831!16s%2Fg%2F1tfydv5y!19sChIJW7qJoCmOwoAR-sKQQXAc4-A?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Mixed experiences with clinic personnel"
+      },
+      "text": {
+        "en": "Pet owners report sharply contrasting interactions with the clinic team. Longtime clients praise the compassionate nurses and doctors for kind checkups. In contrast, multiple recent reviews complain of rude behavior, hostile front office receptionists, and difficulties speaking directly with a licensed veterinarian regarding patient treatment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Critical reviews regarding animal handling"
+      },
+      "text": {
+        "en": "While some pet parents note gentle handling of puppies and senior dogs, several reviewers describe distressing treatment experiences. Reports include visible neck bruising following handling, inaccurate prescription dosages that made pets ill, and an apparent lack of attentiveness from specific staff members during clinical visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Issues reported with medical outcomes"
+      },
+      "text": {
+        "en": "Although routine medication purchases are described as satisfactory by some clients, several reviews highlight concerning medical outcomes. Pet owners cite receiving feline medication for dogs, improper dosage instructions, and treatments that led to formal medical board inquiries and lasting distrust among clients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I speak directly with a doctor during visits?"
+      },
+      "a": {
+        "en": "Several clients report interacting primarily with technicians and front desk staff, finding it difficult to consult a doctor directly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do reviewers say about clinic cleanliness?"
+      },
+      "a": {
+        "en": "Regular visitors mention that the facility and examination rooms are kept clean and orderly during routine appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dental cleanings offered for dogs?"
+      },
+      "a": {
+        "en": "Yes, clients mention scheduling visits for routine teeth cleaning and canine dental examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are prices perceived by visitors?"
+      },
+      "a": {
+        "en": "Some pet owners consider fees reasonable, while others feel pressured into higher charges for prescriptions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

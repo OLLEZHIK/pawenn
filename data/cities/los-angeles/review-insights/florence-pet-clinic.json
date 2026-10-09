@@ -1,0 +1,201 @@
+{
+  "slug": "florence-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Florence+Pet+Clinic/data=!4m7!3m6!1s0x80c2c91125e19c69:0x77ccd9d9d6b582b1!8m2!3d33.9750965!4d-118.2359554!16s%2Fg%2F1tp08cw2!19sChIJaZzhJRHJwoARsYK11tnZzHc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Divided feedback on clinic staff"
+      },
+      "text": {
+        "en": "Reviewers share sharply divided opinions about clinic staff. Long-term clients commend kind treatment from the attending veterinarian and nurse Faustino, appreciating helpful guidance for family pets. However, several visitors report rude receptionists, dismissive attitudes, and cold interactions during distressing medical visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Contrasting reports on pet care"
+      },
+      "text": {
+        "en": "Pet owners who had positive visits appreciate how dogs and cats are handled, citing dependable routine care over many years. On the other hand, multiple reviewers expressed deep frustration when staff refused to evaluate a weak kitten near closing time or appeared rushed and uncaring when examining distressed dogs."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frequent communication and guidance problems"
+      },
+      "text": {
+        "en": "Reviews reflect significant dissatisfaction with client communication. Callers mention being advised to come in, only to face unhelpful receptionists upon arrival. Other pet parents note that doctors pressured them into quick decisions regarding procedures without explaining treatment costs beforehand."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept walk-in patients?"
+      },
+      "a": {
+        "en": "Walk-ins are sometimes accepted, but reviewers report being turned away before posted closing times when arriving late in the day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment prices discussed before procedures?"
+      },
+      "a": {
+        "en": "Several clients recommend asking for pricing estimates directly, noting fees are not always volunteered prior to procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available on site?"
+      },
+      "a": {
+        "en": "Clients note that parking can be difficult to find around the clinic on East Florence Avenue."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff provide grooming services?"
+      },
+      "a": {
+        "en": "Yes, clients mention pet shaving and grooming services, though some found the service expensive for small breeds."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
