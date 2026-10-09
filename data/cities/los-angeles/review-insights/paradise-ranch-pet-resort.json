@@ -1,0 +1,139 @@
+{
+  "slug": "paradise-ranch-pet-resort",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Paradise+Ranch+Pet+Resort/data=!4m7!3m6!1s0x80c29464d7e85a8f:0xe67007090982ee89!8m2!3d34.233751!4d-118.3548036!16s%2Fg%2F1v_vt4x8!19sChIJj1ro12SUwoARie6CCQkHcOY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Spacious outdoor cage free facility"
+      },
+      "text": {
+        "en": "Clients frequently highlight the expansive outdoor layout featuring multiple play areas, water features, and wading pools. Dog owners appreciate the cage-free boarding environment where pets can socialize freely throughout the day and night. The secure double-gated entry system allows for swift drop-offs and pick-ups."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Relaxed stays for visiting dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize how eagerly their dogs greet arrivals and return home relaxed after extended boarding stays. Owners of large breeds and sensitive dogs note that their pets adapt smoothly without showing signs of stress or fatigue. Several clients describe the ranch as an engaging playground where canine guests enjoy exercise."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive caregivers with mixed impressions"
+      },
+      "text": {
+        "en": "Most pet owners praise the attendants and managers for their understanding of canine behavior and dedication to large breeds. Staff members regularly share photo updates and monitor group play. However, a customer reported a distant reception at check-in alongside unhelpful interactions, suggesting occasional lapses in service."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are boarding dogs kept in cages during their stay?"
+      },
+      "a": {
+        "en": "No, reviewers confirm the facility operates on a cage-free model with spacious indoor and outdoor areas for dogs to roam and rest."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do owners receive progress updates while away?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention receiving photos and status updates showing how their dogs are doing during boarding stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I arrange grooming during a boarding visit?"
+      },
+      "a": {
+        "en": "Yes, pet parents report that on-site grooming services can be scheduled so dogs return home clean after daycare or boarding."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the drop-off and pick-up process work?"
+      },
+      "a": {
+        "en": "Owners describe a gated entry system where staff meet clients outside for quick and secure transfers without entering the main office."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "staff": "-"
+      }
+    }
+  ]
+}
