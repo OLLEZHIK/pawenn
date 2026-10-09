@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
@@ -28,13 +29,15 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { BusinessCard, StarRow } from "@/components/BusinessCard";
 import { BusinessAvatar } from "@/components/BusinessAvatar";
 import { GoogleRating } from "@/components/GoogleRating";
+import { BEST_TEXT, bestName, bestPath, rankBest } from "@/lib/bestPages";
+import { whereLabel } from "@/components/CategoryListing";
 import { ReviewInsightsSection, ReviewInsightsShort } from "@/components/ReviewInsightsSection";
 import { OpeningHoursTable } from "@/components/OpeningHoursTable";
 import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
 import { PlaceFacts } from "@/components/PlaceFacts";
 import { CityPrices } from "@/components/CityPrices";
-import { cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
+import { cityClock, cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
 import { specialtyLabel } from "@/lib/vet";
 import { parseReviewInsights } from "@/lib/reviewInsights";
 import {
@@ -144,6 +147,19 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
     getDistrictSummaries(citySlug ?? ""),
   ]);
   const similar = similarRaw.filter((b) => b.id !== business.id).slice(0, 4);
+  // Its place in a "best" list (lib/bestPages.ts): the district's when it
+  // is there, else the city's - a link to the list and a reason to trust.
+  const districtSlug = business.district?.slug;
+  const districtBest = districtSlug ? rankBest(similarRaw.filter((b) => b.district?.slug === districtSlug)) : [];
+  const cityBest = rankBest(similarRaw);
+  const bestRank = (() => {
+    const inDistrict = districtBest.findIndex((b) => b.id === business.id);
+    if (inDistrict >= 0 && city && business.district)
+      return { n: inDistrict + 1, href: bestPath(locale, business.category, city.slug, districtSlug), where: whereLabel(locale, city, business.district) };
+    const inCity = cityBest.findIndex((b) => b.id === business.id);
+    if (inCity >= 0 && city) return { n: inCity + 1, href: bestPath(locale, business.category, city.slug), where: whereLabel(locale, city) };
+    return null;
+  })();
 
   const mapQuery =
     business.lat !== null && business.lng !== null
@@ -291,6 +307,11 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                 {priceTiers.has(business.id) && (
                   <PriceTier level={priceTiers.get(business.id)!} currency={city?.currency} locale={locale} className="text-sm" />
                 )}
+                {bestRank && (
+                  <Link href={bestRank.href} className="text-sm font-semibold text-[var(--accent,var(--brand-blue))] hover:underline">
+                    {BEST_TEXT[locale].rank(bestRank.n)} · {bestName(business.category, locale)} {bestRank.where}
+                  </Link>
+                )}
                 {rating !== null && (
                   <a href="#reviews" className="flex items-center gap-1.5 hover:opacity-80">
                     <StarRow rating={rating} />
@@ -420,6 +441,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                     locale={locale}
                     sourceUrl={business.hoursSourceUrl}
                     observedAt={business.hoursObservedAt}
+                    clock={cityClock(business.city ?? business.district?.city)}
                   />
                 </div>
               )}
@@ -521,7 +543,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
               </p>
             )}
             <a
-              href={`mailto:{EMAIL}?subject=${encodeURIComponent(`Report an issue: ${business.name}`)}`}
+              href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Report an issue: ${business.name}`)}`}
               className="mt-1 inline-block hover:underline"
             >
               {t.business.reportIssue}
@@ -657,11 +679,13 @@ function safeHost(url: string): string | null {
 }
 
 
-/** "instagram.com/vetline_sk" style label for a social profile URL. */
+/** "vetline_sk" style label for a social profile URL: the network is already
+ *  named by the row label, so only the path (the handle) is shown. */
 function socialHandle(url: string): string {
   try {
     const u = new URL(url);
-    return `${u.hostname.replace(/^www\./, "")}${u.pathname.replace(/\/$/, "")}`;
+    const path = u.pathname.replace(/^\/|\/$/g, "");
+    return path || u.hostname.replace(/^www\./, "");
   } catch {
     return url;
   }

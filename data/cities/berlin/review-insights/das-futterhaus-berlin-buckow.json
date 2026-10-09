@@ -1,0 +1,273 @@
+{
+  "slug": "das-futterhaus-berlin-buckow",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DAS+FUTTERHAUS+-+Berlin-Buckow/@52.4327839,13.4341299,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84598c3a4d1d3:0x8ca3520613e9c525!8m2!3d52.4327839!4d13.4341299!16s%2Fg%2F1tdgnw0d?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 26,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "de": "Großer Fachmarkt mit breiter Produktauswahl",
+        "en": "Large pet store with wide product range"
+      },
+      "text": {
+        "de": "Kunden loben die übersichtliche Aufteilung, Sauberkeit und das vielfältige Futtersortiment der Buckower Filiale. Tierhalter finden Nahrung und Zubehör für Hunde, Katzen und Kleintiere. Kritik entzündet sich jedoch an der Parkplatzüberwachung vor dem Geschäft.",
+        "en": "Shoppers praise the orderly layout, cleanliness, and diverse food selection of the Buckow store. Pet owners find supplies for dogs, cats, and small animals. However, criticism frequently arises regarding strict parking enforcement outside the building."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "de": "Zuvorkommende Beratung neben vereinzelter Kritik",
+        "en": "Courteous advice alongside occasional criticism"
+      },
+      "text": {
+        "de": "Mehrere Rezensenten betonen die freundliche und hilfsbereite Art des Personals bei Fragen rund um Fütterung und Zubehör. Demgegenüber schildern einzelne Kunden genervte Reaktionen von Mitarbeitern bei Reklamationen oder Rückgaben von Artikeln an der Kasse.",
+        "en": "Several reviewers emphasize the friendly and helpful assistance of staff members regarding nutrition questions. In contrast, isolated shoppers describe irritated employee reactions during product complaints or merchandise returns at the checkout counter."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Unerwartete Zusatzkosten und unklare Preisauszeichnungen",
+        "en": "Unexpected added costs and pricing disputes"
+      },
+      "text": {
+        "de": "Kritische Stimmen berichten über teure Strafzettel privater Parkplatzwächter wegen kurz vergessener Parkscheiben direkt vor dem Fachmarkt. Zudem weisen Kunden in einzelnen Rückmeldungen auf fehlerhafte Preisauszeichnungen an den Regalen und unerwartet teure Kassenzettel hin.",
+        "en": "Critical voices report expensive parking tickets issued by private lot controllers due to briefly forgotten parking discs outside the superstore. In addition, customers note contradictory shelf price tags and unexpectedly higher totals at the checkout in isolated reviews."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Was muss man beim Parken vor dem Futterhaus Buckow beachten?",
+        "en": "What should visitors keep in mind when parking outside Futterhaus Buckow?"
+      },
+      "a": {
+        "de": "Auf dem Kundenparkplatz muss zwingend eine Parkscheibe ausgelegt werden, um Strafzettel zu vermeiden.",
+        "en": "Drivers must display a parking disc on their dashboard to avoid fines from private lot enforcement."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bietet die Filiale besondere Serviceeinrichtungen für Hunde?",
+        "en": "Does the branch provide specialized amenities for dogs?"
+      },
+      "a": {
+        "de": "Ja, in der Filiale Buckow gibt es unter anderem eine Indoor-Hundewaschanlage für Besucher.",
+        "en": "Yes, the Buckow branch features an indoor dog wash facility among other services for visitors."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden Wasseranalysen für Aquarien vor Ort angeboten?",
+        "en": "Are water analyses for aquariums available on site?"
+      },
+      "a": {
+        "de": "Ja, das Geschäft bietet für Aquarianer professionelle Wasseranalysen und Beratung an.",
+        "en": "Yes, the store provides water testing and advice for aquarium keepers on site."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

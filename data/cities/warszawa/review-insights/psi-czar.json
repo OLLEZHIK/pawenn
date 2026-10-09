@@ -1,0 +1,141 @@
+{
+  "slug": "psi-czar",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=12799191076849499149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "observed_at": "2026-10-02",
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "topic": "results",
+      "title": {
+        "en": "Neat haircuts and craftsmanship",
+        "pl": "Staranne strzyżenie i kunszt groomerski"
+      },
+      "text": {
+        "en": "Dog owners enthusiastically praise the visual transformation of their pets, describing haircuts as flawless, stylish, and durable. Reviewers emphasize the visible craftsmanship and precise scissoring, noting that dogs consistently look well-tended and fresh.",
+        "pl": "Właściciele psów z ogromnym zadowoleniem oceniają efekty wizyt, opisując fryzury swoich pupili jako nienaganne, estetyczne i staranne. Recenzenci podkreślają widoczny kunszt nożyczek oraz precyzję, dzięki którym czworonogi wyglądają zadbanie i świeżo."
+      },
+      "mentions": 5,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "animals",
+      "title": {
+        "en": "Patience with demanding and reactive dogs",
+        "pl": "Cierpliwość do psów wymagających i trudnych"
+      },
+      "text": {
+        "en": "Clients strongly value the team's ability to soothe high-energy or reluctant dogs that typically resist grooming. Reviewers mention that pets that struggled elsewhere remain well-behaved here and leave the salon happy rather than stressed after treatments.",
+        "pl": "Klienci bardzo doceniają umiejętność wyciszenia psów energicznych lub niechętnych zabiegom pielęgnacyjnym. W opiniach pojawiają się relacje o czworonogach, które w innych miejscach sprawiały trudności, a tutaj dają się spokojnie i bez stresu ostrzyc."
+      },
+      "mentions": 4,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Friendly service and welcoming approach",
+        "pl": "Życzliwa obsługa i serdeczna atmosfera"
+      },
+      "text": {
+        "en": "Reviewers highlight Ms. Małgosia and her staff for their professionalism, warmth, and supportive customer relations throughout each booking. Visitors report feeling thoroughly confident entrusting their beloved companions to such dedicated animal lovers.",
+        "pl": "Recenzenci wyróżniają panią Małgosię oraz jej zespół za profesjonalizm, uśmiech i serdeczne relacje z opiekunami podczas każdej wizyty. Klienci zaznaczają, że bez wahania powierzają swoje czworonogi tak życzliwym i doświadczonym miłośniczkom zwierząt."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can dogs that dislike grooming be styled here?",
+        "pl": "Czy w salonie można ostrzyc psa nielubiącego zabiegów?"
+      },
+      "a": {
+        "en": "Yes, clients specifically emphasize the team's exceptional patience and calm technique with difficult and reactive dogs.",
+        "pl": "Tak, klienci szczególnie chwalą personel za cierpliwość i profesjonalne podejście do psów bardzo niespokojnych."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the parlor situated in Warsaw?",
+        "pl": "Gdzie w Warszawie mieści się salon?"
+      },
+      "a": {
+        "en": "The salon is located at Dąbrowiecka 8 in the Saska Kępa neighborhood of Praga-Południe.",
+        "pl": "Salon mieści się przy ulicy Dąbrowieckiej 8 na Saskiej Kępie w dzielnicy Praga-Południe."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What grooming treatments are provided?",
+        "pl": "Jakie zabiegi pielęgnacyjne oferuje salon?"
+      },
+      "a": {
+        "en": "The salon offers washing, clipping, brushing, claw care, and comprehensive breed-standard styling.",
+        "pl": "Salon wykonuje kąpiele, strzyżenie, rozczesywanie, pielęgnację pazurów oraz pełną stylizację psów."
+      },
+      "basis": "both"
+    }
+  ],
+  "reviews_in_period": 6
+}

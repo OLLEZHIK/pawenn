@@ -1,0 +1,166 @@
+{
+  "slug": "goldenvet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/GoldenVet/data=!4m7!3m6!1s0x470fea648027630f:0xec0181038758c4b0!8m2!3d51.1244706!4d16.9688167!16s%2Fg%2F11bx55v67j!19sChIJD2MngGTqD0cRsMRYhwOBAew?hl=pl",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "observed_at": "2026-10-04",
+  "reviews_in_period": 9,
+  "cards": [
+    {
+      "topic": "staff",
+      "mentions": 8,
+      "sentiment": "positive",
+      "title": {
+        "en": "Knowledgeable veterinarians with heart for pets",
+        "pl": "Doświadczeni lekarze z sercem do zwierząt"
+      },
+      "text": {
+        "en": "Caregivers praise the veterinarians, including Dr. Michał, for broad medical knowledge, thorough explanations, and warm bedside manner. The staff creates a welcoming environment, although a solitary review complained about a perceived lack of empathy during an appointment.",
+        "pl": "Opiekunowie chwalą lekarzy, w tym dr. Michała, za szeroką wiedzę medyczną, wyczerpujące wyjaśnienia i życzliwy stosunek do pacjentów. Zespół zapewnia przyjazną atmosferę, choć w pojedynczej opinii pojawiło się zastrzeżenie do empatii personelu podczas wizyty."
+      }
+    },
+    {
+      "topic": "prices",
+      "mentions": 3,
+      "sentiment": "positive",
+      "title": {
+        "en": "Fair pricing without excessive charges",
+        "pl": "Uczciwe ceny bez wygórowanych kosztów"
+      },
+      "text": {
+        "en": "Several reviewers specifically commend the clinic for affordable and transparent fees. Visitors emphasize that medical help and diagnostic examinations are provided at fair rates without unwarranted markups or pressuring clients into unnecessary expensive procedures.",
+        "pl": "Wielu opiekunów wyraźnie chwali gabinet za w pełni przystępne i przejrzyste opłaty. Klienci podkreślają, że fachowa pomoc medyczna oraz badania diagnostyczne świadczone są w bardzo rozsądnych stawkach, bez sztucznego zawyżania kosztów czy naciągania na zbędne procedury."
+      }
+    },
+    {
+      "topic": "animals",
+      "mentions": 3,
+      "sentiment": "positive",
+      "title": {
+        "en": "Gentle approach to companion animals",
+        "pl": "Łagodne podejście do zwierząt domowych"
+      },
+      "text": {
+        "en": "Pet parents highlight that dogs and cats are treated with genuine warmth and care from the moment they enter the clinic. The gentle and patient handling reduces stress during routine checkups and diagnostic tests, ensuring animals feel calm throughout their medical visit.",
+        "pl": "Właściciele czworonogów wskazują, że psy i koty są traktowane z prawdziwą troską i uwagą od momentu przekroczenia progu gabinetu. Cierpliwe i spokojne podejście ogranicza stres podczas badań profilaktycznych, sprawiając, że zwierzęta czują się bezpiecznie."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet passports be issued at GoldenVet?",
+        "pl": "Czy w gabinecie GoldenVet można wyrobić paszport dla zwierzęcia?"
+      },
+      "a": {
+        "en": "Yes, the clinic provides microchipping and issues official pet passports for travel.",
+        "pl": "Tak, placówka wykonuje czipowanie oraz wydaje oficjalne paszporty dla zwierząt."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform ultrasound diagnostics?",
+        "pl": "Czy gabinet wykonuje badania ultrasonograficzne?"
+      },
+      "a": {
+        "en": "Yes, abdominal ultrasonography and in-house laboratory testing are available on-site.",
+        "pl": "Tak, na miejscu dostępne są badania USG jamy brzusznej oraz diagnostyka laboratoryjna."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is the practice open on Saturdays?",
+        "pl": "Czy placówka jest czynna w soboty?"
+      },
+      "a": {
+        "en": "Yes, GoldenVet receives patients on Saturdays between 09:00 and 14:00.",
+        "pl": "Tak, gabinet GoldenVet przyjmuje pacjentów w soboty w godzinach od 09:00 do 14:00."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 tygodnie temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 miesiące temu",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

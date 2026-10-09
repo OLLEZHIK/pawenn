@@ -1,0 +1,22 @@
+{
+  "chunk": "insights-01",
+  "kind": "insights",
+  "slugs": [
+    "salon-a-hotel-pre-psov-havko",
+    "vyjazdovy-veterinar-mvdr-jana-morvayova"
+  ],
+  "hash": "df7038c23faa34cc982c36b26d54d5e2eb5dc141f585547f11b235573b61d5bd",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-02T16:35:20.148Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-02T16:35:41.812Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

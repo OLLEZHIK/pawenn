@@ -1,0 +1,198 @@
+{
+  "slug": "aspca-community-veterinary-clinic-by-appointment-only",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ASPCA+Community+Veterinary+Clinic+-+By+Appointment+Only/@40.6629614,-73.8900064,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25d077db53853:0x3dc866739fa22e87!8m2!3d40.6629614!4d-73.8900064!16s%2Fg%2F11mk8tr58x?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Severe phone access and communication hurdles"
+      },
+      "text": {
+        "en": "A majority of reviewers report immense difficulty reaching the clinic by telephone, noting unanswered calls, automated messages stating phone lines are closed during business hours, and prolonged hold times exceeding an hour. While in-person staff provide thorough explanations, phone support remains a persistent frustration for callers."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Prolonged hold times and scarce appointments"
+      },
+      "text": {
+        "en": "Booking an appointment proves challenging for many pet owners, who describe waiting on hold for hours or calling back continuously over several weeks without securing a slot. A few clients note that calling right before lines open or walking in at opening can yield a same-day visit, but scheduled availability fills up almost instantly."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate bedside manner amid administrative tension"
+      },
+      "text": {
+        "en": "Clients who successfully attend appointments describe the on-site veterinary staff as professional, attentive, and deeply compassionate during bereavement support. Conversely, multiple reviewers share frustration regarding telephone interactions, describing phone representatives as unhelpful or dismissive when inquiries cannot be accommodated."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How difficult is it to book an appointment over the phone?"
+      },
+      "a": {
+        "en": "Reviewers report that phone lines are heavily congested, often requiring callers to dial early in the morning and wait on hold for extended periods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services restricted by location or zip code?"
+      },
+      "a": {
+        "en": "Yes, several disappointed reviewers emphasize that clinic eligibility is strictly limited to specific local zip codes, and pets from other areas are turned away."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the experience like once inside the clinic?"
+      },
+      "a": {
+        "en": "Clients who secure an appointment report clean facilities, minimal waiting room delays, and caring staff who provide thorough instructions and compassionate support."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "~",
+        "waiting": "~",
+        "prices": "+"
+      }
+    }
+  ]
+}

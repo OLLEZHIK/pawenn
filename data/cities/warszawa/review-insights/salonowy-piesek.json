@@ -1,0 +1,167 @@
+{
+  "slug": "salonowy-piesek",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=7840278996438337678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Recurrent complaints about staff behavior and communication",
+        "pl": "Częste skargi na zachowanie personelu i komunikację"
+      },
+      "text": {
+        "en": "While some customers appreciate pleasant interactions with groomers like Beata or Dorota, the majority of recent feedback highlights severe communication issues. Reviewers report rude comments, sudden telephone cancellations, and raised voices from management when scheduling conflicts occur.",
+        "pl": "Choć pojedynczy klienci miło wspominają kontakt z groomerkami Beatą lub Dorotą, w ostatnich opiniach dominują poważne skargi na obsługę. Właściciele zgłaszają nieprzyjemne uwagi, nagłe odwoływanie wizyt w dniu spotkania oraz podnoszenie głosu przez właścicielkę przy sporach."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Differing experiences with haircut quality",
+        "pl": "Zróżnicowane doświadczenia z jakością fryzury"
+      },
+      "text": {
+        "en": "Satisfied dog owners praise skilled cuts that bring out breed-specific elegance in large and small pets. In contrast, other reviewers experienced poor styling outcomes or unaddressed injuries, leading them to question overall consistency and attention to grooming detail.",
+        "pl": "Zadowoleni opiekunowie chwalą staranne strzyżenie, które podkreśla wzorzec rasy i elegancję czworonoga. Z drugiej strony pojawiają się skargi na niedokładność oraz brak informacji o powstałych urazach, co budzi wątpliwości klientów co do powtarzalności jakości usług."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied reports on stress and safety during visits",
+        "pl": "Rozbieżne relacje o stresie i bezpieczeństwie psa"
+      },
+      "text": {
+        "en": "A few reviewers note that experienced staff successfully managed nervous animals with patience. However, concerning accounts mention pets leaving visibly stressed, with one customer discovering a cut on their dog that caused limping without prior notification upon collection.",
+        "pl": "Pojedynczy recenzenci wspominają o cierpliwym podejściu do trudniejszych psów. Zaniepokojenie budzą jednak opinie o silnym stresie zwierząt po wizycie, w tym przypadek odebrania kulejącego psa ze zranieniem, o którym nie uprzedzono właściciela przy odbiorze."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services are offered by Salonowy Piesek?",
+        "pl": "Jakie zabiegi wykonuje Salonowy Piesek?"
+      },
+      "a": {
+        "en": "The salon offers baths, full-coat styling, brushing, hygiene grooming, and ear and claw maintenance for dogs.",
+        "pl": "Salon wykonuje kąpiele, strzyżenie, rozczesywanie, trymowanie oraz podstawowe zabiegi higieniczne, w tym obcinanie pazurów."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Salonowy Piesek situated?",
+        "pl": "Gdzie mieści się Salonowy Piesek?"
+      },
+      "a": {
+        "en": "The salon is situated at 29 Listopada 14 in the Śródmieście/Czerniaków area of Warsaw, close to Royal Łazienki Park.",
+        "pl": "Lokal mieści się przy ulicy 29 Listopada 14 w rejonie Śródmieścia i Czerniakowa, w sąsiedztwie Parku Łazienkowskiego."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are scheduling and appointment cancellations handled?",
+        "pl": "Jak wygląda kwestia terminów i odwoływania wizyt?"
+      },
+      "a": {
+        "en": "Appointments are scheduled via phone or Booksy, but recent reviews caution that the salon has occasionally cancelled visits on the same day.",
+        "pl": "Wizyty umawia się telefonicznie lub przez Booksy, jednak z ostatnich opinii wynika, że zdarzały się nagłe odwołania terminów w tym samym dniu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pets examined together with the owner before grooming?",
+        "pl": "Czy stan psa jest omawiany z właścicielem przed zabiegiem?"
+      },
+      "a": {
+        "en": "Owners discuss styling wishes at drop-off, though clients advise verifying breed description and time expectations explicitly upon arrival.",
+        "pl": "Zakres strzyżenia jest omawiany przy przekazaniu psa, przy czym klienci radzą dokładnie upewnić się co do czasu trwania i opisu usługi."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

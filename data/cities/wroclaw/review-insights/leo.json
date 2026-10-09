@@ -1,0 +1,134 @@
+{
+  "slug": "leo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/LEO/@51.1072363,17.020301,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20c691b8993:0xa183977d1fdd5fdc!8m2!3d51.1072363!4d17.020301!16s%2Fg%2F11tlbmwgp?authuser=0&hl=pl&entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated doctor with divided client reviews",
+        "pl": "Zaangażowany lekarz z podzielonymi opiniami"
+      },
+      "text": {
+        "en": "Several pet owners warmly thank Dr Tomasz Frankowski for his thoroughness, empathy, and professional consultations. In contrast, negative reviews criticize handling during visits, alleging impatience with puppies, frequent phone disruptions, and perceived lapses in focus.",
+        "pl": "Część opiekunów bardzo ciepło dziękuje doktorowi Tomaszowi Frankowskiemu za wnikliwość, empatię i profesjonalizm w gabinecie. Z kolei głosy krytyczne zarzucają lekarzowi trudności w podejściu do szczeniąt, dekoncentrację telefonami oraz opóźnianie wizyty konsultacyjnej."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed interviews with phone interruption critiques",
+        "pl": "Szczegółowy wywiad i zastrzeżenia do telefonów"
+      },
+      "text": {
+        "en": "Favorable feedback praises the veterinarian for conducting detailed medical interviews and maintaining helpful contact before and after consultations. On the other hand, a dissatisfied client felt neglected because incoming phone calls repeatedly disrupted the appointment.",
+        "pl": "Pozytywne opinie chwalą weterynarza za wnikliwy wywiad lekarski oraz kontakt informacyjny z opiekunem przed i po wizycie. Z drugiej strony niezadowolony klient zwrócił uwagę na ciągłe odbieranie telefonów przez lekarza, co negatywnie wpływało na płynność konsultacji."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Individual pet care amidst handling debate",
+        "pl": "Indywidualna opieka i uwagi do procedur"
+      },
+      "text": {
+        "en": "Satisfied reviewers appreciate that their canine companions receive dedicated attention rather than feeling like a mere ticket in line. However, a critical voice voiced disappointment regarding pet handling, objecting to the application of a muzzle on a calm young puppy.",
+        "pl": "Zadowoleni klienci doceniają, że ich czworonogi są traktowane podmiotowo, z uwagą i bez pośpiechu podczas badań klinicznych. Jednak w opiniach pojawił się także wyraźny zarzut dotyczący postępowania ze szczeniakiem, w tym założenia kagańca spokojnemu młodemu psu."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Dr Frankowski provide post-visit consultations?",
+        "pl": "Czy doktor Frankowski utrzymuje kontakt z opiekunem po wizycie?"
+      },
+      "a": {
+        "en": "Yes, satisfied clients mention dependable contact and follow-up guidance before and after appointments.",
+        "pl": "Tak, zadowoleni klienci wspominają o sprawnym kontakcie i wskazówkach przekazywanych przed oraz po wizycie."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are detailed interviews conducted during appointments?",
+        "pl": "Czy lekarz przeprowadza szczegółowy wywiad medyczny?"
+      },
+      "a": {
+        "en": "Yes, pet guardians emphasize that the doctor asks thorough questions about symptoms, though phone calls can occasionally distract.",
+        "pl": "Tak, opiekunowie chwalą wnikliwe pytania o stan zdrowia, choć bywają uwagi dotyczące rozpraszających telefonów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should puppy owners expect regarding visit procedures?",
+        "pl": "Czego mogą spodziewać się opiekunowie szczeniąt podczas wizyt?"
+      },
+      "a": {
+        "en": "While routine appointments are thorough, opinions differ regarding pet handling and the precautionary use of muzzles.",
+        "pl": "Wizyty są wnikliwe, jednak opinie klientów są podzielone w kwestii podejścia do szczeniąt i profilaktycznego kagańca."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

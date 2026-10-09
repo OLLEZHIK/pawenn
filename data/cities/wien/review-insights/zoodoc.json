@@ -1,0 +1,171 @@
+{
+  "slug": "zoodoc",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Zoodoc/@48.1769004,16.3026819,17z/data=!3m1!4b1!4m6!3m5!1s0x476da8758044fa79:0x3abef4300b4be267!8m2!3d48.1769004!4d16.3026819!16s%2Fg%2F11h4djl5zy?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "de": "Kompetente Betreuung durch freundliches Praxisteam",
+        "en": "Competent care by friendly clinic team"
+      },
+      "text": {
+        "de": "Tierbesitzer in Wien-Hietzing loben die Ärzte und Assistentinnen für ihre fachlich fundierte Arbeit und herzliche Begleitung. Viele Halter fühlen sich mit ihren Vierbeinern bestens aufgehoben und betonen den großartigen Einsatz. Eine einzelne negative Bewertung kritisierte hingegen einen lauten Umgangston bei einer Rechnungsnachfrage.",
+        "en": "Pet owners in Vienna's Hietzing district praise the veterinarians and veterinary assistants for their solid expertise and warm guidance. Many clients feel completely comfortable and emphasize the dedicated support. However, one critical review complained about an unfriendly tone when inquiring about billing details."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Fürsorgliche Behandlung von Hunden und Kaninchen",
+        "en": "Caring treatment of dogs and rabbits"
+      },
+      "text": {
+        "de": "Die Rezensenten heben die liebevolle Hinwendung zu den Patienten hervor, egal ob Hund oder Kaninchen. Auch bei komplexen gesundheitlichen Problemen, für die andere Tierärzte Überweisungen ausstellen, wird engagiert nach Lösungen gesucht. Die Tiere fühlen sich bei der Untersuchung sichtlich wohl und werden behutsam behandelt.",
+        "en": "Reviewers highlight the affectionate handling of patients, ranging from dogs to companion rabbits. Even when facing complex medical issues referred by other practices, the team seeks effective solutions with great commitment. Animals visibly relax during consultations and receive attentive, gentle care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Detaillierte Erklärungen mit geteilten Meinungen",
+        "en": "Detailed explanations with mixed opinions"
+      },
+      "text": {
+        "de": "Mehrere Kunden schätzen, dass therapeutische Schritte und Diagnosen verständlich erklärt werden, sodass Halter genau wissen, was zu tun ist. Das Feedback zur Beratung ist weitgehend positiv. In einem Einzelfall wurde jedoch eine respektlose Kommunikation beklagt, nachdem Unstimmigkeiten beim Rechnungsbetrag angesprochen wurden.",
+        "en": "Several clients appreciate that therapeutic procedures and diagnoses are explained clearly, ensuring owners understand required home care. Guidance is widely appreciated. Nonetheless, an isolated review reported disrespectful communication when discrepancies in an invoice amount were questioned."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden bei Zoodoc auch überwiesene Spezialfälle und Heimtiere behandelt?",
+        "en": "Does Zoodoc handle referred complex cases and small companions?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten, dass sie von anderen Tierarztpraxen für weiterführende Abklärungen, etwa bei Kaninchen, hierher verwiesen wurden.",
+        "en": "Yes, owners report being referred here by other veterinary practices for advanced examinations, including rabbit healthcare."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie schnell erhält man bei akuten Problemen einen Termin?",
+        "en": "How quickly can one secure an appointment for acute concerns?"
+      },
+      "a": {
+        "de": "Kunden heben hervor, dass man bei dringendem Bedarf sehr rasch einen Termin für die Untersuchung des Tieres bekommt.",
+        "en": "Clients highlight that urgent situations receive prompt appointment slots for thorough examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie wird der Zustand der Praxisräumlichkeiten beschrieben?",
+        "en": "How do clients describe the surgery facilities?"
+      },
+      "a": {
+        "de": "Rezensenten erwähnen, dass die Räumlichkeiten bereits etwas in die Jahre gekommen sind, die freundliche Betreuung dies jedoch aufwiegt.",
+        "en": "Reviewers note that the clinic premises are somewhat dated, though friendly care more than compensates."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Bearbeitet: vor 4 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

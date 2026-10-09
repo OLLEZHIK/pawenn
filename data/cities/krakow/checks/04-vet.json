@@ -1,0 +1,40 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "zdrowie-czterolapa",
+    "doktorwet",
+    "vetika",
+    "lecznica-weterynaryjna-s-c",
+    "gabinet-weterynaryjny-krak-vet-zlotego-wieku",
+    "nowy-vitalvet",
+    "azory",
+    "gabinet-weterynaryjny-nowa-huta",
+    "z-pazurem",
+    "alvet"
+  ],
+  "hash": "007fe2df73420970acb4c9dd37dff4883d87721cdeb7c43c72555080d86944ac",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-09-29T10:58:45.920Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-09-29T11:00:11.501Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-01T10:52:29.914Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-03T08:59:38.798Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

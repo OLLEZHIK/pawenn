@@ -26,10 +26,11 @@ import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
+import { BEST_TEXT, bestPath, rankBest } from "@/lib/bestPages";
 import { pricesPath } from "@/lib/priceSlugs";
 import { FilterPanel } from "./FilterPanel";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
-import { cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
+import { cityClock, cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
 import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/listingSort";
 import { EmptyState } from "./EmptyState";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -151,7 +152,7 @@ export async function CategoryListing({
           .slice(0, 5)
       : [];
   const opensLabel = (next: { inDays: number; minute: number }) => {
-    const time = formatMinutes(next.minute);
+    const time = formatMinutes(next.minute, cityClock(city));
     if (next.inDays === 0) return t.vetNow.opensToday(time);
     if (next.inDays === 1) return t.vetNow.opensTomorrow(time);
     return t.vetNow.opensLater(dateInDays(next.inDays, locale, cityTimezone(city)), time);
@@ -201,6 +202,16 @@ export async function CategoryListing({
       active: key === attributePage,
       href: key === attributePage ? listingPath(locale, chipCategory, citySlug) : attributePath(locale, chipCategory, citySlug, key),
     }));
+  // "Best rated" first: the top places of this city or district with what
+  // customers praise (lib/bestPages.ts), while enough places qualify.
+  if (category && !attributePage && rankBest(all).length > 0) {
+    attributeChips.unshift({
+      key: "best" as AttributeKey,
+      label: BEST_TEXT[locale].chip,
+      active: false,
+      href: bestPath(locale, category, citySlug, districtSlug),
+    });
+  }
 
   // Attribute pages get no category FAQ: its answers (how many clinics,
   // price range) are about all vets, not the ones with the attribute, and repeat the
@@ -434,7 +445,10 @@ export async function CategoryListing({
                     </div>
                     {g.total > g.items.length && (
                       <Link
-                        href={allHref}
+                        // "See all" opens the whole list at once: without ?all=1
+                        // the category page showed 5 again with a second "Show
+                        // all" (owner, 2026-10-07).
+                        href={`${allHref}?all=1`}
                         prefetch={false}
                         className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
                       >
@@ -472,7 +486,7 @@ export async function CategoryListing({
           {/* Guides on this service in the page's language and country
               (docs/playbooks/guides.md): the catalogue links to them, they
               link back. */}
-          {category && <GuideLinks locale={locale} category={category} country={city.country} />}
+          {category && <GuideLinks locale={locale} category={category} country={city.country} citySlug={city.slug} />}
 
           {faqs.length > 0 && (
             <section className="mt-16">
@@ -537,8 +551,7 @@ export async function CategoryListing({
           variant="floating"
           locale={locale}
           cities={vetCityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-          defaultCitySlug={citySlug}
-          label={t.vetNow.button}
+                    label={t.vetNow.button}
           hint={t.vetNow.buttonHint}
           locating={t.vetNow.locating}
         />

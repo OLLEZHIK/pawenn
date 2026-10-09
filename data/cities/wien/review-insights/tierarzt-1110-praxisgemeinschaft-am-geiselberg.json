@@ -1,0 +1,138 @@
+{
+  "slug": "tierarzt-1110-praxisgemeinschaft-am-geiselberg",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarzt+1110+-+Praxisgemeinschaft+am+Geiselberg/@48.1738639,16.4127455,17z/data=!3m1!4b1!4m6!3m5!1s0x476da9f82a2fd0b5:0x87dbab4788aa2bed!8m2!3d48.1738639!4d16.4127455!16s%2Fg%2F1hc0wtl40?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Herzliches Engagement bei vereinzelter Kritik",
+        "en": "Caring engagement alongside isolated criticism"
+      },
+      "text": {
+        "de": "Tierhalter im 11. Bezirk loben die fürsorgliche und liebevolle Betreuung durch die Tierärztinnen der Praxisgemeinschaft. Bei Routinekontrollen und Beratungen wird die menschliche Atmosphäre geschätzt. Ein unzufriedener Kunde kritisierte jedoch die Fachkompetenz und empfand Gebühren als überhöht.",
+        "en": "Pet guardians in Vienna's 11th district praise the warm, affectionate approach shown by practice veterinarians. The personable atmosphere during routine checks and consultations is widely valued. However, one disgruntled client criticized clinical competence and felt charges were excessive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Respektvolle Zuwendung für Katzen und Hunde",
+        "en": "Respectful attention for feline and canine pets"
+      },
+      "text": {
+        "de": "Besitzer heben den achtsamen Umgang mit ihren Tieren hervor. Bei Ultraschalluntersuchungen und Behandlungen von Infekten wird mit viel Geduld agiert, um Stress gering zu halten. Selbst tapfere Katzen werden liebevoll bestärkt, was eine vertrauensvolle Umgebung schafft.",
+        "en": "Owners highlight the thoughtful handling shown to their four-legged companions. During ultrasounds and infection therapies, vets act patiently to keep distress levels low. Even brave felines receive affectionate encouragement, creating a comforting healthcare setting."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Erfolgreiche Therapien neben strittiger Diagnose",
+        "en": "Successful therapies alongside disputed diagnosis"
+      },
+      "text": {
+        "de": "Positive Rückmeldungen berichten von erfolgreichen Behandlungen bei Harnwegsinfekten und gründlicher Labordiagnostik samt Ultraschall. Gleichzeitig äußerte ein Rezensent Unmut über eine vorgeschlagene Operation und zweifelte die medizinische Notwendigkeit des Eingriffs an.",
+        "en": "Positive feedback reports successful outcomes treating urinary tract infections alongside thorough ultrasound and blood tests. Concurrently, one reviewer voiced dissatisfaction over a proposed surgical procedure, questioning the medical justification for the intervention."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Tiere in der Praxisgemeinschaft am Geiselberg stationär aufgenommen werden?",
+        "en": "Can pets be admitted for inpatient hospitalization at Geiselberg?"
+      },
+      "a": {
+        "de": "Nein, eine stationäre Aufnahme ist vor Ort nicht möglich; bei schweren Verläufen wird an Tierkliniken überwiesen.",
+        "en": "No, overnight hospitalization is not provided on-site; severe cases are referred to regional veterinary hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden in der Ordination Ultraschall- und Blutuntersuchungen angeboten?",
+        "en": "Does the clinic offer on-site ultrasound and blood diagnostics?"
+      },
+      "a": {
+        "de": "Ja, Rezensenten berichten von detaillierten Blutbildern und Ultraschalluntersuchungen bei erkrankten Tieren.",
+        "en": "Yes, reviewers report comprehensive blood panels and ultrasound scans for ill animal companions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Bekommt man bei akuten gesundheitlichen Problemen rasch Unterstützung?",
+        "en": "Are appointments provided promptly for acute health concerns?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben hervor, dass bei telefonischer Rückfrage rasch Termine für kranke Katzen und Hunde ermöglicht werden.",
+        "en": "Yes, clients emphasize that phone calls promptly secure timely appointments for unwell pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

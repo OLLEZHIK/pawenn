@@ -1,0 +1,142 @@
+{
+  "slug": "aqua-plant",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/AQUA+PLANT+sklep+akwarystyczny/data=!4m7!3m6!1s0x47165b52e1d3ed9f:0xdbb4bfa263ae04a1!8m2!3d50.0152631!4d19.9688584!16s%2Fg%2F1tf41pvm!19sChIJn-3T4VJbFkcRoQSuY6K_tNs?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pl": "Fachowe doradztwo właściciela sklepu akwarystycznego",
+        "en": "Expert guidance from aquarium store owner"
+      },
+      "text": {
+        "pl": "Klienci jednogłośnie zachwalają zaangażowanie i wiedzę pana Macieja, który chętnie dzieli się praktycznymi wskazówkami na temat doboru osprzętu, chemii oraz prowadzenia biotopu. Początkujący i zaawansowani akwaryści czują się profesjonalnie poprowadzeni.",
+        "en": "Customers unanimously praise the extensive knowledge and dedication of owner Maciej, who generously shares hands-on advice on filtration, hardscape balance, and aquatic biology. Both beginners and advanced aquarists appreciate the personalized consultations."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pl": "Szeroki wybór korzeni i hardscape",
+        "en": "Extensive selection of hardscape materials"
+      },
+      "text": {
+        "pl": "Recenzenci zwracają uwagę na świetne zaopatrzenie sklepu w elementy aranżacyjne, takie jak skały, korzenie i specjalistyczne podłoża do akwariów roślinnych. Odwiedzający doceniają również możliwość przymierzenia kompozycji na miejscu przed dokonaniem zakupu.",
+        "en": "Reviewers emphasize the shop's superb inventory of layout elements, including decorative stones, driftwood, and specialized substrates for planted tanks. Visitors particularly enjoy the on-site layout table allowing them to test hardscapes before purchase."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pl": "Zdrowe ryby w doskonałej kondycji",
+        "en": "Healthy ornamental fish in top condition"
+      },
+      "text": {
+        "pl": "Kupujący podkreślają znakomitą kondycję zdrowotną oferowanych ryb, takich jak gurami czy ryby ławicowe. W opiniach akcentuje się czystość zbiorników ekspozycyjnych w galerii oraz brak problemów z adaptacją nowych mieszkańców po wpuszczeniu do domowego zbiornika.",
+        "en": "Shoppers highlight the excellent health and vitality of the available ornamental fish, including gouramis and schooling species. Reviews emphasize spotless gallery tanks and the smooth acclimatization of newly purchased fish in home community aquariums."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Gdzie znajduje się salon akwarystyczny Aqua Plant?",
+        "en": "Where is the Aqua Plant aquarium store located?"
+      },
+      "a": {
+        "pl": "Sklep mieści się przy ul. Kobierzyńskiej 61 w krakowskich Dębnikach.",
+        "en": "The shop is located at ul. Kobierzyńska 61 in the Dębniki district of Kraków."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "W czym specjalizuje się sklep Aqua Plant?",
+        "en": "What is Aqua Plant's core specialty?"
+      },
+      "a": {
+        "pl": "Placówka specjalizuje się w akwarystyce roślinnej, naturalnej aranżacji hardscape oraz rybach.",
+        "en": "The store specializes in planted aquascaping, natural hardscape design, and fish."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pl": "Czy na miejscu można uzyskać pomoc w doborze obsady?",
+        "en": "Can customers get advice on aquarium stock selection?"
+      },
+      "a": {
+        "pl": "Tak, klienci w recenzjach zgodnie potwierdzają fachowe wsparcie właściciela.",
+        "en": "Yes, client reviews unanimously confirm expert advice from the store owner."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "wczoraj",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "tydzień temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "riverdale-veterinary-group-pc",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Riverdale+Veterinary+Group+PC/@40.886811,-73.90726,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f3951c9470e9:0xb4fa61db3237e71e!8m2!3d40.886811!4d-73.90726!16s%2Fg%2F1v4k7fs1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Skilled doctors amidst divided front-desk experiences"
+      },
+      "text": {
+        "en": "Longtime clients praise Dr. Fried and Dr. Emmerich for their extensive medical expertise, surgical competence, and compassionate bedside care. Conversely, newer visitors report unfriendly telephone interactions with receptionists and feel that consultations sometimes feel rushed during busy clinic hours."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Complex surgeries beside mixed diagnostic outcomes"
+      },
+      "text": {
+        "en": "Reviewers highlight successful surgical procedures, including tumor removals, as well as effective management of chronic digestive and parasitic conditions. On the other hand, multiple critical reviews recount unresolved vomiting and missed cardiac diagnoses that required emergency intervention elsewhere."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting reports on client communication"
+      },
+      "text": {
+        "en": "Several pet owners appreciate detailed surgical explanations and thorough discussions about treatment options with attending doctors. However, other clients express frustration with unwelcoming scheduling phone calls, limited follow-up advice, and dismissive responses when seeking medical explanations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners accompany pets into exam rooms?"
+      },
+      "a": {
+        "en": "No, clinic staff typically take pets into the back treatment area for examinations and routine procedures while owners wait."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform soft-tissue surgeries?"
+      },
+      "a": {
+        "en": "Yes, Dr. Fried and the surgical team perform soft tissue surgeries, including tumor and digit removals for senior pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the appointment scheduling process?"
+      },
+      "a": {
+        "en": "Opinions vary; longtime patrons book routine checkups smoothly, but several new owners report rigid and curt phone interactions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

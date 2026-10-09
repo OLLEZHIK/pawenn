@@ -74,6 +74,7 @@ export const en = {
     statPlaces: (n: number): string => (n === 1 ? "place listed" : "places listed"),
     statCountries: (n: number): string => (n === 1 ? "country" : "countries"),
     statKinds: (n: number): string => (n === 1 ? "kind of service" : "kinds of service"),
+    statPeople: "people who could use Pawenn",
     browseEyebrow: "Browse by service",
     browseTitle: "What does your pet need today?",
     browseBody: "Six kinds of pet care, each with its own list of places and a source for every listing.",
@@ -277,9 +278,9 @@ export const en = {
   card: {
     priceLevel: (tier: number) => `Price level ${tier} of 5`,
     /** Against the city market price (lib/priceMarket.ts): 0 = within the market band. */
-    vsMarket: (pct: number, marketBand: boolean) =>
-      marketBand ? "Market price" : pct < 0 ? `${-pct}% below market` : `${pct}% above market`,
-    vsMarketHint: "Compared with the median price of the same services in the city",
+    vsMarket: (pct: number, marketBand: boolean): string =>
+      marketBand ? "City average" : pct < 0 ? "Below city average" : "Above city average",
+    vsMarketHint: "Compared with the average price of the same services in the city",
   },
   rating: {
     countGoogle: (count: string) => `${count} · Google`,
@@ -306,6 +307,8 @@ export const en = {
     opensLater: (date: string, time: string) => `opens ${date} at ${time}`,
     nonstopTitle: "Open 24/7",
   },
+  /** Analytics consent banner (GA4 runs only after "allow"). */
+  consent: { text: "We would like to use Google Analytics cookies to see how the site is used and make it better. Only if you allow it.", allow: "Allow", decline: "Decline", settings: "Cookie settings" },
   actions: { call: "Call", website: "Website", route: "Route" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },
   business: {
@@ -320,9 +323,7 @@ export const en = {
     goodToKnowNote: "As the place states it on its own website.",
     faqTitle: "Questions before you call",
     cityPricesTitle: (where: string) => `What it costs ${where}`,
-    cityPricesIntro: "This place doesn't publish its prices. For comparison - what other places in the city charge:",
-    cityPricesRow: (from: string, median: string, places: number) =>
-      `from ${from} · median ${median} · ${places} ${places === 1 ? "place" : "places"}`,
+    cityPricesIntro: "No price list here. Average prices in the city:",
     welcomes: "Welcomes",
     specialties: "Specialties",
     openingHours: "Opening hours",
@@ -364,6 +365,10 @@ export const en = {
     languages: (list: string) => `Staff speak ${list}`,
     instagram: "Instagram",
     facebook: "Facebook",
+    cityAverage: (price: string) => `City average ${price}`,
+    lessBy: (amount: string) => `${amount} less`,
+    moreBy: (amount: string) => `${amount} more`,
+    allPrices: (n: number) => `All prices (${n})`,
     priceFrom: (price: string) => `from ${price}`,
     weightUpTo: (kg: string) => `up to ${kg} kg`,
     weightOver: (kg: string) => `over ${kg} kg`,
@@ -372,7 +377,6 @@ export const en = {
     priceList: "price list",
     perUnit: { per_hour: "/ hour", per_km: "/ km" } as Record<string, string>,
     notCompared: "not compared with other places",
-    cityMedian: (price: string, places: number) => `City median ${price} · ${places} places`,
     pricesDisclaimer: "Prices as published by the place on the date shown. They can change - confirm before you book.",
   },
   reviewForm: {
@@ -452,26 +456,26 @@ export const en = {
     overviewH1: (name: string, where: string) => `${name} ${where}`,
     overviewMetaTitle: (name: string, where: string) => `${name} ${where} | Pawenn`,
     overviewIntro:
-      "What each service costs, compared across the places that publish a price list. The median is the middle price: half the places charge less, half more.",
+      "What each service costs, compared across the places that publish a price list. The average here is the middle price: half the places charge less, half more.",
     overviewMetaDescription: (label: string, where: string, services: number) =>
-      `${label} ${where}: prices of ${services} services compared across places, with the median and range for each. From published price lists, with dates.`,
+      `${label} ${where}: prices of ${services} services compared across places, with the average and range for each. From published price lists, with dates.`,
     serviceH1: (service: string, where: string) => `${service} ${where}: prices`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – from ${from} | Pawenn`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
-      `Costs from ${from} to ${to}, median ${median}. We compared ${places} ${places === 1 ? "place" : "places"}; prices checked ${date}.`,
+      `Costs from ${from} to ${to}, average ${median}. We compared ${places} ${places === 1 ? "place" : "places"}; prices checked ${date}.`,
     fewPlaces: (places: number) =>
       `Only ${places} ${places === 1 ? "place publishes" : "places publish"} this price so far - too few to compare.`,
     question: (service: string, where: string) => `How much does ${service.toLowerCase()} cost ${where}?`,
     includes: "What the price includes",
     place: "Place",
     price: "Price",
-    vsMarket: "Against the market",
+    vsMarket: "Against the city average",
     notComparedTitle: "Other prices (not compared)",
-    notComparedIntro: "Partial prices, prices per hour or per km, or ones that include more than the standard.",
+    notComparedIntro: "Partial prices and prices per hour or per km.",
     otherServices: "Other prices",
     service: "Service",
     range: "Range",
-    median: "Median",
+    median: "Average",
     places: "Places",
     seeAll: (label: string) => `All ${label.toLowerCase()}`,
     linkFromListing: (where: string) => `Prices ${where}`,

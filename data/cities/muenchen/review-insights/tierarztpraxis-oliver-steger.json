@@ -1,0 +1,135 @@
+{
+  "slug": "tierarztpraxis-oliver-steger",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Oliver+Steger+Tierarzt/@48.204801,11.563005,17z/data=!3m1!4b1!4m6!3m5!1s0x4109046b7a2a2601:0x2d95d7a0ff01212e!8m2!3d48.204801!4d11.563005!16s%2Fg%2F1tdfgpdj?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Freundliche Betreuung mit geteilten Eindrücken",
+        "en": "Friendly clinic care with divided feedback"
+      },
+      "text": {
+        "de": "Tierbesitzer an der Schleißheimer Straße schätzen die unkomplizierte Art von Dr. Steger und das sympathische Praxisteam. Die meisten fühlen sich gut beraten. Eine Rezensentin berichtete jedoch von einer enttäuschenden Erfahrung mit einer angestellten Ärztin.",
+        "en": "Pet owners on Schleißheimer Straße appreciate Dr. Steger's approachable manner and the friendly clinic team. Most clients feel well assisted. However, one reviewer reported a disappointing encounter with an employed vet regarding communication and consultation."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Erfolgreiche Operationen neben Kritik an Diagnose",
+        "en": "Successful surgeries alongside diagnostic critique"
+      },
+      "text": {
+        "de": "Mehrere Halter äußern sich zufrieden über gut verlaufene operative Eingriffe und zügige Behandlungen bei Beschwerden. Ein negativer Erfahrungsbericht beklagt hingegen eine mangelnde Abklärung von Zahnproblemen und eine unzureichende Aufklärung über Folgeschritte.",
+        "en": "Several guardians express satisfaction with smoothly executed surgical operations and swift routine treatments. Conversely, one negative review criticized an inadequate examination of feline dental problems and unclear explanations concerning further steps."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Unterschiedliche Erfahrungen beim Umgang mit Tieren",
+        "en": "Varied experiences regarding animal handling"
+      },
+      "text": {
+        "de": "Zufriedene Kunden berichten über einen schnellen und hilfsbereiten Umgang mit Katzen und Hunden bei Routine- und OP-Terminen. Eine Halterin kritisierte jedoch eine als grob empfundene Untersuchung des Mauls bei ihrem Kater während einer zahnärztlichen Kontrolle.",
+        "en": "Satisfied clients report helpful and prompt treatment for cats and dogs during routine and surgical appointments. In contrast, one owner criticized what was perceived as excessively rough handling of her cat's mouth during an examination for dental concerns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden Patienten auch ohne vorherigen Termin angenommen?",
+        "en": "Are patients accepted without a prior appointment?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten positiv, dass akute Vorstellungen nach Absprache auch ohne festen Termin unkompliziert möglich waren.",
+        "en": "Yes, clients positively report that acute visits were accommodated without a fixed appointment after consultation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie werden die Kosten der Praxis beurteilt?",
+        "en": "How are the practice fees assessed by pet owners?"
+      },
+      "a": {
+        "de": "Rezensenten erwähnen die faire und günstige Preisgestaltung der Behandlungen lobend.",
+        "en": "Reviewers favorably highlight the fair and affordable pricing structure for veterinary treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Führt die Praxis auch Operationen durch?",
+        "en": "Does the practice perform surgical procedures?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von operativen Eingriffen bei Hunden, die erfolgreich verliefen und gut betreut wurden.",
+        "en": "Yes, owners report surgically treated dogs that recovered well under attentive veterinary supervision."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

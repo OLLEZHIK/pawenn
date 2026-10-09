@@ -1,0 +1,30 @@
+{
+  "chunk": "10-shop",
+  "kind": "places",
+  "slugs": [
+    "fressnapf-xxl-hamburg-farmsen",
+    "fressnapf-xxl-hamburg-altona",
+    "das-futterhaus-hamburg-bramfeld",
+    "fressnapf-hamburg-harburg",
+    "das-futterhaus-hamburg-stellingen",
+    "zooroyal",
+    "aquarium-tonndorf",
+    "das-futterhaus-hamburg-barmbek",
+    "winterhuder-zoo",
+    "heimtierpartner-zoo-markt-alsterdorf"
+  ],
+  "hash": "7a7c4ada175dafe27acbfbe29b5a94f5df12a2ea51296195d3856d0ed5fd4010",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T21:44:04.143Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-06T21:48:06.710Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "amiculus",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amiculus+Przychodnia+Weterynaryjna/data=!4m7!3m6!1s0x471ec9bc398bcf4f:0x61436e6f5b57ea84!8m2!3d52.3200054!4d20.9483001!16s%2Fg%2F1tj44nr7!19sChIJT8-LObzJHkcRhOpXW29uQ2E?hl=pl",
+  "period_from": "2025-10-04",
+  "period_to": "2026-10-04",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-04",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Compassionate veterinarians and critical client experiences",
+        "pl": "Zaangażowani lekarze i krytyczne doświadczenia klientów"
+      },
+      "text": {
+        "en": "Several long-term clients warmly praise Dr. Dorota Dobrzyńska, Dr. Agata, and Dr. Karolina Maczuga for their gentleness, expertise, and emotional support. However, serious negative reviews critique the staff for missing lung tumors or severe parasite infections, advising pet owners to seek second opinions when ailments persist.",
+        "pl": "Wieloletni klienci serdecznie chwalą dr Dorotę Dobrzyńską, dr Agatę oraz dr Karolinę Maczugę za delikatność, empatię i wsparcie w trudnych momentach. Z drugiej strony w opiniach pojawiły się ostre zarzuty dotyczące przeoczenia zmian nowotworowych czy lambliozy, sugerujące konieczność konsultowania diagnoz w innych placówkach."
+      },
+      "mentions": 9,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Successful surgeries balanced by diagnostic grievances",
+        "pl": "Udane zabiegi stomatologiczne i zarzuty diagnostyczne"
+      },
+      "text": {
+        "en": "Pet owners report successful feline tooth extractions, smooth recovery, and dependable multi-year chronic care for elderly dogs. In sharp contrast, dissatisfied reviewers recount prolonged suffering due to symptomatic therapy without basic parasite testing, alongside missed pulmonary abnormalities on thoracic x-rays.",
+        "pl": "Właściciele zwierząt chwalą udane zabiegi usunięcia zębów u kotów, sprawną rekonwalescencję oraz wieloletnią pomoc w chorobach przewlekłych psów. Z kolei krytyczne relacje opisują nieudane próby leczenia biegunek u szczeniaka bez badań parazytologicznych oraz nierozpoznanie zmian w płucach na wykonanym prześwietleniu RTG."
+      },
+      "mentions": 7,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Attentive consultations contrasted with booking confusion",
+        "pl": "Cierpliwe wyjaśnienia i niejasne zasady rejestracji"
+      },
+      "text": {
+        "en": "Some pet parents appreciate that veterinarians patiently answer questions regarding exotic pets and describe clinical procedures in detail. Conversely, unhappy clients report lack of online notice regarding mandatory prior booking and unhelpful diagnostic communication when inquiring about essential laboratory stool tests.",
+        "pl": "Część opiekunów docenia lekarzy za cierpliwe odpowiadanie na pytania dotyczące małych ssaków i spokojne wyjaśnianie procedur. Jednak negatywne wpisy punktują brak informacji na stronie o konieczności wcześniejszych zapisów na szczepienia oraz mało pomocne odpowiedzi na pytania o potrzebę wykonania badań laboratoryjnych."
+      },
+      "mentions": 3,
+      "sentiment": "negative"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are small exotic mammals and rodents treated at Amiculus?",
+        "pl": "Czy w przychodni Amiculus przyjmowane są małe ssaki i gryzonie?"
+      },
+      "a": {
+        "en": "Yes, client reviews commend the gentle and knowledgeable approach towards guinea pigs and small companion animals.",
+        "pl": "Tak, klienci w opiniach chwalą delikatne i kompetentne podejście lekarzy do świnek morskich i innych małych zwierząt."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is prior appointment booking required for vaccinations and routine visits?",
+        "pl": "Czy na wizyty profilaktyczne i szczepienia wymagana jest wcześniejsza rejestracja?"
+      },
+      "a": {
+        "en": "Yes, client experiences indicate that appointments should be booked in advance to avoid being turned away.",
+        "pl": "Tak, klienci wskazują, że placówka wymaga wcześniejszego umówienia terminu, aby uniknąć odesłania bez przyjęcia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What veterinary dental procedures are offered at the clinic?",
+        "pl": "Jakie zabiegi stomatologiczne wykonuje przychodnia?"
+      },
+      "a": {
+        "en": "The clinic carries out periodontal therapy and surgical tooth extractions for both canine and feline patients.",
+        "pl": "Przychodnia przeprowadza leczenie chorób przyzębia oraz chirurgiczne ekstrakcje zębów u psów i kotów."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "23 godziny temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edytowano miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 miesięcy temu",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "7 miesięcy temu",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edytowano 10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

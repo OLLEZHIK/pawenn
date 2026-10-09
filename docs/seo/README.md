@@ -38,6 +38,7 @@
 | Страница категории | Один сегмент на категорию: `/grooming/bratislava/`, район — `/grooming/bratislava/petrzalka/` | Люди ищут «vet clinic Bratislava», а не «pet services vet»; `design-plan.md` §3 |
 | Английские слаги | `grooming`, `vet-clinics`, `pet-hotels`, `dog-training`, `pet-shops`, `pet-sitting` | 5 слагов подтверждены исследованием, `pet-training` → `dog-training`: весь спрос про собак; `english-keywords.md` §2 |
 | Словацкие слаги | `psi-salon`, `veterinar`, `hotel-pre-zvierata`, `vycvik-psov`, `chovatelske-potreby`, `opatrovanie-zvierat` | Живые с v2; заменить, только если исследование покажет явную разницу в спросе (`docs/seo/keywords/`) |
+| Чешские слаги | `veterina`, `psi-salon`, `hotel-pro-zvirata`, `vycvik-psu`, `zverimex`, `hlidani-zvirat`; сегменты `podnik`, `mesto`, `ceny`; признаки `nonstop`, `sobota`, `nedele`, `exoticka-zvirata`, `vyjezd-domu`, `anglicky` | `docs/seo/keywords/cs.md` §5; подключено 2026-10-05 вместе с первым чешским городом (Praha). Услуги цен — `lib/priceSlugs.ts`; варианты «или» выбрал диспетчер (`podnik`, `anglicky`, `strihani-psa`, `vysetreni`), «левая рука» — `skupinova-lekce`, `individualni-lekce`, `kurz-pro-stenata`. Не менять после запуска |
 | Карточка заведения | `/business/{slug}/`, `/sk/podnik/{slug}/` | `design-plan.md` §3 |
 | Страница города (хаб) | `/city/{город}/`, `/sk/mesto/{город}/`: общий список всех служб города с фильтрами (как у категорий) и чипами категорий; сюда ведёт поиск на главной, если выбран только город (владелец, 2026-09-25) | Точка входа для запросов «pet services {город}» и внутренние ссылки на все категории; ссылки из футера («Города»). Индексируется от 3 заведений. `docs/architecture/multi-city.md` |
 | Языки города | Страница на местном языке есть, только если язык указан в `locales` города (`city.json`), иначе 404 | Не создавать словацкие страницы для Нью-Йорка; `docs/architecture/multi-city.md` §3 |
@@ -337,3 +338,22 @@
 | Дата | Наблюдение / решение |
 |---|---|
 | 2026-09-24 | Сайту меньше недели, он уже индексируется. По запросу «Grooming in Bratislava» (EN) — **4-я страница** выдачи. На первой: PetBacker (несколько страниц), YellowDog, Salon Terra, а также барбершопы (запрос неоднозначный). Решение: title с «Dog & Cat Grooming…» и исправленное описание (раздел 2.4). |
+
+## Страницы «лучшие» (владелец, 2026-10-08)
+
+`/<язык>/<категория>/<город>/<best>/` и `/<язык>/<категория>/<город>/<район>/<best>/`
+(`best` / `beste` / `najlepsze` / `najlepsie` / `nejlepsi`) — топ-10 мест под
+запросы «best dog groomer brooklyn», «beste Tierarzt Berlin». Код —
+`website/lib/bestPages.ts`, `website/components/BestPage.tsx`.
+
+- Порядок: рейтинг Google с учётом числа оценок (байесовское среднее: 30
+  «воображаемых» оценок 4,5), так 4,9 от 15 человек ниже 4,8 от 400.
+- В список попадает место с рейтингом от 4,0 и не меньше 10 оценок;
+  страница существует, если таких мест не меньше 5.
+- У каждого места — за что хвалят и, если минус называют хотя бы двое,
+  «Some mention» (из сводки отзывов); нет сводки — короткое описание.
+- Платное размещение (`featured`) на порядок не влияет — так и написано
+  на странице.
+- Связи: чип «Best rated» на странице категории и района; на странице
+  места — «No. 2 · Best dog groomers in Brooklyn» со ссылкой; все такие
+  страницы — в sitemap (один запрос, `getBestPages`).

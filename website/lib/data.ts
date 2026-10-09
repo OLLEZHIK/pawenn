@@ -1,11 +1,13 @@
 import { unstable_cache } from "next/cache";
 import { prisma } from "./prisma";
+import { potentialUsers } from "./population";
 import type { Business, BusinessCategory, District, City } from "@prisma/client";
 import { CATEGORY_LABELS, categorySlugFromEnum } from "./categories";
 import type { Locale } from "./i18n";
 import { SERVICES } from "./services";
 import { attributesForCity, hasAttribute, type AttributeKey } from "./attributePages";
 import { marketPrices, priceLevels, type ComparablePrice, type MarketPrice, type PriceLevel } from "./priceMarket";
+import { MIN_RATING, MIN_RATINGS, rankBest } from "./bestPages";
 
 export type BusinessWithRelations = Business & {
   district: (District & { city: City }) | null;
@@ -33,7 +35,9 @@ export type BusinessWithRelations = Business & {
 // hour or per km, not partial ones like surgery without anaesthesia, and
 // not ones that include more than the standard (a `note` such as "incl.
 // hospitalisation") - docs/card-spec.md, "Цены".
-const COMPARABLE_PRICE = { partial: false, unit: null, note: null } as const;
+// Prices with a short note ("small dogs") count too (owner, 2026-10-07: more
+// prices on the cards); partial and per-hour / per-km prices still do not.
+const COMPARABLE_PRICE = { partial: false, unit: null } as const;
 
 const PUBLISHED_REVIEWS = { where: { status: "PUBLISHED" as const } };
 
@@ -250,10 +254,10 @@ async function getBusinessCountRaw(citySlug: string): Promise<{ total: number; b
 
 /** Home page numbers for the whole site, every city (owner, 2026-09-26):
  *  countries, cities, places and kinds of service with at least one place. */
-async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; places: number; kinds: number }> {
+async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; places: number; kinds: number; potentialUsers: number }> {
   const published = { status: "PUBLISHED" as const };
   const [cities, categories] = await Promise.all([
-    prisma.city.findMany({ where: { businesses: { some: published } }, select: { country: true } }),
+    prisma.city.findMany({ where: { businesses: { some: published } }, select: { country: true, slug: true } }),
     prisma.business.groupBy({ by: ["category"], where: published, _count: { _all: true } }),
   ]);
   return {
@@ -261,6 +265,7 @@ async function getSiteStatsRaw(): Promise<{ countries: number; cities: number; p
     cities: cities.length,
     places: categories.reduce((sum, c) => sum + c._count._all, 0),
     kinds: categories.length,
+    potentialUsers: potentialUsers(cities.map((c) => c.slug)),
   };
 }
 
@@ -561,6 +566,43 @@ export async function getBusinessBySlug(slug: string): Promise<BusinessWithRelat
   return business ? reviveBusiness(business) : null;
 }
 
+// "Best" pages (lib/bestPages.ts) that exist: one query for the sitemap,
+// not one per category, city and district.
+async function getBestPagesRaw(): Promise<{ category: BusinessCategory; citySlug: string; districtSlug: string | null; lastModified: string | null }[]> {
+  const rows = await prisma.business.findMany({
+    where: { status: "PUBLISHED", googleRating: { gte: MIN_RATING }, googleRatingCount: { gte: MIN_RATINGS } },
+    select: {
+      slug: true,
+      category: true,
+      googleRating: true,
+      googleRatingCount: true,
+      ratingObservedAt: true,
+      city: { select: { slug: true } },
+      district: { select: { slug: true } },
+    },
+  });
+  const groups = new Map<string, typeof rows>();
+  for (const r of rows) {
+    if (!r.city) continue;
+    for (const key of [`${r.category}|${r.city.slug}|`, ...(r.district ? [`${r.category}|${r.city.slug}|${r.district.slug}`] : [])]) {
+      groups.set(key, [...(groups.get(key) ?? []), r]);
+    }
+  }
+  return [...groups]
+    .map(([key, places]) => ({ key, ranked: rankBest(places) }))
+    .filter((g) => g.ranked.length > 0)
+    .map(({ key, ranked }) => {
+      const [category, citySlug, districtSlug] = key.split("|");
+      const dates = ranked.map((p) => p.ratingObservedAt?.getTime() ?? 0).filter(Boolean);
+      return {
+        category: category as BusinessCategory,
+        citySlug,
+        districtSlug: districtSlug || null,
+        lastModified: dates.length ? new Date(Math.max(...dates)).toISOString() : null,
+      };
+    });
+}
+
 const getAllPublishedBusinessSlugsCached = cached(getAllPublishedBusinessSlugsRaw, "getAllPublishedBusinessSlugs");
 export async function getAllPublishedBusinessSlugs() {
   return (await getAllPublishedBusinessSlugsCached()).map((b) => ({ ...b, verifiedAt: toDate(b.verifiedAt) }));
@@ -585,4 +627,9 @@ const getAttributeCountsCached = cached(getAttributeCountsRaw, "getAttributeCoun
 /** Places per attribute page of the category in the city (0 = no page). */
 export async function getAttributeCounts(category: BusinessCategory, citySlug: string): Promise<Map<AttributeKey, number>> {
   return new Map(await getAttributeCountsCached(category, citySlug));
+}
+
+const getBestPagesCached = cached(getBestPagesRaw, "getBestPages");
+export async function getBestPages() {
+  return getBestPagesCached();
 }

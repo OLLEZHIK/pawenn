@@ -1,0 +1,133 @@
+{
+  "slug": "haustyle",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/HauStyle-psi+fryzjer/data=!4m7!3m6!1s0x47165d7e37d0ad99:0xcd84d49131f46b97!8m2!3d50.0231161!4d19.9098835!16s%2Fg%2F11jdbcncx5!19sChIJma3QN35dFkcRl2v0MZHUhM0?hl=pl",
+  "period_from": "2026-04-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Loving groomer Edyta with scheduling criticism",
+        "pl": "Ciepłe podejście pani Edyty i uwaga o kontakcie"
+      },
+      "text": {
+        "pl": "Większość klientów gorąco poleca panią Edytę za ogromne serce do zwierząt, zaangażowanie i bezstresową atmosferę w salonie fryzjerskim. Pojawiła się jednak negatywna opinia zarzucająca brak profesjonalizmu w korespondencji przy próbie zmiany terminu wizyty pupila.",
+        "en": "Most clients enthusiastically recommend groomer Edyta for her immense heart for pets, dedication, and reassuring environment in the salon. However, one negative review criticized unprofessional message exchanges when attempting to reschedule an appointment for a pet."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Stylish grooming cuts and well-groomed coats",
+        "pl": "Pięknie dobrane fryzury i staranne strzyżenie"
+      },
+      "text": {
+        "pl": "Opiekunowie czworonogów wyrażają duże zadowolenie z precyzyjnie dobranych fryzur i estetyki wykonania zabiegów pielęgnacyjnych. Psy opuszczają salon zadowolone, a jakość strzyżenia i wyczesywania podszerstka w pełni zaspokaja oczekiwania wymagających właścicieli.",
+        "en": "Dog owners express strong satisfaction with stylishly chosen haircuts and the overall precision of grooming treatments. Pets leave the parlor cheerful, and the quality of coat clipping and brushing fully meets the high expectations of demanding guardians."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Trust-building handling and live pet updates",
+        "pl": "Komfort czworonogów i relacje wideo"
+      },
+      "text": {
+        "pl": "Klienci podkreślają, że nawet nieufne psy szybko nabierają zaufania do pani Edyty i merdają ogonem podczas zabiegów pielęgnacyjnych w salonie. Dodatkowym atutem docenianym przez opiekunów jest możliwość otrzymania krótkich relacji wideo z przebiegu całej wizyty.",
+        "en": "Clients highlight that even initially distrustful dogs quickly warm up to Edyta, wagging their tails during grooming appointments in the salon. A valued extra feature appreciated by guardians is receiving brief live video updates showing their pet's progress throughout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the HauStyle grooming salon located?",
+        "pl": "Gdzie znajduje się salon groomerski HauStyle?"
+      },
+      "a": {
+        "en": "The salon is situated at Doktora Judyma 4 in the Swoszowice / Borkowskie area of Kraków.",
+        "pl": "Salon mieści się przy ulicy Doktora Judyma 4 w krakowskich Swoszowicach."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do clients receive photo or video updates during visits?",
+        "pl": "Czy właściciele otrzymują relacje wideo z wizyty?"
+      },
+      "a": {
+        "en": "Yes, reviews mention live video updates sent by the groomer during the pet's appointment.",
+        "pl": "Tak, recenzje wspominają o krótkich relacjach i filmikach przesyłanych w trakcie pielęgnacji psa."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do dogs with fear or anxiety handle visits?",
+        "pl": "Jak na wizytę reagują psy lękliwe lub nieufne?"
+      },
+      "a": {
+        "en": "Reviews indicate that gentle handling helps even cautious pets relax quickly during grooming.",
+        "pl": "Opinie wskazują, że spokojne podejście pomaga nawet nieufnym psom szybko poczuć się komfortowo."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "miesiąc temu",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 miesiące temu",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 miesięcy temu",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

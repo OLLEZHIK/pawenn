@@ -1,0 +1,133 @@
+{
+  "slug": "tri-boro-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tri-Boro+Animal+Hospital/@40.8699945,-73.8562641,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f345d46ee5df:0x8cb04520f8b01f08!8m2!3d40.8699945!4d-73.8562641!16s%2Fg%2F1tsjfkz4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive guidance from long-standing team"
+      },
+      "text": {
+        "en": "Every recent reviewer highlights the dedication of Dr. Marienberg and the clinic staff, noting that team members stay late during emergencies to accommodate patients. Pet owners describe the veterinarians as thorough, communicative, and willing to take time answering questions about complex treatments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling of cats and dogs"
+      },
+      "text": {
+        "en": "Clients describe calm, patient handling during exams, noting that nervous puppies and sick cats feel secure in the clinic. Reviewers emphasize that the staff handles difficult procedures with care, minimizing stress for both the animals and their owners throughout each visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatment for urgent medical needs"
+      },
+      "text": {
+        "en": "Reviewers report successful outcomes for urgent conditions, such as acute vomiting in felines and emergency coat shaving after accidents. Long-time clients credit the medical team with dependable ongoing health maintenance and timely problem solving across decades of care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Tri-Boro Animal Hospital accommodate urgent appointments?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the clinic has accommodated urgent same-day visits before severe weather and stayed late to assist sick pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available at the clinic?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that the facility offers dedicated parking, making visits convenient for pet parents traveling by car."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are treatment costs perceived by clients?"
+      },
+      "a": {
+        "en": "Reviewers describe the pricing as reasonable and note that the clinic helps clients order medications through external pet pharmacies when appropriate."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

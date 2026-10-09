@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { CATEGORY_THEME, categoryFromSlug, categoryHubPath, categoryLabel, listingPath } from "@/lib/categories";
+import { CATEGORY_THEME, categoryFromSlug, categoryLabel, listingPath } from "@/lib/categories";
 import { getAllCities, getBusinessCount, getCityPoints } from "@/lib/data";
 import { getDictionary, isLocale, localesForCity } from "@/lib/i18n";
-import { NearestCityNav } from "@/components/NearestCityNav";
-import { ArrowRightIcon, MapPinIcon } from "@/components/icons";
+import { CityPicker } from "@/components/CityPicker";
+import { ArrowRightIcon } from "@/components/icons";
 
 // A service across cities: /en/vet-clinics/, /sk/veterinar/ (owner,
 // 2026-09-27; docs/architecture/multi-city.md 3.1). Where a home-page card
@@ -40,14 +40,24 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   return { title: { absolute: title }, robots: { index: false, follow: true } };
 }
 
-export default async function CategoryHubPage({ params }: { params: Promise<PageParams> }) {
+export default async function CategoryHubPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<PageParams>;
+  searchParams: Promise<{ open?: string }>;
+}) {
   const resolved = await resolve(params);
+  // "Vet open now" without a location lands here: the choice keeps the filter.
+  const open = (await searchParams).open === "1";
+  const suffix = open ? "?open=1#results" : "";
   if (!resolved) notFound();
   const { locale, category, rows } = resolved;
   if (rows.length === 0) notFound();
-  if (rows.length === 1) redirect(listingPath(locale, category, rows[0].city.slug));
+  if (rows.length === 1) redirect(`${listingPath(locale, category, rows[0].city.slug)}${suffix}`);
 
-  const t = getDictionary(locale).home;
+  const d = getDictionary(locale);
+  const t = d.home;
   const points = (await getCityPoints()).filter((p) => rows.some((r) => r.city.slug === p.slug));
   const accent = CATEGORY_THEME[category].accent;
 
@@ -58,27 +68,34 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
       </h1>
       <p className="mt-3 text-foreground/70">{t.chooseCityIntro}</p>
 
-      <NearestCityNav
-        locale={locale}
-        cities={points.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-        defaultCitySlug={rows[0].city.slug}
-        className="mt-6"
-      >
-        <Link
-          href={categoryHubPath(locale, category)}
-          data-category={category}
-          className="accent-solid inline-flex items-center gap-2 rounded-[var(--radius-pill)] px-5 py-3 font-semibold"
-        >
-          <MapPinIcon className="h-5 w-5" />
-          {t.nearMe}
-        </Link>
-      </NearestCityNav>
+      <div className="mt-6">
+        <CityPicker
+          locale={locale}
+          category={category}
+          open={open}
+          freeText
+          cities={rows.map(({ city }) => {
+            const p = points.find((x) => x.slug === city.slug);
+            return { slug: city.slug, name: city.name, lat: p?.lat ?? 0, lng: p?.lng ?? 0 };
+          })}
+          text={{
+            nearMe: t.nearMe,
+            locating: d.search.locatingYou,
+            placeholder: d.search.cityPlaceholder,
+            label: d.search.cityLabel,
+            geoDenied: d.search.geoDenied,
+            geoFar: d.search.geoFar("{city}"),
+            notCovered: d.search.cityNotCovered("{typed}", rows.map(({ city }) => city.name).join(", ")),
+          }}
+        />
+      </div>
 
+      {locale !== "en" && (
       <ul className="mt-8 divide-y divide-line overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
         {rows.map(({ city, count }) => (
           <li key={city.slug}>
             <Link
-              href={listingPath(locale, category, city.slug)}
+              href={`${listingPath(locale, category, city.slug)}${suffix}`}
               className="flex items-center justify-between gap-4 px-5 py-4 hover:bg-surface-sunken"
             >
               <span className="font-semibold text-foreground">{city.name}</span>
@@ -90,6 +107,7 @@ export default async function CategoryHubPage({ params }: { params: Promise<Page
           </li>
         ))}
       </ul>
+      )}
     </main>
   );
 }

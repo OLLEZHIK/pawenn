@@ -1,0 +1,232 @@
+{
+  "slug": "tierarzt-mattke",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarzt+Mattke/@52.5536057,13.4483773,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84de95f8abb9d:0x355438a24ff4bf2d!8m2!3d52.5536057!4d13.4483773!16s%2Fg%2F1tfrwjb8?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 15,
+      "title": {
+        "de": "Geschätzter Hausarzt mit vereinzelten Beanstandungen",
+        "en": "Valued practitioner with occasional grievances"
+      },
+      "text": {
+        "de": "Herr Mattke und sein Praxisteam werden von vielen Stammkunden für ihre herzliche und uneigennützige Art geschätzt. Gleichzeitig gibt es deutliche Beschwerden über fehlerhafte Dosierungsangaben bei Medikamenten und barsche Reaktionen am Telefon. Das Gesamtbild fällt daher spürbar geteilt aus.",
+        "en": "Mr. Mattke and his staff are treasured by longstanding clients for their sincere and direct manner. Concurrently, distinct complaints exist regarding inaccurate medication dosing instructions and brusque telephone behavior. The broader sentiment is visibly balanced between praise and criticism."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "de": "Besondere Fürsorge für Hundesenioren",
+        "en": "Dedicated care for senior dogs"
+      },
+      "text": {
+        "de": "Halter von älteren Hunden und chronisch erkrankten Vierbeinern heben die geduldige Begleitung über viele Lebensjahre hervor. Der Behandler geht ruhig auf Verhaltensweisen älterer Tiere ein und vermeidet unnötige Eingriffe. Nur in Einzelfällen wird bei Kleinsäugern mehr Gründlichkeit angemahnt.",
+        "en": "Owners of senior dogs and chronically ill animals emphasize the patient guidance provided across multiple years of life. The practitioner approaches senior animal behavior calmly, avoiding redundant procedures. Only isolated reviews urge greater care regarding small mammals."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "de": "Geduldige Beratung bei wechselhafter Erreichbarkeit",
+        "en": "Patient advice with inconsistent accessibility"
+      },
+      "text": {
+        "de": "In persönlichen Gesprächen beantwortet das Team Fragen ausführlich und berät verständlich zu Behandlungsoptionen. Am Telefon berichten manche Anrufer jedoch von raschem Auflegen oder mangelnder Auskunftsbereitschaft bei englischen Anfragen. Die telefonische Kommunikation wird unterschiedlich bewertet.",
+        "en": "During in-person consultations, the team answers inquiries thoroughly and explains clinical options clearly. However, some callers report sudden hang-ups or uncooperative responses during English telephone requests. Telephone communication thus receives mixed assessments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Tiere auch an Samstagen behandelt werden?",
+        "en": "Can animals receive treatment on Saturdays?"
+      },
+      "a": {
+        "de": "Ja, an Samstagen werden Patienten nach Vorankündigung oder mit kurzer Wartezeit versorgt.",
+        "en": "Yes, patients are attended to on Saturdays following prior notice or with brief waiting times."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Bietet Herr Mattke auch Hausbesuche an?",
+        "en": "Does Mr. Mattke provide home visit consultations?"
+      },
+      "a": {
+        "de": "Ja, nach individueller Absprache führt die Praxis auch Hausbesuche für Tierpatienten durch.",
+        "en": "Yes, by individual arrangement, the practice conducts home visits for animal patients."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden ältere Hunde langfristig therapeutisch begleitet?",
+        "en": "Are older dogs provided with long-term geriatric care?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen loben die fundierte Begleitung und Expertise bei Hundesenioren.",
+        "en": "Yes, owners praise the dedicated guidance and practical experience with geriatric dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Bearbeitet: vor 11 Stunden",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Tagen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

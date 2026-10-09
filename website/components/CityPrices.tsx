@@ -40,20 +40,22 @@ export function CityPrices({
         <TagIcon className="h-5 w-5 text-[var(--accent,var(--brand-blue))]" />
         {t.cityPricesTitle(where)}
       </h2>
-      <p className="mt-2 text-sm text-foreground/60">{t.cityPricesIntro}</p>
+      <p className="mt-1 text-sm text-foreground/60">{t.cityPricesIntro}</p>
       <ul className="mt-3 divide-y divide-line">
         {rows.map((s) => {
           const m = market.get(s.code)!;
           return (
-            <li key={s.code} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-0.5 py-2.5 text-sm">
-              <Link
-                href={pricesPath(locale, category, citySlug, s.code)}
-                prefetch={false}
-                className="text-foreground/80 hover:text-brand-blue hover:underline"
-              >
-                {serviceLabel(category, s.code, locale)}
-              </Link>
-              <span className="text-foreground/60">{t.cityPricesRow(money(m.min, m.currency), money(m.median, m.currency), m.places)}</span>
+            <li key={s.code} className="py-3">
+              <div className="flex items-baseline justify-between gap-4">
+                <Link
+                  href={pricesPath(locale, category, citySlug, s.code)}
+                  prefetch={false}
+                  className="font-medium text-foreground hover:text-brand-blue hover:underline"
+                >
+                  {serviceLabel(category, s.code, locale)}
+                </Link>
+                <span className="shrink-0 text-lg font-extrabold text-foreground">{money(m.median, m.currency)}</span>
+              </div>
             </li>
           );
         })}

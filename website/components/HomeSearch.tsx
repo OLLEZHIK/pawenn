@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { BusinessCategory } from "@prisma/client";
 import { Dropdown } from "./Dropdown";
@@ -62,7 +62,6 @@ export function HomeSearch({
 }: HomeSearchProps) {
   const router = useRouter();
   const t = getDictionary(locale);
-  const listId = useId();
   // Phone card / dialog field and desktop bar field: both render (one is
   // hidden by CSS), so focus goes to whichever is visible.
   const boxedInput = useRef<HTMLInputElement>(null);
@@ -74,6 +73,9 @@ export function HomeSearch({
   const [categoryOverlay, setCategoryOverlay] = useState(false);
   const [cityText, setCityText] = useState("");
   const [cityError, setCityError] = useState<string | null>(null);
+  // Cities that start with what was typed (owner, 2026-10-04): no list up front.
+  const [suggestFor, setSuggestFor] = useState<"boxed" | "bar" | null>(null);
+  const [activeCity, setActiveCity] = useState(-1);
   // "Near me": asked only when the visitor taps it (never on page load),
   // then results open in the nearest covered city sorted by distance.
   const [near, setNear] = useState<{ lat: number; lng: number; citySlug: string } | null>(null);
@@ -96,10 +98,12 @@ export function HomeSearch({
         const { latitude, longitude } = pos.coords;
         const city = nearestCity(cities, latitude, longitude);
         if (!city) return typeByHand("far");
+        // Straight to the results (owner, 2026-10-04): the field only said
+        // "Near you" and nothing else happened until Search was pressed.
         setNear({ lat: latitude, lng: longitude, citySlug: city.slug });
         setCityText("");
         setCityError(null);
-        setGeoStatus("idle");
+        openCity(city.slug, { lat: latitude, lng: longitude });
       },
       () => typeByHand("denied"),
       { timeout: 8000, maximumAge: 10 * 60 * 1000 }
@@ -124,6 +128,34 @@ export function HomeSearch({
     return prefix.length === 1 ? prefix[0].slug : null;
   }
 
+  const typed = near ? "" : normalize(cityText);
+  const cityMatches = typed
+    ? cities.filter((c) => normalize(c.name ?? c.slug).startsWith(typed) && normalize(c.name ?? c.slug) !== typed)
+    : [];
+
+  function pickCity(name: string) {
+    onCityChange(name);
+    setSuggestFor(null);
+    setActiveCity(-1);
+    focusCity();
+  }
+
+  function cityKeys(e: React.KeyboardEvent) {
+    if (e.key === "ArrowDown" && cityMatches.length) {
+      e.preventDefault();
+      setActiveCity((a) => (a + 1) % cityMatches.length);
+    } else if (e.key === "ArrowUp" && cityMatches.length) {
+      e.preventDefault();
+      setActiveCity((a) => (a <= 0 ? cityMatches.length - 1 : a - 1));
+    } else if (e.key === "Enter") {
+      const chosen = activeCity >= 0 ? cityMatches[activeCity] : undefined;
+      if (chosen) {
+        e.preventDefault();
+        pickCity(chosen.name ?? chosen.slug);
+      } else goSearch();
+    } else if (e.key === "Escape") setSuggestFor(null);
+  }
+
   // Services that make sense for the chosen pet, and pets that make
   // sense for the chosen service (lib/animals.ts): no dog training for birds.
   const allowedServices = servicesForAnimal(animal);
@@ -140,6 +172,17 @@ export function HomeSearch({
     if (allowed && selectedCategory && !allowed.includes(selectedCategory.category)) setCategorySlug(null);
   }
 
+  /** Opens the list (or the city page, no service picked) of a city. */
+  function openCity(targetCity: string, coords?: { lat: number; lng: number }) {
+    let path = categorySlug ? localePath(locale, `/${categorySlug}/${targetCity}/`) : cityPath(locale, targetCity);
+    const params = new URLSearchParams();
+    if (coords) params.set("near", `${coords.lat.toFixed(4)},${coords.lng.toFixed(4)}`);
+    const query = params.toString();
+    if (query) path += `?${query}`;
+    onNavigate?.();
+    router.push(path);
+  }
+
   function goSearch() {
     const targetCity = near?.citySlug ?? resolveCity(cityText);
     if (!targetCity) {
@@ -148,14 +191,7 @@ export function HomeSearch({
       focusCity();
       return;
     }
-    // No service picked: the city page listing every service.
-    let path = categorySlug ? localePath(locale, `/${categorySlug}/${targetCity}/`) : cityPath(locale, targetCity);
-    const params = new URLSearchParams();
-    if (near) params.set("near", `${near.lat.toFixed(4)},${near.lng.toFixed(4)}`);
-    const query = params.toString();
-    if (query) path += `?${query}`;
-    onNavigate?.();
-    router.push(path);
+    openCity(targetCity, near ?? undefined);
   }
 
   const petChips = (
@@ -202,31 +238,51 @@ export function HomeSearch({
     cityError ??
     (geoStatus === "denied" ? t.search.geoDenied : geoStatus === "far" ? t.search.geoFar(cityName) : null);
 
-  const suggestions = (id: string) => (
-    <datalist id={id}>
-      {cities.map((c) => (
-        <option key={c.slug} value={c.name ?? c.slug} />
-      ))}
-    </datalist>
-  );
+  const suggestions = (which: "boxed" | "bar") =>
+    suggestFor === which && cityMatches.length > 0 ? (
+      <ul
+        role="listbox"
+        className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-[var(--radius-control)] bg-surface py-1 text-left shadow-[var(--shadow-card)] ring-1 ring-line"
+      >
+        {cityMatches.map((c, i) => (
+          <li key={c.slug} role="option" aria-selected={i === activeCity}>
+            <button
+              type="button"
+              onMouseDown={(e) => e.preventDefault()}
+              onClick={() => pickCity(c.name ?? c.slug)}
+              className={`block w-full px-4 py-2.5 text-left text-[15px] font-medium text-foreground hover:bg-surface-sunken ${i === activeCity ? "bg-surface-sunken" : ""}`}
+            >
+              {c.name ?? c.slug}
+            </button>
+          </li>
+        ))}
+      </ul>
+    ) : null;
 
   // Boxed city field for the phone card and the dialog.
   const cityField = (
-    <label className="mt-2 flex min-h-12 w-full items-center gap-2 rounded-[var(--radius-control)] bg-surface-sunken px-4 focus-within:ring-2 focus-within:ring-brand-blue/40">
+    <label className="relative mt-2 flex min-h-12 w-full items-center gap-2 rounded-[var(--radius-control)] bg-surface-sunken px-4 focus-within:ring-2 focus-within:ring-brand-blue/40">
       <MapPinIcon className={`h-4 w-4 shrink-0 ${near ? "text-brand-blue" : "text-foreground/60"}`} />
       <span className="sr-only">{t.search.cityLabel}</span>
       <input
         ref={boxedInput}
-        list={`${listId}-boxed`}
         value={near ? t.search.nearYou : cityText}
-        onChange={(e) => onCityChange(e.target.value)}
-        onFocus={() => near && onCityChange("")}
-        onKeyDown={(e) => e.key === "Enter" && goSearch()}
+        onFocus={() => {
+          if (near) onCityChange("");
+          setSuggestFor("boxed");
+        }}
+        onBlur={() => setTimeout(() => setSuggestFor(null), 120)}
+        onChange={(e) => {
+          onCityChange(e.target.value);
+          setSuggestFor("boxed");
+          setActiveCity(-1);
+        }}
+        onKeyDown={cityKeys}
         placeholder={t.search.cityPlaceholder}
         autoComplete="off"
         className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 font-medium text-foreground outline-none placeholder:text-foreground/60 search-city"
       />
-      {suggestions(`${listId}-boxed`)}
+      {suggestions("boxed")}
     </label>
   );
 
@@ -343,16 +399,23 @@ export function HomeSearch({
           className="min-w-0 flex-[1.25]"
         />
         <span aria-hidden="true" className="h-8 w-px bg-line" />
-        <label className="flex min-w-0 flex-[1.1] cursor-text flex-col rounded-[var(--radius-pill)] px-4 py-2.5 transition-colors hover:bg-surface-sunken focus-within:bg-surface-sunken focus-within:ring-2 focus-within:ring-brand-blue/40">
+        <label className="relative flex min-w-0 flex-[1.1] cursor-text flex-col rounded-[var(--radius-pill)] px-4 py-2.5 transition-colors hover:bg-surface-sunken focus-within:bg-surface-sunken focus-within:ring-2 focus-within:ring-brand-blue/40">
           <span className="block text-xs font-semibold uppercase tracking-wider text-foreground/60">{t.search.where}</span>
           <span className="flex items-center gap-1.5">
             <input
               ref={barInput}
-              list={`${listId}-bar`}
               value={near ? t.search.nearYou : cityText}
-              onChange={(e) => onCityChange(e.target.value)}
-              onFocus={() => near && onCityChange("")}
-              onKeyDown={(e) => e.key === "Enter" && goSearch()}
+              onFocus={() => {
+                if (near) onCityChange("");
+                setSuggestFor("bar");
+              }}
+              onBlur={() => setTimeout(() => setSuggestFor(null), 120)}
+              onChange={(e) => {
+                onCityChange(e.target.value);
+                setSuggestFor("bar");
+                setActiveCity(-1);
+              }}
+              onKeyDown={cityKeys}
               placeholder={t.search.cityPlaceholder}
               autoComplete="off"
               className="min-w-0 flex-1 appearance-none border-0 bg-transparent p-0 text-[15px] font-medium text-foreground outline-none placeholder:text-foreground/60 search-city"
@@ -372,7 +435,7 @@ export function HomeSearch({
               </button>
             )}
           </span>
-          {suggestions(`${listId}-bar`)}
+          {suggestions("bar")}
         </label>
         <button
           type="button"

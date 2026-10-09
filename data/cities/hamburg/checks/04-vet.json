@@ -1,0 +1,40 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "kleintierpraxis-windisch",
+    "bergedorfer-kleintierpraxis",
+    "tierarzt-dr-brandes",
+    "tierarztpraxis-dr-von-manteuffel",
+    "tierarztpraxis-poppenbuettel",
+    "kompetenzzentrum-kleintiermedizin-furck",
+    "die-tieraerzte-am-grandweg",
+    "tierarzt-dr-freund",
+    "tiermedizin-am-rothenbaum",
+    "tierarztpraxis-marc-niklas-klingberg"
+  ],
+  "hash": "49fa45068d16211969fbbf649f4f47c2e150e23807f3e9735ac1a181ba4efb00",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T12:59:58.709Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-06T13:11:21.781Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T01:53:33.782Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-07T01:56:36.514Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

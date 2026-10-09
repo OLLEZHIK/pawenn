@@ -1,0 +1,154 @@
+{
+  "slug": "lessie-gabinet-weterynaryjny",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lessie+Gabinet+Weterynaryjny/data=!4m7!3m6!1s0x471644bca2430f83:0xbe1926850ccee366!8m2!3d50.0370551!4d19.993478!16s%2Fg%2F1tf85tpv!19sChIJgw9DorxEFkcRZuPODIUmGb4?hl=pl",
+  "period_from": "2025-10-03",
+  "period_to": "2026-10-03",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-03",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "pl": "Poważne zastrzeżenia do profesjonalizmu lekarza",
+        "en": "Serious concerns regarding doctor professionalism"
+      },
+      "text": {
+        "pl": "Chociaż kilku zadowolonych klientów chwali miłe usposobienie lekarza i przystępne stawki, w opiniach przeważają głosy negatywne. Recenzenci zarzucają lekarzowi rażący brak profesjonalizmu, pobieżne badania oraz niewłaściwy stan psychofizyczny podczas wizyt.",
+        "en": "Although a few satisfied pet owners praise the vet's pleasant manner and affordable rates, negative accounts dominate the recent reviews. Dissatisfied clients accuse the doctor of substandard professionalism, superficial evaluations, and questionable conduct."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "pl": "Błędy diagnostyczne i powikłania leczenia",
+        "en": "Diagnostic errors and medical complications"
+      },
+      "text": {
+        "pl": "Większość opinii poruszających temat leczenia opisuje błędy medyczne: pomylenie jaskry z zaćmą, zaniechanie RTG u psa po potrąceniu oraz bolesne rany po zabiegach pielęgnacyjnych. Zadowoleni klienci zgłaszali natomiast udane wyleczenie problemów skórnych.",
+        "en": "Most reviews discussing clinical outcomes recount diagnostic blunders: misdiagnosing glaucoma as cataracts, omitting X-rays for an injured dog, and wound injuries after procedures. Conversely, positive reviewers appreciated swift recovery from skin ailments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pl": "Doświadczenia w opiece nad czworonogami",
+        "en": "Experiences in companion animal care"
+      },
+      "text": {
+        "pl": "Recenzenci przedstawiają skrajne doświadczenia dotyczące traktowania zwierząt. Podczas gdy część właścicieli psów wspomina bezstresowe czyszczenie gruczołów, inni opisują ciężki stres, powikłania pourazowe i konieczność ratowania pupili w innych klinikach.",
+        "en": "Pet owners recount contrasting experiences regarding pet handling. While some visitors mention gentle anal gland emptying, others report severe distress, acute worsening of injuries, and the urgent need to transfer their pets to 24-hour emergency hospitals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pl": "Gdzie znajduje się gabinet weterynaryjny Lessie?",
+        "en": "Where is the Lessie veterinary clinic located?"
+      },
+      "a": {
+        "pl": "Gabinet mieści się przy ul. Spółdzielców 3 w krakowskim Bieżanowie-Prokocimiu.",
+        "en": "The practice is located at ul. Spółdzielców 3 in the Bieżanów-Prokocim district."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pl": "Jakie są opinie o diagnostyce w gabinecie Lessie?",
+        "en": "What do reviews say about diagnostics at Lessie?"
+      },
+      "a": {
+        "pl": "W ostatnich opiniach powtarzają się krytyczne głosy dotyczące błędnych diagnoz okulistycznych i urazowych.",
+        "en": "Recent reviews repeatedly raise concerns regarding ophthalmic and traumatic diagnostic errors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pl": "Czy w gabinecie obowiązują wcześniejsze zapisy?",
+        "en": "Are appointments required in advance at the clinic?"
+      },
+      "a": {
+        "pl": "Gabinet przyjmuje pacjentów w godzinach otwarcia gabinetu, zazwyczaj bez zapisów.",
+        "en": "The clinic primarily welcomes walk-in pet owners during standard consultation hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 dni temu",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 miesiące temu",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edytowano 5 miesięcy temu",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "8 miesięcy temu",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 miesięcy temu",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 miesięcy temu",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 miesięcy temu",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

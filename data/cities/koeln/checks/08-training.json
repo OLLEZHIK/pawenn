@@ -1,0 +1,30 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "hundeschule-snopus",
+    "helges-hundehuette",
+    "hundetraining-koeln-sued",
+    "clever-canis",
+    "hundeschule-colonia"
+  ],
+  "hash": "734c1c686dd8a8788cbbfefafcb3e949e5ac2207bdbe5049e8100ec43114c219",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-06T14:05:53.820Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T09:41:41.749Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-08T09:43:07.585Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

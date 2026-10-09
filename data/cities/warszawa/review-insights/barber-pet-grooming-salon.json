@@ -1,0 +1,157 @@
+{
+  "slug": "barber-pet-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://maps.google.com/?cid=11985862933326704150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgBIAA&hl=en-US&source=apiv3",
+  "period_from": "2026-04-02",
+  "period_to": "2026-10-02",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-02",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Discussions on styling execution and coat length",
+        "pl": "Dyskusje o długości sierści i efekcie strzyżenia"
+      },
+      "text": {
+        "en": "Most clients praise the clean, aesthetic haircuts and careful grooming finish for both large and small breeds. However, critical feedback highlights instances where requested styling preferences were disregarded, resulting in an overly short shave or minor nick on a paw pad.",
+        "pl": "Większość klientów chwali estetyczne cięcie oraz staranne wykończenie fryzur u psów różnych ras i wielkości. Pojawiają się jednak głosy krytyczne dotyczące nieuwzględnienia próśb właściciela o pozostawienie objętości, co skutkowało zbyt krótkim ogoleniem sierści lub skaleczeniem opuszki."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attention to pet comfort during grooming",
+        "pl": "Podejście do komfortu i bezpieczeństwa psa"
+      },
+      "text": {
+        "en": "Pet owners commend the gentle touch shown towards elderly pets and dogs with motor coordination challenges, noting supportive handling with assistant groomers. Nevertheless, one reviewer reported distress after discovering a cut paw, stressing the need for vigilance.",
+        "pl": "Właściciele czworonogów doceniają łagodne traktowanie starszych psów oraz zwierząt z problemami ruchowymi, w tym wsparcie asystentów przy zabiegach. Zdarzyło się jednak zgłoszenie skaleczenia opuszki podczas strzyżenia, co wywołało duże zaniepokojenie opiekuna."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Client communication and service agreements",
+        "pl": "Komunikacja z klientem i ustalenia wizyty"
+      },
+      "text": {
+        "en": "Clients often describe the staff as friendly and capable, especially when meeting special pet care needs during grooming. Conversely, critical reviews cite unexpected changes to planned services after drop-off and disagreements over matted coat pricing surcharges.",
+        "pl": "Opiekunowie nierzadko opisują obsługę jako życzliwą i profesjonalną, zwłaszcza przy indywidualnym podejściu do trudniejszych psów. Z drugiej strony klienci wskazywali na nagłe zmiany ustaleń co do zakresu strzyżenia po zostawieniu psa oraz spory o dopłaty za skołtunioną sierść."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services does Barber Pet Grooming Salon provide?",
+        "pl": "Jakie usługi świadczy Barber Pet Grooming Salon?"
+      },
+      "a": {
+        "en": "The salon offers baths, coat trimming, detangling, paw hygiene, ear care, and breed-specific grooming cuts.",
+        "pl": "Salon oferuje kąpiele, strzyżenie, rozczesywanie kołtunów, pielęgnację łap, higienę uszu oraz stylizację rasową."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can dogs with health or mobility issues be groomed?",
+        "pl": "Czy w salonie można strzyc psy z problemami zdrowotnymi?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff work patiently with special-needs pets, often using assistants to ensure a calm procedure.",
+        "pl": "Tak, klienci wspominają, że personel cierpliwie zajmuje się psami wymagającymi szczególnej ostrożności, korzystając z pomocy asystentów."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are there parking spaces near the salon?",
+        "pl": "Czy w pobliżu salonu jest dostępny parking?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that public street parking is available in the vicinity of the salon on Jana Kazimierza.",
+        "pl": "Tak, klienci wskazują na dostępność ogólnodostępnych miejsc postojowych przy ulicy w pobliżu lokalu."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can prices increase if a coat is heavily matted?",
+        "pl": "Czy cena usługi może wzrosnąć w przypadku skołtunionej sierści?"
+      },
+      "a": {
+        "en": "Yes, reviews indicate that difficult coats with severe tangles may incur surcharges or require closer clipping.",
+        "pl": "Tak, z opinii wynika, że rozczesywanie mocno skołtunionej sierści wiąże się z dopłatą lub koniecznością krótszego cięcia."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

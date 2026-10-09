@@ -1,0 +1,135 @@
+{
+  "slug": "hundesalon-pfotchen-atelier",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Pf%C3%B6tchen-Atelier/@52.544998,13.494651,17z/data=!3m1!4b1!4m6!3m5!1s0x47a84def355ee555:0xe4fbe77b7ca47753!8m2!3d52.544998!4d13.494651!16s%2Fg%2F11g6tv9hqc?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Geteilte Eindrücke vom Berliner Personal",
+        "en": "Divided impressions of salon team"
+      },
+      "text": {
+        "de": "Ein Teil der Besucher schildert das Team als herzlich, aufgeschlossen und schätzt die lockere Art mit Berliner Humor bei Pflegeterminen. Demgegenüber stehen Berichte über schroffe Begrüßungen, als unpassend empfundene Bemerkungen und fehlendes Einfühlungsvermögen gegenüber besorgten Haltern.",
+        "en": "Some visitors describe the team as welcoming, cheerful, and appreciative of easygoing local humor during grooming appointments. Conversely, negative accounts cite abrupt welcomes, unsolicited remarks, and a perceived lack of professional empathy toward stressed pet owners."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "de": "Kontrastreiche Erfahrungen im Umgang mit Hunden",
+        "en": "Contrasting experiences in pet handling"
+      },
+      "text": {
+        "de": "Mehrere Halter loben die bedürfnisorientierte Betreuung bei Welpenberatungen und unkompliziertes Krallenschneiden ohne Hast. Im Kontrast dazu berichten andere Kunden von verängstigten Hunden nach der Schur und beklagen eine unzureichende Deeskalation in stressigen Momenten für junge Tiere.",
+        "en": "Several guardians praise considerate handling during puppy workshops and quick, gentle nail clipping. In sharp contrast, other clients recount distressed behavior in their dogs following grooming and fault insufficient calming measures when young pets felt overwhelmed by the environment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Kritik an Absprachen und Kundenkontakt",
+        "en": "Criticism of agreements and communication"
+      },
+      "text": {
+        "de": "Während eine Kundin eine ausführliche Vorbesprechung vor dem Pflegetermin positiv erwähnt, überwiegt in den Rückmeldungen deutliche Kritik an der Kommunikation. Bemängelt werden eigenmächtige Schurentscheidungen ohne Vorankündigung sowie unfreundliche Reaktionen im direkten Kundengespräch.",
+        "en": "While one customer notes an informative preliminary consultation before service, feedback shows noticeable criticism of client communication. Reviews fault unannounced clipping decisions made without consent as well as sharp and unwelcoming verbal interactions in the waiting area."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden im Pfötchen-Atelier Welpentreffen angeboten?",
+        "en": "Are puppy workshops hosted at Pfötchen-Atelier?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten positiv über Welpentreffen, bei denen Grundlagen der Fellpflege und des Handlings vermittelt werden.",
+        "en": "Yes, owners report positively on puppy sessions focused on coat maintenance basics and handling guidance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Muss vorab ein Termin vereinbart werden?",
+        "en": "Is an advance appointment required?"
+      },
+      "a": {
+        "de": "Ja, Termine im Salon finden ausschließlich nach vorheriger Vereinbarung statt.",
+        "en": "Yes, appointments at the atelier are arranged strictly by prior booking."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "de": "Wie werden Absprachen zur Schnittlänge getroffen?",
+        "en": "How are styling lengths and procedures agreed upon?"
+      },
+      "a": {
+        "de": "Kunden empfehlen, gewünschte Schnittlängen und das Vorgehen bei Verfilzungen vorab verbindlich und schriftlich festzulegen.",
+        "en": "Clients advise confirming desired trim lengths and detangling instructions clearly with staff before leaving the pet."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

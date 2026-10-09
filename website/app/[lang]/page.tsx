@@ -39,6 +39,14 @@ import {
 
 const STEP_ICONS = [SearchIcon, ShieldCheckIcon, PhoneIcon];
 
+// The city the home page works on. Only cities that have this language: with
+// two Polish cities the site's default city (Bratislava) was picked for /pl/,
+// and "Vet open now" opened /pl/.../bratislava/, a 404. Same rule as the header.
+function pickHomeCity<T extends { slug: string }>(homeCities: T[], defaultCity: T | null): T | null {
+  if (defaultCity && homeCities.some((c) => c.slug === defaultCity.slug)) return defaultCity;
+  return homeCities[0] ?? defaultCity;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
@@ -46,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   // One city: the home page is that city's; several: no city in the title
   // (docs/architecture/multi-city.md 3.1).
   const homeCities = cities.filter((c) => localesForCity(c).includes(lang));
-  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
+    const city = pickHomeCity(homeCities, defaultCity);
   const where = homeCities.length > 1 ? null : inCity(lang, city ?? { name: "Bratislava" });
   const t = getDictionary(lang).home;
   // Every language that has a city has a home page.
@@ -75,7 +83,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   // them and open the nearest city (docs/architecture/multi-city.md 3.1).
   // One -> the home page is that city's (the first Polish city on /pl/).
   const homeCities = allCities.filter((c) => localesForCity(c).includes(locale));
-  const city = homeCities.length === 1 ? homeCities[0] : defaultCity;
+    const city = pickHomeCity(homeCities, defaultCity);
   const defaultSlug = city?.slug ?? "";
   const multi = homeCities.length > 1;
   const citySlugs = multi ? homeCities.map((c) => c.slug) : [defaultSlug];
@@ -117,7 +125,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     { value: site.countries, label: t.statCountries(site.countries) },
     { value: site.cities, label: t.statCities(site.cities) },
     { value: site.places, label: t.statPlaces(site.places) },
-    { value: site.kinds, label: t.statKinds(site.kinds) },
+    { value: `${new Intl.NumberFormat(locale).format(site.potentialUsers)}+`, label: t.statPeople },
   ];
 
   return (
@@ -168,8 +176,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 cities={cityPoints
                   .filter((p) => homeCities.some((c) => c.slug === p.slug))
                   .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
-                defaultCitySlug={citySlug}
-                label={getDictionary(locale).vetNow.button}
+                                label={getDictionary(locale).vetNow.button}
                 hint={getDictionary(locale).vetNow.buttonHint}
                 locating={getDictionary(locale).vetNow.locating}
               />
@@ -182,7 +189,9 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 cityName={cityName}
                 categories={categories.map((c) => ({ slug: c.slug, label: c.label, category: c.category }))}
                 popularCategorySlugs={popularCategorySlugs}
-                cities={cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
+                cities={cityPoints
+                  .filter((p) => homeCities.some((c) => c.slug === p.slug))
+                  .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))}
               />
             </div>
 
@@ -231,7 +240,13 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         />
         <NearestCityNav
           locale={locale}
-          cities={multi ? cityPoints.map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng })) : []}
+          cities={
+            multi
+              ? cityPoints
+                  .filter((p) => homeCities.some((c) => c.slug === p.slug))
+                  .map(({ slug, name, lat, lng }) => ({ slug, name, lat, lng }))
+              : []
+          }
           defaultCitySlug={citySlug}
           className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3"
         >

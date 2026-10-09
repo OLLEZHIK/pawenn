@@ -1,0 +1,169 @@
+{
+  "slug": "pet-center-flora",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Center/data=!4m7!3m6!1s0x470b94bea2b23c4f:0x928ba5cac6b88dc8!8m2!3d50.0787889!4d14.4608715!16s%2Fg%2F11b5vs0b33!19sChIJTzyyor6UC0cRyI24xsqli5I&hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Store assistants and service attitude",
+        "cs": "Ochota personálu a přístup prodavačů"
+      },
+      "text": {
+        "en": "Most visitors commend the helpful and kind store assistants at the Flora branch, specifically praising advice with selecting pet food and supplies. However, several critical reviews mention encounter with impolite behavior from specific employees during returns or routine inquiries.",
+        "cs": "Většina návštěvníků chválí ochotné a vstřícné prodavače v prodejně na Floře a vyzdvihuje jejich cenné rady při nákupu krmiv a chovatelských potřeb. Několik zákazníků však zmiňuje nepříjemnou zkušenost s neochotným jednáním personálu při reklamaci nebo běžném dotazu."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Customer consultations and product advice",
+        "cs": "Poradenství při nákupu a komunikace"
+      },
+      "text": {
+        "en": "Numerous shoppers highlight excellent guidance from knowledgeable staff who gladly help pick appropriate products and explain diet options. Conversely, a few reviewers express dissatisfaction with abrupt communication and a lack of empathy when addressing complex issues or pet returns.",
+        "cs": "Řada nakupujících oceňuje odborné rady a přátelskou komunikaci ze strany zkušených asistentů, kteří ochotně pomáhají vybrat vhodné zboží a granule. Oproti tomu několik nespokojených zákazníků poukazuje na strohé reakce a nedostatek pochopení při řešení výměny zvířete."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Product assortment and shopping convenience",
+        "cs": "Šíře sortimentu a zázemí prodejny"
+      },
+      "text": {
+        "en": "Clients generally appreciate the wide selection of premium pet feeds, treats, and everyday equipment in the shopping gallery. One owner notes a slightly narrower offering of toys for birds, but overall ratings for product quality, store cleanliness, and location remain favorable.",
+        "cs": "Zákazníci v této nákupní galerii oceňují široký sortiment kvalitních krmiv, pamlsků i běžných doplňků pro psy a kočky. Jeden chovatel zaznamenal menší výběr hraček pro ptactvo, nicméně celková úroveň nabídky, čistota prostor i dostupnost prodejny sklízejí pozitivní ohlasy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the branch located and can I pay by card?",
+        "cs": "Kde se prodejna nachází a lze platit kartou?"
+      },
+      "a": {
+        "en": "The store is located in the Atrium Flora shopping center on Vinohradská street and accepts payment cards.",
+        "cs": "Prodejna se nachází v nákupním centru Atrium Flora na Vinohradské ulici a přijímá bezhotovostní platby kartou."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do staff assist with selecting pet food and supplies?",
+        "cs": "Poradí personál s výběrem krmiva a potřeb?"
+      },
+      "a": {
+        "en": "Yes, many customers confirm that staff are ready to give advice regarding proper food and equipment for pets.",
+        "cs": "Ano, řada zákazníků potvrzuje, že obsluha ráda poradí s volbou vhodného krmiva i chovatelských potřeb."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What supplies for birds and small animals are offered?",
+        "cs": "Jaké potřeby pro ptáky a hlodavce prodejna nabízí?"
+      },
+      "a": {
+        "en": "The shop stocks standard feed and basic accessories, though reviewers note a more modest selection of bird toys.",
+        "cs": "V nabídce jsou základní krmiva a doplňky, přičemž zákazníci zmiňují o něco užší výběr hraček pro papoušky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před týdnem",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před 2 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "před 2 měsíci",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "před 4 měsíci",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

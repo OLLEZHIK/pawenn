@@ -1,0 +1,155 @@
+{
+  "slug": "veterinarni-ordinace-mvdr-michaely-riedlove",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterin%C3%A1rn%C3%AD+ordinace+MVDr.+Michaely+Riedlov%C3%A9/data=!4m7!3m6!1s0x470b952fa8486965:0x34dee85dc2a5b2c5!8m2!3d50.1125107!4d14.3915446!16s%2Fg%2F1v9tym9j!19sChIJZWlIqC-VC0cRxbKlwl3o3jQ?hl=cs",
+  "period_from": "2026-04-05",
+  "period_to": "2026-10-05",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-05",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "cs": "Rozporuplné hodnocení přístupu personálu",
+        "en": "Contrasting opinions on staff attitude"
+      },
+      "text": {
+        "cs": "Většina stálých klientů chválí ochotu, vstřícnost a milé jednání lékařů při běžných kontrolách i při ošetřování drobných zvířat. Několik nespokojených chovatelů však upozorňuje na arogantní chování a nedostatek zájmu v akutních situacích u starších zvířat.",
+        "en": "Most regular clients praise the kindness and willingness of the veterinary team during routine visits and care for small pets. However, several dissatisfied pet owners point to an arrogant attitude and lack of interest during acute emergencies in older animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "cs": "Odborná péče se smíšenými zkušenostmi",
+        "en": "Clinical outcomes and mixed experiences"
+      },
+      "text": {
+        "cs": "Řada chovatelů oceňuje úspěšně zvládnuté zákroky a spolehlivou pomoc i u méně obvyklých pacientů, jako jsou ježci nebo králíci. Oproti tomu kritické hlasy zmiňují pochybnosti o odborné úrovni léčby a nedostatečnou snahu nalézt příčinu obtíží u nemocné kočky.",
+        "en": "Many owners appreciate successful procedures and reliable assistance even with unconventional patients such as hedgehogs or rabbits. In contrast, critical reviews raise doubts about diagnostic depth and lack of effort to find the cause of illness in a sick cat."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "cs": "Péče o psy, kočky i ježky",
+        "en": "Care for pets and small exotics"
+      },
+      "text": {
+        "cs": "Klienti s králíčky a ježky vyzdvihují citlivé zacházení a ochotu ošetřit i netradiční zvířata bez zbytečného stresu v ordinaci. Naopak v jedné z negativních recenzí zaznívá výtka k naprostému nezájmu a chladnému přístupu lékařky ke starší dehydratované kočce.",
+        "en": "Clients bringing rabbits and hedgehogs highlight gentle handling and willingness to treat non-traditional pets with minimal stress. Conversely, one negative review criticizes complete disinterest and cold treatment shown towards an elderly dehydrated cat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "cs": "Ošetřují v ordinaci i netradiční zvířata, například ježky?",
+        "en": "Do they treat unconventional pets such as hedgehogs?"
+      },
+      "a": {
+        "cs": "Ano, klienti v recenzích potvrzují spolehlivou péči a zákroky i u ježků a králíků.",
+        "en": "Yes, client reviews confirm reliable medical care and procedures for hedgehogs and rabbits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Funguje v ordinaci objednací systém?",
+        "en": "Is there an appointment booking system?"
+      },
+      "a": {
+        "cs": "Ano, recenzenti zmiňují perfektně fungující systém objednávání pacientů na přesný čas.",
+        "en": "Yes, reviewers note a well-functioning appointment system with precise time booking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "cs": "Lze na klinice platit platební kartou?",
+        "en": "Can clients pay by credit or debit card?"
+      },
+      "a": {
+        "cs": "Ano, ordinace umožňuje platbu hotově i běžnými platebními kartami.",
+        "en": "Yes, the practice accepts payments in cash as well as standard bank cards."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "před 4 dny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "před 3 týdny",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před měsícem",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "před 3 měsíci",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "před 5 měsíci",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

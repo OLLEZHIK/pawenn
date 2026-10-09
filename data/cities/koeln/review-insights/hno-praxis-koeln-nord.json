@@ -1,0 +1,142 @@
+{
+  "slug": "hno-praxis-koeln-nord",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/HNO-Praxis+K%C3%B6ln-Nord+Dr.+med.+Meyer+%26+Dr.+med.+R%C3%B6hrig/@50.9634994,6.9744158,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf2591605f1eb7:0xc71318451b6946bf!8m2!3d50.9634994!4d6.9744158!16s%2Fg%2F1tf7w_m3?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Freundliches Praxisteam und engagierte Ärzte",
+        "en": "Friendly reception staff and engaged physicians"
+      },
+      "text": {
+        "de": "Patienten loben das Praxisteam am Riehler Gürtel für seine Freundlichkeit und Hilfsbereitschaft. Sowohl die medizinischen Fachangestellten an der Anmeldung als auch die behandelnden Ärzte werden als sehr zugewandt beschrieben und schaffen eine angenehme Atmosphäre.",
+        "en": "Patients praise the clinic team on Riehler Gürtel for their friendliness and helpful assistance. Both medical assistants at reception and the treating physicians are described as dedicated, creating an open and welcoming practice environment for all visitors."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Ausführliche und verständliche Beratung",
+        "en": "Thorough and accessible consultations"
+      },
+      "text": {
+        "de": "In den Erfahrungsberichten wird hervorgehoben, dass sich die Behandler viel Zeit für die Untersuchung ihrer Patienten nehmen. Medizinische Sachverhalte werden sachlich, ruhig und verständlich erläutert, sodass sich Besucher mit ihren Anliegen stets bestens beraten fühlen.",
+        "en": "Patient reviews consistently highlight that physicians dedicate ample time to thorough consultations. Clinical findings are explained objectively, calmly, and clearly, ensuring visitors feel completely informed and confident regarding recommended measures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Gründliche Diagnostik und erfolgreiche Behandlung",
+        "en": "Thorough diagnostics and effective treatment"
+      },
+      "text": {
+        "de": "Besucher berichten von sorgfältigen Untersuchungen bei akuten Beschwerden sowie chronischen Erkrankungen. Die verordneten Therapiemaßnahmen zeigen rasche Wirkung, und Neupatienten heben die fachliche Kompetenz der Ärzte hervor, die zu spürbarer Besserung führt.",
+        "en": "Visitors report meticulous diagnostic examinations for both acute and persistent clinical symptoms. Prescribed therapeutic measures demonstrate prompt effectiveness, and new patients highlight the doctors' clinical expertise that leads to noticeable relief."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Können Termine kurzfristig vereinbart werden?",
+        "en": "Can appointments be scheduled on short notice?"
+      },
+      "a": {
+        "de": "Ja, Patienten berichten von einer unkomplizierten Online-Buchung und kurzfristigen Terminen bei akuten Beschwerden.",
+        "en": "Yes, patients report straightforward online booking and short-notice appointment availability for acute concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Neupatienten in der Praxis aufgenommen?",
+        "en": "Are new patients accepted at the practice?"
+      },
+      "a": {
+        "de": "Ja, in den Bewertungen schildern Neupatienten eine reibungslose Aufnahme und gründliche Erstberatung.",
+        "en": "Yes, reviews describe smooth onboarding and thorough initial consultations for new patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie gestalten sich die Wartezeiten vor Ort?",
+        "en": "What are waiting times like on site?"
+      },
+      "a": {
+        "de": "Besucher heben kurze Wartezeiten im Empfangsbereich und gut organisierte Praxisabläufe positiv hervor.",
+        "en": "Visitors positively highlight minimal wait times in reception along with well-coordinated workflows."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Wochen",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

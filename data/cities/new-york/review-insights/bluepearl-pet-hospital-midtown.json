@@ -1,0 +1,363 @@
+{
+  "slug": "bluepearl-pet-hospital-midtown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BluePearl+Pet+Hospital/@40.7667959,-73.9876774,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25859952a54eb:0xdc7a43a1c7359e7d!8m2!3d40.7667959!4d-73.9876774!16s%2Fg%2F1tg2lk_b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-07",
+  "period_to": "2026-10-07",
+  "reviews_in_period": 30,
+  "observed_at": "2026-10-07",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 29,
+      "title": {
+        "en": "Praise for compassionate medical teams"
+      },
+      "text": {
+        "en": "Pet parents widely commend the medical and support staff for maintaining calm, empathetic care during high-stress visits. Reviewers highlight dedicated veterinary technicians, responsive front-desk staff, and thoughtful specialists in neurology and oncology. Clients note feeling thoroughly supported when navigating complex medical decisions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Effective treatments for acute emergencies"
+      },
+      "text": {
+        "en": "Reviewers report successful medical interventions for severe emergencies, including toxin ingestions, emergency surgeries, seizure management, and acute urinary issues. Pet owners praise the hospital intensive inpatient care and diagnostic capabilities, although occasional clients wished for faster diagnosis during terminal illnesses."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Varied wait times during emergency intake"
+      },
+      "text": {
+        "en": "Experiences regarding wait times vary widely depending on clinical severity. Pets with acute, critical trauma are ushered immediately into examination rooms without delay. However, pet parents presenting with non-life-threatening ailments frequently report waiting three to four hours during peak evening triage periods."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is emergency veterinary care available twenty-four hours a day?"
+      },
+      "a": {
+        "en": "Yes, the hospital provides continuous twenty-four-hour emergency veterinary intake every day of the year."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can owners visit pets staying in the intensive care unit?"
+      },
+      "a": {
+        "en": "Clients report that the hospital accommodates daily visitation for pets undergoing multi-day hospital stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What specialty veterinary services are offered?"
+      },
+      "a": {
+        "en": "The hospital provides comprehensive specialty departments including neurology, medical oncology, diagnostic imaging, and internal medicine."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are emergency examination fees required upon arrival?"
+      },
+      "a": {
+        "en": "Reviewers note an initial emergency consultation base fee of around $275, with diagnostic tests and inpatient treatments quoted separately."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "16 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "results": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "prices": "-",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "waiting": "-",
+        "prices": "~",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "~",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
