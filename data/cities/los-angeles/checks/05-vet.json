@@ -1,0 +1,30 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "veterinary-skin-ear",
+    "aloro-pet-hospital",
+    "south-shores-pet-clinic",
+    "beverly-robertson-veterinary-clinic",
+    "marina-veterinary-center",
+    "cahuenga-veterinary-hospital",
+    "vca-marina-bay-cities-animal-hospital",
+    "veterinary-medical-center-of-woodland-hills",
+    "park-la-brea-veterinary-care",
+    "florence-pet-clinic"
+  ],
+  "hash": "30829465a4272e814349bb7d9a926023001692ff895aaf6ca4a77d6d51e8803d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T08:36:57.631Z",
+      "result": "FAIL",
+      "listed": 20
+    },
+    {
+      "at": "2026-10-09T08:39:03.136Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
