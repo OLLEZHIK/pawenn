@@ -13,7 +13,7 @@
     "dogs-beauty-muenchen",
     "kultfell"
   ],
-  "hash": "ab5922a506da35f3691756783174b22cb41cd0196982813f0d2b0449e4ec6b3d",
+  "hash": "0d12b5f2fee9a193da231f9d00bee172e2d9087592fa2cec9c200dcc8d32250b",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +23,16 @@
     },
     {
       "at": "2026-10-06T18:48:36.960Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T12:15:38.709Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-08T12:17:49.010Z",
       "result": "PASS",
       "listed": 0
     }
