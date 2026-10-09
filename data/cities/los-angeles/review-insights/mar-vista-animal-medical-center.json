@@ -1,0 +1,133 @@
+{
+  "slug": "mar-vista-animal-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mar+Vista+Animal+Medical+Center/data=!4m7!3m6!1s0x80c2ba5ce377da39:0x967d3703f1f1fb47!8m2!3d34.0036921!4d-118.4301073!16s%2Fg%2F1tt8cjh_!19sChIJOdp341y6woARR_vx8QM3fZY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed reviews on clinic staff"
+      },
+      "text": {
+        "en": "Client perspectives on veterinary staff are decidedly mixed. Several pet owners describe the veterinary doctors and support staff as attentive and kind during visits. However, critical reviews describe hurried examinations and impersonal interactions when discussing pet symptoms."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Divergent impressions of medical fees"
+      },
+      "text": {
+        "en": "Feedback on treatment pricing is divided among pet parents. One client notes reasonable rates and a willingness by doctors to work within an owner's budget. In contrast, other reviewers describe substantial fees for diagnostic lab tests and dental procedures as excessively high."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied outcomes in clinical care"
+      },
+      "text": {
+        "en": "Reported clinical results vary significantly. Pet parents praise the hospital for effective dental tooth extractions and seamless preparation of international travel health certificates. Conversely, one reviewer reported a missed heart condition that required a second opinion."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the hospital prepare USDA international travel documents?"
+      },
+      "a": {
+        "en": "Yes, clients report that the veterinary staff successfully assists with USDA health certificates and documentation for international pet travel to the European Union."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Will the veterinarians work within a client's budget?"
+      },
+      "a": {
+        "en": "Some reviewers note that doctors are willing to discuss diagnostic options that fit within a pet owner's budget."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report about diagnostic test turnaround?"
+      },
+      "a": {
+        "en": "Opinions vary; while routine documentation is processed efficiently, one client noted delays and communication gaps when waiting for specialized laboratory bloodwork."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital perform pet dental surgery?"
+      },
+      "a": {
+        "en": "Yes, clients mention successful dental treatments, including tooth extractions that relieved acute discomfort in pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
