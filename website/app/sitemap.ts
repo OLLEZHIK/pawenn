@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
-import { getAllCities, getAllDistricts, getCategoryAggregates, getAllPublishedBusinessSlugs, getBusinessCount, getMarketPrices, getAttributeCounts } from "@/lib/data";
+import { getAllCities, getAllDistricts, getCategoryAggregates, getAllPublishedBusinessSlugs, getBusinessCount, getMarketPrices, getAttributeCounts, getBestPages } from "@/lib/data";
 import { getPriceSummary, pricesPath } from "@/lib/pricePages";
 import { attributePath, minToIndex } from "@/lib/attributePages";
 import { ALL_CATEGORIES, businessPath, cityPath, listingPath } from "@/lib/categories";
 import { localePath, localesForCity, type Locale } from "@/lib/i18n";
 import { SITE_URL } from "@/lib/site";
+import { bestPath } from "@/lib/bestPages";
 import { guideAlternates, guidesPath, listGuides } from "@/lib/guides";
 
 const MIN_LISTED_FOR_INDEX = 3;
@@ -121,6 +122,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
   );
   for (const block of blocks) entries.push(...block);
+
+  // "Best" pages of cities and districts (lib/bestPages.ts).
+  const citiesBySlug = new Map(cities.map((c) => [c.slug, c]));
+  for (const page of await getBestPages()) {
+    const city = citiesBySlug.get(page.citySlug);
+    if (!city) continue;
+    entries.push(
+      ...localized(localesForCity(city), (l) => bestPath(l, page.category, city.slug, page.districtSlug), {
+        lastModified: page.lastModified ? new Date(page.lastModified) : undefined,
+        changeFrequency: "weekly",
+        priority: page.districtSlug ? 0.7 : 0.8,
+      })
+    );
+  }
 
   for (const business of businesses) {
     entries.push(
