@@ -1,0 +1,30 @@
+{
+  "chunk": "19-hotel",
+  "kind": "places",
+  "slugs": [
+    "wag-hotels-hollywood",
+    "la-dogworks",
+    "canine-retreat",
+    "kennel-club-lax",
+    "oh-hello-dog-dtla-dog-daycare-boarding",
+    "k9s-only",
+    "paradise-ranch-pet-resort",
+    "d-pet-hotels-hollywood",
+    "pawparazzi-pet-resort",
+    "whitaker-dog-dog-daycare-boarding-and-training"
+  ],
+  "hash": "7745c939c90eb521778bca632525772c4fa47fb4f9b14ff855ec3ca68f792ce3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T13:37:08.187Z",
+      "result": "FAIL",
+      "listed": 73
+    },
+    {
+      "at": "2026-10-09T13:39:16.647Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
