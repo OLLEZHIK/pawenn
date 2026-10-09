@@ -1,0 +1,163 @@
+{
+  "slug": "happy-paws-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Happy+Paws+Grooming+Salon/data=!4m7!3m6!1s0x80c290750fc0443f:0xc3c0326c1e026252!8m2!3d34.271481!4d-118.4843052!16s%2Fg%2F11g9mhtg5z!19sChIJP0TAD3WQwoARUmICHmwywMM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Frequent dissatisfaction with grooming quality"
+      },
+      "text": {
+        "en": "A majority of recent reviews criticize the quality of haircuts, citing completely shaved poodle tails, rushed uneven cuts, and visible scabs on pets' skin. While a few clients report beautiful results and clean coats, negative accounts significantly outweigh positive appraisals."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Multiple reports of pet injuries"
+      },
+      "text": {
+        "en": "Recent reviews raise serious concerns regarding pet safety and physical handling during grooming. Multiple pet parents report finding clipper cuts, scabs around ears, and sensitive skin injuries after appointments, although one customer noted their nervous dog returned happy."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical reviews regarding staff care"
+      },
+      "text": {
+        "en": "Feedback on salon staff is predominantly negative, with reviewers citing perceived inexperience among groomers and a lack of accountability when discussing haircut mistakes. While front-desk personnel are occasionally described as polite, overall impressions remain critical."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do clients report affordable prices at the salon?"
+      },
+      "a": {
+        "en": "Yes, several reviewers note that basic grooming rates and treatments are priced lower than many competitors in the area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are flea treatments available upon request?"
+      },
+      "a": {
+        "en": "Yes, clients mention that staff can administer specialized flea baths and flea prevention treatments when needed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners book dog dental cleanings here?"
+      },
+      "a": {
+        "en": "The salon offers non-anesthetic dental cleaning, though one reviewer noted multiple appointment cancellations due to scheduling conflicts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do recent reviews report about haircut quality?"
+      },
+      "a": {
+        "en": "Opinions are sharply negative recently, with multiple pet parents reporting uneven trims, shaved coats, and clipper cuts."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "prices": "~",
+        "staff": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "holiday-humane-society-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Holiday+Humane+Society+Clinic/data=!4m7!3m6!1s0x80c296e9438fa021:0x49592021eae2560e!8m2!3d34.203064!4d-118.423116!16s%2Fg%2F1tffk0st!19sChIJIaCPQ-mWwoARDlbi6iEgWUk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed impressions of clinic staff"
+      },
+      "text": {
+        "en": "Clients share divergent experiences with clinic veterinary personnel. Satisfied pet owners praise the attending doctor as kind and the support staff as friendly. Conversely, critical reviews describe abrupt interactions at the front desk and a doctor reluctant to perform routine checkups."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied clinical outcomes and services"
+      },
+      "text": {
+        "en": "Feedback regarding clinical outcomes is divided. Several reviewers report excellent veterinary service and reliable care for their pets. However, a long-term client noted difficulty getting an ear infection examined, stating that the clinic referred them to an outside emergency hospital instead."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Communication gaps around clinic policies"
+      },
+      "text": {
+        "en": "Clients report frustration regarding how clinic policies are communicated over the phone and at reception. Reviewers cite unexpected restrictions regarding owner presence during end-of-life procedures and unaccommodating communication when attempting to schedule routine examinations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet owners accompany their pets during euthanasia?"
+      },
+      "a": {
+        "en": "According to client reviews, clinic policy requires a preliminary exam and does not allow owners to remain in the room during the procedure."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer affordable veterinary care?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate the facility's low-cost pricing structure for basic pet health services and examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are general medical examinations available for sick pets?"
+      },
+      "a": {
+        "en": "While the clinic provides routine veterinary care, a recent client noted that more complex health concerns were referred to outside animal hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do pet parents say about the veterinary doctor?"
+      },
+      "a": {
+        "en": "Experiences vary; several long-term clients describe the doctor as caring and pleasant, while others note changes in practice style under new personnel."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
