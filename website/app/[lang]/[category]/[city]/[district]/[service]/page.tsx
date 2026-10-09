@@ -18,6 +18,13 @@ import { getCityBySlug, getDistrictBySlug } from "@/lib/data";
 // /<category>/<city>/<district>/best/ - the top places of the district
 // (lib/bestPages.ts), while at least MIN_PLACES_BEST qualify.
 
+// Built on the first visit, then served from Vercel's cache until the next
+// deploy (owner, 2026-10-09: the free plan ran out of CPU rendering these
+// pages on every visit and crawler hit). Nothing here reads the query.
+export function generateStaticParams() {
+  return [];
+}
+
 interface PageParams {
   lang: string;
   category: string;
