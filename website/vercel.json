@@ -8,5 +8,6 @@
       "**": false,
       "main": true
     }
-  }
+  },
+  "ignoreCommand": "bash scripts/vercel-ignore-build.sh"
 }
