@@ -1,0 +1,159 @@
+{
+  "slug": "l-a-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/L.A.+Pet+Clinic/data=!4m7!3m6!1s0x80c2b8cbf1904977:0xca93e7bdda04eaa5!8m2!3d34.0836111!4d-118.3280556!16s%2Fg%2F1263wb9r_!19sChIJd0mQ8cu4woARpeoE2r3nk8o?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Mixed feedback on clinic staff"
+      },
+      "text": {
+        "en": "Client impressions of the veterinarians and clinic personnel vary significantly. Multiple pet owners express deep gratitude to Dr. Reina and the nursing team for their compassionate and supportive demeanor during critical visits. In contrast, several reviewers describe frustrating encounters at the front desk, citing bitter communication, cold customer service, and an indifferent attitude during stressful situations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Surgical outcomes and clinical treatments"
+      },
+      "text": {
+        "en": "Reviews reflect contrasting medical outcomes for surgical interventions and procedures. Several pet owners credit the team with performing life-saving emergency surgeries and successfully repairing fractures and hernias. However, other clients share serious grievances, including an unexplained pet loss during an overnight stay and persistent post-operative behavioral changes that left owners distressed."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Handling and care of pets"
+      },
+      "text": {
+        "en": "Pet handling receives divided opinions from visiting pet parents. Satisfied reviewers report that their dogs and cats were treated like family, receiving attentive and affectionate handling throughout their appointments. Conversely, dissatisfied clients felt the staff showed a lack of genuine empathy toward vulnerable pets, cautioning that patients staying overnight were left without continuous bedside monitoring."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform emergency surgeries?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the veterinary team successfully performed emergency surgical procedures, including repairing fractures and addressing hernias."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is overnight staff available for hospitalized pets?"
+      },
+      "a": {
+        "en": "According to a reviewer, the facility does not provide continuous 24-hour on-site monitoring for pets kept overnight."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic assist clients facing financial constraints?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the clinic offered flexible support and subsidized surgical care when other veterinary hospitals were unaffordable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners expect regarding the physical facility?"
+      },
+      "a": {
+        "en": "Multiple reviewers observe that the building is older and unadorned, advising visitors that the clinic focuses on low-cost care rather than updated decor."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "results": "~",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
