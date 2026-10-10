@@ -1,0 +1,30 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "coconut-grove-animal-clinic",
+    "vca-south-dade-animal-hospital",
+    "banfield-pet-hospital-coral-gables",
+    "banfield-pet-hospital-aventura",
+    "miami-shores-animal-clinic",
+    "eureka-animal-clinic",
+    "parajon-animal-clinic",
+    "miller-pets-animal-hospital",
+    "miami-vet-group",
+    "paradise-animal-clinic"
+  ],
+  "hash": "b8f9dd74837cf45c46d4c832a53b2c0dac3e49a210820a5a928b8d6431e1f1c8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T01:14:49.256Z",
+      "result": "FAIL",
+      "listed": 35
+    },
+    {
+      "at": "2026-10-10T01:19:15.187Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
