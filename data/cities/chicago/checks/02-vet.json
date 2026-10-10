@@ -1,0 +1,35 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "premier-veterinary-group-chicago",
+    "pulaski-animal-hospital",
+    "animal-house-of-chicago",
+    "abell-animal-hospital",
+    "village-west-veterinary",
+    "blvd-vet-logan-square",
+    "sploot-veterinary-care-roscoe-village",
+    "west-loop-veterinary-care",
+    "forest-glen-animal-hospital",
+    "duke-animal-hospital"
+  ],
+  "hash": "8f0e2774223f937112a22882e8537ad3e6a35db2d2f0ac93ed61091a538d90b0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T13:21:00.122Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-10T13:21:42.917Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-10T13:22:55.272Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
