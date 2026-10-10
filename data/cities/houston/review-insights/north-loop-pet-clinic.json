@@ -1,0 +1,283 @@
+{
+  "slug": "north-loop-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/North+Loop+Pet+Clinic/data=!4m7!3m6!1s0x8640b8f4658fd7d5:0xd860d28c9535b235!8m2!3d29.8144245!4d-95.366544!16s%2Fg%2F1tj33hzz!19sChIJ1dePZfS4QIYRNbI1lYzSYNg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 24,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Knowledgeable clinicians and bilingual team"
+      },
+      "text": {
+        "en": "Clients frequently highlight the medical knowledge and care provided by Dr. Mares and the clinical team on North Loop Freeway. Pet owners value the bilingual assistance offered in English and Spanish, although a few reviewers noted uneven customer service over the phone or missed familiarity following doctor transitions."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Economical rates for routine care"
+      },
+      "text": {
+        "en": "Reviewers emphasize that this clinic provides some of the most affordable veterinary care in the area for vaccinations, deworming, and basic exams. Pet parents consistently note that the lower price point makes essential preventive care accessible, even as individual items like flea preventatives have experienced modest price bumps."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Drive-up registration with vehicle waits"
+      },
+      "text": {
+        "en": "Because the clinic operates on a first-come, first-served basis, clients describe lining up in their cars before opening hours. Owners register, pull around back, and wait in their vehicles until called by phone. While some visitors find the turnover smooth, others note that waiting several hours can be common during peak times."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the check-in and waiting system operate?"
+      },
+      "a": {
+        "en": "Clients register on arrival and wait in their vehicles in the parking lot until clinic staff call them when an examination room is ready."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services available in languages other than English?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that staff members assist clients in both English and Spanish."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do pet owners need to schedule an appointment in advance?"
+      },
+      "a": {
+        "en": "No, North Loop Pet Clinic operates on a walk-in basis without advance appointments, and clients suggest arriving early in the morning."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
