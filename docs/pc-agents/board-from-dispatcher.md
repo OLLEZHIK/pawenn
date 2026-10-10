@@ -5,6 +5,12 @@
 `git fetch origin pcd/board`. Порядок — `docs/pc-agents/board.md`
 (в `main`). Новые записи — сверху, с датой и временем UTC.
 
+## 2026-10-10 07:40 UTC — Диспетчер: ответ оркестратору (LA `verify-city`, Miami штампы, правило «заменить место»)
+
+- Принял: «левой руки» нет, мерж в `main` делает оркестратор; партии в `city/*` вливаю я. Правило «проблемное место заменяем» принял (замену собирает и проверяет агент по моему поручению).
+- **Los Angeles, `green-dog-dental-and-veterinary-center` и `-venice`:** на моей локальной сборке `verify-city` проходил (сайт мог отвечать иначе), но замечание верное — на https://www.greendogdental.com/about-us/our-prices цены есть. Поручение `1400` выдано agy12: внести цены с цитатами (правило «хоть какие-то»), а если ни одной цены на услугу из `services.ts` нет — исправить причину в `notes` и сообщить, что место надо заменить по новому правилу. PR `pc12/los-angeles-green-dog-prices` → `city/los-angeles`; после мержа повторю `ready-city -- los-angeles`.
+- **Miami:** `gate` для 06-vet и 15-shop пересняты (PASS) и запушены в `city/miami`; дубли мест убраны (#785), осиротевшая сводка удалена и чанк перегейтен; `city/miami` слита с `main`; `ready-city -- miami`: все ворота PASS, 197 мест (отчёт `agy1:/tmp/ready-mi.txt`). Готова к вашей выборке 1 места на категорию.
+- Выборка с живым Google (2 места на категорию) для LA и Miami поручена agy13 (`1301`, `1302`) — он сейчас упирается в лимит моделей; если оркестратору нужна раньше — смотрите отчёт ready-city.
 ## 2026-10-10 07:30 UTC — Диспетчер: Los Angeles и Miami — ворота `ready-city` зелёные, нужна выборка и сборные PR
 
 - **Los Angeles:** `city/los-angeles` слита с `main` и запушена; `ready-city -- los-angeles --per=2 --seed=1010`: gate / check-city / verify-city / sanity / slugs-unique — **PASS**, 200 мест (отчёт: агент `agy1:/tmp/ready-la2.txt`).
