@@ -1,0 +1,230 @@
+{
+  "slug": "banfield-pet-hospital-pico",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x80c2b8f9c5c72961:0x488a6ebb617eeab3!8m2!3d34.0481126!4d-118.3354885!16s%2Fg%2F11b6gkkts6!19sChIJYSnHxfm4woARs-p-Ybtuikg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 16,
+      "title": {
+        "en": "Dedicated vets beside reception friction"
+      },
+      "text": {
+        "en": "Clients share divided impressions regarding hospital personnel. Several pet owners warmly praise specific veterinarians like Dr. Lee and Dr. Hernandez for their gentle bedside manner during checkups and end-of-life care. Conversely, multiple reviewers report dismissive interactions and unhelpful attitudes from front-desk staff."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Persistent concerns regarding phone updates"
+      },
+      "text": {
+        "en": "Reviewers frequently express frustration with communication practices. Pet owners report difficulty reaching clinic attendants by phone, experiencing long hold times, and feeling inadequately updated when using the daytime drop-off system. Several clients urge clearer explanations of medical plans."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Unexpected fees and package costs"
+      },
+      "text": {
+        "en": "Multiple reviewers express dissatisfaction with overall pricing transparency. Clients mention recurring exam charges added to booster vaccinations without upfront notice, while others report steep estimates for diagnostic tests and feel pressured toward purchasing monthly wellness packages."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the drop-off appointment procedure work?"
+      },
+      "a": {
+        "en": "Clients leave pets in the morning for scheduled evaluations, and clinical staff call later with treatment findings and pickup times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing details explained before administering treatments?"
+      },
+      "a": {
+        "en": "Clients recommend asking staff for an itemized estimate before procedures, as booster visits may carry additional exam charges."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the veterinary hospital open on weekends?"
+      },
+      "a": {
+        "en": "Yes, the facility is open seven days a week, including Saturdays and Sundays."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic handle end-of-life compassionate care?"
+      },
+      "a": {
+        "en": "Yes, pet parents commend the clinical team for providing compassionate and respectful end-of-life support in private rooms."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
