@@ -1,0 +1,200 @@
+{
+  "slug": "higgins-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Higgins+Animal+Clinic/@41.9394243,-87.6714369,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd25914856515:0xcc8899ced306ba77!8m2!3d41.9394243!4d-87.6714369!16s%2Fg%2F1tfb74rx?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Compassionate care alongside service complaints"
+      },
+      "text": {
+        "en": "Reviewers share contrasting impressions of the clinic staff. Dedicated clients praise Dr. Damiana, Dr. Roberts, and support techs for compassion, calm bedside manner, and thoughtful end-of-life support. In contrast, several critical reviews mention unhelpful encounters, reporting instances where staff seemed unaccommodating or where administrative tension was visible during patient intake."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle handling of exotic pets"
+      },
+      "text": {
+        "en": "Gentle handling of cats, dogs, and exotic pets receives consistent praise from satisfied pet owners. Clients with hedgehogs specifically commend Dr. Roberts for thorough exotic expertise and careful, patient attention during examinations. Multiple pet owners emphasize that clinic staff maintain a quiet, reassuring presence that keeps nervous animals comfortable."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Detailed consults with callback delays"
+      },
+      "text": {
+        "en": "Communication experiences vary widely between in-person appointments and phone inquiries. While pet owners praise veterinarians for explaining x-rays and treatment options clearly during visits, multiple reviewers report difficulties obtaining prompt telephone advice. Clients facing urgent illnesses noted frustration when promised callbacks from clinicians did not occur."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Higgins Animal Clinic treat exotic pets?"
+      },
+      "a": {
+        "en": "Yes, pet owners praise Dr. Roberts for knowledgeable, gentle clinical care of exotic animals including hedgehogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are follow-up calls provided after veterinary appointments?"
+      },
+      "a": {
+        "en": "Several clients note frequent check-ins after procedures, though some reviewers encountered delays when requesting same-day phone advice."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic pricing?"
+      },
+      "a": {
+        "en": "Clients consider the clinic somewhat expensive, with a few reviewers noting higher costs compared to other local veterinary practices."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
