@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "broadway-animal-hospital",
+    "goodvets-uptown-chicago",
+    "companion-animal-hospital-oak-park",
+    "metropolitan-veterinary-center",
+    "old-town-animal-care-center",
+    "companion-animal-hospital-wicker-park",
+    "brighton-park-animal-hospital",
+    "marquette-animal-hospital",
+    "roscoe-village-animal-hospital",
+    "vca-blum-animal-hospital"
+  ],
+  "hash": "01b2e9dcf0b4b3efd531772bab5f9a8782041362e5fcd1b5553068cd6e7867bd",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T13:53:24.624Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-10T13:57:03.823Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T13:57:45.119Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T13:58:58.794Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
