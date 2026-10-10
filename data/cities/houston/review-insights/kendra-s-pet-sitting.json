@@ -1,0 +1,139 @@
+{
+  "slug": "kendra-s-pet-sitting",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kendra%27s+Pet+Sitting/data=!4m7!3m6!1s0x863f5d7b18f3cefd:0x128cbe8cfa186636!8m2!3d29.7741679!4d-95.6115616!16s%2Fg%2F11sdkc5800!19sChIJ_c7zGHtdP4YRNmYY-oy-jBI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Sharp divide over owner dependability"
+      },
+      "text": {
+        "en": "Client opinions regarding the service show a strong split. Several pet parents praise Kendra's family atmosphere and friendly attitude, stating that their animals were treated warmly during boarding. Conversely, other clients report severe disputes, alleging unannounced no-shows, unpaid items, and abrupt communication breakdowns after booking."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Comfortable pet boarding for puppies"
+      },
+      "text": {
+        "en": "Positive reviewers highlight that their dogs and kittens appeared comfortable and excited during stays with Kendra and her family. Owners mention that young puppies were integrated into a welcoming home environment rather than a commercial kennel setting. Satisfied clients felt confident leaving their pets when traveling through the area."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Repeated complaints over unanswered messages"
+      },
+      "text": {
+        "en": "Multiple reviewers report severe communication issues, describing unanswered phone calls and lack of daily updates after dropping off pets. Several clients state that they were blocked on messaging platforms following disputes over bookings or payments. While one reviewer found the owner responsive, most recent feedback highlights poor contact."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Kendra's Pet Sitting provide regular photo updates?"
+      },
+      "a": {
+        "en": "Reviews are conflicting; while one client reported good communication, others noted a lack of promised daily photos."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is pet care provided in a home environment?"
+      },
+      "a": {
+        "en": "Yes, clients describe boarding pets in a residential home setting alongside the owner's family."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Have clients reported scheduling issues or missed appointments?"
+      },
+      "a": {
+        "en": "Yes, several recent reviewers reported difficulty reaching the owner or arriving to find no one available."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
