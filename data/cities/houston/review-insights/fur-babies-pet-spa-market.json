@@ -1,0 +1,150 @@
+{
+  "slug": "fur-babies-pet-spa-market",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fur+Babies+Pet+Spa+%26+Market/data=!4m7!3m6!1s0x8640ad4d1cb6252d:0x2fb880a47d95cd!8m2!3d30.0506755!4d-95.2376369!16s%2Fg%2F1tgcmp1q!19sChIJLSW2HE2tQIYRzZV9pIC4LwA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Private wash rooms and clean shop"
+      },
+      "text": {
+        "en": "Pet owners appreciate the facility layout, especially the dedicated self-serve wash area featuring private bathing rooms for reactive dogs. Reviewers mention that washing stations come fully stocked with shampoo, towels, and blow dryers. While one client found the new shop space smaller, most highlight a clean retail environment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable team with occasional critique"
+      },
+      "text": {
+        "en": "Many customers speak highly of the shop team and owner for their knowledgeable advice regarding pet nutrition, allergy solutions, and specialty diets. Reviewers note patient guidance during retail visits. In contrast, one customer reported an unfriendly interaction and felt staff handling fell short during a grooming drop-off."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful nutrition advice and grooming feedback"
+      },
+      "text": {
+        "en": "Clients note noticeable improvements in pet skin health and coat condition following dietary adjustments suggested by store staff. Self-wash users also report satisfying, mess-free cleaning results. However, a negative grooming review reported skin irritation around a pre-existing wart, urging greater caution during trims."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fur Babies provide self-service dog washing stations?"
+      },
+      "a": {
+        "en": "Yes, clients confirm the facility has private self-wash suites supplied with shampoo, conditioner, towels, brushes, and dryers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff assist with pet food selection and allergy advice?"
+      },
+      "a": {
+        "en": "Reviewers report that staff members and the owner provide detailed guidance on formulas for pets experiencing food allergies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the self-wash rooms suitable for anxious or vocal dogs?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate that private wash rooms help reduce stress for dogs who become agitated around other animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-",
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
