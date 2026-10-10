@@ -1,0 +1,126 @@
+{
+  "slug": "shelter-veterinary",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shelter+Veterinary/data=!4m7!3m6!1s0x80c2bb0a110f96d7:0x80ca37d0d6000d69!8m2!3d34.0348414!4d-118.440085!16s%2Fg%2F1tgd6sz5!19sChIJ15YPEQq7woARaQ0A1tA3yoA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate clinical team and support"
+      },
+      "text": {
+        "en": "Pet owners value the warmth and dedication of Dr. Gary Adams alongside reception coordinators such as Steve, Martha, and Tabitha. Clients note that staff take time to explain diagnostic findings thoroughly, though one reviewer reported feeling unsupported by administrative staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Empathetic care for senior pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize the gentle bedside manner staff demonstrate when caring for distressed and elderly animals. Clients appreciate the calm environment provided during stressful medical examinations, observing that cats and dogs are treated with respect and kindness."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable treatments alongside medication delays"
+      },
+      "text": {
+        "en": "Most pet parents report positive outcomes and reassuring diagnostic clarity for routine ailments and senior health concerns. However, one owner experienced significant delays regarding prescription refills and communication after lab tests, urging closer pharmacy tracking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients describe the veterinary staff?"
+      },
+      "a": {
+        "en": "Pet owners praise Dr. Gary Adams and clinic staff members for their patient explanations, clear diagnostic reviews, and respectful demeanor."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency cases handled at the clinic?"
+      },
+      "a": {
+        "en": "Clients describe receiving empathetic care during sudden pet illnesses, though some administrative follow-ups can experience delays during busy periods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How is pricing evaluated by clients?"
+      },
+      "a": {
+        "en": "Reviews note that fees are generally reasonable and affordable for routine care, although specialized diagnostic workups can add up quickly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 4,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
