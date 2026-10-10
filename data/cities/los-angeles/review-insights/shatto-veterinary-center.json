@@ -1,0 +1,206 @@
+{
+  "slug": "shatto-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shatto+Veterinary+Center/data=!4m7!3m6!1s0x80c2c77a433d3555:0xe3f60d3dae2cad48!8m2!3d34.0635054!4d-118.2895915!16s%2Fg%2F11cr_06cjz!19sChIJVTU9Q3rHwoARSK0srj0N9uM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Attentive doctors amid front-desk friction"
+      },
+      "text": {
+        "en": "Many clients commend the attending veterinarians and technicians for their gentle handling and clear medical explanations during routine visits. Longtime patrons feel supported when bringing their cats and dogs for checkups. However, several reviewers report hostile front desk interactions and dismissive attitudes when attempting to reschedule or discuss pet care plans."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Frequent cancellations and lobby waits"
+      },
+      "text": {
+        "en": "Scheduling stability and in-clinic waiting times draw frequent criticism from reviewers. Multiple clients report arriving on time only to be left waiting in exam rooms for nearly an hour before staff returned. Others express deep frustration when standing weekend appointments were cancelled repeatedly on short notice due to staffing shortages."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Steep estimates and billing concerns"
+      },
+      "text": {
+        "en": "Veterinary fees are perceived as unusually high by multiple pet owners. Clients describe initial quotes approaching eight to nine hundred dollars for basic examinations and routine spay procedures, which reviewers characterize as excessive. Several patrons also note frustration with repeat exam charges when required diagnostic tests were postponed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What should I know about parking at Shatto Veterinary Center?"
+      },
+      "a": {
+        "en": "The clinic has a small connected parking lot, but spaces fill up quickly, requiring visitors to look for nearby street parking during busy hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic handle reactive or anxious pets?"
+      },
+      "a": {
+        "en": "Clients report that veterinarians may require calming medication to be administered prior to exams for reactive pets before proceeding with care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments available on weekends?"
+      },
+      "a": {
+        "en": "Weekend appointments have been offered, but reviewers note occasional cancellations due to staffing changes, so confirming ahead is recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I obtain same-day appointments for urgent needs?"
+      },
+      "a": {
+        "en": "Yes, several clients mention securing same-day appointments when their pets required prompt medical attention."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "results": "~",
+        "prices": "-",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

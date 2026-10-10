@@ -1,0 +1,185 @@
+{
+  "slug": "banfield-pet-hospital-northridge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x80c29ba013d2c703:0xa2e8b598c6605ede!8m2!3d34.2334363!4d-118.5523221!16s%2Fg%2F1ptw1dfl_!19sChIJA8fSE6CbwoAR3l5gxpi16KI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Caring clinicians with reception complaints"
+      },
+      "text": {
+        "en": "Client opinions regarding clinic personnel are divided. Longtime pet owners frequently praise Dr. Del Pino, Dr. Moghadam, and assistant Jeremy for their gentle demeanor, clinical explanations, and long-term support. In contrast, multiple reviewers describe front-desk staff as dismissive, unhelpful, and rushed during challenging visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive follow-ups beside phone friction"
+      },
+      "text": {
+        "en": "Reviews highlight contrasting communication experiences. Several clients appreciate thorough doctor consultations, digital app records, and courtesy check-in calls the day after exams. However, unhappy clients report communication breakdowns, including unreturned phone calls, abrupt hang-ups, and unclear drop-off procedures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Comfortable care with isolated grievances"
+      },
+      "text": {
+        "en": "Most pet parents report that staff members handle both calm and anxious pets gently, accommodating dogs that feel uncomfortable around strangers during dental cleanings and exams. Conversely, a reviewer felt their pet was handled hastily and expressed dissatisfaction with the overall care provided."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the Northridge clinic provide routine dental cleanings?"
+      },
+      "a": {
+        "en": "Yes, clients report positive experiences with scheduled dental procedures, noting thorough explanations from clinicians."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are wellness plans available for ongoing preventive care?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers utilize Banfield Optimal Wellness Plans for routine checkups, vaccines, and digital app record access."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the clinic operating hours during the week?"
+      },
+      "a": {
+        "en": "The facility operates Monday through Saturday from 8:00 AM to 6:00 PM and Sundays from 9:00 AM to 5:00 PM."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can pet owners request follow-up calls after treatment?"
+      },
+      "a": {
+        "en": "Clients note that clinic staff regularly provide courtesy check-in calls the following day to monitor pet recovery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

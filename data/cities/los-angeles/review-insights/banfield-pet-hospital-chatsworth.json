@@ -1,0 +1,154 @@
+{
+  "slug": "banfield-pet-hospital-chatsworth",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x80c29b58bbdcdec5:0x6a78b38e760409b6!8m2!3d34.2555493!4d-118.5787446!16s%2Fg%2F11bwh5gmsr!19sChIJxd7cu1ibwoARtgkEdo6zeGo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Compassionate Veterinarians Mixed with Reception Complaints"
+      },
+      "text": {
+        "en": "Clients express polarized impressions of the hospital team. Several pet parents praise caring doctors like Dr. Nori and supportive veterinary assistants during stressful visits. Conversely, dissatisfied reviewers criticize indifferent front desk receptionists, lack of empathy, and perceived disinterest in pet emergencies."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Communication Gaps and Unexplained Delays"
+      },
+      "text": {
+        "en": "Communication quality receives substantial criticism in recent reviews. While one client appreciated proactive postoperative phone check-ins, multiple owners report severe communication failures, including unreturned diagnostic test explanations, ignored greetings, and no status updates during long waits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Routine Wellness Success alongside Clinical Setbacks"
+      },
+      "text": {
+        "en": "Reviews reflect divergent clinical experiences across different services. Satisfied pet owners report smooth dental cleanings and dependable preventative wellness care. However, critical reviews describe unresolved medical crises, inability to collect routine diagnostic samples, and abrupt health declines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital provide follow-up communication after dental procedures?"
+      },
+      "a": {
+        "en": "Yes, clients report that veterinarians like Dr. Nori conduct follow-up phone calls to ensure pets recover well following dental cleanings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are wait times consistent for scheduled appointments?"
+      },
+      "a": {
+        "en": "Reviewers note mixed experiences, with some clients reporting waiting up to forty minutes in exam rooms without staff updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer ongoing wellness and preventative plans?"
+      },
+      "a": {
+        "en": "Yes, clients utilize Banfield wellness care plans for routine checkups, vaccinations, and ongoing preventative pet monitoring."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

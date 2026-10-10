@@ -1,0 +1,293 @@
+{
+  "slug": "aloro-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Aloro+Pet+Hospital/data=!4m7!3m6!1s0x80c29606e76786dd:0xd7a76dc72b43e319!8m2!3d34.1590043!4d-118.3963271!16s%2Fg%2F1wc31hpl!19sChIJ3YZn5waWwoARGeNDK8dtp9c?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 24,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 21,
+      "title": {
+        "en": "Warm and caring hospital team"
+      },
+      "text": {
+        "en": "The vast majority of pet owners praise the veterinary doctors, technicians, and front desk staff for their attentive and gentle care. Reviewers frequently highlight Dr. Fai, Dr. Khouban, and technician Geoff for their thorough evaluations and reassuring attitude with pets. One longtime client expressed concern regarding recent staff turnover and feeling that the clinic had adopted a more corporate atmosphere."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Reliable medical treatment and wellness"
+      },
+      "text": {
+        "en": "Clients report dependable medical outcomes across a range of health issues, including prompt resolution of gastrointestinal problems, effective routine vaccinations, and successful treatments for ailing senior animals. Pet owners value the thoughtful diagnostic approaches that offer practical monitoring plans. Overall, reviews reflect high confidence in the quality of clinical care received."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful discounts alongside higher fees"
+      },
+      "text": {
+        "en": "Opinions regarding pricing are mixed among reviewers. Some clients appreciate available discounts, such as dedicated Saturday vaccination and senior discounts that make routine care more affordable. In contrast, other pet parents note high overall costs, mentioning steep charges for simple checkups, pharmacy medications, and vaccines, with one reviewer feeling pressured to purchase unnecessary diagnostic add-ons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital offer any special pricing or discounts?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight dedicated Saturday vaccination discounts and senior discounts that assist with routine veterinary expenses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I schedule a same-day appointment for an acute issue?"
+      },
+      "a": {
+        "en": "Yes, clients mention obtaining same-day appointments when their pets experienced sudden illnesses or stomach distress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary technicians helpful with routine care questions?"
+      },
+      "a": {
+        "en": "Yes, pet owners appreciate technician assistance and guidance regarding pet nutrition and routine wellness questions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should I know about wait times?"
+      },
+      "a": {
+        "en": "While visits are usually prompt, a client reported a two-hour wait for an immunization visit, indicating occasional delays during peak periods."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

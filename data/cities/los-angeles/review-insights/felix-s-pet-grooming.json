@@ -1,0 +1,122 @@
+{
+  "slug": "felix-s-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Felix%27s+Pet+Grooming/data=!4m7!3m6!1s0x80c2c9a847ed200f:0x5a274eb3ddb31051!8m2!3d33.975244!4d-118.254183!16s%2Fg%2F1tk8nw6j!19sChIJDyDtR6jJwoARURCz3bNOJ1o?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Longtime Grooming Service with Recent Friction"
+      },
+      "text": {
+        "en": "Several longtime customers appreciate the courteous personal care and patience shown when handling energetic dogs over multiple years. However, a recent client expressed frustration with deteriorating customer service and felt unaddressed after reporting grooming concerns."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Quality Haircuts alongside Inconsistent Face Washing"
+      },
+      "text": {
+        "en": "Clients generally report sharp, well-executed haircut styling for their pets and praise the neat finishing touches on high-energy breeds. Conversely, a reviewer noted recent inconsistency in grooming thoroughness, reporting persistent tear stains left on their dog's face."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Standard Seventy Dollar Grooming Rates"
+      },
+      "text": {
+        "en": "Multiple pet parents find the seventy-dollar grooming charge reasonable and a solid value for full-service care. At the same time, one returning customer pointed out that recent rate increases felt harder to justify when grooming attention did not meet previous expectations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How much does a typical grooming session cost?"
+      },
+      "a": {
+        "en": "Reviewers cite a standard grooming rate of around seventy dollars for small to medium dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the salon capable of handling energetic or difficult dogs?"
+      },
+      "a": {
+        "en": "Yes, clients note that groomers demonstrate good patience and handle active breeds like Havanese effectively."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How clean and organized is the salon facility?"
+      },
+      "a": {
+        "en": "Customers describe the grooming salon as clean, well-maintained, and efficient during pickup and drop-off."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

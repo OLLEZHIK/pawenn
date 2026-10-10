@@ -1,0 +1,164 @@
+{
+  "slug": "olympic-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Olympic+Pet+Hospital/data=!4m7!3m6!1s0x80c2b8875cf9ecab:0x9abba92b316e31f9!8m2!3d34.0547135!4d-118.3225744!16s%2Fg%2F1pp2vj5_1!19sChIJq-z5XIe4woAR-TFuMSupu5o?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Critical feedback on veterinary staff"
+      },
+      "text": {
+        "en": "Reviews over the past year reflect notable dissatisfaction with hospital personnel. While several pet owners commend Dr. Lucia Kwon and vet technician Eric for compassionate care, the majority of recent reviewers report negative experiences. Clients frequently describe rushed appointments, cursory evaluations conducted from across the room, and dismissive attitudes from receptionists and management."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Disputed diagnoses and examination quality"
+      },
+      "text": {
+        "en": "Medical treatments and diagnostic evaluations draw significant criticism from visiting clients. A few pet parents credit the clinic with providing fast symptom relief and effective medications for acute pain. However, multiple reviewers express serious concern over alleged misdiagnoses, skipped physical exams, and unnecessary long-term medication regimens that failed to resolve underlying conditions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Administrative friction and communication issues"
+      },
+      "text": {
+        "en": "Client communication and office policies receive frequent criticism from pet owners. Reviewers cite difficult exchanges regarding required in-person visits to renew routine medications, delays in releasing medical records upon request, and abrupt dismissals of longstanding clients who voiced concerns about clinic procedures, alongside mixed interactions with front desk staff."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are mandatory office visits required to refill medications?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the clinic requires paid checkups before releasing routine medications, such as flea and tick preventatives."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the thoroughness of physical examinations?"
+      },
+      "a": {
+        "en": "Recent reviews are critical, with multiple clients reporting that doctors conducted rushed visual exams from a distance rather than hands-on checks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the hospital accommodate sudden pet illnesses?"
+      },
+      "a": {
+        "en": "Yes, several clients report prompt scheduling for acute pain and nerve issues when national chain hospitals were unavailable or too costly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly are patient medical records provided?"
+      },
+      "a": {
+        "en": "Clients report occasional delays when requesting medical records, citing organizational friction and front desk communication challenges."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "~",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "westside-pet-sitters",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Westside+Pet+Sitters/data=!4m7!3m6!1s0x80c2ba2d126a818b:0x9487be22fceb7051!8m2!3d34.0318264!4d-118.4131723!16s%2Fg%2F1thffq5y!19sChIJi4FqEi26woARUXDr_CK-h5Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Exceptional and reliable pet sitters"
+      },
+      "text": {
+        "en": "Clients express overwhelming gratitude for Shari and her dedicated team, with many pet owners having relied on her services for several years. Reviewers consistently describe her as trustworthy, punctual, and remarkably dependable, giving owners total peace of mind while away on business trips, vacations, or short weekend getaways."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle bond with shy felines"
+      },
+      "text": {
+        "en": "A standout theme across reviews is the remarkable bond Shari forms with animals, especially timid or skittish rescue cats. Multiple clients emphasize her patience in earning the trust of nervous kitties, noting that pets who normally hide from strangers happily emerge for chin scratches, treats, and playful interactions during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the service specialize in cat sitting?"
+      },
+      "a": {
+        "en": "Yes, numerous clients hire Shari specifically for in-home cat care, drop-in visits, and senior cat sitting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the sitter handle shy or nervous cats?"
+      },
+      "a": {
+        "en": "Reviewers frequently note that Shari is very patient and excels at gaining the trust of skittish rescue cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are photo and video updates sent during visits?"
+      },
+      "a": {
+        "en": "Yes, pet owners consistently highlight high-quality daily photos and video clips sent after each visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is an initial meet-and-greet conducted?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate the thorough in-person meet-and-greet to review pet preferences, routines, and feeding habits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "petsmart-nordhoff",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart/data=!4m7!3m6!1s0x80c29b0aa1b0e4a5:0x9b6bd2351878dfcd!8m2!3d34.2350188!4d-118.5547432!16s%2Fg%2F1ptvyx3r1!19sChIJpeSwoQqbwoARzd94GDXSa5s?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly clerks and caring attendants"
+      },
+      "text": {
+        "en": "Shoppers and pet owners commend store employees for their friendly, approachable demeanor and willingness to answer questions without rush. Reviewers who used pet boarding services particularly appreciate the team's reassurance, empathy, and attentive communication when caring for anxious animals away from their familiar home environments."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean store with on-site clinic"
+      },
+      "text": {
+        "en": "Customers describe the store as clean, orderly, and straightforward to navigate, with well-stocked shelves across routine pet supplies and foods. Multiple reviews highlight the convenient presence of the on-site CAMP veterinary clinic, which makes routine veterinary care easily accessible in conjunction with everyday shopping runs."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle attention for boarding pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize the compassionate treatment provided to pets during retail visits and extended boarding stays. Cat owners note that employees handled sensitive rescue felines gently, ensuring they stayed comfortable, relaxed, and secure while providing thoughtful goody bags upon departure."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is there a veterinary clinic inside this location?"
+      },
+      "a": {
+        "en": "Yes, visitors mention the integrated CAMP veterinary clinic offering accessible pet health services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this store offer cat boarding accommodations?"
+      },
+      "a": {
+        "en": "Yes, cat owners describe positive boarding experiences with caring staff and reassuring updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do shoppers describe store cleanliness and product selection?"
+      },
+      "a": {
+        "en": "Reviewers report a clean, well-organized retail floor with a dependable inventory of essential pet supplies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

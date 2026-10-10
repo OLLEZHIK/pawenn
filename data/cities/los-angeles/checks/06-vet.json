@@ -1,0 +1,54 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "affordable-animal-hospital-silver-lake",
+    "balboa-veterinary-medical-center",
+    "panorama-pet-hospital",
+    "mixlab",
+    "harbor-pines-veterinary-center",
+    "vca-veterinary-specialists-of-the-valley",
+    "modern-animal-west-hollywood",
+    "five-star-veterinary-center",
+    "winnetka-animal-clinic"
+  ],
+  "hash": "751c9b014412c1536f8854bad47675a4a8ba42055e1872d7815e324ca97c640c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T09:01:08.368Z",
+      "result": "FAIL",
+      "listed": 71
+    },
+    {
+      "at": "2026-10-09T09:03:54.426Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-09T09:05:34.987Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T09:07:00.198Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T07:58:44.787Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-10T08:03:15.816Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T08:08:34.197Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
