@@ -1,0 +1,125 @@
+{
+  "slug": "mckillip-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/McKillip+Animal+Hospital/@41.9345602,-87.6461919,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd30831894abf:0x10d94ec8b3376eef!8m2!3d41.9345602!4d-87.6461919!16s%2Fg%2F1tfpkdts?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate veterinarians and longtime trust"
+      },
+      "text": {
+        "en": "Veterinary clinicians and support staff receive glowing praise for their kindness, dedication, and clinical expertise. Dr. Ashley Hopkins is frequently singled out by clients as an exceptional practitioner who demonstrates warmth and urgency during medical crises. Longtime patrons with decades of visits commend the hospital welcoming, family-like environment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated care for senior pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize compassionate handling and dedicated patient advocacy for both dogs and cats. Pet parents highlight thoughtful geriatric care that keeps senior animals comfortable in their final years, alongside gentle bedside attention during acute health emergencies. Clients feel confident entrusting pets of all ages to the hospital clinical team."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt surgical and diagnostic interventions"
+      },
+      "text": {
+        "en": "Medical and surgical treatments demonstrate favorable health outcomes in recent client reports. Reviewers cite prompt tumor resections that put dogs on the mend, alongside immediate outpatient surgical care for sudden ear hematomas. Owners value the clinic ability to diagnose acute issues quickly and execute required interventions without delay."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does McKillip Animal Hospital accept walk-in patients?"
+      },
+      "a": {
+        "en": "Yes, client reviews note that the hospital accommodates walk-in appointments, including urgent walk-ins shortly before evening closing hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What surgical procedures do clients mention in reviews?"
+      },
+      "a": {
+        "en": "Reviewers report successful outcomes for emergency ear hematoma repairs and scheduled tumor removals performed by clinic veterinarians."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are prices perceived by visitors?"
+      },
+      "a": {
+        "en": "While clients rate clinical care highly, occasional reviewers note that veterinary services can be on the more expensive side."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "waiting": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

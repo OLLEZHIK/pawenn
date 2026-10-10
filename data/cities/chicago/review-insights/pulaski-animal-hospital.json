@@ -1,0 +1,188 @@
+{
+  "slug": "pulaski-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pulaski+Animal+Hospital/@41.7942192,-87.7233789,17z/data=!3m1!4b1!4m6!3m5!1s0x880e31bc3ff19f77:0xc28f0f11db4de9e8!8m2!3d41.7942192!4d-87.7233789!16s%2Fg%2F1tfm20z4?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Conflicting experiences with hospital staff"
+      },
+      "text": {
+        "en": "Feedback regarding the veterinary staff is sharply polarized between longtime patrons and distressed clients. Loyal families with decades of history praise the front desk and technicians for dedicated, kind service during routine wellness visits. In contrast, multiple recent reviewers report dismissive remarks from veterinarians during critical health episodes and felt that staff lacked empathy."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Affordable rates with billing questions"
+      },
+      "text": {
+        "en": "Pricing is frequently cited as a major advantage, though not without occasional friction. Multiple clients emphasize that exam fees and routine procedures are substantially more affordable than nearby animal hospitals, avoiding costly add-ons. However, a critical reviewer felt that financial charges took precedence over urgent diagnostic evaluations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Significant distress over clinical outcomes"
+      },
+      "text": {
+        "en": "Recent reviews reflect severe dissatisfaction and heartbreak concerning medical diagnosis and outcomes. Several pet owners describe critical illnesses and abdominal masses being attributed to aging rather than investigated with imaging, leading to tragic conclusions. While routine preventative care is received well, diagnostic accuracy in complex cases faces heavy criticism."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the affordability of Pulaski Animal Hospital?"
+      },
+      "a": {
+        "en": "Many pet owners praise the clinic for maintaining budget-friendly rates and lower procedure costs compared to other Chicago practices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accept emergency walk-in visits?"
+      },
+      "a": {
+        "en": "Recent reviewers caution that walk-ins may be turned away if the schedule is fully booked, making advance telephone confirmation essential."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of veterinary services do clients typically utilize here?"
+      },
+      "a": {
+        "en": "Pet owners frequently bring cats and dogs for routine vaccinations, general physical checkups, and standard preventative health management."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "marquette-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Marquette+Animal+Hospital/@41.7783505,-87.7286909,17z/data=!3m1!4b1!4m6!3m5!1s0x880e31ad311d4da7:0xf4bba477c005c9ae!8m2!3d41.7783505!4d-87.7286909!16s%2Fg%2F1td619ml?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Mixed feedback on veterinary care"
+      },
+      "text": {
+        "en": "Clients describe sharply contrasting encounters with the veterinary team on West 63rd Street. Several pet owners praise the doctors and technicians for their sincere approach, kindness, and gentle care during routine and urgent checkups. Conversely, other reviewers express serious frustration over perceived indifference, poor bedside manner, and unaddressed emergencies."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Delays and triage concerns"
+      },
+      "text": {
+        "en": "Wait times draw frequent criticism from pet owners visiting this walk-in hospital. While some clients report quick service during quiet hours, multiple visitors report waiting over an hour in exam rooms or parking lots. Several reviewers also raise alarms about emergency triage delays when bringing in critically ill animals."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Reception and phone communication issues"
+      },
+      "text": {
+        "en": "Communication from front desk personnel is a major pain point among recent reviewers. Pet owners describe unhelpful phone interactions, including abrupt answers when calling about new patient availability or arrivals. A few clients also cite a lack of timely updates from reception while waiting for critical patient care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Marquette Animal Hospital require appointments for routine visits?"
+      },
+      "a": {
+        "en": "No, the clinic operates primarily on a walk-in basis, though clients often recommend arriving early due to fluctuating wait times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the prices evaluated by recent clients?"
+      },
+      "a": {
+        "en": "Pet owners generally consider routine exams, shots, and basic treatments more affordable compared to neighboring animal hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic handle critical pet emergencies?"
+      },
+      "a": {
+        "en": "While the clinic accepts urgent walk-ins, reviewers caution that triage delays have occurred during busy periods."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

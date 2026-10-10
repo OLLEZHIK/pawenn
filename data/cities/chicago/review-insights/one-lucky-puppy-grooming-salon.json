@@ -1,0 +1,186 @@
+{
+  "slug": "one-lucky-puppy-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/One+Lucky+Puppy+Grooming+Salon/@41.9093451,-87.7827558,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcb5a6bd27dc9:0x11362b375f1bf69d!8m2!3d41.9093451!4d-87.7827558!16s%2Fg%2F11c2p_lpbj?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 9,
+      "title": {
+        "en": "Customer service and communication complaints"
+      },
+      "text": {
+        "en": "Customer service and staff conduct draw sharp criticism from numerous recent clients. Reviewers report rude front-desk treatment, unhelpful responses regarding pricing inquiries, and dismissive management reactions following customer complaints. While a subset of regular patrons appreciates friendly pet handling, overall client trust has been heavily affected by recent incidents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Severe concerns regarding pet handling"
+      },
+      "text": {
+        "en": "Pet handling elicits sharply conflicting reports from dog owners. While multiple returning clients praise gentle care for Yorkies and energetic dogs, two recent reviewers report alarming injuries, including a dislocated hip and tender head bruising discovered after appointments. These owners express deep distress over physical handling and lack of prompt notification."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Cleanliness and flea contamination reports"
+      },
+      "text": {
+        "en": "Facility cleanliness and pest control present serious concerns according to recent visitors. Although one client mentions an accessible and clean salon floor, two separate pet parents report that their dogs contracted fleas directly from the salon during routine appointments. Affected owners caution fellow pet parents to inspect their animals thoroughly after visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon accept walk-in clients?"
+      },
+      "a": {
+        "en": "Yes, client reviews note that the salon accommodates walk-in appointments for basic dog grooming services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long do grooming appointments typically take?"
+      },
+      "a": {
+        "en": "Reviewers report that dogs often stay between five and seven hours, citing high volume and multiple pets queued ahead."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What concerns have owners raised regarding pet safety?"
+      },
+      "a": {
+        "en": "Recent reviews raise significant concerns regarding handling injuries and multiple reports of dogs returning home with fleas."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}
