@@ -1,0 +1,131 @@
+{
+  "slug": "crossroads-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Crossroads+Animal+Clinic/data=!4m7!3m6!1s0x8640d73907705b67:0xa73f6704f545368f!8m2!3d29.8794897!4d-95.6590072!16s%2Fg%2F1v2yz7j_!19sChIJZ1twBznXQIYRjzZF9QRnP6c?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Caring support staff alongside mixed feedback"
+      },
+      "text": {
+        "en": "Clients share divided views about the clinic team. Several pet parents praise the compassionate care and helpful guidance provided during emotional situations with their animals. In contrast, other reviewers express frustration with attending veterinary staff, reporting dismissive bedside manners and perceived lack of empathy during consultations."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Dissatisfaction with exam and diagnostic pricing"
+      },
+      "text": {
+        "en": "Pet owners frequently criticize the clinic's fee structure, describing exam fees and diagnostic quotations as noticeably higher than nearby veterinary practices. Multiple reviewers cite high charges for basic visits and feel that the pricing does not align with the level of service and care delivered."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustration with automated phone system"
+      },
+      "text": {
+        "en": "Communication responsiveness is a prominent concern among reviewers. Clients express frustration with having to interact with an automated artificial intelligence phone system rather than human staff, while others cite unreturned emails and missing post-visit medical summaries."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic handle phone calls and inquiries?"
+      },
+      "a": {
+        "en": "The clinic utilizes an automated phone assistant, though several clients express a preference for speaking directly with staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's examination fees?"
+      },
+      "a": {
+        "en": "Several reviewers note that exam fees and diagnostic quotes are higher than other neighborhood veterinary clinics."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners request post-visit care summaries?"
+      },
+      "a": {
+        "en": "Clients can request medical notes, though some reviewers experienced delays in receiving documentation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}
