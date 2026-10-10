@@ -6,18 +6,26 @@
     "suburbia-north-animal-hospital",
     "houston-spay-neuter",
     "cy-fair-animal-hospital",
-    "houston-cat-hospital",
-    "animal-care-center-lake-houston",
-    "tanglewilde-veterinary-clinic",
-    "clay-road-animal-clinic",
-    "medvet-houston-bay-area",
-    "oak-forest-veterinary-hospital"
+    "heights-veterinary-clinic-northwest",
+    "kirkwood-veterinary-hospital",
+    "houston-veterinary-hospital",
+    "washington-heights-veterinary-clinic"
   ],
-  "hash": "8c878fa91480f92009c5a88e91350608686eebf40a8d80623f8524b57daaa9d3",
+  "hash": "f1bf4ff402b66dcd42205c358489ccbab4e8cd5c4dc28e7a2c290d6ac574dd2e",
   "result": "PASS",
   "history": [
     {
       "at": "2026-10-10T10:18:05.071Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T11:10:56.854Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-10T11:12:44.661Z",
       "result": "PASS",
       "listed": 0
     }
