@@ -1,0 +1,399 @@
+{
+  "slug": "petsmart-elston-ave",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart/data=!4m7!3m6!1s0x880fd28ec2fa8211:0x8e5904b3e74b4cba!8m2!3d41.9306266!4d-87.6844338!16s%2Fg%2F1v2gfb_x!19sChIJEYL6wo7SD4gRukxL57MEWY4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 43,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "title": {
+        "en": "Persistent customer service and desk complaints"
+      },
+      "text": {
+        "en": "While several clients highlight courteous register assistance from individual managers, critical feedback heavily outweighs praise. Customers repeatedly describe dismissive encounters at checkout, unwelcoming attitudes from floor associates, and abrupt treatment at the veterinary desk."
+      },
+      "mentions": 18
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Convenient superstore with cleanliness concerns"
+      },
+      "text": {
+        "en": "Patrons appreciate the store's convenient location and wide range of pet diets, treats, and toys on well-stocked shelves. However, reviewers raise complaints regarding dirty aquarium containers, loud noise levels from the pet hotel, and disorganized boarding reservations."
+      },
+      "mentions": 8
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "title": {
+        "en": "Critical feedback regarding animal wellbeing"
+      },
+      "text": {
+        "en": "Reviewers voice substantial concern regarding the handling and care of animals across multiple departments. Feedback points to dirty betta fish display water, stressful grooming experiences for elderly cats, and difficulties accessing the on-site cat adoption center."
+      },
+      "mentions": 7
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does PetSmart on Elston Avenue offer boarding services?"
+      },
+      "a": {
+        "en": "Yes, the facility includes a PetSmart PetsHotel for overnight dog boarding, though visitors note barking noise is audible in aisles."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet parents adopt cats at this location?"
+      },
+      "a": {
+        "en": "Yes, there is an on-site cat adoption center, though customers report that staff availability for visits can be limited."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is full grooming available for cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, the salon accepts both dogs and cats, but reviewers recommend caution for senior cats due to salon noise and stress."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "~",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
