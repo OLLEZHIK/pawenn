@@ -1,0 +1,189 @@
+{
+  "slug": "blvd-vet-logan-square",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BLVD+Vet+Logan+Square/@41.9177175,-87.6964254,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd29fc05e4d93:0x1ed31fee5fb4dc86!8m2!3d41.9177175!4d-87.6964254!16s%2Fg%2F11b6sst1w1?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Compassionate doctors with patient demeanor"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinarians and support team for their warmth, empathy, and professional attentiveness. Clinicians take extra time to understand complex medical backgrounds and explain diagnosis and treatment steps thoroughly. Reviewers emphasize that the staff creates a welcoming environment that puts both pets and owners at ease throughout every routine checkup or emergency consultation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Comforting approach for anxious pets"
+      },
+      "text": {
+        "en": "Clients highlight the clinic's gentle and considerate pet handling, particularly with nervous, rescue, or reactive dogs and cats. Staff members take time to let animals acclimate before beginning physical examinations, offer treats, and provide quiet examination rooms to minimize stress. Pet parents report successful appointments even with pets that previously struggled at other animal hospitals."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Detailed consultations with pricing transparency concerns"
+      },
+      "text": {
+        "en": "Most reviewers commend the medical team for thoroughly addressing questions, explaining health plans, and providing clear follow-up instructions. Doctors ensure owners feel confident making care decisions without feeling rushed. However, one client reported frustration after unexpected charges were billed for a rabies vaccination without upfront cost disclosure."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the staff accommodate nervous or reactive animals?"
+      },
+      "a": {
+        "en": "Reviewers note that the team provides private rooms promptly, offers treats, and spends time letting pets acclimate to keep examinations calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment options and diagnoses explained thoroughly?"
+      },
+      "a": {
+        "en": "Yes, pet parents report that veterinarians take time to answer all questions and walk through care plans without rushing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing estimates provided prior to procedures?"
+      },
+      "a": {
+        "en": "While general pricing is comparable to nearby clinics, clients advise requesting upfront confirmation for specific vaccinations and services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
