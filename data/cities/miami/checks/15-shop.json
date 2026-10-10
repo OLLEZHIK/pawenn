@@ -13,7 +13,7 @@
     "pet-supermarket-w-49th-st",
     "petco-s-dixie-hwy"
   ],
-  "hash": "04c36c9b869a70e7a6181684461344535311622ea48f74e838ec5ee15f6496f5",
+  "hash": "9170a09f56c464b62856dcc23579bfe24dc9f2eb2a432852b858050c032727cd",
   "result": "PASS",
   "history": [
     {
@@ -38,6 +38,11 @@
     },
     {
       "at": "2026-10-10T01:24:04.892Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T06:34:34.274Z",
       "result": "PASS",
       "listed": 0
     }
