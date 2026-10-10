@@ -1,0 +1,130 @@
+{
+  "slug": "top-flight-paw-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Top+Flight+Paw+Salon/@41.7776162,-87.777428,17z/data=!3m1!4b1!4m6!3m5!1s0x880e3749c90d895b:0x8f432d952592a7b4!8m2!3d41.7776162!4d-87.777428!16s%2Fg%2F11hkmrh6w8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed satisfaction with styling outcomes"
+      },
+      "text": {
+        "en": "Several pet owners report great satisfaction with neat haircuts, pleasant scents, and prompt grooming services. However, critical reviewers describe uneven trims, unbrushed coats, and accidental ear cuts, leading to conflicting feedback regarding overall grooming consistency."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting reports on pet comfort"
+      },
+      "text": {
+        "en": "Feedback regarding pet handling is divided between positive and negative experiences. While some clients state that their dogs returned cheerful and well cared for, other reviewers describe post-grooming bleeding or fearful reactions, cautioning future visitors about handling safety."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Differing views on service attentiveness"
+      },
+      "text": {
+        "en": "Several regular clients express gratitude for friendly service and long-standing grooming care. Conversely, dissatisfied customers report difficulties when requesting haircut corrections, noting that adjustments failed to resolve styling issues and diminished their trust."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What grooming services do clients mention at Top Flight Paw Salon?"
+      },
+      "a": {
+        "en": "Reviews describe full haircuts, summer cuts, baths, and coat styling for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are client experiences with grooming cuts consistent?"
+      },
+      "a": {
+        "en": "Feedback is mixed; many customers praise neat haircuts, while others note uneven results and styling errors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do pet owners report good handling for their pets?"
+      },
+      "a": {
+        "en": "Experiences vary, with some clients reporting happy dogs while others note injuries or signs of stress."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "seligman-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Seligman+Animal+Hospital/@41.9098516,-87.744001,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd45dcfe24f1:0x3d57bf495b18c233!8m2!3d41.9098516!4d-87.744001!16s%2Fg%2F11j47szjqr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Dedicated veterinary care with mixed reviews"
+      },
+      "text": {
+        "en": "Veterinary care under Dr. Bhaskar draws predominantly warm praise from longtime neighborhood patrons. Clients describe the doctor as kind, considerate, and quick to prioritize urgent tumor surgeries. The front desk team also receives compliments for clear communication. However, two negative reviews express strong dissatisfaction, including a complaint regarding an abandoned dog left outside."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Dependable and affordable clinic pricing"
+      },
+      "text": {
+        "en": "Pricing represents one of the clinic greatest strengths according to pet owners. Multiple reviewers emphasize that routine examinations, vaccinations, and surgical procedures remain notably affordable compared to city averages. Clients appreciate fair and transparent fee structures, frequently calling the hospital a dependable and budget-friendly choice."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Generally gentle handling with outside incident"
+      },
+      "text": {
+        "en": "Animal handling elicits positive feedback from clients bringing both dogs and cats for routine wellness visits and preventive shots. Pet owners report that their animals are treated gently and attentively during appointments. In contrast, one critical reviewer alleged a lack of intervention when an abandoned animal was left outside the facility premises."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Seligman Animal Hospital take walk-in clients?"
+      },
+      "a": {
+        "en": "Yes, client reviews note that the clinic operates largely on a first-come, first-served basis, with visitors lining up early in the morning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How affordable are veterinary services here?"
+      },
+      "a": {
+        "en": "Reviewers consistently report that routine examinations, pet vaccinations, and surgeries are priced affordably and fairly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic issue Chicago dog park passes?"
+      },
+      "a": {
+        "en": "Yes, clients mention visiting the hospital to obtain official medical clearance and documentation for city dog park permits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "~"
+      }
+    }
+  ]
+}

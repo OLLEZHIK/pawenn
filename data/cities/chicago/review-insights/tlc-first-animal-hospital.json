@@ -1,0 +1,147 @@
+{
+  "slug": "tlc-first-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/TLC+First+Animal+Hospital/@41.9988497,-87.7895947,17z/data=!3m1!4b1!4m6!3m5!1s0x880fc938ecbcfdfd:0x9d361cddc925db32!8m2!3d41.9988497!4d-87.7895947!16s%2Fg%2F1thvt90s?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate and knowledgeable veterinary team"
+      },
+      "text": {
+        "en": "Pet owners speak with deep gratitude about Dr. Sue and her clinic team, noting decades of dependable medical care. Reviewers emphasize that the staff is empathetic, attentive, and never pushy with treatment recommendations, creating an atmosphere of trust for both dogs and cats."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for anxious companions"
+      },
+      "text": {
+        "en": "Clients praise the clinic's gentle approach toward nervous and sensitive animals during veterinary checkups. Reviewers note that technicians and veterinarians take time to soothe fearful cats and dogs, helping them stay relaxed while conducting thorough physical examinations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and supportive callbacks"
+      },
+      "text": {
+        "en": "Pet parents appreciate the clinic's responsive phone follow-ups and transparent discussions regarding diagnosis and care. Reviewers note that staff members listen carefully to questions and provide compassionate support even during emotionally difficult moments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What do clients appreciate most about Dr. Sue?"
+      },
+      "a": {
+        "en": "Reviewers highlight her compassionate manner, extensive experience, and thorough examinations without pushy sales tactics."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the hospital handle anxious or nervous pets?"
+      },
+      "a": {
+        "en": "Pet owners report that veterinary technicians use patient, calming techniques that help nervous dogs and cats feel secure."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does TLC First Animal Hospital care for exotic animals?"
+      },
+      "a": {
+        "en": "Yes, long-term clients mention that the clinic has provided care for ferrets alongside dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

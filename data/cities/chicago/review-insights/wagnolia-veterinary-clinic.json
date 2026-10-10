@@ -1,0 +1,164 @@
+{
+  "slug": "wagnolia-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wagnolia+Veterinary+Clinic/data=!4m7!3m6!1s0x880fd363c0ba5f65:0xa3f91c5de8e9ae9a!8m2!3d41.9654869!4d-87.6612469!16s%2Fg%2F11fjytph4y!19sChIJZV-6wGPTD4gRmq7p6F0c-aM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive and personalized veterinary care"
+      },
+      "text": {
+        "en": "Pet owners widely commend Dr. Joshi and the clinic staff for their compassionate, personalized approach to neighborhood animal care. Reviewers note that veterinarians take time to explore multiple treatment options without pressure, creating a welcoming and supportive environment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Detailed guidance with diagnostic grievances"
+      },
+      "text": {
+        "en": "Many clients praise prompt phone callbacks, detailed pre-procedure instructions, and transparent treatment plan reviews before procedures begin. However, a critical review highlights frustration with diagnostic delays and repeated testing recommendations during a severe pet illness."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Calming measures for anxious dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize the clinic's thoughtful comfort measures for nervous pets, including soft blankets, soothing music, and quiet examination rooms. Clients appreciate individualized care plans that allow anxious animals to undergo examinations calmly in a single visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What amenities does Wagnolia offer for nervous pets?"
+      },
+      "a": {
+        "en": "The clinic provides cozy blankets, calming music, and darkened rooms to help reduce stress before veterinary exams."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment costs discussed before procedures are performed?"
+      },
+      "a": {
+        "en": "Yes, clients report that veterinarians review detailed treatment estimates before initiating medical care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer urgent care or emergency referrals?"
+      },
+      "a": {
+        "en": "The clinic handles routine and urgent appointments, with after-hours referrals directed to 24-hour emergency hospitals."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 2,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
