@@ -1,0 +1,291 @@
+{
+  "slug": "mission-bend-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mission+Bend+Animal+Clinic/data=!4m7!3m6!1s0x8640de70e1635b73:0x47ed7768fd51f0a4!8m2!3d29.700563!4d-95.6526864!16s%2Fg%2F1tdk5kmc!19sChIJc1tj4XDeQIYRpPBR_Wh37Uc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 24,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 21,
+      "title": {
+        "en": "Caring veterinary doctors and technicians"
+      },
+      "text": {
+        "en": "Most pet owners praise Dr. Chandra and the veterinary technicians for their deep knowledge, attentiveness, and gentle bedside manner. Many clients note that the medical team provides thorough examinations, explains medications clearly, and takes devoted care of cats and dogs."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Frustrations with phone and reception"
+      },
+      "text": {
+        "en": "Several reviewers express strong dissatisfaction with the clinic's telephone system and front-desk responsiveness. Pet owners report repeated automated hang-ups, unreturned messages, and curt interactions when attempting to schedule visits or seek urgent medical advice."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Affordable rates with clear estimates"
+      },
+      "text": {
+        "en": "Clients frequently point out that procedures and surgeries are significantly more affordable than at neighboring veterinary clinics. Pet owners appreciate itemized invoices and clear advance explanations of medical costs for both routine exams and surgical treatments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Mission Bend Animal Clinic accept walk-ins?"
+      },
+      "a": {
+        "en": "Yes, walk-ins are accepted during morning hours, though clients report that arriving early helps avoid extended waiting times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment costs explained before procedures?"
+      },
+      "a": {
+        "en": "Yes, pet owners consistently appreciate itemized invoices and clear explanations of fees prior to surgeries and treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can emergency cases be seen near closing time?"
+      },
+      "a": {
+        "en": "Reviewers advise calling ahead for urgent situations, as the clinic may redirect pets to dedicated emergency hospitals near closing hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "~",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
