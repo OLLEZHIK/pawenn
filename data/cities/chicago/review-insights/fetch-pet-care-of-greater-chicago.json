@@ -1,0 +1,122 @@
+{
+  "slug": "fetch-pet-care-of-greater-chicago",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fetch!+Pet+Care+of+Greater+Chicago/@41.8822919,-87.6334729,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd38e4728c12f:0x6f98a7bdf145162a!8m2!3d41.8822919!4d-87.6334729!16s%2Fg%2F11f5nqvyry?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dependable and caring pet sitters"
+      },
+      "text": {
+        "en": "Pet owners appreciate the reliability, warmth, and attentiveness shown by the sitting and walking team. Multiple clients mention working with long-term sitters like Stephanie and Sara who build dependable relationships with their households. Reviewers note that staff arrive on time and handle daily care responsibilities with consistent care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Thoughtful attention for household pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize that their cats, dogs, and small animals receive attentive, comforting care during absences. Clients note that sitters accommodate routines smoothly and keep pets calm in their own home environments. Pet parents express relief knowing their animals are comfortable and well looked after while they travel."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Responsive office communication and updates"
+      },
+      "text": {
+        "en": "Pet parents highlight the quick communication from the management team when coordinating sitting schedules. Clients appreciate the ease of the mobile booking app and the prompt email responses to service requests. Reviewers also mention that daily pet journals and photos provide reassurance throughout their time away."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of animals does Fetch! Pet Care care for?"
+      },
+      "a": {
+        "en": "Reviewers note that the team cares for dogs, cats, and small animals such as rabbits during home visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients book and manage visits?"
+      },
+      "a": {
+        "en": "Clients use an online portal and scheduling app, which reviewers describe as convenient and easy to navigate."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do pet sitters provide daily updates while owners are away?"
+      },
+      "a": {
+        "en": "Yes, clients report receiving daily journals and photo updates after each visit to confirm their pets are doing well."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    }
+  ]
+}
