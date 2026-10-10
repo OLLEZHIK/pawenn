@@ -1,0 +1,120 @@
+{
+  "slug": "elite-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Elite+Animal+Hospital/data=!4m7!3m6!1s0x8640ddd64de0d675:0x1d19e74bbd7654f1!8m2!3d29.7042741!4d-95.6427562!16s%2Fg%2F1x6q241g!19sChIJddbgTdbdQIYR8VR2vUvnGR0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback regarding clinic staff"
+      },
+      "text": {
+        "en": "Pet owners express varied impressions of the veterinary team at Elite Animal Hospital. While regular visitors highlight Dr. Meduru and clinic assistants as patient, knowledgeable, and caring during wellness checkups, other reviewers report hostile staff interactions and poor customer service when seeking assistance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Contrasting animal care experiences reported"
+      },
+      "text": {
+        "en": "Clients describe differing experiences with animal care at the clinic. Dog owners report accommodating and attentive handling during routine wellness examinations. However, a reviewer described a refusal to provide emergency assistance for an injured rescue kitten found on the highway."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Client concerns about staff communication"
+      },
+      "text": {
+        "en": "Multiple clients report dissatisfaction with communication from clinic personnel. Reviewers cite unhelpful responses, poor service attitude, and confrontational discussions outside the hospital regarding stray animal policies, while positive feedback notes clear explanations during scheduled pet exams."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Elite Animal Hospital take emergency stray cases?"
+      },
+      "a": {
+        "en": "Recent reviews indicate the clinic requires individuals bringing in injured stray animals to assume full financial responsibility before treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the veterinary doctors at this clinic?"
+      },
+      "a": {
+        "en": "Pet owners praise Dr. Meduru for thorough pet examinations, patient listening, and knowledgeable guidance during routine wellness appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are Spanish-speaking staff members available at the hospital?"
+      },
+      "a": {
+        "en": "Yes, the clinic website confirms bilingual veterinary personnel and accommodates Spanish-speaking pet owners."
+      },
+      "basis": "website"
+    }
+  ],
+  "reviews_in_period": 5,
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
