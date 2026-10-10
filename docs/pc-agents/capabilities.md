@@ -95,7 +95,7 @@ Antigravity, свой токен `wernir`, клон `~/shop`, noVNC — порт
 | Ветка, push, PR от `wernir` | ❔ первая задача | — |
 | Первая задача | `pc2-warszawa-descriptions.md` (доделать работу Mac по ревью), потом `pc2-warszawa-prices.md` | владелец, 2026-10-02 |
 
-## Antigravity (Mac 2) — только экзамен по Google Maps
+## Antigravity (Mac 2) — только экзамен по Google Maps (история: Mac-агентов больше нет, 2026-10-10)
 
 Mac 2 — не агент ПК, но сдаёт тот же экзамен (`maps-exam.md`), чтобы
 сравнить среды.
