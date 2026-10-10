@@ -2,7 +2,6 @@
   "chunk": "06-vet",
   "kind": "places",
   "slugs": [
-    "green-dog-dental-and-veterinary-center",
     "affordable-animal-hospital-silver-lake",
     "balboa-veterinary-medical-center",
     "panorama-pet-hospital",
@@ -13,7 +12,7 @@
     "five-star-veterinary-center",
     "winnetka-animal-clinic"
   ],
-  "hash": "9525406c9350b194aaaba4a465042811c6c94c59fe64a06493a7daa688ad0327",
+  "hash": "751c9b014412c1536f8854bad47675a4a8ba42055e1872d7815e324ca97c640c",
   "result": "PASS",
   "history": [
     {
@@ -33,6 +32,21 @@
     },
     {
       "at": "2026-10-09T09:07:00.198Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T07:58:44.787Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-10T08:03:15.816Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T08:08:34.197Z",
       "result": "PASS",
       "listed": 0
     }
