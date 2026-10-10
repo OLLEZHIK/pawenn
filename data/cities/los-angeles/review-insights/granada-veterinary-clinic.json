@@ -1,0 +1,130 @@
+{
+  "slug": "granada-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Granada+Veterinary+Clinic/data=!4m7!3m6!1s0x80c29066235b3935:0xd4b2e6d73bb23679!8m2!3d34.267032!4d-118.467029!16s%2Fg%2F1vd7655v!19sChIJNTlbI2aQwoAReTayO9fmstQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Warm and compassionate clinic team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise Dr. Galdjian and the clinic staff for their caring and dedicated approach. Reviewers note that the team takes ample time to understand patient needs and shows genuine empathy, which helps alleviate owner anxiety during stressful veterinary visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling for multiple species"
+      },
+      "text": {
+        "en": "Clients emphasize how gently and thoughtfully the team handles both dogs and cats. Families with multiple pets report feeling complete confidence entrusting their companions to the practice, highlighting the staff's patient demeanor toward anxious animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments and long-term care"
+      },
+      "text": {
+        "en": "Reviews highlight dependable clinical results across various routine and specialized procedures, including canine dental cleanings and successful ear treatments. Pet owners who have visited the clinic over decades express deep gratitude for consistent, competent medical outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Granada Veterinary Clinic situated?"
+      },
+      "a": {
+        "en": "The clinic is conveniently located in the San Fernando Valley just off the 118 freeway at Sepulveda Boulevard."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the clinic's rates perceived by clients?"
+      },
+      "a": {
+        "en": "Pet parents highlight the clinic as reasonably priced compared to other veterinary facilities across the San Fernando Valley."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the veterinary staff communicate clearly during visits?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that doctors communicate thoroughly about their pet's health requirements and treatment steps."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic handle dental care and ear infections?"
+      },
+      "a": {
+        "en": "Clients report successful treatment for dental cleanings and specialized ear medication for their pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
