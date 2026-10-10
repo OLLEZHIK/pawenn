@@ -1,0 +1,237 @@
+{
+  "slug": "pet-supermarket",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Supermarket/data=!4m7!3m6!1s0x8640c1e609a25f5b:0xda6c631655bd27f8!8m2!3d29.6855145!4d-95.4617625!16s%2Fg%2F11fxqxytn2!19sChIJW1-iCebBQIYR-Ce9VRZjbNo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 18,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Clean store layout with self-wash"
+      },
+      "text": {
+        "en": "Customers consistently appreciate the tidy aisles, strong selection of pet food options, and the convenient do-it-yourself dog washing stations. Many pet parents note the store is clean and welcoming for shopping with their pets. One reviewer reported an issue with feeder insects in the terrarium section, but most shoppers praise the overall cleanliness and neighborhood setup."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful floor associates alongside service lapses"
+      },
+      "text": {
+        "en": "Several shoppers praise individual team members for answering questions about cat food, flea preventatives, and puppy products with genuine enthusiasm. Conversely, two dissatisfied reviewers described inattentive cashiers, lack of greeting upon arrival, and rigid handling of pricing discrepancies at checkout. As a result, customer service ratings remain somewhat divided."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Dog-friendly amenities alongside adoption concerns"
+      },
+      "text": {
+        "en": "Shoppers enjoy visiting with their dogs and praise features such as the self-service dog wash and adoption events hosted in the store. However, one client expressed strong concern over the health condition and housing of an adopted rescue cat, while another noted deceased feeder bugs. Overall, pet owners appreciate the store's dog-friendly setup while noting room for habitat care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this Pet Supermarket location offer a self-service dog wash?"
+      },
+      "a": {
+        "en": "Yes, customers frequently mention using the DIY dog wash station to bathe their dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are leashed pets allowed inside the store while shopping?"
+      },
+      "a": {
+        "en": "Yes, pet parents regularly bring their dogs inside while browsing food, toys, and supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store host animal adoption events?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention weekend adoption events and donation bins for rescue animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet food and brands are stocked?"
+      },
+      "a": {
+        "en": "Clients report finding dry food, raw diets, toppers, and specialized formulas for dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
