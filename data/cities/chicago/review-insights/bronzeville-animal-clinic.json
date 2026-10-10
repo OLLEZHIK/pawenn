@@ -1,0 +1,156 @@
+{
+  "slug": "bronzeville-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bronzeville+Animal+Clinic/@41.8382306,-87.6217639,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2c745a1da561:0x975bd3b21ce97c50!8m2!3d41.8382306!4d-87.6217639!16s%2Fg%2F1hc1qjtkf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Polite staff with mixed doctor interactions"
+      },
+      "text": {
+        "en": "Most clients praise the friendliness and politeness of the veterinary technicians and staff members during visits. Reviewers note kind assistance during emergencies and routine appointments, though a few pet parents felt front-desk reception was occasionally curt or that doctor communication felt hurried."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Clean clinic with unique lobby features"
+      },
+      "text": {
+        "en": "Reviewers generally praise the cleanliness and odor-free presentation of the clinic and lobby, highlighting welcoming plants and resident animals. However, one pet owner expressed ethical concerns regarding the housing of a chinchilla and turtle in the reception area, calling for larger enclosure setups."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Quick appointments and same-day availability"
+      },
+      "text": {
+        "en": "Clients appreciate the swift scheduling and minimal in-clinic wait times for both routine exams and urgent visits. Several pet owners note being accommodated on the same day they called, finding the booking process smooth and convenient when immediate veterinary attention was needed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients get same-day veterinary appointments?"
+      },
+      "a": {
+        "en": "Yes, pet owners report being able to bring their pets in on the same day when calling for urgent medical issues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the waiting area like?"
+      },
+      "a": {
+        "en": "Reviewers describe a clean, odor-free lobby featuring indoor plants as well as resident office animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are estimates provided over the phone?"
+      },
+      "a": {
+        "en": "One client noted that surgery cost estimates required an in-person wellness examination before pricing could be confirmed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "waiting": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "waiting": "+",
+        "staff": "~",
+        "prices": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
