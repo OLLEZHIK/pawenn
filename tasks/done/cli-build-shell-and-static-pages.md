@@ -50,9 +50,9 @@ favicon) закрывают это напрямую.
    - Счётчики (`getBusinessCount`) — после того как `lib/data.ts` переведён на Prisma Client (см. соседнюю задачу `cli-build-listing-and-detail-pages` — если она уже смёржена, использовать её версию `lib/data.ts`; если ещё нет, не дублировать работу — согласовать порядок, или временно оставить CSV-версию и explicitly отметить в PR, что счётчики будут актуализированы после мерджа той задачи).
    - Добавить блок «как это работает» (короткий тизер + ссылка на `/how-it-works/`).
 3. **Статические страницы:**
-   - `/how-it-works/` — рендерит `docs/content/how-it-works-draft.md` (можно через простой Markdown-рендерер, например `react-markdown`, или руками перенести в JSX — на усмотрение исполнителя, главное не терять текст и сохранить плашку `DRAFT`).
-   - `/privacy-policy/` — рендерит `docs/legal/privacy-policy-draft.md`, метатег `noindex` (плейсхолдеры `{OPERATOR}` и т.д. ещё не заполнены владельцем).
-   - `/terms-of-use/` — аналогично `docs/legal/terms-of-use-draft.md`, тоже `noindex`.
+   - `/how-it-works/` — рендерит `docs/content/how-it-works.md` (можно через простой Markdown-рендерер, например `react-markdown`, или руками перенести в JSX — на усмотрение исполнителя, главное не терять текст и сохранить плашку `DRAFT`).
+   - `/privacy-policy/` — рендерит `docs/legal/privacy-policy.md`, метатег `noindex` (плейсхолдеры `{OPERATOR}` и т.д. ещё не заполнены владельцем).
+   - `/terms-of-use/` — аналогично `docs/legal/terms-of-use.md`, тоже `noindex`.
    - `/add-or-fix-listing/` — простая страница с `mailto:`-ссылкой (без формы и бэкенда в этой задаче — форма с реальной отправкой не входит в объём MVP этой задачи).
 4. **`sitemap.xml`/`robots.txt`:** использовать `website/app/sitemap.ts`/`robots.ts` (нативная поддержка Next.js App Router). Sitemap должен исключать любые страницы с `noindex` (категории/районы с < 3 бизнесами, privacy/terms).
 4a. **Видимость в LLM-ассистентах (GEO/AEO, решение владельца 2026-09-21, см. `docs/design-plan.md` раздел 8):**

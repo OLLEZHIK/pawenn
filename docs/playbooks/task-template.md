@@ -25,7 +25,7 @@
   обновить. Владелец пишет агенту только «проверь задачу»: эта строка и
   есть команда (`AGENTS.md`, шаг 3 самоопределения).
 - **Кому (владелец, 2026-09-29):** всё с Google Maps (проход Maps
-  нового города, рейтинги, отзывы) — только CLI (`cli-`, `cmac-`); сайты
+  нового города, рейтинги, отзывы) — только CLI (`cli-`) и контейнеры ПК с входом в Google; сайты
   мест — Antigravity, Maps-поля он копирует из `candidates.csv`
   (`AGENTS.md`, «Специализация»). В задаче Antigravity нет шага «открыть
   карточку Maps» — даже как запасного пути.
@@ -35,7 +35,7 @@
 ```markdown
 # Задача: <что> — <город / объём>
 
-**Исполнитель:** <Antigravity IDE | Antigravity (Mac) | Antigravity (Mac 2) | Antigravity (Desktop / Hub) | Claude Code CLI | Claude Code CLI (Mac) | Antigravity (ПК) — контейнер выбирает диспетчер>
+**Исполнитель:** <Antigravity IDE | Antigravity (Desktop / Hub) | Claude Code CLI | Antigravity (ПК) — контейнер выбирает диспетчер>
 **Роль:** <Data agent | Content agent>
 **Тип:** <новый город | исправление данных | сводки отзывов>, куски по 10, партии по 1–3 куска.
 **Ветка PR:** <`city/<slug>` для нового города | `main`>
