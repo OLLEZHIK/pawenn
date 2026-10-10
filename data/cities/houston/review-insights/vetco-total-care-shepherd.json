@@ -1,0 +1,309 @@
+{
+  "slug": "vetco-total-care-shepherd",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/data=!4m7!3m6!1s0x8640c095b8b25049:0xee7f405709511e9d!8m2!3d29.7462648!4d-95.4110047!16s%2Fg%2F11f_jbtcs8!19sChIJSVCyuJXAQIYRnR5RCVdAf-4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 24,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 24,
+      "title": {
+        "en": "Mixed commentary on veterinary clinic staff"
+      },
+      "text": {
+        "en": "Client reviews show diverging opinions regarding clinic staff at this Petco location on South Shepherd Drive. Many pet owners speak highly of Dr. Medina and veterinary assistants, highlighting friendly greetings and thorough medical attention. However, several dissatisfied clients report encounters with dismissive reception personnel, perceived bedside manner issues, and inconsistent client support."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Gentle and patient pet handling"
+      },
+      "text": {
+        "en": "Pet owners consistently note that veterinary technicians and assistants handle dogs and cats with care and warmth during exams and vaccination visits. Multiple clients mention that staff members help calm nervous puppies and take time to comfort frightened kittens. Except for an isolated complaint regarding an anxious dog, reviewers appreciate the gentle care shown to companion animals."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Clear explanations balanced by communication gaps"
+      },
+      "text": {
+        "en": "Reviewers share mixed feedback regarding communication before, during, and after clinic visits. Many owners praise practitioners for explaining treatment plans clearly and answering all questions without rushing. Conversely, several clients reported significant frustration with phone communication, citing difficulties receiving updates after vaccine reactions and feeling unheard by staff."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients evaluate the veterinarians and veterinary technicians?"
+      },
+      "a": {
+        "en": "Many pet owners praise Dr. Medina and veterinary assistants for compassionate care, though some clients report less positive interactions with other staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required to be seen at this location?"
+      },
+      "a": {
+        "en": "Appointments can be booked online, though clients note that walk-in patients can occasionally affect scheduled wait times."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer routine preventative vaccines and wellness exams?"
+      },
+      "a": {
+        "en": "Yes, the clinic regularly administers core vaccines, flea and tick preventatives, and general companion animal wellness checkups."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "place": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "animals": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
