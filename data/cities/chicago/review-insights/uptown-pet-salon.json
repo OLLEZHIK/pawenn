@@ -1,0 +1,131 @@
+{
+  "slug": "uptown-pet-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Uptown+Pet+Salon/data=!4m7!3m6!1s0x880fd224410a0669:0x602712bf8a2cc28f!8m2!3d41.9690694!4d-87.6714669!16s%2Fg%2F11cnblfyw2!19sChIJaQYKQSTSD4gRj8Isir8SJ2A?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Thorough deshedding and coat care"
+      },
+      "text": {
+        "en": "Dog and cat owners report high satisfaction with coat treatments, nail trims, and deep brush-out sessions. Reviewers note that heavy shedders like huskies and lab mixes lose significantly less hair after appointments, leaving with clean coats that lack overpowering perfumes."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Flexible scheduling and quick openings"
+      },
+      "text": {
+        "en": "Clients appreciate the salon's accessible scheduling, frequently finding open slots within a single week rather than waiting months. Pet parents also praise the availability of fast walk-in nail trims that allow dogs to receive quick maintenance without delay."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient care for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize the salon's patient, gentle approach toward nervous dogs and first-time grooming cats. Pet parents appreciate that groomers take extra time to ensure animals feel secure throughout bathing and drying, resulting in relaxed pets at pickup."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Uptown Pet Salon provide grooming for cats?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that the salon grooms cats and provides patient care for first-time or nervous feline visitors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How far in advance do clients need to book?"
+      },
+      "a": {
+        "en": "Pet owners note that appointments are typically available within a week, and walk-in nail trims are also accommodated."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the treatments effective for heavy shedding breeds?"
+      },
+      "a": {
+        "en": "Yes, clients highlight deep brush-out treatments that dramatically reduce loose fur on huskies and lab mixes."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
