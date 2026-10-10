@@ -1,0 +1,45 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "forever-love-puppies-miami",
+    "petland-miami",
+    "petsmart-flagler",
+    "allivet",
+    "petco-homestead",
+    "petsmart-midtown-miami",
+    "petsmart-aventura",
+    "petco-north-miami-beach",
+    "pet-supermarket-w-49th-st",
+    "petco-s-dixie-hwy"
+  ],
+  "hash": "04c36c9b869a70e7a6181684461344535311622ea48f74e838ec5ee15f6496f5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T01:16:31.398Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-10T01:20:13.491Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-10T01:21:26.773Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-10T01:22:56.636Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T01:24:04.892Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
