@@ -1,0 +1,190 @@
+{
+  "slug": "urban-petrx",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Urban+PetRx/@41.8375637,-87.6510092,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2d9185453885:0xf348d16d604738aa!8m2!3d41.8375637!4d-87.6510092!16s%2Fg%2F11j1g2t60t?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Compassionate doctors with dedicated nursing team"
+      },
+      "text": {
+        "en": "The vast majority of reviewers praise Dr. LaFave, Dr. Morgan, and the clinic technicians for compassionate care and thorough medical expertise. Clients appreciate practitioners who take time during difficult diagnoses and complex procedures. Two dissatisfied clients cited unwelcoming reception or unprofessional remarks from a technician."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful medical discussions alongside communication delays"
+      },
+      "text": {
+        "en": "Most pet parents commend veterinarians for presenting multiple diagnostic paths, explaining treatment costs upfront, and answering detailed questions. In contrast, negative reviews mention uncommunicated lobby delays, lack of advance notice when exam rooms were full, and feeling rushed to accept sedation without discussing alternatives."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective treatment plans and surgical care"
+      },
+      "text": {
+        "en": "Clients frequently highlight successful medical treatments, from neat surgical suture work on tumors to resolving stubborn recurring infections. Reviewers appreciate that doctors recommend practical medication regimens without pushing unnecessary procedures. Pet parents note marked health improvements in their companion animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians at Urban PetRx discuss care options before procedures?"
+      },
+      "a": {
+        "en": "Yes, clients frequently note that doctors outline alternate diagnostic and treatment options, allowing owners to choose the best plan."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary costs explained upfront?"
+      },
+      "a": {
+        "en": "Reviewers report that treatment estimates and pricing are generally transparent and presented clearly before procedures begin."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic support pets with chronic conditions or tumors?"
+      },
+      "a": {
+        "en": "Pet parents highlight attentive guidance and compassionate support when managing serious diagnoses, surgical removals, and palliative care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
