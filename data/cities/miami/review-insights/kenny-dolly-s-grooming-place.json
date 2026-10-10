@@ -1,0 +1,137 @@
+{
+  "slug": "kenny-dolly-s-grooming-place",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kenny+%26+Dolly's+Grooming+Place/data=!4m7!3m6!1s0x88d9b734fe59a6d7:0x51db5e3fc003c2bb!8m2!3d25.7486846!4d-80.3340061!16s%2Fg%2F11b623w547!19sChIJ16ZZ_jS32YgRu8IDwD9e21E?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Sharply conflicting pet handling experiences"
+      },
+      "text": {
+        "en": "Pet handling is the central point of contention in recent reviews. Loyal clients praise new owner Fabiana for treating small dogs with warmth and affectionate attention. Conversely, critical reviews claim dogs are treated harshly or prioritized behind profit, with one owner reporting a severe nose abrasion and scab following a session."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Detailed styling beside injury concerns"
+      },
+      "text": {
+        "en": "Grooming results draw sharply contrasting feedback from pet parents. Satisfied patrons describe thorough styling, precise nail trims, and clean coats for small breeds like French bulldogs and Yorkies. However, disgruntled clients report poor grooming execution, extended waiting periods, and physical injuries sustained during visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Dedicated service under new ownership"
+      },
+      "text": {
+        "en": "Positive reviewers highlight the welcoming atmosphere created by the new management team, specifically praising Sandro and Fabiana. Clients appreciate their punctuality, clear communication, and helpful assistance with curbside pet drop-off when salon parking is limited."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Who manages Kenny & Dolly's Grooming Place?"
+      },
+      "a": {
+        "en": "Recent reviews indicate the salon is operated under new ownership by Sandro and Fabiana, who personally greet clients and groom pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are highlighted by positive reviews?"
+      },
+      "a": {
+        "en": "Clients praise detailed dog haircuts, bath packages, and upcoming routine dental cleaning services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Have any issues been reported regarding grooming safety?"
+      },
+      "a": {
+        "en": "Yes, several critical reviews allege rough handling and one pet parent reported a noticeable nose injury after a grooming session."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

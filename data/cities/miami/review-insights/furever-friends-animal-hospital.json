@@ -1,0 +1,191 @@
+{
+  "slug": "furever-friends-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Furever+Friends+Animal+Hospital/data=!4m7!3m6!1s0x88d9bbedc77893f3:0x93fccdd74d960218!8m2!3d25.8861179!4d-80.307252!16s%2Fg%2F11hzd10vk4!19sChIJ85N4x-272YgRGAKWTdfN_JM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Caring clinicians despite customer disputes"
+      },
+      "text": {
+        "en": "Most pet owners share positive feedback about the medical team, specifically praising Dr. Alexei and the assistants for their kindness and dedication to patients. However, a couple of highly dissatisfied reviewers report difficult interpersonal encounters, feeling mistreated during billing disputes or perceiving an unprofessional attitude from individual doctors."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Detailed explanations and surgical updates"
+      },
+      "text": {
+        "en": "Clients frequently appreciate the clear communication provided by the veterinary team throughout treatment and surgery. Reviewers highlight receiving proactive phone calls with laboratory results, surgical progress updates, and next-day recovery checks. While one client reported conflicting messages at the front desk, most owners value the detailed medical walk-throughs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Successful surgeries with medication concerns"
+      },
+      "text": {
+        "en": "Pet owners generally report successful health outcomes, emphasizing rapid emergency interventions, effective hernia repair surgeries, and resolving chronic issues that other clinics missed. In contrast, one reviewer expressed serious distress regarding prescription medications that conflicted with their dog's underlying neurological diagnosis."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians provide post-operative updates?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff call with lab results, surgery updates, and next-day recovery checks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in visits accepted for emergencies?"
+      },
+      "a": {
+        "en": "Yes, walk-ins are welcome for emergency and urgent veterinary care during hospital hours."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform complex surgical procedures?"
+      },
+      "a": {
+        "en": "Reviewers report successful soft-tissue, orthopedic, and emergency surgeries for their pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are treatment options explained to pet parents?"
+      },
+      "a": {
+        "en": "Clients mention that veterinarians explain conditions step-by-step, often using diagrams to illustrate procedures."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

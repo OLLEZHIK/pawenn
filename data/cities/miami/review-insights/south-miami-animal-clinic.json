@@ -1,0 +1,140 @@
+{
+  "slug": "south-miami-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/South+Miami+Animal+Clinic/data=!4m7!3m6!1s0x88d9c7eef53ba163:0x536435284f7b3703!8m2!3d25.7020165!4d-80.291876!16s%2Fg%2F1tdl2cbb!19sChIJY6E79e7H2YgRAzd7Tyg1ZFM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate and dedicated medical team"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for the exceptional professionalism and personal integrity of the veterinary staff, frequently highlighting Dr. Maria Oliveira. Clients describe the team as genuinely caring, meticulous, and welcoming, noting that staff go out of their way to support families during appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and affectionate pet handling"
+      },
+      "text": {
+        "en": "Reviewers emphasize the tender, loving care shown to dogs and cats during examinations. Pet parents appreciate that veterinarians treat each animal with deep patience and sincere concern, ensuring pets feel calm, comfortable, and cherished rather than frightened throughout routine visits and treatments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and honest guidance"
+      },
+      "text": {
+        "en": "Clients highlight the clinic transparent and detailed communication regarding pet diagnoses and treatment options. Reviewers note that Dr. Maria takes time to listen attentively to owner questions, explains medical evaluations clearly, and provides trustworthy guidance tailored to the animal best interest."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which veterinarian is frequently recommended by clients?"
+      },
+      "a": {
+        "en": "Pet owners consistently recommend Dr. Maria Oliveira for her compassionate bedside manner, medical integrity, and thorough care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic pricing?"
+      },
+      "a": {
+        "en": "Clients mention that the clinic offers fair and reasonable pricing for veterinary consultations and pet treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the veterinarians accommodating with anxious pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the team handles dogs and cats with great tenderness and patience, keeping animals relaxed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is South Miami Animal Clinic located?"
+      },
+      "a": {
+        "en": "The clinic is located on South Dixie Highway in South Miami, providing health and wellness care for local pets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

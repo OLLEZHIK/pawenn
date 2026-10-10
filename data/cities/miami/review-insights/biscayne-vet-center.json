@@ -1,0 +1,140 @@
+{
+  "slug": "biscayne-vet-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Biscayne+Vet+Center/data=!4m7!3m6!1s0x88d9b3dfaa3857a9:0xe09e732dd6869464!8m2!3d25.8296806!4d-80.1850672!16s%2Fg%2F1th0z4mh!19sChIJqVc4qt-z2YgRZJSG1i1znuA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated and compassionate veterinary personnel"
+      },
+      "text": {
+        "en": "Pet owners consistently praise Dr. Jimenez, Ashley, and the veterinary technicians for their warmth and genuine bedside manner. While one reviewer felt the reception staff could be friendlier and another experienced a rushed doctor consultation, the majority highlight a caring environment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Thoughtful care for fragile pets"
+      },
+      "text": {
+        "en": "Clients appreciate the tender attention given to rescued kittens and older pets undergoing medical treatment. Reviewers frequently remark that the clinical team treats animals with the same gentle care and empathy they would extend to their own household companions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed updates with occasional gaps"
+      },
+      "text": {
+        "en": "Many clients commend the team for explaining surgical procedures clearly and promptly helping with insurance paperwork. However, sentiment is mixed because one reviewer reported unreturned cost estimates and a lack of advance warning regarding potential medication side effects."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic handle surgical emergencies?"
+      },
+      "a": {
+        "en": "Yes, clients report that the veterinary team performs emergency surgeries and provides supportive post-operative care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do they provide assistance with pet insurance paperwork?"
+      },
+      "a": {
+        "en": "Reviewers note that the front desk team assists with obtaining medical records and paperwork for pet insurance claims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the treatment of rescue animals?"
+      },
+      "a": {
+        "en": "Multiple reviews highlight compassionate care and fair pricing when treating newly adopted shelter pets and rescued kittens."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "-"
+      }
+    }
+  ]
+}
