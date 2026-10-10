@@ -1,0 +1,263 @@
+{
+  "slug": "pet-check-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Check+Animal+Clinic/data=!4m7!3m6!1s0x8640c4f389e75ec3:0x44dd0109015488aa!8m2!3d29.7931848!4d-95.5245304!16s%2Fg%2F11b6ntbs18!19sChIJw17nifPEQIYRqohUAQkB3UQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 18,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "en": "Attentive and compassionate clinical care"
+      },
+      "text": {
+        "en": "Pet owners consistently praise Dr. Perikala and clinic technicians for their calm, reassuring demeanor and honest medical explanations. Clients appreciate that staff work quickly without rushing exams, earning the trust of nervous pets and taking time to answer owner questions thoroughly."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Convenient walk-ins and prompt service"
+      },
+      "text": {
+        "en": "Visitors value the walk-in policy, noting that dogs and cats are typically seen quickly without extended wait times in the lobby. Same-day availability makes routine visits and urgent checkups convenient, though a client noted a brief exam missed external parasites during a quick visit."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Transparent and affordable package options"
+      },
+      "text": {
+        "en": "Reviewers emphasize that preventive care, puppy vaccination packages, and routine exams are priced significantly lower than at nearby hospitals. Pet parents appreciate that charges are explained clearly prior to treatment, making veterinary care accessible for budget-conscious families."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are appointments necessary to be seen at the clinic?"
+      },
+      "a": {
+        "en": "No, the clinic operates primarily on a walk-in basis, allowing pet owners to bring animals without a prior booking."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer discounted vaccination packages?"
+      },
+      "a": {
+        "en": "Yes, clients frequently praise affordable package pricing for routine dog and cat vaccinations and preventive exams."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the practice accept CareCredit for payments?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that the clinic accepts CareCredit alongside standard payment options for veterinary services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pets receive prescription refills on the same day?"
+      },
+      "a": {
+        "en": "Yes, pet owners note that the veterinary team quickly approves and dispenses necessary medications during walk-in visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "waiting": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
