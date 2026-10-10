@@ -1,0 +1,225 @@
+{
+  "slug": "bravo-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bravo+Animal+Clinic/data=!4m7!3m6!1s0x88d9c38903d3fddf:0x13c0af196e4c8eb9!8m2!3d25.5960441!4d-80.3688798!16s%2Fg%2F1tgx7dpy!19sChIJ3_3TA4nD2YgRuY5MbhmvwBM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 14,
+      "title": {
+        "en": "Attentive doctor with mixed service reports"
+      },
+      "text": {
+        "en": "Many longtime pet owners praise Dr. Bravo and his veterinary assistants for compassionate and knowledgeable care during routine examinations. However, multiple recent visitors express frustration with front-desk staff conduct, unkept scheduling promises, and perceived lapses in communication. A few clients also note that the clinic appeared understaffed with only one attending veterinarian on duty."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Significant delays and long waiting times"
+      },
+      "text": {
+        "en": "Excessive wait times are a recurring issue highlighted across several client reviews. Pet owners report waiting between two and four hours before seeing a doctor, even when holding scheduled appointments. While walk-in visitors expect some delay, several clients felt that office workflow was disorganized and that patients who arrived later were occasionally taken first."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed outcomes in pet treatment procedures"
+      },
+      "text": {
+        "en": "Clients describe contrasting medical experiences when bringing pets in for diagnosis and surgical treatment. Some owners commend the team for diagnosing sources of discomfort and providing effective routine treatments. Conversely, other reviewers share serious grievances involving complications during neutering procedures and alterations made without prior owner consent."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are walk-in visits accepted at the clinic?"
+      },
+      "a": {
+        "en": "Yes, clients frequently visit on a walk-in basis, though owners note that walk-ins typically involve longer wait times than scheduled visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long is the typical waiting time for appointments?"
+      },
+      "a": {
+        "en": "Several pet owners report substantial delays, with wait times occasionally extending from two to four hours during peak office hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat avian or exotic pets?"
+      },
+      "a": {
+        "en": "Reviewers report that the clinic does not routinely provide specialized care for exotic birds, and owners recommend dedicated avian specialists."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of companion animals are treated?"
+      },
+      "a": {
+        "en": "Reviews primarily describe veterinary examinations, routine care, and medical procedures for dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "-",
+        "staff": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
