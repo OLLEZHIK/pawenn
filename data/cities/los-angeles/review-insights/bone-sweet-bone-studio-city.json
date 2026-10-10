@@ -1,0 +1,126 @@
+{
+  "slug": "bone-sweet-bone-studio-city",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bone+Sweet+Bone+-+Studio+City/data=!4m7!3m6!1s0x80c2be1399382ced:0x3c4846506d8583c5!8m2!3d34.1400512!4d-118.3766229!16s%2Fg%2F1tgjlkdb!19sChIJ7Sw4mRO-woARxYOFbVBGSDw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Recent complaints regarding front desk conduct"
+      },
+      "text": {
+        "en": "While one longtime client found the team accommodating and pleasant, recent feedback reflects significant dissatisfaction with customer service. Reviewers report dismissive interactions at reception, including confusion over walk-in arrangements. Another patron described an aggressive confrontation with management following a late pickup, citing unprofessional and hostile behavior."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns raised about pet handling"
+      },
+      "text": {
+        "en": "Reviews are critical regarding the handling of sensitive pets. One client observed staff pulling an anxious small dog by the leash without attempting gentle comforting measures or treats, prompting the owner to leave immediately. While another reviewer felt their senior dog was well groomed and comfortable, critical feedback warns of rough handling during intake."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Communication breakdowns and billing disputes"
+      },
+      "text": {
+        "en": "Communication emerges as a notable concern in recent reviews. Pet parents cite conflicting information between phone staff and front-desk personnel regarding immediate walk-in availability. Additionally, a customer reported being verbally berated and falsely accused of nonpayment after arriving late for pickup, pointing to harsh and combative communication from leadership."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I bring my dog in as a walk-in for grooming?"
+      },
+      "a": {
+        "en": "A reviewer noted confusion where phone staff authorized a walk-in but reception acted unaware upon arrival."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the staff handle anxious dogs during check-in?"
+      },
+      "a": {
+        "en": "Recent feedback expressed concern about rushed leash handling and a lack of comforting measures for nervous pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What policies apply to late daycare pickups?"
+      },
+      "a": {
+        "en": "Reviews indicate that late pickups can trigger severe friction with management and strict enforcement of operating hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are longtime clients satisfied with grooming outcomes?"
+      },
+      "a": {
+        "en": "A repeat client praised the grooming of their senior terrier, though newer reviews raise concerns regarding staff conduct."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
