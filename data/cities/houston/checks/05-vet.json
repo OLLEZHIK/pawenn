@@ -13,7 +13,7 @@
     "houston-spca-s-wildlife-center",
     "thrive-pet-healthcare-fountainview"
   ],
-  "hash": "a773e665d3bbc22ed33e2752c0a4f6a7e862bf25869b7e51d9aa8f6826639fb0",
+  "hash": "09a0a3df284a885e0bf80552ff617af28ea2add42b9f933e3ec1e6332c034d94",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +23,16 @@
     },
     {
       "at": "2026-10-10T10:44:54.669Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T10:47:13.736Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-10T10:48:06.959Z",
       "result": "PASS",
       "listed": 0
     }
