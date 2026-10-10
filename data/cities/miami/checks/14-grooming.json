@@ -12,7 +12,7 @@
     "d-luxe-dog-pet-concierge-boutique",
     "fur-baby-spaw-midtown"
   ],
-  "hash": "0297f4583464fd753eee5554b524bcf7d88cf0aa2cde527cd697747e9928a617",
+  "hash": "278f03d5fdb4a1d1fb48ce055618e5050d9bbfd796f4258712280f7bef4d1dcc",
   "result": "PASS",
   "history": [
     {
@@ -37,6 +37,21 @@
     },
     {
       "at": "2026-10-10T06:56:00.195Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T13:05:44.359Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-10T13:07:48.483Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T13:08:50.079Z",
       "result": "PASS",
       "listed": 0
     }
