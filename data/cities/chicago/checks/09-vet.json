@@ -1,0 +1,35 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "goodvets-andersonville",
+    "eye-care-for-animals-chicago",
+    "ivy-veterinary-care",
+    "mid-north-animal-hospital",
+    "diversey-animal-hospital",
+    "blvd-vet-lakeview-lincoln-park",
+    "kindred-veterinary",
+    "bond-vet-wicker-park",
+    "cragin-animal-hospital",
+    "abbot-animal-hospital"
+  ],
+  "hash": "23dbbe6db3cc42669ce70ef7460f15d60331487e37db3bdcfe0b620e3dbc4cdf",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T17:34:47.815Z",
+      "result": "FAIL",
+      "listed": 59
+    },
+    {
+      "at": "2026-10-10T17:44:25.936Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-10T17:46:34.549Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
