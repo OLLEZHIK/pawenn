@@ -1,0 +1,151 @@
+{
+  "slug": "chicago-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chicago+Pet+Clinic/data=!4m7!3m6!1s0x880fcc5a7dc86df9:0xbd070d372e45008e!8m2!3d41.944583!4d-87.747296!16s%2Fg%2F1tqg0yd_!19sChIJ-W3IfVrMD4gRjgBFLjcNB70?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Trusted veterinarian alongside front-desk friction"
+      },
+      "text": {
+        "en": "Clients with long-standing relationships speak warmly of Dr. Dan, describing him as a caring, personable, and dedicated practitioner who has treated their dogs and cats for many years. However, recent reviewers report frustrating front-desk encounters, describing dismissive and discourteous interactions with reception staff when attempting to schedule clinic visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for anxious pets"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the veterinarian's patient and calm demeanor with their animals. Reviewers note that puppies and anxious pets are handled gently during routine shots and exams, with the doctor offering thoughtful advice on training and ear health. Clients emphasize that their pets feel comfortable and well-treated during physical appointments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Complaints over telephone scheduling manner"
+      },
+      "text": {
+        "en": "Recent reviewers express sharp dissatisfaction with telephone communication when calling to arrange appointments or inquire about vaccinations. Callers report that reception staff answered abruptly and seemed irritated, preventing them from booking care. While in-person consultations are described as informative, phone reception drew notable criticism."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Who is the primary veterinarian at Chicago Pet Clinic?"
+      },
+      "a": {
+        "en": "Reviewers frequently mention Dr. Dan, praising his gentle demeanor and decades of clinical experience in the neighborhood."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How is the telephone booking experience?"
+      },
+      "a": {
+        "en": "While in-person veterinary visits are well regarded, recent callers report occasional curt responses from front-desk staff over the phone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic provide routine puppy vaccinations?"
+      },
+      "a": {
+        "en": "Yes, clients frequently visit for routine checkups, puppy booster shots, and preventive healthcare advice."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
