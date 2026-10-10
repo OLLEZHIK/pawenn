@@ -1,0 +1,40 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "goodvets-streeterville",
+    "delta-animal-hospital",
+    "scout-veterinary-urgent-care-lincoln-park",
+    "west-side-animal-hospital",
+    "banfield-pet-hospital-south-loop",
+    "mayfair-animal-clinic-pc",
+    "oz-animal-hospital-rogers-park",
+    "logan-square-animal-hospital",
+    "animal-medical-center-of-chicago",
+    "hyde-park-animal-clinic"
+  ],
+  "hash": "db714fddc2cd0a2d1847060328481704818372d23c7941eb2440150e7467412c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T14:07:57.071Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-10T14:10:58.494Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-10T14:11:40.006Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T14:13:24.087Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
