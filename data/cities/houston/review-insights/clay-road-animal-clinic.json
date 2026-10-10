@@ -1,0 +1,243 @@
+{
+  "slug": "clay-road-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clay+Road+Animal+Clinic/data=!4m7!3m6!1s0x8640d9f162bc67d5:0x76808b6201e1e6df!8m2!3d29.8307712!4d-95.6703139!16s%2Fg%2F1w9y1h2_!19sChIJ1We8YvHZQIYR3-bhAWKLgHY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 17,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 15,
+      "title": {
+        "en": "Compassionate solo veterinarian and helpful team"
+      },
+      "text": {
+        "en": "Clients speak with immense gratitude about Dr. Smith and the clinic assistants, highlighting a gentle, attentive bedside manner and deep dedication to pet health. Pet owners appreciate that the veterinarian explains health issues clearly without rushing visits. Although one client reported a frustrating long wait with indifferent service, the overwhelming consensus describes a caring, trustworthy practitioner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Gentle connection with nervous companions"
+      },
+      "text": {
+        "en": "Reviewers repeatedly note Dr. Smith's natural connection with dogs and cats, emphasizing that he handles anxious pets, young kittens, and elderly animals with remarkable tenderness. Owners appreciate that procedures are performed calmly to minimize distress. Several clients share that their pets feel unusually comfortable and relaxed during routine exams and treatments."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Transparent pricing without unnecessary procedures"
+      },
+      "text": {
+        "en": "Pet parents frequently praise the clinic's fair and affordable rates, noting that surgical packages and medication costs are exceptionally reasonable compared to neighboring practices. Clients value that the clinic avoids pushing unwanted tests or inflated treatments. Reviewers also highlight that paying with cash saves the standard card transaction fee."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How are wait times and appointments managed?"
+      },
+      "a": {
+        "en": "Reviewers note that appointment times can occasionally run behind schedule because Dr. Smith devotes thorough individual attention to each patient."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer affordable rates?"
+      },
+      "a": {
+        "en": "Yes, clients frequently describe the fees as exceptionally fair and affordable, with no pressure to purchase unnecessary procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners drop off pets for exams?"
+      },
+      "a": {
+        "en": "Yes, clients mention that convenient morning drop-off options are available for examinations and treatments with afternoon pickup."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is reaching the clinic by phone reliable?"
+      },
+      "a": {
+        "en": "Reviewers state that while phone lines can be busy, leaving a voicemail typically results in a callback within a few hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "waiting": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "~",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
