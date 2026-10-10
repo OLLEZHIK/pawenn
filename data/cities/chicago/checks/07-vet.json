@@ -1,0 +1,40 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "fullerton-animal-clinic",
+    "ravenswood-animal-hospital",
+    "chicago-cat-clinic",
+    "higgins-animal-clinic",
+    "vca-ark-animal-hospital",
+    "north-avenue-animal-hospital",
+    "bronzeville-animal-clinic",
+    "banfield-pet-hospital-elston",
+    "animal-advocate-pet-hospital",
+    "vca-chicago-north-animal-hospital"
+  ],
+  "hash": "15c6e437a8b3a787384db37c2c75e5c37b27b85f7c75413f6c9b6b7d4611cbec",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T17:09:30.904Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-10T17:10:48.315Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-10T17:11:11.071Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T17:14:41.598Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
