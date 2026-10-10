@@ -1,0 +1,163 @@
+{
+  "slug": "vet-to-pet-after-hours-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vet+To+Pet+After+Hours+Animal+Clinic/data=!4m7!3m6!1s0x88d9bb1ce738d683:0x914ac65d24a74968!8m2!3d25.8726412!4d-80.3245747!16s%2Fg%2F11c3296318!19sChIJg9Y45xy72YgRaEmnJF3GSpE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive evening care team"
+      },
+      "text": {
+        "en": "Clients frequently praise the veterinary doctors and front desk assistants for their comforting attitude and dedicated after-hours service. Practitioners such as Dr. Yarelys are highlighted for taking time to explain treatment plans thoroughly. While one reviewer experienced an unhelpful interaction at the desk, most pet parents feel reassured by the team."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle treatment of sick animals"
+      },
+      "text": {
+        "en": "Reviewers emphasize the gentle and patient handling of both dogs and cats during evening emergencies and travel exams. Owners of frightened or vocal pets note that staff members remain calm, compassionate, and understanding. Multiple clients mention that pets receive loving attention that significantly reduces stress during urgent visits."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Prompt night triage with mixed walk-in access"
+      },
+      "text": {
+        "en": "Many pet owners appreciate short wait times during urgent evening emergencies, with patients often evaluated within twenty minutes of arrival. Reviewers also value quick late-night help scanning lost pets. However, one owner was turned away near closing time without triage, leading to mixed feedback on late walk-in availability."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What hours is the after-hours clinic open?"
+      },
+      "a": {
+        "en": "The clinic operates during evening hours on weekdays until 23:00, with daytime and evening shifts on weekends."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the clinic assist with travel preparation for pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that the staff is knowledgeable about requirements and paperwork needed to prepare pets for travel."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic scan lost pets for microchips?"
+      },
+      "a": {
+        "en": "Reviewers note that the team promptly scans found pets for microchips during open evening hours to help locate owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are urgent cases handled in the evening?"
+      },
+      "a": {
+        "en": "Clients report quick intake and evaluation for vomiting and sudden illnesses, though calling ahead is recommended near closing time."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
