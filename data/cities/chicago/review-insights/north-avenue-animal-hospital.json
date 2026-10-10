@@ -1,0 +1,211 @@
+{
+  "slug": "north-avenue-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/North+Avenue+Animal+Hospital/@41.9103414,-87.6752571,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd2c6d9dbbfab:0x19414c91ad6b0ef0!8m2!3d41.9103414!4d-87.6752571!16s%2Fg%2F1w15_0s7?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate doctors and attentive assistants"
+      },
+      "text": {
+        "en": "Pet owners in Wicker Park frequently praise Dr. Cherrick, Dr. Perez, and Dr. Patrick for their kind and thorough approach. Clients note that support staff and assistants create a welcoming atmosphere and assist calmly when pets require extra comfort or assistance during visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Treatment discussions and scheduling policies"
+      },
+      "text": {
+        "en": "Reviewers value clinicians who answer medical questions thoroughly and conduct unhurried follow-up calls. However, client feedback is mixed regarding administrative communication, with negative remarks concerning strict late arrival policies and limited discussion of conservative medical alternatives."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Low-stress care for nervous pets"
+      },
+      "text": {
+        "en": "Clients highlight thoughtful handling of anxious animals, citing veterinarians who sit on the floor to comfort nervous dogs during examinations. Pet parents also appreciate patient care during feline checkups, noting that staff step in with gentle assistance when pets become frightened."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does North Avenue Animal Hospital offer urgent care during office hours?"
+      },
+      "a": {
+        "en": "Yes, clinicians are prepared to address urgent medical needs for sick or injured pets during regular office hours."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How does the hospital handle appointment arrival times?"
+      },
+      "a": {
+        "en": "The hospital enforces a strict arrival policy, with reviewers noting that arriving beyond the ten-minute grace period can result in appointment cancellation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing options explained transparently?"
+      },
+      "a": {
+        "en": "Most clients report that staff explain treatment costs clearly without up-selling, though one reviewer noted seeking a second opinion for a surgical estimate."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
