@@ -1,0 +1,176 @@
+{
+  "slug": "doggone-rite",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggone+Rite/@41.7438017,-87.7106134,17z/data=!3m1!4b1!4m6!3m5!1s0x880e300ec49d5b9d:0x979a3d3a87ee7276!8m2!3d41.7438017!4d-87.7106134!16s%2Fg%2F11c0vnvyv5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Mixed feedback on front desk service"
+      },
+      "text": {
+        "en": "Client feedback regarding personnel in Ashburn shows stark division. Longstanding patrons highlight the owner, her daughter, and several groomers for polite, respectful, and reassuring care over many years. Conversely, multiple critical reviews report dismissive or rude encounters with reception staff and front desk management, citing unhelpful attitudes during drop-off and pickup."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Variable coat styling and finish"
+      },
+      "text": {
+        "en": "Reviews reflect divergent impressions of grooming craftsmanship. Several regular clients praise neat haircuts, pleasant flea baths, and clean smelling coats that leave dogs looking tidy. In contrast, dissatisfied patrons report inconsistent styling, including uneven facial trims, missed matting work, and unintended hair removal that did not match instructions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Disputed handling of sensitive dogs"
+      },
+      "text": {
+        "en": "Pet parents share contrasting accounts of animal handling. Several longtime clients state that groomers show patience with anxious or energetic pets, treating them with attentive care. Conversely, two negative reviews describe rough handling, including harsh leash pulling, a bleeding nail injury, and strong cleaning fumes in the holding area that caused coughing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients evaluate customer service at Doggone Rite?"
+      },
+      "a": {
+        "en": "Reviews are divided: longtime customers commend the owner and grooming team, while several recent visitors report rude front-desk interactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices consistent for grooming packages?"
+      },
+      "a": {
+        "en": "While standard grooming packages are viewed as reasonable by regulars, some reviewers noted extra charges for detangling and dematting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Doggone Rite accept walk-ins for nail trims?"
+      },
+      "a": {
+        "en": "Yes, clients mention calling ahead or walking in for routine nail trims, though staff availability can vary."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 4,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
