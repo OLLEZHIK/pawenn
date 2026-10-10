@@ -136,6 +136,14 @@ const CHECKS: { field: string; target: number; value: (r: Row) => boolean; none?
 const counts = (c: (typeof CHECKS)[number], r: Row) => c.value(r) || (!!c.none && noted(r, c.none));
 
 let failed = false;
+// The seed (prisma/seed.ts) throws on any CSV parse error, and the Vercel
+// build then fails (2026-10-10: an unquoted comma in a warszawa price note
+// made a row 16 cells wide, the Miami deploy failed). Same parser, same rule.
+for (const f of fs.readdirSync(dir).filter((x) => /^(businesses.*|prices)\.csv$/.test(x))) {
+  const bad = Papa.parse(fs.readFileSync(path.join(dir, f), "utf-8"), { header: true, skipEmptyLines: true }).errors;
+  for (const e of bad.slice(0, 5)) console.log(`FAIL ${f}: CSV row ${e.row ?? "?"} - ${e.message} (quote text that contains a comma)`);
+  if (bad.length) failed = true;
+}
 const closedCount = allRows.length - cityRows.length;
 console.log(`\n${city}: ${rows.length} places${closedCount ? ` (+ ${closedCount} closed, hidden)` : ""}\n`);
 console.log("field                         value   none   share  target");
