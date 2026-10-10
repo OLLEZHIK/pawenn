@@ -1,0 +1,35 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "braescroft-animal-clinic",
+    "forest-west-animal-clinic",
+    "abbott-animal-clinic",
+    "the-corner-vet-at-bellaire",
+    "falcon-pass-animal-hospital",
+    "dexter-and-evie-veterinary-clinic-urgent-care",
+    "cypress-falls-animal-hospital",
+    "crossroads-animal-clinic",
+    "beltway-animal-hospital-pc",
+    "bayou-city-veterinary-hospital"
+  ],
+  "hash": "62bdc0434cd0257d5a166fd866827030751fb882860ae37170134c6f83963669",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T10:12:40.309Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-10T10:21:37.712Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T10:26:34.268Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
