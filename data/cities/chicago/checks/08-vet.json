@@ -1,0 +1,40 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "ukrainian-village-veterinary-center",
+    "your-pets-wellness-bucktown",
+    "blvd-vet-ravenswood",
+    "vetique",
+    "seligman-animal-hospital",
+    "family-pet-animal-hospital",
+    "veterinary-diagnostic-centers",
+    "bond-vet-lakeview",
+    "partners-animal-hospital-south-loop",
+    "urban-petrx"
+  ],
+  "hash": "5a1043d1d0aeeb9c74750970761be803c9226ca9872c69f7c6a16ca35d38f8a9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T16:40:31.495Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-10T16:48:14.316Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T16:49:32.500Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T16:50:02.978Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
