@@ -1,0 +1,137 @@
+{
+  "slug": "emancipet-gulf-fwy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Emancipet/data=!4m7!3m6!1s0x8640979908914191:0x163eb3eb8b2b690d!8m2!3d29.6688919!4d-95.2613837!16s%2Fg%2F11j8x8mgxd!19sChIJkUGRCJmXQIYRDWkri-uzPhY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Supportive team with occasional friction"
+      },
+      "text": {
+        "en": "Several clients express deep gratitude to the veterinary team for their compassion and life-saving surgical care during medical emergencies. Clinicians and staff are commended for their kindness toward pets. At the same time, two clients reported curt or unhelpful interactions at check-in and during postoperative discharge."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Accessible rates for essential procedures"
+      },
+      "text": {
+        "en": "Pet owners consistently appreciate the clinic's low-cost structure, noting that procedures such as spaying, neutering, and vaccinations remain highly affordable. Clients highlight that these accessible prices allow pet parents to secure necessary care when other clinics are financially out of reach."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Extended outdoor lines and delays"
+      },
+      "text": {
+        "en": "Reviewers frequently cite significant wait times as the primary downside of visiting this facility. Clients describe waiting outside in long lines for drop-off and pickup, sometimes exceeding thirty minutes to several hours even when appointments were scheduled in advance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are spay and neuter surgeries affordable here?"
+      },
+      "a": {
+        "en": "Yes, clients consistently highlight that surgical procedures and preventative shots are offered at very accessible, low-cost rates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners expect regarding wait times?"
+      },
+      "a": {
+        "en": "Clients advise preparing for extended wait times outside, as check-in and pickup queues can take 30 minutes to a few hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform all diagnostic tests?"
+      },
+      "a": {
+        "en": "No, clients note the facility focuses on preventative care, spay/neuter, and core treatments, with some advanced diagnostics not offered."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "-",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
