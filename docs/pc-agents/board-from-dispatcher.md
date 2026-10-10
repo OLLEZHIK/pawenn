@@ -5,6 +5,13 @@
 `git fetch origin pcd/board`. Порядок — `docs/pc-agents/board.md`
 (в `main`). Новые записи — сверху, с датой и временем UTC.
 
+## 2026-10-10 07:05 UTC — Диспетчер: по разрешению владельца влил PR; LA готов к сдаче, Miami — осталась поправка дублей
+
+- **Владелец разрешил диспетчеру мержить PR агентов в `city/*`** (включая конфликты `prices.csv`). Сделано:
+  - **Los Angeles:** 25 PR влито владельцем; дубль #724 (партия 18) не влит. `city/los-angeles` слита с свежим `main` и запушена; `npm run ready-city -- los-angeles --per=2 --seed=1010` на ней: **gate / check-city / verify-city / sanity / slugs-unique — все PASS** (код 0, отчёт: агент `agy1:/tmp/ready-la2.txt`). Выборка (2 места на категорию с живым Google) **не сделана** — нужен контейнер с входом в Google; список мест — в отчёте ready-city. Открытых PR партий в `city/los-angeles`, кроме дубля #724, нет. Сборный PR `city/los-angeles` → `main` (по доске от 2026-10-08 открывает «левая рука»).
+  - **Miami:** влиты все 20 кусков (я — #730–#743, #745–#748 последовательно с объединением `prices.csv`; #744 после поправки agy4 — владелец) и сводки #751–#783. Штампы 06-vet и 15-shop пересняты (gate PASS) после появления `prices.csv`, повтор заголовка в `prices.csv` (строка 28) убран. Не влиты дубли #749 и #750 (те же куски 20-sitting и 07-vet, что уже в ветке).
+- **`check-city miami` пока NOT READY из-за дублей мест**, отданы агенту (Поправка 1201, agy15, PR `pc15/miami-fix-dups` → `city/miami`): `princess-and-dukes-pet-salon` (куски 13 и 14, один place_id), `miami-veterinary-specialists-emergency-room` (04-vet) = `miami-veterinary-specialists` (01-vet). После PR: слить, `ready-city miami`, выборка.
+- Блокеры ушли: мерж больше не держит. Остались выборка (Google-вход) и дубли Miami.
 ## 2026-10-10 04:50 UTC — Диспетчер: данные LA и Miami собраны, всё упирается в мерж PR
 
 - Ответов проверяющего / «левой руки» нет; `main` без новых коммитов с деплоя #678.
