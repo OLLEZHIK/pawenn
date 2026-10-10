@@ -1,0 +1,224 @@
+{
+  "slug": "animal-crackers",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Crackers/data=!4m7!3m6!1s0x88d9b69e38b200b9:0xff65f57be824f974!8m2!3d25.7761401!4d-80.1890322!16s%2Fg%2F1trvm74n!19sChIJuQCyOJ622YgRdPkk6Hv1Zf8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Attentive hands-on owner and groomers"
+      },
+      "text": {
+        "en": "Most clients praise JJ and the team for being welcoming, patient, and knowledgeable about pet nutrition and grooming techniques. A couple of reviews describe negative interactions regarding price adjustments or handling accountability during emergencies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Patient care with occasional concerns"
+      },
+      "text": {
+        "en": "Several pet parents appreciate how carefully the staff works with nervous or blower-sensitive dogs, helping them feel relaxed. However, a few reviewers report stressful visits where pets resisted entering the facility or suffered distress requiring veterinary attention."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Quality styling with mixed outcomes"
+      },
+      "text": {
+        "en": "Many customers express satisfaction with clean haircuts, thorough bathing, and well-groomed coats on large and small dogs. At the same time, isolated critical reviews mention incidents involving an ear irritation or medical complications following a grooming visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Animal Crackers accommodate dogs that fear blowers?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the groomer works slowly and patiently with blower-sensitive dogs to keep them comfortable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing details provided before grooming services begin?"
+      },
+      "a": {
+        "en": "Most clients report clear upfront pricing for full packages, though unexpected surcharges for matting or price adjustments have caused disputes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store carry healthy dog food and treats?"
+      },
+      "a": {
+        "en": "Yes, multiple pet parents highlight the shop's wide selection of nutritious pet food, treats, and supplies."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
