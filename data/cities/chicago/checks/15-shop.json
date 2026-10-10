@@ -1,0 +1,35 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "petsmart-elston-ave",
+    "petsmart-pulaski-rd",
+    "pet-supplies-plus-n-elston",
+    "petsmart-south-gate-market",
+    "petco-diversey-ave",
+    "petco-roosevelt-rd",
+    "pet-supplies-plus-chicago",
+    "petco-western-ave",
+    "pet-supplies-plus-archer-ashland",
+    "pet-supplies-plus-wicker-park"
+  ],
+  "hash": "9c71797537186178d8d6d38bba6050b2026a5d44ac405d651499e3adb9d23670",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T19:00:55.221Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-10T19:02:17.552Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T19:03:04.370Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
