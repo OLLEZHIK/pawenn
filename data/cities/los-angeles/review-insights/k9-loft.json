@@ -1,0 +1,144 @@
+{
+  "slug": "k9-loft",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/K9+Loft/data=!4m7!3m6!1s0x80c297d20c9d3dab:0x5bfce1ec27de94ae!8m2!3d34.1503283!4d-118.4441234!16s%2Fg%2F1wb8tz2g!19sChIJqz2dDNKXwoARrpTeJ-zh_Fs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated staff with supervision concerns"
+      },
+      "text": {
+        "en": "Front desk staff and groomers receive warm praise from loyal clients who appreciate personalized greetings, helpful communication, and holiday crafts. However, a serious complaint reported employee negligence during dog walking outside the building, alleging that staff failed to prevent a dog altercation or offer an apology."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive care alongside incident concerns"
+      },
+      "text": {
+        "en": "Most pet parents report that their dogs love visiting for daycare and grooming, highlighting gentle attention given to senior dogs. In contrast, one reviewer shared a traumatic incident where a boarder was cornered and attacked by another dog on a leash near the entrance, leaving the pet with lasting anxiety around other animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "High satisfaction with grooming outcomes"
+      },
+      "text": {
+        "en": "Grooming results are generally praised, with pet owners commending meticulous haircuts, nail clipping, teeth cleaning, and sanitary trims. Nonetheless, overall satisfaction is tempered by a negative boarding review that emphasized severe stress and lasting behavioral trauma following an incident during dog pickup."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they provide photo and text updates during daycare?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate receiving regular text message updates with photos of their dogs during daycare stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What grooming treatments are offered on site?"
+      },
+      "a": {
+        "en": "Reviewers mention bath and brush out services, custom breed haircuts, nail trims, teeth brushing, and sanitary trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can senior dogs be accommodated safely?"
+      },
+      "a": {
+        "en": "Yes, pet parents mention that the Sherman Oaks team takes attentive and gentle care of senior dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is shuttle transport available for pets?"
+      },
+      "a": {
+        "en": "Yes, the facility provides local pet shuttle transport alongside its daycare and boarding accommodations."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
