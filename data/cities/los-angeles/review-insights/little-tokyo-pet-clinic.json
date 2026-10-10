@@ -1,0 +1,164 @@
+{
+  "slug": "little-tokyo-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Little+Tokyo+Pet+Clinic/data=!4m7!3m6!1s0x80c2c639bcc05ce9:0x92f4c0a5f8a4748!8m2!3d34.0493821!4d-118.2438524!16s%2Fg%2F11clwh_5jq!19sChIJ6VzAvDnGwoARSEeKXwpMLwk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Frequent complaints regarding front desk"
+      },
+      "text": {
+        "en": "Recent reviews reflect substantial dissatisfaction with reception staff, highlighting abrupt communication, unhelpful attitudes, and reluctance to accommodate urgent walk-in cases. Although some long-term clients commend veterinary doctors Dr. Chung and Dr. Min, reception interactions draw widespread critique."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frustration with messaging and scheduling"
+      },
+      "text": {
+        "en": "Pet owners report recurring communication hurdles, including confusing text messaging channels, delayed follow-up, and unprofessional phone exchanges. Several clients note difficulties obtaining clear treatment explanations or records when dealing with clinic staff."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Strict scheduling delays during emergencies"
+      },
+      "text": {
+        "en": "Multiple visitors express frustration over scheduling rigidities and refusal to evaluate distressed animals during acute emergencies without next-day bookings. Reviewers mention turning to nearby alternative hospitals after experiencing delays at check-in."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept emergency walk-in visits?"
+      },
+      "a": {
+        "en": "Recent reviewers report being turned away during urgent health crises and advised to seek emergency clinics elsewhere because appointments were fully booked."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are international pet travel certificates handled here?"
+      },
+      "a": {
+        "en": "Yes, clients note receiving assistance with international paperwork and USDA pet travel documents, though experiences with administrative speed vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is on-site parking accessible for visitors?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the building provides dedicated secured parking for visiting pet parents."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

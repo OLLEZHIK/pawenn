@@ -1,0 +1,30 @@
+{
+  "chunk": "insights-k9s-only",
+  "kind": "insights",
+  "slugs": [
+    "k9s-only",
+    "little-tokyo-pet-clinic",
+    "modern-animal-playa-vista",
+    "nordhoff-veterinary-hospital",
+    "pampered-tails-west-la-mobile",
+    "pawparazzi-pet-resort",
+    "shelter-veterinary",
+    "the-melrose-vet",
+    "valley-animal-hospital",
+    "value-vet-westwood"
+  ],
+  "hash": "1ee5a2c297ba87381f34db3cff19af994e3a48efa22e802f5ea3004774ec8660",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T21:53:11.971Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-09T21:53:23.904Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

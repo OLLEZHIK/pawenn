@@ -1,0 +1,170 @@
+{
+  "slug": "gilley-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Gilley+Animal+Clinic/data=!4m7!3m6!1s0x88d9dd3e352bc49b:0xc5b469999656e925!8m2!3d25.5159729!4d-80.4308314!16s%2Fg%2F1td9rb2y!19sChIJm8QrNT7d2YgRJelWlplptMU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Caring veterinary team and traditional approach"
+      },
+      "text": {
+        "en": "Clients speak warmly of Dr. Gilley and the clinic team, praising their dedication, honest recommendations, and genuine concern for pet health over decades of care. While most visitors feel well cared for, one reviewer noted frustration when finding the clinic closed shortly before posted closing hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive care for dogs and cats"
+      },
+      "text": {
+        "en": "Reviewers emphasize the compassionate treatment provided to dogs and cats of all ages, from young puppies to elderly emotional support companions. Owners appreciate that pets are carefully evaluated and monitored without being subjected to unnecessary or pressured medical procedures."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Affordable and transparent veterinary fees"
+      },
+      "text": {
+        "en": "Pet parents frequently highlight the clinic for reasonable, budget-friendly pricing that offers immense financial relief during unexpected pet illness. Many clients emphasize that fees remain accessible for seniors and families seeking reliable routine and urgent care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Gilley Animal Clinic accept walk-in patients?"
+      },
+      "a": {
+        "en": "Yes, pet owners report being accommodated for same-day walk-in visits when urgent checkups are needed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's pricing?"
+      },
+      "a": {
+        "en": "Reviewers describe the fees as remarkably affordable and fair compared to many surrounding animal hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are both dogs and cats treated at this clinic?"
+      },
+      "a": {
+        "en": "Yes, clients bring dogs and cats for evaluations, routine health checks, and treatments such as urinary care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Gilley Animal Clinic located?"
+      },
+      "a": {
+        "en": "The clinic is located on South Dixie Highway in Homestead."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "avenue-26-small-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Avenue+26+Small+Animal+Hospital/data=!4m7!3m6!1s0x80c2c693c78de7a3:0x3bf7c1fbb4026a7e!8m2!3d34.0862692!4d-118.2248842!16s%2Fg%2F1v1slh9j!19sChIJo-eNx5PGwoARfmoCtPvB9zs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated caregivers amidst management complaints"
+      },
+      "text": {
+        "en": "Reviewers share starkly contrasting impressions of the clinic team. Multiple clients warmly praise Dr. Reyna and compassionate technicians like Victor for gentle pet handling and empathetic medical care. Conversely, several visitors report severe dissatisfaction with office management, citing disorganization, unprofessional conduct, and unhelpful interactions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Persistent phone and callback difficulties"
+      },
+      "text": {
+        "en": "Communication is a major area of frustration among pet owners. Clients frequently report that calls go unanswered during business hours and that promised diagnostic callbacks take several days without follow-up. While phone staff were helpful for a couple of routine booking inquiries, multiple reviewers describe front-desk communication as unresponsive."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Facility upkeep and waiting concerns"
+      },
+      "text": {
+        "en": "Feedback regarding the physical premises is predominantly critical. While one visitor found the clinic clean when it accommodated patients during local fires, other pet owners complained about facility cleanliness and having to wait outdoors in direct sunlight without shaded seating before being called inside for scheduled appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How can pet owners get in touch with the hospital?"
+      },
+      "a": {
+        "en": "While the clinic accepts calls for appointment booking, several clients note difficulties reaching staff by phone or getting timely callbacks for test results."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is outdoor waiting required before appointments?"
+      },
+      "a": {
+        "en": "Clients mention having to wait outside in sunny conditions before being called into the building, as indoor waiting capacity may be limited."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are payment arrangements or financial accommodations available?"
+      },
+      "a": {
+        "en": "Yes, a reviewer noted that staff were understanding and helpful regarding financial arrangements for pet treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention bringing both dogs and cats for vaccinations, flea treatments, and routine care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

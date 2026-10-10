@@ -1,0 +1,132 @@
+{
+  "slug": "andy-s-pet-grooming-and-daycare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Andy%27s+Pet+Grooming+and+Daycare/data=!4m7!3m6!1s0x80c2963ca48c7823:0x864e0629fa0a3231!8m2!3d34.1574141!4d-118.4215933!16s%2Fg%2F11clydwwll!19sChIJI3iMpDyWwoARMTIK-ikGToY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Styling quality with isolated concerns"
+      },
+      "text": {
+        "en": "Most pet owners praise the quality of haircuts and bathing services, reporting that dogs return home neatly groomed and clean. Regular clients commend styling on popular breeds such as Maltipoos and French Bulldogs. However, one owner reported finding an unexpected shaved patch after an appointment without prior notice."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming groomers alongside phone delays"
+      },
+      "text": {
+        "en": "Longtime clients frequently highlight the kind demeanor of the salon team, with groomers receiving praise for their dedication. In contrast, one reviewer described frustrating customer service when trying to book by phone, citing multiple unanswered calls and extended hold times before reaching an attendant."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling with occasional distress"
+      },
+      "text": {
+        "en": "Clients appreciate that groomers show patience when working with nervous pets, especially during nail trimming and grinding. Most dogs appear calm and content after appointments. Nonetheless, one reviewer expressed distress regarding fur irritation and skin sensitivity following their visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon accommodate nervous pets for nail trimming?"
+      },
+      "a": {
+        "en": "Yes, multiple clients note that groomers demonstrate patience with dogs that feel anxious during nail grinds and maintenance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What days of the week is the facility open?"
+      },
+      "a": {
+        "en": "The facility operates seven days a week, with earlier closing hours on Sunday afternoon."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can clients schedule appointments over the phone?"
+      },
+      "a": {
+        "en": "Yes, telephone bookings are accepted, although clients recommend calling early during busy morning hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are both grooming and dog daycare available on-site?"
+      },
+      "a": {
+        "en": "Yes, the salon offers routine grooming packages alongside daytime dog care services."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "tams-pet-foods-supplies",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tams+Pet+Foods+%26+Supplies/data=!4m7!3m6!1s0x80c2998e25c3d195:0x4ef654aa8a9a9249!8m2!3d34.1941205!4d-118.5539445!16s%2Fg%2F1wk4d9q3!19sChIJldHDJY6ZwoARSZKaiqpU9k4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Knowledgeable and welcoming store staff"
+      },
+      "text": {
+        "en": "The vast majority of shoppers praise the store team for their helpful assistance, friendly demeanor, and practical product advice. Pet owners note that the personnel show genuine interest in answering questions. One visitor reported an unfriendly encounter at the counter, but general feedback reflects a supportive neighborhood store atmosphere."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Well organized retail inventory selection"
+      },
+      "text": {
+        "en": "Reviewers consistently describe the shop as clean, orderly, and well stocked with a diverse array of pet supplies. Customers highlight the convenient shelves filled with dietary items, toys, and accessories for dogs, cats, birds, and small animals. Shoppers appreciate finding both staple brand necessities and specialized items in one location."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated supplies for varied pets"
+      },
+      "text": {
+        "en": "Customers frequently emphasize that the store caters thoughtfully to various species, including dogs, cats, birds, and fish. Shoppers value finding wholesome foods and stimulating toys tailored to specific animal dietary requirements and play preferences. Pet parents appreciate having an independent retailer focused on animal wellness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they carry food and supplies for animals other than dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, customers report finding supplies for birds, fish, and small companion animals alongside dog and cat products."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How is the product selection and store organization?"
+      },
+      "a": {
+        "en": "Reviewers describe the shop as well organized, clean, and reliably stocked with diverse pet food and accessory brands."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the staff helpful with product recommendations?"
+      },
+      "a": {
+        "en": "Yes, shoppers frequently note that the store owners and staff are knowledgeable, friendly, and eager to assist with inquiries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices competitive for everyday pet supplies?"
+      },
+      "a": {
+        "en": "Customers describe pricing as fair and reasonable for high-quality pet foods and everyday companion supplies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

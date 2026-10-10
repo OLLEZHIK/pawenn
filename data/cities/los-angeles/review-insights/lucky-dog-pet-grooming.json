@@ -1,0 +1,184 @@
+{
+  "slug": "lucky-dog-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+Dog+Pet+Grooming/data=!4m7!3m6!1s0x80c296d2194cb3ef:0xa28db24aa0d6256d!8m2!3d34.221174!4d-118.4292255!16s%2Fg%2F11bbwnw3sk!19sChIJ77NMGdKWwoARbSXWoEqyjaI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Friendly and attentive grooming team"
+      },
+      "text": {
+        "en": "Client feedback strongly highlights the warm and welcoming nature of the salon team. Longtime customers specifically praise groomers Taylor, Gary, and Jewel for their patience and commitment to quality service. Reviewers note that the staff treats visiting clients with respect, creating a comfortable neighborhood environment where owners feel confident leaving their dogs for appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for all dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize the salon gentle approach when handling pets of various ages and temperaments. Owners of senior dogs praise the groomers for their cautious and soothing care, noting that older pets return home relaxed rather than stressed. First-time dog parents also appreciate that puppies receive extra reassurance during their very first bathing sessions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Bath and haircut styling results"
+      },
+      "text": {
+        "en": "Grooming results receive largely favorable comments from returning clients, who report that their dogs return clean, nicely styled, and smelling fresh. Multiple owners commend the thorough deshedding and coat maintenance. However, one client expressed frustration when a groomer allegedly shaved their dog against instructions rather than delivering the requested trim."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do the groomers work well with senior dogs?"
+      },
+      "a": {
+        "en": "Yes, clients frequently report that the staff is gentle and patient with elderly dogs, ensuring they remain calm and comfortable throughout the grooming process."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services suitable for first-time puppies?"
+      },
+      "a": {
+        "en": "Yes, reviewers note positive experiences bringing young puppies in for their very first baths and hygiene sessions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the grooming prices perceived?"
+      },
+      "a": {
+        "en": "Clients describe the salon rates as affordable and budget-friendly, noting that services provide solid value for money."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I request specific styling instructions for my dog haircut?"
+      },
+      "a": {
+        "en": "Yes, clients typically specify cuts, though one reviewer noted an instance where a shave was performed contrary to instructions, suggesting clear communication upon drop-off."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

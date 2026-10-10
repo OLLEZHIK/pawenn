@@ -1,0 +1,205 @@
+{
+  "slug": "harbor-pines-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Harbor+Pines+Veterinary+Center/data=!4m7!3m6!1s0x80dd4a0ddf2e1e47:0xae43c1fd39f691e3!8m2!3d33.7801535!4d-118.3095044!16s%2Fg%2F1q5bmpgw6!19sChIJRx4u3w1K3YAR45H2Of3BQ64?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Warm and attentive clinic team"
+      },
+      "text": {
+        "en": "Clients consistently commend Dr. White, Dr. Ghajari, and the veterinary technicians for their patient approach. Reviewers emphasize that doctors listen carefully, answer health questions without rushing, and avoid pushing unnecessary treatments. Front desk personnel like Anthony and Debbie are frequently praised for their helpful demeanor."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle and compassionate pet care"
+      },
+      "text": {
+        "en": "Pet owners report that animals receive gentle and considerate treatment throughout examinations. Multiple clients note that even timid rescue dogs feel comfortable and excited to visit the clinic. Reviews describe a supportive atmosphere where doctors treat visiting dogs and senior cats with genuine affection."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Thorough exams alongside phone delays"
+      },
+      "text": {
+        "en": "In-person consultations are praised for thorough explanations and clear medical plans. However, several reviewers highlight significant telephone hold times, with some clients waiting over fifteen minutes on hold when trying to schedule appointments or check on prescription medication status."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I book same-day weekend appointments?"
+      },
+      "a": {
+        "en": "Yes, clients report that the front office helped them secure same-day weekend visits when their pets became suddenly sick."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are telephone wait times described?"
+      },
+      "a": {
+        "en": "Multiple clients report long phone hold times when calling to schedule visits or follow up on prescription refills."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians push unneeded medical procedures?"
+      },
+      "a": {
+        "en": "Reviewers appreciate that Dr. White and colleagues focus on necessary care and do not push unnecessary tests or services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view clinic pricing?"
+      },
+      "a": {
+        "en": "Many pet owners find rates fair and reasonable, though individual clients noted that specialized services can add up quickly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

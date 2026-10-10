@@ -1,0 +1,140 @@
+{
+  "slug": "winnetka-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Winnetka+Animal+Clinic/data=!4m7!3m6!1s0x80c29bf367d0dee7:0x32a47f01fe3808c9!8m2!3d34.2087265!4d-118.5732553!16s%2Fg%2F1tdf1m2w!19sChIJ597QZ_ObwoARyQg4_gF_pDI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Familiar and attentive clinic personnel"
+      },
+      "text": {
+        "en": "Longtime clients frequently highlight the personal familiarity of Dr. Smollin and his assistants, Susie and Arie. Pet owners value the unhurried consultations and kind treatment provided to both household companions and rescue animals. One client reported a contentious phone exchange following a diagnostic dispute, but general feedback remains positive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for senior companions"
+      },
+      "text": {
+        "en": "Reviewers emphasize the compassionate handling demonstrated during checkups and medical procedures. Clients bringing senior dogs for dental work appreciate the staff's gentle approach that keeps aging pets relaxed and comfortable. Families seeking help for acute stomach distress note that their animals were treated with patient care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Dependable recovery with diagnostic concern"
+      },
+      "text": {
+        "en": "Most reviewers report positive clinical outcomes, including rapid recovery from digestive upset and successful dental extractions. Pet owners appreciate transparent treatment options that focus on patient comfort. However, one client reported a misdiagnosis regarding a medication plan that required seeking care at another facility."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic handle appointments and check-in?"
+      },
+      "a": {
+        "en": "Clients mention calling from the parking lot upon arrival, after which staff members come out to assist with check-in."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do they provide dental care for senior pets?"
+      },
+      "a": {
+        "en": "Yes, pet parents report positive experiences with dental cleanings and procedures for aging dogs, noting careful and transparent care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's pricing?"
+      },
+      "a": {
+        "en": "Reviewers frequently describe the pricing as reasonable and fair compared to larger commercial hospitals in the area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency appointments available for sick pets?"
+      },
+      "a": {
+        "en": "Yes, clients describe receiving prompt medical evaluations when their dogs suffered sudden symptoms such as vomiting or diarrhea."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

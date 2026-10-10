@@ -1,0 +1,354 @@
+{
+  "slug": "ark-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ARK+ANIMAL+HOSPITAL/data=!4m7!3m6!1s0x80c2b83c1e43bba5:0xf4021a9aa03922c5!8m2!3d34.0213217!4d-118.3274896!16s%2Fg%2F1v_vt502!19sChIJpbtDHjy4woARxSI5oJoaAvQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 31,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 18,
+      "title": {
+        "en": "Attentive veterinarians and dedicated front desk"
+      },
+      "text": {
+        "en": "Pet owners praise Dr. Hernandez, Dr. Rios, and front desk coordinators like Lucy, Summer, and Jessica for their compassionate guidance and clear treatment breakdowns. Clients value clinicians who listen closely to symptoms and treat pets like family. While two reviewers felt examinations were rushed, the vast majority report caring attention."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Budget-friendly consultation fees and surgery rates"
+      },
+      "text": {
+        "en": "Clients consistently highlight the clinic as one of the most budget-friendly veterinary practices in the area, pointing to forty-dollar consultation fees and transparent surgical quotes for mass removals. Pet owners appreciate receiving dependable medical care without exorbitant emergency charges."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Walk-in availability with noticeable wait times"
+      },
+      "text": {
+        "en": "The clinic's willingness to accept walk-in patients is heavily valued by owners dealing with urgent ailments. However, this policy leads to unpredictable lobby delays, with several reviewers noting that walk-ins can cause appointment delays or result in multi-hour wait times during peak clinic hours."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept walk-in appointments?"
+      },
+      "a": {
+        "en": "Yes, the clinic welcomes walk-in visits for pet examinations and urgent health issues, though waits can vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the standard consultation fee?"
+      },
+      "a": {
+        "en": "Reviewers report that routine veterinary consultations cost around forty to forty-five dollars."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic assist with international travel paperwork?"
+      },
+      "a": {
+        "en": "Yes, clients mention obtaining vaccination documentation and travel health certificates for trips to Mexico."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is on-site parking available at the facility?"
+      },
+      "a": {
+        "en": "The facility has a small parking area, but clients note that parking spaces can be tight during busy hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "+",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

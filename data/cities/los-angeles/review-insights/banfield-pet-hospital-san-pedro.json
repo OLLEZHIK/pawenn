@@ -1,0 +1,146 @@
+{
+  "slug": "banfield-pet-hospital-san-pedro",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x80dd49f8092e8221:0xf57ae23dbe51482c!8m2!3d33.7639973!4d-118.3099504!16s%2Fg%2F11clzrspgk!19sChIJIYIuCfhJ3YARLEhRvj3ievU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive and Welcoming Clinic Team"
+      },
+      "text": {
+        "en": "The hospital staff and veterinary team receive broad praise from pet owners for their friendly, respectful, and professional conduct. Clients highlight Dr. Dean and veterinary assistants like Martha for making visits welcoming and addressing concerns with genuine patience and efficiency."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt Routine Services alongside Illness Complaint"
+      },
+      "text": {
+        "en": "Pet parents report dependable and prompt completion of routine checkups and preventative treatments. However, one longtime client expressed dissatisfaction after their dog developed severe gastrointestinal illness immediately following a visit, leading to disputes over follow-up charges."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive Pet Care with Disputed Complication"
+      },
+      "text": {
+        "en": "Most reviewers emphasize that staff members care deeply for animal comfort and work to minimize the anxiety associated with veterinary visits. On the other hand, an owner reported post-visit complications and felt the clinic failed to take accountability for their pet's sudden sickness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How easy is it to schedule an appointment here?"
+      },
+      "a": {
+        "en": "Clients report that appointment scheduling is usually smooth and reasonable, barring occasional clinic emergencies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the facility clean and well maintained?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention that the clinic environment is very clean and comfortable for both pets and owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners ask veterinary staff detailed care questions?"
+      },
+      "a": {
+        "en": "Reviewers note that Dr. Dean and the veterinary team are welcoming and helpful whenever clients have questions about pet health."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

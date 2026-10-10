@@ -1,0 +1,201 @@
+{
+  "slug": "biscayne-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Biscayne+Animal+Hospital/data=!4m7!3m6!1s0x88d9b20ca930ec8d:0xbe68c859a87d85e2!8m2!3d25.8895061!4d-80.1654664!16s%2Fg%2F1wd3wvr7!19sChIJjewwqQyy2YgR4oV9qFnIaL4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Supportive and professional medical staff"
+      },
+      "text": {
+        "en": "The majority of pet owners praise the veterinary doctors and front desk team for their friendly, welcoming demeanor and dedication. Reviewers frequently thank named practitioners for their expertise and thorough care. However, one client experienced an unpleasant front desk interaction that caused frustration when booking."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate treatment for companion animals"
+      },
+      "text": {
+        "en": "Clients frequently note that their dogs and cats receive gentle, individualized attention during examinations and follow-ups. Many owners feel confident that pets are treated with love and patience by both doctors and technicians. A critical review, however, expressed dissatisfaction with weekend boarding arrangements."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Clear consultations with occasional disputes"
+      },
+      "text": {
+        "en": "Many pet owners appreciate that veterinarians take time to explain medical findings, outline diagnostic plans, and address questions thoroughly. In contrast, some reviewers noted communication difficulties, including an administrative dispute over records and an unhelpful phone call regarding appointment availability."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians thoroughly explain treatments and diagnoses?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that doctors take time to answer all questions and clearly explain treatment plans."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Biscayne Animal Hospital provide boarding services?"
+      },
+      "a": {
+        "en": "The facility offers boarding, though reviewers advise checking weekend staffing schedules and hours beforehand."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for veterinary consultations?"
+      },
+      "a": {
+        "en": "Yes, appointments are recommended, and clients suggest confirming availability in advance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    }
+  ]
+}

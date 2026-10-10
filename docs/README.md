@@ -9,7 +9,7 @@
 | `AGENTS.md` | роли (оркестратор, диспетчер, 15 агентов `agy1`…`agy15`, CLI), ветки, мерж, правила |
 | `merge-flow.md` | одна страница: кто что мержит и куда |
 | `../tasks/README.md` | индекс задач и состояние городов |
-| `pc-agents/` | агенты на ПК: `dispatcher.md` (порядок диспетчера), `pipeline.md` (конвейер города и сдача), `board.md` (доска оркестратор → диспетчер), `capabilities.md` (кто что умеет), `lessons.md` (уроки), `dont.md`, `backlog.md`, `browser-setup.md`, `db-backup/` (копия базы); `maps-exam.md` и `reviews-exam.md` — история, экзамены отменены |
+| `pc-agents/` | агенты на ПК: `dispatcher.md` (порядок диспетчера), `pipeline.md` (конвейер города и сдача), `board.md` (доска оркестратор → диспетчер: текущая очередь и постоянные правила), `board-archive.md` (старые записи), `capabilities.md` (кто что умеет), `lessons.md` (уроки), `dont.md`, `backlog.md`, `browser-setup.md`, `db-backup/` (копия базы); `maps-exam.md` и `reviews-exam.md` — история, экзамены отменены |
 | `playbooks/` | рабочие инструкции: `add-city.md`, `add-language.md`, `quality.md` (правила качества, самопроверка), `review-insights.md`, `guides.md` и `guides-style.md`, `task-template.md` |
 
 ## Продукт и данные
@@ -27,6 +27,6 @@
 ## Что считать историей
 
 - `tasks/done/` — выполненные задачи, не править.
-- Записи в `pc-agents/board.md` с подписью «левая рука» — написаны до 2026-10-10, когда эту роль закрыли; с этой даты доску ведёт оркестратор.
+- `pc-agents/board-archive.md` — старые записи доски (в том числе «левой руки», роль закрыта 2026-10-10); с этой даты доску ведёт оркестратор, на `board.md` только текущая очередь.
 - `pc-agents/maps-exam.md`, `reviews-exam.md`, упоминания Mac-агентов (Antigravity Mac / Mac 2, CLI Mac) — Mac-агентов больше нет, остались как история.
 - В `growth-strategy.md` и `design-plan.md` есть ссылки на задачи `ide-*`, `mac-*`, `antigravity-*`, которых больше нет в репозитории: это история постановок.

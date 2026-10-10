@@ -1,0 +1,178 @@
+{
+  "slug": "camp-clinic-northridge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CAMP+Clinic+Northridge/data=!4m7!3m6!1s0x80c2971b96a3d7d9:0x6b99427afcf8bc50!8m2!3d34.2350188!4d-118.5547432!16s%2Fg%2F1tyyxccx!19sChIJ2dejlhuXwoARULz4_HpCmWs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive care and welcoming clinicians"
+      },
+      "text": {
+        "en": "Pet parents frequently note the warm approach of the clinic staff, highlighting veterinary surgeon Dr. Segal and the veterinary technicians for thorough evaluations and post-surgical text follow-ups. While one client noted a brief negative encounter at the front desk, the majority of visitors describe compassionate and thoughtful interactions during drop-off and pickup."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Low-cost community spay and neuter"
+      },
+      "text": {
+        "en": "Clients appreciate the low-cost rates for spay, neuter, and dental cleanings, noting that the non-profit clinic fulfills an essential role for low-income pet owners. Reviewers highlight clear pricing and available voucher programs that keep routine veterinary procedures accessible."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed follow-up calls alongside front-desk variance"
+      },
+      "text": {
+        "en": "Pet owners appreciate receiving detailed surgical status updates and follow-up text messages directly from veterinarians. However, communication experiences vary slightly, with one reviewer noting terse phone interactions at reception, while others praise prompt explanations during pet discharge."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept municipal spay and neuter vouchers?"
+      },
+      "a": {
+        "en": "Yes, clients report using municipal and community vouchers to cover or subsidize spay and neuter procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What surgical updates do pet owners receive on procedure days?"
+      },
+      "a": {
+        "en": "Reviewers mention receiving telephone status calls prior to surgery and follow-up text check-ins from clinicians afterward."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are offered besides spay and neuter surgery?"
+      },
+      "a": {
+        "en": "Clients report receiving dental cleanings, tooth extractions, and routine pet vaccinations at this location."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "en": "The clinic operates in Northridge, with clients noting upcoming relocations or operations alongside Petco partners."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

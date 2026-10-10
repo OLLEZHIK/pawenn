@@ -1,0 +1,176 @@
+{
+  "slug": "beverly-robertson-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Beverly+Robertson+Veterinary+Clinic/data=!4m7!3m6!1s0x80c2b9646c825871:0x392feed0b487f89e!8m2!3d34.0464615!4d-118.3857629!16s%2Fg%2F1q66xntpb!19sChIJcViCbGS5woARnviHtNDuLzk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive doctors alongside transactional experiences"
+      },
+      "text": {
+        "en": "The majority of pet owners praise Dr. Kia and Dr. Nassi for their thorough, knowledgeable, and caring approach to veterinary medicine. Clients highlight the kindness of doctors and reception staff during complex medical consultations and pet adoptions. However, a pair of critical reviews describe cold and transactional interactions, alleging that staff seemed rushed and lacking in empathy during difficult visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Effective diagnostics and surgical recovery"
+      },
+      "text": {
+        "en": "Several reviewers commend the veterinary team for accurate diagnoses and successful surgical outcomes, including spay procedures and chronic disease management for elderly pets. One owner credited a doctor's diagnostic instinct with guiding them to the right specialist. In contrast, one unhappy client reported a tragic outcome, stating that their pet passed away within a week of their appointment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful travel guidance with mixed follow-ups"
+      },
+      "text": {
+        "en": "Pet owners appreciate the clinic's responsive assistance with health certificates and international travel regulations, noting that Dr. Nassi provided clear guidance over email without charging extra fees. Other clients value post-surgery updates sent by text message. Conversely, a dissatisfied reviewer complained that laboratory results were delayed and required multiple follow-up emails to obtain."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic assist with international pet travel documentation?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention the clinic's expertise in navigating international travel requirements and validating certificates."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do doctors communicate updates following surgeries?"
+      },
+      "a": {
+        "en": "Clients report receiving thoughtful text messages and follow-up updates after surgical procedures like pet spays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is an online booking system available for appointments?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight the convenience of scheduling appointments through an online booking portal."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are lab test results shared with clients?"
+      },
+      "a": {
+        "en": "While medical guidance is often clear, one reviewer reported needing to follow up multiple times by email to receive test results."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

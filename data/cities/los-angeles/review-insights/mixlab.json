@@ -1,0 +1,167 @@
+{
+  "slug": "mixlab",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mixlab/data=!4m7!3m6!1s0x80c2bb72c1ff01f7:0x8bba00fa9623e0d4!8m2!3d34.0346482!4d-118.4456426!16s%2Fg%2F11j5v3711w!19sChIJ9wH_wXK7woAR1OAjlvoAuos?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful support team with occasional missteps"
+      },
+      "text": {
+        "en": "Many pet owners praise pharmacy representatives for their empathy and willingness to rush critical medications for sick pets. However, a few reviewers report frustration with unhelpful staff members and difficulties securing recorded account discounts."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Fast deliveries alongside refill delays"
+      },
+      "text": {
+        "en": "While numerous clients celebrate same-day local pickup and rapid shipping for compounded formulas, others experience critical fulfillment delays. Reviewers note instances where promised ready times fell through or couriers encountered unfulfilled orders."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Direct human contact with mixed reliability"
+      },
+      "text": {
+        "en": "Clients appreciate communicating directly with responsive human agents via phone or text rather than automated bots. Conversely, negative reviews cite sporadic communication lapses, including missing tracking links and unreturned messages during refills."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of veterinary medications are compounded?"
+      },
+      "a": {
+        "en": "Reviewers describe ordering flavored liquids, transdermal gels, and specialty prescriptions for chronic conditions like seizures and IBD."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the pharmacy deliver prescriptions?"
+      },
+      "a": {
+        "en": "Clients report receiving home deliveries via couriers or mail, as well as picking up urgent prescriptions on-site the same day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are special touches included with medication orders?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers highlight that shipments consistently include a complimentary pet toy and a cheerful handwritten note."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "petsmart-pico",
+    "pet-supreme",
+    "petco-sepulveda",
+    "elias-pet-shop",
+    "petco-la-brea",
+    "petsmart-victory",
+    "petco-hollywood",
+    "petsmart-nordhoff",
+    "unleashed-by-petco-lankershim",
+    "pet-source-1901"
+  ],
+  "hash": "995ff7b528c3c67bdf9d5d4d40ffd5288ca9651682d6aa397879cded91ad51f9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T07:03:23.067Z",
+      "result": "FAIL",
+      "listed": 45
+    },
+    {
+      "at": "2026-10-09T07:06:25.651Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-09T07:09:16.564Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

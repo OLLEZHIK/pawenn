@@ -1,0 +1,160 @@
+{
+  "slug": "dog-dude-ranch",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Dude+Ranch/data=!4m7!3m6!1s0x88d9c097d811de0d:0xb155d336c0030d45!8m2!3d25.709406!4d-80.388178!16s%2Fg%2F1tfnttk1!19sChIJDd4R2JfA2YgRRQ0DwDbTVbE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Outdoor socialization with health concerns"
+      },
+      "text": {
+        "en": "Most pet owners highlight how happy and energetic their dogs are after running in open play groups matched by personality. However, a couple of clients reported serious concerns after extended boarding, citing skin abrasions, hair loss, or stomach illness requiring veterinary intervention upon returning home."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Spacious ranch setting with farm features"
+      },
+      "text": {
+        "en": "Clients frequently praise the unique farm-style environment, featuring large shaded grassy yards, sprinklers, and air-conditioned indoor kennels. Reviewers enjoy that their dogs can explore open grounds alongside farm animals like chickens and horses, while relaxing to soothing music played during rest periods."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive ranch handlers and management"
+      },
+      "text": {
+        "en": "Multiple reviewers compliment the attentive caretakers who actively supervise group play sessions and keep boarding facilities tidy. When a customer reported a holiday scheduling issue, management directly contacted the owner to resolve the billing concern and offer an apology."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What type of boarding environment is offered for dogs?"
+      },
+      "a": {
+        "en": "The facility features a farm-style ranch layout with large outdoor play areas, shaded grassy yards, sprinklers, and indoor kennels with air conditioning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are play groups supervised by staff members?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that caretakers supervise dogs during outdoor play sessions and match pets according to size and temperament."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do owners receive updates during boarding stays?"
+      },
+      "a": {
+        "en": "Some clients receive photo updates and messages during extended stays, though experiences with update consistency vary among pet parents."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
