@@ -1,0 +1,173 @@
+{
+  "slug": "bluepearl-pet-hospital-katy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BluePearl+Pet+Hospital+Katy/data=!4m7!3m6!1s0x8640d8948b14424d:0x9256aa800ee99b99!8m2!3d29.7860226!4d-95.7111979!16s%2Fg%2F1ptwlksfs!19sChIJTUIUi5TYQIYRmZvpDoCqVpI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Contrasting emergency staff experiences"
+      },
+      "text": {
+        "en": "Reviews present sharply divided perspectives regarding the veterinary staff at this 24-hour hospital. Several pet owners commend compassionate clinicians and sweet receptionists for comforting families during late-night emergencies. Conversely, critical reviews report insensitive interactions, administrative frustration, and concerns regarding oversight during acute cases."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Communication gaps during urgent visits"
+      },
+      "text": {
+        "en": "Pet owners report noticeable inconsistencies in communication between clinic departments and clients. Families facing emergency admissions highlight missing diagnostic updates, unreturned calls, and conflicting information from clinical staff. However, satisfied reviewers appreciate doctors who thoroughly explained discharge instructions and medication dosing."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed outcomes in emergency situations"
+      },
+      "text": {
+        "en": "Treatment outcomes range widely across emergency admissions at this Katy facility. Grateful clients describe rapid interventions that stabilized pets in acute pain, allowing them to recover safely. Meanwhile, multiple grieving owners report fatal complications and avoidable outcomes, leaving them deeply dissatisfied with clinical decisions during critical care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does BluePearl Pet Hospital Katy handle 24-hour pet emergencies?"
+      },
+      "a": {
+        "en": "Yes, the facility operates around the clock for acute medical crises, and reviewers frequently visit for late-night emergency interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic estimates provided before emergency procedures?"
+      },
+      "a": {
+        "en": "Reviewers note varying billing experiences, with some receiving clear pricing while others report discrepancies between initial estimates and final invoices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners stay with their animals during emergency stabilization?"
+      },
+      "a": {
+        "en": "Client reviews indicate that hospital policy often requires pets to be taken into treatment areas for triage and oxygen support while owners wait in exam rooms."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
