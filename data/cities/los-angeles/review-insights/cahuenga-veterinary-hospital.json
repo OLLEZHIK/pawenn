@@ -1,0 +1,183 @@
+{
+  "slug": "cahuenga-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cahuenga+Veterinary+Hospital/data=!4m7!3m6!1s0x80c2b8cc9ecffc01:0x19ee219f071c7ac0!8m2!3d34.0861143!4d-118.3291992!16s%2Fg%2F1tscp88x!19sChIJAfzPnsy4woARwHocB58h7hk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Skilled doctors amidst front-desk friction"
+      },
+      "text": {
+        "en": "Clients frequently praise Dr. Croquenois and Dr. Boesgaard for their medical expertise and empathetic bedside manner. At the same time, multiple reviewers report negative experiences with front-desk staff, citing condescending attitudes and dispensing mistakes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed reviews on clinic communication"
+      },
+      "text": {
+        "en": "While many pet parents appreciate thorough treatment explanations and helpful phone follow-ups, several clients report substantial communication breakdowns. Documented complaints include unreturned phone calls, prescription refill delays, and misplaced lab results."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frequent delays past scheduled times"
+      },
+      "text": {
+        "en": "Reviewers regularly report significant wait times, often sitting in examination rooms well over an hour past their appointment slots. Even established clients note that scheduling delays and prescription preparation backlogs remain persistent issues."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians explain treatment options clearly?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that veterinarians take time to explain diagnoses, medication routines, and long-term care plans."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are wait times managed for scheduled visits?"
+      },
+      "a": {
+        "en": "Several pet owners report waiting up to an hour or more past their scheduled times, recommending owners plan extra time for visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking readily accessible at the clinic?"
+      },
+      "a": {
+        "en": "Yes, clients note that the hospital offers convenient on-site parking, making it easy to bring in cats and dogs for appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "staff": "~",
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "waiting": "-",
+        "staff": "~",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
