@@ -13,7 +13,7 @@
     "eastside-petsitters",
     "biscuit-queen-cat-sitting"
   ],
-  "hash": "9f1de62af52206204536d217104b654577506cc61579f29997afd9f2fe1a4df3",
+  "hash": "69591dd7c63bfbb1a6967c11dda69b73a0d67b97a59bcff8415b6f4ba94e79b9",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +23,16 @@
     },
     {
       "at": "2026-10-09T13:04:46.764Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T12:18:27.073Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-10T12:21:38.961Z",
       "result": "PASS",
       "listed": 0
     }
