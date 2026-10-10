@@ -1,0 +1,127 @@
+{
+  "slug": "citypaws-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CityPaws+Grooming/data=!4m7!3m6!1s0x8640c16cc01444c5:0xa4575b6b44e332f9!8m2!3d29.7549969!4d-95.4099054!16s%2Fg%2F11h4zfv5jc!19sChIJxUQUwGzBQIYR-TLjRGtbV6Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and welcoming salon staff"
+      },
+      "text": {
+        "en": "Pet parents describe the team at CityPaws as sweet, patient, and welcoming during drop-off and pickup. Several loyal clients note that they travel from across the Houston area because the staff creates a comforting environment for both pets and their owners."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Careful attention for timid pets"
+      },
+      "text": {
+        "en": "Reviewers appreciate the team gentle touch with shy or anxious dogs. Clients mention that groomers take extra time to introduce nervous pets to styling tools and bath equipment, helping them relax and feel secure throughout their grooming sessions in River Oaks."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Precise trims and lasting style"
+      },
+      "text": {
+        "en": "Owners praise the quality of haircuts, specifically noting that dogs come home looking neat and fresh. One reviewer specifically remarks on the clean grow-out of poodle trims, noting that coats maintain an even and tidy appearance for months after styling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are groomers accustomed to working with shy or anxious dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that staff members take extra time to help nervous pets feel calm around grooming tools."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How well do coats hold up after styling?"
+      },
+      "a": {
+        "en": "Clients note that trims hold their shape well, leaving pets looking tidy for weeks as fur grows out."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do they groom poodle and doodle mix breeds?"
+      },
+      "a": {
+        "en": "Reviewers highlight reliable styling specifically suited for poodle and poodle-adjacent coat types."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
