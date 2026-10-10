@@ -1,0 +1,128 @@
+{
+  "slug": "enamoradogs-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/EnamoraDogs+Pet+Grooming/@41.910398,-87.7275094,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd6e45f91f35:0x5e08b1a8d0526012!8m2!3d41.910398!4d-87.7275094!16s%2Fg%2F11y5x39vcb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive groomers alongside capacity concerns"
+      },
+      "text": {
+        "en": "Satisfied clients praise the customer service and describe the groomers as dedicated and friendly with pets. However, a negative review noted that a solo worker appeared to be managing multiple dogs simultaneously, causing concern over individualized attention."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Appealing styling alongside inconsistent grooming"
+      },
+      "text": {
+        "en": "Pet parents who leave five-star ratings state that their dogs look fantastic and celebrate the quality of baths and trimming. Conversely, a dissatisfied client felt their dog was left largely unchanged following an appointment despite paying the full grooming fee."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Pet handling and salon environment"
+      },
+      "text": {
+        "en": "Returning pet owners report that staff do a lovely job caring for their canine companions during grooming visits. On the other hand, one reviewer expressed concern about an overcrowded work setup where several dogs were handled in the grooming area at the same time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What are client opinions on pricing at EnamoraDogs?"
+      },
+      "a": {
+        "en": "Opinions are divided; while some owners find rates acceptable, multiple critical reviews note fees around seventy dollars felt expensive."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the grooming quality?"
+      },
+      "a": {
+        "en": "Most clients express strong satisfaction with final coat appearance, though one reviewer reported an incomplete bath and trim."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How is customer service rated by visitors?"
+      },
+      "a": {
+        "en": "Several clients highlight helpful and friendly service, with repeat patrons recommending the salon to fellow dog owners."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

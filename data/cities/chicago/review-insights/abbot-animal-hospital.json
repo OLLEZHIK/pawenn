@@ -1,0 +1,122 @@
+{
+  "slug": "abbot-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Abbot+Animal+Hospital/@41.7920679,-87.7900922,17z/data=!3m1!4b1!4m6!3m5!1s0x880e36c466bfe53b:0x6189e030db61ff85!8m2!3d41.7920679!4d-87.7900922!16s%2Fg%2F1vcjmv90?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Criticism over negligence and accountability"
+      },
+      "text": {
+        "en": "Recent feedback regarding veterinary personnel is heavily critical. While one client noted satisfactory routine service, multiple reviewers report severe negligence, including unadministered medication and dismissive attitudes following adverse outcomes. A practice manager apologized and issued a refund in one instance, but overall client trust remains compromised."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustrations with phone and staff communication"
+      },
+      "text": {
+        "en": "Communication from the clinic received significant criticism over the past six months. Pet owners describe calling during urgent medical situations only to be directed to voicemail or refused assistance over the phone. Multiple clients report difficulties receiving timely updates or callbacks from attending veterinarians."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Severe concerns regarding patient welfare"
+      },
+      "text": {
+        "en": "Recent reviews reflect substantial owner distress concerning the handling and care of animals. Pet owners describe critical treatment failures following routine procedures as well as a refusal to take in newborn kittens needing urgent care. Clients express heartbreak over outcomes they attribute to inadequate medical attention."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Abbot Animal Hospital accept emergency walk-ins or abandoned pets?"
+      },
+      "a": {
+        "en": "Recent feedback indicates the clinic turned away orphaned kittens, so owners of distressed animals should call ahead before arriving."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How affordable are routine services at the clinic?"
+      },
+      "a": {
+        "en": "Clients visiting for routine preventive appointments note that pricing for standard checkups and vaccines is generally economical."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How responsive is the veterinary staff to phone inquiries?"
+      },
+      "a": {
+        "en": "Multiple reviewers report difficulty reaching clinicians by phone, noting calls frequently went to voicemail during critical follow-ups."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
