@@ -1,0 +1,134 @@
+{
+  "slug": "carballo-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Carballo+Animal+Clinic/data=!4m7!3m6!1s0x88d9b8e347c8573f:0xd37ef6ac3a558e9b!8m2!3d25.7609462!4d-80.3332508!16s%2Fg%2F1td018qt!19sChIJP1fIR-O42YgRm45VOqz2ftM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable clinicians with warm bedside manner"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary team and front desk staff for their kind, respectful, and attentive care. Reviewers frequently single out Dr. Ranset Diez and Dr. Carballo for their deep clinical knowledge, clear communication, and genuine concern for both pets and families. Clients feel comfortable and confident during examinations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Loving and gentle animal care"
+      },
+      "text": {
+        "en": "Clients emphasize that clinicians treat visiting pets as if they were their own, providing gentle handling that keeps dogs calm during diagnostics and medical treatments. Reviewers note that the team displays sincere affection toward recovering animals, creating a welcoming and compassionate atmosphere that reassures anxious owners."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair pricing without unnecessary tests"
+      },
+      "text": {
+        "en": "Reviewers appreciate that veterinarians do not push unnecessary diagnostics or inflate veterinary bills, focusing on essential treatments and clear recommendations. While one client notes that rates can be on the pricier side, pet owners generally consider the fees fair and well justified by the exceptional caliber of veterinary care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Carballo Animal Clinic provide emergency treatments?"
+      },
+      "a": {
+        "en": "Yes, the clinic handles acute gastrointestinal and medical illnesses during regular office hours and provides guidance on treatment plans."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do veterinarians handle diagnostic recommendations?"
+      },
+      "a": {
+        "en": "Clients note that the doctors focus on essential medical care and avoid pushing unnecessary tests or inflating treatment bills."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Which veterinarians are frequently praised in reviews?"
+      },
+      "a": {
+        "en": "Pet owners frequently highlight Dr. Carballo and Dr. Ranset Diez for their compassionate bedside manner and thorough clinical expertise."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
