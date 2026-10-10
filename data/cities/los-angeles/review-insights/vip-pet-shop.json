@@ -1,0 +1,130 @@
+{
+  "slug": "vip-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VIP+Pet+Shop/data=!4m7!3m6!1s0x80c2c60868515ad1:0xa4f5c391d099967f!8m2!3d34.047227!4d-118.2078646!16s%2Fg%2F1tsbmcz8!19sChIJ0VpRaAjGwoARf5aZ0JHD9aQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful service alongside management complaints"
+      },
+      "text": {
+        "en": "Most reviewers praise the frontline staff for being friendly, kind, and affectionate with visiting pets, noting helpful answers to first-time owner questions. In contrast, one dissatisfied customer reported a negative encounter when attempting to contact management by phone, expressing frustration over perceived secrecy and poor customer support."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fast grooming and health services"
+      },
+      "text": {
+        "en": "Clients report efficient service completion across various pet care visits, from routine kitten vaccinations to senior dog grooming. Pet parents appreciate that cats are groomed within two hours and note that specialized services such as standalone nail trimming and anal gland expression are handled promptly without unnecessary service add-ons."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle treatment for family pets"
+      },
+      "text": {
+        "en": "Pet owners value the affectionate and attentive care provided to their dogs and cats. Reviews describe staff showing warmth toward young puppies during clinic appointments, accommodating felines during grooming sessions, and carefully addressing the delicate needs of aging senior dogs requiring targeted hygiene maintenance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the shop offer grooming for cats?"
+      },
+      "a": {
+        "en": "Yes, clients report that cat grooming is available and typically completed within around two hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are standalone services like nail trims offered?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that services like nail trims and anal gland expression can be done without a full bath."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary vaccinations available?"
+      },
+      "a": {
+        "en": "Yes, pet parents mention taking young puppies to the shop for routine vaccination appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do staff treat young or senior pets?"
+      },
+      "a": {
+        "en": "Clients describe the staff as affectionate and patient with both young puppies and delicate senior dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
