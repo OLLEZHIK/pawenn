@@ -1,0 +1,45 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "panda-wellness-center-low-cost-veterinary-clinic",
+    "palm-to-paws",
+    "briarcrest-veterinary-clinic",
+    "pet-check-animal-clinic",
+    "midtown-veterinary-hospital",
+    "bay-glen-animal-hospital",
+    "west-houston-veterinary-medical-associates",
+    "elite-animal-hospital",
+    "feline-medical-center",
+    "briargrove-animal-clinic"
+  ],
+  "hash": "f2b5089dd1de944b3a84ed5d0c7060fb435b16424f671cb72f59b42fdeb78a11",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T09:23:52.446Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-10T09:45:21.995Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-10T09:47:44.832Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T09:48:20.947Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T09:50:31.021Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
