@@ -5,7 +5,7 @@
     "veterans-memorial-drive-animal-hospital",
     "lakeside-animal-clinic",
     "kings-crossing-animal-hospital",
-    "veg-er-for-pets",
+    "veg-er-for-pets-houston",
     "bingle-veterinary-clinic",
     "vca-jones-road-animal-hospital",
     "thrive-pet-healthcare-eldridge",
@@ -13,7 +13,7 @@
     "brittmoore-animal-hospital",
     "cat-veterinary-clinic"
   ],
-  "hash": "fd3f73618942620e74ca4ec56c52e8ec24724c14d86ea5af446c464993c10c27",
+  "hash": "d8828ecb1b6e8fb780686cc231f7295e1395c210d6ddeabfae8eeb3c58c08ca0",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +23,11 @@
     },
     {
       "at": "2026-10-10T09:51:16.712Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T18:15:37.666Z",
       "result": "PASS",
       "listed": 0
     }
