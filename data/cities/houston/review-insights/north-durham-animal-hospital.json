@@ -1,0 +1,172 @@
+{
+  "slug": "north-durham-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/North+Durham+Animal+Hospital/data=!4m7!3m6!1s0x8640c76d9f3b698b:0xa1c34d81fbe4020!8m2!3d29.8043946!4d-95.4119873!16s%2Fg%2F11b6nlnlx3!19sChIJi2k7n23HQIYRIEC-H9g0HAo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive veterinarians and dedicated technicians"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary doctors and support staff at this Houston Heights clinic for their kind and attentive approach during routine exams and medical emergencies. Reviewers frequently single out Dr. Ozak and Dr. Minor for their thorough care and dedication to animal wellbeing. Multiple clients note feeling reassured and well supported throughout difficult clinic visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers highlight how patiently the veterinary staff handles nervous dogs and cats during clinic appointments. Clients describe gentle physical examinations that help calm stressed pets and minimize defensive reactions during procedures. Several owners appreciate that veterinarians take time to help pets relax before administering treatments or vaccinations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations with mixed follow-ups"
+      },
+      "text": {
+        "en": "Clients appreciate that attending veterinarians explain treatment options and pricing clearly during in-person consultations. Owners note that doctors walk them through diagnostic findings so they understand care decisions. However, one reviewer noted delayed communication regarding medication costs and requested follow-up emails after an exam."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does North Durham Animal Hospital handle pet emergencies?"
+      },
+      "a": {
+        "en": "Reviewers report that the veterinary team provides urgent evaluations and stabilizes pets before recommending specialized emergency hospitals when needed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic handle nervous or anxious dogs?"
+      },
+      "a": {
+        "en": "Pet owners mention that the staff is patient and accommodating with anxious pets, taking extra time to keep them comfortable during exams."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary appointments required at this hospital?"
+      },
+      "a": {
+        "en": "Appointments are standard practice for wellness exams and medical visits, and the clinic offers online scheduling through its website."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the veterinary team provide compassionate end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, clients warmly commend Dr. Deville and the technicians for their empathy and gentle support during difficult quality-of-life evaluations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

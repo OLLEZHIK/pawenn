@@ -1,0 +1,238 @@
+{
+  "slug": "pet-supermarket",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Supermarket/data=!4m7!3m6!1s0x8640c1e609a25f5b:0xda6c631655bd27f8!8m2!3d29.6855145!4d-95.4617625!16s%2Fg%2F11fxqxytn2!19sChIJW1-iCebBQIYR-Ce9VRZjbNo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 18,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Clean storefront alongside maintenance concerns"
+      },
+      "text": {
+        "en": "Many shoppers appreciate this Meyerland Plaza location for its organized layout, convenient parking, and functional self-service dog wash stations. Customers frequently describe the retail floor as tidy and easy to navigate for everyday pet supplies. However, several dissatisfied reviewers cited hygiene issues in animal enclosures, dead feeder insects, or messy checkout aisles during busy store visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Popular self-wash and pet treats"
+      },
+      "text": {
+        "en": "Pet parents frequently visit to bathe their dogs using the designated self-service wash area and stock up on premium pet foods and toppers. Reviewers emphasize that their dogs enjoy visiting the store and interacting with floor employees. While one reviewer reported concern over an adopted cat's initial health, most clients highlight healthy treats and welcoming pet events."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful associates with occasional friction"
+      },
+      "text": {
+        "en": "Most customers praise the retail associates for being friendly, answering product inquiries, and offering knowledgeable suggestions about pet nutrition and flea control. Reviewers note that staff members greet visiting pets warmly and guide shoppers to appropriate supplies. In contrast, one reviewer reported an indifferent encounter at the checkout counter during an advertised discount dispute."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet Supermarket have a self-service dog wash?"
+      },
+      "a": {
+        "en": "Yes, customers report that the store features affordable DIY dog wash stations that are frequently used by local dog owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet foods and supplies are in stock?"
+      },
+      "a": {
+        "en": "Reviewers mention a wide variety of brands, including natural kibble, specialized diets, raw toppers, treats, and flea prevention products."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers bring their pets inside the store?"
+      },
+      "a": {
+        "en": "Yes, pets on leashes are welcome inside, and employees regularly interact with visiting dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store host animal adoption events?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the location periodically hosts pet adoption events in partnership with local animal rescues."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
