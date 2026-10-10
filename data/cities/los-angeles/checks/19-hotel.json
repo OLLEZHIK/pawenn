@@ -13,7 +13,7 @@
     "pawparazzi-pet-resort",
     "whitaker-dog-dog-daycare-boarding-and-training"
   ],
-  "hash": "7745c939c90eb521778bca632525772c4fa47fb4f9b14ff855ec3ca68f792ce3",
+  "hash": "7572acaf48dd7d60e5b0f8092e86088c88bb76df4bc3f9ac70dd4ee4c182e0ef",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +23,16 @@
     },
     {
       "at": "2026-10-09T13:39:16.647Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T12:15:57.954Z",
+      "result": "FAIL",
+      "listed": 30
+    },
+    {
+      "at": "2026-10-10T12:21:52.611Z",
       "result": "PASS",
       "listed": 0
     }
