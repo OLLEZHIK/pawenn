@@ -8,7 +8,7 @@
     "psi-centrum-pluto",
     "relaxacni-penzion-pro-psy-lucky"
   ],
-  "hash": "931d78ce5f51106187ab9f499e5adfa71c5efbe9e6e5cf6a3643fd733f06a915",
+  "hash": "26fedac555ee4688989370cc0e60887a2225a93287d849746e9227aecac1c1a8",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,16 @@
     },
     {
       "at": "2026-10-05T06:49:47.400Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T14:09:54.331Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-09T14:10:41.169Z",
       "result": "PASS",
       "listed": 0
     }
