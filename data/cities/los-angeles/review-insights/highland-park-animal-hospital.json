@@ -1,0 +1,130 @@
+{
+  "slug": "highland-park-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Highland+Park+Animal+Hospital/data=!4m7!3m6!1s0x80c2c3ff726926d5:0x149ea103214dc8e7!8m2!3d34.1203536!4d-118.2023189!16s%2Fg%2F1tjg_mx9!19sChIJ1SZpcv_DwoAR58hNIQOhnhQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed views on clinic personnel"
+      },
+      "text": {
+        "en": "Recent client feedback highlights starkly contrasting experiences with clinic staff. Multiple pet owners describe compassionate veterinary care and praise helpful technicians who accommodated nervous dogs in private areas. However, several reviews report abrasive front desk receptionists who dismissed medical concerns and refused to explain clinic policies."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Delays and check-in hurdles"
+      },
+      "text": {
+        "en": "Clients express significant frustration with scheduling and lobby wait times over recent months. Visitors report arriving for confirmed checkups only to be turned away, while walk-in requests for minor issues were declined despite uncrowded waiting rooms. Reviewers frequently describe the check-in process as an ongoing hassle."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frequent front-desk communication lapses"
+      },
+      "text": {
+        "en": "Communication before and during clinic appointments is a primary source of complaint among reviewers. Multiple pet owners report dismissive intake staff who shut down questions about pet health rather than offering explanations. Others noted poor coordination regarding cancelled appointments and conflicting booking instructions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I bring an anxious or reactive dog for an exam?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that staff accommodate reactive or hyperactive dogs by placing them directly into private back rooms away from other animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accept walk-ins for minor health concerns?"
+      },
+      "a": {
+        "en": "Recent reviews indicate walk-ins may be turned away if the schedule is full, so booking in advance is strongly advised."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the fees for routine checkups described?"
+      },
+      "a": {
+        "en": "Clients mention that pricing for routine checkups is reasonable and manageable compared to many other local veterinary practices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should I know about front desk check-in?"
+      },
+      "a": {
+        "en": "Reviewers advise verifying appointment details beforehand, as several visitors encountered delays and intake miscommunications."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

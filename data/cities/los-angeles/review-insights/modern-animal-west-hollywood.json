@@ -1,0 +1,175 @@
+{
+  "slug": "modern-animal-west-hollywood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Modern+Animal+West+Hollywood/data=!4m7!3m6!1s0x80c2b975eeefa2bf:0x4f60ed68bdb50310!8m2!3d34.0758119!4d-118.3666205!16s%2Fg%2F11h8wv9hnz!19sChIJv6Lv7nW5woAREAO1vWjtYE8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Warm nursing staff versus management"
+      },
+      "text": {
+        "en": "Pet parents frequently praise veterinary technicians and nurses, specifically commending Nurse Katana for gentle and affectionate handling during routine visits. However, several reviewers recount negative encounters with clinic managers and front desk staff, citing high turnover, defensiveness when questions arise, and a lack of empathy during emotionally difficult appointments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "In-app messaging and callback delays"
+      },
+      "text": {
+        "en": "Communication channels present substantial challenges according to multiple reviewers. Clients report unreturned phone calls, unanswered doorbells during stated open hours, and multi-day delays when communicating with attending doctors through the mobile app. Several pet owners note that obtaining timely specialist coordination proved frustrating."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and patient pet handling"
+      },
+      "text": {
+        "en": "Clients appreciate the thoughtful environment created for cats and dogs during consultations. Reviewers highlight personalized touches, such as having a pet's name displayed on the exam room door, as well as patient handling for nervous or squirmy animals. Owners note that pets remain remarkably calm during routine nail trims and diagnostic testing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic handle nervous or anxious pets?"
+      },
+      "a": {
+        "en": "Reviewers report that veterinary technicians take extra time to keep pets calm and comfortable with treats and gentle handling during exams and nail trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should I know about communicating with doctors through the app?"
+      },
+      "a": {
+        "en": "Clients mention that messaging responses through the mobile application can take two to three business days, especially for complex inquiries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are routine diagnostic tests completed quickly?"
+      },
+      "a": {
+        "en": "Yes, pet owners describe fast in-clinic testing, noting that routine kidney tests and blood draws are often completed in under ten minutes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can I walk in without an appointment during business hours?"
+      },
+      "a": {
+        "en": "Clients advise scheduling ahead, as visitors who arrived without an appointment reported encountering locked doors despite open signs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
