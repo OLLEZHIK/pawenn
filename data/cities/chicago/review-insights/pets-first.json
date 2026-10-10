@@ -1,0 +1,151 @@
+{
+  "slug": "pets-first",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+First/@41.9437257,-87.6448143,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd3a4e8ee1571:0x25a3086e1005505e!8m2!3d41.9437257!4d-87.6448143!16s%2Fg%2F11h1h53rf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Mixed experiences with veterinary personnel"
+      },
+      "text": {
+        "en": "Recent feedback presents contrasting views regarding the clinic's veterinarians and support staff. Longtime clients speak warmly of Dr. C, Dr. Mitchell, and Dr. Fermoso, praising their thoroughness, patience, and kindness with complex medical issues. Conversely, dissatisfied reviewers criticize lapses in attention, disorganized front desk operations, and missed clinical diagnoses."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for household pets"
+      },
+      "text": {
+        "en": "Reviewers value the gentle handling and personalized attention given to their dogs and cats. Pet parents dealing with feline anxiety or weight management highlight thoughtful guidance that helped improve their pets' wellbeing. Clients appreciate having a familiar neighborhood veterinary team that gets to know their companion animals over time."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Rising fees and billing concerns"
+      },
+      "text": {
+        "en": "Client sentiment regarding clinic pricing is critical overall. While one pet owner noted competitive rates for routine services, others express dissatisfaction with annual price increases alongside perceived declines in service. A client also cited frustration over paying for repeated ineffective treatments without financial resolution."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which veterinarians are most frequently mentioned by clients?"
+      },
+      "a": {
+        "en": "Dr. C, Dr. Mitchell, and Dr. Fermoso receive frequent positive mentions for their clinical thoroughness and compassionate bedside manner."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic assist with chronic pet health issues?"
+      },
+      "a": {
+        "en": "Yes, pet owners report successful collaboration on long-term management of conditions like feline anxiety and weight control."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients view recent changes in clinic pricing?"
+      },
+      "a": {
+        "en": "Recent reviews indicate concerns regarding rising fees, with several clients noting annual cost increases."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
