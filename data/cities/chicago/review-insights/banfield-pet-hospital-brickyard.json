@@ -1,0 +1,222 @@
+{
+  "slug": "banfield-pet-hospital-brickyard",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/@41.9278856,-87.7860032,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcb6c04216cbb:0xe4b9bcd9c5bd0d9!8m2!3d41.9278856!4d-87.7860032!16s%2Fg%2F1tvm3c6s?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 15,
+      "title": {
+        "en": "Mixed experiences with hospital staff"
+      },
+      "text": {
+        "en": "While long-standing clients and routine wellness visitors appreciate friendly greetings from veterinary technicians, multiple reviewers report dismissive interactions with front desk personnel and practice managers. Clients describe feeling rushed during exams and note that clinicians sometimes appear reluctant to provide supportive guidance unless extensive diagnostic panels are approved."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Frequent communication breakdowns and administrative barriers"
+      },
+      "text": {
+        "en": "Reviewers report widespread difficulties reaching clinic staff, citing phone voicemails stating the hospital is closed during normal business hours. Pet parents note month-long delays in receiving biopsy lab results and dismissive responses when confirming appointments. Additionally, Spanish-speaking clients express frustration over the lack of bilingual customer assistance."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Appointment cancellations and procedural delays"
+      },
+      "text": {
+        "en": "Clients cite significant scheduling disruptions, including arriving for confirmed appointments only to find the facility closed early without prior notice. Others recount extended waiting times where pets were kept for hours without promised procedures, such as routine dental cleanings, being completed. Rescheduling challenges have led multiple owners to seek veterinary care elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are confirmed appointments reliably honored?"
+      },
+      "a": {
+        "en": "Reviewers note multiple instances where the clinic closed early or rescheduled confirmed appointments on short notice."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How responsive is the clinic regarding test results?"
+      },
+      "a": {
+        "en": "Pet owners report substantial delays, including waiting weeks for biopsy results, alongside difficulties reaching staff by phone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are bilingual staff members available for Spanish speakers?"
+      },
+      "a": {
+        "en": "Clients report that bilingual personnel are rarely available to assist with booking appointments or discussing patient care in Spanish."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
