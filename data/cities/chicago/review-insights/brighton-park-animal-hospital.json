@@ -1,0 +1,124 @@
+{
+  "slug": "brighton-park-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Brighton+Park+Animal+Hospital/@41.8245774,-87.6867188,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2de520960ac9:0x850e8ce263b76f4!8m2!3d41.8245774!4d-87.6867188!16s%2Fg%2F1ts1stn5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive doctors with mixed service reports"
+      },
+      "text": {
+        "en": "Pet owners commend the lead veterinarian and clinical assistants for their thorough medical knowledge, dedication, and kind demeanor with patients. Many reviewers highlight detailed explanations and compassionate care during difficult health crises. However, one client experienced significant dissatisfaction regarding front desk attentiveness and felt unassisted during their appointment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Successful surgical and treatment outcomes"
+      },
+      "text": {
+        "en": "Reviewers emphasize strong clinical outcomes across surgical procedures, including complex leg amputations and pediatric dental extractions. Clients appreciate prompt recovery timelines, clean surgical incisions, and effective ongoing pain management protocols. Pet parents report that veterinary interventions significantly improved their animals' everyday comfort and quality of life."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Flexible scheduling alongside occasional lobby delays"
+      },
+      "text": {
+        "en": "Clients appreciate the hospital's willingness to accommodate urgent appointments and adjust surgical schedules on short notice. When medical concerns arise, clinicians arrange prompt follow-up visits. Conversely, one client reported waiting for over an hour without assistance, highlighting occasional delays during busy periods at the clinic."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform complex surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, reviewers report successful surgical care ranging from dental extractions to major orthopedic amputations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are urgent appointments accommodated?"
+      },
+      "a": {
+        "en": "Yes, pet owners note that staff can adjust schedules quickly to evaluate urgent symptoms and postoperative concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long should clients expect to wait during visits?"
+      },
+      "a": {
+        "en": "While routine consultations and surgeries are scheduled efficiently, occasional lobby delays exceeding an hour have been reported."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
