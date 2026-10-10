@@ -1,0 +1,147 @@
+{
+  "slug": "vca-animal-care-center-of-chicago",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Animal+Care+Center+of+Chicago/@41.883261,-87.6586125,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2d27790a2e01:0x1b92eb716c3dd392!8m2!3d41.883261!4d-87.6586125!16s%2Fg%2F1tgyx90_?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful doctors alongside front desk friction"
+      },
+      "text": {
+        "en": "Feedback regarding the hospital's staff is divided. Several pet owners describe attending doctors such as Dr. Moody and veterinary technicians as polite, compassionate, and attentive during examinations. Conversely, multiple reviewers report dismissive interactions with front desk personnel, expressing frustration at feeling treated like an account number during stressful visits."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frustration over steep fees and upselling"
+      },
+      "text": {
+        "en": "Clients express significant dissatisfaction regarding pricing transparency and corporate sales tactics. Multiple reviewers note that initial free exam promotions were followed by steep charges for laboratory panels and dental estimates reaching several thousand dollars. Pet owners report feeling pressured into optional diagnostic tests and urge new visitors to clarify costs beforehand."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Delays in critical test results"
+      },
+      "text": {
+        "en": "Reviewers highlight notable communication lapses regarding laboratory updates and patient follow-ups. Multiple pet parents report delays in receiving diagnostic findings over weekends, leaving owners to call the clinic repeatedly to obtain urgent test results. Clients feel that improved responsiveness and clearer communication are essential during high-stakes pet medical emergencies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do promotional exam coupons cover diagnostic lab testing?"
+      },
+      "a": {
+        "en": "Reviewers note that while initial exam coupons are honored, bloodwork, laboratory tests, and medications carry separate fees."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly does the clinic communicate diagnostic test results?"
+      },
+      "a": {
+        "en": "Multiple clients report delays in receiving test results and suggest calling the office directly for timely updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic handle urgent concerns such as tick bites?"
+      },
+      "a": {
+        "en": "Yes, pet owners report positive outcomes when bringing dogs in for urgent evaluations following tick bites and sudden illness."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {}
+    }
+  ]
+}
