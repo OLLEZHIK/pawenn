@@ -1,0 +1,164 @@
+{
+  "slug": "vetco-total-care-homestead",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/data=!4m7!3m6!1s0x88d9dd93cc48d5c3:0x9926a16e35ff1a77!8m2!3d25.4804438!4d-80.4410837!16s%2Fg%2F11p0bw2cdl!19sChIJw9VIzJPd2YgRdxr_NW6hJpk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed experiences with veterinary staff"
+      },
+      "text": {
+        "en": "Clients report sharply contrasting experiences with the veterinary team at this Homestead hospital. While one reviewer appreciated the warmth and thorough explanations of the vet tech and doctor during a routine visit, multiple owners describe staff as inattentive and dismissive. Critical reviews cite concerns regarding clinical training, bedside manner, and front desk service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Disputed handling of patient pets"
+      },
+      "text": {
+        "en": "Feedback regarding the physical handling of patient pets is heavily divided among reviewers. One client felt their cat was handled with genuine affection and patience that relieved appointment anxiety. Conversely, multiple pet parents raise serious concerns about rough physical restraint, unsanitary physical contact, and an apparent lack of empathy during exam procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Complaints regarding medical outcomes"
+      },
+      "text": {
+        "en": "Reviewers express substantial frustration with treatment outcomes and medical care at the clinic. Several pet owners report that prescribed medications failed to resolve symptoms or caused additional distress for their animals, leading to wasted expenses. While routine wellness exams go smoothly, clients seeking diagnosis for acute issues report unsatisfactory medical results."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is this Vetco Total Care hospital located?"
+      },
+      "a": {
+        "en": "The veterinary clinic is located inside the Petco store on Northeast 10th Court in Homestead."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients book appointments online?"
+      },
+      "a": {
+        "en": "Yes, clients can schedule veterinary appointments online through the Petco Vetco booking system."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What types of care are available at this clinic?"
+      },
+      "a": {
+        "en": "The clinic provides routine wellness examinations, vaccinations, microchipping, and medical consultations for dogs and cats."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What do clients say about treatment outcomes?"
+      },
+      "a": {
+        "en": "While routine wellness visits receive praise, several reviewers express dissatisfaction with diagnosis and treatment for acute conditions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

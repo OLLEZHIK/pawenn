@@ -1,0 +1,178 @@
+{
+  "slug": "orange-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Orange+Grooming/data=!4m7!3m6!1s0x88d9b71f98bc195f:0x6bfd7da5fc20f86a!8m2!3d25.748348!4d-80.334057!16s%2Fg%2F11g9t_h2y2!19sChIJXxmbmB-32YgRangg_KV9_Ws?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Inconsistent cuts and grooming injuries"
+      },
+      "text": {
+        "en": "While a few pet parents leave satisfied with glamorous haircuts for their dogs, negative feedback outweighs positive impressions. Multiple owners report uneven styling, accidental cuts on the head, skin irritations, and even post-grooming infections requiring expensive veterinary treatment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly greetings beside customer friction"
+      },
+      "text": {
+        "en": "Opinions regarding the salon team are sharply divided. Some regular clients describe the staff as friendly, welcoming, and helpful with pets. In contrast, other visitors encounter cold receptions, lack of communication regarding policy changes, and dismissive attitudes when addressing service delays."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Reports of pet distress and trauma"
+      },
+      "text": {
+        "en": "Animal welfare is a major concern among several recent reviews. Pet parents report that normally calm rescue dogs returned home trembling, terrified, and showing signs of acute stress or trauma after appointments, leading several longtime clients to stop using the salon."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Orange Grooming accept appointment reservations?"
+      },
+      "a": {
+        "en": "While the website features an appointment option, clients report being told that intake operates strictly on a first-come, first-served basis upon arrival."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long can pets expect to wait during grooming visits?"
+      },
+      "a": {
+        "en": "Reviewers note that turnaround times can extend between three and over eight hours depending on salon volume."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners know regarding grooming pricing?"
+      },
+      "a": {
+        "en": "Clients have noted unexpected price increases, especially for larger breeds or poodles, so owners should confirm current rates in advance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "animals": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

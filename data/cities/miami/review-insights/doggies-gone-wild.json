@@ -1,0 +1,136 @@
+{
+  "slug": "doggies-gone-wild",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggies+Gone+Wild/data=!4m7!3m6!1s0x88d9ae4878d6682f:0x1ccf183986f0d0c7!8m2!3d25.9253727!4d-80.2212546!16s%2Fg%2F11b75k9hls!19sChIJL2jWeEiu2YgRx9DwhjkYzxw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful attendants alongside service issues"
+      },
+      "text": {
+        "en": "Pet owners appreciate the attentive boarding staff and groomers who provide friendly care and regular photo updates while pets are boarding. Multiple clients note positive experiences over several stays. However, critical reviewers report unhelpful responses when pets fell ill after boarding and cite contradictory service details upon pickup."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Active socialization with boarding health worry"
+      },
+      "text": {
+        "en": "Clients note that dogs enjoy socializing with large and small breeds in spacious play yards and return excited for future stays. The facility accommodates diverse breeds comfortably. In contrast, one pet owner reported their dog contracted severe gastrointestinal illness during boarding, expressing distress over lack of follow-up from the staff."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable boarding rates with price disparity"
+      },
+      "text": {
+        "en": "Several pet owners praise the facility for budget-friendly rates and reasonable prices for routine dog boarding and grooming sessions. However, one dissatisfied customer reported receiving conflicting quotes between drop-off and pickup, resulting in an unexpected price discrepancy and disappointment with front-desk billing clarity."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Doggies Gone Wild provide photo updates during boarding?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the boarding staff sends daily pictures and status reports so owners can check on their pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are both small and large dog breeds accepted for boarding?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that the facility accommodates diverse dog breeds of all sizes with indoor and outdoor play spaces."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are grooming services offered on-site?"
+      },
+      "a": {
+        "en": "Yes, customers report using on-site grooming and bath services, describing the results as neat and affordable."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

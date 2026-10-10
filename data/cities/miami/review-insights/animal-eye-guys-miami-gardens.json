@@ -1,0 +1,128 @@
+{
+  "slug": "animal-eye-guys-miami-gardens",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Eye+Guys+-+Miami+Gardens/data=!4m7!3m6!1s0x88d9ae93973c6c0d:0xf15b084a6bf9d597!8m2!3d25.9615605!4d-80.2062404!16s%2Fg%2F11hcz1w6kq!19sChIJDWw8l5Ou2YgRl9X5a0oIW_E?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful doctors and administrative feedback"
+      },
+      "text": {
+        "en": "Most pet owners praise the clinical team for thorough eye evaluations and helpful support during examinations. However, feedback is mixed due to a reported negative experience at the reception desk regarding communication and scheduling during an urgent eye situation."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean and orderly clinic facility"
+      },
+      "text": {
+        "en": "Clients appreciate the clean, orderly environment of the specialized clinic in Miami Gardens. One visitor suggested adding closed-circuit video in exam rooms so owners can watch procedures, but overall feedback confirms a tidy and well-kept setting for pet eye care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive care for ophthalmic conditions"
+      },
+      "text": {
+        "en": "Visitors observe that doctors focus closely on canine patients dealing with serious ophthalmic issues like glaucoma. While one owner felt front-office urgency was lacking during a puppy flare-up, most clients highlight the attentive hands-on treatment provided."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of conditions are treated here?"
+      },
+      "a": {
+        "en": "Reviewers note the practice specializes in veterinary ophthalmology, treating conditions such as canine glaucoma and progressive vision loss."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients stay with their pets during exams?"
+      },
+      "a": {
+        "en": "Clients typically wait in private examination rooms while certain specialized ophthalmic tests are performed by the clinical team."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic handle urgent eye emergencies?"
+      },
+      "a": {
+        "en": "Emergency visits require coordination with the front desk, and owners advise confirming triage availability in advance for urgent cases."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "~"
+      }
+    }
+  ]
+}

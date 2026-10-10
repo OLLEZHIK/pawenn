@@ -1,0 +1,30 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "doral-welfare-animal-hospital",
+    "adams-veterinary-clinic",
+    "isa-animal-clinic",
+    "vetco-total-care-dixie-hwy",
+    "hammocks-veterinary-hospital",
+    "animal-medical-center-spa",
+    "e-l-animal-clinic",
+    "vetco-total-care-homestead",
+    "vet-to-pet-after-hours-animal-clinic",
+    "pet-care-now"
+  ],
+  "hash": "3c70fdff5d5cc645cdbe57a9bfdec252286b137b7c92381c20d717bff17fa653",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T22:50:46.372Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-09T22:52:49.080Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
