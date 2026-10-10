@@ -1,0 +1,208 @@
+{
+  "slug": "neartown-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Neartown+Animal+Clinic/data=!4m7!3m6!1s0x8640c0bb5cbd5fa1:0xb884716cab1f3e73!8m2!3d29.7546795!4d-95.405324!16s%2Fg%2F1tj468x7!19sChIJoV-9XLvAQIYRcz4fq2xxhLg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive care with mixed service experiences"
+      },
+      "text": {
+        "en": "Many reviewers praise Dr. Qassem, Dr. Johnson, and Dr. Eslick alongside tech Destine for gentle, thorough care. Pet owners appreciate clinicians who answer all questions patiently. Conversely, two long-term clients expressed disappointment over perceived lack of empathy following corporate ownership changes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Detailed exam explanations with occasional friction"
+      },
+      "text": {
+        "en": "Pet owners commend veterinarians who explain diagnoses thoroughly and provide clear treatment plans for common ailments like ear infections and UTIs. However, dissatisfied reviewers reported frustrating customer service interactions and unhelpful responses when calling the clinic to report recent pet bereavements."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Timely appointments and same-day scheduling"
+      },
+      "text": {
+        "en": "Most clients report minimal wait times and appreciate that scheduled appointments run efficiently on time. Reviewers note that staff can fit pets in quickly for same-day urgent concerns. One long-term patron complained of past hour-long waiting delays, but recent visitors generally describe prompt rooming."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which veterinarians practice at Neartown Animal Clinic?"
+      },
+      "a": {
+        "en": "Recent clients highlight Dr. Qassem, Dr. Johnson, and Dr. Eslick for attentive examinations and thorough medical care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are same-day appointments available for sick pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that the clinic was able to accommodate dogs and cats on the same day when acute health problems arose."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is Neartown Animal Clinic Fear Free certified?"
+      },
+      "a": {
+        "en": "Yes, the Montrose clinic is Fear Free certified and AAHA-accredited, focusing on low-stress handling techniques for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Houston?"
+      },
+      "a": {
+        "en": "The practice is located on Woodhead Street in the Montrose neighborhood, serving pet owners since 1980."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
