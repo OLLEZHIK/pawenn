@@ -447,14 +447,14 @@ EN/SK, по отзывам Google за последние 6 месяцев. Пр
   показывать.
 
 ### 4.5 How it works (`/how-it-works/`)
-Рендерит уже готовый черновик `docs/content/how-it-works-draft.md`
+Рендерит уже готовый черновик `docs/content/how-it-works.md`
 (Antigravity, PR #6, смёржен) как статическую страницу. Сохранить
 плашку «DRAFT» из исходника, пока владелец не подтвердит финальный
 текст (юридические/контактные плейсхолдеры).
 
 ### 4.6 Privacy Policy / Terms of Use (`/privacy-policy/`, `/terms-of-use/`)
-Рендерят `docs/legal/privacy-policy-draft.md` и
-`docs/legal/terms-of-use-draft.md` (оба смёржены, PR #8/#9). Обе
+Рендерят `docs/legal/privacy-policy.md` и
+`docs/legal/terms-of-use.md` (оба смёржены, PR #8/#9). Обе
 страницы `noindex` до юридической проверки (плейсхолдеры `{OPERATOR}`
 и т.д. ещё не заполнены) — явно передать в задаче, не забыть.
 

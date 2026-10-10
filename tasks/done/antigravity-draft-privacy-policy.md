@@ -56,7 +56,7 @@
 
 ## Формат результата
 
-Файл `docs/legal/privacy-policy-draft.md`. В начале файла — явная
+Файл `docs/legal/privacy-policy.md`. В начале файла — явная
 пометка: `> DRAFT. Requires legal review before publication.`
 
 ## Критерии готовности (Definition of Done)
