@@ -1,0 +1,170 @@
+{
+  "slug": "hyde-park-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hyde+Park+Animal+Clinic/@41.8022962,-87.5884031,17z/data=!3m1!4b1!4m6!3m5!1s0x880e296c3d00361b:0xbd8ecef5a5b71c70!8m2!3d41.8022962!4d-87.5884031!16s%2Fg%2F11xgh0p2r?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Trusted veterinarians alongside service friction"
+      },
+      "text": {
+        "en": "Long-time clients warmly commend Dr. Jeremy Williams and the clinical team for their gentle demeanors, veterinary expertise, and attentive care across routine and surgical visits. Conversely, critical reviews report unprofessional staff encounters, citing schedule rigidities during appointment grace periods and dismissive attitudes during complex treatment discussions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful consultations mixed with coordination lapses"
+      },
+      "text": {
+        "en": "Feedback regarding communication is sharply divided. Many pet owners appreciate thorough explanations during checkups, helpful pet care guidance, and efficient coordination for international health certificates. In contrast, dissatisfied clients report unreturned phone calls, prescription entry mix-ups, and inadequate counseling prior to costly diagnostic procedures."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Reasonable routine care alongside procedure concerns"
+      },
+      "text": {
+        "en": "Client perceptions of veterinary costs vary significantly depending on the nature of the visit. While pet owners describe routine examinations, vaccinations, and travel certificates as fairly priced for urban Chicago, others express strong frustration over high estimates for advanced dental surgery and oncological testing, suggesting treatments felt pushed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Who is the primary veterinarian mentioned at Hyde Park Animal Clinic?"
+      },
+      "a": {
+        "en": "Reviewers frequently praise Dr. Jeremy Williams for his gentle demeanor, clinical knowledge, and decades of neighborhood service."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic assist with international pet travel documentation?"
+      },
+      "a": {
+        "en": "Yes, clients report efficient and smooth service when obtaining international pet health certificates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment estimates provided for complex medical procedures?"
+      },
+      "a": {
+        "en": "Yes, though several reviewers recommend discussing diagnostic options and cost breakdowns thoroughly before scheduling extensive surgery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    }
+  ]
+}
