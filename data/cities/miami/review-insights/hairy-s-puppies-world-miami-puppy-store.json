@@ -1,0 +1,165 @@
+{
+  "slug": "hairy-s-puppies-world-miami-puppy-store",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hairy%27s+Puppies+World+-+Miami+Puppy+Store/data=!4m7!3m6!1s0x88d9b959af18a40d:0xd6143493d7290f44!8m2!3d25.8111624!4d-80.3524333!16s%2Fg%2F1ptwktq2l!19sChIJDaQYr1m52YgRRA8p15M0FNY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Patient guidance from store associates"
+      },
+      "text": {
+        "en": "Clients frequently commend staff members such as Jorge and Mercedes for their attentive customer service, patience during visits, and willingness to answer questions regarding puppy care. Buyers appreciate receiving detailed advice on feeding, vaccinations, and initial home adjustment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Healthy puppies with complete records"
+      },
+      "text": {
+        "en": "Reviewers emphasize that puppies arrive energetic, well-socialized, and in good health, accompanied by organized documentation and medical paperwork. Families adopting breeds like Golden Retrievers and Chihuahuas report that their pets adapted smoothly to their new homes."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Clean showroom alongside unexpected closures"
+      },
+      "text": {
+        "en": "Visitors generally describe the store as clean, organized, and pleasant to browse while meeting available puppies. However, one client reported arriving during posted operating hours only to find the store locked, leading to frustration after driving a long distance to visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do puppies come with documentation and health records?"
+      },
+      "a": {
+        "en": "Yes, buyers report receiving their puppies with organized paperwork, vaccination details, and feeding instructions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What puppy breeds have clients adopted here?"
+      },
+      "a": {
+        "en": "Reviewers mention finding breeds including Golden Retrievers, Chihuahuas, and other pedigree puppies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can visitors meet puppies before making a decision?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff patiently present available puppies until visitors find the right companion."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Hairy's Puppies World located?"
+      },
+      "a": {
+        "en": "The store is located on NW 41st Street in Doral."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
