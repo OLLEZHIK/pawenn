@@ -1,0 +1,147 @@
+{
+  "slug": "vca-chicago-north-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Chicago+North+Animal+Hospital/@41.947343,-87.70959,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd9063bc14bd:0x3638d17b445a1d78!8m2!3d41.947343!4d-87.70959!16s%2Fg%2F1td1qgwk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive clinical team alongside administrative complaints"
+      },
+      "text": {
+        "en": "Several clients praise Dr. Hunt, Dr. Hoffman, and front desk staff for being patient, kind, and thorough during routine and first-time exams. Reviewers appreciate welcoming team members who listen closely. In contrast, negative reviews mention frustration over wellness club billing and staff refusing to assist with an injured wild bird."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle exams for dogs and cats"
+      },
+      "text": {
+        "en": "Pet owners report that veterinarians and assistants handle animals with care, helping patients stay settled during wellness examinations and vaccinations. Reviewers note that clinicians take time to observe pet reactions and provide a comfortable environment for new puppies, senior pets, and nervous animals alike."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Supportive guidance with occasional client frustration"
+      },
+      "text": {
+        "en": "Clients frequently highlight informative discussions during medical appointments, noting doctors explain diagnoses and answer health questions thoroughly. However, communication breakdowns occurred around subscription cancellations and third-party wildlife assistance, leaving some clients dissatisfied with the clinic's response."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do reviewers describe first-time visits to this clinic?"
+      },
+      "a": {
+        "en": "First-time visitors note the staff is welcoming, veterinarians conduct thorough exams, and the front desk is helpful with intake."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians take time to answer owner questions?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that doctors listen diligently to pet concerns and provide detailed explanations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital treat wild animals or wildlife rescues?"
+      },
+      "a": {
+        "en": "Reviews indicate the hospital focuses strictly on domestic companion pets and may not provide assistance or intake for wild animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
