@@ -268,10 +268,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               </span>
               <h3 className="relative mt-4 text-base font-bold leading-tight text-foreground sm:mt-6 sm:text-xl">{c.label}</h3>
               <p className="relative mt-1.5 hidden text-foreground/65 sm:block">{c.blurb}</p>
-              <div className="relative mt-auto flex items-center justify-between pt-4 sm:mt-6 sm:border-t sm:border-line">
-                <span className="text-sm font-medium text-foreground/70">
-                  {multi && c.cities > 1 ? t.placesInCities(c.count, c.cities) : t.places(c.count)}
-                </span>
+              <div className="relative mt-auto flex items-center justify-end pt-4 sm:mt-6 sm:border-t sm:border-line">
                 <span
                   className="flex h-8 w-8 items-center justify-center rounded-full transition duration-300 group-hover:translate-x-1 sm:h-9 sm:w-9"
                   style={{ background: c.accent, color: "white" }}
