@@ -1,0 +1,158 @@
+{
+  "slug": "vca-ark-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Ark+Animal+Hospital/@41.9402704,-87.7073704,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd9cb5a0a1fd:0xe8a743ac55fd05fa!8m2!3d41.9402704!4d-87.7073704!16s%2Fg%2F1tz71_by?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Caring clinicians alongside critical reviews"
+      },
+      "text": {
+        "en": "Several pet owners praise individual clinicians and vet technicians for compassion, thoroughness, and dedicated care for senior pets. In contrast, negative reviews criticize clinical management, describing rushed consultations and feeling unsupported during visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Detailed explanations alongside phone delays"
+      },
+      "text": {
+        "en": "Positive clients appreciate clear medical discussions, personalized care plans, and prompt documentation for international pet travel. However, dissatisfied reviewers report long telephone hold times for pricing estimates and unhelpful follow-up conversations."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Significant concerns over service costs"
+      },
+      "text": {
+        "en": "Multiple reviewers voice frustration regarding high fees and unexpected price increases, particularly for dental cleanings and routine lab tests. Clients feel that quotes are steep compared to earlier visits and express disappointment with pricing transparency."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital assist with pet travel certificates?"
+      },
+      "a": {
+        "en": "Yes, clients report that staff efficiently prepare paperwork for international pet travel."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can urgent appointments be scheduled for senior pets?"
+      },
+      "a": {
+        "en": "Reviewers mention that the team makes efforts to fit in senior animals when unexpected symptoms arise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are detailed estimates provided prior to procedures?"
+      },
+      "a": {
+        "en": "Clients recommend requesting explicit fee quotes in advance due to reported cost variations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

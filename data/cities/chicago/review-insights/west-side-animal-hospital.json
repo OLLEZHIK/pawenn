@@ -1,0 +1,243 @@
+{
+  "slug": "west-side-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/West+Side+Animal+Hospital/@41.8946596,-87.7716431,17z/data=!3m1!4b1!4m6!3m5!1s0x880e3354741fb8fb:0x7e5a81c61c6a0fa2!8m2!3d41.8946596!4d-87.7716431!16s%2Fg%2F1tg6l3wm?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 17,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 16,
+      "title": {
+        "en": "Polarized opinions on clinic personnel"
+      },
+      "text": {
+        "en": "Reviews show starkly contrasting experiences with clinic staff. Several pet parents praise caring doctors and helpful Polish-speaking assistants for saving their pets' lives. Conversely, multiple clients complain about rude, dismissive, and confrontational front desk service."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 11,
+      "title": {
+        "en": "Widespread frustration over communication"
+      },
+      "text": {
+        "en": "A notable portion of reviewers report severe communication breakdowns, including conflicting advice, unreturned calls, lost vaccination records, and reluctance to authorize external prescriptions. Clients describe feeling rushed and ignored when seeking medical clarity."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Life-saving surgeries alongside misdiagnoses"
+      },
+      "text": {
+        "en": "Several owners credit veterinary doctors with successful urgent surgeries and effective treatments for cat abscesses and dental issues. In contrast, dissatisfied clients report inaccurate diagnoses and premature recommendations for pet euthanasia before getting second opinions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are Polish-speaking staff available at the clinic?"
+      },
+      "a": {
+        "en": "Yes, clients mention that Polish-speaking team members are available to assist pet owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can prescriptions be filled at outside pharmacies?"
+      },
+      "a": {
+        "en": "Reviewers report difficulties getting written prescriptions authorized for external pharmacies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic handle urgent surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, multiple clients report that veterinarians perform emergency surgeries and treat acute infections."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

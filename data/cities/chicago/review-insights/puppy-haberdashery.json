@@ -1,0 +1,126 @@
+{
+  "slug": "puppy-haberdashery",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puppy+Haberdashery/data=!4m7!3m6!1s0x880e319b3e14f6cb:0x343886097764499b!8m2!3d41.7497566!4d-87.717608!16s%2Fg%2F11hdw2r2gk!19sChIJy_YUPpsxDogRm0lkdwmGODQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful groomers alongside service disputes"
+      },
+      "text": {
+        "en": "Multiple pet owners appreciate individual groomers and receptionists who handle large breeds patiently and accommodate special morning appointments. Conversely, dissatisfied reviewers describe dismissive front desk interactions and disagreements regarding membership policies."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Thorough breed styling with occasional complaints"
+      },
+      "text": {
+        "en": "Several clients praise full-service baths, neat haircuts, and thorough nail trims for young puppies and large canine breeds. In contrast, one customer reported that their dog received an uneven haircut and sustained a skin scratch near the eye during a grooming visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Handling for large and reactive dogs"
+      },
+      "text": {
+        "en": "Reviewers note that experienced staff handle large dogs and dogs needing solitary morning sessions with gentle patience and calm body language. However, one owner reported that their pet experienced eye irritation and distress following a grooming appointment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon groom large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that staff comfortably accommodate large breeds such as Boerboels for baths and grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be scheduled for nervous pets?"
+      },
+      "a": {
+        "en": "Yes, clients note the salon can arrange early morning individual slots for dogs that struggle around other pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is an online booking system required?"
+      },
+      "a": {
+        "en": "Yes, the salon uses an online booking system for service reservations and membership packages."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
