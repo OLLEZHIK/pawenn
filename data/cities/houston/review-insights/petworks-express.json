@@ -1,0 +1,140 @@
+{
+  "slug": "petworks-express",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetWorks+Express/data=!4m7!3m6!1s0x8640dcc137878251:0x49203dd684fa2031!8m2!3d29.7373476!4d-95.5784285!16s%2Fg%2F1tczw9_5!19sChIJUYKHN8HcQIYRMSD6hNY9IEk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed experiences with clinical team"
+      },
+      "text": {
+        "en": "Pet owners report contrasting experiences with the veterinary staff and Dr. Pappan. Several clients appreciate the compassionate approach toward stray animals and the friendly clinic assistants. Conversely, other reviewers criticize the veterinarian as condescending or rude during exams, reporting dismissive interactions when raising medical concerns."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable rates alongside billing disputes"
+      },
+      "text": {
+        "en": "The clinic is widely valued by pet parents seeking low-cost routine care and budget-friendly wellness treatments in West Houston. However, feedback highlights pricing transparency issues, including unexpected fee increases between surgery quotes and checkout totals. Clients advise confirming itemized estimates prior to care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns over bedside manner and dialogue"
+      },
+      "text": {
+        "en": "Communication emerges as a frequent source of client frustration during appointments and billing discussions. Pet owners report argumentative conversations with the veterinarian when asking questions about medication dosages or payment adjustments. While some receive helpful reassurance, several feel rushed or dismissed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does PetWorks Express accept walk-in patients?"
+      },
+      "a": {
+        "en": "Yes, the clinic accepts walk-ins for routine wellness services alongside scheduled veterinary appointments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is PetWorks Express considered a low-cost clinic?"
+      },
+      "a": {
+        "en": "Many pet owners visit the clinic for low-cost services, though reviewers recommend verifying quotes to avoid billing surprises."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe wait times at the clinic?"
+      },
+      "a": {
+        "en": "Wait times can be lengthy during busy periods, with some clients reporting waiting several hours before being seen."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pharmacy products available on site?"
+      },
+      "a": {
+        "en": "Yes, the practice dispenses prescription medications, parasite preventatives, and dewormers on site."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    }
+  ]
+}
