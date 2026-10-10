@@ -1,0 +1,238 @@
+{
+  "slug": "vca-knowles-central-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Knowles+Central+Animal+Hospital/data=!4m7!3m6!1s0x88d9b71892f21c21:0xaf3597fa2494f501!8m2!3d25.78231!4d-80.23969!16s%2Fg%2F1tfhh688!19sChIJIRzykhi32YgRAfWUJPqXNa8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 19,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Attentive doctors alongside front-desk friction"
+      },
+      "text": {
+        "en": "Several clients commend specific veterinarians like Dr. Lago and Dr. Hung for thorough evaluations, warmth, and kind bedside manners. Conversely, multiple visitors report frustrating interactions with administrative personnel, citing unhelpful phone support and perceived indifference during urgent visits."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Significant dissatisfaction with veterinary fees"
+      },
+      "text": {
+        "en": "A recurring concern among reviewers centers on unexpectedly high invoices for examinations, diagnostic screenings, and medications. Multiple clients felt fees were substantially higher than at nearby clinics and expressed frustration that estimated costs were not clearly disclosed prior to treatment."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Protracted waits during clinic visits"
+      },
+      "text": {
+        "en": "Clients frequently note substantial delays when arriving for appointments or urgent consultations. Reviewers describe remaining in exam rooms or reception areas for several hours before seeing medical staff, with several pet owners reporting minimal communication while waiting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they handle urgent or emergency pet cases?"
+      },
+      "a": {
+        "en": "Yes, the hospital accepts urgent walk-ins and emergencies, though clients note that wait times can be lengthy during busy periods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients receive cost estimates over the phone?"
+      },
+      "a": {
+        "en": "Reviewers mention that reception staff typically requires an in-person physical exam before providing quotes for specific procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital treat small or exotic animals?"
+      },
+      "a": {
+        "en": "Yes, clients report bringing small companion pets such as rats as well as dogs and cats for medical care and compassionate services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

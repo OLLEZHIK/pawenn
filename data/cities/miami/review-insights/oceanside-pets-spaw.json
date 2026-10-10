@@ -1,0 +1,177 @@
+{
+  "slug": "oceanside-pets-spaw",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Oceanside+Pets+Spaw/data=!4m7!3m6!1s0x88d9b274fc26e237:0x5473c52790301072!8m2!3d25.8919933!4d-80.1622967!16s%2Fg%2F1tgqk6kw!19sChIJN-Im_HSy2YgRchAwkCfFc1Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling and calm environment"
+      },
+      "text": {
+        "en": "Pet owners frequently highlight how comfortable and calm their dogs feel during grooming appointments. Reviewers appreciate that the team treats visiting pets like family members, helping nervous pups relax and ensuring they return home happy and stress-free."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming reception and attentive groomers"
+      },
+      "text": {
+        "en": "Clients express strong appreciation for the warm and attentive attitude of the salon staff. Multiple reviewers praise front-desk staff like Macarena for cheerful greetings, as well as groomers like Eduardo and Karla for their patient demeanor and dependable pet care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Styling quality with occasional coat concerns"
+      },
+      "text": {
+        "en": "Most pet parents praise the grooming outcomes, noting that their dogs leave looking well-groomed, clean, and neatly trimmed. However, one client reported serious dissatisfaction with an uneven cut on a Pomeranian coat that went too deep into the double undercoat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do groomers handle anxious or lively pets?"
+      },
+      "a": {
+        "en": "Clients note that the staff is patient and caring, helping energetic and nervous dogs settle down calmly during their appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What specific staff members are frequently praised by clients?"
+      },
+      "a": {
+        "en": "Reviewers often mention Karla and Eduardo for their grooming care, along with Macarena at the front desk for friendly welcomes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Oceanside Pets Spaw located?"
+      },
+      "a": {
+        "en": "The salon is situated on Biscayne Boulevard in North Miami, providing grooming services for local dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are breed-specific haircuts available?"
+      },
+      "a": {
+        "en": "Yes, clients frequently bring various breeds including French Bulldogs and toy breeds for customized baths and haircuts."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

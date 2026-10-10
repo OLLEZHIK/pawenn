@@ -1,0 +1,143 @@
+{
+  "slug": "woodland-lodge-pet-resort",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Woodland+Lodge+Pet+Resort/data=!4m7!3m6!1s0x88d9bbe5f697a17b:0x7fbb9ab26f86d391!8m2!3d25.8258696!4d-80.3499934!16s%2Fg%2F11fxy3sr2g!19sChIJe6GX9uW72YgRkdOGb7Kau38?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive caregivers with managerial friction"
+      },
+      "text": {
+        "en": "Most reviewers praise the frontline staff for warmth, personal dedication, and going above and beyond to settle anxious pets. However, client feedback reflects mixed sentiment due to isolated complaints about managerial communication, including a confrontational response to customer questions and conflicting explanations from attendants."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Fun activities alongside supervision concerns"
+      },
+      "text": {
+        "en": "Clients frequently highlight the facility's pool sessions, themed photo shoots, and daily playtime with canine peers. While many owners report that their pets return happy and well cared for, one reviewer expressed distress after seeing their dog isolated in a closed room on daycare cameras and struggling with a harness at pickup."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Daily report cards with scheduling issues"
+      },
+      "text": {
+        "en": "Pet parents appreciate receiving daily photo updates and report cards during boarding and daycare stays. Nonetheless, communication sentiment remains mixed because multiple clients encountered contradictions regarding daycare assessment policies, outdated website schedules, and defensive handling of owner inquiries."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they provide daily updates and photos during stays?"
+      },
+      "a": {
+        "en": "Yes, clients frequently receive daily report cards, photos, and video updates documenting their pets' meals, activities, and well-being."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners view dogs on webcams during daycare?"
+      },
+      "a": {
+        "en": "Yes, the facility offers camera access allowing owners to monitor indoor play and rest areas during daycare and boarding stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What amenities are available for dogs staying at the resort?"
+      },
+      "a": {
+        "en": "Reviewers mention access to a swimming pool, group playtime, themed photo shoots, grooming services, and private resting rooms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the resort handle pet assessment before daycare?"
+      },
+      "a": {
+        "en": "Reviewers advise confirming assessment rules in advance, as clients experienced conflicting guidance regarding same-day testing and scheduling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

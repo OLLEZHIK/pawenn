@@ -1,0 +1,183 @@
+{
+  "slug": "bayshore-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bayshore+Veterinary+Clinic/data=!4m7!3m6!1s0x88d9ad8e3c3017cf:0xcf4d9ee73c11bb5a!8m2!3d25.9058473!4d-80.15773!16s%2Fg%2F1td6t0jt!19sChIJzxcwPI6t2YgRWrsRPOeeTc8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated and welcoming clinic team"
+      },
+      "text": {
+        "en": "Most pet owners express deep appreciation for the veterinary team in North Miami Beach. Reviewers frequently highlight Dr. Crespo and her veterinary assistants for their attentive bedside manner, deep medical knowledge, and welcoming attitude toward families. While one client reported an encounter with rude staff over an appointment reschedule, the general sentiment remains strongly positive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Caring treatment for dogs and cats"
+      },
+      "text": {
+        "en": "Clients consistently remark on the warm and compassionate care provided to their animals. Pet parents mention that nervous or temperamental dogs, including energetic German Shepherds, are handled with patience and affection. Reviewers feel confident that their dogs and cats receive high standards of personal attention and safety throughout examinations and diagnostic visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Bilingual staff with phone transparency issues"
+      },
+      "text": {
+        "en": "Reviewers appreciate that clinic staff speak Spanish and communicate clearly during exams, explaining medical procedures and treatment plans in detail. At the same time, feedback reveals communication friction: prospective clients criticize the policy of not quoting prices over the phone, and one reviewer noted delayed responses when requesting urgent electronic vaccine records."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do staff members speak Spanish at Bayshore Veterinary Clinic?"
+      },
+      "a": {
+        "en": "Yes, clients frequently note that veterinary and reception staff are bilingual and provide consultations in Spanish."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic quote treatment prices over the telephone?"
+      },
+      "a": {
+        "en": "Reviewers report that the clinic does not provide fee quotes over the phone to prospective clients prior to an initial exam."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do veterinarians handle anxious or moody dogs?"
+      },
+      "a": {
+        "en": "Pet owners commend Dr. Crespo and staff for their patient, gentle demeanor when managing anxious or temperamental dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary appointments required in advance?"
+      },
+      "a": {
+        "en": "Yes, appointments are scheduled in advance, though clients note prompt attention upon arrival for scheduled visit times."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

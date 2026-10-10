@@ -1,0 +1,165 @@
+{
+  "slug": "pet-care-now",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Care+Now/data=!4m7!3m6!1s0x88d9c68d3dff03b1:0x5bd70b517b4ae7f6!8m2!3d25.652383!4d-80.3286486!16s%2Fg%2F1ptx33xjb!19sChIJsQP_PY3G2YgR9udKe1EL11s?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate doctors and support team"
+      },
+      "text": {
+        "en": "Reviewers warmly commend the veterinarians and technicians for their compassionate approach and thorough medical guidance. Clients specifically appreciate Dr. Torres and Dr. Williams for explaining treatment plans with patience. While one reviewer noted a curt interaction at the front desk, most visitors describe the entire staff as friendly and supportive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for family pets"
+      },
+      "text": {
+        "en": "Pet owners consistently note that dogs, puppies, and cats receive gentle and affectionate attention throughout their appointments. Clients appreciate that staff members keep nervous pets calm during exams and post-surgical recovery. Reviewers also mention comforting clinic cats that help ease anxiety in the waiting area."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and follow-ups"
+      },
+      "text": {
+        "en": "Clients highlight thorough communication regarding diagnoses, diagnostic options, and home discharge instructions. Multiple reviewers appreciate that doctors discuss which tests are truly necessary and follow up by phone to check on the patient's recovery. Owners value receiving transparent guidance and prompt paperwork support."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet Care Now handle urgent veterinary cases?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention bringing pets in for urgent medical evaluations and fever treatment during evening hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do the doctors follow up after an emergency visit?"
+      },
+      "a": {
+        "en": "Reviewers note that the team calls clients a few days after emergency visits to check on the pet's recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients request help with pet insurance claims?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that staff readily provide necessary medical records and documentation for insurance claims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "en": "The clinic is located on South Dixie Highway in Pinecrest, serving local pet owners across southern Miami."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "slug": "gomara-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Gomara+Animal+Clinic/data=!4m7!3m6!1s0x88d9b8bb55cad30f:0xb53d90f8a46581ff!8m2!3d25.7324847!4d-80.3493144!16s%2Fg%2F1tdfp1rk!19sChIJD9PKVbu42YgR_4FlpPiQPbU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 16,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Devoted veterinary doctors and assistants"
+      },
+      "text": {
+        "en": "Longtime clients praise Dr. Gomara and the veterinary team for their deep clinical knowledge, patience, and compassionate care toward household pets. Families with decades of history highlight their dedication during complex treatments. However, several callers express frustration with front desk receptionists regarding phone etiquette and scheduling policies."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Lengthy phone holds and delays"
+      },
+      "text": {
+        "en": "Multiple reviewers report significant frustration with phone waiting times, citing being left on hold for ten to fifteen minutes when inquiring about appointments. Clients also note extended in-clinic wait times even when arriving with prearranged appointments, though some established visitors praise the practice for accommodating urgent visits."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Fair and reasonable medical rates"
+      },
+      "text": {
+        "en": "Pet owners consistently appreciate the clinic's pricing structure, describing treatment costs as very reasonable, fair, and affordable compared to regional standards. Reviewers mention that affordable rates allow them to manage complicated veterinary cases and routine preventative care without overwhelming financial strain."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Gomara Animal Clinic currently accepting new patients?"
+      },
+      "a": {
+        "en": "Recent reviews indicate that the clinic frequently restricts intake for new patients due to high client volume, so prospective pet parents should call ahead to confirm availability."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's veterinary fees?"
+      },
+      "a": {
+        "en": "Clients consistently report that fees are very fair and affordable, making long-term medical treatment accessible."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners expect regarding phone wait times?"
+      },
+      "a": {
+        "en": "Reviewers note that callers are sometimes placed on extended hold due to heavy phone traffic at the front desk."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Dr. Gomara treat complex medical conditions?"
+      },
+      "a": {
+        "en": "Yes, multiple clients highlight Dr. Gomara's ability to diagnose and successfully treat challenging illnesses and mobility issues."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
