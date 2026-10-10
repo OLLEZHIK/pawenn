@@ -1,0 +1,145 @@
+{
+  "slug": "royalty-pet-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Royalty+Pet+Center/data=!4m7!3m6!1s0x8640cf3f28bc355d:0x994a5f93ae9fba7d!8m2!3d29.885671!4d-95.493994!16s%2Fg%2F1tf2sm0x!19sChIJXTW8KD_PQIYRfbqfrpNfSpk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Dependable grooming and bath results"
+      },
+      "text": {
+        "en": "Pet owners express solid satisfaction with bathing and haircuts provided for their dogs. Multiple reviewers note that their pets come home looking tidy and smelling clean, prompting several long-term customers to prefer this independent facility over national retail chains."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed feedback regarding front desk"
+      },
+      "text": {
+        "en": "Long-standing patrons speak very warmly of the head caretaker and seasoned kennel team, praising their dedication after leadership transitions. However, phone communication drew sharp criticism in one review from a customer who found reception staff unwelcoming when inquiring about services."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Comfortable care for energetic dogs"
+      },
+      "text": {
+        "en": "Dog owners report that their pets remain calm and comfortable throughout grooming and boarding stays. Multiple reviews highlight that even rambunctious, high-energy, or heavy breeds weighing around one hundred pounds are handled patiently without causing undue stress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What boarding accommodations are offered at Royalty Pet Center?"
+      },
+      "a": {
+        "en": "The center features indoor and outdoor kennels with daily feeding routines and pre-pickup baths so dogs return home clean after stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are large or high-energy dogs handled?"
+      },
+      "a": {
+        "en": "Long-time patrons state that staff handle large breeds weighing up to 100 pounds with patience, even when pets are energetic on the tables."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can dogs receive a full bath before boarding pickup?"
+      },
+      "a": {
+        "en": "Yes, clients regularly request departure baths to ensure their pets come home fresh and clean following boarding visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

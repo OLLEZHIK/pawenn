@@ -1,0 +1,150 @@
+{
+  "slug": "abbott-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Abbott+Animal+Clinic/data=!4m7!3m6!1s0x8640cb7288c26e7f:0xa46c62410ac001d6!8m2!3d30.010494!4d-95.4591248!16s%2Fg%2F1vnrq_b3!19sChIJf27CiHLLQIYR1gHACkFibKQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Mixed and critical staff feedback"
+      },
+      "text": {
+        "en": "Multiple clients express frustration with clinic management and veterinary staff, citing unhelpful responses, administrative mistakes, and lack of accountability during appointments. While several pet owners report polite and patient interactions from the doctors, the balance of recent commentary remains predominantly dissatisfied with communication and service standards."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns regarding diagnosis pricing"
+      },
+      "text": {
+        "en": "Pet owners raise significant concerns over elevated treatment and diagnostic estimates at this facility. Several reviewers note being quoted substantial fees for basic diagnostic workups or unexpected follow-up charges after visits. These unexpected costs prompted some clients to seek second opinions or care at other veterinary practices."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied experiences with pet handling"
+      },
+      "text": {
+        "en": "Reviews show contrasting opinions regarding how animals are handled during examinations and treatments. While some pet owners appreciate gentle and kind attention shown toward older dogs, another reviewer reported rough handling by the attending veterinarian. Consequently, pet care experiences vary noticeably between individual visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do pet owners report reasonable wait times at Abbott Animal Clinic?"
+      },
+      "a": {
+        "en": "Reviewers note that appointments often have little to no wait time in the waiting area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's diagnostic and treatment fees?"
+      },
+      "a": {
+        "en": "Several clients express concern regarding high diagnostic estimates and unexpected billing during appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do pet owners say about animal handling during appointments?"
+      },
+      "a": {
+        "en": "Client experiences vary, with some owners noting gentle care for older pets and others voicing concerns about handling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

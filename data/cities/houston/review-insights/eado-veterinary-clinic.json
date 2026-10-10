@@ -1,0 +1,135 @@
+{
+  "slug": "eado-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/EaDo+Veterinary+Clinic/data=!4m7!3m6!1s0x8640bee1e271bb01:0x807230af0878714!8m2!3d29.7455976!4d-95.3520538!16s%2Fg%2F11hbl81hkn!19sChIJAbtx4uG-QIYRFIeH8AojBwg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive clinicians with divided client feedback"
+      },
+      "text": {
+        "en": "Most pet owners praise Dr. Farmer and his veterinary team for being patient, attentive, and thorough, taking ample time to explain treatment plans without pressure. However, a dissatisfied client reported an unaddressed medical issue and felt neglected after failing to receive a prompt callback regarding their cat."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Patient care for dogs alongside concerns"
+      },
+      "text": {
+        "en": "Clients frequently note the team's gentle approach with fearful dogs and appreciate the clinic accommodating urgent pet issues on short notice. Nonetheless, one reviewer experienced an adverse medication reaction with their cat and cautioned that the practice may be better suited for canine patients."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments with one adverse reaction"
+      },
+      "text": {
+        "en": "Pet parents report positive medical outcomes for chronic allergies and acute skin conditions, with pets returning to good health after clinic visits. Conversely, a client reported that their cat suffered a severe oral reaction following administration of an ear medication."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the team handle anxious or nervous pets?"
+      },
+      "a": {
+        "en": "Reviewers report that staff members are patient and accommodating with fearful dogs to ensure a calm visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does EaDo Veterinary Clinic accommodate urgent appointments?"
+      },
+      "a": {
+        "en": "Clients mention that the clinic has accommodated urgent pet concerns when other local clinics were fully booked."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's pricing transparency?"
+      },
+      "a": {
+        "en": "Pet owners appreciate clear care plans and fair pricing without pressure for unnecessary diagnostic tests."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

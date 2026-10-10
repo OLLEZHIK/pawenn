@@ -1,0 +1,40 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "houston-cat-hospital",
+    "animal-care-center-lake-houston",
+    "tanglewilde-veterinary-clinic",
+    "clay-road-animal-clinic",
+    "medvet-houston-bay-area",
+    "oak-forest-veterinary-hospital",
+    "neartown-animal-clinic",
+    "fm-1960-animal-hospital",
+    "garden-oaks-veterinary-center",
+    "memorial-veterinary-clinic"
+  ],
+  "hash": "172c4968b2bba253a333ef94bad65f799a06938a947e629728d346b771f5fd79",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T09:59:30.763Z",
+      "result": "FAIL",
+      "listed": 115
+    },
+    {
+      "at": "2026-10-10T10:02:14.822Z",
+      "result": "FAIL",
+      "listed": 115
+    },
+    {
+      "at": "2026-10-10T10:13:52.590Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T10:15:02.722Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

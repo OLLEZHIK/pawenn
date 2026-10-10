@@ -1,0 +1,160 @@
+{
+  "slug": "animal-care-center-lake-houston",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Care+Center-Lake+Houston/data=!4m7!3m6!1s0x8640ab03d1e5663b:0x29517d22858e39e0!8m2!3d30.0206338!4d-95.1045563!16s%2Fg%2F1tykvrxh!19sChIJO2bl0QOrQIYR4DmOhSJ9USk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Empathetic and knowledgeable veterinary team"
+      },
+      "text": {
+        "en": "Clients consistently praise the doctors and technicians in Huffman for their compassion, patience, and attentive medical care. Pet parents highlight clinicians like Dr. Gilbert for being down-to-earth and taking time to support families through both routine visits and difficult end-of-life decisions. Reviewers frequently note that the entire team is dedicated and accommodating."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Loving handling for local pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize the genuine affection and warmth shown to their dogs, puppies, and cats during every visit. Owners observe that veterinarians and veterinary assistants handle animals gently, easing anxiety and providing reassuring comfort during evaluations. Multiple clients remark that staff members treat visiting pets with sincere love rather than rushing exams."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable rates at independent practice"
+      },
+      "text": {
+        "en": "Several pet owners highlight the clinic's fair and reasonable fees, describing treatments as refreshingly affordable compared to corporate facilities. Clients appreciate that quality veterinary care remains accessible for routine wellness and ongoing treatments. Reviewers feel that the clinic prioritizes compassionate animal health over excessive medical charges."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients describe the clinic's pricing?"
+      },
+      "a": {
+        "en": "Clients praise the independent clinic for reasonable and affordable fees compared to corporate veterinary chains."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic have a waiting list for non-emergencies?"
+      },
+      "a": {
+        "en": "Reviewers note that non-urgent wellness appointments may have a waiting list due to high demand, though urgent cases are accommodated."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the veterinary staff treat visiting animals?"
+      },
+      "a": {
+        "en": "Pet parents frequently highlight gentle handling, genuine affection, and attentive care for both dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the clinic facility clean and well-equipped?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that the facility in Huffman is clean, tidy, and equipped to handle comprehensive pet medical needs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

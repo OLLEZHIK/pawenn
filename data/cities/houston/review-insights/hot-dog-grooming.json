@@ -1,0 +1,140 @@
+{
+  "slug": "hot-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hot+Dog+Grooming/data=!4m7!3m6!1s0x8640dca45bcf4ba9:0xac5e8932708a5456!8m2!3d29.7561051!4d-95.5763223!16s%2Fg%2F12hnv4j1f!19sChIJqUvPW6TcQIYRVlSKcDKJXqw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated groomers with customer service disputes"
+      },
+      "text": {
+        "en": "Long-standing clients regularly express appreciation for individual groomers like Diana and Jose, praising their dedication and friendly assistance. However, several reviewers highlight contentious interactions with management regarding sudden pricing changes and dismissive handling of customer concerns."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed experiences during handling and drying"
+      },
+      "text": {
+        "en": "Several owners note gentle and patient handling when grooming elderly pets and managing reactive breeds like Chow Chows. In contrast, an urgent complaint details aggressive restraint during high-velocity drying that resulted in severe eye inflammation and required a veterinary visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Complete haircuts and tidy grooming"
+      },
+      "text": {
+        "en": "Clients who are satisfied with the service report that their dogs leave looking well-groomed, neatly trimmed, and refreshed. Reviewers especially value the ability of experienced staff to complete full cuts on challenging double coats that other salons refuse to finish."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon groom difficult or reactive dogs?"
+      },
+      "a": {
+        "en": "Yes, some reviewers mention that staff successfully managed full grooming sessions for reactive dogs and Chow Chows."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are senior pets accepted for grooming?"
+      },
+      "a": {
+        "en": "Yes, clients note bringing senior dogs to the salon on Wilcrest Drive for gentle grooming care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do they groom both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the salon provides grooming services for both dogs and cats."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

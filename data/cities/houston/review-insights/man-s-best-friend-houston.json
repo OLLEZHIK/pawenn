@@ -1,0 +1,162 @@
+{
+  "slug": "man-s-best-friend-houston",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Man%27s+Best+Friend+-+Houston/data=!4m7!3m6!1s0x8640c5b504fba0c5:0x156a64781973136a!8m2!3d29.8159855!4d-95.5016472!16s%2Fg%2F1pv5vyldx!19sChIJxaD7BLXFQIYRahNzGXhkahU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly, accommodating daycare and boarding personnel"
+      },
+      "text": {
+        "en": "Reviewers speak positively of the staff and trainers, describing them as pleasant, welcoming, and accommodating with schedules. Owners appreciate the patience displayed during puppy training sessions and daycare drop-offs. The team is credited with creating an approachable atmosphere for both pets and their owners."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed satisfaction with canine training outcomes"
+      },
+      "text": {
+        "en": "Feedback regarding training outcomes varies significantly among reviewers. Several clients report excellent progress with obedient puppies and well-exercised dogs returning happy and tired from daycare. However, dissatisfied pet parents felt four-week board-and-train packages failed to resolve behavioral issues or relied on training tools they disliked."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting accounts of pet condition and handling"
+      },
+      "text": {
+        "en": "Many dog owners share that their pets are eager to enter the facility and enjoy socializing during daycare and boarding stays. Conversely, a few reviewers raised concerns regarding pet handling, including the use of pinch collars during obedience work and a dog returning noticeably thinner after a stay. Experiences reflect varying owner satisfaction."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the facility offer dog daycare and overnight boarding?"
+      },
+      "a": {
+        "en": "Yes, clients frequently utilize both daytime play groups and multi-day boarding accommodations for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of training programs are provided?"
+      },
+      "a": {
+        "en": "The facility offers puppy training, day school sessions, and multi-week board-and-train programs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do pets have supervised play sessions during daycare?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that dogs spend time playing with staff and other dogs, returning home tired and exercised."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are cat boarding accommodations available?"
+      },
+      "a": {
+        "en": "Yes, the facility provides separate feline boarding amenities alongside dog lodging services."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

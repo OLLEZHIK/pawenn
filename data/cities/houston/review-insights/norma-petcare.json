@@ -1,0 +1,139 @@
+{
+  "slug": "norma-petcare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Norma+Petcare/data=!4m7!3m6!1s0x8640de0b37613fbf:0xd5d50086cbd58d7a!8m2!3d29.6913288!4d-95.6516377!16s%2Fg%2F1262x6jw8!19sChIJvz9hNwveQIYReo3Vy4YA1dU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Fresh haircuts and clean coat care"
+      },
+      "text": {
+        "en": "Clients consistently report excellent grooming results, noting that dogs return home looking thoroughly groomed, fresh, and smelling wonderful. Reviewers praise the careful scissor work and neat nail clipping, remarking that scruffy coats are transformed into clean, beautiful styles."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Caring and gentle family service"
+      },
+      "text": {
+        "en": "Pet owners appreciate the warm, dedicated service provided by Norma and her team on Lindita Dr. Reviews highlight how gentle staff members are with pets who typically dislike baths, helping animals remain calm and happy throughout their grooming appointments."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Generally affordable rates with size increases"
+      },
+      "text": {
+        "en": "Most reviewers describe the pricing as very reasonable and affordable, especially for regular bath and haircut appointments. However, one long-time customer noted a steep price increase for large dogs up to $120, expressing disappointment despite good quality work."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they handle dogs that are afraid of baths?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize that the staff are gentle and patient with dogs that typically fear bath time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services available for large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, the salon accommodates large dogs, though customers note higher rates apply for larger breeds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Norma Petcare offer boarding services?"
+      },
+      "a": {
+        "en": "Yes, Norma Petcare provides both grooming and pet boarding services on Lindita Drive."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "prices": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

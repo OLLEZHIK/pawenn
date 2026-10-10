@@ -1,0 +1,30 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "petsmart-fm-1960-e",
+    "petsmart-tomball-pkwy",
+    "petsmart-east-sam-houston-pkwy",
+    "petco-fm-1960-w",
+    "pet-city-houston",
+    "petco-westheimer-rd",
+    "petco-tx-249",
+    "animal-ark",
+    "fish-n-pets-unlimited",
+    "city-pets"
+  ],
+  "hash": "65d80345402ffa634b4d9ce7581aba4c3491ec02d08e958feab7dac3e1d8638a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T11:28:17.748Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-10T11:32:34.737Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

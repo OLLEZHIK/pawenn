@@ -1,0 +1,129 @@
+{
+  "slug": "briarcrest-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Briarcrest+Veterinary+Clinic/data=!4m7!3m6!1s0x8640dcb09d64c0ff:0x75905b36315397c6!8m2!3d29.7485271!4d-95.5731431!16s%2Fg%2F1wb8v231!19sChIJ_8BknbDcQIYRxpdTMTZbkHU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Caring vet team alongside front-desk concerns"
+      },
+      "text": {
+        "en": "Several pet owners praise Dr. White as a compassionate, ethical clinician and compliment the administrative personnel for supportive care during challenging treatments. However, a client experienced significant frustration over lack of clarity and disorganization when picking up their pet after a routine procedure."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive pet handling with boarding issues"
+      },
+      "text": {
+        "en": "Most reviewers report that their pets receive dedicated attention, particularly dogs requiring specialized care for chronic diabetes or complex oncology therapies. In contrast, one dissatisfied client reported that their elderly pet was kept in an unkempt cage environment and returned heavily distressed."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Detailed consultations mixed with callback delays"
+      },
+      "text": {
+        "en": "Clients frequently value Dr. White's willing ear and in-depth discussions regarding alternative treatment plans and daily pet management. Conversely, another reviewer reported poor communication regarding unauthorized dental extractions and expressed frustration over receiving no explanations or callbacks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic assist owners with diabetic dog management?"
+      },
+      "a": {
+        "en": "Yes, clients note that the staff provide thorough guidance and hands-on support for managing pets diagnosed with diabetes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment options and alternative therapies discussed in detail?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the veterinarian takes time to explain diagnoses and discuss tailored medical options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do routine procedures require advance scheduling?"
+      },
+      "a": {
+        "en": "Yes, appointments are standard practice for procedures, nail trims, and medical consultations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

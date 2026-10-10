@@ -1,0 +1,122 @@
+{
+  "slug": "big-tex-feed-pet-supply-dog-grooming-houston-tx",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Big+Tex+Feed,+Pet+Supply,+Dog+Grooming+Houston+Tx/data=!4m7!3m6!1s0x8640bfd4689096a3:0xc62a66a149b28195!8m2!3d29.6823746!4d-95.3532796!16s%2Fg%2F1th5jvh7!19sChIJo5aQaNS_QIYRlYGySaFmKsY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful store clerks with exceptions"
+      },
+      "text": {
+        "en": "Most customers praise the retail staff for being welcoming, patient, and knowledgeable about pet supplies and services. Reviewers specifically commend individual team members for helping them find the right products. However, one visitor reported a sharply negative interaction with the owner over parking in front of the storefront."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Well stocked store and premises"
+      },
+      "text": {
+        "en": "Shoppers appreciate the variety of pet inventory and feed available inside the store, noting that shelves are well stocked for everyday animal needs. Feedback is positive regarding the retail environment, though one reviewer expressed frustration about parking space enforcement outside the shop entrance."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive guidance despite parking dispute"
+      },
+      "text": {
+        "en": "Multiple patrons highlight courteous communication and helpful advice from employees when selecting pet items and discussing pet services. In contrast, one reviewer noted that the shop owner was impatient and interrupted during a parking disagreement outside."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services and items do customers highlight?"
+      },
+      "a": {
+        "en": "Reviewers mention shopping for pet food and supplies, purchasing medications, and utilizing dog training and grooming services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view staff helpfulness?"
+      },
+      "a": {
+        "en": "Most clients praise store employees for friendly and knowledgeable assistance, though one reviewer reported a rude parking confrontation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet supplies priced affordably?"
+      },
+      "a": {
+        "en": "Customers appreciate finding affordable pet supplies and medications that help them manage overall pet care costs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

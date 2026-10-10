@@ -1,0 +1,315 @@
+{
+  "slug": "petcare-express-43rd-st",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petcare+Express/data=!4m7!3m6!1s0x8640c5de94e97bb7:0xeebd63b5e7b485f9!8m2!3d29.8333627!4d-95.4818072!16s%2Fg%2F11f2643w6r!19sChIJt3vplN7FQIYR-YW057Vjve4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 28,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 20,
+      "title": {
+        "en": "Caring doctors alongside front-desk friction"
+      },
+      "text": {
+        "en": "Clients frequently praise the veterinarians for their direct, thorough, and compassionate care during animal checkups and minor emergencies. Conversely, several reviewers report negative interactions with front-desk staff, describing unhelpful attitudes and aggressive upselling of supplementary clinic products."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 15,
+      "title": {
+        "en": "Significant wait times for walk-in visits"
+      },
+      "text": {
+        "en": "A primary theme across reviews is the long wait time at this first-come, first-served facility, with multiple owners waiting two to over three hours for routine vaccinations. While some clients consider the delay acceptable given the affordability, many express frustration when wait estimates turn out inaccurate."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Low-cost exams and affordable vaccinations"
+      },
+      "text": {
+        "en": "Pet owners consistently celebrate the clinic's low-cost pricing model for basic wellness care, core pet vaccinations, and flea and tick preventatives. Reviewers frequently describe the rates as budget-friendly and unbeatable compared to full-service veterinary practices across Houston."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Petcare Express on 43rd Street require appointments?"
+      },
+      "a": {
+        "en": "No, the clinic operates strictly on a walk-in, first-come, first-served basis for routine exams and pet vaccinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long should clients expect to wait?"
+      },
+      "a": {
+        "en": "Reviewers report that waiting times commonly range from one to three hours or more, particularly during busy morning and weekend hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What procedures and services are handled at this location?"
+      },
+      "a": {
+        "en": "The clinic focuses on preventive wellness exams, core pet vaccines, microchipping, and parasite preventatives, rather than dental work or surgeries."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    }
+  ]
+}
