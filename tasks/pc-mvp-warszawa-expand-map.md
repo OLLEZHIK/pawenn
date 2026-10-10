@@ -9,7 +9,7 @@
 
 **Сейчас (проверяющий, 2026-10-02):** начать с партии 1 (пилот, ждать ревью). В Варшаве (≈1,9 млн жителей) у нас 85 мест и всего 36 ветклиник — меньше, чем в Братиславе (54 при ≈ 0,5 млн). Для альфы по трём городам каталог Варшавы должен выглядеть полным, иначе судить о продукте нельзя.
 
-Метод — как у Wrocław (`tasks/pc-city-wroclaw-maps.md`, «Что сделать», п. 3–5): запросы польские из `docs/seo/keywords/pl.md` с «Warszawa», сети — каждый филиал отдельной строкой, порядок категорий VET_CLINIC → GROOMING → PET_HOTEL → DOG_TRAINING → PET_SHOP → PET_SITTING, внутри — по числу оценок, по убыванию. **Только места, которых ещё нет** в `data/cities/warszawa/businesses.csv` (сверять по `google_place_id`, затем по телефону и адресу, `add-city.md` — раздел про дубли). Закрытые («Zamknięte na stałe») не брать.
+Метод — как у Wrocław (`tasks/done/pc-city-wroclaw-maps.md`, «Что сделать», п. 3–5): запросы польские из `docs/seo/keywords/pl.md` с «Warszawa», сети — каждый филиал отдельной строкой, порядок категорий VET_CLINIC → GROOMING → PET_HOTEL → DOG_TRAINING → PET_SHOP → PET_SITTING, внутри — по числу оценок, по убыванию. **Только места, которых ещё нет** в `data/cities/warszawa/businesses.csv` (сверять по `google_place_id`, затем по телефону и адресу, `add-city.md` — раздел про дубли). Закрытые («Zamknięte na stałe») не брать.
 
 Перед работой — `docs/playbooks/quality.md`, `docs/playbooks/add-city.md` (разделы 1.1, «Партии», 2, 4, 4.1), `docs/pc-agents/lessons.md`.
 

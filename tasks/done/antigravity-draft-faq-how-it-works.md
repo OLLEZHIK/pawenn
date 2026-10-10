@@ -50,7 +50,7 @@
 
 ## Формат результата
 
-Файл `docs/content/how-it-works-draft.md`. Пометка в начале:
+Файл `docs/content/how-it-works.md`. Пометка в начале:
 `> DRAFT. Contact/legal details still placeholders — see docs/legal/`.
 
 ## Критерии готовности (Definition of Done)

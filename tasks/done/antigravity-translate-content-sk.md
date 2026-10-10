@@ -24,9 +24,9 @@
 
 | Исходник | Словацкая версия |
 |---|---|
-| `docs/content/how-it-works-draft.md` | `docs/content/how-it-works-draft.sk.md` |
-| `docs/legal/privacy-policy-draft.md` | `docs/legal/privacy-policy-draft.sk.md` |
-| `docs/legal/terms-of-use-draft.md` | `docs/legal/terms-of-use-draft.sk.md` |
+| `docs/content/how-it-works.md` | `docs/content/how-it-works-draft.sk.md` |
+| `docs/legal/privacy-policy.md` | `docs/legal/privacy-policy-draft.sk.md` |
+| `docs/legal/terms-of-use.md` | `docs/legal/terms-of-use-draft.sk.md` |
 
 1. Естественный словацкий, а не дословная калька. Структура (заголовки,
    списки, порядок разделов) — та же, что в исходнике, чтобы две версии

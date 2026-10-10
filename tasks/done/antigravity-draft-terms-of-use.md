@@ -48,7 +48,7 @@
 
 ## Формат результата
 
-Файл `docs/legal/terms-of-use-draft.md`. В начале —
+Файл `docs/legal/terms-of-use.md`. В начале —
 `> DRAFT. Requires legal review before publication.`
 
 ## Критерии готовности (Definition of Done)
