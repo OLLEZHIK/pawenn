@@ -1,0 +1,134 @@
+{
+  "slug": "bayou-city-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bayou+City+Veterinary+Hospital/data=!4m7!3m6!1s0x8640c0b34ddc1cb5:0x6bc4fdddcb456f5c!8m2!3d29.7707732!4d-95.4087583!16s%2Fg%2F124syr919!19sChIJtRzcTbPAQIYRXG9Fy939xGs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive team with mixed support"
+      },
+      "text": {
+        "en": "Most pet owners speak highly of the veterinarians and receptionists, praising compassionate guidance, thorough medical explanations, and accommodating care during difficult visits. However, a few reviewers report less consistent service from support staff, pointing to communication delays and disagreements over treatment decisions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle and caring patient handling"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the veterinary team for their gentle, affectionate approach when treating both dogs and cats. Clients note that veterinarians and assistants keep pets calm and comfortable during stressful visits, checkups, and surgical procedures. Pet owners appreciate feeling confident that their animals are in caring hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments alongside prescription concerns"
+      },
+      "text": {
+        "en": "Several pet parents report excellent treatment outcomes, noting successful resolution of long-standing skin issues and smooth recoveries from surgery. At the same time, one reviewer expressed concern regarding what they perceived as excessive medication for a minor dermatological condition."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the team handle anxious dogs and cats?"
+      },
+      "a": {
+        "en": "Reviewers consistently note that veterinarians and technicians handle pets with patience and gentle care to minimize stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do clients find communication with the clinic responsive?"
+      },
+      "a": {
+        "en": "Many owners praise direct communication with doctors, though some mention slower follow-ups for outside prescription requests."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Bayou City Veterinary Hospital perform surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, the hospital provides surgical care, and clients report smooth operations and clear recovery guidance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
