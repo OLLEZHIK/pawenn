@@ -1,0 +1,132 @@
+{
+  "slug": "porter-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Porter+Veterinary+Center/data=!4m7!3m6!1s0x80c29a4cff31a207:0x7e6ca72b2fbe0247!8m2!3d34.2284784!4d-118.530325!16s%2Fg%2F1tvdk17x!19sChIJB6Ix_0yawoARRwK-LyunbH4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive Care Under New Ownership"
+      },
+      "text": {
+        "en": "Clients visiting under recent ownership speak highly of the veterinarians and clinic staff. Pet owners highlight how doctors take extensive time to examine pets, listen carefully to medical histories, and handle anxious animals with genuine patience during appointments."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Sharp Disagreements Over Treatment Costs"
+      },
+      "text": {
+        "en": "Pricing is a major point of contention among recent reviewers. While some clients find exam rates reasonable and appreciate promotional discounts, others complain about steep fees for dental cleanings, open cut treatments, and upselling of optional veterinary products."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed Consultations Amid Sales Concerns"
+      },
+      "text": {
+        "en": "Pet owners experience contrasting communication from the team. Several clients appreciate thorough explanations of diagnoses and quality-of-life guidance without feeling rushed. However, a client noted frustration with being pressured into purchasing extra treatments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the thoroughness of pet examinations?"
+      },
+      "a": {
+        "en": "Recent reviewers report that doctors conduct detailed, unhurried examinations, sometimes dedicating significant time to review complex medical histories and answer questions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prices and payment plans accepted without issues?"
+      },
+      "a": {
+        "en": "Reviews show mixed views on pricing, with some finding rates fair while others report high treatment bills and note that financing cards like CareCredit were temporarily unavailable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accommodate nervous or anxious animals?"
+      },
+      "a": {
+        "en": "Yes, pet parents mention that staff give anxious dogs extra time and space to stay calm during procedures such as nail trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is last-minute scheduling available?"
+      },
+      "a": {
+        "en": "Clients have noted being able to book same-day or short-notice appointments when urgent care was needed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

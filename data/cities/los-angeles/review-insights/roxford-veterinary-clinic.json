@@ -1,0 +1,134 @@
+{
+  "slug": "roxford-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Roxford+Veterinary+Clinic/data=!4m7!3m6!1s0x80c28feabcba5f33:0x156204c44ed54991!8m2!3d34.318465!4d-118.4643772!16s%2Fg%2F1tg_xbs9!19sChIJM1-6vOqPwoARkUnVTsQEYhU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate and Dedicated Medical Team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary team and front desk staff for their attentive and caring attitude. Clients highlight Dr. Long for delivering hands-on medical care and going out of the way to assist patients even beyond standard operating hours."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Competent Dental Care Alongside Concerns"
+      },
+      "text": {
+        "en": "Medical treatments receive varied evaluations from visitors. Reviewers commend the clinic's skill in handling challenging procedures such as dental cleanings. In contrast, one pet parent expressed serious doubt over whether their puppy actually received a vaccine."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle Care for Dogs and Puppies"
+      },
+      "text": {
+        "en": "Clients express confidence in how veterinary doctors handle companion animals. Pet parents emphasize the clinic's thoughtful attention toward family dogs, noting sincere affection from technicians and careful consideration during hands-on examinations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept walk-in patients?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that walk-ins are welcomed, though visitors mention the facility can get very busy during peak hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are after-hours consultations available for emergencies?"
+      },
+      "a": {
+        "en": "Clients mention that the veterinarian has gone out of their way to provide guidance and assistance even after standard hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's dental procedures?"
+      },
+      "a": {
+        "en": "Pet owners highlight strong surgical skill and positive outcomes when bringing their animals in for complex dental care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What feedback exists regarding pricing and fees?"
+      },
+      "a": {
+        "en": "Clients appreciate honest service and reasonable rates, although one reviewer raised concerns regarding charges for wellness care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "waiting": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
