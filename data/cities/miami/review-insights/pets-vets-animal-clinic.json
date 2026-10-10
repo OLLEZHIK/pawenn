@@ -1,0 +1,168 @@
+{
+  "slug": "pets-vets-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+%26+Vets+Animal+Clinic/data=!4m7!3m6!1s0x88d9b2e6694cd1db:0x3ad5be35fb797bf!8m2!3d25.854816!4d-80.131267!16s%2Fg%2F1tr7k5nk!19sChIJ29FMaeay2YgRv5e3X-NbrQM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Dedicated veterinary team with occasional disputes"
+      },
+      "text": {
+        "en": "The majority of pet owners praise Dr. Javier Andreu and the clinic staff for their genuine kindness, thorough medical explanations, and dedication to community animals. Reviewers highlight warm reception and attentiveness. However, a couple of dissatisfied clients expressed frustration over unexpected exam billing and administrative changes under new ownership."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle and reassuring patient handling"
+      },
+      "text": {
+        "en": "Clients emphasize how thoughtfully veterinarians and assistants care for nervous or timid animals during appointments. Reviewers note that staff offer treats, gentle petting, and reassuring praise to soothe anxious pets during examinations and treatments. Pet owners also appreciate the team's compassionate support for rescue and community cats."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective treatments and life-saving care"
+      },
+      "text": {
+        "en": "Pet owners report positive medical results across urgent and routine visits, commending the clinic for diagnosing complex ailments, administering specialized laser treatments, and saving dogs facing critical health crises. Many reviews highlight lasting health improvements and dependable wellness support following clinical interventions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pets & Vets Animal Clinic treat anxious pets with care?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that staff use treats, praise, and gentle handling techniques to soothe nervous dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic handle urgent medical treatments on short notice?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that the veterinary team accommodated last-minute urgent visits for acute illnesses such as mastitis."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice participate in community animal welfare programs?"
+      },
+      "a": {
+        "en": "Yes, clients praise the clinic for supporting community cats and participating in trap-neuter-return welfare initiatives."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
