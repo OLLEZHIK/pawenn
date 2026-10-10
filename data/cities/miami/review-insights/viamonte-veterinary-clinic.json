@@ -1,0 +1,154 @@
+{
+  "slug": "viamonte-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Viamonte+Veterinary+Clinic/data=!4m7!3m6!1s0x88d9b70b7d52110d:0x4038b3de980e0e9f!8m2!3d25.754276!4d-80.2382257!16s%2Fg%2F11fkrkwlbg!19sChIJDRFSfQu32YgRnw4OmN6zOEA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable veterinarians and attentive clinic team"
+      },
+      "text": {
+        "en": "Clients speak highly of Dr. Viamonte and the clinic staff, highlighting their clinical knowledge and reassuring bedside manner. Reviewers single out veterinary assistants and technicians for their helpful attitude, teamwork during surgical cases, and humane pet care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate bedside manner and soothing care"
+      },
+      "text": {
+        "en": "Pet owners appreciate the patient and gentle handling shown toward their companions. Several reviewers observe that the staff's calm approach helps anxious animals, including spirited chihuahuas and cats, relax during examinations and stressful clinical procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective clinical treatment and surgical support"
+      },
+      "text": {
+        "en": "Reviewers report successful treatment outcomes across routine and urgent medical visits. Clients describe positive experiences with complex procedures such as foreign body obstruction surgery, leaving pet parents confident in their pets' recovery and overall health."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the clinic handle foreign object obstruction emergencies?"
+      },
+      "a": {
+        "en": "Yes, clients describe successful surgical intervention and attentive postoperative boarding when pets swallowed foreign objects."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do veterinarians interact with anxious dogs and cats?"
+      },
+      "a": {
+        "en": "Pet owners note that the veterinary team maintains a calm, soothing demeanor that helps reduce stress in nervous pets during exams."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Viamonte Veterinary Clinic located?"
+      },
+      "a": {
+        "en": "The practice is situated on SW 27th Avenue in Miami, providing medical evaluations and surgical services for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What advice do reviewers share regarding billing?"
+      },
+      "a": {
+        "en": "While medical care is praised, one reviewer advises double-checking the invoice to verify that quoted service rates align accurately."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
