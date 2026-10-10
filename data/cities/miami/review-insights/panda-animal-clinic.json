@@ -1,0 +1,207 @@
+{
+  "slug": "panda-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Panda+Animal+Clinic/data=!4m7!3m6!1s0x88d9b0a05967c27b:0xa0de05becbac72ae!8m2!3d25.8303536!4d-80.2748482!16s%2Fg%2F1w456dpr!19sChIJe8JnWaCw2YgRrnKsy74F3qA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Caring team alongside client disagreements"
+      },
+      "text": {
+        "en": "Many pet owners praise Dr. Perales, nurse Tia, and support staff members José and Blanca for their compassionate bedside manner and thorough explanations. However, several dissatisfied clients report sharp disagreements with the clinic during stressful situations, describing instances of perceived inflexibility, defensive interactions, or unaddressed complaints."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Concerns over estimates and fees"
+      },
+      "text": {
+        "en": "Pricing is a recurring source of friction among reviewers visiting the clinic for urgent care or diagnostic work. Multiple clients express dismay over unexpected recheck charges, high financing quotes, and diagnostic estimates reaching hundreds or thousands of dollars. Even favorable reviewers acknowledge that care here can be somewhat expensive."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting clinical outcomes and testing"
+      },
+      "text": {
+        "en": "Feedback regarding medical outcomes varies significantly depending on the nature of the visit. Grateful pet owners credit the veterinary staff with saving critically ill dogs and providing reliable routine care. Conversely, other clients report persistent swelling after injections or inconclusive lab work that ultimately necessitated transfer to an emergency hospital."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Panda Animal Clinic handle daytime emergency cases?"
+      },
+      "a": {
+        "en": "Yes, the clinic handles urgent cases and medical emergencies during regular business hours, though some complex diagnostics may be referred to an emergency hospital."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are offered at Panda Animal Clinic?"
+      },
+      "a": {
+        "en": "The clinic provides routine examinations, vaccinations, laboratory bloodwork, dental cleanings, and soft-tissue surgery."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are pricing estimates provided prior to treatment?"
+      },
+      "a": {
+        "en": "Clients report receiving estimates for diagnostic testing and treatments, though several pet owners note that unexpected follow-up fees or testing costs can arise."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "~",
+        "place": "+"
+      }
+    }
+  ]
+}
