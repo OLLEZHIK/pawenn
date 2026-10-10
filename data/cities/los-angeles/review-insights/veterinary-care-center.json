@@ -1,0 +1,214 @@
+{
+  "slug": "veterinary-care-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterinary+Care+Center/data=!4m7!3m6!1s0x80c2bf2de59e0439:0x39b08f26a94db2d1!8m2!3d34.0913267!4d-118.3308303!16s%2Fg%2F11cjj3kcpj!19sChIJOQSe5S2_woAR0bJNqSaPsDk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Welcoming reception and attentive veterinarians"
+      },
+      "text": {
+        "en": "Clients describe a supportive clinic environment where doctors take time to discuss diagnostic options and front desk staff greet pets warmly. Pet parents highlight clinicians like Dr. Nishiyama, Dr. Sharp, and Dr. Brownell for treating families collaboratively."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Communication breakdowns during critical care"
+      },
+      "text": {
+        "en": "Several pet owners report unsatisfactory communication regarding treatment complications and post-procedure updates. Complaints focus on unreturned telephone inquiries, conflicting advice between attending doctors, and vague explanations when pets worsened."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Thoughtful handling for sensitive pets"
+      },
+      "text": {
+        "en": "Reviewers appreciate the team's gentle demeanor with senior dogs and nervous working breeds. Pet parents observe that technicians administer belly rubs and provide complimentary treats, creating a calming atmosphere that eases pet apprehension during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is parking available at the Hollywood clinic?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the facility has dedicated parking lot spaces visible directly outside the waiting room."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians work within client budgets for care?"
+      },
+      "a": {
+        "en": "Clients appreciate that doctors discuss multiple treatment paths and help prioritize essential diagnostics when finances are a consideration."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the staff accommodate reactive or anxious dogs?"
+      },
+      "a": {
+        "en": "Pet owners mention that technicians understand dog body language and allow clients to wait in cars or check lobby capacity before entering."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients schedule appointments for minor emergencies?"
+      },
+      "a": {
+        "en": "Yes, reviewers report being accommodated on short notice for acute issues like sudden digestive distress or dental injuries."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "~"
+      }
+    }
+  ]
+}
