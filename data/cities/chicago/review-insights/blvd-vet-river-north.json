@@ -1,0 +1,177 @@
+{
+  "slug": "blvd-vet-river-north",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BLVD+Vet+River+North/data=!4m7!3m6!1s0x880e2cca9bc99e55:0xb506c8d1b5e0668b!8m2!3d41.8936851!4d-87.638672!16s%2Fg%2F11fxv0z2by!19sChIJVZ7Jm8osDogRi2bgtdHIBrU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive care with mixed urgent support"
+      },
+      "text": {
+        "en": "Many pet owners praise veterinarians and technicians such as Dr. Courville, Dr. Spano, Daisy, and Jorge for their gentle bedside manner and clear medical explanations. However, multiple critical reviews express deep dissatisfaction during sudden illnesses, reporting that the team felt indifferent and directed deteriorating pets to external emergency centers without immediate on-site relief."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Detailed follow-ups alongside phone delays"
+      },
+      "text": {
+        "en": "Feedback regarding communication shows contrasting experiences. Satisfied clients highlight prompt email updates, detailed bloodwork reviews, and follow-up phone calls checking on recovering pets. Conversely, several reviewers express frustration when trying to reach medical staff during emergencies, noting unreturned calls and front-desk messages advising emergency room visits."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Clear estimates alongside fee concerns"
+      },
+      "text": {
+        "en": "Reviewers express divided perspectives on clinic pricing. While several clients report transparent upfront treatment estimates without pressure to purchase extra services, others criticize elevated charges for routine wellness visits and unexpected technician fees for simple nail trims. High costs and outside hospital bills remain a frequent point of contention."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does BLVD Vet River North handle walk-in emergency visits?"
+      },
+      "a": {
+        "en": "Reviewers note that while urgent slots are sometimes accommodated, sick patients are frequently referred to 24-hour emergency hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment costs explained upfront?"
+      },
+      "a": {
+        "en": "Clients note that veterinarians typically provide transparent options, though some owners report surprise technician fees for routine procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the team follow up after appointments?"
+      },
+      "a": {
+        "en": "Many clients mention receiving detailed emails with lab results and phone calls from clinicians checking on healing pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "place": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

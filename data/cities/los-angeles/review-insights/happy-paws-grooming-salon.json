@@ -1,0 +1,157 @@
+{
+  "slug": "happy-paws-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Happy+Paws+Grooming+Salon/data=!4m7!3m6!1s0x80c290750fc0443f:0xc3c0326c1e026252!8m2!3d34.271481!4d-118.4843052!16s%2Fg%2F11g9mhtg5z!19sChIJP0TAD3WQwoARUmICHmwywMM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Sharp divide on grooming quality"
+      },
+      "text": {
+        "en": "Reviews show sharply contrasting experiences regarding haircut outcomes. Satisfied pet owners state their dogs looked clean, neat, and smelling fresh after routine grooming and baths. Conversely, multiple critical clients report rushed haircuts, uneven trimming, shaved tails that owners did not request, and cuts on skin, leading to dissatisfaction."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Repeated complaints of grooming injuries"
+      },
+      "text": {
+        "en": "Animal handling draws severe criticism from several reviewers over recent visits. While some owners describe their dogs returning relaxed, multiple pet parents report discovering nicked skin, bleeding scabs on ears, and tender paws from nail trims. Several customers strongly advise other owners to inspect their pets carefully following grooming appointments."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Affordable rates for basic services"
+      },
+      "text": {
+        "en": "Clients consistently agree that pricing at the salon is more affordable than many local grooming options. Reviewers appreciate modest charges for routine baths, haircuts, and complementary treatments like flea dips. However, some dissatisfied customers note that low prices do not compensate for the stress caused by uneven trims or pet injuries."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon offer flea baths and treatments?"
+      },
+      "a": {
+        "en": "Yes, clients mention that staff can provide flea baths and topical treatments when pets arrive with fleas."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are cosmetic dental cleanings available?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the salon provides non-anesthetic pet teeth cleaning services alongside regular grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do prices compare to other local groomers?"
+      },
+      "a": {
+        "en": "Pet owners consistently describe rates as budget-friendly and accessible compared to nearby pet spas."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Have customers experienced scheduling cancellations?"
+      },
+      "a": {
+        "en": "Yes, a reviewer reported multiple last-minute appointment cancellations for specialized dental care visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "+",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

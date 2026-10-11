@@ -7,6 +7,7 @@ import { TagIcon } from "./icons";
 import { pricesPath } from "@/lib/priceSlugs";
 import { moneyRange } from "@/lib/money";
 import { pctAgainst, type MarketPrice } from "@/lib/priceMarket";
+import { comparable as isComparable } from "@/lib/pricePages";
 import { priceTone, TONE_TEXT } from "@/lib/priceTone";
 
 type PriceRow = BusinessWithRelations["priceItems"][number];
@@ -15,8 +16,9 @@ type PriceRow = BusinessWithRelations["priceItems"][number];
 // row per weight range. When they were checked and their sources - the
 // trust rule: no price without a source - go once under the table, not
 // on every row (owner, 2026-09-26: lighter to read). Under each service
-// name: what its price must include to be compared; a price per hour/km
-// or a partial one carries its note and "not compared". Colour only in
+// name: the city average and how far this price is from it; a price per
+// hour/km or a partial one carries "not compared". A note is shown with the
+// price and does not stop the comparison (lib/pricePages.ts, comparable). Colour only in
 // the category's accent (owner, 2026-09-26), no green/orange.
 export function PriceTable({
   items,
@@ -79,7 +81,7 @@ export function PriceTable({
   const codes = [...new Set(rows.map((r) => r.service.code!))];
   const services = codes.map((code) => {
     const own = rows.filter((r) => r.service.code === code);
-    const comparable = own.filter((r) => !r.partial && r.unit === null && !r.note);
+    const comparable = own.filter(isComparable);
     const headline = (comparable.length ? comparable : own).reduce((min, r) => (Number(r.priceFrom) < Number(min.priceFrom) ? r : min));
     const from = Number(headline.priceFrom);
     const cityMarket = market?.get(code);
@@ -102,6 +104,8 @@ export function PriceTable({
           const unit = headline.unit ? t.perUnit[headline.unit] : null;
           const to = headline.priceTo === null ? null : Number(headline.priceTo);
           const single = !bySize && to !== null && to !== from;
+          // What the price includes or is for ("incl. hospitalisation", "under 6 months").
+          const headlineNote = locale === "en" ? headline.note : (headline.noteLocal ?? headline.note);
           return (
             <li key={code} className="py-4">
               <div className="flex items-center justify-between gap-4">
@@ -129,6 +133,7 @@ export function PriceTable({
                     </div>
                   )}
                   {!compare && headline.partial && <div className="text-sm text-foreground/60">{t.notCompared}</div>}
+                  {headlineNote && <div className="text-xs text-foreground/60">{headlineNote}</div>}
                 </div>
                 <div className="shrink-0 text-right">
                   {(bySize || headline.partial || to === null) && !unit && <span className="mr-1 text-xs font-medium text-foreground/60">{t.priceFrom("").trim()}</span>}
@@ -153,7 +158,7 @@ export function PriceTable({
               const w = weight(item.weightFromKg, item.weightToKg);
               const unit = item.unit ? t.perUnit[item.unit] : null;
               const note = locale === "en" ? item.note : (item.noteLocal ?? item.note);
-              const notCompared = item.partial || item.unit !== null || Boolean(item.note);
+              const notCompared = !isComparable(item);
               const from = Number(item.priceFrom);
               const to = item.priceTo === null ? null : Number(item.priceTo);
               const price =

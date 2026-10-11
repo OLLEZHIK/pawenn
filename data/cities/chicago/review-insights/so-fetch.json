@@ -1,0 +1,130 @@
+{
+  "slug": "so-fetch",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/So+fetch!/@41.8101401,-87.6653448,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2fe31711a6b7:0x26dac2408458c70a!8m2!3d41.8101401!4d-87.6653448!16s%2Fg%2F11grvl6yyb?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Clean haircuts and coat styling"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the salon for neat haircuts, coat blowouts, and nail trims. Multiple reviews note that dogs return smelling fresh and sporting seasonal holiday accessories. Customers report dependable grooming outcomes across different breeds, including bichons and mixed dogs."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly and attentive grooming team"
+      },
+      "text": {
+        "en": "Clients describe the grooming team as warm, patient, and welcoming toward visiting pets. Several reviewers emphasize the staff's gentle handling of elderly companions who require extra reassurance. Pet parents appreciate the clear customer communication when setting up appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Comfort for nervous and senior pets"
+      },
+      "text": {
+        "en": "Dog owners highlight how well the salon accommodates anxious pets and older dogs with special physical needs. Reviewers remark that even timid dogs leave the shop relaxed and upbeat, reflecting a calm atmosphere where animals receive considerate attention during their grooming routine."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do customers describe the grooming results at So fetch?"
+      },
+      "a": {
+        "en": "Clients report precise haircuts, clean nail trims, pleasant-smelling coats, and fun seasonal touches for holidays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the groomers comfortable handling elderly or timid dogs?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers highlight the team's patience and gentle care when working with senior and anxious dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do clients need to book appointments in advance?"
+      },
+      "a": {
+        "en": "Yes, pet parents recommend scheduling ahead, as the salon operates on an appointment basis."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

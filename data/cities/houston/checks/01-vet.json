@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "gulf-coast-veterinary-specialists-gcvs",
+    "the-kaaws-clinic",
+    "emancipet",
+    "sunset-animal-hospital",
+    "alief-animal-hospital",
+    "affordable-pet-clinic",
+    "snap-spay-neuter-animal-wellness-clinic",
+    "north-loop-pet-clinic",
+    "long-drive-dog-cat-hospital",
+    "north-line-low-cost-affordable-pet-clinic-tidwell"
+  ],
+  "hash": "a8b14e4a0a451a8fc4a0579e1ce15545ada4ebf501be96673b9dbf7eb7a88bb8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T09:56:17.522Z",
+      "result": "FAIL",
+      "listed": 33
+    },
+    {
+      "at": "2026-10-10T10:02:53.345Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

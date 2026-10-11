@@ -471,7 +471,7 @@ export const en = {
     price: "Price",
     vsMarket: "Against the city average",
     notComparedTitle: "Other prices (not compared)",
-    notComparedIntro: "Partial prices, prices per hour or per km, or ones that include more than the standard.",
+    notComparedIntro: "Partial prices and prices per hour or per km.",
     otherServices: "Other prices",
     service: "Service",
     range: "Range",

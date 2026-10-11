@@ -1,0 +1,211 @@
+{
+  "slug": "park-la-brea-veterinary-care",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Park+La+Brea+Veterinary+Care/data=!4m7!3m6!1s0x80c2b93a6802c5b9:0x747902e95d3b6d83!8m2!3d34.0677875!4d-118.3617096!16s%2Fg%2F1v_z951_!19sChIJucUCaDq5woARg207XekCeXQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Contrasting experiences with clinical personnel"
+      },
+      "text": {
+        "en": "Feedback regarding the clinic's personnel is noticeably divided among reviewers. Multiple pet owners praise Dr. Rattan and front office members like Chelsea for their kind, patient, and accommodating care during routine exams. In contrast, several clients express serious dissatisfaction with bedside manner and clinical judgment, particularly citing distressing experiences during complex treatments and end-of-life visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Concerns regarding updates and guidance"
+      },
+      "text": {
+        "en": "While satisfied clients report quick assistance with routine inquiries and prompt forwarding of pet records, a majority of reviews on this topic describe communication problems. Discontented owners report receiving vague or conflicting instructions after procedures, delayed diagnostic follow-ups, and documentation that did not match in-person discussions about their pets' conditions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Persistent concerns over treatment outcomes"
+      },
+      "text": {
+        "en": "A couple of clients highlight positive outcomes, such as identifying previously overlooked ear infections or safely weaning a pet off anti-seizure medication. However, most reviews addressing clinical results recount critical issues, including complications during surgical procedures, a severely botched euthanasia appointment, and perceived lack of urgency during life-threatening pet emergencies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I request records or history for an upcoming move?"
+      },
+      "a": {
+        "en": "Yes, clients note that front office staff handled record requests promptly and sent complete files when requested."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report about end-of-life care and euthanasia?"
+      },
+      "a": {
+        "en": "One reviewer reported a traumatic euthanasia experience with procedural delays, advising pet owners to discuss expectations in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are routine wellness exams and vaccines available?"
+      },
+      "a": {
+        "en": "Yes, clients frequently visit for routine checkups, heartworm prevention, vaccinations, and minor grooming like nail trims."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are surgical and post-operative instructions conveyed?"
+      },
+      "a": {
+        "en": "Several reviewers expressed concerns over vague recovery guidelines, recommending that owners request detailed written instructions before discharge."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

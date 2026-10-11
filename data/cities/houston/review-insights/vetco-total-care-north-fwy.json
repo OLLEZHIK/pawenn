@@ -1,0 +1,157 @@
+{
+  "slug": "vetco-total-care-north-fwy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/data=!4m7!3m6!1s0x8640c9b5ba6cdd67:0x74f068e231b52ed8!8m2!3d29.9116921!4d-95.4158479!16s%2Fg%2F11f10pcq4w!19sChIJZ91surXJQIYR2C61MeJo8HQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Caring clinical team alongside front desk friction"
+      },
+      "text": {
+        "en": "Reviewers warmly commend the medical team, noting that Dr. Urrea and the veterinary technicians deliver gentle, compassionate care for sick pets. Several clients praise their tireless efforts during medical emergencies. However, other pet owners reported encountering rude and dismissive attitudes from the front reception personnel."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling for small and sick animals"
+      },
+      "text": {
+        "en": "Pet parents highlight the tender care provided to fragile animals, such as pugs undergoing glaucoma therapy and young rescue kittens. Reviewers state that clinical staff show genuine affection toward animals and maintain a calm, reassuring environment during examinations and medical treatments to minimize stress for sick pets."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Clear doctor consultations amid poor reception"
+      },
+      "text": {
+        "en": "While veterinary doctors receive praise for explaining diagnosis details and treatment options thoroughly, communication at the front desk draws consistent criticism. Multiple clients reported rude responses when inquiring about estimated wait times, noting that receptionists seemed unhelpful and unwilling to answer basic questions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What medical treatments are available at Vetco Total Care?"
+      },
+      "a": {
+        "en": "Reviews mention routine health checkups, vaccination visits, glaucoma management, and emergency supportive care for sick dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment costs manageable for clients on a budget?"
+      },
+      "a": {
+        "en": "Pet owners note that the clinic offers manageable pricing that fits within modest household budgets for routine and ongoing veterinary care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the check-in and waiting experience?"
+      },
+      "a": {
+        "en": "While doctors are well-regarded, several reviews mention unhelpful reception staff and unclear communication regarding appointment wait times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "vetco-total-care-shepherd",
+    "texas-litter-control-dba-the-greater-good-houston-memorial",
+    "west-alabama-animal-clinic",
+    "memorial-cat-hospital",
+    "south-belt-animal-hospital",
+    "animal-medical-center-of-the-village",
+    "vca-spring-branch-animal-hospital",
+    "thrive-pet-healthcare-the-heights",
+    "houston-spca-s-wildlife-center",
+    "thrive-pet-healthcare-fountainview"
+  ],
+  "hash": "09a0a3df284a885e0bf80552ff617af28ea2add42b9f933e3ec1e6332c034d94",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T10:41:00.812Z",
+      "result": "FAIL",
+      "listed": 96
+    },
+    {
+      "at": "2026-10-10T10:44:54.669Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T10:47:13.736Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-10T10:48:06.959Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

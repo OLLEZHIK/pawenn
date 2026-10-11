@@ -1,0 +1,144 @@
+{
+  "slug": "wolfsrudel-tierbetreuung",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wolfsrudel+Tierbetreuung/@52.527015,13.3019514,17z/data=!3m1!4b1!4m6!3m5!1s0x47a851ecf2816e61:0xb46d817a297286cd!8m2!3d52.527015!4d13.3019514!16s%2Fg%2F11ltvgvfgb?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MTAwNC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Wohlbefinden und Beschäftigung für die Hunde",
+        "en": "Canine well-being and active playtime"
+      },
+      "text": {
+        "de": "Besitzerinnen und Besitzer heben hervor, wie wohl sich ihre Hunde in der Betreuung fühlen. Vom jungen Welpen bis zu reisebegleitenden Vierbeinern zeigen sich die Tiere entspannt und ausgeglichen. Durch lange Spaziergänge und viel Auslauf kehren die Hunde nach dem Aufenthalt müde, zufrieden und sichtlich glücklich zu ihren Familien zurück.",
+        "en": "Pet parents highlight how comfortable and relaxed their dogs feel during their stay. From young four-month-old puppies to pets accompanying traveling owners, animals adapt smoothly. Thanks to extended walks and engaging outdoor exercise, dogs return to their families happily tired, thoroughly content, and well-exercised."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Individuelle Zuwendung und Flexibilität",
+        "en": "Attentive individual care and flexibility"
+      },
+      "text": {
+        "de": "Die Betreuerin Ulrike wird für ihr großes Engagement, ihre herzliche Art und ihr verlässliches Auftreten geschätzt. Sie nimmt sich viel Zeit für ein behutsames Kennenlernen und berücksichtigt individuelle Eigenschaften der Hunde. Halter betonen, dass sie ihre Schützlinge auch kurzfristig oder über Nacht mit einem sicheren Gefühl anvertrauen können.",
+        "en": "Caretaker Ulrike is valued for her strong dedication, warm manner, and dependable approach. She takes time for careful introductory meetings and pays close attention to each dog's distinct traits. Clients emphasize that they can leave their companions in her care with full confidence, whether for daytime sitting or overnight visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Regelmäßige Updates bei Anfragen-Kritik",
+        "en": "Regular updates with inquiry complaints"
+      },
+      "text": {
+        "de": "Kunden während der laufenden Betreuung loben die kontinuierlichen Statusberichte und Fotos, die über den Tagesablauf informieren und für ein beruhigtes Gefühl sorgen. Ein Erfahrungsbericht kritisiert jedoch deutlich, dass Anfragen per E-Mail und Anrufbeantworter im Vorfeld gänzlich unbeantwortet blieben und die Kontaktaufnahme unzuverlässig war.",
+        "en": "Clients who utilized the sitting service praise the steady stream of status reports and photo updates sent during their absence, which provide great reassurance. However, one reviewer reported significant frustration before booking, stating that inquiries via email and answering machine were left entirely unanswered."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden während der Betreuung Fotos verschickt?",
+        "en": "Are photos sent during the pet sitting?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten über regelmäßige Statusberichte und Fotos ihrer Hunde während der Abwesenheit.",
+        "en": "Yes, clients report regular photo updates and text messages keeping them updated while they are away."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Können auch junge Welpen betreut werden?",
+        "en": "Can young puppies be accommodated?"
+      },
+      "a": {
+        "de": "Ja, Bewertungen erwähnen erfolgreiche und liebevolle Betreuungen bereits ab einem Alter von vier Monaten.",
+        "en": "Yes, customer feedback mentions successful and gentle sitting for young puppies as early as four months old."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Hunde auch über Nacht betreut?",
+        "en": "Is overnight dog care available?"
+      },
+      "a": {
+        "de": "Ja, Rezensionen erwähnen Übernachtungsbetreuungen sowie Unterstützung für Berlin-Reisende.",
+        "en": "Yes, reviews describe overnight stays as well as flexible sitting arrangements for travelers visiting Berlin."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

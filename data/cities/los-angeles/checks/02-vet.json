@@ -1,0 +1,35 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "access-specialty-animal-hospitals-san-fernando-valley",
+    "camp-clinic-san-pedro-spay-neuter",
+    "ark-animal-hospital",
+    "los-angeles-veterinary-center",
+    "overland-veterinary-clinic",
+    "bluepearl-pet-hospital",
+    "ambassador-dog-cat-hospital",
+    "camp-clinic-northridge",
+    "van-nuys-veterinary-clinic",
+    "mohawk-alley-animal-hospital"
+  ],
+  "hash": "7ffec8c458947aee2c2fea56fb825183d0892ca6f05a723fe46c3503a1ea1c6e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-08T20:07:11.141Z",
+      "result": "FAIL",
+      "listed": 139
+    },
+    {
+      "at": "2026-10-08T20:13:43.567Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T20:16:46.144Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

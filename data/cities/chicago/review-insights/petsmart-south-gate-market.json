@@ -1,0 +1,198 @@
+{
+  "slug": "petsmart-south-gate-market",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+-+South+Gate+Market/data=!4m7!3m6!1s0x880e2d95998032e5:0xeba8f1d77ea502ca!8m2!3d41.868329!4d-87.6385186!16s%2Fg%2F1wl4r5lt!19sChIJ5TKAmZUtDogRygKlftfxqOs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "title": {
+        "en": "Severe dissatisfaction with salon staff conduct"
+      },
+      "text": {
+        "en": "While a couple of retail customers note helpful floor assistance during simple shopping trips, reviews are dominated by sharp criticism of the salon team. Pet owners repeatedly cite unprofessional encounters, rude attitudes, and poor customer communication upon arrival."
+      },
+      "mentions": 9
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "title": {
+        "en": "Frequent complaints over grooming quality"
+      },
+      "text": {
+        "en": "Clients express significant dissatisfaction with dog grooming outcomes at this location. Reviewers describe uneven haircuts, shaved or scalped coats on doodle breeds, and even flea transmission following salon visits, leading multiple pet parents to avoid returning."
+      },
+      "mentions": 5
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Clean interior with complex mall parking"
+      },
+      "text": {
+        "en": "Shoppers find the store interior clean and adequately stocked with pet supplies once inside the complex. However, patrons report notable difficulty finding the storefront within the South Gate Market center and complain about unclear navigation for free retail parking."
+      },
+      "mentions": 4
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is parking located for PetSmart at South Gate Market?"
+      },
+      "a": {
+        "en": "Free validated parking is available in the market complex garage, but reviewers warn that wayfinding signs can be difficult to spot."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does this location have a full-service grooming salon?"
+      },
+      "a": {
+        "en": "Yes, the store operates a pet grooming salon, though recent customer reviews express strong dissatisfaction with service quality."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers shop with their pets inside the store?"
+      },
+      "a": {
+        "en": "Yes, leashed pets are permitted inside the store for shopping and salon visits."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

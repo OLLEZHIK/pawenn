@@ -1,0 +1,131 @@
+{
+  "slug": "the-dog-room",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/the+dog+room/@41.9453126,-87.8109551,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcbac2639968b:0x7fd6e9923172416f!8m2!3d41.9453126!4d-87.8109551!16s%2Fg%2F1thx00wr?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Kind and personal salon team"
+      },
+      "text": {
+        "en": "Pet owners describe the salon owners and grooming staff as kind, thoughtful, and exceptionally welcoming. Regular customers note that the team remembers individual pet routines, providing reminders and accommodating specific skin sensitivities with tailored care during every visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Low-stress cage-free salon environment"
+      },
+      "text": {
+        "en": "Reviewers emphasize the calm, cage-free setup that helps keep visiting pets comfortable and relaxed. Clients note that dogs walk by eagerly wanting to greet the staff, while sensitive breeds experience minimal stress and receive treats like pup cups after their grooming routine."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Precise haircuts and deshedding care"
+      },
+      "text": {
+        "en": "Clients report clean, tidy haircut results, thorough deshedding treatments for double-coated breeds, and fresh-smelling fur. Owners appreciate quick turnaround times of under an hour, highlighting that dogs return neatly trimmed without irritation or rushed handling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does The Dog Room use crates or cages during grooming?"
+      },
+      "a": {
+        "en": "No, reviewers highlight that the salon operates in a cage-free setting that reduces stress for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long does a typical grooming session take?"
+      },
+      "a": {
+        "en": "Clients mention efficient turnaround times, with some appointments completed in under an hour."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the groomers handle double coats and seasonal shedding?"
+      },
+      "a": {
+        "en": "Yes, pet parents report thorough deshedding treatments that successfully remove loose undercoat fur."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

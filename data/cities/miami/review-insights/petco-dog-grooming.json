@@ -1,0 +1,178 @@
+{
+  "slug": "petco-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petco+Dog+Grooming/data=!4m7!3m6!1s0x88d9bf154c1df601:0x8752b17819357e45!8m2!3d25.7900958!4d-80.3676919!16s%2Fg%2F1v29cv3x!19sChIJAfYdTBW_2YgRRX41GXixUoc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "High ratings contrasted with salon complaints"
+      },
+      "text": {
+        "en": "While numerous pet owners submit top star ratings reflecting routine satisfaction with their grooming visits, written reviews reveal substantial dissatisfaction with salon personnel. Clients describe groomers who were rude and unaccommodating at check-in, with one owner reporting that a stylist flatly refused to groom an excited family dog upon arrival."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Consistent satisfaction with routine grooming"
+      },
+      "text": {
+        "en": "A solid majority of recent clients award four- and five-star evaluations for their dog grooming appointments at this Doral location. Recurring visitors rely on the facility for basic breed haircuts, cleansing baths, and nail trims, indicating that standard grooming appointments generally fulfill pet owners grooming expectations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed experiences during appointment intake"
+      },
+      "text": {
+        "en": "Reviewers share conflicting impressions regarding communication at the salon desk. While routine bookings proceed smoothly for satisfied clients, dissatisfied pet parents cite dismissive interactions and a lack of constructive dialogue, noting that stylists refused service without providing helpful alternatives or explanations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can groomers accommodate hyperactive or excited dogs?"
+      },
+      "a": {
+        "en": "Reviewers report mixed experiences, with one client noting that a stylist refused to groom an excited pet at the appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for full-service dog grooming?"
+      },
+      "a": {
+        "en": "Yes, full-service baths and styling require prior appointments, which can be booked through Petco online portal or by phone."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What services are available at this Doral grooming salon?"
+      },
+      "a": {
+        "en": "The salon offers full baths, breed-specific haircuts, deshedding treatments, and walk-in nail and ear care packages."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do customers evaluate overall grooming quality?"
+      },
+      "a": {
+        "en": "Most clients award positive ratings for completed grooms, although front-desk customer service receives polarized reviews."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

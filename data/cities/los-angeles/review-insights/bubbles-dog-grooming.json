@@ -1,0 +1,176 @@
+{
+  "slug": "bubbles-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BUBBLES+DOG+GROOMING/data=!4m7!3m6!1s0x80c2b89e8353f669:0x5c9bcd3d35ca89ac!8m2!3d34.0764581!4d-118.3076094!16s%2Fg%2F1tk6ql4y!19sChIJafZTg564woARrInKNT3Nm1w?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Clean cuts with occasional inconsistency"
+      },
+      "text": {
+        "en": "Most pet owners praise the quality of haircuts and thorough washing, noting that dogs return fluffy, clean, and nicely scented. Longtime customers highlight beautiful styling over many years, though one reviewer noted occasional uneven finishes when work was rushed."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Caring team alongside communication hurdles"
+      },
+      "text": {
+        "en": "Many clients describe the grooming staff and salon owner as kind, attentive, and helpful when handling pets. Conversely, critical remarks mention moments of rushed customer intake and difficulty communicating specific styling preferences directly with attendants."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Concerns regarding elevated service charges"
+      },
+      "text": {
+        "en": "Pricing draws frequent criticism across multiple reviews. Customers report paying notably higher rates compared to neighboring pet salons, citing steep quotes for simple standalone services like nail clipping alongside unexpected add-on costs at checkout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients evaluate the pricing for grooming services?"
+      },
+      "a": {
+        "en": "Several reviewers consider the rates higher than surrounding salons, pointing out that routine add-ons like nail trims can be costly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How consistent are the styling results?"
+      },
+      "a": {
+        "en": "Most reviews describe clean, well-shaped haircuts, although one client reported inconsistent results when the groomer was in a rush."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs comfortable during their grooming visits?"
+      },
+      "a": {
+        "en": "Yes, clients frequently report that their dogs return cheerful, calm, and smelling clean after their appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long has this grooming salon served the neighborhood?"
+      },
+      "a": {
+        "en": "Patrons mention relying on the salon for over a decade, bringing multiple generations of family pets for ongoing care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    }
+  ]
+}

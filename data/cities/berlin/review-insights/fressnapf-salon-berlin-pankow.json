@@ -1,0 +1,142 @@
+{
+  "slug": "fressnapf-salon-berlin-pankow",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fressnapf+Salon+Berlin-Pankow/@52.588459,13.429518,17z/data=!3m1!4b1!4m6!3m5!1s0x47a8528691a2ec1f:0x41cf2e0ed6dcbd05!8m2!3d52.588459!4d13.429518!16s%2Fg%2F11c2qkz4tp?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Freundliches Team mit geteilten Eindrücken",
+        "en": "Friendly stylists with differing impressions"
+      },
+      "text": {
+        "de": "Mehrere Bewertungen loben die Friseurinnen für ihre herzliche und zugewandte Art bei der Fellpflege. Demgegenüber steht jedoch ein Erfahrungsbericht, in dem mangelndes Einfühlungsvermögen und eine uneinsichtige Kommunikation bei einer Reklamation bemängelt wurden. Die Wahrnehmung der Betreuung fällt somit unterschiedlich aus.",
+        "en": "Several clients praise the grooming staff for their warmth and attentive attitude during styling sessions. In contrast, one review notes a perceived lack of empathy and rigid communication during a service dispute. Consequently, customer experiences regarding the personnel vary depending on the visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Gelungene Schnitte neben Kritik an Einzelleistung",
+        "en": "Appealing grooming alongside service criticism"
+      },
+      "text": {
+        "de": "Zufriedene Halter heben saubere Schnitte und eine gründliche handwerkliche Ausführung bei ihren Hunden hervor. Eine kritische Rückmeldung beklagt jedoch eine unvollständige Durchführung beim Krallenschneiden trotz berechneter Gebühr. Während die reguläre Pflege überzeugt, führen Einzelfälle zu Unmut.",
+        "en": "Satisfied owners highlight neat haircuts and thorough grooming craftsmanship for their companions. However, a critical review expresses frustration over incomplete claw clipping despite full payment. While regular grooming receives high marks, individual treatments have encountered criticism."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Einfühlsamer Umgang mit gegensätzlicher Erfahrung",
+        "en": "Sensitive handling with contrasting experiences"
+      },
+      "text": {
+        "de": "Halterinnen schätzen besonders, wenn Mitarbeiterinnen geduldig und liebevoll auf sensible Hunde eingehen. Ein negativer Bericht schildert dagegen ein Versäumnis beim Sichern des Tieres auf dem Frisiertisch sowie eine hektische Behandlung. Die Sorgfalt im Umgang wird von den meisten gelobt, aber nicht ausnahmslos.",
+        "en": "Owners appreciate when stylists take a gentle and patient approach with sensitive four-legged guests. Conversely, one reviewer describes a failure to properly secure the pet on the table alongside a hurried procedure. Gentle care is praised by most visitors, though not without notable exception."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie läuft die Terminvereinbarung im Salon ab?",
+        "en": "How does appointment scheduling work at the salon?"
+      },
+      "a": {
+        "de": "Kunden berichten über eine unkomplizierte, schnelle Terminvergabe und gut erreichbare Öffnungszeiten.",
+        "en": "Customers report straightforward and prompt scheduling along with convenient salon hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wird im Salon auch Krallenschneiden angeboten?",
+        "en": "Is claw trimming offered at the salon?"
+      },
+      "a": {
+        "de": "Ja, der Salon bietet das Schneiden von Krallen als Einzelleistung an, wobei die Erfahrungen im Ablauf variieren.",
+        "en": "Yes, the salon provides claw trimming as a standalone service, though customer feedback on the experience varies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gehen die Friseurinnen auf ängstliche Hunde ein?",
+        "en": "Do groomers accommodate nervous or timid dogs?"
+      },
+      "a": {
+        "de": "Viele Kunden heben einen sehr liebevollen Umgang mit Fellnasen hervor, vereinzelt gab es jedoch auch Kritik.",
+        "en": "Many clients highlight an affectionate approach toward pets, although isolated criticism has been noted."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

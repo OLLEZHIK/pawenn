@@ -1,0 +1,132 @@
+{
+  "slug": "falcon-pass-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Falcon+Pass+Animal+Hospital/data=!4m7!3m6!1s0x86409c48028cbae5:0xb2c60a5bc85ea1d1!8m2!3d29.574853!4d-95.1114347!16s%2Fg%2F11c1xd41k_!19sChIJ5bqMAkicQIYR0aFeyFsKxrI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive clinicians and supportive team"
+      },
+      "text": {
+        "en": "Reviewers warmly highlight the veterinary team for their empathetic and attentive approach during routine exams and urgent visits. Pet parents praise Dr. Kimberly Sutherland and clinic assistants for their thorough explanations and genuine dedication to animal wellness. Clients note feeling supported throughout every consultation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling and compassionate care"
+      },
+      "text": {
+        "en": "Clients emphasize how gently and tenderly the veterinary staff handles dogs, including long-term patients and senior companions. Owners appreciate the gentle care shown during difficult times such as end-of-life care, as well as the thoughtful handling of anxious dogs during clinical procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective diagnostics and treatment plans"
+      },
+      "text": {
+        "en": "Pet owners report prompt and dependable outcomes for common medical issues such as ear infections and ongoing canine health management. Reviewers note that on-site diagnostic tests were conducted quickly and appropriate medications were provided immediately during the same visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Falcon Pass Animal Hospital accommodate urgent appointments?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the clinic accommodated emergency visits, including same-day intake for senior pets when fully booked."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners receive lab results and medications on the same day?"
+      },
+      "a": {
+        "en": "Yes, clients report that diagnostic testing was performed promptly and medications were dispensed before leaving the clinic."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the bedside manner of the veterinarians?"
+      },
+      "a": {
+        "en": "Pet parents describe the doctors and support staff as empathetic, attentive, and genuinely invested in each animal's health."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

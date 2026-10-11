@@ -1,0 +1,322 @@
+{
+  "slug": "petsmart-victory",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart/data=!4m7!3m6!1s0x80c29db4c01955b7:0x2c8247a77cfed88f!8m2!3d34.1898884!4d-118.5968491!16s%2Fg%2F1tg2drnw!19sChIJt1UZwLSdwoARj9j-fKdHgiw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 30,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 15,
+      "title": {
+        "en": "Skilled groomers alongside service complaints"
+      },
+      "text": {
+        "en": "Many reviewers commend specific salon stylists like Johanna, Mayra, and Asal for their accommodating and gentle grooming work on small dogs, as well as knowledgeable floor associates like Andrea. In contrast, several clients express deep dissatisfaction with pet hotel reception, citing rude treatment of senior dog owners and cancelled boarding reservations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dependable grooming and pet recovery"
+      },
+      "text": {
+        "en": "Clients report attractive grooming outcomes on small breeds and chihuahuas, noting clean coats and well-groomed appearances. In one notable instance, knowledgeable employees helped save an ailing pet gecko. Conversely, a dissatisfied client reported an ineffective de-shedding treatment on a Husky where paid furmination services did not meet expectations."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Well-stocked store with minor upkeep needs"
+      },
+      "text": {
+        "en": "Pet owners appreciate the store's reliable inventory of specialized cat food, prescription diets, and litter options, along with comfortable boarding suites for dogs. However, several visitors mention that the store environment feels slightly tired or understaffed, with occasional fifteen-minute waits for assistance in the bird and specialty aisles."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which dog groomers receive positive feedback at this location?"
+      },
+      "a": {
+        "en": "Clients regularly highlight stylists Johanna, Mayra, and Asal for attentive and high-quality dog grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the location carry prescription pet diets and cat food?"
+      },
+      "a": {
+        "en": "Yes, cat owners report that this store is reliably stocked with both standard and prescription pet foods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dog boarding hotel suites available?"
+      },
+      "a": {
+        "en": "Yes, the store features boarding suites, though reviewers suggest verifying vaccine and reservation policies in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are wait times for retail assistance?"
+      },
+      "a": {
+        "en": "Some shoppers report occasional waits of fifteen minutes or more when seeking assistance from specialty department staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

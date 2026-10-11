@@ -1,0 +1,140 @@
+{
+  "slug": "guau-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Guau+dog+grooming/@41.7784749,-87.7242666,17z/data=!3m1!4b1!4m6!3m5!1s0x880e31765e4e7221:0xad39608a37810bba!8m2!3d41.7784749!4d-87.7242666!16s%2Fg%2F11jbpwz6nf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly service alongside staffing concerns"
+      },
+      "text": {
+        "en": "Reviewers note that front desk personnel can be welcoming and communicative when admitting dogs for appointments. Multiple clients describe pleasant customer service and helpful staff when checking in. Conversely, critical reviews report that the salon appeared understaffed, with groomers failing to supervise pets safely or follow owner instructions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Satisfactory cuts mixed with complaints"
+      },
+      "text": {
+        "en": "Several pet parents report pleasing grooming outcomes, noting that their dogs left smelling fresh with tidy haircuts. In contrast, negative reviews describe severe styling issues, including unexpected full shave-downs without owner permission. Disgruntled clients also reported post-grooming skin irritation and ear infections requiring veterinary visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Animal welfare and handling disputes"
+      },
+      "text": {
+        "en": "Some owners report that their dogs returned home happy and relaxed without signs of distress after grooming sessions. However, critical reviewers raise urgent safety concerns about pets being left unattended on elevated grooming tables. Clients also describe dogs returning with itchy skin, ear inflammation, and water entering the ear canals during baths."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do clients need to make an appointment at Guau dog grooming?"
+      },
+      "a": {
+        "en": "Yes, reviewers recommend booking in advance because the salon experiences high demand and potential appointment delays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do groomers evaluate dogs before starting service?"
+      },
+      "a": {
+        "en": "Clients report that staff inspect the pet's coat upon arrival to check for matting before confirming services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in updates available during appointments?"
+      },
+      "a": {
+        "en": "Reviewers mention that staff are willing to answer phone calls and provide progress updates while a pet is being groomed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "waiting": "-",
+        "prices": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

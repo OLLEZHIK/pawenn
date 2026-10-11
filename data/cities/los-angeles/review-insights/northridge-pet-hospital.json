@@ -1,0 +1,134 @@
+{
+  "slug": "northridge-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Northridge+Pet+Hospital/data=!4m7!3m6!1s0x80c29a4c013a6367:0x7cf66261bea7c7ad!8m2!3d34.2270099!4d-118.5275803!16s%2Fg%2F1tdy04g_!19sChIJZ2M6AUyawoARrcenvmFi9nw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed feedback regarding clinic staff"
+      },
+      "text": {
+        "en": "Pet owners praise dedicated team members who show warmth, follow up on sick pets, and create an inviting environment that dogs are eager to visit. Conversely, negative reviews describe front desk staff as impatient and unhelpful, noting sudden policy cancellations when arriving slightly late for scheduled visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting reports on client communication"
+      },
+      "text": {
+        "en": "Several clients appreciate detailed explanations of treatments and follow-up phone calls inquiring about recovering pets. In contrast, other patrons report frustrating experiences with inconsistent phone quotes, disputes over invoice amounts, and difficulty obtaining medical records when attempting to transfer care elsewhere."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective care for critical pet conditions"
+      },
+      "text": {
+        "en": "Reviewers report life-saving clinical outcomes for pets facing severe illnesses, such as an FIV-positive cat successfully treated through organ failure by Dr. Williamson. Long-term clients also value dependable management of chronic canine health conditions, reflecting high trust in the veterinary doctors' medical skills."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital follow up after pet visits?"
+      },
+      "a": {
+        "en": "Yes, clients mention receiving caring phone calls from staff to check on their pet's recovery following appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the veterinarians manage complex or chronic illnesses?"
+      },
+      "a": {
+        "en": "Yes, reviewers report successful recovery for severe cases, including cats diagnosed with FIV and organ complications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report regarding appointment timing and policies?"
+      },
+      "a": {
+        "en": "Clients report occasional waiting room delays, while one reviewer noted strict appointment cancellation after arriving 15 minutes late."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are service quotes and invoices transparent?"
+      },
+      "a": {
+        "en": "Some owners report clear cost explanations, while a negative review highlighted unexpected charges exceeding the phone estimate."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

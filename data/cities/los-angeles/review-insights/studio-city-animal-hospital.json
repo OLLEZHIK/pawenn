@@ -1,0 +1,165 @@
+{
+  "slug": "studio-city-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Studio+City+Animal+Hospital/data=!4m7!3m6!1s0x80c2be08fc0be93d:0x49dccf49a2d26f3a!8m2!3d34.1419606!4d-118.3895932!16s%2Fg%2F1td20jgr!19sChIJPekL_Ai-woAROm_SoknP3Ek?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly technicians alongside doctor complaints"
+      },
+      "text": {
+        "en": "Reviewers express divided perspectives regarding veterinary personnel following recent doctor transitions. Longtime patrons and exotic pet owners praise kind, knowledgeable staff members and caring veterinary nurses. However, multiple recent clients describe attending doctors as condescending, defensive when answering nutrition questions, and dismissive toward client concerns."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dependable exotic care amid diagnostic lapses"
+      },
+      "text": {
+        "en": "Clinical outcomes vary considerably according to recent feedback. Owners of small exotic mammals report excellent treatment and thorough examinations for hamsters. Conversely, dog and cat owners report missed ulcers, delayed diagnostic lab results, and referrals to outside emergency hospitals after the clinic lacked diagnostic ultrasound equipment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Care for small exotics and dogs"
+      },
+      "text": {
+        "en": "The clinic receives positive recognition as a rare local option for exotic pets, with reviewers noting gentle and knowledgeable care for hamsters. In contrast, dog and cat owners describe stressful visits, citing alarming warnings given to first-time puppy owners and staff who appeared uncomfortable handling feline patients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital treat exotic animals like hamsters?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the clinic as a hidden gem for exotic pet care, reporting excellent knowledge and gentle handling for hamsters."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform on-site ultrasounds?"
+      },
+      "a": {
+        "en": "Recent reviews indicate the facility does not perform advanced ultrasounds on site and may refer complex diagnostic cases to larger emergency hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly are routine lab tests processed?"
+      },
+      "a": {
+        "en": "Pet owners note that diagnostic blood and tissue lab samples are sent to outside laboratories, which can cause delays in receiving results."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the waiting room environment like?"
+      },
+      "a": {
+        "en": "Clients describe a clean and tidy waiting room featuring a large aquarium that helps create a pleasant atmosphere upon arrival."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "animals": "~",
+        "communication": "-"
+      }
+    }
+  ]
+}

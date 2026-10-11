@@ -1,0 +1,176 @@
+{
+  "slug": "ace-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ace+Animal+Hospital/data=!4m7!3m6!1s0x80dd493f7713aca3:0x28120e41f658ef71!8m2!3d33.7230073!4d-118.3112218!16s%2Fg%2F11t1c9b0jz!19sChIJo6wTdz9J3YARce9Y9kEOEig?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Caring and communicative veterinary team"
+      },
+      "text": {
+        "en": "Clients frequently commend Dr. Damian, Dr. DJ, Dr. Vardi, and veterinary technicians like Jaime and Tea for their compassion and clear explanations during difficult visits. Reviewers note that staff members go above and beyond for urgent cases, although one visitor expressed frustration with bedside manner during a back-room examination."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Effective treatment and recovery outcomes"
+      },
+      "text": {
+        "en": "Pet owners report positive medical results for both dogs and cats across urgent and ongoing health situations. Reviewers mention successful recovery from severe gastrointestinal illness, emergency treatment for acute sickness on weekends, and attentive follow-up plans with in-house diagnostics that helped pets bounce back."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Fair basic fees with upselling concerns"
+      },
+      "text": {
+        "en": "Feedback regarding costs is divided among pet owners. Several clients describe standard appointment and treatment fees as fair and affordable for the area. However, others mention attempts to push extra vaccines or surprise add-on charges such as biohazard disposal and payment processing fees that increased the final bill."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic handle urgent weekend medical visits?"
+      },
+      "a": {
+        "en": "Yes, pet owners report bringing in acutely sick pets on Sundays for prompt emergency assistance when other clinics were closed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic imaging services available on-site?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that the hospital provides in-house imaging to evaluate complex gastrointestinal conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff help transfer pet medical records to out-of-state vets?"
+      },
+      "a": {
+        "en": "Yes, clients note that technicians have forwarded records and documentation to veterinarians across the country after travel emergencies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What payment options or fees should clients expect?"
+      },
+      "a": {
+        "en": "Clients report reasonable base fees for exams, but advise asking about potential add-on fees such as biohazard handling or card processing charges."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

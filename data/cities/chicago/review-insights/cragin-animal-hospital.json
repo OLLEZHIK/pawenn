@@ -1,0 +1,123 @@
+{
+  "slug": "cragin-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cragin+Animal+Hospital/@41.9238357,-87.7601552,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcb6407ca8369:0x89e8fb29df5dc431!8m2!3d41.9238357!4d-87.7601552!16s%2Fg%2F1tf_sz8b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Longtime clinic personnel with mixed reviews"
+      },
+      "text": {
+        "en": "Most clients appreciate Dr. Lee, Michelle, and the nursing staff for their kind demeanor, with multiple patrons visiting for decades. They describe the team as welcoming and knowledgeable. Nevertheless, one reviewer voiced dissatisfaction, stating that a veterinary visit felt rushed and their medical concerns were dismissed."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable rates for neighborhood care"
+      },
+      "text": {
+        "en": "Reviewers frequently highlight the clinic's economical fee structure, describing rates as very fair and accessible for routine animal care. Clients emphasize that low costs make vital veterinary visits manageable, though one disappointed reviewer felt the discounted price reflected less thorough clinical attention."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle pet handling with mixed experiences"
+      },
+      "text": {
+        "en": "Pet parents generally express gratitude for how patient staff are when handling nervous dogs, citing calm treatment of anxious breeds during examinations. Conversely, one pet owner felt staff failed to properly diagnose and support an ailing kitten experiencing persistent vomiting and dehydration."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the affordability of treatments at Cragin Animal Hospital?"
+      },
+      "a": {
+        "en": "Pet owners consistently describe veterinary services and consultations here as significantly more affordable than nearby practices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the staff comfortable caring for anxious animals?"
+      },
+      "a": {
+        "en": "Yes, reviewers specifically note that Dr. Lee and the clinic assistants remain patient and gentle when examining anxious dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long has the clinic served the local community?"
+      },
+      "a": {
+        "en": "Long-term clients report bringing their pets to this neighborhood clinic for over twenty years."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "+",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

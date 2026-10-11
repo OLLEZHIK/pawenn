@@ -1,0 +1,350 @@
+{
+  "slug": "los-angeles-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Los+Angeles+Veterinary+Center/data=!4m7!3m6!1s0x80c2c61185da30cf:0xd8f9dc0bd4954060!8m2!3d34.0478972!4d-118.2199241!16s%2Fg%2F11g6rjx8zh!19sChIJzzDahRHGwoARYECV1Avc-dg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 29,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 23,
+      "title": {
+        "en": "Compassionate doctors alongside reception concerns"
+      },
+      "text": {
+        "en": "Many reviewers express gratitude for veterinarians like Dr. Ramirez, Dr. Cano, and Dr. Rodriguez, praising their medical dedication and bedside manner. Technicians and assistants are often credited with saving pets in emergencies. However, a significant number of clients report frustrated interactions with front desk personnel, citing unreturned calls, rude remarks, and disorganization during busy hours."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 9,
+      "title": {
+        "en": "Substantial appointment and lobby delays"
+      },
+      "text": {
+        "en": "Wait times represent a major source of dissatisfaction among visitors. While a few clients experienced prompt care, many report waiting between one and three hours past their scheduled arrival times, even for brief checkups or vaccine administration. Several owners express frustration that pets were kept in back holding rooms for extended periods without timely updates."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Fair routine fees with billing disputes"
+      },
+      "text": {
+        "en": "Opinions regarding fees vary widely across the community. Several clients commend the hospital for providing affordable care, accepting welfare vouchers, and treating lower-income pet owners with respect. Conversely, other reviewers express dismay over unexpectedly high estimates, charges presented only after visits, and disputes over unauthorized diagnostic tests."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accept vouchers or financial assistance?"
+      },
+      "a": {
+        "en": "Yes, clients report that the clinic works with animal welfare organizations and accepts vouchers to help reduce veterinary costs for low-income pet owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should I know about parking at the clinic?"
+      },
+      "a": {
+        "en": "The on-site parking lot is very compact with only about five or six spaces, so clients recommend seeking street parking nearby."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet owners permitted in exam rooms during vaccinations?"
+      },
+      "a": {
+        "en": "Some reviewers note that pets were taken into the back treatment area for routine shots and examinations rather than being treated in the owner's presence."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic handle same-day urgent care visits?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe successful same-day visits for acute traumas and digestive issues, though advance notice is helpful when possible."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

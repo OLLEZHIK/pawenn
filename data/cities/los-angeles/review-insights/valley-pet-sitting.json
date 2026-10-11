@@ -1,0 +1,202 @@
+{
+  "slug": "valley-pet-sitting",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Valley+Pet+Sitting/data=!4m7!3m6!1s0x80c29ea400000001:0x655ca0e5d7f1ee94!8m2!3d34.1785731!4d-118.5942837!16s%2Fg%2F11b7ldmz04!19sChIJAQAAAKSewoARlO7x1-WgXGU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Dependable and attentive pet sitters"
+      },
+      "text": {
+        "en": "Clients broadly praise the sitters and administrative staff for being courteous, punctual, and well organized. Pet owners value the team's willingness to accommodate urgent scheduling changes, conduct thorough introductory meet-and-greets, and manage household tasks such as watering plants while maintaining dependable pet routines."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive care for diverse pets"
+      },
+      "text": {
+        "en": "A wide range of pet parents highlight gentle care for both dogs and cats, from energetic high-drive breeds to fragile senior felines requiring specialized medication. While most clients report that their pets bond comfortably with assigned sitters, one reviewer reported tragic pet health complications that occurred during a walk."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Daily reports with notable concerns"
+      },
+      "text": {
+        "en": "Most pet owners appreciate regular written updates and photo journals sent through the company's portal during visits. Feedback is mixed, however, as one client noted a steep learning curve with sign-up software, and a serious one-star review cited an unacceptable failure to communicate the urgency of an acute medical seizure."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What pets does the team care for?"
+      },
+      "a": {
+        "en": "Reviewers report care for cats, energetic dogs, kittens, and elderly pets requiring dedicated attention."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do sitters send visit updates?"
+      },
+      "a": {
+        "en": "Sitters provide written journals and photo updates through the company's scheduling app after visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are introductory meet-and-greets offered?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate introductory meetings to discuss specific pet routines, feeding, and medical needs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can sitters accommodate sudden schedule changes?"
+      },
+      "a": {
+        "en": "Yes, clients note that office staff successfully arranged short-notice visits when emergency coverage was needed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

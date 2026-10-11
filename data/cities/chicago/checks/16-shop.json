@@ -1,0 +1,30 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "jules-pet-shop",
+    "goldens-tropical-world",
+    "krisers-natural-pet-milwaukee-ave",
+    "pet-supplies-plus-n-lincoln",
+    "lizs-pet-shop",
+    "acuario-piscis",
+    "krisers-natural-pet-state-st",
+    "7-seas-pet-care-center",
+    "krisers-natural-pet-ohio-st",
+    "paradise-de-aves-pet-shop"
+  ],
+  "hash": "e0edfef7fdcfb1fbc427b0e7479418cbfc2cd764e7ca0d69aa2aae8569f64b27",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T00:04:40.762Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-11T00:08:07.566Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

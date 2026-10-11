@@ -1,0 +1,314 @@
+{
+  "slug": "south-belt-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/South+Belt+Animal+Hospital/data=!4m7!3m6!1s0x864090b4ced2b559:0x24cdc0087daf878!8m2!3d29.5925715!4d-95.2443479!16s%2Fg%2F11h13s09_!19sChIJWbXSzrSQQIYRePjahwDcTAI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 25,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 25,
+      "title": {
+        "en": "Attentive care from veterinarians and assistants"
+      },
+      "text": {
+        "en": "Most pet owners highlight the warmth, patience, and dedication of the veterinary team at this Southeast Houston clinic. Clients appreciate thorough clinical exams and kind interactions from receptionists and veterinary technicians. While several clients encountered frustration with administrative leadership during difficult appointments, general feedback regarding the clinical doctors remains supportive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Gentle handling for anxious companion animals"
+      },
+      "text": {
+        "en": "Clients frequently commend the clinic staff for patient and calm animal handling during medical visits. Pet parents of reactive dogs, nervous rescues, and sick cats note that technicians take time to help pets relax before examinations. Although one owner felt handling was refused for a scared kitten, most reviewers confirm their pets were treated with care and comfort."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Responsive phone updates alongside communication gaps"
+      },
+      "text": {
+        "en": "Pet owners report varied communication standards when seeking medical guidance from the hospital. Many clients describe pleasant telephone interactions, clear explanations of exam findings, and prompt follow-up calls after procedures. Conversely, several reviewers cite delayed responses regarding prescription medications and sudden appointment cancellations from office management."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does South Belt Animal Hospital accommodate reactive or anxious pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the staff and veterinarians use calm techniques to keep nervous dogs and cats comfortable during visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required to visit this veterinary clinic?"
+      },
+      "a": {
+        "en": "Appointments are standard practice, though some clients report being accommodated for same-day urgent visits when scheduling allows."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients describe communication regarding pet updates and test results?"
+      },
+      "a": {
+        "en": "Many pet owners praise clear phone updates and post-procedure check-ins, while several clients noted delays when requesting prescription refills."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "place": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "place": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

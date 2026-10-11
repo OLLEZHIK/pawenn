@@ -1,0 +1,131 @@
+{
+  "slug": "logan-square-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Logan+Square+Animal+Hospital/@41.9276265,-87.7046916,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd7b22288bdb:0xf8049687049ae5bc!8m2!3d41.9276265!4d-87.7046916!16s%2Fg%2F1tdx4qw6?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive veterinary care with isolated dissent"
+      },
+      "text": {
+        "en": "Most pet owners speak highly of Dr. Doolin and the support team, praising staff members like Fiona for attentive, kind, and informative consultations. Reviewers appreciate that clinicians answer questions without rushing. However, one critical reviewer reported a rushed three-minute evaluation for an ailing cat, expressing dissatisfaction with the doctor bedside manner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Handling of reactive and ailing pets"
+      },
+      "text": {
+        "en": "Handling of diverse animals earns positive recognition from several dog and cat owners. Clients highlight the staff ability to safely manage reactive dogs needing urgent wound care, as well as providing gentle support for routine feline exams. Conversely, one client felt an exam was superficial and lacked hands-on care, though other reviewers emphasize gentle bedside handling."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair and manageable veterinary pricing"
+      },
+      "text": {
+        "en": "Pricing transparency and fair billing are frequently commended by clients visiting this hospital. Pet parents note that surgical procedures and urgent wound stitching were billed at fair, manageable rates compared to specialty emergency facilities. Reviewers value having access to dependable clinical care that remains accessible for everyday pet needs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic handle reactive dogs during urgent appointments?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the veterinary team successfully and safely handled large reactive dogs requiring immediate wound stitches."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients view surgical care at the hospital?"
+      },
+      "a": {
+        "en": "Pet owners report successful outcomes for complex procedures, such as bladder stone surgery, with attentive postoperative updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees considered fair according to client reviews?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that prices for surgical procedures and exams are very reasonable compared to emergency centers."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

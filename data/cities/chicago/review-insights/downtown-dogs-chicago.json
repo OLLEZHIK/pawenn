@@ -1,0 +1,145 @@
+{
+  "slug": "downtown-dogs-chicago",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Downtown+Dogs+Chicago/@41.8897382,-87.6882829,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2d51cfc33071:0x1871298a43272de1!8m2!3d41.8897382!4d-87.6882829!16s%2Fg%2F11b6_9kfjk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Effective rehabilitation for reactive dogs"
+      },
+      "text": {
+        "en": "Dog owners report outstanding behavioral transformations after completing board-and-train and private programs. Multiple clients highlight that reactive dogs with fear aggression learned reliable leash walking, recall commands, and impulse control around distractions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable trainers alongside customer service complaints"
+      },
+      "text": {
+        "en": "Handlers frequently praise trainers Ari and Aliya for their deep expertise in behavior modification and clear coaching during group sessions. However, critical reviews mention abrasive phone interactions and unaccommodating communication regarding business policies."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "High training value with refund dispute"
+      },
+      "text": {
+        "en": "Several pet owners feel that intensive training programs are well worth the investment given the lasting behavioral improvements achieved. Conversely, one reviewer raised strong frustration over a disputed board-and-train deposit and strict non-refundable fee policies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the facility train dogs with reactivity or fear aggression?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently praise the team's ability to help dogs overcome severe leash reactivity and fear-based aggression."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are group practice classes offered after training?"
+      },
+      "a": {
+        "en": "Clients note that follow-up group classes are available to help handlers reinforce learned skills in social settings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the policy regarding program refunds?"
+      },
+      "a": {
+        "en": "Reviews indicate that deposits and advanced payments for training packages are treated as strictly non-refundable."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

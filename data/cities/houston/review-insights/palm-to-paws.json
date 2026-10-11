@@ -1,0 +1,170 @@
+{
+  "slug": "palm-to-paws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Palm+to+Paws/data=!4m7!3m6!1s0x8640c23475f91873:0xc1ef745c93cad264!8m2!3d29.7175359!4d-95.4935317!16s%2Fg%2F1pv615sly!19sChIJcxj5dTTCQIYRZNLKk1x078E?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate and attentive clinic staff"
+      },
+      "text": {
+        "en": "Reviewers warmly commend the veterinarians and support team for their kind, empathetic bedside manner and commitment to pet health. Clients feel valued during examinations and rescue treatments, although one dissatisfied reviewer reported frustration with unreturned calls and doctor absence."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated rescue and stray advocacy"
+      },
+      "text": {
+        "en": "Pet parents praise the clinic's genuine devotion to animals, noting their active support for local feral cats, stray rescues, and emotional support animals. Reviewers emphasize that the staff treats both owned pets and community animals with sincere warmth and gentle attention."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affordable community wellness rates"
+      },
+      "text": {
+        "en": "Clients appreciate that the clinic offers accessible, low-cost veterinary services, making preventive shots, routine wellness checkups, and spay or neuter surgeries manageable for pet owners. Several reviewers specifically mention receiving fair discounts during veterinary visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic provide care for stray and rescue animals?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the practice actively assists community cats and rescue pets with affordable spaying, neutering, and wellness checks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services offered at low-cost rates?"
+      },
+      "a": {
+        "en": "Yes, clients frequently praise the clinic for providing budget-conscious wellness examinations, vaccinations, and surgical care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic assist with emotional support animal documentation?"
+      },
+      "a": {
+        "en": "Yes, reviewer feedback mentions helpful assistance from the team in completing paperwork for emotional support animal letters."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in visits accepted at the clinic?"
+      },
+      "a": {
+        "en": "The practice welcomes walk-ins on Saturdays while operating primarily by appointment during weekday hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

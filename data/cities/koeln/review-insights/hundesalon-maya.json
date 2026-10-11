@@ -1,0 +1,140 @@
+{
+  "slug": "hundesalon-maya",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundesalon+Maya/@50.8497061,7.1047132,17z/data=!3m1!4b1!4m6!3m5!1s0x47bedfce6e614d6b:0x66a4601ebcd5b2ae!8m2!3d50.8497061!4d7.1047132!16s%2Fg%2F11f66yjkqf?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Gepflegte Hunde und wirksame Bäder",
+        "en": "Well-groomed dogs and therapeutic baths"
+      },
+      "text": {
+        "de": "Kundinnen und Kunden schätzen die Ergebnisse der Fellpflege im Hundesalon in Köln-Wahnheide. Besonders hervorgehoben werden schonende Bäder und spezielle Ozonbad-Behandlungen, die bei allergiebedingtem Juckreiz deutliche Linderung brachten. Stammkunden zeigen sich mit dem Aussehen ihrer Tiere durchweg zufrieden.",
+        "en": "Clients appreciate the grooming outcomes achieved at the salon in Cologne-Wahnheide. Gentle baths and specialized ozone bath treatments are especially praised for providing relief from allergy-related itching. Regular customers express consistent satisfaction with their pets' appearance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Ruhiger und geduldiger Umgang",
+        "en": "Calm and patient animal handling"
+      },
+      "text": {
+        "de": "Hundehalter betonen das ruhige und liebevolle Eingehen auf die individuellen Bedürfnisse der Vierbeiner. Selbst wasserscheue Hunde oder nervöse Rassen wie Französische Bulldoggen werden ohne Hektik an Wanne und Schertisch gewöhnt. Die Tiere fassen schnell Vertrauen und lassen die Prozedur entspannt zu.",
+        "en": "Dog owners emphasize the calm and gentle approach tailored to each animal's specific needs. Even water-averse dogs or anxious breeds such as French Bulldogs are guided to the tub and grooming table without rush. Animals quickly build trust and tolerate grooming procedures smoothly."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Persönliche und erfahrene Betreuung",
+        "en": "Personal and experienced care"
+      },
+      "text": {
+        "de": "In den Erfahrungsberichten wird Inhaberin Christine für ihre herzliche und fachkundige Beratung geschätzt. Sie nimmt sich Zeit für Fragen und schlägt passende Pflegemaßnahmen vor. Vereinzelt bemängeln Kunden jedoch, dass die Terminabsprache über Messengerdienste mitunter schleppend verläuft.",
+        "en": "Reviews commend owner Christine for her warm and knowledgeable advice. She takes time to answer questions and recommends suitable grooming remedies. Occasionally, individual clients note that scheduling appointments via messaging apps can take longer than desired."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Werden im Salon auch Ozonbäder für Hunde angeboten?",
+        "en": "Does the salon offer ozone baths for dogs?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen berichten von positiven Erfahrungen mit Ozonbädern zur Linderung von Juckreiz bei Allergikern.",
+        "en": "Yes, owners report positive outcomes with ozone baths used to relieve itching in allergy-prone pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie können Termine im Hundesalon vereinbart werden?",
+        "en": "How can appointments be arranged at the salon?"
+      },
+      "a": {
+        "de": "Termine werden meist telefonisch oder per Nachricht vereinbart, wobei Kunden eine direkte Absprache empfehlen.",
+        "en": "Appointments are typically scheduled by phone or messaging, with clients recommending direct communication."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Ist der Salon auf nervöse oder wasserscheue Hunde eingestellt?",
+        "en": "Is the salon equipped to handle nervous or water-shy dogs?"
+      },
+      "a": {
+        "de": "Ja, Kunden heben die ruhige und geduldige Herangehensweise bei ängstlichen Tieren hervor.",
+        "en": "Yes, clients emphasize the patient and calm handling approach used with anxious animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor 2 Monaten",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

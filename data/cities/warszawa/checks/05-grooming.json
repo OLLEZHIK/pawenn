@@ -13,7 +13,7 @@
     "royal-dog-grooming-spa",
     "oh-my-dog"
   ],
-  "hash": "b36d69592757e9f915c205927978bb5f5e5ffd8c3bcddbfb1bccef39cb67af47",
+  "hash": "def53089ee5a665df1efcba61a0410c764ed83ba6caab59ceadf8c8b19d54559",
   "result": "PASS",
   "history": [
     {
@@ -43,6 +43,16 @@
     },
     {
       "at": "2026-10-03T02:40:21.192Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T18:53:08.009Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-08T18:55:47.495Z",
       "result": "PASS",
       "listed": 0
     }

@@ -1,0 +1,131 @@
+{
+  "slug": "holiday-humane-society-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Holiday+Humane+Society+Clinic/data=!4m7!3m6!1s0x80c296e9438fa021:0x49592021eae2560e!8m2!3d34.203064!4d-118.423116!16s%2Fg%2F1tffk0st!19sChIJIaCPQ-mWwoARDlbi6iEgWUk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed feedback on pet care"
+      },
+      "text": {
+        "en": "Clients have divergent impressions of patient care at the clinic. Longtime visitors appreciate gentle and attentive handling during routine visits and vaccinations. In contrast, critical reviewers express concern over clinic policies, citing strict rules barring owners from accompanying pets during procedures and reluctance to evaluate acute health issues."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly team alongside doctor turnover"
+      },
+      "text": {
+        "en": "Several pet parents praise the veterinary staff and doctors for being friendly, welcoming, and helpful during routine appointments. However, a client noted frustration following doctor turnover, reporting that the newer attending clinician refused to conduct basic diagnostic checkups for an ear infection and directed them to an emergency hospital instead."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Phone inquiries and procedural rules"
+      },
+      "text": {
+        "en": "Communication experiences vary significantly among clients. While routine in-person interactions are described as polite and warm, reviewers who phoned regarding procedures reported difficult exchanges. Frustrations include rigid clinic protocols that prevent owners from being with pets and perceived abruptness when asking about diagnostic services."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners stay with their pets during medical procedures?"
+      },
+      "a": {
+        "en": "Reviewers note that clinic policy does not permit owners to accompany their animals during procedures behind closed doors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic handle walk-in emergency appointments?"
+      },
+      "a": {
+        "en": "Clients report that the clinic focuses on basic preventive care and may refer acute illness cases to an emergency veterinary hospital."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the staff friendly during routine visits?"
+      },
+      "a": {
+        "en": "Yes, several satisfied pet parents describe the veterinary technicians and doctors as warm and welcoming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are typically provided at the clinic?"
+      },
+      "a": {
+        "en": "The clinic primarily provides low-cost veterinary wellness checkups, routine vaccinations, and spay or neuter services."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

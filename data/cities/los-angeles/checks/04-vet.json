@@ -1,0 +1,45 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "echo-park-veterinary-hospital",
+    "highland-park-animal-hospital",
+    "tarzana-pet-clinic",
+    "beverly-virgil-animal-hospital",
+    "mcgrath-veterinary-center",
+    "studio-city-animal-hospital",
+    "culver-palms-animal-hospital",
+    "mid-valley-veterinary-hospital",
+    "vermont-animal-hospital",
+    "dtlavets-wellness-and-urgent-care-services"
+  ],
+  "hash": "0fd8a535fefd39fe0592904c935ef75ec791ac1e356714917e5d2415dc8bf474",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T07:58:06.604Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-09T08:00:49.947Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T08:03:14.714Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T08:04:15.455Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-09T08:05:09.310Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

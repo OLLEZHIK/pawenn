@@ -1,0 +1,145 @@
+{
+  "slug": "balboa-veterinary-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Balboa+Veterinary+Medical+Center/data=!4m7!3m6!1s0x80c29a91e4890a53:0xa99b2dead488f45d!8m2!3d34.2590475!4d-118.5031149!16s%2Fg%2F1v2f0sdk!19sChIJUwqJ5JGawoARXfSI1Ootm6k?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Widespread dissatisfaction with staff conduct"
+      },
+      "text": {
+        "en": "Recent reviews reflect strong negative sentiment regarding the practice's staff. While one client noted a friendly front desk team, most reviewers report dismissive, unhelpful attitudes from clinical personnel. Pet parents express deep frustration over perceived indifference, lack of accountability when complications occur, and inadequate clinical attentiveness during critical consultations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Critical outcomes and severe complications"
+      },
+      "text": {
+        "en": "Reviewers report alarming medical issues and negative clinical outcomes following visits to the hospital. Documented complaints include post-injection site reactions and infections leading to masses on pets' hips, as well as an emergency C-section delay that tragically resulted in the loss of an entire litter of puppies. None of the reviews during this timeframe report positive treatment outcomes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Breakdowns in guidance and accountability"
+      },
+      "text": {
+        "en": "Owners describe significant communication failures before and after treatment. Disappointed clients cite conflicting information regarding surgical capabilities, lack of emergency guidance when a pet went into labor, and a refusal by clinic management to take responsibility or discuss refunds after medical complications. Reviewers emphasize that clear, honest instructions were absent when most needed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform emergency surgeries on-site?"
+      },
+      "a": {
+        "en": "One reviewer reported being turned away during labor for a C-section and told surgeries were not performed, despite prior guidance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the practice handle complications following injections?"
+      },
+      "a": {
+        "en": "Clients report frustration with a lack of accountability and refusal of refunds when pets developed injection site reactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners know about wait times and scheduling?"
+      },
+      "a": {
+        "en": "A reviewer noted prolonged wait times alongside dismissive interactions during their visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the front desk staff approachable?"
+      },
+      "a": {
+        "en": "One client appreciated friendly front office personnel, though other reviewers noted cold and uncommunicative staff attitudes."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {}
+    }
+  ]
+}

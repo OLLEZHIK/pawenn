@@ -1,0 +1,35 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "north-durham-animal-hospital",
+    "vca-prestonwood-animal-hospital",
+    "fairbanks-animal-clinic",
+    "champions-forest-animal-clinic",
+    "safe-haven-animal-hospital",
+    "loop-494-animal-hospital",
+    "copperfield-animal-clinic",
+    "mission-bend-animal-clinic",
+    "jersey-village-animal-hospital",
+    "bluepearl-pet-hospital-katy"
+  ],
+  "hash": "3a7049453e8d1f456d97d29ae3cd854f05a6617ab33ce0b8279f9c6a696ee8df",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T09:36:52.229Z",
+      "result": "FAIL",
+      "listed": 51
+    },
+    {
+      "at": "2026-10-10T09:37:45.606Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T09:39:32.870Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

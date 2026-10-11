@@ -1,0 +1,140 @@
+{
+  "slug": "vca-marina-bay-cities-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Marina+Bay+Cities+Animal+Hospital/data=!4m7!3m6!1s0x80c2ba8db7109c17:0x5ec2e40cd46f91e7!8m2!3d33.99249!4d-118.449153!16s%2Fg%2F1tmqm16k!19sChIJF5wQt426woAR55Fv1Azkwl4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated clinicians alongside management concerns"
+      },
+      "text": {
+        "en": "Most pet owners praise individual veterinarians like Dr. Thornbury and Dr. Milo for their compassionate care and skilled checkups. However, multiple reviewers express dissatisfaction with administrative hospital policies and an unwillingness to accommodate acute sick visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient care for reactive pets"
+      },
+      "text": {
+        "en": "Clients appreciate the gentle treatment their dogs and cats receive during routine wellness visits and vaccinations. Reviewers note that technicians handle reactive puppies patiently, ensuring checkups and procedures remain low-stress for both animals and their owners."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns over high diagnostic costs"
+      },
+      "text": {
+        "en": "Several reviewers criticize steep pricing for initial assessments and diagnostic testing, describing procedure quotes that exceed expected budgets. In contrast, clients enrolled in the hospital's CareClub wellness subscription find annual fees predictable and helpful."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is an appointment required for sick pets?"
+      },
+      "a": {
+        "en": "Reviewers emphasize that routine scheduling is strictly enforced, and the hospital may refer acute emergency cases to outside facilities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer wellness payment plans?"
+      },
+      "a": {
+        "en": "Yes, clients mention using the CareClub wellness subscription plan, which bundles vaccines, checkups, and deworming into predictable fees."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the staff handle anxious puppies?"
+      },
+      "a": {
+        "en": "Pet parents report that veterinarians and technicians demonstrate great patience when administering vaccines to reactive or nervous animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

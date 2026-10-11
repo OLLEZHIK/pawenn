@@ -1,0 +1,163 @@
+{
+  "slug": "winterhuder-zoo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Winterhuder+Zoo/@53.5950942,10.0006697,17z/data=!3m1!4b1!4m6!3m5!1s0x47b188c4b3d63f17:0xb0b7922b421651dd!8m2!3d53.5950942!4d10.0006697!16s%2Fg%2F1tf19tdk?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Sehr herzliche und persönliche Fachberatung",
+        "en": "Warm and personal expert advice"
+      },
+      "text": {
+        "de": "Stammkunden loben das inhabergeführte Geschäft für seinen freundlichen, zuvorkommenden und tierlieben Service. Der Inhaber und das Team nehmen sich viel Zeit für Fragen rund um Heimtiere und Zubehör. Kunden im Laden genießen Priorität, weshalb telefonische Anfragen gelegentlich etwas warten müssen.",
+        "en": "Regular visitors praise the owner-managed shop for its friendly, courteous, and animal-loving service. The owner and staff dedicate ample time to answering questions about pet care and supplies. In-store shoppers take priority, meaning phone inquiries may occasionally take a moment to be answered."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "de": "Gutes Vogelfutter mit einzelnen Reklamationen",
+        "en": "Solid bird supplies alongside complaints"
+      },
+      "text": {
+        "de": "Der Laden gilt als beliebte Anlaufstelle für Vogelliebhaber, insbesondere für Wellensittiche und hochwertiges Vogelfutter, ergänzt durch ausgewähltes Kleintierzubehör. Während die meisten Käufer sehr zufrieden sind, berichtete ein Rezensent über den Verlust kurz nach dem Kauf erworbener Tiere.",
+        "en": "The shop is valued as a neighborhood destination for bird enthusiasts, offering quality food and supplies particularly for parakeets and small pets. While most buyers express satisfaction, one reviewer reported acute disappointment over the loss of animals purchased at the location."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Urlaubsbetreuung und geteilte Tiererfahrungen",
+        "en": "Holiday boarding and animal care"
+      },
+      "text": {
+        "de": "Kunden schätzen den fürsorglichen Umgang mit Tieren und loben die zuverlässige Urlaubsbetreuung für Reptilien wie Bartagamen, die entspannt zurückkehren. Demgegenüber steht ein sehr kritischer Bericht über kranke Tiere nach dem Kauf. Der Gesamteindruck zur Tiergesundheit fällt daher gemischt aus.",
+        "en": "Customers appreciate the attentive attitude toward animals, highlighting dependable holiday boarding for reptiles such as bearded dragons. In contrast, one highly critical review reported sick pets shortly after purchase. As a result, experiences regarding animal wellbeing present a mixed picture."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Bietet der Laden Urlaubsbetreuung für Reptilien an?",
+        "en": "Does the store provide holiday boarding for reptiles?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten von zuverlässiger und entspannter Urlaubsbetreuung für Reptilien wie Bartagamen.",
+        "en": "Yes, customers report dependable and caring holiday boarding services for reptiles such as bearded dragons."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es Spezialbedarf für Ziervögel?",
+        "en": "Is specialized bird food and equipment available?"
+      },
+      "a": {
+        "de": "Ja, der Laden wird besonders von Haltern von Wellensittichen und Ziervögeln für Futter und Zubehör geschätzt.",
+        "en": "Yes, the store is particularly appreciated by owners of parakeets and pet birds for nutrition and accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Ist das Geschäft inhabergeführt?",
+        "en": "Is the pet shop owner-operated?"
+      },
+      "a": {
+        "de": "Ja, Kunden betonen den persönlichen Kontakt zum Inhaber und die individuelle Beratung im Kiezladen.",
+        "en": "Yes, customers emphasize the direct personal contact with the owner and tailored neighborhood advice."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Wochen",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor 7 Monaten",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 8 Monaten",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "vor 11 Monaten",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

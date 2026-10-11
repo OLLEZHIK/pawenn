@@ -1,0 +1,211 @@
+{
+  "slug": "paws-and-claws-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Paws+and+Claws+Medical+Center/data=!4m7!3m6!1s0x88d9bf85d8ce06f5:0x8a9656c1cc664a15!8m2!3d25.7313567!4d-80.4163404!16s%2Fg%2F1hc0rd3km!19sChIJ9QbO2IW_2YgRFUpmzMFWloo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 13,
+      "title": {
+        "en": "Divided reviews on veterinary bedside manner"
+      },
+      "text": {
+        "en": "While long-time clients praise Dr. de Armas and veterinary technician Jessica for kindness and dedication, critical reviews outnumber compliments over the last six months. Unhappy owners describe rushed evaluations, perceived dismissiveness when raising pet symptoms, and situations where veterinarians reportedly declined further service following online criticism."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Specialized care for diverse exotic pets"
+      },
+      "text": {
+        "en": "Reviewers frequently bring non-traditional pets to the facility, including sugar gliders, parrots, canaries, hamsters, and reptiles. Many clients emphasize that the veterinary team handles delicate species gently and understands husbandry requirements. Aside from a few disappointed exotic owners, most pet parents appreciate having a dedicated exotic clinic in Miami."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Variable treatment and recovery outcomes"
+      },
+      "text": {
+        "en": "Treatment results show marked variation depending on case severity and timing. Favorable reviews recount successful canine spay surgeries, dental procedures for sugar gliders, and recoveries from severe heavy metal toxicity. Conversely, distressed reviewers report delayed diagnosis of respiratory illness in reptiles or pet birds that passed away shortly after visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Paws and Claws Medical Center treat exotic pets and birds?"
+      },
+      "a": {
+        "en": "Yes, the hospital regularly treats avian species, reptiles, small mammals, sugar gliders, and other exotic pets alongside cats and dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What advanced diagnostic equipment is available at the clinic?"
+      },
+      "a": {
+        "en": "The medical center is equipped with CT imaging, digital radiography, ultrasound, and an on-site laboratory for comprehensive medical workups."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for urgent veterinary care?"
+      },
+      "a": {
+        "en": "The clinic provides in-hours urgent care during regular weekday and Saturday hours, but pet owners recommend calling ahead to confirm doctor availability."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "~",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

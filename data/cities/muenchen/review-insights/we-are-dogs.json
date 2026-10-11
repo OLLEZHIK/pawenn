@@ -1,0 +1,103 @@
+{
+  "slug": "we-are-dogs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/WE+ARE+DOGS+-+Hundetagesst%C3%A4tte+%26+Resort/@48.1910385,11.6307251,17z/data=!3m1!4b1!4m6!3m5!1s0x479e75ac8abab577:0x1539ff5bf250e026!8m2!3d48.1910385!4d11.6307251!16s%2Fg%2F11wfx43sgq?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Aufmerksames und fürsorgliches Betreuerteam",
+        "en": "Attentive and caring daycare team"
+      },
+      "text": {
+        "de": "Hundehalter heben die außergewöhnliche Aufmerksamkeit des Teams im Resort hervor. Die Betreuer beobachten die Tiere genau, erkennen kleinste gesundheitliche Auffälligkeiten sofort und halten Halter transparent mit ehrlichem Feedback auf dem Laufenden.",
+        "en": "Dog owners highlight the exceptional alertness of the team at the resort. The dedicated caretakers observe animals closely, notice minor physical irregularities right away, and keep clients transparently informed with honest feedback and daily observations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Sichere Eingewöhnung im Rudelresort",
+        "en": "Safe integration into pack environment"
+      },
+      "text": {
+        "de": "Besonders geschätzt wird die kontrollierte Zusammenführung neuer Hunde im geschützten Auslauf. Auch Tierschutzhunde werden behutsam integriert, können sich stressfrei akklimatisieren und kehren abends ausgelastet, ruhig und zufrieden nach Hause zurück.",
+        "en": "Clients particularly value the structured introduction of new dogs in a secure outdoor enclosure. Even sensitive rescue dogs are integrated gradually without pressure, getting used to the group and returning home calm, well-exercised, and thoroughly content."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Gibt es vor der regulären Aufnahme einen Probetag?",
+        "en": "Is a trial day required before regular boarding?"
+      },
+      "a": {
+        "de": "Ja, vor der Aufnahme findet ein Probetag statt, an dem die Verträglichkeit in einem abgetrennten Freilauf getestet wird.",
+        "en": "Yes, a trial session is held in a separated run to assess pack compatibility before admission."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden Halter über das Wohlbefinden informiert?",
+        "en": "Do owners receive updates on their dog's activities?"
+      },
+      "a": {
+        "de": "Ja, Kunden berichten erfreut über ehrliches Feedback und geteilte Videos von den Aktivitäten der Hunde während des Tages.",
+        "en": "Yes, clients appreciate honest feedback and video clips shared showing their dogs' activities throughout the day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Welche Betreuungsformen werden im Resort angeboten?",
+        "en": "What daycare and boarding options are offered?"
+      },
+      "a": {
+        "de": "Das Angebot umfasst feste Tagesbetreuung unter der Woche sowie ein Resort für Ferien- und Wochenendübernachtungen.",
+        "en": "Offerings include structured weekday dog daycare as well as an overnight resort for holiday and weekend stays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 5 Monaten",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

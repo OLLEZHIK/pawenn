@@ -1,0 +1,33 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "petworks-express",
+    "suburbia-north-animal-hospital",
+    "houston-spay-neuter",
+    "cy-fair-animal-hospital",
+    "heights-veterinary-clinic-northwest",
+    "kirkwood-veterinary-hospital",
+    "houston-veterinary-hospital",
+    "washington-heights-veterinary-clinic"
+  ],
+  "hash": "f1bf4ff402b66dcd42205c358489ccbab4e8cd5c4dc28e7a2c290d6ac574dd2e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T10:18:05.071Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T11:10:56.854Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-10T11:12:44.661Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

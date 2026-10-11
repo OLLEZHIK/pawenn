@@ -1,0 +1,134 @@
+{
+  "slug": "dog-e-stylez-grooming-salon-1",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog-E+Stylez+Grooming+Salon+%231/@41.8087333,-87.6739383,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2e7237763397:0x749016a2f4445ddd!8m2!3d41.8087333!4d-87.6739383!16s%2Fg%2F11f1wz000r?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful personnel alongside service complaints"
+      },
+      "text": {
+        "en": "Several repeat customers praise the front desk attendant and young grooming staff for pleasant attitudes and accommodating service over multiple years. In contrast, negative reviews mention dissatisfaction with staff communication, claiming that groomers lacked styling knowledge or provided indifferent service."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Fresh coats with styling discrepancies"
+      },
+      "text": {
+        "en": "Pleased reviewers report that their dogs emerged smelling clean, looking neat, and sporting sharp haircuts. Returning clients share positive before-and-after grooming results. Conversely, unhappy pet parents complained about poor styling execution, with one customer upset that a stylist planned to shave their dog bald."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Handling feedback for pet grooming"
+      },
+      "text": {
+        "en": "Long-term clients feel comfortable bringing their canine companions here, noting that their dogs leave looking well groomed and healthy. On the other hand, one critical owner worried about improper coat handling when a groomer suggested complete shaving without mutual agreement."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are grooming prices considered reasonable at this salon?"
+      },
+      "a": {
+        "en": "Yes, customers note that grooming packages and bath rates are competitively and reasonably priced."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long does a typical grooming appointment take?"
+      },
+      "a": {
+        "en": "While some clients report swift turnaround times, one reviewer cautioned that visits can occasionally extend across most of the day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do clients return for regular repeat visits?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers mention trusting the shop with their pets for two to four years consecutively."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
