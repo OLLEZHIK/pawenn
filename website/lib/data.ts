@@ -506,13 +506,15 @@ export function parseNear(value: string | undefined): { lat: number; lng: number
 // Cached public API. Every page render used to hit the database directly
 // (~35 operations for one listing page); on Prisma Postgres' metered
 // plan that burned the monthly quota and took the listing pages down
-// (P6003, 2026-09-24). Results are cached for a day across requests
+// (P6003, 2026-09-24). Results are cached for a week across requests
 // and deployments; the data only changes when the CSV seed is re-run.
 // unstable_cache stores JSON, so Dates come back as strings and are
 // revived below; Decimal prices come back as strings (read via
 // Number()/String() everywhere already).
 // ---------------------------------------------------------------------
-const REVALIDATE_SECONDS = 24 * 60 * 60;
+// A week, not a day (owner, 2026-10-11: the free Vercel plan ran out of CPU
+// again). Every deploy starts with a fresh cache anyway (CACHE_VERSION).
+const REVALIDATE_SECONDS = 7 * 24 * 60 * 60;
 // The data cache outlives deployments, so without this a deploy that
 // adds columns or reseeds the CSVs would keep serving day-old objects.
 // Scoping keys to the deployment starts every deploy with a fresh cache.
