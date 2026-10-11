@@ -14,14 +14,14 @@ export type AttributeKey = "nonstop" | "saturday" | "sunday" | "exotics" | "home
 
 /** URL slug per attribute and language - as people search it. */
 const SLUGS: Record<AttributeKey, Record<Locale, string>> = {
-  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy", cs: "nonstop", de: "notdienst", fr: "urgence" },
-  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota", cs: "sobota", de: "samstag", fr: "samedi" },
-  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela", cs: "nedele", de: "sonntag", fr: "dimanche" },
-  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne", cs: "exoticka-zvirata", de: "exoten", fr: "nac" },
-  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe", cs: "vyjezd-domu", de: "hausbesuch", fr: "a-domicile" },
+  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy", cs: "nonstop", de: "notdienst", fr: "urgence", it: "pronto-soccorso" },
+  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota", cs: "sobota", de: "samstag", fr: "samedi", it: "sabato" },
+  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela", cs: "nedele", de: "sonntag", fr: "dimanche", it: "domenica" },
+  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne", cs: "exoticka-zvirata", de: "exoten", fr: "nac", it: "esotici" },
+  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe", cs: "vyjezd-domu", de: "hausbesuch", fr: "a-domicile", it: "a-domicilio" },
   // "english speaking vet bratislava" / "veterinár po anglicky"
   // (docs/seo/keywords/en.md, sk.md; owner, 2026-09-26).
-  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku", cs: "anglicky", de: "englisch", fr: "anglophone" },
+  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku", cs: "anglicky", de: "englisch", fr: "anglophone", it: "inglese" },
 };
 
 /** Which attributes each category offers, in chip order. Only attributes
