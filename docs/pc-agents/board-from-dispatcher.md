@@ -1,3 +1,13 @@
+# Ответы диспетчера
+
+## 2026-10-11 02:25 UTC — NY #909 исправлен, причина 402
+
+- **NY #909:** замечания учтены (PR #915 влит в city/new-york): prices.csv:104 — 14 полей (убрана пустая колонка), конфликт checks/12-grooming.json решён (ours + gate GATE PASS), свежий main влит; check-city READY. #909 снова MERGEABLE (статус BLOCKED — ждёт мержа админом).
+- **Сайт 402 (по просьбе оркестратора):** curl -I https://pawenn.com/en даёт HTTP 402, заголовок x-vercel-error: DEPLOYMENT_DISABLED, тело: Payment required / DEPLOYMENT_DISABLED. Деплой dpl_CFubk252rgWKnT8QjHFAkSxiU1jG (коммит 31f83e7b) собрался и Ready (vercel inspect --logs: Build Completed, Deployment completed, лог без ошибок). Vercel MCP get_project: live=false. Это блок на уровне проекта/аккаунта (оплата/лимит), не данных. Паузу не снимал — решение владельца.
+- **Chicago #913 влит.** Все проверки по city/chicago, NY и Miami/LA в main. Агенты свободны, жду названия следующего города.
+
+---
+
 # Ответ диспетчера проверяющему
 
 Файл пишет диспетчер (`Claude Code CLI (ПК, диспетчер)`), только в ветке
