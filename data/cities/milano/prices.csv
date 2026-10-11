@@ -3,10 +3,10 @@ clinica-veterinaria-certosa-dr-aldo-pola-milano,exam,,,50,50,EUR,https://www.vet
 clinica-veterinaria-certosa-dr-aldo-pola-milano,microchip,,,40,40,EUR,https://www.veterinarimilano.com/costo-prestazioni,2026-10-11,Applicazione microchip e iscrizione all’anagrafe canina – € 40,,,,
 clinica-veterinaria-certosa-dr-aldo-pola-milano,neuter_cat,,,145,145,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Gatto maschio – € 145,,,,
 clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_cat,,,195,195,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Gatta femmina – € 195,,,,
-clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,,8,280,280,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Taglia piccola (fino a 8 kg): € 280,,,up to 8 kg,fino a 8 kg
-clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,8,15,310,310,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Taglia media (fino a 15 kg): € 310,,,8-15 kg,8-15 kg
-clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,15,30,365,365,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Taglia grande (fino a 30 kg): € 365,,,15-30 kg,15-30 kg
-clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,30,45,495,495,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,Taglia gigante (fino a 45 kg): € 495,,,30-45 kg,30-45 kg
+clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,,8,280,280,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,"Taglia piccola (fino a 8 kg): € 280",,,up to 8 kg,fino a 8 kg
+clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,8,15,310,310,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,"Taglia media (fino a 15 kg): € 310",,,8-15 kg,8-15 kg
+clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,15,30,365,365,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,"Taglia grande (fino a 30 kg): € 365",,,15-30 kg,15-30 kg
+clinica-veterinaria-certosa-dr-aldo-pola-milano,spay_dog,30,45,495,495,EUR,https://www.veterinarimilano.com/sterilizzazioni,2026-10-11,"Taglia gigante (fino a 45 kg): € 495",,,30-45 kg,30-45 kg
 clinica-veterinaria-certosa-dr-aldo-pola-milano,vaccination_dog,,,50,50,EUR,https://www.veterinarimilano.com/costo-prestazioni,2026-10-11,Visita e vaccinazione cane adulto – € 50,,yes,annual booster without rabies,richiamo annuale senza antirabbica
 harmonia,daycare_pass,,,318,529,EUR,https://www.facebook.com/harmoniadog/,2026-10-11,ABBONAMENTI MENSILI da 318 a 529 €,,,monthly pass 1 to 5 days per week,abbonamenti mensili 1-5 gg a settimana
 cat-suite-hotel,cat_night,,,24,30,EUR,https://catsuitehotel.it/,2026-10-11,1 Gatto: 24 euro/giorno bassa stagione - 30 euro/giorno alta stagione,,,seasonal rates,tariffe stagionali
@@ -22,3 +22,8 @@ la-zampinoteca,daycare_day,,,32,32,EUR,https://www.facebook.com/lazampinoteca/,2
 la-zampinoteca,daycare_pass,,,230,260,EUR,https://www.facebook.com/lazampinoteca/,2026-10-11,PACCHETTO 8 INGRESSI 230€ - PACCHETTO 10 INGRESSI 260€,,,8 or 10 entries,8 o 10 ingressi
 bauclub,daycare_day,,,55,55,EUR,https://www.bauclub.it/prezzi/,2026-10-11,Giornata intera €55,,,,
 bauclub,daycare_pass,,,250,450,EUR,https://www.bauclub.it/prezzi/,2026-10-11,Carnet 5 Ingressi €250 - Carnet 10 Ingressi €450,,,5 or 10 entries,5 o 10 ingressi
+testacoda,nail_trim,,,10,10,EUR,https://www.testacoda.zone/tradizionale/,2026-10-11,"Solo taglio unghie: 10,00€",,,,
+testacoda,bath_dry,,10,35,40,EUR,https://www.testacoda.zone/tradizionale/,2026-10-11,Taglia Piccola (fino a 10 kg): pelo corto 35 € / pelo lungo 40 €,,,,
+testacoda,bath_dry,11,25,40,50,EUR,https://www.testacoda.zone/tradizionale/,2026-10-11,Taglia Media (da 11 a 25 kg): pelo corto 40 € / pelo lungo 50 €,,,,
+testacoda,bath_dry,26,35,50,60,EUR,https://www.testacoda.zone/tradizionale/,2026-10-11,Taglia Grande (da 26 a 35 kg): pelo corto 50 € / pelo lungo 60 €,,,,
+testacoda,bath_dry,35,,60,70,EUR,https://www.testacoda.zone/tradizionale/,2026-10-11,Taglia Gigante (oltre i 35 kg): pelo corto 60 € / pelo lungo 70 €,,,,
