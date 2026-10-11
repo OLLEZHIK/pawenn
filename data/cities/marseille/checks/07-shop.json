@@ -1,0 +1,40 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "dsa-13",
+    "l-animal-rit",
+    "animarium",
+    "animalis-marseille-montgrand",
+    "animos-animalerie-hotel-chats",
+    "animalis-marseille-prado",
+    "animalis-marseille-11-la-valentine",
+    "distridog-sa",
+    "maxi-zoo-marseille-la-valentine",
+    "maxi-zoo-marseille-grand-littoral"
+  ],
+  "hash": "127418fa4551e99b7e7c9ceec7408c3d4744926d31db9df898c6efc7723cfdad",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T16:31:30.857Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-11T16:38:37.744Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-11T16:39:41.055Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-11T16:40:06.252Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
