@@ -281,6 +281,8 @@ export const en = {
     vsMarket: (pct: number, marketBand: boolean): string =>
       marketBand ? "City average" : pct < 0 ? "Below city average" : "Above city average",
     vsMarketHint: "Compared with the average price of the same services in the city",
+    /** Card of a place with no published price (not for pet shops). */
+    priceOnRequest: "Price on request",
   },
   rating: {
     countGoogle: (count: string) => `${count} · Google`,

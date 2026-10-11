@@ -284,6 +284,8 @@ export const de: Dictionary = {
     vsMarket: (pct: number, marketBand: boolean): string =>
       marketBand ? "Stadtdurchschnitt" : pct < 0 ? "Unter dem Stadtdurchschnitt" : "Über dem Stadtdurchschnitt",
     vsMarketHint: "Verglichen mit dem Durchschnittspreis derselben Leistungen in der Stadt",
+    /** Card of a place with no published price (not for pet shops). */
+    priceOnRequest: "Preis auf Anfrage",
   },
   rating: {
     countGoogle: (count: string) => `${count} · Google`,
