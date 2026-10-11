@@ -8,6 +8,7 @@ city: los-angeles
 categories: VET_CLINIC, DOG_TRAINING
 sources:
   - https://www.laanimalservices.com/licensing | LA Animal Services: Licenses | 2026-10-11
+  - https://www.laanimalservices.com/permits | LA Animal Services: Permits & Breeding Moratorium | 2026-10-11
   - https://publichealth.lacounty.gov/vet/rabies.htm | LA County Public Health: Rabies | 2026-10-11
   - https://www.laparks.org/dogparks | LA Parks: Dog Parks | 2026-10-11
 ---
@@ -17,7 +18,7 @@ Every dog older than four months kept in the City of Los Angeles must be license
 
 - **$20 a year** (or **$55 for three years**) for a spayed or neutered dog.
 - **$10 a year** for low-income seniors aged 62 and older, or low-income residents with disabilities (limited to one dog per household).
-- **$100 to $335 a year** for an unaltered dog if a breeding permit or medical exemption applies.
+- **Unaltered dogs** must comply with the city's mandatory spay/neuter ordinance (LAMC 53.15.2(b)); breeding requires a city permit, and a moratorium on new dog breeding permits has been in effect since May 2024 (LAMC 53.15.2(f)).
 
 A replacement tag costs **$5**. Households may keep up to **three dogs** over four months of age without a special kennel permit.
 

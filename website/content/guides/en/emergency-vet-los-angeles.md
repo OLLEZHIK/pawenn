@@ -9,6 +9,7 @@ categories: VET_CLINIC
 sources:
   - https://pawenn.com/en/vet-clinics/los-angeles/nonstop/ | Pawenn: vet clinics in Los Angeles open 24/7, from each clinic's website | 2026-10-11
   - https://publichealth.lacounty.gov/vet/rabies.htm | LA County Public Health: Rabies | 2026-10-11
+  - https://publichealth.lacounty.gov/vet/biteintro.htm | LA County Public Health: Animal Bites and Quarantine | 2026-10-11
 ---
 Most veterinary clinics in Los Angeles close by the evening. Five hospitals in our catalogue accept walk-ins and emergencies 24 hours a day, every day of the year:
 
