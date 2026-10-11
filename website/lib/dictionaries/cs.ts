@@ -335,6 +335,8 @@ export const cs: Dictionary = {
     vsMarket: (pct: number, marketBand: boolean): string =>
       marketBand ? "Průměr ve městě" : pct < 0 ? "Pod průměrem ve městě" : "Nad průměrem ve městě",
     vsMarketHint: "Ve srovnání s průměrnou cenou stejných služeb ve městě",
+    /** Card of a place with no published price (not for pet shops). */
+    priceOnRequest: "Cena na dotaz",
   },
   rating: {
     countGoogle: (count: string) => `${count} · Google`,

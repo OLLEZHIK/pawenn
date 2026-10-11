@@ -125,6 +125,10 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
           {fromPrice && (
             <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
           )}
+          {/* No price of its own (owner, 2026-10-11): say so instead of leaving a gap. Pet shops have no priced services. */}
+          {priceTier === null && !fromPrice && business.category !== "PET_SHOP" && (
+            <span className="text-foreground/60">{t.card.priceOnRequest}</span>
+          )}
         </div>
 
         {highlight && (
