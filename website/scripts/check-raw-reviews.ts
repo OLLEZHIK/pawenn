@@ -61,13 +61,13 @@ const slugs = new Set(
 function monthsFromAgo(ago: string): number | null {
   const s = ago.toLowerCase();
   // de: Tag(en), Woche(n), Stunde(n), Minute(n), gestern, heute; cs: den/dny/dní, týden/týdny, hodin, minut
-  if (/(dzień|dni|dnia|dňom|dňami|deň|day|week|tydz|týž|tyd|hour|godz|hod|\btage?n?\b|woche|stunde|\bstd\b|minut|gestern|heute|\bden\b|\bdny\b|\bdní\b|týden|týdn|hodin)/.test(s)) return 0;
+  if (/(dzień|dni|dnia|dňom|dňami|deň|day|week|tydz|týž|tyd|hour|godz|hod|\btage?n?\b|woche|stunde|\bstd\b|minut|gestern|heute|\bden\b|\bdny\b|\bdní\b|týden|týdn|hodin|jour|semaine|heure|hier|aujourd)/.test(s)) return 0;
   const n = s.match(/\d+/);
   const k = n ? Number(n[0]) : 1;
   // years: pl rok/lat, sk rok, en year, de Jahr(en), cs rok/roky/let
-  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year|jahr|\blet\b|\blety\b)/.test(s)) return 12 * k;
+  if (/(rok|lat|lata|roku|rokov|rokmi|rokom|year|jahr|\blet\b|\blety\b|\bans?\b)/.test(s)) return 12 * k;
   // months: pl miesiąc, sk mesiac, en month, de Monat(en), cs měsíc
-  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month|monat|měsíc|měsíci|měsíce|měsíců)/.test(s)) return k;
+  if (/(miesi|mesiac|mesiaci|mesiacmi|mesiacom|month|monat|měsíc|měsíci|měsíce|měsíců|\bmois\b)/.test(s)) return k;
   return null;
 }
 
