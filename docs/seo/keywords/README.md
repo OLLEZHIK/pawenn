@@ -10,6 +10,7 @@
 | Словацкий (`sk`) | `sk.md` | Собрано (Trends + подсказки, без Planner), PR #100; title на сайте применены 2026-09-26 |
 | Английский (`en`) | `en.md` | Собрано (Trends + подсказки, без Planner), PR #101; title признаков применены 2026-09-26. Категории — ещё `../english-keywords.md` |
 | Немецкий (`de`) | `de.md` | Собрано (Trends + подсказки, без Planner, Австрия / Wien); PR pc6/de-keywords |
+| Итальянский (`it`) | `it.md` | Собрано (Trends + подсказки, без Planner, Италия / Roma, Milano, Napoli); PR pc5/it-keywords |
 | Новый язык | `<locale>.md` | Шаг в `docs/playbooks/add-language.md`: сначала запросы, потом слаги |
 
 ## 1. Как собирать цифры
