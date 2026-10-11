@@ -43,6 +43,10 @@ const COUNTRY = {
   DE: { dial: "49", national: /^[1-9]\d{5,13}$/, postal: /\b\d{5}\b/ },
   // NANP: area code and exchange never start with 0 or 1; written
   // "+1 212-555-1234" (New York, 2026-10-07). ZIP: 5 digits (ZIP+4 passes too).
+  // Italy keeps the leading 0 of landlines inside the number (+39 06 1234 5678);
+  // mobiles start with 3, toll-free with 8. France: trunk 0 dropped, 9 digits.
+  IT: { dial: "39", national: /^(0\d{5,10}|3\d{8,9}|8\d{8,10})$/, postal: /\b\d{5}\b/, keepZero: true },
+  FR: { dial: "33", national: /^[1-9]\d{8}$/, postal: /\b\d{5}\b/ },
   US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;
 
@@ -134,8 +138,8 @@ for (const city of cities) {
           if (!national.startsWith(country.dial)) w(slug, `phone "${phone}" is not +${country.dial} (foreign number?)`);
           else national = national.slice(country.dial.length);
         } else if (national.startsWith("00" + country.dial)) national = national.slice(2 + country.dial.length);
-        else if (national.startsWith("0")) national = national.slice(1);
-        if (digits.startsWith("+" + country.dial) && national.startsWith("0")) f(slug, `phone "${phone}" has a trunk 0 after +${country.dial} (write +${country.dial} ${national.slice(1)}, not +${country.dial} 0…)`);
+        else if (national.startsWith("0") && !("keepZero" in country)) national = national.slice(1);
+        if (digits.startsWith("+" + country.dial) && national.startsWith("0") && !("keepZero" in country)) f(slug, `phone "${phone}" has a trunk 0 after +${country.dial} (write +${country.dial} ${national.slice(1)}, not +${country.dial} 0…)`);
         if (!country.national.test(national) && national.length !== 0 && (digits.startsWith("+" + country.dial) || !digits.startsWith("+")))
           f(slug, `phone "${phone}" is not a ${meta.country} number (+${country.dial}, then ${national.length} digits do not fit)`);
         const fake = fakePhone(national, meta.country);
