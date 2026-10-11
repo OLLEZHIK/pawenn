@@ -11,7 +11,7 @@ import type { Locale } from "./locales";
 // URL: /<lang>/<category>/<city>/<best>/ and
 //      /<lang>/<category>/<city>/<district>/<best>/
 
-export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste" };
+export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs" };
 
 /** A place counts with at least this many Google ratings… */
 export const MIN_RATINGS = 10;
@@ -92,6 +92,14 @@ const BEST_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Die besten Hundeschulen",
     PET_SHOP: "Die besten Tierhandlungen",
     PET_SITTING: "Die besten Hundesitter",
+  },
+  fr: {
+    GROOMING: "Les meilleurs salons de toilettage",
+    VET_CLINIC: "Les meilleurs vétérinaires",
+    PET_HOTEL: "Les meilleures pensions pour animaux",
+    DOG_TRAINING: "Les meilleurs éducateurs canins",
+    PET_SHOP: "Les meilleures animaleries",
+    PET_SITTING: "Les meilleurs pet sitters",
   },
 };
 
@@ -203,5 +211,22 @@ export const BEST_TEXT: Record<
     allPlaces: "Alle Adressen",
     chip: "Am besten bewertet",
     rank: (n) => `Platz ${n}`,
+  },
+  fr: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where} : top ${n} (${year}) | Pawenn`, `${name} ${where} : top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `Les ${n} adresses les mieux notées ${where}, classées d'après la note Google et le nombre d'avis – et ce que les clients apprécient.`,
+    lead: (n) =>
+      `Les ${n} adresses avec les meilleures notes Google, pondérées par le nombre d'avis. Pour chacune : ce que les clients apprécient le plus, d'après notre synthèse des avis récents.`,
+    praised: "Ce que les clients apprécient",
+    mention: "Certains mentionnent",
+    reviewsSummarised: (n) => `d'après ${n} avis récents`,
+    howTitle: "Comment nous avons classé",
+    how: (min, date) =>
+      `D'après la note Google, pondérée par le nombre d'avis : 4,9 sur 15 avis se classe derrière 4,8 sur 400. Seules les adresses avec au moins ${min} avis sont retenues. Notes vérifiées le ${date}. Personne ne paie pour figurer dans cette liste.`,
+    allPlaces: "Toutes les adresses",
+    chip: "Les mieux notés",
+    rank: (n) => (n === 1 ? "1er" : `${n}e`),
   },
 };
