@@ -1,0 +1,133 @@
+{
+  "slug": "acuario-piscis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Acuario+Piscis/@41.8520864,-87.7019327,17z/data=!3m1!4b1!4m6!3m5!1s0x880e327ead4df0e3:0x522fb6142bf4a083!8m2!3d41.8520864!4d-87.7019327!16s%2Fg%2F11b6gcz5tm?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-11",
+  "period_to": "2026-10-11",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-11",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Wide aquarium selection and inventory"
+      },
+      "text": {
+        "en": "Customers highlight the varied selection of tropical fish, aquatic plants, and aquarium accessories available at the shop. Reviewers describe browsing the tanks as an engaging neighborhood visit, with many finding specialty driftwood and healthy live plants. While one shopper noted that a plant display appeared somewhat murky, the general retail space is praised for its diverse selection."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Aquatic life care alongside turtle welfare"
+      },
+      "text": {
+        "en": "Shoppers appreciate the store's handling of pets, including pet grooming cuts and staff stepping up to rehome surrendered red-eared slider turtles. Visitors frequently commend the condition of healthy tropical fish and aquarium livestock. However, one reviewer felt concerned about turtle enclosure conditions, wishing for more spacious housing, which balances the otherwise favorable feedback."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and welcoming store owners"
+      },
+      "text": {
+        "en": "Patrons describe the owners and store associates as courteous, patient, and knowledgeable about pet needs. Reviewers appreciate receiving attentive guidance on aquarium setups, live plants, and animal care. Clients also express gratitude for the staff's readiness to assist with rescue situations and offer friendly bilingual support during routine visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Acuario Piscis carry live aquarium plants and fish?"
+      },
+      "a": {
+        "en": "Yes, reviewers report finding a variety of freshwater fish, aquatic plants, and tank decor like driftwood."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are staff members bilingual in Spanish and English?"
+      },
+      "a": {
+        "en": "Yes, customers note that the owners provide customer assistance in both Spanish and English."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop offer grooming services for dogs?"
+      },
+      "a": {
+        "en": "Yes, customers mention dog haircuts and grooming services provided on site."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
