@@ -11,7 +11,7 @@ import type { Locale } from "./locales";
 // URL: /<lang>/<category>/<city>/<best>/ and
 //      /<lang>/<category>/<city>/<district>/<best>/
 
-export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs" };
+export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori" };
 
 /** A place counts with at least this many Google ratings… */
 export const MIN_RATINGS = 10;
@@ -100,6 +100,14 @@ const BEST_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Les meilleurs éducateurs canins",
     PET_SHOP: "Les meilleures animaleries",
     PET_SITTING: "Les meilleurs pet sitters",
+  },
+  it: {
+    GROOMING: "I migliori saloni di toelettatura",
+    VET_CLINIC: "I migliori veterinari",
+    PET_HOTEL: "Le migliori pensioni per animali",
+    DOG_TRAINING: "I migliori educatori cinofili",
+    PET_SHOP: "I migliori negozi di animali",
+    PET_SITTING: "I migliori dog sitter",
   },
 };
 
@@ -228,5 +236,22 @@ export const BEST_TEXT: Record<
     allPlaces: "Toutes les adresses",
     chip: "Les mieux notés",
     rank: (n) => (n === 1 ? "1er" : `${n}e`),
+  },
+  it: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `Le ${n} attività con le valutazioni migliori ${where}, in base al voto su Google e al numero di recensioni – e cosa apprezzano i clienti.`,
+    lead: (n) =>
+      `Le ${n} attività con le migliori valutazioni su Google, ponderate per il numero di recensioni. Per ciascuna: cosa apprezzano di più i clienti, secondo la nostra sintesi delle recensioni recenti.`,
+    praised: "Cosa apprezzano i clienti",
+    mention: "Alcuni segnalano",
+    reviewsSummarised: (n) => `in base a ${n} recensioni recenti`,
+    howTitle: "Come abbiamo stilato la classifica",
+    how: (min, date) =>
+      `In base al voto su Google, ponderato per il numero di recensioni: 4,9 su 15 recensioni vale meno di 4,8 su 400. Contano solo le attività con almeno ${min} recensioni. Voti verificati il ${date}. Nessuno paga per comparire in questa classifica.`,
+    allPlaces: "Tutte le attività",
+    chip: "I più apprezzati",
+    rank: (n) => `${n}º`,
   },
 };
