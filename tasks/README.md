@@ -27,6 +27,7 @@ Warszawa и Kraków: правки (цены, сводки) диспетчер в
 | `cli-new-language-readiness.md` | Задача: подключение нового языка и страны — по скрипту, с проверкой (фронтенд) | начать с партии 1. |
 | `pc-city-wroclaw-reviews.md` | Задача: Wrocław — сводки отзывов, кусками по 10 | **отложена до конца ревизии.** Берём после того, как Wrocław в `main` и владелец провёл общую ревизию. |
 | `pc-completeness-registers.md` | Задача: полнота — каких мест у нас нет (по официальным спискам) | **отложена до конца ревизии.** Партии 1–2 смержены (Bratislava и Košice VET_CLINIC). Партию 3 (Польша, исследование) не берём. |
+| `pc-guides-us-cities.md` | Задача: статьи-инфо для Los Angeles, Miami, Houston, Chicago (по образцу New York, 4 партии) | начать с партии 1 (Los Angeles, пилот). |
 | `pc-guides-cs-de-en.md` | Задача: статьи «Poradna» (cs), «Ratgeber» (de, Австрия) и английские пары | ждёт диспетчера: выдать партию 1 свободному контейнеру. |
 | `pc-muenchen-duplicate.md` | Задача: убрать дубль «Dog's Academy Hundeschule» в München (`closed=yes`, ворота куска 09) | начать — партия 1 (одна строка). |
 | `pc-price-notes-cleanup.md` | Задача: пометки к ценам — убрать повтор названия услуги (New York, Wien, München) | начать — партия 1 (New York). |
