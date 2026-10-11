@@ -1,0 +1,30 @@
+{
+  "chunk": "08-shop",
+  "kind": "places",
+  "slugs": [
+    "arcaplanet-milano-lorenteggio",
+    "arcaplanet-milano-certosa-36",
+    "arcaplanet-milano-certosa-220",
+    "arcaplanet-milano-imbonati",
+    "pet-store-milano-portello",
+    "arcaplanet-milano-novara",
+    "arcaplanet-milano-indipendenza",
+    "impronte-pet-shop",
+    "arcaplanet-milano-marco-bruto",
+    "arcaplanet-milano-nigra"
+  ],
+  "hash": "adc5c464d97aadd0aafcaf2c923fc961cc47c9ededcf50e349d3348937309ec5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T23:34:46.481Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-11T23:38:06.692Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
