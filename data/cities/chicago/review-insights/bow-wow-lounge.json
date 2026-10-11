@@ -1,0 +1,169 @@
+{
+  "slug": "bow-wow-lounge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bow+Wow+Lounge/@41.9754885,-87.6740856,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd220a112a7a1:0x323258a0e2112456!8m2!3d41.9754885!4d-87.6740856!16s%2Fg%2F1thq5x10?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Individualized attention for varied canine temperaments"
+      },
+      "text": {
+        "en": "Dog owners appreciate how staff cater to individual temperaments during daycare and boarding stays. Reviewers note separate play areas for smaller dogs, gradual group socialization for nervous pets, and attentive supervision that keeps dogs happy and relaxed throughout their visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Supportive team with occasional billing friction"
+      },
+      "text": {
+        "en": "Clients describe the staff as friendly, caring, and attentive to their pets' routines. Most pet parents feel comfortable entrusting their dogs to the team, though one customer reported a negative encounter regarding an unresolved billing dispute and tip requests during checkout."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable haircuts and gentle coat care"
+      },
+      "text": {
+        "en": "Pet owners highlight consistent grooming quality, praising stylists for neat haircuts and patient coat care. Reviewers emphasize that grooms are finished promptly and that their dogs return looking well-groomed at reasonable prices compared to other area salons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do staff accommodate small or timid dogs?"
+      },
+      "a": {
+        "en": "Yes, clients note that the facility provides designated spaces for small dogs and uses gradual introduction strategies for nervous pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are photo updates provided during boarding?"
+      },
+      "a": {
+        "en": "Reviewers mention purchasing postcard update options that include photos and notes about their dog's daily activities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the facility offer grooming services alongside boarding?"
+      },
+      "a": {
+        "en": "Yes, pet parents frequently combine boarding or daycare stays with bath and haircut appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
