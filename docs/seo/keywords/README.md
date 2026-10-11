@@ -11,6 +11,7 @@
 | Английский (`en`) | `en.md` | Собрано (Trends + подсказки, без Planner), PR #101; title признаков применены 2026-09-26. Категории — ещё `../english-keywords.md` |
 | Немецкий (`de`) | `de.md` | Собрано (Trends + подсказки, без Planner, Австрия / Wien); PR pc6/de-keywords |
 | Итальянский (`it`) | `it.md` | Собрано (Trends + подсказки, без Planner, Италия / Roma, Milano, Napoli); PR pc5/it-keywords |
+| Французский (`fr`) | `fr.md` | Собрано (подсказки Google + Trends URLs, без Planner, Франция: Paris, Marseille, Lyon); PR pc5/fr-keywords |
 | Новый язык | `<locale>.md` | Шаг в `docs/playbooks/add-language.md`: сначала запросы, потом слаги |
 
 ## 1. Как собирать цифры

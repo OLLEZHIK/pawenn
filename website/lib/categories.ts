@@ -105,6 +105,14 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "tierhandlung",
     PET_SITTING: "tierbetreuung",
   },
+  fr: {
+    GROOMING: "toilettage",
+    VET_CLINIC: "veterinaire",
+    PET_HOTEL: "pension-animaux",
+    DOG_TRAINING: "dressage-chien",
+    PET_SHOP: "animalerie",
+    PET_SITTING: "garde-animaux",
+  },
 };
 
 const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -141,6 +149,14 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tierhandlungen",
     PET_SITTING: "Tierbetreuung",
   },
+  fr: {
+    GROOMING: "Toilettage",
+    VET_CLINIC: "Vétérinaires",
+    PET_HOTEL: "Pensions pour animaux",
+    DOG_TRAINING: "Dressage de chien",
+    PET_SHOP: "Animaleries",
+    PET_SITTING: "Garde d'animaux",
+  },
 };
 
 const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
@@ -176,6 +192,14 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Hundeschule",
     PET_SHOP: "Tierhandlung",
     PET_SITTING: "Tierbetreuung",
+  },
+  fr: {
+    GROOMING: "salon de toilettage",
+    VET_CLINIC: "cabinet vétérinaire",
+    PET_HOTEL: "pension pour animaux",
+    DOG_TRAINING: "éducateur canin",
+    PET_SHOP: "animalerie",
+    PET_SITTING: "pet sitter",
   },
 };
 
@@ -222,6 +246,14 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Hundeschulen und Hundetrainer",
     PET_SHOP: "Tierhandlungen",
     PET_SITTING: "Tierbetreuer",
+  },
+  fr: {
+    GROOMING: "salons de toilettage",
+    VET_CLINIC: "vétérinaires et cliniques vétérinaires",
+    PET_HOTEL: "pensions pour animaux",
+    DOG_TRAINING: "éducateurs canins et clubs canins",
+    PET_SHOP: "animaleries",
+    PET_SITTING: "pet sitters",
   },
 };
 
@@ -271,6 +303,14 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tierhandlung & Tierbedarf",
     PET_SITTING: "Hundebetreuung & Hundesitter",
   },
+  fr: {
+    GROOMING: "Toilettage pour chiens et chats",
+    VET_CLINIC: "Vétérinaires et cliniques vétérinaires",
+    PET_HOTEL: "Pension pour chien et chat",
+    DOG_TRAINING: "Éducateur canin et dressage de chien",
+    PET_SHOP: "Animaleries et magasins pour animaux",
+    PET_SITTING: "Garde de chien et pet sitter",
+  },
 };
 
 // Price overview (/<category>/<city>/prices) name: the main "prices"
@@ -318,6 +358,14 @@ const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tierhandlung",
     PET_SITTING: "Hundebetreuung",
   },
+  fr: {
+    GROOMING: "Tarifs de toilettage pour chien",
+    VET_CLINIC: "Tarifs vétérinaires",
+    PET_HOTEL: "Tarifs des pensions pour chiens",
+    DOG_TRAINING: "Tarifs des éducateurs canins",
+    PET_SHOP: "Tarifs des animaleries",
+    PET_SITTING: "Tarifs de garde de chien et pet sitting",
+  },
 };
 
 const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -360,6 +408,14 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Welpenkurse, Gehorsam und Verhalten",
     PET_SHOP: "Futter, Spielzeug und Alltagsbedarf",
     PET_SITTING: "Gassigehen, Besuche und Betreuung zu Hause",
+  },
+  fr: {
+    GROOMING: "Bain, tonte, épilation et soin des griffes",
+    VET_CLINIC: "Consultations, vaccins et urgences",
+    PET_HOTEL: "Un séjour sûr pendant vos déplacements",
+    DOG_TRAINING: "École du chiot, éducation de base et comportement",
+    PET_SHOP: "Croquettes, jouets et accessoires du quotidien",
+    PET_SITTING: "Promenades, visites et garde à domicile",
   },
 };
 
@@ -433,6 +489,14 @@ const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: 
     PET_SHOP: { term: "Tierhandlung", word: /^(tierhandlung|zoo|tierbedarf)/ },
     PET_SITTING: { term: "Hundebetreuung", word: /^(hundebetreuung|hundesitter|tierbetreuung|tiersitter)/ },
   },
+  fr: {
+    VET_CLINIC: { term: "vétérinaire", word: /^(veterinaire|veto|clinique)/ },
+    GROOMING: { term: "toilettage", word: /^(toilettage|toiletteur|toilett|salon)/ },
+    PET_HOTEL: { term: "pension pour animaux", word: /^(pension|hotel|garderie)/ },
+    DOG_TRAINING: { term: "éducateur canin", word: /^(educateur|dressage|education|club|ecole)/ },
+    PET_SHOP: { term: "animalerie", word: /^(animalerie|jardinerie)/ },
+    PET_SITTING: { term: "pet sitter", word: /^(pet|dog|garde|promeneur|sitter)/ },
+  },
 };
 
 const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -464,7 +528,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb", fr: "etablissement" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -488,7 +552,7 @@ export function categoryHubPath(locale: Locale, category: BusinessCategory): str
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt", fr: "ville" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;
