@@ -1,0 +1,135 @@
+{
+  "slug": "paws-chicago-training-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PAWS+Chicago+Training+Center/data=!4m7!3m6!1s0x880fd31fe3754c31:0xc66a02be49277e6f!8m2!3d41.9164567!4d-87.6578808!16s%2Fg%2F11b6xfhl00!19sChIJMUx14x_TD4gRb34nSb4CasY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Knowledgeable instructors alongside customer complaints"
+      },
+      "text": {
+        "en": "Most pet parents commend instructors like Brian for their patience, clear explanations, and hands-on demonstrations with class dogs. Clients appreciate trainers who guide handlers step-by-step through obedience exercises. However, two critical reviewers reported negative interactions, citing dismissive attitudes and unreturned phone calls."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Puppy socialization alongside breed bias"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the puppy classes and foundation obedience sessions for helping dogs learn predictable behaviors. Clients note that their adopted pets enjoyed participating in structured group activities. In contrast, one reviewer reported that an instructor was unwilling to work directly with their pit bull during an in-person class."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Structured curriculum and practical obedience"
+      },
+      "text": {
+        "en": "Clients report steady progress in their dogs' basic obedience and ability to manage distractions during training sessions. Reviewers mention that following the class curriculum and practicing exercises at home helps dogs understand house rules. Pet parents appreciate learning structured techniques that make everyday routines significantly easier."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of classes are offered at the PAWS Chicago Training Center?"
+      },
+      "a": {
+        "en": "Reviewers mention participating in Playful Puppies and Basic Obedience courses designed for newly adopted pets and puppies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is on-site parking available for class participants?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate the clean facility and mention that free, convenient on-site parking is available."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are obedience exercises structured in group classes?"
+      },
+      "a": {
+        "en": "Instructors guide owners through incremental steps, increasing the duration, distance, and environmental distractions gradually."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "aleman-s-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Aleman%E2%80%99s+Grooming+Salon/@41.8438529,-87.7283325,17z/data=!3m1!4b1!4m6!3m5!1s0x880e337d240cd36b:0xe51246f34958543b!8m2!3d41.8438529!4d-87.7283325!16s%2Fg%2F11fk3_w4pn?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Consistent grooming and haircut quality"
+      },
+      "text": {
+        "en": "Most pet parents report high satisfaction with the grooming results, noting their dogs look well-groomed and clean after each session. Clients mention returning repeatedly for reliable haircuts. Feedback over the past six months highlights steady work and neat trims without disappointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling alongside injury report"
+      },
+      "text": {
+        "en": "The majority of reviewers describe positive experiences with their dogs returning home happy and well-handled. However, one client submitted a highly critical report involving an eye injury and distressed behavior after an appointment, urging owners to monitor their pets closely."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly greetings with accountability concerns"
+      },
+      "text": {
+        "en": "Pet owners frequently describe the team as friendly, welcoming, and easy to engage with during appointments. In contrast, one reviewer expressed frustration with staff refusing to apologize or take accountability following a reported medical issue after grooming."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the grooming quality for dogs?"
+      },
+      "a": {
+        "en": "Most clients report that dogs receive neat haircuts and leave looking tidy, though one owner reported a negative experience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are staff members friendly when welcoming clients?"
+      },
+      "a": {
+        "en": "Pet owners generally find the team friendly and welcoming during drop-off and pickup, though customer service resolution was criticized in one complaint."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What pricing feedback is mentioned in recent reviews?"
+      },
+      "a": {
+        "en": "Reviewers highlight reasonable pricing and good overall value for standard dog grooming services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

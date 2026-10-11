@@ -1,0 +1,147 @@
+{
+  "slug": "woof-cutz-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Woof+Cutz+Grooming/@41.6626524,-87.6411464,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2590eeb92f69:0x261c07ad7e0afa9f!8m2!3d41.6626524!4d-87.6411464!16s%2Fg%2F11fns1wf9d?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Appealing styling cuts alongside safety concerns"
+      },
+      "text": {
+        "en": "Most pet owners praise the quality of dog grooming, noting pets come home smelling wonderful and looking neatly clipped. Clients appreciate long-lasting scents and attractive haircuts. However, one serious complaint reported a pet sustaining an eye ulcer from shampoo during bathing, requiring emergency veterinary treatment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Caring breed handling with mixed safety"
+      },
+      "text": {
+        "en": "Several clients report positive experiences with staff who demonstrate good knowledge across diverse dog breeds and treat pets affectionately. Multiple reviewers return regularly with their dogs for ongoing maintenance. Conversely, a critical review raised concerns after an animal sustained an injury during a grooming appointment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming stylists alongside accountability disputes"
+      },
+      "text": {
+        "en": "Pet parents frequently describe the salon staff and ownership as friendly, hands-on, and accommodating. Customers appreciate professional interactions during routine drop-offs. Nevertheless, dissatisfied reviewers felt management lacked empathy and accountability when handling grooming injuries and disputed pricing adjustments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What do clients say about the quality of haircuts here?"
+      },
+      "a": {
+        "en": "Most pet owners report that dogs return neatly trimmed and smelling great, though one review reported an eye injury from shampoo."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do prices compare for grooming services?"
+      },
+      "a": {
+        "en": "Reviews generally cite reasonable base prices, but one client warned of unexpected charges added without prior phone confirmation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do the groomers work with multiple dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the stylists are knowledgeable about different dog breeds and handle various coat types."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

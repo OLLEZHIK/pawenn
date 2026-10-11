@@ -1,0 +1,126 @@
+{
+  "slug": "chicago-canine-academy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chicago+Canine+Academy/@41.9389839,-87.7506582,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcc58c181c4b5:0x551ec89fe01edd26!8m2!3d41.9389839!4d-87.7506582!16s%2Fg%2F1tg6qqdk?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated instruction alongside neighbor friction"
+      },
+      "text": {
+        "en": "Trainers Jim, Algis, and Diane receive high accolades from dog owners for guiding humans on proper handling techniques and conducting intensive bootcamps. Conversely, critical reviews describe past disciplinary techniques as overly harsh, and a nearby resident complained that outdoor classes repeatedly utilized private porch property without permission."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clear progress alongside past controversy"
+      },
+      "text": {
+        "en": "Clients working through behavioral challenges and leash-pulling report a dramatic transformation in obedience following the two-week program. Pet parents note lasting habits and renewed walking confidence. In contrast, one historical review claimed the training approach created lasting distress for their pet rather than constructive learning."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Intensive training for challenging behaviors"
+      },
+      "text": {
+        "en": "Owners of strong bully breeds and reactive mixes express relief at finding structured training that successfully manages behavioral issues and dog fights. Enthusiastic reviewers credit the academy with making their dogs safe. However, a critical past client expressed deep regret, alleging that fear-based methods were utilized."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are owners involved in the bootcamp training program?"
+      },
+      "a": {
+        "en": "Yes, after the initial adjustment period, trainers require owners to attend sessions to learn handling techniques and reinforce commands."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the academy provide boarding for trained dogs?"
+      },
+      "a": {
+        "en": "Reviewers note that boarding services are available, providing a familiar environment for dogs that have completed training programs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients purchase raw dog food at the facility?"
+      },
+      "a": {
+        "en": "Yes, multiple clients mention purchasing balanced raw dog food on-site to supplement their pets' nutritional plans."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

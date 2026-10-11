@@ -1,0 +1,188 @@
+{
+  "slug": "salon-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Salon+Dog/@41.9250101,-87.6918417,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd29b6570cf8b:0xa9744c6b78e39905!8m2!3d41.9250101!4d-87.6918417!16s%2Fg%2F1hhhh8wdf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Consistent haircuts and thorough deshedding"
+      },
+      "text": {
+        "en": "Clients consistently report high satisfaction with grooming outcomes, noting dogs emerge looking sharp, smelling clean, and neatly trimmed. Pet owners emphasize detailed attention to difficult coats, successful deshedding treatments, and precise nail clipping. Several long-term customers return regularly for breed-specific styling."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Friendly staff with attentive communication"
+      },
+      "text": {
+        "en": "Pet parents highlight the welcoming attitude of the salon team, who take time to listen to styling instructions and ask clarifying questions. Reviewers describe the staff as approachable, patient, and communicative about turnaround times. Clients appreciate the friendly reception whenever dropping off or picking up pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Patient handling for nervous pets"
+      },
+      "text": {
+        "en": "Multiple reviews mention positive experiences with anxious, timid, or rescue dogs that typically struggle at grooming facilities. Owners observe that the groomers work calmly and gently, keeping pets settled throughout bathing and clipping. Reviewers appreciate that pets return home relaxed rather than stressed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can this salon accommodate nervous or anxious dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently report that staff handle timid and rescue dogs with patience and gentleness, helping keep them calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly are grooming appointments completed?"
+      },
+      "a": {
+        "en": "Clients mention standard grooming sessions typically take between one and two hours, depending on coat condition and size."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are same-week or same-day appointments available?"
+      },
+      "a": {
+        "en": "Several owners note they were able to book appointments for the same week or even same day by calling ahead."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 weeks ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

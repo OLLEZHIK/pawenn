@@ -1,0 +1,148 @@
+{
+  "slug": "animal-advocate-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Advocate+Pet+Hospital/@41.8776859,-87.6543819,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2d0a1dab4e99:0x673e0d0504c49b6d!8m2!3d41.8776859!4d-87.6543819!16s%2Fg%2F11h3d8286s?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Warm and attentive veterinary team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary team and clinic staff for their welcoming attitude and helpfulness. Reviewers note that clinicians take time to answer questions thoroughly and provide informative guidance during appointments. Clients also appreciate doctors who follow up by phone to check on recovery after treatments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle and patient pet handling"
+      },
+      "text": {
+        "en": "Reviewers highlight the compassionate treatment of both cats and dogs during examinations and dental procedures. Pet parents note that clinicians remain calm and patient with anxious or stressed animals, helping nervous pets stay secure and comfortable throughout routine visits and urgent appointments."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clear estimates alongside procedural costs"
+      },
+      "text": {
+        "en": "Reviewers share mixed views regarding clinic fees and overall treatment expenses. Several clients report upfront price discussions and reasonable surgical bills for urgent dental work. Conversely, one pet parent felt routine visits and diagnostic plans accumulated substantial costs without resolving their cat's symptoms."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do veterinarians handle anxious pets?"
+      },
+      "a": {
+        "en": "Clients report that the veterinary staff is gentle and patient, helping nervous dogs and cats stay relaxed during physical examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic follow up after procedures?"
+      },
+      "a": {
+        "en": "Yes, pet owners appreciate that veterinarians frequently place follow-up calls to check on their pet's recovery a few days after visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment estimates provided in advance?"
+      },
+      "a": {
+        "en": "Reviewers generally note that staff explain treatment costs upfront, though some clients find cumulative diagnostic bills expensive."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

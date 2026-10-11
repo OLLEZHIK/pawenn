@@ -1,0 +1,143 @@
+{
+  "slug": "lincoln-square-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lincoln+Square+Animal+Hospital/@41.9633607,-87.6848473,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd210fd0c7729:0x6f7dc6279ae1702d!8m2!3d41.9633607!4d-87.6848473!16s%2Fg%2F1tg79n13?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate doctors alongside billing disputes"
+      },
+      "text": {
+        "en": "Reviewers highlight kind, empathetic treatment from clinicians like Dr. Archer, praising the team's dedication and patient handling of sick pets, senior cats, and ferrets. However, negative reviews cite sharp disagreements with management, describing misdiagnoses on oral masses, unexpected post-visit charges, and disputed estimates that eroded client trust."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Significant criticism over billing and estimates"
+      },
+      "text": {
+        "en": "Veterinary costs represent a primary source of customer dissatisfaction. While one long-term client considers the hospital cost-conscious, multiple reviewers report severe billing grievances. Complaints cite surgical totals reaching nearly a thousand dollars after lower initial quotes, demands for prepayment before exams, and surprise calls requesting additional fees."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for diverse pets"
+      },
+      "text": {
+        "en": "Pet owners speak positively of the medical team's gentle bedside manner with various animals. Clients note patient and calm care for elderly cats, swift emergency accommodation for litterbox issues, and skilled attention for ferrets and exotic companions. Reviewers emphasize that attending staff show genuine affection toward the pets under their care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Lincoln Square Animal Hospital treat exotic pets like ferrets?"
+      },
+      "a": {
+        "en": "Yes, clients specifically recommend Dr. Archer for knowledgeable and gentle care with ferrets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the hospital accommodate last-minute sick pet visits?"
+      },
+      "a": {
+        "en": "Reviewers note that staff have accommodated urgent issues through cancellation slots, though routine appointments may book weeks ahead."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical estimates provided before procedures?"
+      },
+      "a": {
+        "en": "Yes, but several clients strongly advise confirming all written estimates and itemized fees beforehand to avoid unexpected charges."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "pet-palace-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Palace+Grooming+Salon/@41.8458105,-87.6833634,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2d9a91c0d62f:0xecebe4eb50b1b275!8m2!3d41.8458105!4d-87.6833634!16s%2Fg%2F11csb2hd00?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive groomer with service complaints"
+      },
+      "text": {
+        "en": "Groomer Pedro receives strong commendations from longtime clients for his patience, attentiveness, and flexible scheduling. Satisfied reviewers describe him as a caring professional who works well with rescued pets. However, critical feedback highlights severe service dissatisfaction from other clients, including an unreported injury and claims of unprofessional communication."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Neat styling with health concerns"
+      },
+      "text": {
+        "en": "Styling quality receives largely positive feedback, with pet owners noting clean, fresh, and adorable haircuts for terriers, cavapoos, and mixes. Clients appreciate cute finishing touches like bandanas. In contrast, one reviewer reported that their pet contracted mange following an appointment, representing a notable divergence from typically favorable grooming outcomes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting reports on pet handling"
+      },
+      "text": {
+        "en": "Pet handling shows starkly divided client experiences. Several dog owners praise Pedro for gaining the trust of previously abused rescue dogs and handling energetic pets with gentle patience. Conversely, one reviewer reported that their dog suffered a swollen, injured eye during a session, criticizing the salon for failing to notify them of an in-salon accident."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Who performs the grooming services at Pet Palace?"
+      },
+      "a": {
+        "en": "Client reviews consistently identify Pedro as the primary groomer handling baths, haircut styling, and pet pampering."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the groomer handle rescue dogs with trust issues?"
+      },
+      "a": {
+        "en": "Reviewers report that Pedro demonstrates patience and gentle handling, successfully gaining the trust of nervous rescue pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are scheduling accommodations available?"
+      },
+      "a": {
+        "en": "Yes, patrons note that the salon works flexibly with customer schedules to fit in grooming appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

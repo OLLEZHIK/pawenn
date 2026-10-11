@@ -1,0 +1,146 @@
+{
+  "slug": "heal-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Heal+Veterinary+Clinic/data=!4m7!3m6!1s0x880fd20b4d6bbc57:0x7dd884c52d3da13f!8m2!3d41.956976!4d-87.692955!16s%2Fg%2F1tk1nlb0!19sChIJV7xrTQvSD4gRP6E9LcWE2H0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Long-term trust with select concerns"
+      },
+      "text": {
+        "en": "Many long-term clients commend the clinic team for genuine compassion, specifically naming Dr. Landini and Dr. Baethke for thoughtful medical care. Several reviewers note that clinicians take time to help pets stay calm. However, a couple of recent critical reviews express frustration with support staff, citing rushed evaluations and perceived reluctance to run diagnostic tests during busy hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate care for anxious pets"
+      },
+      "text": {
+        "en": "Pet handling receives steady praise from dog and cat owners who have visited the practice over multiple years. Reviewers note that clinicians handle nervous animals gently, easing tension for dogs anxious around men and providing a soothing clinical environment. One dissatisfied client felt a technician was rough with an agitated cat, but general sentiment points to gentle handling."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied outcomes in diagnostic evaluations"
+      },
+      "text": {
+        "en": "Experiences regarding diagnostics and treatment resolution are mixed among reviewers. While clients describe successful relief following acute health scares and thorough examinations, others recount frustration when unresolved symptoms required external specialist referrals. Unclear conclusions regarding lameness and gastrointestinal illness led some pet parents to question diagnostic accuracy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients view the clinic environment?"
+      },
+      "a": {
+        "en": "Reviewers describe the clinic spaces as clean, inviting, and relaxing, which helps soothe anxious pets during appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinarians accommodating with nervous dogs?"
+      },
+      "a": {
+        "en": "Yes, clients specifically note that doctors handle pets with gentle care, including dogs that are timid around men."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are same-day diagnostics always conclusive according to reviews?"
+      },
+      "a": {
+        "en": "Most routine visits go smoothly, though some reviewers noted cases where ambiguous x-rays required referral to specialty imaging centers."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "waiting": "-",
+        "staff": "~",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "place": "+",
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
