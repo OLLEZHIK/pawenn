@@ -1,0 +1,99 @@
+{
+  "slug": "smart-dog-training-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Smart+Dog+Training+Center/data=!4m7!3m6!1s0x8640c7bd7f11086f:0xe898bcd564386b7!8m2!3d29.8316738!4d-95.415023!16s%2Fg%2F1hc1jdwh_!19sChIJbwgRf73HQIYRt4ZDVs2LiQ4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Spacious facility for canine sports"
+      },
+      "text": {
+        "en": "Reviewers highlight the center's well-equipped building and training grounds on Curtin Street as an inviting place to work with dogs. Handlers appreciate the dedicated spaces for agility practice, group classes, and alumni gatherings, noting the venue accommodates active dogs well."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Longstanding instruction in specialized skills"
+      },
+      "text": {
+        "en": "Clients mention returning to the facility over several years with different dogs to participate in nose work courses and foundational obedience classes. Handlers value the consistent opportunity to sharpen working dog disciplines through structured, hands-on practice sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of activities are hosted at the facility?"
+      },
+      "a": {
+        "en": "Reviewers mention specialized classes such as nose work, foundational dog training, and STAR alumni gatherings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the center suitable for agility training?"
+      },
+      "a": {
+        "en": "Yes, clients highlight dedicated training spaces and agility fields suited for canine sports and practice rentals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are group training sessions available?"
+      },
+      "a": {
+        "en": "Yes, the center hosts group courses and community training events for handlers and their dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

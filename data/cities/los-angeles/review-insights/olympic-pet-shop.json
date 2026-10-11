@@ -1,0 +1,131 @@
+{
+  "slug": "olympic-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Olympic+Pet+Shop/data=!4m7!3m6!1s0x80c2c7806bf32003:0x8b8d72ba8866ab53!8m2!3d34.0527931!4d-118.2983768!16s%2Fg%2F1thw2dvn!19sChIJAyDza4DHwoARU6tmiLpyjYs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting results in grooming quality"
+      },
+      "text": {
+        "en": "Most pet parents praise the grooming outcomes, reporting beautiful haircuts, clean baths, teeth brushing, and successful detangling of matted coats on small dogs. However, one client experienced a poorly executed cut that left their dog with painful nicks, resulting in mixed sentiment regarding overall consistency."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive service alongside handling concerns"
+      },
+      "text": {
+        "en": "Clients frequently praise the shop owner as accommodating and kind, noting that technicians are gentle and helpful when working through tough mats. Conversely, a critical reviewer felt the team acted carelessly during clipping, showing that customer satisfaction can differ depending on the staff member assigned."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Care for seniors versus safety"
+      },
+      "text": {
+        "en": "Reviewers appreciate the patient handling shown toward senior pets, highlighting comfortable spa treatments that leave older dogs refreshed and relaxed. Nevertheless, one owner raised serious concerns over grooming cuts in sensitive areas, underscoring the importance of clear safety instructions for delicate animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Olympic Pet Shop groom senior dogs?"
+      },
+      "a": {
+        "en": "Yes, clients report positive spa experiences for senior dogs, including gentle baths, haircuts, and teeth cleaning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can groomers assist with matted pet coats?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention technicians who successfully brushed out difficult mats on small breeds while keeping pets calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dental brushing services available during grooming?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that teeth brushing can be included as part of full grooming and bath packages."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners know about grooming safety?"
+      },
+      "a": {
+        "en": "While most visits are gentle, one reviewer reported clipper nicks, suggesting owners clearly discuss pet sensitivity beforehand."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

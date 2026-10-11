@@ -473,7 +473,7 @@ export const de: Dictionary = {
     price: "Preis",
     vsMarket: "Gegenüber dem Stadtdurchschnitt",
     notComparedTitle: "Weitere Preise (nicht verglichen)",
-    notComparedIntro: "Teilpreise, Preise pro Stunde oder pro km oder solche, die mehr als den Standard enthalten.",
+    notComparedIntro: "Teilpreise und Preise pro Stunde oder pro km.",
     otherServices: "Weitere Preise",
     service: "Leistung",
     range: "Spanne",

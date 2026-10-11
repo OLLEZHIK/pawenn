@@ -1,0 +1,145 @@
+{
+  "slug": "tierarztpraxis-weiden",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tierarztpraxis+Weiden/@50.9385765,6.8305809,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf3be47f54df6b:0xba74a21c6fbdf7d9!8m2!3d50.9385765!4d6.8305809!16s%2Fg%2F11k3r5tvf_?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Freundliches Auftreten des Praxisteams",
+        "en": "Friendly demeanor of clinic staff"
+      },
+      "text": {
+        "de": "Patientenbesitzer beschreiben die Tierärztinnen und Fachangestellten in Köln-Weiden übereinstimmend als freundlich und zugewandt. Bei Routineuntersuchungen wird ein angenehmer Umgangston gepflegt, und das Team zeigt sich offen für Medical Training. Die menschliche Art der Behandelnden wird auch bei kritischen Bewertungen anerkannt.",
+        "en": "Pet owners consistently describe the veterinarians and clinic assistants in Cologne-Weiden as friendly and approachable. During routine consultations, staff maintain a pleasant tone and demonstrate openness toward cooperative medical training. This courteous demeanor is recognized even in critical reviews."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "de": "Gute Routinebetreuung mit Notfallkritik",
+        "en": "Solid routine care alongside emergency criticism"
+      },
+      "text": {
+        "de": "In mehreren Berichten wird die sorgfältige Untersuchung von Katzen und Hunden gelobt, wobei auch Angsthunde und Tiere mit Maulkorb stressarm behandelt werden. Demgegenüber steht ein sehr ernster Bericht über eine abgewiesene Katze mit akuter Atemnot. Die Halterin beklagte, dass in diesem Notfall keine sofortige Erstversorgung stattfand.",
+        "en": "Several reports praise thorough examinations of cats and dogs, noting low-stress handling even for fearful animals and dogs wearing muzzles. In stark contrast, one critical review described an emergency involving a cat with severe respiratory distress that was turned away without immediate first-aid intervention."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "de": "Kritik an überdurchschnittlichen Behandlungskosten",
+        "en": "Criticism of above-average treatment costs"
+      },
+      "text": {
+        "de": "Die Preisgestaltung der Praxis stößt bei mehreren Tierhaltern auf deutlichen Unmut. Kunden bezeichnen die Rechnungsbeträge als unverhältnismäßig hoch und teurer als bei vergleichbaren Praxen im Umkreis, was vereinzelt zum Arztwechsel führte. Lediglich einzelne Stimmen betonen, dass ihnen hohe Kosten bei gelungener Behandlung zweitrangig seien.",
+        "en": "Fee structures at the clinic encounter notable disapproval from several pet owners. Clients describe bills as disproportionately high compared with nearby practices, occasionally prompting changes in veterinarian. Only an isolated reviewer noted that high medical costs were secondary when treatment proved effective."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Hat die Tierarztpraxis Weiden am Wochenende geöffnet?",
+        "en": "Is the Weiden veterinary practice open on weekends?"
+      },
+      "a": {
+        "de": "Ja, Halterinnen heben positiv hervor, dass die Praxis auch an Samstagen reguläre Sprechstunden anbietet.",
+        "en": "Yes, clients highlight positively that the clinic offers consultation hours on Saturdays."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "de": "Werden Angsthunde und Hunde mit Maulkorb behandelt?",
+        "en": "Does the practice treat fearful dogs and dogs wearing muzzles?"
+      },
+      "a": {
+        "de": "Ja, Hundetrainer loben den verständnisvollen und sicheren Umgang mit schwierigen oder ängstlichen Tieren.",
+        "en": "Yes, dog trainers commend the understanding and calm management of challenging or fearful animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wie werden akute Notfälle außerhalb fester Termine gehandhabt?",
+        "en": "How are acute emergencies handled outside regular appointments?"
+      },
+      "a": {
+        "de": "Kunden weisen darauf hin, dass Notfälle teils an Partnerkliniken weiterverwiesen werden und telefonische Voranmeldung nötig ist.",
+        "en": "Clients note that emergency cases may be redirected to partner clinics and require prior phone coordination."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "vor 8 Monaten",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 8 Monaten",
+      "months": 8,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "vor 9 Monaten",
+      "months": 9,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     "stubentiger-berlin",
     "praxis-hand-pfote-herz"
   ],
-  "hash": "008fac0d6e7f4b58db9c694fbc215df5adc87d6a5486b50166d428c86e980a3a",
+  "hash": "f9aff58143e0d1290a8cd07c172dc366f277d169a1de154914d74918afc5b352",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +28,21 @@
     },
     {
       "at": "2026-10-07T08:46:31.407Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T05:27:19.178Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-08T05:29:22.884Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-08T16:52:50.086Z",
       "result": "PASS",
       "listed": 0
     }

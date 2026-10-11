@@ -1,0 +1,30 @@
+{
+  "chunk": "19-hotel",
+  "kind": "places",
+  "slugs": [
+    "meadowlake-pet-resort-furman-rd",
+    "rover-oaks-pet-resort-houston",
+    "meadowlake-pet-resort-richmond-ave",
+    "petsuites-cypress",
+    "pet-paradise-houston-hobby",
+    "houston-bark-park-and-daycare-27th-st",
+    "abc-pet-resort-spa",
+    "houston-bark-park-and-daycare-maxie-st",
+    "man-s-best-friend-houston",
+    "dogtopia-of-houston-galleria"
+  ],
+  "hash": "87e284faa47865ea7e45a221df99c7c7eb9aea44583bd6be012733c8027c1aa4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T12:13:37.363Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-10T12:15:37.366Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

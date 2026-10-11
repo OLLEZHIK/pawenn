@@ -1,0 +1,151 @@
+{
+  "slug": "puppy-love-pet-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puppy+Love+Pet+Spa/data=!4m7!3m6!1s0x80c2c3e0a2e9f3a3:0xf1391e785e9d317e!8m2!3d34.1390424!4d-118.2013403!16s%2Fg%2F1td3lw1s!19sChIJo_PpouDDwoARfjGdXngeOfE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed feedback on salon personnel"
+      },
+      "text": {
+        "en": "Client opinions regarding the personnel at Puppy Love Pet Spa are divided. Longtime patrons and a rescue volunteer describe generous assistance and welcoming front desk reception during emergency situations. In contrast, other pet owners report abrasive interactions, unaccommodating communication from ownership, and difficulty when bringing in anxious dogs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Frequent concerns regarding grooming outcomes"
+      },
+      "text": {
+        "en": "Recent grooming reviews raise significant quality and consistency concerns. While one customer appreciated full rescue cleanups, multiple pet owners report unevenly trimmed coats, unfiled sharp nails, and unexplained nicks or cuts discovered after pickup. These critical experiences have led several clients to seek alternative grooming salons."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Reports of rough pet handling"
+      },
+      "text": {
+        "en": "Customer sentiment leans critical concerning how pets are handled during appointments. A community rescuer praised gentle bath care given to neglected dogs, but two recent patrons reported that their dogs returned home trembling in pain, showing noticeable signs of physical stress and minor injuries after their grooming visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How much does a basic dog groom typically cost?"
+      },
+      "a": {
+        "en": "A reviewer reported paying $75 for a small dog bath, haircut, and nail trim, noting it was relatively affordable compared to neighboring salons."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long do dogs typically wait during an appointment?"
+      },
+      "a": {
+        "en": "While an in-store sign indicates sessions take two to three hours, clients report that dogs may spend significant time resting in kennels before or after services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon accommodate walk-in rescue situations?"
+      },
+      "a": {
+        "en": "Reviewers note that the team has accommodated emergency rescue walk-ins for bathing, tick removal, and flea treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should owners of anxious dogs keep in mind?"
+      },
+      "a": {
+        "en": "Some reviewers report that the salon owner was hesitant to groom highly nervous dogs without calming aids, so discussing temperament requirements beforehand is recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

@@ -8,6 +8,8 @@ import { attributeFromSlug, attributePath, minToIndex } from "@/lib/attributePag
 import { getDictionary, inCity, isLocale, localesForCity } from "@/lib/i18n";
 import { localeAlternates, socialMeta } from "@/lib/seo";
 import { CategoryListing, whereLabel } from "@/components/CategoryListing";
+import { BEST_SEGMENT } from "@/lib/bestPages";
+import { BestList, bestMetadata, getBestPlaces } from "@/components/BestPage";
 
 interface PageParams {
   lang: string;
@@ -28,6 +30,13 @@ async function resolve(params: Promise<PageParams>) {
   if (districtSlug === PRICES_SEGMENT[lang]) {
     if ((await getMarketPrices(category, citySlug)).size === 0) return null;
     return { locale: lang, category, city, citySlug, district: null, districtSlug, attribute: null, prices: true as const };
+  }
+  // /<category>/<city>/best: the top places (lib/bestPages.ts), while at
+  // least MIN_PLACES_BEST places qualify.
+  if (districtSlug === BEST_SEGMENT[lang]) {
+    const best = await getBestPlaces(category, citySlug);
+    if (best.length === 0) return null;
+    return { locale: lang, category, city, citySlug, district: null, districtSlug, attribute: null, prices: false as const, best };
   }
   // /<vets>/<city>/nonstop, /sobota, /exoticke-zvierata...: attribute
   // pages, while at least one place has the attribute (lib/attributePages.ts).
@@ -53,6 +62,10 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   const { locale, category, city } = resolved;
   const t = getDictionary(locale).listing;
   const locales = localesForCity(city);
+
+  if ("best" in resolved && resolved.best) {
+    return bestMetadata(locale, category, city, null, resolved.best.length, resolved.best);
+  }
 
   if (resolved.prices) {
     const tp = getDictionary(locale).prices;
@@ -125,6 +138,10 @@ export default async function CategoryCityDistrictPage({
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
+  if ("best" in resolved && resolved.best) {
+    const { locale, category, city } = resolved;
+    return <BestList locale={locale} category={category} city={city} district={null} places={resolved.best} where={whereLabel(locale, city)} />;
+  }
   if (resolved.prices) {
     return <PriceOverviewPage locale={resolved.locale} category={resolved.category} city={resolved.city} />;
   }
@@ -149,3 +166,4 @@ export default async function CategoryCityDistrictPage({
     />
   );
 }
+

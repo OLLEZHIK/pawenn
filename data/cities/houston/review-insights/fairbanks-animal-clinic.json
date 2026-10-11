@@ -1,0 +1,211 @@
+{
+  "slug": "fairbanks-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fairbanks+Animal+Clinic/data=!4m7!3m6!1s0x8640cf9bf978c91d:0x5c96e55e3ec139bb!8m2!3d29.8755176!4d-95.5253182!16s%2Fg%2F1tdw8fsd!19sChIJHcl4-ZvPQIYRuznBPl7lllw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Longstanding compassion with recent concerns"
+      },
+      "text": {
+        "en": "Many longtime clients express deep appreciation for caring veterinarians such as Dr. Sabo and Dr. Alla Kiienko, praising their kindness and attentive demeanor. Multiple reviewers note that receptionists and technicians treat visiting pets like family. However, a few dissatisfied clients report dismissive front desk interactions and cite operational shifts following staffing changes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Affectionate care for cherished pets"
+      },
+      "text": {
+        "en": "Pet owners frequently emphasize the gentle and respectful treatment their dogs and cats receive during clinical examinations. Reviewers note that staff greet pets by name and offer comforting support during stressful procedures and end-of-life visits. Several pet parents highlight that veterinarians handle aging and chronically ill animals with genuine dedication."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Fair pricing and billing transparency"
+      },
+      "text": {
+        "en": "Reviewers frequently praise this clinic for offering reasonable treatment pricing and refraining from unnecessary medical add-ons. Clients appreciate straightforward billing for routine checkups, allergy injections, and prescription medications. Nevertheless, one client felt pressured by unexpected additional charges during an allergy shot visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do veterinarians at Fairbanks Animal Clinic provide end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, clients share touching experiences regarding compassionate, respectful euthanasia support and private accommodations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prescription medications filled directly on site?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that getting prescribed medicines and refills filled at the clinic is straightforward."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accept walk-in emergencies or require appointments?"
+      },
+      "a": {
+        "en": "The clinic operates during regular business hours by appointment, referring after-hours emergencies to regional specialty centers."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "~",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

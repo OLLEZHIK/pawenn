@@ -1,0 +1,39 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "paws-and-feathers-veterinary-clinic-and-emergency-hospital",
+    "wrigleyville-veterinary-center",
+    "vetco-total-care-clybourn",
+    "pets-first",
+    "lincoln-square-animal-hospital",
+    "medical-district-veterinary-clinic-at-illinois",
+    "oz-animal-hospital-lincoln-park",
+    "vca-animal-care-center-of-chicago",
+    "banfield-pet-hospital-brickyard"
+  ],
+  "hash": "2ee16a37deb33e8512369e53b4e9ce6c1ad5974fa670ad8dca2eebb2b7aa6b4f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T16:33:46.154Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-10T16:34:48.841Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T16:36:47.112Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-10T16:38:16.147Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "quail-roost-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Quail+Roost+Animal+Hospital/data=!4m7!3m6!1s0x88d9c4765818c031:0xc19193d8c49dbaa9!8m2!3d25.5964769!4d-80.3632669!16s%2Fg%2F1tvr_j7w!19sChIJMcAYWHbE2YgRqbqdxNiTkcE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate and skilled veterinary team"
+      },
+      "text": {
+        "en": "Clients warmly praise the veterinary team and front desk reception for their friendly and attentive care. Reviewers frequently highlight Dr. Guerrero and Dr. Gomez for their extensive experience, dedication, and compassionate bedside manner during both routine checkups and difficult medical emergencies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affectionate and gentle pet care"
+      },
+      "text": {
+        "en": "Pet owners emphasize that dogs and cats are treated with genuine love, tenderness, and patience throughout their visits. Clients note that clinicians provide comforting support during stressful moments and handle sick or aging pets with dignity, ensuring animals feel calm and well cared for."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear guidance and empathetic support"
+      },
+      "text": {
+        "en": "Reviewers appreciate the clear, attentive communication provided by both the doctors and reception staff. Clients mention that team members listen carefully to owner concerns, explain diagnostic findings thoroughly, and deliver difficult prognoses with remarkable empathy and understanding."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the pricing at Quail Roost Animal Hospital?"
+      },
+      "a": {
+        "en": "Reviewers describe the clinic pricing as surprisingly reasonable and fair for medical treatments and routine care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic have convenient parking?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the facility offers plenty of convenient parking on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Which veterinarians are frequently mentioned by clients?"
+      },
+      "a": {
+        "en": "Pet owners frequently mention Dr. Guerrero and Dr. Gomez for their clinical knowledge and kind care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Quail Roost Animal Hospital located?"
+      },
+      "a": {
+        "en": "The hospital is located on SW 186th Street in Cutler Bay, serving south Miami-Dade pets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

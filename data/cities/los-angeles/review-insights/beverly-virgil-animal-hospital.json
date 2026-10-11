@@ -1,0 +1,131 @@
+{
+  "slug": "beverly-virgil-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Beverly+Virgil+Animal+Hospital/data=!4m7!3m6!1s0x80c2c768bf284183:0x43b6ac0a95cf4f2f!8m2!3d34.0736397!4d-118.2863402!16s%2Fg%2F1tgcyb1j!19sChIJg0Eov2jHwoARL0_PlQqstkM?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful personnel with handling complaints"
+      },
+      "text": {
+        "en": "Most pet owners praise the clinic staff and veterinarians for their kind service and honest guidance. Longtime clients highlight decades of dependable support from the doctor and reception team. However, one first-time visitor reported an unwelcoming experience, describing rushed staff attitudes and abrupt intake procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments and dental care"
+      },
+      "text": {
+        "en": "Clients express satisfaction with clinical results across various veterinary procedures. Reviews cite successful emergency removal of foxtails from sensitive areas, thorough dental cleanings with visible improvements, and reliable general pet wellness care that encourages owners to return."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Caring examinations beside handling critique"
+      },
+      "text": {
+        "en": "Multiple clients report that the veterinary team handles pets gently during dental procedures, grooming, and routine checkups. Conversely, one reviewer criticized how an assistant weighed a nervous pet, alleging rough handling when transferring the dog to the examination scale."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic offer on-site grooming services?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the hospital provides pet grooming in addition to routine veterinary care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the veterinary team remove foreign objects like foxtails?"
+      },
+      "a": {
+        "en": "Yes, pet owners report successful and prompt extractions of foreign plant matter like foxtails."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the regular clinic operating hours?"
+      },
+      "a": {
+        "en": "The clinic is open Monday through Saturday from 8:00 AM to 6:00 PM and closed on Sundays."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are major dental procedures performed on-site?"
+      },
+      "a": {
+        "en": "Yes, clients report comprehensive dental cleanings and treatments completed by hospital staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

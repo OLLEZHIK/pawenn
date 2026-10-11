@@ -20,7 +20,7 @@
 3. Дальше — новая задача из `tasks/pc-*.md` по `dispatcher.md`, п. 2.4.
 
 **`agy2` — Antigravity (ПК 2):**
-1. `tasks/pc2-warszawa-descriptions.md` — PR #244, ждёт проверки напарника и ревью.
+1. `tasks/done/pc2-warszawa-descriptions.md` — PR #244, ждёт проверки напарника и ревью.
 2. `tasks/pc2-warszawa-prices.md` — пилот 10 мест, PR и ждать ревью; после принятия — конвейер.
 3. Дальше — новая задача из `tasks/pc-*.md`.
 

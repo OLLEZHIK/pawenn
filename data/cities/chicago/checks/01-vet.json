@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "medvet-chicago",
+    "paws-chicago-kocourek-medical-center-lurie-clinic",
+    "veg-er-for-pets-lincoln-park",
+    "veg-er-for-pets-south-loop",
+    "portage-park-animal-hospital",
+    "hyde-park-animal-hospital-stony-island",
+    "sploot-veterinary-care-logan-square",
+    "wicker-park-veterinary-clinic",
+    "uptown-animal-hospital",
+    "burnham-park-animal-hospital"
+  ],
+  "hash": "f19afd29358a583d3cc4913d222fd055ca9fd11d3aa9b69d43af982060a450e4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T13:06:14.003Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-10T13:26:09.214Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

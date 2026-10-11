@@ -59,6 +59,7 @@ ${guidesSection}${sections.join("\n\n")}
 `;
 
   return new Response(body, {
-    headers: { "Content-Type": "text/plain; charset=utf-8" },
+    // Cached at the CDN for a day (owner, 2026-10-09: CPU on the free plan).
+    headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800" },
   });
 }

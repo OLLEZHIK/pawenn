@@ -1,0 +1,140 @@
+{
+  "slug": "dog-team-cologne",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOG+TEAM+COLOGNE+Hundeschule/@50.9188073,7.0683283,17z/data=!3m1!4b1!4m6!3m5!1s0x47bf270b7d04ea27:0xd40b6a1ae1094763!8m2!3d50.9188073!4d7.0683283!16s%2Fg%2F1thq8_98?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-06",
+  "period_to": "2026-10-06",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-06",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Engagiertes Trainerpaar mit viel Herz",
+        "en": "Dedicated trainer couple with passion"
+      },
+      "text": {
+        "de": "Kunden schätzen die persönliche Betreuung durch Melanie und ihren Mann sehr. Das Trainerpaar steht Haltern bei allen Fragen mit fundiertem Fachwissen und praktischen Ratschlägen zur Seite. Viele Rezensionen betonen die offene, verständnisvolle Art, die für eine entspannte Lernumgebung auf dem Platz sorgt.",
+        "en": "Clients deeply appreciate the personal support provided by Melanie and her partner. The trainer couple stands by dog owners with sound knowledge and practical advice on every matter. Many reviews emphasize their open, understanding approach, which fosters a relaxed learning atmosphere on the grounds."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Individuelle Begleitung für jeden Hund",
+        "en": "Individual attention for every dog"
+      },
+      "text": {
+        "de": "Besitzer heben hervor, dass im Training genau auf Temperament und Größe der Tiere geachtet wird. Beim Freilauf werden Welpen und Hunde passend eingeteilt, damit auch kleinere Rassen wie Chihuahuas sicher spielen können. Selbst anfangs unsichere Hunde fassen rasch Vertrauen und lernen einen harmonischen Umgang im Rudel.",
+        "en": "Owners emphasize that training groups pay close attention to the temperament and size of the animals. During free play, puppies and dogs are thoughtfully grouped so that smaller breeds like Chihuahuas can romp safely. Even hesitant dogs quickly gain confidence and learn balanced interactions with their peers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "de": "Großzügiges und gepflegtes Trainingsgelände",
+        "en": "Spacious and well kept grounds"
+      },
+      "text": {
+        "de": "Die Hundeschule verfügt über ein weitläufiges Außengelände mit viel Platz für Gruppenübungen und Freilauf. Halter erwähnen positiv die vorhandene Agility-Fläche, die ein abwechslungsreiches Training ermöglicht. Zudem wird die gepflegte und saubere Gestaltung des Areals von den Besuchern lobend hervorgehoben.",
+        "en": "The dog school features expansive outdoor grounds offering plenty of room for group drills and free running. Owners speak positively of the designated agility area, which enables diverse exercises. Visitors also highlight the clean and orderly maintenance of the training fields."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Wie werden Welpengruppen eingeteilt?",
+        "en": "How are puppy groups organized?"
+      },
+      "a": {
+        "de": "Im Welpentraining werden Hunde nach Größe und Temperament eingeteilt, damit auch kleinere Rassen sicher spielen können.",
+        "en": "During puppy training, dogs are grouped by size and temperament so that smaller breeds can play safely."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Gibt es auf dem Trainingsplatz Agility-Möglichkeiten?",
+        "en": "Are agility facilities available on the training ground?"
+      },
+      "a": {
+        "de": "Ja, Bewertungen erwähnen eine vorhandene Agility-Fläche für abwechslungsreiche Übungseinheiten.",
+        "en": "Yes, reviews mention an agility area available on site for varied exercise routines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wird auch Urlaubsbetreuung angeboten?",
+        "en": "Is holiday boarding available?"
+      },
+      "a": {
+        "de": "Kunden berichten, dass sie ihre Hunde bei Abwesenheit oder Urlaub vertrauensvoll in die Betreuung geben können.",
+        "en": "Clients report that they can confidently leave their dogs for care during holidays or travel."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor 2 Monaten",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "vor 4 Monaten",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 6 Monaten",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 10 Monaten",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}

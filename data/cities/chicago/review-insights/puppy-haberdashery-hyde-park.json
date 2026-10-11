@@ -1,0 +1,133 @@
+{
+  "slug": "puppy-haberdashery-hyde-park",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puppy+Haberdashery+Hyde+Park/@41.8021701,-87.586734,17z/data=!3m1!4b1!4m6!3m5!1s0x880e29cc46a3f747:0xc4219a78c43230fc!8m2!3d41.8021701!4d-87.586734!16s%2Fg%2F11t88gk562?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Skilled groomers with welcoming front desk"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the salon manager, bathers, and stylists for their friendly demeanor and creative grooming skills. Clients appreciate staff who take time to explain membership perks and care routines. A single critical review noted dissatisfaction with how management addressed an accidental grooming scratch."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Clean coats and tailored styling results"
+      },
+      "text": {
+        "en": "Customers frequently report that their dogs return looking stylish, smelling fresh, and properly brushed after full-service appointments. Reviewers highlight thorough ear cleaning, skin hydration, and smooth nail grinding. One client reported a cut during a session, but most clients praise consistent styling quality."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling during grooming sessions"
+      },
+      "text": {
+        "en": "Several clients note that staff treat pets with warmth and patience, helping anxious or hesitant dogs feel comfortable upon arrival. Owners emphasize that groomers prioritize pet wellness, paying close attention to skin health and physical comfort rather than rushing through high appointment volumes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they offer membership packages for regular grooming?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the salon offers membership options that simplify routine scheduling and provide consistent grooming perks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are included in a full grooming visit?"
+      },
+      "a": {
+        "en": "Reviews note full-service grooming includes a bath, coat conditioning, ear cleaning, teeth brushing, gland expression, and nail grinding."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners request specific haircut styles for their breed?"
+      },
+      "a": {
+        "en": "Yes, pet parents report that groomers consult with owners on styling preferences and accommodate specific breed requests."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

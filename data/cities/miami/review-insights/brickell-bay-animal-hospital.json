@@ -1,0 +1,162 @@
+{
+  "slug": "brickell-bay-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Brickell+Bay+Animal+Hospital/data=!4m7!3m6!1s0x88d9b6824930b1f5:0xfb444334d7d94ac5!8m2!3d25.7651709!4d-80.1898836!16s%2Fg%2F11xkm3t4g!19sChIJ9bEwSYK22YgRxUrZ1zRDRPs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Knowledgeable veterinarians and attentive clinic team"
+      },
+      "text": {
+        "en": "Several pet parents praise the veterinarians for their attentive expertise, describing doctors who are knowledgeable and deeply invested in pet health. While most visitors speak highly of the overall team, a few reviewers reported frustrating experiences with front desk responsiveness and administrative handling."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle attention for family pets"
+      },
+      "text": {
+        "en": "Clients emphasize the caring demeanor shown to both dogs and cats during checkups and end-of-life care. Pet owners frequently note that the hospital staff treats animals as if they were their own, creating a reassuring atmosphere for pets during difficult medical visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Mixed outcomes across treatment cases"
+      },
+      "text": {
+        "en": "Reviewers report varying clinical experiences following medical treatments. Multiple clients express deep gratitude for long-term health maintenance and compassionate care for elderly pets. Conversely, one pet owner shared a severe complaint regarding medication complications and an adverse outcome."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Brickell Bay Animal Hospital provide care for senior pets?"
+      },
+      "a": {
+        "en": "Yes, pet owners report receiving supportive and compassionate end-of-life care for elderly cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Miami?"
+      },
+      "a": {
+        "en": "The hospital is situated on Brickell Bay Drive in downtown Miami."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the veterinarians' expertise?"
+      },
+      "a": {
+        "en": "Most reviewers describe the doctors as knowledgeable and dedicated, though some note front desk administrative issues."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

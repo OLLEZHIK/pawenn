@@ -1,0 +1,158 @@
+{
+  "slug": "the-paw-central",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Paw+Central/data=!4m7!3m6!1s0x80c2c86087ee7f41:0xf14124fc2a3f5655!8m2!3d34.0078124!4d-118.256728!16s%2Fg%2F11gfnhkvdz!19sChIJQX_uh2DIwoARVVY_KvwkQfE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Grooming quality and uneven cuts"
+      },
+      "text": {
+        "en": "A majority of clients express deep dissatisfaction with grooming outcomes over the past two years. Pet owners repeatedly cite uneven coats, patchy styling on poodles, and undercoats left unshed on larger dogs. In severe instances, reviewers report pets returning with bleeding nails or severe itching after treatments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Owner instructions and billing clarity"
+      },
+      "text": {
+        "en": "Communication issues represent a frequent source of client frustration at the salon. Reviewers describe staff disregarding specific styling requests and adding unexpected charges without advance notice. Multiple customers note that concerns raised at pickup were met with dismissive remarks rather than clear explanations."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Staff interactions and customer service"
+      },
+      "text": {
+        "en": "Client feedback regarding salon personnel is predominantly critical, despite a few long-term patrons praising familiar groomers. Several reviewers describe interactions with grooming staff as argumentative, noting unaddressed complaints about pet safety. While front-desk encounters can occasionally be friendly, overall service consistency remains a significant concern."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon accept walk-in clients?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that walk-in visits are welcomed for basic pet grooming and drop-offs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report about coat trimming?"
+      },
+      "a": {
+        "en": "Several reviewers state that dogs received patchy cuts or shorter hair lengths than requested during grooming appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing estimates reliable before service?"
+      },
+      "a": {
+        "en": "Multiple pet owners report unexpected upcharges upon pickup compared to the initial quotes given during drop-off."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "waiting": "+"
+      }
+    }
+  ]
+}

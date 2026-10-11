@@ -1,0 +1,139 @@
+{
+  "slug": "goldens-tropical-world",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Golden's+Tropical+World/@41.737189,-87.6628989,17z/data=!3m1!4b1!4m6!3m5!1s0x880e2f80a97b0573:0x807399ecee7006e!8m2!3d41.737189!4d-87.6628989!16s%2Fg%2F1tj1sp2b?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-11",
+  "period_to": "2026-10-11",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-11",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Longstanding neighborhood pet and aquarium store"
+      },
+      "text": {
+        "en": "Visitors praise the welcoming atmosphere of this longstanding Auburn Gresham pet shop, describing it as an inviting fixture that has served the community for decades. Shoppers appreciate the clean store layout, well-stocked aquarium supplies, and pleasant environment whenever they stop by for routine pet essentials."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Healthy tropical fish and store pets"
+      },
+      "text": {
+        "en": "Aquarium enthusiasts frequently commend the variety and health of the fish available, highlighting robust Betta fish and hardy goldfish that thrive for years in home tanks. Families also enjoy greeting the shop's friendly resident talking bird, noting that the selection of companion animals makes visits memorable for children."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive guidance from knowledgeable storekeepers"
+      },
+      "text": {
+        "en": "Customers highlight the personal care provided by the owners and staff, noting that the team takes time to explain proper aquarium maintenance and fish care. Reviewers also appreciate the staff's willingness to place special orders if a customer needs a specific item that is temporarily out of stock on the shelves."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Golden's Tropical World carry live fish?"
+      },
+      "a": {
+        "en": "Yes, the store maintains an active stock of healthy aquarium fish including Betta fish, goldfish, and freshwater species."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the store order special pet supplies on request?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the owner is willing to place special orders for items not currently available on the shelves."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the store suitable for family visits with children?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that children enjoy visiting the store and greeting the resident talking white bird."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff members offer guidance on aquarium care?"
+      },
+      "a": {
+        "en": "Yes, customers report that the team explains water care, tank stabilization, and fish feeding in detail."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

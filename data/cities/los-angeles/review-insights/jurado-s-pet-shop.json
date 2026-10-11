@@ -1,0 +1,151 @@
+{
+  "slug": "jurado-s-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Jurado%27s+Pet+Shop/data=!4m7!3m6!1s0x80c2c8ed861c9633:0x96dbd7812fa111ca!8m2!3d34.0040415!4d-118.240641!16s%2Fg%2F11f4lf57lh!19sChIJM5Ychu3IwoARyhGhL4HX25Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed opinions on customer service"
+      },
+      "text": {
+        "en": "Most reviewers describe the personnel as kind, respectful, and attentive when helping pet owners find supplies or address basic pet issues. However, one detailed negative review reported rude behavior, lack of basic courtesy, and refusal to assist an owner seeking help for an injured animal."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Differing experiences with pet care"
+      },
+      "text": {
+        "en": "Several pet owners feel confident bringing their pets here, noting effective help with common issues like allergies and safe handling of animals. In contrast, a critical customer voiced alarm when staff allegedly refused to examine a dog with an open wound, citing serious concerns regarding animal welfare."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Contrasting impressions of store environment"
+      },
+      "text": {
+        "en": "Shoppers appreciate the neighborhood location for pet necessities and consider it a convenient stop for pet supplies and food. Conversely, a reviewer criticized the shop's tidiness, describing the facility as disorganized and expressing hesitation about the cleanliness of the premises."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What pet supplies can I buy at this shop?"
+      },
+      "a": {
+        "en": "Reviewers and local shoppers mention purchasing pet foods, seed mixes, pet accessories, and basic care supplies for domestic animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the prices at the shop?"
+      },
+      "a": {
+        "en": "Customers generally consider the prices reasonable and economical compared to larger chain retailers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is veterinary medical care provided on site?"
+      },
+      "a": {
+        "en": "While basic pet advice is sometimes offered, this is primarily a retail shop and not an accredited full-service hospital for severe traumas."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the typical operating hours?"
+      },
+      "a": {
+        "en": "The shop is open afternoons from 12:00 to 17:00 Wednesday through Monday, and is closed on Tuesdays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "waiting": "-",
+        "prices": "+",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

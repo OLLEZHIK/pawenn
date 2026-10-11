@@ -1,0 +1,162 @@
+{
+  "slug": "city-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/City+Pets/data=!4m7!3m6!1s0x8640c2b13c265f4d:0x21903230df2c7bc9!8m2!3d29.6887858!4d-95.5547861!16s%2Fg%2F1tp0f19k!19sChIJTV8mPLHCQIYRyXss3zAykCE?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Clean aquarium tanks and broad fish variety"
+      },
+      "text": {
+        "en": "Most customers praise the shop for maintaining clean aquariums, odor-free aisles, and an enjoyable selection of freshwater species including flowerhorns. While one visitor felt the overall inventory seemed diminished compared to earlier years, long-time patrons continue to appreciate browsing the fish setups."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Healthy aquarium fish alongside bird welfare concerns"
+      },
+      "text": {
+        "en": "Reviewers consistently state that aquatic animals and fish are healthy and well maintained in clear tanks. At the same time, multiple shoppers expressed concern regarding the housing conditions and apparent stress levels of caged birds on display, advising staff to improve bird care standards."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair everyday pricing and military discount"
+      },
+      "text": {
+        "en": "Pet owners appreciate the store's affordable prices across aquarium supplies, livestock, and pet accessories. Multiple clients specifically highlight good value for routine fish keeping and mention that the store accommodates military discounts, making regular visits economical."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does City Pets offer special discounts for service members?"
+      },
+      "a": {
+        "en": "Yes, customers report that the store provides a military discount on purchases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of livestock are primarily available at the store?"
+      },
+      "a": {
+        "en": "The store specializes primarily in freshwater fish, aquarium supplies, and selected small animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are tank environments kept clean and well maintained?"
+      },
+      "a": {
+        "en": "Yes, reviewers generally observe that fish tanks are clean, clear, and odor-free."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "place": "+",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    }
+  ]
+}

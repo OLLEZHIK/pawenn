@@ -7,6 +7,13 @@ import { isLocale } from "@/lib/i18n";
 // /{lang}/poradna/{slug}/ - one guide (docs/playbooks/guides.md).
 const SEGMENT = "poradna";
 
+// Built on the first visit, then served from Vercel's cache until the next
+// deploy (owner, 2026-10-09: the free plan ran out of CPU rendering these
+// pages on every visit and crawler hit). Nothing here reads the query.
+export function generateStaticParams() {
+  return [];
+}
+
 interface PageParams {
   lang: string;
   slug: string;

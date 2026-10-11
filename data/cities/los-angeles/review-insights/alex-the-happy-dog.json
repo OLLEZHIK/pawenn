@@ -1,0 +1,132 @@
+{
+  "slug": "alex-the-happy-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Alex+The+Happy+Dog/data=!4m7!3m6!1s0x80c2b8fd715ff3bf:0x98af985c7b759cad!8m2!3d34.0507813!4d-118.3448756!16s%2Fg%2F1q5hrf5j4!19sChIJv_Nfcf24woARrZx1e1yYr5g?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly groomer with occasional tension"
+      },
+      "text": {
+        "en": "Several pet parents praise Alex for his warm, sweet demeanor and genuine love for animals during grooming sessions. However, negative feedback highlights an unannounced price hike that prompted a defensive interaction, alongside an abrupt phone call where a receptionist hung up."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable haircuts and clean washes"
+      },
+      "text": {
+        "en": "Clients consistently report neat cuts and careful baths that leave coats looking tidy and smelling fresh. Reviewers emphasize that both adult dogs and young puppies receiving their first full groom come away with well-shaped trims that match their expectations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling for young pups"
+      },
+      "text": {
+        "en": "Dog owners note that their pets feel at ease around Alex and show genuine affection during visits. Reviewers highlight his attentive care with young puppies undergoing their first salon experience, observing that dogs return home calm rather than distressed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do dogs handle their first grooming visit here?"
+      },
+      "a": {
+        "en": "Clients mention that puppies undergoing their first salon session receive patient handling and return home looking neat without showing distress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Have clients reported any unexpected pricing changes?"
+      },
+      "a": {
+        "en": "One client noted a significant unannounced price increase that led to a dispute, so confirming current service fees in advance is recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is it easy to book an appointment over the phone?"
+      },
+      "a": {
+        "en": "While many clients book smoothly, one reviewer experienced a dropped call when attempting to schedule an appointment with the receptionist."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the groomer work with returning pets long term?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers highlight bringing successive family pets to Alex over several years for ongoing baths and haircut trims."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

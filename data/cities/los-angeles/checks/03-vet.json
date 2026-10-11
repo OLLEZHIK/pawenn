@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "western-animal-hospital",
+    "laaser-los-angeles-animal-specialty-emergency-rehabilitation",
+    "vca-west-los-angeles-animal-hospital",
+    "shatto-veterinary-center",
+    "veterinary-care-center",
+    "vca-animal-specialty-group",
+    "eagle-rock-pet-care",
+    "topanga-veterinary-clinic",
+    "westchester-veterinary-center-and-cat-clinic",
+    "best-friends-animal-hospital"
+  ],
+  "hash": "4c7716373d5f09b2362e314980d5a9cf90914ca6d432f2e44082ecab954bc828",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T07:14:31.495Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-09T07:18:27.420Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

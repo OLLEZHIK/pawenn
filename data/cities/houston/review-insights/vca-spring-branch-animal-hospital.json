@@ -1,0 +1,254 @@
+{
+  "slug": "vca-spring-branch-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Spring+Branch+Animal+Hospital/data=!4m7!3m6!1s0x8640c4c150d41959:0xee3eca5b02719c78!8m2!3d29.7941112!4d-95.5457665!16s%2Fg%2F1tslk2_3!19sChIJWRnUUMHEQIYReJxxAlvKPu4?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 19,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Mixed reviews on hospital staff"
+      },
+      "text": {
+        "en": "Clients describe conflicting experiences with hospital personnel. Many long-standing pet owners praise doctors such as Dr. Clemmenson and caring veterinary technicians for gentle bedside manners, while critical reviewers report inflexible check-in policies and brusque phone manners."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Low-stress and respectful pet handling"
+      },
+      "text": {
+        "en": "Pet owners commend the veterinary team for prioritizing patient comfort during clinic visits. Reviewers specifically appreciate technicians who give fearful cats autonomy to leave carriers at their own pace without forced restraint, creating a calm atmosphere for delicate checkups."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Variable communication and follow-up support"
+      },
+      "text": {
+        "en": "Reviewers report divergent communication experiences with hospital administration. Several clients praise thoughtful follow-up calls inquiring about their pet's recovery, whereas multiple reviewers cite unreturned phone calls, unanswered lines, and unresolved billing disputes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital perform routine bunny spay surgeries?"
+      },
+      "a": {
+        "en": "Yes, clients report that the hospital performs rabbit spay surgeries, providing detailed instructions and necessary recovery supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the hospital's appointment check-in protocol?"
+      },
+      "a": {
+        "en": "Clients note that the front desk strictly enforces scheduled appointment arrival times, requiring prompt check-in to avoid urgent care reclassification."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the medical team provide post-treatment check-in calls?"
+      },
+      "a": {
+        "en": "Yes, several pet owners note that staff members proactively call clients a few days after visits to check on their animal's recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What primary medical procedures are offered at this facility?"
+      },
+      "a": {
+        "en": "The practice provides wellness exams, vaccinations, urgent diagnostics, dental cleanings, and soft-tissue surgical procedures."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

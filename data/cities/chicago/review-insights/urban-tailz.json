@@ -1,0 +1,122 @@
+{
+  "slug": "urban-tailz",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Urban+Tailz/@41.926759,-87.70582,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd2f132b5aca3:0xdf9e1fc7b8bd4458!8m2!3d41.926759!4d-87.70582!16s%2Fg%2F11bw50pkz5?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive walkers alongside service criticism"
+      },
+      "text": {
+        "en": "Most clients praise walkers such as Athena for their patience, reliability, and thoughtful handling of special requests. Owners appreciate that backup walkers seamlessly step in when regular staff are away. However, one client reported a deeply negative experience without detailing specific circumstances, strongly advising against using the service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Skilled care for diverse pets"
+      },
+      "text": {
+        "en": "Pet owners value that walkers take time to learn individual habits, particularly for dogs reactive to other animals. Reviewers also appreciate specialized assistance with exotic pets, including administering medication to a sick rabbit during home sitting. Clients report that their animals receive calm, dependable care throughout every booking."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed updates alongside booking complaint"
+      },
+      "text": {
+        "en": "Several clients highlight transparent communication, pointing to real-time arrival notices, GPS maps of walk routes, and multiple photos sent each day. In contrast, one reviewer expressed overall dissatisfaction with the service. Pet parents who use regular visits value the structured mobile reports that keep them informed while at work."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Urban Tailz provide GPS maps and photo reports?"
+      },
+      "a": {
+        "en": "Yes, clients receive daily reports featuring real-time arrival notices, GPS walking routes, and several photos."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can sitters care for pets needing medication or rabbits?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that sitters have successfully administered oral medication to rabbits and followed detailed vet instructions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the team handle reactive dogs?"
+      },
+      "a": {
+        "en": "Owners share that walkers take time to understand reactive dogs, avoid triggers, and help them feel comfortable on walks."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 hours ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

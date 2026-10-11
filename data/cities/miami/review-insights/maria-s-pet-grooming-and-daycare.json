@@ -1,0 +1,139 @@
+{
+  "slug": "maria-s-pet-grooming-and-daycare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maria%27s+Pet+Grooming+and+Daycare/data=!4m7!3m6!1s0x88d9b12c60d575e7:0x10e6c26a0eb12b2f!8m2!3d25.8093709!4d-80.2253303!16s%2Fg%2F11fxvppdw8!19sChIJ53XVYCyx2YgRLyuxDmrC5hA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive owner with isolated complaints"
+      },
+      "text": {
+        "en": "Clients frequently highlight the personal dedication of Maria and her team, noting that they show genuine warmth and readily step in to help with walk-in emergencies. On the other hand, an occasional review describes encountering brusque communication or an unwelcoming attitude when discussing service expectations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle care for anxious dogs"
+      },
+      "text": {
+        "en": "Pet owners value how patiently the salon handles four-legged guests, particularly rescue pets or dogs with nervousness and anxiety. Reviewers emphasize that animals are treated with affection and warmth, allowing even timid companions to feel secure throughout their grooming appointments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Thorough grooming alongside length discrepancies"
+      },
+      "text": {
+        "en": "Several reviewers express satisfaction with grooming outcomes, commending clean coats, careful eye area cleanup, and non-anesthetic dental care. However, other clients express disappointment when hair is left longer than requested or when coat styling does not meet their initial instructions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon work with nervous or anxious pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that staff members handle timid and rescue dogs with patience and gentle attention."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are non-anesthetic teeth cleanings offered?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the facility provides anesthesia-free teeth cleaning services for pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the team assist with sudden pet care emergencies?"
+      },
+      "a": {
+        "en": "Reviewers note that the team has accommodated urgent requests, such as promptly removing matted debris near a dog's eye."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

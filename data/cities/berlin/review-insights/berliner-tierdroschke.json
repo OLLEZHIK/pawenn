@@ -1,0 +1,151 @@
+{
+  "slug": "berliner-tierdroschke",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Berliner+Tierdroschke/@52.5704657,13.3465294,17z/data=!3m1!4b1!4m6!3m5!1s0x47a853c74956c5a9:0xb7ecfeed7827e49a!8m2!3d52.5704657!4d13.3465294!16s%2Fg%2F1tfx3yjm?authuser=0&hl=de&entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-08",
+  "period_to": "2026-10-08",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-08",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "de": "Herzliche Betreuung im familiären Rahmen",
+        "en": "Warmhearted care within family surroundings"
+      },
+      "text": {
+        "de": "Kunden schätzen Michael Westphal als verlässlichen, empathischen und humorvollen Betreuer in Berlin-Reinickendorf. Er nimmt sich viel Zeit für ein ausführliches Kennenlernen vorab, betreut Hunde in kleinen Gruppen im häuslichen Umfeld und bietet zudem entspannte Tiertransporte an.",
+        "en": "Clients value Michael Westphal as a dependable, empathetic, and cheerful caretaker in Berlin-Reinickendorf. He schedules thorough introductory visits, accommodates dogs in intimate home-style groups, and also provides calm, stress-free pet transportation services across the city."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "de": "Viel Bewegung und Waldspaziergänge im Rudel",
+        "en": "Ample exercise and pack forest walks"
+      },
+      "text": {
+        "de": "Besonders hervorgehoben wird der abwechslungsreiche Tagesablauf für die Hunde. Statt kurzer Gassirunden unternimmt Michael ausgedehnte Spaziergänge im Wald, bei denen die Tiere rennen und mit Artgenossen spielen können. Auch junge Welpen werden behutsam in die kleine Gruppe integriert.",
+        "en": "The varied daily routine provided for dogs receives widespread praise. Rather than brief neighborhood turns, Michael conducts extensive excursions into surrounding forests where dogs run and socialize freely. Even young puppies are integrated gently into the manageable pack setting."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "de": "Tägliche Einblicke mit Fotos und Videos",
+        "en": "Daily insights with photos and videos"
+      },
+      "text": {
+        "de": "Tierhalter loben die regelmäßige und transparente Berichterstattung während des Pensionsaufenthalts. Mehrfach täglich versendete Foto- und Videoaufnahmen von Spaziergängen und Fütterungen vermitteln ein sicheres Gefühl und belegen die Zufriedenheit der vierbeinigen Feriengäste.",
+        "en": "Pet owners commend the regular and open communication maintained throughout boarding stays. Photographs and video clips shared multiple times a day from forest walks and feeding routines provide reassurance, confirming that their canine companions are having an enjoyable vacation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "de": "Findet die Hundebetreuung in kleinen Gruppen statt?",
+        "en": "Are dogs accommodated in small group settings?"
+      },
+      "a": {
+        "de": "Ja, die Betreuung erfolgt familiär in kleiner Gruppe im häuslichen Umfeld ohne Zwingerunterbringung.",
+        "en": "Yes, boarding takes place familiarly in intimate small groups in a home setting without kennel cages."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Wird neben der Betreuung auch ein Tiertransport angeboten?",
+        "en": "Is pet taxi transportation offered alongside boarding?"
+      },
+      "a": {
+        "de": "Ja, Michael Westphal übernimmt mit der Tierdroschke auch Fahrten und Transporte für Hunde in Berlin.",
+        "en": "Yes, Michael Westphal also provides dog taxi and transfer services across the Berlin metropolitan area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "de": "Werden Besitzer mit täglichen Fotos versorgt?",
+        "en": "Do dog owners receive daily photos and videos?"
+      },
+      "a": {
+        "de": "Ja, Halter berichten von mehrfach täglich versendeten Fotos und Videos von den Gassirunden.",
+        "en": "Yes, guardians report photos and video recordings sent multiple times a day from daily forest excursions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "vor einer Woche",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor einem Monat",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor 3 Monaten",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Bearbeitet: vor einem Jahr",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

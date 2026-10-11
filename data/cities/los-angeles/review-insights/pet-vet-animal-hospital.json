@@ -1,0 +1,162 @@
+{
+  "slug": "pet-vet-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Vet+Animal+Hospital/data=!4m7!3m6!1s0x80c29be5bf2cba11:0x4f556b94431ef3f3!8m2!3d34.2006731!4d-118.5639878!16s%2Fg%2F1ttdyq9x!19sChIJEbosv-WbwoAR8_MeQ5RrVU8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Divergent views on hospital staff"
+      },
+      "text": {
+        "en": "Several pet parents praise Dr. Wood, Dr. Gueta, and the support staff for showing warmth, empathy, and deep dedication when managing serious pet illnesses. In contrast, other reviewers report unhelpful front desk interactions, a lack of transparency, and feeling dismissed when questioning procedures or doctor recommendations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed experiences with treatment outcomes"
+      },
+      "text": {
+        "en": "Clients report positive clinical outcomes in chronic cases, including feline kidney stabilization on prescription diets and care for canine congestive heart failure. However, multiple unhappy reviewers report little improvement after expensive allergy treatments and feeling pressured into unnecessary medical procedures."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Widespread complaints about unexpected charges"
+      },
+      "text": {
+        "en": "Pricing generates substantial criticism among reviewers, with clients reporting unexpected exam charges, contradictory invoice quotes for follow-up visits, and perceived pressure to accept costly add-ons. While one longtime client found rates fair, the majority of recent comments describe veterinary costs as opaque and inflated."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners accompany their pets into the treatment room?"
+      },
+      "a": {
+        "en": "Multiple reviewers report that pets are taken to the back area for examinations and treatments rather than examined in the room with owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic manage chronic conditions like feline kidney disease?"
+      },
+      "a": {
+        "en": "A client highlighted successful management of kidney disease through prescription renal diets recommended by Dr. Wood."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should clients know about follow-up appointment costs?"
+      },
+      "a": {
+        "en": "Clients report conflicting information regarding follow-up fees, advising pet owners to confirm charges before scheduling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are typical wait times at Pet Vet Animal Hospital?"
+      },
+      "a": {
+        "en": "Reviewers report occasional waiting times of forty-five minutes or more, even when arriving for scheduled appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

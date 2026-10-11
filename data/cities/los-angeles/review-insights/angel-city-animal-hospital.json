@@ -1,0 +1,142 @@
+{
+  "slug": "angel-city-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Angel+City+Animal+Hospital/data=!4m7!3m6!1s0x80c2c74dad0db4dd:0x3bcc6134be7cced0!8m2!3d34.0955367!4d-118.2851517!16s%2Fg%2F11dxp43yjg!19sChIJ3bQNrU3HwoAR0M58vjRhzDs?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting perceptions of veterinary charges"
+      },
+      "text": {
+        "en": "Feedback concerning clinic costs shows sharp divergence. Several pet owners describe standard examination fees as reasonable and fair compared to other local practices, noting no pressure to accept extra procedures. In contrast, critical reviewers cite unexpectedly high estimates reaching a thousand dollars, expensive diagnostics, and mandatory prepayment policies."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Kind doctors alongside client frustrations"
+      },
+      "text": {
+        "en": "Pet owners report differing experiences with the clinic personnel. Positive reviewers highlight compassionate, welcoming front desk receptionists and attentive veterinarians who explain care options with patience and detail. However, dissatisfied clients express disappointment with clinic management, noting rigid administrative procedures and difficult encounters."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Punctual appointments and advance booking"
+      },
+      "text": {
+        "en": "Clients appreciate that appointments generally run on schedule, with pets being examined promptly upon arrival. Pet parents mention that scheduling is smooth when booking in advance, though one client was frustrated by the requirement to prepay a booking fee over the phone before securing their preferred time slot."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is advance appointment booking required?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize that the hospital operates on an appointment-only basis and recommend scheduling ahead of time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic require deposit fees when booking?"
+      },
+      "a": {
+        "en": "A reviewer reported that the clinic requested payment in advance when scheduling an examination over the phone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's treatment outcomes?"
+      },
+      "a": {
+        "en": "Pet owners report life-saving care and successful recoveries for critically ill pets, including acute vomiting cases and specialized dental surgery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prescription medications filled on-site?"
+      },
+      "a": {
+        "en": "A client noted that pet parents may need to coordinate directly with outside pharmacies to fulfill certain prescription requests."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

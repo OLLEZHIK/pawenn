@@ -1,0 +1,30 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "emancipet-northwest-fwy",
+    "central-houston-animal-hospital",
+    "baxter-and-cleo-veterinary-clinic",
+    "eado-veterinary-clinic",
+    "woodlake-pet-hospital",
+    "east-end-animal-surgery-and-urgent-care",
+    "vetco-total-care-north-fwy",
+    "best-care-animal-hospital",
+    "bellaire-richmond-pet-hospital",
+    "northwest-animal-hospital"
+  ],
+  "hash": "1f44b0ac619c91ae487beccf002bcfc020c917c42fdaeee9b39fdc04cf125117",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-10T12:44:39.579Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-10T12:48:44.857Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

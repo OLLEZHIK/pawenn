@@ -1,0 +1,35 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "angel-city-animal-hospital",
+    "southpaw-vets",
+    "all-pets-medical-centre",
+    "granada-veterinary-clinic",
+    "l-a-pet-clinic",
+    "banfield-pet-hospital-chatsworth",
+    "veterinary-medical-center",
+    "vetco-total-care-porter-ranch",
+    "larchmont-village-vet",
+    "olympic-pet-hospital"
+  ],
+  "hash": "8e80cb08e2c4a3ccef0ad14a9c3ff0126fd8b9e7ea4e01fcad6eab8f9d70338f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T11:02:28.860Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-09T11:07:35.356Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-09T11:11:31.769Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

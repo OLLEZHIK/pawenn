@@ -1,0 +1,30 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "centinela-feed-pet-supplies-centinela",
+    "the-urban-pet",
+    "kahoots-feed-pet",
+    "bluecollar-working-dog",
+    "unleashed-by-petco-granada-hills",
+    "al-s-pets-and-supplies",
+    "john-s-feed-2",
+    "centinela-feed-pet-supplies-pico",
+    "tams-pet-foods-supplies",
+    "jurado-s-pet-shop"
+  ],
+  "hash": "3dc35846ce428b81bcc0a0b9e8e1c06b62b11520c710d873fb524456e362b0b2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T07:56:17.349Z",
+      "result": "FAIL",
+      "listed": 38
+    },
+    {
+      "at": "2026-10-09T08:01:17.579Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

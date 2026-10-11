@@ -1,0 +1,171 @@
+{
+  "slug": "mid-north-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mid+North+Animal+Hospital/@41.9219221,-87.6484822,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd31a706ec75b:0x733f261e7c5aef23!8m2!3d41.9219221!4d-87.6484822!16s%2Fg%2F1tfbnycl?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Long-tenured veterinarians and caring reception"
+      },
+      "text": {
+        "en": "Lincoln Park pet owners express strong gratitude for the veterinary staff, highlighting Dr. Egan and Dr. Schnoor alongside welcoming receptionists. Longtime clients who have visited for decades commend the clinical team for thorough examinations and personal dedication to household pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive care for companion pets"
+      },
+      "text": {
+        "en": "Reviewers emphasize the practice's gentle handling of tiny puppies, nervous cats, and senior companion animals. Pet guardians feel supported by clinicians who adapt treatments to each animal's personality, contributing to long, healthy lives for neighborhood dogs and cats."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustrations regarding corporate pricing structure"
+      },
+      "text": {
+        "en": "Multiple reviewers express frustration over rising service costs under corporate management, specifically citing steep quotes exceeding three thousand dollars for canine dental cleanings. While one client noted cost consciousness, pricing remains a prominent source of client dissatisfaction."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How long has Mid North Animal Hospital served Chicago?"
+      },
+      "a": {
+        "en": "The hospital has provided veterinary care in Chicago's Lincoln Park neighborhood since 1973, serving generations of pet families."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are clinicians comfortable answering detailed medical questions?"
+      },
+      "a": {
+        "en": "Yes, reviewers commend Dr. Egan and the clinical staff for explaining complex medical details in clear, accessible language without rushing appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is Mid North Animal Hospital accredited?"
+      },
+      "a": {
+        "en": "Yes, the facility is an AAHA-accredited animal hospital and certified Cat-Friendly Practice."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 2,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

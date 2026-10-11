@@ -1,0 +1,170 @@
+{
+  "slug": "mueller-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mueller+Animal+Hospital/data=!4m7!3m6!1s0x88d9b07c95225547:0x616b92448f88669c!8m2!3d25.8670524!4d-80.2684518!16s%2Fg%2F1tp0fgms!19sChIJR1UilXyw2YgRnGaIj0SSa2E?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 9,
+      "title": {
+        "en": "Critical feedback regarding front desk and care"
+      },
+      "text": {
+        "en": "While several long-term pet owners commend Dr. Martinez, Dr. Zouain, and Dr. Emilio for their surgical skill and bedside manner, more than half of recent reviewers express severe dissatisfaction with the team. Displeased clients describe unhelpful reception staff, perceived indifference, and a lack of empathy during urgent visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Serious concerns over misdiagnosis and treatments"
+      },
+      "text": {
+        "en": "A minority of clients report successful surgeries and reliable routine treatment, but multiple reviewers report alarming medical outcomes. Dissatisfied owners cite prolonged ineffective therapies, missed life-threatening conditions such as cancer, and pets requiring emergency revision surgeries elsewhere."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Complaints over escalating medical bills"
+      },
+      "text": {
+        "en": "Several reviewers criticize high charges for tests, prescription medications, and repeat evaluations that did not resolve their pets' underlying medical problems. Clients express frustration over being pressed to purchase add-on products and paying substantial sums without achieving clear diagnoses."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Mueller Animal Hospital treat walk-in emergencies?"
+      },
+      "a": {
+        "en": "Recent reviewers report that the hospital turned away emergency cases, advising owners that emergencies are not accepted."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What surgical procedures have clients mentioned?"
+      },
+      "a": {
+        "en": "Satisfied clients report soft-tissue surgery and general surgical procedures performed by the veterinary doctors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are follow-up evaluations included after treatment?"
+      },
+      "a": {
+        "en": "Clients report being charged separate fees for follow-up assessments when medical symptoms persisted after initial visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Mueller Animal Hospital located?"
+      },
+      "a": {
+        "en": "The hospital is located on East 49th Street in Hialeah."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

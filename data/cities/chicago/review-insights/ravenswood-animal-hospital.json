@@ -1,0 +1,149 @@
+{
+  "slug": "ravenswood-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ravenswood+Animal+Hospital+LLC/data=!4m7!3m6!1s0x880fcdf601c9ffaf:0xe4b7c2c5aafc713e!8m2!3d41.9615958!4d-87.6981213!16s%2Fg%2F11bbwn9b2w!19sChIJr__JAfbND4gRPnH8qsXCt-Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive veterinarians alongside refill disputes"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinary practitioners and clinical team for thorough, empathetic examinations and dedicated palliative care. Clients feel trusted and supported during difficult decisions. However, a couple of reviewers felt staff were unaccommodating when declining temporary medication bridges."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate treatment for household pets"
+      },
+      "text": {
+        "en": "Clients consistently highlight compassionate handling for both dogs and cats across routine wellness appointments and medical treatments. Reviewers note that veterinary staff treat neighborhood pets with warmth, helping them feel secure during nail trims and checkups."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Reliable medical care with quality concerns"
+      },
+      "text": {
+        "en": "Several reviewers report excellent results with routine wellness care, diagnostic exams, and minor wound bandaging. Conversely, one former client felt overall standards had declined since earlier surgeries, and another reported difficulty coordinating care after an injury."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic follow up after appointments?"
+      },
+      "a": {
+        "en": "Yes, clients mention receiving detailed care emails and follow-up phone calls after visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can prescription refills be bridged without an exam?"
+      },
+      "a": {
+        "en": "Reviewers report that the clinic generally requires an in-person visit to establish patient care before filling medications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical services offered at the clinic?"
+      },
+      "a": {
+        "en": "Yes, the practice provides outpatient surgical care, diagnostics, and routine preventative medicine."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

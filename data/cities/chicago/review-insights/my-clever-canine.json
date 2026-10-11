@@ -1,0 +1,104 @@
+{
+  "slug": "my-clever-canine",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/My+Clever+Canine/@42.0024611,-87.6724111,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd1ab536e0c03:0xe461271ca7d6ab0b!8m2!3d42.0024611!4d-87.6724111!16s%2Fg%2F11ggr9pscw?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2024-10-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient and compassionate dog trainer"
+      },
+      "text": {
+        "en": "Reviewers express strong gratitude for trainer Caz, describing her as skilled, patient, and exceptionally kind. Clients emphasize that she educates handlers with practical guidance, helping first-time owners build confidence. Dog parents note that she demonstrates deep care for both dogs and their families throughout the training process."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Practical tools and lasting progress"
+      },
+      "text": {
+        "en": "Clients report meaningful, lasting improvements in their dogs' ability to communicate and navigate everyday environments. Reviewers note that the training gives both dogs and owners essential skills to succeed together at home. Handlers emphasize that customized training techniques provide clear solutions tailored to specific household situations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Specialized adaptations for senior dogs"
+      },
+      "text": {
+        "en": "Reviewers highlight the trainer's gentle approach when working with challenging needs, including senior pets experiencing sensory decline. One owner specifically noted that tactile touch cues were successfully introduced for a dog suffering from vision and hearing loss. Clients feel their dogs are treated with deep respect and understanding."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Who leads the training programs at My Clever Canine?"
+      },
+      "a": {
+        "en": "Reviewers highlight working directly with trainer Caz, praising her individualized coaching and patient teaching style."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can My Clever Canine assist senior or special-needs dogs?"
+      },
+      "a": {
+        "en": "Yes, clients report successful custom training using touch cues for older dogs dealing with hearing or vision loss."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the business offer guidance for first-time dog owners?"
+      },
+      "a": {
+        "en": "Yes, first-time pet owners report receiving comprehensive coaching on how to communicate effectively with their dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

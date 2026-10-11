@@ -1,0 +1,126 @@
+{
+  "slug": "wicker-park-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wicker+Park+Veterinary+Clinic/data=!4m7!3m6!1s0x880fd2d1af3fba25:0xb5c2a73ca59c3d9f!8m2!3d41.9029216!4d-87.666003!16s%2Fg%2F11cfbkpmz!19sChIJJbo_r9HSD4gRnz2cpTynwrU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated clinicians with emergency dispute"
+      },
+      "text": {
+        "en": "Pet owners consistently praise long-tenured veterinarians and technicians for their thoughtful bedside manner during regular checkups and puppy care. However, a client in a critical emergency noted an unsupportive front-door encounter when the clinic was closing."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Informative consultations with mixed guidance"
+      },
+      "text": {
+        "en": "Clients generally appreciate doctors who clearly explain treatment options and answer detailed medical concerns without rushing. Nevertheless, one visiting owner reported poor communication and abrupt directions during an after-hours dog attack emergency."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Accommodating scheduling with intake limits"
+      },
+      "text": {
+        "en": "Regular clients appreciate that the practice accommodates urgent same-day appointments during routine operating hours for sudden pet illnesses. However, walk-in emergency intake is strictly limited when the clinic is closing or lacks veterinary staff."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Wicker Park Veterinary Clinic require an appointment deposit?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that an approximately $80 deposit is required when booking, which is then credited toward the final bill upon arrival."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners request same-day or quick appointments?"
+      },
+      "a": {
+        "en": "Clients report that the clinic accommodates same-day and urgent routine visits when scheduling permits during regular business hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing and fees transparent during visits?"
+      },
+      "a": {
+        "en": "Pet owners note that fees for standard examinations and wellness services are fair and reasonable compared to emergency clinics."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

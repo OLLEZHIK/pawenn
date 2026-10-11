@@ -1,0 +1,279 @@
+{
+  "slug": "panorama-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Panorama+Pet+Hospital/data=!4m7!3m6!1s0x80c29731c4f59359:0x824debcd0beef911!8m2!3d34.2136105!4d-118.4495601!16s%2Fg%2F1tm12w2f!19sChIJWZP1xDGXwoAREfnuC83rTYI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 23,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 19,
+      "title": {
+        "en": "Attentive veterinary care and staff"
+      },
+      "text": {
+        "en": "Reviewers consistently commend Dr. Gupta and the veterinary technicians for their compassionate bedside manner and thorough medical evaluations. Pet parents appreciate that doctors listen closely to health concerns and take time to explain treatment plans without rushing appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Comforting approach for anxious pets"
+      },
+      "text": {
+        "en": "Clients emphasize how well the clinic accommodates nervous dogs and cats during checkups and surgical procedures. Pet owners note that visiting animals remain calm and relaxed in the examination rooms, with staff providing thoughtful calming touches like lavender handkerchiefs to reduce stress."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed feedback on medical billing"
+      },
+      "text": {
+        "en": "Several reviewers raise concerns about high costs for routine medications and unexpected charges added to standard exams. While some clients find specialized diagnostic packages reasonable, others report feeling caught off guard by prescription markups and mandatory examination fees."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of veterinary care are offered?"
+      },
+      "a": {
+        "en": "Clients report receiving routine wellness exams, vaccinations, ear infection treatments, and complex soft tissue surgeries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pets be seen for emergency or urgent visits?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers note the hospital squeezed in pets during urgent medical situations even when the appointment schedule was full."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic help nervous animals stay calm?"
+      },
+      "a": {
+        "en": "Pet parents report a relaxed lobby environment and thoughtful touches, including lavender cloths and gentle handling during exams."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

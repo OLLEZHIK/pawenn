@@ -1,0 +1,40 @@
+{
+  "chunk": "19-hotel",
+  "kind": "places",
+  "slugs": [
+    "dog-dude-ranch",
+    "somi-pet-resort",
+    "doggies-gone-wild",
+    "pet-ville-inn",
+    "dog-hotels-wynwood",
+    "dog-hotels-brickell",
+    "maria-s-pet-grooming-and-daycare",
+    "woodland-lodge-pet-resort",
+    "pet-avenue-grooming-boarding",
+    "magic-grooming-pet-resort"
+  ],
+  "hash": "21f63ed5c82e16969c689ba3bf662edf39a8a7574226cdf5b253ead3b69d890b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T23:59:07.335Z",
+      "result": "FAIL",
+      "listed": 105
+    },
+    {
+      "at": "2026-10-10T01:02:23.880Z",
+      "result": "FAIL",
+      "listed": 104
+    },
+    {
+      "at": "2026-10-10T01:11:54.849Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-10T01:14:51.621Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

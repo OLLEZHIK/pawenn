@@ -1,0 +1,174 @@
+{
+  "slug": "centinela-feed-pet-supplies-pico",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centinela+Feed+%26+Pet+Supplies/data=!4m7!3m6!1s0x80c2bba17c4ff117:0x16905133a79232f9!8m2!3d34.0376277!4d-118.4340951!16s%2Fg%2F1tk6ql73!19sChIJF_FPfKG7woAR-TKSpzNRkBY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful and welcoming store associates"
+      },
+      "text": {
+        "en": "Shoppers consistently praise the store team and store manager for their friendly customer service and knowledgeable product recommendations. Reviewers note that employees readily assist in locating hard-to-find pet foods and resolving customer inquiries with care."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Extensive product selection and parking"
+      },
+      "text": {
+        "en": "Customers appreciate the well-stocked shelves offering specialty pet foods, treats, and toys. Pet parents also highlight convenient on-site amenities, including accessible parking and an in-store self-wash station that simplifies pet grooming routines."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Specialized foods for dogs and cats"
+      },
+      "text": {
+        "en": "Reviewers emphasize the variety of specialty nutrition and treats available for both puppies and adult felines. Pet owners highlight being able to find rare dietary formulas and engaging toys tailored specifically to their pets' unique developmental stages."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this location have a self-serve pet wash?"
+      },
+      "a": {
+        "en": "Yes, customers report that the store features a convenient self-wash area alongside its pet supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking easy at this store location?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate having dedicated and accessible parking spaces directly outside the shop."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What kinds of products does the store stock?"
+      },
+      "a": {
+        "en": "Shoppers report finding premium dog and cat food brands, specialty treats, durable toys, and discontinued pet formulas."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

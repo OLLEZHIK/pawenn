@@ -1,0 +1,167 @@
+{
+  "slug": "puppies-to-go",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puppies+To+Go/data=!4m7!3m6!1s0x88d9b853132a7881:0xa2cfd1e158f40dc8!8m2!3d25.7632174!4d-80.3143543!16s%2Fg%2F1thvthn8!19sChIJgXgqE1O42YgRyA30WOHRz6I?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Attentive store staff and customer guidance"
+      },
+      "text": {
+        "en": "Most customers commend the boutique staff, particularly highlighting consultant Stefany for patient guidance and attentive communication. Reviewers appreciate that employees answer detailed questions without applying aggressive sales pressure. However, one buyer reported deep dissatisfaction regarding animal welfare communication and adoption policies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Healthy puppies and variety of breeds"
+      },
+      "text": {
+        "en": "Pet owners frequently celebrate finding healthy, affectionate purebred and designer puppies, noting that dogs quickly bonded with their new families. Reviewers share positive experiences selecting family companions. In contrast, one critical customer expressed serious concerns about past puppy care, puppy mills, and leash training conditions."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Pleasant atmosphere and clean boutique setting"
+      },
+      "text": {
+        "en": "Visitors frequently mention the boutique's fresh, clean presentation, noting that the retail space smells pleasant and resembles an upscale mall store rather than a traditional kennel. Customers appreciate the tidy environment and welcoming ambiance when meeting available puppies on Southwest 8th Street."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of puppies are available at Puppies To Go?"
+      },
+      "a": {
+        "en": "The store offers a variety of purebred and designer puppy breeds, including companion dogs like Cocker Spaniels and Yorkies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How clean and maintained is the retail facility?"
+      },
+      "a": {
+        "en": "Customers consistently describe the store as fresh, clean, and pleasant, highlighting an upscale boutique atmosphere."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do employees assist customers with selecting puppies without pressure?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that staff members provide helpful answers and allow visitors to choose pets without aggressive sales tactics."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

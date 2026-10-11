@@ -1,0 +1,159 @@
+{
+  "slug": "giovanni-s-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Giovanni%27s+Pet+Shop/data=!4m7!3m6!1s0x8640b791be76872b:0xef54ff9412108d69!8m2!3d29.8787977!4d-95.3662513!16s%2Fg%2F1tg5ch46!19sChIJK4d2vpG3QIYRaY0QEpT_VO8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful guidance and compassionate service"
+      },
+      "text": {
+        "en": "Reviewers emphasize Giovanni's welcoming attitude and knowledgeable assistance with both store supplies and basic veterinary needs. Pet owners note that staff members gladly answer questions about young puppies and accommodate customers arriving near closing time. Visitors consistently describe an approachable and caring store owner."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective animal treatments and support"
+      },
+      "text": {
+        "en": "Multiple clients report successful medical and dietary support for their pets, including recovery from serious puppy illnesses. Reviewers appreciate that veterinary recommendations produced clear improvements in pet health. Customers also find the recommended pet foods and supplies well suited to their new companions."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair and accessible service rates"
+      },
+      "text": {
+        "en": "Pet parents highlight competitive and transparent pricing for basic wellness checks, vaccinations, and retail merchandise. Reviewers appreciate that the owner provides practical care without unnecessary upselling or inflated fees. Clients frequently remark that costs remain manageable compared to larger clinics."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Giovanni's Pet Shop provide veterinary care alongside supplies?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe the location as both a pet supply store and a clinic offering basic veterinary treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customers describe the pricing for pet services?"
+      },
+      "a": {
+        "en": "Clients report fair, competitive rates for pet care and treatments without excessive service charges."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can shoppers get advice on puppy care and nutrition?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that staff guide first-time puppy owners through selecting appropriate food and essential supplies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -26,6 +26,7 @@ import { safeJsonLd } from "@/lib/safeJsonLd";
 import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
+import { BEST_TEXT, bestPath, rankBest } from "@/lib/bestPages";
 import { pricesPath } from "@/lib/priceSlugs";
 import { FilterPanel } from "./FilterPanel";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
@@ -201,6 +202,16 @@ export async function CategoryListing({
       active: key === attributePage,
       href: key === attributePage ? listingPath(locale, chipCategory, citySlug) : attributePath(locale, chipCategory, citySlug, key),
     }));
+  // "Best rated" first: the top places of this city or district with what
+  // customers praise (lib/bestPages.ts), while enough places qualify.
+  if (category && !attributePage && rankBest(all).length > 0) {
+    attributeChips.unshift({
+      key: "best" as AttributeKey,
+      label: BEST_TEXT[locale].chip,
+      active: false,
+      href: bestPath(locale, category, citySlug, districtSlug),
+    });
+  }
 
   // Attribute pages get no category FAQ: its answers (how many clinics,
   // price range) are about all vets, not the ones with the attribute, and repeat the

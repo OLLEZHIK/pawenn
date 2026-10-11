@@ -1,0 +1,125 @@
+{
+  "slug": "diversey-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Diversey+Animal+Hospital/@41.9324003,-87.7275094,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcd785860221f:0xc63604f36ae0a1b8!8m2!3d41.9324003!4d-87.7275094!16s%2Fg%2F1tcwp5w8?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Warm and compassionate veterinary team"
+      },
+      "text": {
+        "en": "Every recent review praises Dr. George and his two female clinic assistants for fostering a welcoming, supportive, and kind office environment. Clients appreciate that staff take time to answer questions, treat visitors with genuine warmth, and provide helpful guidance during routine appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and patient pet care"
+      },
+      "text": {
+        "en": "Pet parents highlight how comfortable their dogs feel during visits to this neighborhood clinic. Reviewers with puppies as well as multi-dog households note that clinicians show great affection and attentiveness, easing pet stress during checkups and physical examinations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable long-term health outcomes"
+      },
+      "text": {
+        "en": "Long-term clients and new visitors alike express strong trust in the clinic's ongoing medical management. Pet owners report dependable health improvements and attentive treatment plans that keep their pets active, healthy, and consistently well looked after over time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are prices considered reasonable at Diversey Animal Hospital?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers comment positively on the clinic's fair and affordable service rates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the team handle nervous puppies and dogs?"
+      },
+      "a": {
+        "en": "Clients share that Dr. George and his assistants are exceptionally calm and affectionate, helping pets feel at ease."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic welcome multiple-pet households?"
+      },
+      "a": {
+        "en": "Yes, owners of multiple dogs note that the practice accommodates their pets comfortably and provides attentive care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "20 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

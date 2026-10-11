@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "gilley-animal-clinic",
+    "pinecrest-veterinary-hospital",
+    "miami-pet-clinic",
+    "eco-deco-pet-hospital",
+    "homestead-animal-hospital",
+    "kendall-pointe-animal-hospital-emergency-24-7",
+    "west-kendall-animal-hospital",
+    "aspca-community-veterinary-clinic-affordable-miami-spay-neuter",
+    "thrive-pet-healthcare-specialists-miami",
+    "pet-lovers-animal-clinic-nw-7th-st"
+  ],
+  "hash": "596e98c72485f46639dd4e71fbb2851403751a0312b088252e75a3d7aac13481",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-09T22:38:39.790Z",
+      "result": "FAIL",
+      "listed": 69
+    },
+    {
+      "at": "2026-10-09T22:40:20.992Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

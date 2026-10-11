@@ -1,0 +1,150 @@
+{
+  "slug": "sam-s-green-paw",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sam%27s+Green+Paw/data=!4m7!3m6!1s0x80c2be127098c00b:0xbd8fbb2caf12c2c!8m2!3d34.13928!4d-118.380758!16s%2Fg%2F1tp8_9gf!19sChIJC8CYcBK-woARLCzxyrL72As?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful and Attentive Grooming Staff"
+      },
+      "text": {
+        "en": "Clients appreciate the friendly and proactive salon team in Studio City. Reviewers mention that staff take good care of dogs and proactively call to clarify haircut details. However, one regular noted occasional inconsistencies between front desk notes and groomers."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dependable Cuts with Occasional Variation"
+      },
+      "text": {
+        "en": "Most pet owners are very pleased with their dogs' grooming results, praising superb styling and neat lion cuts. While the majority of reviews reflect high satisfaction, a client visiting over seventeen months reported occasional inconsistency in blade lengths."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean One-Stop Pet Care Facility"
+      },
+      "text": {
+        "en": "Pet parents highlight the salon as an exceptionally clean and welcoming environment. Clients describe the Studio City location as a dependable one-stop shop for both full-service grooming and dog daycare, where pets feel happy and excited during drop-off and pickup."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the facility offer dog daycare alongside grooming?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the location as a one-stop shop providing both dog daycare and professional grooming in Studio City."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do staff handle specific grooming requests?"
+      },
+      "a": {
+        "en": "Staff often call clients to confirm styling preferences like keeping full tails, though one reviewer noted occasional miscommunication between front desk and groomers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pickup and drop-off times flexible?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that pickup times are convenient and flexible, making daily daycare and grooming visits straightforward."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How clean is the grooming salon?"
+      },
+      "a": {
+        "en": "Reviewers specifically note that the facility is kept super clean and well organized."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "results": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

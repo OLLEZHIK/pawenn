@@ -1,0 +1,159 @@
+{
+  "slug": "valley-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/valley+animal+hospital/data=!4m7!3m6!1s0x80c29749650f4aa3:0x306cf1b1606a40d6!8m2!3d34.2109534!4d-118.4666998!16s%2Fg%2F1tcy94jy!19sChIJo0oPZUmXwoAR1kBqYLHxbDA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Longtime doctors amidst service friction"
+      },
+      "text": {
+        "en": "Long-term clients warmly praise Dr. Nolasco and Dr. Katila for compassionate care spanning over a decade, along with helpful front desk assistance from staff like Diane. However, several critical reviews cite hostile interactions, dismissed concerns, and unhelpful employee attitudes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Bilingual services contrasted with disputes"
+      },
+      "text": {
+        "en": "Spanish-speaking pet parents appreciate having bilingual staff who communicate treatment plans clearly in Spanish. Conversely, dissatisfied clients describe communication breakdowns surrounding test requirements, medication refills, and delays in releasing medical records."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling for dogs and cats"
+      },
+      "text": {
+        "en": "Reviewers emphasize that veterinarians and assistants demonstrate gentle techniques when examining cats and dogs. Owners of nervous pets note that doctors handle animals with respect during routine exams, helping soothe anxious pets during clinic visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are Spanish-speaking veterinary services available?"
+      },
+      "a": {
+        "en": "Yes, clients highlight that bilingual staff and doctors communicate effectively in Spanish, which families find very helpful."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Which veterinarians are frequently cited by longtime clients?"
+      },
+      "a": {
+        "en": "Reviewers regularly praise Dr. Nolasco and Dr. Katila for providing dependable care over multiple years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What concerns do critical reviews raise?"
+      },
+      "a": {
+        "en": "Critical feedback centers on disputes regarding bundled treatment packages, prescription refill policies, and staff responsiveness."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

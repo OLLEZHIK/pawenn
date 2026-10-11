@@ -12,7 +12,13 @@ import { money } from "./money";
 
 export { money };
 
-export const comparable = (r: ServicePriceRow) => !r.partial && r.unit === null && !r.note;
+// Compared: every full price for the whole service - not partial, not per
+// hour or km. The same rows that make the market median (lib/data.ts,
+// COMPARABLE_PRICE). A note ("incl. hospitalisation") is shown next to the
+// price, it no longer takes it out of the comparison (owner, 2026-10-08: the
+// place pages showed prices with no city comparison while the median and the
+// card signs already counted them).
+export const comparable = (r: { partial: boolean; unit: string | null }) => !r.partial && r.unit === null;
 
 export interface PriceSummary {
   market: MarketPrice | undefined;

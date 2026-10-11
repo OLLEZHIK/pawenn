@@ -1,0 +1,145 @@
+{
+  "slug": "ibark-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/iBark+Grooming+Salon/@41.9385554,-87.7533461,17z/data=!3m1!4b1!4m6!3m5!1s0x880fcc62b21048e1:0x2ec8da88d30579a9!8m2!3d41.9385554!4d-87.7533461!16s%2Fg%2F11fxcj95z6?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dependable haircuts and styling quality"
+      },
+      "text": {
+        "en": "Pet owners broadly commend the grooming cuts and breed-specific styling provided at the salon. Long-time patrons note that their dogs return looking well-kept, clean, and neatly trimmed across repeat appointments. While one reviewer reported razor burn on a schnauzer belly, general customer feedback highlights tidy clipping and dependable grooming results."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Accommodating groomers alongside service lapses"
+      },
+      "text": {
+        "en": "Customer service experiences show a clear split between regular clients and first-time visitors. Several patrons praise individual groomers like Zuli for accommodating, friendly, and attentive interactions. Conversely, dissatisfied reviewers describe dismissive front-desk communication, citing unhelpful responses regarding vaccination rules and post-grooming concerns."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "General pet happiness with isolated concerns"
+      },
+      "text": {
+        "en": "The salon receives warm praise from recurring customers who state their dogs enjoy visits and arrive home relaxed and happy. However, negative reviews highlight pet safety concerns, including vague explanations regarding vaccination requirements and an instance of skin irritation following clipping, prompting some owners to caution first-time patrons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does iBark Grooming Salon work with different dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients mention that groomers handle a variety of breeds comfortably, including schnauzers and doodles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customers describe pricing at the salon?"
+      },
+      "a": {
+        "en": "Reviewers consider the rates very fair, noting promotional rates such as 5 for introductory visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments completed quickly according to reviews?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention fast service and timely turnaround for baths and haircut sessions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

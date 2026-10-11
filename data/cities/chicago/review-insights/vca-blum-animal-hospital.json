@@ -1,0 +1,173 @@
+{
+  "slug": "vca-blum-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VCA+Blum+Animal+Hospital/@41.9405406,-87.6509085,17z/data=!3m1!4b1!4m6!3m5!1s0x880fd3af2a1d41b5:0x87beac25bd37a173!8m2!3d41.9405406!4d-87.6509085!16s%2Fg%2F1tfln0lf?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-10",
+  "period_to": "2026-10-10",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-10",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate caregivers alongside difficult interactions"
+      },
+      "text": {
+        "en": "Client impressions of the personnel vary significantly. Satisfied pet owners praise kind veterinarians such as Dr. Hayes and friendly front desk staff for supportive routine care and prompt surgical treatment. However, other reviewers describe negative experiences with individual doctors, citing condescending communication, a perceived commercial focus, and inconsistent relief vet care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Communication breakdowns during critical care"
+      },
+      "text": {
+        "en": "Reviewers cite significant communication shortcomings during serious medical evaluations. Critical feedback describes a failure to communicate life-threatening red-flag symptoms clearly, difficulties navigating online portal login issues, and feeling talked down to by clinical staff. While routine booking online is straightforward, clients urge greater diagnostic transparency."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Distress over adverse outcomes and oversight"
+      },
+      "text": {
+        "en": "Client reports reflect deep owner distress concerning medical outcomes and diagnostic thoroughness. While one reviewer experienced a successful surgery and cast placement for a cat's broken paw, multiple owners express heartbreak over adverse medication reactions and missed warning signs. Pet parents emphasize the vital importance of rigorous diagnostic diligence and patient monitoring."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can appointments be booked online at VCA Blum?"
+      },
+      "a": {
+        "en": "Yes, clients mention that scheduling appointments online through the clinic portal is straightforward."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the hospital handle acute emergency injuries?"
+      },
+      "a": {
+        "en": "Reviewers report that the facility can accommodate urgent same-day evaluations and surgical procedures for acute fractures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How should clients navigate procedure costs at the clinic?"
+      },
+      "a": {
+        "en": "Pet owners advise requesting itemized cost estimates before authorizing diagnostic tests and elective medical procedures."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "23 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "prices": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

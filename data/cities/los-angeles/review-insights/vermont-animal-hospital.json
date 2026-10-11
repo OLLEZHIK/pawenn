@@ -1,0 +1,189 @@
+{
+  "slug": "vermont-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vermont+Animal+Hospital/data=!4m7!3m6!1s0x80c2c72382c1af6b:0xaef34c6542843e27!8m2!3d34.0450616!4d-118.2911732!16s%2Fg%2F11h2fl21hl!19sChIJa6_BgiPHwoARJz6EQmVM864?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-09",
+  "period_to": "2026-10-09",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-09",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Veterinary care and bedside manner"
+      },
+      "text": {
+        "en": "Client impressions of the veterinary team are noticeably divided. Many pet owners speak warmly of Dr. Lee and caring technicians who handle sick animals and strays with gentle compassion. However, critical reviewers report hurried physical exams where pets felt overlooked, as well as disagreements regarding accurate breed identification."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Examination fees and package pricing"
+      },
+      "text": {
+        "en": "Pricing transparency generates contrasting reactions from visitors. Several reviewers praise competitive rates for international travel documentation, routine vaccinations, and minor medication refills. Conversely, other clients complain about compulsory examination fees and sudden unexpected charges for required baseline testing."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Phone follow-up and record sharing"
+      },
+      "text": {
+        "en": "Communication practices show both strengths and notable lapses according to recent feedback. Pet parents value doctors who call back within hours to explain medication instructions and lab diagnostics thoroughly. At the same time, multiple reviewers report difficulties securing copies of medical records and x-rays despite repeated requests."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients obtain documentation for international pet travel?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the clinic provides prompt and affordable paperwork for pets traveling internationally."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are follow-up consultations included for ongoing treatments?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that free follow-up doctor checks were granted within a thirty-day window for recurring conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly does the clinic provide copies of digital x-rays?"
+      },
+      "a": {
+        "en": "Clients note that obtaining digital x-ray files sometimes requires repeated follow-ups or visiting the reception desk directly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
