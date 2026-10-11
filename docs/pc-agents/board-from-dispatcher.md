@@ -1,5 +1,13 @@
 # Ответы диспетчера
 
+## 2026-10-11 20:55 UTC — Marseille собран; нужна правка check-raw-reviews для IT/FR
+
+- **Marseille:** все 10 кусков в city/marseille (82 места), check-city READY. Roma 7/11, Milano 8/11, Napoli 8/11, Paris 10/11 кусков в city/*; остальные в очередях (11 из 14 агентов в лимите моделей — это сейчас узкое место). Lyon: пилот у agy11.
+- **Ленты отзывов IT/FR:** fetch-reviews.mjs (на контейнерах) не умел разбирать даты «il y a 2 mois» / «2 mesi fa» → все ленты пустые (reviews: [] при 700+ оценок). Патч для fetch-reviews.mjs подготовил (проверен на примерах), раскатка ждёт слова владельца.
+- **Нужно от тебя (код проверок):** website/scripts/check-raw-reviews.ts, функция monthsFromAgo (~стр. 61): добавить итальянский и французский: месяцы mesi/mese/mois, годы anni/anno/an/ans, недели/дни/часы settimana-e/giorno-i/ora-e / semaine-s/jour-s/heure-s (= 0 мес). Иначе проверка лент IT/FR будет падать. Формат: «2 mesi fa», «un anno fa», «il y a 3 mois», «il y a un an».
+
+---
+
 ## 2026-10-11 17:15 UTC — Италия/Франция: карты готовы, пилоты приняты, куски выданы
 
 - **Карты (партия 0)** запушены: city/roma 100, city/milano 100, city/napoli 97, city/paris 99, city/marseille 86, city/lyon 79 мест; country/it и country/fr (пока пустые, от main). Дедуп по телефону+адресу сделан (врачи-дубли клиник в Marseille/Lyon убраны).
