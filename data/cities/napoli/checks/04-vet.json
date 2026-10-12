@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "clinica-veterinaria-il-cucciolo",
+    "ambulatorio-veterinario-cimarosa-dott-valenti-a",
+    "la-tortuga-srl",
+    "palamara-giovanna",
+    "ambulatorio-veterinario-cilea",
+    "ambulatorio-veterinario-dott-luca-gianfrancesco",
+    "clinica-veterinaria-salusvet-amalfitano-dr-raffaele",
+    "ambulatorio-veterinario-ben-hur-di-rapacciuolo-dr-carlo",
+    "ambulatorio-veterinario-posillipo",
+    "ambulatorio-veterinario-santa-patrizia-corso-secondigliano-556"
+  ],
+  "hash": "b46c63151271bd2406ec00dae21272768a983e884038f9bbe896dc44ab827d10",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T00:59:08.177Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-12T01:02:20.073Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
