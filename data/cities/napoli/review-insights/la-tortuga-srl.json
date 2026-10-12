@@ -1,0 +1,87 @@
+{
+  "slug": "la-tortuga-srl",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Tortuga+Srl/data=!4m7!3m6!1s0x133b085d4d36a1ad:0x628bd7753a6d5938!8m2!3d40.8520557!4d14.2510492!16s%2Fg%2F11b6jgwy0b!19sChIJraE2TV0IOxMROFltOnXXi2I?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Assistenza veterinaria ed empatia professionale",
+        "en": "Veterinary care and professional empathy"
+      },
+      "text": {
+        "it": "I giudizi sul personale veterinario evidenziano opinioni contrastanti. Due proprietari descrivono le dottoresse come professioniste scrupolose, empatiche e capaci di instaurare un ottimo feeling con i cuccioli durante le visite. Al contrario, un'esperienza negativa riporta sensazioni di fretta, stanchezza e scarsa disponibilità all'ascolto.",
+        "en": "Feedback concerning the veterinary staff shows diverging client impressions. Two owners describe the practitioners as conscientious, empathetic, and skilled at establishing rapport with puppies. Conversely, a dissatisfied reviewer felt the consultation was rushed and tired, complaining of a lack of attentive empathy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Come descrivono i clienti l'approccio dei veterinari con i cuccioli?",
+        "en": "How do clients describe the vets' approach with puppies?"
+      },
+      "a": {
+        "it": "La maggior parte dei proprietari segnala visite attente, modi empatici e grande scrupolo professionale.",
+        "en": "Most owners note attentive consultations, empathetic manners, and thorough professional dedication."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Le visite veterinarie si svolgono sempre con disponibilità di tempo?",
+        "en": "Are veterinary visits always conducted without time pressure?"
+      },
+      "a": {
+        "it": "I clienti abituali sono molto soddisfatti, ma una recensione ha lamentato tempi stretti e fretta.",
+        "en": "Regular clients are well satisfied, although one reviewer complained of rushed consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "I clienti consigliano la struttura per le visite di controllo?",
+        "en": "Do clients recommend the clinic for routine checkups?"
+      },
+      "a": {
+        "it": "Sì, diversi proprietari considerano lo studio un punto di riferimento fidato per la salute dei loro animali.",
+        "en": "Yes, several owners consider the practice a trusted reference point for their pets' medical care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
