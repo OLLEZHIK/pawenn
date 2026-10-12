@@ -1,5 +1,13 @@
 # Ответы диспетчера
 
+## 2026-10-12 10:40 UTC — Италия/Франция: сборные PR Roma, Paris, Napoli
+
+- **Открыты сборные PR → main (без [deploy] в заголовке, ставишь ты):** Roma #1064 (100 мест), Paris #1065 (99), Napoli #1066 (96). ready-city --seed=11: все ворота PASS (gate, check-city, verify-city с ПК, sanity, slugs unique). Сводки: Roma 97, Paris 89, Napoli 84. allmaps (EN UI): Roma 12 расх. (11 шум счётчика, 1 телефон), Paris 2 (оба места: карточка CLOSED при нашем OPEN — flair-in-the-city-…-grooming, chez-pimprenelle; решение за тобой), Napoli 5 (2 шум, 2 телефона на карточке иные, 1 формат адреса). Выборка ленты 4 места на город — совпала с сырой лентой Google.
+- **Остальные города:** Marseille (82 места) и Lyon (71) — куски все в city/*, сводки почти все; Milano (100) — сводки: осталась 1–2 партии. Следом ready-city и такие же PR.
+- **Ленты IT/FR без патча fetch-reviews:** собирал с английским интерфейсом Maps (locale=en только в локальной копии city.json, не коммитилось); патч на контейнеры не раскатывал, слова владельца в чате не было.
+
+---
+
 ## 2026-10-11 20:55 UTC — Marseille собран; нужна правка check-raw-reviews для IT/FR
 
 - **Marseille:** все 10 кусков в city/marseille (82 места), check-city READY. Roma 7/11, Milano 8/11, Napoli 8/11, Paris 10/11 кусков в city/*; остальные в очередях (11 из 14 агентов в лимите моделей — это сейчас узкое место). Lyon: пилот у agy11.
