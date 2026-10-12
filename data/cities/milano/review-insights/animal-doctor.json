@@ -1,0 +1,136 @@
+{
+  "slug": "animal-doctor",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Doctor/data=!4m7!3m6!1s0x4786c6c12d6822c1:0x3c500df73019b63e!8m2!3d45.4786417!4d9.2061275!16s%2Fg%2F11g03fdr2c!19sChIJwSJoLcHGhkcRPrYZMPcNUDw?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Competenza medica e pareri discordanti",
+        "en": "Medical competence and divided opinions"
+      },
+      "text": {
+        "it": "La maggior parte delle recensioni esprime grande apprezzamento per la professionalità dei medici di Via Lecco e per l'accoglienza calorosa. Un cliente, tuttavia, contesta un approccio diagnostico eccessivamente invasivo proposto durante una visita urgente.",
+        "en": "Most client reviews express great appreciation for the professional competence of the doctors on Via Lecco and their warm welcome. However, one client strongly disputed an overly invasive diagnostic path recommended during an emergency outpatient consultation."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Esiti dei percorsi di cura specialistici",
+        "en": "Specialist treatment results and recovery"
+      },
+      "text": {
+        "it": "Diversi proprietari confermano guarigioni riuscite e controlli specialistici impeccabili che hanno garantito il recupero del proprio animale. Al contempo, viene riportato un disaccordo su un sospetto neurologico risolto altrove con terapie conservative.",
+        "en": "Several pet guardians confirm successful recoveries and flawless specialist exams that restored their animals to good health. Concurrently, one review details a disagreement over a suspected neurological issue successfully managed elsewhere conservatively."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Assistenza dedicata a cani anziani",
+        "en": "Dedicated care for senior pets"
+      },
+      "text": {
+        "it": "I clienti evidenziano l'attenzione costante dimostrata dallo staff verso cani seguiti in percorsi terapeutici prolungati. Pur in un quadro generalmente positivo, emergono perplessità sull'opportunità di anestesie diagnostiche per pazienti geriatrici.",
+        "en": "Clients highlight the constant medical care shown by clinic staff toward dogs undergoing prolonged therapeutic treatments. While general feedback is largely positive, questions were raised concerning the necessity of diagnostic anesthesia in frail geriatric patients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ambulatorio si trova in una zona comoda di Milano?",
+        "en": "Is the clinic conveniently located in Milan?"
+      },
+      "a": {
+        "it": "Sì, la struttura si trova in Via Lecco, facilmente raggiungibile a piedi nella zona di Porta Venezia.",
+        "en": "Yes, the clinic is situated on Via Lecco, easily accessible on foot in the Porta Venezia district."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "I medici offrono consulenze specialistiche mirate?",
+        "en": "Do the doctors provide targeted specialist consultations?"
+      },
+      "a": {
+        "it": "Sì, i proprietari segnalano visite specialistiche approfondite e percorsi clinici seguiti con continuità.",
+        "en": "Yes, pet owners report detailed specialist evaluations and carefully monitored recovery plans."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono percepite le tariffe per gli esami urgenti?",
+        "en": "How are fees for urgent diagnostic tests perceived?"
+      },
+      "a": {
+        "it": "Nelle recensioni si evidenzia che accertamenti diagnostici d'urgenza completi possono comportare costi rilevanti.",
+        "en": "Reviews indicate that comprehensive urgent diagnostics and blood panels can incur significant costs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
