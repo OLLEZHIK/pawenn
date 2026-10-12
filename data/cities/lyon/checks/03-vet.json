@@ -1,0 +1,35 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "cabinet-veterinaire-felin-cat-s-eye",
+    "clinique-veterinaire-bellecour",
+    "dramard-valerie",
+    "cabinet-veterinaire-de-montchat",
+    "cabinet-veterinaire-de-la-martiniere",
+    "mon-chat-et-moi-veterinaires-a-lyon-3",
+    "cecile-leslie-james",
+    "veterinaire-gambetta",
+    "kinepattes",
+    "ordre-des-veterinaires-aura"
+  ],
+  "hash": "fb642fc448e19831a7851645d3d8e109b05b6bf72b96b6b771d1137059bafa0e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T03:53:00.795Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-12T03:53:50.706Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-12T03:54:35.503Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
