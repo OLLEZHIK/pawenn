@@ -1,0 +1,176 @@
+{
+  "slug": "dsa-13",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DSA+13/data=!4m7!3m6!1s0x12c9c0c7895f06b5:0x1de9afb4e262eec9!8m2!3d43.2918637!4d5.3734674!16s%2Fg%2F1td104jd!19sChIJtQZficfAyRIRye5i4rSv6R0?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "fr": "Équipe serviable et conseils personnalisés",
+        "en": "Helpful staff and tailored advice"
+      },
+      "text": {
+        "fr": "La majorité des clients loue l'accueil chaleureux des vendeurs et leur disponibilité pour orienter le choix des équipements adaptés, qu'il s'agisse de bottines pour chiens de randonnée ou de nourriture pour chats difficiles. Un client de passage regrette toutefois un conseil inadapté lors de l'essayage d'un harnais trop large.",
+        "en": "Most customers commend the friendly welcome from the sales staff and their willingness to guide gear selection, whether sizing hiking boots for dogs or picking food for finicky cats. However, an occasional visitor noted disappointment regarding advice received during the fitting of an ill-fitting harness."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Satisfaction produit avec retours partagés",
+        "en": "Product satisfaction with mixed feedback"
+      },
+      "text": {
+        "fr": "Les acheteurs soulignent dans l'ensemble la bonne qualité des accessoires et des croquettes qui conviennent parfaitement à leurs animaux de compagnie. Si la plupart trouvent des solutions idéales pour satisfaire leurs compagnons, quelques réserves ponctuelles apparaissent lorsqu'un accessoire acheté s'avère mal dimensionné une fois rentré à la maison.",
+        "en": "Shoppers generally emphasize the strong quality of gear, leashes, and specialized pet food that suit their companions well. While most find dependable solutions to keep their pets happy and well-equipped, isolated feedback mentions frustration when an item ends up being incorrectly sized once tested on the animal at home."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Large sélection d'articles en magasin",
+        "en": "Broad in-store selection of supplies"
+      },
+      "text": {
+        "fr": "Les visiteurs mettent en avant la diversité des rayons de cette boutique du 1er arrondissement de Marseille, proposant des marques réputées comme Ruffwear ainsi qu'un grand choix de jouets, colliers et harnais. L'ambiance conviviale du lieu est appréciée, même si certains clients trouvent les tarifs relativement élevés sur certaines gammes.",
+        "en": "Visitors highlight the wide variety across the aisles of this pet shop in Marseille's 1st arrondissement, featuring established brands such as Ruffwear alongside an extensive range of toys, collars, and harnesses. The welcoming atmosphere is praised, even though a few patrons consider prices comparatively premium on select product lines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quelles marques et types d'accessoires trouve-t-on chez DSA 13 ?",
+        "en": "What brands and accessory types are stocked at DSA 13?"
+      },
+      "a": {
+        "fr": "La boutique propose un large choix de colliers, laisses, harnais techniques (notamment Ruffwear), jouets et bottines de protection pour chiens et chats.",
+        "en": "The shop offers a wide selection of collars, leashes, technical harnesses (including Ruffwear), toys, and protective dog booties."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le magasin propose-t-il un service de livraison ?",
+        "en": "Does the store provide a delivery service?"
+      },
+      "a": {
+        "fr": "Oui, des clients réguliers soulignent la réactivité et la gentillesse du service de livraison assuré par l'équipe.",
+        "en": "Yes, regular customers highlight the responsiveness and courtesy of the delivery service provided by the staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Peut-on essayer un harnais sur place avec son chien ?",
+        "en": "Can a dog try on a harness in the shop?"
+      },
+      "a": {
+        "fr": "Oui, l'équipe accueille les animaux en magasin pour procéder aux essayages, même s'il convient de bien vérifier l'ajustement avant de finaliser l'achat.",
+        "en": "Yes, the team welcomes pets into the store for fittings, although owners should double-check sizing carefully before purchasing."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}
