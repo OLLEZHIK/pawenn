@@ -1,0 +1,151 @@
+{
+  "slug": "clinique-veterinaire-bellecour",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+Bellecour/data=!4m7!3m6!1s0x47f4eb9c75030415:0x81da36bac2c39952!8m2!3d45.7574368!4d4.8283819!16s%2Fg%2F11r8xc70ws!19sChIJFQQDdZzr9EcRUpnDwro22oE?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "fr": "Accueil contrasté au cœur de la Presqu'île",
+        "en": "Contrasting reception in central Bellecour"
+      },
+      "text": {
+        "fr": "Les avis clients partagent des impressions divergentes sur l'équipe vétérinaire de Bellecour. Plusieurs propriétaires saluent la gentillesse et la compétence du docteur Roux et des assistantes lors des visites. Cependant, d'autres témoignages critiquent vivement l'accueil au comptoir, déplorant un manque d'empathie et des échanges tendus.",
+        "en": "Client reviews reflect contrasting impressions of the veterinary team near Place Bellecour. Several pet parents praise the kindness and clinical skill of Dr. Roux and the assistants during consultations. However, other reviews sharply criticize the front desk, reporting a lack of empathy and frustrating interactions."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Avis partagés sur les tarifs et la facturation",
+        "en": "Critical feedback on billing and product pricing"
+      },
+      "text": {
+        "fr": "La tarification de la clinique suscite des retours majoritairement critiques parmi les avis récents. Alors qu'une cliente apprécie un traitement adapté avec des honoraires raisonnables, deux autres avis dénoncent des frais jugés abusifs lors d'hospitalisations prolongées ou des litiges financiers à l'achat de produits vétérinaires.",
+        "en": "Clinic fees receive predominantly critical feedback across recent reviews. While one client appreciated suitable treatment at reasonable rates for her cat, two other reviews expressed frustration over perceived overcharging during prolonged hospitalizations or financial disputes over pet supply purchases."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Prise en charge des chiens et des chats",
+        "en": "Care for dogs and cats during exams"
+      },
+      "text": {
+        "fr": "Les retours concernant la prise en charge des compagnons sont partagés. Certains maîtres remarquent que leur animal reste calme et serein grâce à des gestes doux et attentionnés pendant la consultation. À l'inverse, un propriétaire déplore un refus de prescription antalgique pour soulager son chien blessé après une morsure.",
+        "en": "Reviews regarding animal care during appointments present divided perspectives. Some owners note that their pets remain remarkably calm thanks to gentle and attentive handling during exams. Conversely, another client expressed deep disappointment when pain relief was reportedly withheld for an injured dog."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique reçoit-elle sans rendez-vous en fin de journée ?",
+        "en": "Does the clinic accept walk-ins late in the day?"
+      },
+      "a": {
+        "fr": "Oui, des clients rapportent avoir été accueillis un vendredi en fin d'après-midi sans rendez-vous préalable.",
+        "en": "Yes, clients mention being accommodated on a Friday late afternoon without a prior appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Où se situe la clinique dans Lyon ?",
+        "en": "Where is the clinic located in Lyon?"
+      },
+      "a": {
+        "fr": "La clinique est située rue Antoine de Saint-Exupéry, à proximité immédiate de la place Bellecour dans le 2e arrondissement.",
+        "en": "The clinic is situated on Rue Antoine de Saint-Exupéry, close to Place Bellecour in Lyon's 2nd arrondissement."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Quels types de soins sont assurés pour les chats ?",
+        "en": "What treatments are provided for felines?"
+      },
+      "a": {
+        "fr": "La clinique assure la médecine générale, le traitement des troubles comportementaux et les soins courants pour chats.",
+        "en": "The clinic provides general medicine, treatment for behavioral disorders, and routine care for cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

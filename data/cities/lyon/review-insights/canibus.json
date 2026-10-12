@@ -1,0 +1,134 @@
+{
+  "slug": "canibus",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Canibus/data=!4m7!3m6!1s0x47f4ea43ef00befd:0xd1ad20f1394e966e!8m2!3d45.7499908!4d4.8442026!16s%2Fg%2F11b8_q6kyz!19sChIJ_b4A70Pq9EcRbpZOOfEgrdE?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Soins soignés et coupes impeccables",
+        "en": "Neat grooming and impeccable haircuts"
+      },
+      "text": {
+        "fr": "Les maîtres expriment une grande satisfaction quant à la qualité des tontes et du toilettage réalisés dans le salon du 7e arrondissement. Les chiens repartent parfaitement mis en valeur, élégants et impeccables après chaque séance. La régularité du travail est particulièrement saluée par des clients fidèles depuis des années.",
+        "en": "Pet owners express great satisfaction with the grooming and clipping quality delivered at the 7th arrondissement salon. Dogs return home perfectly groomed, elegant, and looking their best after every visit. The consistent standard of styling is especially appreciated by long-time loyal clients."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Accueil chaleureux et grande écoute",
+        "en": "Warm welcome and attentive care"
+      },
+      "text": {
+        "fr": "La responsable du salon est décrite comme une professionnelle chaleureuse, disponible et passionnée par son métier. Les retours soulignent son écoute bienveillante et ses conseils avisés pour chaque type d'animal. Cette relation de confiance pousse de nombreux propriétaires à lui confier leurs animaux sur la durée.",
+        "en": "The salon owner is widely described as warm, dedicated, and truly passionate about companion animal care. Reviewers emphasize her attentive approach and sound advice adapted to each pet's breed. This enduring trust encourages many owners to return regularly over numerous years."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Douceur et respect du chien",
+        "en": "Gentle approach and pet well-being"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'attention constante portée au bien-être des chiens, qu'il s'agisse de terriers ou de bergers américains. Les animaux reviennent détendus et sereins, sans aucun signe d'anxiété après leur soin. La patience de la toiletteuse met immédiatement les compagnons en confiance.",
+        "en": "Client reviews highlight the groomer's thoughtful attention to canine well-being, whether handling small terriers or American Shepherds. Pets return home calm and relaxed, showing no signs of stress after their grooming session. The patient demeanor immediately reassures companion animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Faut-il prendre rendez-vous pour un toilettage ?",
+        "en": "Is an advance appointment required for grooming?"
+      },
+      "a": {
+        "fr": "Oui, il est recommandé de réserver par téléphone pour convenir d'un créneau adapté à la taille et au pelage de votre chien.",
+        "en": "Yes, scheduling in advance by telephone is advised to secure an appropriate time slot for your dog's size and coat."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quelles races de chiens sont accueillies chez Canibus ?",
+        "en": "Which dog breeds are accepted at Canibus?"
+      },
+      "a": {
+        "fr": "Le salon prend en charge des races très variées, des petits caniches et terriers jusqu'aux bergers de taille moyenne.",
+        "en": "The salon caters to diverse breeds, ranging from miniature poodles and terriers to medium-sized shepherds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les animaux craintifs sont-ils bien pris en charge ?",
+        "en": "Are nervous or sensitive dogs handled with care?"
+      },
+      "a": {
+        "fr": "Oui, la toiletteuse adapte ses gestes avec patience et douceur afin que chaque chien reste détendu pendant les soins.",
+        "en": "Yes, the groomer works patiently and gently to keep sensitive dogs calm and comfortable throughout the session."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
