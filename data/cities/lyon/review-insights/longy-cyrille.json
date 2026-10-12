@@ -1,0 +1,133 @@
+{
+  "slug": "longy-cyrille",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Longy+Cyrille/@45.7794701,4.8279502,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb1eb78941a3:0xf8d5cf70b508a404!8m2!3d45.7794701!4d4.8279502!16s%2Fg%2F1tj51yn5?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Attachement et douceur envers les animaux",
+        "en": "Gentle approach and dedication to animals"
+      },
+      "text": {
+        "fr": "Les propriétaires réguliers soulignent la passion authentique du docteur Cyrille Longy pour les animaux dans le 4e arrondissement de Lyon. Les clients saluent sa patience avec les chats timides et sa capacité à adapter les soins au tempérament de chaque compagnon, assurant un suivi fidèle sur de très longues années.",
+        "en": "Long-standing pet owners highlight Dr. Cyrille Longy's authentic passion for animals in Lyon's 4th arrondissement. Clients appreciate his calm patience with timid cats and his ability to tailor clinical examinations to each pet's temperament, providing faithful healthcare across many years of companionship."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Engagement professionnel aux retours contrastés",
+        "en": "Dedicated care with contrasting client feedback"
+      },
+      "text": {
+        "fr": "Les avis expriment majoritairement une grande confiance envers un praticien bienveillant qui conseille avec mesure sans pousser à des dépenses superflues. Toutefois, les retours se révèlent partagés, une cliente rapportant un échange particulièrement conflictuel et condescendant au sujet de la délivrance de produits antiparasitaires.",
+        "en": "Most reviews express high confidence in a caring veterinarian who provides balanced advice without prescribing unnecessary costs. However, overall feedback is mixed, as an owner reported a distinctly abrasive and condescending interaction at the clinic counter regarding parasite treatment prescriptions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Explications médicales et dialogue partagé",
+        "en": "Medical explanations with divided experiences"
+      },
+      "text": {
+        "fr": "Plusieurs maîtres mettent en avant des explications claires et détaillées données pendant la consultation, le vétérinaire prenant le temps d'exposer chaque geste médical. À l'inverse, un avis récent déplore un manque de pédagogie et un ton cassant lors d'une simple demande de renseignement sans consultation préalable.",
+        "en": "Several clients highlight clear and detailed explanations provided during consultations, with the practitioner taking time to describe medical procedures step by step. Conversely, a recent review criticizes an abrupt tone and inflexible attitude when answering inquiries about medications outside of a formal appointment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Où est situé le cabinet du docteur Cyrille Longy ?",
+        "en": "Where is Dr. Cyrille Longy's practice located?"
+      },
+      "a": {
+        "fr": "Le cabinet vétérinaire est situé au 43 Rue Jacques-Louis Hénon dans le 4e arrondissement de Lyon (La Croix-Rousse).",
+        "en": "The veterinary practice is located at 43 Rue Jacques-Louis Hénon in Lyon's 4th arrondissement (La Croix-Rousse)."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Le vétérinaire prend-il le temps d'expliquer les soins ?",
+        "en": "Does the veterinarian explain treatments during visits?"
+      },
+      "a": {
+        "fr": "Oui, les clients satisfaits rapportent que le praticien prend son temps et détaille ses gestes lors des examens.",
+        "en": "Yes, satisfied clients report that the practitioner takes his time and explains his actions during examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les animaux craintifs sont-ils bien accueillis ?",
+        "en": "Are timid or anxious pets handled gently?"
+      },
+      "a": {
+        "fr": "Oui, plusieurs avis indiquent une grande douceur et une capacité à mettre en confiance les chats particulièrement timides.",
+        "en": "Yes, several reviews highlight great gentleness and an ability to put naturally shy cats at ease."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
