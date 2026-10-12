@@ -1,0 +1,157 @@
+{
+  "slug": "animarium",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animarium/data=!4m7!3m6!1s0x12c9b89ffe26e193:0x8d05e5f2925dc0a8!8m2!3d43.2601666!4d5.3939084!16s%2Fg%2F1tdjltgk!19sChIJk-Em_p-4yRIRqMBdkvLlBY0?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Commerçant passionné et accueil chaleureux",
+        "en": "Passionate owner and warm welcome"
+      },
+      "text": {
+        "fr": "Les clients réguliers apprécient l'accueil personnalisé et la fidélité de Pierre, le gérant de l'animalerie de Mazargues. Les acheteurs soulignent sa bienveillance, son honnêteté et le plaisir renouvelé de soutenir un commerce indépendant de quartier. La proximité humaine et la gentillesse du responsable créent un climat de confiance durable.",
+        "en": "Longtime customers praise the personalized welcome and loyalty of Pierre, the shopkeeper in Mazargues. Shoppers highlight his warmth, genuine honesty, and the enduring pleasure of supporting a neighborhood independent pet store. This friendly human touch and attentive service build lasting trust with local pet parents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Passion des rongeurs et aquariophilie",
+        "en": "Passion for rodents and aquariums"
+      },
+      "text": {
+        "fr": "Les avis reflètent un attachement profond pour les petits animaux adoptés sur place, notamment les lapins et petits rongeurs de compagnie. Les clients témoignent de compagnons en bonne santé qui ont embelli leur foyer pendant de nombreuses années. Les poissons et la faune aquatique bénéficient également d'un suivi attentionné en magasin.",
+        "en": "Reviews reflect deep affection for small animals adopted at the shop, especially pet rabbits and rodents. Customers share moving stories of healthy companions who brightened their homes for many years. Tropical fish and aquatic life also receive careful maintenance, ensuring thriving pets for home aquariums."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Conseils techniques et expertise reconnue",
+        "en": "Technical advice and proven expertise"
+      },
+      "text": {
+        "fr": "Les retours d'expérience saluent les explications claires et avisées du commerçant pour l'installation d'aquariums ou l'habitat de rongeurs. Sa grande maîtrise des espèces permet d'orienter les débutants comme les passionnés avec pertinence. Les recommandations sont jugées honnêtes, sans incitation inutile à la surconsommation.",
+        "en": "Feedback highlights the owner's clear, insightful explanations when setting up fresh aquariums or choosing proper rodent habitats. His deep knowledge of various species allows him to guide beginners and hobbyists with great accuracy. Recommendations are regarded as honest and realistic, never pushing unnecessary purchases."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le magasin est-il spécialisé en aquariophilie ?",
+        "en": "Does the store specialize in home aquariums?"
+      },
+      "a": {
+        "fr": "Oui, les clients y trouvent du matériel complet, des poissons et des conseils avisés pour installer un aquarium.",
+        "en": "Yes, customers find comprehensive equipment, aquarium fish, and tailored guidance for setting up tanks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Trouve-t-on des rongeurs et petits animaux de compagnie ?",
+        "en": "Are rodents and small companion pets available?"
+      },
+      "a": {
+        "fr": "Oui, les avis mentionnent régulièrement l'adoption de lapins et de petits rongeurs soignés avec attention.",
+        "en": "Yes, reviews regularly highlight adopting rabbits and small companion rodents kept in healthy conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Où se trouve la boutique dans Marseille ?",
+        "en": "Where is the pet shop located in Marseille?"
+      },
+      "a": {
+        "fr": "Animarium est situé au 336 avenue de Mazargues, au cœur du 8e arrondissement.",
+        "en": "Animarium is located at 336 Avenue de Mazargues in the 8th arrondissement."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
