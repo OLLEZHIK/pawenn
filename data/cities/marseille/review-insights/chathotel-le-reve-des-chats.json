@@ -1,0 +1,153 @@
+{
+  "slug": "chathotel-le-reve-des-chats",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CHAT%27H%C3%94TEL+H%C3%94TEL-CLUB+Le+r%C3%AAve+des+Chats+-+H%C3%B4tel+pour+Chats/data=!4m7!3m6!1s0x12c9b9ae5558f10b:0xb9f57d89142ec6f8!8m2!3d43.2484014!4d5.4038746!16s%2Fg%2F11hzyy3n1z!19sChIJC_FYVa65yRIR-MYuFIl99bk?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "fr": "Un accueil très contrasté",
+        "en": "A sharply contrasted welcome"
+      },
+      "text": {
+        "fr": "Les avis sur le gérant de cet hôtel pour chats sont très contrastés. Des propriétaires remercient chaleureusement la personne qui a gardé leur chat, décrite comme douce et dévouée. D'autres déplorent un ton déplacé, des plaisanteries mal venues et une façon d'imposer des conditions de séjour sans les expliquer au préalable.",
+        "en": "Reviews of the manager of this cat hotel are sharply contrasted. Some owners warmly thank the person who looked after their cat, described as gentle and devoted. Others regret an inappropriate tone, ill-judged jokes and a way of imposing stay conditions without explaining them beforehand."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Chats bien reçus, un séjour difficile",
+        "en": "Cats well received, one difficult stay"
+      },
+      "text": {
+        "fr": "Quatre avis parlent du bien-être des chats. Deux propriétaires décrivent un séjour sans souci où le chat a pu se socialiser et a été chouchouté. Un autre rapporte un chat revenu amaigri et stressé après un séjour d'été, sans explication claire de la part de l'hôtel. Le tableau reste donc partagé.",
+        "en": "Four reviews discuss the cats' wellbeing. Two owners describe a trouble-free stay where the cat could socialise and was pampered. Another reports a cat that came back thin and stressed after a summer stay, with no clear explanation from the hotel. The overall picture is therefore mixed."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Des informations à clarifier",
+        "en": "Information that needs clarifying"
+      },
+      "text": {
+        "fr": "Trois avis portent sur la communication. Un client a beaucoup apprécié la vidéo quotidienne des chambres, qui l'a rassuré pendant ses vacances. Deux autres reprochent un manque d'explications : conditions de séjour annoncées seulement sur place, et absence de retour clair sur l'état du chat à son retour.",
+        "en": "Three reviews concern communication. One customer greatly appreciated the daily video of the rooms, which reassured them during their holiday. Two others criticise a lack of explanation: stay conditions announced only on site, and no clear feedback on the cat's condition on return."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels sont les horaires d'ouverture de l'hôtel ?",
+        "en": "What are the hotel's opening hours?"
+      },
+      "a": {
+        "fr": "L'hôtel reçoit du lundi au vendredi le matin, avec une plage l'après-midi sauf le mercredi, ainsi que le samedi matin. Il est fermé le dimanche.",
+        "en": "The hotel is open Monday to Friday mornings, with an afternoon slot except on Wednesday, and Saturday mornings. It is closed on Sunday."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Les chats sont-ils logés en chambre collective ou individuelle ?",
+        "en": "Are cats housed in shared or private rooms?"
+      },
+      "a": {
+        "fr": "Selon le site, l'hôtel propose des chambres collectives et privées, ainsi qu'une cour extérieure sécurisée.",
+        "en": "According to the website, the hotel offers collective and private rooms and a secure outdoor courtyard."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Peut-on faire donner des médicaments à son chat ?",
+        "en": "Can medication be given to my cat during the stay?"
+      },
+      "a": {
+        "fr": "Oui, l'hôtel indique administrer des médicaments sur ordonnance vétérinaire.",
+        "en": "Yes. The hotel says it administers medication under veterinary prescription."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Faut-il préparer le séjour avant de venir ?",
+        "en": "Should I prepare the stay before coming?"
+      },
+      "a": {
+        "fr": "Un client rapporte qu'un contrat de trois jours d'adaptation lui a été imposé sur place : mieux vaut demander les conditions de séjour par téléphone avant le déplacement.",
+        "en": "One customer reports being required to sign a three-day adaptation contract on site, so it is best to ask about stay conditions by phone before travelling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "animals": "+",
+        "staff": "-"
+      }
+    }
+  ]
+}
