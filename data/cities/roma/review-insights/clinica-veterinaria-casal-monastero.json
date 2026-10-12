@@ -1,0 +1,149 @@
+{
+  "slug": "clinica-veterinaria-casal-monastero",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Casal+Monastero/@41.9458004,12.6063103,17z/data=!3m1!4b1!4m6!3m5!1s0x132f65a8f73a9633:0xfb0a69c38206b897!8m2!3d41.9458004!4d12.6063103!16s%2Fg%2F11h3lflwgt?authuser=0&hl=it&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Accoglienza professionale con pareri contrastanti",
+        "en": "Professional care with varied client impressions"
+      },
+      "text": {
+        "it": "I clienti della clinica a Casal Monastero esprimono opinioni differenti sul personale. Mentre molti proprietari lodano la gentilezza dei giovani infermieri e la competenza del medico oncologo, alcuni riscontrano risposte sbrigative o scarsa empatia da parte dei medici durante le emergenze e nei contatti successivi.",
+        "en": "Pet owners at the Casal Monastero clinic report contrasting impressions of the staff. While several clients praise the warmth of the nursing assistants and the clinical expertise of the oncologist, others note occasional briskness and limited empathy from veterinarians during urgent visits or post-discharge inquiries."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Terapie oncologiche ed esiti clinici",
+        "en": "Oncological therapies and medical outcomes"
+      },
+      "text": {
+        "it": "I riscontri terapeutici evidenziano risultati positivi in trattamenti specialistici complessi, come l'elettrochemioterapia per carcinomi felini, consentendo agli animali di preservare la qualità della vita. Di contro, un cliente segnala un errore diagnostico iniziale su un gatto, con prescrizioni giudicate inadeguate.",
+        "en": "Clinical feedback demonstrates positive outcomes in complex specialist treatments, such as electrochemotherapy for feline carcinomas, helping pets maintain their quality of life. Conversely, one client reports an initial misdiagnosis regarding a feline patient, leading to treatments perceived as misdirected."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Gestione terapeutica di cani e gatti",
+        "en": "Therapeutic handling of dogs and cats"
+      },
+      "text": {
+        "it": "Le recensioni descrivono l'assistenza riservata ai pazienti a quattro zampe in diversi ambiti clinici. Si registrano esperienze soddisfacenti nel supporto a lungo termine di animali malati cronici, ma emergono anche perplessità sull'accuratezza nella valutazione di sintomi comportamentali felini in sede di pronto soccorso.",
+        "en": "Reviews describe medical care provided to companion animals across various therapeutic settings. Clients note satisfactory long-term support for chronically ill pets, yet isolated accounts mention reservations regarding the thoroughness of behavioral symptom evaluations during urgent outpatient consultations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica offre trattamenti di elettrochemioterapia?",
+        "en": "Does the practice provide electrochemotherapy treatments?"
+      },
+      "a": {
+        "it": "Sì, i proprietari confermano la disponibilità di terapie oncologiche specialistiche guidate dal dottor Spugnini.",
+        "en": "Yes, client reviews confirm the availability of specialized oncological therapies overseen by Dr. Spugnini."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata l'assistenza post-dimissione?",
+        "en": "How is post-discharge support regarded by pet owners?"
+      },
+      "a": {
+        "it": "I pareri sono divisi: alcuni clienti vorrebbero maggiore reperibilità telefonica per le cure a domicilio.",
+        "en": "Opinions vary: some owners note that telephone support for home treatment following discharge could be improved."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "I giovani assistenti sono apprezzati dai clienti?",
+        "en": "Is the veterinary nursing team well regarded?"
+      },
+      "a": {
+        "it": "Sì, gli utenti segnalano cortesia e impegno positivo da parte del personale infermieristico.",
+        "en": "Yes, reviewers specifically highlight the helpfulness and friendly approach of the nursing staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "results": "+",
+        "staff": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
