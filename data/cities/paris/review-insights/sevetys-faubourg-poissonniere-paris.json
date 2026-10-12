@@ -1,0 +1,166 @@
+{
+  "slug": "sevetys-faubourg-poissonniere-paris",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+Paris+10+-+Faubourg+Poissonni%C3%A8re+-+Sevetys/data=!4m7!3m6!1s0x47e66e6bb202ff83:0xf15edbbf81845329!8m2!3d48.879414!4d2.3495648!16s%2Fg%2F1tdbw1hf!19sChIJg_8Csmtu5kcRKVOEgb_bXvE?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Équipe soignante et avis partagés",
+        "en": "Care team and divided impressions"
+      },
+      "text": {
+        "fr": "Plusieurs clients réguliers saluent l'écoute des vétérinaires comme le Dr Daniel-Lacombe et la gentillesse des auxiliaires à l'accueil du 10e arrondissement. Cependant, d'autres propriétaires font part de déceptions concernant la brièveté de certaines consultations ou un accueil perçu comme distant.",
+        "en": "Several regular clients appreciate the attentiveness of veterinarians like Dr Daniel-Lacombe and the kindness of assistants in the 10th arrondissement. However, other owners report disappointment regarding brief consultations or an experience perceived as somewhat detached during routine visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Suivi médical et interventions diverses",
+        "en": "Medical treatments and varied interventions"
+      },
+      "text": {
+        "fr": "Les maîtres fidèles expriment leur confiance pour les soins préventifs, les explications médicales détaillées et l'accompagnement des compagnons âgés. En parallèle, un client déplore une intervention onéreuse pour le retrait d'un corps étranger sans résultat pleinement satisfaisant.",
+        "en": "Long-time clients express strong trust in preventative health care, detailed medical guidance, and end-of-life support for elderly companions. At the same time, another visitor regrets a costly intervention for foreign object removal that did not deliver a fully satisfying outcome."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Bienveillance envers chiens et chats",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "fr": "Les retours soulignent la douceur des soignants lors de la manipulation des animaux craintifs ou âgés. Les examens cliniques sont menés avec calme pour réduire le stress en consultation, permettant aux chats timides de se sentir rapidement en confiance sur la table d'examen.",
+        "en": "Feedback emphasizes the caregivers' gentleness when handling fearful or older domestic pets. Physical examinations are conducted calmly to minimize consultation stress, helping timid cats settle comfortably during their clinical check-ups in the Paris clinic."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique prend-elle en charge les urgences le soir et le week-end ?",
+        "en": "Does the clinic handle emergencies during evenings and weekends?"
+      },
+      "a": {
+        "fr": "L'établissement oriente les urgences en dehors des horaires d'ouverture habituels vers ses structures partenaires via le standard téléphonique.",
+        "en": "Outside regular operating hours, emergency calls are redirected to partner veterinary hospital facilities via the clinic phone line."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Est-il possible de prendre rendez-vous en ligne ?",
+        "en": "Is online appointment booking available?"
+      },
+      "a": {
+        "fr": "Oui, les créneaux de consultation peuvent être réservés sur internet via la plateforme du réseau vétérinaire Sevetys.",
+        "en": "Yes, consultation slots can be booked online through the Sevetys veterinary network scheduling portal."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Quels équipements d'imagerie médicale sont présents sur place ?",
+        "en": "What diagnostic imaging equipment is available on site?"
+      },
+      "a": {
+        "fr": "La clinique dispose d'une radiographie numérique, d'un échographe et d'un laboratoire d'analyses complet pour les bilans sanguins.",
+        "en": "The clinic is equipped with digital radiography, ultrasound imaging, and a complete in-house diagnostic laboratory for blood tests."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

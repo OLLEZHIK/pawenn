@@ -1,0 +1,146 @@
+{
+  "slug": "sevetys-picpus-paris",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+Paris+12+-+Picpus+-+Sevetys/data=!4m7!3m6!1s0x47e6727cb1e57831:0xb19569693654699c!8m2!3d48.84533!4d2.40613!16s%2Fg%2F11c554kgn1!19sChIJMXjlsXxy5kcRnGlUNmlplbE?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Écoute attentive et disponibilité médicale",
+        "en": "Attentive listening and medical dedication"
+      },
+      "text": {
+        "fr": "Les clients soulignent la grande prévenance des soignants, qui prennent le temps d'écouter, de rassurer et d'expliquer chaque étape des soins. Les vétérinaires sont perçus comme investis dans leur métier et chaleureux envers les maîtres. Même en consultation délicate, l'accueil demeure courtois et professionnel aux yeux des usagers.",
+        "en": "Clients highlight the remarkable attentiveness of clinical staff, who take time to listen, reassure, and clearly explain each treatment phase. Veterinarians are viewed as passionate about their vocation and welcoming to owners. Even during complex visits, the team maintains a courteous and professional manner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Douceur et considération des félins",
+        "en": "Gentle attention for feline patients"
+      },
+      "text": {
+        "fr": "Les propriétaires de chats et de chatons apprécient l'attention portée au confort des animaux au cours de la consultation. Les vétérinaires manipulent les patients avec calme et méthode pour éviter de provoquer des réactions de peur, permettant d'identifier sereinement la cause des symptômes observés lors de la visite clinique.",
+        "en": "Owners of cats and kittens appreciate the careful consideration given to pet comfort during examinations. Veterinarians handle patients with calm methods to avoid triggering fear, allowing symptoms to be evaluated calmly and thoroughly during the clinical consultation."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Information en ligne et accueil",
+        "en": "Online scheduling and telephone contact"
+      },
+      "text": {
+        "fr": "Si la communication sur place est jugée rassurante et pédagogique par les habitués, un retour critique met en garde contre des écarts d'information en ligne. Un client signale notamment l'impossibilité de joindre la clinique par téléphone et la découverte sur place de l'absence de dermatologue spécialisé pour son chat.",
+        "en": "While in-person discussions are rated as reassuring and pedagogical by regular visitors, a critical review highlights discrepancies in online booking details. One client noted difficulties reaching staff by phone and discovering only upon arrival that no specialized dermatologist was present."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Peut-on réserver son créneau en ligne ?",
+        "en": "Can appointments be booked online?"
+      },
+      "a": {
+        "fr": "Oui, la prise de rendez-vous est disponible sur internet en sélectionnant le motif de consultation souhaité.",
+        "en": "Yes, appointment booking is available online by selecting the relevant reason for consultation."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "La clinique dispose-t-elle de vétérinaires spécialistes exclusifs ?",
+        "en": "Does the clinic have board-certified exclusive specialists?"
+      },
+      "a": {
+        "fr": "Le cabinet pratique la médecine générale et la chirurgie courante ; les cas dermatologiques ou neurologiques pointus sont référés.",
+        "en": "The practice focuses on general medicine and routine surgery; complex dermatology or neurology cases are referred out."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Prenez-vous en charge les chatons dès l'adoption ?",
+        "en": "Do you care for newly adopted kittens?"
+      },
+      "a": {
+        "fr": "Oui, des consultations d'adoption permettent d'établir le passeport européen, la puce électronique et les premiers vaccins.",
+        "en": "Yes, adoption wellness exams help set up European pet passports, microchip registration, and initial vaccines."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "~",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

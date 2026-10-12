@@ -1,0 +1,25 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "cabinet-veterinaire-dr-carole-bokobza-cbvet",
+    "mon-veto-paris-13",
+    "cabinet-veterinaire-ehrlich-paris-14",
+    "univet-paris-trocadero",
+    "sevetys-faubourg-poissonniere-paris"
+  ],
+  "hash": "81be3e4e389379b36d2c06f0fdb9c4a5a5a4e2a421eb65cc0191df6cda22878e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T16:31:08.489Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-11T16:32:36.868Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

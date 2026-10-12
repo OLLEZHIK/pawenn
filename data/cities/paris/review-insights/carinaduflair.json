@@ -1,0 +1,144 @@
+{
+  "slug": "carinaduflair",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Carinaduflair+-+Comportementaliste+et+Educateur+Canin/data=!4m7!3m6!1s0x403e52e1be32aa2b:0x29e26de7c0f3ee2e!8m2!3d48.883987!4d2.3462899!16s%2Fg%2F11xknxjn4c!19sChIJK6oyvuFSPkARLu7zwOdt4ik?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Éducatrice canine disponible et très pédagogue",
+        "en": "Attentive and pedagogical canine dog trainer"
+      },
+      "text": {
+        "fr": "Les propriétaires de chiens saluent la patience, la disponibilité et la bienveillance de l'éducatrice lors des séances à Paris. Son approche pédagogique permet aux maîtres de mieux comprendre la communication canine et d'adopter les bons réflexes au quotidien. Son écoute rassure grandement les adoptants dès le premier bilan.",
+        "en": "Dog owners commend the educator's patience, accessibility, and kindness during training sessions across Paris. Her pedagogical approach helps guardians better interpret natural dog behavior and implement effective daily habits. Her attentive guidance provides strong reassurance from the initial behavioral assessment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Progrès rapides et méthodes concrètes applicables",
+        "en": "Rapid progress with practical training methods"
+      },
+      "text": {
+        "fr": "Les maîtres rapportent des améliorations notables dans la sociabilisation et la gestion des émotions de leur chien. Les exercices proposés sont jugés clairs, réalistes et faciles à reproduire lors des promenades quotidiennes. Les résultats positifs se manifestent rapidement, même face à des troubles anxieux marqués.",
+        "en": "Guardians report noticeable improvements in their dog's socialization and emotional regulation following sessions. Suggested exercises are described as clear, realistic, and straightforward to repeat during everyday walks. Positive training progress emerges rapidly, even when addressing deep-seated canine anxieties."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Respect du bien-être et méthodes douces",
+        "en": "Gentle methods respecting canine animal welfare"
+      },
+      "text": {
+        "fr": "L'accompagnement repose sur une éducation respectueuse sans contrainte excessive ni brutalité pour l'animal. Les séances tiennent compte du rythme, de l'âge et de la condition physique de chaque chien, qu'il s'agisse d'un chiot ou d'un adulte. Cette approche bienveillante favorise une relation harmonieuse entre maître et chien.",
+        "en": "Training sessions rely on respectful, force-free methods that prioritize canine well-being without harsh coercion. Each session adapts to the individual pace, age, and physical condition of the dog, whether working with a puppy or an adult. This compassionate framework nurtures a balanced bond between dogs and guardians."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Comment se déroule le premier contact ?",
+        "en": "How is the first consultation conducted?"
+      },
+      "a": {
+        "fr": "Un bilan comportemental approfondi permet d'évaluer la situation et de proposer des exercices adaptés au chien.",
+        "en": "A thorough behavioral assessment is conducted to evaluate the dog's situation and suggest customized exercises."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "L'éducatrice aide-t-elle pour les chiots ?",
+        "en": "Does the trainer work with young puppies?"
+      },
+      "a": {
+        "fr": "Oui, des clients rapportent un accompagnement réussi pour la sociabilisation et l'apprentissage des bases dès le plus jeune âge.",
+        "en": "Yes, clients report effective guidance for puppy socialization and early foundation training from adoption."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les méthodes d'éducation sont-elles douces ?",
+        "en": "Are the training methods force-free?"
+      },
+      "a": {
+        "fr": "Oui, l'accompagnement privilégie une approche positive et bienveillante axée sur la compréhension du langage canin.",
+        "en": "Yes, the training focuses on positive and benevolent methods centered on understanding canine communication."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

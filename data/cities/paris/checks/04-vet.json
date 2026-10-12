@@ -1,0 +1,35 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "sevetys-picard-paris",
+    "sevetys-bastille-paris",
+    "clinique-veterinaire-metivet",
+    "sevetys-pasteur-paris",
+    "clinique-veterinaire-saint-paul-paris",
+    "vetinparis-chemin-vert-paris",
+    "clinique-veterinaire-bastille-republique-dr-zakine-frederic",
+    "sevetys-monge-paris",
+    "alizee-vet-paris-14",
+    "clinique-veterinaire-paris-5-dr-littner"
+  ],
+  "hash": "c1fd2042f1480f473adc759aee4b50bff1331e26ce8b03b77867614c3c57877a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T16:44:02.837Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-11T16:56:31.330Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-11T17:02:44.939Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
