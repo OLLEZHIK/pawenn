@@ -1,0 +1,131 @@
+{
+  "slug": "universita-degli-studi-di-napoli-federico-ii-dipartimento-di-medicina-veterinaria-e-produzioni-animali",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Universit%C3%A0+degli+Studi+di+Napoli+Federico+II+-+Dipartimento+di+Medicina+Veterinaria+e+Produzioni+Animali/data=!4m7!3m6!1s0x133b086d818d237d:0x4af213fc1802db19!8m2!3d40.8612469!4d14.2597579!16s%2Fg%2F1tg2gn61!19sChIJfSONgW0IOxMRGdsCGPwT8ko?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Medici preparati ma accoglienza discussa",
+        "en": "Skilled clinicians with mixed desk feedback"
+      },
+      "text": {
+        "it": "I clienti apprezzano l'elevata preparazione scientifica e la competenza clinica dei veterinari specialisti del dipartimento universitario. Al contempo, alcune recensioni critiche lamentano scortesia, mancanza di coordinamento e risposte poco empatiche da parte del personale di accettazione.",
+        "en": "Clients value the high scientific training and clinical expertise of the specialist vets at the university department. At the same time, critical reviews complain of rudeness, poor coordination, and a lack of empathy from reception staff during stressful moments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Difficoltà comunicative e risposte telefoniche",
+        "en": "Communication hurdles and telephone barriers"
+      },
+      "text": {
+        "it": "Mentre le visite con i singoli medici vengono ritenute chiare, diversi utenti segnalano forti attriti nella gestione dei contatti telefonici e nel rilascio della documentazione. Vengono riportate risposte brusche, scarsa disponibilità a fornire chiarimenti e difficoltà nel gestire urgenze.",
+        "en": "While direct consultations with doctors are considered clear, several users report friction when communicating by phone or requesting paperwork. Reviews mention curt responses, reluctance to clarify procedures, and difficulties coordinating urgent patient cases."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Attese lunghe e gestione prenotazioni",
+        "en": "Lengthy waits and scheduling friction"
+      },
+      "text": {
+        "it": "Sebbene il Centro Unico di Prenotazione venga citato positivamente da alcuni utenti per la comodità iniziale, altre recensioni segnalano tempi di attesa prolungati, cancellazioni improvvise degli appuntamenti e scarsa flessibilità nella presa in carico dei casi urgenti non prenotati.",
+        "en": "Although the central appointment booking desk is cited positively by some clients for routine visits, other reviewers report extended wait times, last-minute cancellation of scheduled slots, and limited flexibility when handling urgent clinical walk-ins."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Quali specializzazioni veterinarie sono attive presso il dipartimento?",
+        "en": "Which veterinary specialties are offered at the department?"
+      },
+      "a": {
+        "it": "La struttura ospedaliera universitaria offre consulenze specialistiche per animali da compagnia, animali esotici e grandi animali.",
+        "en": "The university veterinary hospital provides specialist consultations for domestic pets, exotic animals, and large livestock."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come funziona la prenotazione delle visite specialistiche?",
+        "en": "How are specialist appointments scheduled at the facility?"
+      },
+      "a": {
+        "it": "Le visite vengono pianificate tramite il Centro Unico di Prenotazione, anche se alcuni utenti segnalano attese prolungate per le date.",
+        "en": "Appointments are scheduled through the central booking desk, though several clients report long waiting periods for open dates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "La struttura accetta urgenze senza appuntamento?",
+        "en": "Does the facility handle walk-in emergency cases?"
+      },
+      "a": {
+        "it": "Le recensioni consigliano di concordare l'accesso in anticipo, poiché la gestione delle emergenze non programmate ha suscitato lamentele.",
+        "en": "Reviews suggest confirming access beforehand, as handling unscheduled emergencies has generated critical feedback from visitors."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
