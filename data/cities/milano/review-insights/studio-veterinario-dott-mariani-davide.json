@@ -1,0 +1,135 @@
+{
+  "slug": "studio-veterinario-dott-mariani-davide",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Studio+Veterinario+Dott.+Mariani+Davide/data=!4m7!3m6!1s0x4786c473faa20e3b:0xbe55be0c8c39e3d3!8m2!3d45.4353918!4d9.1808594!16s%2Fg%2F1tsbk_t9!19sChIJOw6i-nPEhkcR0-M5jAy-Vb4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Veterinario storico con pareri contrastanti",
+        "en": "Experienced vet with contrasting reviews"
+      },
+      "text": {
+        "it": "I clienti di lunga data elogiano il dottor Mariani per la disponibilità, l'onestà e l'umanità dimostrate in decenni di attività. Tuttavia, una recensione recente lamenta scortesia e rigidità nel rifiutare una visita immediata a un cucciolo arrivato senza appuntamento.",
+        "en": "Long-standing clients praise Dr. Mariani for his dedication, honesty, and approachable demeanor over decades of practice. Conversely, a recent negative review criticizes an inflexible refusal to examine a sick puppy who arrived urgently without a prior appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Rapporto con gli animali da compagnia",
+        "en": "Handling of companion animals"
+      },
+      "text": {
+        "it": "I proprietari affezionati descrivono visite attente e grande affetto per i cani seguiti fin da cuccioli nel quartiere. Di contro, emerge la voce critica di chi ha percepito scarso coinvolgimento e mancata presa in carico in una situazione di improvvisa sofferenza.",
+        "en": "Regular clients describe caring examinations and genuine affection for dogs followed across their entire lives in the district. In contrast, one critical reviewer felt a lack of concern when the practitioner turned away an unwell puppy due to a fully booked schedule."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Affidabilità delle visite di base",
+        "en": "Reliability of general checkups"
+      },
+      "text": {
+        "it": "Chi si rivolge all'ambulatorio da anni esprime piena soddisfazione per la cura ordinaria e i trattamenti prescritti ai propri animali. Gli utenti lo considerano un punto di riferimento affidabile per visite generali, pur suggerendo una clinica per emergenze complesse.",
+        "en": "Clients who have visited the practice for many years express full satisfaction with general consultations and regular treatments. Reviewers view the doctor as a dependable contact for routine care, while noting that major emergencies may require specialized clinics."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "È necessario fissare un appuntamento?",
+        "en": "Is an appointment strictly required?"
+      },
+      "a": {
+        "it": "Sì, le recensioni indicano che è fondamentale prenotare per evitare che la visita venga rifiutata per ambulatorio al completo.",
+        "en": "Yes, reviews indicate that booking is essential to avoid being turned away when the schedule is completely full."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "L'ambulatorio gestisce emergenze chirurgiche complesse?",
+        "en": "Does the practice handle complex surgical emergencies?"
+      },
+      "a": {
+        "it": "I clienti consigliano di avere a portata di mano una clinica attrezzata per interventi d'urgenza o esami specialistici avanzati.",
+        "en": "Clients recommend keeping a larger emergency clinic in mind for complex surgeries or advanced diagnostics."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Da quanti anni è attivo l'ambulatorio?",
+        "en": "How long has the practice been operating?"
+      },
+      "a": {
+        "it": "Diversi proprietari segnalano di affidarsi al dottore da oltre quindici o venti anni per i propri cani.",
+        "en": "Several clients note they have relied on the practitioner for over fifteen or twenty years for their pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
