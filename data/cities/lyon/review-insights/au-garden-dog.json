@@ -1,0 +1,153 @@
+{
+  "slug": "au-garden-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Au+Garden+Dog/data=!4m7!3m6!1s0x47f4ea8cbe601057:0xd0ccd9edeec556f0!8m2!3d45.7688192!4d4.8528889!16s%2Fg%2F1tg_wfm4!19sChIJVxBgvozq9EcR8FbF7u3ZzNA?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Toilettage soigné et épilation spécialisée",
+        "en": "Neat grooming and specialized hand-stripping"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'excellence des coupes et la maîtrise des techniques adaptées, notamment l'épilation aux doigts pour les cockers et le démêlage soigné des pelages denses. Les chiens ressortent impeccables selon la plupart des maîtres, malgré un mécontentement ponctuel sur une coupe courte.",
+        "en": "Reviews highlight excellent haircuts and tailored coat techniques, particularly hand-stripping for spaniels and careful detangling of dense fur. Dogs consistently leave looking pristine according to most owners, though one dissatisfied customer reported an unwanted clipped finish."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Professionnalisme reconnu malgré un différend",
+        "en": "Recognized professionalism despite one dispute"
+      },
+      "text": {
+        "fr": "La majorité des clients loue la gentillesse, la disponibilité et les conseils avisés de la toiletteuse Muriel dans son salon. La relation de confiance est établie de longue date avec de nombreux habitués, bien qu'un échange conflictuel soit rapporté concernant l'état du pelage d'un animal.",
+        "en": "The majority of clients praise Muriel's warmth, responsiveness, and valuable care advice inside her salon. Strong long-term trust is noted by regular patrons, although one review recounted a contentious conversation regarding expectations about coat maintenance and grooming technique."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Prise en charge douce des chiens",
+        "en": "Gentle handling of canine companions"
+      },
+      "text": {
+        "fr": "Les propriétaires apprécient l'attention et la tendresse accordées à leurs animaux pendant le soin, qu'il s'agisse de chiots découvrant le toilettage ou de chiens adultes sensibles. Les compagnons sont mis en confiance dans un cadre calme, favorisant une expérience sereine.",
+        "en": "Owners value the affectionate attention devoted to their dogs throughout grooming, from puppies experiencing their initial session to sensitive adult pets. Dogs are reassured in a calm environment, creating a comfortable and stress-free grooming routine for visiting companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon propose-t-il l'épilation manuelle pour cockers ?",
+        "en": "Does the salon offer hand-stripping for spaniels?"
+      },
+      "a": {
+        "fr": "Oui, la toiletteuse pratique l'épilation aux doigts adaptée aux chiens à poil dur et aux cockers.",
+        "en": "Yes, the groomer performs traditional hand-stripping suited for wire-haired breeds and spaniels."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Peut-on amener un chiot pour son premier toilettage ?",
+        "en": "Can owners bring young puppies for their initial grooming?"
+      },
+      "a": {
+        "fr": "Oui, les jeunes chiots sont accueillis avec patience pour les habituer en douceur aux manipulations de toilettage.",
+        "en": "Yes, young puppies are welcomed with patience to gently familiarize them with grooming handling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les nœuds importants ?",
+        "en": "Does the salon handle severe knots and tangled coats?"
+      },
+      "a": {
+        "fr": "Oui, les avis rapportent un travail soigné d'adaptation et de démêlage sur les pelages emmêlés.",
+        "en": "Yes, customer feedback reports careful coat assessment and detangling on knotty fur."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

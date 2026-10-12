@@ -1,0 +1,107 @@
+{
+  "slug": "bigoudi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BIGOUDI/data=!4m7!3m6!1s0x47f4ea8bcbaed78f:0xdc914e7025034cff!8m2!3d45.765551!4d4.8554722!16s%2Fg%2F11btmbp7pt!19sChIJj9euy4vq9EcR_0wDJXBOkdw?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Toilettage régulier et finitions soignées",
+        "en": "Regular grooming and meticulous coat care"
+      },
+      "text": {
+        "fr": "Les retours des propriétaires mettent en avant la régularité et la netteté du travail réalisé au fil des mois. Les chiens, notamment les épagneuls et petits compagnons, ressortent impeccables à chaque visite, témoignant d'une pratique rigoureuse et attentive du toilettage canin.",
+        "en": "Feedback from returning pet owners highlights the consistency and neatness of grooming delivered month after month. Dogs, notably spaniels and companion breeds, emerge in flawless condition after every appointment, demonstrating disciplined and thorough canine styling."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "fr": "Passion du métier et contact chaleureux",
+        "en": "Grooming passion and warm client rapport"
+      },
+      "text": {
+        "fr": "La responsable du salon est décrite comme une professionnelle passionnée et captivante par les maîtres qui lui confient leur animal. Cette approche humaine et engagée met en confiance les propriétaires d'animaux fidèles qui apprécient de renouveler régulièrement leurs séances.",
+        "en": "The salon owner is described as an engaging, truly passionate professional by pet parents who entrust their animals to her care. This warm, personal approach creates lasting trust with regular clients who appreciate bringing back their companions for repeated appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon accepte-t-il des rendez-vous réguliers d'entretien ?",
+        "en": "Does the salon accommodate regular monthly maintenance grooming?"
+      },
+      "a": {
+        "fr": "Oui, des clients habitués confient leur animal chaque mois pour un entretien complet et continu du pelage.",
+        "en": "Yes, recurring clients bring their dogs on a monthly basis for continuous coat care and maintenance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les chiens de race comme le Cavalier King Charles ?",
+        "en": "Does the salon groom specific breeds such as Cavalier King Charles Spaniels?"
+      },
+      "a": {
+        "fr": "Oui, les avis mentionnent un travail impeccable réalisé sur des chiens de petite race et d'épagneuls.",
+        "en": "Yes, reviews confirm impeccable styling on small companion breeds and spaniels."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La professionnelle conseille-t-elle les maîtres sur l'entretien ?",
+        "en": "Does the professional share advice on pet maintenance?"
+      },
+      "a": {
+        "fr": "Oui, les commentaires saluent la passion communicative et l'écoute de la toiletteuse envers les clients.",
+        "en": "Yes, customer comments commend the groomer's communicative passion and attentive client approach."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
