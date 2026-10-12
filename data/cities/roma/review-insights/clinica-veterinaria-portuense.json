@@ -1,0 +1,136 @@
+{
+  "slug": "clinica-veterinaria-portuense",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Portuense/data=!4m7!3m6!1s0x13258aa2f3be4785:0xf1a079759b5b94b!8m2!3d41.8637339!4d12.4593112!16s%2Fg%2F1td6vbsn!19sChIJhUe-86KKJRMRS7m1WZcHGg8?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "it": "Opinioni contrastanti sul personale medico",
+        "en": "Conflicting feedback regarding clinic veterinarians"
+      },
+      "text": {
+        "it": "I clienti della clinica veterinaria in zona Portuense esprimono valutazioni fortemente divise sull'operato dei sanitari. Se da un lato alcuni proprietari lodano la disponibilità e la prontezza del dottore nelle urgenze, altri lamentano scarsa empatia, poca chiarezza nelle spiegazioni e un approccio sbrigativo che ha generato sfiducia.",
+        "en": "Clients visiting the veterinary clinic in Rome's Portuense area express sharply divided views on the doctors. While some pet owners appreciate the veterinarian's promptness and readiness to handle emergencies, others report a lack of empathy, hurried consultations, and diagnostic decisions that caused dissatisfaction."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Esiti alterni delle terapie veterinarie",
+        "en": "Mixed outcomes across medical treatments"
+      },
+      "text": {
+        "it": "L'efficacia dei trattamenti sanitari e delle prestazioni offerte raccoglie pareri contrastanti nelle recensioni. Alcuni visitatori riferiscono interventi tempestivi che hanno risolto prontamente il problema, mentre altri lamentano terapie inefficaci per infezioni auricolari acute che hanno reso necessario un ricovero altrove.",
+        "en": "Treatment efficacy and overall clinical results show uneven impressions among reviewing pet guardians. Certain visitors report successful visits that rapidly restored their animal's comfort, whereas others recount inadequate therapies for acute infections that later necessitated intensive intervention elsewhere."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Criticità nella trasparenza amministrativa",
+        "en": "Concerns regarding administrative transparency"
+      },
+      "text": {
+        "it": "La comunicazione gestionale e la trasparenza sui costi suscitano lamentele da parte di diversi utenti della struttura. Sebbene siano presenti avvisi informativi esposti, alcuni proprietari evidenziano scarsa chiarezza preventiva sulle tariffe dei singoli servizi e problemi legati al rilascio delle ricevute per pagamenti in contanti.",
+        "en": "Administrative clarity and communication regarding clinic fees receive noticeable criticism from several clients. Although helpful informational notices are posted inside, pet owners note a lack of upfront cost estimates for individual procedures and report difficulties obtaining receipts after cash transactions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica gestisce visite di emergenza?",
+        "en": "Does the clinic handle urgent appointments?"
+      },
+      "a": {
+        "it": "Sì, i clienti confermano che il medico ha accolto tempestivamente animali per urgenze senza appuntamento.",
+        "en": "Yes, reviewers confirm that the doctor has promptly accepted urgent cases without prior bookings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È presente un servizio di toelettatura?",
+        "en": "Is there an on-site grooming service?"
+      },
+      "a": {
+        "it": "Sì, la struttura dispone di una postazione interna dedicata alla cura e alla toelettatura degli animali.",
+        "en": "Yes, the premises include a dedicated on-site space for pet grooming and basic hygiene."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "I prezzi delle prestazioni vengono comunicati prima della visita?",
+        "en": "Are procedure fees clearly provided before consultations?"
+      },
+      "a": {
+        "it": "Alcune testimonianze consigliano di richiedere il costo esatto al banco per evitare incomprensioni tariffarie.",
+        "en": "Some reviews advise asking for specific fee estimates at reception to prevent billing confusion."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
