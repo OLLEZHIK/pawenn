@@ -1,0 +1,147 @@
+{
+  "slug": "arcaplanet-roma-anagni",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arcaplanet/data=!4m7!3m6!1s0x132f623631f47693:0x4d59bccefa771e8a!8m2!3d41.8885651!4d12.5471465!16s%2Fg%2F11b6y0s6l3!19sChIJk3b0MTZiLxMRih53-s68WU0?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Relazione con la clientela e riscontri",
+        "en": "Customer communication and feedback management"
+      },
+      "text": {
+        "it": "Mentre l'azienda risponde con sollecitudine ai messaggi online manifestando gratitudine verso i propri acquirenti, emergono segnalazioni critiche sul modo in cui vengono accolti i clienti in cassa. Alcuni acquirenti lamentano toni frettolosi o poco empatici al momento del contatto diretto.",
+        "en": "While the company promptly addresses online customer comments with polite replies and gratitude, critical notes appear regarding direct in-person communication. Certain shoppers experienced hurried or unaccommodating attitudes at reception counters during parcel collections."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Opinioni contrastanti sul servizio del personale",
+        "en": "Contrasting impressions of staff courtesy"
+      },
+      "text": {
+        "it": "I pareri sul personale dello store di via Anagni risultano discordanti. Accanto a recensioni che ne esaltano la disponibilità e la solida preparazione tecnica, un cliente riferisce un episodio sgradevole dovuto a modi sbrigativi e scarsa pazienza durante il ritiro di un pacco.",
+        "en": "Client perceptions regarding staff at the Via Anagni shop remain divided. Alongside testimonials praising dedicated guidance and technical competence, another visitor experienced abrupt treatment and limited courtesy while attempting to inspect a picked-up package."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Soddisfazione per le necessità d'acquisto",
+        "en": "Reliable fulfillment of pet shopping needs"
+      },
+      "text": {
+        "it": "La maggior parte degli acquirenti conferma di trovare soluzioni valide e puntuali per le esigenze alimentari e di cura dei propri animali. Il punto vendita garantisce una fornitura regolare di alimenti e articoli specializzati, rispondendo con successo alle richieste consuete.",
+        "en": "Most shoppers confirm that their animal nutritional and care needs are effectively met during visits. The store reliably fulfills daily requirements for household pets with standard diets and specialist supplies, maintaining steady catalog availability for local buyers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il negozio Arcaplanet Anagni offre il ritiro ordini in sede?",
+        "en": "Does the Arcaplanet Anagni shop support order pickups?"
+      },
+      "a": {
+        "it": "Sì, i clienti possono ritirare ordini e colli direttamente al banco del punto vendita.",
+        "en": "Yes, customers can collect parcels and online store orders at the service counter."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata la disponibilità del personale?",
+        "en": "How do reviewers evaluate employee helpfulness?"
+      },
+      "a": {
+        "it": "Le recensioni sono miste: molti apprezzano la competenza, ma è segnalato qualche episodio poco cortese.",
+        "en": "Reviews are mixed: many value their competence, though isolated complaints cite curt interactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali orari rispetta il punto vendita di via Anagni?",
+        "en": "What opening hours does the Via Anagni store keep?"
+      },
+      "a": {
+        "it": "Il negozio è aperto tutti i giorni con orario continuato per l'intera settimana.",
+        "en": "The store remains open daily throughout the entire week with continuous retail hours."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "22 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
