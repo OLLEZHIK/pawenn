@@ -1,0 +1,141 @@
+{
+  "slug": "la-magica-oasi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Magica+Oasi/data=!4m7!3m6!1s0x133b0637c438b003:0x4dc8fd62465c6c78!8m2!3d40.8943328!4d14.2299035!16s%2Fg%2F11bwcnvhh5!19sChIJA7A4xDcGOxMReGxcRmL9yE0?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Personale disponibile ma pareri contrastanti",
+        "en": "Helpful staff with contrasting opinions"
+      },
+      "text": {
+        "it": "Diversi clienti lodano la gentilezza, la puntualità e la professionalità del personale, menzionando una gestione cortese e rassicurante delle richieste. Tuttavia, un'esperienza molto negativa contesta la correttezza del servizio, lamentando discrepanze rispetto al preventivo telefonico concordato e poca attenzione per il benessere del cane.",
+        "en": "Several customers praise the staff for their kindness, punctuality, and professional attitude, noting courteous communication during appointments. Nevertheless, a contrasting negative review questions their reliability, complaining of unexpected price increases over phone quotes and poor communication."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Esiti della toeletta ed esperienze",
+        "en": "Grooming outcomes and varied experiences"
+      },
+      "text": {
+        "it": "I proprietari evidenziano bagni profumati, spazzolature accurate e tosature conformi alle preferenze concordate per cani da compagnia. D'altro canto, una recensione critica segnala un taglio a forbice insoddisfacente con irritazioni e piccole escoriazioni sulla cute dell'animale, esprimendo profonda delusione per il risultato finale.",
+        "en": "Owners report pleasantly scented baths, careful brushing, and satisfactory shaving according to client instructions for domestic pets. Conversely, a critical review describes an uneven scissor cut along with minor skin irritations on the dog's belly, voicing strong dissatisfaction with the final grooming quality."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Accoglienza e gestione dei cani",
+        "en": "Care and handling of pets"
+      },
+      "text": {
+        "it": "La maggior parte delle visite viene descritta come tranquilla, con cani accolti con garbo e curati con delicatezza durante il lavaggio e l'asciugatura. In contrasto con questi riscontri positivi, una recensione lamenta poca cura fisica dell'animale, riferendo ferite superficiali comparse al termine di una sessione di toelettatura.",
+        "en": "Most visits are portrayed as calm, with dogs received politely and treated gently throughout the bathing and drying process. In stark contrast to these favorable reports, one customer experienced careless handling, reporting superficial scratches that appeared following an appointment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "I trattamenti di toelettatura vengono eseguiti con puntualità?",
+        "en": "Are grooming appointments handled on time?"
+      },
+      "a": {
+        "it": "Sì, i clienti che hanno prenotato riferiscono un'accoglienza puntuale negli orari fissati.",
+        "en": "Yes, clients who booked in advance report prompt intake at the agreed appointment times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali servizi per il manto vengono utilizzati dai clienti?",
+        "en": "What coat care services do clients typically request?"
+      },
+      "a": {
+        "it": "I proprietari richiedono bagni con prodotti profumati, spazzolatura accurata e tagli sia a forbice sia a macchinetta.",
+        "en": "Owners request baths with scented shampoos, thorough brushing, and coat styling via scissors or clippers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Ci sono state contestazioni sui prezzi applicati per la toelettatura?",
+        "en": "Have there been complaints regarding grooming pricing?"
+      },
+      "a": {
+        "it": "La maggioranza è soddisfatta, ma una cliente ha contestato un aumento di prezzo rispetto alla stima telefonica.",
+        "en": "Most clients are satisfied, though one customer disputed a price increase above the telephone estimate."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
