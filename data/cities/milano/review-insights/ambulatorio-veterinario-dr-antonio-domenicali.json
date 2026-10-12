@@ -1,0 +1,160 @@
+{
+  "slug": "ambulatorio-veterinario-dr-antonio-domenicali",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Dr.+Antonio+Domenicali/@45.4625171,9.0930641,753m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4786c2011dd9a3d9:0x70e4ac1ccc2a2531!8m2!3d45.4625171!4d9.0930641!16s%2Fg%2F11b6chnm_y?authuser=0&hl=it&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Dedizione decennale e fiducia nel dottore",
+        "en": "Longstanding dedication and client trust"
+      },
+      "text": {
+        "it": "Molti clienti storici considerano il dottor Antonio Domenicali e il suo staff un saldo punto di riferimento, lodando la loro gentilezza, disponibilità e amore per gli animali. Una recensione isolata esprime invece insoddisfazione per la comunicazione in caso di urgenza.",
+        "en": "Many long-term clients view Dr. Antonio Domenicali and his team as a reliable staple, praising their kindness, readiness to help, and genuine devotion to pets. In contrast, an isolated review expresses dissatisfaction regarding communication during emergencies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Attenzione e sensibilità per cani e gatti",
+        "en": "Attentive care for dogs and cats"
+      },
+      "text": {
+        "it": "I proprietari sottolineano la passione sincera e il garbo con cui vengono accolti cuccioli e gatti di casa. L'approccio calmo e rispettoso durante le visite rassicura gli animali, facilitando sia i primi controlli sanitari sia le cure mediche più impegnative.",
+        "en": "Pet owners underline the sincere passion and gentle manner with which dogs and domestic cats are treated. A calm and respectful approach during consultations reassures animals, facilitating both initial puppy checkups and demanding veterinary medical care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Interventi chirurgici e accuratezza diagnostica",
+        "en": "Surgical procedures and diagnostic accuracy"
+      },
+      "text": {
+        "it": "Diversi proprietari raccontano con gratitudine di interventi chirurgici riusciti e cure tempestive che hanno salvato la vita a gatti anziani. Per contro, un cliente lamenta diagnosi errate e spese prolungate, dichiarando di aver dovuto cambiare clinica per salvare il proprio animale.",
+        "en": "Several pet guardians gratefully recount successful surgeries and prompt treatments that effectively saved elderly cats. On the other hand, one client reports inaccurate diagnostic assessments and prolonged expenses, stating they had to seek help elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica esegue interventi chirurgici su animali domestici?",
+        "en": "Does the clinic perform surgical operations on pets?"
+      },
+      "a": {
+        "it": "Sì, le testimonianze dei clienti descrivono interventi chirurgici e cure post-operatorie su gatti e cani.",
+        "en": "Yes, customer testimonials describe surgical procedures and post-operative care on cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Da quanti anni è attivo l'ambulatorio a Milano?",
+        "en": "How long has the practice been operating in Milan?"
+      },
+      "a": {
+        "it": "I clienti più fedeli riportano di frequentare lo studio veterinario da oltre vent'anni con reciproca fiducia.",
+        "en": "Longstanding pet owners report attending the veterinary practice for more than twenty years with established trust."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene gestita l'assistenza per le urgenze?",
+        "en": "How are emergency requests handled?"
+      },
+      "a": {
+        "it": "Sebbene il personale sia lodato per la disponibilità ordinaria, alcuni utenti consigliano cliniche 24h per emergenze notturne.",
+        "en": "While staff are praised for standard availability, some clients suggest 24h clinics for acute nighttime emergencies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
