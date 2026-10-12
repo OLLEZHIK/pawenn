@@ -1,0 +1,30 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "reptilepassion",
+    "animalerie-de-la-croix-rousse",
+    "animalis-lyon-4",
+    "j-ai-plus-de-croquettes-lyon",
+    "canaldog-croix-rousse",
+    "animalis-lyon-6",
+    "ptit-pere-lyon-4",
+    "maxi-zoo-lyon-victor-hugo",
+    "maxi-zoo-lyon-confluence",
+    "maxi-zoo-lyon-vitton-massena"
+  ],
+  "hash": "9befc669e778d382cf8210cb8934b964e6fbd80ea9db8a0b1a8e61f2e93670b7",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T03:48:12.545Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-12T03:50:57.770Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
