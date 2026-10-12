@@ -1,0 +1,132 @@
+{
+  "slug": "wash-dog-milano-nord",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wash+Dog+Milano+Nord/data=!4m7!3m6!1s0x4786c74c0009f765:0xf118cdcfb0224a6e!8m2!3d45.518374!4d9.2069234!16s%2Fg%2F1pp2x7yjg!19sChIJZfcJAEzHhkcRbkoisM_NGPE?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Spazi puliti per il self service",
+        "en": "Clean self-service wash stations"
+      },
+      "text": {
+        "it": "La struttura viene considerata pulita, ordinata e ben attrezzata per il lavaggio self service. I proprietari sottolineano la comodità degli spazi ampi e la funzionalità degli strumenti igienizzanti, che permettono di lavare e asciugare il cane in piena autonomia.",
+        "en": "The facility is regarded as clean, well-organized, and properly equipped for self-service dog washing. Pet owners highlight the convenience of the spacious bathing stations and functional drying tools, allowing them to groom their pets independently with ease."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Supporto cordiale del personale",
+        "en": "Helpful and welcoming store team"
+      },
+      "text": {
+        "it": "I clienti che frequentano lo store di Viale Fulvio Testi apprezzano la disponibilità e la cortesia del personale, sempre pronto a spiegare il funzionamento delle postazioni o a prendersi cura dei cani più diffidenti. L'assistenza viene descritta come attenta e rassicurante.",
+        "en": "Customers visiting the store on Viale Fulvio Testi appreciate the helpfulness and courtesy of the staff, who readily guide visitors through using the washing tubs or gently care for hesitant dogs. The in-store support is praised as attentive, friendly, and practical."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Qualità del lavaggio e tosatura",
+        "en": "Washing and haircut outcomes"
+      },
+      "text": {
+        "it": "La resa dei trattamenti suscita pareri contrastanti: molti proprietari lodano la morbidezza del pelo e la profumazione dopo il bagno, mentre una recensione segnala un taglio poco accurato per un Lagotto con pelo ancora presente nelle orecchie nonostante la spesa.",
+        "en": "Grooming outcomes receive mixed feedback: many owners praise how soft and fragrant their dogs coat feels after bathing, while one reviewer noted an incomplete clip on a Lagotto with ear hair left unattended despite the service fee paid for full shearing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "È possibile lavare il proprio cane in autonomia?",
+        "en": "Can owners wash their dogs independently?"
+      },
+      "a": {
+        "it": "Sì, la struttura dispone di postazioni self service con acqua calda, detergenti e soffiatori per asciugare l'animale.",
+        "en": "Yes, the facility provides self-service washing stations equipped with warm water, cleansers, and blow dryers."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Il salone offre anche servizi di toelettatura assistita?",
+        "en": "Does the salon offer full assisted grooming?"
+      },
+      "a": {
+        "it": "Sì, oltre al lavaggio self service è possibile richiedere la toelettatura e la tosatura eseguite dal personale.",
+        "en": "Yes, alongside self-service baths, full professional grooming and clipping by salon staff are available."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "I locali sono adatti a cani di taglia grande?",
+        "en": "Is the facility suitable for large dog breeds?"
+      },
+      "a": {
+        "it": "Sì, le vasche e gli spazi operativi risultano spaziosi e accessibili anche per cani di media e grande mole.",
+        "en": "Yes, the tubs and washing bays are spacious enough to accommodate medium and large dogs comfortably."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

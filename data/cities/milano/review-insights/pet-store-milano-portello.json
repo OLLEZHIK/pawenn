@@ -1,0 +1,140 @@
+{
+  "slug": "pet-store-milano-portello",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Store+Milano+Portello/data=!4m7!3m6!1s0x4786c1a80f654593:0xbefc4329534a354d!8m2!3d45.4905945!4d9.1444938!16s%2Fg%2F11cn9qjvx9!19sChIJk0VlD6jBhkcRTTVKUylD_L4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Nuova sede spaziosa e assortimento",
+        "en": "Spacious new location and assortment"
+      },
+      "text": {
+        "it": "I clienti apprezzano la nuova sede del negozio all'interno del centro commerciale Portello, trasferitasi negli spazi più ampi dell'ex Zara. Gli acquirenti descrivono un punto vendita ordinato, luminoso e ben rifornito, con una ricca varietà di crocchette, alimenti umidi e articoli per la cura quotidiana degli animali.",
+        "en": "Shoppers appreciate the store's relocated premises inside the Portello retail complex, occupying the larger former Zara space. Visitors describe an organized, bright, and well-stocked pet market with a broad selection of kibble, wet food varieties, and daily accessories for household pets."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Offerte convenienti e prezzi competitivi",
+        "en": "Competitive prices and promotional offers"
+      },
+      "text": {
+        "it": "Chi acquista regolarmente al Portello segnala prezzi vantaggiosi e offerte periodiche su cibo per cani e gatti, ritenuti inferiori rispetto ad altre catene concorrenti. Le promozioni continue sui sacchi di cibo secco e sulle lattine consentono di fare scorta di prodotti di marca a condizioni economiche convenienti.",
+        "en": "Regular shoppers highlight attractive pricing and recurring promotional discounts on dog and cat food, often found cheaper than at competing retailers. Ongoing promotions across dry kibble and canned diets allow pet parents to stock up on quality pet supplies at appealing price points."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Servizio clienti tra alti e bassi",
+        "en": "Customer assistance with mixed reviews"
+      },
+      "text": {
+        "it": "I pareri sull'assistenza del personale di vendita risultano divisi: mentre diversi visitatori trovano il negozio soddisfacente e ben gestito, una cliente ha lamentato scortesia e scarsa preparazione specifica da parte di un'addetta riguardo a spazzole e accessori per cani. La disponibilità degli operatori varia.",
+        "en": "Feedback concerning floor staff is mixed: while several shoppers rate the service as helpful and efficient, one customer reported rude and uninformed assistance when inquiring about grooming brushes for dogs. Experience with sales advice appears to depend on the individual employee on duty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Dove si trova il Pet Store Milano Portello?",
+        "en": "Where is Pet Store Milano Portello located?"
+      },
+      "a": {
+        "it": "Il negozio si trova in via Don Luigi Palazzolo 20 a Milano, all'interno del complesso commerciale del Portello.",
+        "en": "The pet shop is situated at Via Don Luigi Palazzolo 20 in Milan, inside the Portello shopping mall complex."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Il punto vendita è stato ampliato o rinnovato?",
+        "en": "Has the store recently relocated or expanded?"
+      },
+      "a": {
+        "it": "Sì, nelle recensioni i clienti segnalano il trasferimento nei locali più ampi e luminosi dell'ex negozio Zara.",
+        "en": "Yes, reviews note the relocation to the larger and brighter retail space previously occupied by Zara."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È disponibile un servizio di spesa con consegna a domicilio?",
+        "en": "Is home delivery or online ordering available?"
+      },
+      "a": {
+        "it": "Sì, il negozio fa parte della rete Iper la grande i e permette ordini con ritiro o consegna a domicilio tramite IperDrive.",
+        "en": "Yes, the store belongs to the Iper network and provides online ordering with pick-up or home delivery via IperDrive."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "+",
+        "staff": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

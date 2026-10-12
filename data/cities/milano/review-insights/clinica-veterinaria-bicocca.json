@@ -1,0 +1,133 @@
+{
+  "slug": "clinica-veterinaria-bicocca",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Bicocca/data=!4m7!3m6!1s0x4786c74bdc1b198d:0xa90c23798f553d4!8m2!3d45.5170796!4d9.2062265!16s%2Fg%2F11bzs2ptz5!19sChIJjRkb3EvHhkcR1FP1mDfCkAo?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Competenza medica, umanità e ascolto del team",
+        "en": "Medical expertise, humanity and caring veterinary team"
+      },
+      "text": {
+        "it": "La maggior parte delle testimonianze sottolinea la competenza, l empatia e la grande umanità dimostrate dall équipe medica e dalla dottoressa Barbieri. I proprietari si sentono ascoltati e rassicurati, trovando professionisti capaci di instaurare un dialogo sereno e trasparente con le famiglie.",
+        "en": "Most pet owners praise the clinical competence, empathy, and genuine kindness displayed by Dr. Barbieri and her veterinary colleagues. Families feel heard and reassured during every consultation, finding doctors who build lasting trust through attentive listening and calm explanations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Efficacia delle terapie e accuratezza diagnostica",
+        "en": "Effective treatments and thorough clinical diagnostics"
+      },
+      "text": {
+        "it": "I clienti esprimono piena fiducia per la precisione delle diagnosi e la cura meticolosa riservata ai percorsi terapeutici dei propri animali. Gli interventi e i controlli clinici vengono gestiti con perizia scientifica, garantendo assistenza efficace nel tempo per cani e gatti con patologie varie.",
+        "en": "Clients express solid confidence in the clinic accurate diagnostics and meticulous execution of clinical treatment plans. Surgeries, laboratory screenings, and follow-up examinations are carried out with rigorous expertise, ensuring dependable outcomes for dogs and cats facing diverse health issues."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Pazienza e delicatezza con cani e gatti",
+        "en": "Gentle approach and patience with dogs and cats"
+      },
+      "text": {
+        "it": "Le recensioni mettono in luce il modo dolce e paziente con cui i veterinari maneggiano gli animali sul tavolo da visita. I medici si impegnano a mettere a proprio agio anche i pazienti più timorosi o refrattari, riducendo lo stress delle visite e offrendo cure amorevoli ai piccoli ospiti.",
+        "en": "Reviewers emphasize the calm, respectful, and gentle manner with which veterinarians handle companion animals on the exam table. The medical staff takes time to soothe nervous dogs and anxious cats, significantly reducing visit stress while providing careful and affectionate hands-on care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Quali dotazioni diagnostiche e chirurgiche sono disponibili in clinica?",
+        "en": "What diagnostic and surgical facilities are available at the clinic?"
+      },
+      "a": {
+        "it": "La clinica offre radiologia digitale, ecografia, esami di laboratorio interni e chirurgia specialistica.",
+        "en": "The clinic provides digital radiography, ultrasound imaging, in-house laboratory testing, and surgery."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "Le visite veterinarie si svolgono su appuntamento?",
+        "en": "Are veterinary consultations conducted by appointment?"
+      },
+      "a": {
+        "it": "Sì, la struttura riceve su appuntamento per organizzare gli esami e ridurre al minimo i tempi di attesa.",
+        "en": "Yes, the facility sees patients by appointment to organize clinical examinations and minimize wait times."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Come vengono valutati i costi degli esami specifici?",
+        "en": "How are the costs of specific diagnostic tests viewed?"
+      },
+      "a": {
+        "it": "Mentre la qualità medica è ampiamente lodata, un utente ha espresso disappunto per il costo di un esame parassitologico.",
+        "en": "While medical quality is widely praised, one reviewer expressed disappointment with the cost of a parasitology test."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
