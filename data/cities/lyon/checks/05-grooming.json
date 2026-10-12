@@ -1,0 +1,35 @@
+{
+  "chunk": "05-grooming",
+  "kind": "places",
+  "slugs": [
+    "exo-club",
+    "canicoiff-pressense",
+    "les-aristochiens",
+    "un-chien-un-chat",
+    "actifs-canin",
+    "canibus",
+    "le-coin-a-truffes",
+    "bigoudi",
+    "canicoiff-vaise",
+    "tout-beau-tout-chien"
+  ],
+  "hash": "ae75622aba61f6366579c7a0134de2e1f39467c1b6ec26fd614d9381fea2883b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T01:44:24.970Z",
+      "result": "FAIL",
+      "listed": 77
+    },
+    {
+      "at": "2026-10-12T01:45:36.850Z",
+      "result": "FAIL",
+      "listed": 77
+    },
+    {
+      "at": "2026-10-12T01:53:54.373Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
