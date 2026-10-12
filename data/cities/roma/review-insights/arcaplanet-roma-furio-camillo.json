@@ -1,0 +1,140 @@
+{
+  "slug": "arcaplanet-roma-furio-camillo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arcaplanet/data=!4m7!3m6!1s0x132f61f72f4c6c29:0x608fe1abae485a65!8m2!3d41.8761907!4d12.5246064!16s%2Fg%2F11c46dygts!19sChIJKWxML_dhLxMRZVpIrqvhj2A?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Attenzione alle esigenze dei piccoli animali",
+        "en": "Attentive focus on domestic pet wellbeing"
+      },
+      "text": {
+        "it": "I visitatori apprezzano la ricca offerta di giochi per gatti e alimenti per cuccioli, insieme alla presenza di raccolte benefiche per animali soli. Molti proprietari scelgono il punto vendita per individuare prodotti adatti alla salute e alla vitalità dei propri compagni a quattro zampe.",
+        "en": "Shoppers appreciate the generous selection of cat toys and puppy foods, as well as donation initiatives supporting abandoned animals. Pet owners rely on this location to find suitable nutrition and care goods that foster daily vitality and health for their companion animals."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Cambiamenti nell'organico e assistenza calata",
+        "en": "Staff turnover and reduced assistance quality"
+      },
+      "text": {
+        "it": "Diverse recensioni recenti segnalano un netto peggioramento nel servizio dovuto al trasferimento di figure storiche e competenti del negozio. I clienti riferiscono risposte sbrigative sulle disponibilità di crocchette e un supporto meno orientato alle problematiche veterinarie dei pet.",
+        "en": "Several recent reviews highlight a noticeable decline in customer service following the transfer of seasoned, knowledgeable floor staff. Shoppers report brief and unhelpful answers regarding kibble stock and less dedicated advice for pets experiencing digestive or health challenges."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Riscontri online e comunicazione in negozio",
+        "en": "Online feedback management versus store communication"
+      },
+      "text": {
+        "it": "Se da una parte l'assistenza online risponde educatamente alle recensioni pubbliche, dall'altra emergono criticità nella comunicazione diretta al bancone. Alcuni clienti hanno riscontrato difficoltà nel ricevere chiarimenti sulle pratiche di rimborso o informazioni sul personale.",
+        "en": "While customer support promptly and politely addresses online reviews, notable gaps appear in direct face-to-face store dialogue. Certain patrons experienced frustration when seeking clear explanations regarding pending refund issues or the whereabouts of familiar associates."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Come viene giudicato il servizio del personale nelle recensioni recenti?",
+        "en": "How is staff service evaluated in recent reviews?"
+      },
+      "a": {
+        "it": "I clienti segnalano disagi e risposte meno utili in seguito al trasferimento di dipendenti esperti.",
+        "en": "Recent reviews cite frustration and less helpful guidance following the transfer of experienced staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il negozio è vicino alla metropolitana?",
+        "en": "Is the pet shop located near the metro?"
+      },
+      "a": {
+        "it": "Sì, il punto vendita si trova vicino alla fermata Furio Camillo della linea A.",
+        "en": "Yes, the store is conveniently situated near the Furio Camillo station on Metro Line A."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Si trovano accessori e alimenti per gatti?",
+        "en": "Are cat supplies and accessories available?"
+      },
+      "a": {
+        "it": "Sì, la struttura propone una vasta scelta di cibi, giochi e prodotti per la cura dei felini.",
+        "en": "Yes, the branch provides a wide selection of foods, play items, and feline care supplies."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
