@@ -1,0 +1,142 @@
+{
+  "slug": "chathotel-le-reve-des-chats",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CHAT%27H%C3%94TEL+H%C3%94TEL-CLUB+Le+r%C3%AAve+des+Chats+-+H%C3%B4tel+pour+Chats/data=!4m7!3m6!1s0x12c9b9ae5558f10b:0xb9f57d89142ec6f8!8m2!3d43.2484014!4d5.4038746!16s%2Fg%2F11hzyy3n1z!19sChIJC_FYVa65yRIR-MYuFIl99bk?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "fr": "Relationnel difficile et avis contrastés",
+        "en": "Difficult relations and sharply contrasting experiences"
+      },
+      "text": {
+        "fr": "Si un client loue l'affection sincère de Dominique envers les bêtes, une nette majorité d'avis récents dénonce un comportement déplacé, des remarques désobligeantes et un ton familier. Plusieurs propriétaires rapportent une démarche commerciale pesante lors des contacts initiaux, regrettant un manque d'écoute et d'amabilité avec les maîtres.",
+        "en": "While one client praises Dominique's affectionate dedication to cats, several recent reviews strongly criticize inappropriate humor, curt remarks, and rude communication. Multiple pet owners report feeling pressured during initial booking inquiries, regretting an abrupt demeanor and lack of professional courtesy toward human guests."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Manque de transparence et suivi inégal",
+        "en": "Lack of transparency and inconsistent updates"
+      },
+      "text": {
+        "fr": "Les retours sur les échanges avec l'établissement soulignent d'importantes disparités. Une propriétaire a apprécié les vidéos quotidiennes des chambres, mais d'autres déplorent l'imposition de visites obligatoires sans préavis téléphonique ainsi qu'une totale absence d'explications sur l'état d'un chat rendu amaigri et stressé.",
+        "en": "Feedback concerning communication shows sharp contrasts. While one client appreciated daily room videos during vacations, others criticize mandatory in-person visits imposed without phone notice and a refusal to provide clear explanations when an animal was returned noticeably distressed and neglected."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Expériences mitigées selon les séjours",
+        "en": "Mixed experiences depending on stays"
+      },
+      "text": {
+        "fr": "Les avis divergent sensiblement sur le bien-être des pensionnaires rue Ernest Rouvier. Certains maîtres indiquent que les chats sont choyés comme des rois et passent d'excellents séjours de vacances. En revanche, un témoignage alarmant rapporte un animal restitué très amaigri, sale et traumatisé, sans accompagnement adapté de l'équipe.",
+        "en": "Reviews diverge significantly regarding feline welfare on Rue Ernest Rouvier. Some owners report their cats being pampered like royalty during peaceful holiday boardings. Conversely, a deeply concerning account describes a cat returned severely emaciated, dirty, and traumatized, without adequate care or monitoring."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "L'hôtel transmet-il des nouvelles et vidéos pendant le séjour ?",
+        "en": "Does the hotel provide updates and videos during the stay?"
+      },
+      "a": {
+        "fr": "Des vidéos quotidiennes sont parfois envoyées aux propriétaires pour montrer l'aménagement climatisé et rassurer les familles.",
+        "en": "Daily videos are sometimes sent to reassure owners about their pet's stay in the air-conditioned suites."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Faut-il prévoir une visite préalable avant de réserver ?",
+        "en": "Is an in-person visit required before booking?"
+      },
+      "a": {
+        "fr": "Des clients indiquent qu'une visite sur place et un contrat préalable de plusieurs jours peuvent être exigés avant toute réservation définitive.",
+        "en": "Clients note that an on-site consultation and a short trial stay contract may be requested prior to confirming a booking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les locaux sont-ils propres et tempérés en été ?",
+        "en": "Are the facilities clean and temperature-controlled in summer?"
+      },
+      "a": {
+        "fr": "Les avis positifs soulignent des espaces propres et climatisés, bien que des retours négatifs isolés mentionnent des dégradations ponctuelles.",
+        "en": "Positive reviews note clean, air-conditioned rooms, though isolated negative feedback reports occasional upkeep concerns."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "+"
+      }
+    }
+  ]
+}
