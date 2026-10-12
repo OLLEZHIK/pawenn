@@ -3,7 +3,6 @@
   "kind": "places",
   "slugs": [
     "exo-club",
-    "canicoiff-pressense",
     "les-aristochiens",
     "un-chien-un-chat",
     "actifs-canin",
@@ -13,7 +12,7 @@
     "canicoiff-vaise",
     "tout-beau-tout-chien"
   ],
-  "hash": "ae75622aba61f6366579c7a0134de2e1f39467c1b6ec26fd614d9381fea2883b",
+  "hash": "8196e88d147ac8006db8976fbe74b9ee0156dfd0f555c8225c17dd996af21d7e",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +27,11 @@
     },
     {
       "at": "2026-10-12T01:53:54.373Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-12T18:10:17.080Z",
       "result": "PASS",
       "listed": 0
     }
