@@ -1,0 +1,196 @@
+{
+  "slug": "my-dog-wash",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/My+Dog+Wash/data=!4m7!3m6!1s0x12c9b915bba9ac4b:0x5567500766914be3!8m2!3d43.2435813!4d5.4107039!16s%2Fg%2F11rq12vg2h!19sChIJS6ypuxW5yRIR40uRZgdQZ1U?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "fr": "Concept pratique mais pannes récurrentes",
+        "en": "Practical concept but repeated outages"
+      },
+      "text": {
+        "fr": "Les avis sur la station de lavage en libre-service du 9e arrondissement sont très contrastés. Si certains maîtres apprécient l'abri couvert, la rampe d'accès et les brosses fournies, plusieurs clients déplorent un manque d'entretien, de la rouille et des pannes de matériel.",
+        "en": "Opinions on the self-service dog wash in the 9th arrondissement are sharply divided. While some owners appreciate the covered area, ramp, and brushes provided, several customers report poor cleanliness, rusty fittings, and repeated machine breakdowns on site."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "fr": "Pertes financières et pannes coûteuses",
+        "en": "Wasted funds and costly malfunctions"
+      },
+      "text": {
+        "fr": "La tarification suscite de vifs mécontentements chez une majorité d'usagers récents. Si le principe d'un lavage économique à une dizaine d'euros reste attrayant, de nombreux clients dénoncent des pertes financières dues à l'arrêt imprévu de l'eau ou l'absence de shampoing.",
+        "en": "Pricing draws sharp criticism from a majority of recent users. While an economical self-service wash around ten euros sounds appealing, numerous customers complain about wasted funds due to unexpected water interruptions or depleted shampoo dispensers during cycles."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "fr": "Support client injoignable lors d'incidents",
+        "en": "Customer support unreachable during issues"
+      },
+      "text": {
+        "fr": "Le service client et l'assistance technique font l'objet de reproches unanimes lors des pannes. Plusieurs propriétaires signalent un numéro de téléphone sans réponse ou hors service, et déplorent l'absence totale de geste commercial après avoir signalé des défaillances.",
+        "en": "Customer assistance and technical support draw unanimous criticism when equipment malfunctions occur. Multiple pet owners report unanswered phone calls or disconnected numbers, lamenting a complete lack of commercial support after reporting paid machine failures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Comment fonctionne la station de lavage canin My Dog Wash ?",
+        "en": "How does the My Dog Wash self-service station operate?"
+      },
+      "a": {
+        "fr": "Il s'agit d'une cabine couverte en libre-service avec rampe d'accès, système de lavage à jet, brosses et séchoir.",
+        "en": "It is a covered self-service facility equipped with an access ramp, spray washing wand, brushes, and drying air."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Que faire en cas de panne de la machine ou de perte d'argent ?",
+        "en": "What should users do if a machine malfunctions or money is lost?"
+      },
+      "a": {
+        "fr": "Les avis soulignent d'importantes difficultés à joindre le gérant par téléphone ou SMS en cas de problème technique.",
+        "en": "Reviews highlight significant difficulties in reaching the operator by phone or text message when issues occur."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels produits sont mis à disposition pour laver son chien ?",
+        "en": "What grooming products are provided in the wash cubicle?"
+      },
+      "a": {
+        "fr": "La station distribue théoriquement shampoing et eau tiède, mais plusieurs avis récents signalent des réservoirs vides.",
+        "en": "The station normally dispenses shampoo and warm water, though recent feedback frequently notes empty soap dispensers."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "~",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "place": "~",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
