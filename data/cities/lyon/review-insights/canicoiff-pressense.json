@@ -1,0 +1,123 @@
+{
+  "slug": "canicoiff-pressense",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Canicoiff%27/data=!4m7!3m6!1s0x47f4ea044265040f:0x63949459ca08a9d2!8m2!3d45.7308213!4d4.8596393!16s%2Fg%2F11bxg9pxbz!19sChIJDwRlQgTq9EcR0qkIylmUlGM?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Avis contrastés sur le personnel",
+        "en": "Critical opinions regarding salon staff"
+      },
+      "text": {
+        "fr": "Les retours récents sur l'équipe de l'avenue Francis de Pressensé s'avèrent très critiques dans l'ensemble. Bien qu'une cliente satisfaite mette en avant une équipe dynamique et polie, d'autres usagers dénoncent un accueil désagréable et un manque de considération envers la clientèle. Cette disparité nuit grandement à la réputation de l'établissement.",
+        "en": "Recent feedback concerning the staff on Avenue Francis de Pressensé is largely unfavorable. Although one enthusiastic review praised a dynamic and courteous team, other visitors strongly complained about an unfriendly greeting and unhelpful service. This noticeable inconsistency significantly detracts from the salon's reputation."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "fr": "Résultats de toilettage très partagés",
+        "en": "Highly varied grooming outcomes reported"
+      },
+      "text": {
+        "fr": "Les avis sur la qualité du toilettage présentent un contraste frappant sur la période observée. Tandis qu'une propriétaire de yorkshire félicite une coupe magnifique et impeccable, une autre expérience s'est conclue par des coupures importantes et une vive colère. Le niveau de finition apparaît ainsi très aléatoire selon les séances.",
+        "en": "Feedback regarding grooming quality displays stark divergence across the observed timeframe. While one Yorkshire terrier owner was delighted with an immaculate and handsome coat, another client experienced severe cuts and required veterinary treatment. Grooming outcomes therefore appear extremely inconsistent across visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "fr": "Expériences opposées pour les animaux",
+        "en": "Divergent experiences for treated pets"
+      },
+      "text": {
+        "fr": "Le bien-être des compagnons canins suscite des témoignages diamétralement opposés. Un avis décrit un animal choyé et parfaitement soigné, tandis qu'un autre relate un traumatisme majeur consécutif à des blessures physiques pendant la tonte. Les propriétaires invitent ainsi à la plus grande vigilance lors de la prise en charge.",
+        "en": "The well-being of dogs during sessions yields completely opposing testimonials. One review portrays a happily pampered companion, whereas another reports significant distress following physical nicks during clipping. As a consequence, pet owners suggest exercising considerable caution before booking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon Canicoiff de Pressensé est-il toujours en activité ?",
+        "en": "Is the Pressensé Canicoiff salon currently operational?"
+      },
+      "a": {
+        "fr": "L'activité de l'adresse semble incertaine avec des signalements de fermeture temporaire et des horaires irréguliers relevés par les clients.",
+        "en": "Operations at this address appear uncertain, with customer notices mentioning temporary closure and irregular operating hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quelles prestations de toilettage étaient proposées ?",
+        "en": "What grooming treatments were historically provided?"
+      },
+      "a": {
+        "fr": "Le salon effectuait des prestations classiques de bain, tonte et entretien pour chiens et chats de compagnie.",
+        "en": "The salon provided conventional hygiene baths, clipping, and maintenance styling for pet dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les petits chiens de race sont-ils acceptés ?",
+        "en": "Are small breed dogs accepted for styling?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement accueillait des petits chiens tels que les yorkshires pour des séances complètes de tonte et de lavage.",
+        "en": "Yes, the salon previously groomed small companion dogs like Yorkshire terriers for full clipping and washing."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

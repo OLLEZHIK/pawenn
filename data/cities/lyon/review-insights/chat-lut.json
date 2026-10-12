@@ -1,0 +1,135 @@
+{
+  "slug": "chat-lut",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chat%27lut/data=!4m7!3m6!1s0x47f4ea424a9a6659:0x88c1f016af80cf22!8m2!3d45.7503433!4d4.8461133!16s%2Fg%2F113gqn1yl!19sChIJWWaaSkLq9EcRIs-ArxbwwYg?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Pension féline et cadre environnant",
+        "en": "Cattery environment and local surroundings"
+      },
+      "text": {
+        "fr": "La pension située rue Creuzet dans le 7e arrondissement est reconnue par ses clients habituels comme un lieu d'accueil sécurisant pour les félins. Cependant, des avis récents font état de désagréments nocturnes et de tensions de voisinage qui ternissent la tranquillité du site. Les maîtres apprécient néanmoins les installations dédiées aux chats.",
+        "en": "The boarding facility on Rue Creuzet in the 7th arrondissement is praised by regular clients as a secure shelter for felines. However, recent neighborhood complaints mention late-night disturbances and local tensions that impact the calm atmosphere. Cat owners nevertheless appreciate the dedicated indoor premises."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Implication dévouée mais relations tendues",
+        "en": "Dedicated care amid local tensions"
+      },
+      "text": {
+        "fr": "Les propriétaires réguliers louent l'engagement sans faille et la gentillesse de la gérante Cynthia, prête à s'adapter pour restituer un animal en dehors des heures habituelles. À l'opposé, des commentaires récents critiquent vertement son comportement lors d'incidents nocturnes signalés par le voisinage. Ces avis très divergents créent un bilan mitigé.",
+        "en": "Regular clients warmly praise the dedication and helpfulness of manager Cynthia, who readily accommodates unusual pickup times for long-distance owners. In sharp contrast, recent reviews sharply criticize personal conduct during noisy incidents reported by neighbors. These conflicting viewpoints result in a distinctly mixed impression."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Attention portée aux pensionnaires félins",
+        "en": "Welfare and care for cats"
+      },
+      "text": {
+        "fr": "Les maîtres de chats soulignent l'attention personnalisée accordée aux animaux, y compris pour les pensionnaires habituellement timides qui trouvent rapidement leurs repères. Toutefois, des riverains ont exprimé des craintes quant à la quiétude des animaux lors d'incidents bruyants. L'affection démontrée envers les chats reste unanimement soulignée par les clients.",
+        "en": "Feline guardians highlight the customized attention given to resident cats, noting that even timid companions settle in comfortably. Nevertheless, neighboring reviews voiced worries regarding pet tranquillity during noisy nocturnal episodes. Genuine affection toward boarded animals remains a strong positive point among genuine clients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Où se situe la pension féline Chat'lut ?",
+        "en": "Where is the Chat'lut cat boarding located?"
+      },
+      "a": {
+        "fr": "L'établissement est situé au 19 rue Creuzet dans le 7e arrondissement de Lyon, à proximité du quartier de la Guillotière.",
+        "en": "The facility is located at 19 Rue Creuzet in the 7th arrondissement of Lyon, close to the Guillotière area."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "La pension accepte-t-elle les chats craintifs ?",
+        "en": "Does the cattery accommodate shy or timid cats?"
+      },
+      "a": {
+        "fr": "Oui, les retours de clients fidèles indiquent que les chats timides y trouvent une attention douce et un environnement apaisant.",
+        "en": "Yes, feedback from regular clients indicates that timid cats receive gentle care and settle into a calming setting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Est-il possible de récupérer son chat en dehors des horaires ?",
+        "en": "Can owners arrange pet pickup outside standard hours?"
+      },
+      "a": {
+        "fr": "La gérante a parfois accepté des arrangements ponctuels pour aider des propriétaires arrivant de loin, sur demande préalable.",
+        "en": "The manager has accommodated occasional special arrangements for owners traveling from afar, upon prior agreement."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
