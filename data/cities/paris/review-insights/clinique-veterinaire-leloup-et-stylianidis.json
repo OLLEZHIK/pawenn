@@ -1,0 +1,134 @@
+{
+  "slug": "clinique-veterinaire-leloup-et-stylianidis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+des+Docteurs+Leloup+et+Stylianidis/data=!4m7!3m6!1s0x47e6700c523919f5:0x152d9f1572c31ef7!8m2!3d48.8401554!4d2.2840177!16s%2Fg%2F1thcm2c5!19sChIJ9Rk5Ugxw5kcR9x7DchWfLRU?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Praticiens expérimentés mais retours contrastés",
+        "en": "Experienced clinicians with mixed reception"
+      },
+      "text": {
+        "fr": "Des clients de longue date saluent le dévouement et l'écoute du Dr Leloup dans le 15e arrondissement pour le suivi des affections chroniques. En contrepartie, d'autres propriétaires déplorent un manque de flexibilité dans l'accueil d'urgences critiques en fin de semaine.",
+        "en": "Long-standing clients appreciate Dr. Leloup's dedication and attentive consultations in the 15th arrondissement for chronic conditions. Conversely, other visitors express dismay over rigid scheduling and difficulties accommodating end-of-life emergency requests on busy days."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Prise en charge sensible des animaux",
+        "en": "Sensitive handling of animal patients"
+      },
+      "text": {
+        "fr": "Un suivi cardiologique délicat mené avec tendresse jusqu'au dernier jour est salué avec émotion par une cliente. Cependant, deux avis récents critiquent des manipulations perçues comme brusques en salle isolée ou le report de soins palliatifs urgents pour un chien en souffrance.",
+        "en": "Compassionate cardiac care maintained until a pet's final hours is praised with deep emotion. However, two recent reviews criticize handling perceived as abrupt without owner presence, as well as the postponement of critical palliative relief for an ailing animal."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Disponibilité téléphonique et consentement",
+        "en": "Telephone availability and owner communication"
+      },
+      "text": {
+        "fr": "La disponibilité par téléphone et la précision des échanges lors des consultations médicales sont soulignées positivement par certains maîtres. À l'opposé, un propriétaire regrette un manque d'accord préalable avant d'isoler son animal pour des soins d'hygiène en clinique.",
+        "en": "Telephone availability and detailed discussions during medical appointments are positively noted by several owners. On the other hand, a client regrets the lack of prior consent before taking a pet into a separate examination room for routine grooming care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Faut-il impérativement prendre rendez-vous pour une consultation ?",
+        "en": "Is booking an appointment strictly required for consultations?"
+      },
+      "a": {
+        "fr": "Oui, les consultations ont lieu impérativement sur rendez-vous du lundi au samedi.",
+        "en": "Yes, consultations are strictly by appointment from Monday to Saturday."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "La clinique dispose-t-elle de moyens d'imagerie sur place ?",
+        "en": "Does the clinic have on-site medical imaging equipment?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement est équipé pour réaliser des radiographies, des échographies et des examens chirurgicaux.",
+        "en": "Yes, the practice is equipped to perform radiographic imaging, ultrasound diagnostics, and surgical interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Comment sont organisées les consultations pour les maladies chroniques ?",
+        "en": "How are chronic illness consultations organized?"
+      },
+      "a": {
+        "fr": "Les praticiens prennent le temps d'échanger en détail sur les traitements et assurent un suivi précis au fil des années.",
+        "en": "Clinicians take time to discuss treatment plans thoroughly and provide consistent multi-year disease management."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
