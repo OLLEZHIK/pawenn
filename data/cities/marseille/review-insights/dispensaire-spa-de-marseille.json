@@ -1,0 +1,222 @@
+{
+  "slug": "dispensaire-spa-de-marseille",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dispensaire+SPA+de+Marseille/data=!4m7!3m6!1s0x12c9bf5450fd6afd:0x9e78f9bdafb89942!8m2!3d43.282423!4d5.396994!16s%2Fg%2F1tdj76b1!19sChIJ_Wr9UFS_yRIRQpm4r735eJ4?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 17,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "fr": "Accueil divisé entre dévouement et tensions",
+        "en": "Staff divided between dedication and friction"
+      },
+      "text": {
+        "fr": "Les avis des usagers reflètent un contraste marqué au sein de l'établissement du 10e arrondissement de Marseille. Plusieurs maîtres louent la gentillesse et la patience de la secrétaire et des vétérinaires qui prennent le temps d'expliquer les soins. D'autres déplorent en revanche un accueil glacial, des hausses de ton et un manque d'écoute envers les personnes en détresse.",
+        "en": "User reviews present a sharp contrast at this facility in Marseille's 10th arrondissement. Several pet owners praise the kindness and dedication of the receptionist and veterinary staff who take time to explain treatments. Conversely, others criticize dismissive attitudes, raised voices, and perceived lack of empathy during emotional crises."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fr": "Soins solidaires avec saturation visible",
+        "en": "Solidarity care facing visible strain"
+      },
+      "text": {
+        "fr": "Le dispensaire apporte une aide précieuse aux personnes à revenus modestes pour faire soigner, stériliser et vacciner leurs bêtes. Lorsque la prise en charge a lieu, les animaux reçoivent des soins attentifs. Néanmoins, face à la surcharge quotidienne du centre, des propriétaires rapportent n'avoir pas pu faire examiner leur animal malade faute de place disponible.",
+        "en": "The dispensary provides valuable aid to low-income owners seeking medical care, neutering, and vaccinations for their companions. When animals are admitted, they receive attentive clinical care. However, due to daily facility overload, some guardians report being unable to have critically ill pets examined because capacity was reached."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Joignabilité téléphonique très difficile",
+        "en": "Persistent telephone accessibility issues"
+      },
+      "text": {
+        "fr": "L'accès aux services par téléphone suscite des réclamations récurrentes de la part des usagers. Plusieurs personnes soulignent l'impossibilité d'obtenir une réponse malgré des dizaines d'appels répétés sur plusieurs semaines pour organiser une stérilisation ou demander conseil, ce qui engendre une vive frustration chez les propriétaires de bêtes malades.",
+        "en": "Telephone access triggers frequent complaints from pet owners. Multiple reviewers point out that lines go unanswered despite repeated attempts over several weeks when trying to arrange neutering or ask medical advice, causing acute frustration for families seeking urgent guidance for their unwell pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "À qui s'adressent les soins du dispensaire SPA de Marseille ?",
+        "en": "Who is eligible for veterinary care at the Marseille SPA dispensary?"
+      },
+      "a": {
+        "fr": "Le dispensaire est réservé aux personnes sous conditions de ressources (étudiants, bénéficiaires de minima sociaux, faibles revenus) qui ne peuvent assumer les tarifs vétérinaires classiques.",
+        "en": "The dispensary is reserved for low-income individuals (students, social assistance recipients, minimal pensions) unable to afford conventional veterinary clinic fees."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Peut-on facilement joindre le dispensaire par téléphone pour prendre rendez-vous ?",
+        "en": "Can the dispensary easily be reached by phone to book an appointment?"
+      },
+      "a": {
+        "fr": "Non, de nombreux avis signalent qu'il est très difficile d'obtenir un interlocuteur par téléphone en raison de la saturation permanente des lignes.",
+        "en": "No, multiple client reviews indicate that phone lines are rarely answered due to chronic administrative overload."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le dispensaire assure-t-il les urgences vitales et les hospitalisations de nuit ?",
+        "en": "Does the dispensary provide 24/7 emergency services or overnight hospitalization?"
+      },
+      "a": {
+        "fr": "Non, l'établissement ne gère pas les urgences en dehors de ses horaires et ferme ses portes le jeudi et le week-end; il convient de se tourner vers une clinique d'urgence.",
+        "en": "No, the facility does not handle after-hours emergencies and is closed on Thursdays and weekends; pet owners must consult a 24/7 clinic instead."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
