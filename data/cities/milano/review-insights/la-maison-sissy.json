@@ -1,0 +1,145 @@
+{
+  "slug": "la-maison-sissy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Maison+Sissy/data=!4m7!3m6!1s0x4786c4231117181b:0xa8f6824a9051561a!8m2!3d45.4470206!4d9.2125239!16s%2Fg%2F11dfjbgkn5!19sChIJGxgXESPEhkcRGlZRkEqC9qg?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Trattamento degli ospiti con pareri contrastanti",
+        "en": "Pet handling with divided owner feedback"
+      },
+      "text": {
+        "it": "Mentre alcuni clienti raccontano che i propri cani sono stati accuditi con affetto e trattati con la massima premura, altri denunciano situazioni problematiche. Una recensione segnala un'irritazione cutanea dovuta a detergenti, mentre un altro utente descrive il cane visibilmente stressato e isolato durante la permanenza.",
+        "en": "While certain clients state their dogs were treated with great warmth and attentive pampering, other pet parents report serious issues. One review notes skin irritation caused by cleaning detergents, while another describes their dog returning home noticeably stressed and isolated during its stay in Milan."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Struttura, telecamere e igiene degli ambienti",
+        "en": "Facility rooms, webcams, and room sanitization"
+      },
+      "text": {
+        "it": "La residenza viene lodata inizialmente per l'aspetto curato delle stanze e il controllo tramite webcam. Emergono tuttavia lamentele sui frequenti blocchi della visuale notturna, su spazi di alloggio giudicati angusti rispetto alle promesse di lusso e sull'uso di disinfettanti che hanno causato dermatiti ai cani.",
+        "en": "The hotel is initially praised for tidy suite presentation and promised webcam surveillance. However, complaints emerge regarding recurring camera feed outages, living spaces judged too confined for a luxury pet resort, and sanitizing chemicals that allegedly caused contact dermatological reactions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Invio di aggiornamenti e chiarimenti sui pacchetti",
+        "en": "Video update delivery and policy transparency"
+      },
+      "text": {
+        "it": "Se da un lato vi sono proprietari soddisfatti dei filmati ricevuti quotidianamente, dall'altro emergono critiche severe sulla comunicazione. Alcuni clienti riferiscono di aver ricevuto meno video di quanti pattuiti e di aver scoperto solo in loco che gli aggiornamenti frequenti richiedevano pacchetti a pagamento.",
+        "en": "Although some pet owners were pleased with regular daily video check-ins, critical reviews point to severe communication gaps. Several clients reported receiving fewer video updates than promised and learning only after check-in that frequent multimedia reports were tied to paid extra service tiers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La pensione dispone di telecamere per controllare il cane?",
+        "en": "Does the facility offer webcam monitoring for boarding dogs?"
+      },
+      "a": {
+        "it": "La struttura pubblicizza webcam nelle stanze, ma alcuni clienti hanno riscontrato interruzioni periodiche del segnale.",
+        "en": "The boarding kennel advertises in-room webcams, though several guests noted intermittent feed disruptions during stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quante passeggiate giornaliere sono previste per gli ospiti?",
+        "en": "How many daily walks are included for boarding pets?"
+      },
+      "a": {
+        "it": "La pensione dichiara uscite regolari durante il giorno, sebbene alcune recensioni critiche lamentino scarsa interazione.",
+        "en": "The hotel advertises frequent daily walks, though critical reviews questioned the actual time spent out of the room."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono gestiti gli aggiornamenti video per i proprietari?",
+        "en": "How are video updates communicated to pet parents?"
+      },
+      "a": {
+        "it": "Vengono inviati video di aggiornamento, ma gli utenti consigliano di chiarire in anticipo quali pacchetti li includano.",
+        "en": "Video reports are sent to families, but reviewers suggest clarifying upfront whether frequent clips require paid packages."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "place": "~",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
