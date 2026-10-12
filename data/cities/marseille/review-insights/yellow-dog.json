@@ -1,0 +1,143 @@
+{
+  "slug": "yellow-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Yellow+Dog/data=!4m7!3m6!1s0x12c9bf7eeca085eb:0x90605456f0fc50de!8m2!3d43.3146067!4d5.3980922!16s%2Fg%2F1v38dlyn!19sChIJ64Wg7H6_yRIR3lD88FZUYJA?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Toiletteuse patiente avec une vive contestation",
+        "en": "Patient groomer alongside a sharp grievance"
+      },
+      "text": {
+        "fr": "Plusieurs maîtres saluent la bienveillance, la patience et le bon contact de la professionnelle lors des séances de toilettage. En contrepoint, un avis virulent fait part d'un litige marqué concernant le comportement de la gérante et un refus ultérieur de reprendre l'animal après une réclamation.",
+        "en": "Several owners commend the practitioner's warmth, patience, and friendly rapport during grooming appointments. Conversely, one outspoken review describes a contentious disagreement over the groomer's conduct and an outright refusal to take the dog back following a dispute."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Résultats appréciés mais litige sur une tonte",
+        "en": "Appreciated cuts alongside a shaving dispute"
+      },
+      "text": {
+        "fr": "Des propriétaires de cockers et de golden retrievers expriment une entière satisfaction quant à la netteté du travail et au soin méticuleux apporté aux finitions. Toutefois, un client mécontent dénonce une coupe jugée trop courte et asymétrique sur son shih tzu ayant provoqué des irritations.",
+        "en": "Owners of Cocker Spaniels and Golden Retrievers express full satisfaction with neat styling and meticulous finishing touches. In contrast, a dissatisfied client strongly complained about an uneven, excessively short 9mm clipper cut on a Shih Tzu that reportedly caused skin irritation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Douceur avec les animaux sensibles ou craintifs",
+        "en": "Gentle approach for sensitive or fearful pets"
+      },
+      "text": {
+        "fr": "Les retours d'expérience mettent en valeur l'attitude calme de la toiletteuse face à des animaux délicats à manipuler, comme des chats peu amateurs d'eau ou des meutes de grands chiens. Elle sait rassurer ses pensionnaires et adapter ses gestes pour limiter leur anxiété.",
+        "en": "Client feedback highlights the groomer's soothing manner with animals that are tricky to handle, including cats averse to bathing and lively large dogs. She knows how to calm visiting pets and adjust handling techniques to ease their anxiety throughout the appointment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon Yellow Dog accueille-t-il les chats ?",
+        "en": "Does Yellow Dog welcome cats for grooming?"
+      },
+      "a": {
+        "fr": "Oui, un retour d'expérience mentionne la prise en charge patiente d'un chat pourtant réticent au bain.",
+        "en": "Yes, a review reports patient handling of a cat that was reluctant toward water during a bath."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les grands chiens ?",
+        "en": "Does the salon groom large dogs?"
+      },
+      "a": {
+        "fr": "Oui, les avis indiquent des séances réussies sur des races de grande taille comme les Golden Retrievers.",
+        "en": "Yes, client reviews note successful grooming sessions on large breeds such as Golden Retrievers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment sont réalisées les coupes ?",
+        "en": "How are haircuts performed at the salon?"
+      },
+      "a": {
+        "fr": "La plupart des clients soulignent un travail soigné, bien qu'un avis critique signale un désaccord sur la longueur de tonte.",
+        "en": "Most clients highlight meticulous styling, though one critical review notes a disagreement over clipper length."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
