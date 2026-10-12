@@ -1,0 +1,143 @@
+{
+  "slug": "arcaplanet-milano-marco-bruto",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arcaplanet/data=!4m7!3m6!1s0x4786c7e362ffebd9:0x958b7f560e0b56a3!8m2!3d45.4585!4d9.2399!16s%2Fg%2F11j352v9dl!19sChIJ2ev_YuPHhkcRo1YLDlZ_i5U?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Accoglienza e attenzione della clientela",
+        "en": "Welcoming staff and customer interactions"
+      },
+      "text": {
+        "it": "La maggior parte dei clienti esprime soddisfazione per la disponibilità e la cortesia mostrata dal personale del punto vendita di Via Marco Bruto. In un episodio isolato viene tuttavia segnalata una scarsa attenzione nell'offrire soluzioni alternative a un cliente in cerca di prodotti specifici.",
+        "en": "Most patrons express appreciation for the friendliness and general readiness of staff at the Via Marco Bruto branch. However, one isolated review noted inadequate problem-solving when assistants failed to proactively suggest alternative options for out-of-stock items."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Assortimento e scorte a scaffale",
+        "en": "Store stock and shelf availability"
+      },
+      "text": {
+        "it": "Il negozio nel quartiere Forlanini offre un buon reparto per animali da compagnia con un'ampia scelta di accessori e alimenti. Alcuni acquirenti segnalano tuttavia la mancanza occasionale di confezioni grandi di cibo per cuccioli, rendendo necessari passaggi tra diversi punti vendita.",
+        "en": "The branch in the Forlanini district provides an expansive pet supplies section with accessories and dry food. Nonetheless, shoppers occasionally report missing large-format puppy kibble bags, leading to frustration when stock is not properly aligned between regional locations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Coordinamento e risposte ai clienti",
+        "en": "Store coordination and client communications"
+      },
+      "text": {
+        "it": "I visitatori apprezzano solitamente i chiarimenti ricevuti durante gli acquisti, ma emerge il bisogno di una migliore comunicazione tra filiali. Quando un prodotto risulta esaurito, i clienti si aspettano verifiche immediate delle scorte e l'attivazione tempestiva di ordini con consegna a casa.",
+        "en": "Visitors usually appreciate routine assistance during shopping, though experiences reveal a need for tighter coordination across stores. When specific items are unavailable, shoppers expect quick inventory checks and proactive offers for home delivery rather than unverified store transfers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il negozio di Via Marco Bruto dispone di un servizio toelettatura?",
+        "en": "Does the Via Marco Bruto shop include grooming services?"
+      },
+      "a": {
+        "it": "Sì, la sede comprende un reparto dedicato alla cura e alla toelettatura dei cani con appuntamenti dedicati.",
+        "en": "Yes, this location features a dedicated dog grooming corner available by booking."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "È possibile verificare le giacenze prima di recarsi in negozio?",
+        "en": "Can customers check product availability before visiting?"
+      },
+      "a": {
+        "it": "Sì, è consigliabile consultare l'applicazione o contattare il punto vendita per confermare la presenza di formati particolari.",
+        "en": "Yes, customers are advised to check the app or call the store to ensure specific pet food formats are in stock."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il punto vendita supporta il servizio di ritiro in negozio?",
+        "en": "Does the location offer click and collect order pickup?"
+      },
+      "a": {
+        "it": "Sì, i clienti possono acquistare online dal catalogo e ritirare gratuitamente la merce presso la filiale.",
+        "en": "Yes, clients can order items through the website and pick them up at the Marco Bruto store free of charge."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
