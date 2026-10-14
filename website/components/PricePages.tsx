@@ -189,9 +189,16 @@ export async function ServicePricePage({
                         {line.business.districtName && (
                           <span className="block text-xs text-foreground/60">{line.business.districtName}</span>
                         )}
-                        {vs && <span className="mt-0.5 block text-xs font-medium sm:hidden">{vs}</span>}
+                        {vs && (
+                          // data-nosnippet: Google built search snippets from these cells
+                          // ("Zavolať, 69 € cenník, o 27 % pod trhom", 2026-10-14)
+                          <span data-nosnippet className="mt-0.5 block text-xs font-medium sm:hidden">
+                            {vs}
+                          </span>
+                        )}
                         {line.business.phone && (
                           <a
+                            data-nosnippet
                             href={`tel:${line.business.phone.replace(/\s+/g, "")}`}
                             className="relative z-10 mt-1 block w-fit text-xs font-semibold text-brand-orange hover:underline"
                           >
@@ -203,6 +210,7 @@ export async function ServicePricePage({
                         {priceText(line)}
                         {line.rows[0].sourceUrl && (
                           <a
+                            data-nosnippet
                             href={line.rows[0].sourceUrl}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
@@ -212,7 +220,11 @@ export async function ServicePricePage({
                           </a>
                         )}
                       </td>
-                      {market && <td className="hidden px-4 py-3 text-xs font-medium sm:table-cell sm:pr-6">{vs}</td>}
+                      {market && (
+                        <td data-nosnippet className="hidden px-4 py-3 text-xs font-medium sm:table-cell sm:pr-6">
+                          {vs}
+                        </td>
+                      )}
                     </tr>
                   );
                 })}

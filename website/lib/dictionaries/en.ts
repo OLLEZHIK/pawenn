@@ -463,6 +463,9 @@ export const en = {
       `${label} ${where}: prices of ${services} services compared across places, with the average and range for each. From published price lists, with dates.`,
     serviceH1: (service: string, where: string) => `${service} ${where}: prices`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – from ${from} | Pawenn`,
+    /** Meta description of a service price page: "<service> <where>:" + the answer, the cheapest place in between. */
+    serviceMetaLead: (service: string, where: string) => `${service} ${where}:`,
+    cheapest: (name: string, price: string) => `Cheapest: ${name}, ${price}.`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
       `Costs from ${from} to ${to}, average ${median}. We compared ${places} ${places === 1 ? "place" : "places"}; prices checked ${date}.`,
     fewPlaces: (places: number) =>
