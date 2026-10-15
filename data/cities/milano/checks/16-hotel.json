@@ -1,0 +1,39 @@
+{
+  "chunk": "16-hotel",
+  "kind": "places",
+  "slugs": [
+    "bau-and-the-city",
+    "miciottello",
+    "spazio-superdog",
+    "fusa-bau-resort"
+  ],
+  "hash": "d5f7090f99b720f0d18bf1848ff1dc68f81b0b37889eb5dbe660615783d6a668",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T21:44:18.126Z",
+      "result": "FAIL",
+      "listed": 42
+    },
+    {
+      "at": "2026-10-15T21:48:21.209Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-15T21:51:56.510Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T21:53:52.106Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T22:01:57.551Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
