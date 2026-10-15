@@ -92,16 +92,16 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
                 {categoryLabel(business.category, locale)}
               </p>
             )}
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
               <h3 className="font-heading text-lg font-bold leading-snug text-foreground transition group-hover:text-brand-blue md:text-xl">
                 {business.name}
               </h3>
               {/* Rating sits right next to the name (owner, 2026-10-15). */}
-              <div className="flex items-center text-sm text-foreground/65">
+              <div className="flex items-baseline text-sm text-foreground/65">
                 {business.googleRating !== null && business.googleRatingCount !== null ? (
-                  <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
+                  <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} className="!items-baseline" />
                 ) : rating !== null && (
-                  <span className="inline-flex items-center gap-1">
+                  <span className="inline-flex items-baseline gap-1">
                     <StarRow rating={rating} />
                     <span className="font-semibold text-foreground">{rating.toFixed(1)}</span>
                     <span>({business.reviews.length})</span>
