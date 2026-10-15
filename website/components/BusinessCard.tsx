@@ -99,9 +99,9 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
           <ArrowRightIcon className="mt-1 hidden h-5 w-5 shrink-0 text-foreground/25 transition group-hover:translate-x-0.5 group-hover:text-brand-blue sm:block" />
         </div>
 
-        <div className="mt-1.5 space-y-1 text-sm text-foreground/65">
-          {/* One fact per line, all left-aligned: rating, address, price. */}
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+        <div className="mt-1.5 flex flex-col gap-1 text-sm text-foreground/65 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-3 sm:gap-y-1">
+          {/* Phone: one fact per line, left-aligned (rating, address, price). sm+: one wrapping row. */}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 sm:contents">
             {business.googleRating !== null && business.googleRatingCount !== null ? (
               <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
             ) : rating !== null && (
@@ -119,13 +119,13 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
             )}
           </div>
           {business.district && (
-            <p className="flex items-center gap-1">
+            <p className="flex items-center gap-1 sm:inline-flex">
               <MapPinIcon className="h-4 w-4 shrink-0" />
               {business.district.name}
             </p>
           )}
           {(priceTier !== null || fromPrice || (business.category !== "PET_SHOP")) && (
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 sm:contents">
               {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
               {fromPrice && (
                 <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
