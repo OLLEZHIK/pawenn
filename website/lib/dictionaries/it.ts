@@ -475,6 +475,8 @@ export const it: Dictionary = {
       `${label} ${where}: prezzi di ${services} servizi confrontati tra i luoghi, con la media e la fascia di ciascuno. Da listini pubblicati, con le date.`,
     serviceH1: (service: string, where: string) => `${service} ${where}: prezzi`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – da ${from} | Pawenn`,
+    serviceMetaLead: (service: string, where: string) => `${service} ${where}:`,
+    cheapest: (name: string, price: string) => `Il più economico: ${name} – ${price}.`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
       `Costa da ${from} a ${to}, in media ${median}. Abbiamo confrontato ${places} ${places === 1 ? "luogo" : "luoghi"}; prezzi controllati ${date}.`,
     fewPlaces: (places: number) =>

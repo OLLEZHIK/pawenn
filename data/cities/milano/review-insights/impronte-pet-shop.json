@@ -1,0 +1,133 @@
+{
+  "slug": "impronte-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Impronte+Pet+Shop/data=!4m7!3m6!1s0x4786c032b1355b9f:0xa37e946d39277b6e!8m2!3d45.5020834!4d9.1156717!16s%2Fg%2F1tf27k93!19sChIJn1s1sTLAhkcRbnsnOW2UfqM?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Cortesia e competenza del personale di vendita",
+        "en": "Courteous and knowledgeable retail assistants"
+      },
+      "text": {
+        "it": "Gli avventori sottolineano l'estrema disponibilità e la preparazione tecnica del personale in negozio. I commessi si distinguono per la capacità di consigliare le opzioni alimentari più adatte e per un approccio cordiale che fidelizza i residenti della zona anche per diversi decenni di frequentazione.",
+        "en": "Shoppers highlight the consistent helpfulness and solid technical expertise of the in-store staff. Sales assistants are praised for guiding pet owners toward appropriate dietary solutions and offering a friendly, courteous reception that has retained local neighborhood customers across several decades."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Assortimento a scaffale e consegna a domicilio",
+        "en": "Shelf assortment and home delivery service"
+      },
+      "text": {
+        "it": "Il punto vendita in Via Lessona viene descritto come costantemente fornito di alimenti e articoli per la cura quotidiana degli animali da compagnia. I clienti apprezzano la disponibilità di diete specifiche per cani e gatti, oltre alla comodità di un servizio di consegna a domicilio rapido ed efficiente.",
+        "en": "The pet shop on Via Lessona is described as thoroughly stocked with quality food and daily care accessories for domestic animals. Visitors value finding specialized dietary formulations for dogs and cats, alongside the practical convenience of an efficient and prompt home delivery service across Milan."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Attenzione alle esigenze alimentari degli animali",
+        "en": "Focus on dietary needs of household pets"
+      },
+      "text": {
+        "it": "I proprietari considerano questo negozio una risorsa preziosa per nutrire e accudire i propri animali domestici. Viene posta particolare attenzione alla salute di cani e gatti con intolleranze, garantendo prodotti nutrizionali specialistici e consigli pratici per favorire il loro benessere quotidiano.",
+        "en": "Pet parents consider this store a dependable neighborhood resource for nourishing and supporting companion animals. Particular focus is placed on the health of dogs and cats with food sensitivities, offering specialized dietary products alongside practical guidance to support overall physical wellbeing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il negozio effettua consegne a domicilio per gli alimenti pesanti?",
+        "en": "Does the shop provide home delivery for bulky pet food orders?"
+      },
+      "a": {
+        "it": "Sì, i clienti segnalano un servizio di consegna a domicilio puntuale e comodo per la spesa di mangimi e accessori.",
+        "en": "Yes, customers mention a prompt and convenient home delivery service for pet nutrition and heavy supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Sono disponibili alimenti per diete veterinarie o specifiche?",
+        "en": "Are specialized veterinary or prescription diets available in stock?"
+      },
+      "a": {
+        "it": "Sì, il punto vendita propone linee di alimentazione mirate per animali con particolari esigenze o intolleranze.",
+        "en": "Yes, the retail store offers dedicated nutritional formulas designed for pets with specific dietary sensitivities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il personale fornisce consulenza per la scelta dei prodotti?",
+        "en": "Does the store staff offer guidance on choosing suitable products?"
+      },
+      "a": {
+        "it": "Sì, gli acquirenti lodano la competenza dello staff nell indirizzare verso i mangimi e gli articoli più adatti.",
+        "en": "Yes, patrons regularly commend the knowledgeable assistants for recommending the right food and care products."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

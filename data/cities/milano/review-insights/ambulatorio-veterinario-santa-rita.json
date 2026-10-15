@@ -1,0 +1,143 @@
+{
+  "slug": "ambulatorio-veterinario-santa-rita",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Santa+Rita/data=!4m7!3m6!1s0x4786c3953120d717:0x6655d1abf34f606b!8m2!3d45.44148!4d9.1550017!16s%2Fg%2F113k31lpy!19sChIJF9cgMZXDhkcRa2BP86vRVWY?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Professionalità e dedizione del dottor Re",
+        "en": "Professionalism and care from Dr. Re"
+      },
+      "text": {
+        "it": "Cinque recensioni su sei lodano calorosamente il dottor Luca Re per la meticolosità, la gentilezza e la disponibilità durante le visite ambulatoriali. Una testimonianza isolata contesta invece duramente la decisione di operare un animale in condizioni critiche.",
+        "en": "Five out of six reviews warmly commend Dr. Luca Re for his thoroughness, kindness, and helpful availability during clinic consultations. An isolated critical review strongly contests the medical judgment to proceed with surgery on an animal in critical condition."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Specializzazione in esotici e cura dei pazienti",
+        "en": "Exotic pet expertise and patient care"
+      },
+      "text": {
+        "it": "I clienti apprezzano la competenza specifica del veterinario nella cura di criceti, rettili e cani, gestiti con attenzione e affetto. Di contro, un proprietario esprime profondo dolore per la perdita del proprio coniglio a seguito di un intervento chirurgico complesso.",
+        "en": "Clients value the veterinarian's specialized expertise in treating hamsters, reptiles, and dogs, handled with dedicated care and affection. In contrast, one pet owner expresses profound sorrow over the loss of their rabbit following a complex surgical intervention."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Esiti clinici e gestione di interventi complessi",
+        "en": "Clinical outcomes and complex surgery management"
+      },
+      "text": {
+        "it": "I proprietari riferiscono di visite accurate, controlli sanitari approfonditi ed esperienze positive per i propri animali da compagnia. Tuttavia, una recensione negativa denuncia un esito infausto dovuto a un'operazione tumorale giudicata eccessivamente rischiosa.",
+        "en": "Pet owners report thorough health examinations, detailed consultations, and successful experiences for their companion animals. However, a negative review deplores a tragic outcome resulting from a tumor removal procedure deemed excessively risky by the client."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ambulatorio è specializzato nella cura di animali esotici (NAC)?",
+        "en": "Does the clinic specialize in exotic and unconventional pets (NAC)?"
+      },
+      "a": {
+        "it": "Sì, la struttura vanta competenze specifiche nella diagnosi e chirurgia di rettili, conigli e roditori.",
+        "en": "Yes, the practice has dedicated expertise in diagnosis and surgery for reptiles, rabbits, and rodents."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "È attivo un recapito telefonico per le emergenze fuori orario?",
+        "en": "Is there an emergency contact number for after-hours care?"
+      },
+      "a": {
+        "it": "La struttura mette a disposizione un numero dedicato esclusivamente alle urgenze fuori orario per i propri pazienti.",
+        "en": "The practice provides a phone number strictly dedicated to after-hours emergencies for its patients."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "Vengono trattati anche cani e gatti tradizionali?",
+        "en": "Are conventional dogs and cats also treated at the practice?"
+      },
+      "a": {
+        "it": "Sì, l'ambulatorio fornisce visite cliniche, profilassi e controlli completi anche per cani e gatti.",
+        "en": "Yes, the clinic provides clinical visits, preventive healthcare, and checkups for dogs and cats as well."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "17 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

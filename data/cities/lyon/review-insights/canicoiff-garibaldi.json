@@ -1,0 +1,160 @@
+{
+  "slug": "canicoiff-garibaldi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Canicoiff%27/data=!4m7!3m6!1s0x47f4eb8f6d1c467f:0xdcad31f5ae0fb1ce!8m2!3d45.745749!4d4.849682!16s%2Fg%2F11wths8dq5!19sChIJf0YcbY_r9EcRzrEPrvUxrdw?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "fr": "Résultats jugés très décevants récemment",
+        "en": "Grooming outcomes heavily criticized recently"
+      },
+      "text": {
+        "fr": "Si quelques clients historiques saluent un travail soigné sur leurs chiens, la majorité des avis récents déplore des résultats problématiques, en particulier sur les chats. Plusieurs propriétaires signalent des tontes asymétriques, des irritations cutanées ou des séances écourtées sans amélioration du pelage. Ces mauvaises expériences suscitent une vive déception.",
+        "en": "While a few long-term customers commend the grooming quality on dogs, most recent feedback criticizes unsatisfactory results, particularly for feline clients. Several owners report uneven clipping, irritated skin, or incomplete sessions that left knots unresolved. These recurring issues have provoked substantial frustration among visitors."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Fort stress rapporté pour les animaux",
+        "en": "Severe pet distress widely reported"
+      },
+      "text": {
+        "fr": "Les retours récents expriment une vive inquiétude quant à la prise en charge émotionnelle des animaux confiés au salon. Plusieurs propriétaires de chats et de chiens craintifs décrivent des animaux sortis traumatisés, apeurés ou anormalement agités après leur passage. Les maîtres réclament davantage de patience et de douceur pour manipuler leurs compagnons.",
+        "en": "Recent reviews raise serious concerns regarding the stress experienced by pets during grooming. Several owners of cats and anxious dogs recount that their companions returned home visibly terrified, panicked, or agitated after their appointments. Clients repeatedly emphasize the necessity for greater patience and gentle handling."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Accueil et communication vivement critiqués",
+        "en": "Staff attitude and service criticized"
+      },
+      "text": {
+        "fr": "L'attitude de certains membres de l'équipe suscite d'importants reproches de la part des visiteurs du 7e arrondissement. Malgré des retours ponctuels appréciant les conseils d'un intervenant, plusieurs clients dénoncent un manque d'empathie, un agacement visible face aux animaux stressés et un accueil jugé distant. Ce déficit d'écoute nuit à la relation de confiance.",
+        "en": "Customer service at the 7th arrondissement salon has drawn substantial criticism in recent months. Despite isolated praise for helpful advice, multiple reviewers point to an indifferent attitude, visible irritation when handling anxious animals, and abrupt communication. This lack of responsiveness undermines owner confidence."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon accepte-t-il le toilettage des chats ?",
+        "en": "Does the salon provide grooming for cats?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement propose des soins pour félins, incluant démêlage et bain, bien que les avis récents recommandent la prudence.",
+        "en": "Yes, the facility accepts cats for detangling and bathing services, although recent customer reviews advise caution."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Comment sont fixés les tarifs des prestations ?",
+        "en": "How are the grooming fees structured?"
+      },
+      "a": {
+        "fr": "Les prix dépendent de la race et du type de soin, mais plusieurs clients récents ont jugé les forfaits félin élevés au vu du service.",
+        "en": "Fees depend on the animal breed and specific treatments, though several recent clients considered feline rates steep relative to service."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les animaux stressés font-ils l'objet d'un suivi particulier ?",
+        "en": "Are anxious pets given special individual attention?"
+      },
+      "a": {
+        "fr": "Le salon accueille tous profils d'animaux, mais les avis soulignent que l'environnement peut être bruyant pour les chiens craintifs.",
+        "en": "The salon accepts various pet temperaments, though reviews indicate the busy environment may cause stress for timid dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

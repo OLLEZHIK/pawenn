@@ -1,0 +1,114 @@
+{
+  "slug": "toelettatura-milano-amici-di-viola-milano",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Toelettatura+Milano+-+Amici+di+Viola+Milano/data=!4m7!3m6!1s0x4786c65663bee2cb:0x7c30e635630c1caa!8m2!3d45.486339!4d9.240133!16s%2Fg%2F11c54p1qpz!19sChIJy-K-Y1bGhkcRqhwMYzXmMHw?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "it": "Opinioni sull'approccio del personale",
+        "en": "Mixed opinions on staff interaction"
+      },
+      "text": {
+        "it": "Il rapporto con il personale registra pareri divergenti: alcuni clienti storici portano i propri cani da anni lodando la professionalità e la disponibilità, mentre un'altra recensione lamenta poca competenza e scarsa attenzione nella gestione del proprio animale.",
+        "en": "Interactions with staff receive contrasting comments: long-standing clients have brought their dogs for years, praising reliability and dedication, whereas an unhappy customer criticized the lack of competence and poor communication during their salon visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "it": "Esito del lavaggio e della tosatura",
+        "en": "Coat finishing and detangling outcomes"
+      },
+      "text": {
+        "it": "La qualità del taglio e del bagno divide le opinioni: un cliente raccomanda vivamente il servizio per l'ottima cura del manto, mentre un altro segnala un taglio disomogeneo su uno Shih Tzu rimasto pieno di nodi dopo una seduta giudicata insoddisfacente.",
+        "en": "Coat grooming results present split impressions: one client strongly recommends the salon for fine styling, while another reported an unsatisfactory session on a Shih Tzu, claiming the coat was cut unevenly and left with tangled knots after the grooming treatment."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "it": "Valutazione del costo del servizio",
+        "en": "Perception of grooming service rates"
+      },
+      "text": {
+        "it": "Il tariffario applicato suscita riscontri opposti: a fronte di chi considera il rapporto tra spesa e qualità davvero eccellente, un acquirente contesta il costo di cinquanta euro ritenuto eccessivo rispetto al risultato ottenuto sul pelo del proprio cane.",
+        "en": "Pricing generates divided reviews among customers: while one pet parent praises the balance between quality and cost, another reviewer disputed a fifty-euro fee, finding it excessive given the unsatisfactory grooming results obtained on their companion."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il salone accoglie sia cani che gatti?",
+        "en": "Does the parlour cater to both dogs and cats?"
+      },
+      "a": {
+        "it": "Sì, la toelettatura in Via Rombon offre servizi dedicati per la cura del pelo sia di cani che di gatti.",
+        "en": "Yes, the parlour on Via Rombon provides specialized coat care services for both dogs and cats."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "Vengono utilizzate gabbie durante l'asciugatura?",
+        "en": "Are holding cages used during the drying process?"
+      },
+      "a": {
+        "it": "No, la struttura adotta un approccio rilassante senza gabbie e tratta un solo animale alla volta.",
+        "en": "No, the salon follows a gentle cage-free philosophy, tending to only one pet at a time."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "È possibile effettuare la snodatura del pelo?",
+        "en": "Can matted coats be detangled at the salon?"
+      },
+      "a": {
+        "it": "Sì, tra i trattamenti disponibili vi sono la spazzolatura e la snodatura del pelo, valutate in base allo stato del manto.",
+        "en": "Yes, available services include brushing and detangling, assessed according to the condition of the coat."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

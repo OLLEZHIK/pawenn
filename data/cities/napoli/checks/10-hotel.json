@@ -1,0 +1,43 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "bau-house-di-domenico-esposito",
+    "in-vacanza-da-leo",
+    "bauhouse-village",
+    "centro-cinofilo-a-s-d-cattivissimo-te",
+    "juliana-dog-sitter-napoli-pensione-casalinga",
+    "la-cuccia-di-fido",
+    "gaia-r-family-dog-sitter-roofus",
+    "macchecani-centro-cinofilo"
+  ],
+  "hash": "3f95e679971b5ce08259a612ac7c19b74d05190efe29646c24851535de4c2cee",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T18:08:33.827Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-11T18:10:07.585Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-11T18:11:01.860Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-11T18:11:35.415Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-11T18:12:52.246Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "centro-veterinario-castelverde",
+    "zoospedale",
+    "diagnostica-veterinaria-roma-nord-pronto-soccorso-veterinario-h24-bluvet-gruppo-ca-zampa",
+    "clinica-veterinaria-omniavet",
+    "clinica-per-animali-esotici",
+    "clinica-veterinaria-appia-antica",
+    "ambulatorio-veterinario-settecamini",
+    "clinica-veterinaria-san-francesco",
+    "clinica-veterinaria-eur-torrino-associazione-veterinaria-europa",
+    "sos-veterinaria"
+  ],
+  "hash": "60548a8f26e2c6a8642838b075bb7b653e4cb1f89af29eeb42827741ec525fce",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T17:22:47.402Z",
+      "result": "FAIL",
+      "listed": 84
+    },
+    {
+      "at": "2026-10-11T17:24:08.144Z",
+      "result": "FAIL",
+      "listed": 84
+    },
+    {
+      "at": "2026-10-11T17:32:24.448Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-11T17:32:48.301Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

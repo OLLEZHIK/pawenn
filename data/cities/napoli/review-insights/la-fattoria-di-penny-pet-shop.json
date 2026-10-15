@@ -1,0 +1,95 @@
+{
+  "slug": "la-fattoria-di-penny-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Fattoria+di+Penny+Pet+Shop/data=!4m7!3m6!1s0x133b0fc773bb0873:0x62644058e86e0a5c!8m2!3d40.8356882!4d14.1888917!16s%2Fg%2F11r27pg1yw!19sChIJcwi7c8cPOxMRXApu6FhAZGI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Personale gentile ma organizzazione mista",
+        "en": "Courteous staff with mixed organization"
+      },
+      "text": {
+        "it": "I riscontri sul personale mostrano opinioni discordanti tra i clienti. Alcuni proprietari descrivono addetti dolci, appassionati e molto disponibili sia nell'assistenza alla vendita sia durante il lavaggio di cani non facili da trattare. Altri visitatori lamentano disorganizzazione nella registrazione degli appuntamenti e risposte sbrigative.",
+        "en": "Feedback regarding the staff reflects differing customer experiences. Some pet owners praise kind, competent attendants who handle difficult dogs gently during baths and assist warmly in the shop. Conversely, another reviewer reports booking disorganization where a confirmed appointment was not honored upon arrival."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La struttura offre servizi di lavaggio per animali?",
+        "en": "Does the facility offer pet washing and bathing?"
+      },
+      "a": {
+        "it": "Sì, i proprietari riferiscono l'esecuzione di bagni per cani con operatori competenti.",
+        "en": "Yes, owners mention dog bathing services handled by dedicated attendants."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Nel punto vendita si possono acquistare articoli per animali?",
+        "en": "Can customers purchase pet supplies at this location?"
+      },
+      "a": {
+        "it": "Sì, i recensori confermano la presenza di un negozio con vari prodotti per animali domestici.",
+        "en": "Yes, reviewers confirm an in-store shop offering assorted pet care goods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Gli appuntamenti per la toelettatura sono sempre confermati senza disguidi?",
+        "en": "Are grooming appointments always managed smoothly?"
+      },
+      "a": {
+        "it": "Sebbene molti siano soddisfatti, un cliente ha segnalato una mancata registrazione della prenotazione.",
+        "en": "While most visits go well, one reviewer noted a scheduling error where a booked slot was not registered."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "van-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VAN+DOG/data=!4m7!3m6!1s0x132f6622434955a3:0xb24864906e6c548d!8m2!3d42.0160306!4d12.5051355!16s%2Fg%2F11dfsvh78m!19sChIJo1VJQyJmLxMRjVRsbpBkSLI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Educatori attenti e personale disponibile",
+        "en": "Attentive trainers and helpful staff"
+      },
+      "text": {
+        "it": "I proprietari apprezzano la competenza, la disponibilità e la passione del team di educatori cinofili di Van Dog. Molti clienti descrivono un approccio rassicurante e professionale sia durante i percorsi educativi che nelle attività diurne, sottolineando la capacità degli operatori di gestire cani vivaci ed energici.",
+        "en": "Dog owners praise the competence, responsiveness, and genuine dedication of the trainers at Van Dog. Many clients describe a reassuring and patient approach during training sessions and daycare, highlighting the team's ability to manage high-energy dogs and communicate effectively with pet parents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Cura dei cani e criteri di ammissione",
+        "en": "Dog care and admission policies"
+      },
+      "text": {
+        "it": "La maggior parte delle recensioni evidenzia la grande attenzione verso i cani ospitati, con percorsi di socializzazione mirati e cure affettuose anche per soggetti anziani. Tuttavia, un utente segnala delusione per il rifiuto preventivo di determinate razze come i pitbull senza una previa valutazione individuale.",
+        "en": "Most reviews emphasize great attention toward the dogs in daycare, noting customized socialization sessions and loving care even for senior pets. However, one reviewer expresses disappointment over the upfront refusal to admit specific dog breeds, such as pit bull crosses, without prior individual evaluation."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Spazi verdi curati e ambiente sicuro",
+        "en": "Well-kept grounds and secure spaces"
+      },
+      "text": {
+        "it": "I clienti descrivono la struttura sulla via Tiberina come una vera oasi verde per gli animali, pulita, ordinata e ben custodita. L'ampiezza delle aree all'aperto permette ai cani di correre, giocare e riposare in sicurezza, tornando a casa sereni e stanchi dopo una giornata di attività stimolanti all'aria aperta.",
+        "en": "Clients describe the facility on Via Tiberina as a clean, peaceful green haven for pets, spacious and securely maintained. The large outdoor play areas allow dogs to run, play, and rest safely, returning home calm and pleasantly tired after spending the day engaging in stimulating open-air activities."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La struttura offre percorsi educativi per cani vivaci o reattivi?",
+        "en": "Does the facility offer training courses for energetic dogs?"
+      },
+      "a": {
+        "it": "Sì, i clienti confermano percorsi di educazione e socializzazione che migliorano la gestione dei cani.",
+        "en": "Yes, clients confirm effective training and socialization lessons that noticeably improve dog handling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come sono organizzati gli spazi all'aperto dell'asilo?",
+        "en": "How are the outdoor daycare spaces arranged?"
+      },
+      "a": {
+        "it": "I proprietari segnalano ampie aree verdi recintate, pulite e attrezzate per il gioco e il riposo.",
+        "en": "Owners report large fenced green grounds that are clean and well-equipped for play and resting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono accettate tutte le razze canine presso l'asilo?",
+        "en": "Are all dog breeds accepted at the daycare?"
+      },
+      "a": {
+        "it": "Alcuni utenti riferiscono che la struttura può applicare restrizioni di accesso per determinate razze.",
+        "en": "Some reviewers report that the center may apply admission restrictions for certain breeds."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
