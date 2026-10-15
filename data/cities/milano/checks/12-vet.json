@@ -1,0 +1,29 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "clinica-veterinaria-ca-zampa-milano-monte-nero",
+    "barbagallo-dott-ssa-lucia",
+    "ambulatorio-veterinario-linneo-dr-davide-gabbiadini",
+    "clinica-veterinaria-sempione",
+    "ambulatorio-veterinario-venini",
+    "clinica-veterinaria-ambrosiana",
+    "clinica-veterinaria-aurora",
+    "ambulatorio-veterinario-risorgimento",
+    "ambulatorio-veterinario-pasteur"
+  ],
+  "hash": "6258c71b8796cf7b74ed3a5d9e449908a6de4b617425f7385a77f8051e18f48e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T21:16:47.263Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-15T21:25:26.916Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
