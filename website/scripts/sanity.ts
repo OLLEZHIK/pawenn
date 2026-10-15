@@ -47,6 +47,8 @@ const COUNTRY = {
   // mobiles start with 3, toll-free with 8. France: trunk 0 dropped, 9 digits.
   IT: { dial: "39", national: /^(0\d{5,10}|3\d{8,9}|8\d{8,10})$/, postal: /\b\d{5}\b/, keepZero: true },
   FR: { dial: "33", national: /^[1-9]\d{8}$/, postal: /\b\d{5}\b/ },
+  // Spain: no trunk 0, nine digits starting 6-9 (mobiles 6/7, landlines 8/9); postal code 5 digits.
+  ES: { dial: "34", national: /^[6-9]\d{8}$/, postal: /\b\d{5}\b/ },
   US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;
 

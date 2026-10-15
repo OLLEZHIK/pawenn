@@ -313,7 +313,7 @@ function pricePdfs(links: { href: string | null; label: string }[]): string[] {
 type Result = Record<string, unknown>;
 
 // Country calling codes of the cities (as in sanity.ts).
-const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33" };
+const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34" };
 let dial = "";
 
 /** The number without country code, trunk 0 or "(0)": "+43 (0)1 347 43",
