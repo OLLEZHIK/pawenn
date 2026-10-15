@@ -1,0 +1,145 @@
+{
+  "slug": "clinica-veterinaria-europea-milano",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Europea+-+Milano/@45.4529339,9.15176,753m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4786c3ddadfd8fe3:0x30764e2d4e844aca!8m2!3d45.4529339!4d9.15176!16s%2Fg%2F1tlbn0gz?authuser=0&hl=it&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "it": "Opinioni contrastanti sull'approccio medico",
+        "en": "Contrasting opinions on medical approach"
+      },
+      "text": {
+        "it": "I giudizi sullo staff sono nettamente divisi tra elogi e forti lamentele. Alcuni clienti ringraziano caldamente specialisti come la dottoressa Terruzzi per la grande empatia dimostrata con i cani. Altri denunciano visite sbrigative, poco ascolto e un atteggiamento ritenuto distaccato o poco professionale durante i consulti.",
+        "en": "Assessments of the clinic personnel are sharply divided between praise and strong criticism. Some clients praise specialists like Dr. Terruzzi for great empathy shown to dogs. Conversely, other reviewers criticize hurried examinations, poor listening, and perceived lack of professional empathy during consultations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "it": "Esiti terapeutici e percorsi riabilitativi",
+        "en": "Therapeutic outcomes and rehabilitation plans"
+      },
+      "text": {
+        "it": "Le esperienze sui risultati clinici presentano valutazioni divergenti nelle recensioni recenti. Da un lato vengono lodate le sessioni di idroterapia e laserterapia per il recupero motorio. Dall'altro diversi utenti lamentano diagnosi tardive o terapie considerate inefficaci, che hanno spinto a cambiare struttura veterinaria.",
+        "en": "Experiences regarding clinical results show divergent feedback in recent reviews. On one hand, hydrotherapy and laser sessions are commended for successful mobility recovery. On the other hand, multiple reviewers complain about delayed diagnoses or therapies viewed as unhelpful, prompting owners to consult other clinics."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Costi delle prestazioni e trattamenti",
+        "en": "Service costs and treatment packages"
+      },
+      "text": {
+        "it": "La percezione delle tariffe applicate divide i proprietari di animali. Mentre un utente trova i costi ragionevoli in rapporto ai miglioramenti ottenuti, altri ritengono che vengano proposti esami e trattamenti superflui con preventivi eccessivi. La trasparenza dei costi rimane un punto discusso.",
+        "en": "Perceptions of clinic fees divide pet owners in recent feedback. While one reviewer describes the pricing as reasonable relative to improvements achieved, others feel that unnecessary tests and therapy packages are pushed at high expense. Cost transparency remains a central talking point."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La struttura dispone di servizi di fisioterapia e riabilitazione?",
+        "en": "Does the facility offer physiotherapy and rehabilitation services?"
+      },
+      "a": {
+        "it": "Sì, i proprietari menzionano percorsi di idroterapia con tapis roulant in acqua e trattamenti laser per problemi articolari.",
+        "en": "Yes, clients highlight hydrotherapy with underwater treadmill sessions and laser treatments for joint and mobility issues."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "La clinica accetta animali senza appuntamento?",
+        "en": "Does the clinic accept pets without an appointment?"
+      },
+      "a": {
+        "it": "Le visite specialistiche richiedono prenotazione, e nelle recensioni alcuni segnalano difficoltà di accoglienza per le emergenze non pianificate.",
+        "en": "Specialized visits require booking, and some reviews mention challenges getting admitted for unscheduled urgent cases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali sono le opinioni sui costi dei percorsi di cura?",
+        "en": "What are client opinions on the costs of care plans?"
+      },
+      "a": {
+        "it": "I pareri variano: alcuni trovano i prezzi equi per la riabilitazione, mentre altri lamentano preventivi elevati per esami diagnostici.",
+        "en": "Opinions vary: some find fees fair for rehabilitation, while others complain about elevated estimates for diagnostic testing."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "testacoda",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/TestaCoda/data=!4m7!3m6!1s0x4786e9e1a241a7d9:0xe688daebdbc6e06!8m2!3d45.4520234!4d9.0800028!16s%2Fg%2F11ckr48fmg!19sChIJ2adBouHphkcRBm68va6NaA4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "it": "Competenza professionale con qualche riserva",
+        "en": "Professional service with isolated criticism"
+      },
+      "text": {
+        "it": "Molti clienti descrivono Martina come una toelettatrice gentile, preparata e molto paziente con i cani durante la seduta. Emergono tuttavia recensioni critiche che lamentano risposte inadeguate o mancanza di trasparenza in occasione di incidenti durante la tosatura.",
+        "en": "Many clients describe Martina as a kind, knowledgeable, and patient groomer during pet styling appointments. However, negative reviews highlight friction regarding post-service communication or a perceived lack of accountability following a grooming incident."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Attenzione agli animali e sicurezza",
+        "en": "Care for animals and safety"
+      },
+      "text": {
+        "it": "La maggior parte dei proprietari evidenzia la delicatezza con cui vengono trattati anche cani anziani, lasciati sereni durante il lavaggio. Una recensione segnala invece un episodio grave, con un cane ferito da un taglio durante la tosatura che ha richiesto cure veterinarie.",
+        "en": "Most pet owners highlight gentle handling that keeps even senior dogs relaxed throughout the bathing process. Conversely, one review reports a serious incident where a dog suffered a cut during clipping that required subsequent veterinary treatment and antibiotics."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Qualità del taglio e rifiniture",
+        "en": "Grooming finish and clipping quality"
+      },
+      "text": {
+        "it": "Gli utenti soddisfatti lodano manti perfettamente puliti, profumati e tagli eseguiti con cura nel rispetto del pelo dell'animale. Al contrario, un commento negativo contesta una rasatura giudicata eccessiva e non conforme a quanto concordato prima del trattamento.",
+        "en": "Satisfied clients praise clean, delightfully scented coats and neatly executed scissor cuts that respect the dog's coat type. In sharp contrast, a negative review criticizes an excessively short shave that did not match what had been agreed prior to the session."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Si possono lavare cani anziani o delicati?",
+        "en": "Can senior or delicate dogs be groomed?"
+      },
+      "a": {
+        "it": "Sì, diversi proprietari riferiscono grande pazienza e cura nell'adattare il lavaggio alle esigenze di cani anziani.",
+        "en": "Yes, clients report patient handling tailored to the specific pace and physical comfort of older dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il salone offre anche lavaggio self-service?",
+        "en": "Does the salon offer self-service dog washing?"
+      },
+      "a": {
+        "it": "Sì, la struttura dispone di box per il lavaggio self-service accanto al servizio di toelettatura assistita.",
+        "en": "Yes, the facility provides self-service wash boxes alongside professional assisted grooming."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Come vengono gestite le prenotazioni?",
+        "en": "How are grooming appointments scheduled?"
+      },
+      "a": {
+        "it": "Il servizio di toelettatura assistita richiede la prenotazione anticipata tramite contatto diretto.",
+        "en": "Assisted grooming sessions require advance booking through direct contact with the salon."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

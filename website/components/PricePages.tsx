@@ -189,9 +189,16 @@ export async function ServicePricePage({
                         {line.business.districtName && (
                           <span className="block text-xs text-foreground/60">{line.business.districtName}</span>
                         )}
-                        {vs && <span className="mt-0.5 block text-xs font-medium sm:hidden">{vs}</span>}
+                        {vs && (
+                          // data-nosnippet: Google built search snippets from these cells
+                          // ("Zavolať, 69 € cenník, o 27 % pod trhom", 2026-10-14)
+                          <span data-nosnippet className="mt-0.5 block text-xs font-medium sm:hidden">
+                            {vs}
+                          </span>
+                        )}
                         {line.business.phone && (
                           <a
+                            data-nosnippet
                             href={`tel:${line.business.phone.replace(/\s+/g, "")}`}
                             className="relative z-10 mt-1 block w-fit text-xs font-semibold text-brand-orange hover:underline"
                           >
@@ -203,6 +210,7 @@ export async function ServicePricePage({
                         {priceText(line)}
                         {line.rows[0].sourceUrl && (
                           <a
+                            data-nosnippet
                             href={line.rows[0].sourceUrl}
                             target="_blank"
                             rel="nofollow noopener noreferrer"
@@ -212,7 +220,11 @@ export async function ServicePricePage({
                           </a>
                         )}
                       </td>
-                      {market && <td className="hidden px-4 py-3 text-xs font-medium sm:table-cell sm:pr-6">{vs}</td>}
+                      {market && (
+                        <td data-nosnippet className="hidden px-4 py-3 text-xs font-medium sm:table-cell sm:pr-6">
+                          {vs}
+                        </td>
+                      )}
                     </tr>
                   );
                 })}
@@ -317,12 +329,12 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
               {services.map((s) => {
                 const m = market.get(s.code)!;
                 return (
-                  <tr key={s.code}>
+                  <tr key={s.code} className="group relative transition-colors hover:bg-foreground/[0.04] active:bg-foreground/[0.07]">
                     <td className="px-4 py-3 sm:px-6">
                       <Link
                         href={pricesPath(locale, category, city.slug, s.code)}
                         prefetch={false}
-                        className="inline-flex items-center gap-2 font-semibold text-foreground hover:text-brand-blue hover:underline"
+                        className="inline-flex items-center gap-2 font-semibold text-[var(--accent,var(--brand-blue))] underline decoration-current/30 underline-offset-4 after:absolute after:inset-0 after:content-[''] group-hover:decoration-current"
                       >
                         <TagIcon className="h-4 w-4 text-[var(--accent,var(--brand-blue))]" />
                         {serviceLabel(category, s.code, locale)}
@@ -335,7 +347,10 @@ export async function PriceOverviewPage({ locale, category, city }: { locale: Lo
                     <td className="hidden whitespace-nowrap px-4 py-3 text-right text-foreground/70 sm:table-cell">
                       {moneyRange(m.min, m.max, m.currency, locale)}
                     </td>
-                    <td className="px-4 py-3 text-right text-foreground/70 sm:pr-6">{m.places}</td>
+                    <td className="whitespace-nowrap px-4 py-3 text-right text-foreground/70 sm:pr-6">
+                      {m.places}
+                      <ChevronRightIcon className="ml-1 inline-block h-4 w-4 align-[-3px] text-foreground/40 transition-transform group-hover:translate-x-0.5" />
+                    </td>
                   </tr>
                 );
               })}

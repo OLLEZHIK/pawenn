@@ -1,0 +1,153 @@
+{
+  "slug": "amour-canin",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amour+Canin/data=!4m7!3m6!1s0x12c9b8eeb797ee9b:0xefcb8fc75fc8dfa1!8m2!3d43.2532542!4d5.4226844!16s%2Fg%2F119typ33c!19sChIJm-6Xt-64yRIRod_IX8ePy-8?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Écoute bienveillante et accueil agréable",
+        "en": "Attentive care and welcoming service"
+      },
+      "text": {
+        "fr": "La majorité des maîtres apprécient la gentillesse et le professionnalisme de la toiletteuse Joana au centre commercial de la Rouvière. Les clients mettent en avant sa passion pour le métier et son accueil rassurant pour les chiens de toutes tailles. Un avis déplore toutefois un manque d'excuses après un incident lors d'une prestation.",
+        "en": "Most owners praise the kindness and dedication of groomer Joana at the La Rouvière shopping center. Clients highlight her passion for pet care and her reassuring approach with dogs of various temperaments. However, one customer noted a lack of empathy and communication following a minor incident during an appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Douceur habituelle et avis partagé",
+        "en": "Gentle handling with mixed feedback"
+      },
+      "text": {
+        "fr": "La plupart des clients soulignent la grande patience de la professionnelle, capable d'apaiser des chiens timides ou craintifs pendant la séance. Les animaux repartent généralement joyeux et détendus après leurs soins. Cependant, une mauvaise expérience est signalée lors d'une coupe de griffes ayant provoqué un saignement douloureux.",
+        "en": "Most customers commend the groomer's gentle patience, noting she calms timid or fearful dogs during their appointments. Pets typically leave cheerful and comfortable after their styling sessions. Nevertheless, one review mentions a distressing experience involving an accidental cut and bleeding during nail trimming."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Toilettage réussi mais incident isolé",
+        "en": "Successful grooming but isolated incident"
+      },
+      "text": {
+        "fr": "Plusieurs maîtres saluent la qualité des coupes sur différentes races, du spitz nain au cocker anglais, avec un pelage harmonieux et soigné. Les chiens ressortent magnifiquement mis en valeur selon leurs propriétaires. Un retour négatif fait toutefois état d'un soin écourté et d'une blessure survenue durant l'entretien des griffes.",
+        "en": "Several owners praise the aesthetic quality of haircuts on breeds like Spitz and Cocker Spaniels, noting well-groomed coats and neat finishes. Pets often leave looking immaculate and feeling refreshed. However, one critical feedback notes an interrupted session following a claw injury that marred the overall experience."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Où se situe exactement le salon de toilettage ?",
+        "en": "Where is the grooming salon located?"
+      },
+      "a": {
+        "fr": "Le salon est installé au sein du centre commercial de la Rouvière, dans le 9e arrondissement de Marseille.",
+        "en": "The salon is located within the La Rouvière shopping center in the 9th arrondissement of Marseille."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les chiens craintifs ?",
+        "en": "Can the salon groom timid or anxious dogs?"
+      },
+      "a": {
+        "fr": "Oui, plusieurs avis indiquent que la toiletteuse sait rassurer et manipuler avec calme les chiens peureux.",
+        "en": "Yes, several reviews note that the groomer calmly manages and reassures fearful dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quelles races de chiens y sont régulièrement toilettées ?",
+        "en": "Which dog breeds are commonly groomed there?"
+      },
+      "a": {
+        "fr": "Les clients mentionnent notamment des coupes réussies sur des spitz, des cockers anglais et diverses races de compagnie.",
+        "en": "Clients mention successful styling sessions on Spitz, English Cockers, and other companion breeds."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

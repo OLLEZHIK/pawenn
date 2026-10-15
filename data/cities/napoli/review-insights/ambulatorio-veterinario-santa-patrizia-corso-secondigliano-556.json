@@ -1,0 +1,135 @@
+{
+  "slug": "ambulatorio-veterinario-santa-patrizia-corso-secondigliano-556",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+%22Santa+Patrizia%22+-+Corso+Secondigliano,+556/data=!4m7!3m6!1s0x133b07beaeffa6fb:0x205153c046a49602!8m2!3d40.8961156!4d14.2577405!16s%2Fg%2F1hc0rjq07!19sChIJ-6b_rr4HOxMRApakRsBTUSA?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Opinioni contrastanti sul team veterinario",
+        "en": "Contrasting opinions on veterinary staff"
+      },
+      "text": {
+        "it": "I pareri sul personale veterinario di Secondigliano risultano discordanti. Da un lato vengono lodate la disponibilità, l'empatia e la competenza del medico nell'affrontare casi complessi; dall'altro due recensioni molto critiche denunciano scarsa attenzione clinica ed errata gestione terapeutica.",
+        "en": "Reviews on the veterinary team in Secondigliano show contrasting views. On one hand, clients praise the doctor's dedication, patience, and competence when handling complex cases; on the other hand, two severe negative reviews criticize clinical oversight and alleged diagnostic mistakes."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Esiti clinici discordanti nelle testimonianze",
+        "en": "Mixed feedback on clinical outcomes"
+      },
+      "text": {
+        "it": "Alcuni proprietari raccontano interventi risolutivi che hanno salvato la vita a gatti anziani in situazioni critiche, evidenziando diagnosi precoci e terapie tempestive. Al contempo emergono forti lamentele per terapie cutanee inefficaci e un mancato miglioramento del quadro clinico del cane.",
+        "en": "Some pet guardians report life-saving interventions for senior cats in complex conditions, praising early diagnoses and effective postoperative recovery. Concurrently, other reviews report ineffective skin treatments and worsening medical conditions leading to consultations elsewhere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Attenzione al benessere degli animali",
+        "en": "Attentiveness to animal patient welfare"
+      },
+      "text": {
+        "it": "Il trattamento riservato agli animali domestici suscita reazioni opposte tra gli utenti. I clienti soddisfatti sottolineano la grande dolcezza e il supporto dedicato ai gatti più fragili, mentre i proprietari scontenti lamentano una gestione carente della sofferenza e del decorso della malattia.",
+        "en": "The care provided to animal patients evokes diverging feedback from pet guardians. Satisfied owners highlight gentle handling and dedicated support for fragile senior cats, while dissatisfied clients report insufficient attention to ongoing suffering and symptom progression."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica gestisce interventi chirurgici complessi?",
+        "en": "Does the clinic perform complex surgical procedures?"
+      },
+      "a": {
+        "it": "Sì, le recensioni positive menzionano interventi riusciti su animali anziani con supporto anestesiologico mirato.",
+        "en": "Yes, positive reviews mention successful surgeries on senior pets supported by specialized anesthesiology."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali sono le principali lamentele emerse nei pareri negativi?",
+        "en": "What are the primary complaints noted in negative reviews?"
+      },
+      "a": {
+        "it": "Le critiche riguardano terapie cutanee ritenute inefficaci e diagnosi non condivise da altri specialisti.",
+        "en": "Criticism centers on ineffective dermatological treatments and disputed clinical diagnoses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono eseguiti esami diagnostici preventivi?",
+        "en": "Are preventive diagnostic examinations conducted?"
+      },
+      "a": {
+        "it": "I proprietari riferiscono l'esecuzione di test clinici specifici per inquadrare il quadro di salute dell'animale.",
+        "en": "Guardians report specific diagnostic tests conducted to assess the overall health profile of the patient."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

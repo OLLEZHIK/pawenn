@@ -1,0 +1,134 @@
+{
+  "slug": "clinica-veterinaria-santangelo-bluvet-cazampa-milano",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Sant%27Angelo+%7C+Milano+centro+-+BluVet+Gruppo+Ca%27+Zampa/data=!4m7!3m6!1s0x4786c6ca1ec1b453:0xb5823ed3295eeca4!8m2!3d45.4776025!4d9.1941296!16s%2Fg%2F1tdpqjs6!19sChIJU7TBHsrGhkcRpOxeKdM-grU?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Competenza medica e condotta del personale",
+        "en": "Medical competence and staff conduct"
+      },
+      "text": {
+        "it": "Le opinioni sul personale della clinica evidenziano sia competenza che criticità relazionali. Mentre diversi clienti definiscono i veterinari gentili, onesti e appassionati nella cura dei pazienti, una recensione segnala un atteggiamento irriguardoso e poco professionale da parte di un membro dello staff alla cassa.",
+        "en": "Opinions on clinic staff highlight both technical competence and relational issues. While several clients describe the doctors as kind, honest, and dedicated to caring for pets, one review reports disrespectful and unprofessional behavior from a staff member at the payment desk."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Puntualità informativa e gestione comunicazioni",
+        "en": "Information accuracy and communication management"
+      },
+      "text": {
+        "it": "La comunicazione verso i clienti mostra valutazioni contrastanti nei mesi recenti. Accanto a chi ringrazia per il supporto e la disponibilità ricevuta, un utente lamenta la mancata comunicazione preventiva di una chiusura festiva, che ha causato gravi disagi per un viaggio all'estero con il proprio animale.",
+        "en": "Communication with clients shows contrasting feedback in recent months. Alongside those who appreciate helpful guidance and support, one customer complains about lack of advance notice regarding a holiday closure, which caused serious difficulties for planned international pet travel."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Cura dei pazienti e precauzioni",
+        "en": "Patient care and clinical precautions"
+      },
+      "text": {
+        "it": "I proprietari riconoscono l'impegno generale della struttura per il benessere dei piccoli animali domestici. Emergono tuttavia segnalazioni su piccole disattenzioni materiali durante le visite o difficoltà a garantire trattamenti nei tempi previsti per i viaggi. L'attenzione veterinaria resta apprezzata.",
+        "en": "Owners recognize the team's overarching commitment to the well-being of household pets. However, observations note occasional equipment oversights during consultations or hurdles in securing travel treatments within required windows. Veterinary clinical care remains respected overall."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica veterinaria Sant'Angelo è attiva in centro a Milano?",
+        "en": "Is Sant'Angelo Veterinary Clinic located in central Milan?"
+      },
+      "a": {
+        "it": "Sì, la struttura si trova in Via Parini ed è parte del gruppo Ca' Zampa BluVet.",
+        "en": "Yes, the clinic is situated on Via Parini and operates within the Ca' Zampa BluVet network."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "È possibile prenotare visite e certificati per viaggi all'estero?",
+        "en": "Can pet owners book appointments and travel certificates?"
+      },
+      "a": {
+        "it": "Sì, la clinica rilascia documentazione per espatrio, ma si raccomanda di confermare gli orari prima dei giorni festivi.",
+        "en": "Yes, the clinic provides international travel documentation, though verifying opening hours ahead of holidays is recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come descrivono i clienti l'onestà e la competenza dei veterinari?",
+        "en": "How do clients describe the honesty and skill of the vets?"
+      },
+      "a": {
+        "it": "I clienti considerano i medici preparati e corretti, pur suggerendo miglioramenti nella gestione dell'accoglienza.",
+        "en": "Clients regard the veterinarians as qualified and fair, while suggesting enhancements in reception management."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "animals": "~"
+      }
+    }
+  ]
+}

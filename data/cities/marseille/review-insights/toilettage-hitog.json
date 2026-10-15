@@ -1,0 +1,143 @@
+{
+  "slug": "toilettage-hitog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Toilettage+Hitog/data=!4m7!3m6!1s0x12c9c70a88b521bf:0x74df2043cbe01e01!8m2!3d43.2429235!4d5.3707397!16s%2Fg%2F1tp68m47!19sChIJvyG1iArHyRIRAR7gy0Mg33Q?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Accueil chaleureux avec un refus remarqué",
+        "en": "Warm welcome alongside a notable refusal"
+      },
+      "text": {
+        "fr": "La majorité des avis décrit un couple très sympathique, bienveillant et passionné par son métier de toiletteur. Cependant, un retour négatif signale un refus catégorique et brutal de prise en charge pour un bouledogue américain le jour du rendez-vous, provoquant une incompréhension face à ce motif.",
+        "en": "Most clients describe a very friendly and caring couple dedicated to their grooming profession. However, one negative review reports an abrupt refusal to groom an American Bulldog upon arrival for an appointment, leaving the pet guardian astonished and disappointed by the strict refusal."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Toilettage soigné pour différentes races",
+        "en": "Neat grooming across multiple breeds"
+      },
+      "text": {
+        "fr": "Les propriétaires de spitz, de golden retrievers ou de chiens de compagnie soulignent la propreté et la qualité du travail rendu. Les coupes sont régulières, le brossage est soigné et les maîtres retrouvent des animaux bien entretenus après leur passage au salon marseillais.",
+        "en": "Guardians of Spitz, Golden Retrievers, and companion dogs highlight the neatness and precision of the grooming work. Haircuts are even, brushing is thorough, and owners collect clean, well-groomed animals following their scheduled session at the salon."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Approche des animaux et acceptation des races",
+        "en": "Animal handling and breed acceptance"
+      },
+      "text": {
+        "fr": "Plusieurs clients notent une réelle attention portée au bien-être de l'animal, y compris pour des chiens réputés difficiles ou nerveux. À l'inverse, l'incident impliquant le refus d'un bouledogue montre que certaines races plus imposantes peuvent ne pas être acceptées dans ce salon de quartier.",
+        "en": "Several reviewers note genuine care for pet comfort, including when handling nervous or challenging dogs during sessions. In contrast, the incident involving an American Bulldog indicates that certain larger or specific breeds may not be accepted within this neighborhood salon."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon accepte-t-il toutes les races de chiens ?",
+        "en": "Does the salon accept all dog breeds?"
+      },
+      "a": {
+        "fr": "Les avis indiquent que les chiens de compagnie et de taille moyenne sont bien reçus, mais qu'un refus a été rapporté pour un bouledogue américain.",
+        "en": "Reviews indicate that companion and medium dogs are welcomed, though an explicit refusal was reported for an American Bulldog."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les tarifs sont-ils considérés comme abordables ?",
+        "en": "Are prices considered reasonable by customers?"
+      },
+      "a": {
+        "fr": "Oui, des clients soulignent que les prix pratiqués sont très corrects par rapport à d'autres salons de la ville.",
+        "en": "Yes, clients highlight that rates are very reasonable compared to other groomers in the city."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment le salon gère-t-il les chiens difficiles ?",
+        "en": "How does the salon handle difficult dogs?"
+      },
+      "a": {
+        "fr": "Un avis mentionne un excellent travail et une réelle patience même avec un chien au comportement difficile.",
+        "en": "A review reports excellent work and genuine patience even with a challenging dog."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

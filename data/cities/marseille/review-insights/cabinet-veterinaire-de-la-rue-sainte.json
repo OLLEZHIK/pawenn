@@ -1,0 +1,135 @@
+{
+  "slug": "cabinet-veterinaire-de-la-rue-sainte",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cabinet+v%C3%A9t%C3%A9rinaire+de+la+rue+Sainte/data=!4m7!3m6!1s0x12c9c16ec1e06171:0xfc5d9eebfb329cb!8m2!3d43.2913426!4d5.3707879!16s%2Fg%2F11lgkv44nm!19sChIJcWHgwW7ByRIRyymzv-7ZxQ8?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Avis partagés sur la relation clientèle",
+        "en": "Mixed feedback on client communication"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires décrivent le Dr Guillet et son équipe comme des praticiens très empathiques, serviables et avenants rue Sainte. Ils apprécient la disponibilité du personnel pour les rendez-vous imprévus. À l'opposé, un avis très critique dénonce un accueil froid et reproche une approche commerciale du cabinet.",
+        "en": "Several owners describe Dr Guillet and his team as empathetic, helpful, and courteous at the Rue Sainte surgery. They value the staff's readiness to arrange visits for sick pets. In contrast, one highly critical reviewer reports an unsympathetic reception and accuses the practice of being profit-driven."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Perception contrastée de la manipulation animale",
+        "en": "Contrasting views on pet handling"
+      },
+      "text": {
+        "fr": "La plupart des clients témoignent de la grande délicatesse du vétérinaire avec les chats et les petits chiens, les bêtes restant calmes en consultation. Toutefois, un propriétaire exprime un vif mécontentement, affirmant que le praticien s'est montré craintif envers son chien et a refusé de l'ausculter de près.",
+        "en": "Most clients report that the vet handles cats and small dogs with great gentleness, noting that animals stay calm during clinical exams. However, one guardian voiced strong dissatisfaction, claiming the practitioner seemed wary of his dog and avoided examining the animal's teeth closely."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Soins médicaux avec retours partagés",
+        "en": "Clinical treatments with mixed reviews"
+      },
+      "text": {
+        "fr": "Des maîtres de passage ou résidents saluent l'efficacité des soins prodigués pour soulager rapidement leur compagnon souffrant. Les traitements sont généralement décrits comme appropriés et bien suivis. Néanmoins, un avis négatif déplore l'absence d'examen buccal approfondi avant l'évaluation d'un devis.",
+        "en": "Visiting and local owners praise the effectiveness of clinical treatments in promptly relieving their ailing pets. Care is generally characterized as appropriate and dependable. Nevertheless, one dissatisfied client regrets the absence of an in-person dental check before an estimate was given."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le cabinet vétérinaire de la rue Sainte accepte-t-il les urgences de passage ?",
+        "en": "Does the Rue Sainte veterinary surgery handle urgent visits for travelers?"
+      },
+      "a": {
+        "fr": "Oui, des propriétaires de passage à Marseille indiquent avoir obtenu un rendez-vous rapide pour un animal souffrant.",
+        "en": "Yes, travelers visiting Marseille note having quickly secured an appointment when their pet fell unwell."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels équipements d'imagerie médicale sont disponibles ?",
+        "en": "What diagnostic imaging equipment is available at the clinic?"
+      },
+      "a": {
+        "fr": "Le cabinet dispose de la radiographie numérique et de l'échographie pour les examens internes.",
+        "en": "The practice is equipped with digital radiography and ultrasonography for diagnostic investigations."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Le cabinet propose-t-il des visites vétérinaires à domicile ?",
+        "en": "Does the practice offer veterinary home visits?"
+      },
+      "a": {
+        "fr": "Oui, des consultations à domicile sont proposées en plus des rendez-vous au cabinet.",
+        "en": "Yes, veterinary home visits are offered alongside scheduled appointments at the surgery."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

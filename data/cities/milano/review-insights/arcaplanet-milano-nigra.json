@@ -1,0 +1,149 @@
+{
+  "slug": "arcaplanet-milano-nigra",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arcaplanet/data=!4m7!3m6!1s0x4786c11ff4c29235:0x91865bb44692cf79!8m2!3d45.4961625!4d9.1708146!16s%2Fg%2F11c5h44clv!19sChIJNZLC9B_BhkcRec-SRrRbhpE?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Competenza e gentilezza del personale",
+        "en": "Competent and welcoming store clerks"
+      },
+      "text": {
+        "it": "Gli acquirenti di Piazzale Nigra lodano le commesse per la loro cortesia costante e l'attenzione rivolta al benessere degli animali. In una circostanza isolata una cliente ha lamentato poca considerazione in cassa, ma la reputazione generale del personale resta ampiamente positiva e apprezzata.",
+        "en": "Patrons visiting Piazzale Nigra frequently praise the store clerks for their dependable warmth and attentiveness to pet health. While an isolated customer felt overlooked at the cash desk, general reception of the team remains decidedly favorable among regular neighborhood shoppers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Disposizione degli scaffali e corsie",
+        "en": "Shelf reorganization and aisle clarity"
+      },
+      "text": {
+        "it": "Il punto vendita in zona Bovisa garantisce un assortimento ricco e vario di prodotti per animali domestici. Una recensione segnala tuttavia un certo disorientamento a seguito della recente riorganizzazione degli scaffali, che ha reso meno immediata la ricerca degli articoli abituali.",
+        "en": "The Bovisa location provides a comprehensive and varied inventory of domestic pet essentials. However, feedback highlights some confusion following recent shelf reorganizations, which made locating customary products more difficult for long-standing repeat customers."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Consulenza e gestione della cassa",
+        "en": "Customer consultations and checkout flow"
+      },
+      "text": {
+        "it": "I clienti apprezzano i suggerimenti su mangimi e prodotti per gatti, trovando indicazioni chiare e mirate. Viene tuttavia raccomandata maggiore fluidità durante i momenti di attesa in cassa per evitare fraintendimenti nell'ordine di arrivo dei clienti durante gli orari di punta.",
+        "en": "Shoppers appreciate tailored advice regarding cat nutrition and accessories, finding suggestions accurate and helpful. At the same time, reviewers recommend smoother management of checkout queues during peak periods to prevent misunderstandings regarding waiting order."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il negozio di Piazzale Nigra offre consulenze per l'alimentazione dei gatti?",
+        "en": "Does the Piazzale Nigra shop offer guidance on cat nutrition?"
+      },
+      "a": {
+        "it": "Sì, i proprietari confermano che le commesse forniscono consigli dedicati per scegliere il cibo più adatto.",
+        "en": "Yes, customers confirm that store clerks offer dedicated advice to help select the right cat food products."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È presente un servizio di consegna a domicilio?",
+        "en": "Is home delivery available from this store?"
+      },
+      "a": {
+        "it": "Sì, la filiale permette di usufruire del servizio di consegna a domicilio per gli acquisti di prodotti pesanti.",
+        "en": "Yes, this store location supports home delivery options, which is especially useful for heavy supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Il punto vendita è facilmente raggiungibile con i mezzi pubblici?",
+        "en": "Is the store convenient to reach via public transit?"
+      },
+      "a": {
+        "it": "Sì, il negozio si affaccia su Piazzale Nigra ed è ben servito dalle linee di trasporto pubblico della zona Bovisa.",
+        "en": "Yes, the shop faces Piazzale Nigra and is readily accessible via public transit routes across Bovisa."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

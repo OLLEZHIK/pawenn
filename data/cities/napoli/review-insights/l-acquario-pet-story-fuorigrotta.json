@@ -1,0 +1,146 @@
+{
+  "slug": "l-acquario-pet-story-fuorigrotta",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/L%27Acquario+Pet+Story+Fuorigrotta/data=!4m7!3m6!1s0x133b0933dcb486eb:0xee4d37cb010bcf2f!8m2!3d40.8251696!4d14.2034957!16s%2Fg%2F1trrx_5b!19sChIJ64a03DMJOxMRL88LAcs3Te4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Negozio ampio e ben fornito",
+        "en": "Spacious and well stocked shop"
+      },
+      "text": {
+        "it": "I clienti apprezzano la notevole ampiezza del punto vendita a Fuorigrotta e la vasta scelta di alimenti, accessori e articoli per animali domestici. Gli spazi dedicati alla vendita al dettaglio risultano ordinati, consentendo di reperire comodamente marche note e prodotti specifici per le necessità quotidiane di cani e gatti.",
+        "en": "Customers appreciate the generous size of the Fuorigrotta retail store and its broad selection of pet food, accessories, and supplies. The retail areas are well organized and clean, making it convenient to purchase reputable brands and specialized essentials for everyday dog and cat care."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Personale del negozio e toelettatura",
+        "en": "Store staff and grooming service"
+      },
+      "text": {
+        "it": "Gli addetti alle corsie del negozio vengono descritti come cordiali, rapidi e disponibili nel consigliare gli acquisti. Tuttavia, le recensioni relative al servizio di toelettatura riportano critiche severe su modi spicci e tensioni nella gestione degli appuntamenti, con reazioni sgradite verso cuccioli particolarmente timorosi.",
+        "en": "Floor staff in the retail area are described as friendly, prompt, and helpful with product advice. However, reviews covering the in-store grooming section report strong complaints regarding brusque manners and scheduling friction, alongside an unaccommodating attitude toward nervous young dogs."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Cura degli animali e toeletta",
+        "en": "Care of animals and bathing"
+      },
+      "text": {
+        "it": "Mentre alcuni clienti lodano bagni accurati e personale affettuoso con i quattro zampe nell'area toelettatura, non mancano segnalazioni contrastanti. In particolare, viene segnalata una gestione poco paziente e stressante di cani giovani o spaventati, che ha generato momenti di forte agitazione durante le prime sedute di lavaggio.",
+        "en": "While certain clients praise clean bathing and affectionate handling in the pet grooming area, others report negative experiences. Specifically, reviewers highlight impatient handling of young or frightened dogs, which resulted in significant stress and agitation during initial washing appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il punto vendita dispone di un reparto per la toelettatura?",
+        "en": "Does the store have an on-site grooming area?"
+      },
+      "a": {
+        "it": "Sì, la struttura include una zona dedicata al lavaggio e alla cura del pelo per cani.",
+        "en": "Yes, the facility includes a designated area for dog washing and coat grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come valutano i clienti la disponibilità di prodotti nel negozio?",
+        "en": "How do customers rate the availability of pet supplies?"
+      },
+      "a": {
+        "it": "I clienti descrivono il negozio come molto grande e particolarmente ricco di cibo e accessori.",
+        "en": "Customers describe the store as very large and well stocked with diverse pet food and accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È necessario prenotare in anticipo per il servizio di lavaggio?",
+        "en": "Is advance booking required for dog washing services?"
+      },
+      "a": {
+        "it": "Sì, per gli interventi di toelettatura viene concordato un appuntamento con il personale interno.",
+        "en": "Yes, dog grooming and washing sessions require arranging an appointment with staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "place": "+",
+        "staff": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}
