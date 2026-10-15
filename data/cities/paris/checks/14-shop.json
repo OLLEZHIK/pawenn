@@ -1,0 +1,29 @@
+{
+  "chunk": "14-shop",
+  "kind": "places",
+  "slugs": [
+    "a-4-pattes",
+    "animalis-paris-2-quatre-septembre",
+    "animalis-paris-16-les-belles-feuilles",
+    "animalis-paris-12-ledru-rollin"
+  ],
+  "hash": "d72b8a81ffb87b3b293d72868f13ee9416d061a32faa60a9427c6b0fd89f468a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T22:29:18.187Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-15T22:33:48.358Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T22:38:03.456Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
