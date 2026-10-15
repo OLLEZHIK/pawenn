@@ -125,7 +125,7 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
             </p>
           )}
           {(priceTier !== null || fromPrice || (business.category !== "PET_SHOP")) && (
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 sm:contents">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 pl-5 sm:contents sm:pl-0">
               {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
               {fromPrice && (
                 <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
