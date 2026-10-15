@@ -1,0 +1,40 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "ambulatorio-veterinario-omodeo-dott-r-marchionne",
+    "centro-veterinario-ivet-team",
+    "royal-ambulatorio-veterinario",
+    "ambulatorio-veterinario-dottor-minuto",
+    "centro-vet-caracciolo",
+    "centro-veterinario-dr-mele-lucio",
+    "clinica-veterinaria-sos-vet",
+    "studio-veterinario-pet-vet-center",
+    "ambulatorio-veterinario-associato-chiaia",
+    "ambulatorio-veterinario-sirignano-in-via-riviera-di-chiaia-e-visite-domiciliari-a-napoli"
+  ],
+  "hash": "d0c41b5f225224ed6a5ce095e1f94675df404a267a854cb24f5b0399e4dfe525",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T17:24:11.351Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-11T17:30:47.061Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-11T17:32:20.896Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-11T17:33:39.983Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

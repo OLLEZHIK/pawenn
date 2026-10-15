@@ -471,6 +471,8 @@ export const pl: Dictionary = {
       `${label} ${where}: porównanie cen ${services} usług w różnych miejscach wraz ze średnią i zakresem cen. Na podstawie oficjalnych cenników z datami.`,
     serviceH1: (service: string, where: string) => `${service} ${where}: ceny`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${where} – od ${from} | Pawenn`,
+    serviceMetaLead: (service: string, where: string) => `${service} ${where}:`,
+    cheapest: (name: string, price: string) => `Najtaniej: ${name} – ${price}.`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
       `Ceny od ${from} do ${to}, średnia ${median}. Porównaliśmy ${places} ${plural("pl", places, { one: "miejsce", few: "miejsca", many: "miejsc", other: "miejsc" })}; cenniki sprawdzone ${date}.`,
     fewPlaces: (places: number) =>

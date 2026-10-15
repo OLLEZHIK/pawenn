@@ -1,0 +1,136 @@
+{
+  "slug": "snob-dog-marseille",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Snob+Dog+Marseille/data=!4m7!3m6!1s0x12c9bde11a24eb53:0x1e1ea1da03ffa8fb!8m2!3d43.3124173!4d5.4656594!16s%2Fg%2F1hg4xzqmx!19sChIJU-skGuG9yRIR-6j_A9qhHh4?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Avis partagés sur le contact client",
+        "en": "Mixed feedback regarding customer service"
+      },
+      "text": {
+        "fr": "Les retours sur l'accueil se révèlent contrastés au salon près de La Valentine. Certains maîtres saluent la grande patience et les gestes rassurants auprès des chats âgés ou des chiens agités. À l'inverse, d'autres clients regrettent une attitude hautaine et un manque de considération ressenti lors de certains échanges.",
+        "en": "Customer feedback regarding the staff is mixed at the salon near La Valentine. Some owners praise the patience and gentle handling demonstrated with senior cats and energetic dogs. Conversely, other clients report an aloof attitude and felt a noticeable lack of consideration during certain interactions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Difficultés récurrentes pour joindre le salon",
+        "en": "Recurring difficulties contacting the salon"
+      },
+      "text": {
+        "fr": "La prise de contact suscite des critiques notables parmi plusieurs propriétaires à Marseille. Si une cliente a obtenu un rendez-vous rapide par message, d'autres déplorent des appels restés sans réponse ou des demandes de réservation ignorées. Ce manque de communication directe suscite une réelle déception chez les usagers.",
+        "en": "Communication issues generate noticeable criticism among several pet owners in Marseille. While one client secured a prompt appointment via text, others report unanswered phone calls or ignored booking inquiries. This absence of clear communication leads to genuine disappointment for affected customers."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Coupes soignées sur différentes espèces",
+        "en": "Neat haircuts across different species"
+      },
+      "text": {
+        "fr": "Les propriétaires soulignent la belle exécution des coupes sur leurs compagnons, qu'il s'agisse de bergers australiens, de cockers ou de chats. Le travail du pelage est jugé précis et soigné, même lorsque l'animal a tendance à bouger pendant la séance. Les maîtres se montrent très satisfaits de la silhouette obtenue.",
+        "en": "Owners highlight the pleasing execution of trims on their pets, including Australian Shepherds, Cocker Spaniels, and cats. Grooming work is described as neat and precise, even when animals move during their appointment. Families express satisfaction with the final appearance and coat condition of their pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les chats ?",
+        "en": "Does the salon groom cats?"
+      },
+      "a": {
+        "fr": "Oui, des avis confirment des soins réalisés avec douceur et patience sur des chats, y compris des félins âgés.",
+        "en": "Yes, customer reviews confirm gentle and patient grooming sessions for cats, including senior felines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment se déroule la prise de rendez-vous ?",
+        "en": "How does appointment scheduling work?"
+      },
+      "a": {
+        "fr": "Les réservations se font par message ou téléphone, mais plusieurs clients signalent des retards de réponse ou des appels non décrochés.",
+        "en": "Bookings are arranged via text or phone, though several clients note delayed replies or missed calls."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quelles races de chiens y sont accueillies ?",
+        "en": "Which dog breeds visit the salon?"
+      },
+      "a": {
+        "fr": "Les clients mentionnent notamment des séances réussies pour des bergers australiens, des cockers et d'autres races de taille moyenne.",
+        "en": "Clients mention successful appointments for Australian Shepherds, Cocker Spaniels, and other medium-sized breeds."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

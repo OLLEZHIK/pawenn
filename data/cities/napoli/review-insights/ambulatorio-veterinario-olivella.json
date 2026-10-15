@@ -1,0 +1,134 @@
+{
+  "slug": "ambulatorio-veterinario-olivella",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Olivella/@40.8473282,14.2443857,17z/data=!3m1!4b1!4m6!3m5!1s0x133b085969eb6d35:0x2bbdaaad84043ed2!8m2!3d40.8473282!4d14.2443857!16s%2Fg%2F11d_90dg41?authuser=0&hl=it&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Disponibilità dell'équipe e qualche riserva",
+        "en": "Dedicated team with occasional reservations"
+      },
+      "text": {
+        "it": "La maggior parte dei clienti elogia la disponibilità, l'empatia e la preparazione dei medici della struttura nel centro storico. Tuttavia, una testimonianza critica lamenta una visita affrettata prima delle ferie estive e una mancata attenzione clinica verso i sintomi dermatologici di un gatto.",
+        "en": "The majority of pet guardians praise the helpfulness, empathy, and medical competence of the clinic's veterinarians in the historic center. However, one critical review complains about a hurried checkup before summer holidays and perceived inattention to a feline patient's ear condition."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Trattamenti efficaci e qualche riserva clinica",
+        "en": "Successful treatments alongside isolated criticism"
+      },
+      "text": {
+        "it": "Diversi proprietari segnalano esiti eccellenti, tra cui delicate operazioni chirurgiche su cani di piccola taglia, terapie laser riuscite e diagnosi salvavita per patologie croniche. Di contro, un cliente segnala un peggioramento di un'infezione auricolare non trattata tempestivamente.",
+        "en": "Several owners report excellent therapeutic results, including delicate surgical procedures on small dogs, laser therapy, and life-saving diagnoses for complex conditions. In contrast, one client noted the worsening of an untreated ear infection that required emergency care elsewhere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Attenzione costante e rispetto degli animali",
+        "en": "Attentive care and gentle pet handling"
+      },
+      "text": {
+        "it": "I clienti apprezzano l'approccio dolce e premuroso dei veterinari, capaci di mettere a proprio agio cani e gatti senza creare inutili stati di agitazione. La sensibilità dimostrata nel comprendere i bisogni emotivi dei pazienti a quattro zampe trasmette tranquillità durante le sedute.",
+        "en": "Clients appreciate the gentle and attentive attitude of the veterinary team, who successfully reassure dogs and cats without inducing unnecessary stress. Their sensitivity in addressing the emotional comfort of four-legged patients provides owners with reassurance throughout clinical sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ambulatorio è facilmente raggiungibile con i mezzi pubblici?",
+        "en": "Is the clinic easily accessible by public transport?"
+      },
+      "a": {
+        "it": "Sì, le recensioni evidenziano la vicinanza immediata alla fermata Montesanto della metropolitana e della Cumana.",
+        "en": "Yes, reviews highlight immediate proximity to the Montesanto metro, funicular, and Cumana stations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono giudicati i prezzi delle prestazioni?",
+        "en": "How are the clinic's fees perceived by clients?"
+      },
+      "a": {
+        "it": "I proprietari descrivono tariffe chiare, trasparenti e oneste rispetto alla qualità delle cure erogate.",
+        "en": "Pet guardians describe fees as clear, transparent, and fair relative to the quality of services provided."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono eseguiti trattamenti specialistici come la laserterapia?",
+        "en": "Are specialized treatments such as laser therapy performed?"
+      },
+      "a": {
+        "it": "Sì, i clienti confermano sedute di terapia laser ed interventi chirurgici condotti con competenza.",
+        "en": "Yes, clients confirm sessions of laser therapy and delicate surgical procedures performed with care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

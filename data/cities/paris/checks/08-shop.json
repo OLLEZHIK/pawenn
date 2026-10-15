@@ -1,0 +1,35 @@
+{
+  "chunk": "08-shop",
+  "kind": "places",
+  "slugs": [
+    "reglo-les-croquettes-saines-et-efficaces-bureaux",
+    "les-animaux-de-paris",
+    "graineterie-du-petit-zoo",
+    "mon-chat-mon-amour",
+    "animalis-paris-11-richard-lenoir",
+    "city-pet-shop",
+    "dog-club",
+    "animalis-paris-3-rambuteau",
+    "animalis-paris-15-convention",
+    "animalis-paris-18-jules-joffrin"
+  ],
+  "hash": "d9976a375602a63a7fff6219eb09c6cf257c13760a2710f603de99639726cd94",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T19:12:35.965Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-11T19:16:09.024Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-11T19:18:32.526Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

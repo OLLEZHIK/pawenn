@@ -1,0 +1,162 @@
+{
+  "slug": "clinique-veterinaire-saint-antoine",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+Saint-Antoine/@43.3692599,5.35628,17z/data=!3m1!4b1!4m6!3m5!1s0x12c9ea88beb6ae95:0x65aad5e64871a84d!8m2!3d43.3692599!4d5.35628!16s%2Fg%2F1tz7qp_7?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Praticiens bienveillants et accueil professionnel",
+        "en": "Caring veterinarians and welcoming team"
+      },
+      "text": {
+        "fr": "Les maîtres louent la compétence et la disponibilité des docteurs Dagnac et Bellmann ainsi que de l'équipe d'accueil. Les praticiens sont décrits comme chaleureux et investis pour la santé des animaux, privilégiant le bien-être des compagnons avant toute considération commerciale.",
+        "en": "Pet owners commend the expertise and dedication of Dr. Dagnac, Dr. Bellmann, and the clinic's front desk staff. The veterinary team is described as warm and thoroughly committed to pet well-being, consistently putting animal welfare ahead of purely commercial considerations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Amour sincère pour les animaux",
+        "en": "Genuine affection for animal patients"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'affection sincère portée aux chiens, chats et chatons reçus en consultation. Qu'il s'agisse de premières vaccinations ou de suivis médicaux réguliers, le personnel manipule les animaux avec douceur et compréhension, instaurant une relation de confiance durable.",
+        "en": "Reviews highlight the genuine affection shown to dogs, adult cats, and young kittens during clinic visits. Whether administering initial vaccinations or handling routine examinations, staff interact with pets gently and patiently, building lasting confidence with pet owners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Transparence appréciée avec réserves ponctuelles",
+        "en": "Appreciated transparency with occasional lapses"
+      },
+      "text": {
+        "fr": "La plupart des clients apprécient les explications détaillées sur les options thérapeutiques et la clarté sur les devis. Néanmoins, un retour critique regrette l'absence de transmission des images d'une échographie réalisée en urgence lors d'un week-end particulièrement chargé.",
+        "en": "Most pet owners appreciate clear communication regarding therapeutic options and transparent fee explanations. However, a critical review expresses dissatisfaction over missing ultrasound images and incomplete medical documentation following a busy weekend emergency visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle des facilités de paiement ?",
+        "en": "Does the clinic offer payment installment options?"
+      },
+      "a": {
+        "fr": "Oui, des clients indiquent qu'il est possible d'échelonner les règlements en trois ou quatre fois selon les conditions de l'établissement.",
+        "en": "Yes, clients note that payment plans in three or four installments are available according to clinic terms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les vétérinaires expliquent-ils le coût des soins ?",
+        "en": "Do veterinarians explain treatment costs clearly?"
+      },
+      "a": {
+        "fr": "Oui, les propriétaires soulignent une bonne transparence sur les tarifs et les alternatives thérapeutiques possibles.",
+        "en": "Yes, owners highlight good transparency concerning pricing and available medical alternatives."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La clinique prend-elle en charge les chatons pour leurs premiers vaccins ?",
+        "en": "Does the clinic handle initial vaccinations for kittens?"
+      },
+      "a": {
+        "fr": "Oui, les retours mentionnent des vaccinations et des conseils bienveillants pour les jeunes chatons et chiots.",
+        "en": "Yes, reviews report gentle vaccination appointments and helpful guidance for young kittens and puppies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

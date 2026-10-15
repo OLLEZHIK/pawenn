@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "clinique-veterinaire-hermes",
+    "clinique-veterinaire-vet-olympe",
+    "clinique-veterinaire-du-lancier",
+    "clinique-veterinaire-grand-littoral",
+    "clinique-veterinaire-cabassu",
+    "clinique-veterinaire-de-la-plage",
+    "clinique-veterinaire-de-chateau-gombert",
+    "clinique-veterinaire-de-st-loup",
+    "clinique-veterinaire-de-la-fourragere",
+    "clinique-veterinaire-saint-just"
+  ],
+  "hash": "05110d09c58a9d873635813c4100e1ffdb723cbe1fc63fb3df0d226aa5884330",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-11T15:41:31.987Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-11T15:49:09.104Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

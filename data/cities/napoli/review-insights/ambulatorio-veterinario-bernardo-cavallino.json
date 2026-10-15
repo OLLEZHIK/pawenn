@@ -1,0 +1,126 @@
+{
+  "slug": "ambulatorio-veterinario-bernardo-cavallino",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario/data=!4m7!3m6!1s0x133b088da86b5823:0xde15a7ce9217c6bc!8m2!3d40.8579573!4d14.2303227!16s%2Fg%2F11bzs4myw2!19sChIJI1hrqI0IOxMRvMYXks6nFd4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Valutazioni discordanti sulla competenza medica",
+        "en": "Mixed feedback on veterinary expertise"
+      },
+      "text": {
+        "it": "Le opinioni dei proprietari risultano nettamente divise tra chi considera il veterinario competente ed esperto con animali non convenzionali e chi invece esprime forte contrarietà per diagnosi errate o comunicazioni ritenute inadeguate durante la visita clinica.",
+        "en": "Owner opinions are sharply divided between those who consider the vet highly knowledgeable with unconventional pets and those who voice strong dissatisfaction regarding incorrect diagnostic assessments or perceived lack of medical thoroughness during examinations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Esiti contrastanti nelle cure prestate",
+        "en": "Contrasting outcomes in patient therapies"
+      },
+      "text": {
+        "it": "Da un lato vengono segnalate risoluzioni rapide ed efficaci per problemi parassitari e dentali di piccoli mammiferi ed esotici; dall'altro, alcune recensioni molto critiche imputano al dottore il mancato riconoscimento tempestivo di gravi patologie respiratorie o tumorali.",
+        "en": "On one hand, reviewers report prompt and effective solutions for parasite or dental issues in small pets and reptiles; on the other hand, severe negative reviews accuse the practice of failing to identify serious respiratory and oncological issues in a timely manner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "it": "Assistenza per conigli e rettili",
+        "en": "Medical care for rabbits and reptiles"
+      },
+      "text": {
+        "it": "La struttura accoglie pazienti particolari come conigli e geco leopardino, offrendo visite mirate e trattamenti specialistici per specie esotiche. I clienti soddisfatti apprezzano la confidenza e la dedizione dimostrate nella cura e nel controllo di questi piccoli animali.",
+        "en": "The practice receives exotic species including pet rabbits and leopard geckos, offering targeted checks and treatments. Satisfied clients appreciate the veterinarian's familiarity and practical care when handling and treating these less conventional household pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica visita animali esotici o non convenzionali?",
+        "en": "Does the clinic treat exotic and non-conventional pets?"
+      },
+      "a": {
+        "it": "Sì, le recensioni riportano visite per conigli, rettili e volatili.",
+        "en": "Yes, reviews mention appointments for rabbits, reptiles, and pet birds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono effettuati esami radiografici presso la struttura?",
+        "en": "Are radiographic examinations available at the facility?"
+      },
+      "a": {
+        "it": "Sì, i proprietari riferiscono l'esecuzione di esami radiografici durante le visite diagnostiche.",
+        "en": "Yes, pet owners report the execution of X-ray diagnostics during clinical checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Si eseguono cure dentali per piccoli roditori o conigli?",
+        "en": "Does the doctor provide dental procedures for rabbits or rodents?"
+      },
+      "a": {
+        "it": "Sì, i clienti citano interventi di limatura dentale per conigli.",
+        "en": "Yes, clients cite teeth trimming and dental filing treatments for rabbits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    }
+  ]
+}
