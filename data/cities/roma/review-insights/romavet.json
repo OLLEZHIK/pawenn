@@ -1,0 +1,139 @@
+{
+  "slug": "romavet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/romavet/data=!4m7!3m6!1s0x132f5e38812532ad:0xc205b15eaafc8f5c!8m2!3d41.9276893!4d12.4153997!16s%2Fg%2F11bc7lwrm3!19sChIJrTIlgTheLxMRXI_8ql6xBcI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Staff preparato con una segnalazione critica",
+        "en": "Dedicated staff with an isolated grievance"
+      },
+      "text": {
+        "it": "La maggior parte delle testimonianze descrive il dottor Caniglia e i collaboratori come professionisti disponibili, accoglienti e chiari nelle spiegazioni. Una recensione isolata esprime tuttavia forte insoddisfazione per un approccio ritenuto brusco e frettoloso durante una vaccinazione.",
+        "en": "Most client feedback praises Dr. Caniglia and his team as attentive, reassuring, and highly skilled professionals who explain clinical steps clearly. However, an isolated review expressed strong disappointment over an approach perceived as overly forceful during a routine vaccination."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Chirurgia laparoscopica e recuperi rapidi",
+        "en": "Laparoscopic surgery and rapid recoveries"
+      },
+      "text": {
+        "it": "I proprietari segnalano esiti clinici eccellenti, in particolare per interventi di sterilizzazione mininvasiva in laparoscopia e operazioni salvavita per corpi estranei. Gli animali operati mostrano decorsi post-operatori veloci, cicatrici minime e una pronta ripresa delle normali attività.",
+        "en": "Pet owners report excellent surgical outcomes, particularly regarding minimally invasive laparoscopic spaying and urgent foreign body removals. Operated animals experienced swift postoperative recovery, virtually imperceptible incisions, and a very prompt return to everyday vitality."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Attenzione al benessere degli animali",
+        "en": "Compassionate handling and pet comfort"
+      },
+      "text": {
+        "it": "Diversi clienti sottolineano la delicatezza e il supporto emotivo mostrati verso cani e gatti ricoverati, trattati con affetto e cura attenta. Al contempo, una voce critica lamenta difficoltà nel gestire un cane timoroso senza ricorrere a manovre di contenimento giudicate eccessive.",
+        "en": "Multiple reviewers praise the gentle handling and emotional warmth provided to hospitalized pets, who were treated with genuine affection. Conversely, one critical review complained about difficulties soothing a nervous dog without resorting to restraint perceived as excessively strict."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica esegue interventi di chirurgia laparoscopica mininvasiva?",
+        "en": "Does the clinic perform minimally invasive laparoscopic procedures?"
+      },
+      "a": {
+        "it": "Sì, i clienti riportano interventi di sterilizzazione laparoscopica con cicatrici minime e tempi di ripresa molto rapidi.",
+        "en": "Yes, clients report laparoscopic spaying procedures resulting in minimal scarring and remarkably fast recovery times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono trattate urgenze chirurgiche per ingestione di corpi estranei?",
+        "en": "Are emergency surgeries for foreign body ingestion managed here?"
+      },
+      "a": {
+        "it": "Sì, i proprietari testimoniano interventi chirurgici urgenti eseguiti con successo per rimuovere ostruzioni intestinali.",
+        "en": "Yes, pet guardians report successful urgent surgeries performed to remove intestinal foreign body obstructions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata la disponibilità del personale per spiegazioni cliniche?",
+        "en": "How do clients evaluate staff availability for clinical explanations?"
+      },
+      "a": {
+        "it": "Le recensioni positive lodano la disponibilità dei veterinari a spiegare ogni dettaglio dell'esame sia di persona sia al telefono.",
+        "en": "Positive reviews commend the vets' readiness to explain medical findings in detail both in person and over the phone."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

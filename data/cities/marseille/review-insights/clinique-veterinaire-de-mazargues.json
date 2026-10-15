@@ -1,0 +1,136 @@
+{
+  "slug": "clinique-veterinaire-de-mazargues",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+de+Mazargues/data=!4m7!3m6!1s0x12c9b884e2744947:0xae3382c299e07ca4!8m2!3d43.2488287!4d5.4017968!16s%2Fg%2F1hjggrpxn!19sChIJR0l04oS4yRIRpHzgmcKCM64?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Équipe indépendante, chaleureuse et compétente",
+        "en": "Independent, warm and competent team"
+      },
+      "text": {
+        "fr": "Les habitués de Mazargues apprécient le statut de clinique indépendante et le dévouement des docteurs Poletti et Amos. Les assistantes vétérinaires sont louées pour leur écoute, leur accueil souriant et leur capacité à prodiguer des conseils clairs et personnalisés.",
+        "en": "Clients in Mazargues appreciate the practice's independent status and the dedication shown by Dr Poletti and Dr Amos. Veterinary assistants receive praise for their attentive listening, welcoming demeanor, and ability to deliver clear, personalized guidance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Prise en charge douce et respectueuse",
+        "en": "Gentle and compassionate animal care"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'infinie douceur des soignantes lors des soins de chats craintifs ou de chiens âgés. L'équipe sait instaurer un climat apaisant pour éviter tout traumatisme lors des premières visites, des chirurgies de stérilisation ou en fin de vie.",
+        "en": "Client feedback emphasizes the deep gentleness shown when handling anxious felines or senior dogs. The staff creates a serene atmosphere that prevents stress during first-time kitten visits, routine spay surgeries, and sensitive end-of-life companionship."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Écoute attentive et conseils transparents",
+        "en": "Attentive listening and transparent advice"
+      },
+      "text": {
+        "fr": "Les propriétaires mettent en avant la grande disponibilité des vétérinaires pour répondre à chaque interrogation sans précipitation. Les soignants orientent vers des solutions thérapeutiques adaptées au budget des familles, sans pression commerciale excessive.",
+        "en": "Pet guardians highlight the veterinarians' generous availability to answer every question thoroughly without rushing. The clinical staff guides clients toward medical options tailored to their household budget without applying unnecessary commercial pressure."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique de Mazargues est-elle indépendante ?",
+        "en": "Is the Mazargues veterinary clinic independently owned?"
+      },
+      "a": {
+        "fr": "Oui, les clients soulignent qu'il s'agit d'une des rares structures vétérinaires indépendantes du secteur.",
+        "en": "Yes, client reviews note that it remains one of the few independently run veterinary clinics in the area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment sont gérés les animaux trouvés ou égarés ?",
+        "en": "How does the clinic handle lost or stray animals?"
+      },
+      "a": {
+        "fr": "Des témoignages rapportent une prise en charge immédiate et bienveillante pour les chatons trouvés dans le quartier.",
+        "en": "Testimonials report immediate and compassionate intake for stray kittens discovered in the neighborhood."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les tarifs sont-ils adaptés aux budgets familiaux ?",
+        "en": "Are clinic fees suitable for family budgets?"
+      },
+      "a": {
+        "fr": "Oui, les clients apprécient des tarifs abordables et des propositions de soins adaptées sans forcer à la dépense.",
+        "en": "Yes, clients appreciate affordable fees and treatment plans suggested without undue financial pressure."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "entrechats",
+    "clinique-veterinaire-argos-lyon-monplaisir",
+    "clinique-veterinaire-guillotiere",
+    "clinique-veterinaire-berthelot-du-dr-legrand",
+    "cabinet-veterinaire-maisons-neuves-dr-meyer",
+    "clinique-veterinaire-argos-lyon-croix-rousse",
+    "cabinet-du-crayon-du-docteur-meunier-anger",
+    "cabinet-veterinaire-charlemagne",
+    "mon-veto-lyon-brotteaux",
+    "clinique-veterinaire-saint-roch-du-docteur-franck-chabanel"
+  ],
+  "hash": "0b875827b608759f25b21f43f44aa8f4278958e231b47e09b280938ecc812eac",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T01:03:26.779Z",
+      "result": "FAIL",
+      "listed": 153
+    },
+    {
+      "at": "2026-10-12T01:21:44.147Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

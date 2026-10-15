@@ -1,0 +1,436 @@
+{
+  "slug": "ospedale-veterinario-san-francesco",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ospedale+Veterinario+San+Francesco/data=!4m7!3m6!1s0x40552dffecf922fd:0x869d7a667554e803!8m2!3d45.473479!4d9.1334972!16s%2Fg%2F11b7fdpdqs!19sChIJ_SL57P8tVUARA-hUdWZ6nYY?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 40,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 35,
+      "title": {
+        "it": "Specialisti stimati e critiche al triage",
+        "en": "Specialist praise and triage complaints"
+      },
+      "text": {
+        "it": "Molti proprietari esprimono gratitudine verso specifici medici specialisti dell'ospedale, ringraziandoli per l'empatia e l'alta competenza dimostrate in situazioni critiche. D'altra parte, diverse recensioni negative denunciano scarsa attenzione, inesperienza percepita del personale di guardia e risposte sbrigative al triage.",
+        "en": "Many pet owners express sincere gratitude toward dedicated medical specialists at the hospital, praising their empathy and technical expertise in complex clinical cases. Conversely, several critical reviews complain of perceived inexperience among night duty staff and hurried communication at reception."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "it": "Esperienze contrastanti nella cura dei pazienti",
+        "en": "Mixed experiences with patient care"
+      },
+      "text": {
+        "it": "Molti utenti lodano la dedizione e la dolcezza con cui i medici accompagnano cani e gatti durante degenze e visite specialistiche. Tuttavia, alcune testimonianze critiche riferiscono esperienze drammatiche legate a complicazioni diagnostiche impreviste o terapie percepite come inefficaci nella gestione di patologie gravi.",
+        "en": "Many visitors praise the gentle care and dedication shown by vets toward dogs and cats during clinic stays and specialist consultations. However, several critical accounts report distressing outcomes involving missed diagnoses or treatments perceived as ineffective during the management of severe illnesses."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "it": "Tempi di attesa al pronto soccorso",
+        "en": "Emergency triage and waiting times"
+      },
+      "text": {
+        "it": "I tempi di attesa per le urgenze non programmate rappresentano il principale motivo di malcontento: alcuni clienti segnalano fino a tre ore di sosta in sala d'aspetto per i codici a minore gravità. Si registrano inoltre lamentele per le attese telefoniche prolungate e i ritardi nella consegna di referti e biopsie.",
+        "en": "Wait times for unscheduled emergencies represent the primary source of owner dissatisfaction, with clients occasionally reporting up to three hours in the waiting room for lower-priority triage codes. Reviewers also report dropped telephone queues and delays in receiving biopsy results and diagnostic reports."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ospedale dispone di un pronto soccorso sempre attivo?",
+        "en": "Does the hospital operate a daily emergency room?"
+      },
+      "a": {
+        "it": "La struttura fornisce servizio di pronto soccorso veterinario sette giorni su sette con orario diurno, dalle 8:00 alle 20:00.",
+        "en": "The facility operates a veterinary emergency room seven days a week with daytime hours, from 8:00 AM to 8:00 PM."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "Come vengono gestiti i tempi di attesa nelle urgenze?",
+        "en": "How are waiting times handled for emergencies?"
+      },
+      "a": {
+        "it": "L'accesso segue un sistema di triage: le emergenze vitali hanno precedenza assoluta, mentre i casi meno gravi possono attendere più a lungo.",
+        "en": "Admissions follow a triage system: life-threatening cases receive immediate priority, while less critical patients may experience longer waits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono trattati anche animali non convenzionali ed esotici?",
+        "en": "Are exotic and non-conventional animals treated?"
+      },
+      "a": {
+        "it": "Sì, l'ospedale dispone di reparti specialistici dedicati alla cura di conigli e piccoli mammiferi non convenzionali.",
+        "en": "Yes, the hospital maintains specialist medical departments dedicated to treating rabbits and non-conventional small mammals."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    }
+  ]
+}

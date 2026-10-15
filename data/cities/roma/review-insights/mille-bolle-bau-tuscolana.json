@@ -1,0 +1,134 @@
+{
+  "slug": "mille-bolle-bau-tuscolana",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mille+Bolle+Bau+Tuscolana+Toeletta+%26+SPA+Professionale+di+Dario+Di+Matteo/data=!4m7!3m6!1s0x132589e1e6055667:0xbd13a7d689fffd63!8m2!3d41.8609789!4d12.5479777!16s%2Fg%2F11b7f3p6y6!19sChIJZ1YF5uGJJRMRY_3_idanE70?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Disponibilità del team con un episodio critico",
+        "en": "Helpful staff with an isolated critical review"
+      },
+      "text": {
+        "it": "La maggior parte dei proprietari descrive il personale del salone in zona Tuscolana a Roma come cordiale, professionale e attento alle esigenze dei clienti. Viene elogiata la capacità di ascolto verso cani anziani, anche se una recensione esprime forte disappunto per l'atteggiamento rigido del titolare durante una seduta osservata dalla vetrina.",
+        "en": "Most pet owners describe the grooming team in Rome's Tuscolana district as friendly, professional, and attentive to customer requests. Reviewers praise their willingness to listen to elderly dog owners, though one critical review reports serious disappointment regarding the owner's conduct during a session observed through the window."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Approccio agli animali ed esperienza contrastante",
+        "en": "Gentle handling with one contested incident"
+      },
+      "text": {
+        "it": "Diversi clienti segnalano grande dolcezza con i quattro zampe, sottolineando l'abilità nel gestire cani anziani o con disabilità sensoriali e cuccioli festosi. Di contro, una testimonianza critica lamenta modi ritenuti poco corretti per tenere calmo l'animale durante un trattamento, portando all'interruzione anticipata della seduta.",
+        "en": "Several clients highlight genuine gentleness with animals, praising the staff's skill in handling senior dogs, hearing-impaired companions, and cheerful puppies. In contrast, one critical review complains about improper handling used to restrain a dog during a treatment, prompting the guardian to halt the session early."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Lavaggio accurato e profumazione persistente",
+        "en": "Thorough washing and long-lasting fragrance"
+      },
+      "text": {
+        "it": "Chi ha usufruito dei servizi di bagno e taglio unghie esprime soddisfazione per la pulizia del pelo e la qualità dei prodotti cosmetici utilizzati. I clienti apprezzano in particolare la possibilità di scegliere la fragranza finale per il cane, notando come il manto rimanga morbido e profumato anche a distanza di giorni dal trattamento.",
+        "en": "Clients using the bath and nail trimming services express satisfaction with coat cleanliness and the cosmetic products used. Dog owners specifically appreciate being able to choose the final coat perfume, noting that their pets remain soft and pleasantly scented even several days after returning home."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il personale ha esperienza con cani anziani o con disabilità?",
+        "en": "Does the staff have experience with elderly or disabled dogs?"
+      },
+      "a": {
+        "it": "Sì, i clienti riportano esperienze positive con cani anziani e con sordità congenita, seguiti con attenzione alle loro difficoltà.",
+        "en": "Yes, clients report positive experiences with senior dogs and congenitally deaf pets handled with care for their specific needs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È possibile scegliere la fragranza del profumo dopo il lavaggio?",
+        "en": "Can owners choose the coat fragrance applied after grooming?"
+      },
+      "a": {
+        "it": "Sì, i clienti indicano che il personale permette di scegliere il profumo finale per il manto prima della riconsegna del cane.",
+        "en": "Yes, clients note that staff members let owners select the final grooming fragrance before taking their dog home."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il salone effettua il taglio delle unghie?",
+        "en": "Does the salon provide nail trimming services?"
+      },
+      "a": {
+        "it": "Sì, il taglio delle unghie è tra i servizi regolarmente richiesti e apprezzati insieme al bagno.",
+        "en": "Yes, nail trimming is regularly requested and provided alongside bathing services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

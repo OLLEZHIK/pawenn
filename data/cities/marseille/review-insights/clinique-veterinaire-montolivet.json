@@ -1,0 +1,134 @@
+{
+  "slug": "clinique-veterinaire-montolivet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+v%C3%A9t%C3%A9rinaire+Montolivet/data=!4m7!3m6!1s0x12c9be55afe642c1:0x4362cac463aaaf90!8m2!3d43.3179284!4d5.4391824!16s%2Fg%2F1tg5r7g8!19sChIJwULmr1W-yRIRkK-qY8TKYkM?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Praticien chaleureux mais retours partagés",
+        "en": "Dedicated practitioner with polarized reviews"
+      },
+      "text": {
+        "fr": "Les fidèles clients apprécient la gentillesse, la disponibilité et l'honnêteté du Dr Marion et de son équipe pour le suivi de longue durée des chats et chiens. En revanche, un avis récent déplore un manque de vigilance lors d'un examen clinique ayant retardé un diagnostic important.",
+        "en": "Longtime clients value the warmth, accessibility, and honesty of Dr. Marion and his staff for ongoing pet care. Conversely, a critical review laments perceived diagnostic inattention during a routine consultation, expressing sharp disappointment with the practitioner's evaluation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Douceur envers les chats et chiens",
+        "en": "Gentle approach toward cats and dogs"
+      },
+      "text": {
+        "fr": "Les propriétaires de félins et de chiens soulignent l'attention bienveillante apportée aux compagnons à quatre pattes en consultation. Les animaux sont examinés avec calme, et les maîtres apprécient l'empathie manifestée dans la prise en charge de pathologies chroniques ou lourdes.",
+        "en": "Dog and cat owners appreciate the caring and considerate attention provided to their companions during consultations. Animals are examined calmly, and clients particularly value the empathy demonstrated when managing chronic illnesses or long-term medical conditions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Soins efficaces et divergences diagnostiques",
+        "en": "Effective treatments alongside diagnostic disputes"
+      },
+      "text": {
+        "fr": "Plusieurs retours témoignent d'interventions réussies, notamment pour des abcès ou des insuffisances rénales gérées avec succès sur plusieurs années. À l'opposé, une mauvaise expérience met en cause une erreur de détection sur une fracture ayant nécessité une chirurgie ultérieure.",
+        "en": "Multiple reviews cite successful therapeutic outcomes, including well-managed feline abscesses and long-term stabilization of kidney failure. On the other hand, an adverse review points to an overlooked fracture that eventually required an amputation at a different practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique est-elle accessible pour les urgences félines ?",
+        "en": "Can the clinic accommodate feline emergencies quickly?"
+      },
+      "a": {
+        "fr": "Oui, des clients rapportent avoir obtenu une consultation rapide sous deux heures après un appel pour un chat malade.",
+        "en": "Yes, clients report obtaining a prompt consultation within two hours after calling about a sick cat."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment les tarifs sont-ils perçus par les propriétaires ?",
+        "en": "How are the clinic's fees viewed by pet owners?"
+      },
+      "a": {
+        "fr": "Les retours positifs mentionnent des prix très raisonnables par rapport aux moyennes marseillaises pour les interventions chirurgicales courantes.",
+        "en": "Positive reviews note very reasonable pricing compared to Marseille averages for common surgical procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le praticien assure-t-il le suivi des animaux âgés ?",
+        "en": "Does the vet provide long-term care for senior pets?"
+      },
+      "a": {
+        "fr": "Oui, des familles soulignent un suivi médical fidèle étalé sur plus de dix ans pour leurs chiens et chats.",
+        "en": "Yes, families highlight dedicated long-term care spanning over ten years for their aging dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

@@ -35,6 +35,32 @@ export async function getPriceSummary(category: BusinessCategory, citySlug: stri
   return { market, rows, checked: dates.length ? new Date(Math.max(...dates)) : null };
 }
 
+/**
+ * Meta description of a service price page (owner, 2026-10-14: Google showed
+ * table cells - "Podnik, Cena, Oproti trhu … Zavolať, 69 € cenník" - instead
+ * of our description, which had only numbers and none of the words people
+ * search). Now: "<service> <where>: costs from … to …, average ….
+ * Cheapest: <place> – <price>. We compared N places; prices checked …".
+ */
+export function serviceMetaDescription(locale: Locale, service: string, where: string, summary: PriceSummary): string | null {
+  const answer = answerText(locale, summary);
+  const market = summary.market;
+  if (!answer || !market) return null;
+  const t = getDictionary(locale).prices;
+  // the answer is two sentences: the range, then what was compared
+  const [range, ...rest] = answer.split(/(?<=\.) (?=\p{Lu})/u);
+  const cheapest = summary.rows
+    .filter((r) => comparable(r) && r.currency === market.currency)
+    .sort((a, b) => a.priceFrom - b.priceFrom || a.business.name.localeCompare(b.business.name))[0];
+  return [
+    `${t.serviceMetaLead(service, where)} ${range.charAt(0).toLocaleLowerCase(locale) + range.slice(1)}`,
+    market.places >= 2 && cheapest ? t.cheapest(cheapest.business.name, money(cheapest.priceFrom, cheapest.currency, locale)) : null,
+    ...rest,
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
 /** "Costs from 70 € to 150 €, median 79 €. We compared 8 places…" */
 export function answerText(locale: Locale, summary: PriceSummary): string | null {
   const { market, checked } = summary;

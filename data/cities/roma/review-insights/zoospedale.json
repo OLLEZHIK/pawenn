@@ -1,0 +1,141 @@
+{
+  "slug": "zoospedale",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Zoospedale/data=!4m7!3m6!1s0x132f6729272803e9:0x56a5aacba2fcdd30!8m2!3d41.9546469!4d12.4792399!16s%2Fg%2F1wn79z9w!19sChIJ6QMoJylnLxMRMN38osuqpVY?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Veterinari competenti e onestà professionale",
+        "en": "Skilled veterinary team and honest care"
+      },
+      "text": {
+        "it": "I clienti del Flaminio esprimono grande stima per la preparazione clinica, la gentilezza e l'onestà intellettuale del dottor Varano e dell'équipe di Zoospedale. I proprietari sottolineano come i medici propongano solo gli esami e i trattamenti realmente necessari alla salute dell'animale, evitando procedure superflue o dispendiose.",
+        "en": "Clients in Flaminio express deep respect for the diagnostic acumen, kindness, and professional integrity of Dr. Varano and the Zoospedale medical team. Pet owners highlight that the veterinarians recommend only genuinely necessary diagnostic tests and treatments, prioritizing animal wellbeing over superfluous procedures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Cura premurosa per cani e gattini",
+        "en": "Attentive care for dogs and kittens"
+      },
+      "text": {
+        "it": "Le testimonianze evidenziano un'attenzione profonda e autentica per il benessere degli animali visitati, dai gattini di piccola taglia ai cani adulti. Il personale dimostra empatia e grande dolcezza nell'approccio con i pazienti pelosi, offrendo sostegno morale alle famiglie durante percorsi diagnostici impegnativi o cure mediche.",
+        "en": "Client reviews emphasize genuine, deep dedication toward patient welfare, treating delicate kittens and adult dogs with consistent compassion. The clinical staff displays sensitivity and gentle handling with furry companions, offering clear reassurance and empathetic support to pet parents through demanding diagnostic journeys."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Chirurgia avanzata ed esami specialistici",
+        "en": "Advanced surgery and specialized clinical diagnostics"
+      },
+      "text": {
+        "it": "I proprietari lodano i risultati positivi ottenuti negli interventi di chirurgia addominale e nelle sterilizzazioni anche su gatti molto giovani o complessi. Gli approfondimenti clinici e le indagini diagnostiche condotte presso la clinica consentono di individuare terapie risolutive per la guarigione e la serenità degli animali.",
+        "en": "Owners commend the successful outcomes achieved in abdominal surgeries and sterilizations performed even on delicate or very young feline patients. Comprehensive laboratory diagnostics and specialized clinical evaluations enable effective medical paths that restore animal vitality and provide peace of mind to guardians."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica esegue interventi chirurgici su gatti e cani?",
+        "en": "Does the clinic perform surgical procedures on dogs and cats?"
+      },
+      "a": {
+        "it": "Sì, i proprietari testimoniano interventi di chirurgia addominale e sterilizzazioni eseguiti con successo.",
+        "en": "Yes, pet owners report successful abdominal surgeries, sterilizations, and surgical procedures performed with care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono proposte solo cure ed esami realmente necessari?",
+        "en": "Are only truly necessary diagnostic tests and treatments recommended?"
+      },
+      "a": {
+        "it": "I clienti evidenziano l'onestà dei medici, che consigliano solo indagini e cure indispensabili per il paziente.",
+        "en": "Clients highlight the integrity of the veterinarians, who recommend solely essential evaluations and therapies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "La struttura offre visite e consulenze con medici specialisti?",
+        "en": "Does the practice provide specialized clinical consultations?"
+      },
+      "a": {
+        "it": "Sì, l'ambulatorio dispone di competenze mediche approfondite e indagini diagnostiche complete per animali domestici.",
+        "en": "Yes, the clinic offers comprehensive veterinary diagnostics and internal medicine evaluations for domestic companions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

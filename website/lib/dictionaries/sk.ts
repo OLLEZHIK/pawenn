@@ -491,6 +491,8 @@ export const sk: Dictionary = {
       `${cap(label)} ${skIn(where)}: ceny ${services} ${plural("sk", services, { one: "služby", few: "služieb", other: "služieb" })} porovnané medzi podnikmi, s priemerom a rozpätím. Zo zverejnených cenníkov, s dátumom.`,
     serviceH1: (service: string, where: string) => `${service} ${skIn(where)} – ceny`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${skIn(where)} – od ${from} | Pawenn`,
+    serviceMetaLead: (service: string, where: string) => `${service} ${skIn(where)}:`,
+    cheapest: (name: string, price: string) => `Najlacnejšie: ${name} – ${price}.`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
       `Stojí od ${from} do ${to}, priemer ${median}. Porovnali sme ${places} ${plural("sk", places, { one: "podnik", few: "podniky", other: "podnikov" })}, ceny overené ${date}.`,
     fewPlaces: (places: number) =>

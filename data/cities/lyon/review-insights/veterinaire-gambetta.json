@@ -1,0 +1,134 @@
+{
+  "slug": "veterinaire-gambetta",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VETERINAIRE+GAMBETTA/data=!4m7!3m6!1s0x47f4eb1eeb22a177:0x83249d186c4be606!8m2!3d45.7531277!4d4.8486833!16s%2Fg%2F11zymrnrk9!19sChIJd6Ei6x7r9EcRBuZLbBidJIM?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Accueil chaleureux et écoute bienveillante",
+        "en": "Warm welcome and attentive care"
+      },
+      "text": {
+        "fr": "Les propriétaires saluent l'accueil prévenant et la gentillesse remarquable de l'équipe dans ce cabinet du 7e arrondissement de Lyon. Les vétérinaires prennent le temps d'écouter chaque famille, apportant des réponses claires et une écoute très rassurante dès l'arrivée.",
+        "en": "Pet owners commend the thoughtful hospitality and remarkable kindness of the clinic team in Lyon's 7th arrondissement. The veterinary doctors take time to listen to each family, offering clear explanations and reassuring guidance from the moment they arrive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Soins attentifs pour chiens et chats",
+        "en": "Gentle treatment for dogs and cats"
+      },
+      "text": {
+        "fr": "Les maîtres remarquent la grande délicatesse déployée lors de la manipulation des chiens et des félins en consultation. Qu'il s'agisse d'un jeune chiot ou d'un chat convalescent, les praticiennes veillent à limiter le stress de l'animal tout au long de l'examen médical.",
+        "en": "Owners emphasize the great gentleness shown during physical examinations of both canine and feline patients. Whether examining a young puppy or a recovering cat, the practitioners take every precaution to minimize stress throughout the medical consultation."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Prise en charge médicale rigoureuse",
+        "en": "Thorough and dependable medical care"
+      },
+      "text": {
+        "fr": "Les retours soulignent le professionnalisme et l'efficacité des soins dispensés aux animaux malades ou blessés. Les clients repartent avec des préconisations adaptées et la certitude que leur compagnon a bénéficié d'un accompagnement thérapeutique sérieux et fiable.",
+        "en": "Feedback highlights the high level of skill and efficiency in clinical care provided to ill or injured animals. Clients leave with well-suited recommendations and complete reassurance that their pet received dependable, serious therapeutic treatment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Peut-on obtenir un rendez-vous rapidement ?",
+        "en": "Can appointments be booked quickly?"
+      },
+      "a": {
+        "fr": "Oui, des clients indiquent avoir pu obtenir facilement une consultation rapide pour un animal malade de passage à Lyon.",
+        "en": "Yes, clients mention they were able to easily secure a prompt consultation for an unwell pet visiting Lyon."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels animaux sont soignés au cabinet ?",
+        "en": "Which pets are treated at the clinic?"
+      },
+      "a": {
+        "fr": "Le cabinet vétérinaire accueille principalement les chiens et les chats pour les consultations et la chirurgie.",
+        "en": "The veterinary practice primarily accommodates dogs and cats for general medical care and surgical procedures."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Comment sont gérées les urgences en dehors des horaires d'ouverture ?",
+        "en": "How are emergencies handled outside opening hours?"
+      },
+      "a": {
+        "fr": "En dehors des heures d'ouverture, les urgences sont relayées vers le service vétérinaire partenaire Mermoz Vet.",
+        "en": "Outside regular operating hours, emergency cases are transferred to the partner clinic Mermoz Vet."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

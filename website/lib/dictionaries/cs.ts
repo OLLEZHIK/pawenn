@@ -576,6 +576,8 @@ export const cs: Dictionary = {
       })} porovnané napříč podniky, s průměrem i rozpětím. Ze zveřejněných ceníků, s datem ověření.`,
     serviceH1: (service: string, where: string) => `${service} ${csIn(where)} – ceny`,
     serviceMetaTitle: (service: string, where: string, from: string) => `${service} ${csIn(where)} – od ${from} | Pawenn`,
+    serviceMetaLead: (service: string, where: string) => `${service} ${csIn(where)}:`,
+    cheapest: (name: string, price: string) => `Nejlevněji: ${name} – ${price}.`,
     answer: (from: string, to: string, median: string, places: number, date: string) =>
       `Ceny od ${from} do ${to}, průměr ${median}. Porovnali jsme ${places} ${plural("cs", places, {
         one: "podnik",

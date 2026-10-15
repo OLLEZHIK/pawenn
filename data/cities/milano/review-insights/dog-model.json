@@ -1,0 +1,167 @@
+{
+  "slug": "dog-model",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Model/data=!4m7!3m6!1s0x4786c6c9f9ad7f71:0x8d9de77d173c3815!8m2!3d45.477202!4d9.1937933!16s%2Fg%2F1tgp94b0!19sChIJcX-t-cnGhkcRFTg8F33nnY0?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "it": "Cura del manto e trattamenti specifici",
+        "en": "Coat restoration and breed-specific treatments"
+      },
+      "text": {
+        "it": "Sei recensioni su sette lodano la qualità dei tagli, la toelettatura accurata di cocker e bassotti e la pulizia del pelo, che risulta lucido e profumato. Una voce critica isolata lamenta invece un'insoddisfazione riguardo alla tecnica di stripping eseguita su un cucciolo terrier.",
+        "en": "Six out of seven reviews praise the grooming quality, noting fragrant coats and meticulous trims on cocker spaniels and dachshunds. An isolated critical client expressed disappointment regarding the hand-stripping technique executed on a young terrier puppy."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Cortesia di Luciana e cura",
+        "en": "Luciana's courteous team and health attentiveness"
+      },
+      "text": {
+        "it": "I clienti apprezzano la disponibilità e la dedizione del personale guidato da Luciana. I proprietari sottolineano anche l'occhio clinico degli addetti, che in un caso hanno tempestivamente segnalato una zampa gonfia indirizzando subito il cane dal veterinario per le cure necessarie.",
+        "en": "Clients appreciate the warmth and dedication shown by the staff led by Luciana. Pet owners particularly value the team's attentive observation, noting an instance where groomers promptly identified a swollen paw and advised immediate veterinary examination."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Cani rilassati e a proprio agio",
+        "en": "Relaxed dogs and comfortable bathing sessions"
+      },
+      "text": {
+        "it": "I padroni raccontano che anche gli animali restii al bagno o timorosi dell'acqua si sentono completamente a casa durante la permanenza. Il cane viene ritirato calmo, rilassato e per nulla spaventato, confermando un approccio rispettoso e affettuoso verso gli ospiti a quattro zampe.",
+        "en": "Owners report that even dogs who normally dislike water or feel anxious during baths remain entirely at ease. Pets are collected in a relaxed, calm state without lingering fear, confirming an affectionate and patient methodology that prioritizes canine comfort."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il salone esegue lo stripping per cani a pelo ruvido?",
+        "en": "Does the salon perform hand-stripping for wire-haired breeds?"
+      },
+      "a": {
+        "it": "Sì, il negozio effettua stripping e tagli per terrier e bassotti, sebbene emerga una recensione critica sulla tecnica utilizzata.",
+        "en": "Yes, the parlour offers stripping and trims for terriers and dachshunds, though one critical review noted dissatisfaction with the outcome."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il personale controlla le condizioni fisiche del cane?",
+        "en": "Does the grooming staff inspect the physical condition of dogs?"
+      },
+      "a": {
+        "it": "Sì, i proprietari evidenziano la premura dello staff nel segnalare anomalie o problemi articolari osservati sul tavolo da lavoro.",
+        "en": "Yes, pet owners commend the staff for their keen eye, proactively noting joint swelling or paw discomfort for prompt veterinary checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutato il rapporto qualità-prezzo a Milano?",
+        "en": "How do clients rate the price-to-quality ratio in central Milan?"
+      },
+      "a": {
+        "it": "I clienti abituali considerano le tariffe equilibrate e competitive rispetto all'elevata cura dei dettagli offerta in zona Porta Nuova.",
+        "en": "Regular clients view rates as balanced and competitive given the meticulous coat finish delivered in the central Milan district."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

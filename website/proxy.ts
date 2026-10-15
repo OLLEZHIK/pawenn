@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { LANG_COOKIE, LEGACY_EN_SEGMENTS, LOCALES, pickLocale } from "./lib/locales";
+import { categoryFromSlug, isCitySegment } from "./lib/categories";
+import { LANG_COOKIE, LEGACY_EN_SEGMENTS, LOCALES, isLocale, pickLocale } from "./lib/locales";
 
 // Language routing, model v2 (owner 2026-09-23/25; docs/design-plan.md 2.2).
-// Imports only lib/locales.ts, which has no dependencies - proxy runs
-// separately from render code.
+// Imports only lib/locales.ts and lib/categories.ts, which have no runtime
+// dependencies - proxy runs separately from render code.
 //   /en/..., /sk/...  -> served as is (app/[lang])
 //   /                 -> 307 to the visitor's language: cookie, browser,
 //                        country, English. The only URL that looks at them.
@@ -53,12 +54,13 @@ export function proxy(request: NextRequest) {
 // cached twin in app/[lang]/cached/, built once and kept until the next
 // deploy; with a filter it goes to the original, rendered per request.
 const FILTERS = ["near", "sort", "rating", "open", "all"];
-// First segments under /<lang>/ that are not a category (their own routes).
-const NOT_LISTING = new Set([
-  "business", "betrieb", "miejsce", "podnik",
-  "guides", "poradna", "poradnik", "ratgeber",
-  "how-it-works", "add-or-fix-listing", "privacy-policy", "terms-of-use",
-]);
+// Only category and city pages have cached twins. A whitelist, not a list of
+// the other folders: a new language brings new folder names (fr
+// "etablissement", it "struttura"), and a forgotten one used to be
+// rewritten to a twin that does not exist - every place page 404.
+function isListingSegment(locale: string, segment: string): boolean {
+  return isLocale(locale) && (categoryFromSlug(segment, locale) !== null || isCitySegment(segment, locale));
+}
 
 function cachedListing(request: NextRequest): NextResponse | null {
   const { pathname, searchParams } = request.nextUrl;
@@ -66,7 +68,7 @@ function cachedListing(request: NextRequest): NextResponse | null {
   // The twins are internal: /<lang>/cached/... from outside is not a page.
   if (segments[1] === "cached" || segments[1] === "cached-all") return new NextResponse(null, { status: 404 });
   // <lang> + category (+ city (+ district)): 2 to 4 segments.
-  if (segments.length < 2 || segments.length > 4 || NOT_LISTING.has(segments[1])) return null;
+  if (segments.length < 2 || segments.length > 4 || !isListingSegment(segments[0], segments[1])) return null;
   const used = FILTERS.filter((f) => searchParams.has(f));
   // "Show all" (?all=1) alone, on a city or district list, has its own
   // cached twin: every list links to it, so crawlers follow it too.

@@ -1,0 +1,179 @@
+{
+  "slug": "toutou-star",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Toutou+Star/data=!4m7!3m6!1s0x12c9c0d1117da50d:0x3d94a527fc825709!8m2!3d43.2877741!4d5.3590176!16s%2Fg%2F11g_0y6n4!19sChIJDaV9EdHAyRIRCVeC_CellD0?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "fr": "Personnalité généreuse et accueil haut en couleur",
+        "en": "Generous personality and vibrant welcome"
+      },
+      "text": {
+        "fr": "Une large majorité de clients vante la bonne humeur communicative, l'humour et l'énergie de la gérante Maryline. Très attachée aux habitués du quartier, elle est décrite comme chaleureuse et attentionnée, même si un usager du point relais a trouvé l'échange un peu brusque.",
+        "en": "A wide majority of clients praise Maryline's cheerful mood, warm humor, and vibrant energy. Deeply devoted to neighborhood regulars, she is seen as genuine and attentive, even though one visitor using the parcel drop-off service found the interaction somewhat rushed."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fr": "Coupes soignées pour chiens et chats",
+        "en": "Neat grooming for dogs and cats"
+      },
+      "text": {
+        "fr": "Les maîtres apprécient la qualité des tontes et du brossage sur des races variées comme le spitz, le cocker ou le chat exotique à poil dense. Les animaux ressortent propres, élégants et choyés après des soins réalisés avec une grande maîtrise gestuelle.",
+        "en": "Owners value the quality of haircutting and brushing on varied breeds including Spitz, Cockers, and dense-coated exotic shorthair cats. Animals leave clean, stylish, and thoroughly pampered after grooming sessions delivered with great manual expertise."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Tarifs raisonnables et excellent rapport qualité-prix",
+        "en": "Reasonable rates and strong value for money"
+      },
+      "text": {
+        "fr": "Plusieurs habitués soulignent que les prix demandés restent très compétitifs et raisonnables pour le travail fourni. Le rapport qualité-prix est jugé excellent, permettant de confier régulièrement son compagnon à quatre pattes sans craindre de facture excessive.",
+        "en": "Multiple regulars highlight that prices remain remarkably fair and affordable for the quality of care provided. The overall value for money is considered excellent, making it easy to bring companion pets regularly without encountering excessive bills."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon toilette-t-il également les chats ?",
+        "en": "Does the salon also groom cats?"
+      },
+      "a": {
+        "fr": "Oui, les avis mentionnent la prise en charge de chats à pelage dense avec douceur et patience.",
+        "en": "Yes, reviews report gentle and patient grooming for cats, including breeds with dense undercoats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment sont jugés les tarifs du salon ?",
+        "en": "How are the salon's prices perceived by customers?"
+      },
+      "a": {
+        "fr": "Les clients estiment que les tarifs sont très raisonnables avec un rapport qualité-prix particulièrement avantageux.",
+        "en": "Clients consider rates to be very reasonable, offering particularly strong value for money."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La responsable facilite-t-elle la prise de rendez-vous ?",
+        "en": "Does the groomer offer flexible appointment scheduling?"
+      },
+      "a": {
+        "fr": "Oui, un commentaire note qu'elle se montre très arrangeante pour trouver des créneaux horaires adaptés.",
+        "en": "Yes, a review notes that she is very accommodating when arranging suitable appointment slots."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "ambulatorio-veterinario-associato-chiaia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Associato+Chiaia/data=!4m7!3m6!1s0x133b085569aa2daf:0x8240e122cb6a35be!8m2!3d40.8356626!4d14.240517!16s%2Fg%2F1vp2y68d!19sChIJry2qaVUIOxMRvjVqyyLhQII?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Medici veterinari competenti ed empatici",
+        "en": "Knowledgeable and empathetic veterinary team"
+      },
+      "text": {
+        "it": "I dottori dell'ambulatorio a Chiaia ricevono elogi costanti per l'alta professionalità, la disponibilità prolungata e l'approccio rassicurante verso i proprietari ansiosi. Solo una recensione recente ha espresso disappunto per una diagnosi e per le spiegazioni fornite durante le visite.",
+        "en": "The veterinarians at the Chiaia practice receive regular praise for great professionalism, extended availability, and a reassuring approach toward anxious pet owners. Only one recent reviewer expressed frustration regarding a diagnosis and the explanations provided during visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Trattamenti clinici ed esiti terapeutici",
+        "en": "Clinical treatments and therapeutic outcomes"
+      },
+      "text": {
+        "it": "La maggior parte dei clienti racconta di interventi riusciti perfettamente, dal recupero di cuccioli malati fino a operazioni di sterilizzazione senza complicazioni post-operatorie. È presente però una segnalazione isolata riguardante esami diagnostici considerati insoddisfacenti e costosi.",
+        "en": "Most clients report successful clinical outcomes, ranging from puppy recoveries to spay and neuter procedures completed without post-operative issues. However, an isolated critical review highlights dissatisfaction with specific lab tests and ultrasound diagnostics perceived as costly."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Cura affettuosa e attenzione costante",
+        "en": "Gentle handling and devoted care"
+      },
+      "text": {
+        "it": "I proprietari apprezzano la calma e l'affetto con cui i medici trattano cani e gatti, garantendo percorsi di cura continuativi nel tempo. Anche gli animali più sensibili o timorosi vengono gestiti con delicatezza e senza inutili forzature durante le visite e le medicazioni in ambulatorio.",
+        "en": "Owners value the calm and affection with which veterinarians treat dogs and cats, ensuring consistent long-term care plans. Even sensitive or fearful pets are handled gently and without unnecessary stress throughout clinic examinations and routine treatments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica esegue interventi chirurgici di routine?",
+        "en": "Does the clinic perform routine surgical procedures?"
+      },
+      "a": {
+        "it": "Sì, i clienti menzionano interventi di sterilizzazione eseguiti con successo e senza complicanze.",
+        "en": "Yes, clients highlight spay and neuter surgeries carried out successfully without complications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "La struttura si avvale di consulenze specialistiche?",
+        "en": "Does the facility collaborate with veterinary specialists?"
+      },
+      "a": {
+        "it": "Sì, i proprietari riferiscono che l'équipe coinvolge specialisti qualificati per casi clinici complessi.",
+        "en": "Yes, pet owners report that the veterinary team brings in external specialists for complex clinical cases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene gestita la relazione con i proprietari degli animali?",
+        "en": "How do doctors interact with pet owners during consultations?"
+      },
+      "a": {
+        "it": "I veterinari sono descritti come cordiali, capaci di ascoltare e attenti a rassicurare i proprietari.",
+        "en": "Veterinarians are described as friendly, attentive listeners who help soothe anxious pet parents."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

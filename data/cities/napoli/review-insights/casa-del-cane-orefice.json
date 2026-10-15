@@ -1,0 +1,133 @@
+{
+  "slug": "casa-del-cane-orefice",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Casa+del+Cane+Orefice/@40.8856327,14.2676382,17z/data=!3m1!4b1!4m6!3m5!1s0x133b07ebe59acae9:0xe1295d97d6f036a7!8m2!3d40.8856327!4d14.2676382!16s%2Fg%2F11bzs5mt38?authuser=0&hl=it&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Personale apprezzato ma pareri divisi",
+        "en": "Valued staff with divided feedback"
+      },
+      "text": {
+        "it": "Molti clienti storici di Secondigliano elogiano la dottoressa Maddalena Orefice per la dedizione e la disponibilità, oltre ai consigli del personale del negozio alla cassa. Ciononostante, è presente una dura critica relativa a un servizio di lavaggio, in cui l'utente accusa toelettatore e medico di scarsa tempestività nella gestione di un malore.",
+        "en": "Many longtime clients in Secondigliano express deep gratitude to Dr. Maddalena Orefice and praise store staff like Nicola for helpful nutrition guidance. However, feedback is mixed due to a severe complaint regarding a grooming visit, where an owner faulted both the groomer and attending vet for lacking urgency when an animal fell acutely unwell."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Interventi risolutivi e un caso critico",
+        "en": "Effective care alongside one critical issue"
+      },
+      "text": {
+        "it": "Nelle recensioni positive si evidenziano cure tempestive che hanno salvato la vita a cani in situazioni complesse e risolto problematiche di salute prolungate. Al contrario, una recensione fortemente negativa lamenta un peggioramento delle condizioni fisiche del cane in seguito alla toelettatura, criticando il rinvio di controlli diagnostici.",
+        "en": "Positive reviews emphasize lifesaving clinical interventions and effective long-term medical solutions provided to cherished companion animals. In contrast, one highly negative account details a dog's health deteriorating severely following a washing appointment, accompanied by complaints regarding postponed diagnostic blood screening."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Cura dei pazienti e segnalazione negativa",
+        "en": "Pet care and a serious complaint"
+      },
+      "text": {
+        "it": "Diversi proprietari affidano i propri animali da oltre quindici anni alla struttura, sottolineando l'amore e l'attenzione costante dimostrati verso cani e gatti. Un'esperienza singola, tuttavia, segnala grave sofferenza e ipotermia del cane dopo un bagno, invitando gli altri proprietari a prestare la massima attenzione durante le procedure.",
+        "en": "Several owners have entrusted their pets to this facility for over fifteen years, highlighting consistent warmth and dedicated focus on animal well-being. Nevertheless, a contrasting review warns of severe hypothermia and acute distress after a bath, urging fellow pet parents to exercise heightened caution during outsourced handling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La struttura offre sia prodotti sia assistenza veterinaria?",
+        "en": "Does the facility offer both pet products and vet care?"
+      },
+      "a": {
+        "it": "Sì, l'attività unisce la vendita di alimenti e accessori per animali a consulenze e cure veterinarie in loco.",
+        "en": "Yes, the business combines pet nutrition and accessory retail with in-house veterinary consultations and clinical care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "È possibile ricevere consigli sull'alimentazione del cane?",
+        "en": "Can owners obtain nutritional advice for their pets?"
+      },
+      "a": {
+        "it": "Sì, i clienti abituali menzionano l'aiuto del personale alla cassa per la scelta dei mangimi più adatti alla dieta del cane.",
+        "en": "Yes, regular clients mention receiving helpful dietary guidance from front-desk staff when choosing specialized pet food."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Dove si trova Casa del Cane Orefice a Napoli?",
+        "en": "Where is Casa del Cane Orefice located in Naples?"
+      },
+      "a": {
+        "it": "Il negozio e ambulatorio si trova in Corso Secondigliano, 149/F a Napoli.",
+        "en": "The store and veterinary practice is situated on Corso Secondigliano, 149/F in Naples."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
