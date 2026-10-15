@@ -1,0 +1,154 @@
+{
+  "slug": "arcaplanet-milano-certosa-220",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arcaplanet/data=!4m7!3m6!1s0x4786c1b367090289:0xea749defe40d7a50!8m2!3d45.4994819!4d9.1314438!16s%2Fg%2F11bxc57_z4!19sChIJiQIJZ7PBhkcRUHoN5O-ddOo?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Assortimento del punto vendita e servizi",
+        "en": "Store assortment and customer facilities"
+      },
+      "text": {
+        "it": "Il negozio in Viale Certosa 220 viene lodato per la vastità delle forniture e per l'apertura continuativa anche nei fine settimana. Alcuni clienti segnalano tuttavia parcheggio limitato, temporanee carenze di prodotti e un'area lavaggio con phon rumoroso.",
+        "en": "The store at Viale Certosa 220 is appreciated for its vast product range and continuous opening hours including weekends. However, some shoppers report limited parking, occasional product stockouts, and a noisy dryer in the self-service washing area."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Cortesia e disponibilità dei commessi",
+        "en": "Courteous and helpful sales staff"
+      },
+      "text": {
+        "it": "I clienti apprezzano la gentilezza e l'educazione degli addetti alle vendite durante gli acquisti quotidiani. Il personale si dimostra cordiale e disponibile ad aiutare nella ricerca degli articoli per animali, rendendo l'esperienza in negozio piacevole.",
+        "en": "Customers appreciate the friendliness and politeness of store assistants during everyday retail visits. Staff members prove helpful and courteous when guiding buyers toward suitable pet supplies, creating an enjoyable in-store shopping experience for pet owners."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Articoli per animali e postazione lavaggio",
+        "en": "Pet supplies and washing station"
+      },
+      "text": {
+        "it": "I visitatori trovano una scelta quasi infinita di alimenti e accessori per cani e gatti. Ciononostante, l'esperienza del lavaggio self-service per cani spaventati ha raccolto critiche per il rumore delle ventole e la presenza di una sola vasca funzionante.",
+        "en": "Visitors find a remarkably broad selection of food, toys, and care products for dogs and cats. Nevertheless, self-service washing for nervous pets drew criticism due to loud extractor noise and having only a single operational tub during busy store periods."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il negozio è aperto regolarmente anche nei festivi?",
+        "en": "Is the store open regularly on weekends and holidays?"
+      },
+      "a": {
+        "it": "Sì, i clienti sottolineano positivamente gli orari ampi e la costante apertura del punto vendita.",
+        "en": "Yes, shoppers highlight the broad operating hours and reliable opening schedules."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "È disponibile una postazione per il lavaggio dei cani?",
+        "en": "Is a self-service dog wash available at this branch?"
+      },
+      "a": {
+        "it": "Sì, il negozio dispone di un'area lavaggio self-service per cani, sebbene gli utenti consiglino di verificare la disponibilità.",
+        "en": "Yes, the store features a self-service dog wash station, though customers suggest checking stall availability."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "C'è facilità di parcheggio vicino all'ingresso?",
+        "en": "Is parking readily available near the entrance?"
+      },
+      "a": {
+        "it": "Gli avventori segnalano che i posti auto dedicati sono pochi e la sosta può risultare complicata.",
+        "en": "Patrons mention that dedicated parking spots are scarce and parking nearby can be tricky."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "prices": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "~"
+      }
+    }
+  ]
+}

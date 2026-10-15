@@ -1,0 +1,135 @@
+{
+  "slug": "l-animal-rit",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/L%27ANIMAL%27RIT/data=!4m7!3m6!1s0x12c9bc401b3a58e1:0xd968160098df49cf!8m2!3d43.2847998!4d5.5002014!16s%2Fg%2F11cs9vkw9j!19sChIJ4Vg6G0C8yRIRz0nfmAAWaNk?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "fr": "Tensions après le changement de direction",
+        "en": "Friction following ownership handover"
+      },
+      "text": {
+        "fr": "Une majorité d'avis récents déplore une nette dégradation de la relation client suite au changement de propriétaire de l'animalerie. Les clients professionnels et habitués signalent un accueil désagréable et un manque de considération, malgré une note positive saluant le conseil.",
+        "en": "A majority of recent reviews report a noticeable decline in customer service following the pet shop's change of ownership. Long-standing patrons and professionals report rude interactions and poor consideration, notwithstanding one positive review commending staff advice."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "fr": "Suppression des remises et hausses",
+        "en": "Discontinued discounts and price hikes"
+      },
+      "text": {
+        "fr": "Les tarifs suscitent de vives critiques de la part des professionnels et éleveurs habitués aux tarifs de gros historiques. Plusieurs clients dénoncent la suppression des remises grossistes et des hausses tarifaires marquées, même si des particuliers trouvent encore certains prix corrects.",
+        "en": "Pricing sparks strong dissatisfaction from professionals and breeders previously accustomed to wholesale rates. Several clients criticize the elimination of wholesale discounts and steep price increases, even though retail shoppers occasionally find certain items reasonably priced."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Défaut d'information et suivi difficile",
+        "en": "Notice shortcomings and order issues"
+      },
+      "text": {
+        "fr": "Les avis soulignent des dysfonctionnements dans la communication commerciale et le suivi des commandes. Les clients regrettent l'absence d'information préalable sur les modifications de conditions tarifaires ainsi que des blocages sur les options de livraison rapide en ligne.",
+        "en": "Reviews point out noticeable shortcomings in commercial communication and customer order tracking. Patrons report a lack of advance notice regarding policy and discount updates, along with frustrating issues affecting online order preparation and delivery options."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le magasin propose-t-il des tarifs préférentiels pour les professionnels ?",
+        "en": "Does the store offer wholesale discounts for professionals?"
+      },
+      "a": {
+        "fr": "D'après les avis récents, les anciens tarifs de gros ont été supprimés suite à la reprise de l'établissement.",
+        "en": "According to recent reviews, historical wholesale pricing was discontinued following the change in store management."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "L'animalerie dispose-t-elle d'un large choix d'articles ?",
+        "en": "Does the pet shop have a wide selection of supplies?"
+      },
+      "a": {
+        "fr": "Oui, les clients relèvent un assortiment varié de nourriture et d'accessoires pour chiens, chats et rongeurs.",
+        "en": "Yes, shoppers note a diverse inventory of pet food and accessories for dogs, cats, and small animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le magasin est-il ouvert pendant des périodes de travaux ?",
+        "en": "Is the store accessible during renovation work?"
+      },
+      "a": {
+        "fr": "Des avis signalent des rénovations en cours mais le magasin continue d'accueillir les clients pour leurs achats.",
+        "en": "Reviews mention ongoing store refurbishments, though the shop remains open to welcome visitors for purchases."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "animal-dream",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Dream/data=!4m7!3m6!1s0x133b0f3e068a37ef:0x9e3985d648cd0612!8m2!3d40.8581012!4d14.1702642!16s%2Fg%2F1hc4rl934!19sChIJ7zeKBj4POxMREgbNSNaFOZ4?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Assistenza veterinaria attenta e rassicurante",
+        "en": "Attentive and reassuring veterinary care"
+      },
+      "text": {
+        "it": "I proprietari di animali a Pianura evidenziano la dedizione e la preparazione delle dottoresse dell'ambulatorio. Nelle recensioni si sottolinea la capacità di gestire tempestivamente situazioni delicate, spiegando con chiarezza le condizioni cliniche dei pazienti e mostrando costante empatia verso gli animali.",
+        "en": "Pet owners in Pianura highlight the dedication and expertise of the clinic's veterinarians. Reviews emphasize their ability to promptly manage delicate emergency situations, clearly explaining clinical conditions to families while showing consistent empathy towards domestic animals."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Tariffe e percezione delle spese",
+        "en": "Fees and perception of clinic costs"
+      },
+      "text": {
+        "it": "Sulla spesa veterinaria emergono opinioni variegate tra i clienti della struttura. Diversi utenti reputano i costi ragionevoli ed equi per le indagini diagnostiche svolte, comprese radiografie ed esami approfonditi, mentre altri ritengono i prezzi leggermente al di sopra della media di zona.",
+        "en": "Opinions regarding veterinary fees vary among visitors to the medical facility. Several clients consider the costs fair and reasonable for diagnostic exams performed, including X-rays and thorough screenings, while others view the pricing as somewhat above the local neighbourhood average."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Accertamenti tempestivi ed esiti clinici",
+        "en": "Prompt testing and positive outcomes"
+      },
+      "text": {
+        "it": "I pazienti felini e canini beneficiano di controlli approfonditi che permettono di chiarire rapidamente i quadri di salute. I proprietari riferiscono diagnosi efficaci dopo cadute o traumi, con accertamenti radiografici completati con cura e trattamenti terapeutici tempestivi per i cuccioli.",
+        "en": "Feline and canine patients benefit from thorough examinations that promptly clarify underlying health conditions. Owners report effective diagnoses following trauma or falls, with radiographic imaging completed attentively and prompt therapeutic treatments initiated for puppies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ambulatorio accetta gatti e cani per esami radiografici?",
+        "en": "Does the clinic accept dogs and cats for X-ray examinations?"
+      },
+      "a": {
+        "it": "Sì, la struttura effettua radiografie e indagini diagnostiche per chiarire traumi e condizioni cliniche.",
+        "en": "Yes, the practice performs X-rays and diagnostic investigations to assess physical trauma and clinical conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È possibile gestire visite urgenti a Pianura?",
+        "en": "Is it possible to receive urgent examinations in Pianura?"
+      },
+      "a": {
+        "it": "Sì, i proprietari segnalano interventi tempestivi e visite attente anche per incidenti improvvisi o cadute.",
+        "en": "Yes, owners report prompt intervention and careful assessments even for sudden accidents or pet falls."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono giudicati i prezzi delle prestazioni veterinarie?",
+        "en": "How are veterinary treatment prices rated by pet owners?"
+      },
+      "a": {
+        "it": "Molti clienti ritengono i costi accessibili ed equi, sebbene alcune opinioni segnalino tariffe leggermente alte.",
+        "en": "Many clients view costs as reasonable and fair, although occasional reviews note slightly elevated rates."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}

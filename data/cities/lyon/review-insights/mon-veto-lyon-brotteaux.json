@@ -1,0 +1,203 @@
+{
+  "slug": "mon-veto-lyon-brotteaux",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mon+V%C3%A9to+Lyon+Brotteaux/data=!4m7!3m6!1s0x47f4ea8b0362b16d:0x2051c5568224eab5!8m2!3d45.768417!4d4.8583487!16s%2Fg%2F1tgxswwl!19sChIJbbFiA4vq9EcRteokglbFUSA?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "fr": "Équipe aimable, professionnelle et rassurante",
+        "en": "Kind, professional and reassuring team"
+      },
+      "text": {
+        "fr": "La grande majorité des avis décrit une équipe vétérinaire aimable, professionnelle et attentive, avec des vétérinaires qui prennent le temps d'expliquer la situation et rassurent les animaux anxieux. Plusieurs propriétaires parlent d'un suivi sérieux et d'un bon accueil. Un avis isolé critique en revanche la prise en charge par téléphone.",
+        "en": "The vast majority of reviews describe a kind, professional and attentive veterinary team, with vets who take time to explain the situation and reassure anxious animals. Several owners mention serious follow-up and a good welcome. One isolated review, however, criticises how a phone call was handled."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Locaux propres, équipés et accueillants",
+        "en": "Clean, well-equipped, welcoming premises"
+      },
+      "text": {
+        "fr": "Les locaux sont décrits comme propres, bien équipés et accueillants. Plusieurs clients soulignent une clinique impeccable, un bel espace et une réception agréable dès l'entrée, ce qui met à l'aise les propriétaires comme leurs animaux, qu'il s'agisse d'un chaton ou d'un chien qui appréhende les visites chez le vétérinaire.",
+        "en": "The premises are described as clean, well equipped and welcoming. Several clients stress an immaculate clinic, a nice space and a pleasant reception from the moment they walk in, which puts owners and animals at ease, whether a kitten or a dog that dreads vet visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Anglais, rendez-vous en ligne, appel difficile",
+        "en": "English, online booking, a difficult call"
+      },
+      "text": {
+        "fr": "Côté échanges, plusieurs clients saluent un vétérinaire qui parle anglais ou qui explique clairement, et la possibilité de réserver en ligne un dimanche pour le lendemain. Le niveau d'anglais est jugé limité par un client, et un appel urgent un samedi soir s'est très mal passé selon un avis critique.",
+        "en": "On communication, several clients welcome a vet who speaks English or explains clearly, and the option to book online on a Sunday for the next morning. One client found the English limited, and a critical review says an urgent call on a Saturday evening went very badly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Un vétérinaire parle-t-il anglais à Mon Véto Brotteaux ?",
+        "en": "Does a vet at Mon Véto Brotteaux speak English?"
+      },
+      "a": {
+        "fr": "Des clients disent qu'un vétérinaire parle anglais ; l'un d'eux estime toutefois que l'équipe l'utilise de façon limitée.",
+        "en": "Clients say a vet speaks English; one of them, however, found the team's English limited."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Peut-on prendre rendez-vous en ligne ?",
+        "en": "Can I book an appointment online?"
+      },
+      "a": {
+        "fr": "Oui, un client a obtenu en ligne un dimanche après-midi un rendez-vous pour le lendemain matin.",
+        "en": "Yes, a client booked online on a Sunday afternoon for the following morning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels animaux la clinique reçoit-elle ?",
+        "en": "Which animals does the clinic see?"
+      },
+      "a": {
+        "fr": "La clinique reçoit chiens, chats et petits animaux exotiques ; des avis évoquent des visites pour des chats, un chiot et un golden retriever.",
+        "en": "The clinic sees dogs, cats and small exotic animals; reviews mention visits for cats, a kitten and a golden retriever."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "~"
+      }
+    }
+  ]
+}

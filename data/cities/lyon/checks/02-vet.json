@@ -1,0 +1,45 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "kirchner-stanislas-franck",
+    "longy-cyrille",
+    "clinique-veterinaire-de-trion",
+    "cabinet-veterinaire-du-point-du-jour",
+    "cabinet-veterinaire-gorge-de-loup-a-lyon",
+    "veterinaire-lyon-6-clinique-du-pont-lafayette-du-dr-bakhtiary",
+    "clinique-veterinaire-agape",
+    "cabinet-veterinaire-argos-lyon-valmy",
+    "clinique-veterinaire-docteur-vautier",
+    "cabinet-veterinaire-des-pavillons-dr-forsans"
+  ],
+  "hash": "e3c79055bbfea972539b7efc4d01713990083f506f360bf6b0ce4101c46c60bb",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-12T01:39:42.640Z",
+      "result": "FAIL",
+      "listed": 46
+    },
+    {
+      "at": "2026-10-12T01:40:34.046Z",
+      "result": "FAIL",
+      "listed": 46
+    },
+    {
+      "at": "2026-10-12T01:48:38.381Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-12T01:49:52.861Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-12T01:51:07.712Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "casa-del-cane-epomeo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Casa+del+Cane+Epomeo/data=!4m7!3m6!1s0x133b08d091f25add:0x66dc450e77cda81b!8m2!3d40.8465147!4d14.2044889!16s%2Fg%2F1ptyzdqys!19sChIJ3VrykdAIOxMRG6jNdw5F3GY?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Approccio clinico e pareri contrastanti",
+        "en": "Clinical approach with contrasting feedback"
+      },
+      "text": {
+        "it": "Le opinioni sull'ambulatorio a Soccavo mostrano punti di vista divergenti. Da un lato vengono lodate la professionalità della struttura e la competenza del dottor Ovidio con gli animali esotici, nonché la cura verso i cani anziani. Dall'altro, un cliente critica la gestione di un paziente terminale, lamentando freddezza e risposte insoddisfacenti.",
+        "en": "Opinions regarding this clinic in Soccavo reveal distinct perspectives. On one hand, clients praise the staff's professionalism, Dr. Ovidio's skill with exotic pets, and dedicated attention given to senior dogs. Conversely, a reviewer voiced sharp dissatisfaction during end-of-life care, citing emotional distance and communication difficulties."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La struttura tratta anche animali esotici?",
+        "en": "Does the veterinary clinic treat exotic animals?"
+      },
+      "a": {
+        "it": "Sì, i clienti segnalano la presenza del dottor Ovidio, apprezzato per la sua competenza nella cura degli animali esotici.",
+        "en": "Yes, clients highlight the expertise of Dr. Ovidio in treating exotic and non-conventional companion animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata l'assistenza per cani anziani?",
+        "en": "How is geriatric pet care perceived by clients?"
+      },
+      "a": {
+        "it": "Il riscontro sui pazienti anziani è diviso tra chi loda la cautela diagnostica della dottoressa e chi ha lamentato scarsa disponibilità terapeutica.",
+        "en": "Feedback on senior pet care is divided between owners valuing careful diagnostics and a reviewer noting limited therapeutic flexibility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Dove si trova l'ambulatorio a Napoli?",
+        "en": "Where is the veterinary clinic situated in Naples?"
+      },
+      "a": {
+        "it": "L'ambulatorio Casa del Cane Epomeo si trova in via Paolo della Valle, 77 nel quartiere Soccavo.",
+        "en": "Casa del Cane Epomeo is located on Via Paolo della Valle, 77 in the Soccavo district of Naples."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

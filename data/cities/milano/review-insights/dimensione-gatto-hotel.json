@@ -1,0 +1,133 @@
+{
+  "slug": "dimensione-gatto-hotel",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dimensione+Gatto+Hotel/data=!4m7!3m6!1s0x4786c427a073abc3:0xef744e2069be82f9!8m2!3d45.4431346!4d9.2111668!16s%2Fg%2F11h9zvmygp!19sChIJw6tzoCfEhkcR-YK-aSBOdO8?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Passione autentica e costanti aggiornamenti",
+        "en": "Attentive management and routine photographic updates"
+      },
+      "text": {
+        "it": "I clienti elogiano con calore la gentilezza, la premura e la competenza del team di gestione della pensione. Il personale aggiorna regolarmente i proprietari inviando foto e brevi filmati del micio, garantendo la massima tranquillità anche durante assenze prolungate.",
+        "en": "Clients warmly praise the kindness, attentiveness, and professional expertise of the cattery management. The staff keeps owners consistently updated with photographs and short video clips of their cat, providing total peace of mind even during lengthy travel departures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Accoglienza premurosa e felini sereni",
+        "en": "Affectionate feline care and contented guests"
+      },
+      "text": {
+        "it": "I gatti ricevono cure dedicate rispettando le abitudini e i ritmi individuali di ogni animale. I proprietari raccontano di mici rilassati, coccolati e sereni, che al termine del soggiorno tornano a casa in ottima forma, con un pelo lucido e un umore calmo e giocoso.",
+        "en": "Cats receive dedicated and affectionate attention tailored to their individual routines and temperaments. Pet parents report that feline guests remain thoroughly relaxed, returning home in pristine condition with shiny coats and an exceptionally tranquil demeanor."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Spazi confortevoli e ambiente riservato",
+        "en": "Comfortable private suites and clean surroundings"
+      },
+      "text": {
+        "it": "La struttura situata in via Vallarsa viene considerata un punto di riferimento confortevole e sicuro per i felini milanesi. Gli alloggi risultano puliti, spaziosi e appositamente allestiti per stimolare il benessere del gatto durante vacanze o lavori di ristrutturazione.",
+        "en": "The boarding hotel on Via Vallarsa is regarded as a dependable and quiet retreat designed exclusively for feline guests. The private rooms are clean, well-appointed, and secure, ensuring a stimulating haven whether owners are on holiday or undergoing home renovations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "I proprietari ricevono foto e video del gatto durante il soggiorno?",
+        "en": "Do owners receive photos and videos of their cat while away?"
+      },
+      "a": {
+        "it": "Sì, il personale invia aggiornamenti continui con foto e video per mostrare come trascorre le giornate il felino.",
+        "en": "Yes, the cattery team sends frequent updates featuring pictures and short clips to show the cat's daily activities."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "La struttura accoglie gatti per lunghi periodi di pensione?",
+        "en": "Does the hotel cater to extended or long-term cat boarding?"
+      },
+      "a": {
+        "it": "Sì, la struttura ospita felini anche per soggiorni di diverse settimane o mesi con attenzioni su misura.",
+        "en": "Yes, the hotel welcomes cats for extended stays lasting multiple weeks or months with personalized attention."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "it": "La pensione ospita soltanto gatti o anche cani?",
+        "en": "Is the boarding facility strictly limited to cats?"
+      },
+      "a": {
+        "it": "La struttura è un hotel interamente dedicato ai felini, privo di rumori e presenza di cani.",
+        "en": "The facility is an exclusive feline hotel carefully designed without dog presence or disruptive canine barking."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

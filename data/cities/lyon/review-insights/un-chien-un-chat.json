@@ -1,0 +1,150 @@
+{
+  "slug": "un-chien-un-chat",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Boutique+UN+CHIEN+UN+CHAT+toilettage+chiens+et+chats/data=!4m7!3m6!1s0x47f4eaf6ff4ec523:0xe8554553601eb291!8m2!3d45.7660192!4d4.8436926!16s%2Fg%2F11btmqvyly!19sChIJI8VO__bq9EcRkbIeYFNFVeg?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fr": "Coupes soignées et pelages sublimés",
+        "en": "Neat trims and restored coats"
+      },
+      "text": {
+        "fr": "Les clients saluent unanimement la précision des coupes et le travail méticuleux réalisé dans ce salon du 6e arrondissement de Lyon. Qu'il s'agisse d'un caniche élégant ou d'un pelage long très emmêlé, les animaux ressortent magnifiques avec un poil parfaitement aéré.",
+        "en": "Clients consistently praise the precision styling and meticulous craftsmanship delivered at this 6th arrondissement salon in Lyon. Whether styling an elegant poodle or managing heavily matted coats, visiting pets emerge looking splendid with healthy fur."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Équipe attentionnée et perfectionniste",
+        "en": "Attentive and detail-oriented staff"
+      },
+      "text": {
+        "fr": "Les maîtres mettent en avant l'extrême gentillesse de la responsable et son dévouement envers chaque animal confié. Sa patience et son sens du détail instaurent un climat serein, permettant aux propriétaires de laisser leur compagnon en toute confiance.",
+        "en": "Pet parents highlight the owner's genuine kindness and dedication toward every animal placed in her care. Her patience and thorough attention to detail create a truly relaxed environment, allowing owners to leave their companions with complete confidence."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Douceur pour chiens et chats",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "fr": "Les avis soulignent le profond respect et la grande douceur apportés aux animaux tout au long de la séance de toilettage. Même les chats à la peau sensible ou les chiens craintifs se laissent manipuler sans stress excessif grâce à des gestes calmes et rassurants.",
+        "en": "Reviews emphasize the great respect and gentleness shown towards pets throughout their entire grooming session. Even cats with sensitive skin and timid dogs remain remarkably calm thanks to the groomer's reassuring touch and peaceful handling techniques."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le salon prend-il en charge les chats aux poils emmêlés ?",
+        "en": "Does the salon handle cats with matted fur?"
+      },
+      "a": {
+        "fr": "Oui, la toiletteuse intervient avec précaution pour raser ou démêler les bourres de poils chez les chats, y compris les Maine Coons.",
+        "en": "Yes, the groomer carefully demats or shaves tangles for feline companions, including long-haired Maine Coons."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Combien de temps dure une séance de toilettage complet ?",
+        "en": "How long does a full grooming session take?"
+      },
+      "a": {
+        "fr": "Pour un toilettage approfondi avec bain et coupe, les clients rapportent généralement une durée d'environ deux heures.",
+        "en": "For thorough grooming with a bath and haircut, clients typically report a duration of around two hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Faut-il anticiper la prise de rendez-vous ?",
+        "en": "Should appointments be booked well in advance?"
+      },
+      "a": {
+        "fr": "Oui, le planning étant souvent très demandé, il est fortement conseillé de réserver son créneau à l'avance.",
+        "en": "Yes, given high demand for salon slots, it is strongly advised to book your appointment well ahead of time."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

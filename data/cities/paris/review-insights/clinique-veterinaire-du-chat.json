@@ -1,0 +1,184 @@
+{
+  "slug": "clinique-veterinaire-du-chat",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+du+Chat/@48.8468672,2.3726524,17z/data=!3m1!4b1!4m6!3m5!1s0x47e67204bd56a5af:0x7977a8722754ba80!8m2!3d48.8468672!4d2.3726524!16s%2Fg%2F1tg67dzn?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "fr": "Équipe soignante aux appréciations contrastées",
+        "en": "Care team with contrasting opinions"
+      },
+      "text": {
+        "fr": "Les habitués de la clinique féline près de la Gare de Lyon louent l'écoute et le professionnalisme du Dr Le Moing lors des consultations courantes. À l'inverse, plusieurs avis dénoncent un manque d'empathie chez certains remplaçants et un accueil jugé distant par une partie des clients.",
+        "en": "Regular clients of the feline practice near Gare de Lyon praise Dr. Le Moing for her attentive care during routine consultations. Conversely, several reviews criticize a perceived lack of empathy among substitute vets and describe front desk interactions as unhelpful or detached."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "fr": "Résultats médicaux et suivis contestés",
+        "en": "Contested medical results and follow-ups"
+      },
+      "text": {
+        "fr": "Si certaines urgences urinaires et chirurgies se sont déroulées avec succès, les pathologies complexes suscitent des critiques sévères. Des propriétaires rapportent des retards de prise en charge et des erreurs d'orientation pour des troubles digestifs ou des infections oculaires aiguës.",
+        "en": "While certain urinary emergencies and surgical interventions were managed successfully, complex ailments receive sharp criticism. Owners report delayed treatments and questionable management for challenging digestive disorders or severe feline eye infections, prompting second opinions."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Prise de rendez-vous d'urgence difficile",
+        "en": "Difficult emergency appointment scheduling"
+      },
+      "text": {
+        "fr": "Les délais d'attente et l'accès aux soins urgents représentent une source fréquente d'insatisfaction. Plusieurs clients déplorent le refus d'accueillir un chat malade sans rendez-vous préalable ou l'annulation imprévue de créneaux de suivi en raison d'effectifs réduits à la clinique.",
+        "en": "Appointment delays and limited emergency access cause frequent frustration among feline owners. Multiple reviews complain about turned-away patients facing acute symptoms without a booked slot or canceled follow-ups due to reduced staffing levels at the practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique accueille-t-elle d'autres animaux que les chats ?",
+        "en": "Does the clinic treat pets other than cats?"
+      },
+      "a": {
+        "fr": "Non, l'établissement est exclusivement dédié aux félins, offrant ainsi un environnement calme et sans chiens.",
+        "en": "No, the facility is exclusively dedicated to feline patients, providing a quiet canine-free environment."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Peut-on venir en urgence sans rendez-vous ?",
+        "en": "Can clients visit for emergencies without an appointment?"
+      },
+      "a": {
+        "fr": "Les consultations ont lieu sur rendez-vous; en période de forte affluence, l'accès en urgence imprévue peut être refusé.",
+        "en": "Consultations are by appointment; during peak hours, walk-in emergency visits may be declined or redirected."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Comment sont prises en charge les urgences nocturnes ?",
+        "en": "How are nighttime veterinary emergencies managed?"
+      },
+      "a": {
+        "fr": "La nuit et les jours fériés, la permanence des urgences est assurée par la clinique V2TU Paris.",
+        "en": "At night and during public holidays, emergency coverage is provided by the V2TU Paris emergency hospital."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 2,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
