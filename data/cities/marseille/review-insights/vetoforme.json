@@ -1,0 +1,123 @@
+{
+  "slug": "vetoforme",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetoforme/data=!4m7!3m6!1s0x12c9b9399cd48929:0xe6df0e20b51259f8!8m2!3d43.2442018!4d5.4106733!16s%2Fg%2F11tf9fp9fm!19sChIJKYnUnDm5yRIR-FkStSAO3-Y?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Vétérinaire passionnée et à l'écoute",
+        "en": "Passionate and attentive veterinary practitioner"
+      },
+      "text": {
+        "fr": "Les retours saluent l'implication exceptionnelle du Dr Pauline Diard auprès des animaux et de leurs maîtres. Elle prend le temps d'observer attentivement le chien, d'évaluer son niveau de stress et d'instaurer un climat de confiance indispensable aux séances de rééducation.",
+        "en": "Feedback praises Dr Pauline Diard's exceptional dedication toward companion animals and their guardians. She takes time to observe the dog thoroughly, assess stress levels, and foster an atmosphere of confidence essential for effective veterinary rehabilitation."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Conseils précis et explications détaillées",
+        "en": "Precise advice and detailed explanations"
+      },
+      "text": {
+        "fr": "Les clients apprécient la grande clarté des échanges et les recommandations remises pour poursuivre les exercices à domicile entre deux rendez-vous. La vétérinaire prend le temps d'expliquer chaque étape avec patience pour accompagner le propriétaire dans la convalescence de l'animal.",
+        "en": "Clients appreciate the great clarity of communication and the actionable recommendations provided for practicing exercises at home between visits. The veterinarian explains every step patiently, actively guiding owners through their pet's recovery journey."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "fr": "Rééducation motrice et progrès visibles",
+        "en": "Physical rehabilitation and visible progress"
+      },
+      "text": {
+        "fr": "Les propriétaires constatent des progrès concrets dans la mobilité et le confort de leurs compagnons grâce à un suivi personnalisé. Les séances adaptées permettent d'optimiser le potentiel de récupération de l'animal tout en respectant son rythme physique et ses capacités.",
+        "en": "Owners observe tangible improvements in their pets' mobility and daily comfort thanks to customized rehabilitation care. Adapted sessions maximize the animal's recovery potential while remaining fully respectful of physical stamina and individual limits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quel type de soins est proposé chez Vetoforme ?",
+        "en": "What type of care is offered at Vetoforme?"
+      },
+      "a": {
+        "fr": "Le cabinet propose notamment des soins de rééducation vétérinaire, de physiothérapie et des conseils d'exercices adaptés.",
+        "en": "The practice specializes in veterinary physical rehabilitation, physiotherapy, and customized home exercise programs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le praticien fournit-il des exercices à faire chez soi ?",
+        "en": "Does the practitioner provide home exercises?"
+      },
+      "a": {
+        "fr": "Oui, les avis soulignent la remise de consignes claires pour poursuivre les progrès de l'animal entre les séances.",
+        "en": "Yes, reviews highlight detailed instructions provided to support pet progress between in-clinic sessions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment la vétérinaire aborde-t-elle les animaux stressés ?",
+        "en": "How does the veterinarian handle stressed animals?"
+      },
+      "a": {
+        "fr": "Les clients mentionnent une écoute remarquable et une prise en compte attentive des besoins et du niveau de stress du chien.",
+        "en": "Clients report attentive listening and careful consideration of the dog's emotional state and stress levels."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

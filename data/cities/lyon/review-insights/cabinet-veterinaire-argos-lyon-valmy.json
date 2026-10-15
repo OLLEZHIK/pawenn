@@ -1,0 +1,136 @@
+{
+  "slug": "cabinet-veterinaire-argos-lyon-valmy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cabinet+V%C3%A9t%C3%A9rinaire+Argos+Lyon+Valmy/data=!4m7!3m6!1s0x47f4eb6e633d5d59:0x7ee3e835ab2cd371!8m2!3d45.7768028!4d4.8041352!16s%2Fg%2F1td37ldg!19sChIJWV09Y27r9EcRcdMsqzXo434?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Accueil apprécié mais avis partagés",
+        "en": "Appreciated welcome alongside mixed reviews"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires saluent l'accueil bienveillant et la douceur du personnel, notamment lors des consultations avec le Dr Chorel. En revanche, un retour très critique déplore un manque d'empathie ressenti lors de la fin de vie d'un chat et une impression d'approche trop mercantile de la part de la clinique.",
+        "en": "Several pet owners praise the caring welcome and attentive bedside manner of clinic staff, particularly during consultations with Dr Chorel. Conversely, a very critical review reported a perceived lack of compassion during end-of-life care for a sick cat and frustration regarding financial priorities."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Expériences contrastées selon les cas",
+        "en": "Contrasting experiences depending on cases"
+      },
+      "text": {
+        "fr": "Si des maîtres remercient chaleureusement l'équipe pour avoir sauvé leur compagnon et pris en charge leur animal avec dévouement, un autre retour relate la détresse prolongée d'un jeune chaton dont l'état cutané a empiré pendant plusieurs mois avant qu'une gale d'oreilles ne soit diagnostiquée ailleurs.",
+        "en": "While several owners warmly thank the team for saving their dog and handling emergencies with dedication, another review recounts prolonged distress for a young kitten whose skin condition worsened over multiple months before ear mange was finally diagnosed by another veterinary clinic."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Résultats médicaux et diagnostics controversés",
+        "en": "Medical outcomes and disputed diagnoses"
+      },
+      "text": {
+        "fr": "Les avis récents mettent en balance le sauvetage réussi d'un chien avec deux retours sévères dénonçant des échecs thérapeutiques. Les familles concernées expriment une vive déception face à un diagnostic erroné de gale d'oreille et à une prise en charge palliative jugée insuffisante pour un animal gravement malade.",
+        "en": "Recent feedback balances a successful canine life-saving intervention against two severe reviews alleging diagnostic and treatment shortcomings. Dissatisfied owners report deep disappointment over a missed ear mange diagnosis and palliative support considered inadequate for a terminally ill feline patient."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le cabinet prend-il en charge les urgences rapidement ?",
+        "en": "Does the clinic handle urgent medical cases promptly?"
+      },
+      "a": {
+        "fr": "Oui, les retours positifs signalent une prise en charge réactive lors des urgences médicales.",
+        "en": "Yes, positive feedback indicates responsive medical attention when urgent situations arise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels praticiens sont mentionnés dans les consultations ?",
+        "en": "Which veterinarians are highlighted in clinic reviews?"
+      },
+      "a": {
+        "fr": "Les avis récents mentionnent la douceur et l'écoute du Dr Chorel lors des examens vétérinaires.",
+        "en": "Recent reviews mention Dr Chorel's gentle and attentive handling during veterinary checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Faut-il obligatoirement prendre rendez-vous avant de venir ?",
+        "en": "Are appointments mandatory prior to visiting the practice?"
+      },
+      "a": {
+        "fr": "La prise de rendez-vous est recommandée pour organiser les consultations, même si les cas graves sont reçus rapidement.",
+        "en": "Booking appointments in advance is recommended, although urgent medical cases are admitted quickly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

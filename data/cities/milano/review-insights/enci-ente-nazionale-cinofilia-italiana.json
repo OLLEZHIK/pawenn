@@ -1,0 +1,136 @@
+{
+  "slug": "enci-ente-nazionale-cinofilia-italiana",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ENCI+-+Ente+Nazionale+Cinofilia+Italiana/data=!4m7!3m6!1s0x4786c686f8c4b799:0xa2c2576048b8661e!8m2!3d45.4620071!4d9.2263034!16s%2Fg%2F1tjy0cg6!19sChIJmbfE-IbGhkcRHma4SGBXwqI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Personale d'ufficio e opinioni contrastanti",
+        "en": "Office staff encounters and contrasting experiences"
+      },
+      "text": {
+        "it": "I pareri sul personale della sede centrale di viale Corsica risultano divisi. Alcuni visitatori descrivono impiegati cortesi e disponibili agli sportelli, mentre un utente contesta duramente la disorganizzazione interna e la lentezza nella gestione delle pratiche amministrative.",
+        "en": "Feedback concerning the staff at the central Viale Corsica office is mixed. Some visitors highlight polite and cooperative customer representatives, whereas a critical reviewer strongly complains about internal disorganization and sluggish administrative coordination."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Gestione delle notifiche e avvisi pratiche",
+        "en": "Pedigree notifications and communication delays"
+      },
+      "text": {
+        "it": "La comunicazione istituzionale presenta valutazioni contrastanti tra il pubblico cinofilo. Se da un lato si registrano risposte puntuali per i servizi standard, dall'altro viene segnalata una mancata sincronizzazione tra l'avviso di ritiro del pedigree e l'effettiva disponibilità.",
+        "en": "Communication channels generate varied impressions among canine enthusiasts. While routine inquiries occasionally receive prompt handling, a user notes confusing discrepancies between automated pedigree collection notices and actual document availability at the desk."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Accessibilità della sede e parcheggio limitato",
+        "en": "Headquarters accessibility and challenging street parking"
+      },
+      "text": {
+        "it": "La sede milanese costituisce lo storico punto di riferimento per la cinofilia italiana, ma diversi utenti segnalano forti difficoltà nel trovare parcheggio nelle vie limitrofe. Raggiungere gli uffici in automobile può richiedere tempo supplementare a causa del traffico cittadino.",
+        "en": "The Milan headquarters represents the historic center of Italian cynology, yet visitors point out substantial difficulties securing street parking in surrounding blocks. Reaching the offices by car often requires extra planning due to congested municipal traffic."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "È facile trovare parcheggio vicino alla sede di viale Corsica?",
+        "en": "Is parking easily accessible near the Viale Corsica headquarters?"
+      },
+      "a": {
+        "it": "I visitatori segnalano che parcheggiare lungo viale Corsica e nelle vie adiacenti può risultare molto complicato.",
+        "en": "Visitors note that street parking along Viale Corsica and adjacent blocks is notoriously scarce and demanding."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come conviene procedere per il ritiro del pedigree cartaceo?",
+        "en": "What is the recommended procedure for pedigree collection?"
+      },
+      "a": {
+        "it": "È opportuno verificare preventivamente con gli uffici l'effettiva disponibilità fisica del documento prima del ritiro di persona.",
+        "en": "Pet owners are advised to verify the physical availability of certificates directly with front desk staff before traveling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali orari osservano gli uffici centrali ENCI a Milano?",
+        "en": "What visiting hours does the central ENCI office observe in Milan?"
+      },
+      "a": {
+        "it": "Gli sportelli operano durante la settimana secondo gli orari pubblicati sul portale istituzionale dell'ente.",
+        "en": "Front desk counters operate on weekdays according to the timetable published on the official national cynological portal."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "place": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

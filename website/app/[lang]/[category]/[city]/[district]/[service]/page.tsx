@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { categoryFromSlug } from "@/lib/categories";
 import { getDictionary, inCity, isLocale, localesForCity } from "@/lib/i18n";
-import { PRICES_SEGMENT, answerText, getPriceSummary, pricesPath, serviceCodeFromSlug } from "@/lib/pricePages";
+import { PRICES_SEGMENT, answerText, getPriceSummary, pricesPath, serviceCodeFromSlug, serviceMetaDescription } from "@/lib/pricePages";
 import { MIN_PLACES } from "@/lib/priceMarket";
 import { serviceSeoName } from "@/lib/services";
 import { localeAlternates, socialMeta } from "@/lib/seo";
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
     ? new Intl.NumberFormat(locale, { style: "currency", currency: market.currency, maximumFractionDigits: Number.isInteger(market.min) ? 0 : 2 }).format(market.min)
     : null;
   const title = from ? tp.serviceMetaTitle(service, where, from) : `${tp.serviceH1(service, where)} | Pawenn`;
-  const description = answerText(locale, summary) ?? tp.fewPlaces(summary.rows.length);
+  const description = serviceMetaDescription(locale, service, where, summary) ?? tp.fewPlaces(summary.rows.length);
   const path = pricesPath(locale, category, city.slug, code);
   return {
     title: { absolute: title },
@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
       Object.fromEntries(localesForCity(city).map((l) => [l, pricesPath(l, category, city.slug, code)]))
     ),
     robots: !market || market.places < MIN_PLACES ? { index: false, follow: true } : undefined,
-    ...socialMeta({ title, description, path, locale, image: { title: tp.serviceH1(service, where), subtitle: description.split(". ")[0], category } }),
+    ...socialMeta({ title, description, path, locale, image: { title: tp.serviceH1(service, where), subtitle: answerText(locale, summary)?.split(". ")[0] ?? description, category } }),
   };
 }
 

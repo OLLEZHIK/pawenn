@@ -1,0 +1,215 @@
+{
+  "slug": "sos-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sos+Veterinaria/data=!4m7!3m6!1s0x13258aabdd0d8af7:0xc8aef53291189f27!8m2!3d41.8696607!4d12.4429455!16s%2Fg%2F11cmznz4xj!19sChIJ94oN3auKJRMRJ58YkTL1rsg?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "it": "Competenza e disponibilità dell'equipe medica",
+        "en": "Competence and empathy of veterinary team"
+      },
+      "text": {
+        "it": "I clienti elogiano l'umanità e la dedizione dell'equipe medica guidata dal dottor Maurelli, citando anche specialisti come l'odontoiatra Calcatelli e la dottoressa Virginia. Il personale infermieristico e i medici vengono descritti come rassicuranti e costantemente reperibili.",
+        "en": "Clients commend the empathy and clinical devotion of the medical staff led by Dr. Maurelli, highlighting specialists such as dental vet Calcatelli and Dr. Virginia. The nursing team and veterinarians are widely described as reassuring and reliably attentive during emergencies."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "it": "Interventi salvavita ed esiti controversi",
+        "en": "Lifesaving operations and disputed outcomes"
+      },
+      "text": {
+        "it": "Molte testimonianze lodano la rapidità nelle chirurgie d'urgenza e negli accertamenti ecografici che hanno salvato cani e gatti in pericolo. Tuttavia, due recensioni critiche lamentano complicazioni post-trattamento o decisioni cliniche invasive ritenute poco trasparenti.",
+        "en": "Numerous reviews praise urgent surgical procedures and rapid ultrasound diagnostics that saved dogs and cats in critical states. Conversely, two critical reviews reported post-treatment complications or invasive clinical steps that guardians felt were insufficiently explained."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Amore autentico per gli animali",
+        "en": "Authentic compassion for pet patients"
+      },
+      "text": {
+        "it": "I proprietari apprezzano l'affetto genuino e la sensibilità con cui i quattro zampe vengono trattati durante la degenza e le visite. L'attenzione non si limita agli aspetti strettamente medici, ma include un accudimento premuroso che aiuta a tranquillizzare i pazienti ricoverati.",
+        "en": "Pet owners appreciate the genuine warmth and gentle sensitivity shown toward four-legged companions during checkups and hospitalization. Care extends beyond strictly medical duties, offering comforting attention that helps ease tension for both animals and their worried families."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica veterinaria gestisce pronto soccorso e chirurgia d'urgenza?",
+        "en": "Does the clinic provide emergency triage and urgent surgeries?"
+      },
+      "a": {
+        "it": "Sì, i clienti testimoniano interventi chirurgici ed ecografie d'urgenza eseguiti tempestivamente anche nei giorni festivi.",
+        "en": "Yes, clients report urgent surgeries and ultrasound assessments performed promptly even on Sundays and holidays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Sono presenti specialisti veterinari all'interno della struttura?",
+        "en": "Are specialized veterinary doctors available at the clinic?"
+      },
+      "a": {
+        "it": "Sì, le recensioni menzionano professionisti dedicati all'odontoiatria veterinaria e alla diagnostica per immagini.",
+        "en": "Yes, reviews explicitly mention dedicated specialists in veterinary dentistry and diagnostic imaging."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata la gestione dell'attesa in pronto soccorso?",
+        "en": "How is waiting room management evaluated for emergencies?"
+      },
+      "a": {
+        "it": "I pareri variano: alcune visite festive si svolgono senza attese, mentre una recensione critica segnala ritardi in urgenza.",
+        "en": "Feedback varies: some holiday visits experienced zero wait, whereas one critical review reported emergency room delays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "clinica-veterinaria-corsica",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Corsica/data=!4m7!3m6!1s0x4786c67d1fdece2d:0xaaba6bf4ffa36aff!8m2!3d45.4628982!4d9.2332267!16s%2Fg%2F1hc6k_nz8!19sChIJLc7eH33GhkcR_2qj__Rruqo?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "it": "Medici premurosi con opinioni discordanti sul servizio",
+        "en": "Attentive veterinarians alongside mixed service reviews"
+      },
+      "text": {
+        "it": "I pareri sul personale veterinario si presentano contrastanti nelle recensioni recenti. Molti utenti lodano la dottoressa Camilla e i colleghi per disponibilità, gentilezza e accuratezza nelle visite di controllo, mentre alcune testimonianze criticano aspramente visite sbrigative e mancanza di empatia clinica.",
+        "en": "Feedback concerning the veterinary staff is divided across recent owner reviews. Many visitors warmly praise Dr. Camilla and her colleagues for helpfulness, kindness, and detailed routine care, while a couple of critical reviews report rushed physical examinations and a regrettable lack of clinical empathy."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Accuratezza diagnostica e interventi chirurgici",
+        "en": "Diagnostic accuracy and routine surgical procedures"
+      },
+      "text": {
+        "it": "L esito delle prestazioni diagnostiche e terapeutiche genera valutazioni discordanti tra i proprietari. A fronte di sterilizzazioni riuscite e buone risoluzioni di infezioni respiratorie, una recensione riporta con rammarico una mancata diagnosi tempestiva di patologia tumorale scambiata per semplice irritazione.",
+        "en": "Clinical outcomes from diagnostics and treatment generate mixed evaluations among pet parents. Alongside smoothly performed feline spays and effective management of respiratory inflammations, one review recounts a severe delayed tumor diagnosis that had been mistakenly treated as simple intestinal distress."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Attenzione verso randagi e gestione dello stress",
+        "en": "Compassion for rescues and handling of stressed pets"
+      },
+      "text": {
+        "it": "L attenzione verso gli animali mostra luci e ombre nelle testimonianze raccolte. Da un lato si apprezza la sensibilità nell accogliere e operare gatti randagi traumatizzati, dall altro una recensione denuncia toni bruschi e urla verso un cane spaventato durante l esecuzione di un esame ecografico in sede.",
+        "en": "Attitudes toward animal well-being present both commendable strengths and noticeable shortcomings. Clients value the clinic compassion in sheltering and sterilizing traumatized stray cats, yet a critical review reports harsh yelling and rough handling directed at a frightened dog during an ultrasound session."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Come vengono valutate le tariffe veterinarie della struttura?",
+        "en": "How are the clinic veterinary fees evaluated by clients?"
+      },
+      "a": {
+        "it": "Diversi recensori descrivono costi onesti, ragionevoli e trasparenti rispetto ad altre cliniche veterinarie della città.",
+        "en": "Several reviewers describe honest, reasonable, and transparent costs compared to other veterinary clinics across the city."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come si pone la clinica verso animali randagi o ex-colonie feline?",
+        "en": "How does the clinic approach stray animals or feral rescues?"
+      },
+      "a": {
+        "it": "I clienti lodano la sensibilità del centro, che ospita permanentemente due gatti adottati e supporta interventi su felini traumatizzati.",
+        "en": "Clients praise the clinic sensitivity, which permanently houses two adopted cats and supports care for traumatized rescues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali criticità diagnostiche sono emerse nelle opinioni recenti?",
+        "en": "What diagnostic concerns emerged in recent feedback?"
+      },
+      "a": {
+        "it": "Una recensione ha contestato una diagnosi iniziale imprecisa su un cane e modi sbrigativi durante un'ecografia.",
+        "en": "One review disputed an initial inaccurate diagnosis in a dog and complained of impatient handling during an ultrasound."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

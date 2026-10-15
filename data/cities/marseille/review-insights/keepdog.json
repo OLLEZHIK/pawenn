@@ -1,0 +1,136 @@
+{
+  "slug": "keepdog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/keepdog+pension+canine/data=!4m7!3m6!1s0x12c9bd8be73ac19f:0x9fad05ffb5597865!8m2!3d43.3160052!4d5.5116234!16s%2Fg%2F11krsy866r!19sChIJn8E654u9yRIRZXhZtf8FrZ8?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-12",
+  "period_to": "2026-10-12",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-12",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Inquiétudes sur les sorties promises",
+        "en": "Concerns regarding daily outdoor walks"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires expriment de vives inquiétudes quant aux conditions de garde et au respect des sorties promises. Certains signalent des chiens revenus déshydratés ou sans nouvelles pendant leur séjour, malgré les retours positifs d'autres clients ravis du cadre.",
+        "en": "Several owners express serious concerns regarding boarding conditions and whether promised daily walks were fulfilled. Some report dogs returning dehydrated or receiving no news during their stay, despite positive feedback from other clients happy with the setting."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Accueil et relations très contrastés",
+        "en": "Sharply divided hospitality and conduct"
+      },
+      "text": {
+        "fr": "Les avis sur la gestion et le comportement du responsable sont très partagés. Si certains maîtres décrivent un accueil familial bienveillant pour leurs compagnons, d'autres déplorent des réactions agressives lors des rendez-vous et un manque de professionnalisme.",
+        "en": "Feedback regarding the manager's attitude and hospitality is sharply divided. While some owners describe a caring family welcome for their dogs, others report aggressive reactions during drop-off appointments and a serious lack of professional conduct on site."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Manque de réactivité et d'informations",
+        "en": "Lack of updates and responsiveness"
+      },
+      "text": {
+        "fr": "Les clients regrettent un manque notable de réactivité et de transparence durant les séjours. Plusieurs maîtres soulignent le refus d'envoyer des photos rassurantes ou l'impossibilité de joindre la pension par téléphone à leur arrivée convenue sur place.",
+        "en": "Clients report a noticeable lack of responsiveness and transparency during boarding stays. Several pet guardians highlight a refusal to provide photo updates or difficulties in reaching the kennel by phone upon arriving for scheduled appointments on site."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La pension fournit-elle des nouvelles et des photos régulières ?",
+        "en": "Does the boarding kennel provide regular photo updates?"
+      },
+      "a": {
+        "fr": "Plusieurs avis récents signalent des difficultés à obtenir des photos ou des nouvelles du chien pendant le séjour.",
+        "en": "Several recent reviews report difficulties in obtaining photos or updates about the dog during the stay."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment se déroulent les arrivées pour déposer son animal ?",
+        "en": "How do drop-off appointments work at Keepdog?"
+      },
+      "a": {
+        "fr": "Les visites se font sur rendez-vous fixé à l'avance, mais certains clients rapportent des imprévus lors de l'accueil sur place.",
+        "en": "Drop-offs are arranged by prior appointment, though some clients report unexpected issues upon arrival."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les chiens bénéficient-ils de sorties quotidiennes régulières ?",
+        "en": "Do dogs receive regular daily outdoor walks?"
+      },
+      "a": {
+        "fr": "La pension annonce plusieurs sorties par jour, mais des retours de clients divergent sur le temps réel passé en extérieur.",
+        "en": "The kennel advertises multiple walks per day, though customer feedback differs regarding actual outdoor time."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "~",
+        "animals": "-",
+        "place": "~"
+      }
+    }
+  ]
+}
