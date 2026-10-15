@@ -97,7 +97,7 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
                 {business.name}
               </h3>
               {/* Rating sits right next to the name (owner, 2026-10-15). */}
-              <div className="text-sm text-foreground/65">
+              <div className="flex items-center text-sm text-foreground/65">
                 {business.googleRating !== null && business.googleRatingCount !== null ? (
                   <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
                 ) : rating !== null && (
