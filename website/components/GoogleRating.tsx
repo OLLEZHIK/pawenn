@@ -10,6 +10,7 @@ export function GoogleRating({
   locale,
   href = null,
   className = "",
+  starClassName = "h-4 w-4",
 }: {
   rating: number;
   count: number;
@@ -17,12 +18,14 @@ export function GoogleRating({
   /** Link to the place on Google Maps (detail page); none on cards. */
   href?: string | null;
   className?: string;
+  /** Star size; cards shrink it to the height of the digits. */
+  starClassName?: string;
 }) {
   const t = getDictionary(locale).rating;
   const value = new Intl.NumberFormat(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(rating);
   const content = (
     <>
-      <StarIcon className="h-4 w-4 text-brand-amber" />
+      <StarIcon className={`${starClassName} text-brand-amber`} />
       <span className="font-semibold text-foreground">{value}</span>
       <span>({t.countGoogle(new Intl.NumberFormat(locale).format(count))})</span>
     </>
