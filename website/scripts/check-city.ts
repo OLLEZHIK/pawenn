@@ -370,6 +370,39 @@ const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] 
   }
   return out;
 };
+// The two language versions of a text say the same: the same numbers, and
+// neither a stub nor an essay. "5 years" in en and "10 anni" in it is one of
+// the two being wrong, and only a reader of both languages would see it.
+const NUMBERS = /\d+(?:[.,]\d+)?/g;
+// "24/7", "24 ore su 24", "24h/24", "7 days a week", "365 days" are one idea
+// written differently in each language, so these numbers are not compared;
+// "1.400", "1 400", "1,400" are one number.
+const NONSTOP = /\b24\s*(?:\/|h|ore|heures?|hodin|godzin\w*|Stunden)?\s*(?:\/|su|sur|na|pro|am|auf)?\s*(?:7|24)\b|\b(?:7|365)\s*(?:giorni|jours?|days?|dni|dní|Tage\w*|días)\b|\b24\s*h\b|\bh\s?24\b|\b365\b/gi;
+const numbersOf = (t: string) =>
+  [...t.replace(NONSTOP, " ").replace(/(\d)[.,\s](\d{3})\b/g, "$1$2").matchAll(NUMBERS)]
+    .map((m) => m[0].replace(",", ".").replace(/\.0+$/, ""))
+    .filter((n) => !["24", "7", "365"].includes(n)) // round-the-clock wording differs per language
+    .sort()
+    .join(" ");
+const LENGTHS: Record<string, [number, number]> = {
+  short_description: [25, 260],
+  short_description_local: [25, 260],
+  description: [60, 1600],
+  description_local: [60, 1600],
+};
+const parityIssues = (r: Row): string[] => {
+  const out: string[] = [];
+  for (const [en, local] of [["short_description", "short_description_local"], ["description", "description_local"]]) {
+    if (has(r, en) && has(r, local) && numbersOf(r[en]) !== numbersOf(r[local])) {
+      out.push(`${en} and ${local} give different numbers (en: ${numbersOf(r[en]) || "none"}; local: ${numbersOf(r[local]) || "none"})`);
+    }
+  }
+  for (const [f, [lo, hi]] of Object.entries(LENGTHS)) {
+    const n = (r[f] ?? "").trim().length;
+    if (n && (n < lo || n > hi)) out.push(`${f} is ${n} characters (expected ${lo}-${hi})`);
+  }
+  return out;
+};
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
   const strict = strictText(r);
@@ -377,6 +410,7 @@ for (const r of rows) {
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  for (const line of parityIssues(r)) textIssues.push({ slug: r.slug, strict: false, line });
   const source = text.match(SOURCE_TALK);
   if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
   const time = text.match(TIMES_IN_TEXT);
