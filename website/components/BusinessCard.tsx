@@ -99,7 +99,7 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
               {/* Rating sits right next to the name (owner, 2026-10-15). */}
               <div className="flex items-baseline text-sm text-foreground/65">
                 {business.googleRating !== null && business.googleRatingCount !== null ? (
-                  <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} className="!items-baseline" starClassName="h-[15px] w-[15px]" />
+                  <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} className="!items-baseline" starClassName="h-[15px] w-[15px] translate-y-[2px]" />
                 ) : rating !== null && (
                   <span className="inline-flex items-baseline gap-1">
                     <StarRow rating={rating} />
