@@ -99,35 +99,42 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
           <ArrowRightIcon className="mt-1 hidden h-5 w-5 shrink-0 text-foreground/25 transition group-hover:translate-x-0.5 group-hover:text-brand-blue sm:block" />
         </div>
 
-        <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-foreground/65">
-          {business.googleRating !== null && business.googleRatingCount !== null ? (
-            <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
-          ) : rating !== null && (
-            <span className="inline-flex items-center gap-1">
-              <StarRow rating={rating} />
-              <span className="font-semibold text-foreground">{rating.toFixed(1)}</span>
-              <span>({business.reviews.length})</span>
-            </span>
-          )}
+        <div className="mt-1.5 space-y-1 text-sm text-foreground/65">
+          {/* One fact per line, all left-aligned: rating, address, price. */}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            {business.googleRating !== null && business.googleRatingCount !== null ? (
+              <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
+            ) : rating !== null && (
+              <span className="inline-flex items-center gap-1">
+                <StarRow rating={rating} />
+                <span className="font-semibold text-foreground">{rating.toFixed(1)}</span>
+                <span>({business.reviews.length})</span>
+              </span>
+            )}
+            {distanceKm !== null && (
+              <span className="inline-flex items-center gap-1 font-semibold text-brand-blue">
+                <RouteIcon className="h-3.5 w-3.5" />
+                {t.listing.kmAway(distanceKm < 10 ? distanceKm.toFixed(1) : distanceKm.toFixed(0))}
+              </span>
+            )}
+          </div>
           {business.district && (
-            <span className="inline-flex items-center gap-1">
-              <MapPinIcon className="h-4 w-4" />
+            <p className="flex items-center gap-1">
+              <MapPinIcon className="h-4 w-4 shrink-0" />
               {business.district.name}
-            </span>
+            </p>
           )}
-          {distanceKm !== null && (
-            <span className="inline-flex items-center gap-1 font-semibold text-brand-blue">
-              <RouteIcon className="h-3.5 w-3.5" />
-              {t.listing.kmAway(distanceKm < 10 ? distanceKm.toFixed(1) : distanceKm.toFixed(0))}
-            </span>
-          )}
-          {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
-          {fromPrice && (
-            <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
-          )}
-          {/* No price of its own (owner, 2026-10-11): say so instead of leaving a gap. Pet shops have no priced services. */}
-          {priceTier === null && !fromPrice && business.category !== "PET_SHOP" && (
-            <span className="text-foreground/60">{t.card.priceOnRequest}</span>
+          {(priceTier !== null || fromPrice || (business.category !== "PET_SHOP")) && (
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
+              {fromPrice && (
+                <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
+              )}
+              {/* No price of its own (owner, 2026-10-11): say so instead of leaving a gap. Pet shops have no priced services. */}
+              {priceTier === null && !fromPrice && business.category !== "PET_SHOP" && (
+                <span className="text-foreground/60">{t.card.priceOnRequest}</span>
+              )}
+            </div>
           )}
         </div>
 
