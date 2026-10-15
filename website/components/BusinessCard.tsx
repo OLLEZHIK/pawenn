@@ -8,7 +8,7 @@ import { PartnerBadge } from "./PartnerBadge";
 import { QuickActions } from "./QuickActions";
 import { BusinessAvatar } from "./BusinessAvatar";
 import { GoogleRating } from "./GoogleRating";
-import { ArrowRightIcon, MapPinIcon, RouteIcon } from "./icons";
+import { ArrowRightIcon, MapPinIcon, RouteIcon, TagIcon } from "./icons";
 import { PriceTier } from "./PriceTier";
 import type { PriceLevel } from "@/lib/priceMarket";
 import { logoAspect } from "@/lib/logoSize";
@@ -92,51 +92,61 @@ export function BusinessCard({ business, priceTier = null, locale, distanceKm = 
                 {categoryLabel(business.category, locale)}
               </p>
             )}
-            <h3 className="font-heading text-lg font-bold leading-snug text-foreground transition group-hover:text-brand-blue md:text-xl">
-              {business.name}
-            </h3>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+              <h3 className="font-heading text-lg font-bold leading-snug text-foreground transition group-hover:text-brand-blue md:text-xl">
+                {business.name}
+              </h3>
+              {/* Rating sits right next to the name (owner, 2026-10-15). */}
+              <div className="text-sm text-foreground/65">
+                {business.googleRating !== null && business.googleRatingCount !== null ? (
+                  <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
+                ) : rating !== null && (
+                  <span className="inline-flex items-center gap-1">
+                    <StarRow rating={rating} />
+                    <span className="font-semibold text-foreground">{rating.toFixed(1)}</span>
+                    <span>({business.reviews.length})</span>
+                  </span>
+                )}
+              </div>
+            </div>
           </div>
           <ArrowRightIcon className="mt-1 hidden h-5 w-5 shrink-0 text-foreground/25 transition group-hover:translate-x-0.5 group-hover:text-brand-blue sm:block" />
         </div>
 
-        <div className="mt-1.5 flex flex-col gap-1 text-sm text-foreground/65 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-3 sm:gap-y-1">
-          {/* Phone: one fact per line, left-aligned (rating, address, price). sm+: one wrapping row. */}
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 sm:contents">
-            {business.googleRating !== null && business.googleRatingCount !== null ? (
-              <GoogleRating rating={business.googleRating} count={business.googleRatingCount} locale={locale} />
-            ) : rating !== null && (
-              <span className="inline-flex items-center gap-1">
-                <StarRow rating={rating} />
-                <span className="font-semibold text-foreground">{rating.toFixed(1)}</span>
-                <span>({business.reviews.length})</span>
-              </span>
-            )}
-            {distanceKm !== null && (
-              <span className="inline-flex items-center gap-1 font-semibold text-brand-blue">
-                <RouteIcon className="h-3.5 w-3.5" />
-                {t.listing.kmAway(distanceKm < 10 ? distanceKm.toFixed(1) : distanceKm.toFixed(0))}
-              </span>
-            )}
-          </div>
-          {business.district && (
-            <p className="flex items-center gap-1 sm:inline-flex">
-              <MapPinIcon className="h-4 w-4 shrink-0" />
-              {business.district.name}
-            </p>
-          )}
-          {(priceTier !== null || fromPrice || (business.category !== "PET_SHOP")) && (
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 pl-5 sm:contents sm:pl-0">
-              {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
-              {fromPrice && (
-                <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
+        {/* One aligned list: every line has a 16px icon, so the texts share a left edge. */}
+        <ul className="mt-1.5 space-y-1 text-sm text-foreground/65">
+          {(business.district || distanceKm !== null) && (
+            <li className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              {business.district && (
+                <span className="inline-flex items-center gap-1.5">
+                  <MapPinIcon className="h-4 w-4 shrink-0" />
+                  {business.district.name}
+                </span>
               )}
-              {/* No price of its own (owner, 2026-10-11): say so instead of leaving a gap. Pet shops have no priced services. */}
-              {priceTier === null && !fromPrice && business.category !== "PET_SHOP" && (
-                <span className="text-foreground/60">{t.card.priceOnRequest}</span>
+              {distanceKm !== null && (
+                <span className="inline-flex items-center gap-1 font-semibold text-brand-blue">
+                  <RouteIcon className="h-3.5 w-3.5" />
+                  {t.listing.kmAway(distanceKm < 10 ? distanceKm.toFixed(1) : distanceKm.toFixed(0))}
+                </span>
               )}
-            </div>
+            </li>
           )}
-        </div>
+          {(priceTier !== null || fromPrice || business.category !== "PET_SHOP") && (
+            <li className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <span className="inline-flex items-center gap-1.5">
+                <TagIcon className="h-4 w-4 shrink-0" />
+                {priceTier !== null && <PriceTier level={priceTier} currency={business.city?.currency} locale={locale} />}
+                {fromPrice && (
+                  <span className="font-semibold text-foreground">{t.business.priceFrom(money(fromPrice.value, fromPrice.currency, locale))}</span>
+                )}
+                {/* No price of its own (owner, 2026-10-11): say so instead of leaving a gap. Pet shops have no priced services. */}
+                {priceTier === null && !fromPrice && business.category !== "PET_SHOP" && (
+                  <span className="text-foreground/60">{t.card.priceOnRequest}</span>
+                )}
+              </span>
+            </li>
+          )}
+        </ul>
 
         {highlight && (
           <p className="mt-1.5 line-clamp-2 text-sm font-medium text-foreground/85">
