@@ -1,0 +1,39 @@
+{
+  "chunk": "11-vet",
+  "kind": "places",
+  "slugs": [
+    "clinique-veterinaire-k-d-urgence",
+    "centre-hospitalier-veterinaire-massilia",
+    "veterinaires-2-toute-urgence-marseille",
+    "clinique-veterinaire-du-parc-dromel"
+  ],
+  "hash": "a97bdaf60a722a8a2b84e6c335e2e2e04515305238bbb739669b3b3714e98922",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T20:56:13.411Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-15T20:57:19.893Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T21:00:46.955Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T21:01:07.584Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T21:04:57.240Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
