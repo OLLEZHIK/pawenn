@@ -1,0 +1,34 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "potranco-veterinary-clinic",
+    "culebra-creek-veterinary-hospital-resort",
+    "ellison-drive-animal-hospital",
+    "mpc-of-texas",
+    "ace-veterinary-clinic",
+    "all-creatures-great-small-veterinary-hospital",
+    "st-francis-veterinary-hospital",
+    "low-cost-pet-vet",
+    "great-northwest-animal-hospital"
+  ],
+  "hash": "39f30562635f8a2fa65be70d2916edaed1a51b4925dab9dce7c37e1c8c2b86e3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T23:08:17.737Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:09:03.606Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T23:11:06.678Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
