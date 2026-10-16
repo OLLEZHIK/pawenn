@@ -1,0 +1,139 @@
+{
+  "slug": "ambulatorio-veterinario-venini",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Venini/data=!4m7!3m6!1s0x4786c6de269ed371:0x99cc15ae0726f61c!8m2!3d45.4907563!4d9.2152407!16s%2Fg%2F1tlvnddv!19sChIJcdOeJt7GhkcRHPYmB64VzJk?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Cordialità diffusa con singole criticità",
+        "en": "General warmth with isolated criticism"
+      },
+      "text": {
+        "it": "La maggior parte dei clienti descrive le veterinarie come professioniste dolci, empatiche e disponibili, capaci di assistere anche clienti stranieri in inglese. Tuttavia, un'opinione fortemente critica rimprovera a una dottoressa superficialità nel valutare sintomi addominali.",
+        "en": "Most pet owners describe the veterinarians as sweet, compassionate, and attentive, noting helpful communication in English with visitors. However, an isolated critical review strongly criticizes an unthorough physical evaluation where abdominal discomfort was reportedly minimized."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Cure riuscite e divergenze diagnostiche",
+        "en": "Successful therapies and disputed diagnoses"
+      },
+      "text": {
+        "it": "Diversi proprietari ringraziano la struttura per aver curato con successo gatti anziani e completato pratiche sanitarie per viaggi internazionali. Per contro, una voce denuncia la mancata individuazione palpatoria di una massa splenica, diagnosticata solo da un'altra clinica.",
+        "en": "Multiple clients express gratitude for successful health treatments in senior cats and rapid paperwork for international pet relocation. In contrast, one negative report laments a missed palpable diagnosis of a splenic mass that was subsequently detected at another clinic."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Premura e affetto per pazienti anziani",
+        "en": "Attentive care for senior pets"
+      },
+      "text": {
+        "it": "I visitatori sottolineano come cani e gatti vengano accolti con dolcezza e rispetto, favorendo un ambiente confortevole. Viene evidenziata una sensibilità particolare verso gli animali molto anziani, curati con dedizione e pazienza per garantire il loro benessere quotidiano.",
+        "en": "Visitors note that dogs and cats are welcomed with gentle care and genuine affection, establishing a reassuring clinical setting. Reviewers especially praise the staff's dedication toward elderly pets, providing attentive and patient assistance to support their ongoing comfort."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il personale parla inglese per clienti internazionali?",
+        "en": "Does the veterinary staff communicate in English?"
+      },
+      "a": {
+        "it": "Sì, i proprietari in viaggio confermano che il personale parla un ottimo inglese e assiste con precisione in caso di scadenze sanitarie.",
+        "en": "Yes, international travelers confirm that the team speaks fluent English and handles health certifications efficiently."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali esami di laboratorio sono disponibili?",
+        "en": "What laboratory analyses are performed in-house?"
+      },
+      "a": {
+        "it": "L'ambulatorio dispone di strumenti per esami ematologici, biochimici e microscopici per diagnosi cliniche di routine.",
+        "en": "The clinic is equipped to run hematology, biochemistry, and microscopic examinations for standard clinical evaluations."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "La clinica assiste per i passaporti europei e titolazioni antirabbiche?",
+        "en": "Does the practice assist with pet passports and rabies titration?"
+      },
+      "a": {
+        "it": "Sì, la struttura effettua prelievi per titolazione anticorpale antirabbica, vaccinazioni e rilascio delle certificazioni necessarie all'espatrio.",
+        "en": "Yes, the practice performs blood draws for rabies antibody titration, vaccines, and documentation required for pet travel abroad."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
