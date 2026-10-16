@@ -1,0 +1,134 @@
+{
+  "slug": "interzoo-canovas-valencia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/INTERZOO+-+C%C3%A1novas+-+Valencia+Peluquer%C3%ADa+Canina+%7C+Productos+para+mascotas+%7C+Comprar+piensos+para+perros+y+gatos/data=!4m7!3m6!1s0xd6048b87a0a3e3b:0x1911492d2a034bee!8m2!3d39.4655602!4d-0.3636506!16s%2Fg%2F11bw6v6qwg!19sChIJOz4KerhIYA0R7ksDKi1JERk?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Atención profesional y asesoramiento cercano",
+        "en": "Professional service and friendly guidance"
+      },
+      "text": {
+        "es": "Los clientes elogian la calidez y el conocimiento del equipo de la tienda en Cánovas, destacando especialmente la labor de Miriam en el servicio de peluquería canina. Aprecian su trato cariñoso hacia los perros, la flexibilidad para coordinar visitas y la dedicación personalizada con cada visitante que busca productos adecuados.",
+        "en": "Shoppers commend the warm and knowledgeable team at the Cánovas shop, highlighting Miriam's dedicated dog grooming service in particular. Reviews appreciate her loving approach with pets, organizational flexibility, and the personalized assistance provided to every visitor looking for appropriate companion animal products."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones limpias y surtido variado",
+        "en": "Clean store premises and varied inventory"
+      },
+      "text": {
+        "es": "Los visitantes señalan la agradable sensación de orden y limpieza que se percibe nada más entrar en el establecimiento de la calle Salamanca, así como su amplio surtido de piensos naturales y accesorios. La única queja aislada menciona discrepancias temporales en el horario publicado en Google Maps durante el periodo estival.",
+        "en": "Visitors highlight the inviting sense of cleanliness and pleasant scent noticed immediately upon entering the Calle Salamanca store, alongside its diverse assortment of natural feeds and pet gear. An isolated critique notes temporary discrepancies between published Google Maps opening hours and actual summer holiday closures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Cuidado delicado en peluquería canina",
+        "en": "Gentle handling in dog grooming"
+      },
+      "text": {
+        "es": "El trato hacia las mascotas es uno de los aspectos mejor valorados por los propietarios en el barrio de Cánovas. Subrayan que los perros se sienten cómodos durante las sesiones de baño y corte de pelo, recibiendo atención paciente y mimos que convierten el cuidado higiénico en una experiencia tranquila y gratificante.",
+        "en": "Care for pets is one of the most positively reviewed aspects by local owners in Cánovas. Reviewers emphasize that dogs feel relaxed during bathing and trimming appointments, benefiting from patient handling and affectionate attention that turns regular grooming routines into a calm and reassuring experience."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿La tienda dispone de peluquería canina?",
+        "en": "Does the store have an on-site dog grooming salon?"
+      },
+      "a": {
+        "es": "Sí, cuentan con servicio de peluquería canina y baño higiénico atendido con cita previa.",
+        "en": "Yes, they provide dedicated dog grooming and hygienic bath services by prior appointment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Venden piensos naturales y alimentación sin cereales?",
+        "en": "Do they sell natural and grain-free pet food?"
+      },
+      "a": {
+        "es": "Sí, el catálogo incluye marcas de nutrición natural, piensos grain-free y alimentación dietética para perros y gatos.",
+        "en": "Yes, their selection features natural nutrition brands, grain-free feeds, and dietary formulas for dogs and cats."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen entrega a domicilio de sacos de pienso?",
+        "en": "Do they provide local home delivery for pet food bags?"
+      },
+      "a": {
+        "es": "Sí, la tienda gestiona pedidos y repartos a domicilio en Valencia para productos de alimentación y accesorios.",
+        "en": "Yes, the shop offers local home delivery across Valencia for heavy pet food bags and pet accessories."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "place": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
