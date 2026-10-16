@@ -1,0 +1,29 @@
+{
+  "chunk": "insights-hello-vet-london-fields",
+  "kind": "insights",
+  "slugs": [
+    "hello-vet-london-fields",
+    "hornsey-pet-and-garden-shop",
+    "just-barking",
+    "london-dog-training-centre",
+    "medivet-24-hour-richmond",
+    "medivet-battersea",
+    "medivet-fulham",
+    "medivet-hyde-park",
+    "medivet-islington-liverpool-rd"
+  ],
+  "hash": "41521f959bfc3d6475de078f5291a76b1eb962ed2697a44f354eb112c0752e75",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:33:45.263Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T21:34:01.186Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
