@@ -1,0 +1,40 @@
+{
+  "chunk": "11-shop",
+  "kind": "places",
+  "slugs": [
+    "jays-exotic-reptiles-and-plants",
+    "mika-and-sammys-gourmet-pet-treats",
+    "furville-pet-supplies",
+    "baltimore-pet-shoppe",
+    "fairmount-pet-shoppe",
+    "litterpaw-pet-supply-washington-square-west",
+    "queenies-pets",
+    "doggie-style-pets-pine",
+    "doggie-style-pets-passyunk",
+    "doggie-style-pets-spruce"
+  ],
+  "hash": "8c466ffa89e3c4dd2f49ca15f06217c435ae2d2ea5eb11aa85e6c7b0b151f3db",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:55:50.395Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-16T23:01:01.051Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:03:30.775Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:05:12.772Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
