@@ -1,0 +1,43 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "heart-and-paw-callowhill-philadelphia",
+    "heart-and-paw-northern-liberties-philadelphia",
+    "heart-and-paw-east-market-philadelphia",
+    "paws-northeast-spay-neuter-and-wellness-clinic",
+    "center-city-veterinary-hospital",
+    "washington-ave-animal-hospital",
+    "society-hill-veterinary-hospital",
+    "world-of-animals-at-south-philadelphia"
+  ],
+  "hash": "b737412df84781e9fa48780c5bbe92e5483ac711e431eb1b9ea35da16e4f9434",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:34:59.464Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T22:37:16.594Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-16T22:40:07.330Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:44:18.336Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:44:51.744Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
