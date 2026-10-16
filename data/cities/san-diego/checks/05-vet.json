@@ -1,0 +1,39 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "the-pet-hospital-of-tierrasanta",
+    "rancho-mesa-animal-hospital",
+    "petsmart-veterinary-services-sports-arena-san-diego",
+    "lifetime-animal-care-center",
+    "tell-tail-veterinary-urgent-care",
+    "urgent-care-pet-clinic",
+    "veterinary-specialty-hospital-north-county",
+    "animal-and-bird-hospital-of-del-mar",
+    "banfield-pet-hospital-hillcrest-san-diego"
+  ],
+  "hash": "a3feed528ab9a57e4116ecff7e023e836ad5755195249987c1389e03e4520fdc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:41:47.256Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-16T20:55:14.459Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-16T20:56:10.937Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-16T20:57:06.518Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
