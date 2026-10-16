@@ -1,0 +1,179 @@
+{
+  "slug": "the-pet-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Pet+Spa/data=!4m7!3m6!1s0x48760568bd311af9:0xea2b89b5677e5490!8m2!3d51.4867062!4d-0.1792692!16s%2Fg%2F11bbrhzk99!19sChIJ-RoxvWgFdkgRkFR-Z7WJK-o?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Warm staff alongside service complaints"
+      },
+      "text": {
+        "en": "Many visitors praise the team on Fulham Road for their warmth, enthusiasm, and patient approach with visiting families and pets. Loyal clients describe generous and kind interactions during regular grooming visits. However, several dissatisfied pet owners report unhelpful front-desk service, abrupt cancellations, and dismissive customer responses."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Fresh styling with handling issues"
+      },
+      "text": {
+        "en": "Satisfied clients report that dogs and cats leave looking well groomed, cleanly washed, and smelling fresh after styling sessions. Reviewers appreciate that groomers take time to preserve coat length rather than shaving. Conversely, critical reviews mention uneven results, uncompleted grooms, and one report of an accidental skin nick during cat styling."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Patient care for diverse pets"
+      },
+      "text": {
+        "en": "Cat and dog owners frequently note that their pets are handled with gentle patience during baths and blow drying. Several clients emphasize that nervous poodles and sensitive cats settle well during appointments and return home cheerful. Reviewers value groomers who demonstrate a genuine passion and attentive approach towards animal welfare."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does The Pet Spa groom both cats and dogs?"
+      },
+      "a": {
+        "en": "Yes, client reviews mention regular grooming, bathing, and styling appointments for both cats and dogs on Fulham Road."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the team handle matted coats on sensitive dogs?"
+      },
+      "a": {
+        "en": "Clients mention that groomers work patiently to brush out matting without resorting to unnecessary close shaving on delicate breeds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners purchase pet accessories at the salon?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe browsing retail items including dog bowls, toys, and grooming products within the shop."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
