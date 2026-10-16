@@ -2,7 +2,6 @@
   "chunk": "12-grooming",
   "kind": "places",
   "slugs": [
-    "petco-grooming-sports-arena-san-diego",
     "raise-the-wuff-mobile-dog-grooming",
     "the-den-paw-spa",
     "awesome-doggies-mobile-pet-grooming",
@@ -11,7 +10,7 @@
     "doggowash-cass-st-san-diego",
     "hot-doggity-grooming"
   ],
-  "hash": "64d7a6aa07e8361790afbdf38b5448af94f07be1d24b3dc8672bcbb0d3b5d0cb",
+  "hash": "f3456ceb696f14a8621705481b94f1e5cdb243cd33db91c8b2ac34d040b4de5a",
   "result": "PASS",
   "history": [
     {
@@ -26,6 +25,11 @@
     },
     {
       "at": "2026-10-16T22:41:55.525Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:48:51.174Z",
       "result": "PASS",
       "listed": 0
     }
