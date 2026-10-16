@@ -1,0 +1,40 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "hospital-veterinari-balmes",
+    "hospital-veterinario-mivet-animalia",
+    "hospital-veterinario-montjuic",
+    "tres-torres-veterinaris-barcelona",
+    "anicura-ars-veterinaria-hospital-veterinari",
+    "clinica-valencia-veterinaris-barcelona",
+    "dacs-veterinaria",
+    "clinica-veterinaria-provenca",
+    "tot-animals",
+    "clinica-veterinaria-veteros"
+  ],
+  "hash": "f29a250a911c76bcdce96a421ffead8cd737f036ffc81d5fabc1b2a56c832f97",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T01:09:01.782Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-16T01:11:15.036Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T01:12:21.955Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T01:14:03.620Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

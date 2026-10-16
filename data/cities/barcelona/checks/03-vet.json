@@ -1,0 +1,27 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "balmesvet-veterinaris-hospital-24-h",
+    "vet-stil-casp",
+    "centre-veterinari-d-horta",
+    "tot-cat-clinica-felina",
+    "c-c-veterinaria",
+    "clinica-veterinaria-borrell",
+    "clinica-veterinaria-fort-pius"
+  ],
+  "hash": "788f4ea716991409be8c0b2f0ebdb3d92304fde1ecf630c5cd9dcd0d83345413",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T00:55:17.376Z",
+      "result": "FAIL",
+      "listed": 30
+    },
+    {
+      "at": "2026-10-16T00:56:22.623Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
