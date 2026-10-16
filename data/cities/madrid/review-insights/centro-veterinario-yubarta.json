@@ -1,0 +1,152 @@
+{
+  "slug": "centro-veterinario-yubarta",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterinario+Yubarta/data=!4m7!3m6!1s0xd422857c5a28e09:0x3f98db4c5b7f5030!8m2!3d40.4452!4d-3.7038!16s%2Fg%2F11c607yzgx!19sChIJCY6ixVcoQg0RMFB_W0zbmD8?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Atención cercana y equipo muy profesional",
+        "en": "Dedicated veterinarians and warm clinic attention"
+      },
+      "text": {
+        "es": "La mayoría de las opiniones en Tetuán destacan la profesionalidad y calidez del equipo veterinario, con menciones especiales al trato paciente de la doctora Amaya. Los clientes habituales valoran la dedicación sincera en cada consulta y las explicaciones detalladas, aunque una reseña reciente lamenta falta de claridad en una derivación.",
+        "en": "Most reviewers in Tetuán praise the professionalism and warmth of the veterinary staff, with frequent mentions of Dr. Amaya's attentive care. Regular clients appreciate their dedication and thorough medical explanations, though one recent client expressed frustration regarding a referral and diagnostic transparency."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Seguimiento médico con opiniones diversas",
+        "en": "Medical treatments with varying client perspectives"
+      },
+      "text": {
+        "es": "Varios propietarios llevan años acudiendo a la clínica con gatos y perros, reportando diagnósticos acertados, tratamientos eficaces y un seguimiento clínico de confianza a largo plazo. En contraste, un cliente insatisfecho criticó la falta de pruebas diagnósticas concluyentes en una consulta por dolor de pata antes de acudir a otro centro.",
+        "en": "Several owners have trusted the clinic with dogs and cats for years, reporting successful treatments, accurate diagnostics, and dependable long-term medical care. In contrast, one critical reviewer faulted the clinic for not completing an X-ray diagnostic exam for a limping dog before referring the case to another hospital."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Manejo pausado y respetuoso de mascotas",
+        "en": "Gentle and calm handling for pets"
+      },
+      "text": {
+        "es": "Los clientes señalan que los profesionales se toman el tiempo necesario para explorar a los animales sin prisas ni estrés. Dueños de felinos especialmente tímidos destacan que las revisiones se realizan a un ritmo relajado, permitiendo que las mascotas se sientan seguras y reciban los cuidados preventivos en un ambiente de calma.",
+        "en": "Clients point out that the veterinary team takes ample time to examine animals without rushing or stress. Owners of timid cats particularly highlight that appointments proceed at an unhurried pace, helping pets feel safe and comfortable while receiving routine health checks and preventive treatments in Madrid."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cómo tratan a gatos que se estresan en el veterinario?",
+        "en": "How do they handle cats that get stressed during visits?"
+      },
+      "a": {
+        "es": "Los dueños destacan que las veterinarias no tienen prisa y adaptan el ritmo de la consulta para que los felinos estén relajados.",
+        "en": "Owners highlight that the vets take their time and pace examinations gently so that cats remain relaxed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cuánto tiempo llevan atendiendo a mascotas en el barrio?",
+        "en": "How long have they been serving pets in the neighborhood?"
+      },
+      "a": {
+        "es": "Varios usuarios comentan llevar acudiendo de forma continua durante cinco y seis años con sus perros y gatos en Tetuán.",
+        "en": "Several clients mention attending the clinic consistently for five to six years with their dogs and cats in Tetuán."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dónde está ubicada la clínica veterinaria Yubarta?",
+        "en": "Where is the Yubarta veterinary clinic located?"
+      },
+      "a": {
+        "es": "Se encuentra en la calle de Bravo Murillo 154, en el distrito de Tetuán de Madrid.",
+        "en": "It is located at Calle de Bravo Murillo 154, in Madrid's Tetuán district."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
