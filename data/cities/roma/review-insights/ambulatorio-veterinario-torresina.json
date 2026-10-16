@@ -1,0 +1,137 @@
+{
+  "slug": "ambulatorio-veterinario-torresina",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ass+Prof+Ambulatorio+Veterinario+Torresina/data=!4m7!3m6!1s0x132f5e5bc7a438bb:0x674d87ff1d49de5a!8m2!3d41.9298867!4d12.3993364!16s%2Fg%2F1pv5tl42h!19sChIJuzikx1teLxMRWt5JHf-HTWc?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Dedizione medica e opinioni contrastanti",
+        "en": "Medical dedication and contrasting views"
+      },
+      "text": {
+        "it": "Nel quartiere Torresina i veterinari dello studio, in particolare il dottor Grasso, sono apprezzati per la cordialità, la reperibilità e l'assistenza scrupolosa garantita nel tempo. Tuttavia, una recensione fortemente critica contesta l'approccio diagnostico e la gestione clinica adottata durante una visita specifica.",
+        "en": "In the Torresina neighborhood, clinic veterinarians, especially Dr. Grasso, are commended for their approachable manner, availability, and dedicated long-term care. However, one sharply critical review strongly disputes the diagnostic thoroughness and handling encountered during an examination."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Percezione delle tariffe applicate",
+        "en": "Perception of charged clinic fees"
+      },
+      "text": {
+        "it": "Diversi proprietari considerano i prezzi equi e accessibili, segnalando persino prestazioni e controlli continuativi effettuati con grande generosità senza costi aggiuntivi. All'opposto, un utente esprime forte scontento per i costi preventivati in occasione di un prelievo diagnostico non andato a buon fine.",
+        "en": "Several owners consider the clinic fees fair and reasonable, even mentioning follow-up treatments and injections provided generously without extra billing. In contrast, one client expressed strong dissatisfaction regarding costs demanded following an inconclusive laboratory extraction attempt."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Trattamenti terapeutici e percorsi clinici",
+        "en": "Therapeutic treatments and clinical pathways"
+      },
+      "text": {
+        "it": "La maggior parte delle esperienze riporta esiti terapeutici molto positivi, con cure attente che hanno garantito una vita serena ad animali anziani o affetti da patologie croniche. Un singolo commento manifesta invece delusione per una terapia farmacologica ritenuta inefficace nella risoluzione di una cisti.",
+        "en": "Most experiences report highly positive therapeutic outcomes, with attentive medical protocols allowing senior pets with chronic conditions to live comfortably for years. Conversely, a single reviewer expressed disappointment over pharmaceutical care deemed ineffective in resolving a persistent cyst."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "L'ambulatorio veterinario segue animali anziani con patologie croniche?",
+        "en": "Does the veterinary clinic care for senior pets with chronic illnesses?"
+      },
+      "a": {
+        "it": "Sì, i clienti riferiscono un monitoraggio continuativo e attento nel trattamento di cani anziani affetti da diverse patologie.",
+        "en": "Yes, clients report dedicated long-term monitoring and attentive management for aging dogs with chronic medical needs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "La struttura è dotata di ambiente pulito e ordinato?",
+        "en": "Is the facility described as clean and orderly?"
+      },
+      "a": {
+        "it": "I proprietari sottolineano che l'ambulatorio si presenta come un ambiente pulito, ordinato e accogliente.",
+        "en": "Pet owners note that the veterinary practice provides a clean, well-maintained, and welcoming environment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "È possibile richiedere visite domiciliari per il proprio animale?",
+        "en": "Can owners request home veterinary visits for pets?"
+      },
+      "a": {
+        "it": "Sì, la struttura include nel proprio servizio visite a domicilio per animali da compagnia.",
+        "en": "Yes, the clinic provides veterinary home visit services for companion animals."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

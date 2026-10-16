@@ -1,0 +1,153 @@
+{
+  "slug": "centro-veterinario-piazza-bologna",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterinario+Piazza+Bologna/data=!4m7!3m6!1s0x132f617bbd62d207:0xb4d10edf14c5532d!8m2!3d41.9102374!4d12.5225679!16s%2Fg%2F1tq133qx!19sChIJB9JivXthLxMRLVPFFN8O0bQ?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "it": "Competenza del team e chirurghi",
+        "en": "Team competence and surgical skill"
+      },
+      "text": {
+        "it": "In zona Piazza Bologna, la dottoressa Bianchi e l'équipe veterinaria sono descritte come professionisti preparati, capaci di collaborare con specialisti esterni qualificati. Nonostante una recensione fortemente critica, la maggioranza dei clienti esprime piena stima per la serietà dimostrata nell'arco degli anni.",
+        "en": "Near Piazza Bologna, Dr. Bianchi and the veterinary team are described as knowledgeable professionals who collaborate effectively with qualified external specialists. Despite one sharply critical complaint, most pet guardians express deep appreciation for their medical commitment shown across multiple years."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Relazione con le famiglie e trasparenza",
+        "en": "Family communication and diagnostic clarity"
+      },
+      "text": {
+        "it": "Diversi proprietari evidenziano la premura dei medici nel rassicurare le famiglie durante interventi complessi, spiegando con cura ogni fase delle terapie. Per contro, una cliente segnala un'interazione sgradevole in sala d'attesa e un dialogo ritenuto poco empatico in merito a una prognosi per un cucciolo.",
+        "en": "Several pet guardians commend the doctors for reassuring anxious families during delicate procedures, explaining medical steps thoroughly. In contrast, one reviewer reported an unwelcome interaction in the waiting room and perceived a lack of empathy when discussing a proposed treatment for a young puppy."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Amore per gli animali e cura",
+        "en": "Affection for animals and healthcare"
+      },
+      "text": {
+        "it": "Nelle testimonianze positive emerge una costante attenzione al benessere e alla dignità dei pazienti a quattro zampe, dai cuccioli ai cani anziani con patologie croniche. I clienti sottolineano la delicatezza riservata a gatti e cani sia durante visite dentali complesse sia nei controlli continuativi.",
+        "en": "Positive feedback highlights consistent dedication to the comfort and dignity of four-legged patients, from young puppies to aging dogs with ongoing health challenges. Pet owners appreciate the gentle handling extended to cats and dogs during dental surgical procedures as well as routine follow-ups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica veterinaria esegue interventi di odontoiatria per animali?",
+        "en": "Does the veterinary clinic perform dental procedures for companion animals?"
+      },
+      "a": {
+        "it": "Sì, i clienti descrivono interventi dentistici ed estrazioni dentarie eseguiti con successo e rapida ripresa per i pazienti.",
+        "en": "Yes, clients describe successful dental operations and tooth extractions leading to swift recovery for patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "La struttura segue animali con patologie croniche o complesse?",
+        "en": "Does the facility manage chronic or complex pet conditions?"
+      },
+      "a": {
+        "it": "Sì, diversi proprietari riferiscono una presa in carico continuativa di cani con patologie protratte negli anni.",
+        "en": "Yes, multiple pet guardians report continuous long-term medical care for dogs suffering from ongoing pathologies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali specialità chirurgiche avanzate sono praticate?",
+        "en": "What advanced surgical specialties are practiced at the clinic?"
+      },
+      "a": {
+        "it": "Il centro offre interventi di chirurgia laparoscopica mininvasiva, oncologia e diagnostica interna.",
+        "en": "The clinic provides minimally invasive laparoscopic surgery, oncology treatments, and internal diagnostics."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
