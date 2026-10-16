@@ -1,0 +1,134 @@
+{
+  "slug": "crumpets-vet-clinical-support",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CrumPets+Vet+Clinical+Support/data=!4m7!3m6!1s0x48884758f4e17d11:0x61969b67e727e0db!8m2!3d55.8363883!4d-4.2356515!16s%2Fg%2F11qg5tgvrt!19sChIJEX3h9FhHiEgR2-An52eblmE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated and skilled veterinary clinicians"
+      },
+      "text": {
+        "en": "Clients describe Dr Nick and veterinary specialist Chris Parratt as exceptional professionals who provide calm, reassuring support during stressful medical events. Pet owners praise the entire clinical team for their dedication, kindness, and swift emergency interventions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care during urgent procedures"
+      },
+      "text": {
+        "en": "Pet owners report that both dogs and cats receive meticulous clinical attention during complex scans, echocardiograms, and critical surgeries. Reviewers appreciate that clinicians treat sick animals with genuine empathy, helping them recover safely from serious conditions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and prompt updates"
+      },
+      "text": {
+        "en": "Reviewers highlight that specialists take time to explain diagnoses and treatment options in clear, accessible terms, even using diagrams of heart anatomy. Owners also praise the team for calling promptly with lab results and assisting quickly with pet insurance claims."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does CrumPets perform advanced cardiac diagnostics?"
+      },
+      "a": {
+        "en": "Yes, clients report visiting for echocardiograms and cardiac evaluations with thorough clinical explanations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic handle emergency surgical cases?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe emergency admissions and urgent surgeries, including spleen removals, performed with positive outcomes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the reception team assist with insurance paperwork?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention that reception staff processed insurance forms quickly and provided clear documentation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are medical conditions explained clearly to pet owners?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate that veterinary specialists explain complex diagnoses using simple language and anatomical diagrams."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
