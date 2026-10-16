@@ -1,0 +1,148 @@
+{
+  "slug": "hill-s-veterinary-practice-ltd",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hill%27s+Veterinary+Practice+Ltd/data=!4m7!3m6!1s0x48761bcf564c6635:0xcb0ca5cd7e39e56f!8m2!3d51.5837783!4d-0.1296175!16s%2Fg%2F1tfpp5ds!19sChIJNWZMVs8bdkgRb-U5fs2lDMs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Skilled veterinary care with service complaints"
+      },
+      "text": {
+        "en": "Several long-standing clients commend individual vets such as Rowan Barnes, Patrick, and Beth for their knowledge, warmth, and dedication to treating companion animals. However, other reviewers express serious frustration with reception and nursing staff, citing dismissive attitudes, unhelpful interactions, and an impersonal approach during visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Telephone delays and booking misunderstandings"
+      },
+      "text": {
+        "en": "Multiple reviewers report substantial difficulties reaching the clinic by telephone to seek advice or clarify invoices. Clients also cite administrative breakdowns, including uncommunicated appointment rescheduling on the booking app and abrupt billing notifications without prior discussion. Communication is widely viewed as needing improvement."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Disputed estimates and administrative billing"
+      },
+      "text": {
+        "en": "While some pet owners describe consultation fees as fair and appreciate that vets avoid unnecessary procedures, others complain of inflated bills exceeding initial estimates. Several clients report aggressive debt collection letters triggered by internal administrative delays, advising pet owners to confirm all fee estimates in advance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners request a consultation with a specific vet?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention booking appointments with particular veterinary surgeons, including Rowan Barnes and Patrick."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does Hill's Veterinary Practice handle billing and estimates?"
+      },
+      "a": {
+        "en": "Reviewers advise pet owners to confirm written estimates in advance, as some clients experienced unexpected billing discrepancies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice provide home visits for pets in Crouch End?"
+      },
+      "a": {
+        "en": "Yes, the clinic offers at-home visits and consultations for companion animals unable to travel to the surgery."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

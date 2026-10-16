@@ -1,0 +1,156 @@
+{
+  "slug": "hello-vet-de-beauvoir",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hello+Vet+De+Beauvoir/data=!4m7!3m6!1s0x48761d34511fcda7:0x6480c3b1111d774c!8m2!3d51.540453!4d-0.0851154!16s%2Fg%2F11zkhsmvp_!19sChIJp80fUTQddkgRTHcdEbHDgGQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Supportive and compassionate veterinary staff"
+      },
+      "text": {
+        "en": "Pet parents describe the veterinary practitioners and nurses as exceptionally warm, patient, and professional. Reviewers appreciate the sensitive care provided during end-of-life visits as well as engaging puppy socialisation sessions. Clients commend the team readiness to answer routine queries and explain medical procedures with great care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Calm environment with handling concerns"
+      },
+      "text": {
+        "en": "Most reviewers emphasize that their dogs and cats feel unusually relaxed and comfortable in the clinic, noting gentle handling during vaccines and check-ups. However, one client reported a traumatic blood test where a large dog was repeatedly shaved without obtaining a sample, leaving the animal fearful of entering the practice."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Clean clinic with ventilation issues"
+      },
+      "text": {
+        "en": "Clients praise the practice for its convenient De Beauvoir location, modern interior, and clean, quiet atmosphere that helps reduce stress for visiting animals. On the other hand, one reviewer complained that the premises were uncomfortably hot during a summer heatwave and experienced a locked reception upon arriving on time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Hello Vet De Beauvoir run puppy socialisation sessions?"
+      },
+      "a": {
+        "en": "Yes, clients mention attending free puppy socialisation classes organised by the veterinary team to help young dogs interact calmly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients get advice over WhatsApp?"
+      },
+      "a": {
+        "en": "Yes, pet owners appreciate the clinic responsive WhatsApp messaging for asking minor questions and coordinating care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are home visits available from this clinic?"
+      },
+      "a": {
+        "en": "Yes, Hello Vet provides home visit consultations across De Beauvoir, Dalston, and Hackney for pet owners who prefer home care."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "place": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
