@@ -1,0 +1,39 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "adiestrador-madrid",
+    "cole-de-canes",
+    "enjoy-can-madrid",
+    "noblecan-adiestramiento-canino",
+    "lealcan-adiestramiento",
+    "adiestracan-madrid",
+    "educan-villa-de-vallecas",
+    "la-sonrisa-del-perro",
+    "educador-de-perros-madrid"
+  ],
+  "hash": "57ca38a9fa75150f5230a2930d615476f3f2463a3cd3b60a45e6e2b9b45be792",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T00:10:08.387Z",
+      "result": "FAIL",
+      "listed": 55
+    },
+    {
+      "at": "2026-10-16T00:23:51.730Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T00:28:31.430Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-16T00:28:57.038Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
