@@ -1,0 +1,121 @@
+{
+  "slug": "abbey-house-vets-halton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Abbey+House+Veterinary+Hospital/data=!4m7!3m6!1s0x48795da4c5a08aa5:0x5ca51b0fbb101851!8m2!3d53.7915993!4d-1.4697968!16s%2Fg%2F1tcymzfm!19sChIJpYqgxXRdeUgRURgQuw8bpVw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming and empathetic clinic team"
+      },
+      "text": {
+        "en": "Clients consistently praise the clinical and front-desk team at Halton for their warm and reassuring attitude. Reviewers note that clinicians take time to listen carefully to owner concerns without rushing through appointments. Receptionists are described as helpful and pleasant, creating a comfortable environment during each visit."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Spacious and clean waiting area"
+      },
+      "text": {
+        "en": "Pet owners appreciate the physical setup of the Halton branch, highlighting its cleanliness and calm atmosphere. Reviewers specifically note the well-lit and spacious waiting room, which provides more room for pets compared to other local clinics. The tidy environment helps create a relaxed setting for animals before examinations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle approach keeping pets calm"
+      },
+      "text": {
+        "en": "Multiple reviews emphasize how comfortable pets feel during consultations. Owners note that veterinary staff interact gently with dogs and cats, helping anxious animals settle down before procedures. The patient and steady handling reassures owners that their pets are treated with genuine care throughout every routine checkup."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the waiting area comfortable for pets?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the spacious, clean, and well-lit waiting room that helps keep visiting pets calm and relaxed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do vets at the Halton branch take time to listen to concerns?"
+      },
+      "a": {
+        "en": "Reviewers report that the attending veterinary surgeons are patient, empathetic, and unhurried when answering pet health questions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How prompt is service when arriving for scheduled visits?"
+      },
+      "a": {
+        "en": "Clients note timely consultations with minimal waiting times upon arrival at the surgery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
