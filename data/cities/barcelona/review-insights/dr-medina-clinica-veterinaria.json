@@ -1,0 +1,136 @@
+{
+  "slug": "dr-medina-clinica-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.+Medina+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x12a4a2c1a7c6515d:0x66ff4bdad48d453a!8m2!3d41.4037706!4d2.1687131!16s%2Fg%2F1pp2vdzrt!19sChIJXVHGp8GipBIROkWN1NpL_2Y?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Opiniones divididas sobre la atención veterinaria",
+        "en": "Divided feedback on veterinary consultations"
+      },
+      "text": {
+        "es": "Las reseñas sobre la clínica veterinaria en Gràcia reflejan posturas contrapuestas respecto al veterinario. Varios clientes habituales valoran su trato paciente, cercanía y experiencia en la atención de animales familiares. Por otro lado, reseñas críticas señalan falta de empatía profesional, diagnósticos desacertados o desatención al acudir al centro.",
+        "en": "Client feedback regarding this veterinary practice in Gràcia shows distinctly mixed opinions about the veterinarian. Long-time clients appreciate his patient manner, friendly guidance, and clinical experience. Conversely, critical reviews report perceived lack of empathy, contested diagnoses, or frustration when arriving without finding available staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Sensibilidad con mascotas y discrepancias clínicas",
+        "en": "Pet care sensitivity and clinical differences"
+      },
+      "text": {
+        "es": "Parte de los dueños destaca la delicadeza y consideración demostrada con perros en momentos difíciles o etapas avanzadas de su vida, agradeciendo un trato compasivo hacia el animal y la familia. En contraste, otras opiniones critican la falta de sintonía emocional o la dificultad para atender a animales no convencionales de forma adecuada.",
+        "en": "Several owners highlight compassionate, thoughtful handling of dogs during severe illnesses or later stages of life, valuing sympathetic support for the pet and the family. In contrast, other reviews criticize an apparent lack of emotional connection or note difficulties when attempting to present non-conventional domestic pets for examination."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Atención cordial con incidencias de disponibilidad",
+        "en": "Friendly communication alongside availability issues"
+      },
+      "text": {
+        "es": "Mientras algunos usuarios describen un trato amable, explicaciones detalladas y buena disposición en consulta ordinaria, otros clientes señalan dificultades para ser atendidos o falta de comunicación en momentos de necesidad. La experiencia puede variar de forma significativa según la disponibilidad del veterinario titular en el centro.",
+        "en": "While some clients describe courteous conversations, patient explanations, and helpful service during standard consultations, others report difficulties accessing care or communicating with staff when presenting an animal. Feedback suggests experiences vary noticeably depending on the attending veterinarian's direct availability at the practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué opinan los usuarios sobre la atención del veterinario?",
+        "en": "What do clients say about the attending veterinarian?"
+      },
+      "a": {
+        "es": "Las opiniones son dispares: varios clientes elogian su paciencia y trato cercano, mientras otros reseñan falta de empatía o diagnósticos insatisfactorios.",
+        "en": "Opinions are mixed: several pet owners praise his patience and warm approach, while others cite a lack of empathy or unsatisfactory diagnostic outcomes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Es recomendable llamar antes de acudir a la clínica?",
+        "en": "Is it recommended to call before visiting the clinic?"
+      },
+      "a": {
+        "es": "Sí, las reseñas sugieren contactar previamente para confirmar disponibilidad y evitar encontrarse el centro sin personal en ese momento.",
+        "en": "Yes, client feedback suggests contacting the clinic beforehand to confirm opening and ensure staff are present to attend to your pet."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Se atienden animales exóticos o aves en el centro?",
+        "en": "Are exotic pets or birds treated at the clinic?"
+      },
+      "a": {
+        "es": "Una reseña indica dificultades para la atención de aves pequeñas sin cita, por lo que es aconsejable consultar previamente la cobertura para estas especies.",
+        "en": "A review mentions difficulties when bringing in a small bird without notice, so checking ahead for non-traditional pet coverage is advisable."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
