@@ -1,0 +1,150 @@
+{
+  "slug": "priory-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Priory+Veterinary+Centre/data=!4m7!3m6!1s0x48670b4a3b67056b:0x6e89f06ee93dae74!8m2!3d53.287163!4d-6.360777!16s%2Fg%2F11b60tqs_b!19sChIJawVnO0oLZ0gRdK496W7wiW4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Caring clinical team with varied feedback"
+      },
+      "text": {
+        "en": "Most long-term clients in Tallaght speak warmly of vet Nicola and the practice team, noting their kindness with anxious pets and supportive attitude. However, opinions are mixed, as two reviewers expressed frustration over perceived diagnostic capability and reception desk communication."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient approach to challenging pets"
+      },
+      "text": {
+        "en": "Pet owners appreciate the patient handling shown towards nervous or less compliant animals during clinical exams. Multiple reviewers mention that the veterinary staff take time to keep dogs relaxed in the consulting rooms, creating a reassuring atmosphere for both pets and their owners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed advice with mixed communication"
+      },
+      "text": {
+        "en": "Several clients praise the vets for explaining diagnosis and treatment options in clear layman's terms with transparent pros and cons. In contrast, one reviewer was dissatisfied with communication at the front desk regarding animal assessments, resulting in mixed overall sentiment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are emergency appointments available at Priory Veterinary Centre?"
+      },
+      "a": {
+        "en": "Yes, clients note that short-notice emergency appointments are accommodated during normal clinic opening hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where does the practice refer out-of-hours emergencies?"
+      },
+      "a": {
+        "en": "Out-of-hours emergency care is covered by Pet Emergency Hospital in Belfield outside routine clinic hours."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are wellness and preventive healthcare plans offered?"
+      },
+      "a": {
+        "en": "Yes, clients mention affordable clinic healthcare plans available for routine examinations and treatments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Tallaght?"
+      },
+      "a": {
+        "en": "The clinic is located at Unit 14 Village Green in Tallaght, accessible from Old Greenhills Road."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
