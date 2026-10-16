@@ -1,0 +1,34 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "wag-animal-er",
+    "del-norte-animal-hospital",
+    "del-mar-heights-veterinary-hospital",
+    "veterinary-dental-specialties-oral-surgery",
+    "rancho-santa-fe-veterinary-hospital",
+    "animalia-mobile-vet-tech-services",
+    "coastview-veterinary-hospital",
+    "governor-animal-clinic",
+    "center-veterinary-clinic-and-urgent-care"
+  ],
+  "hash": "8486bbb7da17b8a804dd6803bedf570785221fb21fd2bda603b563f1eeae90e9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:27:19.546Z",
+      "result": "FAIL",
+      "listed": 27
+    },
+    {
+      "at": "2026-10-16T22:29:57.676Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:37:13.146Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
