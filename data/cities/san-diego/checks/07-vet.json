@@ -1,0 +1,27 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "banfield-pet-hospital-mission-gorge-san-diego",
+    "discovery-valley-animal-hospital",
+    "banfield-pet-hospital-murphy-canyon-san-diego",
+    "san-carlos-animal-hospital",
+    "pet-hospital-of-north-park",
+    "animal-dermatology-clinic-san-diego",
+    "cheshire-cat-feline-health-center"
+  ],
+  "hash": "39cffd96592bbe076bf23d6ebaec563d08b8cf803f25eeb82c72413143d45dcb",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:40:14.966Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-16T22:45:27.930Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
