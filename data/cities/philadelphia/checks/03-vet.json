@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "world-of-animals-at-rittenhouse",
+    "2nd-street-animal-hospital",
+    "city-cat-vets",
+    "rox-falls-vet",
+    "indy-veterinary-care",
+    "banfield-pet-hospital-south-philadelphia",
+    "art-city-vets-and-urgent-care",
+    "art-city-vets-wellness-center",
+    "liberty-veterinary-clinic",
+    "avian-and-exotic-philly-vet"
+  ],
+  "hash": "9118bcb63e9fb1509c8b8f9d0cf6602ecdd3dadc8a06efdce01c39592e8b16c6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:36:34.239Z",
+      "result": "FAIL",
+      "listed": 41
+    },
+    {
+      "at": "2026-10-16T21:42:06.472Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
