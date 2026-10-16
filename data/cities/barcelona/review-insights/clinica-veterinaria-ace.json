@@ -1,0 +1,152 @@
+{
+  "slug": "clinica-veterinaria-ace",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CL%C3%8DNICA+VETERIN%C3%80RIA+ACE/data=!4m7!3m6!1s0x12a4a34b21bd6fc7:0x97ec2cc2dc74da7e!8m2!3d41.4190227!4d2.2066797!16s%2Fg%2F11f3mbhqmv!19sChIJx2-9IUujpBIRftp03MIs7Jc?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Opiniones divididas sobre el equipo",
+        "en": "Divided opinions on clinic staff"
+      },
+      "text": {
+        "es": "Los clientes muestran opiniones contrastadas respecto al personal del centro. Mientras algunos elogian la vocación incondicional de ciertos veterinarios que atienden incluso fuera de horario, otros lamentan los cambios recientes en la gestión y un trato más distante en recepción. La profesionalidad médica de algunos doctores se valora con entusiasmo, pero la atención administrativa genera críticas.",
+        "en": "Clients present contrasting perspectives regarding clinic personnel. While some praise the exceptional dedication of individual veterinarians who accommodate visits outside standard hours, others lament recent organizational changes and impersonal desk service. Although specific clinical doctors receive warm appreciation, front-desk interactions draw notable criticism."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Dificultades y retrasos con citas",
+        "en": "Scheduling friction and appointment delays"
+      },
+      "text": {
+        "es": "La organización de las citas y la respuesta ante imprevistos suscita valoraciones desfavorables entre varios usuarios. Se reportan negativas a gestionar citas de forma presencial obligando al uso de mensajería, así como demoras para encontrar hueco en situaciones de urgencia. Aunque en casos puntuales un veterinario atiende con flexibilidad, la gestión del calendario genera quejas recurrentes.",
+        "en": "Appointment scheduling and emergency response draw unfavorable feedback from several clients. Reviewers report rigid front-desk policies requiring messaging for booking instead of handling requests in person, alongside difficulties securing urgent slots. While certain veterinarians offer occasional flexibility, general scheduling procedures cause recurring client dissatisfaction."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Resultados clínicos y experiencias dispares",
+        "en": "Clinical outcomes with varied experiences"
+      },
+      "text": {
+        "es": "La percepción sobre los tratamientos médicos abarca valoraciones muy diversas. Ciertos tutores destacan la eficacia de los diagnósticos y las pautas terapéuticas recomendadas para perros difíciles, considerando la atención técnica excelente. Por el contrario, se reporta una complicación grave tras una intervención de esterilización que generó una gran alarma en los dueños del animal.",
+        "en": "Feedback regarding veterinary treatment outcomes is distinctly mixed among reviewers. Certain pet parents highlight precise diagnostic recommendations and effective therapies for challenging dogs, rating the clinical skill very highly. Conversely, a serious post-operative complication following a neutering procedure generated acute distress and sharp complaints from the pet guardian."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cómo se gestionan las citas previas en la clínica?",
+        "en": "How are appointments booked at the clinic?"
+      },
+      "a": {
+        "es": "Los clientes señalan que el centro solicita habitualmente tramitar las peticiones de cita a través de mensajes de WhatsApp.",
+        "en": "Clients report that the clinic frequently requires booking requests to be handled through WhatsApp messaging."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dispone la clínica de laboratorio propio y diagnóstico por imagen?",
+        "en": "Does the clinic have in-house laboratory and imaging facilities?"
+      },
+      "a": {
+        "es": "Sí, el centro cuenta con radiología digital, ecografía y analíticas clínicas propias para el diagnóstico veterinario.",
+        "en": "Yes, the clinic is equipped with digital radiography, ultrasound imaging, and on-site laboratory testing for diagnostics."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Qué servicios veterinarios generales se ofrecen?",
+        "en": "What general veterinary services are provided?"
+      },
+      "a": {
+        "es": "Ofrecen medicina preventiva, planes de vacunación, cirugía veterinaria general y medicina interna para perros y gatos.",
+        "en": "They provide preventive care, vaccination protocols, general veterinary surgery, and internal medicine for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Dónde está situada la clínica en Barcelona?",
+        "en": "Where is the clinic located in Barcelona?"
+      },
+      "a": {
+        "es": "La clínica se encuentra en el Carrer del Maresme 177, en el distrito de Sant Martí.",
+        "en": "The clinic is located on Carrer del Maresme 177, in the Sant Martí district of Barcelona."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "results": "+"
+      }
+    }
+  ]
+}
