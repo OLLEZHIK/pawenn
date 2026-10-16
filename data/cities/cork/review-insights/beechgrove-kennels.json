@@ -1,0 +1,123 @@
+{
+  "slug": "beechgrove-kennels",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Beechgrove+Kennels/data=!4m7!3m6!1s0x48449b18d453b4ab:0xebf7c307868b58ba!8m2!3d51.9666978!4d-8.4160078!16s%2Fg%2F11f5pllx9j!19sChIJq7RT1BibREgRuliLhgfD9-s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Pet boarding experience and dog care"
+      },
+      "text": {
+        "en": "Most dog owners report that their pets enjoy boarding here, returning home energetic and visibly happy after their stay. Clients mention that their dogs eagerly anticipate visits to the kennels. However, one owner reported that their dog lost significant weight and required veterinary treatment for dehydration and illness immediately following boarding."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Kennel grounds and facility cleanliness"
+      },
+      "text": {
+        "en": "Several visitors find the kennel facilities spacious and convenient for short and extended boarding stays near Cork. Repeat clients describe the grounds as dependable accommodation for family dogs. In contrast, one reviewer was disappointed with the kennel conditions, claiming their pet was poorly looked after during a one-week stay."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Customer service and kennel attendants"
+      },
+      "text": {
+        "en": "Clients frequently describe the kennel team as helpful, welcoming, and pleasant to deal with when dropping off or collecting dogs. Pet parents appreciate practical communication regarding pet routines. Nonetheless, one dissatisfied client criticised the overall supervision and communication surrounding pet health concerns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do dogs settle in well at Beechgrove Kennels?"
+      },
+      "a": {
+        "en": "Several owners note that their dogs return happy and excited to visit, though one reviewer reported a difficult stay involving pet illness."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are boarding rates perceived by customers?"
+      },
+      "a": {
+        "en": "Feedback on fees is mixed; some clients found the rates very fair, while one reviewer reported an unexpected price increase upon collection."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can dogs board for both short and long periods?"
+      },
+      "a": {
+        "en": "Yes, clients use the facility for weekend breaks as well as week-long boarding stays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
