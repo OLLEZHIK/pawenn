@@ -1,0 +1,146 @@
+{
+  "slug": "spratts-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Spratt%27s+Veterinary+Clinic/data=!4m7!3m6!1s0x48435712b560bad1:0x503f98d8c4c5516b!8m2!3d52.2638559!4d-8.2722733!16s%2Fg%2F1q62bcx7d!19sChIJ0bpgtRJXQ0gRa1HFxNiYP1A?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful and knowledgeable veterinary team"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the veterinary staff in Mitchelstown for their welcoming and accommodating attitude toward pet owners. Clients describe the team as approachable and knowledgeable, noting that clinicians communicate clearly during examinations and take time to assist with rescue animals and routine consultations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling of companion pets"
+      },
+      "text": {
+        "en": "Pet owners appreciate how gently and attentively animals are treated during their visits to the clinic. Reviewers mention that both dogs and cats, including nervous rescues, are kept comfortable and calm during treatments, giving owners confidence that their companion animals are in caring and safe hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments and medical outcomes"
+      },
+      "text": {
+        "en": "Feedback highlights reliable veterinary care and successful treatment outcomes for both cats and dogs. Several reviewers report that their pets recovered quickly from illnesses under the clinic's care, describing the medical attention as dependable and effective for routine and restorative health issues."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of animals do reviewers bring to the clinic?"
+      },
+      "a": {
+        "en": "Clients mention bringing dogs and cats, including rescued pets, for routine examinations and medical treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic staff?"
+      },
+      "a": {
+        "en": "Pet owners consistently describe the staff as friendly, knowledgeable, and accommodating towards both pets and owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatments for sick pets considered effective?"
+      },
+      "a": {
+        "en": "Yes, reviewers report fast and reliable treatment outcomes, noting successful recoveries for sick pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform pet surgeries?"
+      },
+      "a": {
+        "en": "Yes, the practice offers general surgical procedures, neutering, and companion animal dental care."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
