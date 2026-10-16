@@ -6,8 +6,8 @@
     "testacoda",
     "toelettatura-milano-amici-di-viola-milano"
   ],
-  "hash": "055774a43219e47f905a8ca6f73d3a7103df4b8bd1266eab8302633349943361",
-  "result": "FAIL",
+  "hash": "f765feda9d753cec70a4ede990944d503e27c6382d6faaeaf2275edb9efa6a7f",
+  "result": "PASS",
   "history": [
     {
       "at": "2026-10-11T20:10:37.807Z",
@@ -23,6 +23,21 @@
       "at": "2026-10-16T06:48:14.730Z",
       "result": "FAIL",
       "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:57:37.555Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:57:59.018Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:58:45.430Z",
+      "result": "PASS",
+      "listed": 0
     }
   ]
 }
