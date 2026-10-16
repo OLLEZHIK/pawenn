@@ -9,7 +9,7 @@
     "dogterra-castillejos-barcelona",
     "for-dogs-one-barcelona"
   ],
-  "hash": "8c178b6e4cb28cdb214b8d86d1c186bd0ad6bfcde3e99f1efe3d23bd8b56a0d4",
+  "hash": "2a1c36b9797540f43175a55088d03edde46dd04a4d814c1cc7a9da544139d7c0",
   "result": "PASS",
   "history": [
     {
@@ -19,6 +19,21 @@
     },
     {
       "at": "2026-10-16T01:15:16.483Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T18:13:34.447Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-16T18:14:42.648Z",
+      "result": "FAIL",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T18:15:55.380Z",
       "result": "PASS",
       "listed": 0
     }
