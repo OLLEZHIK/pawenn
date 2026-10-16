@@ -1,0 +1,135 @@
+{
+  "slug": "tom-jerry-animals",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tom+%26+Jerry+Animals+-+Toelettatura+e+Pet+Shop/data=!4m7!3m6!1s0x132f6001fd33eb31:0xfd7cf5e8eafcd35c!8m2!3d41.8732383!4d12.4429746!16s%2Fg%2F1vnhvjps!19sChIJMesz_QFgLxMRXNP86uj1fP0?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Tagli curati e pelo morbidissimo",
+        "en": "Neat styling and ultra-soft coats"
+      },
+      "text": {
+        "it": "I proprietari esprimono piena soddisfazione per la qualità della toeletta, notando tagli a forbice eseguiti con cura e un profumo gradevole che dura a lungo. I cani escono dal salone ordinati, con mantelli splendenti e privi di imperfezioni. Le recensioni confermano un livello elevato sia nei lavaggi igienici sia nelle rifiniture per barboni.",
+        "en": "Pet parents express complete satisfaction with grooming quality, noting meticulously executed scissor cuts and a pleasant lasting scent. Dogs leave the parlor clean, with radiant coats free of tangles. Reviews confirm a high standard maintained both in routine hygiene baths and detailed styling for breeds like poodles."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Toelettatore empatico, gentile e preparato",
+        "en": "Empathetic, kind and knowledgeable groomer"
+      },
+      "text": {
+        "it": "Il personale riscuote lodi per la cordialità, il sorriso accogliente e la pazienza mostrata fin dal primo momento. I clienti mettono in risalto la disponibilità nel dispensare consigli preziosi non soltanto sulla toelettatura, ma anche sulla nutrizione dell'animale. La passione sincera per il lavoro conquista la stima degli avventori abituali.",
+        "en": "The grooming staff earns warm praise for courtesy, a welcoming smile, and patient communication right from the start. Customers highlight the groomer's willingness to share valuable advice regarding both coat maintenance and pet nutrition. Genuine enthusiasm for animal care earns steady loyalty from regular neighborhood clients."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Pazienza e amore per cuccioli",
+        "en": "Patience and love for puppies"
+      },
+      "text": {
+        "it": "I clienti apprezzano l'empatia con cui vengono accolti cuccioli di cane e gattini alle prime esperienze in negozio. Gli operatori sanno trasmettere tranquillità ai quattro zampe, maneggiandoli con dolcezza per evitare timori durante il bagno o il taglio. I proprietari si sentono rassicurati vedendo i propri animali sereni e coccolati.",
+        "en": "Customers appreciate the empathetic care shown to puppies and kittens experiencing their first grooming sessions. Handlers know how to reassure four-legged guests, handling them gently to prevent anxiety during bathing or coat trimming. Owners feel fully reassured seeing their companions calm and well pampered throughout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il salone accoglie gattini per prime sedute di igiene?",
+        "en": "Does the salon welcome kittens for initial hygiene grooming?"
+      },
+      "a": {
+        "it": "Sì, i clienti segnalano grande disponibilità e consigli utili nella cura di cuccioli e gattini.",
+        "en": "Yes, clients highlight great kindness and helpful advice when grooming young kittens and puppies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Vengono forniti consigli anche sull'alimentazione del pet?",
+        "en": "Is nutritional advice provided alongside grooming?"
+      },
+      "a": {
+        "it": "Sì, lo staff offre indicazioni pratiche per la cura del pelo e la corretta nutrizione degli animali.",
+        "en": "Yes, staff provide practical guidance covering both coat wellness and healthy pet nutrition."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il negozio è attivo da molti anni nel quartiere Monteverde?",
+        "en": "Has the shop been serving the Monteverde area for many years?"
+      },
+      "a": {
+        "it": "Sì, la struttura è un punto di riferimento per animali domestici a Roma Monteverde attivo dal 1994.",
+        "en": "Yes, the center has been an established pet care staple in Rome Monteverde since 1994."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
