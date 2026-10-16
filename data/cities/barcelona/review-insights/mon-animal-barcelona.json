@@ -1,0 +1,134 @@
+{
+  "slug": "mon-animal-barcelona",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/M%C3%B3n+Animal/data=!4m7!3m6!1s0x12a498a201de4c17:0x60a8a96e9d71d27f!8m2!3d41.3612971!4d2.1403828!16s%2Fg%2F1q5bm45db!19sChIJF0zeAaKYpBIRf9JxnW6pqGA?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Atención cercana y asesoramiento dedicado",
+        "en": "Attentive guidance and dedicated service"
+      },
+      "text": {
+        "es": "Los clientes de Sants-Montjuïc valoran el trato amable del personal de la tienda, destacando la disposición para resolver dudas sobre el cuidado de distintos animales. Mencionan la amabilidad constante del equipo en el mostrador y la atención personalizada para orientar en cada compra cotidiana.",
+        "en": "Customers in Sants-Montjuïc value the friendly approach of the shop staff, emphasizing their willingness to resolve questions about caring for different pets. Reviewers highlight the team's ongoing kindness at the counter and their personalized advice during everyday neighborhood visits."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Variedad de productos e instalaciones",
+        "en": "Wide assortment and convenient facilities"
+      },
+      "text": {
+        "es": "Los compradores aprecian el amplio surtido de accesorios, alimentación e insumos para mascotas en el barrio. Resaltan la disponibilidad de jaulas acondicionadas para estancias de aves y la comodidad del local como punto de servicios cercano, con artículos variados y bien organizados.",
+        "en": "Shoppers appreciate the broad assortment of pet accessories, food, and supplies in the neighborhood. They highlight the availability of well-kept cages for bird boarding and the convenience of the store as an accessible local hub with well-stocked shelves for pet owners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Orientación clara sobre cada especie",
+        "en": "Clear advice on pet requirements"
+      },
+      "text": {
+        "es": "Las opiniones destacan la calidad de las explicaciones recibidas sobre necesidades específicas de animales como aves y reptiles. El equipo proporciona información práctica y detallada antes de adquirir productos o contratar servicios, facilitando decisiones seguras para cada familia.",
+        "en": "Reviews emphasize the quality of advice received regarding specific needs of animals such as birds and reptiles. The team shares practical and detailed information before customers select supplies or boarding options, helping pet owners make sound choices with confidence."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Ofrece Món Animal servicio de guardería para aves?",
+        "en": "Does Món Animal offer bird boarding services?"
+      },
+      "a": {
+        "es": "Sí, el establecimiento dispone de servicio de cuidado temporal para aves como agapornis durante estancias vacacionales.",
+        "en": "Yes, the store provides temporary boarding care for birds such as lovebirds during holiday stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dispone la tienda de asesoramiento sobre animales exóticos?",
+        "en": "Does the store offer guidance on exotic pets?"
+      },
+      "a": {
+        "es": "Sí, el equipo ofrece información y orientación sobre alimentación y cuidados para reptiles y pequeños animales.",
+        "en": "Yes, the team provides information and guidance on feeding and care requirements for reptiles and small pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué horario de apertura tiene el establecimiento en la Foneria?",
+        "en": "What are the opening hours of the store on Carrer de la Foneria?"
+      },
+      "a": {
+        "es": "La tienda abre de lunes a viernes de 09:30 a 14:00 y de 17:00 a 20:30, y los sábados de 10:00 a 14:00.",
+        "en": "The shop is open Monday to Friday from 09:30 to 14:00 and 17:00 to 20:30, and Saturdays from 10:00 to 14:00."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
