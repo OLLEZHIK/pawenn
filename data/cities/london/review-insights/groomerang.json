@@ -1,0 +1,133 @@
+{
+  "slug": "groomerang",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Groomerang/data=!4m7!3m6!1s0x48761bc866b8297b:0xfe8e9903d7f7d812!8m2!3d51.5549745!4d-0.1560443!16s%2Fg%2F11pdw289xr!19sChIJeym4ZsgbdkgREtj31wOZjv4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Courteous and reliable mobile groomer"
+      },
+      "text": {
+        "en": "Dog owners praise Christina for her punctuality, warm demeanor, and dedicated customer care across North West London. Reviewers note that she arrives on schedule and takes time to greet each dog before beginning the session in her mobile grooming van. Clients consistently remark on her friendly communication and dependable doorstep service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Calm handling inside mobile van"
+      },
+      "text": {
+        "en": "Pet parents highlight the calm and stress-free grooming environment provided inside the equipped mobile van. Reviewers value being able to observe their dogs through the van window, which helps anxious pets remain relaxed during bathing and blow-drying. Owners of small breeds and rescue dogs note how gently and patiently their pets are treated throughout each visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Skillful styling and breed trims"
+      },
+      "text": {
+        "en": "Clients describe high quality styling outcomes, specifically praising tidy scissor work on Pomeranians and neat full grooms on varied dog breeds. Owners note that coats look smooth, evenly shaped, and delightfully fresh after treatments. Several pet parents remark that their dogs received some of the neatest haircuts they have ever seen."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the Groomerang mobile grooming service operate?"
+      },
+      "a": {
+        "en": "The groomer arrives at the client's home in a fully equipped mobile grooming van to complete bathing, drying, and haircuts right outside the door."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can owners watch their dog being groomed in the van?"
+      },
+      "a": {
+        "en": "Yes, clients mention that observing their pet through the van window helped reassure anxious dogs during grooming and washing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Groomerang accommodate breed-specific tidy trims?"
+      },
+      "a": {
+        "en": "Yes, reviews highlight skilled scissor tidying for Pomeranians and careful breed-appropriate styling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the mobile grooming experience suitable for nervous dogs?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate the one-on-one attention and gentle approach, noting that it minimizes grooming stress for anxious dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
