@@ -1,0 +1,139 @@
+{
+  "slug": "the-groom-room-selly-oak",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Groom+Room+Selly+Oak/data=!4m7!3m6!1s0x4870bdd01f11ff97:0x618e65e9e6f3c4f!8m2!3d52.4423095!4d-1.9391416!16s%2Fg%2F11f04dpj2h!19sChIJl_8RH9C9cEgRTzxvnl7mGAY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Frequent short-notice appointment cancellations"
+      },
+      "text": {
+        "en": "Multiple reviewers express intense frustration over repeated booking cancellations made by text message or upon arrival at the salon. Several customers report having consecutive appointments called off, sometimes on the day of the booking. Pet owners note lengthy delays of several months when trying to reschedule full grooming slots."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Difficult phone contact and notifications"
+      },
+      "text": {
+        "en": "Clients highlight major challenges when attempting to reach the salon by phone, reporting unanswered calls and unreturned voicemail messages. Several visitors describe arriving for booked slots only to find the grooming room unstaffed without prior warning. Reviewers also mention prolonged waits when requesting refunds for prepaid deposits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Customer service and staffing issues"
+      },
+      "text": {
+        "en": "While an occasional reviewer notes polite counter staff within the shared Pets at Home store, most recent feedback criticises customer handling. Reviewers describe salon staff as unhelpful when informing owners about cancellations caused by groomer departures. Customers voice disappointment at the lack of proactive solutions or apologies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is The Groom Room Selly Oak located?"
+      },
+      "a": {
+        "en": "The salon is situated inside the Pets at Home store at Battery Retail Park in Selly Oak, Birmingham."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How reliable are bookings at this salon according to recent reviews?"
+      },
+      "a": {
+        "en": "Recent reviewers frequently report repeated cancellations and recommend calling ahead to confirm that a groomer is on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How can customers contact the grooming team directly?"
+      },
+      "a": {
+        "en": "Clients can call the store phone number or book online, though reviewers report that phone enquiries are often unanswered."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What should customers do if their appointment is cancelled?"
+      },
+      "a": {
+        "en": "Reviewers advise contacting customer support promptly to arrange a rescheduled date or request a deposit refund."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

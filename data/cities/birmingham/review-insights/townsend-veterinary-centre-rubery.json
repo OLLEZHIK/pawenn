@@ -1,0 +1,79 @@
+{
+  "slug": "townsend-veterinary-centre-rubery",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Townsend+Veterinary+Centre+-+Rubery/data=!4m7!3m6!1s0x487095ac6c893c51:0x5fdd34ab1f5d2c7d!8m2!3d52.3927626!4d-2.0217096!16s%2Fg%2F1tfpj7q6!19sChIJUTyJbKyVcEgRfSxdH6s03V8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Critical reviews concerning reception interactions"
+      },
+      "text": {
+        "en": "Recent reviewers express dissatisfaction with front-desk interactions at the Rubery branch, describing communication as dismissive during difficult moments. A client noted reluctance to assist when discussing benefit assistance, while another recounted being asked to wait outside in cold weather. Visitors report feeling unwelcome during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Townsend Veterinary Centre in Rubery located?"
+      },
+      "a": {
+        "en": "The clinic is located on New Road in Rubery, Birmingham, offering local veterinary consultations and care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What concerns do recent client reviews highlight?"
+      },
+      "a": {
+        "en": "Recent feedback focuses on reception communication and waiting arrangements, with several visitors expressing disappointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How can pet owners arrange an appointment?"
+      },
+      "a": {
+        "en": "Pet owners can contact the surgery by telephone to schedule consultations, health checks, and routine treatments."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
