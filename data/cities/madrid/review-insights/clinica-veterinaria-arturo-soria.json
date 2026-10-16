@@ -1,0 +1,135 @@
+{
+  "slug": "clinica-veterinaria-arturo-soria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Arturo+Soria/data=!4m7!3m6!1s0xd422ed0ca924f99:0x69f3e24efeec6c24!8m2!3d40.4603159!4d-3.6534141!16s%2Fg%2F1tdc6jt9!19sChIJmU-SytAuQg0RJGzs_k7i82k?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Equipo profesional con opiniones encontradas",
+        "en": "Professional team with contrasting opinions"
+      },
+      "text": {
+        "es": "La mayoría de clientes valora la dedicación y experiencia de los veterinarios habituales, destacando la empatía de doctores como Alberto y María en tratamientos prolongados. En contraposición, alguna experiencia reciente critica la atención en recepción ante situaciones urgentes, señalando falta de flexibilidad o criterio.",
+        "en": "Most clients value the dedication and expertise of the regular veterinarians, highlighting the empathy of doctors like Alberto and María during long-term treatments. In contrast, a recent review criticizes front-desk handling during emergencies, pointing to a perceived lack of flexibility or triage assessment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Claridad médica y dudas en urgencias",
+        "en": "Medical clarity and emergency concerns"
+      },
+      "text": {
+        "es": "Varios dueños agradecen que los veterinarios expliquen con detalle los diagnósticos y resuelvan dudas de forma cercana durante las consultas programadas. No obstante, se señala la necesidad de clarificar mejor la disponibilidad real del servicio de urgencias para evitar confusiones a quienes buscan asistencia inmediata.",
+        "en": "Several pet guardians appreciate veterinarians explaining diagnoses thoroughly and answering questions helpfully during scheduled consultations. However, feedback highlights the need for clearer communication regarding actual emergency availability to prevent misunderstandings when owners seek immediate attention."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Seguimiento eficaz en terapias veterinarias",
+        "en": "Effective follow-up in veterinary therapies"
+      },
+      "text": {
+        "es": "Los usuarios reportan resultados satisfactorios en procesos de rehabilitación y cuidados geriátricos, logrando mejoras evidentes en la calidad de vida de sus mascotas. Quienes acuden desde hace años confían en la eficacia de los tratamientos prescritos y en el acompañamiento respetuoso del equipo en momentos difíciles.",
+        "en": "Clients report satisfactory outcomes in rehabilitation therapies and geriatric care, achieving noticeable improvements in their pets' well-being. Long-time visitors trust the effectiveness of prescribed treatments and commend the team's compassionate guidance during challenging or palliative circumstances."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Dispone la clínica de servicio de urgencias presenciales 24 horas?",
+        "en": "Does the clinic offer 24-hour on-site emergency services?"
+      },
+      "a": {
+        "es": "No cuenta con hospitalización intensiva continua; los clientes señalan que para urgencias críticas sin cita previa es conveniente confirmar o acudir a un hospital veterinario.",
+        "en": "It does not provide continuous intensive hospital care; clients note that calling ahead or visiting a 24-hour animal hospital is best for critical walk-in emergencies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen tratamientos de rehabilitación para mascotas?",
+        "en": "Do they offer rehabilitation treatments for pets?"
+      },
+      "a": {
+        "es": "Sí, proporcionan sesiones y seguimiento en rehabilitación motora con valoraciones muy positivas de los propietarios.",
+        "en": "Yes, they offer specialized physical therapy and mobility rehabilitation sessions with very favorable client feedback."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo valoran los clientes los precios de las consultas?",
+        "en": "How do clients evaluate consultation prices?"
+      },
+      "a": {
+        "es": "Los usuarios consideran que las tarifas se mantienen dentro del promedio habitual de las clínicas veterinarias de la zona, acordes al servicio recibido.",
+        "en": "Owners consider fees to align with average market rates for veterinary clinics in the area, matching the standard of care provided."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

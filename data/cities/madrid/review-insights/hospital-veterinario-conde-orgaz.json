@@ -1,0 +1,207 @@
+{
+  "slug": "hospital-veterinario-conde-orgaz",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+Veterinario+Conde+Orgaz/data=!4m7!3m6!1s0xd422f9649b76feb:0x34ae7c08447e9d45!8m2!3d40.4604066!4d-3.6302587!16s%2Fg%2F11f6d2j43l!19sChIJ62-3SZYvQg0RRZ1-RAh8rjQ?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "es": "Equipo veterinario con valoraciones divididas",
+        "en": "Veterinary team with divided ratings"
+      },
+      "text": {
+        "es": "Diversos clientes habituales agradecen el trato dedicado y la profesionalidad de veterinarias como Almudena o Marta en consultas y revisiones. En contraposición, varias reseñas denuncian desatención en trámites internacionales y trato displicente de la dirección.",
+        "en": "Several regular clients warmly commend the dedicated bedside manner and competence of vets such as Almudena and Marta during consultations. In sharp contrast, other reviewers report severe dissatisfaction with international pet travel guidance and management demeanor."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Cirugías exitosas y complicaciones postoperatorias",
+        "en": "Successful surgeries and postoperative concerns"
+      },
+      "text": {
+        "es": "En el aspecto clínico se relatan intervenciones complejas con desenlace favorable, como la extracción de cuerpos extraños o manejo de leishmaniosis. Sin embargo, otros tutores lamentan heridas mal vendadas tras accidentes o diagnósticos erróneos en casos digestivos.",
+        "en": "On the clinical side, positive reviews report successful complex procedures including intestinal foreign body removals and leishmaniasis therapy. Conversely, critical accounts describe improperly bandaged wounds following injuries and contested digestive diagnoses."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Tarifas elevadas y costes imprevistos",
+        "en": "High fees and unforeseen charges"
+      },
+      "text": {
+        "es": "Las críticas sobre las tarifas son frecuentes, señalando presupuestos elevados en trámites de viaje, estancias de cuarentena vinculadas a aduanas y pruebas diagnósticas. Varios usuarios consideran que los importes facturados resultan excesivos frente a otras opciones.",
+        "en": "Price-related criticism is common, highlighting hefty fees for international travel documentation, airport customs quarantine holds, and diagnostic tests. Several pet guardians express frustration over elevated invoices that they found higher than expected elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Gestionan pasaportes y trámites para viajar al extranjero?",
+        "en": "Do they handle passports and foreign travel paperwork?"
+      },
+      "a": {
+        "es": "Sí, aunque varios usuarios aconsejan revisar con mucha antelación los requisitos del país de destino para evitar retrasos.",
+        "en": "Yes, although multiple reviewers advise verifying destination country requirements well ahead of time to avoid travel issues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de servicio de urgencias veterinarias?",
+        "en": "Do they provide veterinary emergency care?"
+      },
+      "a": {
+        "es": "Sí, cuentan con atención veterinaria y resolución de cirugías de urgencia.",
+        "en": "Yes, the clinic handles urgent medical consultations and emergency surgical interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Tienen servicio de dermatología veterinaria?",
+        "en": "Do they offer veterinary dermatology appointments?"
+      },
+      "a": {
+        "es": "Sí, ofrecen consultas especializadas en dermatología para el cuidado de la piel y pelaje de mascotas.",
+        "en": "Yes, specialized dermatology consultations are available for addressing skin and coat conditions in pets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "prices": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

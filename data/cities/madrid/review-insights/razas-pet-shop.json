@@ -1,0 +1,153 @@
+{
+  "slug": "razas-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Razas+Pet+Shop+-+Tienda+de+mascotas+y+peluquer%C3%ADa+canina/data=!4m7!3m6!1s0xd42288002bb0d7b:0xd8cb6c52a3f81e14!8m2!3d40.4398188!4d-3.6985062!16s%2Fg%2F1tf7r11f!19sChIJew27AoAoQg0RFB74o1Jsy9g?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Atención amable y disposición del equipo",
+        "en": "Friendly service and attentive store staff"
+      },
+      "text": {
+        "es": "La mayoría de clientes valora la simpatía, disposición y cercanía del personal de la tienda, destacando la amabilidad con la que atienden consultas y ayudan a encontrar productos. Varios comentarios elogian la actitud proactiva de dependientes como Alex, que intentan resolver imprevistos y asesorar a los tutores con entusiasmo y cortesía en Chamberí.",
+        "en": "Most shoppers praise the friendliness, helpful attitude, and attentive care provided by the store team, noting their eagerness to assist with product inquiries. Multiple reviews highlight the proactive approach of staff members like Alex, who strive to resolve customer requests and offer dedicated advice with warmth and courtesy in the neighborhood."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Variedad de surtido con horarios discrepantes",
+        "en": "Broad product range with schedule discrepancies"
+      },
+      "text": {
+        "es": "Los usuarios aprecian la amplia oferta en alimentación para mascotas, incluyendo dietas naturales y comida cruda, además de la rapidez para encargar artículos que no están en stock. Sin embargo, algunas reseñas negativas señalan molestias al encontrar el local cerrado antes de la hora anunciada o falta de disponibilidad de ciertos productos para roedores.",
+        "en": "Customers appreciate the extensive selection of pet foods, including raw feeding diets, alongside the fast turnaround when ordering out-of-stock items. Nevertheless, negative feedback highlights frustration when finding the shop closed before the posted weekday closing hour or encountering limited inventory for specific small pet supplies in store."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Buenos resultados en peluquería y baño",
+        "en": "Satisfactory bathing and grooming outcomes"
+      },
+      "text": {
+        "es": "Quienes han utilizado el servicio de peluquería canina expresan gran satisfacción con la calidad del corte y el aseo, describiendo baños impecables y un aspecto excelente en sus mascotas tras la sesión. Los clientes valoran la comodidad de disponer de cuidados estéticos y tienda de alimentación en un mismo establecimiento cercano en el distrito.",
+        "en": "Clients who have utilized the canine grooming service report high satisfaction with haircut quality and washing, describing clean, well-groomed dogs that leave looking great. Pet owners appreciate the convenience of combining professional aesthetic care and specialty nutritional supplies within a single local shop in the Chamberí neighborhood."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Tienen alimentos naturales y dietas BARF para mascotas?",
+        "en": "Do they stock natural pet food and raw BARF diets?"
+      },
+      "a": {
+        "es": "Sí, cuentan con opciones de alimentación natural y comida congelada para perros y gatos en su catálogo.",
+        "en": "Yes, they stock natural nutrition choices and frozen raw meals for dogs and cats in their product catalog."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de servicio de peluquería canina en el local?",
+        "en": "Is professional dog grooming available in the store?"
+      },
+      "a": {
+        "es": "Sí, ofrecen baños y cortes de pelo caninos previa reserva de cita en sus instalaciones.",
+        "en": "Yes, they provide dog baths and haircuts by prior appointment within their dedicated grooming area."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Qué animales atienden en el servicio de peluquería?",
+        "en": "Which animals are accepted for grooming services?"
+      },
+      "a": {
+        "es": "El servicio de peluquería está enfocado principalmente a perros; conviene consultar antes si se requiere para otras mascotas.",
+        "en": "Grooming appointments primarily focus on dogs; clients should verify beforehand if requesting care for other pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~"
+      }
+    }
+  ]
+}

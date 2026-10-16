@@ -1,0 +1,135 @@
+{
+  "slug": "el-jardin-de-kika",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/El+Jard%C3%ADn+de+Kika/data=!4m7!3m6!1s0xd422862d201b363:0xfddd04f83bd67f82!8m2!3d40.4234452!4d-3.7046841!16s%2Fg%2F11_rhcbrv!19sChIJY7MB0mIoQg0Rgn_WO_gE3f0?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Atención amable y disposición servicial",
+        "en": "Helpful service and friendly store staff"
+      },
+      "text": {
+        "es": "Los clientes de la tienda en el distrito Centro destacan el trato cercano y la simpatía del personal, mencionando a Jose y Jesús por su buena disposición. Valoran la ayuda prestada tanto en la selección de productos como en gestiones auxiliares. Las visitas se describen como muy gratas gracias a la amabilidad del equipo.",
+        "en": "Customers visiting this pet shop in Centro highlight the warm and accommodating attitude of the staff, specifically naming Jose and Jesús for their helpfulness. They appreciate thoughtful assistance both when choosing pet products and using parcel pickup services. Friendly service makes each visit welcoming and straightforward."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Comercio céntrico y bien surtido",
+        "en": "Well-stocked shop in city centre"
+      },
+      "text": {
+        "es": "A pesar de tratarse de un local de dimensiones reducidas en la calle del Pez, los compradores señalan que dispone de un catálogo variado y de calidad para cubrir las necesidades de perros y gatos. Aprecian la comodidad de contar con una tienda de barrio bien abastecida de alimentos naturales y accesorios en pleno Madrid.",
+        "en": "Despite being a boutique storefront on Calle del Pez, shoppers note that the store maintains a diverse, high-grade catalog meeting the daily needs of cats and dogs. Local pet owners appreciate having an accessible neighborhood shop in central Madrid offering quality natural nutrition, accessories, and grooming options."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Snacks naturales y bienestar animal",
+        "en": "Natural snacks and pet wellness"
+      },
+      "text": {
+        "es": "Las reseñas valoran el cuidado hacia las mascotas, destacando detalles como el obsequio de golosinas naturales que encantan a los perros de los clientes. Los compradores aprecian la variedad de mordedores y piensos saludables adaptados a cada animal. Este enfoque atento favorece la salud y la felicidad de los animales.",
+        "en": "Reviews appreciate the shop's attentive care for pets, highlighting thoughtful details such as complimentary natural treats that dogs love. Customers value the selection of healthy chew items, natural feeds, and grooming attention provided. This animal-centered focus contributes to the overall well-being and joy of local pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Disponen de alimentación natural y snacks saludables?",
+        "en": "Do they stock natural pet foods and healthy treats?"
+      },
+      "a": {
+        "es": "Sí, cuentan con opciones de nutrición natural, alimentos selectos y golosinas masticables para perros y gatos.",
+        "en": "Yes, they provide natural pet nutrition options, specialized diets, and natural chews for cats and dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de peluquería canina en la tienda?",
+        "en": "Do they provide dog grooming services on-site?"
+      },
+      "a": {
+        "es": "Sí, las reseñas de clientes confirman la presencia de servicio de peluquería canina en sus instalaciones.",
+        "en": "Yes, customer reviews mention dog grooming services available within the shop premises."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dónde se ubica el establecimiento en Madrid?",
+        "en": "Where is the shop located in Madrid?"
+      },
+      "a": {
+        "es": "Está situada en la calle del Pez, en el céntrico barrio de Malasaña en Madrid.",
+        "en": "The shop is located on Calle del Pez in the central Malasaña neighborhood of Madrid."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
