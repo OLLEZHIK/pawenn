@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "emancipet-adams-avenue-philadelphia",
+    "paws-spay-neuter-and-wellness-clinic-grays-ferry",
+    "love-city-vet-south-philly",
+    "rhawnhurst-animal-hospital",
+    "world-of-animals-at-mayfair",
+    "the-bridge-clinic-philadelphia",
+    "emancipet-roosevelt-boulevard-philadelphia",
+    "love-city-vet-northern-liberties",
+    "philadelphia-animal-hospital",
+    "companion-pet-hospital-philadelphia"
+  ],
+  "hash": "30b053264392efc5d0b754827b693b28fd902579c654411d0396de052b8b9a51",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T19:46:40.884Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-16T19:51:57.717Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
