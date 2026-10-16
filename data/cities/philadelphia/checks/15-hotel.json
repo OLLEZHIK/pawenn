@@ -1,0 +1,31 @@
+{
+  "chunk": "15-hotel",
+  "kind": "places",
+  "slugs": [
+    "z-dog-daycare",
+    "philadelphia-pet-hotel-villas",
+    "wag-days-pet-resort",
+    "scallywags-dog-daycare",
+    "dog-dayzzz-daycare",
+    "little-white-dog-doggie-daycare"
+  ],
+  "hash": "626c366fbd7d9626050c05d96379f851efad08b169f2237ea7350fca04e9e34f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:16:05.622Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-16T22:20:35.898Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:24:17.454Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
