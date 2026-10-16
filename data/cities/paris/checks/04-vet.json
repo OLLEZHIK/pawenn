@@ -4,16 +4,12 @@
   "slugs": [
     "sevetys-picard-paris",
     "sevetys-bastille-paris",
-    "clinique-veterinaire-metivet",
     "sevetys-pasteur-paris",
-    "clinique-veterinaire-saint-paul-paris",
     "vetinparis-chemin-vert-paris",
-    "clinique-veterinaire-bastille-republique-dr-zakine-frederic",
     "sevetys-monge-paris",
-    "alizee-vet-paris-14",
-    "clinique-veterinaire-paris-5-dr-littner"
+    "alizee-vet-paris-14"
   ],
-  "hash": "c1fd2042f1480f473adc759aee4b50bff1331e26ce8b03b77867614c3c57877a",
+  "hash": "f34076f5617975346861bdce8d335cf42ae7ebb7799479c83f94cc33c85ffd39",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +24,11 @@
     },
     {
       "at": "2026-10-11T17:02:44.939Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:53:28.701Z",
       "result": "PASS",
       "listed": 0
     }
