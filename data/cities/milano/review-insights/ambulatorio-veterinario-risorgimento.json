@@ -1,0 +1,154 @@
+{
+  "slug": "ambulatorio-veterinario-risorgimento",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ambulatorio+Veterinario+Risorgimento/data=!4m7!3m6!1s0x4786c697b45da153:0x1ecabc97cc28a67!8m2!3d45.4692601!4d9.207621!16s%2Fg%2F1tfzl6j9!19sChIJU6FdtJfGhkcRZ4rCfMmr7AE?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Dedizione, competenza e risposte tempestive",
+        "en": "Dedication, expertise and prompt responses"
+      },
+      "text": {
+        "it": "La squadra medica viene descritta come un autentico punto di riferimento per precisione clinica e disponibilità. I clienti lodano la capacità dei veterinari di ascoltare con attenzione, educare i proprietari alla prevenzione e fornire riscontri tempestivi in ogni circostanza.",
+        "en": "The veterinary team is widely described as a dependable anchor for clinical precision and personal warmth. Clients commend the doctors' attentiveness, their focus on owner education and preventative care, and their prompt responsiveness in addressing ongoing pet health needs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Terapie avanzate con esiti variegati",
+        "en": "Advanced treatments with varied outcomes"
+      },
+      "text": {
+        "it": "Alcuni proprietari segnalano trattamenti innovativi efficaci, come la rigenerazione tissutale con PRP per la guarigione di otoematomi. Tuttavia, una recensione critica evidenzia delusione per l'esito estetico della cartilagine auricolare rimasta deformata dopo la terapia.",
+        "en": "Several clients report successful advanced therapies, such as PRP tissue regeneration to heal ear hematomas in dogs. However, an isolated critical review expresses disappointment with the aesthetic outcome, noting that the ear cartilage remained curled and shortened after treatment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Accoglienza rassicurante per gli animali",
+        "en": "Reassuring environment for household pets"
+      },
+      "text": {
+        "it": "I clienti definiscono la clinica un porto sicuro per cani e gatti, sottolineando l'empatia e la premura mostrate verso ogni animale visitato. L'approccio calmo dei dottori aiuta a ridurre le tensioni dei pazienti anche durante trattamenti complessi o visite di controllo.",
+        "en": "Clients describe the practice as a safe haven for dogs and cats, highlighting the empathy and attentive consideration given to each animal. The doctors' gentle approach helps alleviate stress for pets, creating a calm setting even during involved procedures and follow-up visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica applica trattamenti innovativi come il PRP?",
+        "en": "Does the clinic perform specialized treatments like PRP?"
+      },
+      "a": {
+        "it": "Sì, le recensioni confermano l'utilizzo di terapie con plasma ricco di piastrine (PRP) per il recupero di lesioni e otoematomi.",
+        "en": "Yes, reviews confirm the use of platelet-rich plasma (PRP) therapies for managing soft-tissue healing and ear hematomas."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali percorsi di medicina preventiva vengono offerti?",
+        "en": "What preventative veterinary programs are offered?"
+      },
+      "a": {
+        "it": "L'ambulatorio propone piani vaccinali personalizzati, profilassi antiparassitaria e screening sanitari periodici per cani e gatti.",
+        "en": "The clinic provides tailored vaccination schedules, parasite prevention, and routine wellness screenings for dogs and cats."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata la disponibilità del personale medico?",
+        "en": "How accessible is the medical team for pet owners?"
+      },
+      "a": {
+        "it": "I clienti e la struttura confermano una reperibilità costante, con risposte rapide e un dialogo continuativo sulla salute dell'animale.",
+        "en": "Clients and the clinic confirm consistent responsiveness, offering quick communication and thorough updates on pet recovery."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    }
+  ]
+}
