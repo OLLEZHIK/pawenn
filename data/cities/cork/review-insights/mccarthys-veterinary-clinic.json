@@ -1,0 +1,99 @@
+{
+  "slug": "mccarthys-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/McCarthy%27s+Veterinary+Clinic/data=!4m7!3m6!1s0x484456eabc5887f5:0x8d69a24091a402fc!8m2!3d51.6228609!4d-8.8947985!16s%2Fg%2F1q62g1dx2!19sChIJ9YdYvOpWREgR_AKkkUCiaY0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Warm and knowledgeable veterinary staff"
+      },
+      "text": {
+        "en": "Pet owners commend the veterinary team for their warm, understanding, and attentive approach during examinations. Reviewers note that the vets ask thorough questions about pet symptoms and explain potential treatment options clearly. Clients consistently describe the staff as helpful, compassionate, and trustworthy."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Efficient consultations and weekend booking"
+      },
+      "text": {
+        "en": "Clients appreciate the clinic's efficient scheduling, specifically noting the convenience of booking weekend checkups for cats and dogs. Reviewers describe consultations as prompt, efficient, and well-organized, minimizing unnecessary waiting times. Pet parents value receiving quick, dependable veterinary attention when needed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are weekend appointments available at McCarthy's Veterinary Clinic?"
+      },
+      "a": {
+        "en": "Yes, pet owners appreciate being able to schedule checkups on weekends for routine and urgent pet care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the consultation and examination process?"
+      },
+      "a": {
+        "en": "Reviewers note that examinations are thorough, with vets checking vital signs and asking detailed questions before recommending treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the general customer feedback regarding the clinic staff?"
+      },
+      "a": {
+        "en": "Clients consistently praise the team for being warm, caring, quick, and helpful during clinic visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic care for cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention bringing cats in for comprehensive checkups and health examinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
