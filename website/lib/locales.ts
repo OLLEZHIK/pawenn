@@ -37,6 +37,8 @@ export const COUNTRY_LANGUAGE: Record<string, Locale[]> = {
   FR: ["fr"],
   IT: ["it"],
   ES: ["es"],
+  GB: ["en"],
+  IE: ["en"],
 };
 
 /**

@@ -1,0 +1,151 @@
+{
+  "slug": "c-c-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/C.C.+Veterin%C3%A0ria/data=!4m7!3m6!1s0x12a4bd40154b687f:0xcb3ca8f0c19c5399!8m2!3d41.4398659!4d2.1636135!16s%2Fg%2F1tfjbpxz!19sChIJf2hLFUC9pBIRmVOcwfCoPMs?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Vocación veterinaria con alguna queja",
+        "en": "Veterinary dedication alongside client complaints"
+      },
+      "text": {
+        "es": "La doctora Cristina y el equipo reciben elogios por su entrega, empatía y trato afectuoso hacia las mascotas enfermas. Pese a ello, un cliente descontento denuncia falta de sensibilidad en el área de peluquería con un perro mayor que requería cuidados especiales.",
+        "en": "Dr. Cristina and her team receive widespread praise for their clinical commitment, empathy, and affectionate support for ailing pets. Nevertheless, a dissatisfied visitor reported insensitive handling in the grooming section with an elderly dog requiring gentle patience."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Cuidado animal en situaciones delicadas",
+        "en": "Animal care in sensitive situations"
+      },
+      "text": {
+        "es": "Muchos dueños agradecen la ternura y dedicación demostrada al atender gatos accidentados y perros ancianos con enfermedades graves. Sin embargo, una reseña crítica reprocha falta de paciencia durante el aseo de un animal artrítico que se encontraba muy agitado.",
+        "en": "Many pet owners appreciate the gentle devotion shown when attending injured cats and senior dogs undergoing long-term medical care. However, one critical review criticizes a lack of consideration during the bath of an arthritic dog that was experiencing severe distress."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Disconformidad con tarifas y presupuestos",
+        "en": "Disagreement regarding fees and billing"
+      },
+      "text": {
+        "es": "Aunque algún cliente menciona precios asequibles en consultas imprevistas, predominan quejas sobre costes adicionales y falta de claridad en las facturas. Varios usuarios expresan desacuerdo con suplementos inesperados y criterios de rentabilidad económica.",
+        "en": "While an occasional customer notes affordable rates during urgent visits, negative reviews center on surprise fees and opaque billing. Dissatisfied owners express frustration with unexpected treatment surcharges and commercial profitability taking precedence over care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cuentan con servicio de peluquería en la clínica?",
+        "en": "Do they provide pet grooming inside the veterinary clinic?"
+      },
+      "a": {
+        "es": "Sí, el centro dispone de servicio de peluquería canina integrado con la atención veterinaria de la clínica.",
+        "en": "Yes, the facility includes an on-site dog grooming department operating alongside veterinary medical care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Atienden urgencias felinas sin cita previa?",
+        "en": "Do they assist feline emergencies without a prior appointment?"
+      },
+      "a": {
+        "es": "Las opiniones destacan que han atendido de inmediato a gatos caídos de balcones haciendo hueco entre citas programadas.",
+        "en": "Customer reviews note that cats injured from balcony falls were accepted immediately between scheduled appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen acompañamiento en tratamientos oncológicos y paliativos?",
+        "en": "Do they provide supportive oncology and palliative care?"
+      },
+      "a": {
+        "es": "Sí, los clientes valoran el acompañamiento cercano y la prescripción de suplementos en animales con patologías crónicas o terminales.",
+        "en": "Yes, clients commend the empathetic guidance and tailored supplements provided for pets facing chronic or terminal conditions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

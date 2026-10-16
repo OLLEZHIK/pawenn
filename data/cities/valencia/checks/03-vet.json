@@ -1,0 +1,45 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "vetnatura-centro-veterinario",
+    "veterinarios-planet-especialistas",
+    "clinica-veterinaria-alguer",
+    "clinica-veterinaria-gaspar-aguilar",
+    "clinica-veterinaria-montero-medone",
+    "clinica-veterinaria-nido",
+    "camoix-clinica-veterinaria",
+    "clinica-veterinaria-en-ciutat-vella-gastaldi",
+    "clinica-veterinaria-monteolivete",
+    "policlinica-veterinaria-avenida-del-puerto"
+  ],
+  "hash": "dd1c208aa2434d639536db5cdef7249831f3da175dd5ec0183a5ff213290e83f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T23:31:29.579Z",
+      "result": "FAIL",
+      "listed": 72
+    },
+    {
+      "at": "2026-10-15T23:37:10.738Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-15T23:40:40.655Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-15T23:43:59.043Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T23:45:13.148Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
