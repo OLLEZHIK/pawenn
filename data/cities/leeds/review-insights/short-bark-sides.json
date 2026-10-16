@@ -1,0 +1,124 @@
+{
+  "slug": "short-bark-sides",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Short+Bark+%26+Sides/data=!4m7!3m6!1s0x48795b92e046cf0d:0xaf4c0a2a8afddac8!8m2!3d53.8278567!4d-1.5658712!16s%2Fg%2F1tffj8wv!19sChIJDc9G4JJbeUgRyNr9iioKTK8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical feedback concerning salon professionalism"
+      },
+      "text": {
+        "en": "Recent reviews reflect substantial dissatisfaction with salon service and staff conduct. Multiple customers report sudden appointment cancellations, poor dispute handling, and feeling let down, although one client praised a groomer for dedicated breed-specific styling."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Booking discrepancies and dispute handling"
+      },
+      "text": {
+        "en": "Communication is a primary source of complaint among recent visitors. Pet parents describe unexpected cancellations with twenty-four hours notice due to double-booking, as well as contentious disputes over online statements and appointment confirmation records."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Sharp division over grooming outcomes"
+      },
+      "text": {
+        "en": "While one pet owner reported an outstanding hand-stripping result for a Border Terrier, other recent reviewers strongly advise against using the service. Complaints cite unsatisfactory outcomes, severe handling concerns, and distress caused to companion dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the salon offer hand stripping for terriers?"
+      },
+      "a": {
+        "en": "Yes, a reviewer specifically noted a positive hand-stripping service for a Border Terrier."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What concerns do reviewers raise regarding bookings?"
+      },
+      "a": {
+        "en": "Multiple reviewers criticize last-minute cancellations, scheduling conflicts, and poor communication around appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do recent clients rate the salon overall?"
+      },
+      "a": {
+        "en": "Recent reviews over the past six months are predominantly critical, advising caution due to customer service issues and reported pet handling incidents."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
