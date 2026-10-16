@@ -1,0 +1,133 @@
+{
+  "slug": "ardmory-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ardmory+Veterinary+Clinic/data=!4m7!3m6!1s0x488846d9f4c5e5d5:0xa37d2b2eaf7c3f63!8m2!3d55.8240134!4d-4.2341315!16s%2Fg%2F1tggn6wy!19sChIJ1eXF9NlGiEgRYz98ry4rfaM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated and welcoming veterinary team"
+      },
+      "text": {
+        "en": "Clients warmly praise the staff and clinicians at Ardmory Veterinary Clinic for their dedication and helpful approach. Reviewers note that vets such as Michael and Alan demonstrate deep knowledge and genuine commitment to their patients. Longstanding clients who have visited the practice for over fifteen years highlight the team reliable guidance and friendly atmosphere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle and compassionate pet care"
+      },
+      "text": {
+        "en": "Pet owners appreciate how tenderly and attentively their animals are treated during clinical examinations and preventative visits. Clients bringing in young kittens for vaccinations describe the veterinarians as calm and gentle, ensuring pets feel safe and comfortable. Multiple reviewers emphasize that their dogs and cats receive compassionate care during every visit."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful advice and approachable communication"
+      },
+      "text": {
+        "en": "Reviewers highlight the clear and approachable communication from both veterinary surgeons and reception staff. Pet owners note that clinicians listen attentively to their questions and provide knowledgeable guidance regarding ongoing pet healthcare. Clients frequently describe the clinic atmosphere as friendly, professional, and thoroughly reassuring."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the pricing at Ardmory Veterinary Clinic?"
+      },
+      "a": {
+        "en": "Pet owners mention that the fees are fair and reasonable compared to other Glasgow clinics, offering good value for routine treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Which veterinarians are frequently mentioned by clients?"
+      },
+      "a": {
+        "en": "Reviewers specifically highlight Dr Michael and Dr Alan for their knowledgeable guidance and compassionate approach."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Ardmory Veterinary Clinic accept card payments?"
+      },
+      "a": {
+        "en": "Yes, the practice accepts debit and credit card payments for consultations and treatments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are appointments required to visit Ardmory Veterinary Clinic?"
+      },
+      "a": {
+        "en": "Yes, the practice operates by appointment to manage client visits and provide attentive consultations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
