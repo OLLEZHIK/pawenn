@@ -1,0 +1,140 @@
+{
+  "slug": "clinique-veterinaire-ouest-my-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+Ouest+My+Vet/data=!4m7!3m6!1s0x47e6656d1c68e0a1:0xd7fbdba8544b4301!8m2!3d48.8782481!4d2.2877462!16s%2Fg%2F1hc25t04v!19sChIJoeBoHG1l5kcRAUNLVKjb-9c?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Équipe soignante dévouée et disponible",
+        "en": "Dedicated and welcoming clinical team"
+      },
+      "text": {
+        "fr": "Les propriétaires mettent en avant la gentillesse et le dévouement de l'équipe vétérinaire de la place Saint-Ferdinand. Les vétérinaires et les assistants sont décrits comme attentifs, rassurants et capables d'accompagner les familles avec compassion, y compris en anglais pour les formalités de voyage, même si un retour isolé regrette une communication plus distante lors d'une aggravation.",
+        "en": "Pet owners commend the kindness and dedication of the veterinary staff at Place Saint-Ferdinand. Doctors and assistants are described as welcoming, attentive, and comforting during challenging times. International visitors also appreciate assistance in English for relocation steps, although an isolated review notes a colder interaction during a critical medical situation."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Approche et soins des animaux",
+        "en": "Handling and care of animals"
+      },
+      "text": {
+        "fr": "La majorité des retours souligne la douceur des praticiens avec les chiens anxieux et leur engagement auprès des animaux secourus ou adoptés. Les vétérinaires prennent le temps d'apaiser les animaux nerveux lors des visites. Néanmoins, un avis critique fait part d'une prise en charge inadaptée face à la dégradation rapide de l'état de santé d'un félin.",
+        "en": "Most reviews emphasize the gentle approach shown towards anxious dogs and highlight the staff's dedication to adopted and rescue animals. The vets take care to handle nervous companions calmly during appointments. However, one critical feedback notes concern over treatment appropriateness when a cat's condition worsened significantly."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fr": "Efficacité des protocoles de soins",
+        "en": "Treatment results and clinical efficacy"
+      },
+      "text": {
+        "fr": "Les clients fidèles témoignent d'excellents résultats médicaux sur le long terme pour des pathologies lourdes chez les chiens et chats soignés à la clinique. Les soins courants et le suivi régulier sont largement reconnus. En contrepartie, un maître déplore un diagnostic tardif et une absence d'amélioration pour son compagnon, nécessitant un transfert d'urgence.",
+        "en": "Long-standing clients report excellent long-term treatment outcomes for various serious illnesses in dogs and cats treated at the clinic. Routine veterinary care and medical protocols are generally praised. Conversely, one pet parent experienced an unsatisfactory clinical response when a cat deteriorated, prompting an emergency transfer to another facility."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Est-il possible d'échanger en anglais à la clinique Ouest My Vet ?",
+        "en": "Can clients be assisted in English at the Ouest My Vet clinic?"
+      },
+      "a": {
+        "fr": "Oui, des clients rapportent avoir reçu des conseils et une assistance en anglais, notamment pour des démarches de voyage.",
+        "en": "Yes, client reviews note that staff provided helpful advice and support in English, particularly for pet travel formalities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment sont organisées les urgences vétérinaires la nuit ou le week-end ?",
+        "en": "How are out-of-hours emergencies handled by the clinic?"
+      },
+      "a": {
+        "fr": "En dehors des horaires d'ouverture, les urgences nocturnes et dominicales sont assurées par le service V2TU Paris.",
+        "en": "Outside regular hours, night and weekend emergencies are handled by the V2TU Paris emergency service."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "L'équipe prend-elle en charge les animaux anxieux ou difficiles ?",
+        "en": "Does the team accommodate nervous or difficult pets?"
+      },
+      "a": {
+        "fr": "Oui, les retours confirment une approche bienveillante et adaptée pour rassurer les chiens très anxieux lors des examens.",
+        "en": "Yes, reviews confirm a patient and gentle approach when handling anxious dogs during consultations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

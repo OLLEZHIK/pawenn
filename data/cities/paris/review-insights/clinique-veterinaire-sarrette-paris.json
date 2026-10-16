@@ -1,0 +1,177 @@
+{
+  "slug": "clinique-veterinaire-sarrette-paris",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+Sarrette/data=!4m7!3m6!1s0x47e671afb7f37ebb:0x76b4865b32daa9b4!8m2!3d48.8250008!4d2.3284366!16s%2Fg%2F1tjdl1v1!19sChIJu37zt69x5kcRtKnaMluGtHY?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "fr": "Équipe soignante bienveillante et disponible",
+        "en": "Compassionate and supportive veterinary staff"
+      },
+      "text": {
+        "fr": "Les clients de la clinique de la rue Sarrette expriment une vive reconnaissance envers l'équipe pour son humanité et son professionnalisme. Les praticiens sont décrits comme attentifs, patients et chaleureux, accompagnant avec délicatesse les familles lors des moments d'inquiétude, même si un avis note un manque de continuité entre vétérinaires lors de consultations successives.",
+        "en": "Clients of the Rue Sarrette clinic express sincere gratitude towards the staff for their empathy and dedicated approach. Practitioners are praised for being patient, kind, and attentive listeners, offering comforting guidance during stressful times, although one owner noted a lack of continuity across appointments due to seeing different doctors."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fr": "Prise en charge douce des animaux",
+        "en": "Gentle and considerate pet care"
+      },
+      "text": {
+        "fr": "Les maîtres soulignent la douceur et l'attention portées à leurs compagnons à quatre pattes lors des visites dans le 14ème arrondissement. Chiens et chats sont examinés avec patience et ménagement, ce qui permet de réduire le stress des animaux malades ou convalescents et d'instaurer un climat rassurant pour l'ensemble des soins vétérinaires.",
+        "en": "Pet owners commend the gentle and caring handling their furry companions receive at the 14th arrondissement clinic. Both dogs and cats are examined calmly and patiently, effectively minimizing stress for sick or recovering animals while establishing a reassuring atmosphere for all veterinary checks and clinical treatments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Traitements efficaces et diagnostics rapides",
+        "en": "Prompt diagnosis and effective treatments"
+      },
+      "text": {
+        "fr": "Les avis saluent la justesse des diagnostics posés et la grande efficacité des protocoles thérapeutiques mis en place par les docteurs. Plusieurs propriétaires rapportent le rétablissement complet de leur animal après une maladie sévère ou un accident soudain, soulignant la réactivité des praticiens et la qualité du suivi médical régulier.",
+        "en": "Reviewers praise the accuracy of diagnoses and the high effectiveness of treatment protocols established by the veterinary doctors. Several owners report their pets making a full recovery from severe illness or sudden injury, highlighting the practitioners' rapid response and the reliable ongoing medical oversight provided by the practice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique est-elle adaptée pour la prise en charge d'animaux en urgence ?",
+        "en": "Is the clinic equipped to handle unexpected animal accidents or emergencies?"
+      },
+      "a": {
+        "fr": "Oui, des avis rapportent une prise en charge rapide et un diagnostic efficace pour des animaux amenés suite à un accident.",
+        "en": "Yes, client reviews report prompt assistance and accurate diagnoses for pets brought in following sudden accidents."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment sont organisées les urgences en dehors des horaires d'ouverture ?",
+        "en": "How are emergencies handled outside normal clinic hours?"
+      },
+      "a": {
+        "fr": "Les urgences de nuit, du week-end et des jours fériés sont assurées par le service d'urgence V2TU Paris.",
+        "en": "Night, weekend, and public holiday emergencies are covered by the V2TU Paris veterinary emergency service."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle un suivi pour les animaux ayant des soucis de santé récurrents ?",
+        "en": "Does the clinic offer ongoing care for pets with chronic health issues?"
+      },
+      "a": {
+        "fr": "Oui, des propriétaires confirment un accompagnement régulier et attentif sur plusieurs années pour des maladies chroniques.",
+        "en": "Yes, owners confirm attentive and consistent long-term monitoring over several years for chronic conditions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
