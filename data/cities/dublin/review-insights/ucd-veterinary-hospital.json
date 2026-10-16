@@ -1,0 +1,145 @@
+{
+  "slug": "ucd-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/UCD+Veterinary+Hospital/data=!4m7!3m6!1s0x4867093300000001:0xd1a8a1966040f982!8m2!3d53.3098709!4d-6.2216027!16s%2Fg%2F11g8yhmqzh!19sChIJAQAAADMJZ0gRgvlAYJahqNE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed outcomes for complex treatments"
+      },
+      "text": {
+        "en": "Pet owners report varied medical outcomes at the teaching hospital. Clients highlight prompt emergency interventions that successfully treated acute poisoning and severe illness. However, multiple reviewers express disappointment over recurring symptoms after costly procedures and inconclusive overnight diagnostic health assessments."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated specialists with varied bedside manner"
+      },
+      "text": {
+        "en": "Many clients commend the clinical competence of the veterinary surgeons and emergency nurses, praising their dedication during weekend emergencies. At the same time, some reviewers felt staff appeared distant and lacked compassion during distressing visits, leading to mixed overall perceptions of the hospital."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Criticism of discharge communication and updates"
+      },
+      "text": {
+        "en": "Communication remains a primary concern among reviewers. While some pet owners appreciate helpful administrative staff during holiday emergencies, others report frustration with brief discharge discussions, lack of diagnostic clarity, and insufficient follow-up communication regarding their animals recovery."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does UCD Veterinary Hospital accept emergency referrals?"
+      },
+      "a": {
+        "en": "Yes, clients report that the hospital accommodates urgent referral cases and acute poisonings, including on bank holidays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees at UCD considered expensive?"
+      },
+      "a": {
+        "en": "Multiple reviewers highlight that treatments and overnight admissions carry significant fees, advising owners to verify costs beforehand."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital provide specialized referral surgeries?"
+      },
+      "a": {
+        "en": "Yes, the facility provides advanced surgical procedures and specialized diagnostic testing through veterinary referrals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are pet owners updated during overnight hospital stays?"
+      },
+      "a": {
+        "en": "Reviewers report mixed experiences, with some praising emergency updates while others noted gaps in overnight monitoring reports."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
