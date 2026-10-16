@@ -1,0 +1,135 @@
+{
+  "slug": "academia-y-peluqueria-canina-sir-can",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Academia+y+Peluquer%C3%ADa+Canina+Sir+Can/data=!4m7!3m6!1s0xd6048cca7556067:0x92b5fbe5bc9f2e0e!8m2!3d39.4599219!4d-0.3738964!16s%2Fg%2F1tfsd5h2!19sChIJZ2BVp8xIYA0RDi6fvOX7tZI?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Atención profesional con opiniones divididas",
+        "en": "Professional care with divided opinions"
+      },
+      "text": {
+        "es": "La mayoría de clientes valora la técnica y amabilidad del equipo en Ruzafa, elogiando la puntualidad y rapidez en las sesiones de peluquería. No obstante, varios usuarios señalan desacuerdos con el trato del propietario al reservar o ante quejas, además de percibir insistencia comercial con accesorios de la tienda.",
+        "en": "Most clients appreciate the technical skill and friendliness of the Ruzafa team, praising punctuality and quick grooming sessions. However, some pet owners report tense interactions with management regarding booking requirements or past incidents, along with feeling pressured by aggressive upselling tactics for store accessories."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Resultados estéticos y cortes especializados",
+        "en": "Aesthetic results and breed styling"
+      },
+      "text": {
+        "es": "Varios tutores destacan arreglos estéticos espectaculares y cortes muy fieles a los estándares de raza en perros como el bichón frisé. Pese a estos acabados elogiados, se registra un testimonio crítico por una herida seria durante un corte anterior, lo que genera opiniones contrastadas sobre la seguridad técnica.",
+        "en": "Several pet owners praise spectacular breed-specific styling, highlighting great transformations in breeds like the Bichon Frise. Despite these acclaimed haircut results, one critical review recounts a severe accidental cut during grooming, creating contrasting perceptions regarding consistency and technical safety."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Manejo canino y cuidado diario",
+        "en": "Canine handling and animal care"
+      },
+      "text": {
+        "es": "Diversos dueños comentan que sus perros reciben un trato cariñoso, cuidadoso y atento durante el peinado y el corte. Sin embargo, surge también el recuerdo de una experiencia traumática por cortes accidentales, lo que lleva a algunos clientes a recomendar máxima supervisión en sesiones delicadas.",
+        "en": "Multiple clients report that their dogs receive gentle and patient care during grooming sessions in the salon. Nonetheless, a past traumatic injury mentioned by an owner creates concern, leading reviewers to emphasize the importance of careful handling during delicate trimming procedures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para la peluquería?",
+        "en": "Is an appointment required for grooming?"
+      },
+      "a": {
+        "es": "Sí, es necesario reservar con antelación e indicar la raza exacta del perro para planificar el arreglo adecuadamente.",
+        "en": "Yes, appointments must be booked in advance, specifying the exact dog breed to plan the session properly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Hacen arreglos específicos para razas de pelo rizado?",
+        "en": "Do they provide breed-specific cuts for curly-coated dogs?"
+      },
+      "a": {
+        "es": "Sí, los clientes destacan su experiencia en cortes de raza como bichón frisé y caniches, tanto a tijera como a máquina.",
+        "en": "Yes, clients highlight expertise in specific breed styling such as Bichon Frise and Poodles using scissors and clippers."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Venden accesorios y productos para perros en el local?",
+        "en": "Do they sell dog accessories and products on site?"
+      },
+      "a": {
+        "es": "Sí, disponen de una zona de venta con arneses, correas y cosmética canina profesional.",
+        "en": "Yes, they have a retail area offering harnesses, leashes, and professional canine cosmetics."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

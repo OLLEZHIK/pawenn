@@ -1,0 +1,353 @@
+{
+  "slug": "hospital-veterinario-archiduque-carlos",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+Veterinario+Archiduque+Carlos/data=!4m7!3m6!1s0xd604f1478ccbcb5:0x7dbe3fa9f33999b1!8m2!3d39.4621957!4d-0.3982077!16s%2Fg%2F1td14lzz!19sChIJtbzMeBRPYA0RsZk586k_vn0?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 30,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 21,
+      "title": {
+        "es": "Atención médica con opiniones divididas",
+        "en": "Professional medical team with divided feedback"
+      },
+      "text": {
+        "es": "Muchos clientes elogian la profesionalidad y empatía de veterinarios como el traumatólogo Juan José Brotons, Sonia o Diana en cirugías complejas. No obstante, varios usuarios critican con dureza la falta de tacto en recepción durante la noche y la negativa a atender ciertas consultas en fin de semana si el personal no las considera de riesgo vital.",
+        "en": "Many clients praise the clinical skill and compassion of specialists such as orthopedic surgeon Juan José Brotons, Sonia, and Diana during major surgeries. However, multiple visitors express serious frustration over abrupt reception desk interactions at night and refusal to admit weekend cases deemed non-life-threatening."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "es": "Cirugías complejas frente a discrepancias diagnósticas",
+        "en": "Complex surgeries alongside diagnostic concerns"
+      },
+      "text": {
+        "es": "Los testimonios reconocen éxitos quirúrgicos notables en cirugías de urgencia por piometra y fracturas óseas complejas. Al mismo tiempo, diversas reseñas reportan diagnósticos erróneos o tardíos en cuadros de pancreatitis y complicaciones graves tras el alta hospitalaria, generando valoraciones contrapuestas sobre la evolución clínica.",
+        "en": "Pet owners acknowledge notable surgical successes in emergency interventions such as pyometra and complicated bone fractures. At the same time, several reviewers report inaccurate initial diagnoses in cases like pancreatitis and severe post-discharge complications, resulting in sharply polarized opinions on medical outcomes."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "es": "Tarifas elevadas y costes inesperados",
+        "en": "High fees and emergency pricing concerns"
+      },
+      "text": {
+        "es": "El apartado económico concentra las críticas más severas del hospital. Los usuarios señalan costes muy altos en consultas de urgencia (a partir de 110 euros), pruebas de laboratorio de varios cientos de euros y estancias de hospitalización que superan los mil euros, quejándose de presupuestos poco claros y cobros de días adicionales.",
+        "en": "Pricing represents the primary source of client dissatisfaction at the hospital. Reviewers cite steep emergency consultation charges starting from 110 euros, diagnostic blood panels costing several hundred euros, and inpatient hospitalizations exceeding 1,000 euros, often complaining of unclear estimates and billing disputes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿El hospital dispone de servicio de urgencias 24 horas?",
+        "en": "Does the hospital operate a 24-hour emergency service?"
+      },
+      "a": {
+        "es": "Sí, el hospital permanece abierto las 24 horas del día, todos los días del año, para atender urgencias médicas y quirúrgicas.",
+        "en": "Yes, the hospital remains open 24 hours daily, 365 days a year, for emergency medical and surgical admissions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Realizan cirugías traumatológicas de urgencia?",
+        "en": "Do they perform emergency orthopedic surgeries?"
+      },
+      "a": {
+        "es": "Sí, cuentan con equipo especializado para resolver fracturas óseas y cirugías complejas de traumatología.",
+        "en": "Yes, their surgical team is equipped to handle complex bone fractures and urgent orthopedic interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cuánto cuesta una consulta veterinaria de urgencia?",
+        "en": "How much is an emergency veterinary consultation?"
+      },
+      "a": {
+        "es": "Según las opiniones de clientes, las consultas de urgencia tienen un coste base inicial en torno a los 110 euros, más pruebas.",
+        "en": "According to client reviews, emergency consultations carry a baseline fee around 110 euros, excluding diagnostic tests."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para urgencias vitales?",
+        "en": "Is an appointment required for critical emergencies?"
+      },
+      "a": {
+        "es": "No se requiere cita para emergencias vitales, aunque se recomienda avisar por teléfono antes de llegar para preparar la recepción.",
+        "en": "No appointment is needed for emergencies, though phoning ahead is advised so staff can prepare the triage area."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
