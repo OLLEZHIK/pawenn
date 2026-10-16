@@ -1,0 +1,100 @@
+{
+  "slug": "ashwood-veterinary-clinic-sutton-coldfield",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ashwood+Veterinary+Clinic/data=!4m7!3m6!1s0x4870a507d36a1df9:0x4967223812e850ff!8m2!3d52.5579365!4d-1.823168!16s%2Fg%2F1tf69h27!19sChIJ-R1q0welcEgR_1DoEjgiZ0k?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Long-standing service with mixed consultation"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinary team and nursing staff for their thorough advice, friendly communication, and dedicated support over many years. Long-term clients value named clinicians like Stuart and reception staff for their helpful demeanor. However, one visitor felt an examination was abrupt and raised concern over consultation fees."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive care for various species"
+      },
+      "text": {
+        "en": "Clients appreciate the gentle and attentive approach demonstrated towards family pets during appointments. Reviewers highlight that veterinary surgeons and veterinary nurses take time to examine cats, dogs, and smaller domestic companions like pet rats safely and calmly, ensuring animals remain comfortable throughout checkups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the Holland Road clinic treat small animals besides dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention bringing smaller companion animals such as pet rats to the surgery for health checks and care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is off-road parking available at this branch?"
+      },
+      "a": {
+        "en": "The clinic provides dedicated off-road parking spaces for visiting clients directly outside the premises."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where are out-of-hours emergencies handled?"
+      },
+      "a": {
+        "en": "Emergency veterinary coverage outside normal surgery opening hours is managed by Willows Veterinary Centre and Referral Service."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
