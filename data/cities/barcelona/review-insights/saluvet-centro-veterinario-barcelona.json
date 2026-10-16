@@ -1,0 +1,134 @@
+{
+  "slug": "saluvet-centro-veterinario-barcelona",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/SaluVet+Centro+Veterinario+Barcelona/data=!4m7!3m6!1s0x12a4a2954d0caf93:0x650e3c33ee2f8158!8m2!3d41.4002346!4d2.1645399!16s%2Fg%2F11f_bl94r3!19sChIJk68MTZWipBIRWIEv7jM8DmU?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Atención veterinaria empática y cercana",
+        "en": "Empathetic and dedicated veterinary doctors"
+      },
+      "text": {
+        "es": "Las reseñas reconocen la calidez y el conocimiento clínico de la veterinaria Carola, destacando su apoyo emocional en momentos difíciles. Aunque una reseña menciona desacuerdos en la recepción de urgencias sin cita previa, el balance general es de gratitud unánime.",
+        "en": "Reviews recognize the clinical knowledge and warmth of Dr. Carola, emphasizing emotional support during challenging circumstances. Although one reviewer notes disagreement over unscheduled emergency admission, overall feedback reflects strong client gratitude."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Diagnósticos certeros y pronta recuperación",
+        "en": "Accurate diagnoses and steady recovery"
+      },
+      "text": {
+        "es": "Los tutores señalan la rapidez y precisión en la detección de patologías habituales, como otitis felinas o dolencias crónicas. Los tratamientos aplicados permiten una evolución favorable de los pacientes, asegurando revisiones minuciosas hasta la total mejoría.",
+        "en": "Pet owners highlight promptness and precision in diagnosing common ailments such as feline ear infections or chronic conditions. Prescribed treatments promote favorable health progress, supported by thorough follow-up checkups until complete recovery is achieved."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Trato respetuoso hacia cada paciente",
+        "en": "Respectful care for feline patients"
+      },
+      "text": {
+        "es": "Quienes visitan la clínica con perros y gatos destacan el manejo suave para minimizar el estrés de las mascotas durante la exploración. Las familias valoran que el equipo no fuerce a los animales asustados y priorice su tranquilidad en consulta y seguimiento.",
+        "en": "Visitors bringing dogs and cats emphasize the gentle physical handling aimed at minimizing stress during clinical exams. Families appreciate that veterinarians do not distress frightened animals, prioritizing pet comfort during consultations and checkups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Habla inglés el personal de la clínica SaluVet?",
+        "en": "Does the staff at SaluVet speak English?"
+      },
+      "a": {
+        "es": "Sí, varios clientes internacionales confirman que el equipo atiende consultas en inglés sin problemas.",
+        "en": "Yes, international clients confirm that veterinary staff comfortably conduct visits in English."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Atienden tanto a perros como a gatos en el Eixample?",
+        "en": "Do they treat both dogs and cats at their Eixample clinic?"
+      },
+      "a": {
+        "es": "Sí, el centro ofrece medicina preventiva, vacunación y revisiones diagnósticas para ambas especies.",
+        "en": "Yes, the practice provides preventive care, vaccinations, and diagnostic checkups for both species."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cuál es el horario habitual de consultas en SaluVet?",
+        "en": "What are the regular consultation hours at SaluVet?"
+      },
+      "a": {
+        "es": "Abre de lunes a viernes de 10:00 a 20:00 y los sábados por la mañana de 10:00 a 13:30.",
+        "en": "The clinic is open Monday to Friday from 10:00 to 20:00 and Saturday mornings from 10:00 to 13:30."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
