@@ -1,0 +1,133 @@
+{
+  "slug": "bibbidi-bobbidi-woof",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bibbidi+Bobbidi+Woof+-+Dog+grooming+Parlour/data=!4m7!3m6!1s0x48795f8f93223765:0x3f0975d15f7438b4!8m2!3d53.7848979!4d-1.5567689!16s%2Fg%2F11l3c117kg!19sChIJZTcik49feUgRtDh0X9F1CT8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Grooming finishes and styling quality"
+      },
+      "text": {
+        "en": "Several dog owners report high satisfaction with full grooms, noting neat styling, pleasant finishing touches, and great coat condition on collection. In contrast, two reviewers expressed strong dissatisfaction, citing an incomplete nail trim on an anxious dog and an allergic skin reaction following product use. Experiences vary noticeably among clients."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Groomer attitude and customer service"
+      },
+      "text": {
+        "en": "Most clients describe the parlour groomer as friendly, accommodating, and efficient when booking and handling routine grooming appointments. However, one reviewer felt staff appeared dismissive when attending to a nervous dog's nail clipping, leading to mixed overall impressions regarding client communication and service flexibility."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Handling of sensitive and nervous dogs"
+      },
+      "text": {
+        "en": "While one reviewer noted their dog thoroughly enjoyed the visit, multiple clients raised concerns regarding how sensitive pets were managed during appointments. Feedback highlights difficulties with handling nervous dogs during nail clipping and a reported skin flare-up following standard shampoo application on a dog with allergies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Bibbidi Bobbidi Woof offer one-to-one grooming?"
+      },
+      "a": {
+        "en": "Yes, the parlour operates as a home-based studio offering individual one-to-one appointments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can pet owners book grooming sessions online?"
+      },
+      "a": {
+        "en": "Yes, appointments can be booked directly online through the HeyGoldie scheduling system."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the salon accommodate dogs with sensitive skin or allergies?"
+      },
+      "a": {
+        "en": "Reviews are mixed; owners of dogs with known sensitivities should discuss specific shampoo requirements in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What styling specialties are offered at the salon?"
+      },
+      "a": {
+        "en": "The groomer specialises in teddy bear trims and Asian fusion styling alongside full groom packages."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
