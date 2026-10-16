@@ -1,0 +1,142 @@
+{
+  "slug": "dundrum-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dundrum+Veterinary+Clinic/data=!4m7!3m6!1s0x48670967728895a7:0xa341797651c119f0!8m2!3d53.2915364!4d-6.2462789!16s%2Fg%2F1tw_mnkc!19sChIJp5WIcmcJZ0gR8BnBUXZ5QaM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive and helpful veterinary team"
+      },
+      "text": {
+        "en": "Most clients highlight the friendly and accommodating attitude of the veterinarians and clinic nurses. Pet owners value the team's willingness to assist with questions over phone and email, noting that regular staff build familiar and reassuring relationships with local families."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Pet care with varied experiences"
+      },
+      "text": {
+        "en": "While multiple dog owners report gentle handling that leaves their pets excited to visit, one cat owner recounted a very distressing consultation involving rough restraint and forced medication. Most reviewers praise the attentive treatment their pets receive during visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Clinical treatments and routine care"
+      },
+      "text": {
+        "en": "Longtime clients frequently describe excellent routine care and reliable medical attention for their pets. However, one visitor noted severe distress during a routine deworming and ringworm examination, contrasting with the otherwise consistently positive clinical outcomes reported."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where in Dundrum is the clinic situated?"
+      },
+      "a": {
+        "en": "The practice is located in Dundrum Village Centre on Main Street in Dundrum, Dublin 14."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can I book appointments online?"
+      },
+      "a": {
+        "en": "Yes, Dundrum Veterinary Clinic provides an online booking system for pet consultations."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the practice treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, clients visit with both canine and feline pets for clinical examinations and wellness care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What should I do if my pet has an emergency out of hours?"
+      },
+      "a": {
+        "en": "Outside normal opening hours, emergency cases are directed to the Pet Emergency Hospital at UCD Belfield."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
