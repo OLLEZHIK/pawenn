@@ -1,0 +1,152 @@
+{
+  "slug": "camoix-clinica-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Camoix+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0xd604879c7f8b79b:0x6a8d668e38aa9a1b!8m2!3d39.4827237!4d-0.3289801!16s%2Fg%2F1jmcjj451!19sChIJm7f4x3lIYA0RG5qqOI5mjWo?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Vocación veterinaria y trato cercano",
+        "en": "Veterinary dedication and caring staff"
+      },
+      "text": {
+        "es": "La clínica veterinaria en Poblats Marítims recibe excelentes valoraciones por la calidez y experiencia de la doctora María José, Pau y el equipo auxiliar. Los tutores agradecen su trato afectuoso y paciente en las consultas rutinarias, aunque una reseña puntual lamenta falta de flexibilidad al solicitar atención fuera de hora.",
+        "en": "The veterinary clinic in Poblats Marítims earns warm praise for the compassion and expertise of Dr. María José, Pau, and the support staff. Owners deeply appreciate their kind, patient approach during routine consultations, although one critical review regrets a perceived lack of flexibility for an unscheduled emergency."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Empatía y respeto hacia pacientes",
+        "en": "Empathy and respect toward pets"
+      },
+      "text": {
+        "es": "Los dueños resaltan el profundo respeto con el que se examina a los animales, adaptándose al ritmo de perros asustadizos, cachorros y pacientes mayores. Esta sensibilidad hace que los animales se sientan cómodos y seguros en la consulta, reduciendo notablemente el estrés habitual de las visitas veterinarias.",
+        "en": "Pet owners highlight the deep empathy shown when examining animals, adapting gently to nervous dogs, young puppies, and senior companions. This considerate care helps pets feel secure and comfortable in the examination room, significantly lowering the usual stress associated with clinic visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Claridad médica y pautas terapéuticas",
+        "en": "Clinical explanations and communication"
+      },
+      "text": {
+        "es": "Varios clientes valoran que los veterinarios se tomen el tiempo necesario para explicar cada diagnóstico y pauta con tranquilidad y detalle. Por otro lado, una opinión crítica cuestiona la comunicación telefónica ante una urgencia repentina, señalando desacuerdos en la derivación de casos que requerían atención inmediata.",
+        "en": "Several clients appreciate that the veterinary team takes ample time to explain diagnoses and treatment steps calmly and clearly. Conversely, a critical review disputes phone communication regarding a sudden emergency, pointing out disagreements over triage recommendations when immediate intervention was sought."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atienden urgencias veterinarias las 24 horas?",
+        "en": "Do they handle 24-hour veterinary emergencies?"
+      },
+      "a": {
+        "es": "La clínica opera en horario comercial; para urgencias críticas fuera de consulta se recomienda contactar con un hospital 24 horas.",
+        "en": "The clinic operates during standard business hours; for critical emergencies outside schedule, a 24-hour hospital is recommended."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para vacunas y consultas?",
+        "en": "Is an appointment required for consultations and vaccines?"
+      },
+      "a": {
+        "es": "Sí, es recomendable solicitar cita previa por teléfono para organizar la atención y evitar tiempos de espera prolongados.",
+        "en": "Yes, scheduling an appointment by phone is recommended to organize care and prevent prolonged waiting times."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen atención para cachorros y animales mayores?",
+        "en": "Do they provide care for puppies and senior pets?"
+      },
+      "a": {
+        "es": "Sí, realizan medicina preventiva, vacunación y seguimiento geriátrico adaptado a cada etapa de vida del animal.",
+        "en": "Yes, they provide preventive care, vaccinations, and geriatric health monitoring tailored to every life stage."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "clinica-veterinaria-benicalap",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Benicalap/data=!4m7!3m6!1s0xd6045f2dafa6dd9:0xce46d6d5b49df735!8m2!3d39.4941292!4d-0.3928148!16s%2Fg%2F1tfh_x__!19sChIJ2W362vJFYA0RNfedtNXWRs4?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Equipo veterinario cercano y comprensivo",
+        "en": "Compassionate and dedicated veterinary staff"
+      },
+      "text": {
+        "es": "La mayoría de los tutores de perros y gatos elogian la humildad, cercanía y paciencia del equipo veterinario, destacando el trato de María Dolores ante situaciones sanitarias complejas. No obstante, una reseña aislada critica la preparación del personal al atender consultas no habituales.",
+        "en": "Most dog and cat guardians commend the humility, warmth, and patient guidance of the veterinary staff, particularly highlighting María Dolores during challenging diagnoses. However, an isolated review questions the team's approach when handling non-routine animal cases."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Atención a animales con opiniones encontradas",
+        "en": "Animal handling with contrasting opinions"
+      },
+      "text": {
+        "es": "Varios clientes afirman que sus perros y gatos son atendidos con auténtico cariño y dedicación en las consultas habituales de Benicalap. Por el contrario, dos reseñas críticas expresan un fuerte descontento con el manejo de animales exóticos y fauna silvestre, cuestionando los conocimientos específicos en dichas especies.",
+        "en": "Several clients state that their dogs and cats are treated with genuine affection and gentle care during regular appointments in Benicalap. In contrast, two critical reviews express strong dissatisfaction regarding the handling of exotic and wild species, questioning specialized expertise for those animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Resultados clínicos y procedimientos quirúrgicos",
+        "en": "Clinical outcomes and surgical procedures"
+      },
+      "text": {
+        "es": "Parte de los usuarios relata excelentes resultados en el tratamiento de enfermedades caninas y pautas médicas explicadas con claridad. Sin embargo, una reseña reporta una complicación grave tras una esterilización quirúrgica que obligó a reintervenir a la mascota en otro centro veterinario.",
+        "en": "Some pet guardians report great outcomes in treating canine illnesses, valuing clear explanations regarding incubation and pathology. Conversely, one review reports a severe surgical complication after a spay procedure, which required corrective surgery at an alternative clinic."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atienden animales exóticos en esta clínica?",
+        "en": "Do they provide specialized care for exotic animals?"
+      },
+      "a": {
+        "es": "Las reseñas aconsejan cautela, ya que algunos usuarios han expresado que el centro está orientado principalmente a perros y gatos comunes.",
+        "en": "Reviews suggest caution, as some clients noted that the clinic focuses primarily on conventional dogs and cats rather than exotic pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cómo explican los diagnósticos y tratamientos a los dueños?",
+        "en": "How do veterinarians explain diagnoses to pet owners?"
+      },
+      "a": {
+        "es": "Los tutores destacan explicaciones claras y pedagógicas sobre la evolución de las enfermedades y los periodos de incubación.",
+        "en": "Owners praise clear, supportive explanations regarding disease progression, incubation periods, and treatment options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué opinan los clientes sobre las esterilizaciones quirúrgicas?",
+        "en": "What do clients report regarding surgical spaying?"
+      },
+      "a": {
+        "es": "Aunque la atención clínica habitual es valorada positivamente, consta una queja por complicaciones en una ovariectomía que requirió otra intervención.",
+        "en": "While routine consultations receive praise, there is a report of surgical complications following a spaying procedure that required revision surgery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
