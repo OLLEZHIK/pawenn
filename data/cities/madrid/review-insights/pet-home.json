@@ -1,0 +1,156 @@
+{
+  "slug": "pet-home",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PET+HOME/data=!4m7!3m6!1s0xd4228f0e7894c6f:0xd6f9e50a0014ff58!8m2!3d40.4416077!4d-3.696539!16s%2Fg%2F11b6bv9ts6!19sChIJb0yJ5_AoQg0RWP8UAArl-dY?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Trato cercano y asesoramiento profesional",
+        "en": "Friendly welcome and expert product advice"
+      },
+      "text": {
+        "es": "Los clientes valoran la calidez humana y la sonrisa constante del equipo en la tienda de Chamberí. Quienes acuden con frecuencia destacan que el personal se toma el tiempo necesario para resolver dudas nutricionales, haciendo que cada visita resulte agradable y personalizada.",
+        "en": "Clients appreciate the genuine warmth and welcoming smiles of the team at this Chamberí pet shop. Regular visitors highlight that staff members take ample time to answer nutritional questions, ensuring that every shopping trip feels pleasant, helpful, and truly personalized."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Variedad de productos y local renovado",
+        "en": "Broad product range and renovated store"
+      },
+      "text": {
+        "es": "Las opiniones elogian el surtido completo de la tienda, que incluye alimentación natural, menús BARF, juguetes y accesorios para perros y gatos. Los clientes agradecen la reciente renovación del espacio, destacando la pulcritud de los lineales y sus amplios horarios comerciales.",
+        "en": "Reviews praise the diverse inventory offered in store, featuring natural diets, raw BARF menus, interactive toys, and pet accessories. Pet owners also commend the recently renovated boutique space, noting the spotless displays and convenient non-stop daytime opening hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Cariño hacia las mascotas y detalles",
+        "en": "Affectionate care and complimentary treats"
+      },
+      "text": {
+        "es": "Las familias señalan que sus perros entran encantados a la tienda, sabiendo que los empleados los reciben con mimos y algún premio saludable. Valoran que las mascotas salgan contentas tanto tras comprar como al pasar por su servicio de baño higiénico en el propio establecimiento.",
+        "en": "Families report that their dogs eagerly walk into the store, knowing employees will greet them warmly with cuddles and a healthy treat. Owners appreciate that pets leave feeling happy and pampered, whether visiting for supplies or utilizing the in-store hygiene bathing area."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Venden menús y productos de alimentación cruda BARF?",
+        "en": "Do they sell raw BARF diets and natural food menus?"
+      },
+      "a": {
+        "es": "Sí, la tienda dispone de opciones de nutrición natural, alimentos deshidratados y menús crudos BARF para perros y felinos.",
+        "en": "Yes, the boutique stocks natural nutrition alternatives, dehydrated foods, and raw BARF menus for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de peluquería o baño en la tienda?",
+        "en": "Is there a grooming or bathing service in the shop?"
+      },
+      "a": {
+        "es": "Sí, el establecimiento cuenta con un espacio dedicado a baños y arreglo higiénico para el cuidado del pelaje de las mascotas.",
+        "en": "Yes, the retail location features a dedicated corner for hygiene bathing and routine coat styling for pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de servicio de envío o pedidos a domicilio?",
+        "en": "Do they provide home delivery for pet supplies?"
+      },
+      "a": {
+        "es": "Sí, los clientes pueden adquirir productos en el local de Ríos Rosas o solicitar entregas a domicilio en Madrid.",
+        "en": "Yes, customers can purchase supplies at the Ríos Rosas shop or arrange local home delivery across Madrid."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
