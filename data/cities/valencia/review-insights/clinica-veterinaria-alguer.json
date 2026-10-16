@@ -1,0 +1,149 @@
+{
+  "slug": "clinica-veterinaria-alguer",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Alguer/data=!4m7!3m6!1s0xd60488bdbda4621:0xfad68943314071af!8m2!3d39.4700688!4d-0.3403193!16s%2Fg%2F11b6bqc28k!19sChIJIUba24tIYA0Rr3FAMUOJ1vo?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Equipo veterinario atento y cercano",
+        "en": "Attentive and approachable veterinary team"
+      },
+      "text": {
+        "es": "Las opiniones destacan la profesionalidad y calidez de los veterinarios Manuel y Mauricio en el barrio de Albors. Los usuarios valoran su cercanía, amabilidad y capacidad para transmitir confianza desde la primera consulta, describiendo al equipo como muy dedicado al bienestar familiar.",
+        "en": "Reviews emphasize the high professionalism and warmth of veterinarians Manuel and Mauricio in the Albors neighborhood. Clients value their approachable attitude, friendliness, and ability to build trust from the first visit, portraying the staff as genuinely dedicated to patient care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Cuidado respetuoso con los pacientes",
+        "en": "Respectful care for furry patients"
+      },
+      "text": {
+        "es": "Varios clientes remarcan el cariño y respeto con el que se examina a perros y gatos durante las visitas clínicas. Resaltan que los facultativos muestran un interés genuino por entender el comportamiento de cada mascota y reducir su nivel de estrés en la sala de consulta.",
+        "en": "Several clients highlight the love and respect with which dogs and cats are handled throughout clinical examinations. They emphasize that the doctors show a sincere interest in understanding each animal's temperament to minimize anxiety inside the examination room."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Seguimiento médico y control clínico",
+        "en": "Clinical follow-up and health management"
+      },
+      "text": {
+        "es": "Los tutores expresan gran satisfacción con el seguimiento continuado de patologías y la atención preventiva prestada. Señalan que los veterinarios recuerdan el historial y condiciones previas de cada animal, garantizando diagnósticos certeros y tratamientos bien coordinados.",
+        "en": "Pet owners express strong satisfaction with the consistent management of ongoing conditions and preventive treatments. They note that the veterinarians actively remember past medical histories, ensuring accurate diagnoses and well-coordinated clinical therapy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Recuerda el equipo el historial clínico de las mascotas?",
+        "en": "Does the veterinary team remember pets' medical histories?"
+      },
+      "a": {
+        "es": "Sí, las reseñas de los clientes destacan que los veterinarios conocen las condiciones previas y particularidades de cada paciente habitual.",
+        "en": "Yes, customer reviews emphasize that the veterinarians actively track and remember the medical background of regular patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué veterinarios atienden habitualmente en la clínica?",
+        "en": "Which veterinarians usually attend clients at the clinic?"
+      },
+      "a": {
+        "es": "Los comentarios mencionan con frecuencia y agradecimiento la atención personalizada de Manuel y Mauricio.",
+        "en": "Reviews frequently and gratefully mention the personalized attention received from veterinarians Manuel and Mauricio."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Atienden tanto a perros como a gatos?",
+        "en": "Do they provide medical care for both dogs and cats?"
+      },
+      "a": {
+        "es": "Sí, ofrecen consultas y atención clínica adaptada tanto a pacientes caninos como felinos.",
+        "en": "Yes, they provide consultations and clinical care tailored to both canine and feline patients."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -129,6 +129,32 @@ for (const cat of categories) {
   );
 }
 
+// Completeness of each card (owner 2026-10-13: sites, prices, the fullest
+// cards). Weights match rank-candidates: site and prices matter most. The
+// weakest places are the ones to replace from the candidate list.
+{
+  const has = (r: Row, k: string) => Boolean((r[k] ?? "").trim());
+  const parts: [string, number, (r: Row) => boolean][] = [
+    ["сайт", 25, (r) => has(r, "website")],
+    ["цены", 25, (r) => r.category === "PET_SHOP" || pricedSlugs.has(r.slug)],
+    ["часы", 15, (r) => has(r, "opening_hours")],
+    ["сводка отзывов", 15, (r) => insightSlugs.has(r.slug)],
+    ["логотип", 10, (r) => has(r, "logo_file")],
+    ["рейтинг", 10, (r) => has(r, "google_rating")],
+  ];
+  const scored = rows.map((r) => {
+    const miss = parts.filter(([, , f]) => !f(r)).map(([n]) => n);
+    return { r, score: parts.reduce((a, [, w, f]) => a + (f(r) ? w : 0), 0), miss };
+  });
+  const avg = scored.length ? Math.round(scored.reduce((a, x) => a + x.score, 0) / scored.length) : 0;
+  const full = scored.filter((x) => x.score >= 90).length;
+  out.push(`\n## Полнота карточек\n\nСредний балл ${avg} из 100; полных (90+): ${share(full, scored.length)}.\n`);
+  out.push("Слабейшие 10 мест (кандидаты на замену; чего нет):\n");
+  for (const x of [...scored].sort((a, b) => a.score - b.score).slice(0, 10)) {
+    out.push(`- ${x.score}: **${x.r.name}** (\`${x.r.slug}\`, ${x.r.category}) — нет: ${x.miss.join(", ") || "—"}`);
+  }
+}
+
 out.push("\n## Выборка для быстрой проверки\n");
 out.push(
   "Для каждого места: открыть страницу на сайте, сайт места и карточку Google; сверить значения и цитаты. Одна неверная цитата или значение — город возвращается агенту «Поправкой» и выборка повторяется с новым `--seed`.\n",

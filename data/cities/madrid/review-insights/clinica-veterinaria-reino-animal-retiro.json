@@ -1,0 +1,136 @@
+{
+  "slug": "clinica-veterinaria-reino-animal-retiro",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Reino+Animal/data=!4m7!3m6!1s0xd42260e160d1631:0xa931c2814a0c9bb9!8m2!3d40.3997119!4d-3.6715725!16s%2Fg%2F11fy9lzsh6!19sChIJMRYNFg4mQg0RuZsMSoHCMak?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Rotación médica y descontento creciente",
+        "en": "Staff turnover and growing dissatisfaction"
+      },
+      "text": {
+        "es": "Varios usuarios manifiestan su disgusto ante cambios recientes en la plantilla facultativa y perciben menor empatía en consulta. Aunque algunos dueños de gatos expresan satisfacción puntual, predominan las críticas que señalan falta de implicación y trato distante. La percepción sobre la dedicación del equipo actual se ha deteriorado notablemente.",
+        "en": "Several clients express disappointment regarding recent changes in the veterinary staff, perceiving reduced empathy during visits. While a few cat owners report isolated positive experiences, criticism regarding a lack of dedication and distant demeanor predominates. Overall perception of the team commitment has noticeably declined in recent months."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Dificultades de contacto y respuesta",
+        "en": "Communication barriers and slow replies"
+      },
+      "text": {
+        "es": "Las quejas recurrentes apuntan a la falta de comunicación ante imprevistos, como la ausencia del facultativo habitual sin aviso previo. Asimismo, los afectados denuncian demoras en contestar mensajes con imágenes de síntomas graves y llamadas sin responder tras incidentes. Esta falta de seguimiento fluido genera gran frustración entre las familias.",
+        "en": "Recurring complaints point to inadequate communication during unexpected events, such as unannounced changes of attending veterinarians. Furthermore, affected clients report delays in answering messages regarding worsening symptoms and unanswered follow-up calls. This lack of fluid coordination creates substantial frustration among visiting families."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Preocupación por diagnósticos y tratamientos",
+        "en": "Concerns over diagnosis and treatments"
+      },
+      "text": {
+        "es": "Los comentarios críticos señalan complicaciones derivadas de sedaciones y pautas farmacológicas que empeoraron el estado de animales delicados. Los propietarios lamentan errores en la identificación de patologías digestivas y una gestión clínica que consideran deficiente. Salvo testimonios aislados favorables, los resultados recientes generan desconfianza.",
+        "en": "Critical reviews highlight complications following sedation procedures and medication plans that exacerbated fragile animal conditions. Pet owners voice distress over misidentified digestive disorders and clinical management they consider flawed. Aside from isolated favorable notes, recent patient outcomes have fostered widespread skepticism."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se avisa a los clientes si cambia el veterinario asignado?",
+        "en": "Are clients informed if their assigned veterinarian changes?"
+      },
+      "a": {
+        "es": "Las opiniones recientes señalan que la clínica no siempre notifica previamente la ausencia del veterinario habitual.",
+        "en": "Recent feedback indicates that the clinic does not always provide advance notice regarding attending vet substitutions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué horario de apertura tiene el centro veterinario?",
+        "en": "What are the opening hours of the clinic?"
+      },
+      "a": {
+        "es": "El centro cuenta con una jornada amplia de atención continuada durante los días laborables para consultas.",
+        "en": "The center maintains extended daytime opening hours on weekdays for pet examinations and consultations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo responde el centro ante dudas o urgencias médicas tras la visita?",
+        "en": "How does the clinic handle post-visit questions or emergencies?"
+      },
+      "a": {
+        "es": "Varios clientes indican demoras en la respuesta a llamadas o mensajes de seguimiento tras las consultas.",
+        "en": "Multiple clients mention delays when attempting to reach the clinic by phone or message for post-visit follow-up."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
