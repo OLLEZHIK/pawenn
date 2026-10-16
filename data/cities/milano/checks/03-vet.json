@@ -2,17 +2,15 @@
   "chunk": "03-vet",
   "kind": "places",
   "slugs": [
-    "ambulatorio-veterinario-di-via-elba",
     "clinica-veterinaria-ca-zampa-milano-portello",
     "sinigaglia-dr-elisabetta-ambulatorio-veterinario-a-milano",
     "clinica-veterinaria-centrale-bluvet-cazampa-milano",
     "ambulatorio-veterinario-gatti-di-gatti-dr-claudio",
     "polo-oculistico-veterinario-dott-ssa-laura-barachetti",
     "myvet-milano-clinica-veterinaria",
-    "ambulatorio-veterinario-rucellai-dott-bevere",
     "clinica-veterinaria-crollalanza"
   ],
-  "hash": "e241319b2bd480b2d6e681267cde263010f2fbe3c77441c2e3befc331f2819e7",
+  "hash": "94a73d3e67dc33c436775ca4d211ea7944fe80155e0c5eddccd167d60a7284b2",
   "result": "PASS",
   "history": [
     {
@@ -22,6 +20,11 @@
     },
     {
       "at": "2026-10-12T18:10:15.918Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:47:27.187Z",
       "result": "PASS",
       "listed": 0
     }
