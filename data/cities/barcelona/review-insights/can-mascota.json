@@ -1,0 +1,134 @@
+{
+  "slug": "can-mascota",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Can+Mascota/data=!4m7!3m6!1s0x12a49890770cc503:0x5073c997290ff3d5!8m2!3d41.3697435!4d2.1349831!16s%2Fg%2F1tfvw987!19sChIJA8UMd5CYpBIR1fMPKZfJc1A?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Atención veterinaria con opiniones contrapuestas",
+        "en": "Veterinary staff with contrasting reviews"
+      },
+      "text": {
+        "es": "Diversos clientes valoran el trato cariñoso, la paciencia y la profesionalidad de la veterinaria Laura en revisiones habituales. Por contra, una reseña crítica lamenta una atención fría y falta de auxilio ante una urgencia matinal en la que el perro requería socorro.",
+        "en": "Several clients highlight the warmth, patience, and professional dedication displayed by veterinarian Laura during routine visits. Conversely, a critical review laments an impersonal response and refusal of immediate aid during a severe morning emergency."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Cuidado cariñoso hacia perros y cachorros",
+        "en": "Loving care for dogs and puppies"
+      },
+      "text": {
+        "es": "Los comentarios favorables subrayan el afecto con el que tratan a cachorros y animales adultos durante las consultas clínicas. Las familias destacan que las mascotas reciben un manejo delicado y atento en casos de otitis, esterilizaciones y cuidados preventivos.",
+        "en": "Positive reviews emphasize the affectionate and respectful handling offered to puppies and grown companions during appointments. Guardians note that animals receive gentle, attentive medical care during ear treatments, surgical recoveries, and routine checkups."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Información confusa en horarios y cobros",
+        "en": "Unclear scheduling and billing communication"
+      },
+      "text": {
+        "es": "Aunque en consulta se explican bien los diagnósticos, varias reseñas expresan descontento por falta de transparencia previa. Las quejas apuntan a confusión sobre la disponibilidad de veterinario por las mañanas y cargos imprevistos por material postoperatorio.",
+        "en": "While medical diagnoses are explained clearly in the exam room, critical reviews highlight frustration with poor advance transparency. Complaints cite confusion regarding vet availability during morning store hours and unexpected charges for post-surgical items."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Hay servicio veterinario continuado por las mañanas?",
+        "en": "Is veterinary medical care available all morning?"
+      },
+      "a": {
+        "es": "Según comentarios de usuarios, por las mañanas funciona principalmente como tienda y las consultas veterinarias se concentran en tardes.",
+        "en": "According to customer feedback, the center operates mainly as a supply shop in the morning, with vet consultations centered in the afternoons."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Atienden urgencias vitales sin aviso previo?",
+        "en": "Do they attend life-threatening emergencies without notice?"
+      },
+      "a": {
+        "es": "Clientes señalan que el centro no cuenta con equipo de reanimación de urgencia permanente y recomiendan acudir a un hospital ante emergencias graves.",
+        "en": "Reviews indicate the clinic does not maintain continuous critical emergency staff, advising guardians to seek specialized animal hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué servicios veterinarios habituales se ofrecen?",
+        "en": "What standard veterinary services are provided?"
+      },
+      "a": {
+        "es": "Las opiniones mencionan revisiones generales, desparasitaciones, tratamiento de infecciones como otitis y seguimiento postoperatorio.",
+        "en": "Reviews mention routine medical checkups, deworming, treatment of ear infections, and basic post-operative surgical monitoring."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "clinica-veterinaria-veteros",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Veteros/data=!4m7!3m6!1s0x12a4a27e45d78c91:0xa29e445fa42a289e!8m2!3d41.379753!4d2.1479938!16s%2Fg%2F1vx70lgy!19sChIJkYzXRX6ipBIRnigqpF9EnqI?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "es": "Veterinarios apreciados pero atención desigual",
+        "en": "Valued doctors but uneven customer service"
+      },
+      "text": {
+        "es": "Varios clientes habituales elogian la cercanía, empatía y profesionalidad de los veterinarios Jesús y Yolanda en el seguimiento continuo de sus mascotas. No obstante, opiniones desfavorables señalan desinterés y malas caras en el mostrador al realizar consultas sobre productos antiparasitarios.",
+        "en": "Several long-term clients praise the warmth, empathy, and competence of veterinarians Jesús and Yolanda in the regular care of their pets. However, unfavorable reviews report disinterest and unwelcoming attitudes at the front counter when inquiring about antiparasitic treatments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Trato cariñoso hacia perros y gatos",
+        "en": "Gentle handling of dogs and cats"
+      },
+      "text": {
+        "es": "Las reseñas positivas enfatizan la dedicación sincera y el cariño brindado a perros y gatos durante las revisiones clínicas. Los tutores valoran que se tomen el tiempo necesario para explorar a cada animal con calma, mostrando auténtica preocupación por su bienestar físico y emocional.",
+        "en": "Positive reviews emphasize genuine dedication and affectionate care shown toward dogs and cats during clinical check-ups. Pet owners appreciate that doctors take necessary time to examine each animal calmly, displaying true concern for their overall comfort and physical well-being."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Críticas por falta de información",
+        "en": "Criticism over communication and notices"
+      },
+      "text": {
+        "es": "Los comentarios más críticos lamentan la falta de comunicación sobre cambios repentinos de horario o cierres por las tardes sin previo aviso a los clientes. Asimismo, varios usuarios denuncian una negativa tajante a atender urgencias de mascotas sin cita previa ante la proximidad del cierre.",
+        "en": "Critical reviews strongly express frustration over the lack of communication regarding sudden schedule changes or afternoon closures without prior notice to clients. Additionally, several users report outright refusals to attend to urgent walk-ins without appointments near closing time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atienden urgencias veterinarias de inmediato?",
+        "en": "Do they provide immediate emergency treatment?"
+      },
+      "a": {
+        "es": "No, la clínica atiende en horario regular y varios clientes señalan que no admiten urgencias sin cita previa.",
+        "en": "No, the practice operates regular hours and client reviews report that walk-in emergencies are not admitted."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dispone la clínica de servicio de radiología digital?",
+        "en": "Does the clinic offer digital radiography services?"
+      },
+      "a": {
+        "es": "Sí, el centro cuenta con equipos para radiología digital y ecografía en sus instalaciones del Eixample.",
+        "en": "Yes, the facility is equipped with digital radiography and ultrasound diagnostics in Eixample."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Cobran pruebas innecesarias según las opiniones?",
+        "en": "Do clients feel unnecessary diagnostic tests are charged?"
+      },
+      "a": {
+        "es": "Los tutores valoran que la clínica actúe con ética y evite prescribir pruebas o gastos prescindibles.",
+        "en": "Guardians appreciate that the practice acts ethically without requesting superfluous diagnostic tests or charges."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
