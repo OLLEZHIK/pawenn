@@ -1,0 +1,40 @@
+{
+  "chunk": "06-shop",
+  "kind": "places",
+  "slugs": [
+    "el-jardin-de-dama",
+    "mascotas-1000-concepcion-arenal",
+    "mon-animal-barcelona",
+    "kiwoko-aribau-barcelona",
+    "kiwoko-gran-via-barcelona",
+    "barcelona-dogs-store",
+    "fauna-viva-barcelona",
+    "tiendanimal-glories-barcelona",
+    "bcn-animals",
+    "gos-i-gat-barcelona"
+  ],
+  "hash": "2ac046f24cf7ed902a30a216aacca7ed3aa57a162693cb9cc8240d47c966ef4a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T01:24:30.444Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-16T01:27:15.054Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T01:28:07.836Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T01:31:05.374Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
