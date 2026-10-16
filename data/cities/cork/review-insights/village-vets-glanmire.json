@@ -1,0 +1,158 @@
+{
+  "slug": "village-vets-glanmire",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Village+Vets+Glanmire+%28Cashman+Veterinary%29/data=!4m7!3m6!1s0x484483af2db3eccd:0x6e86081ae4cddaf3!8m2!3d51.9283096!4d-8.395843!16s%2Fg%2F1jkxt27zv!19sChIJzeyzLa-DREgR89rN5BoIhm4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Disputed empathy and staff professionalism"
+      },
+      "text": {
+        "en": "Recent reviews present sharply divided perspectives regarding the veterinary staff in Glanmire. Long-standing clients express great trust in veterinarians Gene and Sean, praising their warmth and dedication. However, several critical reviews describe distressing experiences during acute emergencies, citing an apparent lack of compassion and dismissive conduct."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Concerns over consultation communication"
+      },
+      "text": {
+        "en": "Communication at the practice receives critical scrutiny from pet owners. While regular clients appreciate detailed explanations and treatment guidance during routine checkups, multiple recent reviews describe communication during critical emergency visits as blunt, unsupportive, and lacking necessary empathy."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on pet handling"
+      },
+      "text": {
+        "en": "Feedback on animal handling is mixed among pet guardians. Regular visitors report that their dogs receive gentle and attentive care during appointments, feeling that pets are treated like family members. Conversely, negative reviews describe distressing incidents where distressed animals received insufficient assessment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's veterinary staff?"
+      },
+      "a": {
+        "en": "Reviews are divided: regular clients praise experienced vets Gene and Sean, while critical reviews cite a lack of empathy during emergencies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What procedures do pet owners describe at the clinic?"
+      },
+      "a": {
+        "en": "Reviewers mention routine health checkups, emergency examinations, and long-term care management for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are urgent out-of-hours cases managed?"
+      },
+      "a": {
+        "en": "Outside regular clinic hours, emergency calls are redirected via the clinic phone number to an on-call veterinary service."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is Saturday veterinary care available at Glanmire?"
+      },
+      "a": {
+        "en": "Yes, the clinic operates Saturday morning hours for consultations and routine treatments."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
