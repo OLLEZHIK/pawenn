@@ -1,0 +1,132 @@
+{
+  "slug": "benkurt-peluqueria-canina-y-felina",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BenKurt,+Peluquer%C3%ADa+Canina+y+Felina/data=!4m7!3m6!1s0x12a4bd3cef721207:0x5cf8385575dd7216!8m2!3d41.4376314!4d2.1729275!16s%2Fg%2F11cfgw2sr!19sChIJBxJy7zy9pBIRFnLddVU4-Fw?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Acabado de peluquería con opiniones encontradas",
+        "en": "Grooming results with differing impressions"
+      },
+      "text": {
+        "es": "Varios clientes celebran el resultado del baño y cepillado, destacando animales limpios y desenredados sin sedación, incluso en gatos persas. En contraposición, otros usuarios critican cortes caninos irregulares y acabados incompletos que no cumplieron lo esperado.",
+        "en": "Some pet owners celebrate thorough baths and knot-free grooming without sedation, praising neat finishes on difficult coats like Persian cats. Conversely, other reviews complain about uneven scissor lines, unfinished trims, and results falling short of expectations."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Trato personal con experiencias dispares",
+        "en": "Staff treatment with mixed experiences"
+      },
+      "text": {
+        "es": "Algunas opiniones alaban la paciencia y profesionalidad de la estilista, subrayando su cariño y respeto por los tiempos del animal. Por el contrario, un par de reseñas descontentas lamentan comentarios críticos hacia los dueños y una atención percibida como poco empática.",
+        "en": "Several customers praise the groomer's patience and gentle handling, highlighting that animals are treated with affection and calm. In contrast, unhappy clients report feeling judged during the appointment and describe the customer service as lacking warmth and understanding."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Duración prolongada de las sesiones",
+        "en": "Extended duration of grooming sessions"
+      },
+      "text": {
+        "es": "Las opiniones desfavorables señalan que las sesiones de peluquería pueden prolongarse entre dos y cuatro horas por mascota, generando impaciencia. Aunque algún cliente destaca un trabajo ágil con felinos, las quejas por tiempos excesivos predominan en las valoraciones críticas.",
+        "en": "Negative reviews highlight that grooming appointments can stretch between two and four hours per pet, leading to frustration for owners. While some cat owners report efficient handling, concerns regarding lengthy waiting times remain a recurring theme among dissatisfied visitors."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atienden a gatos en la peluquería sin sedación?",
+        "en": "Do they groom cats without sedation?"
+      },
+      "a": {
+        "es": "Sí, las reseñas destacan que realizan sesiones de baño, deslanado y corte a gatos persas sin recurrir a sedación.",
+        "en": "Yes, reviews highlight that bathing, de-matting, and styling for cats are performed carefully without sedation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cuánto suele durar una sesión de peluquería?",
+        "en": "How long does a grooming appointment typically take?"
+      },
+      "a": {
+        "es": "Según las opiniones, la duración varía notablemente y algunos clientes mencionan esperas de dos a cuatro horas por animal.",
+        "en": "According to customer feedback, sessions vary significantly, with some owners reporting appointments lasting two to four hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Incluyen los servicios corte de uñas y limpieza higiénica?",
+        "en": "Do services include nail trimming and sanitary hygiene?"
+      },
+      "a": {
+        "es": "Sí, se realizan baños y corte de uñas, aunque algunos clientes descontentos señalaron discrepancias en la cobertura del servicio contratado.",
+        "en": "Yes, baths and nail trims are standard, although some critical reviews noted misunderstandings about service inclusions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
