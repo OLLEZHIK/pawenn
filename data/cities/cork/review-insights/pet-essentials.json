@@ -1,0 +1,138 @@
+{
+  "slug": "pet-essentials",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Essentials/data=!4m7!3m6!1s0x484486acc5aeb28b:0x9eccc1f1b32da483!8m2!3d51.8106445!4d-8.3834082!16s%2Fg%2F1q62kkgsc!19sChIJi7KuxayGREgRg6Qts_HBzJ4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful and knowledgeable shop staff"
+      },
+      "text": {
+        "en": "Customers consistently praise the store staff for their friendly manner, helpful advice, and product knowledge. Reviewers note that assistants offer dependable dietary guidance for pets experiencing allergies or sensitivities. Shoppers appreciate being greeted with warmth and receiving thoughtful assistance when choosing appropriate pet nutrition."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Spacious store with ample parking"
+      },
+      "text": {
+        "en": "Shoppers highlight that Pet Essentials offers a spacious, clean, and well-organized retail environment in Carrigaline. Reviewers value the extensive stock availability, finding everything they need across foods, toys, and supplies. Visitors also appreciate the convenience of straightforward parking outside the unit in Kilnagleary Business Park."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Supplies catering to pet wellbeing"
+      },
+      "text": {
+        "en": "Pet owners appreciate that the store stocks quality items tailored to the health needs of companion animals. Reviewers highlight finding suitable food options that resolved skin allergies for their dogs, alongside complete provisions for cats and small pets. Shoppers value the comprehensive variety of nutrition and enrichment products on offer."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is customer parking available at Pet Essentials?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that ample parking is available directly outside the store in Kilnagleary Business Park."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Pet Essentials provide local home delivery?"
+      },
+      "a": {
+        "en": "Yes, clients mention using the local home delivery service when unable to visit the store in person."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can staff recommend foods for dogs with food allergies?"
+      },
+      "a": {
+        "en": "Yes, reviewers report receiving practical advice on specialized pet food brands that helped dogs with allergies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop stock supplies for pets other than dogs?"
+      },
+      "a": {
+        "en": "Yes, the store carries foods, treats, and accessories for cats, small animals, and wild birds."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}
