@@ -1,0 +1,101 @@
+{
+  "slug": "residencia-canina-devesa-gardens",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Residencia+Canina+Devesa+Gardens+Valencia/data=!4m7!3m6!1s0xd604b2f9881e965:0xa660e422b340b4e8!8m2!3d39.3222645!4d-0.3112692!16s%2Fg%2F11f6kvxf50!19sChIJZemBmC9LYA0R6LRAsyLkYKY?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Quejas severas sobre la atención",
+        "en": "Severe criticism of staff supervision"
+      },
+      "text": {
+        "es": "Las opiniones recientes sobre el personal de la residencia en Poblados del Sur reflejan insatisfacción generalizada. Aunque un usuario agradeció una estancia corta, predominan quejas formales por falta de supervisión adecuada y falta de rigor en el cumplimiento de los cuidados acordados para los animales.",
+        "en": "Recent reviews regarding boarding staff in Poblados del Sur reflect significant dissatisfaction. While one client praised a short day stay, serious complaints dominate concerning insufficient supervision and a lack of diligence in fulfilling agreed daily responsibilities for the pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "es": "Experiencias encontradas sobre el bienestar animal",
+        "en": "Conflicting experiences regarding animal welfare"
+      },
+      "text": {
+        "es": "Los tutores muestran percepciones muy dispares respecto al estado en que recogen a sus mascotas. Mientras un cliente afirma que su perra estuvo perfecta durante su estancia, otro cliente relató graves deficiencias higiénicas al recoger a su gato, exigiendo medidas correctivas a la dirección.",
+        "en": "Pet guardians report sharply contrasting experiences regarding the physical condition of their pets upon collection. While one owner felt their dog was well accommodated for a day, another client documented severe hygiene issues with their cat, requesting formal corrective measures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué instalaciones ofrece la residencia para el alojamiento de mascotas?",
+        "en": "What accommodation facilities does the pet boarding resort offer?"
+      },
+      "a": {
+        "es": "Dispone de boxes individuales de estancia y áreas exteriores para recreo tanto de perros como de gatos en el complejo de la Albufera.",
+        "en": "It features individual boarding chalets and outdoor run areas for dogs and cats within the Albufera natural reserve complex."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Cómo valoran los clientes la higiene y el cuidado durante la estancia?",
+        "en": "How do clients evaluate cleanliness and pet care during stays?"
+      },
+      "a": {
+        "es": "Las opiniones son muy contradictorias: hay valoraciones positivas por estancias breves pero también críticas graves sobre la higiene del alojamiento.",
+        "en": "Reviews are deeply divided: short stays receive positive comments, while other visitors report serious concerns regarding hygiene."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Se pueden alojar gatos en las instalaciones además de perros?",
+        "en": "Can cats be boarded at the facility alongside dogs?"
+      },
+      "a": {
+        "es": "Sí, el centro cuenta con módulos diferenciados para perros y para gatos con asistencia de cuidadores.",
+        "en": "Yes, the facility maintains separate accommodations for dogs and cats under staff supervision."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}
