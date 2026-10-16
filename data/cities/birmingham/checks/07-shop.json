@@ -1,0 +1,34 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "kings-heath-pet-centre",
+    "just-for-pets-northfield",
+    "just-for-pets-maypole",
+    "beacon-pet-aquarium",
+    "fur-family-pets-harborne",
+    "the-empawrium-sutton-coldfield",
+    "birds4u",
+    "pets-at-home-sheldon",
+    "pets-at-home-sutton-coldfield"
+  ],
+  "hash": "c0fa2721ba80d8cc22136acefbe5305447a00d0ea2225566bc87dc78daa87cae",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:29:07.665Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-16T11:34:11.752Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-16T11:34:41.020Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
