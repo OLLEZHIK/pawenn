@@ -1,0 +1,152 @@
+{
+  "slug": "maxi-zoo-lyon-confluence",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maxi+Zoo+Lyon+Confluence/data=!4m7!3m6!1s0x47f4eb3f10afc9cd:0xb50495888cfc6051!8m2!3d45.7415148!4d4.816015!16s%2Fg%2F11ms6wddv8!19sChIJzcmvED_r9EcRUWD8jIiVBLU?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Accueil souriant malgré quelques réserves",
+        "en": "Welcoming staff alongside mixed customer feedback"
+      },
+      "text": {
+        "fr": "Une majorité de clients met en avant l'énergie positive, la politesse et la patience des vendeurs au centre commercial Confluence, notamment lors d'incidents techniques. En revanche, un visiteur a déploré une présence jugée trop insistante du personnel dans les allées du magasin.",
+        "en": "A majority of shoppers commend the positive energy, friendliness, and patience of sales staff at the Confluence shopping centre, even during technical delays. However, one reviewer felt staff presence was somewhat overbearing, preferring more autonomy while browsing."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Boutique compacte au centre commercial Confluence",
+        "en": "Compact retail space in Confluence mall"
+      },
+      "text": {
+        "fr": "Situé au cours Charlemagne, le point de vente est apprécié pour sa praticité d'accès au sein du pôle de commerces. Plusieurs retours relèvent néanmoins une surface plus restreinte que les autres enseignes du réseau et un choix d'équipements qui paraît plus limité aux habitués.",
+        "en": "Located along Cours Charlemagne, the store is appreciated for its convenient access inside the commercial center. Several reviewers nevertheless note that the retail area is smaller than suburban brand outlets, resulting in a tighter selection of equipment and accessories."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Priorité aux chats et rayons rongeurs restreints",
+        "en": "Focus on felines alongside limited exotic options"
+      },
+      "text": {
+        "fr": "Si les maîtres de chatons et de chiens trouvent facilement nourriture et accessoires du quotidien, les propriétaires de nouveaux animaux de compagnie expriment leur déception. Les rayons manquent en effet d'articles et de jouets dédiés aux rongeurs et aux petits animaux exotiques.",
+        "en": "While cat and dog owners readily locate food and daily care essentials, keepers of small exotic animals express genuine disappointment. Shelves notably lack dedicated toys, bedding, and specialized items for chinchillas, rabbits, and other small companion pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le magasin propose-t-il le service Click and Collect ?",
+        "en": "Does the store offer Click and Collect service?"
+      },
+      "a": {
+        "fr": "Oui, les commandes passées en ligne peuvent être retirées gratuitement en boutique sous deux heures.",
+        "en": "Yes, online purchases can be collected free of charge at the store within two hours."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Trouve-t-on des accessoires pour animaux exotiques et chinchillas ?",
+        "en": "Are supplies available for chinchillas and exotic pets?"
+      },
+      "a": {
+        "fr": "L'assortiment pour animaux exotiques est très limité en rayon, l'enseigne se concentrant surtout sur les chiens et les chats.",
+        "en": "The in-store inventory for exotic animals is very limited, as the boutique primarily focuses on dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Où se situe exactement le magasin dans le quartier ?",
+        "en": "Where exactly is the store situated in the district?"
+      },
+      "a": {
+        "fr": "Il se trouve au sein du centre commercial Confluence, au 112 cours Charlemagne dans le 2e arrondissement.",
+        "en": "It is located inside the Confluence shopping center, at 112 Cours Charlemagne in Lyon's 2nd arrondissement."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
