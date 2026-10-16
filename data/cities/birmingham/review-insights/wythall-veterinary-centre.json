@@ -1,0 +1,128 @@
+{
+  "slug": "wythall-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wythall+Veterinary+Centre/data=!4m7!3m6!1s0x4870bf39c4c44d45:0x98cb3f8b4a32648e!8m2!3d52.3657789!4d-1.8882901!16s%2Fg%2F1th56fbc!19sChIJRU3ExDm_cEgRjmQySos_y5g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Supportive nursing alongside staff dissatisfaction"
+      },
+      "text": {
+        "en": "Longtime clients express heartfelt gratitude to dedicated nurses like Beth and the wider team for years of patient, unhurried care. Conversely, recent reviewers express sharp frustration over changes in practice culture, citing rude reception interactions and clinical encounters focused on costs rather than patient care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Criticism over clinical attention and diagnosis"
+      },
+      "text": {
+        "en": "While one pet parent fondly recalls sixteen years of kind treatment for their dog, recent feedback includes severe dissatisfaction regarding feline medical care. Critical reviews allege delayed heart diagnosis for a struggling cat and impersonal handling, prompting owners to move their pets to neighbouring surgeries."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Communication breakdowns during critical visits"
+      },
+      "text": {
+        "en": "Although bereavement support was praised for giving owners peace without pressure to rush, other clients reported deeply strained communication. Reviewers recount feeling dismissed during stressful appointments, citing abrupt front-desk dialogue and a lack of thorough explanation when addressing urgent symptoms."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Wythall Veterinary Centre located?"
+      },
+      "a": {
+        "en": "The practice is located on Alcester Road in Wythall, south of Birmingham B47."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic provide pet cardiology care?"
+      },
+      "a": {
+        "en": "Yes, the practice offers clinical cardiology referrals and consultations for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the nursing staff?"
+      },
+      "a": {
+        "en": "Reviewers warmly highlight the dedication and gentle nature of nurses who support families during difficult appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where are emergency veterinary cases referred out of hours?"
+      },
+      "a": {
+        "en": "Out-of-hours emergencies are covered through nearby Solihull Veterinary Hospital."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

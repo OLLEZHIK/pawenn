@@ -1,0 +1,163 @@
+{
+  "slug": "vets-for-pets-stechford",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vets+for+Pets+Stechford/data=!4m7!3m6!1s0x47df7c5af05a5a39:0xf08288b99e173fb3!8m2!3d52.486782!4d-1.8078852!16s%2Fg%2F11c2npgrr0!19sChIJOVpa8Fp830cRsz8XnrmIgvA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Praise for clinical staff beside reception disputes"
+      },
+      "text": {
+        "en": "Regular pet owners speak warmly of Dr Jules and team member Vicki, highlighting their empathy, professional knowledge, and comfort during pet loss. In contrast, several reviews strongly criticize front desk staff for perceived arrogance, indifference toward microchip checks, and unprofessional behaviour."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Kind pet treatment alongside empathy concerns"
+      },
+      "text": {
+        "en": "Multiple clients highlight the gentle, conscientious handling shown to family dogs and cats during clinical appointments. However, one volunteer reported a lack of empathy when bringing in an injured stray cat, stating the practice failed to prioritize the animal's distress."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Persistent telephone contact problems"
+      },
+      "text": {
+        "en": "Several reviewers express strong disappointment with unreachable telephone lines, noting that repeated calls for sick pets went unanswered for hours. Clients report discovering staff leaving handsets off the hook during training, prompting some owners to register elsewhere out of concern for emergency access."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Vets for Pets Stechford located?"
+      },
+      "a": {
+        "en": "The practice is situated inside the Pets at Home store along Flaxley Parkway in Stechford, Birmingham."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate telephone responsiveness?"
+      },
+      "a": {
+        "en": "Reviewers express frustration with phone responsiveness, citing long periods where calls went unanswered by reception."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are staff supportive during pet bereavement?"
+      },
+      "a": {
+        "en": "Yes, reviewers specifically thank team members for their kindness, compassion, and emotional support during difficult pet losses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What clinical care is provided at the Stechford branch?"
+      },
+      "a": {
+        "en": "The centre offers general veterinary examinations, vaccinations, health monitoring, microchipping, and prescription medications."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
