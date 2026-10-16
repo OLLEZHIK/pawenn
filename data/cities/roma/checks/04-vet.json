@@ -2,18 +2,13 @@
   "chunk": "04-vet",
   "kind": "places",
   "slugs": [
-    "veterinario-green-vet",
-    "veterinaria-caffarella-ambulatorio-veterinario",
-    "ambulatorio-veterinario-croce-amerio-e-croce-veronica",
     "veterinaria-italo-svevo-s-r-l",
     "romavet",
     "poliambulatorio-veterinario-eur",
-    "clinica-veterinaria-cassia",
-    "ambulatorio-veterinario",
     "clinica-veterinaria-prima-porta",
     "clinica-veterinaria-portuense"
   ],
-  "hash": "d913ece61960a0f651de87253038f089656f0967d8072c185af9a76ac92e9a3f",
+  "hash": "58156cee02d798b326e51058122855d5d5b404202cf982f35f8ffae71f51f5fd",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +18,11 @@
     },
     {
       "at": "2026-10-11T21:03:34.477Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:39:17.360Z",
       "result": "PASS",
       "listed": 0
     }
