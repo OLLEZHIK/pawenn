@@ -1,0 +1,169 @@
+{
+  "slug": "hello-vet-clapton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hello+Vet+Clapton/data=!4m7!3m6!1s0x48761d904d1e0d31:0x1847a705fb81d894!8m2!3d51.5517721!4d-0.0437493!16s%2Fg%2F11wh5j8x2d!19sChIJMQ0eTZAddkgRlNiB-wWnRxg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful and compassionate veterinary clinicians"
+      },
+      "text": {
+        "en": "Pet owners praise the veterinary surgeons and reception staff at the Clarence Road clinic for their warm and reassuring consultations. Reviewers mention that Dr Holly and the nursing team listen attentively to clinical worries and explain diagnostic options in plain terms. Clients highlight that the welcoming front desk creates a comfortable atmosphere during visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on practice communication"
+      },
+      "text": {
+        "en": "Most clients praise the practice for quick appointment booking, responsive WhatsApp contact, and accommodating emergency slots when pets fall ill. However, one caller expressed disappointment after being told that an injured stray cat could not be examined without formal registration and consultation fees. Most pet owners find general clinic communication clear and helpful."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Comforting care for domestic pets"
+      },
+      "text": {
+        "en": "Clients note that veterinarians and nurses make conscious efforts to keep dogs and cats relaxed during clinic examinations. Reviewers mention that complimentary dog treats in the reception room help anxious pets look forward to appointments. Owners of nervous cats also appreciate the calm, compassionate manner shown by clinicians during end-of-life visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can emergency pet appointments be booked at Hello Vet Clapton?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that emergency appointments were arranged quickly when their pets fell suddenly unwell."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the policy regarding bringing in injured stray animals?"
+      },
+      "a": {
+        "en": "A reviewer noted that the practice required formal client registration and a consultation fee before examining an injured stray animal."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the clinic atmosphere suitable for nervous pets?"
+      },
+      "a": {
+        "en": "Yes, clients highlight a calm waiting area, friendly reception staff, and complimentary treats that help settle anxious dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate veterinary fees at Hello Vet Clapton?"
+      },
+      "a": {
+        "en": "Reviewers describe fees as slightly higher than average but feel the attentive service and welcoming facilities justify the cost."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    }
+  ]
+}
