@@ -4,40 +4,18 @@
   "google_maps_url": "https://www.google.com/maps/place/Ballygarvan+Kennels+%26+Grooming/data=!4m7!3m6!1s0x48448f2102ce27d5:0x4620b8ece65a621e!8m2!3d51.8184717!4d-8.4849422!16s%2Fg%2F119vw5drn!19sChIJ1SfOAiGPREgRHmJa5uy4IEY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
   "period_from": "2024-10-16",
   "period_to": "2026-10-16",
-  "reviews_in_period": 3,
+  "reviews_in_period": 2,
   "observed_at": "2026-10-16",
   "cards": [
     {
       "topic": "staff",
       "sentiment": "positive",
-      "mentions": 3,
-      "title": {
-        "en": "Warmth and dedication of the kennel team"
-      },
-      "text": {
-        "en": "Reviewers consistently describe the staff as warm, caring and genuinely devoted to the animals in their care. One owner notes that their dog has returned happily for fourteen years and is treated like family. Another highlights friendly, communicative handlers, and a third mentions Irene by name as someone dogs eagerly respond to."
-      }
-    },
-    {
-      "topic": "animals",
-      "sentiment": "positive",
-      "mentions": 3,
-      "title": {
-        "en": "Dogs' wellbeing and enjoyment during stays"
-      },
-      "text": {
-        "en": "All three reviewers comment on the positive impact boarding has on their dogs. Pets are described as visibly happy and tired out after their stay, and one long-term client notes their dog becomes excited at the prospect of going back. The overall impression is that animals are well exercised and content throughout their time at the kennels."
-      }
-    },
-    {
-      "topic": "place",
-      "sentiment": "positive",
       "mentions": 2,
       "title": {
-        "en": "Drop-off and collection experience"
+        "en": "Warmth and professionalism of the kennel team"
       },
       "text": {
-        "en": "Clients find the drop-off and pick-up process straightforward and pleasant. One reviewer specifically praises easy handover logistics and good communication, while another describes the transition from arrival to departure as smooth and reassuring for owners."
+        "en": "Both reviewers within the period single out the staff as the defining strength of the kennels. One long-term client, whose dog has boarded there for fourteen years, says the team treats pets like family and would not consider going elsewhere. The other praises clear, friendly communication and the ease of every drop-off and collection."
       }
     }
   ],
@@ -47,25 +25,25 @@
         "en": "Are dogs happy at Ballygarvan Kennels & Grooming?"
       },
       "a": {
-        "en": "Reviewers consistently report that their dogs are content and enthusiastic about visits, with one client returning for fourteen years."
+        "en": "Reviewers describe their dogs as content and enthusiastic about visiting, with one client returning regularly for fourteen years."
       },
       "basis": "reviews"
     },
     {
       "q": {
-        "en": "How is the drop-off and pick-up process?"
+        "en": "How is communication with the kennel team?"
       },
       "a": {
-        "en": "Clients describe it as easy and well organised, with clear communication from staff throughout."
+        "en": "Clients highlight clear, friendly communication and a smooth, easy experience at drop-off and collection."
       },
       "basis": "reviews"
     },
     {
       "q": {
-        "en": "Is the kennel suitable for long-term boarding clients?"
+        "en": "Is this kennel suitable for long-term and repeat clients?"
       },
       "a": {
-        "en": "Yes — at least one reviewer has been bringing their dog there for fourteen years, indicating consistent satisfaction over an extended period."
+        "en": "Yes — at least one reviewer has trusted the kennels with their dog for fourteen years, indicating consistently high satisfaction."
       },
       "basis": "reviews"
     }
@@ -86,16 +64,6 @@
       "stars": 5,
       "topics": {
         "staff": "+",
-        "place": "+"
-      }
-    },
-    {
-      "ago": "2 years ago",
-      "months": 24,
-      "stars": 5,
-      "topics": {
-        "staff": "+",
-        "animals": "+",
         "place": "+"
       }
     }
