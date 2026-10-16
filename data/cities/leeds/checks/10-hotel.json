@@ -1,0 +1,27 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "carlton-boarding-kennels",
+    "laburnum-kennels",
+    "hartley-wood-boarding-kennels",
+    "greengates-boarding-cattery",
+    "bunny-spoilers",
+    "happy-hound-haven",
+    "crystal-spring"
+  ],
+  "hash": "8db6f4c2b02fb5d48a79010c8f3f7206c7cebbc25c838a2228f135ca19fead8c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T12:03:34.692Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-16T12:20:04.288Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
