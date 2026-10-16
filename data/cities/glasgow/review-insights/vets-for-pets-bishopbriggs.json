@@ -1,0 +1,146 @@
+{
+  "slug": "vets-for-pets-bishopbriggs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vets+for+Pets+-+Bishopbriggs/data=!4m7!3m6!1s0x4888436dc6a2a30f:0xdd2005cf51b5058d!8m2!3d55.9205233!4d-4.2084584!16s%2Fg%2F11b5pjf12k!19sChIJD6Oixm1DiEgRjQW1Uc8FIN0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Mixed reception regarding team conduct"
+      },
+      "text": {
+        "en": "Reviews reflect sharply divided impressions of the practice staff. While some clients praise friendly receptionists and gentle vets who explain procedures thoroughly, other pet owners strongly criticise administrative disputes, feeling dismissed or unwelcome when raising queries at the desk."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Disputed standards of pet care"
+      },
+      "text": {
+        "en": "Opinions on animal handling and clinical attention vary considerably. Although one owner found the veterinary team gentle with their pets during routine check-ups, critical reviewers caution against using the clinic, warning that the practice feels overly commercialized rather than pet-focused."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied responsiveness to client feedback"
+      },
+      "text": {
+        "en": "Client communication experiences show significant differences. While some pet owners report helpful telephone advice and clear test explanations, others describe severe friction when offering feedback to reception staff, citing rigid responses from branch management when handling concerns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the clinic conveniently located for pet supplies?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the practice is situated inside the Pets at Home store, making it easy to purchase pet food, treats, and accessories alongside veterinary appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are routine preventative care plans available?"
+      },
+      "a": {
+        "en": "Pet owners report using the practice's healthcare plan to spread the cost of routine vaccinations, parasite control, and regular veterinary check-ups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate communication with reception?"
+      },
+      "a": {
+        "en": "Feedback is mixed: several clients describe helpful and welcoming receptionists, whereas other reviewers experienced difficulty resolving disputes or communicating feedback."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

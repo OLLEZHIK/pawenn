@@ -1,0 +1,112 @@
+{
+  "slug": "the-groom-room-glasgow-pollokshaws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Groom+Room+Glasgow+Pollokshaws/data=!4m7!3m6!1s0x4888464befee59a1:0x7b3cb614537849fa!8m2!3d55.8209312!4d-4.2966011!16s%2Fg%2F11d_yspmvp!19sChIJoVnu70tGiEgR-kl4UxS2PHs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Courteous and attentive salon groomers"
+      },
+      "text": {
+        "en": "Most reviewers praise the salon team for their friendly approach and professional conduct with pets. Dog owners highlight how patient staff are during quick walk-in treatments like nail trims, though one client noted that new personnel did not follow specific styling requests."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Varied opinions on coat styling"
+      },
+      "text": {
+        "en": "Feedback regarding grooming outcomes is split between satisfied returning customers and disappointed pet owners. While one regular reviewer notes their dog consistently looks excellent after full grooms, another client reported receiving an uneven haircut following staff changes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Handling of anxious and sensitive pets"
+      },
+      "text": {
+        "en": "Reviews reflect mixed experiences with pet comfort during grooming. An owner of a nervous whippet commended the team for gently finishing a nail clip without distress, while another reviewer noted that their pet appeared noticeably stressed following a recent haircut session."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the salon handle nervous dogs?"
+      },
+      "a": {
+        "en": "Clients report that staff can manage anxious pets well for quick procedures like nail trims, though experiences during extensive haircuts have varied across different groomers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in nail trims available?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention having nail trims completed quickly in around five minutes, making maintenance visits straightforward and efficient."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can groomers accommodate specific breed styling requests?"
+      },
+      "a": {
+        "en": "While many visitors are pleased with the final coat appearance, some clients advise giving very clear styling instructions following recent changes in the salon team."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
