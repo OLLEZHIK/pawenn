@@ -21,6 +21,7 @@ import { cs } from "./dictionaries/cs";
 import { de } from "./dictionaries/de";
 import { fr } from "./dictionaries/fr";
 import { it } from "./dictionaries/it";
+import { es } from "./dictionaries/es";
 
 export { LOCALES, DEFAULT_LOCALE, isLocale, localePath, plural, type Locale } from "./locales";
 export type { Dictionary };
@@ -55,7 +56,7 @@ export function inCity(locale: Locale, city: CityPhrases): string {
   return locale === "en" ? `in ${city.name}` : `– ${city.name}`;
 }
 
-const DICTIONARIES: Record<Locale, Dictionary> = { en, sk, pl, cs, de, fr, it };
+const DICTIONARIES: Record<Locale, Dictionary> = { en, sk, pl, cs, de, fr, it, es };
 
 export function getDictionary(locale: Locale): Dictionary {
   return DICTIONARIES[locale];

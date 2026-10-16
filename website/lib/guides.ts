@@ -28,7 +28,7 @@ import type { BusinessCategory } from "@prisma/client";
 import type { Locale } from "./i18n";
 import { plural } from "./locales";
 
-export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide" };
+export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide", es: "guias" };
 
 export const GUIDE_TEXT: Record<
   Locale,
@@ -68,6 +68,18 @@ export const GUIDE_TEXT: Record<
     priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? "attività" : "attività"})`,
     pricesLink: "Tutti i prezzi",
     nav: "Guide",
+  },
+  es: {
+    hubTitle: "Guías para dueños de mascotas | Pawenn",
+    hubH1: "Guías para dueños de mascotas",
+    hubIntro: "Normas, plazos y precios sobre los que preguntan los dueños de mascotas: cada dato con su fuente oficial.",
+    sources: "Fuentes",
+    updated: "Actualizado",
+    related: "Conviene saber",
+    home: "Inicio",
+    priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? "negocio" : "negocios"})`,
+    pricesLink: "Todos los precios",
+    nav: "Guías",
   },
   sk: {
     hubTitle: "Poradňa pre majiteľov zvierat | Pawenn",
