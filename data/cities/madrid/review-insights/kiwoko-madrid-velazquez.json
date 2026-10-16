@@ -1,0 +1,176 @@
+{
+  "slug": "kiwoko-madrid-velazquez",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kiwoko.+Mundo+Animal/data=!4m7!3m6!1s0xd4229398f19fd29:0x7458ab55814f3431!8m2!3d40.439811!4d-3.682568!16s%2Fg%2F11swzq4mjb!19sChIJKf0ZjzkpQg0RMTRPgVWrWHQ?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "es": "Espacio amplio con reformas temporales",
+        "en": "Spacious store undergoing store updates"
+      },
+      "text": {
+        "es": "Los clientes aprecian la amplitud del local en la calle Velázquez en Chamartín y su variada oferta de artículos para animales. Sin embargo, varias reseñas recientes expresan descontento por obras de reforma en curso, cierto desorden y la retirada del área de venta de peces.",
+        "en": "Customers value the large space on Calle Velázquez in Chamartín and its wide inventory of pet merchandise. However, recent reviews express dissatisfaction regarding ongoing store refurbishment, occasional disarray in the aisles, and the discontinuation of the fish section."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Atención amable y soporte presencial",
+        "en": "Friendly service and in-person assistance"
+      },
+      "text": {
+        "es": "La mayoría de las valoraciones positivas subraya la disposición amable y atenta del personal de la tienda. Los compradores agradecen las respuestas comerciales respetuosas y la voluntad de los dependientes para orientar sobre alternativas de alimentación y accesorios para sus mascotas.",
+        "en": "Most positive reviews emphasize the courteous and supportive attitude of the store staff. Shoppers appreciate polite in-store guidance and the assistants' willingness to help identify suitable food alternatives and everyday accessories for dogs and cats."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Avisos insuficientes sobre cambios operativos",
+        "en": "Insufficient notice on service changes"
+      },
+      "text": {
+        "es": "Varios usuarios manifiestan su malestar por la falta de información anticipada en la web sobre horarios y servicios. Critican haber encontrado la tienda cerrada antes de la hora anunciada o acudir sin saber que la peluquería canina y los peces no estaban operativos en ese momento.",
+        "en": "Several customers express frustration regarding the lack of updated online notices about store schedules and services. Reviewers criticize arriving to find doors closed earlier than published hours or discovering that grooming and fish sales were temporarily unavailable."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué catálogo de productos ofrece la tienda de Velázquez?",
+        "en": "What products are stocked at the Velázquez branch?"
+      },
+      "a": {
+        "es": "Cuenta con un amplio espacio con piensos de diversas gamas, snacks, camas, arneses y productos de aseo para mascotas.",
+        "en": "It features a large retail area with various food brands, treats, beds, harnesses, and pet hygiene supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Está operativa la peluquería canina en esta tienda?",
+        "en": "Is the dog grooming salon currently operating?"
+      },
+      "a": {
+        "es": "Reseñas recientes señalan que el servicio estuvo suspendido temporalmente por reformas en el local.",
+        "en": "Recent reviews note that grooming services were temporarily suspended due to remodeling work inside the store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿A qué hora cierra la tienda según los clientes?",
+        "en": "What do reviews mention regarding closing hours?"
+      },
+      "a": {
+        "es": "Aunque el horario oficial fija el cierre por la noche, algunos usuarios recomiendan no apurar la última hora por cierres adelantados.",
+        "en": "While official hours indicate evening closing, some customers suggest arriving well before closing to avoid early lockups."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    }
+  ]
+}
