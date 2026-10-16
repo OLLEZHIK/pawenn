@@ -1,0 +1,150 @@
+{
+  "slug": "centro-veterinario-aleandri",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterinario+Aleandri/data=!4m7!3m6!1s0x13258a9fbad3957f:0x2225fe5721dc528d!8m2!3d41.8693912!4d12.4630247!16s%2Fg%2F1hhxm3971!19sChIJf5XTup-KJRMRjVLcIVf-JSI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "it": "Relazione col pubblico e comunicazioni",
+        "en": "Public relations and clinic notices"
+      },
+      "text": {
+        "it": "I proprietari storici apprezzano la profonda empatia e la trasparenza che emergono nel rapporto prolungato con il dottor Aleandri. Al contempo, il profilo pubblico ha registrato segnalazioni della clinica relative a recensioni anomale comparse durante un periodo di chiusura estiva, generando un quadro comunicativo eterogeneo.",
+        "en": "Longtime clients praise the quiet empathy and transparency that characterize ongoing interactions with Dr. Aleandri. At the same time, the clinic's public profile contains formal notices addressing anomalous reviews submitted while closed for summer vacation, presenting a mixed picture in recent feedback."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Rigore professionale e competenza clinica",
+        "en": "Professional rigor and clinical competence"
+      },
+      "text": {
+        "it": "Nel quartiere Portuense, il dottor Aleandri è descritto come un professionista di assoluta serietà, precisione e puntualità. Nonostante un carattere riservato, chi frequenta lo studio evidenzia una dedizione costante alla salute degli animali e una rara competenza maturata in anni di attività medica qualificata.",
+        "en": "In the Portuense district, Dr. Aleandri is characterized as a dedicated professional known for meticulous precision and punctuality. Despite a reserved demeanor, regular visitors highlight steadfast commitment to animal health and dependable competence developed across years of qualified veterinary care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Continuità delle cure e diagnosi",
+        "en": "Continuity of care and diagnostic trust"
+      },
+      "text": {
+        "it": "I clienti esprimono grande riconoscenza per l'efficacia dei piani sanitari e la delicatezza dimostrata anche nelle fasi terminali della vita degli animali. La capacità di accompagnare le famiglie per oltre un decennio con visite accurate e riscontri affidabili rende la struttura un punto di riferimento.",
+        "en": "Clients express sincere gratitude for effective medical pathways and gentle support provided even during the final stages of a companion animal's life. Accompanying families for over a decade with precise examinations and dependable health outcomes establishes strong diagnostic trust among pet guardians."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Come viene gestita la prenotazione delle visite presso lo studio?",
+        "en": "How are appointments scheduled at the veterinary surgery?"
+      },
+      "a": {
+        "it": "Le visite cliniche si svolgono su appuntamento concordato, garantendo puntualità e tempi adeguati per ogni paziente.",
+        "en": "Clinical appointments are arranged by scheduled booking, ensuring punctuality and sufficient time for each patient."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il centro veterinario offre continuità di cura per percorsi a lungo termine?",
+        "en": "Does the veterinary clinic offer long-term continuous pet care?"
+      },
+      "a": {
+        "it": "Sì, diversi proprietari riferiscono di affidarsi al dottor Aleandri con fiducia da oltre dieci o tredici anni.",
+        "en": "Yes, several pet owners report entrusting their companion pets to Dr. Aleandri continuously for over ten to thirteen years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali prestazioni chirurgiche e ambulatoriali sono eseguite?",
+        "en": "What surgical and outpatient medical procedures are available?"
+      },
+      "a": {
+        "it": "La struttura esegue interventi di chirurgia dei tessuti molli, profilassi vaccinale e diagnostica di laboratorio.",
+        "en": "The clinic provides soft-tissue surgery, routine vaccinations, and laboratory diagnostics for companion animals."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
