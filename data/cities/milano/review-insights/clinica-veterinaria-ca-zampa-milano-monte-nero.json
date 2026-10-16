@@ -1,0 +1,134 @@
+{
+  "slug": "clinica-veterinaria-ca-zampa-milano-monte-nero",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Ca%27+Zampa+Milano+Monte+Nero/data=!4m7!3m6!1s0x4786c5579d953b11:0x15ace893ed1becf!8m2!3d45.4550947!4d9.2039733!16s%2Fg%2F11np7wmjrm!19sChIJETuVnVfFhkcRz77RPonOWgE?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Opinioni contrastanti sul personale",
+        "en": "Contrasting opinions on clinic staff"
+      },
+      "text": {
+        "it": "Le opinioni sullo staff sono nettamente polarizzate: alcuni clienti lodano la gentilezza e l'accoglienza del personale di reception, dei veterinari e dei toelettatori, mentre altri lamentano atteggiamenti sbrigativi o poco trasparenti durante le visite e nella gestione dei servizi di toelettatura.",
+        "en": "Opinions regarding the team are markedly polarized: several clients commend the kindness and courtesy of receptionists, veterinarians, and groomers, while others report hurried consultations and unsatisfactory interactions when handling specialized grooming requests or diagnostic queries."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Chiarezza nelle spiegazioni e trasparenza",
+        "en": "Clarity of explanations and transparency"
+      },
+      "text": {
+        "it": "Alcuni utenti apprezzano il tono collaborativo e le rassicurazioni ricevute, ma emergono severe critiche riguardo alla chiarezza delle diagnosi e alla trasparenza sui costi extra applicati senza adeguato preavviso, lasciando talvolta i proprietari privi di risposte esaustive.",
+        "en": "Some visitors value the courteous communication and reassuring guidance, yet noticeable criticism highlights lack of thorough diagnostic explanations and sudden surcharges added to services without clear prior consultation, leaving certain owners frustrated by unaddressed questions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "it": "Critiche su diagnosi e toelettatura",
+        "en": "Criticism on diagnoses and grooming results"
+      },
+      "text": {
+        "it": "Sebbene un utente segnali un ottimo risultato estetico per il proprio cane, prevalgono riscontri critici sulla qualità complessiva delle prestazioni: vengono segnalate diagnosi ritenute errate dopo visite molto brevi e tagli di pelo disomogenei nel reparto di toelettatura.",
+        "en": "While one pet owner reports a very satisfying aesthetic outcome for their dog, critical reviews predominate regarding service standards: testimonials report inaccurate clinical diagnoses following brief visits as well as uneven coat clipping during grooming treatments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica offre anche servizi di toelettatura?",
+        "en": "Does the facility offer pet grooming services on site?"
+      },
+      "a": {
+        "it": "Sì, la struttura integra servizi veterinari e toelettatura, anche se le valutazioni su questo reparto risultano contrastanti.",
+        "en": "Yes, the clinic combines veterinary and grooming services, though customer feedback on grooming shows varied experiences."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono giudicate le spiegazioni fornite dai veterinari?",
+        "en": "How do visitors evaluate veterinary explanations and diagnosis clarity?"
+      },
+      "a": {
+        "it": "I pareri sono discordi: mentre alcuni utenti si dicono soddisfatti, altri ritengono le visite troppo brevi per chiarire i sintomi.",
+        "en": "Opinions vary: while some clients are satisfied, others consider certain consultations too brief to adequately address symptoms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Sono previsti supplementi per nodi o trattamenti particolari di toelettatura?",
+        "en": "Are there additional charges for knot removal or specific grooming needs?"
+      },
+      "a": {
+        "it": "I clienti segnalano che possono essere richiesti costi aggiuntivi in base allo stato del pelo dell'animale.",
+        "en": "Clients note that extra fees may be applied depending on the coat condition and presence of tangles."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

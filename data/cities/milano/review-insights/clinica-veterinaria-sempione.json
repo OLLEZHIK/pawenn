@@ -1,0 +1,152 @@
+{
+  "slug": "clinica-veterinaria-sempione",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterinaria+Sempione/data=!4m7!3m6!1s0x4786c12332fe709d:0xea972f0560c24c61!8m2!3d45.488163!4d9.1716758!16s%2Fg%2F1tgy_ghq!19sChIJnXD-MiPBhkcRYUzCYAUvl-o?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "it": "Forti critiche e pareri contrastanti sui medici",
+        "en": "Strong criticism and mixed views on veterinarians"
+      },
+      "text": {
+        "it": "Mentre alcuni proprietari ringraziano medici specifici per la loro umanità e disponibilità, il quadro complessivo è segnato da frequenti lamentele. I clienti insoddisfatti denunciano superficialità, atteggiamenti frettolosi e presunta arroganza nella gestione di patologie serie e casi d'urgenza.",
+        "en": "While certain pet owners praise individual clinicians for warmth and helpfulness, the overall sentiment reflects frequent complaints. Dissatisfied clients point out perceived superficiality, rushed consultations, and dismissive attitudes during urgent cases or serious chronic illnesses."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "it": "Difficoltà di dialogo e risposte mancate",
+        "en": "Dialogue challenges and unanswered messages"
+      },
+      "text": {
+        "it": "Molte recensioni criticano severamente la comunicazione: si segnalano messaggi ignorati durante le terapie domiciliari, spiegazioni sbrigative e risposte poco empatiche alle preoccupazioni dei proprietari, che si sono sentiti poco supportati nel percorso terapeutico dei loro animali.",
+        "en": "Multiple reviews critically highlight communication lapses: pet guardians report unreturned messages during at-home treatments, brief explanations, and lack of empathy toward owner concerns, leaving several clients feeling insufficiently guided throughout their animal's therapy."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "it": "Esiti clinici e diagnosi tardive contestate",
+        "en": "Contested clinical outcomes and late diagnoses"
+      },
+      "text": {
+        "it": "I clienti insoddisfatti riportano problemi rilevanti negli esiti sanitari, lamentando diagnosi tardive o mancate in casi gravi, come patologie dentali trascurate o complicazioni post-operatorie. Solo una testimonianza riferisce un supporto adeguato e dignitoso per un gatto in condizioni critiche.",
+        "en": "Unsatisfied clients describe substantial setbacks in clinical outcomes, pointing to delayed or overlooked diagnoses in severe conditions, including unaddressed periodontal disease or surgical complications. Only one review highlights dignified and compassionate care for a critically ill cat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La clinica segue casi clinici urgenti o complessi?",
+        "en": "Does the clinic accept urgent or complicated clinical cases?"
+      },
+      "a": {
+        "it": "La struttura gestisce emergenze, anche se le opinioni recenti dei clienti segnalano esperienze profondamente discordanti sulla gestione clinica.",
+        "en": "The facility handles emergency situations, although recent customer reviews indicate sharply mixed experiences with clinical management."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "I veterinari forniscono supporto telefonico durante le terapie?",
+        "en": "Do veterinarians offer phone follow-ups during ongoing home treatments?"
+      },
+      "a": {
+        "it": "Diversi utenti lamentano difficoltà nel ricontattare i medici e tempi di risposta lunghi per messaggi sullo stato di salute degli animali.",
+        "en": "Several clients report difficulty getting in touch with doctors and delayed responses to messages concerning ongoing patient status."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Sono disponibili esami diagnostici avanzati presso la struttura?",
+        "en": "Are advanced diagnostic tests available at the clinic?"
+      },
+      "a": {
+        "it": "Le recensioni confermano la disponibilità di accertamenti diagnostici approfonditi e proposte di diagnostica per immagini.",
+        "en": "Reviews mention the availability of advanced diagnostic examinations and proposals for diagnostic imaging."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

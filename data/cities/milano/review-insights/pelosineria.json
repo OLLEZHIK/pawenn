@@ -1,0 +1,143 @@
+{
+  "slug": "pelosineria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pelosineria/data=!4m7!3m6!1s0x4786c381fb356a1f:0xcd2a247bece070dd!8m2!3d45.4417855!4d9.1540896!16s%2Fg%2F11ycdhsxqz!19sChIJH2o1-4HDhkcR3XDg7HskKs0?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Dolcezza e disponibilità della titolare Gaia",
+        "en": "Gentleness and helpfulness of owner Gaia"
+      },
+      "text": {
+        "it": "La titolare Gaia conquista i clienti per la sua straordinaria empatia, gentilezza e professionalità. Sempre attenta alle richieste dei proprietari e al benessere dell'animale, sa accogliere ogni cane con un approccio calmo e rassicurante, creando sin dal primo momento un clima di piena fiducia.",
+        "en": "Proprietor Gaia wins over pet owners with her remarkable empathy, warmth, and professionalism. Always attentive to client requests and animal welfare, she welcomes every dog with a calm, reassuring approach that establishes immediate confidence right from the start."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Pazienza con cuccioli e cani timidi",
+        "en": "Patience with puppies and timid dogs"
+      },
+      "text": {
+        "it": "I proprietari apprezzano la grande delicatezza dimostrata con cuccioli di pochi mesi e cani timorosi o diffidenti verso la manipolazione. Grazie alla calma di Gaia, gli animali vivono la toelettatura senza stress, uscendo dal negozio sereni e rilassati dopo il trattamento.",
+        "en": "Pet guardians appreciate the gentle care shown to young puppies and dogs that feel uneasy during handling. Thanks to Gaia's reassuring calmness, animals experience grooming sessions without distress, leaving the salon relaxed, happy, and confident after their visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Toelettatura impeccabile e pelo profumato",
+        "en": "Impeccable grooming and fragrant coats"
+      },
+      "text": {
+        "it": "I riscontri evidenziano tagli eseguiti con cura, mantelli morbidi, puliti e gradevolmente profumati. Che si tratti di barboncini o di toelettature complete su taglie diverse, i clienti si dichiarano entusiasti della precisione del lavoro e della tenuta del risultato estetico.",
+        "en": "Feedback emphasizes neatly executed cuts along with clean, soft, and beautifully scented coats. Whether handling poodles or providing full grooming for mixed breeds, clients express genuine enthusiasm for the precision of the styling and the lasting aesthetic quality."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La toelettatura accoglie anche cuccioli alla prima esperienza?",
+        "en": "Does the salon welcome puppies for their first grooming session?"
+      },
+      "a": {
+        "it": "Sì, la struttura è specializzata nell'introdurre con dolcezza i cuccioli alla toelettatura, evitando stress e timori.",
+        "en": "Yes, the salon gently introduces young puppies to grooming routines, ensuring a calm and stress-free first experience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono gestiti i cani poco abituati a farsi maneggiare?",
+        "en": "How are dogs that dislike being handled managed during sessions?"
+      },
+      "a": {
+        "it": "Gaia adotta tecniche pazienti e rassicuranti che mettono a proprio agio anche gli animali più diffidenti.",
+        "en": "Gaia employs patient, calming techniques designed to comfort even hesitant or sensitive dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Il negozio offre servizi completi di bagno e taglio?",
+        "en": "Does the shop offer comprehensive bathing and clipping services?"
+      },
+      "a": {
+        "it": "I clienti confermano trattamenti completi comprendenti lavaggio accurato, taglio a forbice, snodatura e pulizia igienica.",
+        "en": "Clients confirm comprehensive grooming packages including thorough washes, scissor trims, dematting, and hygiene care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "21 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
