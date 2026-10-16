@@ -1,0 +1,143 @@
+{
+  "slug": "crystal-spring",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Crystal+Spring/data=!4m7!3m6!1s0x48795f9d91f38517:0xfba0739c08c1fbb8!8m2!3d53.7687009!4d-1.636314!16s%2Fg%2F1tywxgnn!19sChIJF4XzkZ1feUgRuPvBCJxzoPs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive care for visiting pets"
+      },
+      "text": {
+        "en": "Most dog owners mention that their pets settle into the kennels comfortably and receive attentive everyday supervision from the team. Repeat visitors note that even timid dogs remember the facility calmly. However, one owner reported that their dog suffered unaddressed ear abrasions during a multi-day stay."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Family management with varied feedback"
+      },
+      "text": {
+        "en": "Longtime clients speak highly of the two sisters who run the boarding facility, describing warm interactions and committed assistance over many years. Regular visitors appreciate their dedication to animal welfare. In contrast, one reviewer was dissatisfied with communication when a health issue arose during boarding."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Boarding outcomes and pet condition"
+      },
+      "text": {
+        "en": "Several clients report that their dogs return home lively, content, and well exercised after short or extended kennel stays. Families appreciate seeing their pets happy upon collection. Conversely, one client observed skin wounds and irritation on their pet following a four-day booking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners receive photo updates during boarding?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff can send pictures and status updates upon request while pets stay at the kennels."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Who manages the kennel facility?"
+      },
+      "a": {
+        "en": "Reviewers mention that the kennels are family-run by two sisters who oversee everyday supervision."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do timid dogs handle stays at Crystal Spring?"
+      },
+      "a": {
+        "en": "Pet owners report that shy or nervous dogs settle in well after an initial adjustment period and recognize staff on return visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs required to have routine vaccinations before boarding?"
+      },
+      "a": {
+        "en": "Standard kennel regulations require up-to-date vaccinations including kennel cough protection prior to arrival."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
