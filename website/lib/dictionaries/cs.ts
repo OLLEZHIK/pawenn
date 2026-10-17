@@ -278,6 +278,7 @@ export const cs: Dictionary = {
       `${n} ${plural("cs", n, { one: "výsledek", few: "výsledky", many: "výsledků", other: "výsledků" })}`,
     seeAll: (label: string, n: number) => `Vše: ${label.toLowerCase()} (${n})`,
     showAll: (n: number) => `Zobrazit všechny (${n})`,
+    pagination: { label: "Stránky", page: (n: number) => `Strana ${n}`, prev: "Předchozí strana", next: "Další strana", showing: (from: number, to: number, total: number) => `Zobrazeno ${from}–${to} z ${total}` },
     fairTurn: "pořadí se mění každý den, aby měl každý stejnou šanci",
     nearest: "nejbližší nahoře",
     sortLabel: "Seřadit",

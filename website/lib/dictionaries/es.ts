@@ -245,6 +245,7 @@ export const es: Dictionary = {
     results: (n: number) => `${n} ${plural("es", n, { one: "resultado", other: "resultados" })}`,
     seeAll: (label: string, n: number) => `Todos: ${label.toLowerCase()} (${n})`,
     showAll: (n: number) => `Mostrar todos (${n})`,
+    pagination: { label: "Páginas", page: (n: number) => `Página ${n}`, prev: "Página anterior", next: "Página siguiente", showing: (from: number, to: number, total: number) => `Mostrando ${from}–${to} de ${total}` },
     fairTurn: "el orden cambia a diario para dar la misma visibilidad a todos",
     nearest: "más cercanos primero",
     sortLabel: "Ordenar",
