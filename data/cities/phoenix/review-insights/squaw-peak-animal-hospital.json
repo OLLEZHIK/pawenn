@@ -1,0 +1,147 @@
+{
+  "slug": "squaw-peak-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Squaw+Peak+Animal+Hospital/data=!4m7!3m6!1s0x872b0d3097bcc2af:0x773e8a0a664e86c0!8m2!3d33.5313114!4d-112.0135088!16s%2Fg%2F1tgz1197!19sChIJr8K8lzANK4cRwIZOZgqKPnc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated clinicians and supportive assistants"
+      },
+      "text": {
+        "en": "Long-standing clients commend the veterinary team for their compassionate and attentive care during routine visits and difficult emergencies. Multiple reviewers express gratitude for clinicians who show genuine empathy when managing complex illnesses or end-of-life decisions. One client felt a brief consultation lacked personal attention, but overall sentiment remains firmly positive."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt surgical intervention and breed expertise"
+      },
+      "text": {
+        "en": "Pet parents highlight the clinical proficiency of the practice, particularly for rapid surgical interventions and specialised care for flat-faced breeds. Reviewers recount life-saving emergency airway operations and fast surgical recoveries for conditions such as cherry eye. Owners express strong confidence in the diagnostic and surgical capabilities of the veterinary staff."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clinical updates and consultation clarity"
+      },
+      "text": {
+        "en": "Experiences with veterinary communication show some variation among visitors. Clients dealing with critical procedures praise the surgeon for keeping families informed throughout operations and guiding postoperative transfers. Conversely, one pet owner felt a diagnostic consultation was rushed and insufficiently explained prior to billing, reflecting contrasting experiences."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital have expertise in treating flat-faced dog breeds?"
+      },
+      "a": {
+        "en": "Yes, pet owners strongly recommend the clinic for French Bulldogs and other brachycephalic breeds prone to airway issues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the veterinary team perform urgent surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, reviewers report successful emergency airway surgeries and ophthalmic procedures performed without delay."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic consultation fees charged for brief visits?"
+      },
+      "a": {
+        "en": "Yes, clients note that initial veterinary assessments incur standard consultation fees."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long has Squaw Peak Animal Hospital served the local community?"
+      },
+      "a": {
+        "en": "Reviewers note patronising the practice for decades, with clients visiting consistently since the early 1990s."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
