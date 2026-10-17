@@ -1,0 +1,170 @@
+{
+  "slug": "urban-paws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Urban+Paws/data=!4m7!3m6!1s0x864e98de15c4294d:0xebace3388ca2a443!8m2!3d32.7836156!4d-96.7879985!16s%2Fg%2F1tdh8vyz!19sChIJTSnEFd6YToYRQ6SijDjjrOs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Active socialization and playgroup dynamics"
+      },
+      "text": {
+        "en": "Many pet owners praise how eager their dogs are to arrive for daycare and play with companions. However, sentiment is mixed: one client warned that small dogs are not consistently separated from large breeds, and another noted a minor grooming nick, whereas longtime patrons report excellent safety during boarding."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Caring and accommodating daycare attendants"
+      },
+      "text": {
+        "en": "Clients frequently commend the team for their genuine warmth, personalized attention, and flexibility when boarding schedules need extending due to emergencies. While one reviewer experienced poor front-desk service following staff departures, most pet parents describe dependable, attentive staff who remember pets by name."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Clean hotel setting with personal comforts"
+      },
+      "text": {
+        "en": "Reviewers appreciate the clean, welcoming facility in Deep Ellum, where owners are invited to bring familiar blankets and toys for their dogs' suites. Aside from one concern regarding breed playgroup layouts, customers highlight the secure indoor play areas and organized boarding environment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet parents bring their dog's personal bedding for boarding stays?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the facility welcomes familiar blankets and toys to help dogs feel relaxed and comfortable in their hotel suites."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are small and large dogs separated during daycare play sessions?"
+      },
+      "a": {
+        "en": "One reviewer expressed concern that small breeds were not separated from larger dogs, while others note controlled play environments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Urban Paws located in Dallas?"
+      },
+      "a": {
+        "en": "Urban Paws is situated on Elm Street in the Deep Ellum neighborhood of Dallas, offering daycare, boarding, and grooming services."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Urban Paws accommodate emergency extensions for boarding stays?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that staff are highly accommodating and supportive when travel or medical emergencies require extending boarding days."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
