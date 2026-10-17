@@ -1,0 +1,177 @@
+{
+  "slug": "michelles-pet-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Michelle%27s+Pet+Salon/data=!4m7!3m6!1s0x865c59ae9c547a51:0x8815ea5e1241add8!8m2!3d29.3687372!4d-98.5338353!16s%2Fg%2F1hhjtc8s_!19sChIJUXpUnK5ZXIYR2K1BEl7qFYg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Varied feedback on grooming styling"
+      },
+      "text": {
+        "en": "Most customers report that their pets emerge looking clean, fresh, and well groomed, praising seasonal trims, baths, and nail care. However, styling feedback includes notable criticism: one cat owner reported an incorrect haircut that removed a Siberian cat's insulating mane, while another client noted skin irritation following an appointment. Overall results remain varied."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Friendly and helpful salon personnel"
+      },
+      "text": {
+        "en": "The salon personnel receive consistent praise for their approachable attitude and willingness to answer pet care questions. Multiple reviewers highlight friendly interactions with front-desk staff and groomers during drop-off and collection, noting that team members show enthusiasm and patience when discussing grooming options and service packages for pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Pet comfort and post-visit wellbeing"
+      },
+      "text": {
+        "en": "While several dog owners mention that their pets enjoy pampering sessions and return home relaxed in bandanas or seasonal outfits, animal welfare feedback is not entirely positive. One client reported that their dog contracted fleas and suffered subsequent skin infections after a visit. As a result, owner assessments of pet comfort show a mixed picture."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can customers view their pets while grooming takes place?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that Michelle's Pet Salon features a viewing window where owners can observe animals being bathed and groomed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom cats in addition to dogs?"
+      },
+      "a": {
+        "en": "Client reviews indicate that the salon accepts cats for nail trims and haircuts, though owners should specify coat preferences clearly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon offer quick walk-in grooming services like nail trims?"
+      },
+      "a": {
+        "en": "Customers report that routine maintenance tasks like kitten nail clipping are handled promptly with short turnaround times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
