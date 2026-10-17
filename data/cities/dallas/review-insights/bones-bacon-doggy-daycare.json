@@ -1,0 +1,127 @@
+{
+  "slug": "bones-bacon-doggy-daycare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bones+%26+Bacon+Doggy+Daycare/data=!4m7!3m6!1s0x864e990396446e59:0x8797f25979bb3dbf!8m2!3d32.748366!4d-96.837839!16s%2Fg%2F11v5r2k1k8!19sChIJWW5EloOZTocRvz27eVnyl4c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "High canine excitement for daycare"
+      },
+      "text": {
+        "en": "Pet owners report that their dogs exhibit tremendous excitement whenever arriving at the daycare facility. Clients note that dogs play enthusiastically with other canine companions and return home content and thoroughly tired. Reviewers appreciate the mandatory behavioural assessment day that ensures pets are well suited for group play."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Observant and friendly daycare attendants"
+      },
+      "text": {
+        "en": "Staff members receive praise for their attentive supervision and helpful communication with dog parents. Reviewers highlight dedicated employees who notice subtle health changes, such as suspected ear infections, during daily daycare sessions. Clients feel confident leaving their pets with a team that demonstrates genuine warmth and vigilance."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Convenient facility with trial evaluations"
+      },
+      "text": {
+        "en": "Customers describe this Oak Cliff facility as an organized and accessible daycare setting with convenient parking. Pet owners praise the safety protocol of conducting temperament evaluations before admitting new dogs into group play. While one client wished for live streaming cameras, owners value the secure and structured indoor-outdoor space."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the daycare require a temperament trial before enrollment?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that dogs must complete a trial day evaluation to ensure compatibility with group play."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are parking facilities convenient for daily drop-offs?"
+      },
+      "a": {
+        "en": "Yes, pet owners note that the on-site parking lot makes drop-off and collection straightforward."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Bones & Bacon offer dog boarding alongside daycare?"
+      },
+      "a": {
+        "en": "Yes, clients utilize the facility for overnight boarding as well as regular weekday daycare visits."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are live streaming webcams available for pet parents?"
+      },
+      "a": {
+        "en": "Reviewers note that live webcam viewing was not available at the facility during their pets' stays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
