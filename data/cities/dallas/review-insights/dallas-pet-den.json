@@ -1,0 +1,161 @@
+{
+  "slug": "dallas-pet-den",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dallas+Pet+Den/data=!4m7!3m6!1s0x864e9f622d8e33c3:0x166b5d0f51fe1814!8m2!3d32.8354717!4d-96.7513655!16s%2Fg%2F1tnl1thq!19sChIJwzOOLWKfToYRFBj-UQ9daxY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Mixed experiences with customer service team"
+      },
+      "text": {
+        "en": "Several pet owners praise individual groomers and kennel attendants for gentle patience with older animals and compassionate care during boarding. However, other clients express deep frustration with front-of-house staff and management, reporting curt phone interactions and unaddressed service complaints. The quality of personal service varies noticeably across departments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frequent client concerns regarding front communication"
+      },
+      "text": {
+        "en": "Reviewers report noticeable communication difficulties, citing prolonged phone hold times, confusing online registration, and unreturned messages regarding boarding requests. Clients also mention arriving to find unexpected service fees and insufficient notifications about pet schedules or minor playtime injuries. Many owners recommend seeking clear verbal confirmation at intake."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for boarded dogs"
+      },
+      "text": {
+        "en": "Pet parents highlight that dogs enjoy their dedicated playtime sessions and receive affectionate handling from senior kennel staff and groomers. Multiple reviewers note that nervous rescue dogs and elderly pets are treated gently during visits. While one owner reported superficial bruises after rough play, most clients observe that their animals settle comfortably during stays."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet parents monitor their boarded pets via live video?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that selected VIP boarding suites offer live camera access for owners."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are grooming and boarding services offered at the same facility?"
+      },
+      "a": {
+        "en": "Yes, the facility provides both pet grooming and overnight boarding accommodations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is advance registration required for new clients?"
+      },
+      "a": {
+        "en": "Yes, clients must complete registration and provide vaccination records before scheduling daycare or boarding."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are first-time daycare visits offered complimentary?"
+      },
+      "a": {
+        "en": "Reviewers mention receiving a complimentary introductory daycare day or boarding night when trying the facility."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "place": "-",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "~",
+        "animals": "~",
+        "prices": "~",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "petbar-boutique-preston-trail",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/petbar+Boutique+-+Preston+Trail/data=!4m7!3m6!1s0x864c21b5c39e7ddb:0x1972abe9efbc78ef!8m2!3d32.9825578!4d-96.8032445!16s%2Fg%2F11y4bph5fx!19sChIJ232ew7UhTIYR73i87-mrchk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful and accommodating wash assistants"
+      },
+      "text": {
+        "en": "Visitors praise the salon team and highlight employees such as Peyton and Linda for their friendly, attentive support. Staff demonstrate how to operate the self-wash equipment, assist with newly adopted rescue dogs, and provide skilled grooming cuts, although one client reported confusion regarding morning opening hours."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Clean and well-equipped wash stations"
+      },
+      "text": {
+        "en": "Clients consistently compliment the spotless condition of the washroom, praising the waist-high tubs, heated towels, and accessible bathing supplies. Pet owners find the self-wash area comfortable and well supplied with grooming solutions, making bath time manageable even with energetic or large dogs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Fresh coats and skilled haircut styling"
+      },
+      "text": {
+        "en": "Dog owners report excellent outcomes from both self-serve wash sessions and full styling appointments with groomer Linda. Reviewers note that dogs leave with soft, sweet-smelling fur and neatly trimmed coats, with extra touches such as ear cleaning and nail clipping appreciated by regular visitors."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do the self-service wash stations operate?"
+      },
+      "a": {
+        "en": "Stations feature waist-high tubs, warm water sprayers, professional shampoos, clean towels, and drying equipment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff assist with first-time self-wash visitors?"
+      },
+      "a": {
+        "en": "Yes, team members show clients how to use the shower hoses, rinse equipment, and specialized cleaning liquids."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are monthly bathing memberships available?"
+      },
+      "a": {
+        "en": "Yes, pet parents mention signing up for monthly wash memberships to maintain regular hygiene routines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What full grooming services are offered?"
+      },
+      "a": {
+        "en": "Stylists provide full haircuts, nail trims, ear cleaning, and de-shedding baths tailored to specific dog breeds."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
