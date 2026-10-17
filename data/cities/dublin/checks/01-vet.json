@@ -13,11 +13,21 @@
     "village-vets-coolock",
     "village-vets-rathfarnham"
   ],
-  "hash": "687a76858c29ee71b7afff430593600d721edf46b16a72cc399ae20259b3eeec",
+  "hash": "2ea874202183f0c607c91a1170f8fb27914ca1440d370ee5ea48560ad6799150",
   "result": "PASS",
   "history": [
     {
       "at": "2026-10-16T09:35:28.462Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:26:29.947Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-17T04:36:34.791Z",
       "result": "PASS",
       "listed": 0
     }
