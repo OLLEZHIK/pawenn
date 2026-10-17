@@ -29,7 +29,9 @@ export function StickyActions({
     const footer = document.querySelector("body > footer");
     const observers: IntersectionObserver[] = [];
     if (contact) {
-      const o = new IntersectionObserver(([e]) => setContactInView(e.isIntersecting));
+      // The sticky header and section nav cover the top ~140px: a contact card
+      // hidden under them (right after jumping to "Prices") counts as out of view.
+      const o = new IntersectionObserver(([e]) => setContactInView(e.isIntersecting), { rootMargin: "-140px 0px 0px 0px" });
       o.observe(contact);
       observers.push(o);
     }
