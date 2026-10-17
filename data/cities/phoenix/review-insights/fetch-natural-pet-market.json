@@ -1,0 +1,204 @@
+{
+  "slug": "fetch-natural-pet-market",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fetch+Natural+Pet+Market/data=!4m7!3m6!1s0x872b12a820791d49:0x40f118faffb7e9d9!8m2!3d33.525414!4d-112.047768!16s%2Fg%2F1tt1hpdt!19sChIJSR15IKgSK4cR2em3__oY8UA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Helpful and knowledgeable shop owners"
+      },
+      "text": {
+        "en": "Shoppers warmly highlight store owners Diana and Tony alongside their team for patient guidance and genuine pet nutrition knowledge. Many reviewers appreciate the time taken to explain holistic dietary choices and help troubleshoot pet digestive issues. One customer noted an unwelcoming interaction regarding staff attitude, though customer feedback remains overwhelmingly favourable."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Thoughtful support for pet health"
+      },
+      "text": {
+        "en": "Pet owners frequently mention how kindly the owners treat visiting dogs and cats, often greeting pets by name. Customers appreciate practical guidance when addressing food sensitivities or picking out healthy samples for finicky dogs. Reviewers describe feeling reassured when choosing specialised meals and treats for their animal companions."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Curated selection of quality supplies"
+      },
+      "text": {
+        "en": "Visitors value the neat retail layout and the diverse stock of wholesome pet supplies. Reviewers note that despite the smaller independent storefront, the market carries freeze-dried food options, wholesome treats, and specialised supplements. Several clients also appreciate being offered product samples to try out before buying."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fetch Natural Pet Market provide guidance on pet nutrition?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the owners offer detailed advice on wholesome diets and help address digestive sensitivities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners obtain food samples before buying?"
+      },
+      "a": {
+        "en": "Yes, customers report receiving food and treat samples to test with fussy pets at home before purchasing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop stock freeze-dried and holistic food?"
+      },
+      "a": {
+        "en": "Yes, clients highlight a wide variety of holistic dry kibble, freeze-dried meals, and natural treats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dogs allowed inside the store?"
+      },
+      "a": {
+        "en": "Yes, customers frequently bring their dogs along into the shop, where staff greet them warmly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
