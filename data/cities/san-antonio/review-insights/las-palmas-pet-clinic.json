@@ -1,0 +1,149 @@
+{
+  "slug": "las-palmas-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Las+Palmas+Pet+Clinic/data=!4m7!3m6!1s0x865c594f5b08574d:0xf1e3551839b7d378!8m2!3d29.410023!4d-98.5564602!16s%2Fg%2F1thn5yd5!19sChIJTVcIW09ZXIYReNO3ORhV4_E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated care with strict policies"
+      },
+      "text": {
+        "en": "Pet owners commend Dr Patricia McFaul and the clinic technicians for their kindness, veterinary knowledge, and gentle patience with older animals. Longstanding clients appreciate that staff take time to explain treatments and provide thorough dental care. However, one client felt that reception staff were inconsiderate and rigid when enforcing arrival times, leading to mixed overall sentiment regarding customer service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for patient pets"
+      },
+      "text": {
+        "en": "Clients note that veterinarians and clinical assistants treat both dogs and cats with warmth and compassion. Reviewers highlight gentle handling during feline dental procedures and patient care with elderly, fragile dogs. Pet parents feel confident that their animals receive attentive medical supervision in a calm setting, commending the team for prioritizing patient comfort during examinations."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Strict scheduling and appointment waits"
+      },
+      "text": {
+        "en": "Reviewers report difficulties with scheduling availability and strict appointment policies at the practice. Clients note that booking routine slots often requires scheduling several weeks to a month in advance. Additionally, pet owners caution that the clinic enforces an uncompromising punctuality rule, turning away clients who arrive even a few minutes late, while telephone hold times can be substantial."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What veterinary services does Las Palmas Pet Clinic provide?"
+      },
+      "a": {
+        "en": "The practice provides wellness exams, preventative vaccinations, dental treatments, diagnostic x-rays, and routine soft-tissue surgeries."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required to see the veterinarian?"
+      },
+      "a": {
+        "en": "Yes, appointments are necessary, and clients note that visits should be booked several weeks in advance due to full schedules."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What is the clinic's policy regarding arrival times?"
+      },
+      "a": {
+        "en": "Reviewers advise arriving at least 15 minutes early, as the clinic has turned away pet owners arriving slightly past their appointment time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate treatment costs at Las Palmas Pet Clinic?"
+      },
+      "a": {
+        "en": "Pet parents frequently describe the clinic's fees as fair and reasonable compared to other area veterinary practices."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "waiting": "~",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "lucky-dog-wash-house",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+Dog+Wash+House/data=!4m7!3m6!1s0x865c59b47ed4dab1:0xdbc461e80e5f33c6!8m2!3d29.3644847!4d-98.551121!16s%2Fg%2F11grbvw4ts!19sChIJsdrUfrRZXIYRxjNfDuhhxNs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly and patient salon team"
+      },
+      "text": {
+        "en": "Feedback regarding the salon team is entirely positive across recent months. Pet owners frequently note the patience and warmth displayed by groomers when handling both small and large dogs. Clients praise staff for remembering pets by name, creating a welcoming atmosphere, and maintaining courteous communication from the initial booking phone call."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Caring handling of canine guests"
+      },
+      "text": {
+        "en": "Reviewers emphasize the kind and affectionate treatment their dogs receive throughout the bathing and grooming process. Patrons describe hearing groomers speaking gently to pets during appointments, which reassures owners of anxious or elderly rescue dogs. Clients report that their animals genuinely enjoy visits and leave the salon relaxed and cheerful."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Neat haircuts and clean coats"
+      },
+      "text": {
+        "en": "Pet parents praise the thorough grooming outcomes, highlighting neat haircuts, clean coats, and manicured paws. Owners of breeds requiring specialized coat maintenance, such as rescue Shih Tzus, express strong satisfaction with how well their pets look and smell following appointments, noting that finished styling consistently meets expectations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can groomers at Lucky Dog Wash House handle elderly or rescue dogs?"
+      },
+      "a": {
+        "en": "Reviewers note that staff show great patience and care with rescued and senior dogs, ensuring a gentle grooming experience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How punctual is the salon with grooming turnaround times?"
+      },
+      "a": {
+        "en": "Clients highlight that groomers stick closely to estimated timeframes and have pets ready for collection at the promised hour."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do groomers accommodate dogs of all sizes?"
+      },
+      "a": {
+        "en": "Yes, feedback confirms that the team grooms dogs of all sizes, from small toy breeds to much larger canine companions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
