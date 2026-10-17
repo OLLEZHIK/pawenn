@@ -1,0 +1,201 @@
+{
+  "slug": "rancho-bernardo-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rancho+Bernardo+Pet+Hospital/data=!4m7!3m6!1s0x80dbf0cd6e3dd663:0x2e52f901061f69db!8m2!3d33.0133624!4d-117.0774788!16s%2Fg%2F1jky_c8jx!19sChIJY9Y9bs3w24AR22kfBgH5Ui4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive clinicians and supportive clinic nurses"
+      },
+      "text": {
+        "en": "A substantial majority of clients commend Dr Sondhi, Dr Erin Rosa, and practice manager Megan for their clinical expertise, patience, and kindness. Pet owners navigating complicated wound care or urgent surgeries praise the clinical team for explaining treatment options thoroughly. A few patrons, however, felt let down by customer service during billing disputes or lengthy waits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate care alongside end-of-life concerns"
+      },
+      "text": {
+        "en": "Most reviewers describe warm and gentle handling of dogs and cats, highlighting careful wound dressing and attentive nursing care during recovery from acute injuries. Nevertheless, two owners recounting a difficult euthanasia appointment expressed deep distress over patient handling during sedation, reporting that their dog was not supported securely as sedatives took effect."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective surgical care and wound recovery"
+      },
+      "text": {
+        "en": "Pet parents report dependable clinical outcomes for complex surgical procedures, wound management following dog attacks, and chronic dermatological complaints. Clients express gratitude to Dr Sondhi and the nursing team for successfully managing severe trauma through methodical treatment plans. Reviewers credit the veterinary hospital with restoring their companions to robust health."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic handle urgent surgical emergencies?"
+      },
+      "a": {
+        "en": "Yes, pet parents report that the surgical team accommodated urgent procedures and complex wound repairs on short notice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are routine consultations available on weekends?"
+      },
+      "a": {
+        "en": "The hospital operates weekend consulting hours on both Saturdays and Sundays to accommodate family schedules."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are treatment estimates communicated to clients?"
+      },
+      "a": {
+        "en": "Reviewers advise obtaining written estimates for planned procedures, noting occasional discrepancies between telephone quotes and final invoices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can chronic skin and parasite conditions be evaluated?"
+      },
+      "a": {
+        "en": "Yes, clients report thorough diagnostic reviews and effective management plans for dermatological and parasite issues."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    }
+  ]
+}
