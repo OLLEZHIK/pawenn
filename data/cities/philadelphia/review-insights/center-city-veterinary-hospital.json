@@ -1,0 +1,176 @@
+{
+  "slug": "center-city-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Center+City+Veterinary+Hospital/data=!4m7!3m6!1s0x89c6c884fe3c2e05:0xf82ca9fa4acf9b96!8m2!3d39.9491064!4d-75.1457198!16s%2Fg%2F1tmxghzm!19sChIJBS48_oTIxokRlpvPSvqpLPg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate veterinary support with isolated conflict"
+      },
+      "text": {
+        "en": "The majority of pet owners praise the veterinary doctors and reception team for their warmth, professionalism, and attentive communication during both routine visits and difficult end-of-life care. Clients specifically value Dr Meister's knowledge with exotic pets. One reviewer reported an unprofessional verbal confrontation with a clinician following a negative review."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling across multiple pet species"
+      },
+      "text": {
+        "en": "Reviewers consistently observe thoughtful handling across diverse pets, including nervous dogs, young kittens, and domestic rats. Owners appreciate that technicians take practical steps to reduce patient anxiety, such as conducting calm sedated examinations for fearful dogs and displaying personalized welcome messages in the reception lobby."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Routine care success alongside complex diagnostics"
+      },
+      "text": {
+        "en": "Clients describe solid health outcomes for routine physicals, vaccinations, and standard pet care. However, experiences diverge when managing complex illness or sudden emergencies. Two reviewers felt serious feline conditions were not diagnosed accurately or managed with sufficient urgency, prompting them to recommend specialist emergency centres for acute sickness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Center City Veterinary Hospital care for exotic pets?"
+      },
+      "a": {
+        "en": "Yes, the hospital treats exotic companion animals and pocket pets, including pet rats, alongside routine canine and feline care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are emergency or urgent walk-ins accommodated?"
+      },
+      "a": {
+        "en": "The practice provides urgent care visits during surgery hours, but clients advise calling ahead and noting that critical cases may require a specialist hospital."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can appointments be scheduled online?"
+      },
+      "a": {
+        "en": "Yes, clients can book appointments online or call the clinic reception to schedule consultations and procedures."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view routine consultation costs?"
+      },
+      "a": {
+        "en": "Opinions vary; several clients find fees competitive and transparent for Old City, while others note that emergency consultations and diagnostics add up quickly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
