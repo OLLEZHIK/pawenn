@@ -1,0 +1,145 @@
+{
+  "slug": "doggie-style-pets-northern-liberties",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggie+Style+Pets+Northern+Liberties/data=!4m7!3m6!1s0x89c6c8652c5a1cd3:0xca088e24a9bbd4e6!8m2!3d39.9647936!4d-75.1423854!16s%2Fg%2F1tfxy_9k!19sChIJ0xxaLGXIxokR5tS7qSSOCMo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Variable haircut precision and coat maintenance"
+      },
+      "text": {
+        "en": "Client sentiment regarding styling is divided. While several owners praise groomer Donathan for leaving their dogs fresh, fluffy, and well cared for, other reviewers complain of uneven cuts, missed facial trimming, untouched fur matting on bellies, and unfinished shaves that required corrections at home."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Skilled stylists with customer service friction"
+      },
+      "text": {
+        "en": "Regular patrons appreciate the gentle approach shown by groomers toward anxious dogs during washing and trimming. However, multiple clients voice frustration with store responsiveness, citing dismissive attitudes from management and poor handling when complaints about incomplete services were raised."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Unmet instructions and automated notification flaws"
+      },
+      "text": {
+        "en": "Reviewers report communication breakdowns between client requests and executed styling. Complaints highlight specific drop-off instructions regarding dematting being disregarded, as well as automated messaging errors that prompted clients to arrive for pickup before their pets were ready."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can anxious dogs be safely groomed at this salon?"
+      },
+      "a": {
+        "en": "Yes, clients mention that groomers handle dogs that dislike baths or clinical settings with calm patience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dematting services available for heavy-coated breeds?"
+      },
+      "a": {
+        "en": "Dematting is offered as an add-on, though reviewers advise reconfirming specific treatment areas at drop-off."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How does the pickup notification system operate?"
+      },
+      "a": {
+        "en": "The salon sends automated text updates when grooming finishes, though one client noted an early alert."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the Northern Liberties store support pet adoptions?"
+      },
+      "a": {
+        "en": "Yes, the retail shop works with local shelters and frequently hosts rescue animals awaiting permanent adoption."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "~",
+        "staff": "-",
+        "communication": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
