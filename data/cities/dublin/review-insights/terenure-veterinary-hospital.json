@@ -1,0 +1,178 @@
+{
+  "slug": "terenure-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Terenure+Veterinary+Hospital+%28South+Dublin+Vets%29/data=!4m7!3m6!1s0x48670c788dbf586f:0x46692945905725b!8m2!3d53.3114446!4d-6.3068362!16s%2Fg%2F11tgtdx_1!19sChIJb1i_jXgMZ0gRW3IFWZSSZgQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive vet team led by Mark"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for veterinary director Mark and his clinical team, commending their warmth, medical knowledge, and empathy. Clients with elderly or critically ill pets report feeling well supported throughout difficult decisions, noting that the staff consistently provide reassuring clinical care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle and compassionate dog care"
+      },
+      "text": {
+        "en": "Reviewers emphasize how comfortably dogs are handled during examinations, with staff creating a reassuring clinic environment. Multiple owners note that nervous pets feel at ease with the doctors and nurses. Clients trust the hospital for long-term health management and compassionate treatment across all life stages of a pet."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns over insurance paperwork delays"
+      },
+      "text": {
+        "en": "Client feedback regarding practice administration shows significant frustration. While in-person consultations are praised for patient explanations—including clear assistance for non-native English speakers—multiple reviewers criticize lengthy administrative delays in submitting pet insurance claim forms to insurance providers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the clinic accommodate clients with limited English?"
+      },
+      "a": {
+        "en": "Yes, clients report that the veterinary team is patient and accommodating, using translation tools to explain treatment plans clearly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the hospital handle pet insurance claim submissions?"
+      },
+      "a": {
+        "en": "Reviewers note that while clinical care is strong, administrative processing of pet insurance paperwork has faced delays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Terenure Veterinary Hospital treat chronic pet illnesses?"
+      },
+      "a": {
+        "en": "Yes, owners report successful diagnoses and long-term medical management for ongoing conditions in dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do consultations require advance appointment booking?"
+      },
+      "a": {
+        "en": "Consultations are typically arranged by appointment to ensure dedicated examination time with the veterinary surgeon."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

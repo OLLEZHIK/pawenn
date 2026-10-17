@@ -1,0 +1,131 @@
+{
+  "slug": "dublin-dog-training",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dublin+Dog+Training/data=!4m7!3m6!1s0x4867109152ecb1c3:0x2cf219f681eacf62!8m2!3d53.461925!4d-6.2027289!16s%2Fg%2F1tj9bf28!19sChIJw7HsUpEQZ0gRYs_qgfYZ8iw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting impressions of trainer attitude"
+      },
+      "text": {
+        "en": "Customer opinions about the training staff show distinct contrasts. Some longtime dog owners praise John and Dermo as dedicated instructors who care deeply about canine training and offer experienced guidance. Conversely, other reviewers found interactions curt and felt staff responded dismissively when handling inquiries or differing opinions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective agility and obedience training"
+      },
+      "text": {
+        "en": "Owners participating in agility courses and kennel stays report practical benefits and knowledgeable instruction. Reviewers appreciate the established training grounds and structured agility exercises that help dogs build focus and fitness. Clients who completed courses note substantial progress in handling skills and pet manners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Issues with inquiries and responsiveness"
+      },
+      "text": {
+        "en": "Multiple prospective clients express disappointment regarding inquiry handling and customer communication. Reviewers report blunt responses stating that no courses were open, with little assistance offered on future availability. While one client enjoyed informal banter, critical feedback focuses on unhelpful replies to training questions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where are the training classes held?"
+      },
+      "a": {
+        "en": "Classes take place at Estuary Kennels on Seatown Road in Swords, featuring indoor and outdoor facilities."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are agility courses available for dogs?"
+      },
+      "a": {
+        "en": "Yes, the school offers agility and pet obedience sessions, though reviewers advise inquiring well in advance."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What do agility group lessons cost?"
+      },
+      "a": {
+        "en": "Agility classes are priced around twenty euros per two-hour session according to the school website."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe customer communication?"
+      },
+      "a": {
+        "en": "Feedback is mixed; while some enjoy the casual tone, others found inquiry responses curt when courses were fully booked."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "ucd-veterinary-hospital",
+    "donnybrook-vets",
+    "just-cats-village-vets-clonsilla",
+    "dogs-aid-clinic",
+    "portmarnock-veterinary-clinic",
+    "village-vets-kilmainham",
+    "village-vets-rathgar",
+    "village-vets-clonsilla",
+    "village-vets-coolock",
+    "village-vets-rathfarnham"
+  ],
+  "hash": "15e7503565b3fc95754565ba427e43ef0ac079d74c0bd19cc1810fb183616fda",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T09:35:28.462Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:26:29.947Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-17T04:36:34.791Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:41:31.200Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
