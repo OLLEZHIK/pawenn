@@ -1,0 +1,134 @@
+{
+  "slug": "pet-vaccination-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Vaccination+Clinic/data=!4m7!3m6!1s0x865c5840686717cd:0xd360df8a494a6095!8m2!3d29.35633!4d-98.5081521!16s%2Fg%2F1trtvr4y!19sChIJzRdnaEBYXIYRlWBKSYrfYNM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate veterinarian and welcoming techs"
+      },
+      "text": {
+        "en": "All six reviewers over the past six months praise the veterinarian, technicians, and front desk team on Southwest Military Drive for their kindness and transparency. Clients highlight how understanding the staff were during a two-hour euthanasia visit and how dedicated they remained even when the clinic lost electricity."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for dogs and senior cats"
+      },
+      "text": {
+        "en": "Pet owners note that the veterinary technicians are warm and patient with both cats and dogs during multi-pet visits and routine check-ups. Reviewers share that their dogs are excited to greet the team and that elderly cats receive peaceful, unhurried end-of-life care when needed."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective allergy care and honest second opinions"
+      },
+      "text": {
+        "en": "Clients report rapid recovery for dogs treated with antibiotics and anti-itch medication for skin infections and seasonal allergies. Another pet owner commended the doctor for providing an honest second opinion from existing diagnostic images rather than ordering unnecessary laboratory tests."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services does Pet Vaccination Clinic provide?"
+      },
+      "a": {
+        "en": "The clinic offers core vaccinations, wellness exams, allergy and skin infection treatments, heartworm testing, lab diagnostics, and euthanasia care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required at Pet Vaccination Clinic?"
+      },
+      "a": {
+        "en": "Yes, the clinic operates by appointment Monday through Thursday from 09:00 to 14:30."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do clients obtain price estimates for veterinary visits?"
+      },
+      "a": {
+        "en": "The clinic advises calling the office directly for price estimates, and reviewers describe the rates for annual vaccines and treatments as reasonable."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
