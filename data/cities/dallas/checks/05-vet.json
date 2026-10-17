@@ -1,0 +1,28 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "pet-vet-dallas",
+    "spay-neuter-network-dallas",
+    "banfield-pet-hospital-gaston-ave-dallas",
+    "animal-dermatology-clinic-dallas",
+    "animal-ophthalmology-clinic-dallas",
+    "campbell-village-veterinary-clinic",
+    "dallas-veterinary-concierge",
+    "dallas-veterinary-hospice"
+  ],
+  "hash": "cc2c90f797a141646520596468a2d209a14ee66e93efed1f0782df680f9a2eb9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:53:12.062Z",
+      "result": "FAIL",
+      "listed": 61
+    },
+    {
+      "at": "2026-10-17T01:50:09.488Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
