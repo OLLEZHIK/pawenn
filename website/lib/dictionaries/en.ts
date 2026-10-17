@@ -311,7 +311,7 @@ export const en = {
   },
   /** Analytics consent banner (GA4 runs only after "allow"). */
   consent: { text: "We would like to use analytics cookies from Google Analytics and Microsoft Clarity (including anonymous screen recordings) to see how the site is used and make it better. Only if you allow it.", allow: "Allow", decline: "Decline", settings: "Cookie settings" },
-  actions: { call: "Call", website: "Website", route: "Route" },
+  actions: { call: "Call", website: "Website", route: "Directions" },
   badges: { verified: (date: string) => `Verified ${date}`, partner: "Partner" },
   business: {
     metaTitle: (name: string, label: string, where: string) => `${name} - ${label}${where ? ` ${where}` : ""}`,
@@ -324,8 +324,8 @@ export const en = {
     goodToKnow: "Good to know",
     goodToKnowNote: "As the place states it on its own website.",
     faqTitle: "Questions before you call",
-    cityPricesTitle: (where: string) => `What it costs ${where}`,
-    cityPricesIntro: "No price list here. Average prices in the city:",
+    cityPricesTitle: (where: string) => `Average prices ${where}`,
+    cityPricesIntro: "This place has not published prices. City averages, not this place's prices:",
     welcomes: "Welcomes",
     specialties: "Specialties",
     openingHours: "Opening hours",
