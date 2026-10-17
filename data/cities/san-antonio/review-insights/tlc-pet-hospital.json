@@ -1,0 +1,133 @@
+{
+  "slug": "tlc-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/TLC+Pet+Hospital/data=!4m7!3m6!1s0x865c8cc3c68144fd:0xbf2367f0741555a4!8m2!3d29.544027!4d-98.368394!16s%2Fg%2F1tdq6fk_!19sChIJ_USBxsOMXIYRpFUVdPBnI78?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Warm and compassionate veterinary staff"
+      },
+      "text": {
+        "en": "Clients praise Dr Julie Strickert and her clinical team for their attentive, kind, and knowledgeable approach to pet healthcare. Longtime pet parents who have visited the surgery for decades emphasise that the veterinarians listen patiently and explain diagnoses with genuine warmth."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Consistent medical care and diagnostics"
+      },
+      "text": {
+        "en": "Pet owners express great confidence in the health examinations, preventive treatments, and long-term medical management provided here. Reviewers note that cats and dogs remain healthy under the team's ongoing guidance, giving families peace of mind regarding their animals' care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affectionate handling for family pets"
+      },
+      "text": {
+        "en": "Reviewers highlight how comfortable and calm their dogs and cats feel when visiting the surgery. The veterinary team takes time to soothe nervous animals during consultations, ensuring that pets trust the clinicians and experience minimal distress during clinical examinations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is it easy to book an appointment at TLC Pet Hospital?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that scheduling consultations is straightforward and the staff accommodates requests readily."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees considered reasonable by clients?"
+      },
+      "a": {
+        "en": "Reviewers describe the fees as fair and affordable for the standard of clinical attention provided."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long has Dr Strickert been practising at this clinic?"
+      },
+      "a": {
+        "en": "Clients report bringing family pets to Dr Julie Strickert for more than thirty years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic provide treatment for both cats and dogs?"
+      },
+      "a": {
+        "en": "Yes, pet parents bring both canine and feline companions for routine and long-term medical care."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
