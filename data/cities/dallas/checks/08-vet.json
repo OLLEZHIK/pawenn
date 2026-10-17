@@ -1,0 +1,36 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "goodvets-uptown-dallas"
+  ],
+  "hash": "ab95a34f324dd0bb1c6be63f7e9e255b169172afceec35fa92c9750f6228e196",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T01:09:19.459Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-17T01:23:23.975Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T01:26:34.692Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-17T01:27:42.942Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T05:10:42.486Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

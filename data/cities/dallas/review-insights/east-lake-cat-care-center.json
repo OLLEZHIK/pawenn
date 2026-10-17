@@ -1,0 +1,152 @@
+{
+  "slug": "east-lake-cat-care-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/East+Lake+Cat+Care+Center/data=!4m7!3m6!1s0x864ea05a747df3ef:0x6a4507c0f1655e93!8m2!3d32.8655422!4d-96.7134067!16s%2Fg%2F1ptwg1fkt!19sChIJ7_N9dFqgToYRk15l8cAHRWo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Contrasting reports on staff and management"
+      },
+      "text": {
+        "en": "Several clients praise specific adoption coordinators and veterinary assistants for patience, knowledge, and gentle guidance when selecting a feline companion. However, other reviewers express serious disappointment with front-desk staff, noting blunt communication, inflexible adoption decisions, and poor customer service. Perceptions of staff attentiveness remain divided."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed experiences with communication and billing"
+      },
+      "text": {
+        "en": "While some pet parents appreciate prompt test result follow-ups, others report stressful communication gaps regarding feline boarding reservations and unexpected diagnostic fees. Reviewers cite late-evening phone calls requesting previously discussed paperwork and unannounced emergency rates prior to closing. Clear written confirmation is advised when booking services."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Feline care with occasional boarding concerns"
+      },
+      "text": {
+        "en": "Many cat owners trust the dedicated feline center for veterinary exams, kitten adoptions, and routine vaccinations in a dog-free setting. Nonetheless, a boarding client expressed grave concern over chaotic organization, persistent odors, and confusion regarding cat identity during collection. Most medical patients, however, recover well under clinical supervision."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is East Lake Cat Care Center completely dog-free?"
+      },
+      "a": {
+        "en": "Yes, the facility is exclusively designed for cats, providing quiet medical care and boarding free from canine noise."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the center facilitate kitten adoptions?"
+      },
+      "a": {
+        "en": "Yes, the center hosts an adoption program helping rescued and spayed kittens find permanent family homes."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are available on site?"
+      },
+      "a": {
+        "en": "The facility offers routine wellness checkups, feline vaccinations, blood testing, and specialized feline boarding suites."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are emergency feline services handled on site?"
+      },
+      "a": {
+        "en": "While routine and urgent feline cases are seen, late emergencies may be transferred to the adjacent veterinary hospital."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 5 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "~",
+        "prices": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
