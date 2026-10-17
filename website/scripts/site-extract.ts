@@ -210,7 +210,7 @@ const KEYWORDS: Record<"hours" | "emergency" | "languages" | "price" | "homeVisi
   hours: (l) => HOURS_LINE.test(l) || (HOURS_WORDS.test(l) && (TIME_ANY.test(l) || HOURS_NO_TIME.test(l))),
   emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|urgencias?|guardia|24\s?horas|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency)/iu,
   languages: (l) => LANGUAGE_NAME.test(l) && SPEAK_WORDS.test(l) && !/cookie|datenschutz|privacy|impressum/i.test(l),
-  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?)\b/i,
+  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b|kr\b|nok\b|¥|円|jpy\b|huf\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b|kr\b|nok\b|円|jpy\b|huf\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?)\b/i,
   homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|visitas? a domicilio|atenci[oó]n a domicilio|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy)/i,
 };
 
@@ -358,7 +358,7 @@ function pricePdfs(links: { href: string | null; label: string }[]): string[] {
 type Result = Record<string, unknown>;
 
 // Country calling codes of the cities (as in sanity.ts).
-const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353" };
+const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353", FI: "358", HU: "36", PT: "351", NL: "31", NO: "47", JP: "81" };
 let dial = "";
 
 /** The number without country code, trunk 0 or "(0)": "+43 (0)1 347 43",
@@ -382,10 +382,10 @@ function phoneCheck(csvPhone: string, tels: string[], text: string): string {
 // Price lines: "Baden & Föhnen ab 45 €", "Kastration Kater | 120,00 EUR" (a
 // table row is one line). The service text and the amount as the page writes
 // them; which price code it is, the agent decides.
-const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp)";
+const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf)";
 const AMOUNT = "(\\d{1,3}(?:[ .]\\d{3})*(?:[.,]\\d{1,2})?|\\d+)(?:,-|,–)?";
 const PRICE_LINE = new RegExp(`(?:${CUR}\\s?${AMOUNT}|${AMOUNT}\\s?${CUR})`, "iu");
-const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP" };
+const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF" };
 
 function priceRows(pages: { url: string; text: string }[]) {
   const out: { service: string; amount: number; currency: string; quote: string; url: string }[] = [];
