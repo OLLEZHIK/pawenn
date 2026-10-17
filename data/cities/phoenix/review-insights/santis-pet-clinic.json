@@ -1,0 +1,149 @@
+{
+  "slug": "santis-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Santis+Pet+Clinic/data=!4m7!3m6!1s0x872b14e22e01db7b:0x15c63c445e6f2643!8m2!3d33.4801688!4d-112.1881757!16s%2Fg%2F1tjbsmvm!19sChIJe9sBLuIUK4cRQyZvXkQ8xhU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Compassionate veterinarian with mixed staff interactions"
+      },
+      "text": {
+        "en": "Many clients express deep appreciation for Dr. Santi Bañez, praising his calm demeanor, empathy, and dedication to saving pets from unnecessary procedures. However, overall feedback regarding clinic personnel is divided. While several pet owners report courteous service, others criticize rushed interactions and dismissive technician remarks during visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Lifesaving diagnoses alongside medical disagreements"
+      },
+      "text": {
+        "en": "Reviewers highlight instances where accurate diagnoses and targeted medical therapies successfully resolved severe health conditions, such as acute pancreatitis. Grateful clients credit the doctor with preventing unnecessary surgeries. Conversely, a critical reviewer felt an allergy diagnosis was speculative and based more on paperwork than physical examination."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Contrasting animal handling and comfort"
+      },
+      "text": {
+        "en": "Several pet owners praise the clinic for providing gentle, reliable care that helps their dogs recover comfortably from illnesses. In sharp contrast, one client expressed strong distress over rough physical handling by a veterinary assistant during an intake exam. Reviewers emphasize that consistent, gentle handling is vital when caring for vulnerable animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Spanish spoken at Santis Pet Clinic?"
+      },
+      "a": {
+        "en": "Yes, the clinic provides bilingual veterinary care and client consultations in both English and Spanish."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Dr. Santi Bañez offer second opinions for major procedures?"
+      },
+      "a": {
+        "en": "Yes, clients recount seeking second opinions that successfully resolved pet health issues without costly emergency surgeries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees considered affordable?"
+      },
+      "a": {
+        "en": "Reviews on pricing vary; some clients describe treatments as reasonably priced, while others consider specific services such as vaccinations expensive."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are urgent and walk-in cases handled?"
+      },
+      "a": {
+        "en": "Clients report that wait times can be lengthy during busy mornings, recommending calling ahead to verify practitioner availability."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

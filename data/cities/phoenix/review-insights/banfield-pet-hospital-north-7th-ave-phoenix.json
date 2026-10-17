@@ -1,0 +1,166 @@
+{
+  "slug": "banfield-pet-hospital-north-7th-ave-phoenix",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x872b6e44cf8ea79b:0xd802f00e19c5bf29!8m2!3d33.6420458!4d-112.0822687!16s%2Fg%2F1w0p62m5!19sChIJm6eOz0RuK4cRKb_FGQ7wAtg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed reports on patient care"
+      },
+      "text": {
+        "en": "Several pet owners report that staff handled their dogs with genuine gentleness, creating a reassuring environment for timid and nervous pets during routine visits. However, one severe review reported a fatal veterinary mistake, sharply impacting overall patient care perceptions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Variable treatment and wellness outcomes"
+      },
+      "text": {
+        "en": "Regular visitors appreciate practical health advice that helped manage chronic canine conditions and keep family pets active and comfortable. Nonetheless, satisfaction is divided due to a grave complaint regarding clinical care standards and treatment oversight."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Contrasting opinions on clinic personnel"
+      },
+      "text": {
+        "en": "Most clients speak warmly of the reception team and lead veterinary surgeons, highlighting clear explanations and attentive support during consultations. Conversely, critical feedback cites inadequate communication and improper handling during a critical clinical error."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do veterinarians interact with pet owners during exams?"
+      },
+      "a": {
+        "en": "Most reviewers note that clinicians take time to answer questions and provide thorough guidance regarding preventive pet wellness."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are offered at this location?"
+      },
+      "a": {
+        "en": "The hospital provides routine wellness examinations, vaccinations, spay and neuter surgeries, and dental hygiene procedures."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is parking available at this veterinary clinic?"
+      },
+      "a": {
+        "en": "Yes, the practice is situated in a retail strip centre along North 7th Avenue with dedicated surface customer parking spaces."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How does the clinic accommodate timid or fearful pets?"
+      },
+      "a": {
+        "en": "Pet owners report that staff generally use calming techniques to comfort anxious pets during routine veterinary examinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

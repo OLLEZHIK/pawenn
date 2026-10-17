@@ -1,0 +1,272 @@
+{
+  "slug": "abc-veterinary-hospital-pacific-beach",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ABC+Veterinary+Hospital+Pacific+Beach/data=!4m7!3m6!1s0x80dc01c7d9044fd9:0x5e72a664bd6ad117!8m2!3d32.800935!4d-117.232636!16s%2Fg%2F1tfgppmd!19sChIJ2U8E2ccB3IARF9FqvWSmcl4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 21,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 17,
+      "title": {
+        "en": "Attentive and welcoming clinic team"
+      },
+      "text": {
+        "en": "Many pet owners praise Dr Noppinger, Dr Sayers, and the receptionists for their attentive manner and clear clinical advice. Reviewers frequently note that team members show genuine warmth toward dogs and cats during routine check-ups. Whilst one visitor felt clinical mistakes occurred, the majority describe veterinary assistants and front desk staff as reassuring during routine visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for timid pets"
+      },
+      "text": {
+        "en": "Pet owners highlight the patience shown to rescue animals, anxious dogs, and recovering cats during examinations. Multiple reviewers note that the veterinary assistants take extra time to calm nervous pets and avoid rushing appointments. Clients express confidence when bringing in sensitive animals for vaccinations and general wellness check-ups."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed experiences with practice communication"
+      },
+      "text": {
+        "en": "Several clients appreciate prompt text message updates, telephone consultations, and detailed post-visit instructions. Conversely, other reviewers express frustration with appointment cancellations, lack of diagnostic explanations during urgent visits, and frequent marketing emails. Pet owners recommend confirming booking procedures and fees in advance of appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does ABC Veterinary Hospital handle urgent visits?"
+      },
+      "a": {
+        "en": "Clients report mixed experiences with urgent appointments, noting that while the team accommodates sick animals, severe emergencies may be redirected to emergency facilities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are consultation appointments required in advance?"
+      },
+      "a": {
+        "en": "Yes, clients note that appointments are standard, and prepayments may be requested when scheduling visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners schedule routine vaccinations for puppies and kittens?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently bring new puppies and rescue dogs for initial examinations and core vaccines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the pricing at this hospital?"
+      },
+      "a": {
+        "en": "Reviewers hold varied views, with some praising straightforward routine pricing while others note higher costs for extensive diagnostics."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "communication": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

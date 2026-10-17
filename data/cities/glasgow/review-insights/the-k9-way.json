@@ -1,0 +1,134 @@
+{
+  "slug": "the-k9-way",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+K9+Way/data=!4m7!3m6!1s0x48884bfc5701a503:0xedd2b1773d533a21!8m2!3d55.8354405!4d-4.2333186!16s%2Fg%2F11rrp2hg6m!19sChIJA6UBV_xLiEgRITpTPXex0u0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Widespread dissatisfaction with customer communication"
+      },
+      "text": {
+        "en": "A significant majority of reviewers report severe communication issues, highlighting unreturned phone calls and unanswered emails. While one client praised the trainer for being readily accessible for advice, multiple pet owners found it impossible to reach the business to confirm upcoming sessions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Conflicting opinions on trainer reliability"
+      },
+      "text": {
+        "en": "Feedback concerning the trainer shows stark contrasts. One satisfied dog owner commended John's clear instruction and structured obedience methods, but several other reviewers voiced strong frustration over unprofessional cancellations, delayed arrivals, and unfulfilled service commitments."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Persistent delays and scheduling conflicts"
+      },
+      "text": {
+        "en": "Multiple clients describe substantial difficulties with session timetabling. Reviewers recount having appointments rescheduled or cancelled at short notice on the day, with others waiting months without updates to schedule remaining training sessions from prepaid multi-lesson packages."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How reliable is booking and scheduling training lessons?"
+      },
+      "a": {
+        "en": "Recent client reviews express substantial concern about scheduling, citing delayed arrivals, short-notice cancellations, and long delays in arranging prepaid package sessions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What training style does the trainer use?"
+      },
+      "a": {
+        "en": "Positive feedback mentions structured obedience techniques and practical demonstrations focused on owner behaviour, particularly for large breeds such as Rottweilers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are prepaid training blocks easily completed or refunded?"
+      },
+      "a": {
+        "en": "Several reviewers report difficulty completing prepaid lesson packages or securing refunds after communication lapsed, advising prospective clients to clarify booking terms in advance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

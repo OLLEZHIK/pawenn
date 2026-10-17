@@ -1,0 +1,134 @@
+{
+  "slug": "hartley-wood-boarding-kennels",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hartley+Wood+Boarding+Kennels/data=!4m7!3m6!1s0x48794140f98d082b:0x3b46b6f3aea2ce49!8m2!3d53.797812!4d-1.3184055!16s%2Fg%2F1tfs0l8c!19sChIJKwiN-UBBeUgRSc6irvO2Rjs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Customer reception and care standards"
+      },
+      "text": {
+        "en": "Most visitors report friendly interactions with the owners, noting accommodating arrangements during drop-off and collection. Clients appreciate staff who take time to settle pets into their routines. Conversely, one reviewer complained of unhelpful treatment and disputed collection fees when picking up their dog."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Kennel environment and enclosure cleanliness"
+      },
+      "text": {
+        "en": "Several pet owners praise the quiet countryside setting, describing clean facilities and spacious multi-level cat enclosures equipped with play items. In contrast, one visitor expressed strong dissatisfaction with the boarding area, describing unpleasant kennel odors and inadequate sanitation during their visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Animal welfare and boarding conditions"
+      },
+      "text": {
+        "en": "Multiple clients report that their dogs and cats receive careful handling and appear content during stays at the kennels. Cat owners specifically appreciate attentive care. However, one owner stated that their dog returned home noticeably underweight and showing signs of distress after a six-day boarding stay."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the facility board cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, the facility provides multi-level cat pens alongside dedicated dog boarding units."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What are the designated collection and drop-off times?"
+      },
+      "a": {
+        "en": "Daily opening times vary by weekday and weekend schedules, with specific morning and early evening collection windows."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can owners request updates during a pet's stay?"
+      },
+      "a": {
+        "en": "Reviewers report mixed experiences when requesting photos and progress updates while away."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What payment methods are accepted?"
+      },
+      "a": {
+        "en": "The facility accepts card and bank transfer payments on site."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "the-paw-spa-dallas",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Paw+Spa/data=!4m7!3m6!1s0x864e9944d20f05af:0xb852a4e6fb39fc89!8m2!3d32.7810621!4d-96.797635!16s%2Fg%2F11svyrprbr!19sChIJrwUP0kSZToYRifw5--akUrg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly team with attentive grooming"
+      },
+      "text": {
+        "en": "Most clients describe the grooming staff as polite, welcoming, and thoughtful when receiving pets for appointments. Reviewers frequently praise stylists such as Axel for their efficient and gentle work, although one client reported repeated scheduling oversights and last-minute cancellation notices from an individual groomer."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Clean haircuts and coat finishes"
+      },
+      "text": {
+        "en": "Pet parents express great satisfaction with overall styling quality, noting that dogs return smelling fresh with soft, plush coats and neat outlines. Reviews highlight attention to specific grooming requests, including nail grinding and teeth cleaning, with appointments generally finished within a reasonable timeframe of two hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Comfortable atmosphere for visiting dogs"
+      },
+      "text": {
+        "en": "Clients note that their dogs appear relaxed, comfortable, and eager to enter the salon during return visits. Owners of lively terrier mixes and small companion dogs appreciate that staff make pets feel secure throughout the washing and trimming process, ensuring animals do not have to endure long, stressful waits away from home."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is The Paw Spa located in Dallas?"
+      },
+      "a": {
+        "en": "The salon is situated on Main Street in Downtown Dallas, catering to local residents and their dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How long do grooming appointments typically take?"
+      },
+      "a": {
+        "en": "Clients report that standard bath and haircut appointments are usually completed within approximately two hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are extra hygiene treatments such as nail grinding available?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention selecting add-on packages that include nail grinding and teeth cleaning alongside baths."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners book appointments with specific groomers?"
+      },
+      "a": {
+        "en": "Clients often request individual stylists by name, though scheduling availability may vary between team members."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

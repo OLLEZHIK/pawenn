@@ -1,0 +1,122 @@
+{
+  "slug": "friendly-creatures",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Friendly+Creatures/data=!4m7!3m6!1s0x48761dc13cebc6f9:0x390521402ae38270!8m2!3d51.5364914!4d-0.0342535!16s%2Fg%2F11rbkwsh57!19sChIJ-cbrPMEddkgRcILjKkAhBTk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Patient and knowledgeable dog trainers"
+      },
+      "text": {
+        "en": "Dog owners commend the training team, mentioning trainers like Lydia and Katie for their warm, patient, and informative approach. Clients appreciate practical advice and clear guidance tailored to both puppies and adult dogs. Reviewers describe a relaxed coaching atmosphere that builds confidence for handlers."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Effective behaviour and recall progress"
+      },
+      "text": {
+        "en": "Clients report noticeable improvements in their dogs behaviour following training sessions and behavioural consultations. Owners highlight successful outcomes with recall training out on open fields and reduced reactivity around strangers and other dogs. The practical techniques help owners build stronger bonds with their pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Positive reinforcement for reactive dogs"
+      },
+      "text": {
+        "en": "Reviewers note that the training focuses on positive, force-free methods that keep dogs engaged and happy. Owners of rescue puppies and nervous dogs appreciate gentle stimulation techniques, such as scent games and reward-based exercises. Handlers describe dogs becoming calmer and much more attentive during outings."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What training methods does Friendly Creatures use?"
+      },
+      "a": {
+        "en": "Clients report that trainers use positive, force-free techniques focused on food rewards, search games, and encouragement."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can Friendly Creatures help with dog reactivity and recall?"
+      },
+      "a": {
+        "en": "Yes, pet owners highlight noticeable progress in managing dog reactivity and teaching reliable recall during outdoor walks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the business offer puppy classes and private lessons?"
+      },
+      "a": {
+        "en": "Yes, Friendly Creatures provides both puppy training courses and one-to-one coaching sessions across East London."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

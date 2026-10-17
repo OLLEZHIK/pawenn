@@ -1,0 +1,25 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "fivelands-vets-moseley",
+    "ashwood-veterinary-clinic-sutton-coldfield",
+    "ashwood-veterinary-clinic-four-oaks",
+    "garvey-vets",
+    "medivet-pype-hayes"
+  ],
+  "hash": "9289ccb829ab841d883059d266433720aa696d2e70ca60cce357df37d16403ef",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T10:38:44.944Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-16T10:40:40.728Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

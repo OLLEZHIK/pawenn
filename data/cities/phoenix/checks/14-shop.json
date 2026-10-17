@@ -1,0 +1,33 @@
+{
+  "chunk": "14-shop",
+  "kind": "places",
+  "slugs": [
+    "fetch-natural-pet-market",
+    "custom-creatures-pet-shop",
+    "petsmart-7th-ave-phoenix",
+    "steadys-petshop",
+    "my-pet-market-tatum-phoenix",
+    "bark-if-youre-dirty-phoenix",
+    "my-pet-market-20th-st-phoenix",
+    "betrbowl-squaw-peak-phoenix"
+  ],
+  "hash": "a8283eb414e80be713b6ff307de2df2dbc15993c4ea095167ea3afdb9983c626",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:23:48.353Z",
+      "result": "FAIL",
+      "listed": 34
+    },
+    {
+      "at": "2026-10-16T21:30:50.506Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:31:35.090Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

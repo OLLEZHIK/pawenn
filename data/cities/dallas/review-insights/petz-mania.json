@@ -1,0 +1,190 @@
+{
+  "slug": "petz-mania",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petz+Mania/data=!4m7!3m6!1s0x864c244074f4cbb3:0xe3fd4fc5fd114742!8m2!3d33.0034255!4d-96.8580357!16s%2Fg%2F11clwn8gz4!19sChIJs8v0dEAkTIYRQkcR_cVP_eM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "High praise for favourite stylists"
+      },
+      "text": {
+        "en": "The majority of pet parents enthusiastically recommend specific stylists, noting years of devoted grooming and warm personal attention for their dogs. Clients describe groomers as skilled and attentive. Isolated complaints cite unaccommodating front desk interactions, but overall sentiment towards groomers is warmly positive."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Strict scheduling and pickup delays"
+      },
+      "text": {
+        "en": "Several reviewers note operational bottlenecks that affected their visits. Feedback highlights unexpected waiting times at collection, strict refusal to accommodate clients arriving slightly late, and self-wash facilities closing well before advertised shop hours, causing inconvenience to visitors."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Neat haircuts and quality grooming"
+      },
+      "text": {
+        "en": "Clients consistently report tidy, well-finished haircuts and thorough baths for their pets. Pet parents appreciate that coats return clean and trimmed precisely according to their instructions, with multiple owners expressing ongoing satisfaction across regular grooming appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet parents request a preferred dog groomer?"
+      },
+      "a": {
+        "en": "Yes, many regular clients specifically request their favourite stylists, such as Carlee, when scheduling visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are self-service dog wash stations available on site?"
+      },
+      "a": {
+        "en": "Yes, self-service wash stations are provided, though visitors note they close prior to the main facility closing time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Petz Mania provide boarding accommodations for cats?"
+      },
+      "a": {
+        "en": "Yes, cat boarding suites are available alongside canine daycare and overnight lodging services."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is booking in advance necessary for grooming services?"
+      },
+      "a": {
+        "en": "Advance booking is strongly encouraged, as popular grooming stylists frequently operate with full schedules."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

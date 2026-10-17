@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "blacks-vets-quinton",
+    "the-lodge-veterinary-centre-hodge-hill",
+    "vets-for-pets-sutton-coldfield",
+    "the-veterinary-clinic-new-hall",
+    "hopwood-veterinary-centre",
+    "the-veterinary-clinic-great-barr",
+    "fivelands-vets-yardley",
+    "horner-vets",
+    "fivelands-vets-hall-green",
+    "vets-for-pets-stechford"
+  ],
+  "hash": "7fc30e46283e4c72adff32f1c8d4db1bedf761cc5a8e59dade60d99f311b1fda",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T13:35:37.232Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-16T13:36:39.452Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

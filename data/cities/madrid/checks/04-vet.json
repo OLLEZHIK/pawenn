@@ -1,0 +1,40 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "clinica-veterinaria-en-chamartin-vivero",
+    "clinica-veterinaria-malasana",
+    "hospital-clinico-veterinario-complutense",
+    "clinica-veterinaria-nuestra-senora-de-begona",
+    "clinica-veterinaria-neva",
+    "malasana-clinica-veterinaria-chuecavet",
+    "centro-veterinario-yubarta",
+    "clinica-veterinaria-vallecas",
+    "clinica-veterinaria-madagascar",
+    "clinica-veterinaria-ayala"
+  ],
+  "hash": "a1216388a3cc1ca25e3b4f4bf593ce5b1a2126801c35978ca3ac7262a2278649",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T22:50:25.128Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-15T22:51:57.162Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-15T22:54:46.793Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T22:58:44.040Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

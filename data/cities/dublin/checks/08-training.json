@@ -1,0 +1,41 @@
+{
+  "chunk": "08-training",
+  "kind": "places",
+  "slugs": [
+    "positive-dog-training",
+    "dognitive",
+    "dublin-dog-training",
+    "pawfection-dog-training",
+    "clever-pets-ireland",
+    "homeward-hounds-dog-training"
+  ],
+  "hash": "5dfa1bb0ea935edaa2c029d66f2828199ca1bcee97bb14ba1d6123d241162df6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T16:20:13.380Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-16T16:25:33.966Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T16:27:29.941Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:30:26.852Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-17T04:41:03.660Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

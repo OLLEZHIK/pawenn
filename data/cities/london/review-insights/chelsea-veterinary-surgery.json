@@ -1,0 +1,133 @@
+{
+  "slug": "chelsea-veterinary-surgery",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chelsea+Veterinary+Surgery+Waggin%27+Tails/data=!4m7!3m6!1s0x48760f87882ff27f:0xf6b7682c7c2744e8!8m2!3d51.4813935!4d-0.1877866!16s%2Fg%2F1tdr2sqv!19sChIJf_IviIcPdkgR6EQnfCxot_Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive clinical team and varied feedback"
+      },
+      "text": {
+        "en": "Several clients praise clinicians like Nora and the nursing team for their knowledgeable, friendly approach and understanding manner during stressful visits. However, one owner reported significant dissatisfaction after a vet failed to act during an acute canine seizure. Overall, visitors highlight an otherwise efficient and helpful staff."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Prompt medical care and treatment outcomes"
+      },
+      "text": {
+        "en": "Pet owners commend the surgery for effective treatments, including cancer surgery recovery, rapid foreign body removal, and same-day blood test results. Conversely, one reviewer felt let down when an urgent neurological concern went untreated without referral. Most reviewers express gratitude for the positive care their pets received."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Calm and welcoming Fulham clinic"
+      },
+      "text": {
+        "en": "Clients describe the surgery on Fulham Road as spotlessly clean, modern, and organised with a welcoming atmosphere. Pet owners appreciate the calming environment, which helps reduce anxiety for sick animals and their handlers. Visitors note that the clean clinical surroundings contribute to a professional standard of pet care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the clinic provide rapid diagnostic blood test results?"
+      },
+      "a": {
+        "en": "Yes, clients mention receiving blood test results on the same day during their clinic consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Chelsea Veterinary Surgery handle surgical procedures?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe successful surgeries including complex procedures and foreign body interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the surgery located?"
+      },
+      "a": {
+        "en": "The practice is located at 364-366 Fulham Road in the Chelsea area of London."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

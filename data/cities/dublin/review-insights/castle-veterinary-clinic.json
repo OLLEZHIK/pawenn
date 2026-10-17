@@ -1,0 +1,235 @@
+{
+  "slug": "castle-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Castle+Veterinary+Clinic/data=!4m7!3m6!1s0x48677345f3f1c36b:0xbebd53067a0022c8!8m2!3d53.3213165!4d-6.3898142!16s%2Fg%2F1q62crt88!19sChIJa8Px80VzZ0gRyCIAegZTvb4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 19,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Friendly front desk and clinical staff"
+      },
+      "text": {
+        "en": "A majority of clients describe the vets and receptionists as welcoming, kind, and informative during consultations. Pet owners note that staff members take time to put families at ease. However, one reviewer reported dissatisfaction with communication when attempting to secure urgent diagnostic imaging for a sick pet."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed experiences with animal handling"
+      },
+      "text": {
+        "en": "Many reviewers praise the gentle approach shown towards dogs, cats, and rabbits during routine checkups. Pet parents appreciate when practitioners handle nervous pets with affection. Conversely, a serious complaint was logged concerning a pet loss during a grooming sedation procedure, prompting mixed overall feedback."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Critical concerns regarding clinical outcomes"
+      },
+      "text": {
+        "en": "While several clients report satisfactory routine aftercare and vaccinations, multiple reviewers express grave dissatisfaction with medical outcomes. Complaints cite missed clinical diagnoses, rapid emergency referrals to outside clinics, and disagreements regarding vaccination schedules and post-procedure complications."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Castle Veterinary Clinic have parking available?"
+      },
+      "a": {
+        "en": "Yes, clients note that limited parking spaces are situated directly in front of the clinic premises."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is there a separate waiting area for cats?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm the presence of a dedicated waiting section designed to keep cats separated and calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer monthly preventative wellness plans?"
+      },
+      "a": {
+        "en": "Yes, clients mention subscribing to pet care plans covering regular booster shots and routine parasite prevention."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can veterinary appointments be booked online?"
+      },
+      "a": {
+        "en": "Yes, appointments can be scheduled online via their website or by phoning the reception team directly."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

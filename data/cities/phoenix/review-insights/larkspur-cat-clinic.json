@@ -1,0 +1,202 @@
+{
+  "slug": "larkspur-cat-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Larkspur+Cat+Clinic/data=!4m7!3m6!1s0x872b6c18494319a5:0xb85dac9e105ff9eb!8m2!3d33.596188!4d-112.121772!16s%2Fg%2F1tdb4rkr!19sChIJpRlDSRhsK4cR6_lfEJ6sXbg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Compassionate and dedicated feline specialists"
+      },
+      "text": {
+        "en": "Most cat owners express strong appreciation for Dr. Smith and his team, praising their warm bedside manner and deep understanding of feline behaviour. Clients highlight detailed consultations and unhurried discussions regarding diagnosis and care options. While one visitor felt dismissed during a checkout discussion, the vast majority describe a supportive practice devoted to feline welfare."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Low-stress care tailored to cats"
+      },
+      "text": {
+        "en": "Cat owners value the clinic's calm, feline-only atmosphere, which eliminates the barking and tension of mixed veterinary lobbies. Reviewers mention that technicians handle hissing or fearful felines with quiet patience, often avoiding unnecessary sedation for injections. Longtime clients trust the team with senior and chronically ill pets during examinations and grooming."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Clinical treatments with varied outcomes"
+      },
+      "text": {
+        "en": "Pet parents report successful outcomes for emergency poisonings, feline diabetes management, and thoughtful palliative care for elderly cats. Several reviewers emphasize that the vet guided them towards compassionate treatment choices. However, two critical reviews voiced disappointment regarding diagnostic recommendations and communication during serious illness, while other clients remain deeply loyal."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic treat animals other than cats?"
+      },
+      "a": {
+        "en": "No, the facility is exclusively dedicated to feline patients, ensuring a quiet environment without dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are emergency appointments accommodated?"
+      },
+      "a": {
+        "en": "Reviewers note that urgent cases were squeezed in even during early closing days when a cat required immediate care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Larkspur Cat Clinic offer grooming?"
+      },
+      "a": {
+        "en": "Yes, clients mention bringing their long-haired cats, such as Persians, to the clinic for specialised feline grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic manage anxious or feisty cats?"
+      },
+      "a": {
+        "en": "Staff use gentle restraint techniques and patient handling in the exam room, frequently completing injections without sedation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

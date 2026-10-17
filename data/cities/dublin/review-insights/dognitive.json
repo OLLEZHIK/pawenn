@@ -1,0 +1,138 @@
+{
+  "slug": "dognitive",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dognitive/data=!4m7!3m6!1s0x48670584930d1feb:0x3d1d111bcad6863a!8m2!3d53.3976964!4d-6.1263748!16s%2Fg%2F11vjl53vm6!19sChIJ6x8Nk4QFZ0gROobWyhsRHT0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Patient and encouraging dog trainer"
+      },
+      "text": {
+        "en": "Dog owners consistently highlight trainer Aoife Sheridan's calming presence and warm personality during training sessions. Clients appreciate that she listens carefully to household concerns, builds owner confidence, and establishes an instant rapport with puppies and adult dogs alike."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle understanding of canine behavior"
+      },
+      "text": {
+        "en": "Reviewers praise the gentle and positive methods used to engage dogs across various breeds, from young cavapoos to active golden retrievers. Owners note that pets respond enthusiastically to the sessions without stress, showing visible enthusiasm and natural cooperation during exercises."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Visible behavioral improvements and progress"
+      },
+      "text": {
+        "en": "Clients report remarkable progress after private training, mentioning successful multi-dog introductions, improved manners, and flourishing puppies. Pet parents emphasize that the practical techniques and personalized follow-up notes make daily routines noticeably easier and calmer."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where do training sessions take place?"
+      },
+      "a": {
+        "en": "Training sessions are conducted directly in clients' homes and local environments across Dublin."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Dognitive provide resources after training sessions?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention receiving detailed training notes, video demonstrations, and ongoing guidance to practice at home."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the trainer assist with introducing a new dog to the household?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight practical guidance that successfully helped them manage introductions between multiple family dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Dognitive work with first-time puppy owners?"
+      },
+      "a": {
+        "en": "Yes, clients commend the supportive foundation advice provided for new puppies settling into family life."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

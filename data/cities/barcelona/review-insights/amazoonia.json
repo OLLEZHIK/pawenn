@@ -1,0 +1,159 @@
+{
+  "slug": "amazoonia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amazoonia/data=!4m7!3m6!1s0x12a4a2db6e5dffe1:0x1924731ea310c947!8m2!3d41.4065863!4d2.1762077!16s%2Fg%2F12qfp6vd9!19sChIJ4f9dbtuipBIRR8kQox5zJBk?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Trato profesional con opiniones divididas",
+        "en": "Professional care with divided opinions"
+      },
+      "text": {
+        "es": "La mayoría de los clientes habituales valoran la cercanía y profesionalidad de los veterinarios a lo largo de los años. Sin embargo, alguna reseña reciente critica la falta de empatía en la atención del mostrador tras un problema con la medicación dispensada.",
+        "en": "Most long-term clients appreciate the closeness and professional guidance shown by the veterinarians over the years. However, a recent review criticizes a perceived lack of empathy at the front desk following a dispute regarding dispensed medication."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Comunicación médica y seguimiento clínico",
+        "en": "Medical communication and clinical follow-up"
+      },
+      "text": {
+        "es": "Varios usuarios destacan que los facultativos escuchan con paciencia y explican con claridad el estado del animal, ofreciendo buen seguimiento. En contraste, un cliente señala falta de explicaciones durante la espera y desacuerdo con la información recibida.",
+        "en": "Several pet owners note that the veterinarians listen patiently and explain diagnosis clearly, providing reassuring follow-up. In contrast, one visitor noted an absence of clear updates during an extended wait and expressed frustration with counter advice."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Eficacia en tratamientos y urgencias",
+        "en": "Effective treatments and emergency support"
+      },
+      "text": {
+        "es": "Los comentarios positivos subrayan la rapidez y el acierto clínico en situaciones urgentes y revisiones periódicas. Las familias expresan una gran tranquilidad al comprobar la recuperación favorable y el bienestar de sus perros y gatos tras la consulta.",
+        "en": "Positive reviews highlight clinical competence and dependable care during both urgent visits and routine health checkups. Families report feeling reassured after seeing their dogs and cats recover smoothly under the clinic's therapeutic recommendations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atiende el centro urgencias veterinarias?",
+        "en": "Does the clinic handle veterinary emergencies?"
+      },
+      "a": {
+        "es": "Sí, las reseñas mencionan atención rápida ante urgencias de perros durante el horario de apertura de la clínica.",
+        "en": "Yes, client reviews mention prompt assistance for canine emergencies during regular opening hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario concertar cita previa para la visita?",
+        "en": "Is an appointment required for a veterinary visit?"
+      },
+      "a": {
+        "es": "Sí, las opiniones indican que las consultas habituales se organizan mediante cita previa para evitar esperas prolongadas.",
+        "en": "Yes, reviews indicate that routine consultations are scheduled by appointment to avoid unnecessary waiting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Se pueden devolver medicamentos adquiridos en la clínica?",
+        "en": "Can purchased medications be returned to the clinic?"
+      },
+      "a": {
+        "es": "Según comentarios de clientes, el centro no acepta devoluciones de medicamentos veterinarios una vez dispensados.",
+        "en": "According to customer feedback, the center does not accept returns on veterinary medications once dispensed."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

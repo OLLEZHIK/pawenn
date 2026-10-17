@@ -1,0 +1,132 @@
+{
+  "slug": "lynx-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lynx+Veterinaria/data=!4m7!3m6!1s0xd60493880c703c1:0x8ef0633f13cabf16!8m2!3d39.4241897!4d-0.3629678!16s%2Fg%2F11c5rrt9y7!19sChIJwQPHgDhJYA0RFr_KEz9j8I4?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Trato profesional con explicaciones detalladas",
+        "en": "Professional care with thorough explanations"
+      },
+      "text": {
+        "es": "Los tutores de animales en Pobles del Sud subrayan la amabilidad y dedicación del equipo veterinario. Valoran especialmente que se tomen el tiempo necesario para resolver dudas y detallar los diagnósticos clínicos, lo que genera una gran confianza en cada consulta rutinaria.",
+        "en": "Pet owners in Pobles del Sud highlight the warm approach and dedication of the veterinary team. They especially appreciate when clinicians take the time to answer questions and clarify medical diagnoses in detail, fostering genuine trust during every routine appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Manejo cariñoso y espacios adaptados",
+        "en": "Gentle handling and calm environment"
+      },
+      "text": {
+        "es": "Los clientes destacan la infinita paciencia y ternura con la que tratan tanto a gatos rescatados como a perros de todas las edades. Las instalaciones disponen de áreas separadas para felinos y canes en salas de espera y consultas, reduciendo notablemente el estrés animal.",
+        "en": "Clients praise the boundless patience and gentle touch shown to rescued cats and dogs of all ages. The clinic features dedicated, separated consultation and waiting areas for cats and dogs, helping significantly reduce anxiety and distress during veterinary checkups."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Fidelidad prolongada y seguimiento médico",
+        "en": "Long-term loyalty and reliable outcomes"
+      },
+      "text": {
+        "es": "Varios dueños acuden a este centro desde hace años gracias a la estabilidad y eficacia en los tratamientos de sus mascotas. Salen tranquilos de cada visita y eligen la clínica como su centro médico de cabecera por la seguridad de contar con un seguimiento riguroso.",
+        "en": "Multiple owners have relied on this center for years thanks to consistent and effective care for their pets. Families leave appointments reassured, choosing the clinic as their primary medical practice because of the peace of mind provided by diligent health follow-ups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Tiene la clínica salas separadas para perros y gatos?",
+        "en": "Does the clinic have separate areas for dogs and cats?"
+      },
+      "a": {
+        "es": "Sí, cuenta con zonas diferenciadas para perros y gatos en consultas, salas de espera y hospitalización diurna para minimizar el estrés.",
+        "en": "Yes, it features separated waiting, consultation, and daycare hospitalization areas for dogs and cats to reduce anxiety."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Dispone de laboratorio propio para pruebas diagnósticas?",
+        "en": "Does the clinic have an in-house laboratory for tests?"
+      },
+      "a": {
+        "es": "Sí, dispone de laboratorio interno y equipamiento de radiografía y ecografía para realizar pruebas diagnósticas rápidas en la clínica.",
+        "en": "Yes, it houses an internal diagnostic laboratory along with radiography and ultrasound imaging equipment for fast clinical results."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Cómo se gestionan las urgencias en Lynx Veterinaria?",
+        "en": "How are veterinary emergencies handled at Lynx Veterinaria?"
+      },
+      "a": {
+        "es": "Las urgencias médicas se atienden exclusivamente dentro del horario habitual de apertura de la clínica en Castellar-L'Oliveral.",
+        "en": "Medical emergencies are managed strictly during regular clinic opening hours at the Castellar-L'Oliveral facility."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

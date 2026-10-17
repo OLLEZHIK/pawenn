@@ -1,0 +1,90 @@
+{
+  "slug": "oldcote-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Oldcote+Veterinary+Clinic/data=!4m7!3m6!1s0x484492727e3e8879:0xb5a6fad9989376aa!8m2!3d51.8876617!4d-8.5968141!16s%2Fg%2F1q62kbyrd!19sChIJeYg-fnKSREgRqnaTmNn6prU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Practice service with varied opinions"
+      },
+      "text": {
+        "en": "Reviews present differing perspectives regarding the clinic's veterinary staff and registration approach. Long-standing clients describe a reliable practice that provides helpful advice and friendly consultations for family pets. However, one caller reported that staff declined to see an acutely unwell cat because the pet was not registered with the clinic."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Telephone support and admission policy"
+      },
+      "text": {
+        "en": "Client feedback reflects contrasting experiences regarding communication with the clinic team. One pet owner appreciated open, informative conversations about general pet care topics during visits. In contrast, an emergency caller expressed distress after staff strictly enforced client registration rules over the phone rather than scheduling an urgent consultation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Oldcote Veterinary Clinic treat exotic small pets?"
+      },
+      "a": {
+        "en": "Yes, the clinic provides healthcare and consultations for rabbits, guinea pigs, and other small companion pets."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How are out-of-hours emergencies handled for clinic patients?"
+      },
+      "a": {
+        "en": "Out-of-hours emergency coverage is coordinated through referral to Sunbeam Veterinary Hospital."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are new non-registered patients accepted for walk-in visits?"
+      },
+      "a": {
+        "en": "Reviewers indicate that staff enforce client registration requirements and may prioritize registered clients."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

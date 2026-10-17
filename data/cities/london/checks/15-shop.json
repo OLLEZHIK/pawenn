@@ -1,0 +1,36 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "the-fish-bowl",
+    "verve-london-pet-boutique-cafe",
+    "pet-pavilion-chelsea",
+    "primrose-hill-pet-pavilion",
+    "the-mutz-nutz",
+    "angel-pet-supplies"
+  ],
+  "hash": "415f36608e34d651ab80ab6bbbe19c91d77625f176fd0b5b1db9bfff717e95d5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T13:19:33.862Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-16T13:25:02.165Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T13:26:06.257Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T13:27:08.051Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

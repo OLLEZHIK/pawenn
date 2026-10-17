@@ -1,0 +1,125 @@
+{
+  "slug": "bark-out-loud-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bark+Out+Loud/data=!4m7!3m6!1s0x80d953631bcfeb43:0x64dafa2ce561c081!8m2!3d32.7165708!4d-117.1401207!16s%2Fg%2F11c810w8w8!19sChIJQ-vPG2NT2YARgcBh5Sz62mQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly stylists alongside safety dispute"
+      },
+      "text": {
+        "en": "Most long-term customers describe the parlour owner and grooming crew as sweet, patient, and very attentive with family pets in Golden Hill. However, one serious complaint reported staff negligence when a dog escaped after being left unattended, criticising management for showing a lack of accountability following the incident."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling with one escape"
+      },
+      "text": {
+        "en": "Multiple dog owners share that reactive or traumatised rescue dogs remain calm and stop shaking when brought into this salon, praising the groomers' gentle touch. Conversely, an alarming review detailed a dog escaping from an unlocked kennel into the street, leading to polarised views regarding overall animal safeguarding on site."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming shop facing containment concerns"
+      },
+      "text": {
+        "en": "Several pet parents regard the neighbourhood shop as a warm and convenient local spot where their animals feel at ease upon entry. Nevertheless, one client raised urgent concerns about containment security, noting doors left unlatched between the reception lobby and the kennel area, which allowed an animal to wander out onto the road."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do groomers work with reactive or nervous rescue dogs?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that stylists offer custom options and gentle handling to keep reactive and nervous rescue dogs relaxed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Bark Out Loud located in San Diego?"
+      },
+      "a": {
+        "en": "The grooming parlour is situated on 25th Street in the Golden Hill area of San Diego."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are grooming prices considered reasonable?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that services are affordable for local pet owners in the neighbourhood."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

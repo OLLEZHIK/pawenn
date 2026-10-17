@@ -1,0 +1,90 @@
+{
+  "slug": "ideal-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ideal+Pet+Shop/data=!4m7!3m6!1s0x48449016d2bb55e5:0x1e529e3c360a2bc4!8m2!3d51.8998206!4d-8.4783603!16s%2Fg%2F11b7khry6m!19sChIJ5VW70haQREgRxCsKNjyeUh4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Knowledgeable and ethical store owner"
+      },
+      "text": {
+        "en": "Visitors highlight the store owner as honest, knowledgeable, and dedicated to pet welfare. Clients appreciate receiving clear guidance on animal care, noting that welfare clearly takes precedence during customer consultations. Reviewers describe visiting this central Cork shop as a genuine pleasure when looking for pet supplies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Ideal Pet Shop located in Cork?"
+      },
+      "a": {
+        "en": "The shop is located in central Cork City, frequently visited by pet owners browsing for supplies and animal care items."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customers rate the customer service and advice?"
+      },
+      "a": {
+        "en": "Reviewers highlight the shop owner as honest, ethical, and knowledgeable, providing helpful guidance on pet welfare."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop stock items for aquatic pets?"
+      },
+      "a": {
+        "en": "Yes, customers mention purchasing fish at the shop, although specialized packing bags may not always be available."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is animal welfare emphasized by the staff?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that animal welfare is treated as an evident priority in customer interactions and pet care advice."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

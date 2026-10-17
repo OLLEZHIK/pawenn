@@ -1,0 +1,30 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "pet-home",
+    "razas-pet-shop",
+    "kiwoko-madrid-bravo-murillo",
+    "el-jardin-de-kika",
+    "kiwoko-madrid-toreros",
+    "kiwoko-madrid-sur",
+    "kiwoko-madrid-velazquez",
+    "kiwoko-madrid-plenilunio",
+    "kiwoko-madrid-alcala",
+    "kiwoko-madrid-la-vaguada"
+  ],
+  "hash": "f3bf7e46a75681571d912e1204bae0b35e19cbc3039e4b04053205971e4de6c4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T23:30:00.140Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-15T23:31:36.329Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "centro-veterinario-madrid-exoticos",
+    "hospital-veterinario-los-madrazo",
+    "clinica-veterinaria-arturo-soria",
+    "clinica-veterinaria-supervet",
+    "clinica-veterinaria-reino-animal-arganzuela",
+    "clinica-veterinaria-general-margallo",
+    "club-veterinario-argos-calle-tribaldos",
+    "clinica-veterinaria-labrador",
+    "clinica-veterinaria-marques-de-jura-real",
+    "clinica-veterinaria-reino-animal-retiro"
+  ],
+  "hash": "bc69b873054fda0bd81385bfd88e14f090b0dfe45ab5a0936359532919e05808",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T22:28:40.773Z",
+      "result": "FAIL",
+      "listed": 35
+    },
+    {
+      "at": "2026-10-15T22:34:58.326Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
