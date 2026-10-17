@@ -1,0 +1,148 @@
+{
+  "slug": "pets-at-home-meanwood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+at+Home+Meanwood/data=!4m7!3m6!1s0x4879595b6c4b7c7f:0x80c0598a5aacdd1c!8m2!3d53.8289436!4d-1.563804!16s%2Fg%2F1tfbh7gn!19sChIJf3xLbFtZeUgRHN2sWopZwIA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Contrasting customer service experiences reported"
+      },
+      "text": {
+        "en": "Customer feedback about store staff is polarized. Several reviewers express appreciation for kind and supportive team members who assisted with small pet purchases, while others report unhelpful or dismissive attitudes from staff when inquiring about products and grooming bookings."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Small pet care and compatibility"
+      },
+      "text": {
+        "en": "Reviewers share positive memories of purchasing dwarf hamsters and selecting healthy pet foods for their dogs. However, another client reported receiving faulty advice regarding aquatic fish compatibility, which unfortunately resulted in pet losses at home."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Communication lapses and booking cancellations"
+      },
+      "text": {
+        "en": "Communication is a recurring point of dissatisfaction in recent reviews. Clients report abrupt last-minute appointment cancellations without adequate explanations, inaccurate advice regarding live fish care, and unaccommodating responses when seeking customer assistance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are small pets available to purchase here?"
+      },
+      "a": {
+        "en": "Yes, recent customers report buying dwarf hamsters and receiving guidance from store colleagues during adoption."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report about grooming salon appointments?"
+      },
+      "a": {
+        "en": "One recent reviewer experienced a last-minute appointment cancellation and expressed frustration with customer communication."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are prices compared to online retailers?"
+      },
+      "a": {
+        "en": "Reviewers note competitive pricing on pet food and essentials, with some products matching or beating major online stores."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
