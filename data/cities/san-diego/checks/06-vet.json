@@ -1,0 +1,30 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "carmel-mountain-ranch-veterinary-hospital",
+    "avian-exotic-animal-hospital-inc",
+    "companion-care-veterinary-hospital-urgent-care",
+    "la-jolla-veterinary-hospital",
+    "torrey-pines-animal-hospital",
+    "del-mar-veterinary-hospital",
+    "animal-healing-center",
+    "pet-hospital-of-penasquitos",
+    "rancho-bernardo-veterinary-clinic",
+    "socal-veterinary-hospital"
+  ],
+  "hash": "122ab0572dfb0d3d0a20af6905b70245eca460cb4d2800b50070fde85863d79a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T23:43:00.278Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-16T23:48:57.827Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
