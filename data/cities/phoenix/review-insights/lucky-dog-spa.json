@@ -1,0 +1,145 @@
+{
+  "slug": "lucky-dog-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+Dog+Spa/data=!4m7!3m6!1s0x872b0d27a21dd33d:0x52f28047d01d9020!8m2!3d33.497051!4d-112.0472178!16s%2Fg%2F11rgzy1wch!19sChIJPdMdoicNK4cRIJAd0EeA8lI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Patient and compassionate groomers"
+      },
+      "text": {
+        "en": "Clients frequently commend Stephanie, Victoria, and Mary for their warmth, dedication, and patient handling. Pet parents note that staff members treat visiting animals like members of their own family, taking time to understand each dog's personality. Reviewers also praise groomers for their punctuality and clear communication throughout the grooming appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle reassurance for anxious pets"
+      },
+      "text": {
+        "en": "Owners of dogs with severe anxiety or a deep dislike of grooming appreciate how calm and cooperative pets remain at this salon. Reviewers highlight that even notoriously tricky procedures, like nail clipping for chihuahuas or nervous yorkies, are handled safely without distress. Clients remark that their pets leave relaxed, comfortable, and content after each visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Skillful de-matting and tidy cuts"
+      },
+      "text": {
+        "en": "Pet parents report wonderful transformations, particularly for matted coats and messy outdoor fur. Reviewers praise the tidy puppy cuts on doodles, thorough combing, and pleasant smelling coats following bath visits. Clients also emphasize that the finished trims are neat and precise, providing good value and lasting results between grooming sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can difficult or anxious dogs get their nails trimmed?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that staff successfully trimmed nails on anxious pets where previous groomers had struggled."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon handle severe coat matting?"
+      },
+      "a": {
+        "en": "Clients report that groomers took the time to carefully comb out and restore severely matted coats without hurting the animal."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are services available by appointment only?"
+      },
+      "a": {
+        "en": "Yes, the salon operates by appointment to ensure personalised one-on-one care for each dog."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients book appointments online?"
+      },
+      "a": {
+        "en": "Yes, pet owners can schedule bath and haircut packages directly through the spa's website."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
