@@ -1,0 +1,156 @@
+{
+  "slug": "ahwatukee-commons-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ahwatukee+Commons+Veterinary+Hospital/data=!4m7!3m6!1s0x872b044adfcc28c5:0xde27af408bfbeece!8m2!3d33.3320662!4d-111.9792338!16s%2Fg%2F1vn_zd_z!19sChIJxSjM30oEK4cRzu77i0CvJ94?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated and honest clinical team"
+      },
+      "text": {
+        "en": "Pet owners speak highly of the veterinary clinicians and administrative team, praising their honesty and attentive clinical guidance. Clients appreciate that practitioners focus strictly on necessary healthcare, advising against redundant dental procedures when animals have healthy teeth."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle handling for feline patients"
+      },
+      "text": {
+        "en": "Clients commend the hospital for handling spirited cats and sensitive dogs with calm expertise. Reviewers mention that staff successfully managed difficult blood draws and supported unwell companion animals with gentle patience, though one client expressed strong dissatisfaction regarding care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Diagnostic success and client trust"
+      },
+      "text": {
+        "en": "Multiple reviewers report positive clinical outcomes when diagnosing and treating complex pet illnesses, commending the hospital's diagnostic accuracy. Nevertheless, one reviewer posted a stern warning urging caution, representing a sharp contrast to the prevailing positive clinical experiences."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital treat challenging or stressed pets?"
+      },
+      "a": {
+        "en": "Yes, clients report that veterinary staff successfully manage blood draws and examinations for spirited or anxious companion animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are honest recommendations given regarding dental work?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians examine oral health objectively and advise against unnecessary dental cleanings when teeth are sound."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do pet owners consider the practice suitable for long-term care?"
+      },
+      "a": {
+        "en": "Yes, multiple clients mention bringing their dogs and cats to the practice continuously from puppyhood through adulthood."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    }
+  ]
+}

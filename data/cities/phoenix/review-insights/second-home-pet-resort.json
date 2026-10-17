@@ -1,0 +1,151 @@
+{
+  "slug": "second-home-pet-resort",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Second+Home+Pet+Resort/data=!4m7!3m6!1s0x872b6de59028f337:0x16cd28bb7e4e61a0!8m2!3d33.6062232!4d-112.0634686!16s%2Fg%2F1tm88xfx!19sChIJN_MokOVtK4cRoGFOfrsozRY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive care and play sessions"
+      },
+      "text": {
+        "en": "Most pet owners highlight the attentive care provided during overnight boarding and daycare stays. Reviewers appreciate regular photo updates showing dogs enjoying the play pool and comfortable suites. However, one client reported medical complications and injuries following boarding, whilst the majority express confidence in leaving companion animals at the resort."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming and patient boarding staff"
+      },
+      "text": {
+        "en": "Clients frequently commend the resort attendants and front desk personnel for their helpful and welcoming approach. Pet owners note that attendants spend time answering questions thoroughly and easing anxiety for first-time boarders. Reviewers describe team members as caring individuals who accommodate specific routines and medication schedules."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Regular updates and billing feedback"
+      },
+      "text": {
+        "en": "Communication regarding pet stays is generally praised by owners who receive consistent photo reports and webcam access. Nonetheless, client experiences vary when resolving administrative issues, with one customer noting frustration over unexpected price increases and dispute handling, whereas most praise prompt messaging before collection."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do dogs have access to pool playtime during boarding?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that dogs can participate in supervised play sessions at the outdoor splash pool."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is live webcam viewing available for boarded pets?"
+      },
+      "a": {
+        "en": "Yes, clients note that suites include options for round-the-clock camera access to check on animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Second Home Pet Resort board cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm boarding cats with individual attention, feeding routines, and daily progress cards."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are daily updates sent to pet owners during their travels?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate receiving regular photographs, short video clips, and notes during pet stays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
