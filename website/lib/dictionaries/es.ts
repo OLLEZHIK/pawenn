@@ -260,6 +260,7 @@ export const es: Dictionary = {
     hiddenUnrated: (n: number) => `${n} sin puntuación ocultos`,
     openNowFilter: "Abierto ahora",
     allServices: "Todos los servicios",
+    picker: { service: "Servicio", where: "Dónde", filters: "Filtros", searchCity: "Buscar ciudad", done: "Listo", rating: "Valoración" },
     geoOff: "La ubicación está desactivada: mostrando todos los lugares.",
     hiddenNoHours: (n: number) => `${n} sin horario de apertura ocultos`,
     kmAway: (km: string) => `a ${km} km`,

@@ -12,6 +12,7 @@ import {
   parseNear,
   getMarketPrices,
   getCityPoints,
+  getAllCities,
 } from "@/lib/data";
 import {
   ALL_CATEGORIES,
@@ -24,12 +25,12 @@ import {
   listingPath,
 } from "@/lib/categories";
 import { safeJsonLd } from "@/lib/safeJsonLd";
-import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
+import { getDictionary, inCity, localePath, localesForCity, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
 import { BEST_TEXT, bestPath, rankBest } from "@/lib/bestPages";
 import { pricesPath } from "@/lib/priceSlugs";
-import { FilterPanel } from "./FilterPanel";
+import { ListingControls, type PickerService } from "./ListingControls";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
 import { cityClock, cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
 import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/listingSort";
@@ -225,6 +226,32 @@ export async function CategoryListing({
   // category page.
   const faqs = category && !attributePage ? buildFaqs({ locale, category, where, aggregates }) : [];
 
+  // Service and city lists for the pickers; only cities that have this language.
+  const pickerServices: PickerService[] = [
+    { category: null, href: cityPath(locale, citySlug), label: t.listing.allServices, blurb: t.cityHub.intro, accent: "var(--brand-orange)" },
+    ...ALL_CATEGORIES.map((c) => ({
+      category: c,
+      href: listingPath(locale, c, citySlug),
+      label: categoryLabel(c, locale),
+      blurb: categoryBlurb(c, locale),
+      accent: CATEGORY_THEME[c].accent,
+    })),
+  ];
+  const [allCities, cityPoints] = await Promise.all([getAllCities(), getCityPoints()]);
+  const livePoints = new Set(cityPoints.map((p) => p.slug));
+  const pickerCities = allCities
+    .filter((c) => livePoints.has(c.slug) && localesForCity(c).includes(locale))
+    .map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      country: c.country,
+      href: category ? listingPath(locale, category, c.slug) : cityPath(locale, c.slug),
+    }));
+  const regionNames = new Intl.DisplayNames([locale], { type: "region" });
+  const countryNames = Object.fromEntries(
+    [...new Set(pickerCities.map((c) => c.country))].map((code) => [code, regionNames.of(code) ?? code])
+  );
+
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
       <PageCity slug={city.slug} />
@@ -319,56 +346,20 @@ export async function CategoryListing({
               </Link>
             )}
           </div>
-
-          {/* Switch service, keep the location */}
-          {/* Wraps on phones: all six services stay visible, no hidden
-              sideways scroll. */}
-          <nav aria-label={t.listing.otherServices} className="mt-6">
-            <ul className="flex flex-wrap gap-2">
-              <li className="shrink-0">
-                <Link
-                  href={cityPath(locale, citySlug)}
-                  aria-current={category ? undefined : "page"}
-                  className={`inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border px-3.5 py-2 text-sm font-medium transition ${
-                    category
-                      ? "border-line bg-surface text-foreground/70 hover:border-brand-blue-muted-border hover:text-brand-blue"
-                      : "accent-solid border-transparent"
-                  }`}
-                >
-                  <PawIcon className="h-4 w-4" />
-                  {t.listing.allServices}
-                </Link>
-              </li>
-              {ALL_CATEGORIES.map((other) => {
-                const active = other === category;
-                return (
-                  <li key={other} className="shrink-0">
-                    <Link
-                      href={listingPath(locale, other, citySlug)}
-                      aria-current={active ? "page" : undefined}
-                      className={`inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border px-3.5 py-2 text-sm font-medium transition ${
-                        active
-                          ? "accent-solid border-transparent"
-                          : "border-line bg-surface text-foreground/70 hover:border-brand-blue-muted-border hover:text-brand-blue"
-                      }`}
-                    >
-                      <CategoryIcon category={other} className="h-4 w-4" />
-                      {categoryLabel(other, locale)}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
         </div>
       </section>
 
       <div className="mx-auto grid max-w-7xl gap-8 px-4 pt-8 lg:grid-cols-[1fr_300px]">
         <div className="min-w-0">
-          <FilterPanel
+          <ListingControls
             locale={locale}
             category={category}
             citySlug={citySlug}
+            cityName={cityName}
+            country={city.country}
+            services={pickerServices}
+            cities={pickerCities}
+            countryNames={countryNames}
             currentDistrictSlug={attributePage ? attributeSlug(attributePage, locale) : districtSlug}
             near={origin ? near : undefined}
             sort={sort}
