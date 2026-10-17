@@ -256,6 +256,7 @@ export const it: Dictionary = {
     hiddenUnrated: (n: number) => `${n} senza valutazione nascosti`,
     openNowFilter: "Aperto ora",
     allServices: "Tutti i servizi",
+    picker: { service: "Servizio", where: "Dove", filters: "Filtri", searchCity: "Cerca città", done: "Fatto", rating: "Valutazione" },
     geoOff: "La posizione è disattivata - mostriamo tutti i luoghi.",
     hiddenNoHours: (n: number) => `${n} senza orari di apertura nascosti`,
     kmAway: (km: string) => `a ${km} km`,

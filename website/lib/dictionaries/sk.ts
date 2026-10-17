@@ -273,6 +273,7 @@ export const sk: Dictionary = {
     hiddenUnrated: (n: number) => `skryté bez hodnotenia: ${n}`,
     openNowFilter: "Otvorené teraz",
     allServices: "Všetky služby",
+    picker: { service: "Služba", where: "Kde", filters: "Filtre", searchCity: "Hľadať mesto", done: "Hotovo", rating: "Hodnotenie" },
     geoOff: "Poloha je vypnutá - zobrazujeme všetky podniky.",
     hiddenNoHours: (n: number) => `skryté bez otváracích hodín: ${n}`,
     kmAway: (km: string) => `${km} km od vás`,

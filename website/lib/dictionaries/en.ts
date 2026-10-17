@@ -251,6 +251,7 @@ export const en = {
     hiddenUnrated: (n: number) => `${n} without a rating hidden`,
     openNowFilter: "Open now",
     allServices: "All services",
+    picker: { service: "Service", where: "Where", filters: "Filters", searchCity: "Search city", done: "Done", rating: "Rating" },
     geoOff: "Location is off - showing all places.",
     hiddenNoHours: (n: number) => `${n} without opening hours hidden`,
     kmAway: (km: string) => `${km} km away`,
