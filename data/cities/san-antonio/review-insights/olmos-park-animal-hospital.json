@@ -1,0 +1,129 @@
+{
+  "slug": "olmos-park-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Olmos+Park+Animal+Hospital/data=!4m7!3m6!1s0x865c5f825d750061:0x1ee5c920ff886d00!8m2!3d29.4726756!4d-98.492034!16s%2Fg%2F1wb8v36m!19sChIJYQB1XYJfXIYRAG2I_yDJ5R4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Attentive veterinary and nursing care"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinarians and veterinary technicians for their kindness and clinical knowledge. Long-time clients appreciate the patience shown towards pets during examinations. One client felt that an attending doctor appeared indifferent during a consultation, but the overall sentiment regarding the clinic team remains decidedly positive."
+      },
+      "mentions": 5,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "en": "Supportive therapies and medical recovery"
+      },
+      "text": {
+        "en": "Reviewers report noticeable health improvements for their companion animals, including positive outcomes from specialized acupuncture treatments for chronic disc conditions. Clients also express satisfaction with general recovery and post-treatment monitoring following clinical procedures."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Front desk coordination and updates"
+      },
+      "text": {
+        "en": "Client experiences with clinic communication are varied. Several pet owners note that staff members answer every medical question thoroughly during appointments. Conversely, other clients mention occasional communication misalignments at the front desk and delays in receiving written estimates for upcoming procedures."
+      },
+      "mentions": 3,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Olmos Park Animal Hospital provide pet acupuncture?"
+      },
+      "a": {
+        "en": "Yes, clients highlight acupuncture treatments performed for conditions such as degenerative disc disease."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are boarding services offered at the clinic?"
+      },
+      "a": {
+        "en": "Reviewers note that pet boarding accommodations are available on-site with attentive daily care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital require scheduled appointments?"
+      },
+      "a": {
+        "en": "Routine clinical examinations and procedures are scheduled in advance by telephone during regular clinic hours."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
