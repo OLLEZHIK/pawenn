@@ -6,7 +6,8 @@ import { PRICES_SEGMENT, pricesPath } from "@/lib/pricePages";
 import { PriceOverviewPage } from "@/components/PricePages";
 import { attributeFromSlug, attributePath, minToIndex } from "@/lib/attributePages";
 import { getDictionary, inCity, isLocale, localesForCity } from "@/lib/i18n";
-import { localeAlternates, socialMeta } from "@/lib/seo";
+import { localeAlternates, socialMeta, withPage } from "@/lib/seo";
+import { isFiltered, parsePage } from "@/components/Pagination";
 import { CategoryListing, whereLabel } from "@/components/CategoryListing";
 import { BEST_SEGMENT } from "@/lib/bestPages";
 import { BestList, bestMetadata, getBestPlaces } from "@/components/BestPage";
@@ -55,7 +56,7 @@ async function resolve(params: Promise<PageParams>) {
 // city or district, so builds don't grow with cities
 // (docs/architecture/multi-city.md).
 
-export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+async function baseMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
   const resolved = await resolve(params);
   if (!resolved) return {};
 
@@ -129,12 +130,34 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   };
 }
 
+// ?page=2...: a list gets its own canonical and title (prices and "best"
+// pages have no pages). The cached twin passes the page as a route param.
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<PageParams>;
+  searchParams?: Promise<{ page?: string; near?: string; sort?: string; rating?: string; open?: string }>;
+}): Promise<Metadata> {
+  const meta = await baseMetadata({ params });
+  const sp = await searchParams;
+  const page = parsePage(sp?.page);
+  if (page < 2 || isFiltered(sp)) return meta;
+  const resolved = await resolve(params);
+  if (!resolved || ("best" in resolved && resolved.best) || resolved.prices) return meta;
+  const { locale, category, city } = resolved;
+  const path = resolved.attribute
+    ? attributePath(locale, category, city.slug, resolved.attribute)
+    : listingPath(locale, category, city.slug, resolved.district.slug);
+  return withPage(meta, locale, path, page);
+}
+
 export default async function CategoryCityDistrictPage({
   params,
   searchParams,
 }: {
   params: Promise<PageParams>;
-  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; all?: string }>;
+  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; page?: string }>;
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
@@ -146,7 +169,7 @@ export default async function CategoryCityDistrictPage({
     return <PriceOverviewPage locale={resolved.locale} category={resolved.category} city={resolved.city} />;
   }
 
-  const { near, sort, rating, open, all } = await searchParams;
+  const { near, sort, rating, open, page } = await searchParams;
   const { locale, category, city } = resolved;
 
   return (
@@ -160,7 +183,7 @@ export default async function CategoryCityDistrictPage({
       attributePage={resolved.attribute ?? undefined}
       open={open}
       near={near}
-      showAll={all}
+      page={page}
       sort={sort}
       rating={rating}
     />

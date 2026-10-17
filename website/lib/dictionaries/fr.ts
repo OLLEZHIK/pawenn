@@ -241,6 +241,7 @@ export const fr: Dictionary = {
     results: (n: number) => `${n} ${n === 1 ? "résultat" : "résultats"}`,
     seeAll: (label: string, n: number) => `Tous : ${label.toLowerCase()} (${n})`,
     showAll: (n: number) => `Afficher les ${n}`,
+    pagination: { label: "Pages", page: (n: number) => `Page ${n}`, prev: "Page précédente", next: "Page suivante", showing: (from: number, to: number, total: number) => `Affichage de ${from} à ${to} sur ${total}` },
     fairTurn: "l'ordre change chaque jour pour que chacun ait son tour",
     nearest: "les plus proches d'abord",
     sortLabel: "Trier",

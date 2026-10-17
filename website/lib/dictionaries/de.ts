@@ -240,6 +240,7 @@ export const de: Dictionary = {
     results: (n: number) => `${n} ${n === 1 ? "Ergebnis" : "Ergebnisse"}`,
     seeAll: (label: string, n: number) => `Alle ${label} (${n})`,
     showAll: (n: number) => `Alle ${n} anzeigen`,
+    pagination: { label: "Seiten", page: (n: number) => `Seite ${n}`, prev: "Vorherige Seite", next: "Nächste Seite", showing: (from: number, to: number, total: number) => `Angezeigt: ${from}–${to} von ${total}` },
     fairTurn: "die Reihenfolge wechselt täglich, damit jeder fair drankommt",
     nearest: "nächste zuerst",
     sortLabel: "Sortieren",

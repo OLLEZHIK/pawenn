@@ -252,6 +252,7 @@ export const pl: Dictionary = {
     results: (n: number) => `${n} ${plural("pl", n, { one: "wynik", few: "wyniki", many: "wyników", other: "wyników" })}`,
     seeAll: (label: string, n: number) => `Wszystkie: ${label.toLowerCase()} (${n})`,
     showAll: (n: number) => `Pokaż wszystkie (${n})`,
+    pagination: { label: "Strony", page: (n: number) => `Strona ${n}`, prev: "Poprzednia strona", next: "Następna strona", showing: (from: number, to: number, total: number) => `Pokazano ${from}–${to} z ${total}` },
     fairTurn: "kolejność zmienia się codziennie, by każde miejsce miało równe szanse",
     nearest: "najbliżej",
     sortLabel: "Sortuj",

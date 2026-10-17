@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { categoryFromSlug, categoryLabel, categoryPlural, categorySeoTitle, categorySingular, cityPath, isCitySegment, listingPath } from "@/lib/categories";
 import { getBusinessCount, getCityBySlug, getCategoryAggregates } from "@/lib/data";
 import { getDictionary, inCity, isLocale, localesForCity } from "@/lib/i18n";
-import { localeAlternates, socialMeta } from "@/lib/seo";
+import { localeAlternates, socialMeta, withPage } from "@/lib/seo";
+import { isFiltered, parsePage } from "@/components/Pagination";
 import { CategoryListing, whereLabel } from "@/components/CategoryListing";
 
 interface PageParams {
@@ -29,7 +30,13 @@ async function resolve(params: Promise<PageParams>) {
 // city or district, so builds don't grow with cities
 // (docs/architecture/multi-city.md).
 
-export async function generateMetadata({ params }: { params: Promise<PageParams> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<PageParams>;
+  searchParams?: Promise<{ page?: string; near?: string; sort?: string; rating?: string; open?: string }>;
+}): Promise<Metadata> {
   const resolved = await resolve(params);
   if (!resolved) return {};
 
@@ -60,7 +67,7 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
   const where = whereLabel(locale, city);
   const what = aggregates.count === 1 ? categorySingular(category, locale) : categoryPlural(category, locale);
 
-  return {
+  const meta: Metadata = {
     // Filter variants (?near=, ?sort=, ?rating=, ?open=) point at the unfiltered page.
     alternates: localeAlternates(
       locale,
@@ -77,6 +84,9 @@ export async function generateMetadata({ params }: { params: Promise<PageParams>
     }),
     robots: aggregates.count < 3 ? { index: false, follow: true } : undefined,
   };
+  // ?page=2...: own canonical and title (the cached twin passes it as a route param).
+  const sp = await searchParams;
+  return isFiltered(sp) ? meta : withPage(meta, locale, listingPath(locale, category, city.slug), parsePage(sp?.page));
 }
 
 export default async function CategoryCityPage({
@@ -84,12 +94,12 @@ export default async function CategoryCityPage({
   searchParams,
 }: {
   params: Promise<PageParams>;
-  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; all?: string }>;
+  searchParams: Promise<{ near?: string; sort?: string; rating?: string; open?: string; page?: string }>;
 }) {
   const resolved = await resolve(params);
   if (!resolved) notFound();
 
-  const { near, sort, rating, open, all } = await searchParams;
+  const { near, sort, rating, open, page } = await searchParams;
   const { locale, category, city } = resolved;
 
   // No category: the city page, one list with every service.
@@ -99,7 +109,7 @@ export default async function CategoryCityPage({
       category={category}
       city={city}
       near={near}
-      showAll={all}
+      page={page}
       sort={sort}
       rating={rating}
       open={open}
