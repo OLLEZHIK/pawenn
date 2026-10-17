@@ -1,0 +1,131 @@
+{
+  "slug": "mypet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/MyPet/data=!4m7!3m6!1s0x89c6c96d5a486e9b:0xccc5997c4b10b6e1!8m2!3d39.985205!4d-75.1031063!16s%2Fg%2F11y1m3n4jk!19sChIJm25IWm3JxokR4bYQS3yZxcw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive and welcoming salon team"
+      },
+      "text": {
+        "en": "Pet owners consistently highlight the warm and attentive attitude shown by Evelina and the salon staff. Reviewers appreciate that the team listens carefully to specific styling requests and communicates clearly throughout the visit. Longtime clients praise the salon for dependable care, noting that staff members create a calm atmosphere for every pet."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "High quality haircuts and bathing"
+      },
+      "text": {
+        "en": "Clients frequently praise the appearance and scent of their dogs and cats following appointments. Multiple reviewers note that pets look clean, neatly trimmed, and tidy, with particular praise for handling breeds like Yorkies as well as older cats. Owners express strong satisfaction with the grooming standards and return regularly."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Calm and gentle pet handling"
+      },
+      "text": {
+        "en": "Reviewers emphasize how gently their animals are treated during baths and haircuts. Dog owners mention that nervous pets remain relaxed and leave wagging their tails rather than showing signs of stress. This gentle and patient approach helps build confidence, making visits comfortable even for pets that previously struggled at other salons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does MyPet groom both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, clients report successful grooming appointments for both dog breeds and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do pets react to grooming sessions at MyPet?"
+      },
+      "a": {
+        "en": "Reviewers note that dogs leave calm and happy, with groomers showing patience and gentle care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is advance booking required for grooming?"
+      },
+      "a": {
+        "en": "Appointments are recommended to secure styling slots for full haircuts and cat grooming sessions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Who leads the grooming team at the salon?"
+      },
+      "a": {
+        "en": "Reviewers frequently highlight groomer Evelina and her team for attentive and personalized grooming."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

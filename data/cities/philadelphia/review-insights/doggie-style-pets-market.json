@@ -1,0 +1,155 @@
+{
+  "slug": "doggie-style-pets-market",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggie+Style+Pets+Market/data=!4m7!3m6!1s0x89c6c88449fced85:0x2394c9d137875da3!8m2!3d39.950475!4d-75.1462815!16s%2Fg%2F1262llpq7!19sChIJhe38SYTIxokRo12HN9HJlCM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Critical reviews of floor customer service"
+      },
+      "text": {
+        "en": "Customer feedback about floor staff is largely critical, with multiple shoppers describing dismissive encounters, being completely ignored at the register, or receiving rude treatment when seeking assistance. Conversely, groomer Yvonne earned warm praise for being attentive and friendly toward pets and owners."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Unhelpful telephone and counter communication"
+      },
+      "text": {
+        "en": "Several reviewers point to poor communication, citing blunt telephone conversations and a lack of basic greetings in the retail area. In contrast, clients who booked grooming consultations with Yvonne appreciated thorough initial questions to clarify exact styling requirements before drop-off."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable haircuts and thorough deshedding"
+      },
+      "text": {
+        "en": "Grooming clients report positive experiences with coat maintenance and bathing. Pet owners praise precise haircuts that leave dogs happy and tidy, as well as gentle, thorough deshedding treatments for older double-coated breeds like Siberian Huskies, showing solid confidence in the salon services."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I get my dog groomed at the Market Street location?"
+      },
+      "a": {
+        "en": "Yes, experienced groomers offer full haircutting, baths, deshedding treatments, and nail trimming."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the store accommodate large double-coated dogs?"
+      },
+      "a": {
+        "en": "Reviewers specifically highlight successful bathing and furminating treatments for senior Siberian Huskies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in shoppers welcomed for quick pet supplies?"
+      },
+      "a": {
+        "en": "The store carries daily essentials like food and bags, though some shoppers note service delays at the counter."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do groomers conduct consultations before styling?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate that groomers ask detailed questions about preferences prior to starting appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

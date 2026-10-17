@@ -1,0 +1,32 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "pet-dermatology-center-philly",
+    "compassion-veterinary-clinic",
+    "terry-animal-hospital",
+    "the-pet-mechanic-fishtown",
+    "philadelphia-animal-specialty-and-emergency",
+    "veg-er-for-pets-northern-liberties-philadelphia",
+    "dutton-road-veterinary-clinic"
+  ],
+  "hash": "baf831715659c9590e499e237fec67575eaddab80bdedec3e38cefa9a650a004",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:11:52.458Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-16T21:17:51.317Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-16T21:18:47.535Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
