@@ -1,0 +1,133 @@
+{
+  "slug": "mission-gorge-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mission+Gorge+Animal+Hospital/data=!4m7!3m6!1s0x80d955ea3bd5a0e9:0xb5d246a95167b813!8m2!3d32.7941476!4d-117.0974997!16s%2Fg%2F1tj853vd!19sChIJ6aDVO-pV2YARE7hnUalG0rU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed feedback regarding attending veterinary care"
+      },
+      "text": {
+        "en": "Most reviewers express high regard for Dr Lee and his practice team, commending his dedication, decades of surgical competence, and welcoming reception. Longstanding patrons describe him as dependable and committed to his patients. However, one owner reported significant dissatisfaction with clinical hygiene standards and perceived the veterinary surgeon to be overly hasty during a routine follow-up appointment."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied accounts of patient handling"
+      },
+      "text": {
+        "en": "Client sentiment regarding pet handling is divided. Several owners note that the veterinary surgeon demonstrates genuine affection for companion animals, helping senior dogs feel at ease during clinical examinations and post-operative reviews. In contrast, one client raised serious concerns regarding rough technique during an ear cleaning procedure, advising greater gentleness when treating delicate patients."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and consultation dialogue"
+      },
+      "text": {
+        "en": "Pet owners appreciate Dr Lee's straightforward consultation manner and willingness to detail diagnostic findings clearly. Clients note that he outlines multiple treatment pathways without pressurising families into immediate decisions and actively invites questions during visits. Longstanding patrons also highlight that the clinic communicates directly and remains attentive to client concerns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic treat senior dogs and chronic conditions?"
+      },
+      "a": {
+        "en": "Yes, clients report bringing unwell elderly pets for thorough health evaluations and tailored treatment planning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical procedures performed at the hospital?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that Dr Lee carries out major pet surgeries and provides ongoing post-operative consultations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the pricing structure?"
+      },
+      "a": {
+        "en": "Reviewers consistently state that consultation and treatment rates are reasonable and competitive compared with other local veterinary centres."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is urgent care available for acute illness?"
+      },
+      "a": {
+        "en": "The clinic states it accepts emergency cases during working hours, and clients report receiving timely assistance for sick pets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
