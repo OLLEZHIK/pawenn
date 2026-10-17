@@ -1,0 +1,178 @@
+{
+  "slug": "greenbriar-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Greenbriar+Veterinary+Hospital/data=!4m7!3m6!1s0x864e8e6cdcde97d7:0x35e03cac171319b3!8m2!3d32.6310014!4d-96.9437329!16s%2Fg%2F1tfrxx7f!19sChIJ15fe3GyOToYRsxkTF6w84DU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Warm front desk with mixed vet feedback"
+      },
+      "text": {
+        "en": "Nearly every reviewer praises receptionist Latoya and the veterinary nurses on Clark Road for their warm, helpful, and welcoming attitude. Longtime clients also value Dr. Schumacher for his thoughtful explanations, though one cat owner felt their check-up was overly brief and another client was unhappy with how staff handled a grooming complaint."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Caring handling for dogs, birds, and rabbits"
+      },
+      "text": {
+        "en": "Pet owners appreciate that the clinic cares for a wide variety of companions, including dogs, parrots, and rabbits. Reviewers highlight gentle treatment during routine visits as well as compassionate support when families face difficult end-of-life decisions with longtime pets."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on grooming and check-ups"
+      },
+      "text": {
+        "en": "Experiences with service results vary across visits. Regular clients report smooth vaccinations, nail trims, and dog grooming sessions with Livia, whereas one dog owner complained of an uneven haircut and a first-time cat owner felt their annual wellness examination lacked thorough physical checks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Greenbriar Veterinary Hospital treat exotic pets like birds and rabbits?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently mention bringing parrots and rabbits to the clinic for veterinary care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is pet grooming available at Greenbriar Veterinary Hospital?"
+      },
+      "a": {
+        "en": "Yes, the hospital offers dog bathing, haircuts, and nail trims alongside veterinary consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic accommodate urgent or last-minute visits?"
+      },
+      "a": {
+        "en": "Clients note that the front desk team helps fit pets in on short notice when urgent needs arise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic pricing?"
+      },
+      "a": {
+        "en": "Longtime pet owners describe the veterinary fees as fair and reasonable, though one reviewer felt the exam and X-ray quote for two cats was costly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
