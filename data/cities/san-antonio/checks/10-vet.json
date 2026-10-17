@@ -1,0 +1,53 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "the-leeu-naylor-medical-building",
+    "amigo-animal-hospital",
+    "pet-shotz-inc",
+    "pet-medical-center-of-san-antonio",
+    "pets-first-veterinary-center",
+    "churchill-veterinary-hospital",
+    "olmos-park-animal-hospital",
+    "tlc-pet-hospital"
+  ],
+  "hash": "d2ed3002ec484fe46b7fc3543a076dc1a1198ad7f7de268292f77fc57e92e8fc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T23:24:32.281Z",
+      "result": "FAIL",
+      "listed": 76
+    },
+    {
+      "at": "2026-10-17T00:18:26.900Z",
+      "result": "FAIL",
+      "listed": 60
+    },
+    {
+      "at": "2026-10-17T00:33:13.751Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-17T00:39:36.586Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-17T00:41:20.325Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:44:03.408Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:45:28.241Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
