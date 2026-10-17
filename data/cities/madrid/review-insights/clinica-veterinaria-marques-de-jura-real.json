@@ -1,0 +1,135 @@
+{
+  "slug": "clinica-veterinaria-marques-de-jura-real",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Marqu%C3%A9s+de+Jura+Real/data=!4m7!3m6!1s0xd4227b7c65388bd:0xdc08aca6a53ff7bd!8m2!3d40.3909824!4d-3.711435!16s%2Fg%2F1tgjb3l4!19sChIJvYhTxrcnQg0Rvfc_paasCNw?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Profesionales experimentados y trato vocacional",
+        "en": "Experienced professionals and dedicated care"
+      },
+      "text": {
+        "es": "Los clientes resaltan la dilatada trayectoria y entrega del equipo veterinario del Marqués de Jura Real. Destacan su honestidad médica, buscando alternativas terapéuticas fundamentadas para prolongar la calidad de vida de las mascotas sin precipitaciones ni intervenciones innecesarias, generando una enorme gratitud.",
+        "en": "Clients highlight the long-standing experience and dedication of the veterinary team at Marqués de Jura Real. Owners praise their medical integrity in exploring grounded therapeutic alternatives to extend pet comfort without rushing or unnecessary procedures, earning deep family gratitude."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Paciencia y adaptación al animal",
+        "en": "Patience and individual pet adaptation"
+      },
+      "text": {
+        "es": "Las valoraciones coinciden en el respeto con el que se trata a cada perro o gato, amoldándose a temperamentos miedosos o nerviosos para evitarles estrés innecesario. Los dueños aprecian que no fuercen las exploraciones y garanticen una atmósfera tranquila donde las mascotas se sienten protegidas y cuidadas con cariño.",
+        "en": "Reviews consistently emphasize the calm respect shown to every dog or cat, adjusting carefully to fearful or nervous temperaments to prevent clinic anxiety. Guardians appreciate that examinations are never rushed, creating a soothing atmosphere where pets feel secure and genuinely looked after."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Explicaciones cercanas y contacto telefónico",
+        "en": "Detailed explanations and phone responsiveness"
+      },
+      "text": {
+        "es": "En la consulta presencial, los veterinarios explican cada diagnóstico con cercanía, detalle y claridad pedagógica. No obstante, algunos usuarios señalan que la atención telefónica puede resultar difícil y poco constante debido al volumen de trabajo en el centro, aconsejando acudir directamente a las instalaciones.",
+        "en": "During in-person consultations, veterinarians explain each medical finding with warmth, detail, and clarity. However, clients note that reaching the clinic by phone can sometimes be difficult due to heavy on-site workload, recommending visiting the facility in person for timely assistance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cómo contactar si no responden al teléfono?",
+        "en": "How to contact if they do not answer the phone?"
+      },
+      "a": {
+        "es": "Dado que priorizan la atención directa a los animales en consulta, los clientes habituales recomiendan acercarse presencialmente a la clínica.",
+        "en": "Because staff prioritize ongoing patient care in the clinic, regular clients advise visiting the center directly for urgent questions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Tratan a perros miedosos o con ansiedad?",
+        "en": "Do they treat fearful or anxious dogs?"
+      },
+      "a": {
+        "es": "Sí, los propietarios destacan su gran paciencia y empatía para adaptar los ritmos de exploración a perros temerosos o reactivos.",
+        "en": "Yes, pet owners highlight their exceptional patience and gentle pacing when handling fearful, shy, or reactive dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de tratamientos para enfermedades crónicas felinas?",
+        "en": "Do they offer treatments for feline chronic illnesses?"
+      },
+      "a": {
+        "es": "Sí, realizan diagnóstico temprano, terapias paliativas y seguimiento individualizado para patologías felinas complejas como la leucemia.",
+        "en": "Yes, they provide early diagnostics, supportive palliative therapies, and personalized long-term care for feline illnesses."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

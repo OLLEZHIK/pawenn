@@ -1,0 +1,199 @@
+{
+  "slug": "besties-dogspa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Besties+DogSpa/data=!4m7!3m6!1s0x80d9553f40f10a51:0x3774f2676b76cfb4!8m2!3d32.7490787!4d-117.1712477!16s%2Fg%2F11lcfzv0jl!19sChIJUQrxQD9V2YARtM92a2fydDc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Kind reception and attentive stylists"
+      },
+      "text": {
+        "en": "Clients frequently applaud staff members, notably groomers like Tabitha and Lily, for their warm communication, expertise, and dedication. Reception is praised for walking new clients through the grooming process clearly. While one customer wished staff had rectified a cut issue, general feedback regarding team attentiveness remains enthusiastic."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Paced care for young puppies"
+      },
+      "text": {
+        "en": "Pet owners consistently note that groomers work patiently to desensitise young pups and anxious doodles to baths, dryers, and nail clipping. Reviewers appreciate that sessions are paced around pet comfort without long hours confined in crates, allowing animals to leave feeling calm, happy, and refreshed."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Adorable haircuts despite occasional flaws"
+      },
+      "text": {
+        "en": "Most clients praise the final styling, noting cute bow ties, clean coats, and precise poodle trims. However, two reviews voiced dissatisfaction, with one owner reporting an unrequested lion tail cut and missed nails, and another noting loose hair left on their pet. These incidents create slight variation amid largely positive haircut reviews."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Besties DogSpa help desensitise puppies to grooming?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that groomers take time to gently acclimate puppies to nail trims, water, and blow dryers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is there convenient customer parking available?"
+      },
+      "a": {
+        "en": "Yes, visitors note that there is a dedicated parking lot conveniently situated right beside the salon on Goldfinch Street."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs kept in crates for extended periods?"
+      },
+      "a": {
+        "en": "Reviewers appreciate that dogs are not kept confined in cages for hours and can enjoy supervised daycare playtime."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specific haircut requests accommodated?"
+      },
+      "a": {
+        "en": "Staff generally strive to follow detailed styling preferences, though pet owners recommend confirming exact trimming instructions during intake."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "results": "-",
+        "prices": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

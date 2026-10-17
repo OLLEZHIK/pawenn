@@ -1,0 +1,276 @@
+{
+  "slug": "banfield-pet-hospital-baseline-rd",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x872b0fedf56f690b:0x9e82aecba77650b1!8m2!3d33.3760299!4d-112.0282292!16s%2Fg%2F1tc_4kgf!19sChIJC2lv9e0PK4cRsVB2p8uugp4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 23,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 17,
+      "title": {
+        "en": "Divided feedback on veterinary personnel"
+      },
+      "text": {
+        "en": "Many clients commend individual veterinary practitioners, particularly praising Dr Lucero and veterinary assistants for gentle patient care. However, several reviewers report dissatisfaction with frequent veterinarian turnover, feeling rushed, or encountering indifferent desk staff."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Criticism of clinical communication transparency"
+      },
+      "text": {
+        "en": "Multiple pet owners express frustration over communication lapses, describing difficulties speaking directly with attending vets and unreturned calls. Complaints also highlight unexpected dental extractions performed without advance consent and confusing administrative notices."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Disputes regarding wellness plan costs"
+      },
+      "text": {
+        "en": "Several pet owners report unexpected expenses and steep prices for non-routine medical procedures. Reviewers frequently mention confusion over wellness plan coverage, citing unexpected out-of-pocket costs and difficulty cancelling recurring subscription agreements."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet owners speak directly with attending veterinarians?"
+      },
+      "a": {
+        "en": "Some clients note that routine drop-off appointments are handled mainly by technicians, with limited direct interaction with veterinary surgeons."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is client feedback regarding Banfield wellness plans?"
+      },
+      "a": {
+        "en": "While wellness plans cover routine checkups, several pet owners warn of additional out-of-pocket fees and strict contract cancellation terms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the hospital routinely examines both canine and feline patients for vaccinations, routine health checks, and dental cleanings."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for veterinary examinations?"
+      },
+      "a": {
+        "en": "Advance appointment scheduling is recommended, with drop-off appointments commonly utilised for routine wellness procedures."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "prices": "-",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

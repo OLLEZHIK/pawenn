@@ -1,0 +1,140 @@
+{
+  "slug": "pet-lodge-superstore",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Lodge+Superstore/data=!4m7!3m6!1s0x48795ee9a15fae91:0x301d30790d44b2c8!8m2!3d53.7889827!4d-1.5847676!16s%2Fg%2F1td_b606!19sChIJka5foeleeUgRyLJEDXkwHTA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Cosy store setting with cafe"
+      },
+      "text": {
+        "en": "Most reviewers enjoy this welcoming neighbourhood pet shop, praising the clean cafe section, relaxed environment, and varied supplies for dogs, cats, reptiles, and fish. However, one visitor expressed disappointment that the premises felt like a smaller local shop rather than a large superstore."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming advice from shop owner"
+      },
+      "text": {
+        "en": "Pet owners commend the store owner and staff for providing friendly, helpful advice and creating an inviting community atmosphere. Customers visiting for reptile food and puppy supplies note that the team is approachable, knowledgeable, and always happy to answer questions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Welcoming atmosphere for diverse pets"
+      },
+      "text": {
+        "en": "Customers appreciate the shop's pet-friendly environment, noting that visiting puppies enjoy their visits and customers love interacting with resident dog Basil. Reviewers also highlight the specialised range of food and accessories for reptiles, snakes, fish, and small animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the shop cater to reptile owners?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention purchasing food and dry goods for snakes, reptiles, and fish alongside cat and dog supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is there a cafe inside the store?"
+      },
+      "a": {
+        "en": "Yes, visitors mention a clean cafe area offering drinks and a calm spot to relax during shopping trips."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are visiting pets welcome in the store?"
+      },
+      "a": {
+        "en": "Yes, customers report visiting with their puppies and receiving a warm welcome from staff and the shop's resident dog."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    }
+  ]
+}

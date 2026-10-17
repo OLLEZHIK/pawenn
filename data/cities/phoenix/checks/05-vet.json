@@ -1,0 +1,44 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "christown-animal-hospital",
+    "north-central-animal-hospital",
+    "westridge-animal-hospital",
+    "stonecrest-animal-hospital",
+    "laveen-veterinary-center",
+    "ahwatukee-commons-veterinary-hospital",
+    "banfield-pet-hospital-bethany-home-phoenix",
+    "banfield-pet-hospital-north-7th-ave-phoenix",
+    "ever-after-veterinary-care"
+  ],
+  "hash": "b0cd226415e4c506f34a17c30cfbc4f49506902ae484dd6a059d59dfa4620e6b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:15:08.691Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T20:15:50.350Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T20:28:39.162Z",
+      "result": "FAIL",
+      "listed": 18
+    },
+    {
+      "at": "2026-10-16T20:28:57.225Z",
+      "result": "FAIL",
+      "listed": 18
+    },
+    {
+      "at": "2026-10-17T03:05:20.780Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

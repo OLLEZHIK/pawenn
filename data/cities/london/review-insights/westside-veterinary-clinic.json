@@ -1,0 +1,150 @@
+{
+  "slug": "westside-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Westside+Veterinary+Clinic/data=!4m7!3m6!1s0x487605be6e94c3bd:0xa3e0a48be0f6c20c!8m2!3d51.4562187!4d-0.1621789!16s%2Fg%2F1tdvts_2!19sChIJvcOUbr4FdkgRDML24Iuk4KM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Friendly and experienced veterinary team"
+      },
+      "text": {
+        "en": "Clients consistently commend the veterinary surgeons and clinical nurses, with special praise for Padraig and Lottie for their approachable manner. Longtime pet owners who have visited the Clapham clinic for decades highlight trustworthy guidance and efficient service. Although one client reported serious concerns regarding clinician accountability, the prevailing opinion praises a caring and knowledgeable team."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for feline patients"
+      },
+      "text": {
+        "en": "Reviewers highlight how calmly and tenderly pets are treated during routine checkups, vaccinations, and medication reviews. Cat owners in particular note that nervous rescue cats remain settled during consultations thanks to unhurried, reassuring handling. Clients value the practitioners' genuine affection and careful attention to patient wellbeing."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful advice with isolated delays"
+      },
+      "text": {
+        "en": "Owner communication receives largely positive remarks alongside one notable complaint. Several clients praise staff for proactive advice regarding flea prevention and helpful phone calls to assist with anxious pets prior to visits. Conversely, one reviewer described substantial distress over a delayed diagnostic callback and file transfer. Most pet parents find the team responsive."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic assist owners with nervous cats?"
+      },
+      "a": {
+        "en": "Reviewers note that staff provide practical advice on carrier training and use gentle handling methods to keep rescue cats calm during visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What routine preventive treatments are available?"
+      },
+      "a": {
+        "en": "Clients regularly attend the practice for booster vaccinations, health assessments, claw trims, and parasite control advice."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Has the clinic been established in Clapham for a long time?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers mention trusting the practice with their family pets for over fifteen to twenty-five years."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "chunk": "06-shop",
+  "kind": "places",
+  "slugs": [
+    "pet-essentials",
+    "ideal-pet-shop",
+    "dobs-pets-and-exotics",
+    "pets-plus-fermoy"
+  ],
+  "hash": "a26480a0fefe16b63af368a875f089564757b456c3f09bfd134f2b3ddda6fd54",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T12:26:30.689Z",
+      "result": "FAIL",
+      "listed": 19
+    },
+    {
+      "at": "2026-10-16T12:29:55.305Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-16T12:33:06.705Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T12:34:48.069Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

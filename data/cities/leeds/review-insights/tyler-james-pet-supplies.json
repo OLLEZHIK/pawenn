@@ -1,0 +1,61 @@
+{
+  "slug": "tyler-james-pet-supplies",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tyler-James+Pet+Supplies+Limited/data=!4m7!3m6!1s0x487bfb1d9a285341:0x57cc21c090fc6f59!8m2!3d53.9263398!4d-1.8217547!16s%2Fg%2F11bbx0cwwl!19sChIJQVMomh37e0gRWW_8kMAhzFc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": { "en": "Knowledgeable and genuinely helpful team" },
+      "text": { "en": "Reviewers across the year highlight how helpful and friendly the staff are — going out of their way to assist with fitting accessories and advising on specialist foods and supplements. One customer describes a team member as a genuine expert in the field, while another praises the shop for helping with a stressful situation beyond the usual remit." }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": { "en": "Reliable advice and competitive prices" },
+      "text": { "en": "Several reviewers note that product prices at Tyler-James compare favourably against larger chains, particularly for dog food. The range is described as broad, covering everyday essentials, specialist raw diets, and niche treats. The combination of expert advice and fair pricing keeps customers returning as their go-to local shop." }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": { "en": "Attentive guidance on pet nutrition" },
+      "text": { "en": "Shoppers appreciate the clear communication and practical guidance offered by the team in Ilkley. Pet owners mention receiving thorough advice on specific dietary requirements, raw food feeding, and supplement choices. Customers feel comfortable asking questions and describe team members as approachable and willing to spend time explaining options." }
+    }
+  ],
+  "faq": [
+    {
+      "q": { "en": "Is Tyler-James cheaper than larger pet shops?" },
+      "a": { "en": "At least one reviewer notes that dog food prices at Tyler-James are lower than at larger chains. The shop also offers a wide range of specialist and raw diet options." },
+      "basis": "reviews"
+    },
+    {
+      "q": { "en": "Do you offer a cat-sitting or pet-care service?" },
+      "a": { "en": "One reviewer mentions a home cat-sitting service provided by a staff member. Contact the shop directly at +44 1943 430015 for details." },
+      "basis": "reviews"
+    },
+    {
+      "q": { "en": "Do you sell raw pet food?" },
+      "a": { "en": "Yes — raw diets are listed among the shop's specialisms. Staff are described as knowledgeable about nutrition and happy to advise on food and supplements." },
+      "basis": "reviews"
+    },
+    {
+      "q": { "en": "Can you help fit pet accessories in store?" },
+      "a": { "en": "A reviewer mentions that staff fitted a harness during their visit, suggesting hands-on help is available." },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    { "ago": "2 months ago", "months": 2, "stars": 5, "topics": { "staff": "+", "results": "+" } },
+    { "ago": "4 months ago", "months": 4, "stars": 5, "topics": {} },
+    { "ago": "5 months ago", "months": 5, "stars": 5, "topics": { "staff": "+", "results": "+", "communication": "+" } },
+    { "ago": "7 months ago", "months": 7, "stars": 5, "topics": { "staff": "+", "results": "+", "communication": "+" } },
+    { "ago": "10 months ago", "months": 10, "stars": 5, "topics": { "staff": "+", "results": "+", "communication": "+" } }
+  ]
+}

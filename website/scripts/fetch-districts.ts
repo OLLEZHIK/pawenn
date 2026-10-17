@@ -116,13 +116,16 @@ async function main() {
         return [from, rest.join("=")] as const;
       })
   );
+  // --ids=1,2,3: the district relations are given, for cities whose OSM hierarchy has no "subarea" links
+  // (València, 2026-10-15: the 19 districtes are admin_level 9 but not members of the city relation).
+  const idsArg = args.find((a) => a.startsWith("--ids="))?.slice("--ids=".length);
   const [citySlug, relId, levelArg] = args.filter((a) => !a.startsWith("--"));
   const level = Number(levelArg ?? 9);
   if (!citySlug || !relId) {
     console.error("usage: tsx scripts/fetch-districts.ts <city-slug> <osm-relation-id> [admin-level]");
     process.exit(1);
   }
-  const districts = await districtsAt(Number(relId), level);
+  const districts = idsArg ? await (async () => { const o: OsmRelation[] = []; for (const x of idsArg.split(",")) o.push(await relation(Number(x))); return o; })() : await districtsAt(Number(relId), level);
   const features = [];
   for (const d of districts) {
     // "Bratislava-Staré Mesto" style names -> "Staré Mesto"

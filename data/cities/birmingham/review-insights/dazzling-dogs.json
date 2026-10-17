@@ -1,0 +1,145 @@
+{
+  "slug": "dazzling-dogs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dazzling+Dogs/data=!4m7!3m6!1s0x4870bfb2d512a3d3:0xa98c76adbb5c3c0a!8m2!3d52.4287965!4d-1.7820718!16s%2Fg%2F11b6d080w3!19sChIJ06MS1bK_cEgRCjxcK612jKk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly service with cancellation disputes"
+      },
+      "text": {
+        "en": "Most clients praise the salon staff for their welcoming manner, polite assistance, and gentle handling of first-time puppies and nervous pets. Dog owners appreciate that staff accommodate quick walk-in tasks like nail trimming. However, one long-standing customer expressed frustration when a deposit was retained following a family medical emergency."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Tidy trims alongside styling complaints"
+      },
+      "text": {
+        "en": "Many reviewers report positive grooming outcomes, highlighting prompt nail clipping and dogs returning home looking tidy and smelling fresh. Several owners note that their pets seemed relaxed after grooming. Conversely, one client was dissatisfied with an incomplete trim that consisted mostly of blow-drying without the expected haircut."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Pricing surprises and deposit retention"
+      },
+      "text": {
+        "en": "Several critical reviews focus on payment disputes, reporting that final grooming bills exceeded online quotes due to unexpected extra time charges. Customers also note that booking deposits are strictly non-refundable even when appointments cannot be attended due to emergencies, advising prospective clients to clarify pricing policies in advance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can quick services like nail clipping be done without booking far ahead?"
+      },
+      "a": {
+        "en": "Yes, clients report that staff accommodated quick nail trims within minutes of phoning the salon."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should customers know about pricing and website estimates?"
+      },
+      "a": {
+        "en": "Reviewers advise confirming full costs before grooming begins, as extra charges can apply if sessions take longer than estimated."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are booking deposits refundable in emergencies?"
+      },
+      "a": {
+        "en": "Clients note that booking deposits are strictly enforced and were not refunded or transferred even during emergency cancellations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

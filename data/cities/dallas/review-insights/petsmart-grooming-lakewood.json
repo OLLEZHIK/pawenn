@@ -1,0 +1,132 @@
+{
+  "slug": "petsmart-grooming-lakewood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Grooming/data=!4m7!3m6!1s0x864ea1b9a8328263:0x91f006fde829ea5c!8m2!3d32.8122442!4d-96.7298809!16s%2Fg%2F11s_xpyk5x!19sChIJY4IyqLmhToYRXOop6P0G8JE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Stylist warmth with consistency concerns"
+      },
+      "text": {
+        "en": "Several pet owners praise individual groomers for being friendly, attentive, and helpful when booking appointments. Reviewers appreciate staff who take time to reassure nervous pets. However, one client experienced a rushed drop-off where expectations were disregarded, advising clear guidance on arrival."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive handling alongside shave complaints"
+      },
+      "text": {
+        "en": "Most pet parents report that bathers and stylists handle dogs gently, prioritizing comfort and making anxious pets feel safe during their visit. In contrast, one visitor felt the salon prioritized speed over care, leaving an unhappy puppy shaved too closely and prompting calls for greater attentiveness."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Satisfactory bathing beside haircut issues"
+      },
+      "text": {
+        "en": "Multiple clients highlight neat, clean coats and thorough washing for routine grooming visits. At the same time, another reviewer reported an uneven haircut on a poodle mix that was shaved entirely down, suggesting that pet parents communicate styling expectations very clearly before grooming begins."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pet owners book grooming sessions online?"
+      },
+      "a": {
+        "en": "Yes, appointments for dog and cat grooming can be scheduled online through the central booking platform."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the Lakewood salon groom nervous or anxious dogs?"
+      },
+      "a": {
+        "en": "Reviewers note that stylists work patiently with anxious pets, though clear styling guidance is advised at check-in."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What pet sizes are accommodated for grooming?"
+      },
+      "a": {
+        "en": "The facility accommodates dogs of all sizes, from small toy breeds to large companion animals."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are feline grooming services offered at this salon?"
+      },
+      "a": {
+        "en": "Yes, the salon accepts cats for bathing, brushing, and specialized feline grooming appointments."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

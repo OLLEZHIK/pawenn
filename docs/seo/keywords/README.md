@@ -12,6 +12,7 @@
 | Немецкий (`de`) | `de.md` | Собрано (Trends + подсказки, без Planner, Австрия / Wien); PR pc6/de-keywords |
 | Итальянский (`it`) | `it.md` | Собрано (Trends + подсказки, без Planner, Италия / Roma, Milano, Napoli); PR pc5/it-keywords |
 | Французский (`fr`) | `fr.md` | Собрано (подсказки Google + Trends URLs, без Planner, Франция: Paris, Marseille, Lyon); PR pc5/fr-keywords |
+| Испанский (`es`) | `es.md` | Собрано (Trends + подсказки, без Planner, Испания: Madrid, Barcelona, Valencia); PR pc2/es-keywords |
 | Новый язык | `<locale>.md` | Шаг в `docs/playbooks/add-language.md`: сначала запросы, потом слаги |
 
 ## 1. Как собирать цифры

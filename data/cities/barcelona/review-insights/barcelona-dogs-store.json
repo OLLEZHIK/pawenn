@@ -1,0 +1,173 @@
+{
+  "slug": "barcelona-dogs-store",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Barcelona+Dogs+Store/data=!4m7!3m6!1s0x12a4a35f900342f1:0x6694800697996c27!8m2!3d41.3845576!4d2.1816468!16s%2Fg%2F11lccqlk9d!19sChIJ8UIDkF-jpBIRJ2yZlwaAlGY?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Boutique artesanal y ambiente acogedor",
+        "en": "Artisan boutique and welcoming atmosphere"
+      },
+      "text": {
+        "es": "Los clientes describen la tienda en el barrio del Born como un espacio encantador, lleno de detalles y con un catálogo exclusivo de accesorios. Quienes la visitan destacan el diseño cuidado del local y la originalidad de sus artículos artesanales. Varios visitantes señalan que está enfocada principalmente en accesorios y abrigos para perros pequeños, sin venta de pienso ni alimentación.",
+        "en": "Customers describe the boutique in the El Born neighborhood as a charming space filled with unique handcrafted pet accessories. Visitors highlight the tasteful interior and the distinctive design of the items. Several shoppers note that the selection focuses primarily on boutique accessories and specialized coats for small dogs, without offering commercial pet food or kibble."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Accesorios elegantes para perros y gatos",
+        "en": "Stylish accessories for dogs and cats"
+      },
+      "text": {
+        "es": "Quienes compran en la tienda valoran la variedad y estética de los collares, correas y capas diseñadas tanto para perros como para gatos. Los dueños comentan que los complementos aportan un estilo único a sus mascotas y resaltan la confección cuidada de cada pieza. Aunque la mayoría de modelos están pensados para razas pequeñas y medianas, el acabado resulta muy llamativo y resistente.",
+        "en": "Shoppers at the store appreciate the aesthetic appeal of collars, leashes, and coats tailored for both dogs and cats. Pet parents mention that the handcrafted accessories give their animals a distinctive look and commend the fine craftsmanship. While the boutique caters predominantly to small and medium breeds, owners praise the durability and striking visual quality of each piece."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Atención cercana y trato muy amable",
+        "en": "Friendly service and attentive conversation"
+      },
+      "text": {
+        "es": "Las reseñas alaban la cercanía y hospitalidad del propietario, quien dedica tiempo a conversar con cada visitante sobre sus mascotas y sus viajes. Los compradores destacan que el trato es genuinamente afectuoso y que siempre ofrece ayuda o recomendaciones útiles durante la estancia en la ciudad. Esta atención personalizada convierte la visita en una experiencia memorable y muy grata.",
+        "en": "Reviews warmly praise the owner's hospitable and engaging manner, taking time to chat with visitors about their pets and travels. Shoppers emphasize that the welcoming service feels genuine, with generous recommendations and support offered to travelers in the city. This attentive personal touch makes visiting the boutique a memorable and pleasant shopping experience for pet owners."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Venden comida o piensos para mascotas en la tienda?",
+        "en": "Do they sell pet food or kibble at the store?"
+      },
+      "a": {
+        "es": "No, la tienda se especializa exclusivamente en accesorios artesanales, collares, correas y abrigos, y no comercializa alimentación.",
+        "en": "No, the boutique specializes exclusively in handcrafted accessories, collars, leashes, and coats, and does not carry pet food."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué tipo de accesorios para mascotas ofrecen?",
+        "en": "What kind of pet accessories do they offer?"
+      },
+      "a": {
+        "es": "Diseñan y elaboran collares de cuero hechos a mano, correas, arneses y abrigos especiales tanto para perros como para gatos.",
+        "en": "They design and produce handmade leather collars, leashes, harnesses, and specialized coats for both dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Tienen artículos adecuados para todas las razas de perros?",
+        "en": "Do they carry items suitable for all dog breeds?"
+      },
+      "a": {
+        "es": "Los clientes indican que la mayoría de prendas y accesorios están orientados a perros de tamaño pequeño y mediano.",
+        "en": "Customers note that most clothing and boutique accessories are geared toward small and medium-sized dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dónde se encuentra ubicada la tienda en Barcelona?",
+        "en": "Where is the boutique located in Barcelona?"
+      },
+      "a": {
+        "es": "Se encuentra situada en la calle de Montcada, en pleno barrio del Born en Ciutat Vella.",
+        "en": "It is located on Carrer de Montcada in the heart of the El Born district within Ciutat Vella."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

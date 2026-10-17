@@ -1,0 +1,132 @@
+{
+  "slug": "tidy-tails-dog-groomers",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tidy+Tails+Dog+Groomers/data=!4m7!3m6!1s0x48670fe671610a5b:0x8268df2b0135ab93!8m2!3d53.3518192!4d-6.2345471!16s%2Fg%2F11rkhl7hbl!19sChIJWwphceYPZ0gRk6s1ASvfaII?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly and patient grooming stylists"
+      },
+      "text": {
+        "en": "Clients praise the grooming team, particularly mentioning stylists Rachel and Katelyn for their sweet demeanor, patience, and professional handling. Pet owners appreciate the staff's gentle approach when greeting dogs at drop-off, noting that groomers take time to understand each pet's needs before styling begins."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Beautiful styling and coat finishes"
+      },
+      "text": {
+        "en": "Dog parents report high satisfaction with the visual results of grooming sessions, noting that pets leave looking gorgeous and smelling fresh. Reviewers with various dog breeds highlight tidy scissor work, neat nail trims, and well-brushed coats, expressing trust in the team's hands-on styling experience."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reassuring care for nervous pets"
+      },
+      "text": {
+        "en": "Owners of shy or anxious dogs appreciate how gently their pets are treated throughout appointments. Several reviewers note that dogs who were previously nervous about grooming now enter the salon happily without distress. The calm, reassuring environment helps pets feel secure during bathing drying and trimming."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can Tidy Tails groom dogs who are nervous or anxious?"
+      },
+      "a": {
+        "en": "Yes, clients report that the stylists handle nervous dogs with patience, helping them feel relaxed and comfortable during grooming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does Tidy Tails manage appointment cancellations?"
+      },
+      "a": {
+        "en": "The salon communicates scheduling updates directly, though one reviewer noted frustration over a short-notice cancellation during unexpected shop closures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do dog grooming sessions include nail trimming?"
+      },
+      "a": {
+        "en": "Full grooming appointments include bathing, coat styling, and careful nail care for dogs."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is advance booking required for dog grooming?"
+      },
+      "a": {
+        "en": "Yes, grooming sessions must be scheduled in advance through phone, email, or online confirmation."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

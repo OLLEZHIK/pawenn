@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "canitas-veterinaria-valencia-cc-arena",
+    "clinica-veterinaria-canesval",
+    "clinica-veterinaria-vivaria",
+    "clinica-veterinaria-gullivet",
+    "clinica-veterinaria-maestro-sosa",
+    "centro-veterinario-menescalia",
+    "clinica-veterinaria-patraix",
+    "clinica-veterinaria-bolta",
+    "hospital-veterinario-archiduque-carlos",
+    "centro-veterinario-sanpedro"
+  ],
+  "hash": "408960228a3788d4c975f0a5bf15512c7b11240fa625978507b0aeaa38ab4f7b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T22:28:30.333Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-15T22:38:04.403Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "broadway-pet-stores",
+    "the-hound-hut-oval",
+    "holly-and-lil",
+    "dogbliss-the-shop",
+    "pets-at-home-old-kent-road",
+    "madreperla-milano-pets-boutique",
+    "supreme-animal-foods",
+    "hornsey-pet-and-garden-shop",
+    "pack-and-clowder-green-lanes"
+  ],
+  "hash": "ce6af723736947003833ec5f93bfd5a604057aa63279365f9e83ceca31394b78",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T17:25:08.588Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-16T17:32:52.718Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T17:35:02.663Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

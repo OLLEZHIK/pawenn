@@ -1,0 +1,45 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "creature-comforts-vets-chelsea",
+    "medivet-west-kensington-barons-court-veterinary-centre",
+    "medivet-fulham",
+    "pickles-vets",
+    "medivet-acton-acton-lane-veterinary-surgery",
+    "medivet-barnes-white-hart-ln",
+    "westside-veterinary-clinic",
+    "grove-park-veterinary-clinic",
+    "medivet-barnes",
+    "medivet-roehampton"
+  ],
+  "hash": "dfeff08a408f6e69dabe59f95674a1c8820d9b0870918b8616a7896195baaed0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T13:38:34.291Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-16T13:49:24.187Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-16T13:57:08.355Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T13:58:00.802Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T03:55:19.660Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

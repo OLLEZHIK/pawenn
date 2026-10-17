@@ -77,6 +77,50 @@ async function get(url: string, tries = 2): Promise<{ url: string; html: string 
   return null;
 }
 
+/** Text of a PDF price list (unpdf). null: not a readable PDF, too big, or no text layer (a scan: the agent reads it). */
+async function readPdf(url: string): Promise<string | null> {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), TIMEOUT_MS * 2);
+  try {
+    const res = await fetch(url, { signal: ctl.signal, redirect: "follow", headers: { "user-agent": BROWSER_UA } });
+    if (!res.ok) return null;
+    const buf = new Uint8Array(await res.arrayBuffer());
+    if (buf.length > 8_000_000 || String.fromCharCode(...buf.subarray(0, 4)) !== "%PDF") return null;
+    const name = "unpdf";
+    const { extractText, getDocumentProxy } = await import(name);
+    const pdf = await getDocumentProxy(buf);
+    const { text } = await extractText(pdf, { mergePages: true });
+    const out = String(text ?? "").replace(/[ \t]+/g, " ").replace(/\s*\n\s*/g, "\n").trim();
+    return out.length >= 80 ? out.slice(0, 40000) : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+/** The page as a browser draws it, for sites whose HTML is an empty shell. Needs playwright-core and a Chromium
+ *  (PLAYWRIGHT_CORE = module path, CHROME_PATH = executable; on the PC containers both are in ~/pw). Off with
+ *  SITE_EXTRACT_RENDER=0; without the module the page stays "thin" as before. */
+async function renderedHtml(url: string): Promise<{ url: string; html: string } | null> {
+  if (process.env.SITE_EXTRACT_RENDER === "0") return null;
+  try {
+    const mod = process.env.PLAYWRIGHT_CORE ?? "playwright-core";
+    const { chromium } = await import(mod);
+    const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROME_PATH || undefined, args: ["--no-sandbox", "--disable-dev-shm-usage"] });
+    try {
+      const pg = await browser.newPage({ userAgent: BROWSER_UA, locale: acceptLanguage.split(",")[0] });
+      await pg.goto(url, { waitUntil: "networkidle", timeout: 30000 });
+      return { url: pg.url(), html: await pg.content() };
+    } finally {
+      await browser.close();
+    }
+  } catch (e) {
+    lastError = `render failed: ${(e as Error).message.slice(0, 80)}`;
+    return null;
+  }
+}
+
 const decode = (s: string) =>
   s
     .replace(/&nbsp;|&#160;/g, " ")
@@ -133,29 +177,30 @@ const DAY =
   "poniedziałek|wtorek|środa|czwartek|piątek|niedziela|" +
   "lunedì|lunedi|martedì|martedi|mercoledì|mercoledi|giovedì|giovedi|venerdì|venerdi|sabato|domenica|" +
   "lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|" +
-  "lun|mar|mer|gio|ven|sab|dom|jeu|sam|dim|" +
+  "lunes|martes|miércoles|miercoles|jueves|viernes|sábado|sabado|domingo|" +
+  "lun|mar|mer|gio|ven|sab|dom|jeu|sam|dim|mié|mie|jue|vie|sáb|" +
   "mo|di|mi|do|fr|sa|so|mon|tue|tues|wed|thu|thur|thurs|fri|sat|sun|po|ut|út|st|št|čt|pi|pá|ne|pon|wt|śr|czw|pt|sob|nd|niedz)";
 const TIME = "(\\d{1,2}[:.]\\d{2}|\\d{1,2}\\s?(am|pm|a\\.m\\.|p\\.m\\.|uhr|h\\b))";
 // a line that is only days: "Mo - Fr", "Montag:", "Mon–Fri"
 const DAY_ONLY = new RegExp(`^${DAY}\\.?(\\s*[-–—,&+/]\\s*${DAY}\\.?)*\\s*:?$`, "iu");
 const TIME_START = new RegExp(
-  `^(${TIME}|\\d{1,2}\\s*(-|–|—|bis\\b|to\\b|do\\b|until\\b)|geschlossen|closed|zatvoren|zavřeno|zamknięte|nieczynne|nach vereinbarung|by appointment|chiuso|fermé|ferme\b|su appuntamento|sur rendez-vous)`,
+  `^(${TIME}|\\d{1,2}\\s*(-|–|—|bis\\b|to\\b|do\\b|until\\b)|geschlossen|closed|zatvoren|zavřeno|zamknięte|nieczynne|nach vereinbarung|by appointment|chiuso|fermé|ferme\b|su appuntamento|sur rendez-vous|cerrado|previa cita|con cita)`,
   "iu",
 );
 const TIME_ANY = new RegExp(TIME, "iu");
 // with no time in it, a line about hours is evidence only when it says how the place works
-const HOURS_NO_TIME = /(vereinbarung|appointment|dohode|objednání|umówieniu|appuntamento|rendez-vous|h24|24\s?ore|rund um die uhr|24\s?h\b|24\s?\/\s?7|nonstop|non-stop|24 stunden|24 hours)/i;
+const HOURS_NO_TIME = /(vereinbarung|appointment|dohode|objednání|umówieniu|appuntamento|rendez-vous|cita previa|h24|24\s?ore|24\s?horas|abierto 24|rund um die uhr|24\s?h\b|24\s?\/\s?7|nonstop|non-stop|24 stunden|24 hours)/i;
 const HOURS_LINE = new RegExp(`(^|[^\\p{L}])${DAY}(?!\\p{L})\\.?[^\\p{L}\\d\\n]{0,6}(${DAY}(?!\\p{L})\\.?)?[^\\n]{0,25}?${TIME}`, "iu");
 const HOURS_WORDS =
-  /(öffnungszeit|oeffnungszeit|ordinationszeit|sprechzeit|sprechstunde|opening hours|business hours|office hours|hours of operation|open daily|godziny otwarcia|godziny przyjęć|otváracie hodiny|ordinačné hodiny|otevírací doba|ordinační hodiny|nach (telefonischer )?vereinbarung|by appointment only|po dohode|na objednání|po wcześniejszym umówieniu|orari(o)? di apertura|orari(o)? (di )?(ambulatorio|ricevimento)|orari\b|horaires? d.ouverture|horaires\b|heures d.ouverture|su appuntamento|sur rendez-vous)/i;
+  /(öffnungszeit|oeffnungszeit|ordinationszeit|sprechzeit|sprechstunde|opening hours|business hours|office hours|hours of operation|open daily|godziny otwarcia|godziny przyjęć|otváracie hodiny|ordinačné hodiny|otevírací doba|ordinační hodiny|nach (telefonischer )?vereinbarung|by appointment only|po dohode|na objednání|po wcześniejszym umówieniu|orari(o)? di apertura|orari(o)? (di )?(ambulatorio|ricevimento)|orari\b|horaires? d.ouverture|horaires\b|heures d.ouverture|su appuntamento|sur rendez-vous|horario(s)?\b|horario de (apertura|atenci[oó]n|consulta)|cita previa)/i;
 // Language names as whole words ("deutsch", not "Deutschland") and a word
 // about speaking them: the staff's languages, not the site's language
 // switcher or the law's "German law applies" (Berlin, 2026-10-06).
 const LANGUAGE_NAME =
-  /(^|[^\p{L}])(englisch\p{L}{0,2}|english|deutsch\p{L}{0,2}|german|französisch\p{L}{0,2}|french|spanisch\p{L}{0,2}|spanish|italienisch\p{L}{0,2}|italian|türkisch\p{L}{0,2}|turkish|russisch\p{L}{0,2}|russian|polnisch\p{L}{0,2}|polish|ukrainisch\p{L}{0,2}|ukrainian|arabisch\p{L}{0,2}|arabic|ungarisch\p{L}{0,2}|hungarian|kroatisch\p{L}{0,2}|serbisch\p{L}{0,2}|slowakisch\p{L}{0,2}|tschechisch\p{L}{0,2}|angličtin\p{L}*|anglicky|nemčin\p{L}*|němčin\p{L}*|angielsk\p{L}*|niemieck\p{L}*|rosyjsk\p{L}*|ukraińsk\p{L}*)(?![\p{L}])/iu;
+  /(^|[^\p{L}])(englisch\p{L}{0,2}|english|deutsch\p{L}{0,2}|german|französisch\p{L}{0,2}|french|spanisch\p{L}{0,2}|spanish|espa[ñn]ol\p{L}{0,2}|inglese|anglais|ingl[eé]s|francese|fran[cç]ais|franc[eé]s|tedesco|allemand|alem[aá]n|italienisch\p{L}{0,2}|italian|türkisch\p{L}{0,2}|turkish|russisch\p{L}{0,2}|russian|polnisch\p{L}{0,2}|polish|ukrainisch\p{L}{0,2}|ukrainian|arabisch\p{L}{0,2}|arabic|ungarisch\p{L}{0,2}|hungarian|kroatisch\p{L}{0,2}|serbisch\p{L}{0,2}|slowakisch\p{L}{0,2}|tschechisch\p{L}{0,2}|angličtin\p{L}*|anglicky|nemčin\p{L}*|němčin\p{L}*|angielsk\p{L}*|niemieck\p{L}*|rosyjsk\p{L}*|ukraińsk\p{L}*)(?![\p{L}])/iu;
 const SPEAK_WORDS =
-  /(sprechen|spreche|spricht|sprachkenntnis|fremdsprach|sprachen\s*:|mehrsprachig|auch auf|speak|spoken|speaking|languages\s*:|in english|po anglicky|po angielsku|w języku|hovoríme|hovorí|komunikujeme|mluvíme|mluví|domluvíte|mówimy|mówi|porozumiesz|obsługa w języku|języki\s*:)/i;
-const LEGAL_PAGE = /(impressum|datenschutz|privacy|cookie|agb|terms|nutzungsbedingung|gdpr|dsgvo|ochrana-osobnych|ochrana-osobních|polityka-prywatnosci|rodo|regulamin|mentions-legales|mentions légales|confidentialite|confidentialité|note-legali|informativa)/i;
+  /(sprechen|spreche|spricht|sprachkenntnis|fremdsprach|sprachen\s*:|mehrsprachig|auch auf|speak|spoken|speaking|languages\s*:|in english|po anglicky|po angielsku|w języku|hovoríme|hovorí|komunikujeme|mluvíme|mluví|domluvíte|mówimy|mówi|porozumiesz|obsługa w języku|języki\s*:|parliamo|si parla|lingue\s*:|parlons|on parle|langues?\s*(parl[ée]es)?\s*:|hablamos|se habla|idiomas\s*:|atendemos en)/i;
+const LEGAL_PAGE = /(impressum|datenschutz|privacy|cookie|agb|terms|nutzungsbedingung|gdpr|dsgvo|ochrana-osobnych|ochrana-osobních|polityka-prywatnosci|rodo|regulamin|mentions-legales|mentions légales|confidentialite|confidentialité|note-legali|informativa|aviso-legal|politica-de-privacidad|politica-de-cookies)/i;
 
 type Match = RegExp | ((line: string) => boolean);
 const matches = (m: Match, line: string) => (typeof m === "function" ? m(line) : m.test(line));
@@ -163,10 +208,10 @@ const matches = (m: Match, line: string) => (typeof m === "function" ? m(line) :
 const KEYWORDS: Record<"hours" | "emergency" | "languages" | "price" | "homeVisit", Match> = {
   // "Sprechzeiten" alone is a heading, not a quote of the hours
   hours: (l) => HOURS_LINE.test(l) || (HOURS_WORDS.test(l) && (TIME_ANY.test(l) || HOURS_NO_TIME.test(l))),
-  emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency)/iu,
+  emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|urgencias?|guardia|24\s?horas|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency)/iu,
   languages: (l) => LANGUAGE_NAME.test(l) && SPEAK_WORDS.test(l) && !/cookie|datenschutz|privacy|impressum/i.test(l),
-  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires)\b/i,
-  homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy)/i,
+  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?)\b/i,
+  homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|visitas? a domicilio|atenci[oó]n a domicilio|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy)/i,
 };
 
 /** Sentences/lines copied word for word, 10-400 chars (the evidence limits). */
@@ -272,11 +317,11 @@ function page(url: string, html: string) {
 // but its "Sprache: Deutsch" is not a language the staff speaks).
 type Kind = "price" | "hours" | "contact" | "about" | "legal";
 const LINKS: [Kind, RegExp][] = [
-  ["price", /(preis|tarif|leistungen-und-kosten|kosten|gebühr|honorar|cennik|cenník|ceník|ceny|price|pricing|rates|prezz|listino|costi|prix|prestations|honoraires)/i],
-  ["hours", /(öffnungszeit|oeffnungszeit|sprechzeit|sprechstunde|ordinationszeit|opening|hours|godziny|orari|horaires|otv[aá]rac|otev[ií]rac|ordina[cč]n)/i],
-  ["contact", /(kontakt|contact|anfahrt|standort|location|kontakty|contatt|dove-siamo|nous-trouver|acces|accès)/i],
-  ["about", /(über-uns|ueber-uns|über uns|about|team|praxis|unsere-praxis|o-nas|o nás|o-nás|chi-siamo|chi siamo|qui-sommes-nous|qui sommes-nous|equipe|équipe)/i],
-  ["legal", /(impressum|imprint|mentions-legales|mentions légales|note-legali)/i],
+  ["price", /(preis|tarif|leistungen-und-kosten|kosten|gebühr|honorar|cennik|cenník|ceník|ceny|price|pricing|rates|prezz|listino|costi|prix|prestations|honoraires|precios|tarifas|servicios)/i],
+  ["hours", /(öffnungszeit|oeffnungszeit|sprechzeit|sprechstunde|ordinationszeit|opening|hours|godziny|orari|horaires|horario|otv[aá]rac|otev[ií]rac|ordina[cč]n)/i],
+  ["contact", /(kontakt|contact|anfahrt|standort|location|kontakty|contatt|dove-siamo|nous-trouver|acces|accès|contacto|donde-estamos|como-llegar)/i],
+  ["about", /(über-uns|ueber-uns|über uns|about|team|praxis|unsere-praxis|o-nas|o nás|o-nás|chi-siamo|chi siamo|qui-sommes-nous|qui sommes-nous|equipe|équipe|quienes-somos|sobre-nosotros|nuestro-equipo|equipo)/i],
+  ["legal", /(impressum|imprint|mentions-legales|mentions légales|note-legali|aviso-legal)/i],
 ];
 
 function subpages(base: string, links: { href: string | null; label: string }[]): { kind: Kind; url: string }[] {
@@ -299,7 +344,7 @@ function subpages(base: string, links: { href: string | null; label: string }[])
   return found.some((f) => f.kind === "contact") ? found.filter((f) => f.kind !== "legal") : found;
 }
 
-/** Linked PDFs that look like a price list: the script does not read PDFs, the agent opens them. */
+/** Linked PDFs that look like a price list: readPdf reads those with a text layer, the agent opens the rest (scans). */
 function pricePdfs(links: { href: string | null; label: string }[]): string[] {
   return [
     ...new Set(
@@ -313,7 +358,7 @@ function pricePdfs(links: { href: string | null; label: string }[]): string[] {
 type Result = Record<string, unknown>;
 
 // Country calling codes of the cities (as in sanity.ts).
-const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33" };
+const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353" };
 let dial = "";
 
 /** The number without country code, trunk 0 or "(0)": "+43 (0)1 347 43",
@@ -337,10 +382,10 @@ function phoneCheck(csvPhone: string, tels: string[], text: string): string {
 // Price lines: "Baden & Föhnen ab 45 €", "Kastration Kater | 120,00 EUR" (a
 // table row is one line). The service text and the amount as the page writes
 // them; which price code it is, the agent decides.
-const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$)";
+const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp)";
 const AMOUNT = "(\\d{1,3}(?:[ .]\\d{3})*(?:[.,]\\d{1,2})?|\\d+)(?:,-|,–)?";
 const PRICE_LINE = new RegExp(`(?:${CUR}\\s?${AMOUNT}|${AMOUNT}\\s?${CUR})`, "iu");
-const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD" };
+const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP" };
 
 function priceRows(pages: { url: string; text: string }[]) {
   const out: { service: string; amount: number; currency: string; quote: string; url: string }[] = [];
@@ -369,7 +414,18 @@ async function extract(row: Row): Promise<Result> {
   if (isSocial(site) || isGoogleMaps(site)) return { ...base, status: "social-or-maps", note: "not opened: social/Maps pages are read by the agent (no login bypass)" };
   const home = await get(site);
   if (!home) return { ...base, status: "unreadable", note: `no HTML answer: ${lastError} (the agent opens the site; a 404 may mean a wrong URL in candidates.csv)` };
-  const p = page(home.url, home.html);
+  let p = page(home.url, home.html);
+  let rendered = false;
+  if (p.text.length < 300) {
+    const r = await renderedHtml(home.url);
+    if (r) {
+      const q = page(r.url, r.html);
+      if (q.text.length > p.text.length) {
+        p = q;
+        rendered = true;
+      }
+    }
+  }
   const pages = [p];
   for (const s of subpages(home.url, p.links)) {
     const r = await get(s.url);
@@ -382,14 +438,22 @@ async function extract(row: Row): Promise<Result> {
   const ORDER: Record<string, number> = { hours: 0, contact: 1, home: 2, about: 3, price: 4, legal: 5 };
   const forHours = [...pages].sort((a, b) => ORDER[kindOf(a)] - ORDER[kindOf(b)]);
   const forLanguages = pages.filter((x) => kindOf(x) !== "legal" && !LEGAL_PAGE.test(new URL(x.url).pathname));
-  const pricePages = priceText ? pages.filter((x) => kindOf(x) === "price") : pages;
+  const pdfUrls = [...new Set(pages.flatMap((x) => pricePdfs(x.links)))].slice(0, 3);
+  const pdfPages: { url: string; text: string }[] = [];
+  for (const u of pdfUrls) {
+    const text = await readPdf(u);
+    if (text) pdfPages.push({ url: u, text });
+  }
+  const pricePages: { url: string; text: string }[] = [...(priceText ? pages.filter((x) => kindOf(x) === "price") : pages), ...pdfPages];
   const structuredAll = pages.map((x) => x.structured).filter(Boolean);
   const ldPhones = structuredAll.map((x) => x?.telephone).flat().filter((t): t is string => typeof t === "string");
   const sparse = p.text.length < 300;
   return {
     ...base,
     status: sparse ? "thin" : "ok",
-    note: sparse ? "almost no text in the HTML: a JavaScript site or a splash page, the agent must open it" : undefined,
+    rendered_in_browser: rendered || undefined,
+    note: sparse ? "almost no text even after rendering: a splash page or an image-only site, the agent must open it" : undefined,
+    pdf_read: pdfPages.map((x) => ({ url: x.url, chars: x.text.length })),
     pages: pages.map((x) => ({ url: x.url, kind: kindOf(x), lang: x.lang, title: x.title })),
     lang: p.lang,
     metaDescription: p.metaDescription,

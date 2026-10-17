@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "vets-for-pets-leeds-birstall-hospital",
+    "vets-for-pets-leeds-easterly-road",
+    "yorkshire-vets-armley",
+    "holly-house-vets-moortown",
+    "vets-for-pets-leeds-colton",
+    "tweed-house-vets-yeadon",
+    "white-cross-vets-stanningley",
+    "vets-for-pets-leeds-kirkstall",
+    "beehive-vets-rothwell",
+    "yorkshire-vets-meanwood"
+  ],
+  "hash": "d0f80c4382d4993606ac411b8e52bd515b3cccb075fdf6e01a32776577cfab29",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T09:52:11.943Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-16T09:55:41.086Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

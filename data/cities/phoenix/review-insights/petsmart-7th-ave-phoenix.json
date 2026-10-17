@@ -1,0 +1,151 @@
+{
+  "slug": "petsmart-7th-ave-phoenix",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart/data=!4m7!3m6!1s0x872b6e44cf8ea79b:0xda50a061dfe05d48!8m2!3d33.6420164!4d-112.0821957!16s%2Fg%2F1thn5zxn!19sChIJm6eOz0RuK4cRSF3g32GgUNo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful cashiers and groomers, mixed phone support"
+      },
+      "text": {
+        "en": "In-store shoppers on North 7th Avenue praise cashier Rihannon, groomer Rachael, and floor associates for their kindness, pet care advice, and reminders about loyalty deals. In contrast, one caller reported an unhelpful interaction when phoning the aquatics section, noting that staff seemed unfamiliar with fish stock until a supervisor stepped in."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clear in-store advice vs telephone delays"
+      },
+      "text": {
+        "en": "First-time pet owners appreciate how clearly grooming staff explain procedures at drop-off, and regular shoppers value tips on in-app promotions at the register. However, one customer described a thirty-minute struggle by telephone, reporting being left on hold and carried around in an associate's pocket before getting an answer."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reassuring care for pets and supplies"
+      },
+      "text": {
+        "en": "Customers visiting for dog food, aquarium fish, and salon appointments note that associates take a genuine interest in their pets. First-time owners feel reassured leaving nervous animals in the grooming department, and shoppers appreciate the practical pet guidance shared during checkout visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do shoppers describe the in-store staff on North 7th Avenue?"
+      },
+      "a": {
+        "en": "Reviewers praise register and salon staff such as Rihannon and Rachael for friendly service, thorough grooming explanations, and reminders about app deals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is it easy to check live fish availability by telephone?"
+      },
+      "a": {
+        "en": "One reviewer reported repeated holds and delays of up to 30 minutes when calling to check aquarium fish stock until a supervisor assisted."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this PetSmart branch offer grooming and curbside pickup?"
+      },
+      "a": {
+        "en": "Yes, the North 7th Avenue store provides a grooming salon, dog training classes, and click-and-collect order pickup."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "animals": "+"
+      }
+    }
+  ]
+}

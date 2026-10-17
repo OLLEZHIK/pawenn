@@ -1,0 +1,102 @@
+{
+  "slug": "muddy-paws-dog-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Muddy+Paws+Dog+Grooming/data=!4m7!3m6!1s0x48449bc2b20f3117:0xe1e1d4abd6502dba!8m2!3d51.9282685!4d-8.3958851!16s%2Fg%2F11h3bj6p6l!19sChIJFzEPssKbREgRui1Q1qvU4eE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Grooming outcomes with contrasting feedback"
+      },
+      "text": {
+        "en": "Reviews show divided opinions regarding the styling and coat grooming outcomes. Satisfied clients report great results with coats clipped well on both mixed-breed dogs and larger breeds like huskies. Conversely, a critical reviewer reported an uneven haircut on a spaniel, noting that specific trimming instructions were not followed and clippers were used."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Pet handling during grooming sessions"
+      },
+      "text": {
+        "en": "Client feedback reflects varied experiences concerning animal wellbeing in the salon. Positive reviews state that dogs were looked after with patience and care, leaving pet owners pleased with the handling. However, one owner reported that their dog appeared very stressed upon collection and claimed that a harness had been damaged during the visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What grooming services are provided at Muddy Paws Dog Grooming?"
+      },
+      "a": {
+        "en": "The parlour offers full grooming sessions, warm hydro-baths, scissoring, coat clipping, and ear cleaning."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can large dog breeds be groomed at the salon?"
+      },
+      "a": {
+        "en": "Yes, client reviews mention successful grooming sessions for larger breeds, including huskies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required in advance?"
+      },
+      "a": {
+        "en": "Yes, the salon operates on an appointment-only schedule from Tuesday through Saturday."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

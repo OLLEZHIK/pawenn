@@ -1,0 +1,157 @@
+{
+  "slug": "baltimore-pet-shoppe",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Baltimore+Pet+Shoppe/data=!4m7!3m6!1s0x89c6c6ed9a463b7b:0x2d60e5b3c192e3ad!8m2!3d39.9487802!4d-75.2139019!16s%2Fg%2F1tdpn0x2!19sChIJeztGmu3GxokRreOSwbPlYC0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful and welcoming store associates"
+      },
+      "text": {
+        "en": "Shoppers frequently mention how kind and informative the staff is, assisting customers with harness fittings for wriggly puppies and answering product questions. Although one visitor noted an aloof greeting at the front counter, customer service is generally praised."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Charming West Philadelphia pet boutique"
+      },
+      "text": {
+        "en": "Reviewers love the cozy neighborhood charm and note that the compact storefront packs a surprising variety of pet foods, toys, and gear. West Philadelphia patrons appreciate having a reliable independent shop with well-stocked shelves right on Baltimore Avenue."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly shop cats and puppy fittings"
+      },
+      "text": {
+        "en": "Visitors are delighted by the two friendly resident shop cats roaming freely around the storefront. Customers also appreciate that staff members patiently work directly with dogs of all sizes to ensure harnesses and accessories fit comfortably and safely."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Baltimore Pet Shoppe have resident store animals?"
+      },
+      "a": {
+        "en": "Yes, customers frequently mention two friendly resident shop cats that greet visitors inside the store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff help fit pet harnesses and gear in person?"
+      },
+      "a": {
+        "en": "Reviewers note that associates will actively help fit harnesses onto puppies and dogs to ensure the correct sizing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What product selection is available in the boutique?"
+      },
+      "a": {
+        "en": "The shop stocks nutritious pet foods, treats, toys, litter supplies, and grooming goods in a compact neighborhood setting."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "place": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

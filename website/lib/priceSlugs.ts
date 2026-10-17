@@ -8,50 +8,50 @@ import { SERVICES } from "./services";
 //   /<category>/<city>/prices/<service>/  one service, every place compared
 // The "prices" segment sits in the district slot, like "nonstop"; no
 // district may use it.
-export const PRICES_SEGMENT: Record<Locale, string> = { en: "prices", sk: "ceny", pl: "ceny", cs: "ceny", de: "preise", fr: "tarifs", it: "prezzi" };
+export const PRICES_SEGMENT: Record<Locale, string> = { en: "prices", sk: "ceny", pl: "ceny", cs: "ceny", de: "preise", fr: "tarifs", it: "prezzi", es: "precios" };
 
 /** URL slug per service code and language - written by hand, as people
  *  search it ("kastracia-kocura"), not generated from labels. */
 const SERVICE_SLUGS: Partial<Record<BusinessCategory, Record<string, Record<Locale, string>>>> = {
   GROOMING: {
-    full_groom: { en: "full-grooming", sk: "kompletna-uprava", pl: "strzyzenie-psa", cs: "strihani-psa", de: "hunde-scheren", fr: "toilettage-complet", it: "toelettatura-cane" },
-    bath_dry: { en: "bath-and-blow-dry", sk: "kupanie-a-fenovanie", pl: "kapiel-i-suszenie", cs: "koupani-a-fenovani", de: "baden-und-foehnen", fr: "bain-et-sechage", it: "lavaggio-e-asciugatura" },
-    hand_stripping: { en: "hand-stripping", sk: "trimovanie", pl: "trymowanie", cs: "trimovani", de: "trimmen", fr: "epilation", it: "stripping" },
-    deshedding: { en: "de-shedding", sk: "vycesavanie-podsady", pl: "wyczesywanie-podszerstka", cs: "vycesavani-podsady", de: "unterwolle-entfernen", fr: "demelage", it: "cardatura" },
-    nail_trim: { en: "nail-trim", sk: "strihanie-pazurikov", pl: "obcinanie-pazurow", cs: "strihani-drapku", de: "krallen-schneiden", fr: "coupe-des-griffes", it: "taglio-unghie" },
-    cat_groom: { en: "cat-grooming", sk: "uprava-macky", pl: "strzyzenie-kota", cs: "strihani-kocky", de: "katze-scheren", fr: "toilettage-chat", it: "toelettatura-gatto" },
+    full_groom: { en: "full-grooming", sk: "kompletna-uprava", pl: "strzyzenie-psa", cs: "strihani-psa", de: "hunde-scheren", fr: "toilettage-complet", it: "toelettatura-cane", es: "corte-de-pelo" },
+    bath_dry: { en: "bath-and-blow-dry", sk: "kupanie-a-fenovanie", pl: "kapiel-i-suszenie", cs: "koupani-a-fenovani", de: "baden-und-foehnen", fr: "bain-et-sechage", it: "lavaggio-e-asciugatura", es: "bano-y-secado" },
+    hand_stripping: { en: "hand-stripping", sk: "trimovanie", pl: "trymowanie", cs: "trimovani", de: "trimmen", fr: "epilation", it: "stripping", es: "stripping" },
+    deshedding: { en: "de-shedding", sk: "vycesavanie-podsady", pl: "wyczesywanie-podszerstka", cs: "vycesavani-podsady", de: "unterwolle-entfernen", fr: "demelage", it: "cardatura", es: "deslanado" },
+    nail_trim: { en: "nail-trim", sk: "strihanie-pazurikov", pl: "obcinanie-pazurow", cs: "strihani-drapku", de: "krallen-schneiden", fr: "coupe-des-griffes", it: "taglio-unghie", es: "corte-de-unas" },
+    cat_groom: { en: "cat-grooming", sk: "uprava-macky", pl: "strzyzenie-kota", cs: "strihani-kocky", de: "katze-scheren", fr: "toilettage-chat", it: "toelettatura-gatto", es: "peluqueria-felina" },
   },
   VET_CLINIC: {
-    exam: { en: "check-up", sk: "vysetrenie", pl: "badanie-kliniczne", cs: "vysetreni", de: "untersuchung", fr: "consultation", it: "visita-veterinaria" },
-    vaccination_dog: { en: "dog-vaccination", sk: "ockovanie-psa", pl: "szczepienie-psa", cs: "ockovani-psa", de: "impfung-hund", fr: "vaccination-chien", it: "vaccino-cane" },
-    microchip: { en: "microchip", sk: "cipovanie", pl: "czipowanie", cs: "cipovani", de: "chippen", fr: "identification-puce", it: "microchip-cane" },
-    neuter_cat: { en: "cat-neutering", sk: "kastracia-kocura", pl: "kastracja-kota", cs: "kastrace-kocoura", de: "kastration-kater", fr: "castration-chat", it: "castrazione-gatto" },
-    spay_cat: { en: "cat-spaying", sk: "kastracia-macky", pl: "sterylizacja-kotki", cs: "kastrace-kocky", de: "kastration-katze", fr: "sterilisation-chatte", it: "sterilizzazione-gatta" },
-    spay_dog: { en: "dog-spaying", sk: "kastracia-suky", pl: "sterylizacja-suki", cs: "kastrace-feny", de: "kastration-huendin", fr: "sterilisation-chienne", it: "sterilizzazione-cane" },
+    exam: { en: "check-up", sk: "vysetrenie", pl: "badanie-kliniczne", cs: "vysetreni", de: "untersuchung", fr: "consultation", it: "visita-veterinaria", es: "consulta-veterinaria" },
+    vaccination_dog: { en: "dog-vaccination", sk: "ockovanie-psa", pl: "szczepienie-psa", cs: "ockovani-psa", de: "impfung-hund", fr: "vaccination-chien", it: "vaccino-cane", es: "vacuna-perro" },
+    microchip: { en: "microchip", sk: "cipovanie", pl: "czipowanie", cs: "cipovani", de: "chippen", fr: "identification-puce", it: "microchip-cane", es: "microchip-perro" },
+    neuter_cat: { en: "cat-neutering", sk: "kastracia-kocura", pl: "kastracja-kota", cs: "kastrace-kocoura", de: "kastration-kater", fr: "castration-chat", it: "castrazione-gatto", es: "castracion-gato" },
+    spay_cat: { en: "cat-spaying", sk: "kastracia-macky", pl: "sterylizacja-kotki", cs: "kastrace-kocky", de: "kastration-katze", fr: "sterilisation-chatte", it: "sterilizzazione-gatta", es: "esterilizacion-gata" },
+    spay_dog: { en: "dog-spaying", sk: "kastracia-suky", pl: "sterylizacja-suki", cs: "kastrace-feny", de: "kastration-huendin", fr: "sterilisation-chienne", it: "sterilizzazione-cane", es: "esterilizacion-perra" },
   },
   PET_HOTEL: {
-    dog_night: { en: "dog-per-night", sk: "pes-noc", pl: "pies-doba", cs: "pes-noc", de: "hund-nacht", fr: "chien-nuit", it: "cane-notte" },
-    cat_night: { en: "cat-per-night", sk: "macka-noc", pl: "kot-doba", cs: "kocka-noc", de: "katze-nacht", fr: "chat-nuit", it: "gatto-notte" },
-    daycare_day: { en: "dog-daycare", sk: "psia-skolka", pl: "swietlica-dzien", cs: "psi-skolka", de: "tagesstaette-tag", fr: "garderie-jour", it: "asilo-giorno" },
-    daycare_pass: { en: "daycare-pass", sk: "permanentka-do-skolky", pl: "karnet-do-swietlicy", cs: "permanentka-do-skolky", de: "zehnerkarte-tagesstaette", fr: "forfait-garderie", it: "abbonamento-asilo" },
-    pickup: { en: "pick-up-and-drop-off", sk: "dovoz-a-odvoz", pl: "transport-zwierzaka", cs: "dovoz-a-odvoz", de: "hol-und-bringservice", fr: "transport-animalier", it: "taxi-dog" },
-    extra_walk: { en: "extra-walk", sk: "vencenie-navyse", pl: "dodatkowy-spacer", cs: "venceni-navic", de: "extra-spaziergang", fr: "promenade-supplementaire", it: "passeggiata-extra" },
+    dog_night: { en: "dog-per-night", sk: "pes-noc", pl: "pies-doba", cs: "pes-noc", de: "hund-nacht", fr: "chien-nuit", it: "cane-notte", es: "perro-noche" },
+    cat_night: { en: "cat-per-night", sk: "macka-noc", pl: "kot-doba", cs: "kocka-noc", de: "katze-nacht", fr: "chat-nuit", it: "gatto-notte", es: "gato-noche" },
+    daycare_day: { en: "dog-daycare", sk: "psia-skolka", pl: "swietlica-dzien", cs: "psi-skolka", de: "tagesstaette-tag", fr: "garderie-jour", it: "asilo-giorno", es: "guarderia-dia" },
+    daycare_pass: { en: "daycare-pass", sk: "permanentka-do-skolky", pl: "karnet-do-swietlicy", cs: "permanentka-do-skolky", de: "zehnerkarte-tagesstaette", fr: "forfait-garderie", it: "abbonamento-asilo", es: "bono-guarderia" },
+    pickup: { en: "pick-up-and-drop-off", sk: "dovoz-a-odvoz", pl: "transport-zwierzaka", cs: "dovoz-a-odvoz", de: "hol-und-bringservice", fr: "transport-animalier", it: "taxi-dog", es: "taxi-mascotas" },
+    extra_walk: { en: "extra-walk", sk: "vencenie-navyse", pl: "dodatkowy-spacer", cs: "venceni-navic", de: "extra-spaziergang", fr: "promenade-supplementaire", it: "passeggiata-extra", es: "paseo-extra" },
   },
   DOG_TRAINING: {
-    puppy_course: { en: "puppy-course", sk: "stenacia-skolka", pl: "kurs-dla-szczeniat", cs: "kurz-pro-stenata", de: "welpenkurs", fr: "ecole-du-chiot", it: "corso-cuccioli" },
-    obedience_course: { en: "obedience-course", sk: "kurz-poslusnosti", pl: "kurs-posluszenstwa", cs: "kurz-poslusnosti", de: "begleithundekurs", fr: "cours-d-education", it: "corso-educazione-base" },
-    group_lesson: { en: "group-lesson", sk: "skupinova-hodina", pl: "lekcja-grupowa", cs: "skupinova-lekce", de: "gruppenstunde", fr: "cours-collectif", it: "lezione-di-gruppo" },
-    private_lesson: { en: "private-lesson", sk: "individualna-hodina", pl: "lekcja-indywidualna", cs: "individualni-lekce", de: "einzeltraining", fr: "cours-individuel", it: "lezione-individuale" },
-    behavior_consult: { en: "behaviour-consultation", sk: "konzultacia-spravania", pl: "konsultacja-behawioralna", cs: "konzultace-chovani", de: "verhaltensberatung", fr: "bilan-comportemental", it: "consulenza-comportamentale" },
-    membership: { en: "club-membership", sk: "clensky-poplatok", pl: "skladka-czlonkowska", cs: "clensky-prispevek", de: "mitgliedsbeitrag", fr: "adhesion-club", it: "quota-associativa" },
+    puppy_course: { en: "puppy-course", sk: "stenacia-skolka", pl: "kurs-dla-szczeniat", cs: "kurz-pro-stenata", de: "welpenkurs", fr: "ecole-du-chiot", it: "corso-cuccioli", es: "curso-cachorros" },
+    obedience_course: { en: "obedience-course", sk: "kurz-poslusnosti", pl: "kurs-posluszenstwa", cs: "kurz-poslusnosti", de: "begleithundekurs", fr: "cours-d-education", it: "corso-educazione-base", es: "curso-obediencia-basica" },
+    group_lesson: { en: "group-lesson", sk: "skupinova-hodina", pl: "lekcja-grupowa", cs: "skupinova-lekce", de: "gruppenstunde", fr: "cours-collectif", it: "lezione-di-gruppo", es: "clase-grupal" },
+    private_lesson: { en: "private-lesson", sk: "individualna-hodina", pl: "lekcja-indywidualna", cs: "individualni-lekce", de: "einzeltraining", fr: "cours-individuel", it: "lezione-individuale", es: "clase-individual" },
+    behavior_consult: { en: "behaviour-consultation", sk: "konzultacia-spravania", pl: "konsultacja-behawioralna", cs: "konzultace-chovani", de: "verhaltensberatung", fr: "bilan-comportemental", it: "consulenza-comportamentale", es: "consulta-etologia" },
+    membership: { en: "club-membership", sk: "clensky-poplatok", pl: "skladka-czlonkowska", cs: "clensky-prispevek", de: "mitgliedsbeitrag", fr: "adhesion-club", it: "quota-associativa", es: "cuota-club" },
   },
   PET_SITTING: {
-    walk_30: { en: "dog-walk-30-min", sk: "vencenie-30-min", pl: "spacer-30-min", cs: "venceni-30-min", de: "gassigehen-30-min", fr: "promenade-30-min", it: "passeggiata-30-min" },
-    walk_60: { en: "dog-walk-60-min", sk: "vencenie-60-min", pl: "spacer-60-min", cs: "venceni-60-min", de: "gassigehen-60-min", fr: "promenade-60-min", it: "passeggiata-60-min" },
-    cat_visit: { en: "cat-visit", sk: "navsteva-macky", pl: "wizyta-u-kota", cs: "navsteva-kocky", de: "katzenbesuch", fr: "visite-chat", it: "visite-gatto" },
-    house_sitting_night: { en: "overnight-at-your-home", sk: "strazenie-u-vas-doma", pl: "opieka-u-wlasciciela", cs: "hlidani-u-vas-doma", de: "betreuung-beim-halter", fr: "garde-a-domicile-nuit", it: "custodia-a-casa-notte" },
-    boarding_night: { en: "overnight-at-sitters-home", sk: "strazenie-u-opatrovatela", pl: "opieka-u-petsittera", cs: "hlidani-u-hlidace", de: "betreuung-beim-sitter", fr: "hebergement-petsitter-nuit", it: "pensione-casalinga-notte" },
-    daycare_day: { en: "day-care", sk: "denne-strazenie", pl: "opieka-dzienna", cs: "denni-hlidani", de: "tagesbetreuung", fr: "garde-de-jour", it: "dog-sitting-diurno" },
+    walk_30: { en: "dog-walk-30-min", sk: "vencenie-30-min", pl: "spacer-30-min", cs: "venceni-30-min", de: "gassigehen-30-min", fr: "promenade-30-min", it: "passeggiata-30-min", es: "paseo-30-min" },
+    walk_60: { en: "dog-walk-60-min", sk: "vencenie-60-min", pl: "spacer-60-min", cs: "venceni-60-min", de: "gassigehen-60-min", fr: "promenade-60-min", it: "passeggiata-60-min", es: "paseo-60-min" },
+    cat_visit: { en: "cat-visit", sk: "navsteva-macky", pl: "wizyta-u-kota", cs: "navsteva-kocky", de: "katzenbesuch", fr: "visite-chat", it: "visite-gatto", es: "visita-gatos" },
+    house_sitting_night: { en: "overnight-at-your-home", sk: "strazenie-u-vas-doma", pl: "opieka-u-wlasciciela", cs: "hlidani-u-vas-doma", de: "betreuung-beim-halter", fr: "garde-a-domicile-nuit", it: "custodia-a-casa-notte", es: "cuidado-domicilio-noche" },
+    boarding_night: { en: "overnight-at-sitters-home", sk: "strazenie-u-opatrovatela", pl: "opieka-u-petsittera", cs: "hlidani-u-hlidace", de: "betreuung-beim-sitter", fr: "hebergement-petsitter-nuit", it: "pensione-casalinga-notte", es: "alojamiento-cuidador-noche" },
+    daycare_day: { en: "day-care", sk: "denne-strazenie", pl: "opieka-dzienna", cs: "denni-hlidani", de: "tagesbetreuung", fr: "garde-de-jour", it: "dog-sitting-diurno", es: "cuidado-diurno" },
   },
 };
 

@@ -1,0 +1,117 @@
+{
+  "slug": "fifi-fidos-pet-boutique",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fifi+%26+Fidos+Pet+Boutique/data=!4m7!3m6!1s0x865cf55ce57378c7:0xe4169de81f5dcda5!8m2!3d29.473891!4d-98.4622344!16s%2Fg%2F1hc1vt6hb!19sChIJx3hz5Vz1XIYRpc1dH-idFuQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive assistance and pet guidance"
+      },
+      "text": {
+        "en": "Visitors highlight the helpful attitude of the shopkeeper and team members on Broadway. Reviewers appreciate that staff remember returning customers, offer informative nutritional advice, and take time to discuss individual dietary requirements for dogs and cats."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Curated shop environment and stock"
+      },
+      "text": {
+        "en": "Shoppers note that the boutique provides a welcoming setting with a well-chosen range of companion animal supplies. Feedback frequently mentions the clean shop floor and the variety of fresh nutrition and wholesome pet foodstuffs readily available on shelves."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Tailored nutrition for domestic pets"
+      },
+      "text": {
+        "en": "Customer reviews frequently mention guidance for dogs and cats with sensitive stomachs or specialised dietary needs. Pet owners report noticeable health improvements after switching meals, valuing the store's focus on wholesome ingredients and animal wellbeing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the boutique stock raw and fresh pet food?"
+      },
+      "a": {
+        "en": "Yes, the boutique focuses on natural nutrition, including raw frozen meals and specialised diets for cats and dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do staff provide nutritional guidance for pets with sensitivities?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the shopkeeper and team take time to discuss dietary sensitivities and guide owners on suitable food options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Fifi & Fidos Pet Boutique located?"
+      },
+      "a": {
+        "en": "The shop is located at 5120 Broadway in the Alamo Heights area of San Antonio."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

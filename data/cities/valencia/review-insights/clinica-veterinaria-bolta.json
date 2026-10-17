@@ -1,0 +1,151 @@
+{
+  "slug": "clinica-veterinaria-bolta",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Bolta/data=!4m7!3m6!1s0xd6048dccf13f775:0x701546d41b8a75d0!8m2!3d39.4551251!4d-0.3595814!16s%2Fg%2F1tg69fht!19sChIJdfcTz9xIYA0R0HWKG9RGFXA?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Profesionales reconocidos y atención empática",
+        "en": "Recognized professionals and empathetic care"
+      },
+      "text": {
+        "es": "Los clientes elogian la profesionalidad y cercanía de Daniel y Georgina en la atención médica de sus mascotas. Valoran su implicación constante y el acompañamiento empático en momentos difíciles, aunque una opinión lamenta la escasez de personal en determinados turnos de tarde.",
+        "en": "Clients consistently praise the professionalism and warmth of Daniel and Georgina when caring for their pets. Pet guardians value their sustained dedication and compassionate guidance during difficult times, though one review notes limited staffing during certain afternoon hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Especial dedicación a pacientes felinos",
+        "en": "Dedicated care for feline patients"
+      },
+      "text": {
+        "es": "La clínica cuenta con una excelente reputación en el cuidado de gatos, hasta el punto de que algunos tutores recorren largas distancias para que sean atendidos por Daniel. Resaltan su paciencia infinita y su conocimiento profundo sobre medicina y comportamiento de los felinos.",
+        "en": "The practice enjoys an outstanding reputation in feline care, prompting several cat owners to travel long distances specifically to see Daniel. Guardians highlight his immense patience and profound understanding of feline medicine and behavioral needs during consultations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Éxito clínico y procedimientos seguros",
+        "en": "Clinical success and reliable procedures"
+      },
+      "text": {
+        "es": "Varios tutores con años de fidelidad manifiestan total tranquilidad con las intervenciones y tratamientos realizados a sus perros y gatos. Destacan que los procedimientos quirúrgicos y revisiones periódicas se resuelven de forma muy favorable, brindando bienestar duradero a los animales.",
+        "en": "Long-standing clients report strong peace of mind regarding medical treatments and procedures performed on their dogs and cats. They note that surgical interventions and regular clinical checks are carried out smoothly, ensuring sustained health and reliable relief for their companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Tiene la clínica especialización en medicina felina?",
+        "en": "Does the clinic specialize in feline medicine?"
+      },
+      "a": {
+        "es": "Sí, varios clientes destacan la experiencia de Daniel como especialista en gatos, realizando desplazamientos importantes para consultar con él.",
+        "en": "Yes, several clients highlight Daniel's deep expertise in feline medicine, even traveling long distances to consult with him."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cómo es el tiempo de espera para ser atendido?",
+        "en": "What is the waiting time for consultations?"
+      },
+      "a": {
+        "es": "Generalmente las citas fluyen con normalidad, aunque una reseña puntual señala esperas en la sucursal de Castellar por contar con un único facultativo.",
+        "en": "Appointments generally run smoothly, though one review notes longer waits at the Castellar branch due to single-staff coverage."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Acompañan a las familias en momentos de duelo?",
+        "en": "Do they support families during end-of-life care?"
+      },
+      "a": {
+        "es": "Sí, las familias valoran el trato profundamente respetuoso, digno y compasivo del equipo en las despedidas de sus animales veteranos.",
+        "en": "Yes, families commend the team's deeply respectful, gentle, and compassionate support during end-of-life moments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

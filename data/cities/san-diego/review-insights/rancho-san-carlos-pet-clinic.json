@@ -1,0 +1,174 @@
+{
+  "slug": "rancho-san-carlos-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rancho+San+Carlos+Pet+Clinic/data=!4m7!3m6!1s0x80d95625aa65a551:0x8d29ceb15e0fc98e!8m2!3d32.8171574!4d-117.0469138!16s%2Fg%2F1tt1szsr!19sChIJUaVlqiVW2YARjskPXrHOKY0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Empathetic veterinarians and attentive receptionists"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for the practice clinicians, commending Dr Halsey and the nursing team for their patient, thorough, and compassionate approach. Reviewers note that staff take time to answer detailed medical questions during consultations and collaborate with families to accommodate treatment budgets. Longstanding patrons highlight decades of consistent, trustworthy care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle consideration for companion animals"
+      },
+      "text": {
+        "en": "Clients frequently remark on the caring demeanour demonstrated by veterinary clinicians and assistants during examinations. Reviewers note that elderly cats and nervous dogs are handled with unhurried patience, creating a reassuring atmosphere during routine annual physicals. Pet parents value the genuine affection shown to their animals throughout examinations, diagnostic procedures, and therapy sessions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dependable recovery and integrative therapies"
+      },
+      "text": {
+        "en": "Reviewers report positive medical outcomes for acute illnesses, surgical emergencies, and chronic spinal conditions. An owner praised Dr Halsey's expertise in acupuncture and photobiomodulation therapy, noting marked mobility improvement and pain reduction in a dog diagnosed with disc disease. Clients also value the hospital's prompt surgical capability when companion animals require urgent operations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic provide veterinary acupuncture and laser therapy?"
+      },
+      "a": {
+        "en": "Yes, clients highlight Dr Halsey's expertise in acupuncture and photobiomodulation therapy for pain management and mobility recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency surgical procedures available at the hospital?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the hospital performs urgent soft tissue surgeries promptly without requiring referral to distant emergency centres."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How does the practice coordinate with local urgent care facilities?"
+      },
+      "a": {
+        "en": "The clinic coordinates seamlessly with affiliated facilities like Tell Tail and Moonlight Urgent Care, sharing medical records across locations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients use pet insurance for treatment costs?"
+      },
+      "a": {
+        "en": "Yes, pet parents report using pet health insurance coverage to assist with diagnostic and surgical expenses."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

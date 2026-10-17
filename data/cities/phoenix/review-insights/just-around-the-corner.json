@@ -1,0 +1,103 @@
+{
+  "slug": "just-around-the-corner",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Just+Around+The+Corner/data=!4m7!3m6!1s0x872b126814a1eb0f:0x26aeb593fa5f38e8!8m2!3d33.4754673!4d-112.0700856!16s%2Fg%2F1tjyp5d5!19sChIJD-uhFGgSK4cR6Dhf-pO1riY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive cage-free pet care"
+      },
+      "text": {
+        "en": "Dog owners highlight that their pets return from sitting visits happy, energized, and thoroughly cared for. Reviewers emphasize the comfort of knowing their animals are not confined to cages while owners travel for work. Clients report that their dogs are genuinely eager to arrive and spend time in a warm home atmosphere."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Accommodating and trusted pet sitters"
+      },
+      "text": {
+        "en": "Pet parents warmly praise Theresa and her sitting team for their flexible scheduling and kind, dependable service. Reviewers appreciate that the sitters accommodate busy travel routines and treat visiting pets as part of their own family. Clients express complete confidence leaving their animal companions in the team's care."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Comfortable in-home sitting setting"
+      },
+      "text": {
+        "en": "Reviewers specifically value the personal home setting provided for pet boarding and day care visits. Clients note that the domestic environment feels comfortable and peaceful, making it an appealing alternative to traditional kennel boarding facilities. Pet owners appreciate that their dogs enjoy freedom and social interaction in a safe setting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Just Around the Corner offer cage-free pet sitting?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight a home-based setting where dogs enjoy open freedom rather than being confined to cages."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet sitting schedules flexible for work travellers?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate Theresa's flexibility in accommodating shifting travel schedules and work commitments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do dogs respond to staying at the facility?"
+      },
+      "a": {
+        "en": "Pet owners report that their dogs are excited upon arrival and return home happy, calm, and well exercised."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

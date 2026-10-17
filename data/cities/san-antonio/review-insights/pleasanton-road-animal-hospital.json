@@ -1,0 +1,154 @@
+{
+  "slug": "pleasanton-road-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pleasanton+Road+Animal+Hospital/data=!4m7!3m6!1s0x865c5819207b219b:0xc9f056015066bf8c!8m2!3d29.339411!4d-98.5033419!16s%2Fg%2F1vppsyqs!19sChIJmyF7IBlYXIYRjL9mUAFW8Mk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Critical reviews of clinic staff"
+      },
+      "text": {
+        "en": "Recent reviews reflect substantial criticism directed at the veterinary team. While a few long-standing clients praise the doctor's traditional knowledge and direct manner, most recent visitors report negative experiences. Several pet owners describe the staff as indifferent, uncompassionate, and dismissive when handling urgent clinical cases and distressed pets."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Serious concerns regarding clinical outcomes"
+      },
+      "text": {
+        "en": "Medical outcomes have prompted serious grievances from pet owners in recent months. Long-time patrons note successful routine surgeries and diagnostic scans for minor injuries. However, multiple recent reviewers recount tragic outcomes involving alleged misdiagnoses of toxic poisoning and refused medical care for injured animals requiring emergency intervention."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Frustration with doctor consultation style"
+      },
+      "text": {
+        "en": "Pet owners express deep frustration with how consultations and emergency visits are conducted. A couple of reviewers appreciate a straightforward approach to medical advice. Nevertheless, several clients state that their concerns were ignored, citing argumentative interactions, refusal to explain diagnostic decisions, and difficulty obtaining medical records."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pleasanton Road Animal Hospital treat exotic animals?"
+      },
+      "a": {
+        "en": "The practice website lists exotic animal care among its medical specialties alongside dog and cat services."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view emergency wait times at the hospital?"
+      },
+      "a": {
+        "en": "Multiple clients report long delays and refusal of immediate care during urgent walk-in visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical procedures performed on site?"
+      },
+      "a": {
+        "en": "Yes, long-term clients confirm that routine soft-tissue and orthopedic surgeries are conducted at the facility."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

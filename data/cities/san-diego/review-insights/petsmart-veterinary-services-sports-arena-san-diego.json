@@ -1,0 +1,186 @@
+{
+  "slug": "petsmart-veterinary-services-sports-arena-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Veterinary+Services+-+San+Diego+%28Sports+Arena%29/data=!4m7!3m6!1s0x80deabcf38ee741f:0xe76bfeb83f98f837!8m2!3d32.7511465!4d-117.2068872!16s%2Fg%2F11svyq7q_1!19sChIJH3TuOM-r3oARN_iYP7j-a-c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate doctors and attentive support personnel"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for Dr Benedek and her team, praising their dedication, warmth, and unhurried consultation style. Clients note that clinicians provide multiple treatment options without pressurising families into costly procedures. While one reviewer reported a frustrating encounter regarding queue management, the overwhelming consensus highlights an accommodating veterinary staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Comforting approach during patient examinations"
+      },
+      "text": {
+        "en": "Reviewers warmly highlight the gentle techniques employed during pet evaluations. Multiple clients recount that Dr Benedek sits directly on the examination floor with companion animals so that anxious dogs and cats remain relaxed during health checks. Pet parents of newly adopted rescue animals value the thoughtful reassurance provided during initial wellness visits and routine puppy vaccinations."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Convenient online booking alongside queue concerns"
+      },
+      "text": {
+        "en": "Feedback regarding scheduling and waiting times is generally favourable but contains occasional friction. Clients value the ease of reserving urgent vaccination appointments online the evening prior to visiting. Conversely, a walk-in visitor experienced frustration when an appointment holder was admitted ahead of them in a crowded waiting room, prompting calls for clearer arrival protocols."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can veterinary appointments be booked online at short notice?"
+      },
+      "a": {
+        "en": "Yes, clients report easily scheduling routine consultations and vaccination visits online the day before arriving."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic premises located?"
+      },
+      "a": {
+        "en": "The veterinary hospital operates inside the PetSmart store situated on Rosecrans Street in the Sports Arena area."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are pricing estimates and treatment choices discussed beforehand?"
+      },
+      "a": {
+        "en": "Yes, pet owners state that clinicians provide clear wellness plans and present alternative treatment options to suit family budgets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat newly adopted rescue animals?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently bring rescue dogs and kittens for comprehensive baseline wellness evaluations and initial vaccinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

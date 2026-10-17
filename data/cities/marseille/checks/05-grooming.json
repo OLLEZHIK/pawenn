@@ -2,7 +2,6 @@
   "chunk": "05-grooming",
   "kind": "places",
   "slugs": [
-    "cani-star",
     "sea-sun-and-dogs",
     "pawfection",
     "nina-dog",
@@ -12,7 +11,7 @@
     "snob-dog-marseille",
     "pile-poils"
   ],
-  "hash": "5096e8f4896da8aaca6f36ee48f9cb4d825a8257eb88c515aac2831dfea1bd6a",
+  "hash": "40107b073d0982e340b2f025bbc0402f758b39944caa2fbe9b939ddffa24612f",
   "result": "PASS",
   "history": [
     {
@@ -27,6 +26,11 @@
     },
     {
       "at": "2026-10-12T18:10:29.998Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:45:19.136Z",
       "result": "PASS",
       "listed": 0
     }

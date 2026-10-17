@@ -1,0 +1,29 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "petfolk-veterinary-urgent-care-far-north-central",
+    "ss-family-pet-hospital",
+    "cityvet-bulverde",
+    "cityvet-kallison-ranch",
+    "cityvet-southtown",
+    "cityvet-alamo-heights",
+    "vetco-total-care-san-pedro",
+    "vetco-total-care-ingram",
+    "vetco-total-care-se-military-dr"
+  ],
+  "hash": "16b6bf4bb450f00dc2b8692805e48be2c5bd65ae986b4914e348d55b21df8d5a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:04:54.257Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T20:05:26.001Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
