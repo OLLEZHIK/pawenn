@@ -1,0 +1,126 @@
+{
+  "slug": "petsmart-grooming-south-philadelphia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Grooming/data=!4m7!3m6!1s0x89c6c56431991cb1:0x115b0a70261d29a!8m2!3d39.9180079!4d-75.1889193!16s%2Fg%2F11rvghpvjv!19sChIJsRyZMWTFxokRmtJhAqewFQE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Critical reviews regarding salon staff"
+      },
+      "text": {
+        "en": "Customer reviews for salon staff reflect notable dissatisfaction. While one client praised groomers for their willingness to care for an elderly pet, multiple visitors report encountering dismissive and rude behaviour at reception, describing staff members as lacking patience during drop-off."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Patient care concerns for nervous pets"
+      },
+      "text": {
+        "en": "Handling of pets has drawn negative feedback from several reviewers. One pet owner appreciated that staff accommodated a seventeen-year-old dog, but other clients expressed worry about groomers showing impatience with nervous animals and displaying little empathy towards anxious pets."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustrations over intake communication"
+      },
+      "text": {
+        "en": "Communication around appointment intake and service requirements is a recurring source of complaint. Reviewers recount abrupt interactions regarding vaccination paperwork and strict rabies deadlines, reporting that staff offered little flexibility or helpful guidance when turning dogs away."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this PetSmart salon accept senior dogs?"
+      },
+      "a": {
+        "en": "Yes, some pet owners report groomers accepting senior dogs for basic care, although staff adhere strictly to corporate age and health criteria."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are current rabies vaccinations mandatory for salon entry?"
+      },
+      "a": {
+        "en": "Yes, clients note that dogs must have up-to-date rabies immunisations, and staff strictly turn away pets if records show expired dates."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is online booking available for grooming appointments?"
+      },
+      "a": {
+        "en": "Yes, customers can arrange bath and styling sessions through the central chain booking platform."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the South Philadelphia location offer cat grooming?"
+      },
+      "a": {
+        "en": "The salon lists feline grooming services online, though availability depends on trained cat stylists being on shift."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
