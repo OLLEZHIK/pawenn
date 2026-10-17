@@ -1,0 +1,178 @@
+{
+  "slug": "city-cat-vets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/City+Cat+Vets/data=!4m7!3m6!1s0x89c6c640be96f423:0x35a4b75b8c2de410!8m2!3d39.9451689!4d-75.1790323!16s%2Fg%2F1tfqgrx0!19sChIJI_SWvkDGxokREOQtjFu3pDU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Attentive feline practitioners and compassionate team"
+      },
+      "text": {
+        "en": "Cat owners regularly praise clinicians including Dr Knighton and Dr Humenick for their warmth, patience, and clear explanations during consultations. Reviewers note that veterinary technicians and reception staff make visits reassuring, particularly when managing delicate end-of-life care. One client noted dissatisfaction regarding prescription refill policies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Feline-focused handling and patient care"
+      },
+      "text": {
+        "en": "Clients value the clinic's dedicated feline environment, noting that veterinarians and nurses know how to handle nervous, frightened, or feisty cats without causing unnecessary distress. Multiple reviewers observe that their cats receive gentle examinations, calm pacing, and thorough attention, though one reviewer reported rough handling during an initial consult."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Prompt messaging and detailed post-visit summaries"
+      },
+      "text": {
+        "en": "Reviewers consistently commend the practice for prompt communication, highlighting swift email responses, helpful phone check-ins from doctors, and detailed post-appointment clinical summaries. Pet parents appreciate transparent discussions regarding treatment options and future procedure costs, which allow owners to plan and budget without unexpected surprises."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does City Cat Vets treat animals other than cats?"
+      },
+      "a": {
+        "en": "No, the practice focuses exclusively on feline veterinary medicine, tailored to reducing stress for cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are on-site diagnostics available at the clinic?"
+      },
+      "a": {
+        "en": "Yes, the facility provides on-site ultrasounds, digital X-rays, and in-house laboratory testing for feline patients."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the practice offer urgent or end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that the team accommodates urgent sick visits and same-day compassionate euthanasia appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the practice handle anxious or aggressive cats?"
+      },
+      "a": {
+        "en": "Clients report that clinicians and technicians handle feisty and fearful cats patiently, using low-stress handling methods."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
