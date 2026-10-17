@@ -1,0 +1,205 @@
+{
+  "slug": "east-lake-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/East+Lake+Veterinary+Hospital/data=!4m7!3m6!1s0x864ea050a4e788b5:0xd3cce9f83f5b5d2a!8m2!3d32.8645643!4d-96.7126995!16s%2Fg%2F1td2h9wl!19sChIJtYjnpFCgToYRKl1bP_jpzNM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Varied impressions of hospital veterinary personnel"
+      },
+      "text": {
+        "en": "Clients frequently praise Dr. Pipes and Dr. Fling for their clinical knowledge, dedication, and reassuring bedside manner during pet illnesses and emergencies. However, other reviewers voice profound frustration with front-desk administration, reporting cold reception handling and perceived lapses in empathy during end-of-life care. Experiences with hospital staff differ widely."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Frequent complaints concerning high medical costs"
+      },
+      "text": {
+        "en": "Multiple pet owners express significant discontent with hospital fees, describing emergency consultation rates, extensive testing batteries, and treatment invoices as excessively high. Several reviewers feel pressured into costly procedural packages during critical illnesses without transparent prior estimates. A minority of clients, however, find fees acceptable for complex care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Disputed outcomes for critical medical treatments"
+      },
+      "text": {
+        "en": "While several clients credit the veterinary team with successful surgeries and life-saving urgent care, other reviewers report tragic and traumatic clinical outcomes. Complaints cite adverse drug reactions, severe distress during hospitalization, and post-visit complications following emergency care. Pet owners advise discussing treatment prognoses in detail beforehand."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What hours is East Lake Veterinary Hospital open?"
+      },
+      "a": {
+        "en": "The hospital operates seven days a week from 7:00 am to 9:00 pm, providing daytime urgent care and evening appointments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer at-home veterinary visits?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that select hospital veterinarians provide residential house calls upon request."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency veterinary services available without appointment?"
+      },
+      "a": {
+        "en": "Yes, the hospital accommodates urgent pet medical emergencies during its regular operating hours seven days a week."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are overnight hospitalization and boarding provided?"
+      },
+      "a": {
+        "en": "Yes, the facility maintains overnight monitoring for recovering medical patients alongside pet boarding accommodations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 hours ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

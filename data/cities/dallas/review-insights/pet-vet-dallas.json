@@ -1,0 +1,240 @@
+{
+  "slug": "pet-vet-dallas",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Vet/data=!4m7!3m6!1s0x864c26d5eede28c5:0x1be63a2865e06c6e!8m2!3d32.9378631!4d-96.8396136!16s%2Fg%2F11gbwzzst1!19sChIJxSje7tUmTIYRbmzgZSg65hs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Caring veterinary doctors with mixed reception notes"
+      },
+      "text": {
+        "en": "Clients express deep gratitude to veterinarians such as Dr. Kapu and Dr. White for their medical expertise, thorough examinations, and bedside manner. However, a minority of reviewers report mixed experiences with front desk administration, citing inflexible communication regarding payment agreements and scheduling."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Divergent views on clinical costs"
+      },
+      "text": {
+        "en": "Several pet parents regard the clinic as affordable and fair, particularly when utilising wellness plans or pet insurance. Conversely, other clients complain about recent price increases, feeling that certain clinical fees have become noticeably expensive compared with alternative neighbourhood practices."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive handling with varied species feedback"
+      },
+      "text": {
+        "en": "Dog owners highlight the gentle and patient handling their pets receive, noting that nurses readily assist with heavy dogs and stressful procedures. In contrast, one reviewer felt that the attending clinician was uncomfortable and less adept when examining cats, suggesting a stronger affinity for canine patients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet Vet accommodate large dogs?"
+      },
+      "a": {
+        "en": "Yes, clients note that veterinary assistants willingly assist owners with getting large dogs safely in and out of vehicles and examination rooms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are diagnostic sonograms and scans available?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention ultrasound imaging and organ sonograms being carried out on site for diagnostic investigations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice accept pet insurance or payment plans?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention using wellness plans and pet insurance to help manage treatment expenses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be booked for end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, clients express gratitude for compassionate end-of-life support and palliative guidance provided by the veterinary team."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
