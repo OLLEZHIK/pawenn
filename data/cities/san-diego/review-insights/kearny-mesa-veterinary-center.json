@@ -1,0 +1,169 @@
+{
+  "slug": "kearny-mesa-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kearny+Mesa+Veterinary+Center/data=!4m7!3m6!1s0x80dbff9721388f35:0xed5d0f3f6b57e4b5!8m2!3d32.8292417!4d-117.154725!16s%2Fg%2F1tgyw_pg!19sChIJNY84IZf_24ARteRXaz8PXe0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Friendly, welcoming and patient clinic staff"
+      },
+      "text": {
+        "en": "Clients consistently praise the veterinary team, singling out Dr. Maria Martinez, Dr. Marissa Robertson, and veterinary technicians for their warmth, attentiveness, and patience. Pet owners appreciate the staff's clear guidance for managing chronic illnesses such as allergies and IVDD, as well as their reassuring bedside manner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for cats and dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize the team's gentle and supportive approach toward both young puppies and chronically sick adult animals. Clients with anxious dogs or cats with long-standing skin allergies note that the clinical staff take time to ease stress and create a relaxed environment during examinations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Clear explanations and useful text support"
+      },
+      "text": {
+        "en": "Pet owners highlight responsive communication from the clinic, including prompt bloodwork results delivered the following day. Reviewers particularly value the text support line, which allows clients to ask ongoing questions about home medication and pet recovery without waiting for phone callbacks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic offer text messaging for client support?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight a convenient text support line for asking medication questions and receiving advice on home pet care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How fast are routine lab and bloodwork results provided?"
+      },
+      "a": {
+        "en": "Clients mention receiving diagnostic blood test results as early as the next day following an appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do pet owners evaluate the clinic pricing?"
+      },
+      "a": {
+        "en": "Reviewers describe fees as reasonable and fair, noting that practitioners do not pressure clients into unnecessary diagnostic tests."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is dedicated parking available at the center?"
+      },
+      "a": {
+        "en": "Pet parents note that free designated parking is available outside the facility, though spaces can be somewhat limited during busy hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
