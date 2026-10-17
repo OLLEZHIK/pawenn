@@ -1,0 +1,43 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "vetco-total-care-us-hwy-281-san-antonio",
+    "san-antonio-wellness-spay-and-neuter-clinic",
+    "cityvet-leon-springs",
+    "penny-paws-animal-hospital-san-antonio",
+    "penny-paws-mobiles-san-antonio",
+    "vetco-vaccination-clinic-wood-glen-san-antonio",
+    "babcock-hills-veterinary-hospital",
+    "stone-oak-veterinary-clinic"
+  ],
+  "hash": "3a5e98657d2052c794a08f713d35b5e0829ec9488a7ecaa7a321c1e8365fba0e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T01:26:44.038Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-17T01:32:13.728Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T01:33:02.749Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-17T01:33:53.827Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T01:34:59.353Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
