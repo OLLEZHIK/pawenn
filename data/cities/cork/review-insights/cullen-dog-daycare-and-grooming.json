@@ -1,0 +1,91 @@
+{
+  "slug": "cullen-dog-daycare-and-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cullen+Dog+Daycare+and+Grooming/data=!4m7!3m6!1s0x484489321ed6b8f5:0xadb8dd67c5c5f1c8!8m2!3d51.7703647!4d-8.4579105!16s%2Fg%2F11kmdmq60c!19sChIJ9bjWHjKJREgRyPHFxWfduK0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Daycare socialization and pet safety"
+      },
+      "text": {
+        "en": "Most dog owners praise the social environment, noting that their dogs eagerly run through the gate to play with canine companions and return home tired and happy. However, one client reported a serious incident where their dog was attacked by another dog in the group, resulting in long-term behavioral changes."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Caregiver warmth and incident response"
+      },
+      "text": {
+        "en": "Clients frequently describe the operators as warm, lovely people who create a welcoming, home-like setting for visiting dogs. On the other hand, one reviewer felt let down by the staff's handling of a daycare altercation, expressing disappointment over the communication and the subsequent exclusion of their dog."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do dogs spend their time at Cullen Dog Daycare?"
+      },
+      "a": {
+        "en": "Reviewers share that dogs enjoy group playtime with other canine companions across the property and return home content."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs supervised in social playgroups?"
+      },
+      "a": {
+        "en": "Daycare staff supervise group play, though one client raised concerns regarding an altercation between dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is grooming offered alongside daycare?"
+      },
+      "a": {
+        "en": "The facility operates both canine daycare and grooming services for dogs visiting the Riverstick location."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
