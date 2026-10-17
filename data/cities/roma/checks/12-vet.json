@@ -1,0 +1,35 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "vetathomerome-veterinari-domicilio-roma",
+    "ambulatorio-veterinario-drssa-marcella-lucia",
+    "ambulatorio-veterinario-tre-madonne-parioli",
+    "clinica-veterinaria-san-giovanni-h24",
+    "ambulatorio-veterinario-arrighi-colangeli-cristilli",
+    "clinica-veterinaria-pavese",
+    "centro-veterinario-aleandri",
+    "ambulatorio-veterinario-torresina",
+    "centro-veterinario-piazza-bologna",
+    "studio-associato-veterinaria-preneste"
+  ],
+  "hash": "7af61dd3247914762ada5317f9d748a139e3888c0f5cd2c425a62ae1c7a14a14",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T00:16:52.832Z",
+      "result": "FAIL",
+      "listed": 34
+    },
+    {
+      "at": "2026-10-16T00:21:05.159Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T00:23:19.039Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
