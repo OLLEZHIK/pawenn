@@ -1,0 +1,138 @@
+{
+  "slug": "chiswick-pet-pavilion",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chiswick+Pet+Pavilion/data=!4m7!3m6!1s0x48760fa2f5168773:0x59cd2dd7f8b77b00!8m2!3d51.4932226!4d-0.2551594!16s%2Fg%2F11kp_bvfz5!19sChIJc4cW9aIPdkgRAHu3-NctzVk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly and helpful boutique staff"
+      },
+      "text": {
+        "en": "Shoppers and pet parents speak warmly of the welcoming customer service provided by staff members such as Angela. Reviews mention that the team provides knowledgeable advice on product options and offers efficient grooming handovers. Visitors frequently praise the pleasant and polite attitude encountered during regular visits to the shop."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Convenient shop and exterior concerns"
+      },
+      "text": {
+        "en": "Local residents value the convenient Turnham Green Terrace location, highlighting a broad selection of pet foods, accessories, and grooming services. However, one neighbouring resident expressed frustration regarding excessively bright exterior signage at night. Overall, daytime shoppers describe the store as an attractive neighbourhood asset."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Grooming finishes and handling concerns"
+      },
+      "text": {
+        "en": "Several dog owners report excellent grooming results, praising neat Cavapoo haircuts and clean teeth after appointments. In contrast, one client raised serious concerns after their dog sustained strained leg muscles attributed to poor handling during nail clipping. Most styling feedback remains positive despite this distressing incident."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What grooming services are available at Chiswick Pet Pavilion?"
+      },
+      "a": {
+        "en": "The salon offers full dog grooming, coat styling, paw tidying, nail clipping, and teeth cleaning."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the boutique situated in Chiswick?"
+      },
+      "a": {
+        "en": "The store is located at 12 Turnham Green Terrace, conveniently close to Turnham Green station."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What pet supplies are sold in the shop?"
+      },
+      "a": {
+        "en": "The shop carries premium pet food, treats, accessories, toys, and grooming products for dogs and cats."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

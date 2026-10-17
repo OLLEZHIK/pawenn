@@ -1,0 +1,135 @@
+{
+  "slug": "amigo-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amigo+Animal+Hospital/data=!4m7!3m6!1s0x865c404000000001:0x925115ad81504946!8m2!3d29.430165!4d-98.738567!16s%2Fg%2F1260qbv1x!19sChIJAQAAAEBAXIYRRklQga0VUZI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Compassionate and dedicated veterinary surgeons"
+      },
+      "text": {
+        "en": "Clients express deep gratitude for Dr. Tapia, Dr. Mata, and the nursing team for their extraordinary empathy, clinical thoroughness, and warmth. Pet owners note that the staff treats every patient like family, often working past regular clinic hours to complete critical procedures. The front desk team is described as welcoming and very helpful."
+      },
+      "mentions": 5,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "animals",
+      "title": {
+        "en": "Gentle treatment for senior pets"
+      },
+      "text": {
+        "en": "Reviewers frequently highlight the veterinary team's gentle, patient handling of elderly and frail companions. Pet parents note that clinicians diagnose hidden discomfort, such as advanced dental disease or diaphragmatic conditions, with exceptional care. Animals that are normally anxious or aloof feel noticeably calmer during visits."
+      },
+      "mentions": 4,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Thorough explanations and proactive updates"
+      },
+      "text": {
+        "en": "Pet parents praise the veterinarians for keeping owners closely informed before, during, and after major medical interventions. Clinicians phone clients during surgical procedures to discuss treatment choices and explain diagnostic findings in detail. The team also coordinates smoothly with specialty emergency centres when referrals are needed."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Amigo Animal Hospital perform senior pet dental procedures?"
+      },
+      "a": {
+        "en": "Yes, client reviews highlight comprehensive dental examinations and surgical tooth extractions for senior cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clinicians communicate with owners during surgeries?"
+      },
+      "a": {
+        "en": "Reviewers note that veterinarians call owners directly during surgical procedures to provide updates and discuss clinical options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specialty referrals arranged if advanced care is required?"
+      },
+      "a": {
+        "en": "Yes, clients report that the clinic promptly transfers medical records and radiographs when pets require specialized emergency surgery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners schedule appointments for routine wellness care?"
+      },
+      "a": {
+        "en": "Yes, the hospital accepts scheduled appointments for examinations, preventative vaccines, and ongoing wellness consultations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

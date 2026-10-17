@@ -315,7 +315,7 @@ export const fr: Dictionary = {
   },
   /** Analytics consent banner (GA4 runs only after "allow"). */
   consent: {
-    text: "Nous aimerions utiliser les cookies de Google Analytics pour comprendre comment le site est utilisé et l'améliorer. Uniquement si vous l'autorisez.",
+    text: "Nous aimerions utiliser les cookies d'analyse de Google Analytics et de Microsoft Clarity (y compris des enregistrements d'écran anonymes) pour comprendre comment le site est utilisé et l'améliorer. Uniquement si vous l'autorisez.",
     allow: "Autoriser",
     decline: "Refuser",
     settings: "Paramètres des cookies",

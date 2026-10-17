@@ -1,0 +1,204 @@
+{
+  "slug": "grand-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Grand+Animal+Hospital/data=!4m7!3m6!1s0x80dc01ec795ce3b5:0x232d6307c04359a6!8m2!3d32.7953209!4d-117.2503194!16s%2Fg%2F1v27vs_f!19sChIJteNceewB3IARpllDwAdjLSM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Friendly and attentive veterinary professionals"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinary doctors and veterinary assistants, highlighting Dr. Brennan and team member Josh for their patience, clear explanations, and kind manner. Reviewers appreciate that the team helps calm anxious pets and provides compassionate touches, such as sending condolence cards. One client felt pressured regarding prescription pet food, but most feedback remains warm."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Inconsistent communication and follow-up updates"
+      },
+      "text": {
+        "en": "Several reviewers praise the clinic for fast responses, text-based check-ins, and clear advice during consultations. However, other clients express frustration when promised telephone callbacks never occurred, or when pre-surgical laboratory results and post-operative pickup notices were delayed, leaving owners to phone the front desk repeatedly."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Divided feedback on service costs"
+      },
+      "text": {
+        "en": "Several pet parents find the pricing reasonable and praise veterinarians for recommending affordable healthcare alternatives. Conversely, other clients describe fees as steep, with one reviewer feeling pushed to buy expensive prescription diets for minor findings that a second opinion later determined were unnecessary."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What are the hospital operating hours?"
+      },
+      "a": {
+        "en": "Reviewers appreciate that the clinic is open seven days a week with extended evening hours, making scheduling convenient."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners secure same-day or short-notice appointments?"
+      },
+      "a": {
+        "en": "Yes, several clients report getting appointments within twenty-four hours for sudden pet health concerns or toxic food ingestion."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the clinic communicate regarding surgery and lab results?"
+      },
+      "a": {
+        "en": "While routine texting is common, some clients note delays in pre-op lab updates and recommend calling directly for discharge timing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the treatment of reactive or anxious pets?"
+      },
+      "a": {
+        "en": "Reviewers note that staff take time to create a calm atmosphere for nervous and dog-reactive animals during their visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "~",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

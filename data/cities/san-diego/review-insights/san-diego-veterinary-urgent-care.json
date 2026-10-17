@@ -1,0 +1,207 @@
+{
+  "slug": "san-diego-veterinary-urgent-care",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/San+Diego+Veterinary+Urgent+Care/data=!4m7!3m6!1s0x80d955e3dbbc9247:0x72839a4725fb2add!8m2!3d32.7486733!4d-117.1322265!16s%2Fg%2F11n77jyqny!19sChIJR5K82-NV2YAR3Sr7JUeag3I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Caring clinicians with administrative complaints"
+      },
+      "text": {
+        "en": "Many clients commend attending veterinarians and veterinary nurses for their empathy, clinical thoroughness, and bedside manner during acute emergencies. Clinicians such as Dr Campbell and Dr Peterson receive praise for relieving distress in unwell pets. However, several reviewers experienced dismissive front desk interactions and felt staff lacked compassion."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Detailed updates alongside record delays"
+      },
+      "text": {
+        "en": "Pet owners frequently value regular telephone updates, clear diagnostic explanations, and transparent treatment estimates provided during drop-off care. Conversely, several clients report significant administrative friction, including unreturned phone messages, delayed transfer of diagnostic radiographs to partner hospitals, and blank email transmissions."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Rapid intake with variable queues"
+      },
+      "text": {
+        "en": "Numerous visitors appreciate that the urgent care clinic accommodated sick dogs and cats when general practices were fully booked, often initiating examinations promptly. Nevertheless, during peak caseload periods, clients note substantial delays, outdoor waits in the alleyway, and curbside intake procedures that left pet owners waiting in vehicles."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the practice treat veterinary emergencies at weekends?"
+      },
+      "a": {
+        "en": "Yes, clients frequently utilise the facility for urgent weekend care when primary veterinary surgeries are closed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the admission procedure operate at the clinic?"
+      },
+      "a": {
+        "en": "Clients report a curbside intake system where nurses collect pets directly from parked cars before conducting examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are detailed estimates provided prior to emergency procedures?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians discuss treatment plans and price ranges before proceeding with clinical interventions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the facility treat foxtail foreign bodies in dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, pet owners report successful removals of nasal foxtails and foreign objects under sedation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "~",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "animals": "-",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "place": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

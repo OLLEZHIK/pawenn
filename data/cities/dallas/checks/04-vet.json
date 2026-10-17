@@ -1,0 +1,44 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "abrams-royal-animal-clinic",
+    "buckner-terrace-animal-clinic",
+    "life-animal-care",
+    "vetsavers-pet-hospital-dallas",
+    "buckner-animal-clinic",
+    "cornerstone-animal-clinic",
+    "heal-vet-dallas",
+    "dallas-veterinary-surgical-center-north-dallas",
+    "pavillion-animal-hospital"
+  ],
+  "hash": "5a3a0e02a7c819c511f0077d4112dbd15194e5bf36aa0e6b8ef38614fd725930",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T23:48:19.943Z",
+      "result": "FAIL",
+      "listed": 65
+    },
+    {
+      "at": "2026-10-16T23:50:03.950Z",
+      "result": "FAIL",
+      "listed": 65
+    },
+    {
+      "at": "2026-10-17T00:00:32.377Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:02:14.721Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T05:16:45.772Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "chunk": "09-hotel",
+  "kind": "places",
+  "slugs": [
+    "updog-francesc-macia-barcelona",
+    "guarderia-pet-barcelona",
+    "llar-canina",
+    "dogterra-calabria-barcelona",
+    "dogterra-castillejos-barcelona",
+    "for-dogs-one-barcelona"
+  ],
+  "hash": "8c178b6e4cb28cdb214b8d86d1c186bd0ad6bfcde3e99f1efe3d23bd8b56a0d4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T01:14:23.320Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-16T01:15:16.483Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

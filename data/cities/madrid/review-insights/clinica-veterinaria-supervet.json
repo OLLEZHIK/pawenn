@@ -1,0 +1,162 @@
+{
+  "slug": "clinica-veterinaria-supervet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Supervet/data=!4m7!3m6!1s0xd422984a3487ba7:0x6c4b977f80f527dd!8m2!3d40.4838645!4d-3.7081809!16s%2Fg%2F1ts3gy0j!19sChIJp3tIo4QpQg0R3Sf1gH-XS2w?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Equipo cercano y atención cordial",
+        "en": "Friendly staff and attentive care"
+      },
+      "text": {
+        "es": "La clientela elogia la cercanía y el compromiso de facultativos como Jose, Flor y Chema en la atención diaria. Los usuarios valoran que el personal comparta explicaciones claras y consejos prácticos para el cuidado doméstico. Aunque un testimonio apunta falta de interés en un caso puntual, la percepción global del equipo resulta sumamente positiva.",
+        "en": "Clients warmly praise the kindness and dedication shown by team members such as Jose, Flor, and Chema during visits. Visitors appreciate that the staff provide clear explanations and practical guidance for home pet care. Although one reviewer noted perceived disinterest in a complex case, the overall impression of the team remains remarkably positive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Dedicación y cariño hacia los animales",
+        "en": "Devotion and affectionate animal care"
+      },
+      "text": {
+        "es": "El trato afectuoso dispensado a perros mayores o con afecciones crónicas genera gran gratitud entre sus responsables. Quienes acuden señalan que los veterinarios manejan a las mascotas con suavidad, adaptándose a su estado anímico y reduciendo su estrés. La sensibilidad demostrada en consulta refuerza la tranquilidad de las familias visitantes.",
+        "en": "The caring touch extended to elderly pets or animals with chronic conditions earns deep gratitude from owners. Clients note that veterinarians handle pets gently, adapting to their temperament and easing appointment stress. The noticeable tenderness shown in the consultation room provides strong peace of mind to visiting families."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Casos de éxito y seguimiento dispar",
+        "en": "Successful outcomes and varied follow-up"
+      },
+      "text": {
+        "es": "Varios comentarios celebran la rápida resolución de problemas clínicos complejos que llevaban años sin diagnosticar en otros centros. Por contra, una reseña crítica refiere desacuerdos con pautas de fluidoterapia y falta de control sobre la evolución de un bulto. El balance de tratamientos combina recuperaciones notables con alguna disconformidad.",
+        "en": "Several comments celebrate the prompt resolution of complex clinical issues that had remained undiagnosed for years elsewhere. In contrast, one critical review reports disagreement over fluid therapy regimens and perceived oversight in monitoring a growing lump. Treatment outcomes thus show remarkable clinical successes alongside an isolated grievance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atiende la clínica a pacientes derivados de otras localidades?",
+        "en": "Does the clinic accept patients from outside the local area?"
+      },
+      "a": {
+        "es": "Sí, numerosos clientes acuden desde municipios cercanos para resolver patologías complejas o solicitar una segunda opinión.",
+        "en": "Yes, many clients travel from neighboring municipalities seeking care for complex conditions or a second opinion."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué tipo de seguimiento ofrecen para mascotas geriátricas?",
+        "en": "What type of follow-up care is provided for senior pets?"
+      },
+      "a": {
+        "es": "El equipo diseña planes de control continuado y pautas de medicación adaptadas al estado de los animales ancianos.",
+        "en": "The team designs ongoing monitoring plans and medication routines tailored specifically to the needs of senior pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Es fácil aparcar en los alrededores de la clínica?",
+        "en": "Is parking convenient around the veterinary clinic?"
+      },
+      "a": {
+        "es": "La zona circundante cuenta con estacionamiento regulado sujeto a tarifas de estacionamiento del ayuntamiento.",
+        "en": "The surrounding neighborhood features municipal regulated on-street parking subject to standard city fees."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "prices": "-",
+        "place": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

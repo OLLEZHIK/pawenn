@@ -1,0 +1,160 @@
+{
+  "slug": "er4pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ER4PETS/data=!4m7!3m6!1s0x80dbf0a82e4ac889:0x798004aa22158d85!8m2!3d32.9871164!4d-117.0700856!16s%2Fg%2F1tj1mtl9!19sChIJichKLqjw24ARhY0VIqoEgHk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Polarised opinions on emergency clinicians"
+      },
+      "text": {
+        "en": "Client impressions of Dr. Diana Jones and the emergency staff vary sharply. Several pet parents praise the team for compassionate lifesaving interventions during overnight crises and snakebites. In contrast, other reviewers describe staff as cold, unresponsive during grief, or slow to wake up during nighttime emergencies, leading to strongly differing experiences."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied outcomes in emergency cases"
+      },
+      "text": {
+        "en": "Reviewers report successful treatment for severe coyote bites, rattlesnake envenomation, and canine pneumonia, noting that immediate medical care saved their pets' lives. However, a critical review highlights a case where serious chronic illnesses were visually diagnosed without laboratory tests, which turned out to be a simple sinus infection."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "High fees for emergency care"
+      },
+      "text": {
+        "en": "Critical reviewers complain about steep emergency clinic bills, itemised charges for basic materials, and fees paid for visual assessments without diagnostic testing. While one pet owner acknowledges that higher costs are typical for an overnight emergency veterinary hospital, multiple clients express dissatisfaction with overall pricing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is ER4PETS open for overnight emergency animal care?"
+      },
+      "a": {
+        "en": "Yes, clients confirm the clinic accepts late-night emergency admissions for traumatic injuries, snakebites, and sudden acute illnesses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of critical pet emergencies has the clinic treated?"
+      },
+      "a": {
+        "en": "Reviewers report treatment for severe dog fight wounds, rattlesnake bites, acute respiratory distress, and pneumonia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the pricing structure at ER4PETS?"
+      },
+      "a": {
+        "en": "Reviewers note that emergency fees are high, with clients reporting itemised charges and cautioning about substantial bills."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What diagnostic procedures are used during emergency intake?"
+      },
+      "a": {
+        "en": "While some clients report thorough stabilization, others caution that clinicians sometimes rendered diagnoses based on physical inspection before lab tests."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

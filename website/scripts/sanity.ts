@@ -47,6 +47,12 @@ const COUNTRY = {
   // mobiles start with 3, toll-free with 8. France: trunk 0 dropped, 9 digits.
   IT: { dial: "39", national: /^(0\d{5,10}|3\d{8,9}|8\d{8,10})$/, postal: /\b\d{5}\b/, keepZero: true },
   FR: { dial: "33", national: /^[1-9]\d{8}$/, postal: /\b\d{5}\b/ },
+  // Spain: no trunk 0, nine digits starting 6-9 (mobiles 6/7, landlines 8/9); postal code 5 digits.
+  // United Kingdom: trunk 0 dropped, 9-10 digits; postcode "SW1A 1AA" (outward + inward).
+  // Ireland: trunk 0 dropped, 8-10 digits (Dublin 1 234 5678); Eircode "D02 X285" (older addresses have none).
+  GB: { dial: "44", national: /^[1-9]\d{8,9}$/, postal: /\b[A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}\b/i },
+  IE: { dial: "353", national: /^[1-9]\d{7,9}$/, postal: /\b[ACDEFHKNPRTVWXY]\d{2} ?[0-9ACDEFHKNPRTVWXY]{4}\b/i },
+  ES: { dial: "34", national: /^[6-9]\d{8}$/, postal: /\b\d{5}\b/ },
   US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;
 

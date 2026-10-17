@@ -1,0 +1,159 @@
+{
+  "slug": "centro-veterinario-sanpedro",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterinario+Sanpedro/data=!4m7!3m6!1s0xd6046003c8c8c57:0xa02bf152e96f3ac6!8m2!3d39.4865442!4d-0.373476!16s%2Fg%2F1tg171nl!19sChIJV4yMPABGYA0Rxjpv6VLxK6A?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "es": "Atención cercana y equipo implicado",
+        "en": "Attentive care and dedicated veterinary team"
+      },
+      "text": {
+        "es": "La gran mayoría de los clientes resaltan la amabilidad y el compromiso del personal, mencionando la dedicación de la veterinaria Nadia y su equipo en cada consulta. Valoran la paciencia durante las revisiones rutinarias, aunque una reseña reciente expresa descontento por el tono durante una conversación telefónica.",
+        "en": "The vast majority of clients commend the kindness and commitment of the staff, noting the dedication of veterinarian Nadia and her team during routine visits. Pet guardians value their patient bedside manner, though one recent review voiced dissatisfaction regarding the tone of a phone discussion."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Cuidado de mascotas con valoraciones dispares",
+        "en": "Pet care with varied owner feedback"
+      },
+      "text": {
+        "es": "Varios dueños de perros agradecen el trato afectuoso y la tranquilidad transmitida a sus compañeros caninos durante vacunaciones y revisiones. Destacan el cariño sincero hacia los animales en la clínica. En contraposición, un usuario desaconseja acudir al centro si se convive con gatos, sugiriendo cautela en felinos.",
+        "en": "Several dog owners appreciate the affectionate handling and reassurance given to their canine companions during vaccinations and checkups. Clients highlight genuine love for pets at the practice. In contrast, one reviewer strongly advises against bringing cats, urging caution for feline companions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Seguimiento clínico y tratamientos preventivos",
+        "en": "Clinical follow-up and preventive care"
+      },
+      "text": {
+        "es": "Varios tutores que llevan años acudiendo a la clínica manifiestan plena satisfacción con los tratamientos aplicados y el control de la salud de sus animales. Valoran la eficacia de las pautas preventivas, como vacunas y revisiones periódicas, que mantienen a sus mascotas sanas y bien atendidas a lo largo del tiempo.",
+        "en": "Multiple pet owners who have visited the clinic for years express complete satisfaction with medical treatments and health management for their animals. They value the efficacy of preventive protocols, such as vaccinations and regular checkups, which keep their pets healthy and well cared for over time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para vacunar a una mascota?",
+        "en": "Is an appointment required for pet vaccinations?"
+      },
+      "a": {
+        "es": "Sí, se recomienda programar cita para organizar las consultas y evitar esperas en la sala de atención.",
+        "en": "Yes, scheduling an appointment is recommended to organize consultations and avoid waiting room delays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué opinan los clientes sobre la atención a gatos?",
+        "en": "What do clients say about feline care at the clinic?"
+      },
+      "a": {
+        "es": "Las opiniones son variadas: mientras muchos usuarios están satisfechos con el trato general, alguna reseña sugiere buscar atención más especializada para gatos.",
+        "en": "Feedback is mixed: while many clients praise general pet handling, an isolated review suggests seeking more specialized care for feline patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cuánto tiempo de fidelidad tienen sus clientes habituales?",
+        "en": "How long have regular clients been using the clinic?"
+      },
+      "a": {
+        "es": "Varios usuarios destacan llevar hasta siete años confiando la salud de sus perros a este equipo veterinario de forma continuada.",
+        "en": "Several clients mention trusting this veterinary team with their dogs' healthcare continuously for up to seven years."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

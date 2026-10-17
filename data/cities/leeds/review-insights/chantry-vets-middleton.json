@@ -1,0 +1,139 @@
+{
+  "slug": "chantry-vets-middleton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chantry+Vets+Surgery,+Middleton/data=!4m7!3m6!1s0x48795dddf58a3255:0x5a5837dcb77bd7ac!8m2!3d53.7488838!4d-1.5409577!16s%2Fg%2F1tdr7q56!19sChIJVTKK9d1deUgRrNd7t9w3WFo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on practice staff"
+      },
+      "text": {
+        "en": "Recent reviews reflect a divided view of the practice personnel. Several clients warmly praise individual vets for their gentle guidance and helpfulness during routine pet examinations. Conversely, a reviewer sharply criticized the front desk and management over billing disputes and poor customer support."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling of nervous pets"
+      },
+      "text": {
+        "en": "Pet owners report compassionate and careful treatment for both rescue cats and lively dogs during examinations. Clients highlight that vets stay calm when administering vaccinations to anxious animals. Reviewers appreciate that the clinical team accommodates stubborn or nervous pets without causing unnecessary distress."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Billing disputes and payment concerns"
+      },
+      "text": {
+        "en": "Pricing and invoicing represent a notable source of dissatisfaction in recent feedback. Multiple reviewers report billing issues, including receiving duplicate payment demands and warnings regarding cash transactions. While one client found the pet health plan reasonable, billing disputes heavily affect overall client sentiment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Chantry Vets Middleton accommodate nervous pets?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians handle timid rescue cats and anxious dogs with patience and gentleness."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet health plans available at the Middleton surgery?"
+      },
+      "a": {
+        "en": "Yes, clients mention using monthly health plans that cover booster vaccinations and flea treatments to manage routine care costs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What concerns have clients raised regarding billing?"
+      },
+      "a": {
+        "en": "Recent reviews mention administrative payment disputes, with clients complaining about duplicate billing after settling accounts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where are out-of-hours emergencies handled for this practice?"
+      },
+      "a": {
+        "en": "Out-of-hours emergency care and hospitalisation are directed to Brindley Way Veterinary Hospital in Wakefield."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

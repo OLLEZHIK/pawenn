@@ -1,0 +1,144 @@
+{
+  "slug": "la-perroteka",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Perroteka/data=!4m7!3m6!1s0xd4229f7b4b31d47:0x923d7a87d7078e3d!8m2!3d40.4305183!4d-3.7016515!16s%2Fg%2F11sbbm5_sr!19sChIJRx2ztPcpQg0RPY4H14d6PZI?authuser=0&hl=es&g_ep=EgoyMDI2MTAxMi4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Quejas recurrentes por cortes y heridas",
+        "en": "Recurring complaints about grooming cuts"
+      },
+      "text": {
+        "es": "La mayoría de las reseñas recientes critica con severidad los resultados del arreglo en peluquería en Chamberí. Varios propietarios denuncian trasquilones en el pelaje, cortes dolorosos en la piel e inflamaciones en las orejas que requirieron asistencia veterinaria urgente.",
+        "en": "Most recent reviews sharply criticize grooming results at the Chamberí salon. Several dog owners report uneven scissor cuts, painful skin nicks, and ear inflammation requiring veterinary attention, with only a single positive review mentioning good grooming."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Malestar y estrés en los perros",
+        "en": "Significant stress and discomfort in dogs"
+      },
+      "text": {
+        "es": "Los clientes expresan profunda preocupación por el estado emocional y físico con el que sus perros regresaron a casa. Describen animales decaídos, asustados y temerosos al tacto tras las sesiones, lo que genera desconfianza hacia el manejo empleado en las instalaciones.",
+        "en": "Owners express serious concern regarding the physical and emotional distress observed in their dogs after appointments. Testimonials describe pets returning unusually subdued, fearful of touch, and distressed, causing substantial loss of confidence among clients."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Falta de atención y cancelaciones reiteradas",
+        "en": "Inattention and repeated last-minute cancellations"
+      },
+      "text": {
+        "es": "Las valoraciones critican la actitud y profesionalidad del personal en aspectos de gestión y recepción. Señalan cancelaciones de citas a última hora sin previo aviso, falta de atención a la puerta en horario comercial y desacuerdos en cargos adicionales por nudos.",
+        "en": "Customer reviews criticize management and front-desk handling at the establishment. Clients report repeated last-minute appointment cancellations, doors left unanswered during opening hours, and disputed extra charges applied for knot removal on small dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué servicios presta La Perroteka en Chamberí?",
+        "en": "What services does La Perroteka provide in Chamberí?"
+      },
+      "a": {
+        "es": "Ofrece servicios de guardería canina de día, hotel para mascotas y salón de peluquería canina.",
+        "en": "It provides canine daytime daycare, pet boarding, and a dog grooming salon."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Qué señalan las reseñas sobre el servicio de peluquería?",
+        "en": "What do reviews highlight regarding the grooming service?"
+      },
+      "a": {
+        "es": "Las opiniones recientes advierten de problemas en el acabado, heridas en orejas y cancelaciones imprevistas de turnos.",
+        "en": "Recent reviews warn of poor cutting finishes, ear injuries, and unexpected appointment cancellations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Es fácil contactar con el centro para solicitar información?",
+        "en": "Is it easy to reach the center for information?"
+      },
+      "a": {
+        "es": "Varios usuarios señalan dificultades para obtener respuesta al teléfono o ser atendidos en la puerta del establecimiento.",
+        "en": "Several reviewers report difficulties reaching staff by phone or getting the door opened during business hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

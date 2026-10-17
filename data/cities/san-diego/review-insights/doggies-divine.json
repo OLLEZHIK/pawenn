@@ -1,0 +1,131 @@
+{
+  "slug": "doggies-divine",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggies+Divine/data=!4m7!3m6!1s0x80dc00270b58bd31:0xdf1e32f49cfb1087!8m2!3d32.7892412!4d-117.2054552!16s%2Fg%2F1tkrm2ms!19sChIJMb1YCycA3IARhxD7nPQyHt8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly and consultative grooming team"
+      },
+      "text": {
+        "en": "Reviewers praise the salon's friendly stylists, noting that groomers like Janelle take time to understand owner preferences before appointments. Pet parents appreciate the team's consultative approach and helpful recommendations regarding long-term coat care, creating a dependable and welcoming service in Bay Park."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Comfortable experience for family pets"
+      },
+      "text": {
+        "en": "Clients emphasize that groomers handle both small companions and large 80-pound labradors with genuine warmth and patience. Pet owners note that even dogs that previously felt apprehensive about grooming visits come to enjoy their appointments and remain relaxed throughout bathing and styling."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean coats and post-beach styling"
+      },
+      "text": {
+        "en": "Customer reviews highlight great satisfaction with bath and cleanup treatments, particularly after active mornings spent at nearby San Diego beaches. Owners note that pets return clean, well-groomed, and smelling fresh, commending the groomers' demonstrated styling skills."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do groomers cater to large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients mention bringing large dogs, including 80-pound Labradors, with groomers handling them comfortably."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are stylists open to discussing haircut preferences beforehand?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate that stylists take a consultative approach, discussing desires and coat maintenance before grooming begins."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Doggies Divine located?"
+      },
+      "a": {
+        "en": "The grooming salon is located on Morena Boulevard in San Diego, convenient for local pet owners and post-beach visits."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

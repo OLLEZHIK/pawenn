@@ -279,16 +279,16 @@ if (templated.length) {
 // An error for new data (chunk files, observed_at from EVIDENCE_FROM), a
 // warning for older rows until their texts are rewritten.
 const PROMO =
-  /\b(best|finest|top[- ]rated|leading|renowned|famous|professional|high[- ]quality|affordable|modern|contemporary|state[- ]of[- ]the[- ]art|cutting[- ]edge|experienced|premier|exceptional|outstanding|excellent|world[- ]class)\b|najlepsz|renomowan|profesjonaln|wysokiej jakości|przystępn\w* cen|nowoczesn|doświadczon|wyjątkow|doskonał|najlepš|profesionáln|kvalitn|dostupn\w* cen|modern[ýáé]|skúsen|výnimočn|vynikajúc/i;
+  /\b(best|finest|top[- ]rated|leading|renowned|famous|professional|high[- ]quality|affordable|modern|contemporary|state[- ]of[- ]the[- ]art|cutting[- ]edge|experienced|premier|exceptional|outstanding|excellent|world[- ]class)\b|najlepsz|renomowan|profesjonaln|wysokiej jakości|przystępn\w* cen|nowoczesn|doświadczon|wyjątkow|doskonał|najlepš|profesionáln|kvalitn|dostupn\w* cen|modern[ýáé]|skúsen|výnimočn|vynikajúc|\b(?:migliore|rinomat\w*|alta qualit[àa]|moderno|moderna|esperto|eccellen\w*|eccezional\w*|all'avanguardia|punto di riferimento|leader)\b|\b(?:meilleur\w*|renomm\w*|professionnel\w*|haute qualit[ée]|moderne|exp[ée]riment[ée]\w*|exceptionnel\w*|excellen\w*|de pointe|incontournable|r[ée]f[ée]rence)\b|\b(?:mejor(?:es)?|renombrad\w*|profesional(?:es)?|alta calidad|asequible\w*|moderno|moderna|experimentad\w*|excepcional\w*|excelen\w*|vanguardia|referente)\b/i;
 const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
   {
     what: "speaks English, but languages_spoken has no en",
-    says: /\benglish\b|angielsk|po angielsku|anglick|po anglicky/i,
+    says: /\benglish\b|angielsk|po angielsku|anglick|po anglicky|\b(?:inglese|anglais|anglophone|ingl[ée]s)\b/i,
     ok: (r) => cityMetaLocale() === "en" || /(^|;)\s*en\s*(;|$)/.test(r.languages_spoken ?? ""),
   },
   {
     what: "open round the clock, but hours are not 24h and there is no emergency note",
-    says: /24\s*\/\s*7|round[- ]the[- ]clock|around the clock|24 hours|nonstop|non-stop|całodob|całą dobę|nepretržit/i,
+    says: /24\s*\/\s*7|round[- ]the[- ]clock|around the clock|24 hours|nonstop|non-stop|całodob|całą dobę|nepretržit|24 ore su 24|sempre aperto|\bh\s?24\b|24\s?h?\s?\/\s?24|ouvert 24|7j\s?\/\s?7|24 horas|abierto las 24/i,
     ok: (r) =>
       /24h/.test(r.opening_hours ?? "") ||
       /^yes$/i.test((r.emergency_24_7 ?? "").trim()) ||
@@ -297,7 +297,7 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
   },
   {
     what: "issues pet passports, but facts has no pet_passport",
-    says: /passport|paszport|\bpas(y|u|ov)? pre|europsk\w* pas/i,
+    says: /passport|paszport|\bpas(y|u|ov)? pre|europsk\w* pas|passaporto|passeport|pasaporte/i,
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];
@@ -306,7 +306,7 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
 // error", "opening hours come from the Google Maps card" in 7 texts). Where
 // we looked goes in notes.
 const SOURCE_TALK =
-  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)/i;
+  /google maps|mapach google|mapách google|karta w mapach|karty google|server error|http \d{3}|website of its own|no (own )?website|not (yet )?online|not described online|nie ma (własnej )?strony|nie jest opisany w internecie|brak strony|nemá (vlastn\w+ )?(web|strán)|non ha (un )?sito|nessun sito|sito (web )?non (disponibile|attivo)|pas de site|site (internet |web )?(indisponible|inactif)|no tiene (sitio )?web|sin (sitio )?web/i;
 // Opening hours are on the card; copied into the text they go stale when the
 // place changes them (a warning: "open on Sundays" is fine, times are not).
 const TIMES_IN_TEXT = /\b\d{1,2}[:.]\d{2}\b/;
@@ -370,6 +370,39 @@ const whereIssues = (r: Row, text: string): { strict: boolean; line: string }[] 
   }
   return out;
 };
+// The two language versions of a text say the same: the same numbers, and
+// neither a stub nor an essay. "5 years" in en and "10 anni" in it is one of
+// the two being wrong, and only a reader of both languages would see it.
+const NUMBERS = /\d+(?:[.,]\d+)?/g;
+// "24/7", "24 ore su 24", "24h/24", "7 days a week", "365 days" are one idea
+// written differently in each language, so these numbers are not compared;
+// "1.400", "1 400", "1,400" are one number.
+const NONSTOP = /\b24\s*(?:\/|h|ore|heures?|hodin|godzin\w*|Stunden)?\s*(?:\/|su|sur|na|pro|am|auf)?\s*(?:7|24)\b|\b(?:7|365)\s*(?:giorni|jours?|days?|dni|dní|Tage\w*|días)\b|\b24\s*h\b|\bh\s?24\b|\b365\b/gi;
+const numbersOf = (t: string) =>
+  [...t.replace(NONSTOP, " ").replace(/(\d)[.,\s](\d{3})\b/g, "$1$2").matchAll(NUMBERS)]
+    .map((m) => m[0].replace(",", ".").replace(/\.0+$/, ""))
+    .filter((n) => !["24", "7", "365"].includes(n)) // round-the-clock wording differs per language
+    .sort()
+    .join(" ");
+const LENGTHS: Record<string, [number, number]> = {
+  short_description: [25, 260],
+  short_description_local: [25, 260],
+  description: [60, 1600],
+  description_local: [60, 1600],
+};
+const parityIssues = (r: Row): string[] => {
+  const out: string[] = [];
+  for (const [en, local] of [["short_description", "short_description_local"], ["description", "description_local"]]) {
+    if (has(r, en) && has(r, local) && numbersOf(r[en]) !== numbersOf(r[local])) {
+      out.push(`${en} and ${local} give different numbers (en: ${numbersOf(r[en]) || "none"}; local: ${numbersOf(r[local]) || "none"})`);
+    }
+  }
+  for (const [f, [lo, hi]] of Object.entries(LENGTHS)) {
+    const n = (r[f] ?? "").trim().length;
+    if (n && (n < lo || n > hi)) out.push(`${f} is ${n} characters (expected ${lo}-${hi})`);
+  }
+  return out;
+};
 const textIssues: { slug: string; strict: boolean; line: string }[] = [];
 for (const r of rows) {
   const strict = strictText(r);
@@ -377,6 +410,7 @@ for (const r of rows) {
   const promo = text.match(PROMO);
   if (promo) textIssues.push({ slug: r.slug, strict, line: `"${promo[0]}" - praise of our own; say what the place does` });
   for (const c of CLAIMS) if (c.says.test(text) && !c.ok(r)) textIssues.push({ slug: r.slug, strict, line: `text: ${c.what}` });
+  for (const line of parityIssues(r)) textIssues.push({ slug: r.slug, strict: false, line });
   const source = text.match(SOURCE_TALK);
   if (source) textIssues.push({ slug: r.slug, strict, line: `"${source[0]}" - the text talks about our sources; that goes in notes` });
   const time = text.match(TIMES_IN_TEXT);
@@ -962,6 +996,34 @@ for (const f of fs.readdirSync(dir).filter((x) => /^evidence.*\.csv$/.test(x)).s
     if (!/^https?:\/\/\S+$/.test((e.source_url ?? "").trim())) evidenceErrors.push(`${at}: source_url must be the page with the quote`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test((e.observed_at ?? "").trim())) evidenceErrors.push(`${at}: observed_at YYYY-MM-DD`);
   });
+}
+// A price named in a text must be a price the card has (prices.csv or a quote):
+// a number in the prose that nobody can trace goes stale or is made up. A warning.
+{
+  const MONEY = /(?:€|\$|£)\s?(\d+(?:[.,]\d+)?)|(\d+(?:[.,]\d+)?)\s?(?:€|\$|£|eur\b|euro|zł|pln|kč|czk|usd)/gi;
+  const known = new Map<string, string>();
+  const note = (slug: string, text: string) => known.set(slug, `${known.get(slug) ?? ""} ${text}`);
+  if (fs.existsSync(pricesFile)) {
+    for (const p of Papa.parse<Row>(fs.readFileSync(pricesFile, "utf-8"), { header: true, skipEmptyLines: true }).data) {
+      note(p.business_slug, [p.price_from, p.price_to, p.notes, p.note].join(" "));
+    }
+  }
+  for (const e of evidenceRows) note(e.business_slug, e.quote ?? "");
+  const digits = (x: string) => x.replace(/[^\d.,]/g, "").replace(",", ".").replace(/\.0+$/, "");
+  const priceWarn: string[] = [];
+  for (const r of rows) {
+    const pool = (known.get(r.slug) ?? "").replace(/,/g, ".");
+    for (const f of TEXT_FIELDS) {
+      for (const m of (r[f] ?? "").matchAll(MONEY)) {
+        const n = digits(m[1] ?? m[2] ?? "");
+        if (n && !new RegExp(`(^|[^\\d])${n.replace(".", "\\.")}(?:0)?([^\\d]|$)`).test(pool)) priceWarn.push(`${r.slug}: ${f} names "${m[0].trim()}", but no price row or quote has ${n}`);
+      }
+    }
+  }
+  if (priceWarn.length) {
+    console.log(`\nWarning - a price in a text with nothing behind it (${priceWarn.length}; put the price in prices.csv with its quote, or take it out of the text):`);
+    for (const w of [...new Set(priceWarn)]) console.log(`  ${w}`);
+  }
 }
 const evidenceOf = (slug: string, field: string) => evidenceRows.filter((e) => e.business_slug === slug && e.field.trim() === field);
 const missingEvidence: string[] = [];

@@ -1,0 +1,132 @@
+{
+  "slug": "ss-family-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/S%26S+Family+Pet+Hospital/data=!4m7!3m6!1s0x865c6174945c0499:0x3fa3d4285a4b9510!8m2!3d29.585553!4d-98.5324713!16s%2Fg%2F1v42g6tm!19sChIJmQRclHRhXIYREJVLWijUoz8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Devoted care for family pets"
+      },
+      "text": {
+        "en": "Pet owners emphasize that the practice treats dogs and cats with genuine affection and attentiveness. Clients note how well staff look after pets during holiday boarding and routine visits, especially animals sensitive to loud firework noises. Multiple reviewers remark that animals are treated like family members from their very first puppy consultation."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly and compassionate veterinary team"
+      },
+      "text": {
+        "en": "Reviewers speak warmly of Dr. Smith, the veterinary technicians, and the receptionists for their welcoming manner. Clients with senior pets particularly appreciate the empathy and dignity shown during difficult end-of-life consultations. Pet owners note that the staff remain consistently patient and helpful across decades of regular clinic visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments and life-saving care"
+      },
+      "text": {
+        "en": "Clients describe dependable medical care, citing instances where timely veterinary intervention saved their dogs' lives during acute illness. Reviewers also praise the team for providing young puppies with a healthy start through preventive care. Pet parents express complete confidence in the doctors' medical knowledge and practical clinical decisions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does S&S Family Pet Hospital provide boarding for anxious pets?"
+      },
+      "a": {
+        "en": "Yes, clients report positive boarding experiences for dogs needing extra comfort and care during noisy holiday weekends."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the veterinary staff's bedside manner?"
+      },
+      "a": {
+        "en": "Reviewers praise the entire veterinary and reception team for their genuine empathy, patience, and supportive guidance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital assist with end-of-life veterinary care?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the veterinary team handles palliative care and compassionate euthanasia with dignity and respect."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are preventive puppy health check-ups available?"
+      },
+      "a": {
+        "en": "Yes, pet owners highlight thorough preventive care and initial wellness consultations for young puppies and kittens."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

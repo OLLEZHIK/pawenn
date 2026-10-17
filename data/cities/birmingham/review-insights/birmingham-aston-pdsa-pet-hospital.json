@@ -1,0 +1,288 @@
+{
+  "slug": "birmingham-aston-pdsa-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Birmingham+(Aston)+PDSA+Pet+Hospital/data=!4m7!3m6!1s0x4870bc819ec4d59f:0x5e0f763ddc211242!8m2!3d52.4975871!4d-1.8906969!16s%2Fg%2F11b6d080p5!19sChIJn9XEnrC8cEgRQhIh3D12D14?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 26,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 17,
+      "title": {
+        "en": "Dedicated clinicians alongside reception issues"
+      },
+      "text": {
+        "en": "Many clients express deep gratitude to veterinary surgeons and nursing staff for treating critically ill animals with dedication under intense charitable constraints. Conversely, numerous reviewers criticise front-desk receptionists and telephone staff for curt, dismissive behaviour and a lack of empathy during acute emotional emergencies."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Frequent phone delays and automated queues"
+      },
+      "text": {
+        "en": "Reviewers repeatedly report severe frustration with the hospital’s phone lines, citing automated menus that direct callers online and long holding times even during urgent situations. Several pet owners note that unreachable lines caused critical delays when seeking emergency assistance, leading to complaints about inadequate phone support."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Lengthy waiting times in crowded areas"
+      },
+      "text": {
+        "en": "Given the heavy demand for charitable veterinary services, pet owners frequently experience waits of several hours past their scheduled appointment times. While some urgent cases receive immediate attention, clients note that walk-in emergencies face long waits in busy communal waiting rooms where unmuzzled or anxious animals sit close together."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How long should owners expect to wait for appointments?"
+      },
+      "a": {
+        "en": "Reviewers advise preparing for waits of one to two hours or longer due to high clinical demand and emergency triage."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners easily reach the hospital by telephone?"
+      },
+      "a": {
+        "en": "Clients report significant difficulty getting through by phone and note that automated systems frequently direct callers online."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are medications dispensed directly on site?"
+      },
+      "a": {
+        "en": "Yes, visitors note that prescription medications are dispensed on site, often ready as soon as consultations conclude."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital assist with sudden pet emergencies?"
+      },
+      "a": {
+        "en": "The hospital manages acute cases, though reviewers strongly suggest calling ahead where possible to confirm registration."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

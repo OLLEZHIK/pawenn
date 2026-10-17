@@ -1,0 +1,36 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "paw-basics"
+  ],
+  "hash": "abddad44498607040ccfc0ddd47ff023237910bceb1677b7c3090f65d1844a2f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:44:11.305Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-17T00:48:01.009Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-17T00:48:47.491Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:49:31.053Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:50:19.142Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

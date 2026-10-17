@@ -11,7 +11,7 @@ import type { Locale } from "./locales";
 // URL: /<lang>/<category>/<city>/<best>/ and
 //      /<lang>/<category>/<city>/<district>/<best>/
 
-export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori" };
+export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori", es: "mejores" };
 
 /** A place counts with at least this many Google ratings… */
 export const MIN_RATINGS = 10;
@@ -108,6 +108,14 @@ const BEST_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "I migliori educatori cinofili",
     PET_SHOP: "I migliori negozi di animali",
     PET_SITTING: "I migliori dog sitter",
+  },
+  es: {
+    GROOMING: "Las mejores peluquerías caninas",
+    VET_CLINIC: "Los mejores veterinarios",
+    PET_HOTEL: "Las mejores residencias caninas",
+    DOG_TRAINING: "Los mejores adiestradores caninos",
+    PET_SHOP: "Las mejores tiendas de mascotas",
+    PET_SITTING: "Los mejores cuidadores de perros",
   },
 };
 
@@ -252,6 +260,23 @@ export const BEST_TEXT: Record<
       `In base al voto su Google, ponderato per il numero di recensioni: 4,9 su 15 recensioni vale meno di 4,8 su 400. Contano solo le attività con almeno ${min} recensioni. Voti verificati il ${date}. Nessuno paga per comparire in questa classifica.`,
     allPlaces: "Tutte le attività",
     chip: "I più apprezzati",
+    rank: (n) => `${n}º`,
+  },
+  es: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `Los ${n} negocios mejor valorados ${where}, según la nota en Google y el número de reseñas, y lo que más aprecian los clientes.`,
+    lead: (n) =>
+      `Los ${n} negocios mejor valorados en Google, ponderados por el número de reseñas. De cada uno: lo que más valoran los clientes, según nuestro resumen de las reseñas recientes.`,
+    praised: "Lo que más valoran los clientes",
+    mention: "Algunos señalan",
+    reviewsSummarised: (n) => `a partir de ${n} reseñas recientes`,
+    howTitle: "Cómo hemos elaborado la clasificación",
+    how: (min, date) =>
+      `Según la nota en Google, ponderada por el número de reseñas: un 4,9 con 15 reseñas vale menos que un 4,8 con 400. Solo cuentan los negocios con al menos ${min} reseñas. Notas comprobadas el ${date}. Nadie paga por aparecer en esta clasificación.`,
+    allPlaces: "Todos los negocios",
+    chip: "Los más valorados",
     rank: (n) => `${n}º`,
   },
 };

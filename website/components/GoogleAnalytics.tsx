@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useSyncExternalStore } from "react";
 import { CONSENT_EVENT, CONSENT_KEY, type ConsentChoice } from "@/lib/analytics";
 
-// The consent banner and GA4 (lib/analytics.ts). Before "allow" nothing from
-// Google is loaded and no cookie is set; "decline" looks and works exactly
+// The consent banner, GA4 and Microsoft Clarity (lib/analytics.ts). Before
+// "allow" nothing from Google or Microsoft is loaded and no cookie is set; "decline" looks and works exactly
 // like "allow" (no nudging toward consent).
 // Nothing renders on the server: the banner appears after hydration, only
 // for visitors who have not chosen yet.
@@ -85,14 +85,50 @@ function stopGa(id: string) {
   }
 }
 
+let clarityLoaded = false;
+function loadClarity(id: string) {
+  if (clarityLoaded) {
+    window.clarity?.("consent", true);
+    return;
+  }
+  clarityLoaded = true;
+  // The snippet Clarity gives for the project, with an explicit consent call.
+  window.clarity =
+    window.clarity ??
+    function clarity() {
+      // clarity.js reads the arguments object, not an array.
+      // eslint-disable-next-line prefer-rest-params
+      (window.clarity!.q = window.clarity!.q ?? []).push(arguments);
+    };
+  const s = document.createElement("script");
+  s.async = true;
+  s.src = `https://www.clarity.ms/tag/${id}`;
+  document.head.appendChild(s);
+  window.clarity("consent", true);
+}
+
+/** "Decline" after "allow": stop recording and remove the Clarity cookies. */
+function stopClarity() {
+  window.clarity?.("consent", false);
+  const host = window.location.hostname.replace(/^www\./, "");
+  for (const c of document.cookie.split(";")) {
+    const name = c.split("=")[0].trim();
+    if (name !== "_clck" && name !== "_clsk" && name !== "CLID") continue;
+    for (const domain of ["", `; Domain=.${host}`, `; Domain=${host}`]) document.cookie = `${name}=; Max-Age=0; Path=/${domain}`;
+  }
+}
+
 export function GoogleAnalytics({
   id,
+  clarityId = null,
   text,
   allow,
   decline,
   policyLabel,
 }: {
   id: string;
+  /** Microsoft Clarity project; none = Clarity off. */
+  clarityId?: string | null;
   text: string;
   allow: string;
   decline: string;
@@ -101,9 +137,15 @@ export function GoogleAnalytics({
   const state = useSyncExternalStore(subscribe, read, () => null);
 
   useEffect(() => {
-    if (state === "granted") loadGa(id);
-    if (state === "denied") stopGa(id);
-  }, [state, id]);
+    if (state === "granted") {
+      loadGa(id);
+      if (clarityId) loadClarity(clarityId);
+    }
+    if (state === "denied") {
+      stopGa(id);
+      if (clarityLoaded) stopClarity();
+    }
+  }, [state, id, clarityId]);
 
   if (state !== "ask") return null;
   const button =

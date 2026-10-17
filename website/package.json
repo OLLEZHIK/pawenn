@@ -13,6 +13,7 @@
     "check-city": "tsx scripts/check-city.ts",
     "verify-city": "tsx scripts/verify-city.ts",
     "gate": "tsx scripts/gate.ts",
+    "indexnow": "tsx scripts/indexnow.ts",
     "rank-candidates": "tsx scripts/rank-candidates.ts",
     "ready-city": "tsx scripts/ready-city.ts",
     "reviews-queue": "tsx scripts/reviews-queue.ts",
@@ -33,7 +34,8 @@
     "pg": "^8.23.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "unpdf": "^1.9.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

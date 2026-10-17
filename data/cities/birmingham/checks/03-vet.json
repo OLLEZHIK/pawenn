@@ -1,0 +1,33 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "pool-house-vets-mere-green",
+    "sheldon-veterinary-centre",
+    "townsend-veterinary-centre-rubery",
+    "wythall-veterinary-centre",
+    "birmingham-aston-pdsa-pet-hospital",
+    "artemis-veterinary-clinic",
+    "orchard-veterinary-centre",
+    "oaks-veterinary-centre"
+  ],
+  "hash": "615026f9e520d9b463edd136cd90cd8202a5ed6e0dba21ad98f9e5a45ac9b295",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T10:33:17.130Z",
+      "result": "FAIL",
+      "listed": 83
+    },
+    {
+      "at": "2026-10-16T10:45:16.934Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-16T10:51:32.077Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

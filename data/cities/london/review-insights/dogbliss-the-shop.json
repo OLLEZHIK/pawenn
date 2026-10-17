@@ -1,0 +1,132 @@
+{
+  "slug": "dogbliss-the-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dogbliss+The+Shop/data=!4m7!3m6!1s0x48761df14e8218dd:0xe56437b30e22d947!8m2!3d51.5314409!4d-0.038137!16s%2Fg%2F11sqshd8sb!19sChIJ3RiCTvEddkgRR9kiDrM3ZOU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Curated selection of dog supplies"
+      },
+      "text": {
+        "en": "Shoppers appreciate the broad inventory of wholesome pet essentials, chews, and healthy snacks available at the Roman Road store and online. Reviewers highlight finding hard-to-source durable chew toys, natural treats, and nutritious foods that are difficult to locate elsewhere. Both in-store visitors and mail-order customers praise the boutique selection and swift dispatch."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly and welcoming shop owner"
+      },
+      "text": {
+        "en": "Local dog owners describe the shopkeeper as warm, helpful, and attentive to canine nutrition. Customers note that the owner readily offers recommendations on healthy treats and handles in-store inquiries with personal attention. When minor price discrepancies arose between the website and retail till, reviewers observed that the shop owner resolved matters promptly on the spot."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming atmosphere for visiting dogs"
+      },
+      "text": {
+        "en": "Clients highlight that dogs receive a genuinely enthusiastic welcome whenever they visit the boutique on Roman Road. Reviewers note that four-legged visitors love sampling natural dog treats and exploring the carefully arranged aisles. Pet parents enjoy having a pet-friendly neighbourhood shop where their dogs feel relaxed, valued, and excited to return during daily walks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can customers order pet supplies online from Dogbliss The Shop?"
+      },
+      "a": {
+        "en": "Yes, customers report ordering through the website with quick delivery across the UK for specialised chew toys and treats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs allowed inside the shop on Roman Road?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that visiting dogs are warmly welcomed in the store with treats and friendly attention."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of products are stocked at the shop?"
+      },
+      "a": {
+        "en": "The shop carries natural treats, specialised chew bones, durable toys, and wholesome foods for dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How did staff handle a pricing discrepancy for an in-store customer?"
+      },
+      "a": {
+        "en": "A reviewer noted that the shop owner promptly addressed the price difference and provided an immediate refund."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    }
+  ]
+}

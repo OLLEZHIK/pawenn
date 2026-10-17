@@ -1,0 +1,160 @@
+{
+  "slug": "queenies-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Queenie%27s+Pets/data=!4m7!3m6!1s0x89c6b9a318728c31:0x76c7a9a72d9b8f7d!8m2!3d40.0597526!4d-75.1909717!16s%2Fg%2F1tdksrt4!19sChIJMYxyGKO5xokRfY-bLaepx3Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Helpful and welcoming retail team"
+      },
+      "text": {
+        "en": "Shoppers consistently praise the friendly, knowledgeable staff members, highlighting team members such as Roswell, Mike, and Dani for attentive assistance. Customers feel supported when seeking guidance for specialized pet products, though one buyer reported confusion over store credit return policies."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Extensive selection and convenient ordering"
+      },
+      "text": {
+        "en": "Pet owners appreciate the wide inventory of supplies, noting diverse alternative protein chews, allergy-friendly snacks, and reptile gear. Reviewers also highlight helpful options such as custom item ordering and free local delivery within the neighbourhood."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Genuine care for varied pets"
+      },
+      "text": {
+        "en": "Clients note that the staff demonstrates genuine affection for diverse companion animals, including dogs, chameleons, rabbits, and turtles. Pet parents who use their sitting and walking services value that their animals come home relaxed, well exercised, and happy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What kinds of pet supplies does Queenie's Pets stock?"
+      },
+      "a": {
+        "en": "The shop carries dog foods, hypoallergenic chews, alternative proteins like buffalo and ostrich, and supplies for reptiles and small pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Queenie's Pets offer local home delivery?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that the shop provides free local delivery for pet supplies within the Philadelphia area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can special pet food items be ordered if out of stock?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff members are happy to place custom orders for items not currently on the shelves."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services besides retail are offered?"
+      },
+      "a": {
+        "en": "In addition to pet retail, the business provides professional dog walking, pet sitting, and companion animal care."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

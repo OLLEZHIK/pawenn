@@ -1,0 +1,182 @@
+{
+  "slug": "fairmount-pet-shoppe",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fairmount+Pet+Shoppe/data=!4m7!3m6!1s0x89c6c7cedb2e8ca1:0xcb27f367e478a3f3!8m2!3d39.9670716!4d-75.171135!16s%2Fg%2F1tdvqp_q!19sChIJoYwu287HxokR86N45GfzJ8s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Curated selection of pet supplies"
+      },
+      "text": {
+        "en": "Shoppers appreciate the broad inventory of high-quality pet supplies, including raw cat foods, specialty toys, and unique apparel. Clients value having a well-stocked independent neighbourhood store within walking distance of the Art Museum area. Even though one review indicated an unmet shopping expectation, most owners praise the clean, welcoming layout."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Friendly and knowledgeable shop assistants"
+      },
+      "text": {
+        "en": "Reviewers consistently praise the retail team for their attentiveness, polite manner, and practical product advice. Staff members assist customers with specific requests, such as finding properly sized recovery cones or suggesting suitable treats. Pet owners remark that the employees are always welcoming and happy to help both new and returning shoppers."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Support for rescue animal adoptions"
+      },
+      "text": {
+        "en": "Customers frequently highlight the shop's active role in pet rescue, particularly its ongoing partnership with Green Street Rescue to showcase adoptable cats in the front window. Pet parents also appreciate the warm, gentle treatment shown to visiting dogs brought into the store by neighbourhood walkers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fairmount Pet Shoppe offer cat adoptions?"
+      },
+      "a": {
+        "en": "Yes, the store hosts adoptable cats in its front window through a partnership with Green Street Rescue."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the shop carry raw pet food?"
+      },
+      "a": {
+        "en": "Yes, clients confirm finding raw pet foods such as Primal products in the store's freezer section."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners bring their pets inside while shopping?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that visiting dogs are welcomed warmly inside the shop."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specialty pet supplies available?"
+      },
+      "a": {
+        "en": "Shoppers mention finding recovery cones, cat apparel, premium kibble, and interactive toys."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
