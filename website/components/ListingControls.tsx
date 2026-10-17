@@ -76,8 +76,7 @@ export function ListingControls({
   const [locating, setLocating] = useState(false);
   const [geoOff, setGeoOff] = useState(false);
   const [query, setQuery] = useState("");
-  // The visitor's own country comes first in the city list: read from the
-  // browser's language region after hydration (the page itself stays cached).
+  // The visitor's own country (browser language region) is read after hydration, so the page itself stays cached.
   const languages = useSyncExternalStore(
     () => () => {},
     () => (navigator.languages ?? []).join(","),
@@ -150,10 +149,12 @@ export function ListingControls({
       if (needle && !c.name.toLowerCase().includes(needle)) continue;
       byCountry.set(c.country, [...(byCountry.get(c.country) ?? []), c]);
     }
+    // The country of the chosen city first, then the visitor's own, then the rest.
+    const rank = (code: string) => (code === country ? 0 : code === home ? 1 : 2);
     return [...byCountry.entries()]
       .map(([code, list]) => ({ code, name: countryNames[code] ?? code, list: list.sort((a, b) => a.name.localeCompare(b.name, locale)) }))
-      .sort((a, b) => (a.code === home ? -1 : b.code === home ? 1 : a.name.localeCompare(b.name, locale)));
-  }, [cities, query, countryNames, home, locale]);
+      .sort((a, b) => rank(a.code) - rank(b.code) || a.name.localeCompare(b.name, locale));
+  }, [cities, query, countryNames, home, country, locale]);
 
   const numberFormat = new Intl.NumberFormat(locale, { minimumFractionDigits: 1 });
   const activeFilters = (minRating ? 1 : 0) + attributes.filter((a) => a.active).length;
