@@ -12,7 +12,7 @@
     "dallas-veterinary-surgical-center-north-dallas",
     "pavillion-animal-hospital"
   ],
-  "hash": "901500dc52cfe10952de0068b5740f31c45ee4b8e1336ea7138d20420a2e527f",
+  "hash": "5a3a0e02a7c819c511f0077d4112dbd15194e5bf36aa0e6b8ef38614fd725930",
   "result": "PASS",
   "history": [
     {
@@ -32,6 +32,11 @@
     },
     {
       "at": "2026-10-17T00:02:14.721Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T05:16:45.772Z",
       "result": "PASS",
       "listed": 0
     }
