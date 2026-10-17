@@ -1,0 +1,159 @@
+{
+  "slug": "callaghan-road-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Callaghan+Road+Animal+Hospital/data=!4m7!3m6!1s0x865c5d963bbaf63b:0x181712f0624f26b1!8m2!3d29.4729713!4d-98.5787269!16s%2Fg%2F11q3z05fv1!19sChIJO_a6O5ZdXIYRsSZPYvASFxg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive and caring clinical team"
+      },
+      "text": {
+        "en": "Most clients speak highly of Dr Evans and Dr Guevara, noting their clinical competence and approachable manner during consultations. Veterinary assistants and front-desk staff are frequently described as courteous and accommodating. While isolated visits felt rushed, the overall consensus highlights dependable veterinary professionals devoted to pet wellbeing."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Varied experiences with client consultations"
+      },
+      "text": {
+        "en": "Several pet owners praise the clinic for clear, detailed explanations regarding treatment plans and sensitive end-of-life procedures. In contrast, other reviewers felt communication lacked warmth during stressful moments, reporting instances of dismissive phrasing or phone interactions that felt overly transactional and abrupt."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate attention for dogs and cats"
+      },
+      "text": {
+        "en": "Pet owners appreciate the patient handling shown towards feline and canine patients throughout examinations and diagnostic tests. Reviewers highlight thoughtful support provided during difficult compassionate care situations, noting staff gave families unhurried moments to say goodbye to their beloved pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are emergency services available at Callaghan Road Animal Hospital?"
+      },
+      "a": {
+        "en": "Emergency veterinary care is provided during regular practice operating hours for established and urgent patients."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer on-site medication dispensing?"
+      },
+      "a": {
+        "en": "Yes, an on-site veterinary pharmacy is available to provide necessary prescription medications directly after appointments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's fee structure?"
+      },
+      "a": {
+        "en": "Reviewers frequently describe the pricing as competitive and among the most reasonable in the surrounding area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is bilingual Spanish and English service available?"
+      },
+      "a": {
+        "en": "Yes, clinical records confirm staff provide veterinary assistance in both English and Spanish."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
