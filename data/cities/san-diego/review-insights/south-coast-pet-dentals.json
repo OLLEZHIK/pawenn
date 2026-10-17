@@ -1,0 +1,132 @@
+{
+  "slug": "south-coast-pet-dentals",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/South+Coast+Pet+Dentals,+Inc./data=!4m7!3m6!1s0x80dc0027734e1195:0xec50832d2b946714!8m2!3d32.7892379!4d-117.2054401!16s%2Fg%2F11c58ppp26!19sChIJlRFOcycA3IARFGeUKy2DUOw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly technicians with consultative friction"
+      },
+      "text": {
+        "en": "Most pet owners praise the dental team for their friendly reception, clear answers, and efficient technical care. Satisfied clients feel well supported when seeking non-anesthetic dental treatments. However, one owner of senior dogs felt pressured regarding recommended extractions, describing the veterinary surgeon's communication style as dismissive and argumentative."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean teeth and rapid procedures"
+      },
+      "text": {
+        "en": "Reviewers report excellent clinical results following dental cleanings, tartar removal, and necessary tooth extractions. Owners of breeds prone to severe periodontal disease appreciate that treatments are completed in under an hour, leaving dogs with clean breath and sparkling teeth. Clients value having an effective alternative for animals requiring regular oral hygiene."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling for elderly pets"
+      },
+      "text": {
+        "en": "Pet owners commend the gentle care shown towards nervous dogs and senior pets unable to undergo general anaesthesia. Reviewers note that their animals emerge relaxed and tail-wagging shortly after procedures. While one visitor felt anxious about making immediate surgical extraction decisions for elderly pets, others trust the team to keep dogs calm during cleaning."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the practice perform dental cleanings without general anaesthesia?"
+      },
+      "a": {
+        "en": "Yes, clients frequently choose the clinic for non-anesthetic dental cleanings suitable for dogs unable to undergo anaesthesia."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can dental extractions be carried out during appointments?"
+      },
+      "a": {
+        "en": "Yes, the practice performs tooth extractions and oral procedures with sedation when required."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How long does a standard pet dental cleaning take?"
+      },
+      "a": {
+        "en": "Reviewers note that dental cleaning and extraction appointments are typically completed in under an hour."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How far in advance must clients schedule dental appointments?"
+      },
+      "a": {
+        "en": "Clients report improved appointment availability, with bookings frequently secured within a few days."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
