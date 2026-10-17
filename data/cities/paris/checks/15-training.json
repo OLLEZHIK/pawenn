@@ -1,0 +1,31 @@
+{
+  "chunk": "15-training",
+  "kind": "places",
+  "slugs": [
+    "equilicat"
+  ],
+  "hash": "2114dfee8fc32db0dbde03cb668379d1a671d1c8587a1b93d5cacc986fe351b6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T21:44:57.082Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-15T21:46:23.732Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-15T21:48:24.597Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:54:45.364Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
