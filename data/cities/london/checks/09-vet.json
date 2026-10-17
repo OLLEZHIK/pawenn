@@ -1,0 +1,34 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "vets-for-pets-beckton",
+    "medivet-woolwich",
+    "hello-vet-clapton",
+    "the-pet-vet-waltham-forest-higham-park-walthamstow",
+    "medivet-west-green",
+    "medivet-stroud-green",
+    "arc-veterinary-centre",
+    "medivet-crouch-end",
+    "medivet-24-hour-kensington"
+  ],
+  "hash": "d3925bdcaadc80c8814c3e07341fe09a1193363aaca604a492b6cca9766d1cf7",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T13:07:53.110Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-16T13:12:33.882Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T13:13:57.193Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

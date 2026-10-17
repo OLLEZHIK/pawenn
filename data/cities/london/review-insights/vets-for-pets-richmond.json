@@ -1,0 +1,145 @@
+{
+  "slug": "vets-for-pets-richmond",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vets+for+Pets+-+Richmond/data=!4m7!3m6!1s0x48760c2ec427f3d9:0xb2f6b27ef22e93d8!8m2!3d51.464066!4d-0.2691546!16s%2Fg%2F11b70hwkg8!19sChIJ2fMnxC4MdkgR2JMu8n6y9rI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful clinicians alongside billing disputes"
+      },
+      "text": {
+        "en": "Feedback regarding veterinary staff is divided between high praise and notable disappointment. Several pet owners warmly highlight attentive surgeons and empathetic nurses who provided supportive post-operative care and condolence cards. Conversely, critical reviews describe staff as financially driven and unhelpful during urgent consultations. The team's bedside manner receives varying appraisals."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting experiences in patient welfare"
+      },
+      "text": {
+        "en": "Client reports on animal care present contrasting experiences. Longstanding pet parents appreciate thorough examinations, thoughtful dietary suggestions, and dedicated surgical treatment for recovering pets. However, frustrated owners claim that painful conditions were left unmanaged while waiting for diagnostic test results. Pet owners advise discussing urgent treatment protocols directly with attending clinicians."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied reception and case communication"
+      },
+      "text": {
+        "en": "Communication from the surgery receives mixed ratings from pet owners. Several reviewers commend veterinary surgeons who made repeated phone calls to provide timely updates following X-rays and operations. In contrast, other clients report feeling uninformed on treatment days and describe delays in receiving critical laboratory findings. Clearer diagnostic updates would improve client reassurance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do veterinary surgeons communicate surgical progress?"
+      },
+      "a": {
+        "en": "Satisfied clients report that attending veterinarians made multiple phone calls to provide thorough updates following imaging and surgery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What concerns exist regarding consultation fees and pricing?"
+      },
+      "a": {
+        "en": "Critical reviewers report feeling pressured by high fees and recommend clarifying consultation inclusions and costs in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How clean and equipped is the Richmond practice?"
+      },
+      "a": {
+        "en": "Pet parents describe the veterinary clinic as clean, well presented, and conveniently located with broad clinical facilities."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

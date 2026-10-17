@@ -1,0 +1,49 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "hello-vet-victoria-park-village",
+    "every-tail-vets-stratford",
+    "vets-for-pets-charlton",
+    "blackheath-veterinary-surgery",
+    "vets-for-pets-old-kent-road",
+    "palace-vets",
+    "medivet-st-johns-wood",
+    "chelsea-veterinary-surgery",
+    "virtue-vets-notting-hill"
+  ],
+  "hash": "b01ed8177ad829d2277f6fdc22646a72d78898f6ab57d853a1dc49ae63777ac5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T14:05:45.014Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-16T14:16:42.193Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T14:49:07.164Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-16T15:00:17.877Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T15:01:56.433Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T15:09:44.267Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
