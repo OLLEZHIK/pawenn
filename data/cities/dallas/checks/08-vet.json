@@ -2,11 +2,9 @@
   "chunk": "08-vet",
   "kind": "places",
   "slugs": [
-    "goodvets-uptown-dallas",
-    "north-dallas-veterinary-hospital",
-    "cityvet-oak-lawn"
+    "goodvets-uptown-dallas"
   ],
-  "hash": "9c192909eb2997f2b832cf7edd0b497561dd2f25e9ba0c527034752d7a0fdebf",
+  "hash": "ab95a34f324dd0bb1c6be63f7e9e255b169172afceec35fa92c9750f6228e196",
   "result": "PASS",
   "history": [
     {
@@ -26,6 +24,11 @@
     },
     {
       "at": "2026-10-17T01:27:42.942Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T05:10:42.486Z",
       "result": "PASS",
       "listed": 0
     }
