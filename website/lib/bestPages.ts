@@ -11,7 +11,7 @@ import type { Locale } from "./locales";
 // URL: /<lang>/<category>/<city>/<best>/ and
 //      /<lang>/<category>/<city>/<district>/<best>/
 
-export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori", es: "mejores" };
+export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori", es: "mejores", nl: "beste", fi: "parhaat", hu: "legjobb", ja: "osusume" };
 
 /** A place counts with at least this many Google ratings… */
 export const MIN_RATINGS = 10;
@@ -116,6 +116,38 @@ const BEST_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Los mejores adiestradores caninos",
     PET_SHOP: "Las mejores tiendas de mascotas",
     PET_SITTING: "Los mejores cuidadores de perros",
+  },
+  nl: {
+    GROOMING: "Beste trimsalons",
+    VET_CLINIC: "Beste dierenartsen",
+    PET_HOTEL: "Beste dierenpensions",
+    DOG_TRAINING: "Beste hondenscholen",
+    PET_SHOP: "Beste dierenwinkels",
+    PET_SITTING: "Beste hondenoppassers en uitlaatservices",
+  },
+  fi: {
+    GROOMING: "Parhaat trimmaamot",
+    VET_CLINIC: "Parhaat eläinlääkärit",
+    PET_HOTEL: "Parhaat koirahoitolat",
+    DOG_TRAINING: "Parhaat koirakoulut",
+    PET_SHOP: "Parhaat eläinkaupat",
+    PET_SITTING: "Parhaat koiranhoitajat",
+  },
+  hu: {
+    GROOMING: "A legjobb kutyakozmetikák",
+    VET_CLINIC: "A legjobb állatorvosok",
+    PET_HOTEL: "A legjobb kutyapanziók",
+    DOG_TRAINING: "A legjobb kutyaiskolák",
+    PET_SHOP: "A legjobb állatkereskedések",
+    PET_SITTING: "A legjobb kutyaszitterek",
+  },
+  ja: {
+    GROOMING: "おすすめのトリミングサロン",
+    VET_CLINIC: "おすすめの動物病院",
+    PET_HOTEL: "おすすめのペットホテル",
+    DOG_TRAINING: "おすすめの犬のしつけ教室",
+    PET_SHOP: "おすすめのペットショップ",
+    PET_SITTING: "おすすめのペットシッター",
   },
 };
 
@@ -278,5 +310,73 @@ export const BEST_TEXT: Record<
     allPlaces: "Todos los negocios",
     chip: "Los más valorados",
     rank: (n) => `${n}º`,
+  },
+  nl: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `De ${n} best beoordeelde bedrijven ${where}, gerangschikt op Google-score en aantal beoordelingen – en waar klanten het meest tevreden over zijn.`,
+    lead: (n) =>
+      `De ${n} bedrijven met de beste Google-scores, gewogen naar het aantal beoordelingen. Bij elk bedrijf: wat klanten het meest waarderen, uit onze samenvatting van recente recensies.`,
+    praised: "Wat klanten waarderen",
+    mention: "Sommigen noemen",
+    reviewsSummarised: (n) => `op basis van ${n} recente ${n === 1 ? "recensie" : "recensies"}`,
+    howTitle: "Hoe we de ranglijst hebben samengesteld",
+    how: (min, date) =>
+      `Op basis van de Google-score, gewogen naar het aantal beoordelingen: een 4,9 van 15 personen staat lager dan een 4,8 van 400. Alleen bedrijven met minimaal ${min} beoordelingen. Beoordelingen gecontroleerd op ${date}. Niemand betaalt voor een plek op deze lijst.`,
+    allPlaces: "Alle bedrijven",
+    chip: "Best beoordeeld",
+    rank: (n) => `Nr. ${n}`,
+  },
+  fi: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: parhaat ${n} (${year}) | Pawenn`, `${name} ${where}: parhaat ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `Parhaat ${n} paikkaa ${where} Google-arvostelujen ja tähtiluokituksen mukaan sekä mitä asiakkaat kehuvat eniten.`,
+    lead: (n) =>
+      `Parhaat ${n} paikkaa Googlen tähtiluokituksen mukaan, painotettuna arvostelujen määrällä. Jokaisen kohdalla näet, mitä asiakkaat kehuvat tuoreissa arvosteluissa.`,
+    praised: "Mitä asiakkaat kehuvat",
+    mention: "Osa mainitsee",
+    reviewsSummarised: (n) => `koottu ${n} tuoreesta arvostelusta`,
+    howTitle: "Miten järjestys muodostuu",
+    how: (min, date) =>
+      `Google-arvosanan mukaan, painotettuna arvostelujen määrällä: 15 arvioijan 4,9 sijoittuu alemmas kuin 400 arvioijan 4,8. Mukana ovat vain paikat, joilla on vähintään ${min} arvostelua. Arviot tarkistettu ${date}. Yksikään paikka ei maksa listalla olemisesta.`,
+    allPlaces: "Kaikki paikat",
+    chip: "Parhaat arviot",
+    rank: (n) => `Sija ${n}`,
+  },
+  hu: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `A(z) ${n} legjobbra értékelt hely ${where}, a Google-értékelések és a vélemények száma alapján, valamint amit a vendégek a leginkább dicsérnek.`,
+    lead: (n) =>
+      `A(z) ${n} legjobb Google-értékelésű hely, a vélemények számával súlyozva. Mindegyiknél bemutatjuk, amit a vendégek a leginkább dicsérnek a friss vélemények alapján.`,
+    praised: "Amit a vendégek leginkább dicsérnek",
+    mention: "Néhányan megjegyzik",
+    reviewsSummarised: (n) => `${n} friss vélemény alapján`,
+    howTitle: "Hogyan állítottuk össze a rangsort",
+    how: (min, date) =>
+      `A Google-értékelések alapján, a vélemények számával súlyozva: egy 15 értékeléses 4,9 hátrébb rangsorol, mint egy 400 értékeléses 4,8. Csak a legalább ${min} értékeléssel rendelkező helyek szerepelnek. Az értékelések ellenőrizve: ${date}. Egyetlen szolgáltató sem fizet a rangsorban való megjelenésért.`,
+    allPlaces: "Minden szolgáltató",
+    chip: "Legjobbra értékeltek",
+    rank: (n) => `${n}.`,
+  },
+  ja: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `${where}でGoogleのクチコミ評価が高い上位${n}件を厳選。評価点とクチコミ件数を独自集計し、利用者の評判やおすすめポイントをまとめました。`,
+    lead: (n) =>
+      `Googleマップのクチコミ評価と投稿件数をもとに算出した、高評価の${n}件です。各店舗・クリニックについて、直近のクチコミ要約から利用者に高く評価されているポイントをご紹介します。`,
+    praised: "利用者が高く評価している点",
+    mention: "気になるポイント・その他の声",
+    reviewsSummarised: (n) => `直近のクチコミ${n}件より要約`,
+    howTitle: "掲載順位の算出方法",
+    how: (min, date) =>
+      `Googleの評価点とクチコミ件数を掛け合わせたベイズ平均で算出しています（例：評価4.9で15件よりも、評価4.8で400件の施設が上位になります）。クチコミ件数が${min}件以上の施設のみが対象です。評価データ確認日：${date}。広告料等による順位の優遇は一切ありません。`,
+    allPlaces: "すべての施設を見る",
+    chip: "高評価順",
+    rank: (n) => `第${n}位`,
   },
 };

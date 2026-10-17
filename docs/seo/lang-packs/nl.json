@@ -1,0 +1,1165 @@
+{
+ "inline": {
+  "lib/facts.ts#1": {
+   "key": "walk_in",
+   "en": "Walk-ins welcome",
+   "es": "Sin cita previa",
+   "value": "Zonder afspraak welkom"
+  },
+  "lib/facts.ts#2": {
+   "key": "appointment_only",
+   "en": "By appointment only",
+   "es": "Solo con cita previa",
+   "value": "Uitsluitend op afspraak"
+  },
+  "lib/facts.ts#3": {
+   "key": "online_booking",
+   "en": "Online booking",
+   "es": "Reserva online",
+   "value": "Online boeken"
+  },
+  "lib/facts.ts#4": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "Pinnen mogelijk"
+  },
+  "lib/facts.ts#5": {
+   "key": "parking",
+   "en": "Parking",
+   "es": "Aparcamiento",
+   "value": "Parkeergelegenheid"
+  },
+  "lib/facts.ts#6": {
+   "key": "cats_waiting_room",
+   "en": "Separate waiting room for cats",
+   "es": "Sala de espera separada para gatos",
+   "value": "Aparte wachtruimte voor katten"
+  },
+  "lib/facts.ts#7": {
+   "key": "pet_passport",
+   "en": "Issues EU pet passports",
+   "es": "Emite pasaporte europeo para mascotas",
+   "value": "Afgifte Europees dierenpaspoort"
+  },
+  "lib/facts.ts#8": {
+   "key": "pharmacy_on_site",
+   "en": "Pharmacy on site",
+   "es": "Farmacia en el centro",
+   "value": "Apotheek aanwezig"
+  },
+  "lib/facts.ts#9": {
+   "key": "cat_friendly",
+   "en": "Cat Friendly Clinic certified",
+   "es": "Certificado Cat Friendly Clinic",
+   "value": "Gecertificeerde Cat Friendly Clinic"
+  },
+  "lib/facts.ts#10": {
+   "key": "cats",
+   "en": "Cats groomed too",
+   "es": "También peluquería para gatos",
+   "value": "Ook katten welkom"
+  },
+  "lib/facts.ts#11": {
+   "key": "all_sizes",
+   "en": "Dogs of all sizes",
+   "es": "Perros de todos los tamaños",
+   "value": "Honden van alle formaten"
+  },
+  "lib/facts.ts#12": {
+   "key": "small_dogs_only",
+   "en": "Small dogs only",
+   "es": "Solo perros pequeños",
+   "value": "Alleen kleine honden"
+  },
+  "lib/facts.ts#13": {
+   "key": "appointment_only",
+   "en": "By appointment only",
+   "es": "Solo con cita previa",
+   "value": "Uitsluitend op afspraak"
+  },
+  "lib/facts.ts#14": {
+   "key": "online_booking",
+   "en": "Online booking",
+   "es": "Reserva online",
+   "value": "Online boeken"
+  },
+  "lib/facts.ts#15": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "Pinnen mogelijk"
+  },
+  "lib/facts.ts#16": {
+   "key": "owner_can_stay",
+   "en": "You can stay with your pet",
+   "es": "Puedes quedarte con tu mascota",
+   "value": "U kunt bij uw huisdier blijven"
+  },
+  "lib/facts.ts#17": {
+   "key": "natural_cosmetics",
+   "en": "Natural cosmetics",
+   "es": "Cosmética natural",
+   "value": "Natuurlijke verzorgingsproducten"
+  },
+  "lib/facts.ts#18": {
+   "key": "pickup_service",
+   "en": "Pick-up and drop-off",
+   "es": "Recogida y entrega a domicilio",
+   "value": "Haal- en brengservice"
+  },
+  "lib/facts.ts#19": {
+   "key": "cats",
+   "en": "Takes cats",
+   "es": "También acepta gatos",
+   "value": "Katten ook welkom"
+  },
+  "lib/facts.ts#20": {
+   "key": "small_dogs_only",
+   "en": "Small dogs only",
+   "es": "Solo perros pequeños",
+   "value": "Alleen kleine honden"
+  },
+  "lib/facts.ts#21": {
+   "key": "vaccination_required",
+   "en": "Vaccination record required",
+   "es": "Se exige cartilla de vacunación",
+   "value": "Vaccinatiebewijs verplicht"
+  },
+  "lib/facts.ts#22": {
+   "key": "trial_stay",
+   "en": "Trial day or visit before the stay",
+   "es": "Día de prueba o visita antes de la estancia",
+   "value": "Proefdag of kennismaking vooraf"
+  },
+  "lib/facts.ts#23": {
+   "key": "outdoor_run",
+   "en": "Outdoor run",
+   "es": "Zona de recreo exterior",
+   "value": "Buitenren aanwezig"
+  },
+  "lib/facts.ts#24": {
+   "key": "supervision_24h",
+   "en": "Supervised 24 hours",
+   "es": "Vigilancia las 24 horas",
+   "value": "24-uurs toezicht"
+  },
+  "lib/facts.ts#25": {
+   "key": "cage_free",
+   "en": "No cages or kennels",
+   "es": "Sin jaulas ni boxes",
+   "value": "Geen kooien of kennels"
+  },
+  "lib/facts.ts#26": {
+   "key": "medication",
+   "en": "Gives medication",
+   "es": "Administra medicación",
+   "value": "Toediening van medicatie"
+  },
+  "lib/facts.ts#27": {
+   "key": "photo_updates",
+   "en": "Photo or video updates",
+   "es": "Fotos o vídeos durante la estancia",
+   "value": "Foto- of video-updates"
+  },
+  "lib/facts.ts#28": {
+   "key": "group_classes",
+   "en": "Group classes",
+   "es": "Clases en grupo",
+   "value": "Groepslessen"
+  },
+  "lib/facts.ts#29": {
+   "key": "private_lessons",
+   "en": "Private lessons",
+   "es": "Clases individuales",
+   "value": "Privélessen"
+  },
+  "lib/facts.ts#30": {
+   "key": "puppy_classes",
+   "en": "Puppy classes",
+   "es": "Clases para cachorros",
+   "value": "Puppylessen"
+  },
+  "lib/facts.ts#31": {
+   "key": "training_ground",
+   "en": "Own training ground",
+   "es": "Campo de adiestramiento propio",
+   "value": "Eigen trainingsveld"
+  },
+  "lib/facts.ts#32": {
+   "key": "home_training",
+   "en": "Training at your home",
+   "es": "Adiestramiento en tu casa",
+   "value": "Training aan huis"
+  },
+  "lib/facts.ts#33": {
+   "key": "behaviour_problems",
+   "en": "Behaviour problems",
+   "es": "Problemas de conducta",
+   "value": "Gedragsproblemen"
+  },
+  "lib/facts.ts#34": {
+   "key": "certified_trainer",
+   "en": "Certified trainer",
+   "es": "Educadores certificados",
+   "value": "Gecertificeerde trainer"
+  },
+  "lib/facts.ts#35": {
+   "key": "online_lessons",
+   "en": "Online lessons",
+   "es": "Clases online",
+   "value": "Online lessen"
+  },
+  "lib/facts.ts#36": {
+   "key": "dog_sports",
+   "en": "Dog sports (agility, obedience)",
+   "es": "Deportes caninos (agility, obediencia)",
+   "value": "Hondensport (agility, gehoorzaamheid)"
+  },
+  "lib/facts.ts#37": {
+   "key": "dog_walking",
+   "en": "Dog walking",
+   "es": "Paseos de perros",
+   "value": "Honden uitlaten"
+  },
+  "lib/facts.ts#38": {
+   "key": "cat_visits",
+   "en": "Cat visits",
+   "es": "Visitas a gatos",
+   "value": "Huisbezoeken voor katten"
+  },
+  "lib/facts.ts#39": {
+   "key": "home_sitting",
+   "en": "Stays at your home",
+   "es": "Cuidado en tu casa",
+   "value": "Oppas bij u thuis"
+  },
+  "lib/facts.ts#40": {
+   "key": "boarding_at_sitter",
+   "en": "Boarding at the sitter's",
+   "es": "Alojamiento en casa del cuidador",
+   "value": "Logeren bij de oppas"
+  },
+  "lib/facts.ts#41": {
+   "key": "insured",
+   "en": "Insured",
+   "es": "Seguro de responsabilidad civil",
+   "value": "Verzekerd"
+  },
+  "lib/facts.ts#42": {
+   "key": "meet_greet",
+   "en": "Meet before booking",
+   "es": "Encuentro previo a la reserva",
+   "value": "Kennismaking voor het boeken"
+  },
+  "lib/facts.ts#43": {
+   "key": "medication",
+   "en": "Gives medication",
+   "es": "Administra medicación",
+   "value": "Toediening van medicatie"
+  },
+  "lib/facts.ts#44": {
+   "key": "photo_updates",
+   "en": "Photo or video updates",
+   "es": "Fotos o vídeos durante la estancia",
+   "value": "Foto- of video-updates"
+  },
+  "lib/facts.ts#45": {
+   "key": "first_aid",
+   "en": "Pet first-aid trained",
+   "es": "Formación en primeros auxilios para mascotas",
+   "value": "Gediplomeerd in EHBO voor dieren"
+  },
+  "lib/facts.ts#46": {
+   "key": "delivery",
+   "en": "Delivery",
+   "es": "Envío a domicilio",
+   "value": "Bezorging aan huis"
+  },
+  "lib/facts.ts#47": {
+   "key": "vet_pharmacy",
+   "en": "Vet pharmacy",
+   "es": "Farmacia veterinaria",
+   "value": "Veterinaire apotheek"
+  },
+  "lib/facts.ts#48": {
+   "key": "grooming_corner",
+   "en": "Grooming on site",
+   "es": "Peluquería en la tienda",
+   "value": "Trimsalon in de winkel"
+  },
+  "lib/facts.ts#49": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "Pinnen mogelijk"
+  },
+  "lib/facts.ts#50": {
+   "key": "parking",
+   "en": "Parking",
+   "es": "Aparcamiento",
+   "value": "Parkeergelegenheid"
+  },
+  "lib/facts.ts#51": {
+   "key": "click_collect",
+   "en": "Order online, pick up in store",
+   "es": "Compra online, recogida en tienda",
+   "value": "Online bestellen, afhalen in de winkel"
+  },
+  "lib/facts.ts#52": {
+   "key": "raw_food",
+   "en": "Raw food (BARF)",
+   "es": "Alimentación cruda (BARF)",
+   "value": "Vers vlees (BARF / KVV)"
+  },
+  "lib/facts.ts#53": {
+   "key": "aquarium_fish",
+   "en": "Aquarium fish",
+   "es": "Acuariofilia",
+   "value": "Aquariumvissen"
+  },
+  "lib/facts.ts#54": {
+   "key": "exotic_supplies",
+   "en": "Supplies for exotic pets",
+   "es": "Artículos para animales exóticos",
+   "value": "Benodigdheden voor bijzondere dieren"
+  },
+  "lib/facts.ts#55": {
+   "key": "",
+   "en": "Do I need an appointment?",
+   "es": "¿Hace falta cita previa?",
+   "value": "Moet ik een afspraak maken?"
+  },
+  "lib/services.ts#1": {
+   "key": "full_groom",
+   "en": "Full grooming",
+   "es": "Peluquería completa",
+   "value": "Volledige trimbeurt"
+  },
+  "lib/services.ts#2": {
+   "key": "seo",
+   "en": "Dog grooming",
+   "es": "Peluquería canina completa",
+   "value": "Hond trimmen"
+  },
+  "lib/services.ts#3": {
+   "key": "bath_dry",
+   "en": "Bath & blow-dry",
+   "es": "Baño y secado",
+   "value": "Wassen & drogen"
+  },
+  "lib/services.ts#4": {
+   "key": "seo",
+   "en": "Dog bath and blow dry",
+   "es": "Baño y secado para perro",
+   "value": "Hond wassen en drogen"
+  },
+  "lib/services.ts#5": {
+   "key": "hand_stripping",
+   "en": "Hand stripping",
+   "es": "Stripping",
+   "value": "Plukken"
+  },
+  "lib/services.ts#6": {
+   "key": "seo",
+   "en": "Dog hand stripping",
+   "es": "Stripping para perro",
+   "value": "Hond plukken"
+  },
+  "lib/services.ts#7": {
+   "key": "deshedding",
+   "en": "De-shedding",
+   "es": "Deslanado",
+   "value": "Ontwollen"
+  },
+  "lib/services.ts#8": {
+   "key": "seo",
+   "en": "Dog deshedding",
+   "es": "Deslanado del perro (subpelo)",
+   "value": "Hond ontwollen"
+  },
+  "lib/services.ts#9": {
+   "key": "nail_trim",
+   "en": "Nail trim",
+   "es": "Corte de uñas",
+   "value": "Nagels knippen"
+  },
+  "lib/services.ts#10": {
+   "key": "seo",
+   "en": "Dog nail clipping",
+   "es": "Corte de uñas para perro",
+   "value": "Nagels knippen hond"
+  },
+  "lib/services.ts#11": {
+   "key": "cat_groom",
+   "en": "Cat grooming",
+   "es": "Peluquería felina",
+   "value": "Kat trimmen"
+  },
+  "lib/services.ts#12": {
+   "key": "seo",
+   "en": "Cat grooming",
+   "es": "Peluquería felina",
+   "value": "Kat trimmen"
+  },
+  "lib/services.ts#13": {
+   "key": "exam",
+   "en": "Check-up",
+   "es": "Consulta general",
+   "value": "Consult"
+  },
+  "lib/services.ts#14": {
+   "key": "seo",
+   "en": "Vet checkup",
+   "es": "Consulta veterinaria",
+   "value": "Consult bij de dierenarts"
+  },
+  "lib/services.ts#15": {
+   "key": "vaccination_dog",
+   "en": "Dog vaccination",
+   "es": "Vacunación perro",
+   "value": "Vaccinatie hond"
+  },
+  "lib/services.ts#16": {
+   "key": "seo",
+   "en": "Dog vaccination",
+   "es": "Vacuna para el perro",
+   "value": "Vaccinatie voor de hond"
+  },
+  "lib/services.ts#17": {
+   "key": "microchip",
+   "en": "Microchip",
+   "es": "Microchip",
+   "value": "Chippen"
+  },
+  "lib/services.ts#18": {
+   "key": "seo",
+   "en": "Dog microchipping",
+   "es": "Microchip para el perro",
+   "value": "Hond laten chippen"
+  },
+  "lib/services.ts#19": {
+   "key": "neuter_cat",
+   "en": "Cat neutering (male)",
+   "es": "Castración gato",
+   "value": "Castratie kater"
+  },
+  "lib/services.ts#20": {
+   "key": "seo",
+   "en": "Cat neutering",
+   "es": "Castración de gato (macho)",
+   "value": "Castratie van de kater"
+  },
+  "lib/services.ts#21": {
+   "key": "spay_cat",
+   "en": "Cat spaying (female)",
+   "es": "Esterilización gata",
+   "value": "Sterilisatie kat"
+  },
+  "lib/services.ts#22": {
+   "key": "seo",
+   "en": "Cat spaying",
+   "es": "Esterilización de la gata",
+   "value": "Sterilisatie van de kat"
+  },
+  "lib/services.ts#23": {
+   "key": "spay_dog",
+   "en": "Dog spaying (female)",
+   "es": "Esterilización perra",
+   "value": "Sterilisatie teef"
+  },
+  "lib/services.ts#24": {
+   "key": "seo",
+   "en": "Dog spaying",
+   "es": "Esterilización de la perra",
+   "value": "Sterilisatie van de teef"
+  },
+  "lib/services.ts#25": {
+   "key": "dog_night",
+   "en": "Dog, per night",
+   "es": "Perro, por noche",
+   "value": "Hond, per nacht"
+  },
+  "lib/services.ts#26": {
+   "key": "seo",
+   "en": "Dog hotel per night",
+   "es": "Residencia canina por noche",
+   "value": "Hondenpension per nacht"
+  },
+  "lib/services.ts#27": {
+   "key": "cat_night",
+   "en": "Cat, per night",
+   "es": "Gato, por noche",
+   "value": "Kat, per nacht"
+  },
+  "lib/services.ts#28": {
+   "key": "seo",
+   "en": "Cattery per night",
+   "es": "Residencia felina por noche",
+   "value": "Kattenpension per nacht"
+  },
+  "lib/services.ts#29": {
+   "key": "daycare_day",
+   "en": "Dog daycare, per day",
+   "es": "Guardería de día",
+   "value": "Dagopvang, per dag"
+  },
+  "lib/services.ts#30": {
+   "key": "seo",
+   "en": "Dog daycare per day",
+   "es": "Guardería canina por día",
+   "value": "Hondendagopvang per dag"
+  },
+  "lib/services.ts#31": {
+   "key": "daycare_pass",
+   "en": "Daycare pass",
+   "es": "Bono guardería",
+   "value": "Strippenkaart dagopvang"
+  },
+  "lib/services.ts#32": {
+   "key": "seo",
+   "en": "Dog daycare pass",
+   "es": "Bono guardería canina",
+   "value": "Strippenkaart dagopvang"
+  },
+  "lib/services.ts#33": {
+   "key": "pickup",
+   "en": "Pick-up & drop-off",
+   "es": "Taxi mascotas (traslado)",
+   "value": "Haal- en brengservice"
+  },
+  "lib/services.ts#34": {
+   "key": "seo",
+   "en": "Pet hotel pickup and drop off",
+   "es": "Taxi para mascotas y traslado",
+   "value": "Haal- en brengservice"
+  },
+  "lib/services.ts#35": {
+   "key": "extra_walk",
+   "en": "Extra walk / individual care",
+   "es": "Paseo extra",
+   "value": "Extra wandeling"
+  },
+  "lib/services.ts#36": {
+   "key": "seo",
+   "en": "Extra walk at a dog hotel",
+   "es": "Paseo extra en residencia",
+   "value": "Extra wandeling in pension"
+  },
+  "lib/services.ts#37": {
+   "key": "puppy_course",
+   "en": "Puppy course",
+   "es": "Curso cachorros",
+   "value": "Puppycursus"
+  },
+  "lib/services.ts#38": {
+   "key": "seo",
+   "en": "Puppy classes",
+   "es": "Curso para cachorros",
+   "value": "Puppycursus"
+  },
+  "lib/services.ts#39": {
+   "key": "obedience_course",
+   "en": "Basic obedience course",
+   "es": "Obediencia básica",
+   "value": "Basis gehoorzaamheid"
+  },
+  "lib/services.ts#40": {
+   "key": "seo",
+   "en": "Dog obedience training",
+   "es": "Curso de obediencia básica",
+   "value": "Gehoorzaamheidscursus"
+  },
+  "lib/services.ts#41": {
+   "key": "group_lesson",
+   "en": "Group lesson",
+   "es": "Clase grupal",
+   "value": "Groepsles"
+  },
+  "lib/services.ts#42": {
+   "key": "seo",
+   "en": "Group dog training class",
+   "es": "Clase grupal para perros",
+   "value": "Groepsles hondentraining"
+  },
+  "lib/services.ts#43": {
+   "key": "private_lesson",
+   "en": "Private lesson",
+   "es": "Clase individual",
+   "value": "Privéles"
+  },
+  "lib/services.ts#44": {
+   "key": "seo",
+   "en": "One to one dog training",
+   "es": "Clase individual de adiestramiento",
+   "value": "Privéles hondentraining"
+  },
+  "lib/services.ts#45": {
+   "key": "behavior_consult",
+   "en": "Behaviour consultation",
+   "es": "Consulta etología",
+   "value": "Gedragsconsult"
+  },
+  "lib/services.ts#46": {
+   "key": "seo",
+   "en": "Dog behaviourist consultation",
+   "es": "Consulta de etología canina",
+   "value": "Gedragsconsult voor honden"
+  },
+  "lib/services.ts#47": {
+   "key": "membership",
+   "en": "Club membership",
+   "es": "Cuota de socio",
+   "value": "Lidmaatschap club"
+  },
+  "lib/services.ts#48": {
+   "key": "seo",
+   "en": "Dog club membership",
+   "es": "Cuota de socio del club canino",
+   "value": "Lidmaatschap kynologenclub"
+  },
+  "lib/services.ts#49": {
+   "key": "walk_30",
+   "en": "Dog walk, 30 min",
+   "es": "Paseo 30 min",
+   "value": "Wandeling 30 min"
+  },
+  "lib/services.ts#50": {
+   "key": "seo",
+   "en": "30 minute dog walk",
+   "es": "Paseo de perro (30 minutos)",
+   "value": "Hond uitlaten (30 minuten)"
+  },
+  "lib/services.ts#51": {
+   "key": "walk_60",
+   "en": "Dog walk, 60 min",
+   "es": "Paseo 1 hora",
+   "value": "Wandeling 1 uur"
+  },
+  "lib/services.ts#52": {
+   "key": "seo",
+   "en": "1 hour dog walk",
+   "es": "Paseo de perro (1 hora)",
+   "value": "Hond uitlaten (1 uur)"
+  },
+  "lib/services.ts#53": {
+   "key": "cat_visit",
+   "en": "Cat visit",
+   "es": "Visita a gatos",
+   "value": "Kattenoppas aan huis"
+  },
+  "lib/services.ts#54": {
+   "key": "seo",
+   "en": "Cat sitting visit",
+   "es": "Visita a domicilio para gatos",
+   "value": "Kattenoppas aan huis"
+  },
+  "lib/services.ts#55": {
+   "key": "house_sitting_night",
+   "en": "Overnight at your home",
+   "es": "Cuidado en tu casa, noche",
+   "value": "Oppas bij u thuis, nacht"
+  },
+  "lib/services.ts#56": {
+   "key": "seo",
+   "en": "Overnight dog sitting",
+   "es": "Cuidado a domicilio (noche)",
+   "value": "Oppas aan huis (nacht)"
+  },
+  "lib/services.ts#57": {
+   "key": "boarding_night",
+   "en": "Overnight at sitter's home",
+   "es": "Alojamiento con cuidador",
+   "value": "Logeren bij de oppas"
+  },
+  "lib/services.ts#58": {
+   "key": "seo",
+   "en": "Overnight dog boarding",
+   "es": "Alojamiento con cuidador (noche)",
+   "value": "Logeren bij oppas (nacht)"
+  },
+  "lib/services.ts#59": {
+   "key": "daycare_day",
+   "en": "Day care",
+   "es": "Cuidado diurno",
+   "value": "Dagopvang bij oppas"
+  },
+  "lib/services.ts#60": {
+   "key": "seo",
+   "en": "Dog sitting per day",
+   "es": "Cuidado diurno para perros",
+   "value": "Dagopvang bij de oppas"
+  },
+  "lib/services.ts#61": {
+   "key": "",
+   "en": "Bath, haircut and nails",
+   "es": "Baño, corte y uñas",
+   "value": "Wassen, knippen en nagels"
+  },
+  "lib/services.ts#62": {
+   "key": "",
+   "en": "Whole procedure",
+   "es": "Procedimiento completo",
+   "value": "Volledige behandeling"
+  },
+  "lib/services.ts#63": {
+   "key": "",
+   "en": "Basic exam, no tests",
+   "es": "Consulta básica, sin pruebas",
+   "value": "Standaard consult, zonder onderzoek"
+  },
+  "lib/services.ts#64": {
+   "key": "",
+   "en": "Combined vaccine + rabies",
+   "es": "Vacuna combinada + rabia",
+   "value": "Cocktailenting + rabiës"
+  },
+  "lib/services.ts#65": {
+   "key": "",
+   "en": "Chip, implanting and registration",
+   "es": "Chip, implantación y registro",
+   "value": "Chip, inbrengen en registratie"
+  },
+  "lib/services.ts#66": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "Operatie + narcose"
+  },
+  "lib/services.ts#67": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "Operatie + narcose"
+  },
+  "lib/services.ts#68": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "Operatie + narcose"
+  },
+  "lib/services.ts#69": {
+   "key": "",
+   "en": "One way",
+   "es": "Solo ida",
+   "value": "Enkele reis"
+  },
+  "lib/priceSlugs.ts#1": {
+   "key": "",
+   "en": "prices",
+   "es": "precios",
+   "value": "tarieven"
+  },
+  "lib/priceSlugs.ts#2": {
+   "key": "full_groom",
+   "en": "full-grooming",
+   "es": "corte-de-pelo",
+   "value": "hond-trimmen"
+  },
+  "lib/priceSlugs.ts#3": {
+   "key": "bath_dry",
+   "en": "bath-and-blow-dry",
+   "es": "bano-y-secado",
+   "value": "wassen-en-drogen"
+  },
+  "lib/priceSlugs.ts#4": {
+   "key": "hand_stripping",
+   "en": "hand-stripping",
+   "es": "stripping",
+   "value": "plukken"
+  },
+  "lib/priceSlugs.ts#5": {
+   "key": "deshedding",
+   "en": "de-shedding",
+   "es": "deslanado",
+   "value": "ontwollen"
+  },
+  "lib/priceSlugs.ts#6": {
+   "key": "nail_trim",
+   "en": "nail-trim",
+   "es": "corte-de-unas",
+   "value": "nagels-knippen"
+  },
+  "lib/priceSlugs.ts#7": {
+   "key": "cat_groom",
+   "en": "cat-grooming",
+   "es": "peluqueria-felina",
+   "value": "kat-trimmen"
+  },
+  "lib/priceSlugs.ts#8": {
+   "key": "exam",
+   "en": "check-up",
+   "es": "consulta-veterinaria",
+   "value": "consult"
+  },
+  "lib/priceSlugs.ts#9": {
+   "key": "vaccination_dog",
+   "en": "dog-vaccination",
+   "es": "vacuna-perro",
+   "value": "vaccinatie-hond"
+  },
+  "lib/priceSlugs.ts#10": {
+   "key": "microchip",
+   "en": "microchip",
+   "es": "microchip-perro",
+   "value": "chippen-hond"
+  },
+  "lib/priceSlugs.ts#11": {
+   "key": "neuter_cat",
+   "en": "cat-neutering",
+   "es": "castracion-gato",
+   "value": "castratie-kater"
+  },
+  "lib/priceSlugs.ts#12": {
+   "key": "spay_cat",
+   "en": "cat-spaying",
+   "es": "esterilizacion-gata",
+   "value": "sterilisatie-kat"
+  },
+  "lib/priceSlugs.ts#13": {
+   "key": "spay_dog",
+   "en": "dog-spaying",
+   "es": "esterilizacion-perra",
+   "value": "sterilisatie-teef"
+  },
+  "lib/priceSlugs.ts#14": {
+   "key": "dog_night",
+   "en": "dog-per-night",
+   "es": "perro-noche",
+   "value": "hond-per-nacht"
+  },
+  "lib/priceSlugs.ts#15": {
+   "key": "cat_night",
+   "en": "cat-per-night",
+   "es": "gato-noche",
+   "value": "kat-per-nacht"
+  },
+  "lib/priceSlugs.ts#16": {
+   "key": "daycare_day",
+   "en": "dog-daycare",
+   "es": "guarderia-dia",
+   "value": "dagopvang-hond"
+  },
+  "lib/priceSlugs.ts#17": {
+   "key": "daycare_pass",
+   "en": "daycare-pass",
+   "es": "bono-guarderia",
+   "value": "strippenkaart-dagopvang"
+  },
+  "lib/priceSlugs.ts#18": {
+   "key": "pickup",
+   "en": "pick-up-and-drop-off",
+   "es": "taxi-mascotas",
+   "value": "haalservice-brengservice"
+  },
+  "lib/priceSlugs.ts#19": {
+   "key": "extra_walk",
+   "en": "extra-walk",
+   "es": "paseo-extra",
+   "value": "extra-wandeling"
+  },
+  "lib/priceSlugs.ts#20": {
+   "key": "puppy_course",
+   "en": "puppy-course",
+   "es": "curso-cachorros",
+   "value": "puppycursus"
+  },
+  "lib/priceSlugs.ts#21": {
+   "key": "obedience_course",
+   "en": "obedience-course",
+   "es": "curso-obediencia-basica",
+   "value": "gehoorzaamheidscursus"
+  },
+  "lib/priceSlugs.ts#22": {
+   "key": "group_lesson",
+   "en": "group-lesson",
+   "es": "clase-grupal",
+   "value": "groepsles"
+  },
+  "lib/priceSlugs.ts#23": {
+   "key": "private_lesson",
+   "en": "private-lesson",
+   "es": "clase-individual",
+   "value": "priveles"
+  },
+  "lib/priceSlugs.ts#24": {
+   "key": "behavior_consult",
+   "en": "behaviour-consultation",
+   "es": "consulta-etologia",
+   "value": "gedragstherapie"
+  },
+  "lib/priceSlugs.ts#25": {
+   "key": "membership",
+   "en": "club-membership",
+   "es": "cuota-club",
+   "value": "lidmaatschap-club"
+  },
+  "lib/priceSlugs.ts#26": {
+   "key": "PET_SITTING",
+   "en": "dog-walk-30-min",
+   "es": "paseo-30-min",
+   "value": "wandeling-30-min"
+  },
+  "lib/priceSlugs.ts#27": {
+   "key": "PET_SITTING",
+   "en": "dog-walk-60-min",
+   "es": "paseo-60-min",
+   "value": "wandeling-60-min"
+  },
+  "lib/priceSlugs.ts#28": {
+   "key": "cat_visit",
+   "en": "cat-visit",
+   "es": "visita-gatos",
+   "value": "kattenoppas-aan-huis"
+  },
+  "lib/priceSlugs.ts#29": {
+   "key": "house_sitting_night",
+   "en": "overnight-at-your-home",
+   "es": "cuidado-domicilio-noche",
+   "value": "oppas-aan-huis-nacht"
+  },
+  "lib/priceSlugs.ts#30": {
+   "key": "boarding_night",
+   "en": "overnight-at-sitters-home",
+   "es": "alojamiento-cuidador-noche",
+   "value": "opvang-bij-oppas-nacht"
+  },
+  "lib/priceSlugs.ts#31": {
+   "key": "daycare_day",
+   "en": "day-care",
+   "es": "cuidado-diurno",
+   "value": "dagopvang-oppas"
+  },
+  "lib/vet.ts#1": {
+   "key": "surgery",
+   "en": "Surgery",
+   "es": "Cirugía",
+   "value": "Chirurgie"
+  },
+  "lib/vet.ts#2": {
+   "key": "orthopedics",
+   "en": "Orthopaedics",
+   "es": "Traumatología",
+   "value": "Orthopedie"
+  },
+  "lib/vet.ts#3": {
+   "key": "dentistry",
+   "en": "Dentistry",
+   "es": "Odontología",
+   "value": "Tandheelkunde"
+  },
+  "lib/vet.ts#4": {
+   "key": "dermatology",
+   "en": "Dermatology",
+   "es": "Dermatología",
+   "value": "Dermatologie"
+  },
+  "lib/vet.ts#5": {
+   "key": "cardiology",
+   "en": "Cardiology",
+   "es": "Cardiología",
+   "value": "Cardiologie"
+  },
+  "lib/vet.ts#6": {
+   "key": "ophthalmology",
+   "en": "Ophthalmology",
+   "es": "Oftalmología",
+   "value": "Oogheelkunde"
+  },
+  "lib/vet.ts#7": {
+   "key": "oncology",
+   "en": "Oncology",
+   "es": "Oncología",
+   "value": "Oncologie"
+  },
+  "lib/vet.ts#8": {
+   "key": "neurology",
+   "en": "Neurology",
+   "es": "Neurología",
+   "value": "Neurologie"
+  },
+  "lib/vet.ts#9": {
+   "key": "\"internal-medicine\"",
+   "en": "Internal medicine",
+   "es": "Medicina interna",
+   "value": "Interne geneeskunde"
+  },
+  "lib/vet.ts#10": {
+   "key": "reproduction",
+   "en": "Reproduction",
+   "es": "Reproducción",
+   "value": "Voortplanting"
+  },
+  "lib/vet.ts#11": {
+   "key": "rehabilitation",
+   "en": "Rehabilitation",
+   "es": "Fisioterapia y rehabilitación",
+   "value": "Fysiotherapie en revalidatie"
+  },
+  "lib/vet.ts#12": {
+   "key": "exotics",
+   "en": "Exotic animals",
+   "es": "Animales exóticos",
+   "value": "Bijzondere dieren"
+  },
+  "lib/vet.ts#13": {
+   "key": "ultrasound",
+   "en": "Ultrasound",
+   "es": "Ecografía",
+   "value": "Echografie"
+  },
+  "lib/vet.ts#14": {
+   "key": "\"x-ray\"",
+   "en": "X-ray",
+   "es": "Radiografía",
+   "value": "Röntgen"
+  },
+  "lib/vet.ts#15": {
+   "key": "ct",
+   "en": "CT",
+   "es": "TAC",
+   "value": "CT-scan"
+  },
+  "lib/vet.ts#16": {
+   "key": "mri",
+   "en": "MRI",
+   "es": "Resonancia magnética",
+   "value": "MRI-scan"
+  },
+  "lib/vet.ts#17": {
+   "key": "endoscopy",
+   "en": "Endoscopy",
+   "es": "Endoscopia",
+   "value": "Endoscopie"
+  },
+  "lib/vet.ts#18": {
+   "key": "laboratory",
+   "en": "Laboratory",
+   "es": "Laboratorio",
+   "value": "Laboratorium"
+  },
+  "lib/vet.ts#19": {
+   "key": "hospitalization",
+   "en": "Hospitalisation",
+   "es": "Hospitalización",
+   "value": "Opname en verpleging"
+  },
+  "lib/attributePages.ts#1": {
+   "key": "nonstop",
+   "en": "nonstop",
+   "es": "urgencias",
+   "value": "spoed"
+  },
+  "lib/attributePages.ts#2": {
+   "key": "saturday",
+   "en": "open-saturday",
+   "es": "sabado",
+   "value": "zaterdag"
+  },
+  "lib/attributePages.ts#3": {
+   "key": "sunday",
+   "en": "open-sunday",
+   "es": "domingo",
+   "value": "zondag"
+  },
+  "lib/attributePages.ts#4": {
+   "key": "exotics",
+   "en": "exotic-animals",
+   "es": "exoticos",
+   "value": "exoten"
+  },
+  "lib/attributePages.ts#5": {
+   "key": "\"home-visits\"",
+   "en": "home-visits",
+   "es": "a-domicilio",
+   "value": "aan-huis"
+  },
+  "lib/attributePages.ts#6": {
+   "key": "english",
+   "en": "english-speaking",
+   "es": "ingles",
+   "value": "engels"
+  },
+  "lib/bestPages.ts#1": {
+   "key": "",
+   "en": "best",
+   "es": "mejores",
+   "value": "beste"
+  },
+  "lib/guides.ts#1": {
+   "key": "",
+   "en": "guides",
+   "es": "guias",
+   "value": "gidsen"
+  },
+  "lib/categories.ts#1": {
+   "key": "",
+   "en": "business",
+   "es": "centro",
+   "value": "bedrijf"
+  },
+  "lib/categories.ts#2": {
+   "key": "",
+   "en": "city",
+   "es": "ciudad",
+   "value": "stad"
+  }
+ },
+ "blocks": {
+  "lib/categories.ts@SLUGS": {
+   "en": "",
+   "es": "    GROOMING: \"peluqueria-canina\",\n    VET_CLINIC: \"veterinario\",\n    PET_HOTEL: \"residencia-canina\",\n    DOG_TRAINING: \"adiestramiento-canino\",\n    PET_SHOP: \"tienda-de-mascotas\",\n    PET_SITTING: \"cuidador-de-perros\",",
+   "value": "    GROOMING: \"trimsalon\",\n    VET_CLINIC: \"dierenarts\",\n    PET_HOTEL: \"dierenpension\",\n    DOG_TRAINING: \"hondenschool\",\n    PET_SHOP: \"dierenwinkel\",\n    PET_SITTING: \"hondenoppas\","
+  },
+  "lib/categories.ts@LABELS": {
+   "en": "",
+   "es": "    GROOMING: \"Peluquerías caninas\",\n    VET_CLINIC: \"Veterinarios\",\n    PET_HOTEL: \"Residencias caninas\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de mascotas\",\n    PET_SITTING: \"Cuidadores de perros\",",
+   "value": "    GROOMING: \"Trimsalons\",\n    VET_CLINIC: \"Dierenartsen\",\n    PET_HOTEL: \"Dierenpensions\",\n    DOG_TRAINING: \"Hondenscholen\",\n    PET_SHOP: \"Dierenwinkels\",\n    PET_SITTING: \"Hondenoppas\","
+  },
+  "lib/categories.ts@SINGULAR": {
+   "en": "",
+   "es": "    GROOMING: \"peluquería canina\",\n    VET_CLINIC: \"clínica veterinaria\",\n    PET_HOTEL: \"residencia canina\",\n    DOG_TRAINING: \"adiestrador canino\",\n    PET_SHOP: \"tienda de mascotas\",\n    PET_SITTING: \"cuidador de perros\",",
+   "value": "    GROOMING: \"trimsalon\",\n    VET_CLINIC: \"dierenarts\",\n    PET_HOTEL: \"dierenpension\",\n    DOG_TRAINING: \"hondenschool\",\n    PET_SHOP: \"dierenwinkel\",\n    PET_SITTING: \"hondenoppas\","
+  },
+  "lib/categories.ts@PLURAL": {
+   "en": "    GROOMING: \"grooming salons\",\n    VET_CLINIC: \"vet clinics\",\n    PET_HOTEL: \"pet hotels\",\n    DOG_TRAINING: \"dog trainers\",\n    PET_SHOP: \"pet shops\",\n    PET_SITTING: \"pet sitters\",",
+   "es": "    GROOMING: \"peluquerías caninas\",\n    VET_CLINIC: \"veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"residencias caninas\",\n    DOG_TRAINING: \"adiestradores y escuelas caninas\",\n    PET_SHOP: \"tiendas de mascotas\",\n    PET_SITTING: \"cuidadores de perros\",",
+   "value": "    GROOMING: \"trimsalons\",\n    VET_CLINIC: \"dierenartsen en dierenklinieken\",\n    PET_HOTEL: \"dierenpensions en hondenhotels\",\n    DOG_TRAINING: \"hondenscholen en hondentrainers\",\n    PET_SHOP: \"dierenwinkels en dierenspeciaalzaken\",\n    PET_SITTING: \"hondenoppassers en uitlaatservices\","
+  },
+  "lib/categories.ts@SEO_TITLE": {
+   "en": "    GROOMING: \"Dog Grooming & Groomers\",\n    VET_CLINIC: \"Vets & Veterinary Clinics\",\n    PET_HOTEL: \"Dog Hotels & Pet Boarding\",\n    DOG_TRAINING: \"Dog Training & Puppy Classes\",\n    PET_SHOP: \"Pet Shops\",\n    PET_SITTING: \"Dog Sitters & Dog Walkers\",",
+   "es": "    GROOMING: \"Peluquería canina y lavado de perros\",\n    VET_CLINIC: \"Veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"Residencias caninas y guarderías de día\",\n    DOG_TRAINING: \"Adiestramiento canino y educadores\",\n    PET_SHOP: \"Tiendas de animales y productos para mascotas\",\n    PET_SITTING: \"Cuidadores de perros y paseadores\",",
+   "value": "    GROOMING: \"Trimsalons en honden trimmen\",\n    VET_CLINIC: \"Dierenartsen en dierenklinieken\",\n    PET_HOTEL: \"Dierenpensions en hondenhotels\",\n    DOG_TRAINING: \"Hondenscholen en hondentraining\",\n    PET_SHOP: \"Dierenwinkels en dierenspeciaalzaken\",\n    PET_SITTING: \"Hondenoppas en hondenuitlaatservice\","
+  },
+  "lib/categories.ts@PRICES_NAME": {
+   "en": "    GROOMING: \"Dog grooming prices\",\n    VET_CLINIC: \"Vet prices & clinic fees\",\n    PET_HOTEL: \"Dog hotel & boarding prices\",\n    DOG_TRAINING: \"Dog training prices\",\n    PET_SHOP: \"Pet shop prices\",\n    PET_SITTING: \"Dog sitting & walking prices\",",
+   "es": "    GROOMING: \"Peluquería canina\",\n    VET_CLINIC: \"Precios veterinario\",\n    PET_HOTEL: \"Residencia canina\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de animales\",\n    PET_SITTING: \"Cuidador de perros\",",
+   "value": "    GROOMING: \"Trimsalon\",\n    VET_CLINIC: \"Dierenarts\",\n    PET_HOTEL: \"Dierenpension\",\n    DOG_TRAINING: \"Hondenschool\",\n    PET_SHOP: \"Dierenwinkel\",\n    PET_SITTING: \"Hondenoppas\","
+  },
+  "lib/categories.ts@BLURBS": {
+   "en": "    GROOMING: CATEGORY_THEME.GROOMING.blurb,\n    VET_CLINIC: CATEGORY_THEME.VET_CLINIC.blurb,\n    PET_HOTEL: CATEGORY_THEME.PET_HOTEL.blurb,\n    DOG_TRAINING: CATEGORY_THEME.DOG_TRAINING.blurb,\n    PET_SHOP: CATEGORY_THEME.PET_SHOP.blurb,\n    PET_SITTING: CATEGORY_THEME.PET_SITTING.blurb,",
+   "es": "    GROOMING: \"Baño, corte, stripping y cuidado de uñas\",\n    VET_CLINIC: \"Consultas, vacunas y urgencias\",\n    PET_HOTEL: \"Una estancia segura mientras estás fuera\",\n    DOG_TRAINING: \"Clases para cachorros, obediencia básica y conducta\",\n    PET_SHOP: \"Comida, juguetes y accesorios de cada día\",\n    PET_SITTING: \"Paseos, visitas y cuidado en casa\",",
+   "value": "    GROOMING: \"Wassen, knippen, plukken en nagelverzorging\",\n    VET_CLINIC: \"Consulten, vaccinaties en spoedzorg\",\n    PET_HOTEL: \"Veilig verblijf terwijl u op reis bent\",\n    DOG_TRAINING: \"Puppycursus, gehoorzaamheid en gedrag\",\n    PET_SHOP: \"Voeding, speelgoed en dagelijkse benodigdheden\",\n    PET_SITTING: \"Wandelingen, bezoeken en opvang aan huis\","
+  },
+  "lib/categories.ts@PLACE_TERM": {
+   "en": "    VET_CLINIC: { term: \"vet\", word: /^(vet|vets|veterinary)$/ },\n    GROOMING: { term: \"dog grooming\", word: /^groom/ },\n    PET_HOTEL: { term: \"pet hotel\", word: /^hotel/ },\n    DOG_TRAINING: { term: \"dog training\", word: /^train/ },\n    PET_SHOP: { term: \"pet shop\", word: /^shop/ },\n    PET_SITTING: { term: \"pet sitter\", word: /^sitt/ },",
+   "es": "    VET_CLINIC: { term: \"veterinario\", word: /^(veterinari|clinica|clínica|centro|hospital)/ },\n    GROOMING: { term: \"peluquería canina\", word: /^(peluquer|grooming|estética|estetica)/ },\n    PET_HOTEL: { term: \"residencia canina\", word: /^(residencia|hotel|guarder)/ },\n    DOG_TRAINING: { term: \"adiestramiento canino\", word: /^(adiestr|escuela|club|centro|educador)/ },\n    PET_SHOP: { term: \"tienda de mascotas\", word: /^(tienda|pet|zoo)/ },\n    PET_SITTING: { term: \"cuidador de perros\", word: /^(cuidador|paseador|dog|pet)/ },",
+   "value": "    VET_CLINIC: { term: \"dierenarts\", word: /^(dierenarts|dierenkliniek|dierenartsenpraktijk|dierenziekenhuis)/ },\n    GROOMING: { term: \"trimsalon\", word: /^(trimsalon|hondentrimsalon|katten[\\s-]?trimsalon|trimmerij)/ },\n    PET_HOTEL: { term: \"dierenpension\", word: /^(dierenpension|hondenpension|kattenpension|dierenhotel|hondenhotel)/ },\n    DOG_TRAINING: { term: \"hondenschool\", word: /^(hondenschool|hondentrain|kynolog)/ },\n    PET_SHOP: { term: \"dierenwinkel\", word: /^(dierenwinkel|dierenspeciaalzaak|pets\\s?place|discus|jumper)/ },\n    PET_SITTING: { term: \"hondenoppas\", word: /^(hondenoppas|dierenoppas|kattenoppas|hondenuitlaat|pet|dog)/ },"
+  },
+  "lib/bestPages.ts@BEST_NAME": {
+   "en": "    GROOMING: \"Best dog groomers\",\n    VET_CLINIC: \"Best vets\",\n    PET_HOTEL: \"Best dog hotels\",\n    DOG_TRAINING: \"Best dog trainers\",\n    PET_SHOP: \"Best pet shops\",\n    PET_SITTING: \"Best dog walkers and sitters\",",
+   "es": "    GROOMING: \"Las mejores peluquerías caninas\",\n    VET_CLINIC: \"Los mejores veterinarios\",\n    PET_HOTEL: \"Las mejores residencias caninas\",\n    DOG_TRAINING: \"Los mejores adiestradores caninos\",\n    PET_SHOP: \"Las mejores tiendas de mascotas\",\n    PET_SITTING: \"Los mejores cuidadores de perros\",",
+   "value": "    GROOMING: \"Beste trimsalons\",\n    VET_CLINIC: \"Beste dierenartsen\",\n    PET_HOTEL: \"Beste dierenpensions\",\n    DOG_TRAINING: \"Beste hondenscholen\",\n    PET_SHOP: \"Beste dierenwinkels\",\n    PET_SITTING: \"Beste hondenoppassers en uitlaatservices\","
+  },
+  "lib/bestPages.ts@BEST_TEXT": {
+   "en": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `The ${n} highest-rated places ${where}, ranked by Google rating and number of reviews, with what customers praise in each.`,\n    lead: (n) =>\n      `The ${n} places with the best Google ratings, weighed by how many people rated them. Under each: what customers praise most, from our summary of recent reviews.`,\n    praised: \"What customers praise\",\n    mention: \"Some mention\",\n    reviewsSummarised: (n) => `from ${n} recent ${n === 1 ? \"review\" : \"reviews\"}`,\n    howTitle: \"How we ranked\",\n    how: (min, date) =>\n      `By Google rating, weighed by the number of ratings: a 4.9 from 15 people ranks below a 4.8 from 400. Only places with at least ${min} ratings. Ratings checked ${date}. No place pays to be on this list.`,\n    allPlaces: \"All places\",\n    chip: \"Best rated\",\n    rank: (n) => `No. ${n}`,",
+   "es": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `Los ${n} negocios mejor valorados ${where}, según la nota en Google y el número de reseñas, y lo que más aprecian los clientes.`,\n    lead: (n) =>\n      `Los ${n} negocios mejor valorados en Google, ponderados por el número de reseñas. De cada uno: lo que más valoran los clientes, según nuestro resumen de las reseñas recientes.`,\n    praised: \"Lo que más valoran los clientes\",\n    mention: \"Algunos señalan\",\n    reviewsSummarised: (n) => `a partir de ${n} reseñas recientes`,\n    howTitle: \"Cómo hemos elaborado la clasificación\",\n    how: (min, date) =>\n      `Según la nota en Google, ponderada por el número de reseñas: un 4,9 con 15 reseñas vale menos que un 4,8 con 400. Solo cuentan los negocios con al menos ${min} reseñas. Notas comprobadas el ${date}. Nadie paga por aparecer en esta clasificación.`,\n    allPlaces: \"Todos los negocios\",\n    chip: \"Los más valorados\",\n    rank: (n) => `${n}º`,",
+   "value": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `De ${n} best beoordeelde bedrijven ${where}, gerangschikt op Google-score en aantal beoordelingen – en waar klanten het meest tevreden over zijn.`,\n    lead: (n) =>\n      `De ${n} bedrijven met de beste Google-scores, gewogen naar het aantal beoordelingen. Bij elk bedrijf: wat klanten het meest waarderen, uit onze samenvatting van recente recensies.`,\n    praised: \"Wat klanten waarderen\",\n    mention: \"Sommigen noemen\",\n    reviewsSummarised: (n) => `op basis van ${n} recente ${n === 1 ? \"recensie\" : \"recensies\"}`,\n    howTitle: \"Hoe we de ranglijst hebben samengesteld\",\n    how: (min, date) =>\n      `Op basis van de Google-score, gewogen naar het aantal beoordelingen: een 4,9 van 15 personen staat lager dan een 4,8 van 400. Alleen bedrijven met minimaal ${min} beoordelingen. Beoordelingen gecontroleerd op ${date}. Niemand betaalt voor een plek op deze lijst.`,\n    allPlaces: \"Alle bedrijven\",\n    chip: \"Best beoordeeld\",\n    rank: (n) => `Nr. ${n}`,"
+  },
+  "lib/guides.ts@GUIDE_TEXT": {
+   "en": "    hubTitle: \"Guides for pet owners | Pawenn\",\n    hubH1: \"Guides for pet owners\",\n    hubIntro: \"Rules, deadlines and prices that pet owners ask about - each fact with its official source.\",\n    sources: \"Sources\",\n    updated: \"Updated\",\n    related: \"Good to know\",\n    home: \"Home\",\n    priceLine: (median, range, places) => `average ${median}, ${range} (${places} ${places === 1 ? \"place\" : \"places\"})`,\n    pricesLink: \"All prices\",\n    nav: \"Guides\",",
+   "es": "    hubTitle: \"Guías para dueños de mascotas | Pawenn\",\n    hubH1: \"Guías para dueños de mascotas\",\n    hubIntro: \"Normas, plazos y precios sobre los que preguntan los dueños de mascotas: cada dato con su fuente oficial.\",\n    sources: \"Fuentes\",\n    updated: \"Actualizado\",\n    related: \"Conviene saber\",\n    home: \"Inicio\",\n    priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? \"negocio\" : \"negocios\"})`,\n    pricesLink: \"Todos los precios\",\n    nav: \"Guías\",",
+   "value": "    hubTitle: \"Gidsen voor huisdiereigenaren | Pawenn\",\n    hubH1: \"Gidsen voor huisdiereigenaren\",\n    hubIntro: \"Regels, termijnen en prijzen waar huisdiereigenaren naar vragen: elk feit met een officiële bron.\",\n    sources: \"Bronnen\",\n    updated: \"Bijgewerkt\",\n    related: \"Goed om te weten\",\n    home: \"Home\",\n    priceLine: (median, range, places) => `gemiddeld ${median}, ${range} (${places} ${places === 1 ? \"bedrijf\" : \"bedrijven\"})`,\n    pricesLink: \"Alle tarieven\",\n    nav: \"Gidsen\","
+  }
+ }
+}

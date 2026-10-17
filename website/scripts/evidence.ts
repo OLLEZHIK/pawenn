@@ -114,6 +114,11 @@ const LANGUAGE_WORDS: Record<string, RegExp> = {
   es: /španiel|hiszpańsk|spanish|español|spanisch|🇪🇸/i,
   fr: /francúz|francusk|french|français|französisch|🇫🇷/i,
   it: /talian|włosk|italian|italiano|italienisch|🇮🇹/i,
+  nl: /nederlands|dutch|holandsk|niederländisch|néerlandais|olandese|neerlandés|🇳🇱/i,
+  pt: /portugu[eê]s|portuguese|portugalsk|portugiesisch|portugais|portoghese|🇵🇹/i,
+  fi: /suomi|finnish|fínsk|finsk|finnisch|finnois|finlandese|finlandés|🇫🇮/i,
+  no: /norsk|norwegian|nórsk|norweg|norwegisch|norvégien|norvegese|noruego|🇳🇴/i,
+  ja: /日本語|japanese|japonsk|japoński|japanisch|japonais|giapponese|japonés|🇯🇵/i,
 };
 
 const NONSTOP_WORDS = /24\s*\/\s*7|24\s*h|24\s*hod|nonstop|non-stop|nepretržit|całodob|całą dobę|round the clock|24 hours/i;

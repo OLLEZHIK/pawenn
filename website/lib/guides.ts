@@ -28,7 +28,7 @@ import type { BusinessCategory } from "@prisma/client";
 import type { Locale } from "./i18n";
 import { plural } from "./locales";
 
-export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide", es: "guias" };
+export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide", es: "guias", nl: "gidsen", fi: "oppaat", hu: "utmutatok", ja: "gaido" };
 
 export const GUIDE_TEXT: Record<
   Locale,
@@ -80,6 +80,54 @@ export const GUIDE_TEXT: Record<
     priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? "negocio" : "negocios"})`,
     pricesLink: "Todos los precios",
     nav: "Guías",
+  },
+  nl: {
+    hubTitle: "Gidsen voor huisdiereigenaren | Pawenn",
+    hubH1: "Gidsen voor huisdiereigenaren",
+    hubIntro: "Regels, termijnen en prijzen waar huisdiereigenaren naar vragen: elk feit met een officiële bron.",
+    sources: "Bronnen",
+    updated: "Bijgewerkt",
+    related: "Goed om te weten",
+    home: "Home",
+    priceLine: (median, range, places) => `gemiddeld ${median}, ${range} (${places} ${places === 1 ? "bedrijf" : "bedrijven"})`,
+    pricesLink: "Alle tarieven",
+    nav: "Gidsen",
+  },
+  fi: {
+    hubTitle: "Oppaat lemmikinomistajille | Pawenn",
+    hubH1: "Oppaat lemmikinomistajille",
+    hubIntro: "Säännöt, määräajat ja hinnat, joita lemmikinomistajat etsivät – jokainen tieto virallisella lähteellä.",
+    sources: "Lähteet",
+    updated: "Päivitetty",
+    related: "Hyvä tietää",
+    home: "Etusivu",
+    priceLine: (median, range, places) => `keskiarvo ${median}, ${range} (${places} ${places === 1 ? "paikka" : "paikkaa"})`,
+    pricesLink: "Kaikki hinnat",
+    nav: "Oppaat",
+  },
+  hu: {
+    hubTitle: "Útmutatók gazdiknak | Pawenn",
+    hubH1: "Útmutatók gazdiknak",
+    hubIntro: "Szabályok, határidők és árak, amelyekről a gazdik kérdeznek: minden adat hivatalos forrásból.",
+    sources: "Források",
+    updated: "Frissítve",
+    related: "Érdemes tudni",
+    home: "Főoldal",
+    priceLine: (median, range, places) => `átlag ${median}, ${range} (${places} hely)`,
+    pricesLink: "Minden ár",
+    nav: "Útmutatók",
+  },
+  ja: {
+    hubTitle: "飼い主のためのガイド・役立ち情報 | Pawenn",
+    hubH1: "ペットの飼い主のためのガイド",
+    hubIntro: "ペットとの暮らしに必要なルール、手続きの期限、各種料金の相場など、飼い主の疑問に公式の出典とともにわかりやすくお答えします。",
+    sources: "情報出典・参考資料",
+    updated: "最終更新日",
+    related: "知っておきたい豆知識",
+    home: "ホーム",
+    priceLine: (median, range, places) => `平均 ${median}、範囲 ${range}（${places}施設）`,
+    pricesLink: "すべての料金を見る",
+    nav: "ガイド",
   },
   sk: {
     hubTitle: "Poradňa pre majiteľov zvierat | Pawenn",
