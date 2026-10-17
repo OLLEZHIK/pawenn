@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "hyndland-street-veterinary-surgery",
+    "the-veterinary-centre-glasgow",
+    "scotvet-sandyhills",
+    "pets-n-vets-in-glasgow-the-roundhouse-veterinary-hospital",
+    "beechwood-veterinary-centre",
+    "pets-n-vets-in-queen-margaret-drive-mcdonald-vets",
+    "bishopbriggs-vets-bishopbriggs",
+    "pets-n-vets-scotstoun-mcdonald-vets",
+    "scotvet-baillieston",
+    "vets-for-pets-pollokshaws"
+  ],
+  "hash": "fd799b6e3ec3a0914cad2db2e41242ef12f584c3b0f56ebbe59deaa361c949c6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T09:28:01.016Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-16T09:37:35.730Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

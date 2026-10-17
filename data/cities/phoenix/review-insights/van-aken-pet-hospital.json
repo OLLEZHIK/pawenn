@@ -1,0 +1,133 @@
+{
+  "slug": "van-aken-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Van+Aken+Pet+Hospital/data=!4m7!3m6!1s0x872b1360073c721d:0x22437e0159fd74e8!8m2!3d33.4947891!4d-112.1425476!16s%2Fg%2F1tdk5n3p!19sChIJHXI8B2ATK4cR6HT9WQF-QyI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed experiences with veterinary staff"
+      },
+      "text": {
+        "en": "Clients express differing views regarding the clinic team. Several pet owners praise Dr. Johnson for her caring demeanour and thorough surgical care, highlighting long-standing trust. However, other reviewers criticise front desk attitude and communication, describing frustrating interactions when trying to book care or resolve payment disputes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns regarding telephone and billing communication"
+      },
+      "text": {
+        "en": "Reviewers report noticeable communication issues with the front office. Multiple clients mention curt or unhelpful telephone responses when inquiring about appointment availability, as well as misunderstandings concerning billing and fee arrangements, leaving owners advising others to confirm charges beforehand."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Care and handling for household pets"
+      },
+      "text": {
+        "en": "Pet owners share mixed perspectives regarding their pets' treatment. While several clients praise the staff for gentle, trust-building handling before examinations and surgeries, another reviewer felt uncomfortable continuing care here following administrative disputes, reflecting varying comfort levels."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pets undergo surgical and dental procedures here?"
+      },
+      "a": {
+        "en": "Yes, clients mention successful dental cleanings and surgical procedures performed by Dr. Johnson."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly can pet owners schedule an appointment?"
+      },
+      "a": {
+        "en": "Some reviewers report difficulty booking prompt appointments, noting booking delays of one to two weeks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Van Aken Pet Hospital handle pet cremation services?"
+      },
+      "a": {
+        "en": "Yes, pet owners note that the hospital assists with end-of-life care and cremation arrangements."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How transparent are the clinic fees?"
+      },
+      "a": {
+        "en": "Opinions vary; while one client called the clinic affordable, another owner strongly advised getting all pricing in writing."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

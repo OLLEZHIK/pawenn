@@ -1,0 +1,150 @@
+{
+  "slug": "churchill-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Churchill+Veterinary+Hospital/data=!4m7!3m6!1s0x865c604715c6218f:0x225c421a872679d9!8m2!3d29.5466901!4d-98.5077476!16s%2Fg%2F1tp27pym!19sChIJjyHGFUdgXIYR2XkmhxpCXCI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Caring and long-standing veterinary doctor"
+      },
+      "text": {
+        "en": "Most clients express deep appreciation for Dr. Mauldin and his team, praising their compassionate approach, personal dedication, and willingness to explain treatments. Pet owners value that the veterinarian avoids pushing unnecessary procedures. However, one client felt let down by a perceived lack of sympathy and poor communication following a pet's passing."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Fair fees alongside service costs"
+      },
+      "text": {
+        "en": "Several reviewers emphasize that the clinic maintains reasonable, honest pricing, focusing on animal health rather than generating profit. Clients appreciate that routine check-ups and medications remain affordable. In contrast, one reviewer was disappointed by unexpected fee markups on outsourced cremation arrangements, advising clear quotes for end-of-life care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable examinations and treatment care"
+      },
+      "text": {
+        "en": "Pet owners report positive results for sick animal treatments and routine wellness exams, noting that pets receive thoughtful medical care. Long-time clients trust the clinic for prompt diagnoses and dependable interventions when unexpected illnesses arise. Reviewers feel confident in the doctor's seasoned clinical judgement."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Churchill Veterinary Hospital accommodate same-day appointments?"
+      },
+      "a": {
+        "en": "Yes, clients report that the clinic has accommodated urgent same-day appointments when pets are sick."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary fees considered affordable here?"
+      },
+      "a": {
+        "en": "Most pet owners praise the clinic for reasonable pricing and avoiding unnecessary tests, though end-of-life service fees vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital have in-house diagnostics and radiology?"
+      },
+      "a": {
+        "en": "Yes, the facility provides diagnostic testing, radiology, and soft-tissue surgical procedures."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is Saturday veterinary care available?"
+      },
+      "a": {
+        "en": "Yes, the clinic is open on Saturday mornings from 08:00 to 12:00 for appointments."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

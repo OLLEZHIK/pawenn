@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { LOCALES, getDictionary, isLocale } from "@/lib/i18n";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { ScrollReset } from "@/components/ScrollReset";
-import { gaMeasurementId } from "@/lib/analytics";
+import { clarityProjectId, gaMeasurementId } from "@/lib/analytics";
 
 const bodyFont = Inter({
   subsets: ["latin", "latin-ext"],
@@ -54,6 +54,7 @@ export default async function RootLayout({
         {gaId && (
           <GoogleAnalytics
             id={gaId}
+            clarityId={clarityProjectId()}
             text={t.consent.text}
             allow={t.consent.allow}
             decline={t.consent.decline}

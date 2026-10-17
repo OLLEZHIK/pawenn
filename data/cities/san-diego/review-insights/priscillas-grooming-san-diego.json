@@ -1,0 +1,130 @@
+{
+  "slug": "priscillas-grooming-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Priscilla%27s+Grooming/data=!4m7!3m6!1s0x80d9561934812669:0xd8eb7fcc6c7f0da8!8m2!3d32.8165774!4d-117.0601542!16s%2Fg%2F1tf7mvs3!19sChIJaSaBNBlW2YARqA1_bMx_69g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming and considerate grooming staff"
+      },
+      "text": {
+        "en": "Pet owners appreciate the warm customer care and attentive communication provided at this salon on Mission Gorge Road. Clients highlight that the staff treats companion animals with affection and creates an inviting environment for both puppies and returning adult dogs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Neat haircuts alongside styling concerns"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the overall appearance of their pets after styling, noting soft coats and charming puppy cuts. However, feedback is mixed, as one client reported a choppy finish on a basic trim and expressed frustration with unexpected pricing tiers beyond the online estimates."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle approach for young pets"
+      },
+      "text": {
+        "en": "Owners emphasize the affectionate and relaxed handling that dogs receive during their grooming sessions. Clients remark that their pets feel at ease inside the salon, with first-time puppies settling comfortably and showing excitement rather than anxiety upon arrival."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can puppies receive their first professional groom here?"
+      },
+      "a": {
+        "en": "Yes, clients report positive first-time experiences for young puppies, noting gentle handling throughout the appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the salon cage-free?"
+      },
+      "a": {
+        "en": "Yes, the salon operates as a cage-free grooming space designed to keep dogs relaxed during their visit."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How are grooming rates determined?"
+      },
+      "a": {
+        "en": "While base rates vary by dog size, clients note that final pricing may differ depending on coat condition and specific styling requests."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are Saturday grooming appointments available?"
+      },
+      "a": {
+        "en": "Yes, the salon operates on Saturdays from 9:00 to 15:00 alongside weekday opening hours."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}

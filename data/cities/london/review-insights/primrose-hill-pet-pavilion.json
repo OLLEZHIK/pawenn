@@ -1,0 +1,140 @@
+{
+  "slug": "primrose-hill-pet-pavilion",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Primrose+Hill+Pet+Pavilion/data=!4m7!3m6!1s0x48761ae949eee111:0xaf8a693191f06254!8m2!3d51.5407528!4d-0.1573059!16s%2Fg%2F1td0mhw0!19sChIJEeHuSekadkgRVGLwkTFpiq8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback regarding customer service"
+      },
+      "text": {
+        "en": "Several pet owners praise individual groomers like Stephen for their polite manners, skillful styling, and warm approach towards pets. However, another client reported an unhelpful and defensive response from management when querying a missed booking. Reviewers note that while styling staff are skilled, management interactions have drawn criticism."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Neat trims and coat styling"
+      },
+      "text": {
+        "en": "Clients frequently express satisfaction with dog grooming results, praising thorough trims, clean styling, and attentive coat detailing. Pet owners note that groomers followed specific instructions carefully, such as shortening coats for warm weather while retaining traditional feathering. Reviewers report that dogs left the salon looking well groomed."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns over scheduling and communication"
+      },
+      "text": {
+        "en": "Reviewers raise serious concerns regarding booking reliability and front-of-house communication. Disappointed clients cite appointments being lost without explanation or abruptly cancelled just thirty minutes before the scheduled time with no alternatives offered. Pet owners report that handling of scheduling errors felt defensive and unaccommodating."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What services are offered at Primrose Hill Pet Pavilion?"
+      },
+      "a": {
+        "en": "The boutique provides dog and cat grooming alongside a curated selection of premium pet foods, accessories, and pet care supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can specific styling cuts be requested for dogs?"
+      },
+      "a": {
+        "en": "Yes, clients highlight that groomers consult with owners on styling preferences, accommodating specific trim lengths and breed-specific styles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What issues have reviewers reported with bookings?"
+      },
+      "a": {
+        "en": "Some clients reported appointment mix-ups or last-minute cancellations, advising pet owners to confirm grooming bookings in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers rate the individual grooming stylists?"
+      },
+      "a": {
+        "en": "Clients praise the gentle handling and attention to detail shown by individual groomers when styling dogs' coats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "vets-for-pets-glasgow-forge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vets+for+Pets+-+Glasgow+Forge/data=!4m7!3m6!1s0x488841507bb313b7:0xb772e1e69f52a973!8m2!3d55.855312!4d-4.2068267!16s%2Fg%2F11b7fcx4x_!19sChIJtxOze1BBiEgRc6lSn-bhcrc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Supportive and understanding clinical team"
+      },
+      "text": {
+        "en": "Reviewers warmly commend the clinic staff for their kindness, dedication, and clinical expertise. Pet owners particularly praise specific veterinarians and reception staff for their respectful guidance and emotional support during difficult end-of-life consultations and complex treatments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for beloved pets"
+      },
+      "text": {
+        "en": "Many clients highlight the exceptional care shown toward their dogs and cats, including elderly pets and temperamental dogs. Owners emphasize that veterinary surgeons put animals at ease, treating pets with sincere affection and patience throughout examinations and hospital stays."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Generally thorough clinical communication"
+      },
+      "text": {
+        "en": "Most pet owners appreciate receiving regular updates from vets during patient admissions and find staff explanations helpful. However, one reviewer noted a lack of sensitivity at reception when collecting their pet's ashes, suggesting that handover protocols could be handled with greater privacy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the practice support owners during end-of-life care?"
+      },
+      "a": {
+        "en": "Clients praise the veterinary team for their compassion and respect during euthanasia, noting that staff provide private rooms and dedicated time to say goodbye."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic manage temperamental or anxious animals?"
+      },
+      "a": {
+        "en": "Yes, long-term clients report that veterinary surgeons handle difficult or nervous dogs with patience, maintaining calm handling throughout consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are clients kept informed when a pet is admitted?"
+      },
+      "a": {
+        "en": "Reviewers appreciate frequent telephone updates from veterinary staff during day admissions, keeping owners reassured while their pets undergo procedures."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "animals": "+",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

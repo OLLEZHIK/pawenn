@@ -1,0 +1,133 @@
+{
+  "slug": "grooming-center-roma",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Grooming+Center+Roma/data=!4m7!3m6!1s0x132f624911841531:0x17245912e0b5a1f4!8m2!3d41.8934526!4d12.5564597!16s%2Fg%2F11cn3ph15p!19sChIJMRWEEUliLxMR9KG14BJZJBc?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Esperienza pluriennale e pareri contrastanti",
+        "en": "Longstanding salon experience with contrasting feedback"
+      },
+      "text": {
+        "it": "La titolare Anna e il suo staff raccolgono la fedeltà di clienti storici a Roma Prenestino, che evidenziano disponibilità, gentilezza e una consolidata familiarità con il mestiere. Tuttavia, una recensione recente critica duramente l'operato del salone, lamentando una gestione poco attenta e rimedi ritenuti inadeguati di fronte a tagli accidentali.",
+        "en": "Salon owner Anna and her team enjoy the loyalty of longstanding clients in Rome's Prenestino area, who highlight their friendliness, helpful demeanor, and years of experience. However, a recent review sharply criticizes the salon's handling, reporting inattention and remedies deemed inadequate when addressing accidental grooming nicks."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "it": "Bagni regolari ed esiti della tosa",
+        "en": "Routine washes and trimming outcomes"
+      },
+      "text": {
+        "it": "I clienti che frequentano regolarmente il centro si dicono pienamente soddisfatti della pulizia generale e della cura del mantello, riportando esperienze positive nel tempo. Al contrario, un'esperienza isolata segnala piccole escoriazioni provocate dalla tosatrice, che hanno richiesto l'uso di collare elisabettiano e pomate lenitive per guarire.",
+        "en": "Clients who frequent the facility regularly report high satisfaction with thorough coat washing and general hygiene, noting reliable outcomes over the years. In contrast, one isolated account describes small clipper abrasions that required soothing ointments and the use of an Elizabethan collar to prevent inflammation following the session."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "it": "Gestione di cani grandi e sensibili",
+        "en": "Handling large and sensitive dogs"
+      },
+      "text": {
+        "it": "Il salone accoglie cani di taglie diverse, inclusi setter e pastori dell'Asia centrale soccorsi e adottati, gestiti con familiarità durante il lavaggio. Ciononostante, una recensione negativa sottolinea il forte disagio provato dal proprio animale subito dopo la seduta a causa delle ferite riportate, raccomandando massima cautela con la tosatrice.",
+        "en": "The salon handles various breeds, including setters and large rescued Central Asian Shepherds, managing routine bathing with familiar confidence. Nevertheless, one critical review highlights acute distress in an animal after the visit due to irritated skin, prompting owners to recommend rigorous gentleness during mechanical clipping."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "La toelettatura accetta anche cani di taglia grande o gigante?",
+        "en": "Does the grooming center accept large or giant dog breeds?"
+      },
+      "a": {
+        "it": "Sì, le esperienze dei clienti indicano che il centro accoglie regolarmente cani di grossa mole, compresi pastori dell'Asia centrale.",
+        "en": "Yes, client reviews indicate that the salon routinely accommodates large breeds, including Central Asian Shepherds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene valutata l'esperienza complessiva del personale?",
+        "en": "How do clients evaluate the staff's experience?"
+      },
+      "a": {
+        "it": "Molti clienti storici apprezzano la professionalità pluriennale di Anna, mentre altri raccomandano attenzione verso animali con cute delicata.",
+        "en": "Many long-time customers praise Anna's longstanding experience, while others advise close attention for pets with sensitive skin."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Cosa fare se il cane mostra irritazioni dopo la tosatura?",
+        "en": "What should owners do if a dog shows irritation after trimming?"
+      },
+      "a": {
+        "it": "Le recensioni consigliano di concordare in anticipo l'uso di lame delicate o prodotti lenitivi per prevenire arrossamenti cutanei.",
+        "en": "Reviews advise agreeing beforehand on gentle clipping techniques or soothing products to prevent post-grooming skin irritation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

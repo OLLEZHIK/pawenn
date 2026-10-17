@@ -1,0 +1,197 @@
+{
+  "slug": "sheldon-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sheldon+Veterinary+Centre/data=!4m7!3m6!1s0x4870b09d2e26ddfd:0x1fbded5053d052bc!8m2!3d52.4648557!4d-1.7763569!16s%2Fg%2F11c60760vs!19sChIJ_d0mLp2wcEgRvFLQU1DtvR8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Contrasting opinions on veterinary personnel"
+      },
+      "text": {
+        "en": "Several pet owners praise the practice for caring vets, quick assistance, and compassionate support during routine visits and difficult moments. Conversely, other clients express severe dissatisfaction, alleging a lack of empathy and feeling pressured by staff during critical end-of-life consultations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Varied communication during pet care"
+      },
+      "text": {
+        "en": "Positive reviews mention thorough treatment explanations, helpful telephone advice, and clear options presented by attending veterinary surgeons. On the other hand, multiple reviewers complain about poor communication regarding post-euthanasia care and feeling misinformed about cremation costs."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Disputes over fees and cremation costs"
+      },
+      "text": {
+        "en": "While clients note affordable microchipping rates, multiple pet owners report unexpected expenses, notably high fees near two hundred pounds for urgent consultations. Several reviewers recount distressing disputes over separate bills from external crematoriums that they believed were included."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pets be seen on the same day for urgent care?"
+      },
+      "a": {
+        "en": "Yes, clients mention being accommodated on the same day when elderly or poorly pets required urgent veterinary attention."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How much does routine cat microchipping cost at the clinic?"
+      },
+      "a": {
+        "en": "Reviewers mention having their cats microchipped for twenty-two pounds, noting friendly advice and good customer service."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients report regarding end-of-life care and cremation?"
+      },
+      "a": {
+        "en": "Reviews show strong division: some owners appreciated seamless support, while several others experienced distressing disputes over unexpected cremation invoices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is telephone advice available before visiting the clinic?"
+      },
+      "a": {
+        "en": "Yes, clients report contacting the practice by phone for initial guidance before attending consultations with the vets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

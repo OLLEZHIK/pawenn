@@ -1,0 +1,38 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "cityvet-oak-lawn",
+    "cityvet-preston-forest",
+    "north-tollway-pet-hospital",
+    "cityvet-lovers-lane",
+    "cityvet-preston-hollow",
+    "vetco-total-care-belt-line-rd",
+    "bluesky-at-home-veterinary-care",
+    "north-dallas-veterinary-hospital"
+  ],
+  "hash": "a8ab4bd652201579ab3725218b16d8a35151ea5fe5e7e6a9e8dcfafd0a291521",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T01:01:28.935Z",
+      "result": "FAIL",
+      "listed": 51
+    },
+    {
+      "at": "2026-10-17T01:04:57.070Z",
+      "result": "FAIL",
+      "listed": 51
+    },
+    {
+      "at": "2026-10-17T01:12:38.757Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T01:15:56.452Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

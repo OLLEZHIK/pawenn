@@ -1,0 +1,122 @@
+{
+  "slug": "cityvet-preston-hollow",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CityVet+%7C+Preston+Hollow/data=!4m7!3m6!1s0x864e9ddf6b155555:0x4481c87196f43f7c!8m2!3d32.8659296!4d-96.8368985!16s%2Fg%2F11ggs2z8t2!19sChIJVVUVa9-dToYRfD_0lnHIgUQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming reception and considerate veterinary care"
+      },
+      "text": {
+        "en": "Pet parents praise Dr Tharsis Bastos, Dr Arroyo, and their assisting nurses for providing thorough, thoughtful consultations. Reviews note that staff display genuine affection toward animals from the front desk reception through to the examination suite, answering owner questions with great patience."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed explanations and postoperative phone check-ins"
+      },
+      "text": {
+        "en": "Clients highlight the clinic's attentive communication, noting that clinicians explain treatment protocols clearly and accommodate specific owner requests. Reviewers particularly value that team members telephone the following morning to verify how recovering pets are managing after major procedures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle approach for nervous canine patients"
+      },
+      "text": {
+        "en": "Pet owners appreciate the patient handling displayed by clinic technicians during routine maintenance, such as nail clippings for frightened dogs and vaccinations for puppies. Reviewers report that calm handling techniques make veterinary visits relaxed even for naturally apprehensive pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic conduct post-procedure follow-up calls?"
+      },
+      "a": {
+        "en": "Yes, clients report receiving telephone calls the day following dental or surgical treatments to check on their animal's welfare."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are veterinary technicians experienced with frightened animals?"
+      },
+      "a": {
+        "en": "Yes, pet owners note that staff handle nervous dogs gently during routine nail clipping and vaccinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does CityVet Preston Hollow perform senior cat dentistry?"
+      },
+      "a": {
+        "en": "Yes, reviewers report successful dental cleanings and procedures performed safely on senior felines."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

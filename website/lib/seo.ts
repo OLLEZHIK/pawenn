@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SITE_URL } from "./site";
-import type { Locale } from "./i18n";
+import { getDictionary, type Locale } from "./i18n";
 
 /**
  * canonical + hreflang for a page that exists in several locales.
@@ -23,6 +23,20 @@ export function localeAlternates(
   return {
     canonical: `${SITE_URL}${paths[current]}`,
     languages,
+  };
+}
+
+/** A list's page 2, 3...: its own canonical (?page=N, no hreflang - page 2 in
+ *  one language is not page 2 in another) and "Page N" in the title. */
+export function withPage(meta: Metadata, locale: Locale, path: string, page: number): Metadata {
+  if (page < 2) return meta;
+  const label = getDictionary(locale).listing.pagination.page(page);
+  const title = meta.title;
+  const base = typeof title === "string" ? title : title && "absolute" in title ? title.absolute : undefined;
+  return {
+    ...meta,
+    alternates: { canonical: `${SITE_URL}${path}?page=${page}` },
+    ...(base ? { title: { absolute: `${base} - ${label}` } } : {}),
   };
 }
 

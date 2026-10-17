@@ -1,0 +1,30 @@
+{
+  "chunk": "15-training",
+  "kind": "places",
+  "slugs": [
+    "all-dogs-unleashed-dallas",
+    "starr-dog-behavior",
+    "jordan-valley-retrievers",
+    "wildrose-kennel-texas",
+    "usa-dog-behavior"
+  ],
+  "hash": "5cd5cea9701a2cf9483e59dcdf1cca05e37b4c287fc7240250282dc575d362cb",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:33:22.988Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-17T00:36:54.531Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-17T00:38:05.423Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

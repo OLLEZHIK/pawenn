@@ -1,0 +1,130 @@
+{
+  "slug": "puff-fluff-grooming-uptown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Puff+%26+Fluff+Grooming+-+Uptown/data=!4m7!3m6!1s0x872b0d580708cd57:0x281df555c7ef9b0d!8m2!3d33.5231244!4d-112.0469662!16s%2Fg%2F1w4561x_!19sChIJV80IB1gNK4cRDZvvx1X1HSg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Pleasant front desk and grooming staff"
+      },
+      "text": {
+        "en": "Clients widely note that the staff at the Uptown salon are polite, kind, and welcoming during customer interactions. Even reviewers who were unhappy with a particular haircut outcome highlighted that team members remained courteous in person. Dog owners value this approachable demeanor and find scheduling through the online system straightforward."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Variable haircut styling and trim results"
+      },
+      "text": {
+        "en": "Reviews reflect mixed experiences with finished grooming styling. Satisfied pet owners state their dogs look clean, neat, and refreshed after routine bath and brush appointments. On the other hand, multiple clients report haircuts cut far shorter than requested or irregular styling on tails, advising clear and detailed instructions prior to service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Handling pets with sensitive temperaments"
+      },
+      "text": {
+        "en": "Pet parents observe varied experiences when bringing dogs with sensitive temperaments into the salon. Some clients report their corgis return cheerful and comfortable after full grooms, while another owner noted difficulty when their dog disliked grooming handling. Reviewers recommend communicating pet stress tendencies clearly before drop-off."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Puff & Fluff Uptown groom both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the Uptown location provides bath and haircut packages for both canine and feline pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the customer service and staff courtesy?"
+      },
+      "a": {
+        "en": "Reviewers consistently describe staff members as polite, pleasant, and approachable, even when styling outcomes were disputed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for grooming services?"
+      },
+      "a": {
+        "en": "Appointments are typically scheduled in advance, and clients can easily book available time slots through the online booking page."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Have owners experienced unexpected grooming results?"
+      },
+      "a": {
+        "en": "Some clients note that pets were trimmed shorter than requested, recommending explicit photos and instructions during intake."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

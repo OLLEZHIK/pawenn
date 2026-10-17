@@ -1,0 +1,143 @@
+{
+  "slug": "girard-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Girard+Veterinary+Clinic/data=!4m7!3m6!1s0x89c6c7b9a02249d3:0x80c3ed7fccc5c3b4!8m2!3d39.9741866!4d-75.1822621!16s%2Fg%2F1tc_9mwj!19sChIJ00kioLnHxokRtMPFzH_tw4A?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed feedback on customer service"
+      },
+      "text": {
+        "en": "Reviewers share conflicting impressions of the veterinary clinic's personnel. Several longtime clients commend the veterinary doctors and technicians for their polite manner, medical expertise, and friendly approach with difficult pets. In contrast, other clients express disappointment over management disputes, lost laboratory specimens, and perceived administrative indifference."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Dissatisfaction with clinic charges"
+      },
+      "text": {
+        "en": "Multiple reviewers express dissatisfaction with clinic billing, noting unexpected credit card processing surcharges, disputed charges for lost lab work, and perceptions of profit-driven management. While one client praised transparent estimates before surgery, most feedback on fees reflects frustration with added or unrefunded expenses."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments and surgical outcomes"
+      },
+      "text": {
+        "en": "Pet owners report positive medical results for challenging conditions, such as successful antibiotic courses for urinary infections and smooth canine tooth extractions. Clients appreciate that recovering animals showed swift clinical improvement under the care of the veterinary doctors."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Girard Veterinary Clinic perform pet surgeries?"
+      },
+      "a": {
+        "en": "Yes, clients report successful surgical procedures including canine tooth extractions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What payment methods are accepted at the clinic?"
+      },
+      "a": {
+        "en": "Reviewers note that credit cards incur processing fees, whilst Zelle payments avoid extra charges."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the clinic premises renovated?"
+      },
+      "a": {
+        "en": "Yes, clients mention an updated clinic layout designed with lighter spaces and improved traffic flow."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be booked online?"
+      },
+      "a": {
+        "en": "Yes, clients can schedule appointments online via the clinic website."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "+",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

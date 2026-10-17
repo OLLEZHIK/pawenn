@@ -1,0 +1,141 @@
+{
+  "slug": "the-leeu-naylor-medical-building",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Leeu+Naylor+Medical+Building/data=!4m7!3m6!1s0x865c5e16a2a336f7:0x350278e7ccfdd82!8m2!3d29.4968081!4d-98.5548915!16s%2Fg%2F11nyzbpylt!19sChIJ9zajohZeXIYRgt3PfI4nUAM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Kind handling during low-cost procedures"
+      },
+      "text": {
+        "en": "Clients appreciate the attentive and caring treatment their pets receive during spay, neuter, and routine clinical visits. Reviewers note that animals are returned clean, comfortable, and well looked after despite the high volume of daily patients. Pet owners feel reassured by the staff's dedication to animal welfare across the community."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and informative clinic staff"
+      },
+      "text": {
+        "en": "Pet parents commend the staff for their patience, clear explanations, and helpful answers regarding pre-operative and post-operative pet care. Reviewers emphasize that assistants remain polite and pleasant even when dealing with heavy patient queues. The team is credited with providing vital guidance that eases owners' anxiety during visits."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Extended wait times during intake"
+      },
+      "text": {
+        "en": "Reviewers frequently advise preparing for substantial delays during morning intake and afternoon collection, even with scheduled appointments. Clients report waiting over an hour to be checked in, noting that check-in queues can be lengthy on busy surgical days. While instructions mention potential delays, owners caution that the process takes patience."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Should clients expect wait times on appointment days?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize that intake and collection can take an hour or more due to high volume, and advise planning accordingly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What procedures are primarily performed at the facility?"
+      },
+      "a": {
+        "en": "The facility operates affordable spay and neuter services alongside basic wellness examinations and microchipping."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are instructions and fees transparent for clients?"
+      },
+      "a": {
+        "en": "Yes, clients highlight clear written instructions and upfront, accessible pricing that assists low-income pet owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are pets cared for during their recovery stay?"
+      },
+      "a": {
+        "en": "Reviewers note that animals are kept clean, monitored during recovery, and discharged with post-operative guidance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "-",
+        "prices": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "waiting": "-"
+      }
+    }
+  ]
+}

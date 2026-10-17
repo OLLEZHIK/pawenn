@@ -1,0 +1,157 @@
+{
+  "slug": "rutherford-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rutherford+Veterinary+Hospital/data=!4m7!3m6!1s0x864e98bdf4c2058d:0xb56d5d2a13343a62!8m2!3d32.7839939!4d-96.764219!16s%2Fg%2F1tp27pll!19sChIJjQXC9L2YToYRYjo0EypdbbU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated and compassionate veterinary team"
+      },
+      "text": {
+        "en": "Most pet owners highlight long-standing trust in the veterinarians and clinical staff, describing visits as attentive and reassuring. Long-time clients frequently praise the caring nature of the team. A single reviewer felt the reception was cold, but general feedback remains overwhelmingly favourable."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable treatment and clinical care"
+      },
+      "text": {
+        "en": "Reviewers express strong confidence in medical outcomes, noting thorough diagnostic examinations and successful treatment plans for puppies and senior pets alike. Clients appreciate steady recoveries and clear therapeutic guidance that restores their animals to good health."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed explanations beside pharmacy hurdles"
+      },
+      "text": {
+        "en": "Pet owners value detailed discussions regarding diagnostics and treatment options, as well as the availability of bilingual team members. Conversely, one client reported confusion surrounding prescription refill approvals and appointment scheduling, finding administrative communication somewhat rigid."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can veterinary appointments be booked online?"
+      },
+      "a": {
+        "en": "Yes, clients can request appointments through the hospital's online booking system on their website."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic employ bilingual staff members?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that friendly bilingual team members are available to assist clients during consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are boarding services offered at the hospital?"
+      },
+      "a": {
+        "en": "Yes, Rutherford Veterinary Hospital provides boarding facilities for client pets in addition to routine clinical medicine."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the policy for preventative medication refills?"
+      },
+      "a": {
+        "en": "The practice requires established patients to attend regular wellness exams before approving ongoing prescription shipments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "results": "+",
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "petsmart-la-cantera-pkwy",
+    "petsmart-park-central",
+    "petsmart-de-zavala-rd",
+    "pawsitively-sweet-bakery",
+    "pets-plus",
+    "fifi-fidos-pet-boutique",
+    "sea-hare-aquatics",
+    "south-seas-aquatics-inc",
+    "mini-ranch-feed-store"
+  ],
+  "hash": "7f2bde4e809578050113191cf3cdb400356696517fd2d0b3a60f29384b39ff0f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T23:36:21.625Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-16T23:42:00.805Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T23:42:47.297Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:43:51.872Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:45:40.241Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

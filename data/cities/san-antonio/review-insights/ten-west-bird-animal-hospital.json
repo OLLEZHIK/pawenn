@@ -1,0 +1,142 @@
+{
+  "slug": "ten-west-bird-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ten+West+Bird+%26+Animal+Hospital/data=!4m7!3m6!1s0x865c66e38dd9cf21:0x94c073f9c9bae984!8m2!3d29.5615229!4d-98.6013325!16s%2Fg%2F1tk1zghd!19sChIJIc_ZjeNmXIYRhOm6yflzwJQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated vets with mixed front-desk feedback"
+      },
+      "text": {
+        "en": "Clients praise Dr. Powers and attending veterinary clinicians for exceptional dedication, noting instances where doctors came in on off days to monitor recovering pets. Conversely, a reviewer strongly criticised front desk customer service for unhelpful communication. Overall, clinical care is highly regarded despite occasional administrative friction."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Specialised handling with differing owner experiences"
+      },
+      "text": {
+        "en": "Several pet parents praise the hospital for gentle, compassionate care of parrots, cockatiels, and dogs during surgery and respiratory check-ups. However, one bird owner reported a lack of proactive preventive diagnostics for an avian patient. While exotic pet handling is generally commended, experiences can vary depending on case complexity."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Successful recoveries alongside diagnostic concerns"
+      },
+      "text": {
+        "en": "Reviewers report excellent clinical outcomes for routine neutering recovery and immediate relief for aging birds with respiratory distress. In contrast, one client experienced the tragic loss of a pet bird following an undetected infection and highlighted diagnostic gaps. Medical results remain largely positive, though diagnostic depth was questioned."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital accept avian and bird patients?"
+      },
+      "a": {
+        "en": "Yes, the practice treats parrots, cockatiels, and other pet birds alongside traditional domestic companion animals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How quickly are urgent veterinary cases seen?"
+      },
+      "a": {
+        "en": "Reviewers note prompt evaluation for acute respiratory distress, with doctors accommodating urgent cases swiftly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are surgical post-operative checks offered?"
+      },
+      "a": {
+        "en": "Yes, clients highlight dedicated follow-up care from veterinarians to examine surgical incisions and ensure recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should bird owners know before their consultation?"
+      },
+      "a": {
+        "en": "Clients advise requesting comprehensive baseline diagnostic testing and clarifying preventative care options during avian visits."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

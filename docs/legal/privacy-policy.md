@@ -1,6 +1,6 @@
 # Privacy Policy
 
-*Last updated: October 7, 2026*
+*Last updated: October 16, 2026*
 
 This policy explains what Pawenn (`pawenn.com`, "we") does with data when you use the site. In short: no accounts, no ads, no tracking across other sites, and analytics cookies only if you allow them.
 
@@ -20,21 +20,23 @@ Pawenn is a free directory of pet services. Contact for anything in this policy:
 
 **Google Analytics - only if you allow it.** On your first visit a banner asks whether we may use Google Analytics 4. Until you press "Allow", nothing is loaded from Google and no analytics cookie is set; "Decline" is just as easy. If you allow it, Google Analytics records the pages you view, where you came from, your approximate location (country, region, city), device and browser, and these actions: taps on call, website, route and email on a listing, and switching the language. It sets two cookies, `_ga` and `_ga_L1HVFGV7ZX`, which keep a random identifier for up to 2 years so that repeat visits are counted once. Google Analytics 4 does not log or store IP addresses. We use it only to see how the site is used; Google signals and advertising features are off. You can change your choice at any time with "Cookie settings" at the bottom of every page; declining removes the cookies.
 
+**Microsoft Clarity - only if you allow it.** The same banner covers Microsoft Clarity, a free tool from Microsoft that shows us how visitors use the pages: heatmaps of taps and scrolling, and anonymous recordings of a visit (where people tap, how far they scroll, what they skip), so we can fix confusing pages. Until you press "Allow", nothing is loaded from Microsoft and no Clarity cookie is set; "Decline" is just as easy. If you allow it, Clarity sets the cookies `_clck`, `_clsk` and `CLID` (an identifier for up to 1 year; `_clsk` for 1 day), and Microsoft sets its own cookies such as `MUID`, `MR`, `SM`, `SRM_B` and `ANONCHK` (a browser identifier for up to 1 year) and records your visit together with device, browser, approximate location and the actions on the page. Form fields and text you type are masked and are not recorded. We use it only to improve the site, not for advertising. Declining, or changing your choice with "Cookie settings" at the bottom of every page, stops recording and removes these cookies.
+
 **Language cookie.** If you switch the language, we store one cookie, `pawenn_lang`, with the language code, for one year. It identifies no one. Your answer to the analytics banner is kept in your browser's local storage (`pawenn-analytics-consent`), not sent to us. Without your consent to analytics, visiting the site sets no other cookie.
 
 **Your location.** "Nearest to me" asks your browser for your location. It is used in your browser to find the nearest city and is not sent to or stored by us.
 
 ## Why, and on what basis
 
-To run the directory, keep it accurate and measure how it is used without cookies (legitimate interest, GDPR Art. 6(1)(f)); Google Analytics and its cookies only with your consent (GDPR Art. 6(1)(a) and the ePrivacy rules on cookies), which you can withdraw at any time; to publish a review you choose to send (consent, Art. 6(1)(a)).
+To run the directory, keep it accurate and measure how it is used without cookies (legitimate interest, GDPR Art. 6(1)(f)); Google Analytics, Microsoft Clarity and their cookies only with your consent (GDPR Art. 6(1)(a) and the ePrivacy rules on cookies), which you can withdraw at any time; to publish a review you choose to send (consent, Art. 6(1)(a)).
 
 ## Who else handles data
 
-Our hosting and infrastructure providers process data on our behalf: Vercel (hosting, analytics), Cloudflare (network and security) and Neon (database). If you allow analytics, Google Ireland Limited processes the Google Analytics data on our behalf; it may be transferred to Google LLC in the United States, which is certified under the EU-U.S. Data Privacy Framework. We do not sell or rent data.
+Our hosting and infrastructure providers process data on our behalf: Vercel (hosting, analytics), Cloudflare (network and security) and Neon (database). If you allow analytics, Google Ireland Limited processes the Google Analytics data on our behalf; it may be transferred to Google LLC in the United States, which is certified under the EU-U.S. Data Privacy Framework. If you allow Microsoft Clarity, Microsoft processes the Clarity data on our behalf; it may be transferred to Microsoft Corporation in the United States, which is also certified under the EU-U.S. Data Privacy Framework. We do not sell or rent data.
 
 ## How long we keep it
 
-Aggregated click statistics are kept without time limit, as they identify no one. Google Analytics data is kept for up to 14 months and then deleted by Google. Reviews stay on the listing until you or the business ask us to remove them or the listing is removed.
+Aggregated click statistics are kept without time limit, as they identify no one. Google Analytics data is kept for up to 14 months and then deleted by Google. Microsoft Clarity keeps recordings for up to 30 days and aggregated heatmap data for up to 13 months, then deletes them. Reviews stay on the listing until you or the business ask us to remove them or the listing is removed.
 
 ## Your rights
 

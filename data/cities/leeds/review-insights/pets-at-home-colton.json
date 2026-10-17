@@ -1,0 +1,206 @@
+{
+  "slug": "pets-at-home-colton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+at+Home+Colton/data=!4m7!3m6!1s0x48795cb44440f1a5:0x4a104e8a4153dd10!8m2!3d53.7932023!4d-1.4333746!16s%2Fg%2F1tvdj9j5!19sChIJpfFARLRceUgREN1TQYpOEEo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Friendly and supportive store colleagues"
+      },
+      "text": {
+        "en": "A clear majority of reviewers praise the store team for being polite, knowledgeable, and ready to assist with product choices and pet care. Customers note gentle handling by staff when helping select small pets. While two visitors mentioned occasional friction or inattentiveness at the tills, feedback about team helpfulness remains strongly favourable."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Spacious store with generous parking"
+      },
+      "text": {
+        "en": "Shoppers appreciate the broad selection of pet food brands, bedding, and accessories arranged across wide, clean aisles. Visitors highlight the convenience of free customer parking outside the Colton retail unit. One reviewer was dissatisfied with returning a damaged item, but overall shoppers describe an orderly, well-maintained shop."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Thoughtful welfare for small animals"
+      },
+      "text": {
+        "en": "Pet owners value the attentive approach shown to animals inside the store, from quietly handling hamsters to greeting visiting dogs. Reviewers also mention the convenience of on-site veterinary checkups and healthcare support. Customers feel reassured by staff members who prioritize pet comfort during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is free customer parking available outside?"
+      },
+      "a": {
+        "en": "Yes, visitors report ample free parking directly in front of the Colton Retail Centre store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this store location include veterinary services?"
+      },
+      "a": {
+        "en": "Yes, customers mention an on-site veterinary clinic offering health checks, treatments, and advice."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff assist with small pet purchases?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe knowledgeable staff members handling small pets gently and explaining care requirements."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

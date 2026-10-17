@@ -1,0 +1,190 @@
+{
+  "slug": "north-tollway-pet-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/North+Tollway+Pet+Hospital/data=!4m7!3m6!1s0x864c23f221da3097:0xfb3146ba8f6e1a80!8m2!3d32.9994561!4d-96.8273868!16s%2Fg%2F1tdh8vrh!19sChIJlzDaIfIjTIYRgBpuj7pGMfs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Contrasting client experiences with staff"
+      },
+      "text": {
+        "en": "Feedback regarding veterinary personnel is sharply divided between clinicians and reception staff. Multiple clients praise Dr Duane Maxwell and veterinary technician Thomas for their attentiveness, compassion, and clear explanations. In contrast, several reviewers criticise Dr Susan Pasagic and front desk staff for curt communication, dismissive attitudes, and administrative mistakes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive treatment across diverse species"
+      },
+      "text": {
+        "en": "Pet owners appreciate the hospital's clinical capability in treating non-traditional pets alongside cats and dogs. Reviewers describe successful medical visits and examinations for rescue canines, bearded dragons, and recovering turtles. Clients highlight that veterinary staff handle both exotic animals and family pets with care and gentleness."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Concerns regarding pricing and billing"
+      },
+      "text": {
+        "en": "While one pet parent noted a fair initial office consultation fee, several clients express significant dissatisfaction with overall pricing. Reviewers report being quoted lower estimates before receiving substantially higher final invoices for exotic pet visits. Others complain about being charged repeat laboratory fees following clinical scheduling mix-ups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does North Tollway Pet Hospital treat exotic and small pets?"
+      },
+      "a": {
+        "en": "Yes, clients bring exotic animals including bearded dragons, rabbits, and turtles for medical evaluations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can diagnostic lab results be viewed during consultations?"
+      },
+      "a": {
+        "en": "Several reviewers note reviewing microscopic samples and bloodwork results directly with doctors during their visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should pet owners note regarding appointment follow-ups?"
+      },
+      "a": {
+        "en": "Clients advise proactively confirming telephone details and checking on laboratory result timelines with reception."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate veterinarian Dr Duane Maxwell?"
+      },
+      "a": {
+        "en": "Pet owners consistently praise Dr Maxwell for his thorough, supportive, and compassionate bedside manner."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "prices": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}

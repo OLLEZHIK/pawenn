@@ -1,0 +1,192 @@
+{
+  "slug": "colina-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Colina+Veterinary+Hospital/data=!4m7!3m6!1s0x80d956a7033d3b1f:0x14b5446ad62baeca!8m2!3d32.748087!4d-117.0767697!16s%2Fg%2F1thn5t37!19sChIJHzs9A6dW2YARyq4r1mpEtRQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate and courteous veterinary team"
+      },
+      "text": {
+        "en": "Many reviewers speak warmly of Dr. Guajardo, his veterinary associates, and the front desk staff for their attentive and caring approach. Clients appreciate that practitioners handle routine exams, microchip scans, and end-of-life care with genuine empathy. While one pet owner questioned a clinician's diagnostic skill, the general consensus reflects dependable, respectful staff."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on clinical outcomes"
+      },
+      "text": {
+        "en": "Most clients report good medical outcomes for dental extractions, puppy vaccinations, and routine neutering surgeries. However, one owner experienced a missed diagnosis of an anal gland abscess that required an urgent trip to an emergency hospital after initial probiotics failed to resolve the infection."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Affordable services alongside billing disputes"
+      },
+      "text": {
+        "en": "Several reviewers consider Colina Veterinary Hospital one of the more budget-friendly veterinary practices in San Diego, highlighting reasonable rates for dental care and neutering. In contrast, one reviewer was frustrated by an upfront deposit policy and no-show dispute, while another felt low pricing did not offset an unsatisfactory clinic visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are dental procedures and extractions available at Colina?"
+      },
+      "a": {
+        "en": "Yes, pet owners report taking their cats and dogs here for dental cleanings and tooth extractions with good recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the clinic policy regarding new client booking deposits?"
+      },
+      "a": {
+        "en": "Reviewers note that first-time appointments may require an advance exam deposit, with strict no-show guidelines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital assist with scanning found pets for microchips?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that staff willingly scan lost animals and help connect them with registered owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the clinic's pricing?"
+      },
+      "a": {
+        "en": "Many pet owners describe the fees as comparatively affordable for routine surgeries, though some express frustration over booking fees."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

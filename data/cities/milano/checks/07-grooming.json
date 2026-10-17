@@ -2,18 +2,11 @@
   "chunk": "07-grooming",
   "kind": "places",
   "slugs": [
-    "a-4-zampe-di-marco-simona-toelettatura",
-    "toelettatura-dog-s-paradise-2-0",
-    "toelettatura-fido-shop",
-    "mc-pet-beauty",
-    "di-malta-armando",
-    "bau-house",
     "pollop-bio-toelettatura-spa-per-cani-e-gatti",
-    "pelo-contropelo",
     "testacoda",
     "toelettatura-milano-amici-di-viola-milano"
   ],
-  "hash": "a69bd19d4d269e8fc009c54b5d0986d147905d57702df9d16e64d929ebe61cfd",
+  "hash": "f765feda9d753cec70a4ede990944d503e27c6382d6faaeaf2275edb9efa6a7f",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +16,26 @@
     },
     {
       "at": "2026-10-11T20:16:56.139Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:48:14.730Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:57:37.555Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:57:59.018Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T06:58:45.430Z",
       "result": "PASS",
       "listed": 0
     }

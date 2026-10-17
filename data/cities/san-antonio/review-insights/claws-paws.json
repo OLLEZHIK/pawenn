@@ -1,0 +1,131 @@
+{
+  "slug": "claws-paws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Claws+%26+Paws/data=!4m7!3m6!1s0x865cf6cdb94bf5bb:0x6a49299bf3b7350a!8m2!3d29.3987159!4d-98.4002132!16s%2Fg%2F1tg_m195!19sChIJu_VLuc32XIYRCjW385spSWo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly and attentive pet groomer"
+      },
+      "text": {
+        "en": "Clients praise the owner and styling team for their professional service, welcoming demeanor, and genuine dedication to pets. Reviewers appreciate that the groomer listens carefully to styling requests and provides reassuring care. Pet parents highlight the pleasant, personal atmosphere that makes visits stress-free for both animals and owners."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Quality haircuts and thorough baths"
+      },
+      "text": {
+        "en": "Dog owners report excellent grooming results, noting that pets leave looking neat, clean, and smelling wonderful after haircuts and baths. Reviewers highlight precise coat styling on small breeds like Shih Tzus and clean nail trims. Pet parents express strong satisfaction with the detailed grooming finishes and coat softness."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle and patient pet care"
+      },
+      "text": {
+        "en": "Clients emphasize the gentle and tender care shown to pets during grooming and hygiene sessions. Reviewers note that dogs feel comfortable, happy, and relaxed throughout claw trims and baths. Pet parents appreciate that the groomer handles animals with patience and kindness, avoiding unnecessary stress during salon visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Claws & Paws offer claw trimming without a full grooming session?"
+      },
+      "a": {
+        "en": "Yes, clients report bringing pets specifically for standalone nail and claw trims with gentle care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pets are groomed at this salon?"
+      },
+      "a": {
+        "en": "The salon provides grooming, bath, and styling services for both dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are grooming appointments required?"
+      },
+      "a": {
+        "en": "Yes, services are scheduled by phone appointment Wednesday through Saturday."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is Claws & Paws located in San Antonio?"
+      },
+      "a": {
+        "en": "The pet salon is located on Rigsby Avenue on the southeast side of San Antonio."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "myvet-lucan",
+    "dundrum-veterinary-clinic",
+    "sandymount-vets",
+    "st-francis-animal-dispensary",
+    "castle-veterinary-clinic",
+    "bull-wall-veterinary-clinic",
+    "fox-veterinary-clinic",
+    "myvet-in-firhouse",
+    "blackrock-veterinary-clinic",
+    "priory-veterinary-centre"
+  ],
+  "hash": "117c701ae0d474c5a2dd4ae92acb0d5ffd85d2b336d4a64acd649fb93f1f2872",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:28:21.139Z",
+      "result": "FAIL",
+      "listed": 44
+    },
+    {
+      "at": "2026-10-16T11:34:18.988Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:38:08.426Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:42:14.759Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

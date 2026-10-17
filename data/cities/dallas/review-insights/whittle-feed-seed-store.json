@@ -1,0 +1,193 @@
+{
+  "slug": "whittle-feed-seed-store",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Whittle+Feed+%26+Seed+Store/data=!4m7!3m6!1s0x864ebc7078c3ff6f:0x6a007f773faee24f!8m2!3d32.664663!4d-96.673006!16s%2Fg%2F1tzgk14r!19sChIJb__DeHC8ToYRT-KuP3d_AGo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Helpful clerks with varied service"
+      },
+      "text": {
+        "en": "Many customers appreciate the friendly and supportive service from the family owners and warehouse staff who assist with loading heavy sacks of feed into vehicles. However, several shoppers noted indifferent or unwelcoming encounters at the counter, pointing to occasional inconsistencies in service."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Quality feed and agricultural supplies"
+      },
+      "text": {
+        "en": "Local pet and livestock owners praise the store for providing wholesome animal nutrition, poultry feed, and hay. Customers value having access to practical solutions and dependable supplies for rural animals, though occasional seasonal stock shortages were noted by a reviewer."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair and competitive supply pricing"
+      },
+      "text": {
+        "en": "Reviewers consistently describe the pricing at Whittle Feed & Seed as fair and reasonable for everyday pet food, animal feed, and farming essentials. Shoppers consider the store an economical local alternative for maintaining farm animals and family pets in Southeast Dallas."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of pet and animal products does Whittle Feed & Seed stock?"
+      },
+      "a": {
+        "en": "The store stocks livestock feeds, straw, hay, poultry supplies, and general domestic pet food suitable for suburban and rural animals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do staff assist customers with heavy purchases?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention that staff members routinely help customers load heavy feed bags and bulk supplies directly into trucks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do customer reviews characterize the store's pricing?"
+      },
+      "a": {
+        "en": "Customers praise the store for fair, competitive prices across feed, seeds, and animal care supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is seasonal animal bedding available at the shop?"
+      },
+      "a": {
+        "en": "Yes, clients purchase hay and straw for seasonal animal bedding, though reviewers recommend checking ahead during peak seasonal periods."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "~",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "results": "+",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

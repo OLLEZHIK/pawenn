@@ -1,0 +1,36 @@
+{
+  "chunk": "08-grooming",
+  "kind": "places",
+  "slugs": [
+    "deborahs-pawfection",
+    "premier-pet-services",
+    "mypet",
+    "the-groomin-room",
+    "laura-loves-dogs",
+    "petsmart-grooming-south-philadelphia"
+  ],
+  "hash": "ae6a43825866fdb749a19b23dfb65619ecacb297c72365df32112ad6768b25c2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:43:04.900Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-16T22:45:49.925Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:46:26.179Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T22:49:58.256Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

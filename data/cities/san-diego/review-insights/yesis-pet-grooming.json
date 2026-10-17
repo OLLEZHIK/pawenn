@@ -1,0 +1,143 @@
+{
+  "slug": "yesis-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Yesi%27s+Pet+Grooming/data=!4m7!3m6!1s0x80d953432a8c3949:0x95c2d6163750e9b3!8m2!3d32.7115763!4d-117.1281945!16s%2Fg%2F11ytnpsflz!19sChIJSTmMKkNT2YARs-lQNxbWwpU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Patient and considerate grooming staff"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for Yesi and her assistants, highlighting their warm reception and attentive listening. Clients note that the team explains the grooming process thoroughly beforehand, helping first-time pet parents feel relaxed. Reviewers consistently describe the groomers as kind, accommodating, and dedicated to each animal."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for anxious pets"
+      },
+      "text": {
+        "en": "Owners of nervous dogs and sensitive breeds note that groomers take time to ease anxiety and avoid rushing appointments. Several reviews mention that staff accommodate special shampoo requests for pets with allergies or skin irritations. Dogs return to their families relaxed and happy rather than fearful after their baths and styling."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Neat haircuts and thorough grooming"
+      },
+      "text": {
+        "en": "Clients praise the precise styling, smooth bathing, and tidy nail clipping delivered across different breeds. Reviewers frequently report that their dogs leave looking fresh, fragrant, and groomed exactly according to their requests. Pet parents share that the finished appearance matches their expectations and keeps them returning regularly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Yesi's Pet Grooming provide services for cats?"
+      },
+      "a": {
+        "en": "No, the salon informs clients directly that grooming is restricted to dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners bring specialised medicated shampoo for their dogs?"
+      },
+      "a": {
+        "en": "Yes, groomers accommodate dogs with skin sensitivities by using customer-supplied shampoos."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are consultations provided before a puppy's first grooming session?"
+      },
+      "a": {
+        "en": "Yes, staff meet with owners prior to the appointment to discuss styling preferences and pet temperament."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon offer routine nail clipping?"
+      },
+      "a": {
+        "en": "Yes, clients frequently visit the parlour specifically for routine nail trims and maintenance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "banfield-pet-hospital-greenville-ave-dallas",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x864e9f9f1ada6d5f:0xb82644fb4a5543bf!8m2!3d32.8545037!4d-96.7684693!16s%2Fg%2F1tf5899c!19sChIJX23aGp-fToYRv0NVSvtEJrg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Disputed customer communication and wellness plans"
+      },
+      "text": {
+        "en": "Several pet owners report significant communication breakdowns regarding preventive wellness packages and diagnostic procedures. Clients describe feeling uninformed about coverage limits or misdiagnosed without adequate consultation. Conversely, satisfied visitors highlight veterinary consultations where clinical findings and itemised invoices were explained clearly before treatment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Contrasting impressions of clinic personnel"
+      },
+      "text": {
+        "en": "Experiences with veterinary personnel are sharply divided between warm care and administrative friction. Some pet parents praise compassionate veterinarians who thoroughly examine unwell animals and phone with clinical updates. However, multiple visitors cite blunt or dismissive front-desk encounters when addressing appointment complications or plan queries."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed scheduling and lobby waiting times"
+      },
+      "text": {
+        "en": "Clients express differing views on appointment punctuality and visit scheduling at this location. Some owners appreciate same-day drop-off accommodations for urgent conditions and swift routine check-ups. In contrast, other reviewers complain of waiting over thirty minutes despite confirmed bookings, with occasional cancelled appointments upon arrival."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this Banfield hospital accept same-day drop-off appointments?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff accommodated same-day drop-off visits when urgent medical issues such as infections occurred."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are consultation costs discussed prior to treatment?"
+      },
+      "a": {
+        "en": "Reviewers mention that veterinary staff outline anticipated procedure and medication fees in advance to prevent unexpected bills."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be booked online for this location?"
+      },
+      "a": {
+        "en": "Yes, pet owners can schedule visits and manage preventive health plans through Banfield's website and app."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do clients describe waiting times for scheduled visits?"
+      },
+      "a": {
+        "en": "Experiences vary; several owners were seen promptly, whereas others experienced delays exceeding thirty minutes."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

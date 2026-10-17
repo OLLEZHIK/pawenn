@@ -1,0 +1,159 @@
+{
+  "slug": "betty-s-dog-wash-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Betty%27s+Dog+Wash+%26+Grooming/data=!4m7!3m6!1s0x872b046c78019c8b:0xe5ed78ef4b6ff9e1!8m2!3d33.306667!4d-111.97993!16s%2Fg%2F1hhgp5x53!19sChIJi5wBeGwEK4cR4flvS-947eU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly and caring salon stylists"
+      },
+      "text": {
+        "en": "Most clients praise the grooming team, citing stylists like Sarah and Alex for their friendly disposition, patience with energetic dogs, and willingness to accommodate late collections. While one reviewer had a tense encounter with management, overall feedback on staff is warm."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Nurturing care for family pets"
+      },
+      "text": {
+        "en": "Pet owners consistently note that dogs are greeted warmly, given treats, and handled with gentleness throughout their grooming sessions. Aside from a single complaint regarding comb handling on matted puppy fur, clients report that their pets return home happy and at ease."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Quality haircuts with minor discrepancies"
+      },
+      "text": {
+        "en": "Reviewers generally express high satisfaction with breed-appropriate haircuts, deshedding treatments, and doodle styling. However, feedback is mixed due to a complaint regarding incomplete nail clipping across multiple paws and prepayment rules following a missed booking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What grooming services are offered at Betty's?"
+      },
+      "a": {
+        "en": "The salon offers full-service grooming, breed cuts, puppy trims, deshedding baths, and nail trimming for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the salon accommodate hyperactive dogs?"
+      },
+      "a": {
+        "en": "Clients note that stylists show patience and take extra time when grooming energetic dogs and shedding breeds."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What is the policy for missed appointments?"
+      },
+      "a": {
+        "en": "A review notes that missed appointments may result in prepayment requirements before booking subsequent grooming visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the grooming salon situated?"
+      },
+      "a": {
+        "en": "The salon is located in the Ahwatukee Foothills area of Phoenix, situated on South 48th Street."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

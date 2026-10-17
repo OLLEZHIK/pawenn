@@ -1,0 +1,163 @@
+{
+  "slug": "portmarnock-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Portmarnock+Veterinary+Clinic/data=!4m7!3m6!1s0x48671ae77e9f61cf:0xc7ecf37eb85099ea!8m2!3d53.4223908!4d-6.1356179!16s%2Fg%2F1q62kbwz_!19sChIJz2GffucaZ0gR6plQuH7z7Mc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate and dedicated veterinary team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise Dr Emily and the nursing staff on Strand Road for their attentive, unhurried care. Multiple clients highlight their empathy during serious illnesses and palliative situations, though one reviewer reported a strained interaction when disputing clinical fees."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for dogs and cats"
+      },
+      "text": {
+        "en": "Reviewers emphasize how comfortably pets are treated during routine check-ups, dental cleanings, and surgical procedures. Clients note that even nervous dogs feel at ease walking into the practice, receiving treats and gentle encouragement from the clinical nurses."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Clear advice with occasional billing disputes"
+      },
+      "text": {
+        "en": "Most clients value the informative post-surgery follow-up calls and clear treatment explanations provided by the clinic team. However, feedback is mixed, as one client reported unexpected charges exceeding initial estimates and felt communication regarding prescription requirements was unhelpful."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Portmarnock Veterinary Clinic offer holistic treatments?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention Dr Emily's holistic veterinary care and homeopathic remedies used alongside conventional treatments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are follow-up calls provided after surgery?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that clinic nurses call the day following surgical procedures to check on pet recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What emergency procedures are handled at the clinic?"
+      },
+      "a": {
+        "en": "The practice provides emergency surgical treatments and acute care during regular weekday and Saturday clinic hours."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic located in Portmarnock?"
+      },
+      "a": {
+        "en": "The practice is situated at Centre Point on Strand Road in Burrow, Portmarnock."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

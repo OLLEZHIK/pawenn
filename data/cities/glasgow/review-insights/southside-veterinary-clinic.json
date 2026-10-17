@@ -1,0 +1,121 @@
+{
+  "slug": "southside-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Southside+Veterinary+Clinic/data=!4m7!3m6!1s0x4888473555035151:0xc95f0165eea6da3e!8m2!3d55.8045433!4d-4.2943546!16s%2Fg%2F11vymdqq_p!19sChIJUVEDVTVHiEgRPtqm7mUBX8k?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Welcoming and professional clinic team"
+      },
+      "text": {
+        "en": "Clients consistently praise the veterinarians and clinical team at Southside Veterinary Clinic in Giffnock for their warmth, experience, and professionalism. Pet parents highlight that clinicians take time to investigate health concerns thoroughly, offering reassuring guidance that puts owners minds at ease during appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Thoughtful attention for anxious pets"
+      },
+      "text": {
+        "en": "Reviewers appreciate the patient, caring manner staff display when handling anxious cats and dogs during consultations and dental treatments. Pet owners note that the veterinary team goes out of their way to minimize pet stress, creating a comforting atmosphere that helps pets recover with confidence."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Unique clinic facilities and relaxing environment"
+      },
+      "text": {
+        "en": "Clients highlight the welcoming and clean clinic setting, including thoughtful layout accommodations such as a quiet entrance for stressed animals. Visitors also appreciate the unique on-site Bark and Brew coffee shop, providing a relaxed and animal-friendly space for pet owners in Giffnock."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Southside Veterinary Clinic have an on-site cafe?"
+      },
+      "a": {
+        "en": "Yes, the premises feature Bark and Brew, an on-site coffee shop where pet owners can relax."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How does the clinic support nervous pets during visits?"
+      },
+      "a": {
+        "en": "The team offers quiet handling accommodations, including using a separate entrance to ease stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are comprehensive dental procedures available for pets?"
+      },
+      "a": {
+        "en": "Yes, client reviews report thorough health investigations and successful dental treatments."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

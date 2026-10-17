@@ -1,0 +1,131 @@
+{
+  "slug": "paw-commons-pet-resort-training-center-bay-park-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Paw+Commons+Pet+Resort+%26+Training+Center+-+Bay+Park/data=!4m7!3m6!1s0x80deaaea87394c13:0xf81b1a40e34b6ae8!8m2!3d32.7689338!4d-117.2007933!16s%2Fg%2F1v1vdhkh!19sChIJE0w5h-qq3oAR6GpL40AaG_g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed reviews on staff and training"
+      },
+      "text": {
+        "en": "Most pet parents commend front-desk employees and attendants like Terryl and Carly, praising their warm welcomes, helpful demeanours, and flexibility with last-minute scheduling changes. However, one client reported a frustrating consultation regarding dog training programmes, citing unhelpful communication over pricing and programme details."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Energetic play and attentive boarding"
+      },
+      "text": {
+        "en": "Owners report that dogs thoroughly enjoy daycare playgroups, returning home happy and nicely tired out from running with other canines. Attendants supervise play sessions attentively, making sure energetic pets burn off excess energy safely. Clients express peace of mind knowing their pets are looked after during boarding stays."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Webcam access and playroom monitoring"
+      },
+      "text": {
+        "en": "Reviewers value the availability of live room webcams across multiple play areas, which allow families to check in on their pets throughout the workday. The Bay Park facility is praised for clean, secure indoor playrooms and comfortable suites. Clients appreciate being able to verify directly that their dogs are content and settled."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners check on their dogs via live cameras?"
+      },
+      "a": {
+        "en": "Yes, clients can view live webcam feeds in the play areas to observe how their pets are interacting throughout the day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the facility provide progress reports during daycare?"
+      },
+      "a": {
+        "en": "Pet parents receive digital report cards featuring photos and written summaries detailing how their dog spent the day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is an introductory evaluation required before boarding?"
+      },
+      "a": {
+        "en": "Yes, reviewers describe attending an initial meet-and-greet session to assess their dog's comfort with the environment and other pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are the staff flexible with last-minute booking changes?"
+      },
+      "a": {
+        "en": "Clients report that front-desk staff are accommodating and helpful when travel or work plans change unexpectedly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

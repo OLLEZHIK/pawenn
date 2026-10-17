@@ -2,17 +2,18 @@
   "chunk": "05-vet",
   "kind": "places",
   "slugs": [
-    "clinica-veterinaria-aniene",
-    "ambulatorio-veterinario-prati",
-    "clinica-vescovio-veterinaria",
-    "clinica-veterinaria-capuana-veterinario-montesacro-talenti",
-    "ambulatorio-medico-veterinario"
+    "ambulatorio-veterinario-prati"
   ],
-  "hash": "798833e05487f3329c0a4b7e50ee54ad8b1a0be95bc65fdbf54632d51428b0c9",
+  "hash": "51d6cd69b7281c71a903d7b3e78efd9ab23b42dbc33d7b3b2da399a303cbeee6",
   "result": "PASS",
   "history": [
     {
       "at": "2026-10-11T17:06:49.983Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:39:26.307Z",
       "result": "PASS",
       "listed": 0
     }

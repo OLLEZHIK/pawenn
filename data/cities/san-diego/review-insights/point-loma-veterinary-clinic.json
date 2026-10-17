@@ -1,0 +1,175 @@
+{
+  "slug": "point-loma-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Point+Loma+Veterinary+Clinic/data=!4m7!3m6!1s0x80deaa379ebf8e79:0x56196c70ea3cda91!8m2!3d32.7459661!4d-117.2467388!16s%2Fg%2F1tm29zz9!19sChIJeY6_njeq3oARkdo86nBsGVY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Contrasting impressions of clinic personnel"
+      },
+      "text": {
+        "en": "Client reviews show a stark divide in experiences with veterinary staff. Several pet owners praise the attending veterinary surgeon and assistant German for providing kind, attentive, and thorough care that put pets at ease. Conversely, multiple critical reviewers describe desk staff as undertrained and complain of dismissive attitudes when administrative or medication concerns were raised."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Divided perspectives on patient welfare"
+      },
+      "text": {
+        "en": "Feedback regarding the treatment of companion animals varies considerably between clients. Satisfied pet parents report that their dogs and cats receive gentle, affectionate handling during routine visits, expressing confidence in the clinical team. However, a disgruntled reviewer alleged overly rough handling during an examination, advising prospective patrons to scrutinise reviews before booking."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frustrations over communication and records"
+      },
+      "text": {
+        "en": "Administrative communication receives frequent criticism from dissatisfied reviewers over recent months. Pet owners report that telephone inquiries and medication reorders frequently went unaddressed by front desk personnel. Furthermore, clients experienced disputes regarding access to formal medical charts, pharmacy transfer policies, and unclarified vaccination charges."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic accommodate prompt appointments for acute issues?"
+      },
+      "a": {
+        "en": "Yes, clients note that urgent consultations for conditions such as ear infections are accommodated rapidly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are out-of-hours emergency telephone contacts provided?"
+      },
+      "a": {
+        "en": "The clinic lists a designated out-of-hours mobile contact number for urgent enquiries outside regular consulting hours."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet owners request external prescription releases?"
+      },
+      "a": {
+        "en": "Reviewers express frustration with pharmacy dispensing policies, so owners should confirm prescription transfer protocols prior to appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are offered for canine ear and skin conditions?"
+      },
+      "a": {
+        "en": "Clients report receiving thorough examinations, ear cleaning treatments, and prescribed topical medications for companion dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

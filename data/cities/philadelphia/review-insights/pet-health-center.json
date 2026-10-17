@@ -1,0 +1,145 @@
+{
+  "slug": "pet-health-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Health+Center/data=!4m7!3m6!1s0x89c6b62b196d8fd3:0x94cabc852a35dab1!8m2!3d39.9948482!4d-75.1060835!16s%2Fg%2F12q4rmh39!19sChIJ049tGSu2xokRsdo1KoW8ypQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly and approachable clinic team"
+      },
+      "text": {
+        "en": "Reviewers consistently speak highly of the veterinary doctor and clinic staff on Frankford Avenue. Pet owners describe the team as welcoming, polite, and willing to take sufficient time during consultations to address questions without making clients feel rushed."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle approach to anxious companions"
+      },
+      "text": {
+        "en": "Clients note that veterinary personnel handle pets with genuine care and affection. Owners of nervous cats and older dogs mention that their companions were noticeably calmer during visits, highlighting the soothing atmosphere created inside the examination rooms."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Positive surgical outcomes with varied diagnostics"
+      },
+      "text": {
+        "en": "While multiple long-term clients report successful surgeries and reliable preventive care for senior dogs and cats, one reviewer described a frustrating diagnostic experience regarding a hernia. Most owners nevertheless express strong trust in the clinic's medical care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What veterinary services are available at Pet Health Center?"
+      },
+      "a": {
+        "en": "The clinic provides wellness exams, vaccinations, dental cleanings, soft-tissue surgery, radiology, ultrasound diagnostics, and urgent care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do staff manage nervous or difficult companion animals?"
+      },
+      "a": {
+        "en": "Reviewers observe that the veterinary team approaches anxious dogs and cats gently, helping difficult pets settle down during examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are urgent care services offered on weekends?"
+      },
+      "a": {
+        "en": "Yes, the clinic is open for urgent medical cases and routine visits on Saturdays from morning until early afternoon."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can pet owners request cost estimates prior to procedures?"
+      },
+      "a": {
+        "en": "Clients mention that the veterinarian discusses potential procedure costs and care options openly during outpatient consultations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "animals": "+",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

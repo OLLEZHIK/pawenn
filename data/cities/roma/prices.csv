@@ -1,17 +1,24 @@
 business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currency,source_url,observed_at,notes,unit,partial,note,note_local
-clinica-veterinaria-san-francesco,exam,,,52.20,52.20,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Visita 52,20 €",,,,
-clinica-veterinaria-san-francesco,vaccination_dog,,,57.29,57.29,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Vaccinazione 57,29 €",,,,
-clinica-veterinaria-san-francesco,microchip,,,43.43,43.43,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Applicazione Microchip + registrazione in anagrafe 43,43 €",,,,
-clinica-veterinaria-san-francesco,neuter_cat,,,139.64,139.64,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Castrazione gatto (compresa anestesia) Anestesia compresa nel prezzo. Anestesia inclusa 139,64 €",,,Includes anesthesia,Compresa anestesia
-clinica-veterinaria-san-francesco,spay_cat,,,188.69,188.69,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Sterilizzazione gatto (compresa anestesia) Anestesia compresa nel prezzo. Anestesia inclusa 188,69 €",,,Includes anesthesia,Compresa anestesia
-clinica-veterinaria-san-francesco,spay_dog,,,344.43,344.43,EUR,https://www.prontosoccorsoveterinarioroma.it/tariffario/,2026-10-11,"Sterilizzazione cane (compresa anestesia) Anestesia compresa nel prezzo. Anestesia inclusa 344,43 €",,,Includes anesthesia,Compresa anestesia
 centro-cinofilo-castelverde,obedience_course,,,150,150,EUR,https://addestramentocinofiloroma.com/servizi/,2026-10-11,,,,5 lessons,5 lezioni
-boutique-delle-birbe,bath_dry,,,30,35,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,"Taglia Piccola / Toy – 30/35€",,,,
-boutique-delle-birbe,full_groom,,,60,65,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,"Taglia Mini / Toy – 60/65€",,,,
-boutique-delle-birbe,hand_stripping,,,70,75,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,"Taglia Piccola / Toy – 70 / 75€",,,,
-boutique-delle-birbe,nail_trim,,,10,10,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,"Taglio unghie – 10€",,,,
-boutique-delle-birbe,cat_groom,,,60,60,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,"Lavaggio + asciugatura – 60€",,,,
+boutique-delle-birbe,bath_dry,,,30,35,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,Taglia Piccola / Toy – 30/35€,,,,
+boutique-delle-birbe,full_groom,,,60,65,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,Taglia Mini / Toy – 60/65€,,,,
+boutique-delle-birbe,hand_stripping,,,70,75,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,Taglia Piccola / Toy – 70 / 75€,,,,
+boutique-delle-birbe,nail_trim,,,10,10,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,Taglio unghie – 10€,,,,
+boutique-delle-birbe,cat_groom,,,60,60,EUR,https://boutiquedellebirbe.com/servizi-toeletta?_escaped_fragment_=,2026-10-11,Lavaggio + asciugatura – 60€,,,,
 allevamento-pastore-tedesco-roma-pensione-cani-pensione-gatti-casa-rita,dog_night,,,27,27,EUR,https://www.casaritaportale.it/servizi-pensioni-cani/,2026-10-11,"Pensione Cani € 27,00 / giorno",,,,
 allevamento-pastore-tedesco-roma-pensione-cani-pensione-gatti-casa-rita,cat_night,,,22,22,EUR,https://www.casaritaportale.it/gatti/,2026-10-11,"Pensione Gatti – Box Standard € 22,00 / giorno",,,,
-allevamento-pastore-tedesco-roma-pensione-cani-pensione-gatti-casa-rita,daycare_day,,,18,18,EUR,https://www.casaritaportale.it/asilo-cani/,2026-10-11,"18€ giornata intera",,,,
+allevamento-pastore-tedesco-roma-pensione-cani-pensione-gatti-casa-rita,daycare_day,,,18,18,EUR,https://www.casaritaportale.it/asilo-cani/,2026-10-11,18€ giornata intera,,,,
 van-dog,daycare_day,,,15,15,EUR,https://www.vandog.it/prezzi/,2026-10-11,"1 Ingresso €15,00",,,,
+dog-trainer-dog-house-roma,cat_visit,,,20,20,EUR,https://www.dogsitterdoghouseroma.it/servizi-a-domicilio/,2026-10-15,20 € a visita per un solo cane (taglia piccola/media) o gatto,,,,
+dog-trainer-dog-house-roma,daycare_day,,,25,35,EUR,https://www.dogsitterdoghouseroma.it/prezzi-pensione-cani-roma/,2026-10-15,25 € oltre le 3 ore – cani taglia piccola (fino a 13kg) / 35 € oltre le 3 ore – cani di taglia media/grande (da 14 kg fino a 32 kg),,,full day daycare (over 3h),asilo giornaliero oltre 3 ore
+dog-trainer-dog-house-roma,boarding_night,,,30,40,EUR,https://www.dogsitterdoghouseroma.it/prezzi-pensione-cani-roma/,2026-10-15,30 € taglia piccola (fino a 10 kg) / 40 € cani di taglia grande (superiori a 21 kg),,,weekday rate (small to large dog),tariffa feriale (da piccola a grande)
+il-parco-di-pluto,daycare_day,,,25,25,EUR,https://www.ilparcodipluto.com/tariffe-e-servizi-1,2026-10-15,Ingresso Giornata Intera Euro 25,,,Full day daycare,Giornata intera
+vetathomerome-veterinari-domicilio-roma,exam,,,89.00,89.00,EUR,https://vetathomerome.it/tariffe-veterinario-a-domicilio-roma/,2026-10-15,"Tariffa visita a domicilio base Roma Netto €89,00",,,,
+ambulatorio-veterinario-drssa-marcella-lucia,exam,,,50.00,50.00,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"Visita cane gatto o coniglio €50,00",,,,
+ambulatorio-veterinario-drssa-marcella-lucia,vaccination_dog,,,60.00,60.00,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"Vaccino Polivalente €60,00",,yes,Polyvalent (excluding rabies),Polivalente escluso antirabbica
+ambulatorio-veterinario-drssa-marcella-lucia,microchip,,,50.00,50.00,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"Impianto Microchip cane e iscrizione Anagrafe Canina €50,00",,,,
+ambulatorio-veterinario-drssa-marcella-lucia,neuter_cat,,,100.00,100.00,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"Castrazione gatto maschio €100,00",,,,
+ambulatorio-veterinario-drssa-marcella-lucia,spay_cat,,,150.00,150.00,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"Sterilizzazione gatto femmina €150,00",,,,
+ambulatorio-veterinario-drssa-marcella-lucia,spay_dog,,,300.00,,EUR,https://www.veterinariapiazzabologna.it/tariffario-veterinario/,2026-10-15,"A partire da €300,00",,,,
+centro-di-psicologia-canina-roma-addestramento-cani,obedience_course,,,240,240,EUR,https://psicologiacaninaroma.com/,2026-10-16,Corso per proprietari — 240 €,,,4 sessions (12 hours),4 incontri (12 ore)
+centro-di-psicologia-canina-roma-addestramento-cani,private_lesson,,,80,80,EUR,https://psicologiacaninaroma.com/,2026-10-16,Singolo incontro 80 €.,,,Single session,Singolo incontro

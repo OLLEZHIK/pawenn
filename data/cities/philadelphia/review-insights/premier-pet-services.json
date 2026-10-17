@@ -1,0 +1,132 @@
+{
+  "slug": "premier-pet-services",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Premier+Pet+Services+LLC/data=!4m7!3m6!1s0x89c6b9998776e50b:0x8f127eae2b6a0422!8m2!3d40.0332556!4d-75.2151085!16s%2Fg%2F11jj285ljy!19sChIJC-V2h5m5xokRIgRqK65-Eo8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Styling expertise mixed with shave complaints"
+      },
+      "text": {
+        "en": "Feedback regarding grooming finishes is divided. Long-time clients celebrate expert styling on poodles, noting beautiful top-knots and tidy coats. Conversely, a disappointed dog owner complained that groomers shaved their pet completely rather than styling the coat, finding the finished result unsatisfactory."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Skilled stylists despite staff turnover"
+      },
+      "text": {
+        "en": "Reviewers acknowledge individual groomers for their talent and helpful assistance during drop-off. However, customer sentiment is mixed due to frequent employee turnover, with established patrons noting repeated changes in grooming personnel and questioning management consistency."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Appointment messaging and turnover updates"
+      },
+      "text": {
+        "en": "Communication experiences vary among patrons. While several pet parents highlight quick answers and straightforward scheduling, another client expressed frustration over a lack of advance notice regarding groomer departures, urging clearer client notification during staffing transitions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What dog breeds are commonly groomed at Premier Pet Services?"
+      },
+      "a": {
+        "en": "The salon regularly grooms standard poodles, doodles, and other companion breeds requiring detailed breed trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How easy is it to book an appointment?"
+      },
+      "a": {
+        "en": "Clients report that scheduling appointments is straightforward and reception staff are generally responsive."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients request a consistent individual groomer?"
+      },
+      "a": {
+        "en": "Reviewers note that while requesting specific stylists is common, periodic staff changes can affect groomer consistency."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the parlour offer complete body clipping for dogs?"
+      },
+      "a": {
+        "en": "Yes, groomers perform full body clips and styling cuts depending on coat condition and pet owner instructions."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

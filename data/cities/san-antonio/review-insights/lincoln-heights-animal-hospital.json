@@ -1,0 +1,139 @@
+{
+  "slug": "lincoln-heights-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lincoln+Heights+Animal+Hospital/data=!4m7!3m6!1s0x865cf541c0fe7013:0xba02799b60d96f0d!8m2!3d29.4972123!4d-98.466259!16s%2Fg%2F1tfc2fpy!19sChIJE3D-wEH1XIYRDW_ZYJt5Aro?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Attentive and thorough clinical team"
+      },
+      "text": {
+        "en": "Pet owners frequently commend the veterinary surgeons and clinical staff for their thoroughness, patience, and attentive bedside manner. Reviewers highlight how clearly the clinicians explain diagnosis and treatment steps. While a single review reports friction with reception staff, the broader consensus praises the team for attentive support during both routine visits and triage consultations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Dedicated care for companion animals"
+      },
+      "text": {
+        "en": "Reviewers emphasize the clinic's gentle and considerate approach towards their pets, noting that animals receive warm individual attention. Owners of dogs with chronic conditions such as autoimmune disease and diabetes report feeling reassured by tailored care plans, while long-term clients describe pets looking forward to visits without hesitation or visible distress."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable clinical outcomes and triage"
+      },
+      "text": {
+        "en": "Feedback regarding clinical outcomes is consistently favourable across recent months. Clients recount positive experiences ranging from urgent triage after foreign object ingestion to ongoing management of complex chronic illnesses. Pet parents appreciate that examinations are thorough without recommending redundant diagnostic testing or unnecessary medication."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Lincoln Heights Animal Hospital handle emergency triage for walk-in situations?"
+      },
+      "a": {
+        "en": "Reviewers note that the clinic accommodated triage visits when pets ingested foreign objects, though calling ahead is recommended as wait times can vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the veterinary team manage complex chronic conditions like diabetes?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that attending clinicians review comprehensive patient history and design structured care plans for autoimmune diseases and diabetes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How transparent is the hospital regarding examination and treatment costs?"
+      },
+      "a": {
+        "en": "Clients mention that staff outline expected costs and consultation fees upfront before carrying out diagnostic procedures or dispensing medication."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

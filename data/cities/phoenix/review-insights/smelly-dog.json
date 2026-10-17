@@ -1,0 +1,162 @@
+{
+  "slug": "smelly-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Smelly+Dog/data=!4m7!3m6!1s0x872b12c345aacc8d:0x9c66988965150911!8m2!3d33.5214444!4d-112.0644402!16s%2Fg%2F1tdfj48d!19sChIJjcyqRcMSK4cREQkVZYmYZpw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Consistent styling and thorough bathing"
+      },
+      "text": {
+        "en": "Clients consistently praise the high quality of grooming services, including precision trimming, nail clipping, and deshedding treatments. Multiple reviewers mention that their dogs return smelling pleasant, looking impeccably neat, and sporting tidy breed-specific cuts. Owners express complete satisfaction with how closely groomers match their requests."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly and accommodating salon groomers"
+      },
+      "text": {
+        "en": "The salon team receives widespread recognition for their warm customer service and attentive manner. Pet owners frequently name individual groomers for their patience, gentle communication, and readiness to schedule appointments on short notice. Reviewers feel reassured leaving high-energy or nervous dogs in the care of accommodating personnel."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for anxious dogs"
+      },
+      "text": {
+        "en": "Pet owners appreciate the calm environment created for nervous puppies and fidgety dogs during styling sessions. Reviewers note that groomers treat companion animals with genuine affection, taking extra time to reassure them throughout washing and trimming. Dogs are reported to come away happy, relaxed, and wagging their tails after appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do groomers accommodate specific breed-style haircuts?"
+      },
+      "a": {
+        "en": "Yes, pet owners report groomers successfully deliver tailored trims, including topknots and breed-standard cuts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are bathing and nail trimming included in grooming visits?"
+      },
+      "a": {
+        "en": "Yes, clients describe full bathing packages complete with blow-drying, nail trims, and coat conditioning."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Smelly Dog handle high-energy or nervous puppies?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that groomers maintain a patient, gentle approach that helps anxious dogs stay calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are text notifications provided when pets are ready for collection?"
+      },
+      "a": {
+        "en": "Yes, clients confirm receiving prompt text messages as soon as grooming sessions are finished."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

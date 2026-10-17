@@ -1,0 +1,31 @@
+{
+  "chunk": "insights-ballygarvan-kennels-grooming",
+  "kind": "insights",
+  "slugs": [
+    "ballygarvan-kennels-grooming"
+  ],
+  "hash": "8e5136a34a6c0e4ccaa3eccc2cf7614a5d4892858fa63054091d070b87d848bf",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T19:40:53.876Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T19:41:47.381Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-16T19:42:30.431Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T19:43:39.772Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

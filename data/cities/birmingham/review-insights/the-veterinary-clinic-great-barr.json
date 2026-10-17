@@ -1,0 +1,152 @@
+{
+  "slug": "the-veterinary-clinic-great-barr",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Veterinary+Clinic+-+Great+Barr/data=!4m7!3m6!1s0x4870a3e3e6a9e60d:0x22d10c89f4c84140!8m2!3d52.5526247!4d-1.9077992!16s%2Fg%2F11r7qc9jwd!19sChIJDeap5uOjcEgRQEHI9IkM0SI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Polite and attentive clinical staff"
+      },
+      "text": {
+        "en": "Most reviewers commend the vets and reception team for their polite, patient, and thorough care during consultations. Clients appreciate being able to consult familiar vets who offer practical guidance, though one reviewer expressed serious anger over an encounter following an unsuccessful surgical procedure."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Positive routine care with surgical dispute"
+      },
+      "text": {
+        "en": "Pet owners generally express confidence in the clinic's medical diagnostics and treatment of illnesses, with several deciding to switch permanently to the practice. However, opinions are mixed due to a severe complaint alleging surgical negligence during an operation that led to a pet's subsequent decline."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Supportive guidance alongside client complaint"
+      },
+      "text": {
+        "en": "Several clients appreciate the patient explanations offered by clinicians while helping owners understand pet illnesses and diagnostic steps. In contrast, one unhappy pet owner reported poor post-operative communication, alleging that practice staff dismissed concerns about their dog's deteriorating condition."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does The Veterinary Clinic in Great Barr accommodate same-day appointments?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the practice frequently arranges same-day appointments for urgent pet health concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the clinic situated in Great Barr?"
+      },
+      "a": {
+        "en": "The clinic is located along Walsall Road in Great Barr, offering convenient accessibility for local pet owners."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can clients see the same vet for ongoing pet care?"
+      },
+      "a": {
+        "en": "Clients report that they are usually able to see the same attending clinician for continuous treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What services are provided at the Great Barr practice?"
+      },
+      "a": {
+        "en": "The clinic provides general health consultations, surgical treatments, diagnostic checks, and pet wellness plans."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

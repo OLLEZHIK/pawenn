@@ -1,0 +1,154 @@
+{
+  "slug": "the-cat-connection",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Cat+Connection/data=!4m7!3m6!1s0x864c2128e0dce36b:0x379a10266549f468!8m2!3d32.9391401!4d-96.8355107!16s%2Fg%2F1tf5qmv3!19sChIJa-Pc4CghTIYRaPRJZSYQmjc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Caring groomers alongside communication lapses"
+      },
+      "text": {
+        "en": "Many clients praise individual groomers like Priscilla and Lindsay for their patience, kindness, and clear explanations of feline coat treatments. However, other reviewers experienced frustrations regarding customer service policies, including an unaddressed soiled coat at collection and unexpected restrictions regarding walking pets inside the boutique."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Feline grooming results alongside order delays"
+      },
+      "text": {
+        "en": "Cat owners generally express satisfaction with full haircuts, belly shaves, and claw trims, reporting that cats return clean and well groomed for the warmer seasons. In contrast, online retail customers reported difficulties with dispatched store orders and slow tracking updates, which contrasted with positive feedback for in-person styling services."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle environment for sensitive cats"
+      },
+      "text": {
+        "en": "Reviewers highlight that groomers handle anxious and timid cats with patience and gentle reassurance, helping pets remain calm and relatively relaxed during styling sessions. Owners note that staff prioritize the animal's comfort, recommending veterinary advice or scheduling adjustments whenever a cat shows significant distress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What feline services does The Cat Connection provide?"
+      },
+      "a": {
+        "en": "The facility operates a cat-specific boutique, feline boarding facilities, and grooming services including baths, haircuts, and claw trimming."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are cats groomed by specialized feline groomers?"
+      },
+      "a": {
+        "en": "Yes, reviewers frequently commend specific groomers by name for their careful handling and experience with sensitive or nervous cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers view adoptable cats at the shop?"
+      },
+      "a": {
+        "en": "Yes, visitors note that adoptable cats can be visited in a dedicated adoption room located near the front entrance of the store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What happens if a cat becomes too distressed during grooming?"
+      },
+      "a": {
+        "en": "Clients mention that staff will halt grooming if an animal is overly stressed, suggesting owners consult their vet before rebooking."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

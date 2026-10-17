@@ -1,0 +1,144 @@
+{
+  "slug": "hello-vet-columbia-road",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hello+Vet+Columbia+Road/data=!4m7!3m6!1s0x48761d9620eb4aab:0x4481cad784d0621e!8m2!3d51.5309958!4d-0.0673616!16s%2Fg%2F11wvln63ct!19sChIJq0rrIJYddkgRHmLQhNfKgUQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Warm and caring clinic veterinarians"
+      },
+      "text": {
+        "en": "Pet owners describe the veterinary surgeons and nurses as exceptionally warm, professional, and reassuring. Reviewers mention that Dr Emma and the team take ample time to answer questions and explain care steps thoroughly. Clients appreciate the friendly atmosphere and feel that their pets are in devoted and capable hands."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle treatment for young pets"
+      },
+      "text": {
+        "en": "Clients highlight how gently puppies and kittens are handled during their first veterinary visits, microchipping, and routine injections. Reviewers note that staff offer cuddles and treats, ensuring nervous animals stay calm throughout examinations. Pet parents report that their animals experience minimal stress during appointments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Smooth routine procedures and examinations"
+      },
+      "text": {
+        "en": "Reviewers report excellent clinical outcomes for pet check-ups, prescription refills, and microchip implantations. Owners note that vaccinations are administered so smoothly that pets barely notice the injections. Clients express complete satisfaction with the practical healthcare advice and attentive follow-up provided."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Hello Vet Columbia Road suitable for first-time puppy or kitten visits?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention gentle introductory visits for kittens and puppies, with treats and a calm environment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be booked quickly without long waiting times?"
+      },
+      "a": {
+        "en": "Reviewers report that next-day appointments are easily booked and consultations consistently run on time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice provide home visits?"
+      },
+      "a": {
+        "en": "Yes, Hello Vet offers at-home veterinary consultations across the local neighbourhood in addition to in-clinic visits."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

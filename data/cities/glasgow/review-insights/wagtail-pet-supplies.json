@@ -1,0 +1,132 @@
+{
+  "slug": "wagtail-pet-supplies",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wagtail+Pet+Supplies+%2F+Dog+Groomers/data=!4m7!3m6!1s0x488842c23706022d:0xa8cb4b21ce113084!8m2!3d55.9350407!4d-4.1539216!16s%2Fg%2F1wd3vmsc!19sChIJLQIGN8JCiEgRhDARziFLy6g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly retail staff alongside grooming complaints"
+      },
+      "text": {
+        "en": "Customers visiting the pet shop praise the store assistants for being friendly, helpful, and welcoming when purchasing pet food and supplies. However, two reviewers express serious dissatisfaction with the on-site dog groomer, describing unprofessional behaviour, rude interactions, and an abrupt refusal of service."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Breakdowns in customer communication"
+      },
+      "text": {
+        "en": "Reviewers report significant communication issues when attempting to coordinate grooming appointments and resolve complaints. Clients describe staff refusing to listen to customer concerns and failing to acknowledge requests for deposit refunds after services were cancelled on short notice."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied experiences with pet handling"
+      },
+      "text": {
+        "en": "Pet owners appreciate the wide selection of animal treats and food products catered to different pets in the retail section. However, one owner reported a distressing grooming experience where their dog became visibly nervous after a groom was refused, leaving the owner unwilling to entrust their pet to the salon again."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What products are available at Wagtail Pet Supplies?"
+      },
+      "a": {
+        "en": "The store carries a variety of natural dog treats, pet food supplies, and accessories for different animals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the business offer dog grooming services?"
+      },
+      "a": {
+        "en": "Yes, an on-site parlour offers grooming, though several recent reviewers report difficulties with booking and customer service."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should customers know regarding grooming deposits?"
+      },
+      "a": {
+        "en": "Reviewers advise clarifying deposit policies and cancellation terms beforehand, noting disputes over refunds when sessions were cancelled."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in Glasgow?"
+      },
+      "a": {
+        "en": "The shop is located at 7 Muirhead Street in Kirkintilloch, East Dunbartonshire."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

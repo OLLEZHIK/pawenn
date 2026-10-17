@@ -1,0 +1,140 @@
+{
+  "slug": "doggie-style-pets-fishtown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggie+Style+Pets+Fishtown/data=!4m7!3m6!1s0x89c6c9e612c5df8f:0xef06196182267c0d!8m2!3d39.9726013!4d-75.1344887!16s%2Fg%2F11fjtyq_md!19sChIJj9_FEubJxokRDXwmgmEZBu8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Pleasing grooms with unfinished exceptions"
+      },
+      "text": {
+        "en": "Several pet owners report that their dogs emerged smelling fresh, clean, and neatly trimmed, commending the skill of specific groomers like Ashe and Calvin. In contrast, one client shared photos of unclipped fur on a dog's legs, expressing disappointment when requested sanitary work was left incomplete."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Supportive stylists alongside management hurdles"
+      },
+      "text": {
+        "en": "Frontline grooming staff receive praise for their gentle handling and polite assistance during standard appointments. However, multiple reviewers express deep frustration with management following sudden groomer departures, citing unhelpful service and a lack of accommodation when sessions were abruptly cancelled."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Recurring cancellations and long delays"
+      },
+      "text": {
+        "en": "Scheduling reliability is a significant concern for repeat clients in Fishtown. While one owner appreciated a swift one-hour turnaround, multiple reviewers experienced repeated last-minute appointment cancellations with no prompt rebooking options, leading to backlogs that stretched for several months."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How quickly are grooming appointments typically completed?"
+      },
+      "a": {
+        "en": "Turnaround depends on coat condition, with satisfied clients reporting routine grooms completed within an hour."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should customers do if an appointment is cancelled?"
+      },
+      "a": {
+        "en": "Reviewers advise contacting customer support directly or booking online well in advance due to scheduling backlogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the Fishtown shop carry pet supplies and food?"
+      },
+      "a": {
+        "en": "Yes, the store stocks quality kibble, treats, leashes, toys, and grooming items alongside salon services."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can I adopt a rescue pet at this location?"
+      },
+      "a": {
+        "en": "Doggie Style Pets works closely with animal rescue partners to support shelter adoptions across the city."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

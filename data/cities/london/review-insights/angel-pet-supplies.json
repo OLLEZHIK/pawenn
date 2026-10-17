@@ -1,0 +1,121 @@
+{
+  "slug": "angel-pet-supplies",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Angel+Pet+Supplies/data=!4m7!3m6!1s0x48761b4254b83ea1:0x5e8daed24129b4a9!8m2!3d51.5333511!4d-0.1097163!16s%2Fg%2F1tjpp_1h!19sChIJoT64VEIbdkgRqbQpQdKujV4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Well stocked neighbourhood pet store"
+      },
+      "text": {
+        "en": "Shoppers appreciate the convenient Chapel Market location and wide selection of supplies, describing the shop as a favourite destination for pet essentials. Reviewers praise the store for keeping shelves well stocked with varied items. While one customer noted a stock rotation issue on frozen items, the general retail space is well regarded."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and welcoming shop staff"
+      },
+      "text": {
+        "en": "Customers highlight the approachable and friendly assistance offered by shop workers and cashiers when browsing for pet supplies. Reviewers mention that staff members willingly help locate specific items on the shelves. Even in reviews discussing product queries, visitors note that the team remains polite and courteous during interactions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Product selection and stock freshness"
+      },
+      "text": {
+        "en": "Most pet owners praise the quality and variety of goods purchased for their pets over multiple years of shopping. However, one shopper reported discovering expired frozen fish food cubes after purchase and urged closer monitoring of stock dates. Despite this concern, customers generally express satisfaction with the items available in the shop."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Angel Pet Supplies located?"
+      },
+      "a": {
+        "en": "The shop is located at 81 Chapel Market in the Angel area of Islington, North London."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What products are available at the store?"
+      },
+      "a": {
+        "en": "The store stocks a wide range of pet essentials, including pet food, treats, accessories, and aquarium supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do customers describe the customer service?"
+      },
+      "a": {
+        "en": "Shoppers describe the staff as friendly and helpful with finding items, though one reviewer noted an expired food item that needed stock checking."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

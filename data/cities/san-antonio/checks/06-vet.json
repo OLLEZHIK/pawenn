@@ -1,0 +1,40 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "nds-animal-hospital",
+    "broadway-oaks-animal-hospital",
+    "animal-hospital-of-westover-hills",
+    "guilbeau-station-animal-hospital",
+    "family-pet-hospital-of-stone-oak",
+    "north-star-410-animal-hospital",
+    "south-texas-avian-exotic-hospital",
+    "ten-west-bird-animal-hospital",
+    "my-pets-vet-san-antonio",
+    "night-watch-elite-animal-emergency"
+  ],
+  "hash": "2d1f4255db07f5b3b96078e2b60ea251f73f15999d5e6b9507f2290af5ecc30a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:53:02.726Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-16T22:54:41.033Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-16T23:09:21.519Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:13:07.899Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

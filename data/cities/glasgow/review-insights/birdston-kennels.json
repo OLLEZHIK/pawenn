@@ -1,0 +1,109 @@
+{
+  "slug": "birdston-kennels",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Birdston+Kennels/data=!4m7!3m6!1s0x48885d31ece7c2f5:0x71487f663c257d1!8m2!3d55.9553109!4d-4.1532199!16s%2Fg%2F1t_wny9l!19sChIJ9cLn7DFdiEgR0VfCY_aHFAc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive kennel staff with mixed feedback"
+      },
+      "text": {
+        "en": "Longtime clients who have boarded their dogs at Birdston Kennels over multiple years praise the staff for their dedication and understanding of canine needs. Reviewers appreciate that the team accommodated specific requirements such as administering routine medication. However, one client left a critical review citing inconsistent communication regarding boarding arrangements."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Caring support and medication management"
+      },
+      "text": {
+        "en": "Dog owners highlight the attentive care provided to their pets during kennel stays, noting that the staff show a strong understanding of pet behaviour. Reviewers mention that the team handled older dogs with genuine warmth and managed extra care needs reliably. Clients with multi-year boarding histories express confidence in the facility day-to-day pet supervision."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can kennel staff administer medication to boarding pets?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that staff reliably accommodate extra pet care routines, including daily medications."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are grooming services like hand stripping available?"
+      },
+      "a": {
+        "en": "Yes, dog owners note high satisfaction with grooming and hand stripping for breeds like terriers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What vaccination proof is required for boarding?"
+      },
+      "a": {
+        "en": "Up-to-date vaccinations including kennel cough protection are required before dogs can be checked in."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is Birdston Kennels situated?"
+      },
+      "a": {
+        "en": "The boarding facility is located on Birdston Road between Kirkintilloch and Milton of Campsie north of Glasgow."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

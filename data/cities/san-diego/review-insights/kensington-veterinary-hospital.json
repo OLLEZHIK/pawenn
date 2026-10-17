@@ -1,0 +1,158 @@
+{
+  "slug": "kensington-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kensington+Veterinary+Hospital/data=!4m7!3m6!1s0x80d9544c2c9e3cf7:0x8bb37f81bd343bd5!8m2!3d32.7630587!4d-117.1116506!16s%2Fg%2F1v5k396t!19sChIJ9zyeLExU2YAR1Ts0vYF_s4s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Divided experiences with clinical staff"
+      },
+      "text": {
+        "en": "Longtime clients praise veterinarians like Dr. Hayes and Dr. Rivard for their attentiveness, thorough checkups, and genuine affection toward pets. Conversely, other pet parents report frustrating interactions with front-desk staff, describing dismissive telephone screening, refusal to intake complicated cases, and a perceived revolving door of doctors."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied satisfaction regarding medical diagnoses"
+      },
+      "text": {
+        "en": "Some reviewers report positive medical care, noting successful dental extractions and thorough health examinations. However, two critical reviews highlight misdiagnoses, including an aggressive recommendation for partial jaw surgery on a cat that a second opinion proved unnecessary, as well as contradictory treatment recommendations for a dog."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frustration over phone and intake communication"
+      },
+      "text": {
+        "en": "Several reviewers report poor communication, citing unanswered phone calls, unreturned voicemails, and long lectures during phone inquiries rather than constructive intake. Additionally, an owner noted frustration with a policy requiring separate return visits simply to collect prescriptions, adding inconvenience for working pet parents."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What surgical and dental services are mentioned by clients?"
+      },
+      "a": {
+        "en": "Pet owners mention routine vaccinations, examinations, and successful pet dental procedures with extractions and recovery updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How easy is it to schedule appointments by phone or online?"
+      },
+      "a": {
+        "en": "While established clients schedule smoothly, new clients report difficulties with unreturned voicemails and delays when using online intake forms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What should clients know about prescription collection policies?"
+      },
+      "a": {
+        "en": "A reviewer mentions an inconvenience where owners had to make a separate follow-up trip to pick up prescribed pet medications."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients feel about seeking second opinions?"
+      },
+      "a": {
+        "en": "Multiple reviewers recommend seeking second opinions for major surgical recommendations, recounting past instances where initial advice proved overly aggressive."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "maison-des-urgences-veterinaires-city-paris-3",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maison+des+Urgences+V%C3%A9t%C3%A9rinaires+City+Paris+3/data=!4m7!3m6!1s0x47e66f88c1d42e67:0xf6c75d6e925c00c2!8m2!3d48.8627235!4d2.3665805!16s%2Fg%2F11wxszss_1!19sChIJZy7UwYhv5kcRwgBckm5dx_Y?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fr": "Avis très partagés sur l'accueil et l'écoute",
+        "en": "Sharply mixed views on reception and empathy"
+      },
+      "text": {
+        "fr": "Les retours d'expérience sont très partagés concernant le personnel de ce cabinet d'urgence du 3e arrondissement. Si plusieurs propriétaires saluent la patience et la grande compassion de praticiens comme le docteur Amgaad lors de moments douloureux, d'autres déplorent vivement un accueil froid au secrétariat et un manque d'empathie face à la détresse des maîtres.",
+        "en": "Client feedback is sharply divided regarding the staff at this 3rd arrondissement emergency clinic. While several owners praise the deep compassion and gentle support of practitioners like Dr. Amgaad during critical situations, other reviewers strongly criticize a cold demeanor at reception and a perceived lack of empathy during urgent distress."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Patience et gestion des animaux stressés",
+        "en": "Gentle patience with frightened patients"
+      },
+      "text": {
+        "fr": "Les propriétaires d'animaux soulignent que les soignants font preuve de calme et de patience face à des chats ou des chiens particulièrement apeurés lors des examens d'urgence. Même lorsque la douleur ou la peur rend l'animal agité, les médecins s'efforcent d'effectuer les radios et bilans sanguins avec douceur pour limiter le stress lié à la clinique.",
+        "en": "Pet owners note that clinical staff demonstrate calm patience when handling frightened cats and dogs during urgent medical assessments. Even when severe distress or pain causes animals to resist, doctors strive to perform required X-rays and diagnostic tests as gently as possible to minimize anxiety throughout the emergency visit."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Délais d'attente nocturnes et ordre de priorité",
+        "en": "Overnight waiting times and triage delays"
+      },
+      "text": {
+        "fr": "Les avis critiques signalent des attentes parfois longues au cœur de la nuit, même lorsqu'un horaire indicatif a été convenu par téléphone. L'ordre de passage est établi selon le degré d'urgence vitale des animaux arrivés sur place, ce qui peut occasionner des retards frustrants pour les propriétaires anxieux dont l'animal n'est pas prioritaire.",
+        "en": "Critical reviews point to lengthy delays during late-night visits, even after an estimated arrival time was arranged over the phone. Medical triage prioritizes life-threatening cases on arrival, which leads to prolonged and stressful waiting periods for anxious pet owners whose companions are classified as secondary emergencies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Faut-il appeler avant de venir en urgence ?",
+        "en": "Should clients call before arriving for emergency care?"
+      },
+      "a": {
+        "fr": "Oui, un appel téléphonique préalable permet d'évaluer la situation et de préparer l'accueil de l'animal.",
+        "en": "Yes, telephoning ahead allows the veterinary team to assess the emergency and prepare for the pet's arrival."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Comment sont priorisées les consultations nocturnes ?",
+        "en": "How are urgent cases prioritized during night hours?"
+      },
+      "a": {
+        "fr": "Les urgences vitales immédiates sont traitées en priorité par l'équipe médicale, quel que soit l'ordre d'arrivée.",
+        "en": "Patients presenting with life-threatening conditions receive immediate medical priority regardless of arrival order."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le cabinet dispose-t-il d'équipements de radiographie sur place ?",
+        "en": "Does the clinic have on-site radiography and blood diagnostic equipment?"
+      },
+      "a": {
+        "fr": "Oui, les praticiens réalisent directement des radiographies et des bilans sanguins d'urgence sur place.",
+        "en": "Yes, the facility is equipped to perform emergency X-rays and immediate blood panels on site."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

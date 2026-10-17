@@ -1,0 +1,131 @@
+{
+  "slug": "verve-london-pet-boutique-cafe",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Verve+London+Pet+Boutique+%26+Cafe/data=!4m7!3m6!1s0x48760ffd63c19619:0x96227c66e5e7af7d!8m2!3d51.5145607!4d-0.1979192!16s%2Fg%2F11bysjx96k!19sChIJGZbBY_0PdkgRfa_n5WZ8IpY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Serious concerns regarding pet safety"
+      },
+      "text": {
+        "en": "Recent feedback reflects significant owner alarm regarding the welfare and handling of dogs during grooming appointments. While one reviewer appreciated patient handling for an anxious pet, multiple clients report distress over physical injuries, including a bleeding paw cut, and flea transmission. Pet parents advise caution when leaving companion animals for treatment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Criticism over professionalism and care"
+      },
+      "text": {
+        "en": "Pet owners express substantial dissatisfaction with management and grooming personnel over recent months. One client praised helpful advice regarding walking equipment, but several reviewers describe unhelpful attitudes, poor communication following complaints, and a perceived lack of accountability from the owner. Trust in the salon's standards remains compromised."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustrations with salon environment"
+      },
+      "text": {
+        "en": "Reviewers voice critical concerns regarding the suitability and hygiene of the grooming premises. Clients note that the basement grooming area lacks transparency and monitoring cameras, raising safety anxieties for pet owners. Other reviewers describe unpleasant salon experiences and express disappointment with overall conditions in the boutique."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What concerns do clients raise regarding dog grooming at Verve?"
+      },
+      "a": {
+        "en": "Recent reviewers express worry about pet handling, reporting issues such as unaddressed cuts, flea contamination, and unexpected charges."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are grooming areas visible to pet owners?"
+      },
+      "a": {
+        "en": "Clients observe that the grooming room is situated underground and does not feature public viewing windows or monitoring cameras."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How have reviewers described the pricing for full grooming services?"
+      },
+      "a": {
+        "en": "Reviewers caution that full grooming charges can be steep, with one client reporting an unexpected bill of £185."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "animals": "-",
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

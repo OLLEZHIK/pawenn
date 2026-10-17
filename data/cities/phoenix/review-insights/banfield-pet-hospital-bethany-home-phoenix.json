@@ -1,0 +1,205 @@
+{
+  "slug": "banfield-pet-hospital-bethany-home-phoenix",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Banfield+Pet+Hospital/data=!4m7!3m6!1s0x872b132ac7c6abf5:0x1c8228bae167a79b!8m2!3d33.52247!4d-112.0974273!16s%2Fg%2F1tfrmt84!19sChIJ9avGxyoTK4cRm6dn4booghw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate and accommodating veterinary team"
+      },
+      "text": {
+        "en": "Pet owners broadly appreciate the clinic staff, describing veterinary surgeons, technicians, and front desk personnel as gentle, empathetic, and patient. Reviewers highlight their willingness to accommodate urgent appointments and support anxious shelter animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Effective clinical treatment and grooming"
+      },
+      "text": {
+        "en": "The majority of reviewers report successful medical outcomes, effective medications, and well-executed feline grooming sessions. While one owner experienced delayed diagnosis for a complex illness, most clients report that their pets recovered quickly following care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Variable consultation and reporting clarity"
+      },
+      "text": {
+        "en": "Several pet owners praise the detailed visit summaries and diagnostic explanations provided by veterinary staff and online portals. Conversely, a reviewer noted feeling dismissed when asking about a lingering condition and receiving vague initial instructions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do clients rate the handling of anxious pets?"
+      },
+      "a": {
+        "en": "Reviewers note that the team demonstrates patience and gentle care when examining nervous rescue dogs and anxious cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can urgent appointments be accommodated?"
+      },
+      "a": {
+        "en": "Clients report that staff made efforts to squeeze in sick pets during urgent situations and arranged emergency referrals when needed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this location provide grooming services for cats?"
+      },
+      "a": {
+        "en": "Yes, clients specifically praise the cat groomer at this hospital for effective deshedding and coat care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are medical visit reports accessible online?"
+      },
+      "a": {
+        "en": "Pet owners appreciate accessing clinical reports, treatment notes, and vaccination records through the Banfield client portal."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "scooby-s-grooming-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Scooby%27s+Grooming+Salon/data=!4m7!3m6!1s0x4870a488b4c478c9:0x43f9b636487fe52d!8m2!3d52.5841782!4d-1.8284901!16s%2Fg%2F11g9r07vg2!19sChIJyXjEtIikcEgRLeV_SDa2-UM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for anxious dogs"
+      },
+      "text": {
+        "en": "Owners of senior and nervous dogs note how calm and content their pets remain throughout appointments. Several clients mention that their puppies eagerly run through the salon door for routine visits. Reviewers appreciate that the team treats every pet with patience, genuine affection, and attentive individual care."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive and welcoming grooming team"
+      },
+      "text": {
+        "en": "Clients frequently praise the groomers for their warm approach and clear communication with pet owners. Reviewers highlight that staff take time to explain each stage of the grooming process and provide helpful feedback. One customer particularly appreciated a groomer alerting them to a health issue noticed during a session."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Neat haircuts and teeth cleaning"
+      },
+      "text": {
+        "en": "Pet parents express great satisfaction with the appearance and scent of their dogs following styling appointments. Reviewers highlight neat breed-specific cuts alongside supplementary services such as ultrasonic teeth cleaning. Multiple clients report that their pets look beautifully groomed and well maintained after each visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they offer introductory grooming packages for young puppies?"
+      },
+      "a": {
+        "en": "Yes, clients highlight a multi-stage puppy package designed to gently introduce puppies to salon visits and basic handling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can anxious or elderly dogs be groomed safely at the salon?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that staff take extra time with nervous or senior dogs to ensure a stress-free appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are ultrasonic teeth-cleaning treatments available for dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that teeth cleaning can be added alongside routine washing and styling services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do dogs typically react to arriving at the salon?"
+      },
+      "a": {
+        "en": "Several customers mention that their dogs are enthusiastic when arriving and leave relaxed and happy."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

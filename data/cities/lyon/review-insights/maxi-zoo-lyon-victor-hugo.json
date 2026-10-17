@@ -1,0 +1,182 @@
+{
+  "slug": "maxi-zoo-lyon-victor-hugo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maxi+Zoo+Lyon+Victor+Hugo/data=!4m7!3m6!1s0x47f4eb4a20fe1b2d:0xaea52caf745a55af!8m2!3d45.7543748!4d4.8297265!16s%2Fg%2F11zgpjpy03!19sChIJLRv-IErr9EcRr1VadK8spa4?authuser=0&hl=fr&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Personnel avenant et conseils personnalisés appréciés",
+        "en": "Friendly retail staff providing helpful guidance"
+      },
+      "text": {
+        "fr": "Les clients soulignent chaleureusement l'accueil souriant et l'écoute des vendeurs rue Victor Hugo, en citant nommément des conseillers comme Romy ou Clément. L'équipe prend le temps d'orienter les maîtres vers les produits les plus adaptés et d'expliquer les offres promotionnelles.",
+        "en": "Shoppers warmly highlight the smiling reception and attentive attitude of the retail team on Rue Victor Hugo, specifically naming advisors such as Romy and Clément. Staff members take time to guide owners toward suitable products and clearly explain ongoing promotional offers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fr": "Boutique centrale bien située près du métro",
+        "en": "Centrally located store near the metro"
+      },
+      "text": {
+        "fr": "L'ouverture de cette animalerie en plein centre de la presqu'île est largement saluée pour sa commodité d'accès à proximité immédiate des transports. L'espace reste toutefois de taille intermédiaire, ce qui engendre des rayons parfois plus sélectifs que dans les grands formats de périphérie.",
+        "en": "The arrival of this pet boutique in the heart of the presqu'île is warmly welcomed for its convenient location right by public transit. However, floor space remains moderate in size, resulting in a more focused catalog compared to larger suburban megastores."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Large gamme pour canidés et félins",
+        "en": "Broad catalog for cats and dogs"
+      },
+      "text": {
+        "fr": "Les rayons dédiés aux chiens et aux chats sont très appréciés pour la diversité des friandises, des jouets et des litières. En revanche, plusieurs clients regrettent l'absence totale de produits destinés à l'aquariophilie, aux oiseaux ou aux reptiles dans ce magasin de centre-ville.",
+        "en": "Sections dedicated to dogs and cats are well regarded for their variety of treats, toys, and hygiene products. Conversely, several reviewers express disappointment regarding the lack of supplies for aquariums, pet birds, or reptiles in this downtown location."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le magasin est-il facilement accessible en transports en commun ?",
+        "en": "Is the store easily reached by public transit?"
+      },
+      "a": {
+        "fr": "Oui, la boutique est située rue Victor Hugo, à proximité immédiate des stations de métro Ampère et Bellecour.",
+        "en": "Yes, the shop is located on Rue Victor Hugo, very close to the Ampère and Bellecour metro stations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Trouve-t-on du matériel pour aquarium dans cette boutique ?",
+        "en": "Are aquarium supplies available at this boutique?"
+      },
+      "a": {
+        "fr": "Non, le magasin se concentre exclusivement sur les chiens et les chats et ne propose pas d'équipements d'aquariophilie.",
+        "en": "No, the shop focuses exclusively on canine and feline products and does not carry aquarium equipment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Peut-on retirer ses commandes passées sur internet en magasin ?",
+        "en": "Can online orders be picked up in the store?"
+      },
+      "a": {
+        "fr": "Oui, le magasin propose le retrait Click and Collect gratuit en deux heures pour les commandes du site web.",
+        "en": "Yes, the store offers free two-hour Click and Collect pickup for orders placed on their website."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "city-dog-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/City+Dog/data=!4m7!3m6!1s0x80d9535c2664de33:0x3b463d0bf7f2470d!8m2!3d32.7110136!4d-117.1539832!16s%2Fg%2F1vlk1vwm!19sChIJM95kJlxT2YARDUfy9ws9Rjs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Mixed reviews regarding front staff"
+      },
+      "text": {
+        "en": "Most pet parents share warm words for groomers such as Saul, Alicia, and Maritza, highlighting their friendly demeanor and dedication during intake. However, two reviews report rude communication over telephone scheduling and coat-length disagreements, including an owner feeling pressured regarding an online review. Despite these disputes, regular customers praise the team's attentiveness."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Precise haircuts and quality styling"
+      },
+      "text": {
+        "en": "Customers frequently praise the quality of dog grooming, mentioning scissor work, Asian fusion cuts, and thorough nail trims. Owners of doodles, schnauzers, and pugs report that their dogs return clean, well-brushed, and smelling pleasant. Several clients note that grooming results exceed what they experienced at large commercial pet chains."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Patient care for anxious dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize the staff's gentle approach toward nervous, wiggly, or traumatised pets. Owners of dogs with prior bad grooming experiences note that groomers take time to calm their animals with treats and reassurance. Clients appreciate that pets leave appointments relaxed rather than stressed."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they groom specific or unusual dog breeds?"
+      },
+      "a": {
+        "en": "Reviewers report styling for doodles, schnauzers, pugs, and chows, though one client reported a disagreement regarding coat requirements for a corded breed."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can clients walk in for dog nail trims?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that walk-in nail trims are offered at this downtown location."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the salon handle dogs that are fearful of grooming?"
+      },
+      "a": {
+        "en": "Pet parents note that groomers use treats, patient pacing, and calming techniques to help nervous or previously injured pets stay comfortable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available near the salon?"
+      },
+      "a": {
+        "en": "The shop is located in downtown San Diego near Petco Park, and clients note that nearby street parking is accessible, especially during morning hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

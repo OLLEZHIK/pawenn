@@ -1,0 +1,133 @@
+{
+  "slug": "the-club-pet-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Club+Pet+Salon/data=!4m7!3m6!1s0x864c202a54e02177:0x254db923f7510471!8m2!3d32.9411844!4d-96.7697352!16s%2Fg%2F1ptyt813s!19sChIJdyHgVCogTIYRcQRR9yO5TSU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Precise styling and coat trimming"
+      },
+      "text": {
+        "en": "Pet owners report consistent satisfaction with grooming outcomes, highlighting detailed styling, neat scissor finishes, and clean haircuts. Longtime clients note that stylists follow styling instructions closely and address any minor adjustment promptly, leaving dogs looking tidy and refreshed after their salon appointments."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive and accommodating salon staff"
+      },
+      "text": {
+        "en": "Clients value the welcoming atmosphere and dedication displayed by the grooming team, commending individual stylists such as Johanna for their warm hospitality. Reviewers note that staff members go out of their way to resolve questions and maintain helpful communication with owners who have specific styling preferences."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for content pets"
+      },
+      "text": {
+        "en": "Pet parents observe that dogs return from appointments relaxed and cheerful, contrasting with previous stressful experiences at other salons. While one reviewer mentioned that ambient dryer noise in the grooming hall might affect pets with sensitive hearing, owners generally praise the gentle handling provided to senior pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does The Club Pet Salon groom senior dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention positive experiences bringing older pets, noting gentle handling during haircuts and baths."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do owners book grooming appointments?"
+      },
+      "a": {
+        "en": "Clients schedule appointments in advance through online booking platforms or through direct salon communication."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can stylists follow specific haircut requests?"
+      },
+      "a": {
+        "en": "Yes, clients note that groomers follow detailed styling preferences closely and adjust any details promptly upon request."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do pets react after their grooming sessions?"
+      },
+      "a": {
+        "en": "Owners report that their dogs return home happy and settled, expressing relief that visits are cheerful and calm."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "place": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

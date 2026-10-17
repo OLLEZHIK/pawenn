@@ -1,0 +1,136 @@
+{
+  "slug": "union-hills-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Union+Hills+Animal+Hospital/data=!4m7!3m6!1s0x872b6f0179917f39:0xa1c35f404da3b749!8m2!3d33.6532781!4d-112.101006!16s%2Fg%2F1tfn367s!19sChIJOX-ReQFvK4cRSbejTUBfw6E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Caring and long-standing veterinary team"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for Dr Goshert and the nursing assistants, praising their warm manner and approachable communication. Several longtime clients highlight decades of dependable care, noting that staff remain supportive and understanding during both routine visits and difficult medical situations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Compassionate treatment for family pets"
+      },
+      "text": {
+        "en": "Reviewers emphasise that dogs, cats, and small animals are treated with genuine affection and respect. Families describe the hospital atmosphere as welcoming and personal, noting that veterinary nurses comfort nervous pets during diagnostic tests, physical exams, and end-of-life care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Successful surgeries and reliable recovery"
+      },
+      "text": {
+        "en": "Clients report positive clinical outcomes following urgent foreign-body surgeries, chronic disease management, and senior pet therapies. Multiple reviewers credit prompt radiographic diagnoses and decisive surgical interventions with saving their pets' lives and supporting steady post-operative healing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Union Hills Animal Hospital perform veterinary surgery?"
+      },
+      "a": {
+        "en": "Yes, clients report successful surgical procedures including emergency foreign body removals and soft tissue operations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are on-site diagnostic X-rays available?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians utilise digital radiography to identify intestinal blockages and internal health issues quickly."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the practice treat older dogs with chronic conditions?"
+      },
+      "a": {
+        "en": "Yes, longtime clients praise the clinic for managing long-term ailments like Cushing's disease and keeping senior pets comfortable."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the team offer compassionate end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, pet owners express gratitude for compassionate euthanasia support, including home visits arranged for terminally ill companion animals."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

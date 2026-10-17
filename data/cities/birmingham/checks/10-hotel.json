@@ -1,0 +1,57 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "jakes-doggy-home-boarding-day-care",
+    "barnt-green-boarding-cattery",
+    "grizzlyswalks",
+    "hylton-hound-hotel-kennels",
+    "the-bark-company",
+    "village-garden-cattery",
+    "karenswood-international-ltd"
+  ],
+  "hash": "2c23a4fe26492b11bf340e7595379b8a992b6d8853b578db56597fbf9cf9ad59",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T14:45:04.618Z",
+      "result": "FAIL",
+      "listed": 34
+    },
+    {
+      "at": "2026-10-16T14:48:42.343Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T14:49:41.626Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T14:51:11.370Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T14:52:41.419Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T14:54:27.638Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T14:57:40.962Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T14:58:25.384Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

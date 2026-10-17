@@ -1,0 +1,152 @@
+{
+  "slug": "vip-dog-hotel",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VIP+Dog+Hotel/data=!4m7!3m6!1s0x864e99360b1c14d5:0x38876b3bba35b120!8m2!3d32.7706609!4d-96.7569479!16s%2Fg%2F11pkjbr_0z!19sChIJ1RQcCzaZToYRILE1ujtrhzg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Welcoming care for boarding pets"
+      },
+      "text": {
+        "en": "Most pet parents report that their dogs are treated with affection and return home happy and settled after their stays. Clients note that staff display patience when managing energetic or anxious pets, although one reviewer was disappointed when booking their dog due to breed restrictions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Facility owners with mixed feedback"
+      },
+      "text": {
+        "en": "Returning clients praise the owners and handlers for their friendly, warm approach and genuine care when greeting boarding guests and grooming clients. Conversely, one customer expressed frustration with customer service regarding last-minute booking cancellation for their pit bull."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Comfortable and pleasant pet facility"
+      },
+      "text": {
+        "en": "Reviewers describe the hotel as a pleasant, clean, and accommodating environment for pet boarding and grooming visits. Owners appreciate the welcoming atmosphere and feel comfortable leaving their dogs for multi-day stays, noting that the venue provides a secure setting for dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What pet services are provided at VIP Dog Hotel?"
+      },
+      "a": {
+        "en": "The facility offers overnight dog boarding, daycare, and grooming services, including haircuts and puppy styling."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dogs required to have prior grooming experience?"
+      },
+      "a": {
+        "en": "No, clients mention taking young puppies in for their very first grooming sessions with positive, gentle handling by the groomers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are there specific breed policies for boarding reservations?"
+      },
+      "a": {
+        "en": "Clients should confirm acceptance in advance, as one reviewer reported encountering restrictions regarding certain breeds like pit bulls."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do pet owners rate the pricing of boarding?"
+      },
+      "a": {
+        "en": "Several pet owners note that the rates are reasonable and competitive compared to other boarding options in Dallas."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

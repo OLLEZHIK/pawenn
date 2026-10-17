@@ -1,0 +1,139 @@
+{
+  "slug": "petstop-blanchardstown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petstop+-+Blanchardstown/data=!4m7!3m6!1s0x486712aab3b0cf81:0xc2d8403661c0d16f!8m2!3d53.3907899!4d-6.3858354!16s%2Fg%2F119wmb0wj!19sChIJgc-ws6oSZ0gRb9HAYTZA2MI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Supportive in-store help with delivery concerns"
+      },
+      "text": {
+        "en": "In-store shoppers frequently praise the Blanchardstown team, highlighting staff members who demonstrate patience with nervous rescue dogs and provide knowledgeable product guidance. However, feedback is mixed due to a customer reporting an unresolved online delivery dispute and unresponsive customer support."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean and well-stocked retail premises"
+      },
+      "text": {
+        "en": "Visitors appreciate the spacious layout at Westend Retail Park, noting the premises are clean, organised, and easy to navigate. Pet owners highlight the broad selection of pet food, accessories, and supplies, which allows customers to try different harness sizes and find suitable products."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Satisfying solutions for pet diets"
+      },
+      "text": {
+        "en": "Shoppers report satisfying outcomes when sourcing dietary supplies and accessories for their animals. Reviewers describe finding effective natural food brands that solved feeding difficulties for picky dogs, noting that visits to the store regularly result in happier and healthier pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners bring dogs into the store to try on harnesses?"
+      },
+      "a": {
+        "en": "Yes, visitors mention bringing dogs into the store where staff help test different harness and coat sizes."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Petstop located in Blanchardstown?"
+      },
+      "a": {
+        "en": "The shop is located at Unit 2b in Westend Retail Park in Blanchardstown, Dublin 15."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What pet products are available in-store?"
+      },
+      "a": {
+        "en": "The store carries natural dog and cat foods, pet treats, harnesses, bedding, and general animal care accessories."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are parking facilities accessible at this branch?"
+      },
+      "a": {
+        "en": "Yes, retail park surface parking is readily available for visiting customers right outside the store."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

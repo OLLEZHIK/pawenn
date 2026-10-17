@@ -1,0 +1,156 @@
+{
+  "slug": "fox-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fox+Veterinary+Clinic/data=!4m7!3m6!1s0x48670df17e7d9025:0x9e90efa68c5d5091!8m2!3d53.3898014!4d-6.2994187!16s%2Fg%2F1q62g64h0!19sChIJJZB9fvENZ0gRkVBdjKbvkJ4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate care alongside bedside grievances"
+      },
+      "text": {
+        "en": "Most pet owners express heartfelt gratitude to Michael and the veterinary nurses, citing compassionate care during difficult illnesses and routine consultations. However, two critical reviewers report distressing experiences during pet bereavement or illness, citing cold interpersonal treatment and hasty payment handling at reception."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle treatment for family pets"
+      },
+      "text": {
+        "en": "Clients consistently observe that veterinarians handle cats and dogs with genuine kindness and gentle methods during clinic visits. Multiple reviewers note that their pets remain eager to visit the practice even when undergoing treatments or check-ups. Owners highlight that animals feel soothed and cared for across routine and urgent visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Inconsistent communication during stressful moments"
+      },
+      "text": {
+        "en": "While one longtime client appreciated out-of-hours text guidance during an emergency, overall communication receives notable criticism. Reviewers cite unreturned phone calls when seeking diagnostic results, missing promised keepsake mementos, and lack of follow-up emails. Clients express frustration when urgent queries go unanswered."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fox Veterinary Clinic offer emergency out-of-hours care?"
+      },
+      "a": {
+        "en": "Yes, the practice maintains emergency on-call veterinarian services and a dedicated WhatsApp contact for urgent cases."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can owners request home visits for end-of-life care?"
+      },
+      "a": {
+        "en": "Reviewers report that the veterinary team has accommodated home visits to assist pets peacefully in familiar surroundings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do they handle pet passport documentation?"
+      },
+      "a": {
+        "en": "Yes, the clinic is registered to process European pet passports and necessary travel health documentation."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How can owners schedule non-urgent consultations?"
+      },
+      "a": {
+        "en": "Routine appointments can be arranged by telephone or booked directly online through the clinic website."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

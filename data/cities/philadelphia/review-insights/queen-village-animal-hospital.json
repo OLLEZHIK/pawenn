@@ -1,0 +1,137 @@
+{
+  "slug": "queen-village-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Queen+Village+Animal+Hospital/data=!4m7!3m6!1s0x89c6c8993511be07:0x331e5174ca7c514a!8m2!3d39.9407698!4d-75.1485494!16s%2Fg%2F1tgnn0ql!19sChIJB74RNZnIxokRSlF8ynRRHjM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated doctors despite receptionist complaints"
+      },
+      "text": {
+        "en": "Clients speak highly of clinicians such as Dr. Collada and Dr. Goldner, praising their bedside manner and compassionate care for elderly pets. However, multiple reviewers report frustrating interactions with the front desk staff, citing rude telephone demeanor and administrative disorganization."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling with safety concerns"
+      },
+      "text": {
+        "en": "Several pet owners appreciate the gentle handling shown to senior cats and dogs during exams and routine visits. In contrast, critical feedback describes stressful lobby conditions that frightened nervous animals and an incident where a recovering dog was left unattended."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Effective long-term care and complications"
+      },
+      "text": {
+        "en": "Reviewers credit the veterinarians with managing chronic feline illnesses and successfully extending pets' lives over many years. Nevertheless, one client reported a severe post-operative mouth infection and complications following unauthorized dental extractions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Queen Village Animal Hospital treat senior pets?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention long-term medical care and compassionate management for geriatric dogs and elderly cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for veterinary visits?"
+      },
+      "a": {
+        "en": "Yes, routine visits are scheduled in advance, though several clients note occasional wait times in the clinic reception area."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform pet dental extractions?"
+      },
+      "a": {
+        "en": "Yes, the facility provides dental procedures, though owners strongly advise confirming all treatment directives prior to surgery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What parking options exist near the Bainbridge Street clinic?"
+      },
+      "a": {
+        "en": "Street parking is available in the Queen Village neighbourhood, but visitors should plan extra time as spaces can be limited."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "10 hours ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "~",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "place": "+",
+        "staff": "~",
+        "communication": "-",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

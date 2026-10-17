@@ -1,0 +1,38 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "animals-only",
+    "academy-animal-hospital",
+    "veterinary-imaging-center-of-san-diego"
+  ],
+  "hash": "902450b35d41fb139591d8a47fb017719834504c62336e8901f7ca59a4845783",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:40:45.862Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-16T21:42:12.423Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:43:03.592Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:45:54.048Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:47:58.087Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

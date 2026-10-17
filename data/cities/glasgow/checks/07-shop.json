@@ -1,0 +1,43 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "odd-dogs",
+    "discount-pet-supplies",
+    "creature-comforts-shawlands",
+    "creature-comforts-clarkston",
+    "wagtail-pet-supplies",
+    "pets-at-home-glasgow-forge",
+    "pets-at-home-pollokshaws",
+    "pets-at-home-drumchapel"
+  ],
+  "hash": "07fcd54f078f8240e8b314ed58ada5de36966b84fe443eea2c594c417ff8bc0c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:25:50.686Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-16T11:34:38.407Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T11:34:52.707Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T11:36:44.723Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T11:38:16.432Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

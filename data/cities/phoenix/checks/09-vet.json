@@ -1,0 +1,41 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "union-hills-animal-hospital"
+  ],
+  "hash": "57aa831a10b6ec45cd0e1ab94e9c68020c6740def2ae66f85290d5eafcd3f466",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:52:23.417Z",
+      "result": "FAIL",
+      "listed": 52
+    },
+    {
+      "at": "2026-10-16T20:54:47.693Z",
+      "result": "FAIL",
+      "listed": 52
+    },
+    {
+      "at": "2026-10-16T21:10:00.915Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:12:02.696Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:12:23.946Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:12:50.116Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

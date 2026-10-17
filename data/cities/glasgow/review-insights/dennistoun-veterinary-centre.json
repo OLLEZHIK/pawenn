@@ -1,0 +1,151 @@
+{
+  "slug": "dennistoun-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dennistoun+Veterinary+Centre/data=!4m7!3m6!1s0x488846ab5039568f:0x31ed54b2bd8a8481!8m2!3d55.8586803!4d-4.2223139!16s%2Fg%2F1tf7m43q!19sChIJj1Y5UKtGiEgRgYSKvbJU7TE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Helpful veterinary team with mixed reviews"
+      },
+      "text": {
+        "en": "Most long-term clients commend the clinic team and vets like Eilidh for compassionate, supportive care during difficult moments and last-minute visits. However, two recent reviewers voiced strong dissatisfaction, citing irresponsible clinical judgment and questioning staff empathy."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Consultation clarity and billing discussions"
+      },
+      "text": {
+        "en": "Several clients praise the practice for patiently answering medical questions and managing direct insurance claims smoothly. In contrast, a critical reviewer reported confusing communication regarding treatment alternatives and felt unaddressed before receiving reception bills."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling alongside clinical concerns"
+      },
+      "text": {
+        "en": "Reviewers note tender and gentle handling for pets during routine cat check-ups and dignified end-of-life care for small animals. Conversely, one pet owner raised concerns about an unneeded surgical recommendation that carried unnecessary anesthesia risks for a small pet."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients arrange same-day veterinary appointments?"
+      },
+      "a": {
+        "en": "Yes, clients mention securing same-day appointments and early evening consultations after working hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the reception team process insurance claims?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that reception staff handled both direct and indirect pet insurance claims smoothly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pricing and procedure options explained clearly?"
+      },
+      "a": {
+        "en": "Experiences vary; some clients report clear answers, while others felt fee estimates and alternatives were not explained upfront."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat small pets and exotic mammals?"
+      },
+      "a": {
+        "en": "Yes, reviews describe compassionate care and end-of-life support for small pets including degus."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

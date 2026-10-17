@@ -1,0 +1,141 @@
+{
+  "slug": "the-london-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+London+Animal+Hospital/data=!4m7!3m6!1s0x4876047ef3990511:0x9e66050ef0e8134f!8m2!3d51.4694879!4d-0.0981356!16s%2Fg%2F11c75s58fl!19sChIJEQWZ834EdkgRTxPo8A4FZp4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Caring emergency staff with mixed reviews"
+      },
+      "text": {
+        "en": "Clients note that emergency clinicians and nurses provide reassuring care during out-of-hours visits and late-night hospital admissions. Several pet owners praise the surgical team for their dedicated life-saving treatment. Conversely, unhappy reviewers report unhelpful support staff and felt that duty vets were occasionally dismissive or distant."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for vulnerable patients"
+      },
+      "text": {
+        "en": "Pet owners consistently note that veterinary clinicians treat fragile pets with genuine patience and empathy during urgent visits. Reviews highlight gentle handling for nervous cats and prompt clinical intervention for rabbits suffering from acute conditions. Families appreciate knowing that their ill animals receive attentive oversight."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Critical surgery alongside diagnosis concerns"
+      },
+      "text": {
+        "en": "Reviewers share contrasting outcomes following treatment at the 24-hour hospital in Camberwell. One client credits skilled out-of-hours surgical intervention with saving their cat's life during an emergency, and rabbit owners report prompt recovery. However, others express deep sorrow over missed diagnostic urgency and ineffective initial prescriptions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is The London Animal Hospital open for late-night emergency care?"
+      },
+      "a": {
+        "en": "Yes, client reviews describe emergency visits during night hours and weekends when urgent surgical or medical care was required."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital treat small animals such as rabbits?"
+      },
+      "a": {
+        "en": "Yes, pet owners report bringing rabbits for emergency treatment, including successful out-of-hours care for gastrointestinal issues."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are surgical procedures and emergency costs viewed by clients?"
+      },
+      "a": {
+        "en": "Reviewers acknowledge that emergency surgeries can involve significant expense, though grateful owners feel life-saving intervention justified the cost."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "results": "~",
+        "prices": "-",
+        "staff": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "sunset-cliffs-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sunset+Cliffs+Animal+Hospital/data=!4m7!3m6!1s0x80deaa3763080da1:0xf5e4e6c802bc2c4a!8m2!3d32.7464059!4d-117.24781!16s%2Fg%2F1tvw5769!19sChIJoQ0IYzeq3oARSiy8Asjm5PU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Skilled veterinary surgeons alongside complaints"
+      },
+      "text": {
+        "en": "Several clients praise veterinarians including Dr Whitted and Dr Silvaberg for their patient diagnostic guidance and reassuring manner during medical consultations. Conversely, other visitors express strong dissatisfaction, reporting unhelpful front desk communications, perceived pressure regarding preventative testing, and rude interactions during appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed reports on pet handling"
+      },
+      "text": {
+        "en": "Some pet owners report that their dogs thrive in the practice's care and feel completely at ease during wellness check-ups and routine dental cleanings. In contrast, other clients express serious distress, noting that dogs were taken into treatment rooms without owner accompaniment and appeared visibly frightened when returned to the reception area."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective surgeries and dental treatments"
+      },
+      "text": {
+        "en": "Reviewers report positive medical outcomes following complex emergency surgical procedures, routine immunisations, and canine teeth cleaning. Clients dealing with chronic conditions appreciate the doctors' expertise in managing challenging cases, noting that their dogs recovered smoothly following major clinical interventions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners accompany their pets into the treatment rooms?"
+      },
+      "a": {
+        "en": "Clients report mixed experiences, with some visitors noting that veterinary staff took pets into back rooms for injections without owners."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice perform routine dental cleanings?"
+      },
+      "a": {
+        "en": "Yes, clients mention successful canine dental cleanings and physical wellness check-ups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are emergency surgeries undertaken at the hospital?"
+      },
+      "a": {
+        "en": "Yes, reviewers report that veterinarians handled urgent surgical procedures successfully."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is dedicated parking readily available near the surgery?"
+      },
+      "a": {
+        "en": "Reviewers note that vehicle parking in the immediate vicinity can be challenging, advising visitors to allow extra arrival time."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-",
+        "waiting": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

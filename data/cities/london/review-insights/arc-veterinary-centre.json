@@ -1,0 +1,159 @@
+{
+  "slug": "arc-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arc+Veterinary+Centre/data=!4m7!3m6!1s0x48761a2d7beb10b3:0xc68160d833a912a7!8m2!3d51.5890676!4d-0.1415489!16s%2Fg%2F1td0xz79!19sChIJsxDrey0adkgRpxKpM9hggcY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive and reassuring veterinary team"
+      },
+      "text": {
+        "en": "Most pet owners praise vets like Richard and Emma, along with the nursing team, for their kindness, medical clarity, and reassuring manner. Clients value that clinicians take time to explain treatment reasoning thoroughly. While one reviewer reported a defensive response to a clinical dispute, the broader experience with staff remains positive."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Successful surgeries and clinical treatments"
+      },
+      "text": {
+        "en": "Clients report positive medical outcomes for complex procedures, including tumour removals, dental extractions, and rapid recovery following operations. Pet parents value receiving practical post-operative guidance and follow-up advice. One client raised serious concerns regarding diagnosis continuity, but most reviewers praise clinical care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Detailed discussions and dispute feedback"
+      },
+      "text": {
+        "en": "Several pet parents appreciate detailed email explanations, diagnostic diagrams, and prompt telephone advice from the practice team. However, one client felt that management was dismissive and unaccommodating when handling a formal complaint about billing and care plans. The practice generally communicates treatment options clearly to clients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can urgent appointments be scheduled at Arc Veterinary Centre?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the clinic accommodated urgent pet concerns quickly and arranged same-day appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice handle complex surgical procedures?"
+      },
+      "a": {
+        "en": "Reviewers report successful surgeries including tumour removals, mastectomies, and dental extractions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view consultation fees and pricing?"
+      },
+      "a": {
+        "en": "Most clients feel fees are fair and transparent with several options offered, though one reviewer disputed consultation fees charged for follow-up blood draws."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

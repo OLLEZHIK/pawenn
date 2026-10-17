@@ -1,0 +1,123 @@
+{
+  "slug": "dog-grooming-by-julia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Grooming+By+Julia/data=!4m7!3m6!1s0x487095abc9bf3b25:0x763e38a8b90365f!8m2!3d52.3907005!4d-2.0204737!16s%2Fg%2F1yh9tzd73!19sChIJJTu_yauVcEgRXzaQi4rjYwc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Neat clipping and styling quality"
+      },
+      "text": {
+        "en": "Dog and cat owners consistently express satisfaction with the styling and clipping results. Reviewers note that pets return looking tidy, smelling pleasant, and with nails properly trimmed. Several clients report that their dogs received flattering haircuts that exceeded previous grooming experiences elsewhere."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Warm and patient pet groomers"
+      },
+      "text": {
+        "en": "Customer feedback highlights the welcoming attitude and attentiveness of Julia and her salon team. Reviewers appreciate that the groomers handle nervous animals calmly and accommodate unexpected appointment delays with understanding. Pet owners describe staff as polite, communicative, and reassuring."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Fair and competitive grooming rates"
+      },
+      "text": {
+        "en": "Reviewers frequently describe the pricing as reasonable and great value for the quality provided. Pet parents appreciate that multiple pets can be groomed without excessive expense. Many customers highlight that the thorough styling and nail trims offer substantial value compared to competing local salons."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do you need an appointment for pet nail clipping?"
+      },
+      "a": {
+        "en": "Reviewers note that walk-ins are often accommodated for routine nail trims, though booking ahead is advisable for full grooms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that Julia provides nail clipping and grooming services for cats as well as dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can multiple dogs from the same household be groomed together?"
+      },
+      "a": {
+        "en": "Yes, customers report bringing multiple pets, such as several chihuahuas, for concurrent grooming sessions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

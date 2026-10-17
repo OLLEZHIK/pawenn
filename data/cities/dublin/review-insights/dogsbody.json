@@ -1,0 +1,155 @@
+{
+  "slug": "dogsbody",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dogsbody/data=!4m7!3m6!1s0x48670bf50551874d:0xc1cc1ef7e8d32107!8m2!3d53.309602!4d-6.285542!16s%2Fg%2F1tgfpjyv!19sChIJTYdRBfULZ0gRByHT6PcezME?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Neat trims and styling results"
+      },
+      "text": {
+        "en": "Pet owners report high satisfaction with grooming finishes, from routine wash and hair trims to specialised deshedding. Several customers highlight that coats look tidy and clean even when dogs arrive quite scruffy. Others note neat nail clipping and careful handling of matted fur across different breeds."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and welcoming salon team"
+      },
+      "text": {
+        "en": "Clients describe the salon team as friendly, helpful, and accommodating when owners drop off their pets. Reviewers appreciate that staff listen to styling preferences and offer practical care suggestions without rushing. Visitors often travel across Dublin specifically because they value the attentive customer service."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle treatment for various pets"
+      },
+      "text": {
+        "en": "Reviewers frequently mention that their dogs and cats receive calm, patient care throughout their salon appointments. Owners of nervous pets note that animals leave relaxed and in cheerful spirits rather than agitated. Both small dogs and matted cats are handled gently during washing, brushing, and drying routines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do they groom cats as well as dogs?"
+      },
+      "a": {
+        "en": "Yes, clients mention bringing cats with matted fur and note that the groomers handle feline coats patiently."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is customer parking available on site?"
+      },
+      "a": {
+        "en": "There are no dedicated customer parking spaces directly outside, so pet owners need to locate street parking nearby."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners book nail clipping separately?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that nail clipping is available as a straightforward standalone routine service."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can appointments be scheduled online?"
+      },
+      "a": {
+        "en": "Yes, the salon offers online appointment booking through their website for various pet coat types."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "prices": "+",
+        "place": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}

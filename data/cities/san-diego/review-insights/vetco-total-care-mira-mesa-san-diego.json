@@ -1,0 +1,184 @@
+{
+  "slug": "vetco-total-care-mira-mesa-san-diego",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/data=!4m7!3m6!1s0x80dbf925e899cff3:0xf4935dc7d126f6a0!8m2!3d32.9149957!4d-117.1460712!16s%2Fg%2F11g4jbs2zc!19sChIJ88-Z6CX524ARoPYm0cddk_Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Varied impressions of clinic staff"
+      },
+      "text": {
+        "en": "Many clients speak highly of Dr Scott and the veterinary nurses, praising their gentle manner and willingness to address pet owner questions thoroughly. Conversely, several visitors felt staff were dismissive during stressful visits or pushy regarding payment plan packages. Pet parents advise establishing clear care expectations with the attending practitioner."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed feedback on pet handling"
+      },
+      "text": {
+        "en": "Several reviewers note that clinicians show patience when examining senior dogs and perform gentle mobility checks to diagnose pain. In contrast, other clients reported distress when a pet's nail was trimmed too short or when an anxious dog was reprimanded. Owners recommend communicating any nervous pet behaviours to staff prior to examinations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Communication regarding treatments and costs"
+      },
+      "text": {
+        "en": "Clients appreciate straightforward booking and helpful advice when veterinarians explain routine puppy care and preventative treatments. However, a few pet owners noted insufficient explanation when medication plans or vaccine doses changed unexpectedly. Reviewers suggest confirming the details of each recommended treatment and invoice item during visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can puppies receive initial vaccinations at this location?"
+      },
+      "a": {
+        "en": "Yes, clients frequently bring newly adopted puppies here for initial health checks and vaccination schedules."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required in advance for veterinary visits?"
+      },
+      "a": {
+        "en": "Yes, appointments are booked in advance, and clients report scheduling through standard customer service channels."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer dental checkups and cleaning advice?"
+      },
+      "a": {
+        "en": "Yes, veterinarians examine oral health and advise on routine dental care during wellness consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are preventative wellness packages available for pets?"
+      },
+      "a": {
+        "en": "Yes, staff discuss recurring care plans and payment packages covering routine clinic treatments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

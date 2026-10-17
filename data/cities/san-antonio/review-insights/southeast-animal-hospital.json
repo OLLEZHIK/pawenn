@@ -1,0 +1,196 @@
+{
+  "slug": "southeast-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Southeast+Animal+Hospital/data=!4m7!3m6!1s0x865cf64c78f31bb5:0x7095638e1e636ff7!8m2!3d29.384902!4d-98.456411!16s%2Fg%2F1thkxpnb!19sChIJtRvzeEz2XIYR929jHo5jlXA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Caring clinicians but telephone customer service issues"
+      },
+      "text": {
+        "en": "Longstanding clients express deep gratitude for the veterinary team and nursing staff, praising their warmth and attentiveness during in-person examinations. However, multiple reviewers report dismissive telephone interactions and unhelpful reception communication when calling to enquire about fees or emergency visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Comforting care for companion pets"
+      },
+      "text": {
+        "en": "Pet owners appreciate that veterinary assistants handle dogs and cats gently, creating a low-stress environment for both routine immunisations and senior pet check-ups. Clients note that staff demonstrate comfort handling various canine breeds and take care to minimise animal anxiety."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Efficient consultations and prompt scheduling"
+      },
+      "text": {
+        "en": "Several reviewers highlight prompt appointment scheduling and efficient clinic turnaround times during routine consultations. Clients appreciate being seen in a timely manner, noting that wait times for walk-in consultations frequently prove significantly shorter than initially estimated by receptionists."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Southeast Animal Hospital handle walk-in or emergency visits?"
+      },
+      "a": {
+        "en": "The clinic accommodates urgent cases during operational hours, though clients advise calling ahead as emergencies near closing time may be redirected."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pet grooming services provided on-site?"
+      },
+      "a": {
+        "en": "Yes, clients mention that the hospital provides pet grooming services and complimentary nail trims alongside veterinary visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are consultation wait times described by pet owners?"
+      },
+      "a": {
+        "en": "Reviewers generally describe waiting times as prompt and efficient, with visits often concluding faster than expected."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "pets-first-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+First+Veterinary+Center/data=!4m7!3m6!1s0x865c606532f5ad8b:0x27c1a0f4a62ed426!8m2!3d29.5272529!4d-98.5192536!16s%2Fg%2F1tm8fdkq!19sChIJi631MmVgXIYRJtQupvSgwSc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed feedback on veterinary staff"
+      },
+      "text": {
+        "en": "Client reviews show diverging opinions regarding the veterinary team. Several pet owners commend individual veterinarians and boarding staff for their warm, supportive attitude during difficult consultations and end-of-life care. However, other reviewers complain about condescending attitudes and rude reception from certain practitioners, describing their overall experience with the team as inconsistent."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied reception and consultation clarity"
+      },
+      "text": {
+        "en": "Communication experiences at the clinic vary considerably among visitors. Some pet owners praise the staff for clear telephone updates and transparent discussions about treatment costs. In contrast, dissatisfied clients report feeling patronised or judged during discussions about vaccine choices and pet care decisions, criticising poor communication from the front desk."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Clinical outcomes and treatment quality"
+      },
+      "text": {
+        "en": "Feedback regarding medical results and routine care is largely divided. Satisfied clients highlight life-extending specialist referrals and gentle boarding routines that kept their pets safe. Conversely, a long-term client felt medical outcomes and consultation quality were hit and miss over extended care periods, prompting them to seek veterinary attention elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pets First Veterinary Center offer pet boarding?"
+      },
+      "a": {
+        "en": "Yes, clients confirm using the clinic for dog boarding and grooming services alongside medical consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are treatment prices discussed upfront?"
+      },
+      "a": {
+        "en": "Reviewers note that veterinary staff discuss treatment expenses and treatment options openly, though pricing perceptions vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners schedule appointments for routine vaccinations?"
+      },
+      "a": {
+        "en": "Yes, the practice provides routine vaccinations and wellness examinations, though appointments should be arranged in advance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "prices": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

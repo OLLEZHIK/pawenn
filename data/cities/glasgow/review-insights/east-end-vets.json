@@ -1,0 +1,200 @@
+{
+  "slug": "east-end-vets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/East+End+Vets/data=!4m7!3m6!1s0x4888415d9e646a55:0xe744294475d01ca5!8m2!3d55.8538596!4d-4.1972762!16s%2Fg%2F11hzyf879j!19sChIJVWpknl1BiEgRpRzQdUQpROc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Devoted and empathetic veterinary team"
+      },
+      "text": {
+        "en": "Pet owners overwhelmingly praise practice owner Dave and the nursing staff for their compassionate attitude. Reviews consistently describe the team as welcoming, reassuring, and willing to stay late to resolve medical concerns. Clients feel valued and express deep trust in the dedicated professionals caring for their pets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Gentle handling of family companions"
+      },
+      "text": {
+        "en": "Reviewers frequently emphasize how comfortably their dogs and cats are treated during visits. Clients note that veterinarians handle nervous rescues and young puppies with great patience, while the clinic provides a designated low-stress waiting area for felines to reduce anxiety during clinical appointments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Clear guidance and thorough explanations"
+      },
+      "text": {
+        "en": "Multiple pet parents commend the clinical team for explaining diagnoses, surgical procedures, and medical options in clear detail. Reviewers appreciate that the veterinary surgeons listen attentively without rushing consultations, presenting thoughtful treatment plans tailored to each domestic animal."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is there a dedicated cat waiting area at East End Vets?"
+      },
+      "a": {
+        "en": "Yes, the practice features a separate waiting section for cats to provide a calm, stress-free environment away from dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What surgical treatments does the clinic provide?"
+      },
+      "a": {
+        "en": "The surgery provides domestic pet neutering, soft tissue surgical procedures, and post-operative recovery support."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view the consultation manner of the vets?"
+      },
+      "a": {
+        "en": "Clients frequently remark that the veterinary surgeons explain diagnoses clearly, listen patiently, and present honest treatment options."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are routine appointments available on Saturdays?"
+      },
+      "a": {
+        "en": "Yes, the surgery is open for morning consultations on Saturdays between 8:45am and 12:00pm."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "~",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

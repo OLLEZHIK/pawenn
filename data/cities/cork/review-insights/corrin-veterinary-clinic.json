@@ -1,0 +1,161 @@
+{
+  "slug": "corrin-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Corrin+Veterinary+Clinic/data=!4m7!3m6!1s0x48435f9efd7eb74b:0x20766087a641839d!8m2!3d52.0977329!4d-8.2734019!16s%2Fg%2F1q62mn36v!19sChIJS7d-_Z5fQ0gRnYNBpodgdiA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive team with mixed feedback"
+      },
+      "text": {
+        "en": "Most pet owners describe the veterinary team and nursing staff as kind, attentive, and helpful during routine visits and urgent treatments. Several clients mention positive long-term relationships with vet Sean. However, two reviewers expressed strong dissatisfaction, citing rude communication during a difficult stay and frustration after a pet went missing."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Clinical outcomes and treatment recovery"
+      },
+      "text": {
+        "en": "Several clients report successful treatments for sick animals, including prompt recovery from heat stroke and effective wound management following neutering. Pet owners appreciate clear advice on nursing animals back to health. Conversely, critical reviews report serious concerns regarding inpatient care and the handling of a lost pet."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling and pet boarding"
+      },
+      "text": {
+        "en": "Pet owners note that dogs and cats are handled gently and kept relaxed during examinations and clinic stays. Regular visitors highlight that their dogs show excitement upon arrival at the on-site kennels, feeling confident that pets remain in safe hands when staying for overnight boarding or extended veterinary observation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Corrin Veterinary Clinic handle weekend emergencies?"
+      },
+      "a": {
+        "en": "Yes, clients report securing urgent Sunday appointments and reaching on-call veterinary care outside normal clinic hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic provide pet boarding facilities?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention using the on-site kennel facilities for short and extended stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What procedures do pet owners mention for cats?"
+      },
+      "a": {
+        "en": "Clients mention cat neutering, routine vaccinations, wound treatment, and multi-day observation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are the clinic fees described by clients?"
+      },
+      "a": {
+        "en": "Several reviewers praise fair and reasonable pricing, though one reviewer felt inpatient care was overpriced."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    }
+  ]
+}

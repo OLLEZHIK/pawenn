@@ -1,0 +1,142 @@
+{
+  "slug": "sally-s-paw-spaw",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sally%27s+Paw+Spaw/data=!4m7!3m6!1s0x89c6c79556e5faf7:0x9437b8c1dded8b7c!8m2!3d39.9256414!4d-75.1683689!16s%2Fg%2F11qh4vclfw!19sChIJ9_rlVpXHxokRfIvt3cG4N5Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Consistently neat and tidy grooming"
+      },
+      "text": {
+        "en": "Pet parents report that their dogs return looking fresh, soft, and beautifully trimmed after every salon appointment. Reviewers consistently praise the quality of styling and bathing, noting that haircuts meet breed expectations and keep pets looking tidy between sessions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Accommodating and patient grooming staff"
+      },
+      "text": {
+        "en": "Clients appreciate the friendly and attentive staff members who listen to grooming preferences and offer follow-up touch-ups when needed. While one customer voiced frustration over inconsistent pricing explanations at pickup, most reviewers praise the team's professionalism."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle treatment for nervous dogs"
+      },
+      "text": {
+        "en": "Owners of anxious Pomeranians and older Chihuahuas praise the groomers for their calm approach and willingness to adjust pace. Staff members take care never to push pets past their comfort limits, ensuring that nervous animals feel secure and protected during styling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does Sally's Paw Spaw handle anxious or nervous dogs?"
+      },
+      "a": {
+        "en": "Groomers accommodate anxious pets by taking breaks, adjusting handling techniques, and never pushing past a dog's comfort limits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are follow-up touch-up appointments offered?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff will accommodate quick follow-up touch-ups if certain areas need extra grooming after an initial visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are extra fees charged for matted dog coats?"
+      },
+      "a": {
+        "en": "Reviewers mention that dematting fees can be added at the groomer's discretion if coats require significant detangling work."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom small toy dog breeds?"
+      },
+      "a": {
+        "en": "Yes, the salon regularly styles small and toy breeds such as Chihuahuas and Pomeranians with gentle, tailored care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "+",
+        "prices": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

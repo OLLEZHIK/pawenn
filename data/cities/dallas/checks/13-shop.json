@@ -1,0 +1,35 @@
+{
+  "chunk": "13-shop",
+  "kind": "places",
+  "slugs": [
+    "green-pet-supply",
+    "uptown-pup",
+    "lula-pup-shop",
+    "pawlicious-cookies-co",
+    "whittle-feed-seed-store"
+  ],
+  "hash": "ba06fe9052306a70d975545e5c804ba018ea24ae521f165ffe35504e9dc59fca",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:14:56.261Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-17T00:18:02.185Z",
+      "result": "FAIL",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:18:41.780Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:19:35.468Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

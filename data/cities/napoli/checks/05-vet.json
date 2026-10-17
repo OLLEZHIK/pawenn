@@ -3,12 +3,9 @@
   "kind": "places",
   "slugs": [
     "universita-degli-studi-di-napoli-federico-ii-dipartimento-di-medicina-veterinaria-e-produzioni-animali",
-    "ambulatorio-veterinario-pegaso-del-dott-vescio-francesco",
-    "ambulatorio-veterinario-imma-ammi",
-    "tisci-dr-carmine",
-    "clinica-veterinaria-nuova-mediterranea"
+    "tisci-dr-carmine"
   ],
-  "hash": "dee0e56b2cf54c61fc6864468d6e518a6fc0f9200ceb22b3d6bd79fb8460cb3f",
+  "hash": "8ecdfcede51157598c2935a0b249412289fa45a4bcbf08683a4a66d435cfefb7",
   "result": "PASS",
   "history": [
     {
@@ -18,6 +15,11 @@
     },
     {
       "at": "2026-10-11T20:25:04.194Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:49:48.271Z",
       "result": "PASS",
       "listed": 0
     }

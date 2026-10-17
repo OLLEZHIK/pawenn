@@ -1,0 +1,131 @@
+{
+  "slug": "the-bark-company",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bark+Company/data=!4m7!3m6!1s0x4870a512e20f8a0f:0xd7d3daac1e0accf3!8m2!3d52.5475096!4d-1.8080309!16s%2Fg%2F11fz8xbljc!19sChIJD4oP4hKlcEgR88wKHqza09c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clean premises with doggy bistro"
+      },
+      "text": {
+        "en": "Visitors appreciate the unique setup featuring a dog-friendly bistro, an outdoor airstream trailer cafe, and clean garden areas with seating rugs. Reviewers note that the facilities are tidy and provide a delightful stopping point for pet parents during walks."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Polite and welcoming facility staff"
+      },
+      "text": {
+        "en": "Clients highlight the friendly and approachable manners of team members across the cafe, reception, and grooming services. Reviewers mention smooth communication and helpful customer service whether ordering refreshments or checking in pets for grooming appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Thoughtful treats and gentle styling"
+      },
+      "text": {
+        "en": "Owners praise the dog-centred amenities, including puppucinos and canine sausages served at the cafe garden. Reviewers also remark that pets like cockapoos and spaniels receive caring attention during appointments, returning home looking happy and adorable."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is there a dog-friendly cafe on the premises?"
+      },
+      "a": {
+        "en": "Yes, visitors enjoy an outdoor airstream cafe and bistro offering hot panini, puppucinos, and dog sausages."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does The Bark Company provide professional dog grooming?"
+      },
+      "a": {
+        "en": "Yes, clients praise skilled groomers like Abbie for delivering neat styling and deshedding for cockapoos and spaniels."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What facilities are available for pet daycare?"
+      },
+      "a": {
+        "en": "Reviewers observe a well-run, clean daycare setup alongside pleasant garden grounds and reception facilities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How straightforward is the appointment booking system?"
+      },
+      "a": {
+        "en": "Clients report an easy, efficient booking process for grooming sessions and seamless coordination on arrival day."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

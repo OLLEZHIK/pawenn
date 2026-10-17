@@ -1,0 +1,33 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "vetco-total-care-happy-valley",
+    "north-phoenix-animal-clinic",
+    "valet-vet",
+    "deer-creek-animal-hospital-pet-resort",
+    "animal-hospital-of-laveen",
+    "the-pet-wellness-center",
+    "peaceful-passing-hospice",
+    "modern-animal-arcadia"
+  ],
+  "hash": "d53438e793af809a7a55237bae77603d6422f78d3e12f6e65540991b0e45759d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T19:58:40.415Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-16T20:00:05.226Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-16T20:06:12.973Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

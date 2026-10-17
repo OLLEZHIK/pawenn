@@ -1,0 +1,153 @@
+{
+  "slug": "my-pet-market-20th-st-phoenix",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/My+Pet+Market/data=!4m7!3m6!1s0x872b0d65fc559c0b:0x9ea7ae73445b934c!8m2!3d33.5069349!4d-112.0377662!16s%2Fg%2F1262tsf62!19sChIJC5xV_GUNK4cRTJNbRHOup54?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "en": "Helpful team with mixed service experiences"
+      },
+      "text": {
+        "en": "Customer sentiment towards store staff is generally positive, with several shoppers praising employees such as Zack and Bryan for their warmth, enthusiasm, and genuine interest in companion animals. However, service feedback is mixed due to one critical report detailing an unwelcoming cashier interaction, contrasting with the attentive assistance most visitors experience."
+      },
+      "mentions": 5,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "place",
+      "title": {
+        "en": "Curated stock and dietary product variety"
+      },
+      "text": {
+        "en": "Visitors highlight the shop's broad selection of wholesome pet foods, natural treats, and pet care accessories. Reviewers appreciate finding a well-organised range of quality brands suitable for dogs and cats with specific nutritional needs. The availability of diverse dietary options makes the location a reliable neighbourhood resource for local pet owners."
+      },
+      "mentions": 5,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "communication",
+      "title": {
+        "en": "Detailed product advice and communication"
+      },
+      "text": {
+        "en": "Shoppers seeking dietary guidance appreciate knowledgeable discussions with team members regarding food ingredients and canine nutrition. Reviewers note that staff take time to answer questions and compare brands. Nonetheless, one reviewer cited poor communication and being ignored at checkout, resulting in an overall mixed assessment of counter service."
+      },
+      "mentions": 3,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does My Pet Market offer price matching?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the store honours price matching if customers display the verified lower rate on their mobile phone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners receive advice on specialized pet foods?"
+      },
+      "a": {
+        "en": "Reviewers frequently mention knowledgeable staff who discuss food formulations and recommend specific diets for dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet supplies are available in the store?"
+      },
+      "a": {
+        "en": "The shop stocks a wide variety of natural dry and raw pet foods, holistic treats, wellness supplements, and companion pet accessories."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dogs welcome inside the store?"
+      },
+      "a": {
+        "en": "Yes, companion animals are welcomed by the team, and staff frequently engage with visiting pets and their owners."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

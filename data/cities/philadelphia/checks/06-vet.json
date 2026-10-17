@@ -1,0 +1,49 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "northern-liberties-veterinary-center",
+    "art-museum-veterinary-center",
+    "queen-village-animal-hospital",
+    "oneal-animal-hospital"
+  ],
+  "hash": "292c89bf61a0b8be1228ebf04ad89a057196304585034d73503924f7167f80ae",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:53:01.056Z",
+      "result": "FAIL",
+      "listed": 54
+    },
+    {
+      "at": "2026-10-16T22:04:39.929Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-16T22:10:16.083Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-17T03:02:41.906Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-17T03:07:49.295Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-17T03:12:49.734Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-17T03:14:27.529Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import type { BusinessCategory, City } from "@prisma/client";
 import { GuideLinks } from "./Guides";
 import { VetNowButton } from "./VetNowButton";
@@ -11,6 +12,7 @@ import {
   parseNear,
   getMarketPrices,
   getCityPoints,
+  getAllCities,
 } from "@/lib/data";
 import {
   ALL_CATEGORIES,
@@ -23,12 +25,12 @@ import {
   listingPath,
 } from "@/lib/categories";
 import { safeJsonLd } from "@/lib/safeJsonLd";
-import { getDictionary, inCity, localePath, type Locale } from "@/lib/i18n";
+import { getDictionary, inCity, localePath, localesForCity, type Locale } from "@/lib/i18n";
 import { BusinessCard } from "./BusinessCard";
 import { SITE_URL } from "@/lib/site";
 import { BEST_TEXT, bestPath, rankBest } from "@/lib/bestPages";
 import { pricesPath } from "@/lib/priceSlugs";
-import { FilterPanel } from "./FilterPanel";
+import { ListingControls, type PickerService } from "./ListingControls";
 import { CATEGORY_ATTRIBUTES, attributePath, attributeSlug, hasAttribute, type AttributeKey } from "@/lib/attributePages";
 import { cityClock, cityTimezone, dateInDays, formatMinutes, hoursFromStored, isOpenAt, localNow, nextOpening } from "@/lib/hours";
 import { meetsMinRating, parseMinRating, parseSort, sortByListing } from "@/lib/listingSort";
@@ -38,14 +40,10 @@ import { CategoryIcon } from "./CategoryIcon";
 import { ArrowRightIcon, PawIcon, RouteIcon } from "./icons";
 import { money, moneyRange } from "@/lib/money";
 import { PageCity } from "./PageCity";
+import { PAGE_SIZE, Pagination, parsePage } from "./Pagination";
 
 /** City page: places per service before the "see all" link. */
 const HUB_PER_CATEGORY = 5;
-/** Category, district and attribute pages: the first places before
- *  "Show all" (owner, 2026-09-28: like the city page, everywhere). A list
- *  only a little longer is shown whole - no "show 2 more". */
-const LIST_FIRST = 5;
-const LIST_COLLAPSE_FROM = LIST_FIRST + 4;
 
 interface CategoryListingProps {
   locale: Locale;
@@ -61,8 +59,8 @@ interface CategoryListingProps {
   rating?: string;
   /** "1" = only places open right now (their opening hours, city time). */
   open?: string;
-  /** "1" (?all=1) = the whole list on a category page (see LIST_FIRST). */
-  showAll?: string;
+  /** ?page=N: which page of the list (components/Pagination.tsx). */
+  page?: string;
   /** An attribute page (/<vets>/<city>/nonstop, /sobota...): only places
    *  with the attribute (lib/attributePages.ts). */
   attributePage?: AttributeKey;
@@ -94,7 +92,7 @@ export async function CategoryListing({
   sort: requestedSort,
   rating: requestedRating,
   open,
-  showAll,
+  page: requestedPage,
   attributePage,
 }: CategoryListingProps) {
   const openNowOnly = open === "1";
@@ -185,11 +183,21 @@ export async function CategoryListing({
           return { category: c, total: items.length, items: items.slice(0, HUB_PER_CATEGORY) };
         }).filter((g) => g.total > 0)
       : null;
-  // Category pages without filters: the first LIST_FIRST places and a
-  // "Show all" link (?all=1, canonical stays the unfiltered page).
-  const collapsed =
-    !!category && !origin && !sort && !openNowOnly && !minRating && showAll !== "1" && listItems.length >= LIST_COLLAPSE_FROM;
-  const shownItems = grouped ? grouped.flatMap((g) => g.items) : collapsed ? listItems.slice(0, LIST_FIRST) : listItems;
+  // Every list except the city page's per-service previews is paged:
+  // PAGE_SIZE cards and page numbers below (owner, 2026-10-17). The whole
+  // list of a big city was a 1.6 MB page.
+  const paged = !grouped;
+  const pageCount = paged ? Math.max(1, Math.ceil(listItems.length / PAGE_SIZE)) : 1;
+  const page = paged ? parsePage(requestedPage) : 1;
+  // A page past the last one does not exist (no endless ?page=999 for crawlers).
+  if (page > pageCount) notFound();
+  const pageStart = paged ? (page - 1) * PAGE_SIZE : 0;
+  const shownItems = grouped ? grouped.flatMap((g) => g.items) : listItems.slice(pageStart, pageStart + PAGE_SIZE);
+  const pageBasePath = attributePage && category
+    ? attributePath(locale, category, citySlug, attributePage)
+    : category
+      ? listingPath(locale, category, citySlug, districtSlug)
+      : cityPath(locale, citySlug);
 
   // Attribute chips (quiet, like the other filters; the one of the current
   // page is active and links back to the whole list). City page: nonstop only.
@@ -218,6 +226,32 @@ export async function CategoryListing({
   // category page.
   const faqs = category && !attributePage ? buildFaqs({ locale, category, where, aggregates }) : [];
 
+  // Service and city lists for the pickers; only cities that have this language.
+  const pickerServices: PickerService[] = [
+    { category: null, href: cityPath(locale, citySlug), label: t.listing.allServices, blurb: t.cityHub.intro, accent: "var(--brand-orange)" },
+    ...ALL_CATEGORIES.map((c) => ({
+      category: c,
+      href: listingPath(locale, c, citySlug),
+      label: categoryLabel(c, locale),
+      blurb: categoryBlurb(c, locale),
+      accent: CATEGORY_THEME[c].accent,
+    })),
+  ];
+  const [allCities, cityPoints] = await Promise.all([getAllCities(), getCityPoints()]);
+  const livePoints = new Set(cityPoints.map((p) => p.slug));
+  const pickerCities = allCities
+    .filter((c) => livePoints.has(c.slug) && localesForCity(c).includes(locale))
+    .map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      country: c.country,
+      href: category ? listingPath(locale, category, c.slug) : cityPath(locale, c.slug),
+    }));
+  const regionNames = new Intl.DisplayNames([locale], { type: "region" });
+  const countryNames = Object.fromEntries(
+    [...new Set(pickerCities.map((c) => c.country))].map((code) => [code, regionNames.of(code) ?? code])
+  );
+
   return (
     <main style={{ "--accent": accent } as React.CSSProperties}>
       <PageCity slug={city.slug} />
@@ -232,7 +266,7 @@ export async function CategoryListing({
               numberOfItems: shownItems.length,
               itemListElement: shownItems.map((item, i) => ({
                 "@type": "ListItem",
-                position: i + 1,
+                position: pageStart + i + 1,
                 name: item.business.name,
                 url: `${SITE_URL}${businessPath(locale, item.business.slug)}`,
               })),
@@ -312,56 +346,20 @@ export async function CategoryListing({
               </Link>
             )}
           </div>
-
-          {/* Switch service, keep the location */}
-          {/* Wraps on phones: all six services stay visible, no hidden
-              sideways scroll. */}
-          <nav aria-label={t.listing.otherServices} className="mt-6">
-            <ul className="flex flex-wrap gap-2">
-              <li className="shrink-0">
-                <Link
-                  href={cityPath(locale, citySlug)}
-                  aria-current={category ? undefined : "page"}
-                  className={`inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border px-3.5 py-2 text-sm font-medium transition ${
-                    category
-                      ? "border-line bg-surface text-foreground/70 hover:border-brand-blue-muted-border hover:text-brand-blue"
-                      : "accent-solid border-transparent"
-                  }`}
-                >
-                  <PawIcon className="h-4 w-4" />
-                  {t.listing.allServices}
-                </Link>
-              </li>
-              {ALL_CATEGORIES.map((other) => {
-                const active = other === category;
-                return (
-                  <li key={other} className="shrink-0">
-                    <Link
-                      href={listingPath(locale, other, citySlug)}
-                      aria-current={active ? "page" : undefined}
-                      className={`inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border px-3.5 py-2 text-sm font-medium transition ${
-                        active
-                          ? "accent-solid border-transparent"
-                          : "border-line bg-surface text-foreground/70 hover:border-brand-blue-muted-border hover:text-brand-blue"
-                      }`}
-                    >
-                      <CategoryIcon category={other} className="h-4 w-4" />
-                      {categoryLabel(other, locale)}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
         </div>
       </section>
 
       <div className="mx-auto grid max-w-7xl gap-8 px-4 pt-8 lg:grid-cols-[1fr_300px]">
         <div className="min-w-0">
-          <FilterPanel
+          <ListingControls
             locale={locale}
             category={category}
             citySlug={citySlug}
+            cityName={cityName}
+            country={city.country}
+            services={pickerServices}
+            cities={pickerCities}
+            countryNames={countryNames}
             currentDistrictSlug={attributePage ? attributeSlug(attributePage, locale) : districtSlug}
             near={origin ? near : undefined}
             sort={sort}
@@ -445,10 +443,7 @@ export async function CategoryListing({
                     </div>
                     {g.total > g.items.length && (
                       <Link
-                        // "See all" opens the whole list at once: without ?all=1
-                        // the category page showed 5 again with a second "Show
-                        // all" (owner, 2026-10-07).
-                        href={`${allHref}?all=1`}
+                        href={allHref}
                         prefetch={false}
                         className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
                       >
@@ -472,15 +467,15 @@ export async function CategoryListing({
               ))
             )}
           </div>
-          {collapsed && (
-            <Link
-              href="?all=1"
-              scroll={false}
-              className="mt-4 inline-flex items-center gap-1.5 rounded-[var(--radius-pill)] border border-line bg-surface px-4 py-2 text-sm font-semibold text-brand-blue hover:border-brand-blue"
-            >
-              {t.listing.showAll(listItems.length)}
-              <ArrowRightIcon className="h-4 w-4" />
-            </Link>
+          {paged && (
+            <Pagination
+              locale={locale}
+              page={page}
+              pageCount={pageCount}
+              total={listItems.length}
+              basePath={pageBasePath}
+              query={{ near: origin ? near : undefined, sort: sort ?? undefined, rating: minRating ? String(requestedRating) : undefined, open: openNowOnly ? "1" : undefined }}
+            />
           )}
 
           {/* Guides on this service in the page's language and country

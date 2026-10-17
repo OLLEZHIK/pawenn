@@ -1,0 +1,35 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "dallas-veterinary-clinic",
+    "modern-animal-lakewood",
+    "dallas-animal-urgent-care",
+    "vickery-place-animal-hospital",
+    "cityvet-uptown",
+    "modern-animal-park-cities",
+    "petfolk-veterinary-urgent-care-north-dallas",
+    "cityvet-white-rock",
+    "cityvet-old-east-dallas",
+    "petfolk-veterinary-urgent-care-lakewood"
+  ],
+  "hash": "db3773a1f11cec2a62eb9e9f91b78515caf338e0d67beb51262ba80e7328b261",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T19:54:05.780Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-16T20:06:59.699Z",
+      "result": "FAIL",
+      "listed": 75
+    },
+    {
+      "at": "2026-10-16T20:28:12.576Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

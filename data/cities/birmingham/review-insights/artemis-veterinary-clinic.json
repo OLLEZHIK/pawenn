@@ -1,0 +1,188 @@
+{
+  "slug": "artemis-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Artemis+Veterinary+Clinic/data=!4m7!3m6!1s0x4870a5355c0a32b5:0xef6f6db85b4ae7d7!8m2!3d52.5362078!4d-1.8669356!16s%2Fg%2F11nqxp4qtm!19sChIJtTIKXDWlcEgR1-dKW7htb-8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Compassionate care and attentive veterinary staff"
+      },
+      "text": {
+        "en": "Pet owners frequently praise the veterinary team at Artemis Veterinary Clinic for their warmth, empathy, and professional guidance. Reviewers highlight Dr Piotr and Dr Branca for taking time during appointments, listening carefully to concerns, and explaining diagnostic procedures and treatments without rushing families."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle handling for nervous companions"
+      },
+      "text": {
+        "en": "Clients emphasize how gently and patiently the clinic staff handles pets, including reactive dogs, timid cats, and anxious rabbits. Reviewers appreciate that the team offers home visits and tailored travel advice for stressed pets, making veterinary procedures and end-of-life care as comfortable and stress-free as possible."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Effective treatments and clear aftercare"
+      },
+      "text": {
+        "en": "Reviewers report strong medical outcomes across urgent procedures, dental surgery, and routine wellness consultations. Owners appreciate that vets share detailed before-and-after explanations, provide thorough post-operative instructions, and guide families through tailored nutritional and medication plans."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Artemis Veterinary Clinic offer home visits?"
+      },
+      "a": {
+        "en": "Yes, the clinic offers home visits for nervous pets or clients who have difficulty travelling to the practice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the veterinary team assist in languages other than English?"
+      },
+      "a": {
+        "en": "Yes, clients note that Dr Branca provides consultations in Spanish, Portuguese, and English."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice handle dental surgery and procedures?"
+      },
+      "a": {
+        "en": "Yes, the clinic performs dental treatments and surgery, providing comprehensive explanations and aftercare advice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is emergency care available outside opening hours?"
+      },
+      "a": {
+        "en": "Out-of-hours emergency coverage is provided through Vets Now Wolverhampton."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

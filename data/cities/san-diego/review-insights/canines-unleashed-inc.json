@@ -1,0 +1,136 @@
+{
+  "slug": "canines-unleashed-inc",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Canines+Unleashed+Inc./data=!4m7!3m6!1s0x80d955db59ff3283:0x843de7b41d7261b5!8m2!3d32.7847192!4d-117.0999522!16s%2Fg%2F11h88779r7!19sChIJgzL_WdtV2YARtWFyHbTnPYQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Caring and communicative daycare attendants"
+      },
+      "text": {
+        "en": "Dog owners frequently praise the friendly staff, mentioning attendants like Keith, Sophie, Alexa, and Brandon for greeting pets promptly at car drop-off. Attendants send photo updates and reassurance to nervous first-time clients. While one neighbourhood resident criticised supervision outdoors, pet parents commend the team's dedication."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Active play with supervision complaint"
+      },
+      "text": {
+        "en": "Most clients report that their dogs love attending daycare, noting high-energy play with other dogs, structured rest breaks, and pets returning pleasantly tired. However, one negative review claimed dogs bark outside unattended across the street, creating divided feedback between enthusiastic dog owners and a critical neighbour."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Monitored facility alongside noise criticism"
+      },
+      "text": {
+        "en": "Pet owners appreciate the secure play yards and live webcams that allow them to check in on their dogs throughout the day in Mission Valley. On the other hand, an external review alleged continuous outdoor barking and lack of walking, presenting a contrast to customers who praise the clean, well-managed play environment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners monitor their dogs via live cameras?"
+      },
+      "a": {
+        "en": "Yes, clients confirm that live webcams are accessible to check in on pets playing throughout the daycare day."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is a temperament test required before boarding or daycare?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that a behavioural evaluation is required prior to enrolment to ensure dogs interact safely."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff provide photo updates to pet owners?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate receiving morning photos and themed holiday pictures of their dogs enjoying playtime."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

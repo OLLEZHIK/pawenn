@@ -1,0 +1,157 @@
+{
+  "slug": "cat-hospital-of-dallas",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cat+Hospital+of+Dallas/data=!4m7!3m6!1s0x864ea1cf426ab075:0xd8c60ca04812a3d0!8m2!3d32.8687798!4d-96.7447475!16s%2Fg%2F1v_zsv6y!19sChIJdaBqQs-hToYR0KMSCKDMxtg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Experienced feline veterinary care team"
+      },
+      "text": {
+        "en": "Dr. Weldon and the clinic personnel receive high marks for their deep clinical understanding of feline physiology and medical needs. Pet parents emphasize that the veterinarian possesses specialised insight into cat health that general practices often lack. Long-term clients commend the team for consistent knowledge and warm customer relations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle patience with diverse feline temperaments"
+      },
+      "text": {
+        "en": "Cat owners appreciate the team's gentle and patient approach when handling delicate kittens, timid felines, and senior cats. Reviewers emphasize that the staff consistently keeps the cats' best interests at heart, soothing nervous pets during physical examinations. Clients describe finding a trusted veterinary home for difficult-to-handle cats."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Calm cats-only veterinary environment"
+      },
+      "text": {
+        "en": "Clients value the tranquil, feline-exclusive setting of this independent hospital, free from barking dogs and stressful commotion. Multiple reviewers highlight travelling substantial distances to bring their pets to a quiet, cats-only facility. Cat owners appreciate the relaxing atmosphere designed specifically for feline comfort and safety."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is the Cat Hospital of Dallas an exclusively feline veterinary clinic?"
+      },
+      "a": {
+        "en": "Yes, clients frequently highlight the peaceful, cats-only clinical environment free from canine distractions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Dr. Weldon have specialized expertise in cat healthcare?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize Dr. Weldon's comprehensive knowledge of feline-specific medical issues and conditions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the veterinary team handle elderly or anxious cats?"
+      },
+      "a": {
+        "en": "Yes, pet parents report patient and gentle care for senior cats and nervous feline patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do clients travel from outside the immediate neighborhood?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers note driving up to an hour each way to access specialized feline care at this clinic."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

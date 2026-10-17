@@ -1,0 +1,159 @@
+{
+  "slug": "blue-cross-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Blue+Cross+Veterinary+Clinic/data=!4m7!3m6!1s0x872b0dabbe4f56c1:0x54eed23e2c2407a4!8m2!3d33.4958355!4d-112.0038903!16s%2Fg%2F1tg165w0!19sChIJwVZPvqsNK4cRpAckLD7S7lQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable clinicians and supportive staff"
+      },
+      "text": {
+        "en": "Pet owners widely commend Dr Martens and veterinary technicians for empathetic consultations, pragmatic care plans, and thorough examinations. However, sentiment is mixed due to a client complaint citing unhelpful front-desk reception and delays in message delivery."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable medical and allergy treatment"
+      },
+      "text": {
+        "en": "Clients report effective treatment plans for complex conditions, such as canine allergies, ear infections, and severe canine arthritis. Reviewers value the clinic's balanced clinical approach, which prioritises patient comfort without prescribing excessive treatments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Thorough advice alongside callback delays"
+      },
+      "text": {
+        "en": "Several pet owners praise the attending veterinarian for listening carefully and providing detailed guidance regarding medication regimens. Conversely, one reviewer reported significant frustration over unreturned overnight voicemails and multiple missed callbacks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which veterinary doctors are highlighted in client reviews?"
+      },
+      "a": {
+        "en": "Dr Martens is frequently commended in reviews for her compassionate bedside manner, pragmatism, and allergy expertise."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view the clinic's pricing policy?"
+      },
+      "a": {
+        "en": "Clients value the clinic's sensible pricing, noting honest estimates that maintain pet comfort without excessive expenses."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of companion animals are treated?"
+      },
+      "a": {
+        "en": "The clinic provides general medicine, surgery, laboratory testing, and dental care for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is Blue Cross Veterinary Clinic situated?"
+      },
+      "a": {
+        "en": "The practice is located in the Camelback East neighbourhood of Phoenix at 4111 North 36th Street."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

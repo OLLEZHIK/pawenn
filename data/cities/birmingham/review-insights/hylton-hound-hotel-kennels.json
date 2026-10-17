@@ -1,0 +1,137 @@
+{
+  "slug": "hylton-hound-hotel-kennels",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hylton+Hound+Hotel+Kennels/data=!4m7!3m6!1s0x4870bf22e90997ed:0x3fc3b73aded02ec4!8m2!3d52.3795887!4d-1.8967683!16s%2Fg%2F1tf_gvy1!19sChIJ7ZcJ6SK_cEgRxC7Q3jq3wz8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful kennel team with phone friction"
+      },
+      "text": {
+        "en": "Most pet parents commend kennel owner David and the team for being welcoming, accommodating last-minute bookings, and providing supportive care for boarding dogs. However, customer interactions over the telephone drew mixed impressions, with one reviewer expressing strong frustration over an unhelpful and curt response to breed inquiries."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Engaging care for high-energy dogs"
+      },
+      "text": {
+        "en": "Dog owners report that their pets are thoroughly stimulated and well looked after during boarding and daycare stays. Clients with high-energy breeds like spaniels emphasize that dogs return home suitably tired, happy, and excited to visit again. Reviewers highlight that pets settle easily and show clear enthusiasm upon arrival."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Comfortable daycare and boarding facilities"
+      },
+      "text": {
+        "en": "Feedback highlights the kennel premises as a secure, functional environment for both day catering and extended multi-night boarding. Pet parents appreciate the spacious setup that allows energetic dogs to play and exercise. Customers find the facility well-organized for drop-offs and express intention to use the services repeatedly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the kennel offer daytime doggy daycare?"
+      },
+      "a": {
+        "en": "Yes, clients frequently utilize the facility for daytime care to help exercise and socialize energetic dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can multiple dogs from one household board together?"
+      },
+      "a": {
+        "en": "Yes, pet parents report boarding multiple family pets, such as pairs of spaniels, for extended stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are last-minute boarding reservations possible?"
+      },
+      "a": {
+        "en": "Reviewers note that the kennel staff have accommodated emergency or short-notice bookings when space permitted."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 3,
+      "topics": {}
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "san-diego-bay-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/San+Diego+Bay+Animal+Hospital/data=!4m7!3m6!1s0x80deaaf9fe95c8ef:0x87a13654b0207fab!8m2!3d32.753994!4d-117.214964!16s%2Fg%2F1pxwkzqvs!19sChIJ78iV_vmq3oARq38gsFQ2oYc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Caring practitioners alongside service grievances"
+      },
+      "text": {
+        "en": "Clients frequently commend Dr. Luecking and Dr. Sebastian on Sports Arena Blvd for compassionate surgical care and gentle palliative support. However, sentiment is mixed, as several pet parents describe frustrating encounters involving inflexible receptionists and rushed consultations during urgent visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle pet handling alongside waiting stress"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the veterinary nurses for keeping cats and dogs comfortable during stressful examinations and difficult end-of-life visits. Nonetheless, sentiment is mixed, as one owner reported high distress when a reactive dog was weighed in close proximity to other animals in a busy lobby."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Significant frustration with diagnostic billing"
+      },
+      "text": {
+        "en": "While one client appreciated transparent cost explanations during a dental appointment, multiple reviewers expressed deep frustration regarding expensive diagnostic testing. Clients report unexpected booking deposits, high bills for routine infections, and pressure to authorize add-on lab work."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital have extended evening opening hours?"
+      },
+      "a": {
+        "en": "Yes, pet owners appreciate that the practice operates until 19:30 on weekdays and 18:30 on weekends to accommodate after-work visits."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are booking deposits required for new appointments?"
+      },
+      "a": {
+        "en": "Reviewers report that the clinic requests a $25 deposit over the phone shortly after submitting an appointment request online."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform soft-tissue and orthopedic surgeries?"
+      },
+      "a": {
+        "en": "Yes, clients highlight successful complex procedures including gallbladder removals, fracture repairs, and dental interventions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pets be accommodated if owners arrive early?"
+      },
+      "a": {
+        "en": "Reviewers note that staff accommodated pets whose owners mistakenly arrived ahead of their scheduled appointment day."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

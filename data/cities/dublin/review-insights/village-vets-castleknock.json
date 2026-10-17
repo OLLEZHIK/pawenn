@@ -1,0 +1,94 @@
+{
+  "slug": "village-vets-castleknock",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Village+Vets+Castleknock/data=!4m7!3m6!1s0x48670d7c760f2e93:0xa8fa65d7fc22bee8!8m2!3d53.3733015!4d-6.3617907!16s%2Fg%2F11sq1fnvsh!19sChIJky4PdnwNZ0gR6L4i_Ndl-qg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive clinical team and mixed admin"
+      },
+      "text": {
+        "en": "Pet owners appreciate the warm and gentle care shown by Castleknock vets and nurses during consultations, noting that appointments never felt rushed. However, one client reported serious dissatisfaction with clinic customer service regarding delays in handling a costly medication refund."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Calm waiting area despite admin delays"
+      },
+      "text": {
+        "en": "Clients praise the dedicated quiet waiting area for cats, which helps reduce patient anxiety before medical examinations. Conversely, administrative waiting times drew sharp criticism from one reviewer whose vaccine refund was delayed for over a month despite repeated requests."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Village Vets Castleknock have a dedicated cat waiting area?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the quiet, separate waiting space specifically designed to keep cats calm before appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do veterinary consultations feel unhurried at this clinic?"
+      },
+      "a": {
+        "en": "Reviewers note that appointments and medical treatments are thorough and never feel rushed by the veterinary team."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the practice handle medication refunds and billing issues?"
+      },
+      "a": {
+        "en": "One reviewer reported substantial administrative delays of over a month when seeking a refund for an unfulfilled vaccine."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

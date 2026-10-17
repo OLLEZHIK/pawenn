@@ -1,0 +1,45 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "medivet-finsbury-park",
+    "medivet-kentish-town",
+    "medivet-new-cross",
+    "wolfe-vets-chiswick",
+    "medivet-dalston",
+    "medivet-islington-liverpool-rd",
+    "medivet-canonbury",
+    "medivet-hornsey-hornsey-vets",
+    "medivet-stoke-newington",
+    "wood-wharf-vets"
+  ],
+  "hash": "ee17b40367de7365a9f917c1aa67f3ae7b33fd209bec070295c134b3834c91d4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T17:54:58.516Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-16T18:03:30.353Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-16T18:04:06.437Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T18:04:44.384Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T18:08:16.262Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

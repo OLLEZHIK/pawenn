@@ -1,0 +1,220 @@
+{
+  "slug": "petbar-boutique-lakewood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/petbar+Boutique+-+Lakewood/data=!4m7!3m6!1s0x864e9f340fabfbc1:0xcaead1529a27ac51!8m2!3d32.8379146!4d-96.7526191!16s%2Fg%2F11r_q2tmmt!19sChIJwfurDzSfToYRUawnmlLR6so?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Dedicated stylists with disputed desk service"
+      },
+      "text": {
+        "en": "Clients speak warmly of individual groomers like Will, Victoria, and Abigail, noting their attentive listening and thoughtful advice. However, multiple unhappy customers report friction at the reception desk, describing dismissive responses and defensive attitudes when raising complaints about haircut issues."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "en": "Varied finishes on complex coat trims"
+      },
+      "text": {
+        "en": "Many pet owners are delighted with fluffy teddy bear cuts, fresh bathing, and clean de-shedding on large breeds like Bernese Mountain Dogs. Conversely, several clients experienced unsatisfactory outcomes, including accidental bald patches, uneven scissoring on doodles, and incomplete teeth cleanings."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Compassionate treatment for pets of all ages"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the team gentle disposition toward nervous puppies, senior dogs, and pets experiencing health challenges. Owners appreciate that stylists handle anxious animals calmly, helping them relax during baths and coat trims so they leave cheerful with decorative neck bows."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners wash their own dogs at the Lakewood salon?"
+      },
+      "a": {
+        "en": "Yes, the salon features self-service dog wash stations with easy online booking and elevated wash bays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are large or double-coated breeds accommodated?"
+      },
+      "a": {
+        "en": "Yes, clients frequently bring large breeds including Bernese Mountain Dogs and Australian Shepherds for thorough de-shedding."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How accessible are grooming appointments?"
+      },
+      "a": {
+        "en": "Reviewers note that appointments are straightforward to book online, with weekday and weekend slots typically available."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the team handle first-time puppy visits?"
+      },
+      "a": {
+        "en": "Groomers walk owners through the process beforehand and provide tailored progress feedback at collection."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

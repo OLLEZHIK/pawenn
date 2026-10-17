@@ -1,0 +1,150 @@
+{
+  "slug": "discount-pet-supplies",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Discount+Pet+Supplies/data=!4m7!3m6!1s0x488847072f76e903:0xaf1f977fb80521d4!8m2!3d55.8111158!4d-4.2700683!16s%2Fg%2F1tjpq225!19sChIJA-l2LwdHiEgR1CEFuH-XH68?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful and friendly shop staff"
+      },
+      "text": {
+        "en": "Local pet owners consistently praise the staff at the Clarkston Road shop for their friendly, personal service and helpful guidance. Reviewers appreciate that the team is knowledgeable about animal nutrition and always willing to help carry heavy supplies or answer questions."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Extensive selection of pet products"
+      },
+      "text": {
+        "en": "Customers highlight the wide variety of items available in store, noting that the shop stocks unusual treats and specialized cat food that are hard to find in larger supermarkets. Reviewers also appreciate having a well-stocked neighbourhood outlet for everyday pet essentials."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Specialist foods for dogs and cats"
+      },
+      "text": {
+        "en": "Shoppers report that the store is particularly good for sourcing raw dog food and quality cat treats. Pet parents mention that their dogs and cats thrive on the items purchased here, making it a regular destination for owners seeking healthy, tailored feeding options."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Discount Pet Supplies offer home delivery in Glasgow?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the store provides dependable same-day and weekly local delivery services for pet supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the shop stock raw dog food?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention the wide variety of raw dog food brands available in the store."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are prices competitive compared to supermarket chains?"
+      },
+      "a": {
+        "en": "Reviewers describe the pricing as very reasonable and affordable, especially for bulk foods and specialist supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers find specialized cat food here?"
+      },
+      "a": {
+        "en": "Yes, shoppers highlight unusual cat foods and treats that are rarely stocked in major supermarkets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

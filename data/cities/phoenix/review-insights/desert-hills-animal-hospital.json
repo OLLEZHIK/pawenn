@@ -1,0 +1,158 @@
+{
+  "slug": "desert-hills-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Desert+Hills+Animal+Hospital/data=!4m7!3m6!1s0x872b6de3e7cb49bf:0x62c522504eee8a1e!8m2!3d33.6117463!4d-112.0649952!16s%2Fg%2F1tgpbr9n!19sChIJv0nL5-NtK4cRHoruTlAixWI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dependable healthcare and thorough treatments"
+      },
+      "text": {
+        "en": "Longtime clients praise the clinic for providing comprehensive, practical veterinary care for both dogs and cats over decades of operation. Reviewers emphasize that treatments are handled directly and capably without unnecessary tests or procedures. Although one client noted a wish for in-house laboratory blood machines, owners value the medical outcomes."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated veterinarian alongside phone complaints"
+      },
+      "text": {
+        "en": "Most pet owners praise Dr. Cellars for his straightforward explanations, deep veterinary expertise, and genuine dedication to animals. Clients appreciate the personalised, independent neighbourhood feel of the practice. However, one caller reported an abrupt and dismissive interaction with reception staff over the phone when attempting to schedule care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate approach to neighborhood pets"
+      },
+      "text": {
+        "en": "Pet parents highlight the welcoming atmosphere and compassionate handling shown to both single pets and multi-dog households. Reviewers note that their dogs feel remarkably comfortable walking into the clinic without exhibiting typical signs of fear. Families express strong gratitude for the enduring, attentive care given to their four-legged companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Desert Hills Animal Hospital an independently owned practice?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the practice is an independent, non-corporate veterinary neighbourhood clinic."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the hospital provides routine health exams, medical treatments, and preventive care for both dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are routine appointments required to visit the veterinarian?"
+      },
+      "a": {
+        "en": "Yes, clients typically book consultations in advance by contacting the clinic reception."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet owners bring multiple pets for concurrent wellness checkups?"
+      },
+      "a": {
+        "en": "Yes, clients with multiple pets report bringing their dogs in together for comprehensive examinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    }
+  ]
+}

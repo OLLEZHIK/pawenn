@@ -1,0 +1,183 @@
+{
+  "slug": "orchard-veterinary-centre",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Orchard+Veterinary+Centre/data=!4m7!3m6!1s0x4870bded5f8d4531:0x56f7b597ce695a53!8m2!3d52.4493293!4d-1.9683829!16s%2Fg%2F1tgdhf9h!19sChIJMUWNX-29cEgRU1ppzpe191Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Attentive and caring veterinary professionals"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinary surgeons and receptionists for their friendly manner and clear clinical explanations. Longtime clients highlight that staff remember their pets across many years of visits. One prospective client was frustrated by registration delays, but existing clients consistently commend the supportive care."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Reasonable fees and healthcare plans"
+      },
+      "text": {
+        "en": "Clients frequently discuss the surgery fees, noting that prices compare favourably to large corporate veterinary chains. Several reviewers recommend the monthly PetCare and Pal For Life health schemes for covering routine treatments. While a couple of pet owners consider individual procedures somewhat expensive, they value the peace of mind."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle treatment for dogs and cats"
+      },
+      "text": {
+        "en": "Pet owners appreciate the patient handling shown towards animals during routine booster vaccinations and health consultations. Reviewers note that vets use treats and a calm manner to reassure nervous puppies and older cats. Clients express confidence that their pets are examined thoroughly without causing unnecessary stress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Orchard Veterinary Centre offer monthly pet healthcare plans?"
+      },
+      "a": {
+        "en": "Yes, clients highlight the practice's PetCare and Pal For Life monthly plans covering vaccinations and preventive treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How easy is it to register as a new client?"
+      },
+      "a": {
+        "en": "While established clients report smooth appointments, new client registrations may occasionally be limited by practice capacity."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the Harborne practice building easily accessible for disabled visitors?"
+      },
+      "a": {
+        "en": "A reviewer notes that access into the Harborne clinic can present challenges for visitors with mobility impairments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do vets accommodate anxious puppies during first visits?"
+      },
+      "a": {
+        "en": "Veterinarians use treats and gentle examination techniques to keep first vaccination visits calm and reassuring."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

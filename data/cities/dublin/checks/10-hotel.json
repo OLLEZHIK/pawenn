@@ -1,0 +1,36 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "west-city-kennels-cattery",
+    "river-cottage-cattery",
+    "vetsit-doggy-daycare-dog-grooming-and-boarding",
+    "runamutt-doggy-daycare",
+    "top-dogs-canine-centre",
+    "fido-s-4eva-kennels"
+  ],
+  "hash": "541885140ccbfada796b88589ae31b36b4d1e585309b8d6f28a947a32043f8a5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T13:27:28.879Z",
+      "result": "FAIL",
+      "listed": 62
+    },
+    {
+      "at": "2026-10-16T13:29:58.220Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T13:30:32.016Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T13:33:55.388Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

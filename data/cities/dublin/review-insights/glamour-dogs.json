@@ -1,0 +1,135 @@
+{
+  "slug": "glamour-dogs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Glamour+Dogs/data=!4m7!3m6!1s0x48670fc812d09c59:0xf184b1096c73cce4!8m2!3d53.3653403!4d-6.229037!16s%2Fg%2F11b62w1nxp!19sChIJWZzQEsgPZ0gR5MxzbAmxhPE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Welcoming and accommodating salon groomers"
+      },
+      "text": {
+        "en": "Clients describe the salon team as friendly, helpful, and welcoming to both new puppies and regular visitors. Reviewers appreciate that groomers accommodate quick walk-in requests for routine maintenance without fuss. The staff maintain a pleasant neighbourhood atmosphere that puts visiting pet parents immediately at ease."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Pleasing grooms and coat finishes"
+      },
+      "text": {
+        "en": "Pet owners report excellent grooming results, noting that dogs look gorgeous and neat following full coat styling. Customers consistently recommend the salon for delivering clean cuts and careful scissor work. Both routine maintenance and full grooms leave pets looking tidy and refreshed after their salon sessions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Kind treatment for dogs and puppies"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the kind, gentle handling given to dogs of different ages, from young puppies to French bulldogs. Owners note that pets remain calm while having their nails clipped and coat brushed. The team shows genuine patience with animals, ensuring each grooming session remains pleasant and stress-free."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can pets get nail trims without an appointment?"
+      },
+      "a": {
+        "en": "Reviewers note that staff accommodate routine nail clipping on a walk-in basis without requiring a prior booking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What payment methods are accepted in the salon?"
+      },
+      "a": {
+        "en": "Clients note that the salon operates on a cash-only payment policy for grooming services."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are full grooming prices listed by breed?"
+      },
+      "a": {
+        "en": "Yes, the salon website publishes an itemised price list covering bath, dry, and full groom rates across dog sizes."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the salon cater to all dog sizes?"
+      },
+      "a": {
+        "en": "Yes, grooming services and wash packages cater to small, medium, large, and extra-large breeds."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

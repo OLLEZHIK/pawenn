@@ -1,0 +1,192 @@
+{
+  "slug": "shelter-island-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shelter+Island+Veterinary+Hospital/data=!4m7!3m6!1s0x80deaaf9a03f33d5:0x224827bcc00894c!8m2!3d32.7515931!4d-117.2160522!16s%2Fg%2F1vrq9ysg!19sChIJ1TM_oPmq3oARTIkAzHuCJAI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Warm and reassuring veterinary team"
+      },
+      "text": {
+        "en": "Clients consistently praise Dr Burke, Dr Maret, and the veterinary nurses for their welcoming manner and attentive clinical consultations. Pet owners appreciate clinicians phoning personally to discuss treatment plans and explain diagnostic results clearly. Although one client noted coordination issues with pharmacy orders, the team is widely considered kind and approachable."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle support for nervous patients"
+      },
+      "text": {
+        "en": "Multiple pet owners highlight the calm approach shown toward timid rescue animals, large intimidation-prone breeds, and dogs requiring muzzles. Reviewers appreciate that veterinary technicians take time during nail trims and routine examinations without rushing. Clients report that their pets feel comfortable and settle down quickly during visits to the practice."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Transparent fees with diagnostic concerns"
+      },
+      "text": {
+        "en": "Several reviewers find consultation fees reasonable, highlighting promotional introductory discounts and straightforward billing without unwanted upselling. Conversely, other clients express concern over escalating expenses for long-term skin treatments and report that quoted care plans were notably more expensive than alternative veterinary providers in the area."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the hospital accommodate large or reactive dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients note that staff welcome large dogs warmly and handle anxious pets requiring muzzles with patience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice provide routine canine claw trimming?"
+      },
+      "a": {
+        "en": "Yes, veterinary assistants carry out nail clipping services and assist dogs that become distressed during the procedure."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are introductory consultation offers available for new clients?"
+      },
+      "a": {
+        "en": "Reviewers mention promotional discounts on initial examinations for first-time visitors."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are diagnostic test results communicated to pet owners?"
+      },
+      "a": {
+        "en": "Clients report that attending veterinary surgeons telephone directly to explain laboratory findings and discuss ongoing care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "~",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "prices": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

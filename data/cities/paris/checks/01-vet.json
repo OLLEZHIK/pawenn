@@ -2,9 +2,7 @@
   "chunk": "01-vet",
   "kind": "places",
   "slugs": [
-    "dispensaire-spa-de-paris",
     "univet-wagranville-paris",
-    "clinique-veterinaire-veto-paris-15",
     "clinique-veterinaire-des-olympiades",
     "sevetys-clignancourt-paris",
     "sevetys-crozatier-paris",
@@ -13,7 +11,7 @@
     "clinique-veterinaire-place-des-fetes",
     "ucvet-urgences-et-consultants-veterinaires"
   ],
-  "hash": "58a0cfaa33607b9b9492cb21b50520eeda4d03580d678455b342d57dbc677f11",
+  "hash": "3e9a041e09f5217edadc2bbef80d06e3834dd2df4f6b371aa51099431ed7cf55",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +26,16 @@
     },
     {
       "at": "2026-10-11T15:54:00.661Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:52:41.801Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T06:40:59.145Z",
       "result": "PASS",
       "listed": 0
     }

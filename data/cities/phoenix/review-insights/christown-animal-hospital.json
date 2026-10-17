@@ -1,0 +1,189 @@
+{
+  "slug": "christown-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Christown+Animal+Hospital/data=!4m7!3m6!1s0x872b6d5774a35cf9:0x871b69ec110759f2!8m2!3d33.5118749!4d-112.1009139!16s%2Fg%2F1tf70s22!19sChIJ-VyjdFdtK4cR8lkHEexpG4c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Compassionate doctors with service disparities"
+      },
+      "text": {
+        "en": "Many clients commend Dr. Sandhu and assistant Heather for their exceptional compassion, clear medical guidance, and caring touch during procedures. Reviewers note that the clinical team treats animals with warmth and patience. However, two dissatisfied pet owners reported unhelpful front desk communication and hasty examinations during visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated treatment for diverse pet conditions"
+      },
+      "text": {
+        "en": "Pet owners appreciate the hospital's attentive care for pets ranging from energetic puppies and French Bulldogs to senior rescue cats. Reviewers emphasize that veterinarians assess each animal individually, tailoring procedures carefully to avoid excessive interventions. Clients feel supported whether bringing their companions for routine care or delicate surgical operations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Conservative treatments and surgical successes"
+      },
+      "text": {
+        "en": "Pet owners appreciate the hospital's balanced clinical approach, highlighting successful spays, mass removals, and dental extractions that preserved healthy teeth. French Bulldog owners particularly praise the veterinary staff for smooth deliveries and attentive post-operative care. Aside from one missed diagnosis of a mouth obstruction, clients report reliable medical outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Christown Animal Hospital perform dental surgeries for pets?"
+      },
+      "a": {
+        "en": "Yes, clients report that the veterinary team performs careful dental cleanings and evaluations, avoiding unnecessary full-mouth extractions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital have experience with French Bulldog procedures?"
+      },
+      "a": {
+        "en": "Yes, multiple reviewers recommend the practice for French Bulldog c-sections, puppy deliveries, and breed-specific surgical care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are walk-in visits accepted at Christown Animal Hospital?"
+      },
+      "a": {
+        "en": "While walk-ins are accepted, some reviewers report extended wait times and advise scheduling an appointment ahead of time."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accept pet insurance discount programs?"
+      },
+      "a": {
+        "en": "One reviewer noted difficulties applying a pet insurance discount at checkout, so confirming payment coverage in advance is recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "animals": "+"
+      }
+    }
+  ]
+}

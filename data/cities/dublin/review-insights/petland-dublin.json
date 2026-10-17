@@ -1,0 +1,163 @@
+{
+  "slug": "petland-dublin",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petland/data=!4m7!3m6!1s0x48670e9fc2948df7:0x71b76dc94d498e80!8m2!3d53.335806!4d-6.2650055!16s%2Fg%2F1q62g62pw!19sChIJ942Uwp8OZ0gRgI5JTcltt3E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Compact store with comprehensive selection"
+      },
+      "text": {
+        "en": "Shoppers appreciate the store's central Camden Street location and extensive stock of pet accessories, food brands, and supplies. While visitors note the interior is compact, reviewers consistently point out that it functions as a convenient all-in-one shop packed with essentials for dogs and cats."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Helpful and friendly customer assistance"
+      },
+      "text": {
+        "en": "Long-standing customers frequently commend the store team for their warm approach and attentiveness. Buyers mention that the staff are eager to help select items, resolve stock queries promptly, and ensure orders are dispatched swiftly with genuine goodwill toward visiting pet owners."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Competitive and reasonable pet supplies"
+      },
+      "text": {
+        "en": "Customers highlight the shop's pricing as attractive and fair compared to broader city options. Reviewers note that everyday essentials, toys, and specialty pet feeds represent dependable value, making it a popular choice for pet owners seeking affordable rates in Dublin 2."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of pet supplies are stocked at Petland?"
+      },
+      "a": {
+        "en": "The shop offers dog food brands, pet prams, beds, collars, tags, toys, and grooming accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is home delivery available for online orders?"
+      },
+      "a": {
+        "en": "Yes, customers report fast online dispatch and next-day delivery on items ordered through the website."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in Dublin?"
+      },
+      "a": {
+        "en": "Petland is based on Camden Street Lower in Saint Kevin's, within walking distance of central Dublin."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are live animals sold at the store?"
+      },
+      "a": {
+        "en": "Reviewers note that caged birds such as parrots have been kept on display inside the retail premises."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    }
+  ]
+}

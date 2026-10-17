@@ -1,0 +1,38 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "squaw-peak-animal-hospital",
+    "integrative-vet-oncology",
+    "valley-vet-care",
+    "soderstrom-veterinary",
+    "veterinary-neurological-center",
+    "santis-pet-clinic",
+    "phoenix-veterinary-referral-emergency-center",
+    "van-aken-pet-hospital"
+  ],
+  "hash": "ee18c256b5990d2a154248b6d13708edd4b9c7a9150c627b45e674f7a16fac9d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:35:56.916Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-16T20:38:39.159Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T20:41:56.668Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T20:42:24.817Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

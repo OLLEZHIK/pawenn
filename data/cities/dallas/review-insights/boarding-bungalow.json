@@ -1,0 +1,130 @@
+{
+  "slug": "boarding-bungalow",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Boarding+Bungalow/data=!4m7!3m6!1s0x864e9f5e1f0e42d7:0xa19ec6da1c4e7ab8!8m2!3d32.8361732!4d-96.8375992!16s%2Fg%2F1tg954sq!19sChIJ10IOH16fToYRulxOHdrGnqE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Active routine with an isolated incident"
+      },
+      "text": {
+        "en": "Most pet parents report that their dogs return from boarding happy, energetic, and well exercised after engaging playtimes. Reviewers appreciate that the kennel reinforces training habits during long stays. However, one owner was distressed when their dog sustained a bite wound from another dog without being promptly notified by the facility."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Accommodating and attentive boarding attendants"
+      },
+      "text": {
+        "en": "Clients express appreciation for caring kennel attendants who accommodate flexible drop-off and collection times. Reviewers praise staff members for their attentive supervision and genuine affection toward visiting dogs. Repeat visitors note that team members remember individual pets and create an environment akin to a home away from home."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Organised and secure boarding environment"
+      },
+      "text": {
+        "en": "Pet owners describe the boarding facility as clean, well organised, and capable of providing active daily exercise. Clients appreciate the seamless intake procedures and structured play areas that keep dogs stimulated during multi-day boarding stays. Regular customers consider the premises a reliable lodging option for family pets while travelling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do dogs receive outdoor playtime during boarding stays?"
+      },
+      "a": {
+        "en": "Yes, clients report that staff keep dogs active and engaged with regular exercise and structured play sessions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can staff accommodate flexible drop-off and pick-up hours?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention staff members who waited to assist during early drop-off or delayed pet collection."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Boarding Bungalow provide lodging for multiple family pets?"
+      },
+      "a": {
+        "en": "Yes, pet parents frequently board pairs of dogs together during holidays and travel."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How does the kennel communicate regarding pet injuries?"
+      },
+      "a": {
+        "en": "While general communication is described as smooth, one reviewer noted a lack of immediate phone contact following a minor dog bite."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

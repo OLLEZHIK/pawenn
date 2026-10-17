@@ -1,0 +1,29 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "towerwood-vets-cookridge",
+    "holly-house-exotics-shadwell",
+    "vets-for-pets-leeds-bramley",
+    "yorkshire-vets-morley",
+    "yorkshire-vets-horsforth",
+    "vets-for-pets-leeds-pudsey",
+    "holly-house-vets-moor-allerton",
+    "chantry-vets-middleton",
+    "harrison-family-vets-middleton"
+  ],
+  "hash": "e04007ec984cb3fa6299a9ec165b85fb26298208bdb6dca8f28fe173403fc151",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:10:36.111Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-16T11:15:48.930Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

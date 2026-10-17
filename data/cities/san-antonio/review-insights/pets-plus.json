@@ -1,0 +1,197 @@
+{
+  "slug": "pets-plus",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+Plus/data=!4m7!3m6!1s0x865c6769358508df:0x6e944050320e6af5!8m2!3d29.52623!4d-98.59937!16s%2Fg%2F11csb106_5!19sChIJ3wiFNWlnXIYR9WoOMlBAlG4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Mixed reviews on store and wash stations"
+      },
+      "text": {
+        "en": "Shoppers share mixed impressions of the retail environment and self-wash facilities. Many customers value having specialty dog food and live feeder crickets readily in stock when larger chains run out. However, several reviewers highlight store odour issues, occasional stock gaps, and frustrating operational restrictions around the pet wash tubs."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 10,
+      "title": {
+        "en": "Frequent complaints regarding cashier service"
+      },
+      "text": {
+        "en": "Customer service receives considerable criticism across recent store visits. While a few patrons appreciate knowledgeable advice from aquarium specialists and welcoming greetings, most recent reviewers report unfriendly treatment. Multiple shoppers recount hostile interactions with cashiers, dismissive attitudes, and unhelpful handling of customer requests."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Poor communication and customer service"
+      },
+      "text": {
+        "en": "Visitors report recurrent communication issues during visits to the shop. Dissatisfied customers cite abrupt refusals regarding product quantities, eye-rolling at checkout, and an unwillingness to provide assistance regarding visiting mobile veterinary clinic receipts. Reviewers describe communication as unaccommodating and lacking basic retail politeness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pets Plus offer a self-service dog wash station?"
+      },
+      "a": {
+        "en": "Yes, the store features pet wash tubs, though reviewers advise arriving early because staff close the station for disinfection prior to store closing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers buy live feeder crickets at this shop?"
+      },
+      "a": {
+        "en": "Yes, live crickets and reptile supplies are sold, with reviewers noting they are frequently available when larger retailers are out of stock."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store perform aquarium water testing?"
+      },
+      "a": {
+        "en": "Reviewers confirm that staff provide complimentary water sample testing to help fish keepers diagnose tank water quality issues."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

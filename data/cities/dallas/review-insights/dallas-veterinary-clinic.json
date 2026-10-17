@@ -1,0 +1,164 @@
+{
+  "slug": "dallas-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dallas+Veterinary+Clinic/data=!4m7!3m6!1s0x864e9fe9cb38eb73:0x29f6a1833fcd2e8b!8m2!3d32.8624056!4d-96.8058755!16s%2Fg%2F1tdy9gx5!19sChIJc-s4y-mfToYRiy7NP4Oh9ik?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Dedicated and compassionate clinical team"
+      },
+      "text": {
+        "en": "Pet owners express deep appreciation for Dr. Cahill, Dr. Priddy, and the veterinary nurses, praising their warmth, thorough explanations, and clinical honesty. Clients value that the independent practice avoids recommending unnecessary procedures and takes time to discuss diagnostic options. While one client felt a phone interaction was curt, overall satisfaction remains strong."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm and patient pet examinations"
+      },
+      "text": {
+        "en": "Reviewers note that veterinarians and veterinary nurses handle nervous cats and reactive dogs with notable patience and gentleness. The clinic allows anxious pets to bypass crowded waiting areas and enter examination rooms immediately upon arrival. Pet owners highlight that dogs are warmly spoiled with treats, making veterinary visits far less stressful."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Helpful consultations with occasional phone delays"
+      },
+      "text": {
+        "en": "Most clients praise veterinarians for answering detailed medical questions and sending helpful follow-up advice and information by text message after appointments. However, one caller reported frustration with front-desk staff regarding fee transparency over the telephone. In-person clinical communication is generally described as attentive and reassuring."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can anxious pets bypass the public waiting room?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that nervous cats and dogs can be escorted directly into private examination rooms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Dallas Veterinary Clinic treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the clinic regularly cares for both canine and feline patients, including routine kitten visits and senior exams."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians follow up after treatments?"
+      },
+      "a": {
+        "en": "Yes, pet owners mention receiving post-visit follow-up telephone calls or text messages checking on pet recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice offer second opinions on recommended surgeries?"
+      },
+      "a": {
+        "en": "Yes, clients report consulting the clinic for independent evaluations regarding surgical recommendations from other providers."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "valley-vet-care",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Valley+Vet+Care/data=!4m7!3m6!1s0x872b9fdf95646e65:0xfb5dc786fdc90673!8m2!3d33.4465891!4d-112.0154274!16s%2Fg%2F11hdmb26cp!19sChIJZW5kld-fK4cRcwbJ_YbHXfs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Sharp division in bedside manner"
+      },
+      "text": {
+        "en": "Client sentiment regarding staff conduct is predominantly critical despite several glowing reports. A number of pet owners praise individual vets for patience during peaceful in-home visits, yet multiple reviewers complain of cold, hurried interactions and a distressing lack of empathy during sensitive farewells."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "End-of-life care and gentle handling"
+      },
+      "text": {
+        "en": "Feedback regarding pet handling during palliative care and euthanasia reflects contrasting experiences. Several families describe peaceful transitions where pets were kept completely pain-free at home, whereas other reviewers felt the procedure was rushed and handled without adequate gentleness."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Urgent callouts and rushed appointments"
+      },
+      "text": {
+        "en": "Pet owners describe mixed experiences with scheduling and timing for mobile visits. While some clients appreciate prompt same-day arrivals and emergency support on weekends, others express frustration with delays or feeling that veterinary staff were eager to leave as quickly as possible."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Valley Vet Care offer in-home pet euthanasia?"
+      },
+      "a": {
+        "en": "Yes, the practice provides mobile house-call euthanasia services across Phoenix, allowing companion animals to be put to sleep at home."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are emergency or same-day appointments available?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that veterinarians accommodated urgent same-day callouts and Sunday emergencies when pets took a sudden turn for the worse."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can other family pets be present during home visits?"
+      },
+      "a": {
+        "en": "Yes, clients appreciate that remaining household pets are permitted to be in the room to say goodbye peacefully."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be requested online?"
+      },
+      "a": {
+        "en": "Yes, pet owners can schedule visits and submit inquiries directly through the practice's online portal."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

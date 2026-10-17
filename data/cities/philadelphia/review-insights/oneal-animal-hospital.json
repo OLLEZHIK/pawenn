@@ -1,0 +1,131 @@
+{
+  "slug": "oneal-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/O%27Neal+Animal+Hospital/data=!4m7!3m6!1s0x89c6c6fb03c8c753:0x2ec4c3d2620b9de0!8m2!3d39.957956!4d-75.2104415!16s%2Fg%2F1xpwkr3w!19sChIJU8fIA_vGxokR4J0LYtLDxC4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical feedback regarding clinic staff"
+      },
+      "text": {
+        "en": "Recent reviewers express significant dissatisfaction with staff behaviour and clinic organisation in West Philadelphia. Several pet owners describe personnel as discourteous and dismissive of their questions, though one client praised the team during a nail trim."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Serious concerns about animal handling"
+      },
+      "text": {
+        "en": "Multiple clients report distressing experiences regarding how companion animals are physically handled during examinations and grooming. Owners describe rough restraint of anxious felines and feel pet comfort is treated as an afterthought during appointments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Dissatisfaction with customer communication"
+      },
+      "text": {
+        "en": "Several visitors highlight difficulties in communication and administrative delays at the surgery. Cat owners state that attendants dismissed their legitimate concerns during visits and experienced prolonged delays with treatment records and administrative paperwork."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does O'Neal Animal Hospital accommodate urgent appointments?"
+      },
+      "a": {
+        "en": "Reviewers note that the clinic sometimes accepts last-minute emergency arrivals during standard opening hours, though client experiences vary significantly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate feline care and nail trims?"
+      },
+      "a": {
+        "en": "While one visitor reported a smooth nail trimming session for a nervous cat, several other owners voiced strong concerns regarding rough handling during routine procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are wellness examinations available for dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the clinic offers general health examinations, vaccinations, pet dentistry, and surgical procedures for companion animals in West Philadelphia."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is parking available at the Market Street facility?"
+      },
+      "a": {
+        "en": "Street parking is available along Market Street and adjacent residential blocks in West Philadelphia."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

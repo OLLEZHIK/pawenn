@@ -1,0 +1,131 @@
+{
+  "slug": "wizard-of-paws",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wizard+of+PAWS/data=!4m7!3m6!1s0x4888464bef8b35f7:0xaa1d402b535de9ab!8m2!3d55.8215899!4d-4.2985971!16s%2Fg%2F1tfb6440!19sChIJ9zWL70tGiEgRq-ldUytAHao?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Effective grooming and puppy training"
+      },
+      "text": {
+        "en": "Clients express great satisfaction with training classes and self-wash grooming facilities. Dog owners note that puppy training provides a solid foundation, while the self-service wash delivers fast and thorough results, leaving dogs clean, fluffy, and smelling fresh."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Engaging and enjoyable pet experience"
+      },
+      "text": {
+        "en": "Reviewers highlight that dogs genuinely enjoy their time at the centre, whether participating in puppy classes, full styling sessions, or self-service dog wash baths. Owners appreciate that pets look well cared for and remain relaxed throughout grooming and training activities."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly team alongside customer care complaints"
+      },
+      "text": {
+        "en": "Several pet owners praise the staff for being lovely, helpful, and welcoming when providing equipment for the dog wash and grooming dogs. However, another client reported poor customer service, citing unreturned phone enquiries and difficulty scheduling dog training sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What facilities are included in the self-service dog wash?"
+      },
+      "a": {
+        "en": "The self-wash provides high-powered showers and dryers along with aprons, brushes, towels, shampoo, and conditioner."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Wizard of PAWS offer puppy training classes?"
+      },
+      "a": {
+        "en": "Yes, the centre provides puppy training courses, though reviewers recommend confirming class availability directly with staff."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the full dog grooming service?"
+      },
+      "a": {
+        "en": "Pet owners report that dogs look well groomed and clean, though booking enquiries may require follow-up calls."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the centre located?"
+      },
+      "a": {
+        "en": "The salon and training centre is located at 32 Cogan Street in Pollokshaws, Glasgow."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

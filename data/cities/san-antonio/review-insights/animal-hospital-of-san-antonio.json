@@ -1,0 +1,139 @@
+{
+  "slug": "animal-hospital-of-san-antonio",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Hospital+of+San+Antonio/data=!4m7!3m6!1s0x865c5e2aa1bc3d57:0x41b196387afdaaca!8m2!3d29.5147876!4d-98.5295257!16s%2Fg%2F1vntk9pz!19sChIJVz28oSpeXIYRyqr9ejiWsUE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Skilled vet with mixed support"
+      },
+      "text": {
+        "en": "Dr Smith receives warm commendations from longtime clients for her clinical knowledge and diagnostic abilities. Pet owners appreciate her decades of experience and dedication to companion animals. However, several reviewers express frustration with reception staff, citing disorganized coordination and instances where appointment changes were not communicated promptly."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Effective treatments with selective reservations"
+      },
+      "text": {
+        "en": "Multiple pet parents report positive medical outcomes, noting that the veterinary team successfully treated critical illnesses and saved their cats. In contrast, one reviewer felt that the clinic lacked sufficient urgency during acute sickness and advised reserving the practice primarily for routine check-ups rather than complex emergencies."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Generally fair fees alongside billing remarks"
+      },
+      "text": {
+        "en": "Reviewers frequently describe routine visit fees and medication costs as fair and reasonable compared to larger emergency clinics in the area. Nonetheless, one client voiced irritation regarding fee transparency and felt administrative policies did not adequately respect client time and expenditure when schedules shifted unexpectedly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic have an on-site veterinary pharmacy?"
+      },
+      "a": {
+        "en": "Yes, Animal Hospital of San Antonio maintains an in-house veterinary pharmacy for prescription refills and preventive treatments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for visits?"
+      },
+      "a": {
+        "en": "Yes, scheduled appointments are standard, and clients recommend confirming booking details prior to travelling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the practice treat cats and dogs?"
+      },
+      "a": {
+        "en": "Yes, reviews and clinic records confirm medical care, surgery, and wellness check-ups for companion cats and dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients view the veterinary fees?"
+      },
+      "a": {
+        "en": "Most clients find the fees sensible for regular wellness visits, though a few suggest clarifying costs in advance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

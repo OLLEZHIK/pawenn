@@ -1,0 +1,35 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "fishtown-animal-hospital",
+    "wag-whole-animal-gym",
+    "girard-veterinary-clinic",
+    "wissahickon-creek-veterinary-hospital",
+    "the-cat-doctor",
+    "pet-health-center",
+    "mt-airy-animal-hospital",
+    "boulevard-animal-hospital",
+    "one-love-veterinary-clinic-chelwayne",
+    "livewell-animal-hospital-of-fishtown"
+  ],
+  "hash": "ab8ec28892a13ad8ebd8a4f563d6c0f9a1ba83a79d3d4e066bed15f9a0ff335f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:25:49.979Z",
+      "result": "FAIL",
+      "listed": 27
+    },
+    {
+      "at": "2026-10-16T21:33:39.583Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-16T21:34:27.815Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

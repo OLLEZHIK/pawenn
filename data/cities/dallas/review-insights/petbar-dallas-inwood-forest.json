@@ -1,0 +1,162 @@
+{
+  "slug": "petbar-dallas-inwood-forest",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/petbar+Dallas+-+Inwood+Forest/data=!4m7!3m6!1s0x864c2141ef2c5dfd:0x7b522d904d640a46!8m2!3d32.9101496!4d-96.8175072!16s%2Fg%2F11t1h9y2rt!19sChIJ_V0s70EhTIYRRgpkTZAtUns?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Friendly and accommodating customer care"
+      },
+      "text": {
+        "en": "Clients frequently commend front-of-house staff and groomers such as Addi, Courtney, and Sherry for their warm welcome and courteous assistance. Pet owners highlight how patiently team members answer detailed questions over the phone and accommodate bookings within the same week for regular clients."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Neat poodle styling with disputed clipper nicks"
+      },
+      "text": {
+        "en": "Many owners express great satisfaction with stylish breed cuts, observing that dogs emerge with soft, shiny, and neatly shaped fur. However, one client reported repeated clipping injuries during routine hygiene trims, expressing deep disappointment over careless handling and lack of accountability."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle approach alongside reported handling concerns"
+      },
+      "text": {
+        "en": "Most pet parents observe that their dogs feel calm and well cared for, noting that staff take extra time to soothe senior or anxious pets during bathing. Conversely, a critical review described a puppy left visibly shaken and bruised following a hygiene appointment, warning of inconsistent animal handling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the salon accommodate senior or anxious dogs?"
+      },
+      "a": {
+        "en": "Yes, clients observe that staff take extra time with senior or stressed dogs to keep them calm during baths and trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How quickly can grooming appointments be scheduled?"
+      },
+      "a": {
+        "en": "Reviewers report being able to book grooming appointments within the same week by calling the salon."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Which breed cuts are offered by the stylists?"
+      },
+      "a": {
+        "en": "Stylists provide tailored cuts including poodle styling, de-shedding washes, and routine hygiene maintenance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do staff update owners when pets are ready for pickup?"
+      },
+      "a": {
+        "en": "The parlour notifies owners by telephone once treatments are completed, typically within ninety minutes to two hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

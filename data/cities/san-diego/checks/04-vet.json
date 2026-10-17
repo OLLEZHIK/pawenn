@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "ark-animal-hospital-balboa-ave",
+    "tierramesa-veterinary-clinic",
+    "point-loma-veterinary-clinic",
+    "veterinary-specialty-hospital-sorrento-valley",
+    "mission-gorge-animal-hospital",
+    "sunset-cliffs-animal-hospital",
+    "rancho-san-carlos-pet-clinic",
+    "turquoise-animal-hospital",
+    "tierrasanta-veterinary-hospital",
+    "bayview-veterinary-center"
+  ],
+  "hash": "fa1e885ab44d2cd5cfd303ed3a1b16924bba4dd457306377559118ed60550b30",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:10:55.659Z",
+      "result": "FAIL",
+      "listed": 30
+    },
+    {
+      "at": "2026-10-16T21:18:39.407Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

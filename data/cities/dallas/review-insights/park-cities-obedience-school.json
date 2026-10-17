@@ -1,0 +1,121 @@
+{
+  "slug": "park-cities-obedience-school",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Park+Cities+Obedience+School/data=!4m7!3m6!1s0x864e9f0cf24edf6d:0xffa5913e0c9f0f43!8m2!3d32.8434132!4d-96.7728379!16s%2Fg%2F1wrgkkr0!19sChIJbd9O8gyfToYRQw-fDD6Rpf8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive trainers despite occasional service complaint"
+      },
+      "text": {
+        "en": "Most dog owners praise individual trainers such as Ray and Lillian for their patience, clear guidance, and genuine dedication to the dogs. Regular boarding and training clients appreciate their helpful approach. However, one visitor noted shocking customer service, though other reviewers report warm assistance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "en": "Enthusiastic dogs and safe supervision"
+      },
+      "text": {
+        "en": "Pet owners observe that their dogs enter eagerly and appear comfortable interacting with the daycare group. Boarding clients note that staff carry out behavioural assessments before mixing dogs, ensuring adequate safety in play areas and outdoor pools."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Regular updates with mixed communication feedback"
+      },
+      "text": {
+        "en": "Boarding clients appreciate timely email responses and reassuring updates about how their pets are settling in and eating. While one customer reported poor communication and service during their enquiry, boarding clients found the desk staff responsive and helpful."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the centre provide updates during dog boarding?"
+      },
+      "a": {
+        "en": "Yes, clients report receiving email updates and photos detailing their dogs daily activities and wellbeing."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is behavioural assessment required before daycare or boarding?"
+      },
+      "a": {
+        "en": "Yes, staff evaluate temperament and behaviour before introducing pets to group play."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What training programmes are available?"
+      },
+      "a": {
+        "en": "Clients mention structured two-week training courses focused on obedience and behavioural guidance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are vaccination records necessary?"
+      },
+      "a": {
+        "en": "Yes, core vaccinations including Bordetella are required prior to boarding and training."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

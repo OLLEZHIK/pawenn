@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "san-diego-bay-animal-hospital",
+    "colina-veterinary-hospital",
+    "kearny-mesa-veterinary-center",
+    "abc-veterinary-hospital-pacific-beach",
+    "san-diego-affordable-spay-and-neuter-clinic",
+    "black-mountain-animal-hospital",
+    "the-infurmary-veterinary-hospital-pain-center",
+    "housecollar-vet-home-euthanasia",
+    "shots-for-pets",
+    "rancho-bernardo-pet-hospital"
+  ],
+  "hash": "3452a9ca97867a4a4314a350319bf7e067d5015bc754ae25c7e029be55c0372a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T19:44:26.122Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-16T19:57:22.293Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

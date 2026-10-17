@@ -1,0 +1,30 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "metro-paws-animal-hospital-oak-cliff",
+    "veg-er-for-pets-dallas",
+    "east-lake-veterinary-hospital",
+    "chew-animal-clinic",
+    "metro-paws-animal-hospital-skillman",
+    "medvet-dallas",
+    "metro-paws-animal-hospital-white-rock",
+    "advocate-veterinary-services",
+    "arista-advanced-pet-care-dallas",
+    "lonestar-feline-health-center"
+  ],
+  "hash": "930bada35fc1b4a727ae6887f2312b06e3be8fc8a2c15a301a69ddb427034485",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:13:16.712Z",
+      "result": "FAIL",
+      "listed": 29
+    },
+    {
+      "at": "2026-10-17T00:23:59.067Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "medivet-st-johns-wood",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Medivet+St+Johns+Wood/data=!4m7!3m6!1s0x48761be612afb279:0x7529069f7bd04516!8m2!3d51.534704!4d-0.168824!16s%2Fg%2F11h3jhlllk!19sChIJebKvEuYbdkgRFkXQe58GKXU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Polarised opinions on veterinary staff"
+      },
+      "text": {
+        "en": "Client reviews show sharp division regarding clinic personnel. Several pet owners speak highly of Dr Amber and receptionist Helena, commending their thorough examinations and welcoming attitude. Conversely, multiple reviewers report dismissive treatment, feeling unsupported during pet health crises."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting views on communication standards"
+      },
+      "text": {
+        "en": "Communication experiences vary significantly among clients. Satisfied pet parents describe clear explanations, courteous telephone manners, and prompt assistance with pet travel paperwork. However, other owners report frustrating delays receiving diagnostic lab results and inadequate dietary guidance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling during routine exams"
+      },
+      "text": {
+        "en": "Owners who had positive visits highlight how veterinarians kept dogs and cats calm during routine checkups and vaccinations. Reviewers note that clinicians offered treats, handled anxious pets with patience, and accommodated companion animals with care when appointments ran smoothly."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What is the policy regarding arrival time for appointments?"
+      },
+      "a": {
+        "en": "The practice enforces strict appointment timing; clients report that arriving even five minutes late can result in consultation refusal."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Medivet St Johns Wood assist with international pet travel?"
+      },
+      "a": {
+        "en": "Yes, clients confirm the team prepares animal health certificates and necessary documentation for overseas pet travel."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is emergency care handled outside surgery hours?"
+      },
+      "a": {
+        "en": "Out-of-hours emergencies are transferred to Medivet 24 Hour Kensington, which provides hospital and emergency support."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What preventative care is included under the practice health plan?"
+      },
+      "a": {
+        "en": "The health plan covers regular wellness checkups, flea and worming treatments, routine boosters, and discounts on procedures."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "waiting": "-",
+        "animals": "+",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}

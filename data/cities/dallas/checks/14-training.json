@@ -1,0 +1,29 @@
+{
+  "chunk": "14-training",
+  "kind": "places",
+  "slugs": [
+    "tip-top-k9-dallas",
+    "sit-means-sit-dallas",
+    "beyond-the-dog-dallas",
+    "park-cities-obedience-school"
+  ],
+  "hash": "0d68d417d106cc85bf13ff487a48f26e2b7d9fd5318048889a09c7ceff46f28d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T01:35:44.749Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-17T01:40:54.366Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-17T01:42:44.721Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

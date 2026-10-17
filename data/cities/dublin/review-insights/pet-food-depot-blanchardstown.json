@@ -1,0 +1,148 @@
+{
+  "slug": "pet-food-depot-blanchardstown",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Food+Depot+Blanchardstown/data=!4m7!3m6!1s0x486772aeeb0080cf:0x5d27d1c3c8d51139!8m2!3d53.3853091!4d-6.3993584!16s%2Fg%2F11bw1zyczl!19sChIJz4AA665yZ0gRORHVyMPRJ10?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Helpful and knowledgeable store team"
+      },
+      "text": {
+        "en": "Shoppers regularly commend the store associates at the Coolmine branch for their friendly approach and helpful product guidance. Multiple customers note that staff members gladly assist in finding suitable diets, treats, and care accessories for dogs and cats."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Well organised store and broad selection"
+      },
+      "text": {
+        "en": "Visitors appreciate the spacious layout of the Blanchardstown retail warehouse, describing it as clean, well stocked, and easy to navigate. Customers note that the shelves offer a broad selection of pet foods, treats, and everyday supplies for various animal needs."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Competitive pricing and loyalty rewards"
+      },
+      "text": {
+        "en": "Pet owners highlight the value offered on dry kibble, bulk supplies, and special promotions compared to other retail options. Several reviewers specifically praise the store's loyalty stamp program, which allows regular shoppers to earn savings on repeat food purchases."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet Food Depot Blanchardstown offer online delivery?"
+      },
+      "a": {
+        "en": "Yes, customers can place orders online for doorstep delivery, though in-store pickup is also available."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is there a customer loyalty programme?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention a loyalty card system that offers rewards and discounts on recurring pet food purchases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet products are available in store?"
+      },
+      "a": {
+        "en": "The store carries bulk dry kibble, wet food, treats, dog crates, cat litter, and wild bird seed."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Where is the Blanchardstown branch located?"
+      },
+      "a": {
+        "en": "The store is located at 4b Porters Road in Coolmine Industrial Estate with customer parking outside."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

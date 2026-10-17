@@ -1,0 +1,121 @@
+{
+  "slug": "mearns-canine-lodge",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mearns+Canine+Lodge/data=!4m7!3m6!1s0x488837c0ec296a0f:0x9173b167f664c364!8m2!3d55.7509601!4d-4.3528115!16s%2Fg%2F11x9lrr30!19sChIJD2op7MA3iEgRZMNk9mexc5E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Friendly and attentive lodge team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the staff at Mearns Canine Lodge for their warm, accommodating, and patient manner. Clients who board their dogs multiple times note that the carers genuinely understand canine behaviour and communicate reassuringly. Reviewers describe the team as lovely, attentive, and dedicated to keeping pet owners informed during boarding stays."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Thoughtful care for nervous dogs"
+      },
+      "text": {
+        "en": "Clients emphasize how thoughtfully their dogs are looked after, noting that the carers are especially good with nervous or timid pets. Owners report that dogs come home from daycare and boarding sessions calm, settled, and clearly happy. Reviewers appreciate that the handlers take time to understand each dog personality and provide reassuring attention."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Spacious paddocks and clean kennels"
+      },
+      "text": {
+        "en": "Visitors and regular clients highlight the facility setting within the countryside near Newton Mearns. Reviewers appreciate the clean kennels and generous open spaces where dogs can run freely and exercise safely. Many owners mention that the peaceful environment and secure grounds make it a well-run day care and boarding centre they gladly recommend."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Mearns Canine Lodge accommodate nervous dogs?"
+      },
+      "a": {
+        "en": "Yes, clients specifically note that the staff are patient, understand dog behaviour, and provide reassuring care for nervous pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What outdoor facilities are available for dogs?"
+      },
+      "a": {
+        "en": "The lodge features open play paddocks and secure outdoor spaces, alongside access to private surrounding woodland for exercise."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are boarding visits required to be booked in advance?"
+      },
+      "a": {
+        "en": "Yes, daycare and boarding stays require advance reservations through the lodge booking system."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

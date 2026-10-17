@@ -1,0 +1,33 @@
+{
+  "chunk": "07-vet",
+  "kind": "places",
+  "slugs": [
+    "east-lake-cat-care-center",
+    "cottonwood-animal-hospital",
+    "cat-hospital-of-dallas",
+    "blink-veterinary-eye-specialists",
+    "north-texas-animal-rehabilitation",
+    "greenbriar-veterinary-hospital",
+    "midway-road-animal-clinic",
+    "vaxvan-petcare"
+  ],
+  "hash": "ac1579fddefcee95e50ec7a7bc0a7e937d3be24277e4e17da950a97758ed0e9d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:41:05.453Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-17T00:43:10.863Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-17T00:47:12.528Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

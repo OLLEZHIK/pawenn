@@ -13,6 +13,7 @@ declare global {
   interface Window {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
+    clarity?: ((...args: unknown[]) => void) & { q?: unknown[] };
   }
 }
 
@@ -31,7 +32,18 @@ export function measurementId(raw: string | undefined): string | null {
   return /^G-[A-Z0-9]{4,20}$/.test(id) ? id : null;
 }
 
-/** An event for GA4; dropped when GA4 is not loaded (no consent, no ID). */
+// Microsoft Clarity (heatmaps and session recordings, free), owner 2026-10-16.
+// Loaded only after "allow", like GA4. NEXT_PUBLIC_CLARITY_ID overrides the
+// project; "off" switches Clarity off without a code change.
+const CLARITY_PROJECT = "yyrfnjj8z6";
+
+export function clarityProjectId(): string | null {
+  const id = (process.env.NEXT_PUBLIC_CLARITY_ID ?? CLARITY_PROJECT).trim();
+  return /^[a-z0-9]{6,20}$/.test(id) ? id : null;
+}
+
+/** An event for GA4 and Clarity; dropped where they are not loaded (no consent, no ID). */
 export function gaEvent(name: string, params: Record<string, string | number> = {}) {
   window.gtag?.("event", name, params);
+  window.clarity?.("event", name);
 }

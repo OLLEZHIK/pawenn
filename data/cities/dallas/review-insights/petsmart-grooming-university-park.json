@@ -1,0 +1,134 @@
+{
+  "slug": "petsmart-grooming-university-park",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Grooming/data=!4m7!3m6!1s0x864e9f9fb8917999:0xf231a9aba6e90ee7!8m2!3d32.8544772!4d-96.7687012!16s%2Fg%2F11bwh4gyy8!19sChIJmXmRuJ-fToYR5w7ppqupMfI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Frequent issues with grooming quality"
+      },
+      "text": {
+        "en": "While one owner praised top-notch styling and a well-groomed coat, several clients report unsatisfactory haircuts. Unhappy reviewers describe uneven trims, requests for teddy bear styles being ignored, and extreme clipping that left sensitive skin irritated and closely shorn."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Service disputes and booking frustrations"
+      },
+      "text": {
+        "en": "Feedback concerning staff members is largely critical, despite isolated praise for dedicated stylists. Reviewers recount unhelpful interactions when asking for assistance, perceived indifference at check-in, and abrupt cancellations when arriving for previously confirmed bookings."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Handling concerns for visiting pets"
+      },
+      "text": {
+        "en": "One pet parent commended the careful handling of a high-energy dog, but other reviewers expressed deep reservations. Reports include groomers blaming natural puppy movement for poor cuts, alleged clipper abrasions, and a perceived lack of compassion towards distressed animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can grooming appointments be scheduled online?"
+      },
+      "a": {
+        "en": "Yes, pet owners can schedule grooming and bathing services through the online reservation system."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What occurs if a pet requires extra grooming time?"
+      },
+      "a": {
+        "en": "Clients advise confirming coat condition early, as heavy matting or large coats may result in appointments being rescheduled."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does this location accept cats for grooming?"
+      },
+      "a": {
+        "en": "Yes, cat grooming appointments are offered alongside standard canine grooming services."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are customized breed haircuts available for dogs?"
+      },
+      "a": {
+        "en": "Stylists provide breed haircuts, though pet owners emphasize giving precise instructions at drop-off to ensure desired styling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

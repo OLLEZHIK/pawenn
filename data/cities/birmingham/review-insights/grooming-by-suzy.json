@@ -1,0 +1,135 @@
+{
+  "slug": "grooming-by-suzy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Grooming+by+Suzy/data=!4m7!3m6!1s0x48709519c75eca7f:0xcfd60be4737b3de5!8m2!3d52.3955932!4d-1.9961564!16s%2Fg%2F11x8pts12c!19sChIJf8pexxmVcEgR5T17c-QL1s8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attractive styling and coat grooming"
+      },
+      "text": {
+        "en": "Most pet owners express great satisfaction with grooming results, praising neat cuts, thorough washing, and pleasant scents on their dogs. Regular visitors note that coats look tidy and well-brushed after appointments. However, one client reported an unsatisfactory cut for a cockapoo, complaining of severe over-clipping and uneven patches."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Welcoming and friendly dog groomer"
+      },
+      "text": {
+        "en": "Reviewers warmly praise Suzy for her welcoming attitude, polite customer interactions, and genuine passion for animals. Clients note that she establishes good rapport with pets and keeps owners informed during appointments. In contrast, one disappointed customer felt the response regarding a matted coat dispute was dismissive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Calm handling with isolated criticism"
+      },
+      "text": {
+        "en": "Several reviewers commend Suzy's gentle and patient approach with nervous, rescue, or first-time dogs, noting that their pets appeared settled and trusting throughout the session. Conversely, one pet parent raised serious concerns about coat shaving on sensitive skin, though other clients consistently describe thoughtful care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Suzy groom nervous or rescue dogs?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention that Suzy works patiently with anxious rescue dogs and first-time puppies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can multiple dogs be booked for grooming together?"
+      },
+      "a": {
+        "en": "Reviewers note that owners of paired dogs, such as Pomeranians, have had their pets groomed together in the salon."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How does the salon handle heavily matted dog coats?"
+      },
+      "a": {
+        "en": "Reviews indicate that matted fur may require short clipping to prevent skin discomfort, which owners should discuss beforehand."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

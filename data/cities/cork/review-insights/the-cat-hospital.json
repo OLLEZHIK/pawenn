@@ -1,0 +1,132 @@
+{
+  "slug": "the-cat-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/The+Cat+Hospital/data=!4m7!3m6!1s0x48449b0487e6bbd7:0x776a3e5a2a52e593!8m2!3d51.9259727!4d-8.4016764!16s%2Fg%2F1tncs99l!19sChIJ17vmhwSbREgRk-VSKlo-anc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Specialised and caring veterinary team"
+      },
+      "text": {
+        "en": "Cat owners praise the veterinary surgeons and clinical nurses in Cork for their dedicated approach and feline expertise. Reviewers describe the staff as friendly, attentive, and genuinely invested in cat health, noting that clinicians communicate clearly and provide reassuring guidance throughout consultations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for feline patients"
+      },
+      "text": {
+        "en": "Feline guardians highlight that cats receive gentle and respectful treatment tailored specifically to their needs. Reviewers appreciate that the practice caters exclusively to cats, ensuring a calm experience where nervous pets are handled with immense patience and kept comfortable during routine visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "High standards of feline treatment"
+      },
+      "text": {
+        "en": "Pet owners report strong trust in the clinical results and medical standards provided by the specialist veterinarians. Reviews reflect satisfaction with health assessments and treatments, noting that cats are in safe hands and that care plans are well suited to maintaining long-term feline wellness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic treat dogs or other pets?"
+      },
+      "a": {
+        "en": "No, the facility is a dedicated feline-only hospital providing specialised care exclusively for cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is the clinic open on weekends?"
+      },
+      "a": {
+        "en": "Yes, reviewers and clinic hours confirm Saturday opening hours for routine appointments and checkups."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic environment for cats?"
+      },
+      "a": {
+        "en": "Reviewers note a peaceful, stress-free setting that is calming and well-suited for feline patients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital perform feline surgery and diagnostic imaging?"
+      },
+      "a": {
+        "en": "Yes, the practice offers soft tissue surgery, ultrasonography, digital radiography, and dentistry."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "aawl-community-vet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/AAWL+Community+Vet+Clinic/data=!4m7!3m6!1s0x872b0e860b147467:0x8e82914923780920!8m2!3d33.4491856!4d-111.9940167!16s%2Fg%2F11c3x9576x!19sChIJZ3QUC4YOK4cRIAl4I0mRgo4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Supportive team with front-desk friction"
+      },
+      "text": {
+        "en": "Most pet owners commend the veterinary staff and clinic management for their friendly and helpful assistance during clinical visits. However, one client experienced frustrating reception interactions regarding scheduling restrictions, noting impolite communication during check-in and checkout."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Care for community companion pets"
+      },
+      "text": {
+        "en": "Clients appreciate the gentle treatment provided to both cats and dogs during routine appointments. Reviewers highlight that veterinary assistants handle companion pets with patience and genuine care, helping animals feel settled while undergoing preventative medical checks and vaccinations."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt visits alongside busy periods"
+      },
+      "text": {
+        "en": "While several clients report swift appointments and efficient treatment, reviewers note that the community clinic experiences high demand, particularly over weekends. One visitor also reported delays when completing paperwork and waiting for administrative confirmation at the payment desk."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of veterinary care does the clinic provide?"
+      },
+      "a": {
+        "en": "The clinic offers preventative wellness consultations, essential vaccinations, and routine medical services for companion pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments busier at specific times?"
+      },
+      "a": {
+        "en": "Yes, clients observe that the clinic is particularly busy during weekends, when appointment demand increases significantly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are examination fees required for afternoon appointments?"
+      },
+      "a": {
+        "en": "Reviewers note that certain afternoon vaccine appointments may incorporate an accompanying wellness examination fee."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "waiting": "~"
+      }
+    }
+  ]
+}

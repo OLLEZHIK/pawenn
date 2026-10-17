@@ -1,0 +1,29 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "desert-hills-animal-hospital",
+    "all-creatures-animal-clinic",
+    "moon-valley-animal-hospital",
+    "west-phoenix-veterinary-hospital",
+    "phoenix-dog-cat-bird-hospital",
+    "palm-glen-animal-hospital",
+    "animal-care-hospital-of-phoenix",
+    "east-maryland-animal-hospital",
+    "four-legged-friends-animal-hospital"
+  ],
+  "hash": "8dedeb942ef48d4ec3193ea1da7d1154e7838b8547071779b63bd760375ce8e4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T20:22:00.848Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-16T20:29:31.553Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

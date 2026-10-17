@@ -1,0 +1,130 @@
+{
+  "slug": "pawtenders",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PawTenders/data=!4m7!3m6!1s0x864e9f334452a4dd:0xd39d07e576c58938!8m2!3d32.8130529!4d-96.7621551!16s%2Fg%2F11dz51kpms!19sChIJ3aRSRDOfToYROInFduUHndM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Sharp divide over grooming staff conduct"
+      },
+      "text": {
+        "en": "Longtime patrons speak highly of groomer Tammy, praising her kind manner, attention to detail, and thorough grooming technique. Conversely, multiple critical reviewers express profound alarm over staff conduct and accountability, citing a lack of empathy and transparency following serious grooming incidents."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Mixed feedback on styling and outcomes"
+      },
+      "text": {
+        "en": "Satisfied dog owners report tidy hair trims, clean coats, and attentive finishing touches such as paw trimming before leaving the salon. However, another client described a tragic medical emergency shortly after an appointment, alleging traumatic handling that led to fatal complications."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Severe concerns regarding pet safety"
+      },
+      "text": {
+        "en": "While one client notes that their dog seems comfortable during grooming visits, severe criticism dominates reports on animal welfare. Two separate reviewers recount that their dogs suffered fatal health crises following visits, warning of rough handling, shock collars, and excessive crating."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What do clients report about animal safety at PawTenders?"
+      },
+      "a": {
+        "en": "Recent reviews raise severe safety allegations regarding rough handling and post-grooming medical crises, though older reviews describe positive visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do pet owners need to schedule appointments in advance?"
+      },
+      "a": {
+        "en": "Yes, grooming sessions are scheduled in advance, though clients note concerns regarding overbooking and long kennel waiting periods."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are specific coat trims offered?"
+      },
+      "a": {
+        "en": "Yes, clients mention full body grooms along with tidy paw trims and hygiene maintenance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Who operates the grooming facility?"
+      },
+      "a": {
+        "en": "Reviews consistently reference groomer Tammy as the primary operator handling appointments."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

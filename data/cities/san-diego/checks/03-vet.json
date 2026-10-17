@@ -1,0 +1,34 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "b-street-veterinary-hospital",
+    "kensington-veterinary-hospital",
+    "rose-canyon-animal-hospital",
+    "grand-animal-hospital",
+    "southpaw-vet",
+    "balboa-veterinary-hospital",
+    "uptown-animal-hospital-normal-st",
+    "animal-outpatient-surgery-of-san-diego",
+    "amici-pet-hospital-of-little-italy"
+  ],
+  "hash": "fbf9dd903fb838233aa50c41a64e693fd05d8b3b40e388f0600a71df257d9645",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T21:24:09.236Z",
+      "result": "FAIL",
+      "listed": 25
+    },
+    {
+      "at": "2026-10-16T21:30:23.543Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T21:39:36.648Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

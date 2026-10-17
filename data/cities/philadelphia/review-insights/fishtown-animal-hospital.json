@@ -1,0 +1,183 @@
+{
+  "slug": "fishtown-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fishtown+Animal+Hospital/data=!4m7!3m6!1s0x89c6c8699270e7bd:0x9847e6e770252230!8m2!3d39.9696018!4d-75.1328224!16s%2Fg%2F11byfll7gk!19sChIJvedwkmnIxokRMCIlcOfmR5g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Polarised opinions on clinic staff"
+      },
+      "text": {
+        "en": "Customer sentiment regarding the clinical and reception team is sharply divided. Several pet parents praise Dr. Cohn and the nursing staff for being thoughtful, dedicated, and welcoming during routine appointments. Conversely, multiple reviewers express frustration over perceived coldness, unhelpful receptionists, and disputes regarding access to examination rooms."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle treatment during examinations"
+      },
+      "text": {
+        "en": "Owners note that the veterinary practitioners show genuine care and patience when handling unwell or nervous animals. Clients who brought in rescue kittens or senior pets praise the calming examination environment, including relaxing background music designed to soothe animals during diagnostics."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns regarding diagnostic costs"
+      },
+      "text": {
+        "en": "Multiple reviewers express dissatisfaction with overall pricing, reporting unexpected diagnostic fees and repeated laboratory testing recommendations for chronic feline conditions. Whilst one client felt fees were fair for the clinical attention provided, others felt pressured into ordering surplus tests that inflated final bills."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can owners accompany their pets into the exam room?"
+      },
+      "a": {
+        "en": "While clients typically accompany their pets, one reviewer reported that staff restricted access during their appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital accommodate emergency squeeze-in appointments?"
+      },
+      "a": {
+        "en": "Yes, visitors mention that staff accommodated urgent walk-ins and squeeze-in consultations for sick animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What diagnostic services does Fishtown Animal Hospital offer?"
+      },
+      "a": {
+        "en": "The hospital provides in-house laboratory testing, radiology, ultrasonography, and surgical capabilities."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are the clinic fees considered competitive?"
+      },
+      "a": {
+        "en": "Recent reviews reflect concerns about higher costs and repeated testing, though some longtime clients find the rates reasonable."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "~",
+        "animals": "+"
+      }
+    }
+  ]
+}

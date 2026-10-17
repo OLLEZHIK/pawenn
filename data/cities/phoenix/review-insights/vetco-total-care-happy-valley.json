@@ -1,0 +1,184 @@
+{
+  "slug": "vetco-total-care-happy-valley",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetco+Total+Care/data=!4m7!3m6!1s0x872b653e265fb39d:0xd2fb5a2f75d364e3!8m2!3d33.7114061!4d-112.112265!16s%2Fg%2F11q46nspgz!19sChIJnbNfJj5lK4cR42TTdS9a-9I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "en": "Frequent complaints concerning clinic staff"
+      },
+      "text": {
+        "en": "Reviewers voice substantial dissatisfaction with the clinic personnel, describing condescending attitudes, unhelpful front desk interactions, and dismissive treatment during appointments. While a couple of pet owners appreciated friendly care for their cat, the majority of recent feedback criticises unprofessional and hostile behaviour."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Communication breakdowns and cancelled bookings"
+      },
+      "text": {
+        "en": "Clients report significant communication difficulties with the practice. Pet owners highlight abrupt last-minute appointment cancellations, poor telephone support when coordinating prescriptions with outside pharmacies, and unhelpful responses from staff when addressing urgent concerns about sick pets."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Unexpected fees and high medication prices"
+      },
+      "text": {
+        "en": "Pet owners raise concerns regarding veterinary pricing transparency. Several reviewers describe unexpected repeat charges for vaccination packages, billing discrepancies with store wellness plans, and medication prices marked up significantly compared to retail pharmacies, leading to dissatisfaction."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How do reviewers describe the clinic staff?"
+      },
+      "a": {
+        "en": "Recent reviews are predominantly critical, with clients citing unhelpful front desk service and condescending interactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can prescription medications be filled through external pharmacies?"
+      },
+      "a": {
+        "en": "Some clients report difficulties and delays when trying to coordinate prescriptions between the clinic and outside pharmacies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What do clients say about veterinary pricing transparency?"
+      },
+      "a": {
+        "en": "Reviewers express frustration over unexpected charges for vaccine packages and high prescription markups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the hospital accommodate routine vaccination visits?"
+      },
+      "a": {
+        "en": "Yes, the practice offers routine vaccination packages, though reviewers advise clarifying costs and coverage in advance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "woodys-pet-grooming",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Woody%27s+Pet+Grooming/data=!4m7!3m6!1s0x864e9b47ec9dc745:0xd652fc8b89769e57!8m2!3d32.7770031!4d-96.908948!16s%2Fg%2F11fzf6qbmn!19sChIJRced7EebToYRV552iYv8UtY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Contrasting impressions of salon staff"
+      },
+      "text": {
+        "en": "Recent feedback presents contrasting impressions of the salon staff. While two pet owners describe the groomers as friendly, helpful, and welcoming, another client encountered an unhelpful attitude when raising concerns about their dog's grooming session, highlighting uneven customer interactions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Varied pet handling and comfort"
+      },
+      "text": {
+        "en": "One owner of a large German Shepherd praised the groomers for their calm and gentle manner with a vocal dog. Conversely, another reviewer reported that their dog coughed and experienced noticeable distress following a visit, reflecting contrasting experiences regarding pet handling."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Divergent nail trimming and grooming"
+      },
+      "text": {
+        "en": "Reviewers share divided perspectives regarding grooming execution. One client reported a clean nail trim for their large dog, whereas another experienced bleeding quicks without styptic care and an irritated skin tag, demonstrating notable divergence in procedural consistency."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can Woody's Pet Grooming handle large dog breeds?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the groomers successfully managed a large, vocal German Shepherd for routine nail care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What grooming services are offered at Woody's Pet Grooming?"
+      },
+      "a": {
+        "en": "The neighborhood salon provides dog bathing, coat haircuts, and nail trimming services for local pet owners."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How accessible is the salon location in West Dallas?"
+      },
+      "a": {
+        "en": "Clients describe the salon as quick and straightforward to access on Bernal Drive in West Dallas."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

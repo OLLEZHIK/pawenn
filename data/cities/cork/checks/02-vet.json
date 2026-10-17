@@ -1,0 +1,29 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "blackpool-veterinary-hospital",
+    "faxbridge-veterinary-small-animal-hospital",
+    "the-veterinary-centre-kanturk",
+    "millstreet-veterinary-group",
+    "island-wood-veterinary-hospital",
+    "spratts-veterinary-clinic",
+    "millvalley-vet-clinic",
+    "corrin-veterinary-clinic",
+    "blue-coast-veterinary-clinic"
+  ],
+  "hash": "e3851b0d37d0185adc3a93c7c716165d4d623d755ceb72e17bd5bc9a491bfc19",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:57:53.671Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-16T12:03:56.866Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

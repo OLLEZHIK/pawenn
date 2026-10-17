@@ -1,0 +1,25 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "clivet-ambulatorio-veterinario-vomero",
+    "centro-veterinario-bancale-dott-valerio-bancale",
+    "jungle-ambulatorio-veterinario-dr-ssa-donghi",
+    "oftavet-centro-oculistico-veterinario",
+    "di-lab-service-veterinaria"
+  ],
+  "hash": "f49166a01eda3006f16ba9852384aefe56d5d1d4dceb380f3f9f6bceb4a7ae4c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T22:27:35.751Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-15T22:30:33.492Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

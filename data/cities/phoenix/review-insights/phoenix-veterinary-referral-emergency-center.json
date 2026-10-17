@@ -1,0 +1,181 @@
+{
+  "slug": "phoenix-veterinary-referral-emergency-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Phoenix+Veterinary+Referral+%26+Emergency+Center/data=!4m7!3m6!1s0x872b732d83c48215:0x99fd0e69553934e3!8m2!3d33.5967666!4d-111.9953912!16s%2Fg%2F11h6g0_90q!19sChIJFYLEgy1zK4cR4zQ5VWkO_Zk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Supportive emergency team with mixed feedback"
+      },
+      "text": {
+        "en": "Many clients commend nurses and emergency clinicians for showing remarkable empathy, comfort, and professional dedication during pet crises and end-of-life visits. Several reviewers credit specific staff members with guiding them calmly through stressful hours. Conversely, critical reviews report unhelpful phone interactions and perceived insensitivity during initial intakes."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Variable communication during urgent inquiries"
+      },
+      "text": {
+        "en": "Pet owners who had positive visits praise clinicians for explaining diagnostics thoroughly and outlining treatment options without undue pressure. However, multiple callers and visitors report abrupt phone communication when asking about wait times or strict intake protocols regarding co-owner consent. Clear communication is praised by many yet noted as inconsistent by others."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Effective critical care and neurology treatments"
+      },
+      "text": {
+        "en": "Reviewers report positive medical outcomes for acute emergencies, toxin ingestions, and complex neurological diagnoses managed by specialists. Families dealing with urgent pet illnesses appreciate prompt interventions that stabilized their animals. The hospital advanced diagnostic and intensive care capabilities are recognized as valuable resources during severe health crises."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is Phoenix Veterinary Referral & Emergency Center open 24/7?"
+      },
+      "a": {
+        "en": "Yes, the center provides emergency and critical veterinary care 24 hours a day, 7 days a week, every day of the year."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the hospital have veterinary neurology specialists?"
+      },
+      "a": {
+        "en": "Yes, clients highlight Dr. Sara Ford and the neurology department for diagnosing and treating complex neurological disorders."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view emergency costs at this hospital?"
+      },
+      "a": {
+        "en": "Feedback on pricing varies; some clients found fees reasonable for emergency care, while others felt emergency procedures were costly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners visit for compassionate end-of-life care?"
+      },
+      "a": {
+        "en": "Yes, pet families report compassionate and private accommodations when saying goodbye to elderly or terminally ill pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

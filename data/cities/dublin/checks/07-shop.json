@@ -1,0 +1,35 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "petland-dublin",
+    "reptiles-and-exotics-dublin",
+    "petstop-blanchardstown",
+    "pet-palace-dublin",
+    "the-pet-parlour-dublin",
+    "mutz-nutz-walkinstown",
+    "pet-republic-dublin",
+    "petworld-nutgrove",
+    "petworld-tallaght",
+    "pet-food-depot-blanchardstown"
+  ],
+  "hash": "ba793bbb6612e3a27d20085ec92c32e64ef06f34e8000986914bcdf29834d2d1",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T12:23:43.808Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T04:39:37.273Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-17T04:40:40.049Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

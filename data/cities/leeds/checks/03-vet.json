@@ -1,0 +1,27 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "abbey-house-vets-morley",
+    "oakwood-veterinary-surgery",
+    "abbey-house-vets-halton",
+    "abbey-house-vets-rothwell",
+    "abbey-house-vets-kippax",
+    "purple-vet-rothwell",
+    "westwood-vets-garforth"
+  ],
+  "hash": "8f2b6532e462648162b1f8420b1ecfc22af7472c3f22a6f806b4e9b1438d913c",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T11:57:32.846Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-16T12:00:04.596Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

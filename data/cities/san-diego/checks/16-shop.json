@@ -1,0 +1,30 @@
+{
+  "chunk": "16-shop",
+  "kind": "places",
+  "slugs": [
+    "san-diego-paw-co",
+    "dexter-s-deli-north-park",
+    "our-feathered-friends",
+    "just-food-for-dogs-del-mar-heights",
+    "original-paw-pleasers-dog-bakery"
+  ],
+  "hash": "e2ed23958b506850cb0d6c14049fad24b0b46a6ba05d2fc7da4e48c6afdb499e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-16T22:59:58.324Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-16T23:00:58.057Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T23:06:43.927Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
