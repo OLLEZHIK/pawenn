@@ -1,0 +1,134 @@
+{
+  "slug": "art-museum-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Art+Museum+Veterinary+Center/data=!4m7!3m6!1s0x89c6c7d1d3667363:0x31e24e8af29491d5!8m2!3d39.9669702!4d-75.1658079!16s%2Fg%2F11hbqdn1wx!19sChIJY3Nm09HHxokR1ZGU8opO4jE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Skilled veterinary team with varied impressions"
+      },
+      "text": {
+        "en": "Most reviewers praise Dr. Hommel and the front desk staff for being knowledgeable, patient, and quick to answer health inquiries. However, one owner reported a very poor initial impression, while regular clients maintain that the clinical personnel provide top-tier family care."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Modern and well-maintained Fairmount clinic"
+      },
+      "text": {
+        "en": "Clients frequently describe the facility as clean, modern, and pleasant for routine checkups and diagnostic visits in the Fairmount area. While one dissatisfied customer left a negative remark about the setting, multiple pet owners consider it a wonderful neighborhood veterinary practice."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling for anxious companions"
+      },
+      "text": {
+        "en": "Several clients note how comfortable their anxious dogs and cats feel around the veterinarians during routine examinations. One reviewer felt their pet was not treated adequately, but majority feedback commends the thoughtful and comforting bedside manner shown to animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Art Museum Veterinary Center treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, clients bring both dogs and cats for comprehensive preventative care, diagnostics, and routine visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How responsive is the clinic front desk to questions?"
+      },
+      "a": {
+        "en": "Longtime clients note the front desk team is helpful and promptly responds to medical and scheduling questions over the phone."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients rate the affordability of care here?"
+      },
+      "a": {
+        "en": "Pet owners compare the pricing favorably to low-cost alternatives, citing excellent overall value for veterinary services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
