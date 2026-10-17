@@ -1,0 +1,141 @@
+{
+  "slug": "pet-a-porter",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+%C3%A0+Porter/data=!4m7!3m6!1s0x4786c7e80e2b3e7f:0x5be0dac016746451!8m2!3d45.465345!4d9.207725!16s%2Fg%2F11wxfqxn96!19sChIJfz4rDujHhkcRUWR0FsDa4Fs?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "it": "Competenza e accoglienza calorosa di Micol",
+        "en": "Expertise and warm hospitality of Micol"
+      },
+      "text": {
+        "it": "La titolare Micol viene celebrata per la sua squisita gentilezza, professionalità e profonda passione per gli animali. I clienti sottolineano la sua capacità di consigliare sempre il prodotto o il trattamento ideale, offrendo un'accoglienza calorosa che fa sentire ogni visitatore seguito con attenzione e cura.",
+        "en": "Owner Micol is celebrated for her warmth, high professionalism, and dedicated passion for pet care. Clients highlight her ability to recommend suitable products and grooming treatments, providing personalized hospitality that makes every visitor feel genuinely valued and supported."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "it": "Amore autentico per cani di ogni razza",
+        "en": "Genuine affection for dogs of all breeds"
+      },
+      "text": {
+        "it": "I proprietari evidenziano l'affetto spontaneo e la premura con cui vengono trattati i quattro zampe, dai barboncini nani ai levrieri. Gli animali percepiscono la dolcezza dell'ambiente e mostrano grande felicità durante la sosta, rendendo ogni visita un'esperienza serena e festosa.",
+        "en": "Pet owners highlight the spontaneous affection and attentive gentleness shown to dogs, ranging from toy poodles to sighthounds. Companions respond to the friendly environment with enthusiasm, turning each visit into a calm, enjoyable, and comforting experience."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "it": "Toelettatura impeccabile e accessori ricercati",
+        "en": "Impeccable styling and curated pet accessories"
+      },
+      "text": {
+        "it": "Le testimonianze lodano la qualità superiore dei tagli per barboncini, considerati tra i migliori in assoluto per cura delle linee e morbidezza del pelo. Molto apprezzata anche la selezione esclusiva di cappottini e accessori dedicati a razze particolari come i levrieri.",
+        "en": "Testimonials praise the superior quality of poodle trims, considered among the finest in Milan for silhouette precision and coat softness. Reviewers also highly appreciate the curated boutique selection of specialized coats and accessories tailored for sighthounds."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il salone è specializzato nella toelettatura dei barboncini?",
+        "en": "Does the salon specialize in grooming poodles?"
+      },
+      "a": {
+        "it": "Sì, le recensioni lodano in modo particolare i tagli e le rifiniture per barboncini nani e toy, superando le aspettative.",
+        "en": "Yes, reviews especially commend styling and trimming for toy and miniature poodles, consistently exceeding expectations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Sono disponibili cappottini e accessori per levrieri?",
+        "en": "Are specialized coats and accessories available for greyhounds?"
+      },
+      "a": {
+        "it": "Il negozio offre una selezione curata di abbigliamento e accessori su misura, molto apprezzata per le esigenze dei levrieri.",
+        "en": "The boutique offers a curated selection of tailored coats and harnesses, highly regarded by sighthound guardians."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come viene descritta l'accoglienza per i clienti e i loro pet?",
+        "en": "How is customer service and hospitality described by visitors?"
+      },
+      "a": {
+        "it": "I proprietari parlano di un ambiente caloroso, dolce e competente dove sentirsi sempre ascoltati e consigliati.",
+        "en": "Owners describe a warm, sweet, and knowledgeable setting where both pets and guardians receive thoughtful attention."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

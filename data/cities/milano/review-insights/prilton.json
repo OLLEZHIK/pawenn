@@ -1,0 +1,160 @@
+{
+  "slug": "prilton",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PRILTON/data=!4m7!3m6!1s0x4786c727ccc21259:0x12c43216755c914b!8m2!3d45.4635771!4d9.2281293!16s%2Fg%2F11vxh8q321!19sChIJWRLCzCfHhkcRS5FcdRYyxBI?authuser=0&hl=it&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "it": "Competenza e disponibilità del personale",
+        "en": "Dedicated staff and polite service"
+      },
+      "text": {
+        "it": "Diversi proprietari esprimono apprezzamento per l'impegno, la precisione e l'ospitalità mostrati dalle toelettatrici, in particolare Desirée e Gessica. Il team viene descritto come appassionato e accurato nella preparazione degli animali. Tuttavia, una recensione fortemente critica contesta al personale una presunta incapacità di riconoscere un colpo di calore durante l'asciugatura.",
+        "en": "Several owners commend the dedication, precision, and welcoming attitude shown by groomers Desirée and Gessica. The team is frequently described as passionate and attentive during pet styling appointments. However, one sharply critical review accuses the staff of failing to recognize signs of heat distress during the drying phase."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "it": "Cura estetica e qualità degli accessori",
+        "en": "Grooming results and accessory durability"
+      },
+      "text": {
+        "it": "La maggior parte delle testimonianze riferisce ottimi risultati su toelettatura, sfoltitura del pelo e taglio unghie per cani e gatti, con manti morbidi e profumati. Di contro, due recensioni negative esprimono delusione: una per un malore occorso a un cane sotto il getto d'asciugatura e un'altra per la rapida usura e rottura di pettorine acquistate in negozio.",
+        "en": "Most feedback highlights great aesthetic outcomes, coat thinning, and nail trimming for dogs and cats, resulting in clean and pleasant-smelling fur. In contrast, two negative reviews express disappointment: one citing heat distress during blow-drying and another complaining about the premature deterioration of leather accessories purchased in the boutique."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "it": "Attenzione emotiva e sicurezza del cane",
+        "en": "Emotional welfare and animal safety"
+      },
+      "text": {
+        "it": "Molti recensori descrivono un ambiente tranquillo e pulito, ideale per mettere a proprio agio gatti e cani diffidenti con gesti affettuosi e rispettosi. Tuttavia, una testimonianza segnala un grave episodio di colpo di calore gestito in clinica veterinaria dopo la toelettatura, evidenziando l'assoluta necessità di monitorare attentamente la temperatura durante l'asciugatura.",
+        "en": "Many reviewers describe a serene and clean atmosphere where cats and cautious dogs feel comfortable through affectionate, gentle care. However, one testimonial recounts a serious episode of heat exhaustion that required urgent veterinary attention, underscoring the critical necessity of vigilantly monitoring pet temperature during forced-air drying."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "it": "Il salone accetta anche i gatti per la toelettatura?",
+        "en": "Does the grooming parlour accept cats as well?"
+      },
+      "a": {
+        "it": "Sì, i clienti confermano che la toelettatura viene eseguita con cura e tranquillità anche sui felini.",
+        "en": "Yes, clients confirm that gentle grooming and coat maintenance are offered for cats as well."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Come vengono gestiti gli animali più diffidenti?",
+        "en": "How are timid or wary pets handled during visits?"
+      },
+      "a": {
+        "it": "I proprietari segnalano che l'ambiente calmo e i modi gentili aiutano gli animali diffidenti a distendersi.",
+        "en": "Pet owners report that the calm environment and gentle handling help cautious animals relax."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "it": "Quali precauzioni richiedono i trattamenti di asciugatura?",
+        "en": "What precautions are noted regarding drying sessions?"
+      },
+      "a": {
+        "it": "Alcune recensioni raccomandano una costante attenzione per evitare stress termico o surriscaldamento del cane.",
+        "en": "Reviews highlight the necessity of constant monitoring to prevent overheating or thermal stress during drying."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

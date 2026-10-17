@@ -2,16 +2,13 @@
   "chunk": "10-hotel",
   "kind": "places",
   "slugs": [
-    "harmonia",
     "cat-suite-hotel",
     "la-maison-sissy",
-    "happy-bau-urban-dog-resort",
     "house-of-dogs",
     "dimensione-gatto-hotel",
-    "la-zampinoteca",
     "bauclub"
   ],
-  "hash": "68f4e5515b35f221249d52fafaf33bb3c75f50a323d4a194612a023b74c23bfa",
+  "hash": "70ad7c9b4b6b0a1d153d21edf2f828801e6118fb3b7e024ed20358dafc4eb7ab",
   "result": "PASS",
   "history": [
     {
@@ -26,6 +23,11 @@
     },
     {
       "at": "2026-10-11T17:36:35.659Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:59:22.605Z",
       "result": "PASS",
       "listed": 0
     }

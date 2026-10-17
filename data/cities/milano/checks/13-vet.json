@@ -1,0 +1,37 @@
+{
+  "chunk": "13-vet",
+  "kind": "places",
+  "slugs": [
+    "ambulatorio-veterinario-dott-mariani-luigi-angelo",
+    "ambulatorio-veterinario-dr-vicla-sgaravatti"
+  ],
+  "hash": "43d634f0dde6c4f0f208b0c3d0934f99a6a7fc51b2f17ae81caf1e185557d2bc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T21:09:16.393Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-15T21:10:54.288Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-15T21:18:37.211Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-15T21:19:04.592Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T21:23:49.591Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

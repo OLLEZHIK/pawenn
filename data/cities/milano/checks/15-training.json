@@ -1,0 +1,28 @@
+{
+  "chunk": "15-training",
+  "kind": "places",
+  "slugs": [
+    "puppyness",
+    "avs-oslj-unita-cinofile-da-soccorso",
+    "lo-zio-dog"
+  ],
+  "hash": "fdd332af1c5cad9aa7ae2bef4c599b9e18137ba9c63fa144a948c6ed49be46d0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-15T21:59:12.828Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-15T22:01:57.767Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-15T22:02:30.312Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

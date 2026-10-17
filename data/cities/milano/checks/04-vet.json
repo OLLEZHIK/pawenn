@@ -2,18 +2,12 @@
   "chunk": "04-vet",
   "kind": "places",
   "slugs": [
-    "ambulatorio-veterinario-spontini",
     "maciachini-clinica-veterinaria",
-    "studio-associato-medico-veterinario-gregorio-guelfi",
     "clinica-veterinaria-malvezzi",
-    "bonomo-dr-michele",
-    "ambulatorio-veterinario-spaziani",
     "clinica-veterinaria-santangelo-bluvet-cazampa-milano",
-    "calderara-dr-angelo-giuseppe",
-    "michele-perfetti",
     "ambulatorio-veterinario-lambrate"
   ],
-  "hash": "2c16301d466efbb90f43d0f92c0bf0a2ec1ea4cbb4d98835cf46f360e4023ce3",
+  "hash": "16aa86c82091544b80ecc17cb30b7cc3f47f0fdfda2662a71546310abfa8d1f2",
   "result": "PASS",
   "history": [
     {
@@ -23,6 +17,11 @@
     },
     {
       "at": "2026-10-11T16:57:58.409Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-16T06:47:36.525Z",
       "result": "PASS",
       "listed": 0
     }
