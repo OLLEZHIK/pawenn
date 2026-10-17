@@ -1,0 +1,123 @@
+{
+  "slug": "z-dog-daycare",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Z+Dog+Daycare/data=!4m7!3m6!1s0x89c6c647099ff541:0x74ffbfa7b23d1611!8m2!3d39.9519417!4d-75.1769392!16s%2Fg%2F1hhwcl2p4!19sChIJQfWfCUfGxokRERY9sqe__3Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Mixed impressions of staff demeanor"
+      },
+      "text": {
+        "en": "Pet owners report contrasting experiences with the daycare team. Several regular clients praise the attendants for providing warm, dedicated personal attention that helps timid dogs settle in happily. However, an inquiring caller reported an abrupt telephone exchange with an impatient receptionist who hung up during basic inquiries. While on-site handlers receive praise, initial interactions vary."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Comforting care for timid dogs"
+      },
+      "text": {
+        "en": "Reviewers emphasize how well staff accommodate small dogs and puppies experiencing separation anxiety. Pet owners describe dogs who are naturally hesitant around strangers forming quick attachments to the handlers and eagerly anticipating daycare visits. Clients feel immense relief seeing their companion animals receiving plenty of personal playtime and affection throughout their stay."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Secure indoor and outdoor play"
+      },
+      "text": {
+        "en": "Clients highlight the daycare's practical setup, noting that the combination of indoor suites and dedicated outdoor space gives dogs ample room to exercise safely. Reviewers mention that their pets love having outdoor areas to run around and burn energy alongside compatible playmates. Pet owners appreciate having a secure environment for companion animals in central Philadelphia."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What facilities are available for dogs at Z Dog Daycare?"
+      },
+      "a": {
+        "en": "The daycare offers indoor play areas and an outdoor yard space where dogs can exercise and socialise safely."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Z Dog Daycare accommodate dogs with separation anxiety?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that attentive staff members offer dedicated personal care to help anxious or timid dogs settle comfortably into the daycare routine."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Z Dog Daycare located in Philadelphia?"
+      },
+      "a": {
+        "en": "The daycare is situated on South 22nd Street between Chestnut Street and Sansom Street in Center City West."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
