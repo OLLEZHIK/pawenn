@@ -1,0 +1,121 @@
+{
+  "slug": "barnt-green-boarding-cattery",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Barnt+Green+Boarding+Cattery/data=!4m7!3m6!1s0x4870c6bc1b116035:0x5e3789d71c4c9354!8m2!3d52.368367!4d-1.9961605!16s%2Fg%2F1tdwclvh!19sChIJNWARG7zGcEgRVJNMHNdJN14?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-16",
+  "period_to": "2026-10-16",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-16",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive care for resident cats"
+      },
+      "text": {
+        "en": "Cat owners express complete confidence in leaving their pets at the cattery, noting that cats return home settled, relaxed, and well-groomed. Reviewers who have boarded elderly cats for over a decade praise the dedicated daily attention. Clients frequently remark that their feline companions seem genuinely content throughout their stay."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Spacious pens and pleasant scenery"
+      },
+      "text": {
+        "en": "Visitors commend the physical boarding environment, highlighting generous pen sizes and clean, well-kept accommodation for individual cats. Several reviewers mention that the pens provide pleasant rural views, keeping indoor cats stimulated and relaxed. The overall facility is described as quiet, secure, and thoughtfully arranged."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly and caring facility owners"
+      },
+      "text": {
+        "en": "Reviewers describe the owners as warm, approachable, and deeply devoted to feline welfare. Long-standing patrons appreciate the straightforward communication and dependable handling whenever bookings are made. Pet parents consistently note that the owners show sincere personal interest in the temperament and habits of every cat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can elderly or senior cats be accommodated safely?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that senior cats, including animals up to nineteen years old, receive dedicated attention and care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What are the cattery pens like?"
+      },
+      "a": {
+        "en": "Clients report that the boarding pens are spacious, well-maintained, and feature pleasant outdoor views."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are cats kept in a quiet boarding environment?"
+      },
+      "a": {
+        "en": "Yes, pet owners describe the setting as quiet and calm, helping cats remain settled during their stay."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
