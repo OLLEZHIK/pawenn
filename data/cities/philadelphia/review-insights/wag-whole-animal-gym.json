@@ -1,0 +1,126 @@
+{
+  "slug": "wag-whole-animal-gym",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/WAG:+Whole+Animal+Gym/data=!4m7!3m6!1s0x89c6c8999e0a5227:0x48e7c8187e291713!8m2!3d39.9407787!4d-75.1454691!16s%2Fg%2F1tvw5wy9!19sChIJJ1IKnpnIxokRExcpfhjI50g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting impressions of clinic staff"
+      },
+      "text": {
+        "en": "Pet owners share differing experiences regarding the veterinary and reception personnel. Some clients describe Dr Fuoco and the therapists as compassionate and supportive, praising helpful guidance during rehabilitation. Conversely, other reviewers found clinicians dismissive or confrontational when addressing complex pain symptoms, reporting that staff seemed impatient with distressed animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Restored mobility through structured therapy"
+      },
+      "text": {
+        "en": "Clients highlight substantial physical improvement in pets recovering from orthopaedic surgery, disc problems, and chronic cruciate ligament injuries. Reviewers recount that tailored physical therapy regimens, targeted stretches, and massage routines successfully restored movement for elderly dogs, allowing several patients to avoid invasive surgical interventions altogether."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Frustrations with delays and scheduling"
+      },
+      "text": {
+        "en": "Multiple pet parents report dissatisfaction regarding clinic scheduling and appointment delays. Reviewers mention waiting outside in vehicles past designated booking times and losing valuable consultation minutes despite paying significant specialist fees. While front desk staff help with basic bookings, several clients felt appointment timekeeping required noticeable improvement."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What specialties are offered at WAG: Whole Animal Gym?"
+      },
+      "a": {
+        "en": "The facility specialises in veterinary physical rehabilitation, post-operative therapy, massage, and mobility management for companion animals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for rehabilitation sessions?"
+      },
+      "a": {
+        "en": "Yes, all physical therapy, initial consultations, and treatment sessions are scheduled strictly by appointment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are virtual or remote consultations available?"
+      },
+      "a": {
+        "en": "Yes, clients note that video televisits have been offered to limit unnecessary travel for animals with severe mobility impairments."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

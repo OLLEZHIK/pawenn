@@ -1,0 +1,163 @@
+{
+  "slug": "terry-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Terry+Animal+Hospital/data=!4m7!3m6!1s0x89c6b4680b32a0a7:0xc8486cf393d57b32!8m2!3d40.0428962!4d-75.0263634!16s%2Fg%2F1tf66f9l!19sChIJp6AyC2i0xokRMnvVk_NsSMg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Attentive vet and supportive team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise Dr Kimmel and the clinic staff for their compassionate, patient approach. Reviewers note that the team takes time to explain diagnoses, answers every question thoroughly, and regularly stays past closing hours or visits on days off to attend to urgent cases."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Gentle approach towards anxious pets"
+      },
+      "text": {
+        "en": "Clients frequently highlight how attentively and gently the veterinary team handles animals during consultations. Owners of nervous dogs, reactive pets, cats, and rabbits report that the staff eases pet anxiety and treats every patient with genuine tenderness and dedicated patience."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Successful treatments and emergency procedures"
+      },
+      "text": {
+        "en": "Reviewers report positive medical outcomes across diverse treatments, from emergency wound repairs on rabbits to complex tumor surgeries and chronic diabetes management. Several owners credit the prompt clinical interventions with saving their pets' lives during serious emergencies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Terry Animal Hospital treat exotic pets like rabbits?"
+      },
+      "a": {
+        "en": "Yes, clients report successful emergency care and treatments for small animals including rabbits alongside cats and dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic accommodate emergency cases?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the veterinarian has accepted emergency procedures after hours or during maintenance closures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can pet owners discuss treatment options with the vet?"
+      },
+      "a": {
+        "en": "Yes, reviewers mention unhurried consultations where the vet outlines clear treatment paths and answers questions thoroughly."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available near the clinic?"
+      },
+      "a": {
+        "en": "The practice is located on Frankford Avenue with on-street parking along adjacent neighbourhood streets."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

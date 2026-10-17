@@ -1,0 +1,154 @@
+{
+  "slug": "accent-on-animals-south-street",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ac%27cent+On+ANIMALS+-+804+South+Street/data=!4m7!3m6!1s0x89c6c620b9a19035:0xdbfe5a54f5d34935!8m2!3d39.9423092!4d-75.155758!16s%2Fg%2F1w8wbzzd!19sChIJNZChuSDGxokRNUnT9VRa_ts?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Friendly and welcoming neighborhood team"
+      },
+      "text": {
+        "en": "Most shoppers describe store employees like Cathy and Conrad as exceptionally sweet, attentive, and knowledgeable when recommending pet items. Although one reviewer reported an uncomfortable encounter with the store owner, regular customers consistently praise the warm customer service."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Boutique space with specialty selections"
+      },
+      "text": {
+        "en": "Customers appreciate the curated variety of premium dog biscuits, cat food formulas, Churu treats, and interactive toys packed into the storefront. While a patron suggested better shelf organization for prescription diets, reviewers value having a well-stocked boutique on South Street."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Appealing products for neighborhood pets"
+      },
+      "text": {
+        "en": "Pet parents highlight that local cats and dogs love the store's fresh bakery items, catnip mice, and enrichment toys. Reviewers enjoy bringing their leashed dogs inside the neighborhood shop and finding specialized treats that keep their animals excited and satisfied."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of pet goods are available at the store?"
+      },
+      "a": {
+        "en": "The boutique stocks specialty dog bakery treats, premium cat kibble, canned foods, Churu purees, and interactive pet toys."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pets allowed inside Ac'cent On Animals?"
+      },
+      "a": {
+        "en": "Yes, customers regularly bring their dogs inside the South Street shop while browsing the treat and supply displays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store carry prescription cat nutrition?"
+      },
+      "a": {
+        "en": "Reviewers confirm finding specialized diets such as Hill's senior cat food formulas on the shelves."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}
