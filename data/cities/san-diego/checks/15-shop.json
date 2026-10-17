@@ -1,0 +1,42 @@
+{
+  "chunk": "15-shop",
+  "kind": "places",
+  "slugs": [
+    "point-loma-pet-pantry",
+    "petsmart-murphy-canyon-san-diego",
+    "petco-friars-rd-san-diego",
+    "petco-mira-mesa-san-diego",
+    "shore-thing-pet-supply",
+    "aspens-dog-house",
+    "deckers-dog-cat-ivanhoe-ave"
+  ],
+  "hash": "17fff4a9018d76160229b77c35e64adf6b2ee2d3a63583aeef3bc54cee90eb45",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-17T00:04:43.409Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-17T00:05:27.634Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-17T00:09:14.122Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-17T00:09:53.759Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-17T00:12:11.896Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
