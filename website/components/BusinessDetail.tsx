@@ -37,7 +37,11 @@ import { OpenNowBadge } from "@/components/OpenNowBadge";
 import { PriceTable } from "@/components/PriceTable";
 import { PlaceFacts } from "@/components/PlaceFacts";
 import { CityPrices } from "@/components/CityPrices";
-import { cityClock, cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
+import { DAYS, cityClock, cityTimezone, hoursFromStored, openingHoursSpecification } from "@/lib/hours";
+import { SERVICES } from "@/lib/services";
+import { ShowMore } from "@/components/ShowMore";
+import { PlaceSectionNav, type SectionLink } from "@/components/PlaceSectionNav";
+import { StickyActions } from "@/components/StickyActions";
 import { specialtyLabel } from "@/lib/vet";
 import { parseReviewInsights } from "@/lib/reviewInsights";
 import {
@@ -243,9 +247,28 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
     languages.length > 0 ||
     hours !== null;
   const formatDate = (d: Date) => formatLocaleDate(d, locale);
+  // Open round the clock, every day (from the hours table, not only the
+  // vets' nonstop flag).
+  const open24 =
+    hours !== null &&
+    DAYS.every((d) => {
+      const h = hours[d];
+      return !!h && (h.kind === "24h" || (h.kind === "intervals" && h.intervals.length === 1 && h.intervals[0][0] === 0 && h.intervals[0][1] === 24 * 60));
+    });
+  // The page's sections for the nav under the header: only those it has.
+  const hasPrices =
+    business.priceItems.length > 0 || (SERVICES[business.category] ?? []).some((s) => marketPrices.has(s.code));
+  const hasCustomers = Boolean(insights) || (business.googleMapsUrl !== null && business.googleRating !== null && business.googleRatingCount !== null);
+  const sectionLinks: SectionLink[] = [
+    { id: "contact", label: t.business.sections.contact, mobileOnly: true },
+    ...(hasPrices ? [{ id: "prices", label: t.business.sections.prices }] : []),
+    ...(hasAbout ? [{ id: "about", label: t.business.sections.about }] : []),
+    ...(hasCustomers ? [{ id: "customers", label: t.business.sections.reviews }] : []),
+    { id: "location", label: t.business.sections.location },
+  ];
 
   return (
-    <main className="relative" style={{ "--accent": theme.accent } as React.CSSProperties}>
+    <main className="relative pb-24 lg:pb-0" style={{ "--accent": theme.accent } as React.CSSProperties}>
       {city && <PageCity slug={city.slug} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
 
@@ -285,6 +308,11 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                 {business.emergency247 && (
                   <span className="inline-flex items-center rounded-[var(--radius-pill)] bg-red-600 px-2.5 py-1 text-xs font-bold text-white">
                     {t.business.nonstop}
+                  </span>
+                )}
+                {open24 && !business.emergency247 && (
+                  <span className="inline-flex items-center rounded-[var(--radius-pill)] bg-brand-blue-muted px-2.5 py-1 text-xs font-bold text-brand-blue">
+                    {t.business.allDay}
                   </span>
                 )}
                 {!business.emergency247 && business.openingHours !== null && (
@@ -327,6 +355,8 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
         </div>
       </section>
 
+      <PlaceSectionNav items={sectionLinks} label={t.business.sections.label} />
+
       <div className="mx-auto grid max-w-7xl gap-8 px-4 pt-8 lg:grid-cols-[1fr_360px]">
         {/* ---------- Main column ---------- */}
         <div className="min-w-0 space-y-6">
@@ -335,18 +365,20 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
               heads the page. Business.photoUrls stays in the data for places
               that give permission later (docs/card-spec.md). */}
           {/* Contact card inline on small screens; sticky sidebar on large */}
-          <div className="lg:hidden">
+          <div id="contact" className="scroll-mt-32 lg:hidden">
             <ContactCard business={business} locale={locale} />
           </div>
 
           {/* Prices right after contact (owner, 2026-09-25): the price is what
               people come to compare, each row against the city median. */}
-          <PriceTable items={business.priceItems} category={business.category} locale={locale} market={marketPrices} citySlug={citySlug} />
-          {/* No prices of its own: the city's prices, clearly as the city's
-              (owner, 2026-09-26). */}
-          {business.priceItems.length === 0 && citySlug && city && (
-            <CityPrices category={business.category} market={marketPrices} locale={locale} citySlug={citySlug} where={inCity(locale, city)} />
-          )}
+          <div id={hasPrices ? "prices" : undefined} className="scroll-mt-32 space-y-6 empty:hidden">
+            <PriceTable items={business.priceItems} category={business.category} locale={locale} market={marketPrices} citySlug={citySlug} />
+            {/* No prices of its own: the city's prices, clearly as the city's
+                (owner, 2026-09-26). */}
+            {business.priceItems.length === 0 && citySlug && city && (
+              <CityPrices category={business.category} market={marketPrices} locale={locale} citySlug={citySlug} where={inCity(locale, city)} />
+            )}
+          </div>
 
           {/* Good to know: what the place states about booking, payment,
               who it takes (docs/card-spec.md section 9). */}
@@ -358,7 +390,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
           />
 
           {hasAbout && (
-            <section className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
+            <section id="about" className="scroll-mt-32 rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-card)]">
               <h2 className="text-xl font-bold text-foreground">{t.business.about}</h2>
 
               {business.district && (
@@ -374,7 +406,11 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
                   , {city?.name}
                 </p>
               )}
-              {description && <p className="mt-3 text-foreground/80">{description}</p>}
+              {description && (
+                <ShowMore className="mt-3" more={t.business.showMore} less={t.business.showLess} maxHeight={132}>
+                  <p className="text-foreground/80">{description}</p>
+                </ShowMore>
+              )}
 
               {hasVetInfo && (
                 <div className="mt-4 flex flex-wrap gap-2">
@@ -448,6 +484,7 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
             </section>
           )}
 
+          <div id={hasCustomers ? "customers" : undefined} className="scroll-mt-32 empty:hidden">
           {insights ? (
             <ReviewInsightsSection insights={insights} locale={locale} />
           ) : (
@@ -462,8 +499,9 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
               />
             )
           )}
+          </div>
 
-          <section className="overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
+          <section id="location" className="scroll-mt-32 overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-[var(--shadow-card)]">
             <div className="flex items-center justify-between gap-3 p-6 pb-4">
               <h2 className="text-xl font-bold text-foreground">{t.business.location}</h2>
               <a
@@ -585,6 +623,13 @@ export async function BusinessDetail({ locale, slug }: { locale: Locale; slug: s
           </div>
         </section>
       )}
+      <StickyActions
+        businessId={business.id}
+        phone={business.phone}
+        website={business.website}
+        address={business.address}
+        locale={locale}
+      />
     </main>
   );
 }

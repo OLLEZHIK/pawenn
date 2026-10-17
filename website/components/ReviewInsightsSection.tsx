@@ -3,6 +3,7 @@ import type { ReviewInsights, Sentiment } from "@/lib/reviewInsights";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { ArrowRightIcon } from "./icons";
 import { GoogleRating } from "./GoogleRating";
+import { ShowMore } from "./ShowMore";
 
 // "What customers say" (docs/design-plan.md, "Сводка отзывов"): our
 // summary of public Google reviews. Deliberately not styled as reviews -
@@ -25,6 +26,7 @@ function periodLabel(from: Date, to: Date, locale: Locale): string {
 
 export function ReviewInsightsSection({ insights, locale }: { insights: ReviewInsights; locale: Locale }) {
   const t = getDictionary(locale).insights;
+  const tb = getDictionary(locale).business;
   const n = insights.reviewsInPeriod;
 
   const faqJsonLd =
@@ -75,7 +77,9 @@ export function ReviewInsightsSection({ insights, locale }: { insights: ReviewIn
               <span className="text-foreground/60">{t.mentions(card.mentions, n)}</span>
             </div>
             <h3 className="mt-2 font-semibold text-foreground">{card.title[locale]}</h3>
-            <p className="mt-1.5 text-sm leading-relaxed text-foreground/75">{card.text[locale]}</p>
+            <ShowMore className="mt-1.5" more={tb.showMore} less={tb.showLess} maxHeight={120}>
+              <p className="text-sm leading-relaxed text-foreground/75">{card.text[locale]}</p>
+            </ShowMore>
           </article>
         ))}
       </div>
