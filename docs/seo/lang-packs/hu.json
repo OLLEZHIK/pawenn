@@ -1,0 +1,1165 @@
+{
+  "inline": {
+    "lib/facts.ts#1": {
+      "key": "walk_in",
+      "en": "Walk-ins welcome",
+      "es": "Sin cita previa",
+      "value": "Bejelentkezés nélkül is"
+    },
+    "lib/facts.ts#2": {
+      "key": "appointment_only",
+      "en": "By appointment only",
+      "es": "Solo con cita previa",
+      "value": "Kizárólag időpontfoglalással"
+    },
+    "lib/facts.ts#3": {
+      "key": "online_booking",
+      "en": "Online booking",
+      "es": "Reserva online",
+      "value": "Online időpontfoglalás"
+    },
+    "lib/facts.ts#4": {
+      "key": "card_payment",
+      "en": "Card payment",
+      "es": "Pago con tarjeta",
+      "value": "Bankkártyás fizetés"
+    },
+    "lib/facts.ts#5": {
+      "key": "parking",
+      "en": "Parking",
+      "es": "Aparcamiento",
+      "value": "Parkolási lehetőség"
+    },
+    "lib/facts.ts#6": {
+      "key": "cats_waiting_room",
+      "en": "Separate waiting room for cats",
+      "es": "Sala de espera separada para gatos",
+      "value": "Külön váróterem macskáknak"
+    },
+    "lib/facts.ts#7": {
+      "key": "pet_passport",
+      "en": "Issues EU pet passports",
+      "es": "Emite pasaporte europeo para mascotas",
+      "value": "EU kisállatútlevél kiállítása"
+    },
+    "lib/facts.ts#8": {
+      "key": "pharmacy_on_site",
+      "en": "Pharmacy on site",
+      "es": "Farmacia en el centro",
+      "value": "Állatpatika a helyszínen"
+    },
+    "lib/facts.ts#9": {
+      "key": "cat_friendly",
+      "en": "Cat Friendly Clinic certified",
+      "es": "Certificado Cat Friendly Clinic",
+      "value": "Cat Friendly Clinic minősítés"
+    },
+    "lib/facts.ts#10": {
+      "key": "cats",
+      "en": "Cats groomed too",
+      "es": "También peluquería para gatos",
+      "value": "Macskakozmetika is"
+    },
+    "lib/facts.ts#11": {
+      "key": "all_sizes",
+      "en": "Dogs of all sizes",
+      "es": "Perros de todos los tamaños",
+      "value": "Bármilyen méretű kutya"
+    },
+    "lib/facts.ts#12": {
+      "key": "small_dogs_only",
+      "en": "Small dogs only",
+      "es": "Solo perros pequeños",
+      "value": "Csak kistestű kutyák"
+    },
+    "lib/facts.ts#13": {
+      "key": "appointment_only",
+      "en": "By appointment only",
+      "es": "Solo con cita previa",
+      "value": "Kizárólag időpontfoglalással"
+    },
+    "lib/facts.ts#14": {
+      "key": "online_booking",
+      "en": "Online booking",
+      "es": "Reserva online",
+      "value": "Online időpontfoglalás"
+    },
+    "lib/facts.ts#15": {
+      "key": "card_payment",
+      "en": "Card payment",
+      "es": "Pago con tarjeta",
+      "value": "Bankkártyás fizetés"
+    },
+    "lib/facts.ts#16": {
+      "key": "owner_can_stay",
+      "en": "You can stay with your pet",
+      "es": "Puedes quedarte con tu mascota",
+      "value": "A gazdi jelen lehet"
+    },
+    "lib/facts.ts#17": {
+      "key": "natural_cosmetics",
+      "en": "Natural cosmetics",
+      "es": "Cosmética natural",
+      "value": "Natúrkozmetikumok"
+    },
+    "lib/facts.ts#18": {
+      "key": "pickup_service",
+      "en": "Pick-up and drop-off",
+      "es": "Recogida y entrega a domicilio",
+      "value": "Háztól házig szállítás"
+    },
+    "lib/facts.ts#19": {
+      "key": "cats",
+      "en": "Takes cats",
+      "es": "También acepta gatos",
+      "value": "Macskákat is fogad"
+    },
+    "lib/facts.ts#20": {
+      "key": "small_dogs_only",
+      "en": "Small dogs only",
+      "es": "Solo perros pequeños",
+      "value": "Csak kistestű kutyák"
+    },
+    "lib/facts.ts#21": {
+      "key": "vaccination_required",
+      "en": "Vaccination record required",
+      "es": "Se exige cartilla de vacunación",
+      "value": "Oltási könyv szükséges"
+    },
+    "lib/facts.ts#22": {
+      "key": "trial_stay",
+      "en": "Trial day or visit before the stay",
+      "es": "Día de prueba o visita antes de la estancia",
+      "value": "Próbanap vagy látogatás az elhelyezés előtt"
+    },
+    "lib/facts.ts#23": {
+      "key": "outdoor_run",
+      "en": "Outdoor run",
+      "es": "Zona de recreo exterior",
+      "value": "Szabadtéri kifutó"
+    },
+    "lib/facts.ts#24": {
+      "key": "supervision_24h",
+      "en": "Supervised 24 hours",
+      "es": "Vigilancia las 24 horas",
+      "value": "24 órás felügyelet"
+    },
+    "lib/facts.ts#25": {
+      "key": "cage_free",
+      "en": "No cages or kennels",
+      "es": "Sin jaulas ni boxes",
+      "value": "Kennelek és ketrecek nélkül"
+    },
+    "lib/facts.ts#26": {
+      "key": "medication",
+      "en": "Gives medication",
+      "es": "Administra medicación",
+      "value": "Gyógyszer beadása"
+    },
+    "lib/facts.ts#27": {
+      "key": "photo_updates",
+      "en": "Photo or video updates",
+      "es": "Fotos o vídeos durante la estancia",
+      "value": "Fotós vagy videós helyzetjelentés"
+    },
+    "lib/facts.ts#28": {
+      "key": "group_classes",
+      "en": "Group classes",
+      "es": "Clases en grupo",
+      "value": "Csoportos órák"
+    },
+    "lib/facts.ts#29": {
+      "key": "private_lessons",
+      "en": "Private lessons",
+      "es": "Clases individuales",
+      "value": "Egyéni órák"
+    },
+    "lib/facts.ts#30": {
+      "key": "puppy_classes",
+      "en": "Puppy classes",
+      "es": "Clases para cachorros",
+      "value": "Kölyökórák és kutyaovi"
+    },
+    "lib/facts.ts#31": {
+      "key": "training_ground",
+      "en": "Own training ground",
+      "es": "Campo de adiestramiento propio",
+      "value": "Saját kiképzőpálya"
+    },
+    "lib/facts.ts#32": {
+      "key": "home_training",
+      "en": "Training at your home",
+      "es": "Adiestramiento en tu casa",
+      "value": "Oktatás a gazdi otthonában"
+    },
+    "lib/facts.ts#33": {
+      "key": "behaviour_problems",
+      "en": "Behaviour problems",
+      "es": "Problemas de conducta",
+      "value": "Viselkedésproblémák kezelése"
+    },
+    "lib/facts.ts#34": {
+      "key": "certified_trainer",
+      "en": "Certified trainer",
+      "es": "Educadores certificados",
+      "value": "Képesített oktató"
+    },
+    "lib/facts.ts#35": {
+      "key": "online_lessons",
+      "en": "Online lessons",
+      "es": "Clases online",
+      "value": "Online órák"
+    },
+    "lib/facts.ts#36": {
+      "key": "dog_sports",
+      "en": "Dog sports (agility, obedience)",
+      "es": "Deportes caninos (agility, obediencia)",
+      "value": "Kutyás sportok (agility, engedelmesség)"
+    },
+    "lib/facts.ts#37": {
+      "key": "dog_walking",
+      "en": "Dog walking",
+      "es": "Paseos de perros",
+      "value": "Kutyasétáltatás"
+    },
+    "lib/facts.ts#38": {
+      "key": "cat_visits",
+      "en": "Cat visits",
+      "es": "Visitas a gatos",
+      "value": "Macskafelügyelet látogatással"
+    },
+    "lib/facts.ts#39": {
+      "key": "home_sitting",
+      "en": "Stays at your home",
+      "es": "Cuidado en tu casa",
+      "value": "Felügyelet a gazdi otthonában"
+    },
+    "lib/facts.ts#40": {
+      "key": "boarding_at_sitter",
+      "en": "Boarding at the sitter's",
+      "es": "Alojamiento en casa del cuidador",
+      "value": "Elhelyezés a szitter otthonában"
+    },
+    "lib/facts.ts#41": {
+      "key": "insured",
+      "en": "Insured",
+      "es": "Seguro de responsabilidad civil",
+      "value": "Felelősségbiztosítással"
+    },
+    "lib/facts.ts#42": {
+      "key": "meet_greet",
+      "en": "Meet before booking",
+      "es": "Encuentro previo a la reserva",
+      "value": "Személyes találkozó foglalás előtt"
+    },
+    "lib/facts.ts#43": {
+      "key": "medication",
+      "en": "Gives medication",
+      "es": "Administra medicación",
+      "value": "Gyógyszer beadása"
+    },
+    "lib/facts.ts#44": {
+      "key": "photo_updates",
+      "en": "Photo or video updates",
+      "es": "Fotos o vídeos durante la estancia",
+      "value": "Fotós vagy videós helyzetjelentés"
+    },
+    "lib/facts.ts#45": {
+      "key": "first_aid",
+      "en": "Pet first-aid trained",
+      "es": "Formación en primeros auxilios para mascotas",
+      "value": "Kisállat-elsősegély képesítés"
+    },
+    "lib/facts.ts#46": {
+      "key": "delivery",
+      "en": "Delivery",
+      "es": "Envío a domicilio",
+      "value": "Házhoz szállítás"
+    },
+    "lib/facts.ts#47": {
+      "key": "vet_pharmacy",
+      "en": "Vet pharmacy",
+      "es": "Farmacia veterinaria",
+      "value": "Állatgyógyszertár"
+    },
+    "lib/facts.ts#48": {
+      "key": "grooming_corner",
+      "en": "Grooming on site",
+      "es": "Peluquería en la tienda",
+      "value": "Kutyakozmetika az üzletben"
+    },
+    "lib/facts.ts#49": {
+      "key": "card_payment",
+      "en": "Card payment",
+      "es": "Pago con tarjeta",
+      "value": "Bankkártyás fizetés"
+    },
+    "lib/facts.ts#50": {
+      "key": "parking",
+      "en": "Parking",
+      "es": "Aparcamiento",
+      "value": "Parkolási lehetőség"
+    },
+    "lib/facts.ts#51": {
+      "key": "click_collect",
+      "en": "Order online, pick up in store",
+      "es": "Compra online, recogida en tienda",
+      "value": "Személyes átvétel a boltban"
+    },
+    "lib/facts.ts#52": {
+      "key": "raw_food",
+      "en": "Raw food (BARF)",
+      "es": "Alimentación cruda (BARF)",
+      "value": "Nyers etetés (BARF)"
+    },
+    "lib/facts.ts#53": {
+      "key": "aquarium_fish",
+      "en": "Aquarium fish",
+      "es": "Acuariofilia",
+      "value": "Akváriumi halak"
+    },
+    "lib/facts.ts#54": {
+      "key": "exotic_supplies",
+      "en": "Supplies for exotic pets",
+      "es": "Artículos para animales exóticos",
+      "value": "Felszerelések egzotikus állatoknak"
+    },
+    "lib/facts.ts#55": {
+      "key": "",
+      "en": "Do I need an appointment?",
+      "es": "¿Hace falta cita previa?",
+      "value": "Szükséges időpontot foglalni?"
+    },
+    "lib/services.ts#1": {
+      "key": "full_groom",
+      "en": "Full grooming",
+      "es": "Peluquería completa",
+      "value": "Teljes kutyakozmetika"
+    },
+    "lib/services.ts#2": {
+      "key": "seo",
+      "en": "Dog grooming",
+      "es": "Peluquería canina completa",
+      "value": "Kutyanyírás és teljes kozmetika"
+    },
+    "lib/services.ts#3": {
+      "key": "bath_dry",
+      "en": "Bath & blow-dry",
+      "es": "Baño y secado",
+      "value": "Fürdetés és szárítás"
+    },
+    "lib/services.ts#4": {
+      "key": "seo",
+      "en": "Dog bath and blow dry",
+      "es": "Baño y secado para perro",
+      "value": "Kutya fürdetés és szárítás"
+    },
+    "lib/services.ts#5": {
+      "key": "hand_stripping",
+      "en": "Hand stripping",
+      "es": "Stripping",
+      "value": "Trimmelés"
+    },
+    "lib/services.ts#6": {
+      "key": "seo",
+      "en": "Dog hand stripping",
+      "es": "Stripping para perro",
+      "value": "Kutya trimmelés"
+    },
+    "lib/services.ts#7": {
+      "key": "deshedding",
+      "en": "De-shedding",
+      "es": "Deslanado",
+      "value": "Aljszőr kiszedés"
+    },
+    "lib/services.ts#8": {
+      "key": "seo",
+      "en": "Dog deshedding",
+      "es": "Deslanado del perro (subpelo)",
+      "value": "Aljszőr eltávolítás kutyáknak"
+    },
+    "lib/services.ts#9": {
+      "key": "nail_trim",
+      "en": "Nail trim",
+      "es": "Corte de uñas",
+      "value": "Karomvágás"
+    },
+    "lib/services.ts#10": {
+      "key": "seo",
+      "en": "Dog nail clipping",
+      "es": "Corte de uñas para perro",
+      "value": "Karomvágás kutyáknak"
+    },
+    "lib/services.ts#11": {
+      "key": "cat_groom",
+      "en": "Cat grooming",
+      "es": "Peluquería felina",
+      "value": "Macskakozmetika"
+    },
+    "lib/services.ts#12": {
+      "key": "seo",
+      "en": "Cat grooming",
+      "es": "Peluquería felina",
+      "value": "Macskakozmetika"
+    },
+    "lib/services.ts#13": {
+      "key": "exam",
+      "en": "Check-up",
+      "es": "Consulta general",
+      "value": "Általános vizsgálat"
+    },
+    "lib/services.ts#14": {
+      "key": "seo",
+      "en": "Vet checkup",
+      "es": "Consulta veterinaria",
+      "value": "Állatorvosi vizsgálat"
+    },
+    "lib/services.ts#15": {
+      "key": "vaccination_dog",
+      "en": "Dog vaccination",
+      "es": "Vacunación perro",
+      "value": "Kutya védőoltás"
+    },
+    "lib/services.ts#16": {
+      "key": "seo",
+      "en": "Dog vaccination",
+      "es": "Vacuna para el perro",
+      "value": "Kutya védőoltás"
+    },
+    "lib/services.ts#17": {
+      "key": "microchip",
+      "en": "Microchip",
+      "es": "Microchip",
+      "value": "Mikrochip"
+    },
+    "lib/services.ts#18": {
+      "key": "seo",
+      "en": "Dog microchipping",
+      "es": "Microchip para el perro",
+      "value": "Mikrochip beültetés kutyáknak"
+    },
+    "lib/services.ts#19": {
+      "key": "neuter_cat",
+      "en": "Cat neutering (male)",
+      "es": "Castración gato",
+      "value": "Kandúr ivartalanítás"
+    },
+    "lib/services.ts#20": {
+      "key": "seo",
+      "en": "Cat neutering",
+      "es": "Castración de gato (macho)",
+      "value": "Kandúr macska ivartalanítása"
+    },
+    "lib/services.ts#21": {
+      "key": "spay_cat",
+      "en": "Cat spaying (female)",
+      "es": "Esterilización gata",
+      "value": "Nőstény macska ivartalanítás"
+    },
+    "lib/services.ts#22": {
+      "key": "seo",
+      "en": "Cat spaying",
+      "es": "Esterilización de la gata",
+      "value": "Nőstény macska ivartalanítása"
+    },
+    "lib/services.ts#23": {
+      "key": "spay_dog",
+      "en": "Dog spaying (female)",
+      "es": "Esterilización perra",
+      "value": "Szuka ivartalanítás"
+    },
+    "lib/services.ts#24": {
+      "key": "seo",
+      "en": "Dog spaying",
+      "es": "Esterilización de la perra",
+      "value": "Szuka kutya ivartalanítása"
+    },
+    "lib/services.ts#25": {
+      "key": "dog_night",
+      "en": "Dog, per night",
+      "es": "Perro, por noche",
+      "value": "Kutya, éjszakánként"
+    },
+    "lib/services.ts#26": {
+      "key": "seo",
+      "en": "Dog hotel per night",
+      "es": "Residencia canina por noche",
+      "value": "Kutyapanzió egy éjszakára"
+    },
+    "lib/services.ts#27": {
+      "key": "cat_night",
+      "en": "Cat, per night",
+      "es": "Gato, por noche",
+      "value": "Macska, éjszakánként"
+    },
+    "lib/services.ts#28": {
+      "key": "seo",
+      "en": "Cattery per night",
+      "es": "Residencia felina por noche",
+      "value": "Macskapanzió egy éjszakára"
+    },
+    "lib/services.ts#29": {
+      "key": "daycare_day",
+      "en": "Dog daycare, per day",
+      "es": "Guardería de día",
+      "value": "Kutyanapközi, naponta"
+    },
+    "lib/services.ts#30": {
+      "key": "seo",
+      "en": "Dog daycare per day",
+      "es": "Guardería canina por día",
+      "value": "Kutyanapközi egy napra"
+    },
+    "lib/services.ts#31": {
+      "key": "daycare_pass",
+      "en": "Daycare pass",
+      "es": "Bono guardería",
+      "value": "Napközi bérlet"
+    },
+    "lib/services.ts#32": {
+      "key": "seo",
+      "en": "Dog daycare pass",
+      "es": "Bono guardería canina",
+      "value": "Kutyanapközi bérlet"
+    },
+    "lib/services.ts#33": {
+      "key": "pickup",
+      "en": "Pick-up & drop-off",
+      "es": "Taxi mascotas (traslado)",
+      "value": "Állattaxi (szállítás)"
+    },
+    "lib/services.ts#34": {
+      "key": "seo",
+      "en": "Pet hotel pickup and drop off",
+      "es": "Taxi para mascotas y traslado",
+      "value": "Állattaxi és kisállatszállítás"
+    },
+    "lib/services.ts#35": {
+      "key": "extra_walk",
+      "en": "Extra walk / individual care",
+      "es": "Paseo extra",
+      "value": "Extra séta"
+    },
+    "lib/services.ts#36": {
+      "key": "seo",
+      "en": "Extra walk at a dog hotel",
+      "es": "Paseo extra en residencia",
+      "value": "Extra séta a panzióban"
+    },
+    "lib/services.ts#37": {
+      "key": "puppy_course",
+      "en": "Puppy course",
+      "es": "Curso cachorros",
+      "value": "Kölyökkutya tanfolyam"
+    },
+    "lib/services.ts#38": {
+      "key": "seo",
+      "en": "Puppy classes",
+      "es": "Curso para cachorros",
+      "value": "Kölyökkutya tanfolyam (kutyaovi)"
+    },
+    "lib/services.ts#39": {
+      "key": "obedience_course",
+      "en": "Basic obedience course",
+      "es": "Obediencia básica",
+      "value": "Alapfokú engedelmesség"
+    },
+    "lib/services.ts#40": {
+      "key": "seo",
+      "en": "Dog obedience training",
+      "es": "Curso de obediencia básica",
+      "value": "Alapfokú engedelmességi tanfolyam"
+    },
+    "lib/services.ts#41": {
+      "key": "group_lesson",
+      "en": "Group lesson",
+      "es": "Clase grupal",
+      "value": "Csoportos óra"
+    },
+    "lib/services.ts#42": {
+      "key": "seo",
+      "en": "Group dog training class",
+      "es": "Clase grupal para perros",
+      "value": "Csoportos kutyakiképzés"
+    },
+    "lib/services.ts#43": {
+      "key": "private_lesson",
+      "en": "Private lesson",
+      "es": "Clase individual",
+      "value": "Egyéni óra"
+    },
+    "lib/services.ts#44": {
+      "key": "seo",
+      "en": "One to one dog training",
+      "es": "Clase individual de adiestramiento",
+      "value": "Egyéni kutyakiképzés"
+    },
+    "lib/services.ts#45": {
+      "key": "behavior_consult",
+      "en": "Behaviour consultation",
+      "es": "Consulta etología",
+      "value": "Viselkedésterápia"
+    },
+    "lib/services.ts#46": {
+      "key": "seo",
+      "en": "Dog behaviourist consultation",
+      "es": "Consulta de etología canina",
+      "value": "Kutya viselkedésterápia"
+    },
+    "lib/services.ts#47": {
+      "key": "membership",
+      "en": "Club membership",
+      "es": "Cuota de socio",
+      "value": "Klubtagsági díj"
+    },
+    "lib/services.ts#48": {
+      "key": "seo",
+      "en": "Dog club membership",
+      "es": "Cuota de socio del club canino",
+      "value": "Kutyaiskola klubtagsági díj"
+    },
+    "lib/services.ts#49": {
+      "key": "walk_30",
+      "en": "Dog walk, 30 min",
+      "es": "Paseo 30 min",
+      "value": "Séta 30 perc"
+    },
+    "lib/services.ts#50": {
+      "key": "seo",
+      "en": "30 minute dog walk",
+      "es": "Paseo de perro (30 minutos)",
+      "value": "Kutyasétáltatás (30 perc)"
+    },
+    "lib/services.ts#51": {
+      "key": "walk_60",
+      "en": "Dog walk, 60 min",
+      "es": "Paseo 1 hora",
+      "value": "Séta 1 óra"
+    },
+    "lib/services.ts#52": {
+      "key": "seo",
+      "en": "1 hour dog walk",
+      "es": "Paseo de perro (1 hora)",
+      "value": "Kutyasétáltatás (1 óra)"
+    },
+    "lib/services.ts#53": {
+      "key": "cat_visit",
+      "en": "Cat visit",
+      "es": "Visita a gatos",
+      "value": "Macskafelügyelet"
+    },
+    "lib/services.ts#54": {
+      "key": "seo",
+      "en": "Cat sitting visit",
+      "es": "Visita a domicilio para gatos",
+      "value": "Macskafelügyelet háznál"
+    },
+    "lib/services.ts#55": {
+      "key": "house_sitting_night",
+      "en": "Overnight at your home",
+      "es": "Cuidado en tu casa, noche",
+      "value": "Ottalvós felügyelet, éjszaka"
+    },
+    "lib/services.ts#56": {
+      "key": "seo",
+      "en": "Overnight dog sitting",
+      "es": "Cuidado a domicilio (noche)",
+      "value": "Ottalvós állatfelügyelet (éjszaka)"
+    },
+    "lib/services.ts#57": {
+      "key": "boarding_night",
+      "en": "Overnight at sitter's home",
+      "es": "Alojamiento con cuidador",
+      "value": "Családi panzió, éjszaka"
+    },
+    "lib/services.ts#58": {
+      "key": "seo",
+      "en": "Overnight dog boarding",
+      "es": "Alojamiento con cuidador (noche)",
+      "value": "Családi kutyapanzió (éjszaka)"
+    },
+    "lib/services.ts#59": {
+      "key": "daycare_day",
+      "en": "Day care",
+      "es": "Cuidado diurno",
+      "value": "Napközbeni felügyelet"
+    },
+    "lib/services.ts#60": {
+      "key": "seo",
+      "en": "Dog sitting per day",
+      "es": "Cuidado diurno para perros",
+      "value": "Napközbeni kutyamegőrzés"
+    },
+    "lib/services.ts#61": {
+      "key": "",
+      "en": "Bath, haircut and nails",
+      "es": "Baño, corte y uñas",
+      "value": "Fürdetés, nyírás és karomvágás"
+    },
+    "lib/services.ts#62": {
+      "key": "",
+      "en": "Whole procedure",
+      "es": "Procedimiento completo",
+      "value": "Teljes eljárás"
+    },
+    "lib/services.ts#63": {
+      "key": "",
+      "en": "Basic exam, no tests",
+      "es": "Consulta básica, sin pruebas",
+      "value": "Alapvizsgálat, tesztek nélkül"
+    },
+    "lib/services.ts#64": {
+      "key": "",
+      "en": "Combined vaccine + rabies",
+      "es": "Vacuna combinada + rabia",
+      "value": "Kombinált oltás + veszettség"
+    },
+    "lib/services.ts#65": {
+      "key": "",
+      "en": "Chip, implanting and registration",
+      "es": "Chip, implantación y registro",
+      "value": "Chip, beültetés és regisztráció"
+    },
+    "lib/services.ts#66": {
+      "key": "",
+      "en": "Surgery + anaesthesia",
+      "es": "Intervención + anestesia",
+      "value": "Műtét + altatás"
+    },
+    "lib/services.ts#67": {
+      "key": "",
+      "en": "Surgery + anaesthesia",
+      "es": "Intervención + anestesia",
+      "value": "Műtét + altatás"
+    },
+    "lib/services.ts#68": {
+      "key": "",
+      "en": "Surgery + anaesthesia",
+      "es": "Intervención + anestesia",
+      "value": "Műtét + altatás"
+    },
+    "lib/services.ts#69": {
+      "key": "",
+      "en": "One way",
+      "es": "Solo ida",
+      "value": "Egy irányba"
+    },
+    "lib/priceSlugs.ts#1": {
+      "key": "",
+      "en": "prices",
+      "es": "precios",
+      "value": "arak"
+    },
+    "lib/priceSlugs.ts#2": {
+      "key": "full_groom",
+      "en": "full-grooming",
+      "es": "corte-de-pelo",
+      "value": "teljes-kozmetika"
+    },
+    "lib/priceSlugs.ts#3": {
+      "key": "bath_dry",
+      "en": "bath-and-blow-dry",
+      "es": "bano-y-secado",
+      "value": "furdetes-es-szaritas"
+    },
+    "lib/priceSlugs.ts#4": {
+      "key": "hand_stripping",
+      "en": "hand-stripping",
+      "es": "stripping",
+      "value": "trimeles"
+    },
+    "lib/priceSlugs.ts#5": {
+      "key": "deshedding",
+      "en": "de-shedding",
+      "es": "deslanado",
+      "value": "aljszor-eltavolitas"
+    },
+    "lib/priceSlugs.ts#6": {
+      "key": "nail_trim",
+      "en": "nail-trim",
+      "es": "corte-de-unas",
+      "value": "karomvagas"
+    },
+    "lib/priceSlugs.ts#7": {
+      "key": "cat_groom",
+      "en": "cat-grooming",
+      "es": "peluqueria-felina",
+      "value": "macskakozmetika"
+    },
+    "lib/priceSlugs.ts#8": {
+      "key": "exam",
+      "en": "check-up",
+      "es": "consulta-veterinaria",
+      "value": "allatorvosi-vizsgalat"
+    },
+    "lib/priceSlugs.ts#9": {
+      "key": "vaccination_dog",
+      "en": "dog-vaccination",
+      "es": "vacuna-perro",
+      "value": "kutya-oltas"
+    },
+    "lib/priceSlugs.ts#10": {
+      "key": "microchip",
+      "en": "microchip",
+      "es": "microchip-perro",
+      "value": "mikrochip"
+    },
+    "lib/priceSlugs.ts#11": {
+      "key": "neuter_cat",
+      "en": "cat-neutering",
+      "es": "castracion-gato",
+      "value": "kandur-ivartalanitas"
+    },
+    "lib/priceSlugs.ts#12": {
+      "key": "spay_cat",
+      "en": "cat-spaying",
+      "es": "esterilizacion-gata",
+      "value": "nosteny-macska-ivartalanitas"
+    },
+    "lib/priceSlugs.ts#13": {
+      "key": "spay_dog",
+      "en": "dog-spaying",
+      "es": "esterilizacion-perra",
+      "value": "szuka-ivartalanitas"
+    },
+    "lib/priceSlugs.ts#14": {
+      "key": "dog_night",
+      "en": "dog-per-night",
+      "es": "perro-noche",
+      "value": "kutya-ejszaka"
+    },
+    "lib/priceSlugs.ts#15": {
+      "key": "cat_night",
+      "en": "cat-per-night",
+      "es": "gato-noche",
+      "value": "macska-ejszaka"
+    },
+    "lib/priceSlugs.ts#16": {
+      "key": "daycare_day",
+      "en": "dog-daycare",
+      "es": "guarderia-dia",
+      "value": "kutyanapkozi"
+    },
+    "lib/priceSlugs.ts#17": {
+      "key": "daycare_pass",
+      "en": "daycare-pass",
+      "es": "bono-guarderia",
+      "value": "kutyanapkozi-berlet"
+    },
+    "lib/priceSlugs.ts#18": {
+      "key": "pickup",
+      "en": "pick-up-and-drop-off",
+      "es": "taxi-mascotas",
+      "value": "allattaxi"
+    },
+    "lib/priceSlugs.ts#19": {
+      "key": "extra_walk",
+      "en": "extra-walk",
+      "es": "paseo-extra",
+      "value": "extra-seta"
+    },
+    "lib/priceSlugs.ts#20": {
+      "key": "puppy_course",
+      "en": "puppy-course",
+      "es": "curso-cachorros",
+      "value": "kolyokkutya-tanfolyam"
+    },
+    "lib/priceSlugs.ts#21": {
+      "key": "obedience_course",
+      "en": "obedience-course",
+      "es": "curso-obediencia-basica",
+      "value": "alapfoku-engedelmesseg"
+    },
+    "lib/priceSlugs.ts#22": {
+      "key": "group_lesson",
+      "en": "group-lesson",
+      "es": "clase-grupal",
+      "value": "csoportos-foglalkozas"
+    },
+    "lib/priceSlugs.ts#23": {
+      "key": "private_lesson",
+      "en": "private-lesson",
+      "es": "clase-individual",
+      "value": "egyeni-kepzes"
+    },
+    "lib/priceSlugs.ts#24": {
+      "key": "behavior_consult",
+      "en": "behaviour-consultation",
+      "es": "consulta-etologia",
+      "value": "viselkedesterapia"
+    },
+    "lib/priceSlugs.ts#25": {
+      "key": "membership",
+      "en": "club-membership",
+      "es": "cuota-club",
+      "value": "klubtagsagi-dij"
+    },
+    "lib/priceSlugs.ts#26": {
+      "key": "PET_SITTING",
+      "en": "dog-walk-30-min",
+      "es": "paseo-30-min",
+      "value": "kutyaseta-30-perc"
+    },
+    "lib/priceSlugs.ts#27": {
+      "key": "PET_SITTING",
+      "en": "dog-walk-60-min",
+      "es": "paseo-60-min",
+      "value": "kutyaseta-60-perc"
+    },
+    "lib/priceSlugs.ts#28": {
+      "key": "cat_visit",
+      "en": "cat-visit",
+      "es": "visita-gatos",
+      "value": "macskafelugyelet-haznal"
+    },
+    "lib/priceSlugs.ts#29": {
+      "key": "house_sitting_night",
+      "en": "overnight-at-your-home",
+      "es": "cuidado-domicilio-noche",
+      "value": "felugyelet-a-gazdinal-ejszaka"
+    },
+    "lib/priceSlugs.ts#30": {
+      "key": "boarding_night",
+      "en": "overnight-at-sitters-home",
+      "es": "alojamiento-cuidador-noche",
+      "value": "felugyelet-a-szitternel-ejszaka"
+    },
+    "lib/priceSlugs.ts#31": {
+      "key": "daycare_day",
+      "en": "day-care",
+      "es": "cuidado-diurno",
+      "value": "napkozi-felugyelet"
+    },
+    "lib/vet.ts#1": {
+      "key": "surgery",
+      "en": "Surgery",
+      "es": "Cirugía",
+      "value": "Sebészet"
+    },
+    "lib/vet.ts#2": {
+      "key": "orthopedics",
+      "en": "Orthopaedics",
+      "es": "Traumatología",
+      "value": "Ortopédia"
+    },
+    "lib/vet.ts#3": {
+      "key": "dentistry",
+      "en": "Dentistry",
+      "es": "Odontología",
+      "value": "Fogászat"
+    },
+    "lib/vet.ts#4": {
+      "key": "dermatology",
+      "en": "Dermatology",
+      "es": "Dermatología",
+      "value": "Bőrgyógyászat"
+    },
+    "lib/vet.ts#5": {
+      "key": "cardiology",
+      "en": "Cardiology",
+      "es": "Cardiología",
+      "value": "Kardiológia"
+    },
+    "lib/vet.ts#6": {
+      "key": "ophthalmology",
+      "en": "Ophthalmology",
+      "es": "Oftalmología",
+      "value": "Szemészet"
+    },
+    "lib/vet.ts#7": {
+      "key": "oncology",
+      "en": "Oncology",
+      "es": "Oncología",
+      "value": "Onkológia"
+    },
+    "lib/vet.ts#8": {
+      "key": "neurology",
+      "en": "Neurology",
+      "es": "Neurología",
+      "value": "Neurológia"
+    },
+    "lib/vet.ts#9": {
+      "key": "\"internal-medicine\"",
+      "en": "Internal medicine",
+      "es": "Medicina interna",
+      "value": "Belgyógyászat"
+    },
+    "lib/vet.ts#10": {
+      "key": "reproduction",
+      "en": "Reproduction",
+      "es": "Reproducción",
+      "value": "Szülészet és szaporodásbiológia"
+    },
+    "lib/vet.ts#11": {
+      "key": "rehabilitation",
+      "en": "Rehabilitation",
+      "es": "Fisioterapia y rehabilitación",
+      "value": "Fizioterápia és rehabilitáció"
+    },
+    "lib/vet.ts#12": {
+      "key": "exotics",
+      "en": "Exotic animals",
+      "es": "Animales exóticos",
+      "value": "Egzotikus állatok"
+    },
+    "lib/vet.ts#13": {
+      "key": "ultrasound",
+      "en": "Ultrasound",
+      "es": "Ecografía",
+      "value": "Ultrahang"
+    },
+    "lib/vet.ts#14": {
+      "key": "\"x-ray\"",
+      "en": "X-ray",
+      "es": "Radiografía",
+      "value": "Röntgen"
+    },
+    "lib/vet.ts#15": {
+      "key": "ct",
+      "en": "CT",
+      "es": "TAC",
+      "value": "CT"
+    },
+    "lib/vet.ts#16": {
+      "key": "mri",
+      "en": "MRI",
+      "es": "Resonancia magnética",
+      "value": "MRI"
+    },
+    "lib/vet.ts#17": {
+      "key": "endoscopy",
+      "en": "Endoscopy",
+      "es": "Endoscopia",
+      "value": "Endoszkópia"
+    },
+    "lib/vet.ts#18": {
+      "key": "laboratory",
+      "en": "Laboratory",
+      "es": "Laboratorio",
+      "value": "Laboratórium"
+    },
+    "lib/vet.ts#19": {
+      "key": "hospitalization",
+      "en": "Hospitalisation",
+      "es": "Hospitalización",
+      "value": "Kórházi ellátás"
+    },
+    "lib/attributePages.ts#1": {
+      "key": "nonstop",
+      "en": "nonstop",
+      "es": "urgencias",
+      "value": "ugyelet"
+    },
+    "lib/attributePages.ts#2": {
+      "key": "saturday",
+      "en": "open-saturday",
+      "es": "sabado",
+      "value": "szombat"
+    },
+    "lib/attributePages.ts#3": {
+      "key": "sunday",
+      "en": "open-sunday",
+      "es": "domingo",
+      "value": "vasarnap"
+    },
+    "lib/attributePages.ts#4": {
+      "key": "exotics",
+      "en": "exotic-animals",
+      "es": "exoticos",
+      "value": "egzotikus"
+    },
+    "lib/attributePages.ts#5": {
+      "key": "\"home-visits\"",
+      "en": "home-visits",
+      "es": "a-domicilio",
+      "value": "hazhoz"
+    },
+    "lib/attributePages.ts#6": {
+      "key": "english",
+      "en": "english-speaking",
+      "es": "ingles",
+      "value": "angol"
+    },
+    "lib/bestPages.ts#1": {
+      "key": "",
+      "en": "best",
+      "es": "mejores",
+      "value": "legjobb"
+    },
+    "lib/guides.ts#1": {
+      "key": "",
+      "en": "guides",
+      "es": "guias",
+      "value": "utmutatok"
+    },
+    "lib/categories.ts#1": {
+      "key": "",
+      "en": "business",
+      "es": "centro",
+      "value": "hely"
+    },
+    "lib/categories.ts#2": {
+      "key": "",
+      "en": "city",
+      "es": "ciudad",
+      "value": "varos"
+    }
+  },
+  "blocks": {
+    "lib/categories.ts@SLUGS": {
+      "en": "",
+      "es": "    GROOMING: \"peluqueria-canina\",\n    VET_CLINIC: \"veterinario\",\n    PET_HOTEL: \"residencia-canina\",\n    DOG_TRAINING: \"adiestramiento-canino\",\n    PET_SHOP: \"tienda-de-mascotas\",\n    PET_SITTING: \"cuidador-de-perros\",",
+      "value": "    GROOMING: \"kutyakozmetika\",\n    VET_CLINIC: \"allatorvos\",\n    PET_HOTEL: \"kutyapanzio\",\n    DOG_TRAINING: \"kutyaiskola\",\n    PET_SHOP: \"allatkereskedes\",\n    PET_SITTING: \"kutyaszitter\","
+    },
+    "lib/categories.ts@LABELS": {
+      "en": "",
+      "es": "    GROOMING: \"Peluquerías caninas\",\n    VET_CLINIC: \"Veterinarios\",\n    PET_HOTEL: \"Residencias caninas\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de mascotas\",\n    PET_SITTING: \"Cuidadores de perros\",",
+      "value": "    GROOMING: \"Kutyakozmetikák\",\n    VET_CLINIC: \"Állatorvosok\",\n    PET_HOTEL: \"Kutyapanziók\",\n    DOG_TRAINING: \"Kutyaiskolák\",\n    PET_SHOP: \"Állatkereskedések\",\n    PET_SITTING: \"Kutyaszitterek\","
+    },
+    "lib/categories.ts@SINGULAR": {
+      "en": "",
+      "es": "    GROOMING: \"peluquería canina\",\n    VET_CLINIC: \"clínica veterinaria\",\n    PET_HOTEL: \"residencia canina\",\n    DOG_TRAINING: \"adiestrador canino\",\n    PET_SHOP: \"tienda de mascotas\",\n    PET_SITTING: \"cuidador de perros\",",
+      "value": "    GROOMING: \"kutyakozmetika\",\n    VET_CLINIC: \"állatorvosi rendelő\",\n    PET_HOTEL: \"kutyapanzió\",\n    DOG_TRAINING: \"kutyaiskola\",\n    PET_SHOP: \"állatkereskedés\",\n    PET_SITTING: \"kutyaszitter\","
+    },
+    "lib/categories.ts@PLURAL": {
+      "en": "    GROOMING: \"grooming salons\",\n    VET_CLINIC: \"vet clinics\",\n    PET_HOTEL: \"pet hotels\",\n    DOG_TRAINING: \"dog trainers\",\n    PET_SHOP: \"pet shops\",\n    PET_SITTING: \"pet sitters\",",
+      "es": "    GROOMING: \"peluquerías caninas\",\n    VET_CLINIC: \"veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"residencias caninas\",\n    DOG_TRAINING: \"adiestradores y escuelas caninas\",\n    PET_SHOP: \"tiendas de mascotas\",\n    PET_SITTING: \"cuidadores de perros\",",
+      "value": "    GROOMING: \"kutyakozmetikák\",\n    VET_CLINIC: \"állatorvosok és rendelők\",\n    PET_HOTEL: \"kutyapanziók\",\n    DOG_TRAINING: \"kutyaiskolák és trénerek\",\n    PET_SHOP: \"állatkereskedések\",\n    PET_SITTING: \"kutyaszitterek és sétáltatók\","
+    },
+    "lib/categories.ts@SEO_TITLE": {
+      "en": "    GROOMING: \"Dog Grooming & Groomers\",\n    VET_CLINIC: \"Vets & Veterinary Clinics\",\n    PET_HOTEL: \"Dog Hotels & Pet Boarding\",\n    DOG_TRAINING: \"Dog Training & Puppy Classes\",\n    PET_SHOP: \"Pet Shops\",\n    PET_SITTING: \"Dog Sitters & Dog Walkers\",",
+      "es": "    GROOMING: \"Peluquería canina y lavado de perros\",\n    VET_CLINIC: \"Veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"Residencias caninas y guarderías de día\",\n    DOG_TRAINING: \"Adiestramiento canino y educadores\",\n    PET_SHOP: \"Tiendas de animales y productos para mascotas\",\n    PET_SITTING: \"Cuidadores de perros y paseadores\",",
+      "value": "    GROOMING: \"Kutyakozmetika és kutyanyírás\",\n    VET_CLINIC: \"Állatorvosok és állatorvosi rendelők\",\n    PET_HOTEL: \"Kutyapanziók és kutyanapközik\",\n    DOG_TRAINING: \"Kutyaiskolák és kutyakiképzés\",\n    PET_SHOP: \"Állatkereskedések és állateledel boltok\",\n    PET_SITTING: \"Kutyaszitterek és kutyasétáltatás\","
+    },
+    "lib/categories.ts@PRICES_NAME": {
+      "en": "    GROOMING: \"Dog grooming prices\",\n    VET_CLINIC: \"Vet prices & clinic fees\",\n    PET_HOTEL: \"Dog hotel & boarding prices\",\n    DOG_TRAINING: \"Dog training prices\",\n    PET_SHOP: \"Pet shop prices\",\n    PET_SITTING: \"Dog sitting & walking prices\",",
+      "es": "    GROOMING: \"Peluquería canina\",\n    VET_CLINIC: \"Precios veterinario\",\n    PET_HOTEL: \"Residencia canina\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de animales\",\n    PET_SITTING: \"Cuidador de perros\",",
+      "value": "    GROOMING: \"Kutyakozmetika árak\",\n    VET_CLINIC: \"Állatorvos árak\",\n    PET_HOTEL: \"Kutyapanzió árak\",\n    DOG_TRAINING: \"Kutyaiskola árak\",\n    PET_SHOP: \"Állatkereskedés árak\",\n    PET_SITTING: \"Kutyasétáltatás és kutyaszitter árak\","
+    },
+    "lib/categories.ts@BLURBS": {
+      "en": "    GROOMING: CATEGORY_THEME.GROOMING.blurb,\n    VET_CLINIC: CATEGORY_THEME.VET_CLINIC.blurb,\n    PET_HOTEL: CATEGORY_THEME.PET_HOTEL.blurb,\n    DOG_TRAINING: CATEGORY_THEME.DOG_TRAINING.blurb,\n    PET_SHOP: CATEGORY_THEME.PET_SHOP.blurb,\n    PET_SITTING: CATEGORY_THEME.PET_SITTING.blurb,",
+      "es": "    GROOMING: \"Baño, corte, stripping y cuidado de uñas\",\n    VET_CLINIC: \"Consultas, vacunas y urgencias\",\n    PET_HOTEL: \"Una estancia segura mientras estás fuera\",\n    DOG_TRAINING: \"Clases para cachorros, obediencia básica y conducta\",\n    PET_SHOP: \"Comida, juguetes y accesorios de cada día\",\n    PET_SITTING: \"Paseos, visitas y cuidado en casa\",",
+      "value": "    GROOMING: \"Fürdetés, nyírás, trimmelés és karomápolás\",\n    VET_CLINIC: \"Vizsgálatok, védőoltások és sürgősségi ellátás\",\n    PET_HOTEL: \"Biztonságos elhelyezés, amíg távol vagy\",\n    DOG_TRAINING: \"Kölyöknevelés, alapfokú engedelmesség és viselkedésterápia\",\n    PET_SHOP: \"Eleségek, felszerelések és mindennapi kellékek\",\n    PET_SITTING: \"Sétáltatás, látogatás és háznál felügyelet\","
+    },
+    "lib/categories.ts@PLACE_TERM": {
+      "en": "    VET_CLINIC: { term: \"vet\", word: /^(vet|vets|veterinary)$/ },\n    GROOMING: { term: \"dog grooming\", word: /^groom/ },\n    PET_HOTEL: { term: \"pet hotel\", word: /^hotel/ },\n    DOG_TRAINING: { term: \"dog training\", word: /^train/ },\n    PET_SHOP: { term: \"pet shop\", word: /^shop/ },\n    PET_SITTING: { term: \"pet sitter\", word: /^sitt/ },",
+      "es": "    VET_CLINIC: { term: \"veterinario\", word: /^(veterinari|clinica|clínica|centro|hospital)/ },\n    GROOMING: { term: \"peluquería canina\", word: /^(peluquer|grooming|estética|estetica)/ },\n    PET_HOTEL: { term: \"residencia canina\", word: /^(residencia|hotel|guarder)/ },\n    DOG_TRAINING: { term: \"adiestramiento canino\", word: /^(adiestr|escuela|club|centro|educador)/ },\n    PET_SHOP: { term: \"tienda de mascotas\", word: /^(tienda|pet|zoo)/ },\n    PET_SITTING: { term: \"cuidador de perros\", word: /^(cuidador|paseador|dog|pet)/ },",
+      "value": "    VET_CLINIC: { term: \"állatorvos\", word: /^(állatorvos|allatorvos|rendel|kórház|korhaz|klinik)/ },\n    GROOMING: { term: \"kutyakozmetika\", word: /^(kutyakozmetik|kozmetik|grooming|nyír|nyir)/ },\n    PET_HOTEL: { term: \"kutyapanzió\", word: /^(kutyapanzi|panzi|kutyahotel|kutyanapköz|kutyanapkoz)/ },\n    DOG_TRAINING: { term: \"kutyaiskola\", word: /^(kutyaiskol|kutyasuli|kiképz|kikepz|tréner|trener)/ },\n    PET_SHOP: { term: \"állatkereskedés\", word: /^(állatkeresked|allatkeresked|állateledel|allateledel|díszállat|diszallat|pet|zoo)/ },\n    PET_SITTING: { term: \"kutyaszitter\", word: /^(kutyaszitter|sétáltat|setaltat|felügyelet|felugyelet|dog|pet)/ },"
+    },
+    "lib/bestPages.ts@BEST_NAME": {
+      "en": "    GROOMING: \"Best dog groomers\",\n    VET_CLINIC: \"Best vets\",\n    PET_HOTEL: \"Best dog hotels\",\n    DOG_TRAINING: \"Best dog trainers\",\n    PET_SHOP: \"Best pet shops\",\n    PET_SITTING: \"Best dog walkers and sitters\",",
+      "es": "    GROOMING: \"Las mejores peluquerías caninas\",\n    VET_CLINIC: \"Los mejores veterinarios\",\n    PET_HOTEL: \"Las mejores residencias caninas\",\n    DOG_TRAINING: \"Los mejores adiestradores caninos\",\n    PET_SHOP: \"Las mejores tiendas de mascotas\",\n    PET_SITTING: \"Los mejores cuidadores de perros\",",
+      "value": "    GROOMING: \"A legjobb kutyakozmetikák\",\n    VET_CLINIC: \"A legjobb állatorvosok\",\n    PET_HOTEL: \"A legjobb kutyapanziók\",\n    DOG_TRAINING: \"A legjobb kutyaiskolák\",\n    PET_SHOP: \"A legjobb állatkereskedések\",\n    PET_SITTING: \"A legjobb kutyaszitterek\","
+    },
+    "lib/bestPages.ts@BEST_TEXT": {
+      "en": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `The ${n} highest-rated places ${where}, ranked by Google rating and number of reviews, with what customers praise in each.`,\n    lead: (n) =>\n      `The ${n} places with the best Google ratings, weighed by how many people rated them. Under each: what customers praise most, from our summary of recent reviews.`,\n    praised: \"What customers praise\",\n    mention: \"Some mention\",\n    reviewsSummarised: (n) => `from ${n} recent ${n === 1 ? \"review\" : \"reviews\"}`,\n    howTitle: \"How we ranked\",\n    how: (min, date) =>\n      `By Google rating, weighed by the number of ratings: a 4.9 from 15 people ranks below a 4.8 from 400. Only places with at least ${min} ratings. Ratings checked ${date}. No place pays to be on this list.`,\n    allPlaces: \"All places\",\n    chip: \"Best rated\",\n    rank: (n) => `No. ${n}`,",
+      "es": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `Los ${n} negocios mejor valorados ${where}, según la nota en Google y el número de reseñas, y lo que más aprecian los clientes.`,\n    lead: (n) =>\n      `Los ${n} negocios mejor valorados en Google, ponderados por el número de reseñas. De cada uno: lo que más valoran los clientes, según nuestro resumen de las reseñas recientes.`,\n    praised: \"Lo que más valoran los clientes\",\n    mention: \"Algunos señalan\",\n    reviewsSummarised: (n) => `a partir de ${n} reseñas recientes`,\n    howTitle: \"Cómo hemos elaborado la clasificación\",\n    how: (min, date) =>\n      `Según la nota en Google, ponderada por el número de reseñas: un 4,9 con 15 reseñas vale menos que un 4,8 con 400. Solo cuentan los negocios con al menos ${min} reseñas. Notas comprobadas el ${date}. Nadie paga por aparecer en esta clasificación.`,\n    allPlaces: \"Todos los negocios\",\n    chip: \"Los más valorados\",\n    rank: (n) => `${n}º`,",
+      "value": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `A(z) ${n} legjobbra értékelt hely ${where}, a Google-értékelések és a vélemények száma alapján, valamint amit a vendégek a leginkább dicsérnek.`,\n    lead: (n) =>\n      `A(z) ${n} legjobb Google-értékelésű hely, a vélemények számával súlyozva. Mindegyiknél bemutatjuk, amit a vendégek a leginkább dicsérnek a friss vélemények alapján.`,\n    praised: \"Amit a vendégek leginkább dicsérnek\",\n    mention: \"Néhányan megjegyzik\",\n    reviewsSummarised: (n) => `${n} friss vélemény alapján`,\n    howTitle: \"Hogyan állítottuk össze a rangsort\",\n    how: (min, date) =>\n      `A Google-értékelések alapján, a vélemények számával súlyozva: egy 15 értékeléses 4,9 hátrébb rangsorol, mint egy 400 értékeléses 4,8. Csak a legalább ${min} értékeléssel rendelkező helyek szerepelnek. Az értékelések ellenőrizve: ${date}. Egyetlen szolgáltató sem fizet a rangsorban való megjelenésért.`,\n    allPlaces: \"Minden szolgáltató\",\n    chip: \"Legjobbra értékeltek\",\n    rank: (n) => `${n}.`,"
+    },
+    "lib/guides.ts@GUIDE_TEXT": {
+      "en": "    hubTitle: \"Guides for pet owners | Pawenn\",\n    hubH1: \"Guides for pet owners\",\n    hubIntro: \"Rules, deadlines and prices that pet owners ask about - each fact with its official source.\",\n    sources: \"Sources\",\n    updated: \"Updated\",\n    related: \"Good to know\",\n    home: \"Home\",\n    priceLine: (median, range, places) => `average ${median}, ${range} (${places} ${places === 1 ? \"place\" : \"places\"})`,\n    pricesLink: \"All prices\",\n    nav: \"Guides\",",
+      "es": "    hubTitle: \"Guías para dueños de mascotas | Pawenn\",\n    hubH1: \"Guías para dueños de mascotas\",\n    hubIntro: \"Normas, plazos y precios sobre los que preguntan los dueños de mascotas: cada dato con su fuente oficial.\",\n    sources: \"Fuentes\",\n    updated: \"Actualizado\",\n    related: \"Conviene saber\",\n    home: \"Inicio\",\n    priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? \"negocio\" : \"negocios\"})`,\n    pricesLink: \"Todos los precios\",\n    nav: \"Guías\",",
+      "value": "    hubTitle: \"Útmutatók gazdiknak | Pawenn\",\n    hubH1: \"Útmutatók gazdiknak\",\n    hubIntro: \"Szabályok, határidők és árak, amelyekről a gazdik kérdeznek: minden adat hivatalos forrásból.\",\n    sources: \"Források\",\n    updated: \"Frissítve\",\n    related: \"Érdemes tudni\",\n    home: \"Főoldal\",\n    priceLine: (median, range, places) => `átlag ${median}, ${range} (${places} hely)`,\n    pricesLink: \"Minden ár\",\n    nav: \"Útmutatók\","
+    }
+  }
+}
