@@ -1,0 +1,122 @@
+{
+  "slug": "petsmart-grooming-colonnade-phoenix",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetSmart+Grooming/data=!4m7!3m6!1s0x872b0dc4c76e0b29:0x8cc09c83d6079bbe!8m2!3d33.5078677!4d-112.0404176!16s%2Fg%2F11swn51khg!19sChIJKQtux8QNK4cRvpsH1oOcwIw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-17",
+  "period_to": "2026-10-17",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-17",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed experiences with anxious pets"
+      },
+      "text": {
+        "en": "Feedback on animal handling at the Colonnade salon is divided. While one client praised the care given during a dog's bath and another enjoyed volunteering with the kittens in-store, two long-time dachshund owners expressed disappointment over how their anxious or challenging dogs were received during recent grooming visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Praise for Karla alongside service complaints"
+      },
+      "text": {
+        "en": "Opinions on the salon team vary across recent visits on East Camelback Road. One dog owner warmly recommended stylist Karla for her work, whereas two six-year customers reported dissatisfaction, including an encounter with a staff member described as rude when checking in a nervous dog."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Satisfactory baths and booking frustrations"
+      },
+      "text": {
+        "en": "Visitors report contrasting outcomes at this Phoenix location. One reviewer was delighted with their dog's bath and haircut and another found the branch decent overall, but a long-term client was unhappy with their female dachshund's second grooming visit and another noted a scheduling mix-up."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Which stylist is recommended at PetSmart Grooming Colonnade?"
+      },
+      "a": {
+        "en": "One recent reviewer specifically recommended groomer Karla for a thorough bath and haircut."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the Colonnade grooming salon accept walk-in services?"
+      },
+      "a": {
+        "en": "Yes, walk-in nail trims and pawdicure treatments are offered alongside scheduled full-service baths and haircuts."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Have clients reported issues with appointment scheduling?"
+      },
+      "a": {
+        "en": "Yes, a long-time customer mentioned that an appointment was scheduled incorrectly and noted friction at check-in with an anxious dog."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "place": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
