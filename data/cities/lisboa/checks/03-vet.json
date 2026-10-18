@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "vetparque",
+    "consultorio-veterinario-encarnacao-olivais",
+    "clinica-veterinaria-de-arroios",
+    "hospital-veterinario-de-sao-bento",
+    "anicura-vasco-da-gama-hospital-veterinario",
+    "vetluz-hospital-veterinario",
+    "hospital-do-gato",
+    "anicura-arco-do-cego-hospital-veterinario",
+    "lisbon-vet-specialists",
+    "veterinario-de-familia"
+  ],
+  "hash": "545589648b85c4413f700df97f7297c647d51b4e98172a03b0a5e4f7b8aecef7",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T11:24:00.781Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-18T11:29:53.152Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
