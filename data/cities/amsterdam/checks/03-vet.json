@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "dierenkliniek-amsterdam-frederik-hendrikstraat",
+    "dierenkliniek-europaplein",
+    "dierenkliniek-bokhove-en-bouman",
+    "dierenkliniek-buitenveldert",
+    "sterkliniek-dierenartsen-elpermeer-amsterdam",
+    "dierenkliniek-het-hart-van-zuid",
+    "dierenkliniek-dockland",
+    "dierenartsenpraktijk-polanen",
+    "dierenkliniek-ijhavens",
+    "cira-vet-service"
+  ],
+  "hash": "2efaa1a564e324e674633bfa9f4eddc61ea127280de948ce083e3f6c63b881cc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T09:20:14.193Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-18T09:29:11.961Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
