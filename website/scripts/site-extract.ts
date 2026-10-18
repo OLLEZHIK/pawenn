@@ -207,12 +207,13 @@ const LEGAL_PAGE = /(impressum|datenschutz|privacy|cookie|agb|terms|nutzungsbedi
 type Match = RegExp | ((line: string) => boolean);
 const matches = (m: Match, line: string) => (typeof m === "function" ? m(line) : m.test(line));
 
+const HU_PRICE = /(^|[^\p{L}])(árak?|árlista|díjszabás|ára|árai)(?![\p{L}])/iu;
 const KEYWORDS: Record<"hours" | "emergency" | "languages" | "price" | "homeVisit", Match> = {
   // "Sprechzeiten" alone is a heading, not a quote of the hours
   hours: (l) => HOURS_LINE.test(l) || (HOURS_WORDS.test(l) && (TIME_ANY.test(l) || HOURS_NO_TIME.test(l))),
   emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|urgencias?|guardia|24\s?horas|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency|spoed|spoedeisend\p{L}*|urg[eê]ncia|p[aä]ivystys|[uü]gyelet|legevakt|d[oø]gn[aå]pen|akuttvakt|救急|夜間診療|24時間)/iu,
   languages: (l) => LANGUAGE_NAME.test(l) && SPEAK_WORDS.test(l) && !/cookie|datenschutz|privacy|impressum/i.test(l),
-  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b|kr\b|nok\b|¥|円|jpy\b|huf\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b|kr\b|nok\b|円|jpy\b|huf\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?|prijs|prijzen|tarief|tarieven|pre[cç]os?|hinta|hinnasto|hinnat|[aá]rak?|[aá]rlista|prisliste|priser?)\b|料金|価格|値段/i,
+  price: (l) => /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b|kr\b|nok\b|¥|円|jpy\b|huf\b)\s?\d|\d\s?(ft\b|forint)|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b|kr\b|nok\b|円|jpy\b|huf\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?|prijs|prijzen|tarief|tarieven|pre[cç]os?|hinta|hinnasto|hinnat|prisliste|priser?)\b|料金|価格|値段/i.test(l) || HU_PRICE.test(l),
   homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|visitas? a domicilio|atenci[oó]n a domicilio|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy|huisbezoek\w*|aan huis|visitas? ao domic[ií]lio|ao domic[ií]lio|kotik[aä]yn\w*|h[aá]zhoz|kisz[aá]ll[aá]s|hjemmebes[oø]k|往診)/i,
 };
 
@@ -338,7 +339,13 @@ function subpages(base: string, links: { href: string | null; label: string }[])
       continue;
     }
     if (u.hostname.replace(/^www\./, "") !== host || /\.(pdf|jpe?g|png|zip)$/i.test(u.pathname)) continue;
-    const hay = `${decodeURIComponent(u.pathname)} ${l.label}`;
+    let pathDecoded = u.pathname;
+    try {
+      pathDecoded = decodeURIComponent(u.pathname);
+    } catch {
+      /* not UTF-8 percent-encoding: keep as is */
+    }
+    const hay = `${pathDecoded} ${l.label}`;
     const kind = LINKS.find(([, re]) => re.test(hay))?.[0];
     const url = u.toString().split("#")[0];
     if (kind && url !== base && !found.some((f) => f.kind === kind || f.url === url)) found.push({ kind, url });
@@ -384,10 +391,10 @@ function phoneCheck(csvPhone: string, tels: string[], text: string): string {
 // Price lines: "Baden & Föhnen ab 45 €", "Kastration Kater | 120,00 EUR" (a
 // table row is one line). The service text and the amount as the page writes
 // them; which price code it is, the agent decides.
-const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf)";
+const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf|ft|forint)";
 const AMOUNT = "(\\d{1,3}(?:[ .]\\d{3})*(?:[.,]\\d{1,2})?|\\d+)(?:,-|,–)?";
 const PRICE_LINE = new RegExp(`(?:${CUR}\\s?${AMOUNT}|${AMOUNT}\\s?${CUR})`, "iu");
-const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF" };
+const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF", ft: "HUF", forint: "HUF" };
 
 function priceRows(pages: { url: string; text: string }[]) {
   const out: { service: string; amount: number; currency: string; quote: string; url: string }[] = [];

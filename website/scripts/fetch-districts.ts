@@ -129,7 +129,9 @@ async function main() {
   const features = [];
   for (const d of districts) {
     // "Bratislava-Staré Mesto" style names -> "Staré Mesto"
-    const osmName = (d.tags["name"] ?? "").replace(/^Bratislava-/, "").trim();
+    let osmName = (d.tags["name"] ?? "").replace(/^Bratislava-/, "").trim();
+    // names in a non-Latin script (Tokyo wards) give an empty slug: take the English OSM name
+    if (!slugify(osmName) && d.tags["name:en"]) osmName = d.tags["name:en"].trim();
     const name = renames.get(slugify(osmName)) ?? osmName;
     const url = `https://polygons.openstreetmap.fr/get_geojson.py?id=${d.id}&params=0`;
     const geom = await getJson<MultiPolygon | { type: "GeometryCollection"; geometries: MultiPolygon[] }>(url);
