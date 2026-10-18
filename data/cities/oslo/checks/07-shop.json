@@ -1,0 +1,49 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "dogman-and-friends-skoyen-oslo",
+    "dogman-and-friends-grunerlokka-oslo",
+    "dogman-and-friends-st-hanshaugen-oslo",
+    "dogman-and-friends-majorstuen-oslo",
+    "dogman-and-friends-frogner-oslo",
+    "peludo-dyrebutikk",
+    "buddy-tveita-oslo",
+    "buddy-cc-vest-oslo",
+    "dyrego-manglerud-oslo"
+  ],
+  "hash": "c820f8cabde5b1d560893a95ef9eb8b4482c9344311ae0f5ad40559efb125853",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T14:13:24.273Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-18T18:17:37.673Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-18T18:28:12.611Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-18T18:33:02.119Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T18:35:39.245Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-18T18:36:18.751Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
