@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "kattenkliniek-sarphatipark",
+    "vetdent",
+    "stadion-dierenkliniek",
+    "dierenkliniek-westlandgracht",
+    "dierenkliniek-ijburglaan",
+    "dierenkliniek-rivierenbuurt",
+    "dierenkliniek-de-wetering",
+    "town-country-veterinary-care",
+    "heukels-orthomanueel-dierenarts",
+    "dierendokters-amsterdam"
+  ],
+  "hash": "4a30b832505ba5d126e3dd9e14c55eb91b1c4249d4f126e2ef944764cb56013d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T09:25:24.567Z",
+      "result": "FAIL",
+      "listed": 102
+    },
+    {
+      "at": "2026-10-18T09:56:00.676Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
