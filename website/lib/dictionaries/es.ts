@@ -373,7 +373,7 @@ export const es: Dictionary = {
     closedNow: "Cerrado ahora",
     closedDay: "Cerrado",
     allDay: "Abierto 24 horas",
-    sections: { label: "Secciones de esta página", contact: "Contacto", prices: "Precios", about: "Sobre el lugar", reviews: "Opiniones", location: "Ubicación" },
+    sections: { label: "Secciones de esta página", contact: "Contacto", prices: "Precios", about: "Info", reviews: "Opiniones", location: "Ubicación" },
     showMore: "Mostrar más",
     showLess: "Mostrar menos",
     byAppointment: "Con cita previa",
