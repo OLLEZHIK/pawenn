@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export interface SectionLink {
   id: string;
@@ -14,6 +14,7 @@ export interface SectionLink {
  *  read is marked. */
 export function PlaceSectionNav({ items, label }: { items: SectionLink[]; label: string }) {
   const [active, setActive] = useState<string | null>(null);
+  const listRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
     const targets = items.map((i) => document.getElementById(i.id)).filter((e): e is HTMLElement => e !== null);
@@ -30,15 +31,25 @@ export function PlaceSectionNav({ items, label }: { items: SectionLink[]; label:
     return () => observer.disconnect();
   }, [items]);
 
+  // Where the row still overflows (a narrow phone, a long label), keep the
+  // section being read in view.
+  useEffect(() => {
+    const list = listRef.current;
+    const link = active ? list?.querySelector<HTMLElement>(`[href="#${active}"]`) : null;
+    if (list && link && list.scrollWidth > list.clientWidth) {
+      list.scrollTo({ left: link.offsetLeft - (list.clientWidth - link.offsetWidth) / 2, behavior: "smooth" });
+    }
+  }, [active]);
+
   return (
     <nav aria-label={label} className="sticky top-[var(--header-h)] z-30 border-b border-line bg-background/95 backdrop-blur">
-      <ul className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 py-2 [scrollbar-width:none]">
+      <ul ref={listRef} className="mx-auto flex max-w-7xl justify-between gap-0.5 overflow-x-auto px-2 py-2 [scrollbar-width:none] sm:justify-start sm:gap-1 sm:px-4">
         {items.map((item) => (
-          <li key={item.id} className={`shrink-0 ${item.mobileOnly ? "lg:hidden" : ""}`}>
+          <li key={item.id} className={`min-w-0 shrink-0 ${item.mobileOnly ? "lg:hidden" : ""}`}>
             <a
               href={`#${item.id}`}
               aria-current={active === item.id ? "location" : undefined}
-              className={`inline-flex min-h-10 items-center rounded-[var(--radius-pill)] px-3.5 text-sm font-semibold transition ${
+              className={`inline-flex min-h-10 items-center rounded-[var(--radius-pill)] px-1.5 text-[13px] font-semibold whitespace-nowrap transition min-[400px]:px-2.5 min-[400px]:text-sm sm:px-3.5 ${
                 active === item.id ? "bg-ink text-white" : "text-foreground/70 hover:bg-surface-sunken hover:text-foreground"
               }`}
             >
