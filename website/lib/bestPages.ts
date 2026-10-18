@@ -11,7 +11,7 @@ import type { Locale } from "./locales";
 // URL: /<lang>/<category>/<city>/<best>/ and
 //      /<lang>/<category>/<city>/<district>/<best>/
 
-export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori", es: "mejores", nl: "beste", fi: "parhaat", hu: "legjobb", ja: "osusume" };
+export const BEST_SEGMENT: Record<Locale, string> = { en: "best", sk: "najlepsie", pl: "najlepsze", cs: "nejlepsi", de: "beste", fr: "meilleurs", it: "migliori", es: "mejores", pt: "melhores", no: "beste", nl: "beste", fi: "parhaat", hu: "legjobb", ja: "osusume" };
 
 /** A place counts with at least this many Google ratings… */
 export const MIN_RATINGS = 10;
@@ -116,6 +116,22 @@ const BEST_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Los mejores adiestradores caninos",
     PET_SHOP: "Las mejores tiendas de mascotas",
     PET_SITTING: "Los mejores cuidadores de perros",
+  },
+  pt: {
+    GROOMING: "Os melhores salões de banhos e tosquias",
+    VET_CLINIC: "Os melhores veterinários",
+    PET_HOTEL: "Os melhores hotéis caninos",
+    DOG_TRAINING: "Os melhores treinadores de cães",
+    PET_SHOP: "As melhores lojas de animais",
+    PET_SITTING: "Os melhores serviços de pet sitting",
+  },
+  no: {
+    GROOMING: "Beste hundefrisører",
+    VET_CLINIC: "Beste veterinærer",
+    PET_HOTEL: "Beste dyrehotell",
+    DOG_TRAINING: "Beste hundekurs og trenere",
+    PET_SHOP: "Beste dyrebutikker",
+    PET_SITTING: "Beste hundepassere og luftere",
   },
   nl: {
     GROOMING: "Beste trimsalons",
@@ -310,6 +326,40 @@ export const BEST_TEXT: Record<
     allPlaces: "Todos los negocios",
     chip: "Los más valorados",
     rank: (n) => `${n}º`,
+  },
+  pt: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `Os ${n} espaços com melhor classificação ${where}, com base na nota do Google e no número de avaliações, e o que os clientes mais elogiam.`,
+    lead: (n) =>
+      `Os ${n} espaços com melhor classificação no Google, ponderados pelo número de avaliações. Em cada um: o que os clientes mais elogiam, a partir do nosso resumo das avaliações recentes.`,
+    praised: "O que os clientes mais elogiam",
+    mention: "Alguns referem",
+    reviewsSummarised: (n) => `a partir de ${n} ${n === 1 ? "avaliação recente" : "avaliações recentes"}`,
+    howTitle: "Como elaborámos a classificação",
+    how: (min, date) =>
+      `Pela classificação no Google, ponderada pelo número de avaliações: um 4,9 com 15 avaliações fica abaixo de um 4,8 com 400. Apenas contam espaços com pelo menos ${min} avaliações. Avaliações verificadas a ${date}. Nenhum espaço paga para figurar nesta lista.`,
+    allPlaces: "Todos os espaços",
+    chip: "Melhor classificados",
+    rank: (n) => `${n}.º`,
+  },
+  no: {
+    h1: (name, where) => `${name} ${where}`,
+    metaTitle: (name, where, n, year) => [`${name} ${where}: topp ${n} (${year}) | Pawenn`, `${name} ${where}: topp ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],
+    metaDescription: (n, where) =>
+      `De ${n} best vurderte stedene ${where}, rangert etter Google-vurdering og antall anmeldelser, og hva kundene roser mest.`,
+    lead: (n) =>
+      `De ${n} stedene med de beste vurderingene på Google, vektet etter hvor mange som har vurdert dem. For hvert sted: hva kundene roser mest, basert på vår oppsummering av ferske anmeldelser.`,
+    praised: "Hva kundene roser mest",
+    mention: "Noen nevner",
+    reviewsSummarised: (n) => `basert på ${n} ferske ${n === 1 ? "anmeldelse" : "anmeldelser"}`,
+    howTitle: "Slik rangerte vi",
+    how: (min, date) =>
+      `Etter Google-vurdering, vektet etter antall anmeldelser: 4,9 fra 15 personer rangeres under 4,8 fra 400. Kun steder med minst ${min} anmeldelser. Vurderinger sjekket ${date}. Ingen betaler for å stå på denne listen.`,
+    allPlaces: "Alle steder",
+    chip: "Best vurdert",
+    rank: (n) => `Nr. ${n}`,
   },
   nl: {
     h1: (name, where) => `${name} ${where}`,

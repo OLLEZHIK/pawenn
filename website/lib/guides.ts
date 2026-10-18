@@ -28,7 +28,7 @@ import type { BusinessCategory } from "@prisma/client";
 import type { Locale } from "./i18n";
 import { plural } from "./locales";
 
-export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide", es: "guias", nl: "gidsen", fi: "oppaat", hu: "utmutatok", ja: "gaido" };
+export const GUIDE_SEGMENT: Record<Locale, string> = { en: "guides", sk: "poradna", pl: "poradnik", cs: "poradna", de: "ratgeber", fr: "guides", it: "guide", es: "guias", pt: "guias", no: "guider", nl: "gidsen", fi: "oppaat", hu: "utmutatok", ja: "gaido" };
 
 export const GUIDE_TEXT: Record<
   Locale,
@@ -80,6 +80,30 @@ export const GUIDE_TEXT: Record<
     priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? "negocio" : "negocios"})`,
     pricesLink: "Todos los precios",
     nav: "Guías",
+  },
+  pt: {
+    hubTitle: "Guias para donos de animais | Pawenn",
+    hubH1: "Guias para donos de animais",
+    hubIntro: "Regras, prazos e preços sobre os quais os donos de animais perguntam: cada facto com a sua fonte oficial.",
+    sources: "Fontes",
+    updated: "Atualizado",
+    related: "Informações úteis",
+    home: "Início",
+    priceLine: (median, range, places) => `média ${median}, ${range} (${places} ${places === 1 ? "espaço" : "espaços"})`,
+    pricesLink: "Todos os preços",
+    nav: "Guias",
+  },
+  no: {
+    hubTitle: "Guider for kjæledyreiere | Pawenn",
+    hubH1: "Guider for kjæledyreiere",
+    hubIntro: "Regler, frister og priser som kjæledyreiere lurer på – hvert faktum med offisiell kilde.",
+    sources: "Kilder",
+    updated: "Oppdatert",
+    related: "Kjekt å vite",
+    home: "Hjem",
+    priceLine: (median, range, places) => `snitt ${median}, ${range} (${places} ${places === 1 ? "sted" : "steder"})`,
+    pricesLink: "Alle priser",
+    nav: "Guider",
   },
   nl: {
     hubTitle: "Gidsen voor huisdiereigenaren | Pawenn",

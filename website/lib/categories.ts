@@ -129,6 +129,22 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "tienda-de-mascotas",
     PET_SITTING: "cuidador-de-perros",
   },
+  pt: {
+    GROOMING: "banhos-e-tosquias",
+    VET_CLINIC: "veterinario",
+    PET_HOTEL: "hotel-canino",
+    DOG_TRAINING: "treino-canino",
+    PET_SHOP: "loja-de-animais",
+    PET_SITTING: "pet-sitting",
+  },
+  no: {
+    GROOMING: "hundefrisor",
+    VET_CLINIC: "veterinaer",
+    PET_HOTEL: "dyrehotell",
+    DOG_TRAINING: "hundekurs",
+    PET_SHOP: "dyrebutikk",
+    PET_SITTING: "dyrepass",
+  },
   nl: {
     GROOMING: "trimsalon",
     VET_CLINIC: "dierenarts",
@@ -221,6 +237,22 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de mascotas",
     PET_SITTING: "Cuidadores de perros",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias",
+    VET_CLINIC: "Veterinários",
+    PET_HOTEL: "Hotéis caninos",
+    DOG_TRAINING: "Treino canino",
+    PET_SHOP: "Lojas de animais",
+    PET_SITTING: "Pet sitting e passeadores",
+  },
+  no: {
+    GROOMING: "Hundefrisører",
+    VET_CLINIC: "Veterinærer",
+    PET_HOTEL: "Dyrehotell",
+    DOG_TRAINING: "Hundekurs",
+    PET_SHOP: "Dyrebutikker",
+    PET_SITTING: "Dyrepassere",
+  },
   nl: {
     GROOMING: "Trimsalons",
     VET_CLINIC: "Dierenartsen",
@@ -312,6 +344,22 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "adiestrador canino",
     PET_SHOP: "tienda de mascotas",
     PET_SITTING: "cuidador de perros",
+  },
+  pt: {
+    GROOMING: "salão de banhos e tosquias",
+    VET_CLINIC: "clínica veterinária",
+    PET_HOTEL: "hotel canino",
+    DOG_TRAINING: "treinador de cães",
+    PET_SHOP: "loja de animais",
+    PET_SITTING: "petsitter",
+  },
+  no: {
+    GROOMING: "hundefrisør",
+    VET_CLINIC: "dyreklinikk",
+    PET_HOTEL: "dyrehotell",
+    DOG_TRAINING: "hundetrener",
+    PET_SHOP: "dyrebutikk",
+    PET_SITTING: "dyrepasser",
   },
   nl: {
     GROOMING: "trimsalon",
@@ -414,6 +462,22 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "adiestradores y escuelas caninas",
     PET_SHOP: "tiendas de mascotas",
     PET_SITTING: "cuidadores de perros",
+  },
+  pt: {
+    GROOMING: "salões de banhos e tosquias",
+    VET_CLINIC: "veterinários e clínicas veterinárias",
+    PET_HOTEL: "hotéis caninos e creches",
+    DOG_TRAINING: "treinadores e escolas de treino canino",
+    PET_SHOP: "lojas de animais",
+    PET_SITTING: "petsitters e passeadores de cães",
+  },
+  no: {
+    GROOMING: "hundefrisører",
+    VET_CLINIC: "veterinærer og dyreklinikker",
+    PET_HOTEL: "dyrehotell og pensjonater",
+    DOG_TRAINING: "hundetrenere og hundeskoler",
+    PET_SHOP: "dyrebutikker",
+    PET_SITTING: "dyrepassere og hundeluftere",
   },
   nl: {
     GROOMING: "trimsalons",
@@ -519,6 +583,22 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de animales y productos para mascotas",
     PET_SITTING: "Cuidadores de perros y paseadores",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias e cuidados para cães",
+    VET_CLINIC: "Veterinários e clínicas veterinárias",
+    PET_HOTEL: "Hotéis caninos e creches para cães",
+    DOG_TRAINING: "Treino canino e escolas para cães",
+    PET_SHOP: "Lojas de animais e artigos para animais",
+    PET_SITTING: "Pet sitting e passeadores de cães",
+  },
+  no: {
+    GROOMING: "Hundefrisør og hundeklipp",
+    VET_CLINIC: "Veterinærer og dyreklinikker",
+    PET_HOTEL: "Hundehotell og kattehotell",
+    DOG_TRAINING: "Hundekurs og hundetrening",
+    PET_SHOP: "Dyrebutikker og dyreutstyr",
+    PET_SITTING: "Hundepass og hundelufting",
+  },
   nl: {
     GROOMING: "Trimsalons en honden trimmen",
     VET_CLINIC: "Dierenartsen en dierenklinieken",
@@ -622,6 +702,22 @@ const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de animales",
     PET_SITTING: "Cuidador de perros",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias",
+    VET_CLINIC: "Preços veterinário",
+    PET_HOTEL: "Hotel canino",
+    DOG_TRAINING: "Treino canino",
+    PET_SHOP: "Lojas de animais",
+    PET_SITTING: "Pet sitting",
+  },
+  no: {
+    GROOMING: "Hundefrisør",
+    VET_CLINIC: "Veterinærpriser",
+    PET_HOTEL: "Hundehotell",
+    DOG_TRAINING: "Hundekurs",
+    PET_SHOP: "Dyrebutikker",
+    PET_SITTING: "Hundepass",
+  },
   nl: {
     GROOMING: "Trimsalon",
     VET_CLINIC: "Dierenarts",
@@ -720,6 +816,22 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Clases para cachorros, obediencia básica y conducta",
     PET_SHOP: "Comida, juguetes y accesorios de cada día",
     PET_SITTING: "Paseos, visitas y cuidado en casa",
+  },
+  pt: {
+    GROOMING: "Banhos, tosquias, stripping e corte de unhas",
+    VET_CLINIC: "Consultas, vacinas e urgências",
+    PET_HOTEL: "Uma estadia segura enquanto estiver fora",
+    DOG_TRAINING: "Aulas para cachorros, obediência básica e comportamento",
+    PET_SHOP: "Alimentação, brinquedos e artigos para o dia a dia",
+    PET_SITTING: "Passeios, visitas e acompanhamento ao domicílio",
+  },
+  no: {
+    GROOMING: "Vask, klipp, napping og klostell",
+    VET_CLINIC: "Konsultasjoner, vaksiner og akuttvakt",
+    PET_HOTEL: "Et trygt opphold mens du er bortreist",
+    DOG_TRAINING: "Valpekurs, hverdagslydighet og atferd",
+    PET_SHOP: "Fôr, leker og daglig utstyr",
+    PET_SITTING: "Turer, hjemmebesøk og døgnpass",
   },
   nl: {
     GROOMING: "Wassen, knippen, plukken en nagelverzorging",
@@ -849,6 +961,22 @@ const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: 
     PET_SHOP: { term: "tienda de mascotas", word: /^(tienda|pet|zoo)/ },
     PET_SITTING: { term: "cuidador de perros", word: /^(cuidador|paseador|dog|pet)/ },
   },
+  pt: {
+    VET_CLINIC: { term: "veterinário", word: /^(veterinári|veterinari|clínica|clinica|centro|hospital)/ },
+    GROOMING: { term: "banhos e tosquias", word: /^(banhos|tosquia|grooming|salão|salao|estética|estetica)/ },
+    PET_HOTEL: { term: "hotel canino", word: /^(hotel|creche|quinta|residencia|residência)/ },
+    DOG_TRAINING: { term: "treino canino", word: /^(trein|escola|club|centro|educador)/ },
+    PET_SHOP: { term: "loja de animais", word: /^(loja|pet|zoo|boutique)/ },
+    PET_SITTING: { term: "pet sitting", word: /^(pet|cuidador|passeador|dog)/ },
+  },
+  no: {
+    VET_CLINIC: { term: "veterinær", word: /^(veterin|dyreklinikk|dyresykehus|dyrehospital)/ },
+    GROOMING: { term: "hundefrisør", word: /^(hundefris|hundeklipp|groom|pelsstell)/ },
+    PET_HOTEL: { term: "dyrehotell", word: /^(dyrehotell|hundehotell|kattehotell|pensjonat|kennel)/ },
+    DOG_TRAINING: { term: "hundekurs", word: /^(hundekurs|hundetren|hundeskole|dressur)/ },
+    PET_SHOP: { term: "dyrebutikk", word: /^(dyrebutikk|zoobutikk|zoo|pet)/ },
+    PET_SITTING: { term: "hundepasser", word: /^(hundepass|dyrepass|hundeluft|petsit)/ },
+  },
   nl: {
     VET_CLINIC: { term: "dierenarts", word: /^(dierenarts|dierenkliniek|dierenartsenpraktijk|dierenziekenhuis)/ },
     GROOMING: { term: "trimsalon", word: /^(trimsalon|hondentrimsalon|katten[\s-]?trimsalon|trimmerij)/ },
@@ -912,7 +1040,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb", fr: "etablissement", it: "struttura", es: "centro", nl: "bedrijf", fi: "paikka", hu: "hely", ja: "shisetsu" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb", fr: "etablissement", it: "struttura", es: "centro", pt: "centro", no: "bedrift", nl: "bedrijf", fi: "paikka", hu: "hely", ja: "shisetsu" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -936,7 +1064,7 @@ export function categoryHubPath(locale: Locale, category: BusinessCategory): str
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt", fr: "ville", it: "citta", es: "ciudad", nl: "stad", fi: "kaupunki", hu: "varos", ja: "toshi" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt", fr: "ville", it: "citta", es: "ciudad", pt: "cidade", no: "by", nl: "stad", fi: "kaupunki", hu: "varos", ja: "toshi" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;
