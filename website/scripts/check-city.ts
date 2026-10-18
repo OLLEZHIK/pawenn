@@ -279,16 +279,16 @@ if (templated.length) {
 // An error for new data (chunk files, observed_at from EVIDENCE_FROM), a
 // warning for older rows until their texts are rewritten.
 const PROMO =
-  /\b(best|finest|top[- ]rated|leading|renowned|famous|professional|high[- ]quality|affordable|modern|contemporary|state[- ]of[- ]the[- ]art|cutting[- ]edge|experienced|premier|exceptional|outstanding|excellent|world[- ]class)\b|najlepsz|renomowan|profesjonaln|wysokiej jakości|przystępn\w* cen|nowoczesn|doświadczon|wyjątkow|doskonał|najlepš|profesionáln|kvalitn|dostupn\w* cen|modern[ýáé]|skúsen|výnimočn|vynikajúc|\b(?:migliore|rinomat\w*|alta qualit[àa]|moderno|moderna|esperto|eccellen\w*|eccezional\w*|all'avanguardia|punto di riferimento|leader)\b|\b(?:meilleur\w*|renomm\w*|professionnel\w*|haute qualit[ée]|moderne|exp[ée]riment[ée]\w*|exceptionnel\w*|excellen\w*|de pointe|incontournable|r[ée]f[ée]rence)\b|\b(?:mejor(?:es)?|renombrad\w*|profesional(?:es)?|alta calidad|asequible\w*|moderno|moderna|experimentad\w*|excepcional\w*|excelen\w*|vanguardia|referente)\b/i;
+  /\b(best|finest|top[- ]rated|leading|renowned|famous|professional|high[- ]quality|affordable|modern|contemporary|state[- ]of[- ]the[- ]art|cutting[- ]edge|experienced|premier|exceptional|outstanding|excellent|world[- ]class)\b|najlepsz|renomowan|profesjonaln|wysokiej jakości|przystępn\w* cen|nowoczesn|doświadczon|wyjątkow|doskonał|najlepš|profesionáln|kvalitn|dostupn\w* cen|modern[ýáé]|skúsen|výnimočn|vynikajúc|\b(?:migliore|rinomat\w*|alta qualit[àa]|moderno|moderna|esperto|eccellen\w*|eccezional\w*|all'avanguardia|punto di riferimento|leader)\b|\b(?:meilleur\w*|renomm\w*|professionnel\w*|haute qualit[ée]|moderne|exp[ée]riment[ée]\w*|exceptionnel\w*|excellen\w*|de pointe|incontournable|r[ée]f[ée]rence)\b|\b(?:mejor(?:es)?|renombrad\w*|profesional(?:es)?|alta calidad|asequible\w*|moderno|moderna|experimentad\w*|excepcional\w*|excelen\w*|vanguardia|referente)\b|\b(?:beste|professioneel|professionele|ervaren|moderne?|uitstekend\w*|topkwaliteit|hoogwaardig\w*|betaalbaar\w*|vooraanstaand\w*)\b|\b(?:melhor(?:es)?|profissional|profissionais|experiente|moderno|moderna|excelente|qualidade superior|acess[ií]vel|refer[eê]ncia)\b|(?:\bparas\b|\bparhaa\w*|ammattitaitoinen|ammattitaitoiset|kokenut|kokeneet|moderni\w*|erinomai\w*|laadukas|edullinen|edulliset)|\b(?:legjobb\w*|profi|tapasztalt|modern|kiv[aá]l[oó]\w*|magas sz[ií]nvonal\w*|megfizethet[oő]\w*)\b|\b(?:profesjonell\w*|erfaren\w*|moderne|utmerket|h[oø]y kvalitet|rimelig\w*|f[oø]rende)\b|最高|最良|一流|プロの|経験豊富|最新|高品質|格安|優れた|トップクラス/i;
 const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
   {
     what: "speaks English, but languages_spoken has no en",
-    says: /\benglish\b|angielsk|po angielsku|anglick|po anglicky|\b(?:inglese|anglais|anglophone|ingl[ée]s)\b/i,
+    says: /\benglish\b|angielsk|po angielsku|anglick|po anglicky|\b(?:inglese|anglais|anglophone|ingl[ée]s|engels\w*|ingl[eê]s|engelsk\w*)\b|englanni\w*|angolul|angol nyelv\w*|英語/i,
     ok: (r) => cityMetaLocale() === "en" || /(^|;)\s*en\s*(;|$)/.test(r.languages_spoken ?? ""),
   },
   {
     what: "open round the clock, but hours are not 24h and there is no emergency note",
-    says: /24\s*\/\s*7|round[- ]the[- ]clock|around the clock|24 hours|nonstop|non-stop|całodob|całą dobę|nepretržit|24 ore su 24|sempre aperto|\bh\s?24\b|24\s?h?\s?\/\s?24|ouvert 24|7j\s?\/\s?7|24 horas|abierto las 24/i,
+    says: /24\s*\/\s*7|round[- ]the[- ]clock|around the clock|24 hours|nonstop|non-stop|całodob|całą dobę|nepretržit|24 ore su 24|sempre aperto|\bh\s?24\b|24\s?h?\s?\/\s?24|ouvert 24|7j\s?\/\s?7|24 horas|abierto las 24|24 uur|24 horas por dia|ymp[aä]ri vuorokauden|24\s?h\s?p[aä]ivystys|[eé]jjel-nappal|d[oø]gn[aå]pent|24\s?時間/i,
     ok: (r) =>
       /24h/.test(r.opening_hours ?? "") ||
       /^yes$/i.test((r.emergency_24_7 ?? "").trim()) ||
@@ -297,7 +297,7 @@ const CLAIMS: { what: string; says: RegExp; ok: (r: Row) => boolean }[] = [
   },
   {
     what: "issues pet passports, but facts has no pet_passport",
-    says: /passport|paszport|\bpas(y|u|ov)? pre|europsk\w* pas|passaporto|passeport|pasaporte/i,
+    says: /passport|paszport|\bpas(y|u|ov)? pre|europsk\w* pas|passaporto|passeport|pasaporte|paspoort|passaporte|lemmikkipassi|[uú]tlev[eé]l|dyrepass|パスポート/i,
     ok: (r) => /pet_passport/.test(r.facts ?? ""),
   },
 ];

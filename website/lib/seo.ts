@@ -40,7 +40,7 @@ export function withPage(meta: Metadata, locale: Locale, path: string, page: num
   };
 }
 
-const OG_LOCALE: Record<Locale, string> = { en: "en_US", sk: "sk_SK", pl: "pl_PL", cs: "cs_CZ", de: "de_AT", fr: "fr_FR", it: "it_IT", es: "es_ES" };
+const OG_LOCALE: Record<Locale, string> = { en: "en_US", sk: "sk_SK", pl: "pl_PL", cs: "cs_CZ", de: "de_AT", fr: "fr_FR", it: "it_IT", es: "es_ES", nl: "nl_NL", pt: "pt_PT", fi: "fi_FI", hu: "hu_HU", no: "nb_NO", ja: "ja_JP" };
 
 /** Link preview image for a page: app/og/route.tsx draws it from these texts. */
 export function ogImageUrl(title: string, subtitle?: string, category?: string): string {

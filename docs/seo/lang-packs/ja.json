@@ -1,0 +1,1165 @@
+{
+ "inline": {
+  "lib/facts.ts#1": {
+   "key": "walk_in",
+   "en": "Walk-ins welcome",
+   "es": "Sin cita previa",
+   "value": "予約なしOK"
+  },
+  "lib/facts.ts#2": {
+   "key": "appointment_only",
+   "en": "By appointment only",
+   "es": "Solo con cita previa",
+   "value": "完全予約制"
+  },
+  "lib/facts.ts#3": {
+   "key": "online_booking",
+   "en": "Online booking",
+   "es": "Reserva online",
+   "value": "WEB予約対応"
+  },
+  "lib/facts.ts#4": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "クレジットカード対応"
+  },
+  "lib/facts.ts#5": {
+   "key": "parking",
+   "en": "Parking",
+   "es": "Aparcamiento",
+   "value": "駐車場あり"
+  },
+  "lib/facts.ts#6": {
+   "key": "cats_waiting_room",
+   "en": "Separate waiting room for cats",
+   "es": "Sala de espera separada para gatos",
+   "value": "猫専用の待合室あり"
+  },
+  "lib/facts.ts#7": {
+   "key": "pet_passport",
+   "en": "Issues EU pet passports",
+   "es": "Emite pasaporte europeo para mascotas",
+   "value": "海外渡航手続き・ペットパスポート対応"
+  },
+  "lib/facts.ts#8": {
+   "key": "pharmacy_on_site",
+   "en": "Pharmacy on site",
+   "es": "Farmacia en el centro",
+   "value": "院内調剤・院内薬局あり"
+  },
+  "lib/facts.ts#9": {
+   "key": "cat_friendly",
+   "en": "Cat Friendly Clinic certified",
+   "es": "Certificado Cat Friendly Clinic",
+   "value": "キャットフレンドリークリニック（CFC）認定"
+  },
+  "lib/facts.ts#10": {
+   "key": "cats",
+   "en": "Cats groomed too",
+   "es": "También peluquería para gatos",
+   "value": "猫のトリミングも対応"
+  },
+  "lib/facts.ts#11": {
+   "key": "all_sizes",
+   "en": "Dogs of all sizes",
+   "es": "Perros de todos los tamaños",
+   "value": "全犬種・全サイズ対応"
+  },
+  "lib/facts.ts#12": {
+   "key": "small_dogs_only",
+   "en": "Small dogs only",
+   "es": "Solo perros pequeños",
+   "value": "小型犬専門"
+  },
+  "lib/facts.ts#13": {
+   "key": "appointment_only",
+   "en": "By appointment only",
+   "es": "Solo con cita previa",
+   "value": "完全予約制"
+  },
+  "lib/facts.ts#14": {
+   "key": "online_booking",
+   "en": "Online booking",
+   "es": "Reserva online",
+   "value": "WEB予約対応"
+  },
+  "lib/facts.ts#15": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "クレジットカード対応"
+  },
+  "lib/facts.ts#16": {
+   "key": "owner_can_stay",
+   "en": "You can stay with your pet",
+   "es": "Puedes quedarte con tu mascota",
+   "value": "飼い主の立ち会い・同伴可能"
+  },
+  "lib/facts.ts#17": {
+   "key": "natural_cosmetics",
+   "en": "Natural cosmetics",
+   "es": "Cosmética natural",
+   "value": "低刺激・天然由来シャンプー使用"
+  },
+  "lib/facts.ts#18": {
+   "key": "pickup_service",
+   "en": "Pick-up and drop-off",
+   "es": "Recogida y entrega a domicilio",
+   "value": "送迎サービスあり"
+  },
+  "lib/facts.ts#19": {
+   "key": "cats",
+   "en": "Takes cats",
+   "es": "También acepta gatos",
+   "value": "猫の預かり・宿泊対応"
+  },
+  "lib/facts.ts#20": {
+   "key": "small_dogs_only",
+   "en": "Small dogs only",
+   "es": "Solo perros pequeños",
+   "value": "小型犬専門"
+  },
+  "lib/facts.ts#21": {
+   "key": "vaccination_required",
+   "en": "Vaccination record required",
+   "es": "Se exige cartilla de vacunación",
+   "value": "ワクチン接種証明書の提示が必要"
+  },
+  "lib/facts.ts#22": {
+   "key": "trial_stay",
+   "en": "Trial day or visit before the stay",
+   "es": "Día de prueba o visita antes de la estancia",
+   "value": "事前見学・お試し預かりあり"
+  },
+  "lib/facts.ts#23": {
+   "key": "outdoor_run",
+   "en": "Outdoor run",
+   "es": "Zona de recreo exterior",
+   "value": "ドッグラン・屋外プレイスペース完備"
+  },
+  "lib/facts.ts#24": {
+   "key": "supervision_24h",
+   "en": "Supervised 24 hours",
+   "es": "Vigilancia las 24 horas",
+   "value": "24時間スタッフ常駐見守り"
+  },
+  "lib/facts.ts#25": {
+   "key": "cage_free",
+   "en": "No cages or kennels",
+   "es": "Sin jaulas ni boxes",
+   "value": "ケージフリー対応"
+  },
+  "lib/facts.ts#26": {
+   "key": "medication",
+   "en": "Gives medication",
+   "es": "Administra medicación",
+   "value": "投薬対応可能"
+  },
+  "lib/facts.ts#27": {
+   "key": "photo_updates",
+   "en": "Photo or video updates",
+   "es": "Fotos o vídeos durante la estancia",
+   "value": "写真・動画による様子のご報告"
+  },
+  "lib/facts.ts#28": {
+   "key": "group_classes",
+   "en": "Group classes",
+   "es": "Clases en grupo",
+   "value": "グループレッスンあり"
+  },
+  "lib/facts.ts#29": {
+   "key": "private_lessons",
+   "en": "Private lessons",
+   "es": "Clases individuales",
+   "value": "個別マンツーマンレッスンあり"
+  },
+  "lib/facts.ts#30": {
+   "key": "puppy_classes",
+   "en": "Puppy classes",
+   "es": "Clases para cachorros",
+   "value": "パピー教室・子犬クラスあり"
+  },
+  "lib/facts.ts#31": {
+   "key": "training_ground",
+   "en": "Own training ground",
+   "es": "Campo de adiestramiento propio",
+   "value": "専用トレーニング施設・グラウンド完備"
+  },
+  "lib/facts.ts#32": {
+   "key": "home_training",
+   "en": "Training at your home",
+   "es": "Adiestramiento en tu casa",
+   "value": "出張トレーニング対応"
+  },
+  "lib/facts.ts#33": {
+   "key": "behaviour_problems",
+   "en": "Behaviour problems",
+   "es": "Problemas de conducta",
+   "value": "問題行動・噛み癖の改善相談"
+  },
+  "lib/facts.ts#34": {
+   "key": "certified_trainer",
+   "en": "Certified trainer",
+   "es": "Educadores certificados",
+   "value": "有資格トレーナー在籍"
+  },
+  "lib/facts.ts#35": {
+   "key": "online_lessons",
+   "en": "Online lessons",
+   "es": "Clases online",
+   "value": "オンライン相談・レッスン対応"
+  },
+  "lib/facts.ts#36": {
+   "key": "dog_sports",
+   "en": "Dog sports (agility, obedience)",
+   "es": "Deportes caninos (agility, obediencia)",
+   "value": "ドッグスポーツ対応（アジリティ・オビディエンス）"
+  },
+  "lib/facts.ts#37": {
+   "key": "dog_walking",
+   "en": "Dog walking",
+   "es": "Paseos de perros",
+   "value": "お散歩代行対応"
+  },
+  "lib/facts.ts#38": {
+   "key": "cat_visits",
+   "en": "Cat visits",
+   "es": "Visitas a gatos",
+   "value": "猫のお世話・ご自宅訪問"
+  },
+  "lib/facts.ts#39": {
+   "key": "home_sitting",
+   "en": "Stays at your home",
+   "es": "Cuidado en tu casa",
+   "value": "ご自宅への宿泊シッター対応"
+  },
+  "lib/facts.ts#40": {
+   "key": "boarding_at_sitter",
+   "en": "Boarding at the sitter's",
+   "es": "Alojamiento en casa del cuidador",
+   "value": "シッター宅でのホームステイ預かり"
+  },
+  "lib/facts.ts#41": {
+   "key": "insured",
+   "en": "Insured",
+   "es": "Seguro de responsabilidad civil",
+   "value": "ペットシッター賠償責任保険加入済み"
+  },
+  "lib/facts.ts#42": {
+   "key": "meet_greet",
+   "en": "Meet before booking",
+   "es": "Encuentro previo a la reserva",
+   "value": "事前打ち合わせ・面談対応"
+  },
+  "lib/facts.ts#43": {
+   "key": "medication",
+   "en": "Gives medication",
+   "es": "Administra medicación",
+   "value": "投薬対応可能"
+  },
+  "lib/facts.ts#44": {
+   "key": "photo_updates",
+   "en": "Photo or video updates",
+   "es": "Fotos o vídeos durante la estancia",
+   "value": "写真・動画による様子のご報告"
+  },
+  "lib/facts.ts#45": {
+   "key": "first_aid",
+   "en": "Pet first-aid trained",
+   "es": "Formación en primeros auxilios para mascotas",
+   "value": "ペット救急法・ファーストエイド講習修了"
+  },
+  "lib/facts.ts#46": {
+   "key": "delivery",
+   "en": "Delivery",
+   "es": "Envío a domicilio",
+   "value": "フード・用品の配達・配送対応"
+  },
+  "lib/facts.ts#47": {
+   "key": "vet_pharmacy",
+   "en": "Vet pharmacy",
+   "es": "Farmacia veterinaria",
+   "value": "動物用医薬品の取り扱いあり"
+  },
+  "lib/facts.ts#48": {
+   "key": "grooming_corner",
+   "en": "Grooming on site",
+   "es": "Peluquería en la tienda",
+   "value": "店舗内トリミングコーナー併設"
+  },
+  "lib/facts.ts#49": {
+   "key": "card_payment",
+   "en": "Card payment",
+   "es": "Pago con tarjeta",
+   "value": "クレジットカード対応"
+  },
+  "lib/facts.ts#50": {
+   "key": "parking",
+   "en": "Parking",
+   "es": "Aparcamiento",
+   "value": "駐車場あり"
+  },
+  "lib/facts.ts#51": {
+   "key": "click_collect",
+   "en": "Order online, pick up in store",
+   "es": "Compra online, recogida en tienda",
+   "value": "ネット注文・店頭受取対応"
+  },
+  "lib/facts.ts#52": {
+   "key": "raw_food",
+   "en": "Raw food (BARF)",
+   "es": "Alimentación cruda (BARF)",
+   "value": "生肉・ローフード（BARF）取扱"
+  },
+  "lib/facts.ts#53": {
+   "key": "aquarium_fish",
+   "en": "Aquarium fish",
+   "es": "Acuariofilia",
+   "value": "観賞魚・アクアリウム用品取扱"
+  },
+  "lib/facts.ts#54": {
+   "key": "exotic_supplies",
+   "en": "Supplies for exotic pets",
+   "es": "Artículos para animales exóticos",
+   "value": "エキゾチックアニマル・小動物用品取扱"
+  },
+  "lib/facts.ts#55": {
+   "key": "",
+   "en": "Do I need an appointment?",
+   "es": "¿Hace falta cita previa?",
+   "value": "予約は必要ですか？"
+  },
+  "lib/services.ts#1": {
+   "key": "full_groom",
+   "en": "Full grooming",
+   "es": "Peluquería completa",
+   "value": "シャンプー＆カット"
+  },
+  "lib/services.ts#2": {
+   "key": "seo",
+   "en": "Dog grooming",
+   "es": "Peluquería canina completa",
+   "value": "犬のトリミング（シャンプー＆カット）"
+  },
+  "lib/services.ts#3": {
+   "key": "bath_dry",
+   "en": "Bath & blow-dry",
+   "es": "Baño y secado",
+   "value": "シャンプー＆ブロー"
+  },
+  "lib/services.ts#4": {
+   "key": "seo",
+   "en": "Dog bath and blow dry",
+   "es": "Baño y secado para perro",
+   "value": "犬のシャンプー＆ブロー"
+  },
+  "lib/services.ts#5": {
+   "key": "hand_stripping",
+   "en": "Hand stripping",
+   "es": "Stripping",
+   "value": "プラッキング"
+  },
+  "lib/services.ts#6": {
+   "key": "seo",
+   "en": "Dog hand stripping",
+   "es": "Stripping para perro",
+   "value": "犬のプラッキング（ストリッピング）"
+  },
+  "lib/services.ts#7": {
+   "key": "deshedding",
+   "en": "De-shedding",
+   "es": "Deslanado",
+   "value": "レーキング（抜け毛処理）"
+  },
+  "lib/services.ts#8": {
+   "key": "seo",
+   "en": "Dog deshedding",
+   "es": "Deslanado del perro (subpelo)",
+   "value": "犬のレーキング・アンダーコート処理"
+  },
+  "lib/services.ts#9": {
+   "key": "nail_trim",
+   "en": "Nail trim",
+   "es": "Corte de uñas",
+   "value": "爪切り"
+  },
+  "lib/services.ts#10": {
+   "key": "seo",
+   "en": "Dog nail clipping",
+   "es": "Corte de uñas para perro",
+   "value": "犬の爪切り"
+  },
+  "lib/services.ts#11": {
+   "key": "cat_groom",
+   "en": "Cat grooming",
+   "es": "Peluquería felina",
+   "value": "猫のトリミング"
+  },
+  "lib/services.ts#12": {
+   "key": "seo",
+   "en": "Cat grooming",
+   "es": "Peluquería felina",
+   "value": "猫のトリミング・シャンプー"
+  },
+  "lib/services.ts#13": {
+   "key": "exam",
+   "en": "Check-up",
+   "es": "Consulta general",
+   "value": "一般診察"
+  },
+  "lib/services.ts#14": {
+   "key": "seo",
+   "en": "Vet checkup",
+   "es": "Consulta veterinaria",
+   "value": "動物病院の診察（初診・再診）"
+  },
+  "lib/services.ts#15": {
+   "key": "vaccination_dog",
+   "en": "Dog vaccination",
+   "es": "Vacunación perro",
+   "value": "犬の混合ワクチン"
+  },
+  "lib/services.ts#16": {
+   "key": "seo",
+   "en": "Dog vaccination",
+   "es": "Vacuna para el perro",
+   "value": "犬の混合ワクチン接種"
+  },
+  "lib/services.ts#17": {
+   "key": "microchip",
+   "en": "Microchip",
+   "es": "Microchip",
+   "value": "マイクロチップ装着"
+  },
+  "lib/services.ts#18": {
+   "key": "seo",
+   "en": "Dog microchipping",
+   "es": "Microchip para el perro",
+   "value": "犬のマイクロチップ装着・登録"
+  },
+  "lib/services.ts#19": {
+   "key": "neuter_cat",
+   "en": "Cat neutering (male)",
+   "es": "Castración gato",
+   "value": "猫の去勢手術（オス）"
+  },
+  "lib/services.ts#20": {
+   "key": "seo",
+   "en": "Cat neutering",
+   "es": "Castración de gato (macho)",
+   "value": "猫の去勢手術（オス）"
+  },
+  "lib/services.ts#21": {
+   "key": "spay_cat",
+   "en": "Cat spaying (female)",
+   "es": "Esterilización gata",
+   "value": "猫の避妊手術（メス）"
+  },
+  "lib/services.ts#22": {
+   "key": "seo",
+   "en": "Cat spaying",
+   "es": "Esterilización de la gata",
+   "value": "猫の避妊手術（メス）"
+  },
+  "lib/services.ts#23": {
+   "key": "spay_dog",
+   "en": "Dog spaying (female)",
+   "es": "Esterilización perra",
+   "value": "犬の避妊手術（メス）"
+  },
+  "lib/services.ts#24": {
+   "key": "seo",
+   "en": "Dog spaying",
+   "es": "Esterilización de la perra",
+   "value": "犬の避妊手術（メス）"
+  },
+  "lib/services.ts#25": {
+   "key": "dog_night",
+   "en": "Dog, per night",
+   "es": "Perro, por noche",
+   "value": "犬の宿泊（1泊）"
+  },
+  "lib/services.ts#26": {
+   "key": "seo",
+   "en": "Dog hotel per night",
+   "es": "Residencia canina por noche",
+   "value": "ペットホテル 犬の宿泊（1泊）"
+  },
+  "lib/services.ts#27": {
+   "key": "cat_night",
+   "en": "Cat, per night",
+   "es": "Gato, por noche",
+   "value": "猫の宿泊（1泊）"
+  },
+  "lib/services.ts#28": {
+   "key": "seo",
+   "en": "Cattery per night",
+   "es": "Residencia felina por noche",
+   "value": "ペットホテル 猫の宿泊（1泊）"
+  },
+  "lib/services.ts#29": {
+   "key": "daycare_day",
+   "en": "Dog daycare, per day",
+   "es": "Guardería de día",
+   "value": "犬の一時預かり（日帰り）"
+  },
+  "lib/services.ts#30": {
+   "key": "seo",
+   "en": "Dog daycare per day",
+   "es": "Guardería canina por día",
+   "value": "犬の一時預かり・デイケア（日帰り）"
+  },
+  "lib/services.ts#31": {
+   "key": "daycare_pass",
+   "en": "Daycare pass",
+   "es": "Bono guardería",
+   "value": "保育園・一時預かり回数券"
+  },
+  "lib/services.ts#32": {
+   "key": "seo",
+   "en": "Dog daycare pass",
+   "es": "Bono guardería canina",
+   "value": "犬の保育園・一時預かり回数券"
+  },
+  "lib/services.ts#33": {
+   "key": "pickup",
+   "en": "Pick-up & drop-off",
+   "es": "Taxi mascotas (traslado)",
+   "value": "送迎サービス（ペットタクシー）"
+  },
+  "lib/services.ts#34": {
+   "key": "seo",
+   "en": "Pet hotel pickup and drop off",
+   "es": "Taxi para mascotas y traslado",
+   "value": "ペットホテルの送迎・ペットタクシー"
+  },
+  "lib/services.ts#35": {
+   "key": "extra_walk",
+   "en": "Extra walk / individual care",
+   "es": "Paseo extra",
+   "value": "追加のお散歩"
+  },
+  "lib/services.ts#36": {
+   "key": "seo",
+   "en": "Extra walk at a dog hotel",
+   "es": "Paseo extra en residencia",
+   "value": "ペットホテルの追加散歩・個別対応"
+  },
+  "lib/services.ts#37": {
+   "key": "puppy_course",
+   "en": "Puppy course",
+   "es": "Curso cachorros",
+   "value": "パピー教室（子犬しつけ）"
+  },
+  "lib/services.ts#38": {
+   "key": "seo",
+   "en": "Puppy classes",
+   "es": "Curso para cachorros",
+   "value": "パピー教室・子犬のしつけコース"
+  },
+  "lib/services.ts#39": {
+   "key": "obedience_course",
+   "en": "Basic obedience course",
+   "es": "Obediencia básica",
+   "value": "基本しつけコース"
+  },
+  "lib/services.ts#40": {
+   "key": "seo",
+   "en": "Dog obedience training",
+   "es": "Curso de obediencia básica",
+   "value": "犬の基本しつけ・服従訓練コース"
+  },
+  "lib/services.ts#41": {
+   "key": "group_lesson",
+   "en": "Group lesson",
+   "es": "Clase grupal",
+   "value": "グループレッスン"
+  },
+  "lib/services.ts#42": {
+   "key": "seo",
+   "en": "Group dog training class",
+   "es": "Clase grupal para perros",
+   "value": "犬のしつけ グループレッスン"
+  },
+  "lib/services.ts#43": {
+   "key": "private_lesson",
+   "en": "Private lesson",
+   "es": "Clase individual",
+   "value": "個別プライベートレッスン"
+  },
+  "lib/services.ts#44": {
+   "key": "seo",
+   "en": "One to one dog training",
+   "es": "Clase individual de adiestramiento",
+   "value": "犬のしつけ 個別レッスン（出張対応）"
+  },
+  "lib/services.ts#45": {
+   "key": "behavior_consult",
+   "en": "Behaviour consultation",
+   "es": "Consulta etología",
+   "value": "問題行動カウンセリング"
+  },
+  "lib/services.ts#46": {
+   "key": "seo",
+   "en": "Dog behaviourist consultation",
+   "es": "Consulta de etología canina",
+   "value": "犬の問題行動・しつけカウンセリング"
+  },
+  "lib/services.ts#47": {
+   "key": "membership",
+   "en": "Club membership",
+   "es": "Cuota de socio",
+   "value": "入会金・登録料"
+  },
+  "lib/services.ts#48": {
+   "key": "seo",
+   "en": "Dog club membership",
+   "es": "Cuota de socio del club canino",
+   "value": "しつけ教室・ドッグスクール入会金"
+  },
+  "lib/services.ts#49": {
+   "key": "walk_30",
+   "en": "Dog walk, 30 min",
+   "es": "Paseo 30 min",
+   "value": "犬の散歩代行（30分）"
+  },
+  "lib/services.ts#50": {
+   "key": "seo",
+   "en": "30 minute dog walk",
+   "es": "Paseo de perro (30 minutos)",
+   "value": "犬の散歩代行（30分コース）"
+  },
+  "lib/services.ts#51": {
+   "key": "walk_60",
+   "en": "Dog walk, 60 min",
+   "es": "Paseo 1 hora",
+   "value": "犬の散歩代行（60分）"
+  },
+  "lib/services.ts#52": {
+   "key": "seo",
+   "en": "1 hour dog walk",
+   "es": "Paseo de perro (1 hora)",
+   "value": "犬の散歩代行（60分コース）"
+  },
+  "lib/services.ts#53": {
+   "key": "cat_visit",
+   "en": "Cat visit",
+   "es": "Visita a gatos",
+   "value": "キャットシッター訪問"
+  },
+  "lib/services.ts#54": {
+   "key": "seo",
+   "en": "Cat sitting visit",
+   "es": "Visita a domicilio para gatos",
+   "value": "キャットシッター自宅訪問（猫のお世話）"
+  },
+  "lib/services.ts#55": {
+   "key": "house_sitting_night",
+   "en": "Overnight at your home",
+   "es": "Cuidado en tu casa, noche",
+   "value": "自宅宿泊シッター（夜間）"
+  },
+  "lib/services.ts#56": {
+   "key": "seo",
+   "en": "Overnight dog sitting",
+   "es": "Cuidado a domicilio (noche)",
+   "value": "自宅宿泊ペットシッター（夜間・1泊）"
+  },
+  "lib/services.ts#57": {
+   "key": "boarding_night",
+   "en": "Overnight at sitter's home",
+   "es": "Alojamiento con cuidador",
+   "value": "シッター宅での預かり（1泊）"
+  },
+  "lib/services.ts#58": {
+   "key": "seo",
+   "en": "Overnight dog boarding",
+   "es": "Alojamiento con cuidador (noche)",
+   "value": "シッター宅での宿泊預かり（1泊）"
+  },
+  "lib/services.ts#59": {
+   "key": "daycare_day",
+   "en": "Day care",
+   "es": "Cuidado diurno",
+   "value": "日中のお預かり・シッター"
+  },
+  "lib/services.ts#60": {
+   "key": "seo",
+   "en": "Dog sitting per day",
+   "es": "Cuidado diurno para perros",
+   "value": "ペットシッターの日中預かり・デイケア"
+  },
+  "lib/services.ts#61": {
+   "key": "",
+   "en": "Bath, haircut and nails",
+   "es": "Baño, corte y uñas",
+   "value": "シャンプー、カット、爪切り"
+  },
+  "lib/services.ts#62": {
+   "key": "",
+   "en": "Whole procedure",
+   "es": "Procedimiento completo",
+   "value": "施術一式"
+  },
+  "lib/services.ts#63": {
+   "key": "",
+   "en": "Basic exam, no tests",
+   "es": "Consulta básica, sin pruebas",
+   "value": "基本診察（検査料を除く）"
+  },
+  "lib/services.ts#64": {
+   "key": "",
+   "en": "Combined vaccine + rabies",
+   "es": "Vacuna combinada + rabia",
+   "value": "混合ワクチン＋狂犬病予防注射"
+  },
+  "lib/services.ts#65": {
+   "key": "",
+   "en": "Chip, implanting and registration",
+   "es": "Chip, implantación y registro",
+   "value": "マイクロチップ本体、装着施術、情報登録"
+  },
+  "lib/services.ts#66": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "手術基本料＋全身麻酔"
+  },
+  "lib/services.ts#67": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "手術基本料＋全身麻酔"
+  },
+  "lib/services.ts#68": {
+   "key": "",
+   "en": "Surgery + anaesthesia",
+   "es": "Intervención + anestesia",
+   "value": "手術基本料＋全身麻酔"
+  },
+  "lib/services.ts#69": {
+   "key": "",
+   "en": "One way",
+   "es": "Solo ida",
+   "value": "片道"
+  },
+  "lib/priceSlugs.ts#1": {
+   "key": "",
+   "en": "prices",
+   "es": "precios",
+   "value": "ryokin"
+  },
+  "lib/priceSlugs.ts#2": {
+   "key": "full_groom",
+   "en": "full-grooming",
+   "es": "corte-de-pelo",
+   "value": "shampu-katto"
+  },
+  "lib/priceSlugs.ts#3": {
+   "key": "bath_dry",
+   "en": "bath-and-blow-dry",
+   "es": "bano-y-secado",
+   "value": "shampu-buro"
+  },
+  "lib/priceSlugs.ts#4": {
+   "key": "hand_stripping",
+   "en": "hand-stripping",
+   "es": "stripping",
+   "value": "purakkingu"
+  },
+  "lib/priceSlugs.ts#5": {
+   "key": "deshedding",
+   "en": "de-shedding",
+   "es": "deslanado",
+   "value": "reikingu"
+  },
+  "lib/priceSlugs.ts#6": {
+   "key": "nail_trim",
+   "en": "nail-trim",
+   "es": "corte-de-unas",
+   "value": "tsumekiri"
+  },
+  "lib/priceSlugs.ts#7": {
+   "key": "cat_groom",
+   "en": "cat-grooming",
+   "es": "peluqueria-felina",
+   "value": "neko-torimingu"
+  },
+  "lib/priceSlugs.ts#8": {
+   "key": "exam",
+   "en": "check-up",
+   "es": "consulta-veterinaria",
+   "value": "shinsatsu"
+  },
+  "lib/priceSlugs.ts#9": {
+   "key": "vaccination_dog",
+   "en": "dog-vaccination",
+   "es": "vacuna-perro",
+   "value": "inu-wakuchin"
+  },
+  "lib/priceSlugs.ts#10": {
+   "key": "microchip",
+   "en": "microchip",
+   "es": "microchip-perro",
+   "value": "maikurochippu"
+  },
+  "lib/priceSlugs.ts#11": {
+   "key": "neuter_cat",
+   "en": "cat-neutering",
+   "es": "castracion-gato",
+   "value": "neko-kyosei"
+  },
+  "lib/priceSlugs.ts#12": {
+   "key": "spay_cat",
+   "en": "cat-spaying",
+   "es": "esterilizacion-gata",
+   "value": "neko-hinin"
+  },
+  "lib/priceSlugs.ts#13": {
+   "key": "spay_dog",
+   "en": "dog-spaying",
+   "es": "esterilizacion-perra",
+   "value": "inu-hinin"
+  },
+  "lib/priceSlugs.ts#14": {
+   "key": "dog_night",
+   "en": "dog-per-night",
+   "es": "perro-noche",
+   "value": "inu-shukuhaku"
+  },
+  "lib/priceSlugs.ts#15": {
+   "key": "cat_night",
+   "en": "cat-per-night",
+   "es": "gato-noche",
+   "value": "neko-shukuhaku"
+  },
+  "lib/priceSlugs.ts#16": {
+   "key": "daycare_day",
+   "en": "dog-daycare",
+   "es": "guarderia-dia",
+   "value": "ichiji-azukari"
+  },
+  "lib/priceSlugs.ts#17": {
+   "key": "daycare_pass",
+   "en": "daycare-pass",
+   "es": "bono-guarderia",
+   "value": "hoikuen-kaisuuken"
+  },
+  "lib/priceSlugs.ts#18": {
+   "key": "pickup",
+   "en": "pick-up-and-drop-off",
+   "es": "taxi-mascotas",
+   "value": "sougei"
+  },
+  "lib/priceSlugs.ts#19": {
+   "key": "extra_walk",
+   "en": "extra-walk",
+   "es": "paseo-extra",
+   "value": "tsuika-sanpo"
+  },
+  "lib/priceSlugs.ts#20": {
+   "key": "puppy_course",
+   "en": "puppy-course",
+   "es": "curso-cachorros",
+   "value": "papi-kyoshitsu"
+  },
+  "lib/priceSlugs.ts#21": {
+   "key": "obedience_course",
+   "en": "obedience-course",
+   "es": "curso-obediencia-basica",
+   "value": "kihon-shitsuke"
+  },
+  "lib/priceSlugs.ts#22": {
+   "key": "group_lesson",
+   "en": "group-lesson",
+   "es": "clase-grupal",
+   "value": "gurupu-ressun"
+  },
+  "lib/priceSlugs.ts#23": {
+   "key": "private_lesson",
+   "en": "private-lesson",
+   "es": "clase-individual",
+   "value": "kobetsu-ressun"
+  },
+  "lib/priceSlugs.ts#24": {
+   "key": "behavior_consult",
+   "en": "behaviour-consultation",
+   "es": "consulta-etologia",
+   "value": "koudou-kaunseringu"
+  },
+  "lib/priceSlugs.ts#25": {
+   "key": "membership",
+   "en": "club-membership",
+   "es": "cuota-club",
+   "value": "nyuukaikin"
+  },
+  "lib/priceSlugs.ts#26": {
+   "key": "PET_SITTING",
+   "en": "dog-walk-30-min",
+   "es": "paseo-30-min",
+   "value": "sanpo-30-pun"
+  },
+  "lib/priceSlugs.ts#27": {
+   "key": "PET_SITTING",
+   "en": "dog-walk-60-min",
+   "es": "paseo-60-min",
+   "value": "sanpo-60-pun"
+  },
+  "lib/priceSlugs.ts#28": {
+   "key": "cat_visit",
+   "en": "cat-visit",
+   "es": "visita-gatos",
+   "value": "neko-shitta"
+  },
+  "lib/priceSlugs.ts#29": {
+   "key": "house_sitting_night",
+   "en": "overnight-at-your-home",
+   "es": "cuidado-domicilio-noche",
+   "value": "jitaku-shukuhaku"
+  },
+  "lib/priceSlugs.ts#30": {
+   "key": "boarding_night",
+   "en": "overnight-at-sitters-home",
+   "es": "alojamiento-cuidador-noche",
+   "value": "shitta-taku-azukari"
+  },
+  "lib/priceSlugs.ts#31": {
+   "key": "daycare_day",
+   "en": "day-care",
+   "es": "cuidado-diurno",
+   "value": "shitta-deikea"
+  },
+  "lib/vet.ts#1": {
+   "key": "surgery",
+   "en": "Surgery",
+   "es": "Cirugía",
+   "value": "外科"
+  },
+  "lib/vet.ts#2": {
+   "key": "orthopedics",
+   "en": "Orthopaedics",
+   "es": "Traumatología",
+   "value": "整形外科"
+  },
+  "lib/vet.ts#3": {
+   "key": "dentistry",
+   "en": "Dentistry",
+   "es": "Odontología",
+   "value": "歯科"
+  },
+  "lib/vet.ts#4": {
+   "key": "dermatology",
+   "en": "Dermatology",
+   "es": "Dermatología",
+   "value": "皮膚科"
+  },
+  "lib/vet.ts#5": {
+   "key": "cardiology",
+   "en": "Cardiology",
+   "es": "Cardiología",
+   "value": "循環器科"
+  },
+  "lib/vet.ts#6": {
+   "key": "ophthalmology",
+   "en": "Ophthalmology",
+   "es": "Oftalmología",
+   "value": "眼科"
+  },
+  "lib/vet.ts#7": {
+   "key": "oncology",
+   "en": "Oncology",
+   "es": "Oncología",
+   "value": "腫瘍科"
+  },
+  "lib/vet.ts#8": {
+   "key": "neurology",
+   "en": "Neurology",
+   "es": "Neurología",
+   "value": "神経科"
+  },
+  "lib/vet.ts#9": {
+   "key": "\"internal-medicine\"",
+   "en": "Internal medicine",
+   "es": "Medicina interna",
+   "value": "内科"
+  },
+  "lib/vet.ts#10": {
+   "key": "reproduction",
+   "en": "Reproduction",
+   "es": "Reproducción",
+   "value": "生殖器科・繁殖科"
+  },
+  "lib/vet.ts#11": {
+   "key": "rehabilitation",
+   "en": "Rehabilitation",
+   "es": "Fisioterapia y rehabilitación",
+   "value": "リハビリテーション科"
+  },
+  "lib/vet.ts#12": {
+   "key": "exotics",
+   "en": "Exotic animals",
+   "es": "Animales exóticos",
+   "value": "エキゾチックアニマル科"
+  },
+  "lib/vet.ts#13": {
+   "key": "ultrasound",
+   "en": "Ultrasound",
+   "es": "Ecografía",
+   "value": "超音波検査（エコー）"
+  },
+  "lib/vet.ts#14": {
+   "key": "\"x-ray\"",
+   "en": "X-ray",
+   "es": "Radiografía",
+   "value": "レントゲン検査"
+  },
+  "lib/vet.ts#15": {
+   "key": "ct",
+   "en": "CT",
+   "es": "TAC",
+   "value": "CT検査"
+  },
+  "lib/vet.ts#16": {
+   "key": "mri",
+   "en": "MRI",
+   "es": "Resonancia magnética",
+   "value": "MRI検査"
+  },
+  "lib/vet.ts#17": {
+   "key": "endoscopy",
+   "en": "Endoscopy",
+   "es": "Endoscopia",
+   "value": "内視鏡検査"
+  },
+  "lib/vet.ts#18": {
+   "key": "laboratory",
+   "en": "Laboratory",
+   "es": "Laboratorio",
+   "value": "臨床検査・血液検査"
+  },
+  "lib/vet.ts#19": {
+   "key": "hospitalization",
+   "en": "Hospitalisation",
+   "es": "Hospitalización",
+   "value": "入院設備・ICU"
+  },
+  "lib/attributePages.ts#1": {
+   "key": "nonstop",
+   "en": "nonstop",
+   "es": "urgencias",
+   "value": "kyukyu"
+  },
+  "lib/attributePages.ts#2": {
+   "key": "saturday",
+   "en": "open-saturday",
+   "es": "sabado",
+   "value": "doyobi"
+  },
+  "lib/attributePages.ts#3": {
+   "key": "sunday",
+   "en": "open-sunday",
+   "es": "domingo",
+   "value": "nichiyobi"
+  },
+  "lib/attributePages.ts#4": {
+   "key": "exotics",
+   "en": "exotic-animals",
+   "es": "exoticos",
+   "value": "ekizochikku"
+  },
+  "lib/attributePages.ts#5": {
+   "key": "\"home-visits\"",
+   "en": "home-visits",
+   "es": "a-domicilio",
+   "value": "oshin"
+  },
+  "lib/attributePages.ts#6": {
+   "key": "english",
+   "en": "english-speaking",
+   "es": "ingles",
+   "value": "eigo"
+  },
+  "lib/bestPages.ts#1": {
+   "key": "",
+   "en": "best",
+   "es": "mejores",
+   "value": "osusume"
+  },
+  "lib/guides.ts#1": {
+   "key": "",
+   "en": "guides",
+   "es": "guias",
+   "value": "gaido"
+  },
+  "lib/categories.ts#1": {
+   "key": "",
+   "en": "business",
+   "es": "centro",
+   "value": "shisetsu"
+  },
+  "lib/categories.ts#2": {
+   "key": "",
+   "en": "city",
+   "es": "ciudad",
+   "value": "toshi"
+  }
+ },
+ "blocks": {
+  "lib/categories.ts@SLUGS": {
+   "en": "",
+   "es": "    GROOMING: \"peluqueria-canina\",\n    VET_CLINIC: \"veterinario\",\n    PET_HOTEL: \"residencia-canina\",\n    DOG_TRAINING: \"adiestramiento-canino\",\n    PET_SHOP: \"tienda-de-mascotas\",\n    PET_SITTING: \"cuidador-de-perros\",",
+   "value": "    GROOMING: \"torimingu-salon\",\n    VET_CLINIC: \"dobutsu-byoin\",\n    PET_HOTEL: \"petto-hoteru\",\n    DOG_TRAINING: \"shitsuke-kyoshitsu\",\n    PET_SHOP: \"petto-shoppu\",\n    PET_SITTING: \"petto-shitta\","
+  },
+  "lib/categories.ts@LABELS": {
+   "en": "",
+   "es": "    GROOMING: \"Peluquerías caninas\",\n    VET_CLINIC: \"Veterinarios\",\n    PET_HOTEL: \"Residencias caninas\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de mascotas\",\n    PET_SITTING: \"Cuidadores de perros\",",
+   "value": "    GROOMING: \"トリミングサロン\",\n    VET_CLINIC: \"動物病院\",\n    PET_HOTEL: \"ペットホテル\",\n    DOG_TRAINING: \"しつけ教室\",\n    PET_SHOP: \"ペットショップ\",\n    PET_SITTING: \"ペットシッター\","
+  },
+  "lib/categories.ts@SINGULAR": {
+   "en": "",
+   "es": "    GROOMING: \"peluquería canina\",\n    VET_CLINIC: \"clínica veterinaria\",\n    PET_HOTEL: \"residencia canina\",\n    DOG_TRAINING: \"adiestrador canino\",\n    PET_SHOP: \"tienda de mascotas\",\n    PET_SITTING: \"cuidador de perros\",",
+   "value": "    GROOMING: \"トリミングサロン\",\n    VET_CLINIC: \"動物病院\",\n    PET_HOTEL: \"ペットホテル\",\n    DOG_TRAINING: \"ドッグトレーナー・しつけ教室\",\n    PET_SHOP: \"ペットショップ\",\n    PET_SITTING: \"ペットシッター\","
+  },
+  "lib/categories.ts@PLURAL": {
+   "en": "    GROOMING: \"grooming salons\",\n    VET_CLINIC: \"vet clinics\",\n    PET_HOTEL: \"pet hotels\",\n    DOG_TRAINING: \"dog trainers\",\n    PET_SHOP: \"pet shops\",\n    PET_SITTING: \"pet sitters\",",
+   "es": "    GROOMING: \"peluquerías caninas\",\n    VET_CLINIC: \"veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"residencias caninas\",\n    DOG_TRAINING: \"adiestradores y escuelas caninas\",\n    PET_SHOP: \"tiendas de mascotas\",\n    PET_SITTING: \"cuidadores de perros\",",
+   "value": "    GROOMING: \"トリミングサロン\",\n    VET_CLINIC: \"動物病院\",\n    PET_HOTEL: \"ペットホテル\",\n    DOG_TRAINING: \"しつけ教室・ドッグスクール\",\n    PET_SHOP: \"ペットショップ\",\n    PET_SITTING: \"ペットシッター\","
+  },
+  "lib/categories.ts@SEO_TITLE": {
+   "en": "    GROOMING: \"Dog Grooming & Groomers\",\n    VET_CLINIC: \"Vets & Veterinary Clinics\",\n    PET_HOTEL: \"Dog Hotels & Pet Boarding\",\n    DOG_TRAINING: \"Dog Training & Puppy Classes\",\n    PET_SHOP: \"Pet Shops\",\n    PET_SITTING: \"Dog Sitters & Dog Walkers\",",
+   "es": "    GROOMING: \"Peluquería canina y lavado de perros\",\n    VET_CLINIC: \"Veterinarios y clínicas veterinarias\",\n    PET_HOTEL: \"Residencias caninas y guarderías de día\",\n    DOG_TRAINING: \"Adiestramiento canino y educadores\",\n    PET_SHOP: \"Tiendas de animales y productos para mascotas\",\n    PET_SITTING: \"Cuidadores de perros y paseadores\",",
+   "value": "    GROOMING: \"トリミングサロン・犬のシャンプー＆カット\",\n    VET_CLINIC: \"動物病院・獣医師・夜間救急診療\",\n    PET_HOTEL: \"ペットホテル・犬と猫の宿泊預かり\",\n    DOG_TRAINING: \"犬のしつけ教室・ドッグトレーニング\",\n    PET_SHOP: \"ペットショップ・ペット用品店\",\n    PET_SITTING: \"ペットシッター・犬の散歩代行\","
+  },
+  "lib/categories.ts@PRICES_NAME": {
+   "en": "    GROOMING: \"Dog grooming prices\",\n    VET_CLINIC: \"Vet prices & clinic fees\",\n    PET_HOTEL: \"Dog hotel & boarding prices\",\n    DOG_TRAINING: \"Dog training prices\",\n    PET_SHOP: \"Pet shop prices\",\n    PET_SITTING: \"Dog sitting & walking prices\",",
+   "es": "    GROOMING: \"Peluquería canina\",\n    VET_CLINIC: \"Precios veterinario\",\n    PET_HOTEL: \"Residencia canina\",\n    DOG_TRAINING: \"Adiestramiento canino\",\n    PET_SHOP: \"Tiendas de animales\",\n    PET_SITTING: \"Cuidador de perros\",",
+   "value": "    GROOMING: \"トリミング料金\",\n    VET_CLINIC: \"動物病院の診療料金\",\n    PET_HOTEL: \"ペットホテル料金\",\n    DOG_TRAINING: \"しつけ教室の料金\",\n    PET_SHOP: \"ペットショップの料金\",\n    PET_SITTING: \"ペットシッター料金\","
+  },
+  "lib/categories.ts@BLURBS": {
+   "en": "    GROOMING: CATEGORY_THEME.GROOMING.blurb,\n    VET_CLINIC: CATEGORY_THEME.VET_CLINIC.blurb,\n    PET_HOTEL: CATEGORY_THEME.PET_HOTEL.blurb,\n    DOG_TRAINING: CATEGORY_THEME.DOG_TRAINING.blurb,\n    PET_SHOP: CATEGORY_THEME.PET_SHOP.blurb,\n    PET_SITTING: CATEGORY_THEME.PET_SITTING.blurb,",
+   "es": "    GROOMING: \"Baño, corte, stripping y cuidado de uñas\",\n    VET_CLINIC: \"Consultas, vacunas y urgencias\",\n    PET_HOTEL: \"Una estancia segura mientras estás fuera\",\n    DOG_TRAINING: \"Clases para cachorros, obediencia básica y conducta\",\n    PET_SHOP: \"Comida, juguetes y accesorios de cada día\",\n    PET_SITTING: \"Paseos, visitas y cuidado en casa\",",
+   "value": "    GROOMING: \"シャンプー、カット、爪切り、エステケア\",\n    VET_CLINIC: \"一般診察、予防接種、夜間・救急対応\",\n    PET_HOTEL: \"ご旅行や急な外出時も安心な宿泊・一時預かり\",\n    DOG_TRAINING: \"パピー教室、基本しつけ、問題行動の改善\",\n    PET_SHOP: \"プレミアムフード、おやつ、おもちゃ、日常ケア用品\",\n    PET_SITTING: \"お散歩代行、ご自宅訪問、きめ細やかなペットケア\","
+  },
+  "lib/categories.ts@PLACE_TERM": {
+   "en": "    VET_CLINIC: { term: \"vet\", word: /^(vet|vets|veterinary)$/ },\n    GROOMING: { term: \"dog grooming\", word: /^groom/ },\n    PET_HOTEL: { term: \"pet hotel\", word: /^hotel/ },\n    DOG_TRAINING: { term: \"dog training\", word: /^train/ },\n    PET_SHOP: { term: \"pet shop\", word: /^shop/ },\n    PET_SITTING: { term: \"pet sitter\", word: /^sitt/ },",
+   "es": "    VET_CLINIC: { term: \"veterinario\", word: /^(veterinari|clinica|clínica|centro|hospital)/ },\n    GROOMING: { term: \"peluquería canina\", word: /^(peluquer|grooming|estética|estetica)/ },\n    PET_HOTEL: { term: \"residencia canina\", word: /^(residencia|hotel|guarder)/ },\n    DOG_TRAINING: { term: \"adiestramiento canino\", word: /^(adiestr|escuela|club|centro|educador)/ },\n    PET_SHOP: { term: \"tienda de mascotas\", word: /^(tienda|pet|zoo)/ },\n    PET_SITTING: { term: \"cuidador de perros\", word: /^(cuidador|paseador|dog|pet)/ },",
+   "value": "    VET_CLINIC: { term: \"動物病院\", word: /^(動物病院|クリニック|病院|clinic|hospital|vet)/ },\n    GROOMING: { term: \"トリミングサロン\", word: /^(トリミング|サロン|grooming|salon)/ },\n    PET_HOTEL: { term: \"ペットホテル\", word: /^(ホテル|hotel|pension)/ },\n    DOG_TRAINING: { term: \"しつけ教室\", word: /^(しつけ|訓練|スクール|school|training)/ },\n    PET_SHOP: { term: \"ペットショップ\", word: /^(ペットショップ|ショップ|shop|zoo)/ },\n    PET_SITTING: { term: \"ペットシッター\", word: /^(シッター|sitter|walker)/ },"
+  },
+  "lib/bestPages.ts@BEST_NAME": {
+   "en": "    GROOMING: \"Best dog groomers\",\n    VET_CLINIC: \"Best vets\",\n    PET_HOTEL: \"Best dog hotels\",\n    DOG_TRAINING: \"Best dog trainers\",\n    PET_SHOP: \"Best pet shops\",\n    PET_SITTING: \"Best dog walkers and sitters\",",
+   "es": "    GROOMING: \"Las mejores peluquerías caninas\",\n    VET_CLINIC: \"Los mejores veterinarios\",\n    PET_HOTEL: \"Las mejores residencias caninas\",\n    DOG_TRAINING: \"Los mejores adiestradores caninos\",\n    PET_SHOP: \"Las mejores tiendas de mascotas\",\n    PET_SITTING: \"Los mejores cuidadores de perros\",",
+   "value": "    GROOMING: \"おすすめのトリミングサロン\",\n    VET_CLINIC: \"おすすめの動物病院\",\n    PET_HOTEL: \"おすすめのペットホテル\",\n    DOG_TRAINING: \"おすすめの犬のしつけ教室\",\n    PET_SHOP: \"おすすめのペットショップ\",\n    PET_SITTING: \"おすすめのペットシッター\","
+  },
+  "lib/bestPages.ts@BEST_TEXT": {
+   "en": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `The ${n} highest-rated places ${where}, ranked by Google rating and number of reviews, with what customers praise in each.`,\n    lead: (n) =>\n      `The ${n} places with the best Google ratings, weighed by how many people rated them. Under each: what customers praise most, from our summary of recent reviews.`,\n    praised: \"What customers praise\",\n    mention: \"Some mention\",\n    reviewsSummarised: (n) => `from ${n} recent ${n === 1 ? \"review\" : \"reviews\"}`,\n    howTitle: \"How we ranked\",\n    how: (min, date) =>\n      `By Google rating, weighed by the number of ratings: a 4.9 from 15 people ranks below a 4.8 from 400. Only places with at least ${min} ratings. Ratings checked ${date}. No place pays to be on this list.`,\n    allPlaces: \"All places\",\n    chip: \"Best rated\",\n    rank: (n) => `No. ${n}`,",
+   "es": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `Los ${n} negocios mejor valorados ${where}, según la nota en Google y el número de reseñas, y lo que más aprecian los clientes.`,\n    lead: (n) =>\n      `Los ${n} negocios mejor valorados en Google, ponderados por el número de reseñas. De cada uno: lo que más valoran los clientes, según nuestro resumen de las reseñas recientes.`,\n    praised: \"Lo que más valoran los clientes\",\n    mention: \"Algunos señalan\",\n    reviewsSummarised: (n) => `a partir de ${n} reseñas recientes`,\n    howTitle: \"Cómo hemos elaborado la clasificación\",\n    how: (min, date) =>\n      `Según la nota en Google, ponderada por el número de reseñas: un 4,9 con 15 reseñas vale menos que un 4,8 con 400. Solo cuentan los negocios con al menos ${min} reseñas. Notas comprobadas el ${date}. Nadie paga por aparecer en esta clasificación.`,\n    allPlaces: \"Todos los negocios\",\n    chip: \"Los más valorados\",\n    rank: (n) => `${n}º`,",
+   "value": "    h1: (name, where) => `${name} ${where}`,\n    metaTitle: (name, where, n, year) => [`${name} ${where}: top ${n} (${year}) | Pawenn`, `${name} ${where}: top ${n} (${year})`, `${name} ${where} (${year})`, `${name} ${where}`],\n    metaDescription: (n, where) =>\n      `${where}でGoogleのクチコミ評価が高い上位${n}件を厳選。評価点とクチコミ件数を独自集計し、利用者の評判やおすすめポイントをまとめました。`,\n    lead: (n) =>\n      `Googleマップのクチコミ評価と投稿件数をもとに算出した、高評価の${n}件です。各店舗・クリニックについて、直近のクチコミ要約から利用者に高く評価されているポイントをご紹介します。`,\n    praised: \"利用者が高く評価している点\",\n    mention: \"気になるポイント・その他の声\",\n    reviewsSummarised: (n) => `直近のクチコミ${n}件より要約`,\n    howTitle: \"掲載順位の算出方法\",\n    how: (min, date) =>\n      `Googleの評価点とクチコミ件数を掛け合わせたベイズ平均で算出しています（例：評価4.9で15件よりも、評価4.8で400件の施設が上位になります）。クチコミ件数が${min}件以上の施設のみが対象です。評価データ確認日：${date}。広告料等による順位の優遇は一切ありません。`,\n    allPlaces: \"すべての施設を見る\",\n    chip: \"高評価順\",\n    rank: (n) => `第${n}位`,"
+  },
+  "lib/guides.ts@GUIDE_TEXT": {
+   "en": "    hubTitle: \"Guides for pet owners | Pawenn\",\n    hubH1: \"Guides for pet owners\",\n    hubIntro: \"Rules, deadlines and prices that pet owners ask about - each fact with its official source.\",\n    sources: \"Sources\",\n    updated: \"Updated\",\n    related: \"Good to know\",\n    home: \"Home\",\n    priceLine: (median, range, places) => `average ${median}, ${range} (${places} ${places === 1 ? \"place\" : \"places\"})`,\n    pricesLink: \"All prices\",\n    nav: \"Guides\",",
+   "es": "    hubTitle: \"Guías para dueños de mascotas | Pawenn\",\n    hubH1: \"Guías para dueños de mascotas\",\n    hubIntro: \"Normas, plazos y precios sobre los que preguntan los dueños de mascotas: cada dato con su fuente oficial.\",\n    sources: \"Fuentes\",\n    updated: \"Actualizado\",\n    related: \"Conviene saber\",\n    home: \"Inicio\",\n    priceLine: (median, range, places) => `media ${median}, ${range} (${places} ${places === 1 ? \"negocio\" : \"negocios\"})`,\n    pricesLink: \"Todos los precios\",\n    nav: \"Guías\",",
+   "value": "    hubTitle: \"飼い主のためのガイド・役立ち情報 | Pawenn\",\n    hubH1: \"ペットの飼い主のためのガイド\",\n    hubIntro: \"ペットとの暮らしに必要なルール、手続きの期限、各種料金の相場など、飼い主の疑問に公式の出典とともにわかりやすくお答えします。\",\n    sources: \"情報出典・参考資料\",\n    updated: \"最終更新日\",\n    related: \"知っておきたい豆知識\",\n    home: \"ホーム\",\n    priceLine: (median, range, places) => `平均 ${median}、範囲 ${range}（${places}施設）`,\n    pricesLink: \"すべての料金を見る\",\n    nav: \"ガイド\","
+  }
+ }
+}

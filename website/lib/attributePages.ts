@@ -14,14 +14,14 @@ export type AttributeKey = "nonstop" | "saturday" | "sunday" | "exotics" | "home
 
 /** URL slug per attribute and language - as people search it. */
 const SLUGS: Record<AttributeKey, Record<Locale, string>> = {
-  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy", cs: "nonstop", de: "notdienst", fr: "urgence", it: "pronto-soccorso", es: "urgencias" },
-  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota", cs: "sobota", de: "samstag", fr: "samedi", it: "sabato", es: "sabado" },
-  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela", cs: "nedele", de: "sonntag", fr: "dimanche", it: "domenica", es: "domingo" },
-  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne", cs: "exoticka-zvirata", de: "exoten", fr: "nac", it: "esotici", es: "exoticos" },
-  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe", cs: "vyjezd-domu", de: "hausbesuch", fr: "a-domicile", it: "a-domicilio", es: "a-domicilio" },
+  nonstop: { en: "nonstop", sk: "nonstop", pl: "calodobowy", cs: "nonstop", de: "notdienst", fr: "urgence", it: "pronto-soccorso", es: "urgencias", pt: "urgencias", no: "veterinaervakt", nl: "spoed", fi: "paivystys", hu: "ugyelet", ja: "kyukyu" },
+  saturday: { en: "open-saturday", sk: "sobota", pl: "sobota", cs: "sobota", de: "samstag", fr: "samedi", it: "sabato", es: "sabado", pt: "sabado", no: "lordag", nl: "zaterdag", fi: "lauantai", hu: "szombat", ja: "doyobi" },
+  sunday: { en: "open-sunday", sk: "nedela", pl: "niedziela", cs: "nedele", de: "sonntag", fr: "dimanche", it: "domenica", es: "domingo", pt: "domingo", no: "sondag", nl: "zondag", fi: "sunnuntai", hu: "vasarnap", ja: "nichiyobi" },
+  exotics: { en: "exotic-animals", sk: "exoticke-zvierata", pl: "zwierzeta-egzotyczne", cs: "exoticka-zvirata", de: "exoten", fr: "nac", it: "esotici", es: "exoticos", pt: "exoticos", no: "eksotiske-dyr", nl: "exoten", fi: "eksoottiset-elaimet", hu: "egzotikus", ja: "ekizochikku" },
+  "home-visits": { en: "home-visits", sk: "vyjazd-domov", pl: "wizyty-domowe", cs: "vyjezd-domu", de: "hausbesuch", fr: "a-domicile", it: "a-domicilio", es: "a-domicilio", pt: "ao-domicilio", no: "hjemmebesok", nl: "aan-huis", fi: "kotikaynti", hu: "hazhoz", ja: "oshin" },
   // "english speaking vet bratislava" / "veterinár po anglicky"
   // (docs/seo/keywords/en.md, sk.md; owner, 2026-09-26).
-  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku", cs: "anglicky", de: "englisch", fr: "anglophone", it: "inglese", es: "ingles" },
+  english: { en: "english-speaking", sk: "po-anglicky", pl: "po-angielsku", cs: "anglicky", de: "englisch", fr: "anglophone", it: "inglese", es: "ingles", pt: "ingles", no: "engelsk", nl: "engels", fi: "englanniksi", hu: "angol", ja: "eigo" },
 };
 
 /** Which attributes each category offers, in chip order. Only attributes

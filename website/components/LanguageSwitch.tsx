@@ -16,7 +16,7 @@ import { gaEvent } from "@/lib/analytics";
 // (a Polish city: English and Polski; a Slovak one: English and
 // Slovenčina). The footer's old guess linked English Warszawa pages to
 // /sk/.../warszawa/, a 404 (SEO check, 2026-09-28).
-const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "Polski", cs: "Čeština", de: "Deutsch", fr: "Français", it: "Italiano", es: "Español" };
+const NAMES: Record<Locale, string> = { en: "English", sk: "Slovenčina", pl: "Polski", cs: "Čeština", de: "Deutsch", fr: "Français", it: "Italiano", es: "Español", nl: "Nederlands", pt: "Português", fi: "Suomi", hu: "Magyar", no: "Norsk", ja: "日本語" };
 
 // Remembered for the root "/" only (docs/design-plan.md 2.2): a
 // functional cookie set by the visitor's own choice.

@@ -178,6 +178,8 @@ const DAY =
   "lunedì|lunedi|martedì|martedi|mercoledì|mercoledi|giovedì|giovedi|venerdì|venerdi|sabato|domenica|" +
   "lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|" +
   "lunes|martes|miércoles|miercoles|jueves|viernes|sábado|sabado|domingo|" +
+  "maandag|dinsdag|woensdag|donderdag|vrijdag|zaterdag|zondag|segunda|terça|terca|quarta|quinta|sexta|maanantai|tiistai|keskiviikko|torstai|perjantai|lauantai|sunnuntai|hétfő|hetfo|kedd|szerda|csütörtök|csutortok|péntek|pentek|szombat|vasárnap|vasarnap|mandag|tirsdag|onsdag|torsdag|fredag|lørdag|lordag|søndag|sondag|" +
+  "man|tir|ons|tor|fre|sze|szo|sex|qua|qui|seg|ter|woe|zat|zon|" +
   "lun|mar|mer|gio|ven|sab|dom|jeu|sam|dim|mié|mie|jue|vie|sáb|" +
   "mo|di|mi|do|fr|sa|so|mon|tue|tues|wed|thu|thur|thurs|fri|sat|sun|po|ut|út|st|št|čt|pi|pá|ne|pon|wt|śr|czw|pt|sob|nd|niedz)";
 const TIME = "(\\d{1,2}[:.]\\d{2}|\\d{1,2}\\s?(am|pm|a\\.m\\.|p\\.m\\.|uhr|h\\b))";
@@ -192,26 +194,27 @@ const TIME_ANY = new RegExp(TIME, "iu");
 const HOURS_NO_TIME = /(vereinbarung|appointment|dohode|objednání|umówieniu|appuntamento|rendez-vous|cita previa|h24|24\s?ore|24\s?horas|abierto 24|rund um die uhr|24\s?h\b|24\s?\/\s?7|nonstop|non-stop|24 stunden|24 hours)/i;
 const HOURS_LINE = new RegExp(`(^|[^\\p{L}])${DAY}(?!\\p{L})\\.?[^\\p{L}\\d\\n]{0,6}(${DAY}(?!\\p{L})\\.?)?[^\\n]{0,25}?${TIME}`, "iu");
 const HOURS_WORDS =
-  /(öffnungszeit|oeffnungszeit|ordinationszeit|sprechzeit|sprechstunde|opening hours|business hours|office hours|hours of operation|open daily|godziny otwarcia|godziny przyjęć|otváracie hodiny|ordinačné hodiny|otevírací doba|ordinační hodiny|nach (telefonischer )?vereinbarung|by appointment only|po dohode|na objednání|po wcześniejszym umówieniu|orari(o)? di apertura|orari(o)? (di )?(ambulatorio|ricevimento)|orari\b|horaires? d.ouverture|horaires\b|heures d.ouverture|su appuntamento|sur rendez-vous|horario(s)?\b|horario de (apertura|atenci[oó]n|consulta)|cita previa)/i;
+  /(öffnungszeit|oeffnungszeit|ordinationszeit|sprechzeit|sprechstunde|opening hours|business hours|office hours|hours of operation|open daily|godziny otwarcia|godziny przyjęć|otváracie hodiny|ordinačné hodiny|otevírací doba|ordinační hodiny|nach (telefonischer )?vereinbarung|by appointment only|po dohode|na objednání|po wcześniejszym umówieniu|orari(o)? di apertura|orari(o)? (di )?(ambulatorio|ricevimento)|orari\b|horaires? d.ouverture|horaires\b|heures d.ouverture|su appuntamento|sur rendez-vous|horario(s)?\b|horario de (apertura|atenci[oó]n|consulta)|cita previa|openingstijden|openingsuren|spreekuur|spreekuren|hor[aá]rio de funcionamento|hor[aá]rios|aukioloajat|aukiolo|vastaanottoajat|nyitvatart[aá]s|rendel[eé]si id[oő]|[åa]pningstider|営業時間|診療時間|受付時間)/i;
 // Language names as whole words ("deutsch", not "Deutschland") and a word
 // about speaking them: the staff's languages, not the site's language
 // switcher or the law's "German law applies" (Berlin, 2026-10-06).
 const LANGUAGE_NAME =
-  /(^|[^\p{L}])(englisch\p{L}{0,2}|english|deutsch\p{L}{0,2}|german|französisch\p{L}{0,2}|french|spanisch\p{L}{0,2}|spanish|espa[ñn]ol\p{L}{0,2}|inglese|anglais|ingl[eé]s|francese|fran[cç]ais|franc[eé]s|tedesco|allemand|alem[aá]n|italienisch\p{L}{0,2}|italian|türkisch\p{L}{0,2}|turkish|russisch\p{L}{0,2}|russian|polnisch\p{L}{0,2}|polish|ukrainisch\p{L}{0,2}|ukrainian|arabisch\p{L}{0,2}|arabic|ungarisch\p{L}{0,2}|hungarian|kroatisch\p{L}{0,2}|serbisch\p{L}{0,2}|slowakisch\p{L}{0,2}|tschechisch\p{L}{0,2}|angličtin\p{L}*|anglicky|nemčin\p{L}*|němčin\p{L}*|angielsk\p{L}*|niemieck\p{L}*|rosyjsk\p{L}*|ukraińsk\p{L}*)(?![\p{L}])/iu;
+  /(^|[^\p{L}])(engels\p{L}{0,2}|englanti\p{L}{0,2}|angol\p{L}{0,2}|engelsk\p{L}{0,2}|ingl[eê]s|nederlands\p{L}{0,2}|portugu[eê]s\p{L}{0,2}|suomi\p{L}{0,2}|magyar\p{L}{0,2}|norsk\p{L}{0,2}|englisch\p{L}{0,2}|english|deutsch\p{L}{0,2}|german|französisch\p{L}{0,2}|french|spanisch\p{L}{0,2}|spanish|espa[ñn]ol\p{L}{0,2}|inglese|anglais|ingl[eé]s|francese|fran[cç]ais|franc[eé]s|tedesco|allemand|alem[aá]n|italienisch\p{L}{0,2}|italian|türkisch\p{L}{0,2}|turkish|russisch\p{L}{0,2}|russian|polnisch\p{L}{0,2}|polish|ukrainisch\p{L}{0,2}|ukrainian|arabisch\p{L}{0,2}|arabic|ungarisch\p{L}{0,2}|hungarian|kroatisch\p{L}{0,2}|serbisch\p{L}{0,2}|slowakisch\p{L}{0,2}|tschechisch\p{L}{0,2}|angličtin\p{L}*|anglicky|nemčin\p{L}*|němčin\p{L}*|angielsk\p{L}*|niemieck\p{L}*|rosyjsk\p{L}*|ukraińsk\p{L}*)(?![\p{L}])/iu;
 const SPEAK_WORDS =
-  /(sprechen|spreche|spricht|sprachkenntnis|fremdsprach|sprachen\s*:|mehrsprachig|auch auf|speak|spoken|speaking|languages\s*:|in english|po anglicky|po angielsku|w języku|hovoríme|hovorí|komunikujeme|mluvíme|mluví|domluvíte|mówimy|mówi|porozumiesz|obsługa w języku|języki\s*:|parliamo|si parla|lingue\s*:|parlons|on parle|langues?\s*(parl[ée]es)?\s*:|hablamos|se habla|idiomas\s*:|atendemos en)/i;
+  /(spreken|spreekt|falamos|fala-se|puhumme|puhuu|besz[eé]l\w*|snakker|vi snakker|対応可能|話せ|sprechen|spreche|spricht|sprachkenntnis|fremdsprach|sprachen\s*:|mehrsprachig|auch auf|speak|spoken|speaking|languages\s*:|in english|po anglicky|po angielsku|w języku|hovoríme|hovorí|komunikujeme|mluvíme|mluví|domluvíte|mówimy|mówi|porozumiesz|obsługa w języku|języki\s*:|parliamo|si parla|lingue\s*:|parlons|on parle|langues?\s*(parl[ée]es)?\s*:|hablamos|se habla|idiomas\s*:|atendemos en)/i;
 const LEGAL_PAGE = /(impressum|datenschutz|privacy|cookie|agb|terms|nutzungsbedingung|gdpr|dsgvo|ochrana-osobnych|ochrana-osobních|polityka-prywatnosci|rodo|regulamin|mentions-legales|mentions légales|confidentialite|confidentialité|note-legali|informativa|aviso-legal|politica-de-privacidad|politica-de-cookies)/i;
 
 type Match = RegExp | ((line: string) => boolean);
 const matches = (m: Match, line: string) => (typeof m === "function" ? m(line) : m.test(line));
 
+const HU_PRICE = /(^|[^\p{L}])(árak?|árlista|díjszabás|ára|árai)(?![\p{L}])/iu;
 const KEYWORDS: Record<"hours" | "emergency" | "languages" | "price" | "homeVisit", Match> = {
   // "Sprechzeiten" alone is a heading, not a quote of the hours
   hours: (l) => HOURS_LINE.test(l) || (HOURS_WORDS.test(l) && (TIME_ANY.test(l) || HOURS_NO_TIME.test(l))),
-  emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|urgencias?|guardia|24\s?horas|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency)/iu,
+  emergency: /\b(notdienst|notfall|notaufnahme|pronto soccorso|urgenz\p{L}*|reperibilit\p{L}*|urgences?|urgencias?|guardia|24\s?horas|garde vétérinaire|7\s?j\s?\/\s?7|24\s?h\s?\/\s?24|h24|24\s?\/\s?7|24[- ]?(stunden|h\b|hodin|godz)|non[- ]?stop|nonstop|rund um die uhr|pohotovos|pogotowie|całodobow|emergency|spoed|spoedeisend\p{L}*|urg[eê]ncia|p[aä]ivystys|[uü]gyelet|legevakt|d[oø]gn[aå]pen|akuttvakt|救急|夜間診療|24時間)/iu,
   languages: (l) => LANGUAGE_NAME.test(l) && SPEAK_WORDS.test(l) && !/cookie|datenschutz|privacy|impressum/i.test(l),
-  price: /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b)\s?\d|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?)\b/i,
-  homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|visitas? a domicilio|atenci[oó]n a domicilio|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy)/i,
+  price: (l) => /(€|eur\b|zł|pln\b|kč|czk\b|\$|usd\b|£|gbp\b|kr\b|nok\b|¥|円|jpy\b|huf\b)\s?\d|\d\s?(ft\b|forint)|\d\s?(€|eur\b|euro\b|zł|pln\b|kč|czk\b|usd\b|gbp\b|kr\b|nok\b|円|jpy\b|huf\b)|\b(preise?|preisliste|honorar|gebühr(en)?|tarife?|tarifs?|tariff[ae]|cennik|cenník|ceník|ceny|price|prezz[io]|listino|costi|prix|honoraires|precios?|tarifas?|prijs|prijzen|tarief|tarieven|pre[cç]os?|hinta|hinnasto|hinnat|prisliste|priser?)\b|料金|価格|値段/i.test(l) || HU_PRICE.test(l),
+  homeVisit: /(hausbesuch|home visit|visite a domicilio|visita a domicilio|visites? à domicile|visitas? a domicilio|atenci[oó]n a domicilio|domov(é|ská) návštev|wizyty domowe|výjezd|výjezdy|huisbezoek\w*|aan huis|visitas? ao domic[ií]lio|ao domic[ií]lio|kotik[aä]yn\w*|h[aá]zhoz|kisz[aá]ll[aá]s|hjemmebes[oø]k|往診)/i,
 };
 
 /** Sentences/lines copied word for word, 10-400 chars (the evidence limits). */
@@ -336,7 +339,13 @@ function subpages(base: string, links: { href: string | null; label: string }[])
       continue;
     }
     if (u.hostname.replace(/^www\./, "") !== host || /\.(pdf|jpe?g|png|zip)$/i.test(u.pathname)) continue;
-    const hay = `${decodeURIComponent(u.pathname)} ${l.label}`;
+    let pathDecoded = u.pathname;
+    try {
+      pathDecoded = decodeURIComponent(u.pathname);
+    } catch {
+      /* not UTF-8 percent-encoding: keep as is */
+    }
+    const hay = `${pathDecoded} ${l.label}`;
     const kind = LINKS.find(([, re]) => re.test(hay))?.[0];
     const url = u.toString().split("#")[0];
     if (kind && url !== base && !found.some((f) => f.kind === kind || f.url === url)) found.push({ kind, url });
@@ -358,7 +367,7 @@ function pricePdfs(links: { href: string | null; label: string }[]): string[] {
 type Result = Record<string, unknown>;
 
 // Country calling codes of the cities (as in sanity.ts).
-const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353" };
+const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353", FI: "358", HU: "36", PT: "351", NL: "31", NO: "47", JP: "81" };
 let dial = "";
 
 /** The number without country code, trunk 0 or "(0)": "+43 (0)1 347 43",
@@ -382,10 +391,10 @@ function phoneCheck(csvPhone: string, tels: string[], text: string): string {
 // Price lines: "Baden & Föhnen ab 45 €", "Kastration Kater | 120,00 EUR" (a
 // table row is one line). The service text and the amount as the page writes
 // them; which price code it is, the agent decides.
-const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp)";
+const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf|ft|forint)";
 const AMOUNT = "(\\d{1,3}(?:[ .]\\d{3})*(?:[.,]\\d{1,2})?|\\d+)(?:,-|,–)?";
 const PRICE_LINE = new RegExp(`(?:${CUR}\\s?${AMOUNT}|${AMOUNT}\\s?${CUR})`, "iu");
-const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP" };
+const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF", ft: "HUF", forint: "HUF" };
 
 function priceRows(pages: { url: string; text: string }[]) {
   const out: { service: string; amount: number; currency: string; quote: string; url: string }[] = [];

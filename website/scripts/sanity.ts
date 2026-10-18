@@ -52,6 +52,18 @@ const COUNTRY = {
   // Ireland: trunk 0 dropped, 8-10 digits (Dublin 1 234 5678); Eircode "D02 X285" (older addresses have none).
   GB: { dial: "44", national: /^[1-9]\d{8,9}$/, postal: /\b[A-Z]{1,2}\d[A-Z\d]? ?\d[A-Z]{2}\b/i },
   IE: { dial: "353", national: /^[1-9]\d{7,9}$/, postal: /\b[ACDEFHKNPRTVWXY]\d{2} ?[0-9ACDEFHKNPRTVWXY]{4}\b/i },
+  // Finland: trunk 0 dropped, 5-11 digits (Helsinki +358 9 1234 567); postal code 5 digits.
+  // Hungary: trunk 06 dropped, 8-9 digits (Budapest +36 1 234 5678, mobiles +36 30 123 4567); postal code 4 digits.
+  // Portugal: nine digits starting 2 (landlines), 9 (mobiles) or 8/7; postal code "1000-001".
+  // Netherlands: trunk 0 dropped, nine digits (Amsterdam +31 20 123 4567); postcode "1012 AB".
+  // Norway: eight digits starting 2-9 (no trunk 0); postal code 4 digits.
+  // Japan: trunk 0 dropped, 9-10 digits (Tokyo +81 3 1234 5678, mobiles +81 90 1234 5678); postal "100-0001".
+  FI: { dial: "358", national: /^[1-9]\d{4,10}$/, postal: /\b\d{5}\b/ },
+  HU: { dial: "36", national: /^[1-9]\d{7,8}$/, postal: /\b\d{4}\b/ },
+  PT: { dial: "351", national: /^[2-9]\d{8}$/, postal: /\b\d{4}-\d{3}\b/ },
+  NL: { dial: "31", national: /^[1-9]\d{8}$/, postal: /\b\d{4} ?[A-Z]{2}\b/i },
+  NO: { dial: "47", national: /^[2-9]\d{7}$/, postal: /\b\d{4}\b/ },
+  JP: { dial: "81", national: /^[1-9]\d{8,9}$/, postal: /\b\d{3}-?\d{4}\b/ },
   ES: { dial: "34", national: /^[6-9]\d{8}$/, postal: /\b\d{5}\b/ },
   US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;

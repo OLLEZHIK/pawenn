@@ -129,6 +129,54 @@ const SLUGS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "tienda-de-mascotas",
     PET_SITTING: "cuidador-de-perros",
   },
+  pt: {
+    GROOMING: "banhos-e-tosquias",
+    VET_CLINIC: "veterinario",
+    PET_HOTEL: "hotel-canino",
+    DOG_TRAINING: "treino-canino",
+    PET_SHOP: "loja-de-animais",
+    PET_SITTING: "pet-sitting",
+  },
+  no: {
+    GROOMING: "hundefrisor",
+    VET_CLINIC: "veterinaer",
+    PET_HOTEL: "dyrehotell",
+    DOG_TRAINING: "hundekurs",
+    PET_SHOP: "dyrebutikk",
+    PET_SITTING: "dyrepass",
+  },
+  nl: {
+    GROOMING: "trimsalon",
+    VET_CLINIC: "dierenarts",
+    PET_HOTEL: "dierenpension",
+    DOG_TRAINING: "hondenschool",
+    PET_SHOP: "dierenwinkel",
+    PET_SITTING: "hondenoppas",
+  },
+  fi: {
+    GROOMING: "trimmaus",
+    VET_CLINIC: "elainlaakari",
+    PET_HOTEL: "koirahoitola",
+    DOG_TRAINING: "koirakoulu",
+    PET_SHOP: "elainkauppa",
+    PET_SITTING: "koiranhoitaja",
+  },
+  hu: {
+    GROOMING: "kutyakozmetika",
+    VET_CLINIC: "allatorvos",
+    PET_HOTEL: "kutyapanzio",
+    DOG_TRAINING: "kutyaiskola",
+    PET_SHOP: "allatkereskedes",
+    PET_SITTING: "kutyaszitter",
+  },
+  ja: {
+    GROOMING: "torimingu-salon",
+    VET_CLINIC: "dobutsu-byoin",
+    PET_HOTEL: "petto-hoteru",
+    DOG_TRAINING: "shitsuke-kyoshitsu",
+    PET_SHOP: "petto-shoppu",
+    PET_SITTING: "petto-shitta",
+  },
 };
 
 const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -189,6 +237,54 @@ const LABELS: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de mascotas",
     PET_SITTING: "Cuidadores de perros",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias",
+    VET_CLINIC: "Veterinários",
+    PET_HOTEL: "Hotéis caninos",
+    DOG_TRAINING: "Treino canino",
+    PET_SHOP: "Lojas de animais",
+    PET_SITTING: "Pet sitting e passeadores",
+  },
+  no: {
+    GROOMING: "Hundefrisører",
+    VET_CLINIC: "Veterinærer",
+    PET_HOTEL: "Dyrehotell",
+    DOG_TRAINING: "Hundekurs",
+    PET_SHOP: "Dyrebutikker",
+    PET_SITTING: "Dyrepassere",
+  },
+  nl: {
+    GROOMING: "Trimsalons",
+    VET_CLINIC: "Dierenartsen",
+    PET_HOTEL: "Dierenpensions",
+    DOG_TRAINING: "Hondenscholen",
+    PET_SHOP: "Dierenwinkels",
+    PET_SITTING: "Hondenoppas",
+  },
+  fi: {
+    GROOMING: "Trimmaamot",
+    VET_CLINIC: "Eläinlääkärit",
+    PET_HOTEL: "Koirahoitolat",
+    DOG_TRAINING: "Koirakoulut",
+    PET_SHOP: "Eläinkaupat",
+    PET_SITTING: "Koiranhoitajat",
+  },
+  hu: {
+    GROOMING: "Kutyakozmetikák",
+    VET_CLINIC: "Állatorvosok",
+    PET_HOTEL: "Kutyapanziók",
+    DOG_TRAINING: "Kutyaiskolák",
+    PET_SHOP: "Állatkereskedések",
+    PET_SITTING: "Kutyaszitterek",
+  },
+  ja: {
+    GROOMING: "トリミングサロン",
+    VET_CLINIC: "動物病院",
+    PET_HOTEL: "ペットホテル",
+    DOG_TRAINING: "しつけ教室",
+    PET_SHOP: "ペットショップ",
+    PET_SITTING: "ペットシッター",
+  },
 };
 
 const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
@@ -248,6 +344,54 @@ const SINGULAR: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "adiestrador canino",
     PET_SHOP: "tienda de mascotas",
     PET_SITTING: "cuidador de perros",
+  },
+  pt: {
+    GROOMING: "salão de banhos e tosquias",
+    VET_CLINIC: "clínica veterinária",
+    PET_HOTEL: "hotel canino",
+    DOG_TRAINING: "treinador de cães",
+    PET_SHOP: "loja de animais",
+    PET_SITTING: "petsitter",
+  },
+  no: {
+    GROOMING: "hundefrisør",
+    VET_CLINIC: "dyreklinikk",
+    PET_HOTEL: "dyrehotell",
+    DOG_TRAINING: "hundetrener",
+    PET_SHOP: "dyrebutikk",
+    PET_SITTING: "dyrepasser",
+  },
+  nl: {
+    GROOMING: "trimsalon",
+    VET_CLINIC: "dierenarts",
+    PET_HOTEL: "dierenpension",
+    DOG_TRAINING: "hondenschool",
+    PET_SHOP: "dierenwinkel",
+    PET_SITTING: "hondenoppas",
+  },
+  fi: {
+    GROOMING: "trimmaamo",
+    VET_CLINIC: "eläinklinikka",
+    PET_HOTEL: "koirahoitola",
+    DOG_TRAINING: "koirankouluttaja",
+    PET_SHOP: "eläinkauppa",
+    PET_SITTING: "koiranhoitaja",
+  },
+  hu: {
+    GROOMING: "kutyakozmetika",
+    VET_CLINIC: "állatorvosi rendelő",
+    PET_HOTEL: "kutyapanzió",
+    DOG_TRAINING: "kutyaiskola",
+    PET_SHOP: "állatkereskedés",
+    PET_SITTING: "kutyaszitter",
+  },
+  ja: {
+    GROOMING: "トリミングサロン",
+    VET_CLINIC: "動物病院",
+    PET_HOTEL: "ペットホテル",
+    DOG_TRAINING: "ドッグトレーナー・しつけ教室",
+    PET_SHOP: "ペットショップ",
+    PET_SITTING: "ペットシッター",
   },
 };
 
@@ -318,6 +462,54 @@ const PLURAL: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "adiestradores y escuelas caninas",
     PET_SHOP: "tiendas de mascotas",
     PET_SITTING: "cuidadores de perros",
+  },
+  pt: {
+    GROOMING: "salões de banhos e tosquias",
+    VET_CLINIC: "veterinários e clínicas veterinárias",
+    PET_HOTEL: "hotéis caninos e creches",
+    DOG_TRAINING: "treinadores e escolas de treino canino",
+    PET_SHOP: "lojas de animais",
+    PET_SITTING: "petsitters e passeadores de cães",
+  },
+  no: {
+    GROOMING: "hundefrisører",
+    VET_CLINIC: "veterinærer og dyreklinikker",
+    PET_HOTEL: "dyrehotell og pensjonater",
+    DOG_TRAINING: "hundetrenere og hundeskoler",
+    PET_SHOP: "dyrebutikker",
+    PET_SITTING: "dyrepassere og hundeluftere",
+  },
+  nl: {
+    GROOMING: "trimsalons",
+    VET_CLINIC: "dierenartsen en dierenklinieken",
+    PET_HOTEL: "dierenpensions en hondenhotels",
+    DOG_TRAINING: "hondenscholen en hondentrainers",
+    PET_SHOP: "dierenwinkels en dierenspeciaalzaken",
+    PET_SITTING: "hondenoppassers en uitlaatservices",
+  },
+  fi: {
+    GROOMING: "trimmaamot",
+    VET_CLINIC: "eläinlääkärit ja eläinklinikat",
+    PET_HOTEL: "koirahoitolat",
+    DOG_TRAINING: "koirakoulut ja kouluttajat",
+    PET_SHOP: "eläinkaupat",
+    PET_SITTING: "koiranhoitajat ja ulkoiluttajat",
+  },
+  hu: {
+    GROOMING: "kutyakozmetikák",
+    VET_CLINIC: "állatorvosok és rendelők",
+    PET_HOTEL: "kutyapanziók",
+    DOG_TRAINING: "kutyaiskolák és trénerek",
+    PET_SHOP: "állatkereskedések",
+    PET_SITTING: "kutyaszitterek és sétáltatók",
+  },
+  ja: {
+    GROOMING: "トリミングサロン",
+    VET_CLINIC: "動物病院",
+    PET_HOTEL: "ペットホテル",
+    DOG_TRAINING: "しつけ教室・ドッグスクール",
+    PET_SHOP: "ペットショップ",
+    PET_SITTING: "ペットシッター",
   },
 };
 
@@ -391,6 +583,54 @@ const SEO_TITLE: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de animales y productos para mascotas",
     PET_SITTING: "Cuidadores de perros y paseadores",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias e cuidados para cães",
+    VET_CLINIC: "Veterinários e clínicas veterinárias",
+    PET_HOTEL: "Hotéis caninos e creches para cães",
+    DOG_TRAINING: "Treino canino e escolas para cães",
+    PET_SHOP: "Lojas de animais e artigos para animais",
+    PET_SITTING: "Pet sitting e passeadores de cães",
+  },
+  no: {
+    GROOMING: "Hundefrisør og hundeklipp",
+    VET_CLINIC: "Veterinærer og dyreklinikker",
+    PET_HOTEL: "Hundehotell og kattehotell",
+    DOG_TRAINING: "Hundekurs og hundetrening",
+    PET_SHOP: "Dyrebutikker og dyreutstyr",
+    PET_SITTING: "Hundepass og hundelufting",
+  },
+  nl: {
+    GROOMING: "Trimsalons en honden trimmen",
+    VET_CLINIC: "Dierenartsen en dierenklinieken",
+    PET_HOTEL: "Dierenpensions en hondenhotels",
+    DOG_TRAINING: "Hondenscholen en hondentraining",
+    PET_SHOP: "Dierenwinkels en dierenspeciaalzaken",
+    PET_SITTING: "Hondenoppas en hondenuitlaatservice",
+  },
+  fi: {
+    GROOMING: "Koiran trimmaus ja trimmaamot",
+    VET_CLINIC: "Eläinlääkärit ja eläinklinikat",
+    PET_HOTEL: "Koirahoitolat ja lemmikkihotellit",
+    DOG_TRAINING: "Koirakoulut ja koirankoulutus",
+    PET_SHOP: "Eläinkaupat ja lemmikkitarvikkeet",
+    PET_SITTING: "Koiranhoitajat ja koiran ulkoilutus",
+  },
+  hu: {
+    GROOMING: "Kutyakozmetika és kutyanyírás",
+    VET_CLINIC: "Állatorvosok és állatorvosi rendelők",
+    PET_HOTEL: "Kutyapanziók és kutyanapközik",
+    DOG_TRAINING: "Kutyaiskolák és kutyakiképzés",
+    PET_SHOP: "Állatkereskedések és állateledel boltok",
+    PET_SITTING: "Kutyaszitterek és kutyasétáltatás",
+  },
+  ja: {
+    GROOMING: "トリミングサロン・犬のシャンプー＆カット",
+    VET_CLINIC: "動物病院・獣医師・夜間救急診療",
+    PET_HOTEL: "ペットホテル・犬と猫の宿泊預かり",
+    DOG_TRAINING: "犬のしつけ教室・ドッグトレーニング",
+    PET_SHOP: "ペットショップ・ペット用品店",
+    PET_SITTING: "ペットシッター・犬の散歩代行",
+  },
 };
 
 // Price overview (/<category>/<city>/prices) name: the main "prices"
@@ -462,6 +702,54 @@ const PRICES_NAME: Record<Locale, Record<BusinessCategory, string>> = {
     PET_SHOP: "Tiendas de animales",
     PET_SITTING: "Cuidador de perros",
   },
+  pt: {
+    GROOMING: "Banhos e tosquias",
+    VET_CLINIC: "Preços veterinário",
+    PET_HOTEL: "Hotel canino",
+    DOG_TRAINING: "Treino canino",
+    PET_SHOP: "Lojas de animais",
+    PET_SITTING: "Pet sitting",
+  },
+  no: {
+    GROOMING: "Hundefrisør",
+    VET_CLINIC: "Veterinærpriser",
+    PET_HOTEL: "Hundehotell",
+    DOG_TRAINING: "Hundekurs",
+    PET_SHOP: "Dyrebutikker",
+    PET_SITTING: "Hundepass",
+  },
+  nl: {
+    GROOMING: "Trimsalon",
+    VET_CLINIC: "Dierenarts",
+    PET_HOTEL: "Dierenpension",
+    DOG_TRAINING: "Hondenschool",
+    PET_SHOP: "Dierenwinkel",
+    PET_SITTING: "Hondenoppas",
+  },
+  fi: {
+    GROOMING: "Koiran trimmaus",
+    VET_CLINIC: "Eläinlääkärin hinnasto",
+    PET_HOTEL: "Koirahoitola",
+    DOG_TRAINING: "Koirakoulu",
+    PET_SHOP: "Eläinkaupat",
+    PET_SITTING: "Koiranhoitaja",
+  },
+  hu: {
+    GROOMING: "Kutyakozmetika árak",
+    VET_CLINIC: "Állatorvos árak",
+    PET_HOTEL: "Kutyapanzió árak",
+    DOG_TRAINING: "Kutyaiskola árak",
+    PET_SHOP: "Állatkereskedés árak",
+    PET_SITTING: "Kutyasétáltatás és kutyaszitter árak",
+  },
+  ja: {
+    GROOMING: "トリミング料金",
+    VET_CLINIC: "動物病院の診療料金",
+    PET_HOTEL: "ペットホテル料金",
+    DOG_TRAINING: "しつけ教室の料金",
+    PET_SHOP: "ペットショップの料金",
+    PET_SITTING: "ペットシッター料金",
+  },
 };
 
 const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
@@ -528,6 +816,54 @@ const BLURBS: Record<Locale, Record<BusinessCategory, string>> = {
     DOG_TRAINING: "Clases para cachorros, obediencia básica y conducta",
     PET_SHOP: "Comida, juguetes y accesorios de cada día",
     PET_SITTING: "Paseos, visitas y cuidado en casa",
+  },
+  pt: {
+    GROOMING: "Banhos, tosquias, stripping e corte de unhas",
+    VET_CLINIC: "Consultas, vacinas e urgências",
+    PET_HOTEL: "Uma estadia segura enquanto estiver fora",
+    DOG_TRAINING: "Aulas para cachorros, obediência básica e comportamento",
+    PET_SHOP: "Alimentação, brinquedos e artigos para o dia a dia",
+    PET_SITTING: "Passeios, visitas e acompanhamento ao domicílio",
+  },
+  no: {
+    GROOMING: "Vask, klipp, napping og klostell",
+    VET_CLINIC: "Konsultasjoner, vaksiner og akuttvakt",
+    PET_HOTEL: "Et trygt opphold mens du er bortreist",
+    DOG_TRAINING: "Valpekurs, hverdagslydighet og atferd",
+    PET_SHOP: "Fôr, leker og daglig utstyr",
+    PET_SITTING: "Turer, hjemmebesøk og døgnpass",
+  },
+  nl: {
+    GROOMING: "Wassen, knippen, plukken en nagelverzorging",
+    VET_CLINIC: "Consulten, vaccinaties en spoedzorg",
+    PET_HOTEL: "Veilig verblijf terwijl u op reis bent",
+    DOG_TRAINING: "Puppycursus, gehoorzaamheid en gedrag",
+    PET_SHOP: "Voeding, speelgoed en dagelijkse benodigdheden",
+    PET_SITTING: "Wandelingen, bezoeken en opvang aan huis",
+  },
+  fi: {
+    GROOMING: "Pesu, leikkaus, nypintä ja kynsien hoito",
+    VET_CLINIC: "Tarkastukset, rokotukset ja päivystys",
+    PET_HOTEL: "Turvallinen hoitopaikka matkasi ajaksi",
+    DOG_TRAINING: "Pentukurssit, arkitottelevaisuus ja käytösneuvonta",
+    PET_SHOP: "Ruoat, lelut ja arjen tarvikkeet",
+    PET_SITTING: "Ulkoilutus, kotikäynnit ja kotihoito",
+  },
+  hu: {
+    GROOMING: "Fürdetés, nyírás, trimmelés és karomápolás",
+    VET_CLINIC: "Vizsgálatok, védőoltások és sürgősségi ellátás",
+    PET_HOTEL: "Biztonságos elhelyezés, amíg távol vagy",
+    DOG_TRAINING: "Kölyöknevelés, alapfokú engedelmesség és viselkedésterápia",
+    PET_SHOP: "Eleségek, felszerelések és mindennapi kellékek",
+    PET_SITTING: "Sétáltatás, látogatás és háznál felügyelet",
+  },
+  ja: {
+    GROOMING: "シャンプー、カット、爪切り、エステケア",
+    VET_CLINIC: "一般診察、予防接種、夜間・救急対応",
+    PET_HOTEL: "ご旅行や急な外出時も安心な宿泊・一時預かり",
+    DOG_TRAINING: "パピー教室、基本しつけ、問題行動の改善",
+    PET_SHOP: "プレミアムフード、おやつ、おもちゃ、日常ケア用品",
+    PET_SITTING: "お散歩代行、ご自宅訪問、きめ細やかなペットケア",
   },
 };
 
@@ -625,6 +961,54 @@ const PLACE_TERM: Record<Locale, Record<BusinessCategory, { term: string; word: 
     PET_SHOP: { term: "tienda de mascotas", word: /^(tienda|pet|zoo)/ },
     PET_SITTING: { term: "cuidador de perros", word: /^(cuidador|paseador|dog|pet)/ },
   },
+  pt: {
+    VET_CLINIC: { term: "veterinário", word: /^(veterinári|veterinari|clínica|clinica|centro|hospital)/ },
+    GROOMING: { term: "banhos e tosquias", word: /^(banhos|tosquia|grooming|salão|salao|estética|estetica)/ },
+    PET_HOTEL: { term: "hotel canino", word: /^(hotel|creche|quinta|residencia|residência)/ },
+    DOG_TRAINING: { term: "treino canino", word: /^(trein|escola|club|centro|educador)/ },
+    PET_SHOP: { term: "loja de animais", word: /^(loja|pet|zoo|boutique)/ },
+    PET_SITTING: { term: "pet sitting", word: /^(pet|cuidador|passeador|dog)/ },
+  },
+  no: {
+    VET_CLINIC: { term: "veterinær", word: /^(veterin|dyreklinikk|dyresykehus|dyrehospital)/ },
+    GROOMING: { term: "hundefrisør", word: /^(hundefris|hundeklipp|groom|pelsstell)/ },
+    PET_HOTEL: { term: "dyrehotell", word: /^(dyrehotell|hundehotell|kattehotell|pensjonat|kennel)/ },
+    DOG_TRAINING: { term: "hundekurs", word: /^(hundekurs|hundetren|hundeskole|dressur)/ },
+    PET_SHOP: { term: "dyrebutikk", word: /^(dyrebutikk|zoobutikk|zoo|pet)/ },
+    PET_SITTING: { term: "hundepasser", word: /^(hundepass|dyrepass|hundeluft|petsit)/ },
+  },
+  nl: {
+    VET_CLINIC: { term: "dierenarts", word: /^(dierenarts|dierenkliniek|dierenartsenpraktijk|dierenziekenhuis)/ },
+    GROOMING: { term: "trimsalon", word: /^(trimsalon|hondentrimsalon|katten[\s-]?trimsalon|trimmerij)/ },
+    PET_HOTEL: { term: "dierenpension", word: /^(dierenpension|hondenpension|kattenpension|dierenhotel|hondenhotel)/ },
+    DOG_TRAINING: { term: "hondenschool", word: /^(hondenschool|hondentrain|kynolog)/ },
+    PET_SHOP: { term: "dierenwinkel", word: /^(dierenwinkel|dierenspeciaalzaak|pets\s?place|discus|jumper)/ },
+    PET_SITTING: { term: "hondenoppas", word: /^(hondenoppas|dierenoppas|kattenoppas|hondenuitlaat|pet|dog)/ },
+  },
+  fi: {
+    VET_CLINIC: { term: "eläinlääkäri", word: /^(eläinlääk|elainlaak|eläinklinik|elainklinik|klinikka|eläinsair|elainsair)/ },
+    GROOMING: { term: "koiran trimmaus", word: /^(trimmaam|trimmaus|koirasalon|grooming)/ },
+    PET_HOTEL: { term: "koirahoitola", word: /^(koirahoitol|lemmikkihoitol|kissahoitol|hoitola|koirahotell|hotelli|päiväkot|paivakot)/ },
+    DOG_TRAINING: { term: "koirakoulu", word: /^(koirakoul|koulutus|koirakeskus|koirapalvelu)/ },
+    PET_SHOP: { term: "eläinkauppa", word: /^(eläinkaup|elainkaup|lemmikkikaup|mustijamirri|pet|zoo)/ },
+    PET_SITTING: { term: "koiranhoitaja", word: /^(koiranhoit|lemmikinhoit|koiranulkoil|tassu|dog|pet|sitter)/ },
+  },
+  hu: {
+    VET_CLINIC: { term: "állatorvos", word: /^(állatorvos|allatorvos|rendel|kórház|korhaz|klinik)/ },
+    GROOMING: { term: "kutyakozmetika", word: /^(kutyakozmetik|kozmetik|grooming|nyír|nyir)/ },
+    PET_HOTEL: { term: "kutyapanzió", word: /^(kutyapanzi|panzi|kutyahotel|kutyanapköz|kutyanapkoz)/ },
+    DOG_TRAINING: { term: "kutyaiskola", word: /^(kutyaiskol|kutyasuli|kiképz|kikepz|tréner|trener)/ },
+    PET_SHOP: { term: "állatkereskedés", word: /^(állatkeresked|allatkeresked|állateledel|allateledel|díszállat|diszallat|pet|zoo)/ },
+    PET_SITTING: { term: "kutyaszitter", word: /^(kutyaszitter|sétáltat|setaltat|felügyelet|felugyelet|dog|pet)/ },
+  },
+  ja: {
+    VET_CLINIC: { term: "動物病院", word: /^(動物病院|クリニック|病院|clinic|hospital|vet)/ },
+    GROOMING: { term: "トリミングサロン", word: /^(トリミング|サロン|grooming|salon)/ },
+    PET_HOTEL: { term: "ペットホテル", word: /^(ホテル|hotel|pension)/ },
+    DOG_TRAINING: { term: "しつけ教室", word: /^(しつけ|訓練|スクール|school|training)/ },
+    PET_SHOP: { term: "ペットショップ", word: /^(ペットショップ|ショップ|shop|zoo)/ },
+    PET_SITTING: { term: "ペットシッター", word: /^(シッター|sitter|walker)/ },
+  },
 };
 
 const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -656,7 +1040,7 @@ export function categoryBlurb(category: BusinessCategory, locale: Locale): strin
 }
 
 // Locale-aware paths. English is unprefixed; see lib/i18n.ts.
-const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb", fr: "etablissement", it: "struttura", es: "centro" };
+const BUSINESS_SEGMENT: Record<Locale, string> = { en: "business", sk: "podnik", pl: "miejsce", cs: "podnik", de: "betrieb", fr: "etablissement", it: "struttura", es: "centro", pt: "centro", no: "bedrift", nl: "bedrijf", fi: "paikka", hu: "hely", ja: "shisetsu" };
 
 export function businessSegment(locale: Locale): string {
   return BUSINESS_SEGMENT[locale];
@@ -680,7 +1064,7 @@ export function categoryHubPath(locale: Locale, category: BusinessCategory): str
 
 // City hub: /city/<slug>/, /sk/mesto/<slug>/ - served by the
 // [category]/[city] route (this segment is never a category slug).
-export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt", fr: "ville", it: "citta", es: "ciudad" };
+export const CITY_SEGMENT: Record<Locale, string> = { en: "city", sk: "mesto", pl: "miasto", cs: "mesto", de: "stadt", fr: "ville", it: "citta", es: "ciudad", pt: "cidade", no: "by", nl: "stad", fi: "kaupunki", hu: "varos", ja: "toshi" };
 
 export function isCitySegment(segment: string, locale: Locale): boolean {
   return CITY_SEGMENT[locale] === segment;
