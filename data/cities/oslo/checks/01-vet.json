@@ -1,0 +1,38 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "petrus-veterinaerer-gressbanen-oslo",
+    "vetnor-dyreklinikk",
+    "petrus-veterinaerer-majorstuen-oslo",
+    "petrus-veterinaerer-grunerlokka-oslo",
+    "anicura-dyresykehus-oslo",
+    "evidensia-oslo-dyresykehus",
+    "maridalsveien-smadyrklinikk-oslo",
+    "friske-dyr-helsfyr-oslo"
+  ],
+  "hash": "bdaea8bd634e2f1027993c245d63f1e149cbba29c341b784b859164c0e87d39b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T08:28:46.038Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-18T08:46:03.956Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-18T08:46:12.270Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-18T08:50:27.967Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
