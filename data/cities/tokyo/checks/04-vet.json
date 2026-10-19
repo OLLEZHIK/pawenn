@@ -1,0 +1,39 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "nikotama-veterinary-hospital",
+    "takadanobaba-animal-hospital",
+    "casa-animal-clinic",
+    "shikinomori-animal-clinic",
+    "kudo-animal-hospital",
+    "kyodo-animal-clinic",
+    "pet-care-clinic-pilina",
+    "shinagawa-waf-animal-hospital",
+    "nishinippori-animal-clinic"
+  ],
+  "hash": "7b5bb54685b85b46b6444e9a9cbc36fd892d921d0a988e0bc73157012f1f41a8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T13:13:32.037Z",
+      "result": "FAIL",
+      "listed": 184
+    },
+    {
+      "at": "2026-10-18T13:14:46.125Z",
+      "result": "FAIL",
+      "listed": 184
+    },
+    {
+      "at": "2026-10-18T13:30:04.299Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:31:28.316Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
