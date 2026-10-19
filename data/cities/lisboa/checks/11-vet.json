@@ -1,0 +1,37 @@
+{
+  "chunk": "11-vet",
+  "kind": "places",
+  "slugs": [
+    "vetex",
+    "vet-planet-arroios"
+  ],
+  "hash": "27b80953d83688f53fd703e860f63601208b9257f2770184db0e5f334bffb78b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:22:47.581Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-19T18:25:07.947Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:26:52.906Z",
+      "result": "FAIL",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:27:42.418Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:28:26.419Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
