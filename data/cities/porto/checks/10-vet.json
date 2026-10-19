@@ -1,0 +1,38 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "centro-veterinario-st-ovidio",
+    "clinica-veterinaria-av-meneres",
+    "veterinary-clinic-petvet-leca-do-balio",
+    "veterinary-hospital-dr-francisco-correa-cardoso-lda",
+    "veterinarios-sobre-rodas-clinica-veterinaria-porto-bessa",
+    "mario-santos-arte-veterinaria",
+    "zu-veterinary-office-and-petshop",
+    "invet-medicina-veterinaria-integrativa"
+  ],
+  "hash": "63c06259e60e6bb6494da0906c2670782765d6fe60f7b168c635e9dbf6c5f9e3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:45:42.615Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-19T18:49:19.754Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-19T18:52:31.667Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:53:49.385Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
