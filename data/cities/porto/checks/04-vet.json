@@ -1,0 +1,37 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "vet-spa-porto",
+    "hospital-veterinario-upvet-porto",
+    "clinica-dos-gatos-porto",
+    "clinica-veterinaria-fernao-magalhaes",
+    "covelovet-clinica-veterinaria",
+    "clinica-veterinaria-oliveiras",
+    "hospital-dos-gatos-de-serralves"
+  ],
+  "hash": "ebd0f9e08e43cb6ca6d4dfb4222f26738a4cda444aa2ef5b0f0606aba5e8e132",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T12:42:41.457Z",
+      "result": "FAIL",
+      "listed": 75
+    },
+    {
+      "at": "2026-10-18T12:53:27.810Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T12:54:09.227Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T12:54:54.736Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
