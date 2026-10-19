@@ -1,2 +1,12 @@
 business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currency,source_url,observed_at,notes,unit,partial,note,note_local
 cat-nanny-lisboa-cat-sitting,cat_visit,,,18,,EUR,https://www.catnannylisboa.com/cuidados,2026-10-18,Cat sitting (1 hora) - A partir de 18 euros.,,,,
+hotel-para-gatos-ola-amigo,cat_night,,,23,23,EUR,https://ola-amigo.pt/pt/,2026-10-19,,,,Comfort box per day,Box Conforto por dia
+hotel-monsanto-pet,dog_night,0,10,15,15,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Small dog 0-10kg per night,Diária cão pequeno 0-10kg
+hotel-monsanto-pet,dog_night,11,25,17.5,17.5,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Medium dog 11-25kg per night,Diária cão médio 11-25kg
+hotel-monsanto-pet,dog_night,26,,19,19,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Large dog ≥26kg per night,Diária cão grande ≥26kg
+hotel-monsanto-pet,cat_night,,,13,13,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Cat per night,Diária para gatos
+hotel-monsanto-pet,daycare_day,,,9.6,9.6,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Dog daycare per day,Diária ATL cão
+hotel-monsanto-pet,pickup,,,10,10,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Pickup up to 20km,Recolha até 20km
+pethotel-zoo,dog_night,,,20,22,EUR,https://www.zoo.pt/pt/viver/pet-hotel/precos-e-servicos,2026-10-19,,,,Low / high season,Época baixa / alta
+pethotel-zoo,cat_night,,,13,14,EUR,https://www.zoo.pt/pt/viver/pet-hotel/precos-e-servicos,2026-10-19,,,,Low / high season,Época baixa / alta
+petssionate-boutique-hotel,cat_night,,,30,,EUR,https://www.petssionate.net/?p=1&lang=1,2026-10-19,,,,From 30 EUR per night,A partir de 30 EUR por noite
