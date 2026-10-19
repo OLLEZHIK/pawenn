@@ -1,0 +1,26 @@
+{
+  "chunk": "08-vet",
+  "kind": "places",
+  "slugs": [
+    "shinjuku-gyoenmae-animal-hospital",
+    "seibozaka-animal-clinic",
+    "harajuku-animal-clinic",
+    "yoyogi-park-cat-dog-hospital",
+    "setagayakakeru-animal-clinic",
+    "hakozaki-animal-clinic"
+  ],
+  "hash": "0df49eb4cb9914ad2da42a5f161ae4c120f75e15600c126578f592b5646c9506",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T19:48:40.459Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-18T19:52:04.190Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
