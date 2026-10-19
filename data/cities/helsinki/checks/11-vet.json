@@ -1,0 +1,24 @@
+{
+  "chunk": "11-vet",
+  "kind": "places",
+  "slugs": [],
+  "hash": "fa74515cb416d005b4abdd392d3a3564c4968ed24dd887b911992b1a8cd66d85",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:26:45.290Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-19T18:29:56.159Z",
+      "result": "FAIL",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:30:27.179Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
