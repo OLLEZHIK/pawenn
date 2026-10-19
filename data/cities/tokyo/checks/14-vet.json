@@ -1,0 +1,29 @@
+{
+  "chunk": "14-vet",
+  "kind": "places",
+  "slugs": [
+    "er-animal-emergency-center-bunkyo",
+    "platinum-dori-pet-clinic",
+    "igusa-animal-clinic",
+    "cross-animal-medical-center-kasai",
+    "pet-medical-kugahara",
+    "gaia-animal-clinic",
+    "kasairinkai-animal-clinic",
+    "miwa-exotic-animal-clinic",
+    "hikarigaoka-animal-clinic"
+  ],
+  "hash": "f03cb575b20aef74472b6c060e52c42c4156042fff9bbfa4d064cfc7af6e0667",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T06:57:45.355Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-19T07:04:16.860Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
