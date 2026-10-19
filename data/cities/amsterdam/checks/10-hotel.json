@@ -1,0 +1,23 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "montys-doggy-daycare",
+    "cat-vibes-kattenhotel",
+    "katwoman-ko"
+  ],
+  "hash": "a4dcccb7b17028653d16e932b2b8e8d0e2c85d208cd1ccee080b958f1f2ccc0d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T10:57:00.162Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-18T10:58:17.458Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
