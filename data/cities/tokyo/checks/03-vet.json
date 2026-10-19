@@ -1,0 +1,40 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "petlife-animal-hospital",
+    "peco-shibuya-harajuku",
+    "hana-animal-hospital",
+    "bellvet-animal-hospital",
+    "crown-animal-clinic",
+    "ojima-animal-clinic",
+    "daikanyama-animal-clinic",
+    "mogu-animal-clinic",
+    "all-animal-clinic",
+    "hayashi-animal-clinic"
+  ],
+  "hash": "03ee71392fbde350d229541ea07ba80bd83cf439f4b02d6d87d0c42ac61cbac9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T12:55:11.781Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-18T12:57:50.006Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:00:33.833Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:01:39.460Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
