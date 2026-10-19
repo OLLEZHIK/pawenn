@@ -1,0 +1,28 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "garden-animal-hospital",
+    "pet-clinic-anihos",
+    "otakibashi-animal-clinic",
+    "osaki-animal-clinic",
+    "ypc-tokyodobutsuseikeigeka-clinic",
+    "yoyogiuehara-animal-clinic",
+    "sunny-animal-clinic",
+    "heart-animal-clinic"
+  ],
+  "hash": "b0064e8995a0032438d76787a3c3b15222805507c2260861dfccc326978d2fd1",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T07:47:54.975Z",
+      "result": "FAIL",
+      "listed": 35
+    },
+    {
+      "at": "2026-10-19T07:57:37.618Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
