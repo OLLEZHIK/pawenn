@@ -1,0 +1,28 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "empet-storo-oslo",
+    "gamlebyen-dyreklinikk-oslo",
+    "empet-nydalen-oslo",
+    "empet-kalbakken-oslo",
+    "empet-ryen-oslo",
+    "anicura-dyreklinikk-lilleaker-oslo",
+    "empet-ulleval-oslo",
+    "empet-roa-dyreklinikk-oslo"
+  ],
+  "hash": "2003fb2f1836cf1006bb3e1b1a5fcdf59245a69ff2bf75a41f113e93618ba8b7",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T10:19:26.871Z",
+      "result": "FAIL",
+      "listed": 51
+    },
+    {
+      "at": "2026-10-18T10:48:36.915Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
