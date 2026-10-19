@@ -1,0 +1,27 @@
+{
+  "chunk": "42-grooming",
+  "kind": "places",
+  "slugs": [
+    "m-neige",
+    "dog-salon-white"
+  ],
+  "hash": "b3d7998566258e9ea78b32dd39fae9f606a0a13dab6e8bbe298325e5672440ca",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T19:36:07.919Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-19T19:42:34.844Z",
+      "result": "FAIL",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T19:44:32.351Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
