@@ -1,4 +1,34 @@
 business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currency,source_url,observed_at,notes,unit,partial,note,note_local
+wag-collective,full_groom,,5,60,,EUR,http://www.wagcollective.com/pricing,2026-10-18,full groom - 60.00 € (long coat up to 5kg),,,,
+wag-collective,bath_dry,,5,45,,EUR,http://www.wagcollective.com/pricing,2026-10-18,wash & brush - 45.00€ (short coat up to 5kg),,,,
+wag-collective,deshedding,,5,15,,EUR,http://www.wagcollective.com/pricing,2026-10-18,coat maintenance - 15.00 € (short coat up to 5kg),,,,
+wag-collective,nail_trim,,,15,15,EUR,http://www.wagcollective.com/pricing,2026-10-18,"ears, nails, teeth - 15.00 €",,,,
+cila-banhos-e-tosquias,full_groom,,10,40,,EUR,https://www.cila.pt/precos-banhos-tosquias-lisboa-caes.php,2026-10-18,Banho + Tosquia - 10 kg: 40€,,,,
+cila-banhos-e-tosquias,bath_dry,,10,33,,EUR,https://www.cila.pt/precos-banhos-tosquias-lisboa-caes.php,2026-10-18,Banho Pelo Curto - 10 kg: 33€,,,,
+cila-banhos-e-tosquias,hand_stripping,,,64,,EUR,https://www.cila.pt/precos-banhos-tosquias-lisboa-caes.php,2026-10-18,Banho + Stripping: 64€,,,,
+cila-banhos-e-tosquias,cat_groom,,,71,,EUR,https://www.cila.pt/precos-banhos-tosquias-lisboa-gatos.php,2026-10-18,Banho + Tosquia Gatos Pelo Curto: 71€,,,,
+pawsnsurf-grooming,full_groom,,,45,,EUR,https://pawsnsurf.com/pt/services,2026-10-18,Tosquia Completa: from €45,,,,
+pawsnsurf-grooming,bath_dry,,,40,,EUR,https://pawsnsurf.com/pt/services,2026-10-18,Banho e Secagem: from €40,,,,
+pawsnsurf-grooming,hand_stripping,,,80,,EUR,https://pawsnsurf.com/pt/services,2026-10-18,Hand Stripping: from €80,,,,
+pawsnsurf-grooming,nail_trim,,,15,15,EUR,https://pawsnsurf.com/pt/services,2026-10-18,Paw'dicure: €15,,,,
+sploot-grooming,full_groom,,,50,,EUR,https://dikidi.net/en/profile/sploot_1316298/services,2026-10-18,Haircut for Yorkshire Terrier: 50 EUR,,,,
+sploot-grooming,bath_dry,,,50,,EUR,https://dikidi.net/en/profile/sploot_1316298/services,2026-10-18,Bath & Deshedding for Chihuahua (Shorthaired): from 50 EUR,,,,
+sploot-grooming,deshedding,,,50,,EUR,https://dikidi.net/en/profile/sploot_1316298/services,2026-10-18,De-shedding for Jack Russel (Smooth-coated): from 50 EUR,,,,
+sploot-grooming,nail_trim,,,20,20,EUR,https://dikidi.net/en/profile/sploot_1316298/services,2026-10-18,"Nail & Paw Care – Trim, Buff & Pad Shave: 20 EUR",,,,
+hund-dog,behavior_consult,,,100,100,EUR,https://lps.hunddogadestramento.com/adestramento/,2026-10-18,Consultoria comportamental (1h30),,,,
+hund-dog,private_lesson,,,60,60,EUR,https://lps.hunddogadestramento.com/adestramento/,2026-10-18,Aula avulsa de treino (30-40 min),,,,
+hund-dog,obedience_course,,,400,400,EUR,https://lps.hunddogadestramento.com/adestramento/,2026-10-18,Programa Essencial (8 aulas de treino),,,8 lessons,8 aulas
+cat-nanny-lisboa-cat-sitting,cat_visit,,,18,,EUR,https://www.catnannylisboa.com/cuidados,2026-10-18,Cat sitting (1 hora) - A partir de 18 euros.,,,,
+hotel-para-gatos-ola-amigo,cat_night,,,23,23,EUR,https://ola-amigo.pt/pt/,2026-10-19,,,,Comfort box per day,Box Conforto por dia
+hotel-monsanto-pet,dog_night,0,10,15,15,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Small dog 0-10kg per night,Diária cão pequeno 0-10kg
+hotel-monsanto-pet,dog_night,11,25,17.5,17.5,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Medium dog 11-25kg per night,Diária cão médio 11-25kg
+hotel-monsanto-pet,dog_night,26,,19,19,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Large dog ≥26kg per night,Diária cão grande ≥26kg
+hotel-monsanto-pet,cat_night,,,13,13,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Cat per night,Diária para gatos
+hotel-monsanto-pet,daycare_day,,,9.6,9.6,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Dog daycare per day,Diária ATL cão
+hotel-monsanto-pet,pickup,,,10,10,EUR,https://www.monsantopet.pt/pt/condicoes_gerais/,2026-10-19,,,,Pickup up to 20km,Recolha até 20km
+pethotel-zoo,dog_night,,,20,22,EUR,https://www.zoo.pt/pt/viver/pet-hotel/precos-e-servicos,2026-10-19,,,,Low / high season,Época baixa / alta
+pethotel-zoo,cat_night,,,13,14,EUR,https://www.zoo.pt/pt/viver/pet-hotel/precos-e-servicos,2026-10-19,,,,Low / high season,Época baixa / alta
+petssionate-boutique-hotel,cat_night,,,30,,EUR,https://www.petssionate.net/?p=1&lang=1,2026-10-19,,,,From 30 EUR per night,A partir de 30 EUR por noite
 ooh-la-la-pet-grooming-spa,full_groom,,,30,,EUR,https://oohlalapetgroomingspa.com/en/servicos,2026-10-18,Desde 30€ 1 hora,,,,
 ooh-la-la-pet-grooming-spa,bath_dry,,,20,,EUR,https://oohlalapetgroomingspa.com/en/servicos,2026-10-18,Desde 20€ 45 minutos,,,,
 ooh-la-la-pet-grooming-spa,hand_stripping,,,45,,EUR,https://oohlalapetgroomingspa.com/en/servicos,2026-10-18,"Desde 45€ 1,5 h",,,,
