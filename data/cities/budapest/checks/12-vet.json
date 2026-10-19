@@ -1,0 +1,23 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "exo-pet-veterinary-center",
+    "small-animal-clinic",
+    "tutivet-allatorvosi-rendelo"
+  ],
+  "hash": "26650630ecf61b176f3f863de18de50522fc1d6761d1a98cab98bb0f36341042",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:32:31.737Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-19T18:35:57.277Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
