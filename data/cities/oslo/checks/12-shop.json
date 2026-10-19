@@ -1,0 +1,27 @@
+{
+  "chunk": "12-shop",
+  "kind": "places",
+  "slugs": [
+    "dyresjappa",
+    "petxl-alna-oslo"
+  ],
+  "hash": "92f245c5c86f250edb91ae38fd5752f6f1d93dc487e639ddc010bb806c38cffc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:17:37.469Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-19T18:20:32.097Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:22:22.831Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
