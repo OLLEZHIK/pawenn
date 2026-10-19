@@ -1,0 +1,35 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "petissimo",
+    "allatijo-aruhaz",
+    "crazy-pet",
+    "fressnapf-vaci-ut-budapest",
+    "dogzilla-petshop",
+    "fressnapf-bajza-utca-budapest",
+    "alphazoo-dohany-utca-budapest",
+    "mypet-pet-store",
+    "aqua-pet-hungary",
+    "alphazoo-nyugati-ter-budapest"
+  ],
+  "hash": "420ecc6d82a1f1edcd7f7454695626d17049ea24de635c74d70dfe61029faaa7",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T10:03:06.191Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-18T10:12:27.007Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T10:15:10.033Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
