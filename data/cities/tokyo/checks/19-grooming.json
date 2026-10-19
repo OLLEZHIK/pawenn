@@ -1,0 +1,29 @@
+{
+  "chunk": "19-grooming",
+  "kind": "places",
+  "slugs": [
+    "pet-salon-birthday-shibuya",
+    "dog-salon-lc-komazawa",
+    "wan-and-one",
+    "pet-hills-shibuya-omotesando"
+  ],
+  "hash": "7027a33fec525af28dbfeb4d61b32c1aafec2d353486f1f30aa182bc29a6a415",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T19:10:39.710Z",
+      "result": "FAIL",
+      "listed": 20
+    },
+    {
+      "at": "2026-10-19T19:13:46.974Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-19T19:15:00.681Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
