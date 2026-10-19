@@ -1,0 +1,35 @@
+{
+  "chunk": "22-shop",
+  "kind": "places",
+  "slugs": [
+    "german-pet-house-ginza",
+    "manekineko-pet-shop-shinjuku",
+    "coo-riku-shinjukusanchome",
+    "coo-riku-akasaka",
+    "coo-riku-okubo",
+    "dax-dachs-ginza",
+    "hitowan-daikanyama",
+    "p2-dog-cat-shibuya-hikarie",
+    "green-dog-tokyo-midtown",
+    "zoo-shin-okubo"
+  ],
+  "hash": "c8b8961170efabaf154823ed8290e988ea99fff82093e8c47775b295501e1c2a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T08:36:45.360Z",
+      "result": "FAIL",
+      "listed": 29
+    },
+    {
+      "at": "2026-10-19T08:53:33.136Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-19T08:59:23.550Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

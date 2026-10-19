@@ -1,0 +1,33 @@
+{
+  "chunk": "13-vet",
+  "kind": "places",
+  "slugs": [
+    "komaba-animal-clinic",
+    "kototoidori-animal-clinic",
+    "toda-animal-clinic",
+    "athena-animal-hospital-kameido",
+    "ejiri-pet-clinic",
+    "sugimoto-animal-clinic",
+    "ravi-shinagawa-animal-clinic",
+    "tokyo-animal-medical-center"
+  ],
+  "hash": "cf1327eb4146ba4eccc6af63be437f6bbf20b7e36a29e6e310a9a5ad6baad3e1",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T12:57:29.431Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-18T12:59:02.112Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-18T12:59:51.027Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
