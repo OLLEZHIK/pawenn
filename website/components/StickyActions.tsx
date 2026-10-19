@@ -45,7 +45,7 @@ export function StickyActions({
 
   if (contactInView || footerInView) return null;
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-background/95 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur lg:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-background px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 after:absolute after:inset-x-0 after:top-full after:h-24 after:bg-background after:content-[''] lg:hidden">
       <div className="mx-auto max-w-xl">
         <QuickActions businessId={businessId} phone={phone} website={website} address={address} layout="grid" locale={locale} />
       </div>
