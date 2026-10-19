@@ -1,0 +1,30 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "petbelo",
+    "petoutlet-fanqueiros",
+    "doggie-pet-shop",
+    "kiwoko-elias-garcia-lisboa",
+    "mundo-animal-outlet",
+    "tiendanimal-acqua-roma-lisboa",
+    "kiwoko-gare-do-oriente-lisboa",
+    "tiendanimal-telheiras-lisboa",
+    "tiendanimal-campo-grande-lisboa",
+    "kiwoko-campo-pequeno-lisboa"
+  ],
+  "hash": "9745ac26ca4eff618f7e6b1f982b5510d49479d6d2bb94d94fd4a9f9d6bfacb3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T17:47:21.636Z",
+      "result": "FAIL",
+      "listed": 90
+    },
+    {
+      "at": "2026-10-18T17:51:57.555Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
