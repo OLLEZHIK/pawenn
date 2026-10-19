@@ -1,0 +1,31 @@
+{
+  "chunk": "26-training",
+  "kind": "places",
+  "slugs": [
+    "dogly-tokyo",
+    "school-of-dog-meguro",
+    "school-of-dog-futakotamagawa",
+    "skywan-kiba-koen",
+    "tokyo-dogs-bunkyo-honkomagome",
+    "tokyo-dogs-ota-omori"
+  ],
+  "hash": "1f24d5a5ac4560acc4724b21ca0a7dd1fd6539da5cb2d6c56de2dddfbf0cabfc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T09:28:16.566Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-19T09:35:51.487Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T09:36:31.070Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

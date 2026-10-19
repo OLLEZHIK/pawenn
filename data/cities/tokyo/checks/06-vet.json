@@ -1,0 +1,45 @@
+{
+  "chunk": "06-vet",
+  "kind": "places",
+  "slugs": [
+    "saito-rabbit-clinic",
+    "oji-pet-clinic",
+    "tokyo-lovery-animal-hospital",
+    "mitaka-dori-animal-hospital",
+    "kins-with-animal-hospital-futakotamagawa",
+    "nihonbashi-animal-clinic",
+    "shinjuku-animal-clinic",
+    "shibuya-friends-animal-clinic",
+    "endo-animal-clinic",
+    "toyosu-animal-clinic"
+  ],
+  "hash": "8747194710e562ac215d81796145e025aa2075738533df0b8bb7f26407370f0f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T13:31:30.929Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-18T13:33:36.723Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-18T13:34:02.922Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:36:01.092Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:37:27.575Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
