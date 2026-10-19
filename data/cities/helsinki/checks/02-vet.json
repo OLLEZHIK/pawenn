@@ -1,0 +1,34 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "elainsairaala-mevet",
+    "elainlaakariasema-veteira-mannerheimintie",
+    "sopulitien-elainlaakariasema-oy",
+    "elainlaakariasema-veteira-merimiehenkatu",
+    "ahma-elainklinikka",
+    "elainklinikka-equivet",
+    "elainlaakariasema-pups-n-pets-jatkasaari",
+    "vetsy-veterinar",
+    "elainlaakariasema-pups-n-pets-kalasatama"
+  ],
+  "hash": "bbb975b407f6b14cca69d71745e63f3e1394e933f69baa2d51bf7cb8cbe8ce0a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T09:27:38.824Z",
+      "result": "FAIL",
+      "listed": 62
+    },
+    {
+      "at": "2026-10-18T09:37:52.976Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T09:38:38.971Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
