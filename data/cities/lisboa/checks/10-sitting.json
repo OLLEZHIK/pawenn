@@ -1,0 +1,33 @@
+{
+  "chunk": "10-sitting",
+  "kind": "places",
+  "slugs": [
+    "dog-walking-lisbon",
+    "malu-pet-care-petsitting",
+    "cat-nanny-lisboa-cat-sitting"
+  ],
+  "hash": "f334d722ed61254daa2e9d1749e9c10b0e9208606dac47bbcc5893bd12c3e323",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T14:43:54.649Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-18T17:58:25.527Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-18T18:03:56.124Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T18:06:32.357Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
