@@ -1,0 +1,28 @@
+{
+  "chunk": "14-hotel",
+  "kind": "places",
+  "slugs": [
+    "yorki-hotel-kiskutya-panzio",
+    "citypets-kutyapanzio",
+    "boldoghotel-kutyapanzio-es-kutyanapkozi"
+  ],
+  "hash": "8774bd1bc1e66629293e11cc07398fab4c348552ee2808a556e228bd19dcac4b",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T19:39:29.955Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-19T19:50:11.889Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-19T19:53:10.783Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
