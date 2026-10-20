@@ -1,0 +1,43 @@
+{
+  "chunk": "37-vet",
+  "kind": "places",
+  "slugs": [
+    "megurosenzoku-veterinary-hospital",
+    "sato-animal-clinic",
+    "gakugeidaigaku-animal-clinic",
+    "bamboo-pet-clinic",
+    "bright-animal-clinic",
+    "nihondobutsukodoiryo-center-tokyo-clinic",
+    "haru-pets-clinic-tokyo",
+    "zero-animal-clinic"
+  ],
+  "hash": "c36cef84dfc1bc973cc25c7c0f07b3dcdfd65dd4f59a236d5fb572f2c83e68ea",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T15:55:08.075Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:55:58.690Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:59:10.157Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-20T16:00:01.669Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T16:00:48.222Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
