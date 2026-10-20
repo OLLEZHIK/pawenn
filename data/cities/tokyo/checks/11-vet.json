@@ -1,0 +1,38 @@
+{
+  "chunk": "11-vet",
+  "kind": "places",
+  "slugs": [
+    "uenonomori-animal-clinic",
+    "hiroonomoridobutsu-clinic",
+    "eifukuanimaru-clinic",
+    "kibakitamura-animal-clinic",
+    "imoto-animal-clinic",
+    "komazawa-animal-hospital",
+    "tama-animal-clinic",
+    "kitashinagawa-animal-hospital"
+  ],
+  "hash": "93796caa1e261c53cc0d0017f950a5cd5b8dc887a329dc64a6ce03b11a681968",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T16:29:38.568Z",
+      "result": "FAIL",
+      "listed": 106
+    },
+    {
+      "at": "2026-10-20T16:44:31.367Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-20T16:57:00.183Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T16:59:45.542Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
