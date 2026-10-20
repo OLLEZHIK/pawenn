@@ -1,0 +1,48 @@
+{
+  "chunk": "09-vet",
+  "kind": "places",
+  "slugs": [
+    "ikemura-pet-clinic",
+    "house-animal-hospital",
+    "amano-animal-hospital",
+    "forester-animal-hospital",
+    "anihokkuoshinsenmon-animal-clinic",
+    "mojamoja-animal-clinic",
+    "abyss-animal-hospital",
+    "taro-animal-clinic"
+  ],
+  "hash": "bb9164bbe0cc9cb5b63a4abc680431ed0ab8f851d1c6bab31ca9750583c314eb",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T19:26:28.110Z",
+      "result": "FAIL",
+      "listed": 20
+    },
+    {
+      "at": "2026-10-19T19:34:36.516Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-19T19:36:28.095Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-19T19:36:57.565Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T19:38:27.647Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T19:39:53.452Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
