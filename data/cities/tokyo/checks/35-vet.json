@@ -1,0 +1,39 @@
+{
+  "chunk": "35-vet",
+  "kind": "places",
+  "slugs": [
+    "toto-vet",
+    "alma-animal-hospital",
+    "keikokunomori-animal-clinic",
+    "yoshiikejuika-clinic",
+    "ikedadobutsubyoin-seijotori-clinic",
+    "shimokitazawa-animal-clinic",
+    "koide-animal-clinic",
+    "yamada-animal-hospital",
+    "shibaura-kaigan-animal-clinic"
+  ],
+  "hash": "cd0350ac00714150d161d6b02a3e077eb1a2e3d6801c6381818dbaf109d2fd4e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T15:34:07.220Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-20T15:45:42.476Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:47:08.224Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:48:42.122Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
