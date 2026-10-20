@@ -1,0 +1,38 @@
+{
+  "chunk": "43-shop",
+  "kind": "places",
+  "slugs": [
+    "puppy-dream",
+    "ps-first-azabujuban",
+    "pet-super-wan-shinjuku",
+    "petemo-shinagawa-seaside",
+    "dog-cat-joker-nihonbashi",
+    "pet-shop-soleil-ebisu",
+    "inu-no-ie-neko-no-sato-shinjuku",
+    "pet-paradise-shibuya"
+  ],
+  "hash": "c50dfe46865940bea4ea8951488b3cb104cb10ec518745a7144652c0119d7fb9",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T16:04:09.425Z",
+      "result": "FAIL",
+      "listed": 85
+    },
+    {
+      "at": "2026-10-20T16:18:43.392Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-20T16:27:04.560Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T16:33:17.479Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
