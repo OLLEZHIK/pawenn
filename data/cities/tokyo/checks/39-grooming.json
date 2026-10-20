@@ -1,0 +1,36 @@
+{
+  "chunk": "39-grooming",
+  "kind": "places",
+  "slugs": [
+    "dogsalon-hotel-losange",
+    "queens-spa-rise",
+    "dog-salon-with-shinjuku",
+    "cheriwange-shiba",
+    "fine-pets",
+    "happys-kuramae"
+  ],
+  "hash": "7fe4a4b8020a766497045a2bc09841406acaa65ce9a33b576fcfd407a6c43229",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T20:15:36.755Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-20T20:38:14.941Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-20T20:45:49.499Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T20:47:54.018Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
