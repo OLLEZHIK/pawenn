@@ -1,0 +1,38 @@
+{
+  "chunk": "44-shop",
+  "kind": "places",
+  "slugs": [
+    "pet-paradise-harajuku",
+    "ps-first-shinjuku",
+    "harry-harajuku",
+    "pet-paradise-olinas-kinshicho",
+    "pet-paradise-odaiba",
+    "natural-18dogs-daikanyama",
+    "dogood-yoyogikoen",
+    "k9-natural-omotesando"
+  ],
+  "hash": "1619986af975647f5269cb0fd0ba19b4e8012cdd4bcaa646276a627428c0ec12",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T19:57:27.541Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-20T15:44:34.781Z",
+      "result": "FAIL",
+      "listed": 11
+    },
+    {
+      "at": "2026-10-20T15:57:52.013Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-20T16:03:21.250Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
