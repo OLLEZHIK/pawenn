@@ -1,0 +1,41 @@
+{
+  "chunk": "09-training",
+  "kind": "places",
+  "slugs": [
+    "dog-training-academy"
+  ],
+  "hash": "47e6cc776b5c4d9f57221e47cab2364f444a74007e5c8d8ef3c95f4f73b95a37",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T22:59:32.033Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-22T23:07:15.749Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:08:09.716Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:09:20.102Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:09:58.750Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-22T23:10:47.200Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
