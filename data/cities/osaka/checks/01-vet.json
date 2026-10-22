@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "liberalarts-animal-clinic",
+    "joto-tsurumi-animal-hospital",
+    "afro-animal-clinic",
+    "doshin-animal-medical-center",
+    "est-sogodobutsu-clinic",
+    "yuhigaoka-animal-clinic",
+    "osakayakan-animal-clinic",
+    "nanba-animal-clinic",
+    "mohei-animal-clinic",
+    "bear-animal-clinic"
+  ],
+  "hash": "d4961425f37cc090b38f51a316078e79fad38737923e88fb628ccd9f171bcc67",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T21:49:58.678Z",
+      "result": "FAIL",
+      "listed": 99
+    },
+    {
+      "at": "2026-10-22T22:05:47.626Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
