@@ -1,0 +1,150 @@
+{
+  "slug": "vet-ben",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vet+Ben/data=!4m7!3m6!1s0xd1eccd58b920133:0x75f5433f0cd11c25!8m2!3d38.7503167!4d-9.1939179!16s%2Fg%2F11g8fydk41!19sChIJMwGSi9XMHg0RJRzRDD9D9XU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "pt": "Competência clínica e dedicação ao animal",
+        "en": "Clinical competence and dedication to animals"
+      },
+      "text": {
+        "pt": "A vasta maioria dos tutores elogia a competência e o profissionalismo das médicas veterinárias na clínica de São Domingos de Benfica. Vários clientes sublinham a abordagem experiente e o carinho demonstrado mesmo em situações difíceis, existindo apenas um relato insatisfeito quanto à gestão de um animal mais nervoso durante a consulta.",
+        "en": "The vast majority of pet guardians praise the clinical competence and dedication of the veterinary doctors in São Domingos de Benfica. Reviewers appreciate the experienced, sensible approach and gentle support in challenging moments, with only an isolated negative review noting friction when handling an anxious cat."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Preços justos com apreciações distintas",
+        "en": "Affordable fees alongside mixed feedback"
+      },
+      "text": {
+        "pt": "Vários clientes consideram os preços da clínica bastante justos e acessíveis em comparação com outros espaços em Lisboa, elogiando uma postura orientada para o bem-estar animal e não para o lucro. Por outro lado, um tutor queixou-se de custos inesperados associados a alimentos específicos recomendados e à emissão de documentação.",
+        "en": "Several clients view the clinic's rates as fair and budget-friendly compared to other veterinary practices in Lisbon, commending a care-oriented approach rather than commercial motives. Conversely, one reviewer complained about unexpected expenses related to specialized dietary food and administrative passport correction."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Desfechos clínicos com relato divergente",
+        "en": "Effective treatments with one diverging account"
+      },
+      "text": {
+        "pt": "Os donos de animais relatam diagnósticos acertados e recuperações bem-sucedidas em patologias crónicas e acompanhamentos de longa data. No entanto, um cliente refere que o tratamento prescrito não surtiu o efeito desejado no seu animal, gerando um contraste face à elevada taxa de satisfação e fidelização expressa pelos restantes revisores.",
+        "en": "Pet owners report accurate clinical diagnoses and successful recoveries for chronic skin issues and long-term companion care. Nevertheless, one client noted that prescribed dietary therapy failed to improve their pet's health, creating a distinct contrast against the high level of satisfaction reported by long-standing clients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "Os clientes consideram os preços da Vet Ben acessíveis?",
+        "en": "Do clients consider Vet Ben's prices affordable?"
+      },
+      "a": {
+        "pt": "A maioria dos tutores descreve os valores das consultas como justos e económicos, embora um cliente aponte custos com ração prescrita.",
+        "en": "Most pet owners describe the consultation rates as fair and economical, though one review noted costs for specialized prescribed food."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A clínica dispõe de exames de diagnóstico no local?",
+        "en": "Does the clinic offer on-site diagnostic tests?"
+      },
+      "a": {
+        "pt": "Sim, a Vet Ben dispõe de meios para análises laboratoriais clínicas e ecografia.",
+        "en": "Yes, Vet Ben provides facilities for clinical laboratory analysis and ultrasound imaging."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "É necessário marcar consulta com antecedência?",
+        "en": "Is it necessary to schedule an appointment in advance?"
+      },
+      "a": {
+        "pt": "Recomenda-se o contacto prévio para marcação, permitindo gerir os atendimentos médicos com tranquilidade.",
+        "en": "Contacting the clinic beforehand is recommended to ensure smooth scheduling of medical appointments."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
