@@ -14,14 +14,26 @@ type Entry = MetadataRoute.Sitemap[number];
 
 // One entry per language version, each carrying hreflang alternates for
 // the whole set (Google's sitemap flavour of hreflang).
+//
+// City pages list only the city's own language (owner, 2026-10-22): the
+// English translation of a Warsaw or Paris page stays on the site and in
+// every hreflang set, but not as a sitemap entry of its own. Two thirds of
+// the sitemap were English (6,165 of 9,302), about 3,000 of them
+// translations Google crawls last, and "Discovered - currently not indexed"
+// grew to 3,490. Cities whose language is English keep their English pages.
 function localized(
   locales: Locale[],
   pathFor: (locale: Locale) => string,
-  extra: Omit<Entry, "url" | "alternates">
+  extra: Omit<Entry, "url" | "alternates">,
+  { localOnly = false }: { localOnly?: boolean } = {}
 ): Entry[] {
   const languages = Object.fromEntries(locales.map((l) => [l, `${SITE_URL}${pathFor(l)}`]));
-  return locales.map((l) => ({ url: `${SITE_URL}${pathFor(l)}`, alternates: { languages }, ...extra }));
+  const local = locales.filter((l) => l !== "en");
+  const listed = localOnly && local.length > 0 ? local : locales;
+  return listed.map((l) => ({ url: `${SITE_URL}${pathFor(l)}`, alternates: { languages }, ...extra }));
 }
+
+const CITY = { localOnly: true };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [cities, districts, businesses] = await Promise.all([
@@ -50,7 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   cities.forEach((city, i) => {
     if (cityTotals[i].total >= MIN_LISTED_FOR_INDEX) {
       entries.push(
-        ...localized(localesForCity(city), (l) => cityPath(l, city.slug), { changeFrequency: "weekly", priority: 0.9 })
+        ...localized(localesForCity(city), (l) => cityPath(l, city.slug), { changeFrequency: "weekly", priority: 0.9 }, CITY)
       );
     }
   });
@@ -68,7 +80,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           Promise.all(cityDistricts.map((d) => getCategoryAggregates(category, city.slug, d.slug))),
         ]);
         if (cityAggregates.count >= MIN_LISTED_FOR_INDEX) {
-          out.push(...localized(locales, (l) => listingPath(l, category, city.slug), { changeFrequency: "daily", priority: 0.9 }));
+          out.push(...localized(locales, (l) => listingPath(l, category, city.slug), { changeFrequency: "daily", priority: 0.9 }, CITY));
         }
 
         // Attribute pages (nonstop, Saturday, Sunday, exotics, home visits):
@@ -79,7 +91,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               ...localized(locales, (l) => attributePath(l, category, city.slug, key), {
                 changeFrequency: "daily",
                 priority: 0.8,
-              })
+              }, CITY)
             );
           }
         }
@@ -94,7 +106,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               lastModified: checked.length ? new Date(Math.max(...checked.map((d) => d.getTime()))) : undefined,
               changeFrequency: "weekly",
               priority: 0.8,
-            })
+            }, CITY)
           );
           [...market.keys()].forEach((code, i) => {
             out.push(
@@ -102,7 +114,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
                 lastModified: summaries[i].checked ?? undefined,
                 changeFrequency: "weekly",
                 priority: 0.8,
-              })
+              }, CITY)
             );
           });
         }
@@ -113,7 +125,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
               ...localized(locales, (l) => listingPath(l, category, city.slug, district.slug), {
                 changeFrequency: "daily",
                 priority: 0.7,
-              })
+              }, CITY)
             );
           }
         });
@@ -133,7 +145,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: page.lastModified ? new Date(page.lastModified) : undefined,
         changeFrequency: "weekly",
         priority: page.districtSlug ? 0.7 : 0.8,
-      })
+      }, CITY)
     );
   }
 
@@ -143,7 +155,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: business.verifiedAt ?? undefined,
         changeFrequency: "monthly",
         priority: 0.6,
-      })
+      }, CITY)
     );
   }
 
