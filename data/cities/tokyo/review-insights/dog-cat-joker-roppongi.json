@@ -1,0 +1,144 @@
+{
+  "slug": "dog-cat-joker-roppongi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOG%26CAT+JOKER+%E5%85%AD%E6%9C%AC%E6%9C%A8%E5%BA%97/data=!4m7!3m6!1s0x60188b76f44c84f1:0x3e01c6e4f0b7ce69!8m2!3d35.6600824!4d139.7298542!16s%2Fg%2F1tm1qg4_!19sChIJ8YRM9HaLGGARac638OTGAT4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "接客対応とレジ案内への不満",
+        "en": "Customer service and register issues"
+      },
+      "text": {
+        "ja": "六本木ヒルズ店のスタッフ対応に対しては、無愛想さや顧客への気配りの不足を指摘する批判的な声が複数寄せられています。レジに顧客が立って待っているにもかかわらずパソコン作業に没頭して対応を後回しにされた事例や、他店舗に比べて冷たい態度を受けたと感じる来店者が目立っています。丁寧な仕上がりを認める声もあるものの、接客態度や案内の向上を求める意見が強く主張されており、顧客満足度を高めるための接客意識の改善や案内体制の見直し、心のこもった親身な接客への転換が強く期待されています。接客姿勢の抜本的な見直しが望まれます。",
+        "en": "Feedback concerning the Roppongi store highlights noticeable dissatisfaction regarding indifferent customer service at the counters. Multiple patrons describe attendants prioritizing computer tasks while customers waited unassisted at the cash desk, alongside an unwelcoming attitude compared to other branches. Although occasional careful assistance occurs, the overall service standard frequently falls short of expectations."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "六本木ヒルズの立地と店舗環境",
+        "en": "Roppongi Hills setting and boutique"
+      },
+      "text": {
+        "ja": "六本木ヒルズ内という利便性の高い好立地に位置しており、厳選されたプレミアムフードや上質なペット用品が豊富に揃う拠点として重宝されています。近隣の散歩や商業施設とあわせて立ち寄りやすい環境が好意的に評価される一方、系列他店と比較して店舗全体の雰囲気や運営体制に物足りなさを感じる利用者もおり、立地の魅力と運営面への不満が入り混じった評価となっています。高級商業施設にふさわしい上質な店舗運営が期待されており、総合的な満足度には個人差が見られ、運営の質向上を望む声も上がっています。立地の良さは広く評価されています。",
+        "en": "Set inside Roppongi Hills, this pet shop provides enviable accessibility alongside an impressive assortment of specialized supplies and pet foods. While customers value browsing quality items in a prime commercial complex, some observe that branch ambiance and management feel inconsistent with high regional expectations. The venue presents a blend of prime convenience and uneven experiences for shoppers."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "トリミング仕上がりと商品品質のばらつき",
+        "en": "Inconsistent grooming and product quality"
+      },
+      "text": {
+        "ja": "トリミングの仕上がりやオーダー商品の品質について、期待値との乖離や技術のばらつきを指摘する意見が見受けられます。毛の長さが不揃いでデザイン性が物足りなかったという具体的な不満や、特注ケーキの見栄えが期待を下回ったという落胆のレビューが寄せられています。丁寧なカットを評価する意見も存在するものの、価格に見合った安定したクオリティの維持が求められており、安定した仕上げ技術の向上とサービスの均一化、高い価格設定に応じた仕上がり基準の徹底が強く望まれています。品質向上と安定した仕上げ技術の定着が常に期待されています。",
+        "en": "Clients express disappointment over perceived declines in styling precision and the visual presentation of specialty orders. Specific complaints mention uneven coat lengths lacking the expected charm, as well as custom cakes that failed to match standard aesthetic expectations. While meticulous historical results are acknowledged, recent reviews urge stronger consistency in finished styling work for the price."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "六本木ヒルズ店でのペット用品やフードの品揃えはどうですか？",
+        "en": "How extensive is the pet merchandise selection in Roppongi Hills?"
+      },
+      "a": {
+        "ja": "六本木ヒルズ内に位置し、プレミアムフードやおやつ、グッズの品揃えが豊富で立ち寄りやすいと評価されています。",
+        "en": "Located within Roppongi Hills, the store carries a rich selection of high-end foods, treats, and pet accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "トリミングの仕上がりや予約の取りやすさはどうですか？",
+        "en": "How are grooming reservations and the quality of trims regarded?"
+      },
+      "a": {
+        "ja": "予約は比較的取りやすいものの、カットの仕上がりにムラがあったという厳しい意見も寄せられています。",
+        "en": "Booking appointments is relatively straightforward, though some reviewers report unevenness in haircut results."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "接客態度やレジでの対応についてどのような声がありますか？",
+        "en": "What impressions exist concerning front counter staff conduct?"
+      },
+      "a": {
+        "ja": "丁寧な対応があった一方で、レジでの無愛想な接客や待ち時間に対する不満の声も見受けられます。",
+        "en": "While certain interactions are acceptable, several visitors express frustration over aloof service and counter delays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "place": "~",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 3,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-",
+        "place": "~"
+      }
+    }
+  ]
+}
