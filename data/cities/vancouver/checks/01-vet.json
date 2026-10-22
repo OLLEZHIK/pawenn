@@ -1,0 +1,36 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "granville-island-veterinary-hospital",
+    "1st-ave-animal-hospital",
+    "paws-on-fraser-veterinary-hospital",
+    "killarney-animal-hospital-vancouver",
+    "juno-veterinary-yaletown-clinic",
+    "juno-veterinary-kitsilano-clinic"
+  ],
+  "hash": "235a8faf7668ba3a526ae105224ef7e9f673246aff1930982915d34a74e7a968",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T22:10:35.196Z",
+      "result": "FAIL",
+      "listed": 16
+    },
+    {
+      "at": "2026-10-22T22:14:55.235Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-22T22:16:46.236Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-22T22:17:48.266Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
