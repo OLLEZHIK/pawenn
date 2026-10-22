@@ -1,0 +1,134 @@
+{
+  "slug": "amadina",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Amadina/data=!4m7!3m6!1s0x47c609fd042c4001:0x5a03e4e9016b9484!8m2!3d52.3549434!4d4.8688423!16s%2Fg%2F1td5f9q3!19sChIJAUAsBP0JxkcRhJRrAenkA1o?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "nl": "Hartelijke hulp van de eigenaar",
+        "en": "Warm assistance from the owner"
+      },
+      "text": {
+        "nl": "Buurtbewoners en vaste klanten prijzen eigenaar Jeroen om zijn uitzonderlijke vriendelijkheid en behulpzaamheid. Bezoekers voelen zich direct welkom in de winkel en krijgen altijd eerlijk advies voor hun huisdier. De persoonlijke benadering zorgt ervoor dat klanten hier al jarenlang met plezier terugkomen.",
+        "en": "Neighborhood residents and regular patrons commend store owner Jeroen for his outstanding friendliness and helpful nature. Visitors feel warmly welcomed upon arrival and consistently receive candid advice for their pets. This personal touch has kept satisfied customers returning faithfully across many years."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "nl": "Gezellige buurtwinkel voor dagelijkse dierenbenodigdheden",
+        "en": "Cozy local store for pet essentials"
+      },
+      "text": {
+        "nl": "Klanten beschrijven de zaak als een fijne, vertrouwde speciaalzaak in de Amsterdamse buurt. De winkel biedt een degelijk basisaanbod aan hondenmanden, voeding, verzorgingsproducten en lekkere snacks. Het overzichtelijke assortiment en de laagdrempelige sfeer maken het een prettige plek voor de dagelijkse boodschappen.",
+        "en": "Clients describe the shop as an inviting and trustworthy specialty store serving the local Amsterdam neighborhood. The boutique provides a dependable core selection of dog beds, nutrition, grooming supplies, and tasty treats. Its accessible layout and welcoming atmosphere make everyday pet shopping very convenient."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "nl": "Persoonlijk contact en ontspannen praatje",
+        "en": "Personal contact and friendly chats"
+      },
+      "text": {
+        "nl": "Bezoekers waarderen de sociale sfeer in de winkel, waar altijd tijd is voor een praatje met de eigenaar en buurtgenoten. De communicatie verloopt ontspannen en oprecht, waardoor het contact veel verder gaat dan alleen een snelle transactie. Huisdiereigenaren ervaren de winkel daardoor als een echt buurttrefpunt.",
+        "en": "Visitors appreciate the social ambiance inside the shop, where there is always time for a friendly chat with the owner and fellow neighbors. Communication remains relaxed and genuine, extending far beyond a routine retail transaction. Pet owners view the store as an authentic, comforting neighborhood hub."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Verkoopt de winkel manden en snacks voor honden?",
+        "en": "Does the shop stock dog beds and snacks?"
+      },
+      "a": {
+        "nl": "Ja, klanten delen positieve ervaringen over comfortabele hondenmanden en smakelijke traktaties.",
+        "en": "Yes, customers share positive feedback regarding comfortable dog baskets and tasty treats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Hoe lang bestaat deze speciaalzaak al?",
+        "en": "How long has this store been operating?"
+      },
+      "a": {
+        "nl": "Vaste klanten geven aan al circa twintig jaar naar deze vertrouwde buurtwinkel te komen.",
+        "en": "Regular clients mention visiting this trusted neighborhood store for roughly twenty years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Is er gelegenheid voor persoonlijk advies?",
+        "en": "Is personal guidance available in store?"
+      },
+      "a": {
+        "nl": "Ja, de eigenaar neemt ruim de tijd om vragen van klanten persoonlijk en rustig te beantwoorden.",
+        "en": "Yes, the owner takes ample time to answer customer inquiries personally and calmly."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
