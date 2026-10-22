@@ -1,0 +1,152 @@
+{
+  "slug": "kapylan-elainlaakariasema-vetek",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/K%C3%A4pyl%C3%A4n+El%C3%A4inl%C3%A4%C3%A4k%C3%A4riasema+Vetek+Oy-Kottby+Veterin%C3%A4rstation+Vetek+Ab/data=!4m7!3m6!1s0x469209a56abd3675:0x25d265a1b2758dab!8m2!3d60.2166772!4d24.9671843!16s%2Fg%2F1tk1ln9l!19sChIJdTa9aqUJkkYRq411sqFl0iU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fi": "Ystävällinen ja nopea palvelu Koskelassa",
+        "en": "Friendly and prompt service in Koskela"
+      },
+      "text": {
+        "fi": "Useimmat arvostelijat kiittävät Vetekin henkilökuntaa ystävällisestä, sujuvasta ja avuliaasta asiakaspalvelusta. Tarkastuskäynnit ja rokotukset hoidetaan ripeästi ja asiantuntevasti. Yksittäisessä kriittisessä palautteessa henkilökunnan tilannetajua ja hienotunteisuutta eutanasian yhteydessä kuitenkin moitittiin puutteelliseksi.",
+        "en": "Most reviewers praise the Vetek team for friendly, prompt, and helpful clinical care. Routine health checks and vaccinations are handled quickly and professionally. However, an isolated critical review reported poor situational sensitivity from staff during euthanasia, expressing upset over immediate billing requests."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fi": "Rutiinitoimenpiteiden onnistuminen ja vakavat hoitokiistat",
+        "en": "Successful routine care and diagnosis disputes"
+      },
+      "text": {
+        "fi": "Asiakaskokemukset jakautuvat voimakkaasti toimenpiteen vaativuuden mukaan. Rutiinitoimenpiteet, kuten hammaskiven poisto ja perustarkastukset, sujuvat hyvin ja lemmikit toipuvat niistä nopeasti. Toisaalta kahdessa vakavassa tapauksessa arvostelijat syyttivät klinikkaa vääristä diagnooseista ja puutteellisista tutkimuksista.",
+        "en": "Patient experiences diverge sharply depending on procedure complexity. Routine appointments like tartar scaling and health exams go smoothly with quick recovery for pets. Conversely, two severe reviews strongly criticized diagnostic missteps and missed underlying conditions that resulted in emergency euthanasia elsewhere."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fi": "Kritiikkiä laskutuskäytännöistä ja kustannuksista",
+        "en": "Criticism of billing timing and expenses"
+      },
+      "text": {
+        "fi": "Palautteissa korostuu tyytymättömyys klinikan laskutustapoihin ja kustannuksiin. Vaikka hammashoidon hinnoittelua pidettiin yhdessä arviossa kohtuullisena ja selkeänä, kriittisissä arvioissa moitittiin rahastusta ja epäasiallista maksupäätteen tuomista eutanasian keskelle, mikä jätti erittäin kielteisen mielikuvan.",
+        "en": "Feedback highlights dissatisfaction regarding clinic billing practices and treatment fees. While one reviewer found dental scaling reasonably priced, critical reviews condemned aggressive billing and an untimely payment collection attempt during pet euthanasia, leaving a deeply negative impression of priorities."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Mitä rutiinipalveluja Käpylän Eläinlääkäriasema Vetekissä tehdään?",
+        "en": "What routine services are provided at Vetek?"
+      },
+      "a": {
+        "fi": "Klinikalla tehdään terveystarkastuksia, rokotuksia, hammaskiven poistoa, pehmytkudoskirurgiaa sekä laboratoriotutkimuksia.",
+        "en": "The practice provides wellness exams, vaccinations, dental tartar scaling, soft-tissue surgeries, and laboratory diagnostics."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fi": "Miten asiakkaat kuvaavat hoitokokemuksia Vetekissä?",
+        "en": "How do clients describe their experiences at Vetek?"
+      },
+      "a": {
+        "fi": "Rutiinihoidot saavat kiitosta ystävällisyydestä ja nopeudesta, mutta vakavammissa sairaustapauksissa arvioissa esiintyy myös voimakasta kritiikkiä.",
+        "en": "Routine treatments are praised for friendly speed, though more complex diagnostic situations received sharp criticism in several reviews."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Pääseekö klinikalle helposti julkisilla kulkuvälineillä?",
+        "en": "Is the clinic easily accessible by public transport?"
+      },
+      "a": {
+        "fi": "Kyllä, Koskelan toimipisteelle on toimivat bussi- ja metroyhteydet sekä esteetön saapuminen taksilla tai autolla.",
+        "en": "Yes, the Koskela location is easily reached by local bus and metro connections, as well as by taxi or private car."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
