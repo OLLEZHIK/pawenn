@@ -1,0 +1,104 @@
+{
+  "slug": "rosso-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Rosso+Animal+Clinic/data=!4m7!3m6!1s0x60188cf193601101:0x541f6534794ea417!8m2!3d35.692563!4d139.723078!16s%2Fg%2F1tjg_c0w!19sChIJARFgk_GMGGARF6ROeTRlH1Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "獣医師の親身な対応と分かれる評価",
+        "en": "Dedicated Clinicians with Divergent Experiences"
+      },
+      "text": {
+        "ja": "曙橋駅近くのロッソ動物病院では、獣医師やスタッフの診療姿勢について飼い主の間で意見が分かれています。子猫の健康診断で訪れた飼い主からは、優しい女性獣医師が親身に相談に乗ってくれたと好意的な評価が寄せられています。また、久しぶりの受診でも愛犬の性格や既往歴を把握しており信頼できるという声もあります。一方で、愛犬の急性症状で受診した際に十分な処置を受けられず帰宅後に亡くなってしまったとする厳しい悲痛な指摘もあり、緊急時における処置の徹底が求められています。診療への満足度には温度差が見られ、状況に応じた対応が問われています。",
+        "en": "Feedback for Rosso Animal Clinic near Akebonobashi Station shows contrasting owner experiences regarding veterinary care. Clients visiting for routine kitten checkups praise the gentle female veterinarian for approachable consultations. Regulars appreciate that clinicians remember their pets' medical histories and personalities. However, a critical review recounts a tragic emergency visit where treatment was felt to be insufficient."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "ja": "相談しやすい対話と親身な助言",
+        "en": "Supportive Advice and Thorough Consultations"
+      },
+      "text": {
+        "ja": "診察室での対話や助言については、温かく相談しやすい雰囲気を評価する声が寄せられています。初めてペットを飼う方でも気軽に質問できる優しい応対がなされており、日常の飼育上の不安を丁寧に解消してくれます。予防接種や去勢手術の相談はもちろん、愛犬の性格に合わせたアドバイスをしてくれる点が飼い主の安心につながっています。親身になって話を聞いてくれる姿勢が、かかりつけ医としての信頼を集めています。丁寧な対話を通じて日頃の疑問にしっかりと答えてくれる姿勢が好評で、飼い主の心の支えとなっています、飼い主の不安を和らげる親切な対応が信頼を集めています。",
+        "en": "Pet owners highlight a welcoming and supportive consultation atmosphere where questions are answered clearly. First-time guardians note that the approachable veterinarian explains preventive treatments and routine care patiently, easing home anxieties. Clients appreciate personalized advice tailored to their pets' specific personalities and healthcare needs during routine visits, fostering confidence in ongoing care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "診療は予約制ですか？",
+        "en": "Are consultations conducted by appointment?"
+      },
+      "a": {
+        "ja": "はい、予約制を採用しており、待ち時間が少なくスムーズに受診できます。",
+        "en": "Yes, consultations operate by appointment, ensuring minimal waiting times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "最寄り駅からのアクセスはどうですか？",
+        "en": "How is the clinic accessed from the nearest station?"
+      },
+      "a": {
+        "ja": "都営新宿線の曙橋駅から近く、通院しやすい立地にあります。",
+        "en": "The clinic is conveniently located within close walking distance of Akebonobashi Station."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "診療費用の設定について利用者はどのように述べていますか？",
+        "en": "How do clients describe the clinic's fee structure?"
+      },
+      "a": {
+        "ja": "口コミでは、一般的な動物病院と比べて良心的で利用しやすい価格設定と評価されています。",
+        "en": "Reviews describe consultation and treatment fees as reasonable and accessible compared to other clinics."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
