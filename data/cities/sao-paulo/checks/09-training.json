@@ -1,0 +1,41 @@
+{
+  "chunk": "09-training",
+  "kind": "places",
+  "slugs": [
+    "call-my-dog-educacao-de-caes"
+  ],
+  "hash": "1070df6a5e915e972fe22c0bb89aa5eb426943feab16de35996ae528d3b0f822",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T23:42:52.809Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-22T23:43:27.164Z",
+      "result": "FAIL",
+      "listed": 5
+    },
+    {
+      "at": "2026-10-22T23:45:09.519Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-22T23:47:44.760Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:49:07.772Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:50:26.350Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
