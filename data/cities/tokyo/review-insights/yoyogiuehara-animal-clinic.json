@@ -1,0 +1,129 @@
+{
+  "slug": "yoyogiuehara-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Yoyogiuehara+Animal+Clinic/data=!4m7!3m6!1s0x6018f3542858419b:0x91723bb47d825cbb!8m2!3d35.6680887!4d139.6855602!16s%2Fg%2F11jq7_0lyx!19sChIJm0FYKFTzGGARu1yCfbQ7cpE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "専門的な診察と対応への分かれる声",
+        "en": "Skilled clinical care with mixed remarks"
+      },
+      "text": {
+        "ja": "渋谷区上原の当院では、獣医師や動物看護師の親切でプロフェッショナルな診療姿勢が高く評価されています。外国人飼い主に対しても平易で分かりやすい日本語を用いて丁寧に病状を説明するなど、温かな接遇が安心感を与えています。犬や猫に対する優しい触診や迅速な処置が支持されており、信頼できるかかりつけ医として感謝されています。一方で、祝日等の急患時に電話での折り返し連絡が得られなかった点に不満を感じた来院者の意見も見受けられ、スタッフ対応への評価は分かれています。丁寧な対応の徹底が常に期待されています。親身な診療と丁寧な説明を評価する声が多く寄せられています。",
+        "en": "Pet owners in Shibuya appreciate the professional and compassionate approach demonstrated by the veterinarians and nursing staff. The clinical team explains diagnoses patiently, using clear Japanese that foreign clients find easily accessible during appointments. Gentle physical examinations and prompt care earn gratitude from local families. However, feedback is mixed due to an unreturned holiday callback."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "丁寧な病状説明と連絡体制の課題",
+        "en": "Thorough explanations alongside contact gaps"
+      },
+      "text": {
+        "ja": "診察室での丁寧なコミュニケーションが高く評価されており、治療方針や疑問点に対して親身に耳を傾けてくれる姿勢が支持されています。言葉の壁に不安を抱える飼い主に対しても分かりやすく配慮した説明が行われており、検査内容や投薬の必要性が納得できると好評です。その一方で、休診日や緊急時の電話対応において予定されていた連絡が滞った事例が指摘されており、緊急連絡体制の整備や情報伝達の確実性について改善を望む声が寄せられています。日頃の丁寧な対話は多くの飼い主から高い評価を得ています。日常的な健康相談や分かりやすい説明は多くの飼い主に喜ばれています。",
+        "en": "Consultations at the clinic are praised for thorough communication, with veterinarians answering questions thoughtfully and easing owner anxiety. Foreign pet parents commend the team effort to provide clear explanations of medical treatments and diagnostic steps. Guardians feel informed about prescribed medications. Conversely, mixed feedback arose when an owner did not receive a promised callback."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "スムーズな院内進行と急患時の対応",
+        "en": "Smooth office visits and holiday availability"
+      },
+      "text": {
+        "ja": "事前に問診票を記入して受診した飼い主からは、受付から診察、処置までの進行が迅速で待ち時間が短かったと好評を得ています。一般的な診療において手際よく治療が進む点が支持されており、愛犬の負担を減らすスピーディーな対応が喜ばれています。しかし、祝日の午前診療を期待して急患で訪れた際に休診で対応を受けられなかったという声もあり、スムーズな受診のために公式案内や診療日時の事前確認が重要視されています。通常の院内対応はとても円滑に進められており好印象です。予約優先の診療体制により普段の通院はスムーズに進められています。",
+        "en": "Clients who filled out pre-examination slips report efficient clinic visits, noting that examinations and treatments proceeded quickly without lengthy waits. The team handles routine cases smoothly, minimizing stress for feline and canine patients. Nevertheless, an owner who sought emergency care on a holiday found the facility closed, highlighting that checking schedules beforehand remains essential."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "日本語が不慣れな外国人でも受診できますか？",
+        "en": "Can foreign pet owners who speak limited Japanese visit?"
+      },
+      "a": {
+        "ja": "はい、外国人飼い主に対しても分かりやすい平易な表現で丁寧に治療方針を説明してくれたと好評です。",
+        "en": "Yes, clients note that veterinarians and staff explain conditions patiently and clearly for non-native speakers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "土日や祝日にも診療を行っていますか？",
+        "en": "Does the clinic examine patients on weekends and holidays?"
+      },
+      "a": {
+        "ja": "土曜・日曜の診療に対応していますが、祝日や臨時休診の場合もあるため事前確認が推奨されます。",
+        "en": "Weekend consultations are available on Saturdays and Sundays, though holiday schedules should be confirmed in advance."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "消化器科や内視鏡による専門治療は受けられますか？",
+        "en": "Are gastroenterology and endoscopy services available?"
+      },
+      "a": {
+        "ja": "はい、一般内科・外科に加えて消化器科専門外来や内視鏡検査・異物除去治療に対応しています。",
+        "en": "Yes, the hospital provides specialized gastroenterology care and therapeutic endoscopy for digestive conditions."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

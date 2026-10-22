@@ -1,0 +1,111 @@
+{
+  "slug": "sato-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sato+Animal+Clinic/data=!4m7!3m6!1s0x6018f4d4afbe2951:0xa34315aa0d28c9b4!8m2!3d35.6230619!4d139.6905692!16s%2Fg%2F11tfmc89l!19sChIJUSm-r9T0GGARtMkoDaoVQ6M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "ja": "深い愛情と高い技術を持つ獣医師陣",
+        "en": "Exceptional Compassion from Entire Medical Staff"
+      },
+      "text": {
+        "ja": "目黒区の佐藤動物病院では、院長をはじめとする獣医師や看護師、受付スタッフの温かい人柄と確かな医療技術に絶大な信頼が寄せられています。近隣だけでなく他県からも飼い主が訪れるほど評判が高く、一頭一頭の命に真摯に向き合う診療姿勢が称賛されています。診察室には飼い主も一緒に入り、処置の全工程を目の前で見守りながら受けることができるため、ペットの不安を和らげ飼い主も安心して治療を任せることができます。命を大切にする優しい眼差しが多くの支持を集めており、心強いかかりつけ医として愛されています、確かな診察技術と温かな真心が多くの支持を集めています。",
+        "en": "At Sato Animal Clinic in Meguro, pet owners express exceptional confidence in the clinical expertise and compassion of doctors, nurses, and receptionists. Attracting clients from neighboring prefectures, the veterinary team is praised for treating dogs and cats with genuine devotion. Owners accompany their pets inside the consultation room throughout procedures, keeping anxiety minimal and reinforcing complete trust."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "ja": "処置内容の丁寧で分かりやすい説明",
+        "en": "Transparent Explanations and Clear Consultations"
+      },
+      "text": {
+        "ja": "診察時のコミュニケーションについて、病状や治療方針に関する丁寧な説明が飼い主から高く評価されています。症状の原因や必要な処置について目の前で患部を確認しながら分かりやすく解説してくれるため、納得して治療方針を選択できます。また、不要になった処方薬の返品を受け付けてくれるなど、飼い主の負担に寄り添った誠実な姿勢がうかがえます。明瞭で良心的な対応が、長年にわたる厚い信頼を支えています。患者目線に立った親切な情報提供が飼い主の安心感を高めており、治療への納得感を生んでいます、納得できる丁寧な診療姿勢が地域で深く信頼されています。",
+        "en": "Communication during consultations is characterized by clarity, transparency, and empathy. Clinicians take time to explain diagnostic findings and therapeutic options while showing pet parents the affected areas directly in front of them. Clients also appreciate honest guidance on medications, noting that unused prescriptions can be returned. This patient-centered approach fosters enduring confidence."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "診察時の待ち時間はどのくらいですか？",
+        "en": "How long is the typical waiting time for consultations?"
+      },
+      "a": {
+        "ja": "丁寧な診察を行うため、予約があっても1時間以上待つ場合があり、時間に余裕を持った来院が推奨されています。",
+        "en": "Due to thorough examinations, waits can exceed an hour even with appointments, so arriving with ample time is advised."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "処置中に飼い主が診察室に同席できますか？",
+        "en": "Can pet owners accompany their animals in the exam room?"
+      },
+      "a": {
+        "ja": "はい、飼い主が診察室に入り目の前で説明と処置を受けられる体制をとっています。",
+        "en": "Yes, owners enter the examination room and observe procedures firsthand while receiving clear explanations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "診療費用や料金設定は明瞭ですか？",
+        "en": "Are consultation and treatment fees transparent?"
+      },
+      "a": {
+        "ja": "はい、口コミでは良心的で明瞭な価格設定であることが高く評価されています。",
+        "en": "Yes, reviews emphasize fair, transparent, and reasonable medical fees."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "place": "~"
+      }
+    }
+  ]
+}
