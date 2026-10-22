@@ -1,0 +1,35 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "shuncu-vet",
+    "la-perreria-condesa",
+    "veterinary-specialty-hospital-in-small-species",
+    "mexico-veterinary-center",
+    "delta-veterinary-hospital",
+    "pet-point",
+    "hospital-veterinario-westcare-condesa",
+    "lmvets-servicio-veterinario",
+    "centro-medico-veterinario-fundacion-antonio-haghenbeck",
+    "hospital-veterinario-westcare-polanco"
+  ],
+  "hash": "a7af00ebf7399c9428315f6683c8fb3f43b7d2fe45a377ed2d2c4665967068f6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T21:17:57.043Z",
+      "result": "FAIL",
+      "listed": 22
+    },
+    {
+      "at": "2026-10-22T21:20:24.937Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-22T21:23:08.430Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
