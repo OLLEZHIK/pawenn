@@ -1,0 +1,134 @@
+{
+  "slug": "clinica-veterinaria-restelo-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinica+Veterin%C3%A1ria+Restelo+Vet/data=!4m7!3m6!1s0xd1ecb65940d7541:0x11669fc777f7baa1!8m2!3d38.6979!4d-9.2192916!16s%2Fg%2F1tt1tz6p!19sChIJQXUNlGXLHg0Robr3d8efZhE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Avaliações divididas quanto ao atendimento",
+        "en": "Divided opinions on veterinary care"
+      },
+      "text": {
+        "pt": "As opiniões sobre o corpo clínico no Restelo mostram forte contraste. Enquanto clientes elogiam a gentileza, conhecimento e atenção aos detalhes durante visitas internacionais, duas avaliações fortemente negativas criticam a qualidade do serviço e contestam a competência demonstrada na avaliação do estado de saúde dos animais.",
+        "en": "Opinions regarding the clinical team in Restelo show sharp divergence. While some clients warmly commend the kindness, expertise, and thoughtful attention experienced during travel consultations, two critical reviews strongly criticize the service quality and challenge the competence displayed in evaluating sick patients."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Comunicação e serviço de acolhimento",
+        "en": "Communication and reception experience"
+      },
+      "text": {
+        "pt": "Os testemunhos revelam experiências contrastantes na comunicação com o consultório. Donos que necessitaram de passaportes e documentação internacional destacam contactos prévios muito atenciosos e claros. Em sentido oposto, outros clientes apontam péssimo atendimento e falta de respostas esclarecedoras perante sintomas agudos.",
+        "en": "Client testimonials indicate contrasting experiences regarding communication at the practice. Owners requiring pet passports and international travel certificates praise attentive and smooth coordination. Conversely, dissatisfied clients describe poor customer reception and a lack of clear answers when addressing urgent symptoms."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Trâmites de viagem e diagnóstico clínico",
+        "en": "Travel procedures and clinical diagnostic outcomes"
+      },
+      "text": {
+        "pt": "Relatos positivos referem processos rápidos e eficientes na emissão de passaportes da União Europeia e orientações de saúde para viagens com cães. Por outro lado, um testemunho crítico relata um erro grave de diagnóstico inicial num gato com doença cardíaca avançada, o que exigiu internamento de emergência num hospital veterinário.",
+        "en": "Positive feedback highlights swift and efficient handling of European Union pet passports and travel health certifications for dogs. In sharp contrast, a serious critical review describes an initial diagnostic error in a cat with advanced cardiac disease, which subsequently required urgent intensive hospitalization elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica ajuda na preparação de viagens e passaportes para animais?",
+        "en": "Does the clinic assist with pet travel paperwork and EU passports?"
+      },
+      "a": {
+        "pt": "Sim, clientes elogiam a emissão rápida e orientações detalhadas para viagens entre países da UE e outros destinos.",
+        "en": "Yes, clients praise the efficient guidance and documentation provided for international pet travel within and beyond the EU."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Como é avaliada a capacidade de diagnóstico clínico na clínica?",
+        "en": "How do clients evaluate the clinic's diagnostic accuracy?"
+      },
+      "a": {
+        "pt": "As opiniões são divergentes, registando-se elogios gerais e uma queixa grave sobre falha no diagnóstico cardíaco felino.",
+        "en": "Opinions are mixed, ranging from positive general reviews to a severe complaint regarding missed feline cardiac diagnosis."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Qual é a morada e zona de localização da clínica?",
+        "en": "Where is the clinic located in Lisbon?"
+      },
+      "a": {
+        "pt": "A clínica situa-se na Rua Duarte Pacheco Pereira, na zona residencial do Restelo, em Lisboa.",
+        "en": "The clinic is located on Rua Duarte Pacheco Pereira in the residential Restelo area of Lisbon."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
