@@ -1,0 +1,34 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "university-veterinary-hospital",
+    "mdc-centro-veterinario",
+    "hospital-veterinario-san-javier",
+    "clinica-veterinaria-kenvelo"
+  ],
+  "hash": "89ae78397b1f4dbf1802e65da85ffc984f23bb109e5ebc7ccb009996aab4a571",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T23:03:31.855Z",
+      "result": "FAIL",
+      "listed": 20
+    },
+    {
+      "at": "2026-10-22T23:14:39.487Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-22T23:14:57.618Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:15:49.883Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

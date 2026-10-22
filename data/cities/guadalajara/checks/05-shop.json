@@ -1,0 +1,38 @@
+{
+  "chunk": "05-shop",
+  "kind": "places",
+  "slugs": [
+    "happy-pal-guadalajara",
+    "dogelthy-guadalajara",
+    "pet-park-guadalajara",
+    "the-house-of-reptiles-guadalajara",
+    "grandpet-store-guadalajara",
+    "pet-planet-guadalajara",
+    "pet-world-guadalajara",
+    "laika-guadalajara"
+  ],
+  "hash": "f14cdf302eaf050c7837652a48fa4168492a2015a87e584152f01150d79e35f4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T23:04:22.126Z",
+      "result": "FAIL",
+      "listed": 40
+    },
+    {
+      "at": "2026-10-22T23:15:36.637Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-22T23:17:49.363Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-22T23:19:03.894Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
