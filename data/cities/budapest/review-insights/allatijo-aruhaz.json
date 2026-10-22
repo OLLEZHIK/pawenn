@@ -1,0 +1,142 @@
+{
+  "slug": "allatijo-aruhaz",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/%C3%81llatij%C3%B3+%C3%81ruh%C3%A1z+-+2PETS+FOOD+Trade+Kft/data=!4m7!3m6!1s0x4741dbed13417abd:0x66a375216b2437ed!8m2!3d47.5299276!4d19.0659873!16s%2Fg%2F11c6rblt32!19sChIJvXpBE-3bQUcR7TckayF1o2Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "hu": "Kedvező árak és korrekt ajánlatok",
+        "en": "Favorable prices and fair offers"
+      },
+      "text": {
+        "hu": "A vásárlók egyöntetűen dicsérik az áruház visszafogott és versenyképes árszínvonalát. A vélemények szerint a prémium tápok és a mindennapi felszerelések is elérhető áron kaphatók, így a gazdik jelentős összeget takaríthatnak meg a rendszeres bevásárlások során.",
+        "en": "Shoppers consistently praise the pet store for its affordable and competitive pricing. Customer feedback confirms that both premium pet foods and everyday accessories remain reasonably priced, allowing pet owners to manage routine pet expenses economically."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "hu": "Széles választék és jó megközelíthetőség",
+        "en": "Wide selection and accessible location"
+      },
+      "text": {
+        "hu": "A vendégek kiemelik az üzlet bőséges kínálatát, amely a kutyák és macskák mellett a kisemlősök, például a nyulak igényeit is bőségesen lefedi. A fizikai üzlet kényelmesen elérhető az Árpád híd közelében, miközben a webáruház készlete is folyamatosan naprakész.",
+        "en": "Customers highlight the broad product range catering to dogs, cats, and small animals such as rabbits. The brick-and-mortar store is easily accessible near Árpád Bridge, while the online catalog maintains a consistently comprehensive inventory of supplies."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "hu": "Segítőkész és hozzáértő bolti kiszolgálás",
+        "en": "Helpful and knowledgeable store assistance"
+      },
+      "text": {
+        "hu": "A vásárlói visszajelzésekben gyakran dicsérik az eladók barátságos és felkészült hozzáállását. Az eladók szívesen segítenek a megfelelő táp kiválasztásában, és készségesen adnak gyakorlati tanácsokat a különféle termékekkel kapcsolatban a betérőknek.",
+        "en": "Customer reviews frequently praise the retail team for their polite and attentive service. Sales assistants readily help visitors select appropriate feeds and willingly share practical advice regarding various accessories and nutritional options in the shop."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Könnyen megközelíthető az üzlet tömegközlekedéssel?",
+        "en": "Is the store easily accessible via public transport?"
+      },
+      "a": {
+        "hu": "Igen, a vásárlók visszajelzései szerint a bolt egyszerűen elérhető az Árpád híd környékéről.",
+        "en": "Yes, customer reviews note that the shop is situated conveniently near the Árpád Bridge transit hub."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Kisemlősöknek, például nyulaknak is kaphatók termékek?",
+        "en": "Are supplies available for small pets like rabbits?"
+      },
+      "a": {
+        "hu": "Igen, a vevők beszámolói alapján a kínálat a kutyák és cicák mellett a rágcsálók és nyulak igényeit is kielégíti.",
+        "en": "Yes, buyer reviews indicate that the inventory covers rabbits and small rodents alongside dogs and cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Milyen gyorsan teljesítik az online rendeléseket?",
+        "en": "How quickly are online orders processed and delivered?"
+      },
+      "a": {
+        "hu": "A tapasztalatok alapján a webáruház gyorsan és pontosan kézbesíti a csomagokat, hiány esetén pedig azonnal egyeztetnek.",
+        "en": "Based on customer feedback, the webshop ships orders swiftly and accurately, notifying customers promptly if items change."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

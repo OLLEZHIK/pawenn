@@ -1,0 +1,172 @@
+{
+  "slug": "alphazoo-nyugati-ter-budapest",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Alpha+Zoo/data=!4m7!3m6!1s0x4741dddcb92285d9:0xcacc1e91fee1f127!8m2!3d47.5098371!4d19.055495!16s%2Fg%2F11vb88q0yf!19sChIJ2YUiudzdQUcRJ_Hh_pEezMo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "hu": "Nehezen megtalálható aluljárós üzlethelyiség",
+        "en": "Hard to locate underpass store"
+      },
+      "text": {
+        "hu": "A vásárlók körében a leggyakoribb panasz a bolt elhelyezkedése: az üzlet a Nyugati téri aluljáróban, a Spar területén belül található, ám kívülről semmilyen tábla nem jelzi. Többen hosszú keresgélésről és pontatlan GPS-koordinátákról számolnak be a látogatás során.",
+        "en": "The most frequent complaint among shoppers concerns the store's obscure location inside the Nyugati square underpass near the Spar entrance. With no prominent outdoor signage and misleading GPS pins, many visitors spent significant time searching for the shop."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "hu": "Kedves és figyelmes bolti eladók",
+        "en": "Kind and polite sales assistants"
+      },
+      "text": {
+        "hu": "A megtalálási nehézségek ellenére a boltba betérők kifejezetten elégedettek a személyzettel. A vásárlói visszajelzések kiemelik az eladók udvarias, türelmes és közvetlen viselkedését, akik készségesen nyújtanak szakmai segítséget az állateledel választásában.",
+        "en": "Despite navigational challenges, customers who locate the store speak highly of the customer service. Reviews frequently highlight the polite, considerate, and helpful manner of sales staff who willingly guide pet parents in selecting suitable feeds."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "hu": "Információhiány és vegyes ügyféltájékoztatás",
+        "en": "Inconsistent signage and online information"
+      },
+      "text": {
+        "hu": "A vásárlók hiányolják a megfelelő irányjelző táblákat az aluljáróban, valamint kritizálták a hiányos online nyitvatartási adatokat, ami miatt felesleges utakat tettek. Ugyanakkor a helyszínen az eladók közvetlen és korrekt kommunikációval igyekeznek segíteni.",
+        "en": "Customers express frustration over the absence of navigational signs in the underpass and outdated online business hours that led to wasted trips. Conversely, on-site face-to-face communication by staff is described as polite, transparent, and accommodating."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Hogyan közelíthető meg a Nyugati téri Alpha Zoo?",
+        "en": "How do you find the Alpha Zoo at Nyugati square?"
+      },
+      "a": {
+        "hu": "Az üzlet az aluljárószinten, a Spar bejáratánál található, nem közvetlenül az utcai fronton.",
+        "en": "The store is located in the pedestrian underpass level at the Spar entrance, rather than on street level."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Kaphatók rágcsálóknak szánt eledelek a boltban?",
+        "en": "Are rodent and small pet supplies in stock?"
+      },
+      "a": {
+        "hu": "A vásárlói tapasztalatok szerint az üzlet elsősorban kutyás és macskás termékekre összpontosít, rágcsálófelszerelés ritkább.",
+        "en": "Customer reviews indicate that inventory focuses primarily on dog and cat food, with limited options for small rodents."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Segítőkészek az üzletben dolgozó eladók?",
+        "en": "Are sales assistants helpful with product inquiries?"
+      },
+      "a": {
+        "hu": "Igen, a betérő vásárlók egyöntetűen dicsérik az eladók udvarias és készséges hozzáállását.",
+        "en": "Yes, visiting customers consistently praise the sales staff for their courteous and attentive assistance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "place": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
