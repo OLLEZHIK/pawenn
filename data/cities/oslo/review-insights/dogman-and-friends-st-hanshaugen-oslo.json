@@ -1,0 +1,133 @@
+{
+  "slug": "dogman-and-friends-st-hanshaugen-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dogman+and+friends/data=!4m7!3m6!1s0x46416f55026e3233:0x501b6177991ce93!8m2!3d59.9259529!4d10.7456312!16s%2Fg%2F11fncv1nfy!19sChIJMzJuAlVvQUYRk86ReRe2AQU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly assistance in local shop",
+        "no": "Hyggelig betjening i nabolagsbutikken"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the accommodating and helpful attitude of the staff at St. Hanshaugen. Reviewers emphasize that employees create a welcoming environment for both visitors and their dogs, offering attentive guidance and kind personal gestures during shopping.",
+        "no": "Dyreiere roser jevnlig den imøtekommende og hjelpsomme holdningen til de ansatte på St. Hanshaugen. Anmeldere legger vekt på at personalet skaper en trivelig atmosfære for både to- og firbente, og bidrar med oppmerksom støtte og vennlige gester under handleturen i lokalet."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient and clear advice",
+        "no": "Tålmodig og god kommunikasjon"
+      },
+      "text": {
+        "en": "Visitors appreciate the clear and patient communication provided by store staff. International clients note that employees demonstrate remarkable patience when speaking with non-fluent Norwegian speakers, making consultations about animal nutrition and accessories accessible.",
+        "no": "Besøkende setter stor pris på den tydelige og tålmodige dialogen med de butikkansatte. Utenlandske kunder bemerker at medarbeiderne viser stor tålmodighet når handelen foregår på gebrokkent norsk, noe som gjør veiledning om kjæledyrfôr og utstyr trygg og tilgjengelig for alle."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Dependable guidance and practical service",
+        "no": "Nyttige råd og pålitelig service"
+      },
+      "text": {
+        "en": "Customers report very positive overall outcomes from their visits to the boutique. Whether seeking guidance on specific dietary needs or purchasing daily dog items, shoppers express satisfaction with the useful recommendations and dependable customer support they receive.",
+        "no": "Kunder melder om gode erfaringer og praktisk utbytte etter handleturer i butikken. Enten ærendet gjelder råd om ernæringsbehov eller kjøp av daglig utstyr til hund, er handlende fornøyde med de konkrete anbefalingene og den pålitelige hjelpen de mottar i butikken."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is the shop situated at St. Hanshaugen?",
+        "no": "Hvor ligger butikken på St. Hanshaugen?"
+      },
+      "a": {
+        "en": "The store is located at Waldemar Thranes gate 25, right in the heart of St. Hanshaugen.",
+        "no": "Butikken ligger i Waldemar Thranes gate 25, midt i hjertet av bydel St. Hanshaugen."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are employees patient with international customers?",
+        "no": "Er betjeningen hjelpsom overfor fremmedspråklige kunder?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that staff show great patience with customers practicing Norwegian.",
+        "no": "Ja, kunder bemerker at de ansatte viser stor tålmodighet med kunder som snakker gebrokkent norsk."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of products are available in the store?",
+        "no": "Hva slags varer finner man i butikken?"
+      },
+      "a": {
+        "en": "The shop offers quality dry and wet pet foods, treats, harnesses, toys, and care essentials.",
+        "no": "Butikken fører tørr- og våtfôr, godbiter, seler, leker og pleieartikler til hund og katt."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
