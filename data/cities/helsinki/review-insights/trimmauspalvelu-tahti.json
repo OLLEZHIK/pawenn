@@ -1,0 +1,134 @@
+{
+  "slug": "trimmauspalvelu-tahti",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Trimmauspalvelu+T%C3%A4hti/data=!4m7!3m6!1s0x46920f4fbb32a335:0xf6c4dcbfb665b24c!8m2!3d60.216062!4d25.0831535!16s%2Fg%2F11rht92csj!19sChIJNaMyu08PkkYRTLJltr_cxPY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fi": "Siisti leikkaustulos ja turkinhoito",
+        "en": "Neat cuts and thorough grooming"
+      },
+      "text": {
+        "fi": "Asiakkaat ovat yleisesti tyytyväisiä trimmausjälkeen ja turkin pesuun. Kissojen takkujen selvittäminen, pohjavillan poisto ja kynsien leikkaus saavat kiitosta silloin, kun työ saadaan suoritettua loppuun. Lemmikkien turkki kuvataan pehmeäksi ja huolitelluksi hoidon jälkeen.",
+        "en": "Clients are generally pleased with the finished appearance and cleanliness of their pets after grooming. Dematting, shedding fur removal, and nail trimming receive positive remarks when completed. Pet coats are described as fresh, soft, and well maintained following routine salon sessions."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fi": "Vaihteleva kokemus henkilökunnan viestinnästä",
+        "en": "Mixed experiences with staff interaction"
+      },
+      "text": {
+        "fi": "Useat asiakkaat pitävät Juuliaa mukavana, taitavana ja huolellisena ammattilaisena, joka antaa hyviä neuvoja turkinhoitoon. Yhdessä laajassa palautteessa kuitenkin koettiin asiakaspalvelu ja asioiden selvittäminen tylyksi ja torjuvaksi, kun kyseessä oli vaikeasti takkuuntuneen kissan vastaanottaminen.",
+        "en": "Several clients praise Juulia as a pleasant, skilled, and diligent professional who shares helpful home care guidance. However, one detailed negative review described communication as dismissive and sharp when attempting to arrange care for an anxious cat with heavily matted fur."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Käsittelytapojen jakautuneet arviot",
+        "en": "Divergent feedback on pet handling"
+      },
+      "text": {
+        "fi": "Moni kissanomistaja kiittää lemmikkien herkkää ja stressitöntä huomioimista, jossa edetään eläimen jaksamisen ehdoilla ja omistaja saa olla rauhoittamassa mukana. Toisaalta vaikeammissa takkutapauksissa heräsi pettymys kieltäytymisestä ja suosituksesta hoitaa leikkaus rauhoituksessa muualla.",
+        "en": "Many cat owners appreciate gentle and patient care tailored to the animal's stress tolerance, where owners are invited to comfort their pet. Conversely, in challenging matted coat cases, clients were frustrated by refusals to proceed and recommendations to seek sedation elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Saako omistaja olla mukana kissan pesussa?",
+        "en": "Can owners stay present during cat bathing?"
+      },
+      "a": {
+        "fi": "Kyllä, arvostelujen mukaan omistajaa pyydetään usein olemaan läsnä avustamassa ja rauhoittamassa kissaa toimenpiteen aikana.",
+        "en": "Yes, reviews indicate that cat owners are often asked to be present to assist and keep the animal calm during baths."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Mitä palveluita kissojen turkinhoitoon kuuluu?",
+        "en": "What is included in cat grooming appointments?"
+      },
+      "a": {
+        "fi": "Hoitoon voi sisältyä pesu ja föönaus, irtokarvan ja takkujen poisto, hoitoaineet sekä kynsien leikkaus.",
+        "en": "Services may include washing, drying, de-shedding, detangling, conditioning treatments, and nail trimming."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Otetaanko vastaan vaikeasti huopuneita tai aggressiivisia kissoja?",
+        "en": "Are severely matted or difficult cats accepted?"
+      },
+      "a": {
+        "fi": "Arvostelujen mukaan hyvin vaikeissa huopumistapauksissa saatetaan suositella eläinlääkärin tekemää toimenpidettä rauhoituksessa.",
+        "en": "Customer feedback suggests that severely matted cases may be referred to a veterinarian for grooming under sedation."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
