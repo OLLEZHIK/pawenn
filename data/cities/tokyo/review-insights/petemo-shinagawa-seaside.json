@@ -1,0 +1,135 @@
+{
+  "slug": "petemo-shinagawa-seaside",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PeTeMo/data=!4m7!3m6!1s0x60188a739048cfb9:0x29943a77cc861499!8m2!3d35.6108991!4d139.7491467!16s%2Fg%2F1tcwlk63!19sChIJuc9IkHOKGGARmRSGzHc6lCk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "ja": "イオン内の広々とした売場環境",
+        "en": "Spacious shopping inside Aeon Mall"
+      },
+      "text": {
+        "ja": "イオン品川シーサイド3階にあり、広々とした店内で平日は比較的静かに買い物ができる点が多くの飼い主さんに喜ばれています。愛犬を連れて入店できるため、ペットと一緒に日用品やおやつを選ぶ楽しみを味わえる便利な環境となっています。一方で、導入されているセミセルフレジの案内や操作性について戸惑ったという不満の声も聞かれ、レジ周りのオペレーションや設備面に対する評価が分かれています。日常のお散歩や買い出しのついでに愛犬と一緒に立ち寄れる大型店舗として、地域の豊かなペットライフを支える頼もしい拠点となっています。",
+        "en": "Situated on the 3rd floor of Aeon Shinagawa Seaside, the expansive store offers a quiet, unhurried atmosphere on weekdays. Visitors appreciate being able to bring their pets inside while browsing through toys, beds, and everyday grooming goods. However, some shoppers report frustration regarding confusing semi-self-checkout procedures and automated screen prompts that occasionally detract from the customer experience."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "フードの充実度と犬種別の商品差",
+        "en": "Food variety and breed size gaps"
+      },
+      "text": {
+        "ja": "犬猫用のプレミアムフードや珍しいブランド、冷凍食品まで百貨店のように豊富に揃っている点が高く評価されています。一方で、ラブラドールなどの大型犬用ハーネスやリードがほとんど見当たらない点に落胆した声も寄せられています。小型犬向けの洋服やおやつが中心となっているため、愛犬の犬種やサイズによって品揃えの満足度に大きな差が生じており、大型犬向けグッズの拡充が期待されています。愛犬のサイズや体格に左右されず、あらゆるペットが快適かつ安全に使えるお散歩グッズや日用品のさらなる充実が多くの利用者から期待されています。",
+        "en": "Pet owners commend the department-store-like variety of premium pet foods, specialty brands, and frozen meals available for dogs and cats. Conversely, tourists and local guardians with large dog breeds like Labradors express disappointment over the lack of suitable harnesses and leashes. Because inventory heavily favors small canine companions, customer satisfaction depends heavily on the breed you keep."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "レジ対応や接客への不満と評価",
+        "en": "Checkout service and staff attitudes"
+      },
+      "text": {
+        "ja": "研修中のスタッフが一度しか会っていない愛犬の名前を覚えていてくれて感激したという心温まる体験談が寄せられています。しかしレジでのポイント付与や支払い方法の説明が不親切で、冷たい態度をとられたという苦情も複数寄せられています。観光客が求める大型犬用グッズの案内でも十分なサポートが得られず、親身な店員がいる一方でレジ全体の接客品質の向上が強く求められています。親身なスタッフの良さを活かしつつ、店舗全体で丁寧で分かりやすく親切な接客サービスを徹底することが今後の顧客満足度向上と信頼回復につながります。",
+        "en": "One pet parent warmly recalls a thoughtful trainee employee who remembered their dog's name after meeting just once. Unfortunately, negative reviews cite unwelcoming clerk attitudes during credit card checkout and unhelpful explanations concerning loyalty point policies. Foreign visitors also felt unattended when searching for specialized accessories without finding helpful guidance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "愛犬を連れて入店することはできますか？",
+        "en": "Can pets enter the store with their owners?"
+      },
+      "a": {
+        "ja": "はい、ペット同伴での来店が可能で、平日は混雑が少なく落ち着いて買い物できます。",
+        "en": "Yes, pets are allowed inside, and weekday visits are typically quiet and uncrowded."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "大型犬用のハーネスや洋服は扱っていますか？",
+        "en": "Does the store carry gear for large dog breeds?"
+      },
+      "a": {
+        "ja": "小型犬・中型犬向けが主流で、大型犬用のアクセサリーやお散歩用品は取り扱いが限られます。",
+        "en": "Products mainly focus on smaller breeds, with limited choices for large dog gear."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "どのようなペットフードを取り扱っていますか？",
+        "en": "What pet foods and treats are available?"
+      },
+      "a": {
+        "ja": "国内外の多彩なプレミアムフードや冷凍フードなど、百貨店のような豊富な品揃えがあります。",
+        "en": "A wide range of specialty and frozen dog and cat foods are stocked across various brands."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
