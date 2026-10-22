@@ -1,0 +1,133 @@
+{
+  "slug": "peludo-dyrebutikk",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Peludo+Dyrebutikk/data=!4m7!3m6!1s0x46416f7f05c424bf:0xe1ed9cd1b04f9ce9!8m2!3d59.9143706!4d10.7707564!16s%2Fg%2F11vk_dzqz2!19sChIJvyTEBX9vQUYR6ZxPsNGc7eE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Charming shop with exclusive selection",
+        "no": "Koselig nabolagsbutikk med godt utvalg"
+      },
+      "text": {
+        "en": "Pet owners frequently describe Peludo as a cozy, welcoming local shop on Jens Bjelkes gate. Customers appreciate the curated product range featuring both well-known and specialty pet food brands. Visitors also highlight the inviting atmosphere and tidy shelves that make shopping for pets enjoyable.",
+        "no": "Dyrevenner beskriver Peludo som en sjarmerende og innbydende nabolagsbutikk i Jens Bjelkes gate. Kunder fremhever det håndplukkede vareutvalget med både kjente fôrmerker og spesialprodukter. Besøkende setter stor pris på den trivelige atmosfæren og de ryddige hyllene i butikken."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Quality food and treats for pets",
+        "no": "Kvalitetsfôr og godbiter til firbente"
+      },
+      "text": {
+        "en": "Reviewers emphasize the excellent assortment of nourishing food, wholesome chews, and premium treats for dogs and cats. Owners note that standard food varieties are reliably kept in stock alongside healthy reward snacks. Dogs visiting the premises receive warm attention from the shopkeeper.",
+        "no": "Anmeldere legger vekt på det gode utvalget av næringsrikt fôr, sunne tyggebein og velsmakende godbiter for hund og katt. Kunder bemerker at faste fôrtyper holdes på lager sammen med ekstra fristende snacks. Firbente som blir med inn i butikken får en varm og hyggelig velkomst."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Friendly service from shop owner",
+        "no": "Hyggelig service fra butikkeieren"
+      },
+      "text": {
+        "en": "Customers commend the shop owner for delivering attentive, personalized, and friendly customer service. Dog guardians feel thoroughly supported when selecting dietary items and pet accessories. The personalized recommendations and knowledgeable guidance leave pet owners feeling valued.",
+        "no": "Kunder roser butikkeieren for en oppmerksom, personlig og imøtekommende kundebehandling. Dyreeiere føler seg godt ivaretatt når de spør om råd rundt fôrvalg og utstyr til kjæledyrene sine. Den kunnskapsrike veiledningen og den personlige oppfølgingen gjør at handleturen oppleves trygg."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Peludo Dyrebutikk located?",
+        "no": "Hvor ligger Peludo Dyrebutikk?"
+      },
+      "a": {
+        "en": "The shop is situated at Jens Bjelkes gate 47 in the Gamle Oslo district.",
+        "no": "Butikken ligger i Jens Bjelkes gate 47 i bydel Gamle Oslo."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What kind of products does Peludo carry?",
+        "no": "Hvilke produkter fører Peludo?"
+      },
+      "a": {
+        "en": "The store offers pet foods, natural treats, toys, and quality accessories for dogs and cats.",
+        "no": "Butikken fører fôr, naturlige godbiter, leker og kvalitetsutstyr til hund og katt."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dogs allowed inside the pet store?",
+        "no": "Er det tillatt å ta med hund inn i butikken?"
+      },
+      "a": {
+        "en": "Yes, dogs are warmly welcomed inside while owners browse the selection.",
+        "no": "Ja, hunder er hjertelig velkomne inn i butikken sammen med eierne sine."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

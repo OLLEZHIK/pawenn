@@ -1,0 +1,152 @@
+{
+  "slug": "hundeglede-st-hanshaugen-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hundeglede/data=!4m7!3m6!1s0x46416e766e91c3e7:0x25528f26c715584!8m2!3d59.9225075!4d10.7406778!16s%2Fg%2F11c531_7nj!19sChIJ58ORbnZuQUYRhFVxbPIoVQI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Contrasting feedback on dog wellbeing",
+        "no": "Delte erfaringer med hundenes trivsel"
+      },
+      "text": {
+        "en": "Customer reports regarding canine well-being show conflicting experiences at the daycare. Regular clients praise daily walks, play sessions with other dogs, and pets eagerness to enter the facility each morning. In contrast, two reviewers report unhappy stays and express strong worries about animal welfare during specific shifts.",
+        "no": "Kundetilbakemeldingene om hundenes trivsel viser motstridende opplevelser i barnehagen. Flere faste brukere roser daglige lufteturer, sosial lek med andre hunder og firbente som gleder seg til å komme inn. To anmeldere rapporterer derimot om dårlige opplevelser og bekymring for hundevelferden på enkelte vakter."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed opinions on daycare personnel",
+        "no": "Blandede vurderinger av barnehagens ansatte"
+      },
+      "text": {
+        "en": "Opinions concerning the daycare team and supervision are markedly split. Satisfied dog owners applaud the owner Johnny and coworkers for genuine commitment and attentive daily care. Conversely, critical reviewers mention negative interactions with staff members, questioning supervisory routines when regular leadership is absent.",
+        "no": "Meningene om de ansatte og tilsynet i hundebarnehagen er markant delte. Fornøyde eiere skryter av eieren Johnny og medarbeiderne for stort engasjement og hyggelig oppfølging i hverdagen. Kritiske røster omtaler derimot uheldige hendelser med personell og stiller spørsmål ved håndteringen på dager der faste ledere ikke er til stede."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Convenient urban day care location",
+        "no": "Praktisk beliggenhet for hundepass"
+      },
+      "text": {
+        "en": "Pet owners value having a dedicated dog daycare facility situated on St. Hanshaugen. Reviewers find it far more pleasant for their dogs to socialize and rest at the center than remaining home alone during working hours. The central Oslo address provides easy daily drop-off and pickup for nearby commuters.",
+        "no": "Hundeeiere setter pris på et etablert tilbud for dagpass sentralt på St. Hanshaugen. Anmeldere opplever det som langt hyggeligere for hunden å være i aktivitet og hvile i barnehagen enn å sitte alene hjemme på dagtid. Den sentrale plasseringen i Oslo gjør levering og henting enkel for travle pendlere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Hundeglede located in Oslo?",
+        "no": "Hvor ligger Hundeglede i Oslo?"
+      },
+      "a": {
+        "en": "The day care is situated at Ullevålsveien 35 on St. Hanshaugen.",
+        "no": "Hundebarnehagen ligger i Ullevålsveien 35 på St. Hanshaugen."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What activities do dogs take part in during the day?",
+        "no": "Hvilke aktiviteter er hundene med på om dagen?"
+      },
+      "a": {
+        "en": "Dogs join daily walks in parks and green spaces, social playtime in groups, and restful indoor breaks.",
+        "no": "Hundene får daglige turer i parker og nærområder, sosial lek i grupper og rolige hvilepauser inne."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do reviewers view the overall experience at the daycare?",
+        "no": "Hvordan vurderer anmeldere opplevelsen i barnehagen?"
+      },
+      "a": {
+        "en": "While regular clients praise the social environment and dedicated leadership, some reviewers note negative experiences with staff.",
+        "no": "Mens faste kunder roser det sosiale miljøet og engasjert ledelse, påpeker enkelte anmeldere dårlige erfaringer med personell."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
