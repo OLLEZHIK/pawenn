@@ -367,7 +367,7 @@ function pricePdfs(links: { href: string | null; label: string }[]): string[] {
 type Result = Record<string, unknown>;
 
 // Country calling codes of the cities (as in sanity.ts).
-const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353", FI: "358", HU: "36", PT: "351", NL: "31", NO: "47", JP: "81" };
+const DIAL: Record<string, string> = { PL: "48", SK: "421", CZ: "420", AT: "43", DE: "49", US: "1", IT: "39", FR: "33", ES: "34", GB: "44", IE: "353", FI: "358", HU: "36", PT: "351", NL: "31", NO: "47", JP: "81", MX: "52", BR: "55", CA: "1" };
 let dial = "";
 
 /** The number without country code, trunk 0 or "(0)": "+43 (0)1 347 43",
@@ -391,10 +391,10 @@ function phoneCheck(csvPhone: string, tels: string[], text: string): string {
 // Price lines: "Baden & Föhnen ab 45 €", "Kastration Kater | 120,00 EUR" (a
 // table row is one line). The service text and the amount as the page writes
 // them; which price code it is, the agent decides.
-const CUR = "(€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf|ft|forint)";
+const CUR = "(r\\$|mx\\$|ca\\$|c\\$|brl|mxn|cad|€|eur|zł|pln|kč|czk|\\$|usd|us\\$|£|gbp|kr|nok|¥|円|jpy|huf|ft|forint)";
 const AMOUNT = "(\\d{1,3}(?:[ .]\\d{3})*(?:[.,]\\d{1,2})?|\\d+)(?:,-|,–)?";
 const PRICE_LINE = new RegExp(`(?:${CUR}\\s?${AMOUNT}|${AMOUNT}\\s?${CUR})`, "iu");
-const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF", ft: "HUF", forint: "HUF" };
+const CURRENCY: Record<string, string> = { "€": "EUR", eur: "EUR", "zł": "PLN", pln: "PLN", "kč": "CZK", czk: "CZK", $: "USD", usd: "USD", "us$": "USD", "£": "GBP", gbp: "GBP", kr: "NOK", nok: "NOK", "¥": "JPY", "円": "JPY", jpy: "JPY", huf: "HUF", ft: "HUF", forint: "HUF", "r$": "BRL", brl: "BRL", mxn: "MXN", "mx$": "MXN", cad: "CAD", "ca$": "CAD", "c$": "CAD" };
 
 function priceRows(pages: { url: string; text: string }[]) {
   const out: { service: string; amount: number; currency: string; quote: string; url: string }[] = [];

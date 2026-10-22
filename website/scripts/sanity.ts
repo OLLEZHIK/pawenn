@@ -65,6 +65,11 @@ const COUNTRY = {
   NO: { dial: "47", national: /^[2-9]\d{7}$/, postal: /\b\d{4}\b/ },
   JP: { dial: "81", national: /^[1-9]\d{8,9}$/, postal: /\b\d{3}-?\d{4}\b/ },
   ES: { dial: "34", national: /^[6-9]\d{8}$/, postal: /\b\d{5}\b/ },
+  // Mexico: ten digits (Mexico City +52 55 1234 5678); postal 5 digits. Brazil: 10-11 digits with a 2-digit area code (+55 11 91234 5678); CEP 12345-678.
+  // Canada: NANP like the US; postal "M5V 2T6".
+  MX: { dial: "52", national: /^[1-9]\d{9}$/, postal: /\b\d{5}\b/ },
+  BR: { dial: "55", national: /^[1-9]\d{9,10}$/, postal: /\b\d{5}-?\d{3}\b/ },
+  CA: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b[A-Z]\d[A-Z] ?\d[A-Z]\d\b/i },
   US: { dial: "1", national: /^[2-9]\d{2}[2-9]\d{6}$/, postal: /\b\d{5}\b/ },
 } as const;
 
