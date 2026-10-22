@@ -1,0 +1,126 @@
+{
+  "slug": "shinjuku-gyoenmae-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shinjuku+Gyoenmae+Animal+Hospital/data=!4m7!3m6!1s0x60188da3b800722d:0x158afb8b18082e4e!8m2!3d35.6914962!4d139.7142807!16s%2Fg%2F11gts6f_ln!19sChIJLXIAuKONGGARTi4IGIv7ihU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "ja": "獣医師による技術と接遇の格差",
+        "en": "Varied competence and bedside manners"
+      },
+      "text": {
+        "ja": "新宿区富久町の新宿御苑前どうぶつ病院では、担当する獣医師によって診療の質や対応に大きな差があるとの声が寄せられています。一部の獣医師や看護師に対して親切で親身な診療を評価する意見があるものの、不慣れな医師による注射の不手際や冷淡な接遇、担当替えに対する不満が目立ちます。医師ごとの方針や技術力の違いに戸惑う飼い主が多く、安心して任せられるかかりつけ医を見極めることが重視されています。信頼関係を築ける獣医師を慎重に選定することが推奨されています。大切なペットを預けるにあたって、相性の良い担当医を見極める姿勢が不可欠です。",
+        "en": "Feedback for Shinjuku Gyoenmae Animal Hospital reflects noticeable disparities in skills and professionalism across the clinical team. While some pet owners appreciate attentive nurses and caring doctors, multiple reviews cite poor injection handling, aloof attitudes, and inconsistent assessments. Guardians express frustration over unpredictable doctor rotations, emphasizing the importance of securing a trusted practitioner."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "検査や治療方針の説明不足への懸念",
+        "en": "Insufficient explanations of procedures"
+      },
+      "text": {
+        "ja": "処置や検査を行う際の事前説明において、十分な情報共有がなされていないという批判が複数みられます。ワクチンの追加接種に伴うアレルギーリスクやデンタルケア製品の実際の効能について、納得のいく説明がないまま処置が進められたり、事前の相談なしに費用のかさむ検査項目が追加されたりしたことで不安を覚えた飼い主がいます。十分な対話や事前同意がないまま処置が進むことで不信感につながるケースが散見されるため、疑問点があればその場で確認することが大切です。処置の妥当性について納得できるまで対話を重ねることが推奨されます。",
+        "en": "Several reviews express strong frustration regarding the lack of clear explanations before diagnostic tests and treatments. Pet parents report that risks concerning repeat vaccinations were not adequately detailed, while extra procedures were added without prior consultation. These experiences leave owners feeling uneasy, underscoring the necessity for proactive discussions before agreeing to procedures."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 2,
+      "title": {
+        "ja": "追加検査による費用の急増に対する不満",
+        "en": "Concerns regarding unexpected treatment costs"
+      },
+      "text": {
+        "ja": "診療費用の内訳や検査の必要性に関して、費用負担が想定以上に膨らんだという不満が寄せられています。事前の概算提示がないまま複数の処置やレントゲン撮影が加算され、請求額の高さに戸惑ったという意見がみられます。医療上の必要性よりも収益を優先した提案ではないかと懸念する声もあり、費用の透明性や事前確認の徹底が望まれています。診察を受ける際には、提示された処置や検査の費用目安をあらかじめ尋ねておくことが家計を守る安心につながります。支払い時のトラブルを防ぐためにも、事前の費用確認が欠かせません。支払い時のトラブルを防ぐためにも、事前の確認が重要です。",
+        "en": "Concerns regarding unexpectedly high bills and unnecessary testing appear across critical reviews. Guardians report that diagnostic imaging and extra procedures were performed without prior price estimates, causing final bills to escalate beyond expectations. Some owners felt that recommendations prioritized sales over conservative care, advising visitors to request estimates before proceeding with optional tests."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "診察時に特定の獣医師を指名することはできますか？",
+        "en": "Can owners request a specific veterinarian?"
+      },
+      "a": {
+        "ja": "獣医師による方針の違いがあるため、信頼できる獣医師を指名して受診することが推奨されています。",
+        "en": "Clients advise requesting a preferred veterinarian directly to ensure consistent treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "検査や治療の費用は事前に確認できますか？",
+        "en": "Are cost estimates provided before treatment?"
+      },
+      "a": {
+        "ja": "追加検査などで費用が高額になる場合があるため、検査前に概算費用を確認することが推奨されます。",
+        "en": "It is recommended to ask for estimated costs in advance, as tests may add to the final bill."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "アニコム損保のペット保険に対応していますか？",
+        "en": "Is Anicom pet insurance accepted for direct claims?"
+      },
+      "a": {
+        "ja": "アニコムグループの動物病院であり、対応する窓口精算を利用できます。",
+        "en": "Yes, as an Anicom-affiliated hospital, window settlement for policyholders is supported."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

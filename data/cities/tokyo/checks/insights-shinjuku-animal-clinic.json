@@ -1,0 +1,34 @@
+{
+  "chunk": "insights-shinjuku-animal-clinic",
+  "kind": "insights",
+  "slugs": [
+    "shinjuku-animal-clinic",
+    "shinjuku-gyoenmae-animal-hospital",
+    "simba-animal-hospital",
+    "step-veterinary-clinic",
+    "takadanobaba-animal-hospital",
+    "taro-animal-clinic",
+    "the-vet-minamiazabu-animal-clinic",
+    "tokyo-cat-specialists",
+    "tokyo-feline-medical-center"
+  ],
+  "hash": "4d7bcaeb7c434488099937142564c41ca2cb59609aa1e8fdce9d8ca1b7169b50",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T21:21:35.801Z",
+      "result": "FAIL",
+      "listed": 32
+    },
+    {
+      "at": "2026-10-22T21:24:20.888Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-22T21:24:48.959Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

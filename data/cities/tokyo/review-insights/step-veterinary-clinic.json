@@ -1,0 +1,151 @@
+{
+  "slug": "step-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Step+Veterinary+Clinic/data=!4m7!3m6!1s0x60188d115f2bc829:0x478b6a87d1238c12!8m2!3d35.7181309!4d139.7156508!16s%2Fg%2F11tfvh65w!19sChIJKcgrXxGNGGAREowj0Ydqi0c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "ja": "親身で丁寧な獣医師陣への信頼",
+        "en": "Attentive veterinarians and dedicated care"
+      },
+      "text": {
+        "ja": "豊島区雑司が谷のステップ動物病院では、親身で誠実な獣医師たちの人柄が多くの飼い主から厚く支持されています。重篤な疾患からペットの命を救われたという感謝の声や、皮膚トラブルに対して丁寧に向き合ってくれる姿勢が高く評価されています。受付スタッフの応対について一部で厳しい意見が挙がっているものの、獣医師の治療技術や動物への思いやりに対する信頼は非常に堅固です。長年にわたって通い続ける飼い主も多く、地域の頼れるかかりつけ病院として定着しています。命を預かる現場としての誠実な医療が、確かな安心感を生み出しています。",
+        "en": "Pet owners in Toshima City commend the veterinarians at Step Veterinary Clinic for their genuine compassion, clinical thoroughness, and dedicated care. Clients credit the doctors with successfully resolving serious illnesses and managing chronic dermatitis. While critical remarks focus on reception staff demeanor, praise for the medical expertise and bedside manner of the veterinarians remains overwhelmingly positive."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "慢性的な混雑と長時間の待機",
+        "en": "Chronic crowding and extended wait times"
+      },
+      "text": {
+        "ja": "地域での高い評判を反映して院内は常に混雑しており、予約なしの受診では長時間の待ち時間が発生することがあります。事前予約枠が数日から数週間先まで埋まっていることも多く、予約なしで訪れた場合には数時間待機するケースが報告されています。一人ひとりに時間をかけて丁寧な診察を行うため、多少の待ち時間は納得できるという理解を示す飼い主もいますが、予約通りの時間帯に受診できない不満や待合室の混雑は課題です。突発的な体調悪化時にはあらかじめ電話で相談し、余裕を持ったスケジュールで受診することが推奨されます。事前準備がスムーズな受診につながります。",
+        "en": "Owing to its popularity in Toshima, the clinic frequently experiences heavy traffic and extended wait times. Reviewers emphasize that appointments book up days or weeks ahead, and walk-in arrivals face multi-hour waits. While some guardians tolerate delays for thorough exams, waiting room congestion causes genuine inconvenience. Contacting the clinic in advance is essential when dealing with acute health concerns."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "受付応対の課題と治療説明の対比",
+        "en": "Reception interactions and consultation notes"
+      },
+      "text": {
+        "ja": "獣医師による分かりやすい治療方針のメモや丁寧な説明が高く評価される一方で、受付や電話窓口における接遇に強い不満を抱く声が複数寄せられています。電話での予約時に無言の対応をされたり、処方薬の手配不手際や冷淡な受け答えを経験したりしたことで不快感を覚えた飼い主がいます。医師の誠実な診療姿勢と受付対応の質にギャップを感じる利用者がいるため、スタッフ全体の接客改善が期待されています。診察時の医師との直接の対話自体は非常に親切で円滑です。受付窓口での円滑な情報共有が今後の課題として挙げられています。スタッフ間の連携強化が期待されます。",
+        "en": "Reviews highlight a contrast between thorough veterinary consultations and frustrating front-desk encounters. Pet owners appreciate that doctors provide clear written memos explaining treatment plans. Conversely, several clients express disappointment regarding abrupt phone calls, delayed scheduling, and mismanaged medication pickups. While clinical communication is praised, front-desk interactions leave room for improvement."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "診察は予約制ですか？",
+        "en": "Is an advance appointment required for visits?"
+      },
+      "a": {
+        "ja": "予約制が導入されており、予約なしでの来院は待ち時間が長くなる傾向があります。",
+        "en": "Advance reservations are strongly encouraged, as walk-in visits often face extended wait times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "治療計画や投薬内容について書面で説明を受けられますか？",
+        "en": "Do doctors provide written care plans?"
+      },
+      "a": {
+        "ja": "はい、病状や治療方針をまとめたメモを渡してくれる丁寧な説明が評価されています。",
+        "en": "Yes, veterinarians are known for providing clear written memos summarizing treatment plans."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "急患での当日受診は可能ですか？",
+        "en": "Can urgent cases be seen without an advance reservation?"
+      },
+      "a": {
+        "ja": "受診は可能ですが、予約患者の合間や診療時間枠の最後となるため長時間の待機が必要です。",
+        "en": "Urgent walk-ins can be accepted, but visitors should prepare for significant waiting periods."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
