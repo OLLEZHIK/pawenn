@@ -1,0 +1,188 @@
+{
+  "slug": "megaelain-itis-helsinki",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Megael%C3%A4in+Itis/data=!4m7!3m6!1s0x46920ed700000001:0xa71fb0e7b3d76edc!8m2!3d60.2122727!4d25.0837049!16s%2Fg%2F1hm2lqw3p!19sChIJAQAAANcOkkYR3G7Xs-ewH6c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fi": "Asiantuntevaa ja avuliasta asiakaspalvelua Itiksessä",
+        "en": "Knowledgeable customer support in Itis"
+      },
+      "text": {
+        "fi": "Kauppakeskuksen myymälän henkilökunta saa paljon kiitosta asiantuntevasta ja ystävällisestä neuvonnasta. Asiakkaat kertovat saaneensa erinomaista apua muun muassa ensimmäisen akvaarion hankinnassa ja varusteiden valinnassa, vaikka yksittäinen kävijä koki palvelun etäiseksi.",
+        "en": "Staff at the shopping centre store receive frequent praise for their knowledgeable and friendly advice. Customers note receiving substantial help when setting up their first home aquarium and selecting supplies, though an isolated review found customer service somewhat detached."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fi": "Valtava valikoima ja kätevä sijainti",
+        "en": "Vast product range in Itis location"
+      },
+      "text": {
+        "fi": "Myymälää kiitellään erittäin laajasta ja monipuolisesta tuotevalikoimasta, josta löytyy ruokaa, virikkeitä ja tarvikkeita kaikenkokoisille lemmikeille. Pohjakerroksen sijainti saattaa vaatia pientä etsimistä, mutta ostosmahdollisuuksia pidetään vaivan arvoisina.",
+        "en": "Shoppers highlight the extensive and varied inventory covering food, toys, and gear for animals of all sizes. While the basement floor location can require a bit of navigating, visitors consistently consider the broad selection well worth the visit within the mall."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Pieneläimiä, lintuja ja laaja akvaario-osasto",
+        "en": "Small animals, birds, and aquarium section"
+      },
+      "text": {
+        "fi": "Asiakkaat pitävät myymälän akvaariokaloista, pienistä jyrsijöistä ja linnuista, joiden seuraaminen tekee käynnistä elämyksellisen. Erityisesti akvaarioharrastuksen aloittajat nostavat esiin laadukkaat kalat ja lajikohtaisen opastuksen sujuvaan hoitoon.",
+        "en": "Visitors appreciate the live animals on display, including aquarium fish, small rodents, and pet birds, which make shopping engaging for families. In particular, first-time aquarium owners highlight the healthy fish stock and practical guidance for proper tank maintenance."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Mistä Megaeläimen myymälä löytyy kauppakeskus Itiksessä?",
+        "en": "Where is Megaeläin located within the Itis mall?"
+      },
+      "a": {
+        "fi": "Myymälä sijaitsee Itiksen pohjakerroksessa, ja asiakkaat suosittelevat seuraamaan kauppakeskuksen opasteita.",
+        "en": "The store is situated in the basement level of Itis, and customers recommend checking mall directories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Saako myymälästä apua akvaarion perustamiseen?",
+        "en": "Can beginners get help setting up an aquarium?"
+      },
+      "a": {
+        "fi": "Kyllä, asiakkaat kertovat henkilökunnan auttaneen erittäin perusteellisesti ensimmäisen akvaarion hankinnassa.",
+        "en": "Yes, reviewers note that staff members provide extensive hands-on help when purchasing an initial aquarium."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Minkälaisille lemmikeille myymälässä on tarvikkeita?",
+        "en": "What pets are catered to in the product inventory?"
+      },
+      "a": {
+        "fi": "Valikoima kattaa koirien ja kissojen ruoat sekä tarvikkeet kaloille, jyrsijöille ja häkkilinnuille.",
+        "en": "The selection includes food and supplies for dogs and cats as well as fish, rodents, and caged birds."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "place": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

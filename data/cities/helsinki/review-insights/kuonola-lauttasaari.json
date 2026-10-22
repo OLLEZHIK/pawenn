@@ -1,0 +1,182 @@
+{
+  "slug": "kuonola-lauttasaari",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kuonola+Oy/data=!4m7!3m6!1s0x468df62333507ab3:0x681dd4bd50fbd42c!8m2!3d60.1616729!4d24.8670114!16s%2Fg%2F11f404b1mq!19sChIJs3pQMyP2jUYRLNT7UL3UHWg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "fi": "Henkilökunnan osaaminen herättää vaihtelevia kokemuksia",
+        "en": "Staff expertise receives varied customer feedback"
+      },
+      "text": {
+        "fi": "Monet asiakkaat kiittävät Lauttasaaren toimipisteen nimeltä mainittuja trimmaajia ammattitaitoisesta, ystävällisestä ja huolellisesta palvelusta. Samalla osa lemmikinomistajista raportoi epäonnistuneista käynneistä, joissa kokemattomammat työntekijät ovat aiheuttaneet pettymyksiä ja asiakaspalvelu reklamaatiotilanteissa on koettu joustamattomaksi.",
+        "en": "Many customers commend named groomers in Lauttasaari for skillful, friendly, and thorough care during visits. At the same time, several pet owners report unsatisfactory experiences involving less experienced staff, noting that customer service and complaint resolution can feel unyielding when appointments do not go as planned."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "fi": "Turkinhoidon ja trimmaustyön laatu jakaa mielipiteitä",
+        "en": "Grooming and coat results divide opinions"
+      },
+      "text": {
+        "fi": "Useat asiakkaat ovat erittäin tyytyväisiä kissojen ja koirien pesuihin, takkujen siistimiseen sekä rotutyypilliseen muotoiluun. Toisaalta palautteissa esiintyy myös voimakasta arvostelua epätasaisesta nypinnästä, ohjeiden vastaisesta saksien käytöstä sekä liian syvälle leikatuista kynsistä, jotka ovat vaatineet jälkikäyntejä.",
+        "en": "Several clients express great satisfaction with washes, de-matting, and breed-specific styling for both dogs and cats. Conversely, critical reviews cite uneven hand-stripping, trimming contrary to agreed instructions, and bleeding nails from over-clipping, which in some cases necessitated corrective follow-up visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fi": "Eläinten lempeä käsittely ja turvallisuus",
+        "en": "Animal handling and gentle treatment standards"
+      },
+      "text": {
+        "fi": "Monet omistajat kiittelevät sitä, miten arkojen koirien ja pitkäkarvaisten kissojen pelot otetaan huomioon rauhallisella otteella. Toisissa arvioissa puolestaan kerrotaan tilanteista, joissa lemmikki on kokenut huomattavaa stressiä tai kynsienleikkaus on keskeytetty eläimen kovan kivun vuoksi.",
+        "en": "Many owners praise how anxious dogs and long-haired cats are accommodated with patient handling and calm attention. However, other reviewers describe appointments where pets became visibly distressed or procedures were cut short due to pain during rough nail clipping."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Hoidetaanko toimipisteessä myös kissojen turkkia?",
+        "en": "Do they groom cats at this location?"
+      },
+      "a": {
+        "fi": "Kyllä, asiakkaat kertovat onnistuneista pitkäkarvaisten kissojen turkin siistimisistä ja takkujen ajeluista.",
+        "en": "Yes, customers report successful appointments for long-haired cats, including de-matting and coat trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Voiko koiralle varata pelkän kynsienleikkauksen?",
+        "en": "Can you book a standalone nail trim for dogs?"
+      },
+      "a": {
+        "fi": "Kyllä, nopea kynsienleikkaus on saatavilla erillisenä palveluna, tosin kokemukset toimenpiteen sujuvuudesta vaihtelevat.",
+        "en": "Yes, standalone nail clipping is available, though customer experiences regarding execution vary between staff members."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Otetaanko aran lemmikin jännitys huomioon trimmatessa?",
+        "en": "Are nervous pets accommodated during grooming?"
+      },
+      "a": {
+        "fi": "Useimmat trimmaajat ottavat lemmikin pelot huomioon rauhallisesti, mutta omistajat suosittelevat toiveiden tarkkaa läpikäyntiä etukäteen.",
+        "en": "Most groomers take anxiety into account calmly, though owners recommend specifying exact preferences clearly beforehand."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "animals": "-"
+      }
+    }
+  ]
+}
