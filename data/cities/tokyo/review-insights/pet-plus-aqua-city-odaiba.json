@@ -1,0 +1,110 @@
+{
+  "slug": "pet-plus-aqua-city-odaiba",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Plus+AQUA+CiTY+Odaiba/data=!4m7!3m6!1s0x601889f63b45c9df:0x1623a0b4d04f7255!8m2!3d35.627941!4d139.7732592!16s%2Fg%2F1v8k_lkx!19sChIJ38lFO_aJGGARVXJP0LSgIxY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "店舗の清潔感とにおいへの賛否",
+        "en": "Cleanliness standards and store ambiance"
+      },
+      "text": {
+        "ja": "アクアシティお台場内にあるペットプラスでは、店舗の清潔さやショッピング空間の快適性に関して評価が分かれています。広々としたガラスケースで子犬や子猫が展示されており、ペット用のカートや豊富なおやつ、高品質なペット用品が整然と並ぶ洗練された売り場環境を好意的に受け止める利用者が多く見られます。多くの観光客が動物特有の不快なにおいが少なく快適に買い物ができると称賛する一方で、時期や時間帯によっては動物のにおいが気になったという厳しい指摘も一部で存在します。大型商業施設内の人気スポットとして多くの人が訪れる環境だからこそ、日常的な衛生管理や換気の徹底が常に注目されています。",
+        "en": "Visitors to Pet Plus inside Aqua City Odaiba share mixed impressions regarding store cleanliness and ambiance. Many shoppers commend the spacious retail environment, featuring modern pet strollers and premium supplies. Reviewers remark that the showroom is clean and free of animal odors. However, an occasional negative review criticized pet smells, showing that ongoing ventilation remains vital in a busy mall."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "ja": "愛らしい子犬と健康的な展示管理",
+        "en": "Healthy puppies and dedicated pet care"
+      },
+      "text": {
+        "ja": "展示されている子犬や子猫たちの様子については、その愛らしさと丁寧なケア体制が高く評価されています。専用のケージ内には柔らかなベッドやおもちゃ、自動給水器が完備されており、健康的に過ごせる環境が整えられています。店員が親切に声をかけ、抱っこの体験を勧めてくれたことでミニチュアダックスフントなどの可愛い子犬と触れ合えたという喜びの声も寄せられています。日本の高度なペット飼育文化や、動物を一頭ずつ大切に扱う姿勢に感銘を受ける外国人観光客も多く見られます。子犬たちの無邪気に遊ぶ姿や元気に過ごす様子が、訪れる多くの人々の心を和ませています。",
+        "en": "Reviewers consistently express admiration for the healthy and charming puppies and kittens on display at the Odaiba location. Young animals are accommodated in comfortable glass rooms equipped with soft bedding, toys, and clean water dispensers. Visitors warmly recall interactions with welcoming staff who offered opportunities to hold gentle miniature dachshund puppies. Observing cheerful young pets brings joy to shoppers exploring the complex."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "子犬や子猫を抱っこして触れ合うことはできますか？",
+        "en": "Can visitors interact with and hold puppies or kittens?"
+      },
+      "a": {
+        "ja": "はい、スタッフへの相談を通じて店内の子犬や子猫の抱っこ体験が可能です。",
+        "en": "Yes, staff members facilitate gentle holding experiences upon consultation in the store."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "ペットカートや洋服などのペット用品を取り扱っていますか？",
+        "en": "Does the store carry pet strollers, clothing, and supplies?"
+      },
+      "a": {
+        "ja": "はい、多様なペットカートや衣類、フードやケア用品を豊富に取り揃えています。",
+        "en": "Yes, the shop features an extensive selection of pet strollers, apparel, food, and accessories."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "アクアシティお台場内のペテモと同じフロアにありますか？",
+        "en": "Is the store located inside Petemo at Aqua City Odaiba?"
+      },
+      "a": {
+        "ja": "はい、アクアシティお台場1階のペテモ店内に併設されています。",
+        "en": "Yes, it operates on the first floor of Aqua City Odaiba within the Petemo facility."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    }
+  ]
+}
