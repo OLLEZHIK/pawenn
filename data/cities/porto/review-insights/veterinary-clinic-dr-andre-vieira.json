@@ -1,0 +1,151 @@
+{
+  "slug": "veterinary-clinic-dr-andre-vieira",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Veterinary+Clinic+Dr.+Andr%C3%A9+Vieira/data=!4m7!3m6!1s0xd2465bdd1128e49:0xd2eb84b7f4b1c49b!8m2!3d41.1708355!4d-8.6385606!16s%2Fg%2F1tdzx_rp!19sChIJSY4S0b1lJA0Rm8Sx9LeE69I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "pt": "Relação histórica e críticas severas",
+        "en": "Long-standing trust alongside sharp criticism"
+      },
+      "text": {
+        "pt": "Há clientes que acompanham o Dr. André Vieira há décadas, descrevendo-o como um profissional humano, dedicado e acolhedor, com uma equipa administrativa atenciosa. Em nítido contraste, vários relatos recentes queixam-se de falta de profissionalismo e negligência, desaconselhando vivamente a clínica após consultas que consideraram dececionantes.",
+        "en": "Multiple long-term clients have trusted Dr. André Vieira for decades, describing him as a compassionate and deeply dedicated clinician supported by helpful desk staff. In sharp contrast, several recent reviews sharply criticize professional conduct, alleging negligence and strongly advising pet owners against visiting following negative experiences."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "pt": "Queixas graves sobre diagnóstico clínico",
+        "en": "Serious complaints regarding diagnostic outcomes"
+      },
+      "text": {
+        "pt": "O descontentamento com os desfechos médicos predomina nas avaliações recentes. Três tutores relatam diagnósticos errados e agravamento do estado de saúde dos seus animais por falta de avaliação do historial clínico, havendo inclusive quem tenha recorrido de urgência a um hospital após a consulta, sem conseguir evitar um desfecho fatal.",
+        "en": "Dissatisfaction with medical outcomes dominates recent reviews. Three owners report inaccurate diagnoses and deteriorating pet health due to an alleged failure to review previous records, with one case requiring emergency hospital admission shortly after the visit where the animal unfortunately could not be saved."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Carinho habitual e preocupação com animais",
+        "en": "Usual care alongside safety concerns"
+      },
+      "text": {
+        "pt": "Os clientes fiéis salientam a dedicação genuína e o carinho com que cães e gatos são tratados durante as visitas rotineiras. Por outro lado, tutores descontentes manifestam receio quanto à segurança dos animais em situações delicadas, alertando que a abordagem aos problemas de saúde graves não ofereceu as garantias necessárias para os seus animais.",
+        "en": "Established clients emphasize the genuine affection and warmth with which dogs and cats are handled during standard exams. Conversely, dissatisfied pet owners express acute concerns regarding animal welfare in critical scenarios, arguing that care during serious clinical events fell short of the necessary standards for vulnerable pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "É possível fazer agendamento online de consultas?",
+        "en": "Can consultations be scheduled online?"
+      },
+      "a": {
+        "pt": "Sim, a clínica disponibiliza uma plataforma própria de agendamentos online para marcar consultas.",
+        "en": "Yes, the clinic operates its own online scheduling platform for booking veterinary appointments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "A clínica atende cães e gatos em consultas de rotina?",
+        "en": "Does the clinic treat dogs and cats for routine checkups?"
+      },
+      "a": {
+        "pt": "Sim, os clientes relatam consultas de rotina e acompanhamento médico de cães e gatos ao longo de vários anos.",
+        "en": "Yes, clients report long-term routine exams and preventive care for both dogs and cats over many years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Onde se localiza a clínica veterinária no Porto?",
+        "en": "Where is the veterinary clinic located in Porto?"
+      },
+      "a": {
+        "pt": "A clínica situa-se na Rua Central de Francos 533, na freguesia de Ramalde, no Porto.",
+        "en": "The clinic is located at Rua Central de Francos 533, in the Ramalde area of Porto."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
