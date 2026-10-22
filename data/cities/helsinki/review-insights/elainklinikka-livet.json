@@ -1,0 +1,153 @@
+{
+  "slug": "elainklinikka-livet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/El%C3%A4inklinikka+Livet/data=!4m7!3m6!1s0x468df431804e7557:0x734ad02aaebc1d93!8m2!3d60.2018408!4d24.8786887!16s%2Fg%2F11f_b_yrpj!19sChIJV3VOgDH0jUYRkx28rirQSnM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fi": "Pääosin lämmin palvelu mutta ajoittain viivästyksiä",
+        "en": "Mostly caring service alongside occasional delays"
+      },
+      "text": {
+        "fi": "Monet asiakkaat kiittävät Munkkiniemen Livetin henkilöstöä erittäin sydämellisestä vastaanotosta, ammattitaidosta ja perusteellisesta paneutumisesta lemmikin oireisiin. Samalla muutama kävijä raportoi töykeästä asiakaspalvelusta ja pitkistä odotusajoista, jos eläinlääkäri on kirjannut edellisiä potilaskertomuksia vastaanottoajan jo alettua.",
+        "en": "Many visitors commend the staff at Munkkiniemi's Livet for warm receptions, professional dedication, and thorough examination of pet symptoms. However, a few clients report encounters with abrupt customer service or unexpected appointment delays when practitioners were occupied with previous patient records."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fi": "Luotettavaa erikoishoitoa sekä satunnaisia toimenpidehaasteita",
+        "en": "Reliable specialized care with occasional procedure issues"
+      },
+      "text": {
+        "fi": "Pääosa lemmikinomistajista pitää klinikan hoitotasoa erinomaisena ja korostaa onnistuneita ultraäänitutkimuksia sekä pitkäaikaissairauksien hyvää hoitoa. Toisaalta yksittäisissä palautteissa nostetaan esiin epäonnistumisia rutiinitoimenpiteissä, kuten rokotteen pistämisessä ohi, mikä on heikentänyt joidenkin asiakkaiden kokonaisluottamusta.",
+        "en": "Most pet owners rate the medical standard as very high, highlighting dependable ultrasound diagnostics and dedicated long-term care management. Conversely, isolated reviews describe complications during routine procedures, including an improperly administered vaccination, which diminished client trust."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fi": "Haasteita herkkien ja vaativien lemmikkien kohtaamisessa",
+        "en": "Challenges handling sensitive and anxious pets"
+      },
+      "text": {
+        "fi": "Vaikka osa asiakkaista kertoo kissojensa saaneen rauhallista ja huolellista kohtelua, useampi palaute nostaa esiin ongelmia erityistä tukea tarvitsevien eläinten käsittelyssä. Arkojen tai traumatisoituneiden koirien omistajat ovat kokeneet vastaanoton vähätteleväksi ja kokeneet, ettei lemmikin erityistarpeita ymmärretty vastaanotolla riittävästi.",
+        "en": "While some clients note their cats were handled attentively, multiple reviews point out difficulties managing animals requiring specialized handling. Owners of nervous or traumatized pets reported feeling dismissed by clinic personnel, feeling the facility was unsuited to companion animals exhibiting situational stress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Onko Eläinklinikka Livetin yhteydessä asiakaspysäköintiä?",
+        "en": "Is customer parking available at Eläinklinikka Livet?"
+      },
+      "a": {
+        "fi": "Kyllä, Tietokujan toimipisteen pihassa on maksuttomia asiakaspysäköintipaikkoja.",
+        "en": "Yes, free customer parking spaces are situated directly outside the Tietokuja premises."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tehdäänkö klinikalla ultraäänitutkimuksia kissoille ja koirille?",
+        "en": "Are ultrasound examinations performed for cats and dogs?"
+      },
+      "a": {
+        "fi": "Kyllä, klinikka tarjoaa nykyaikaisia vatsaontelon ja sydämen ultraäänitutkimuksia.",
+        "en": "Yes, the clinic performs comprehensive abdominal and cardiac ultrasound examinations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tarvitseeko vastaanotolle varata aika etukäteen?",
+        "en": "Is advance booking required for appointments?"
+      },
+      "a": {
+        "fi": "Kyllä, Livet toimii ajanvarauksella, jonka voi tehdä verkossa tai puhelimitse.",
+        "en": "Yes, Livet operates by advance appointment booked online or via telephone."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
