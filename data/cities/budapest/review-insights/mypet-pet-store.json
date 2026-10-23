@@ -1,0 +1,86 @@
+{
+  "slug": "mypet-pet-store",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mypet+pet+store/data=!4m7!3m6!1s0x4741dea0b4b80e39:0x680ad3f8fe03e5b3!8m2!3d47.5089001!4d19.0269418!16s%2Fg%2F1hc263b8d!19sChIJOQ64tKDeQUcRs-UD_vjTCmg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 2,
+      "title": {
+        "hu": "Eladói hozzáállás és kiszolgálási nehézségek",
+        "en": "Customer service and staff availability"
+      },
+      "text": {
+        "hu": "A vásárlók az elmúlt időszakban több alkalommal jelezték a személyzet elutasító magatartását a II. kerületi üzletben. A beszámolók szerint a díszhalak vásárlásakor hiányzott a szakszerű segítség, és a zárás előtti percekben a kiszolgálást is megtagadták. A látogatók emiatt barátságtalannak és kevésbé segítőkésznek érezték a bolti csapatot.",
+        "en": "Shoppers in District II recently reported customer service challenges and unhelpful staff behavior. Feedback notes difficulties when trying to purchase aquarium fish, citing a lack of guidance and refusal of service right before closing time. Several visitors felt unwelcome and experienced dismissive treatment from sales associates during their visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Hol található a Mypet díszállat-kereskedés?",
+        "en": "Where is the Mypet pet store located?"
+      },
+      "a": {
+        "hu": "A bolt Budapest II. kerületében, a Lövőház utcában működik a Mammut bevásárlóközpontban.",
+        "en": "The shop is located in District II of Budapest, on Lövőház Street inside the Mammut shopping centre."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "hu": "Lehet díszhalakat és akvarisztikai felszerelést vásárolni?",
+        "en": "Can you buy ornamental fish and aquarium accessories here?"
+      },
+      "a": {
+        "hu": "Igen, a kereskedés kínálatában akváriumi halak, élő növények és egyéb felszerelések is elérhetők.",
+        "en": "Yes, the shop offers freshwater aquarium fish, aquatic live plants, and basic accessories."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Mennyire segítőkész a kiszolgálás a vásárlói tapasztalatok szerint?",
+        "en": "How helpful is the customer service based on shopper reviews?"
+      },
+      "a": {
+        "hu": "A legutóbbi visszajelzések alapján a vásárlók hiányolták a kellő figyelmet és a türelmes tájékoztatást.",
+        "en": "Recent reviews indicate that shoppers experienced rushed service and missed attentive advice."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}
