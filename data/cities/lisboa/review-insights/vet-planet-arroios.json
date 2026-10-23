@@ -1,0 +1,142 @@
+{
+  "slug": "vet-planet-arroios",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+Vet+Planet+Arroios/data=!4m7!3m6!1s0xd193397a67a3d83:0x56667e0f0b0ec58b!8m2!3d38.7331916!4d-9.1328983!16s%2Fg%2F11c2k7j_zd!19sChIJgz16ppczGQ0Ri8UOCw9-ZlY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Atendimento clínico com opiniões contrastantes",
+        "en": "Professional care alongside polarized reviews"
+      },
+      "text": {
+        "pt": "As avaliações sobre a equipa veterinária em Arroios dividem-se entre elogios calorosos e críticas severas. Enquanto tutores destacam a empatia, a atenção minuciosa e a dedicação durante emergências, outros clientes relatam experiências negativas com exames múltiplos e pouca sensibilidade demonstrada com animais idosos ou nervosos.",
+        "en": "Reviews concerning the veterinary team in Arroios are sharply polarized between glowing commendations and pointed criticism. While several pet owners praise the empathy, thoroughness, and swift emergency care provided, other clients report distressing encounters with excessive tests and perceived lack of sensitivity toward fearful pets."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Comunicação médica e apoio telefónico",
+        "en": "Clinical explanations and owner communication"
+      },
+      "text": {
+        "pt": "A clareza na transmissão de informação gera opiniões contrastantes. Vários clientes elogiam a disponibilidade para esclarecer diagnósticos e detalhar medicações prescritas, transmitindo segurança. Em contrapartida, outro tutor refere falta de empatia e respostas inflexíveis durante um contacto telefónico para atendimento urgente.",
+        "en": "Communication clarity receives contrasting feedback from clinic visitors. Satisfied guardians appreciate transparent explanations about treatments and detailed instructions for medications. In contrast, another caller experienced blunt phone communication and unhelpful responses when inquiring about immediate assistance for an urgent concern."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Prazos de atendimento e urgências",
+        "en": "Scheduling delays and emergency availability"
+      },
+      "text": {
+        "pt": "A gestão do tempo de espera e a marcação de consultas recebem reparos críticos no período analisado. Embora uma família em trânsito tenha sido recebida de imediato sem marcação prévia, outros tutores queixam-se de atrasos na entrega dos animais após exames e de recusa em encaixar atendimentos no próprio dia, mesmo perante sintomas agudos.",
+        "en": "Scheduling flexibility and waiting times receive critical remarks across reviews from the examined period. Although one traveling family was welcomed immediately without an appointment, other clients complain of delays following procedures and an unwillingness to accommodate acute same-day visits when pets presented distressing symptoms."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica Vet Planet Arroios atende urgências veterinárias?",
+        "en": "Does Vet Planet Arroios provide emergency veterinary care?"
+      },
+      "a": {
+        "pt": "A clínica dispõe de linha de apoio telefónico para urgências e capacidade de atendimento clínico durante o horário de abertura.",
+        "en": "The clinic maintains a telephone helpline for emergencies and clinical triage capacity during operating hours."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "A clínica veterinária está aberta aos fins de semana?",
+        "en": "Is the veterinary clinic open on weekends?"
+      },
+      "a": {
+        "pt": "Sim, a clínica de Arroios funciona ao sábado e ao domingo entre as 10:00 e as 20:00.",
+        "en": "Yes, the Arroios clinic operates on Saturdays and Sundays between 10:00 and 20:00."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "É possível ser atendido sem marcação prévia?",
+        "en": "Is it possible to receive care without an advance appointment?"
+      },
+      "a": {
+        "pt": "Relatos indicam que urgências podem ser aceites no momento, mas recomenda-se marcação prévia para evitar falta de vagas.",
+        "en": "Reports indicate immediate walk-ins are sometimes accommodated for emergencies, but advance booking is recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

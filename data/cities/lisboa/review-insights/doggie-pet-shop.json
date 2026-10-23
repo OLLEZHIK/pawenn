@@ -1,0 +1,166 @@
+{
+  "slug": "doggie-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Doggie+%7C+Pet+Shop/data=!4m7!3m6!1s0xd1933eebe7cb77d:0x61ed2db3421c429f!8m2!3d38.7431805!4d-9.1420366!16s%2Fg%2F11mw7y0wls!19sChIJfbd8vu4zGQ0Rn0IcQrMt7WE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Atendimento atencioso com críticas pontuais",
+        "en": "Attentive service with occasional concerns"
+      },
+      "text": {
+        "pt": "Vários clientes elogiam a simpatia e a rapidez dos funcionários na entrega de encomendas e no apoio sobre produtos para animais no Areeiro. Em contrapartida, surgem relatos críticos sobre a gestão dos animais na área de tosquia e falta de pessoal durante os períodos de maior afluência na loja.",
+        "en": "Several shoppers commend the friendly and efficient assistance provided by store employees when handling parcel pickups and pet supplies in Areeiro. Conversely, critical remarks mention staff shortages and questionable handling during pet grooming sessions when animals were left waiting."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Variedade de alimentação e artigos",
+        "en": "Broad selection of pet items"
+      },
+      "text": {
+        "pt": "Os tutores destacam a oferta de rações secas e húmidas de produção local, petiscos naturais e artigos variados para cães e gatos. O espaço comercial em Lisboa é considerado organizado e conveniente para quem procura artigos diferenciados para a rotina diária dos animais de companhia.",
+        "en": "Pet guardians highlight the good variety of locally sourced dry foods, organic treats, and everyday pet accessories for dogs and cats. The retail shop in Lisbon is valued as an organized stop for customers seeking wholesome nutrition and diverse care supplies for their household animals."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Tempo de espera e horários",
+        "en": "Opening hours and wait times"
+      },
+      "text": {
+        "pt": "Alguns clientes manifestam descontentamento com o cumprimento do horário anunciado e com a espera prolongada nos banhos. Há queixas sobre encontrar a porta encerrada dentro do período previsto e sobre cães molhados a aguardar a sua vez na banheira sem assistência imediata do funcionário.",
+        "en": "A few reviewers express dissatisfaction with unannounced closures during posted hours and prolonged wait times in the grooming corner. Concerns focus on doors being shut during scheduled opening periods and bathed pets left shivering in tubs while staff members attend to other responsibilities."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A Doggie Pet Shop faz entregas de encomendas?",
+        "en": "Does Doggie Pet Shop provide delivery services?"
+      },
+      "a": {
+        "pt": "Sim, a loja disponibiliza entregas ao domicílio para encomendas efetuadas através do site.",
+        "en": "Yes, the shop offers home delivery for orders placed through its online portal."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O espaço comercial funciona como ponto de recolha de encomendas?",
+        "en": "Does the retail store serve as a parcel pickup point?"
+      },
+      "a": {
+        "pt": "Sim, os clientes referem o espaço como ponto de levantamento e envio de encomendas de compras online.",
+        "en": "Yes, reviewers confirm the location functions as a convenient collection point for parcel orders."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A loja disponibiliza serviços de banho e tosquia para animais?",
+        "en": "Does the store provide bathing and grooming services?"
+      },
+      "a": {
+        "pt": "Sim, existe uma área de tosquia e banho para cães, recomendando-se marcação prévia antes da visita.",
+        "en": "Yes, there is a dedicated grooming corner for dogs, with advance appointment booking recommended."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

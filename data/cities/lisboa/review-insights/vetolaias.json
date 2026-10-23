@@ -1,0 +1,135 @@
+{
+  "slug": "vetolaias",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VetOlaias+-+Veterinary+Clinic/data=!4m7!3m6!1s0xd1933bf268e0e01:0x444b64858b9f7a7!8m2!3d38.7397945!4d-9.1235123!16s%2Fg%2F11b6xsv1f0!19sChIJAQ6OJb8zGQ0RpwmbWMSSRAQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Apoio médico dedicado com ressalva",
+        "en": "Dedicated medical care with exception"
+      },
+      "text": {
+        "pt": "A generalidade das avaliações destaca a simpatia, dedicação e elevado profissionalismo do corpo clínico das Olaias, com particular apreço pelos cuidados prestados pela Dra. Cátia. No entanto, um tutor registou uma experiência muito grave com um profissional inexperiente num atendimento de urgência, o que contrasta com os restantes elogios à clínica.",
+        "en": "Most reviews highlight the warmth, dedication, and clinical expertise of the veterinary staff at VetOlaias, expressing particular gratitude for Dr. Cátia's attentive care. However, one owner reported a concerning experience involving an inexperienced practitioner during an urgent visit, contrasting sharply with the otherwise glowing feedback."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Atendimento caloroso e esclarecedor",
+        "en": "Warm and clear communication"
+      },
+      "text": {
+        "pt": "A relação com os tutores é salientada de forma muito positiva nos testemunhos recentes. Os clientes apreciam a paciência demonstrada durante as consultas, o tempo dedicado a explicar diagnósticos e a disponibilidade da equipa para responder a todas as dúvidas, transmitindo tranquilidade e confiança a quem procura apoio para o seu animal de estimação.",
+        "en": "Communication with pet owners is consistently praised in recent client feedback. Visitors value the patience demonstrated during consultations, the detailed explanations of diagnoses, and the team's willingness to address questions thoroughly, providing peace of mind and reassurance to families seeking proper medical advice for their companions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Abordagem cuidada ao temperamento animal",
+        "en": "Attentive approach to animal temperament"
+      },
+      "text": {
+        "pt": "Vários tutores referem que cães e felinos nervosos são tratados com paciência, gentileza e respeito pelo seu estado emocional, permitindo consultas tranquilas e sem sobressaltos. Ainda assim, o relato relativo ao tratamento inadequado de uma ave exótica demonstra que as famílias esperam competência comprovada no manuseio de todas as espécies atendidas.",
+        "en": "Several owners note that anxious dogs and cats are treated with patience, gentle handling, and consideration for their emotional state, ensuring calm and stress-free visits. Nevertheless, a negative report concerning the improper dosage administered to an exotic bird reminds owners that specialized handling is essential for every animal species."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A equipa tem experiência com animais stressados ou nervosos?",
+        "en": "Does the team have experience with stressed or anxious pets?"
+      },
+      "a": {
+        "pt": "Sim, os tutores destacam a paciência e calma da Dra. Cátia no atendimento de felinos e cães assustados durante as consultas de rotina.",
+        "en": "Yes, clients highlight Dr. Cátia's patience and calm approach when examining frightened or anxious cats and dogs during routine check-ups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O espaço da clínica é limpo e acolhedor?",
+        "en": "Is the clinic environment clean and welcoming?"
+      },
+      "a": {
+        "pt": "As avaliações mencionam instalações bem cuidadas, organizadas e um ambiente tranquilo para receber os animais de companhia.",
+        "en": "Reviews describe well-maintained, organized facilities and a calm atmosphere for receiving companion pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A clínica atende todas as espécies de animais exóticos?",
+        "en": "Does the clinic treat all species of exotic animals?"
+      },
+      "a": {
+        "pt": "A clínica atende cães e gatos regularmente; para aves ou espécies exóticas específicas, recomenda-se confirmar previamente a experiência do médico presente.",
+        "en": "The clinic primarily treats dogs and cats; for birds or specific exotic pets, confirming the attending doctor's specialty in advance is recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

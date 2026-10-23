@@ -1,0 +1,133 @@
+{
+  "slug": "urvet-clinica-veterinaria",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Urvet+-+Cl%C3%ADnica+Veterin%C3%A1ria+de+Urg%C3%AAncia,+Lda./data=!4m7!3m6!1s0xd1ecd272e34d5f1:0x7732df30b8b201cf!8m2!3d38.7506174!4d-9.1985767!16s%2Fg%2F1tdx5dc1!19sChIJ8dU0LifNHg0RzwGyuDDfMnc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Atendimento dedicado com opiniões divididas",
+        "en": "Dedicated staff with divided customer reviews"
+      },
+      "text": {
+        "pt": "A maioria dos clientes elogia o profissionalismo, a simpatia e a atenção demonstrada pelos médicos veterinários e pela assistente na clínica da Estrada de Benfica. Contudo, surge também uma avaliação crítica que expressa forte descontentamento com a conduta profissional num procedimento cirúrgico específico, dividindo as impressões gerais.",
+        "en": "Most reviewers highlight the dedication, friendliness, and attentiveness of the veterinary surgeons and clinical assistant on Estrada de Benfica. However, one strongly critical review expressed deep dissatisfaction with professional conduct regarding a surgical procedure, resulting in divided overall impressions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Cuidado animal e críticas pontuais",
+        "en": "Animal care with specific ethical concerns"
+      },
+      "text": {
+        "pt": "Tutores de longa data sublinham o carinho, a paciência e a forma afetuosa como os animais são tratados durante consultas e acompanhamentos clínicos. Em contrapartida, um revisor manifesta preocupação com o bem-estar animal, alegando a realização de intervenções não recomendadas, o que contrasta com os relatos habituais de carinho.",
+        "en": "Long-time clients emphasize the gentle handling, patience, and genuine affection shown toward dogs and cats during clinical checkups. Conversely, one reviewer raised animal welfare concerns regarding non-standard surgical procedures, creating a distinct contrast with typical reports of compassionate care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Resultados clínicos com reparos sérios",
+        "en": "Valued treatment outcomes alongside serious criticism"
+      },
+      "text": {
+        "pt": "Vários donos de animais salientam a eficácia dos tratamentos e a segurança sentida ao longo de anos de acompanhamento veterinário na clínica. Não obstante esse historial positivo, existe uma crítica contundente sobre procedimentos cirúrgicos inadequados, levando os tutores a partilharem perspetivas distintas sobre os desfechos clínicos.",
+        "en": "Several pet guardians point to dependable clinical outcomes and reassurance built over years of routine veterinary support. Despite this established record, one severe complaint alleged questionable surgical practices, presenting prospective clients with contrasting viewpoints on treatment standards."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica Urvet disponibiliza apoio veterinário de urgência?",
+        "en": "Does the Urvet clinic offer emergency veterinary support?"
+      },
+      "a": {
+        "pt": "Sim, a clínica dispõe de serviço veterinário de urgência sob chamada 24 horas por dia.",
+        "en": "Yes, the practice maintains on-call emergency veterinary care 24 hours a day."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Que especialidades cirúrgicas e médicas estão disponíveis na clínica?",
+        "en": "What medical and surgical specialties are available at the clinic?"
+      },
+      "a": {
+        "pt": "A clínica realiza cirurgia geral e ortopédica, além de consultas de cardiologia, neurologia e imagiologia.",
+        "en": "The clinic provides general and orthopedic surgery alongside cardiology, neurology, and diagnostic imaging."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Os clientes relatam um bom relacionamento com a equipa médica?",
+        "en": "Do clients report positive interactions with the medical team?"
+      },
+      "a": {
+        "pt": "A generalidade dos tutores destaca a simpatia e a dedicação da equipa, embora exista uma crítica pontual sobre conduta clínica.",
+        "en": "Most guardians highlight the warmth and dedication of the clinical staff, though one review raises concerns over surgical conduct."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    }
+  ]
+}
