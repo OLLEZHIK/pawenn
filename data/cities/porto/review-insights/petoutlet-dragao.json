@@ -1,0 +1,125 @@
+{
+  "slug": "petoutlet-dragao",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetOutlet+Drag%C3%A3o/data=!4m7!3m6!1s0xd246462d720f3a5:0xc86226009232cb49!8m2!3d41.1634949!4d-8.583612!16s%2Fg%2F11bxdyg737!19sChIJpfMg12JkJA0RScsykgAmYsg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Funcionários qualificados com atendimento irregular",
+        "en": "Knowledgeable store team with service lapses"
+      },
+      "text": {
+        "pt": "Vários clientes elogiam a preparação técnica e a simpatia de colaboradores que demonstram dedicação aos animais no centro comercial Alameda. Em contrapartida, um cliente relatou desatenção e conversa privada entre funcionários na caixa, que resultou numa recusa indelicada de auxílio.",
+        "en": "Several visitors commend the professional knowledge and friendliness of employees who show genuine care for pets at the Alameda mall. Conversely, one client reported inattentive staff having personal conversations by the counter, resulting in an unhelpful and dismissive interaction."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "pt": "Espaço focado em cães e gatos",
+        "en": "Store focused on dogs and cats"
+      },
+      "text": {
+        "pt": "Os clientes encontram uma seleção satisfatória para a dimensão da loja, embora o espaço esteja fortemente direcionado para alimentação e cuidados de cães e gatos. Quem procura artigos específicos para répteis ou aquariofilia nota a ausência de oferta adequada nestes segmentos.",
+        "en": "Shoppers note a reasonable selection given the retail footprint, although the shop is largely oriented toward dog and cat nutrition and accessories. Pet owners searching for reptile or aquarium supplies report that the store does not cater adequately to non-traditional companions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "pt": "Afeição e foco no bem-estar animal",
+        "en": "Affection and focus on pet welfare"
+      },
+      "text": {
+        "pt": "As avaliações positivas realçam a atenção sincera que a equipa dedica aos cães e gatos que acompanham os donos. Os funcionários são descritos como verdadeiros apaixonados por animais de estimação, demonstrando competência nas recomendações práticas partilhadas no espaço.",
+        "en": "Positive reviews emphasize the sincere attention the team shows towards dogs and cats visiting the shop with their owners. Staff members are portrayed as genuine animal lovers who provide helpful and knowledgeable recommendations regarding daily pet care and well-being."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A loja vende produtos para répteis ou peixes?",
+        "en": "Does the store stock supplies for reptiles or fish?"
+      },
+      "a": {
+        "pt": "Não, as avaliações indicam que a oferta é praticamente restrita a artigos e alimentação para cães e gatos.",
+        "en": "No, customer feedback indicates the stock is almost exclusively dedicated to canine and feline essentials."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A loja PetOutlet Dragão fica situada num centro comercial?",
+        "en": "Is PetOutlet Dragão located inside a shopping center?"
+      },
+      "a": {
+        "pt": "Sim, a loja localiza-se no centro comercial Alameda Shop & Spot, junto ao Estádio do Dragão no Porto.",
+        "en": "Yes, the store is situated within Alameda Shop & Spot shopping center, right next to Estádio do Dragão in Porto."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Qual é o horário de funcionamento habitual da loja?",
+        "en": "What are the standard operating hours of the shop?"
+      },
+      "a": {
+        "pt": "A loja funciona diariamente com horário alargado, encerrando habitualmente entre as 22h00 e as 23h00.",
+        "en": "The store operates daily with extended hours, typically closing between 22:00 and 23:00 depending on the day."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "place": "-",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-"
+      }
+    }
+  ]
+}
