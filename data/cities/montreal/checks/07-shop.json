@@ -1,0 +1,35 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "mondou-jean-talon-montreal",
+    "mondou-angus-montreal",
+    "mondou-atwater-montreal",
+    "boutique-pawse-montreal",
+    "nature-montreal",
+    "peluche-centre-ville-montreal",
+    "pattes-et-griffes-griffintown-montreal",
+    "animal-expert-maisonneuve-montreal",
+    "mrs-meadys-montreal",
+    "canino-montreal"
+  ],
+  "hash": "60fd18daaec89e04257c178743e0ff2c5ba1666c9ac1dc78f180ac807485ae44",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T00:13:29.130Z",
+      "result": "FAIL",
+      "listed": 24
+    },
+    {
+      "at": "2026-10-23T00:14:55.663Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T00:20:30.321Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
