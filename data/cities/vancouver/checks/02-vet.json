@@ -1,0 +1,45 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "juno-veterinary-main-street-clinic",
+    "vancouver-downtown-pet-hospital",
+    "olympic-village-veterinary-clinic",
+    "alta-vista-animal-hospital-vancouver",
+    "homer-animal-hospital-vancouver-downtown",
+    "animal-medical-clinic",
+    "langara-veterinary-hospital",
+    "point-grey-veterinary-hospital",
+    "arbutus-west-animal-clinic",
+    "woodland-veterinary-clinic"
+  ],
+  "hash": "c2784311b6b8ee12ad157dc45c46d05ad350d248ef269e7e203188f01cffb3c2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T01:54:52.076Z",
+      "result": "FAIL",
+      "listed": 72
+    },
+    {
+      "at": "2026-10-23T02:05:53.386Z",
+      "result": "FAIL",
+      "listed": 54
+    },
+    {
+      "at": "2026-10-23T02:17:55.332Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T02:18:59.657Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T02:20:30.083Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
