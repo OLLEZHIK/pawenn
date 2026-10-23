@@ -1,0 +1,147 @@
+{
+  "slug": "dierenkliniek-de-jordaan",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dierenkliniek+De+Jordaan/data=!4m7!3m6!1s0x47c609ce2c9bb457:0xb8c5274891a654e8!8m2!3d52.3805728!4d4.8842521!16s%2Fg%2F11bc5fxxwq!19sChIJV7SbLM4JxkcR6FSmkUgnxbg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "nl": "Vriendelijk en zorgzaam buurtteam",
+        "en": "Friendly and caring neighbourhood team"
+      },
+      "text": {
+        "nl": "Baasjes in de Jordaan zijn vol lof over de warme en persoonlijke benadering van dierenartsen zoals dokter Kalapnathsing. Het team neemt de tijd voor zenuwachtige huisdieren en biedt heldere uitleg en ondersteuning bij zowel routineconsulten als operaties.",
+        "en": "Pet guardians in the Jordaan praise the warm and personal approach of vets such as Dr. Kalapnathsing. The team takes time to settle nervous pets and provides thorough guidance and reassurance during both regular check-ups and complex surgical procedures."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "nl": "Snelle afspraken naast strikt tijdschema",
+        "en": "Flexible scheduling alongside strict punctuality"
+      },
+      "text": {
+        "nl": "Klanten waarderen de beschikbaarheid van snelle afspraken bij acute klachten en de rustige tijd die voor consulten wordt uitgetrokken. Wel leidde een strikte weigering na enkele minuten vertraging tot frustratie bij een vaste bezoeker over flexibiliteit.",
+        "en": "Clients value the availability of prompt appointments for acute issues and the generous consultation times allocated by the staff. However, a strict refusal to accommodate a visit after arriving a few minutes late caused frustration regarding scheduling flexibility."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "nl": "Goede bereikbaarheid met wisselende soepelheid",
+        "en": "Good responsiveness with occasional rigidity"
+      },
+      "text": {
+        "nl": "Veel eigenaren prijzen de uitstekende telefonische bereikbaarheid, de Engelse taalvaardigheid en de attentie van een foto na een operatie. Daarentegen ervoer een klant een starre opstelling aan de balie bij het bespreken van een verlate afspraak in de ochtend.",
+        "en": "Many owners commend dependable phone accessibility, fluent English communication, and thoughtful post-surgery photo updates of recovering pets. Conversely, a client experienced a rigid reception stance when addressing an appointment delay during morning hours."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Wordt er Engels gesproken bij Dierenkliniek De Jordaan?",
+        "en": "Can staff converse in English at Dierenkliniek De Jordaan?"
+      },
+      "a": {
+        "nl": "Ja, het personeel spreekt uitstekend Engels en helpt internationale bewoners en expats graag in het Engels.",
+        "en": "Yes, the clinic team speaks fluent English and regularly assists international residents and expatriates."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Biedt de kliniek begeleiding na operaties?",
+        "en": "Does the clinic offer post-operative updates?"
+      },
+      "a": {
+        "nl": "Ja, cliënten melden dat het team updates en foto's stuurt na ingrepen en de volgende dag telefonisch contact opneemt.",
+        "en": "Yes, clients report that the team sends recovery updates and photos after procedures, following up by phone the next day."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Doet Dierenkliniek De Jordaan ook huisbezoeken?",
+        "en": "Does Dierenkliniek De Jordaan arrange home visits?"
+      },
+      "a": {
+        "nl": "Ja, voor dieren of eigenaren die niet naar de praktijk kunnen komen, kunnen huisbezoeken in overleg worden gepland.",
+        "en": "Yes, for pets or guardians unable to travel to the practice, home visits can be arranged upon consultation."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
