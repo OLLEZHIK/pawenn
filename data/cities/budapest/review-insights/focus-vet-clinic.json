@@ -1,0 +1,190 @@
+{
+  "slug": "focus-vet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Focus+Vet+Clinic/data=!4m7!3m6!1s0x4741de91cbeb5227:0x30d3f7918cf49c61!8m2!3d47.4982901!4d19.0023303!16s%2Fg%2F11g9f85px0!19sChIJJ1Lry5HeQUcRYZz0jJH30zA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "hu": "Elhivatott és kedves rendelői csapat",
+        "en": "Dedicated and kind veterinary staff"
+      },
+      "text": {
+        "hu": "A páciensek tulajdonosai kiemelik az orvosok és asszisztensek közvetlen, figyelmes és tisztességes hozzáállását a XII. kerületi rendelőben. A vizsgálatok során a szakemberek részletesen elmagyarázzák a terápiás lépéseket, és megnyugtató légkört teremtenek. Egy-egy gazdi azonban úgy érezte, hogy a tájékoztatás nem volt mindig teljes körű.",
+        "en": "Pet owners commend the approachable, caring, and honest demeanor of the veterinarians and assistants in District XII. During examinations, clinicians clearly explain each therapeutic step and maintain a reassuring setting. However, an occasional reviewer felt that communication regarding post-operative care was not fully candid."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "hu": "Kiemelkedő tapasztalat kisemlősökkel",
+        "en": "Experienced care for small mammals"
+      },
+      "text": {
+        "hu": "A gazdik nagyra értékelik, hogy a rendelőben rutinosan látnak el törpehörcsögöket, tengerimalacokat és nyuszikat a kutyák és macskák mellett. A kisállatok finom és szakszerű kezelése bizalmat ébreszt a legkisebb kedvencek tartóiban is. Még az érzékeny rágcsálók rutinvizsgálata és sebészeti ellátása is nagy odafigyeléssel történik.",
+        "en": "Owners appreciate that the clinic routinely treats dwarf hamsters, guinea pigs, and rabbits alongside dogs and cats. The gentle and knowledgeable handling of small mammals fosters strong trust among exotic pet guardians. Even sensitive rodents receive attentive care during routine checkups and surgical interventions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "hu": "Eredményes műtétek megosztott tapasztalatokkal",
+        "en": "Effective surgeries with mixed feedback"
+      },
+      "text": {
+        "hu": "A vélemények többsége sikeres beavatkozásokról számol be, mint a tumor eltávolítása törpehörcsögnél vagy a rutin ivartalanítás nyulaknál. A gyógyulási folyamat sok esetben zökkenőmentes és gyors volt. Ugyanakkor előfordult súlyos műtéti szövődmény is egy tengerimalac hólyagműtétje után, ami komoly csalódást okozott a gazdinak.",
+        "en": "Most reviews report successful procedures, such as tumor removals in dwarf hamsters or routine rabbit neutering. The recovery process is often fast and uneventful for patients. However, one owner reported a critical postoperative complication following a guinea pig bladder procedure, resulting in deep disappointment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Foglalkoznak a rendelőben egzotikus állatokkal és rágcsálókkal?",
+        "en": "Does the clinic treat small exotic pets and rodents?"
+      },
+      "a": {
+        "hu": "Igen, a vélemények alapján rendszeresen és nagy tapasztalattal látnak el nyulakat, tengerimalacokat és törpehörcsögöket.",
+        "en": "Yes, client feedback shows regular and skilled care for rabbits, guinea pigs, and dwarf hamsters."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Végeznek a rendelőben műtéti beavatkozásokat?",
+        "en": "Does the clinic perform surgical procedures?"
+      },
+      "a": {
+        "hu": "Igen, a sebészeti ellátás keretében ivartalanításokat, lágyszervi műtéteket és daganateltávolításokat is végeznek.",
+        "en": "Yes, the surgical practice covers neutering, soft tissue operations, and tumor removals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Szükséges időpontot foglalni a vizsgálatokra?",
+        "en": "Do clients need to book an appointment for consultations?"
+      },
+      "a": {
+        "hu": "A vizsgálatokra és műtétekre javasolt előzetesen bejelentkezni telefonon a gördülékeny ellátás érdekében.",
+        "en": "Calling ahead to schedule appointments for checkups and surgery is recommended to minimize waiting."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "hu": "Lehet bankkártyával fizetni a rendelőben?",
+        "en": "Can clients pay by debit or credit card at the clinic?"
+      },
+      "a": {
+        "hu": "Igen, a rendelőben bankkártyás és készpénzes fizetésre is lehetőség van.",
+        "en": "Yes, payment can be made with credit cards as well as cash at the surgery."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "prices": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "+",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
