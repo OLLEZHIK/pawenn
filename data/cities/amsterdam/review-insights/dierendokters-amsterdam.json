@@ -1,0 +1,154 @@
+{
+  "slug": "dierendokters-amsterdam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DierenDokters/data=!4m7!3m6!1s0x47c609deaef63b39:0xd040f0a97273ead4!8m2!3d52.3723952!4d4.8750049!16s%2Fg%2F1tg14y7v!19sChIJOTv2rt4JxkcR1OpzcqnwQNA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "nl": "Vriendelijke ontvangst naast klachten over flexibiliteit",
+        "en": "Friendly reception alongside flexibility concerns"
+      },
+      "text": {
+        "nl": "De algemene indruk van het personeel is gemengd: veel cliënten waarderen de vriendelijke en zorgzame omgang bij de balie en tijdens controles. Tegelijkertijd melden ontevreden bezoekers starre regels bij te laat komen en onprofessionele opmerkingen van assistenten in specifieke situaties.",
+        "en": "Overall impressions of the team are mixed: many clients appreciate the kind and caring reception at the front desk and during visits. Concurrently, dissatisfied reviewers cite inflexible handling of slight delays and unprofessional remarks from assistants under specific circumstances."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "nl": "Tarieven worden door klanten als hoog ervaren",
+        "en": "Fees perceived as noticeably expensive by clients"
+      },
+      "text": {
+        "nl": "Verschillende baasjes uiten hun onvrede over de prijzen van behandelingen, consulten en medicatie. Recensenten omschrijven de kosten als fors tot buitengewoon hoog in vergelijking met eerdere veterinaire ervaringen. Dit prijsniveau weegt voor sommige eigenaren zwaar mee in hun eindoordeel.",
+        "en": "Several pet owners express displeasure concerning the costs of clinical consultations, procedures, and medicines. Reviewers describe billing as steep to exceptionally high compared to other veterinary clinics. These premium price levels weigh heavily on client satisfaction ratings."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "nl": "Liefdevolle verzorging en aandacht voor huisdieren",
+        "en": "Affectionate care and attention for pets"
+      },
+      "text": {
+        "nl": "Positieve beoordelingen lichten uit dat zieke katten en honden met veel tederheid worden behandeld. De dierenartsen tonen oprechte empathie en proberen stressvolle transporten en ingrepen zo comfortabel mogelijk te maken. Huisdieren krijgen de nodige rust en medische toewijding.",
+        "en": "Favourable comments highlight that ill cats and dogs are treated with genuine warmth. Clinicians display authentic empathy, striving to make anxious transports and clinic visits as comfortable as possible. Pets receive patient handling and attentive veterinary devotion."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Wat vinden klanten over het algemeen van de tarieven?",
+        "en": "What do clients generally think about the practice fees?"
+      },
+      "a": {
+        "nl": "Meerdere recensenten geven aan dat de kosten voor consulten en behandelingen aan de hoge kant zijn.",
+        "en": "Multiple reviewers state that costs for clinical consultations and treatments feel decidedly high."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Kan er bij spoed dezelfde dag een afspraak worden gemaakt?",
+        "en": "Can same-day appointments be booked in case of urgency?"
+      },
+      "a": {
+        "nl": "Ja, recensies tonen aan dat dieren met acute klachten vaak nog op dezelfde dag terechtkunnen.",
+        "en": "Yes, reviews show that companion animals with acute problems can frequently be accommodated on the same day."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Is de praktijk goed bereikbaar met het openbaar vervoer?",
+        "en": "Is the clinic convenient to reach by public transit?"
+      },
+      "a": {
+        "nl": "Ja, de locatie nabij de Rozengracht en Nassaukade ligt op loopafstand van diverse tram- en bushaltes.",
+        "en": "Yes, situated near Rozengracht and Nassaukade, the clinic is within walking distance of tram and bus stops."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "-",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

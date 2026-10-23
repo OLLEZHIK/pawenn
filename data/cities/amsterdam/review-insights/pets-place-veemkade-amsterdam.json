@@ -1,0 +1,140 @@
+{
+  "slug": "pets-place-veemkade-amsterdam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+Place/data=!4m7!3m6!1s0x47c6091019ce93d5:0xe8efabf5a7104b5f!8m2!3d52.3744207!4d4.9363007!16s%2Fg%2F1vd75355!19sChIJ1ZPOGRAJxkcRX0sQp_Wr7-g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "nl": "Overzichtelijke dierenwinkel in het winkelcentrum",
+        "en": "Compact pet store in shopping centre"
+      },
+      "text": {
+        "nl": "Klanten in het Oostelijk Havengebied waarderen de praktische ligging in winkelcentrum Brazilië. De winkel wordt omschreven als een overzichtelijke speciaalzaak met een degelijk assortiment aan dagelijkse dierenvoeding, al is niet iedere bezoeker tevreden over de algehele ervaring.",
+        "en": "Pet owners in the eastern docklands appreciate the convenient setting inside the Brazil shopping arcade. The shop is described as a well-stocked local retailer with solid supplies of daily pet essentials, although overall shopping experiences receive varied appraisal."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "nl": "Terugkerende klachten over onvriendelijke bejegening",
+        "en": "Recurring complaints regarding store service"
+      },
+      "text": {
+        "nl": "Terwijl een bezoeker vriendelijk geholpen werd, klagen meerdere klanten nadrukkelijk over botte en onbehulpzame medewerkers. Bezoekers voelden zich niet welkom bij het stellen van vragen of het omruilen van een product, wat leidde tot teleurstellende ervaringen aan de kassa.",
+        "en": "While one shopper noted polite assistance, multiple visitors strongly complain about curt and unhelpful store personnel. Customers felt unwelcome when asking questions or attempting an item exchange, resulting in frustrating interactions at the checkout counter."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "nl": "Frictie over service en ruilbeleid",
+        "en": "Friction concerning returns and communication"
+      },
+      "text": {
+        "nl": "Recensies wijzen op communicatieproblemen bij verzoeken over het retourneren of ruilen van artikelen. Klanten voelden zich afgewimpeld of uitgelachen en kregen tegenstrijdige informatie te horen. Slechts een enkeling ervoer het contact met het winkelpersoneel als vlot en prettig.",
+        "en": "Reviews highlight distinct communication breakdowns regarding product returns or exchanges. Customers reported being dismissed or met with derision, receiving contradictory instructions across branches. Only isolated shoppers found communication with the team cordial and smooth."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Waar bevindt deze Pets Place zich precies?",
+        "en": "Where is this Pets Place located?"
+      },
+      "a": {
+        "nl": "De winkel ligt aan de Veemkade in winkelcentrum Brazilië in het Oostelijk Havengebied.",
+        "en": "The store is situated on Veemkade within shopping centre Brazilië in Amsterdam's eastern docklands."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Kunnen artikelen gemakkelijk worden geruild in deze vestiging?",
+        "en": "Can items be exchanged easily at this location?"
+      },
+      "a": {
+        "nl": "Recensies melden frictie over het ruilen van artikelen en adviseren het aankoopbewijs goed te bewaren.",
+        "en": "Reviews report difficulty with product exchanges and suggest keeping receipts handy."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Is er voldoende basisvoeding voor honden en katten verkrijgbaar?",
+        "en": "Is there an adequate stock of daily pet food available?"
+      },
+      "a": {
+        "nl": "Ja, de winkel biedt een degelijke voorraad aan standaardvoer en snacks voor huisdieren.",
+        "en": "Yes, the shop maintains dependable stock of standard pet food and treats for companion animals."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}

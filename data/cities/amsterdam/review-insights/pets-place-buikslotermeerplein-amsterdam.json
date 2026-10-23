@@ -1,0 +1,134 @@
+{
+  "slug": "pets-place-buikslotermeerplein-amsterdam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+Place/data=!4m7!3m6!1s0x47c608f066982e99:0x3d6884ddca9bdb4f!8m2!3d52.3980365!4d4.9371281!16s%2Fg%2F1tdb_vm7!19sChIJmS6YZvAIxkcRT9ubyt2EaD0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "nl": "Ruim assortiment in compacte winkel",
+        "en": "Broad assortment in compact store"
+      },
+      "text": {
+        "nl": "Klanten zijn te spreken over het gevarieerde aanbod in het filiaal aan het Buikslotermeerplein. Hoewel het winkeloppervlak overzichtelijk en relatief compact is, vinden bezoekers er vrijwel alle dagelijkse benodigdheden, van kattenvoeding tot natuurlijke hondensnacks en visaccessoires.",
+        "en": "Shoppers appreciate the varied product selection available at the Buikslotermeerplein location. Although the floor plan is compact and modest in size, visitors routinely find all essential daily supplies, ranging from kitten nutrition to natural dog chews and aquarium items."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "nl": "Vriendelijke hulp en deskundig advies",
+        "en": "Friendly assistance and helpful advice"
+      },
+      "text": {
+        "nl": "Medewerkers in de winkel worden omschreven als behulpzaam, vriendelijk en attent. Zij nemen de tijd om vragen te beantwoorden, luisteren naar specifieke behoeften van huisdiereigenaren en wijzen klanten desgewenst door naar grotere vestigingen als een specifiek product ontbreekt.",
+        "en": "Store assistants are praised for being approachable, friendly, and attentive. They take time to answer inquiries, listen closely to specific requirements of pet owners, and willingly direct shoppers to larger chain locations if a specialized item is temporarily unavailable."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "nl": "Benodigdheden voor kittens en honden",
+        "en": "Supplies for kittens and dogs"
+      },
+      "text": {
+        "nl": "Huisdierbezitters slagen er vlot voor voeding en verzorgingsartikelen voor jonge katten en volwassen honden. Vooral de selectie van natuurlijke kauwsnacks en basisverzorging wordt gewaardeerd door baasjes die snel kwalitatieve spullen willen aanschaffen voor hun huisdier.",
+        "en": "Pet owners readily find nutrition and care products for growing kittens and adult dogs alike. In particular, the assortment of natural chew snacks and routine care supplies is valued by local guardians looking for reliable essentials for their four-legged companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Biedt de winkel voldoende keuze voor kittens en pups?",
+        "en": "Does the store offer sufficient choices for puppies and kittens?"
+      },
+      "a": {
+        "nl": "Ja, er is een ruime selectie aan voeding, speeltjes en verzorgingsartikelen voor jonge huisdieren aanwezig.",
+        "en": "Yes, a well-stocked selection of food, toys, and care items for young companion animals is available."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Zijn er natuurlijke snacks en gezonde diervoeding verkrijgbaar?",
+        "en": "Are natural treats and wholesome pet foods available in store?"
+      },
+      "a": {
+        "nl": "Ja, klanten waarderen het brede aanbod aan natuurlijke kauwsnacks en kwaliteitsvoeding voor honden.",
+        "en": "Yes, customers highlight a diverse range of natural chew treats and quality nutritional options for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Wat als een specifiek artikel niet op voorraad is?",
+        "en": "What happens if a specific item is currently out of stock?"
+      },
+      "a": {
+        "nl": "Het personeel denkt vriendelijk mee en verwijst indien nodig door naar grotere Pets Place-vestigingen.",
+        "en": "Staff members assist helpfully and recommend larger nearby Pets Place branches if a specific item is absent."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

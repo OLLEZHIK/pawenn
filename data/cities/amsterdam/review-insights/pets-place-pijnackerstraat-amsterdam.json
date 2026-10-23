@@ -1,0 +1,141 @@
+{
+  "slug": "pets-place-pijnackerstraat-amsterdam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+Place/data=!4m7!3m6!1s0x47c609825cc5096f:0xb1484f3467ba35cc!8m2!3d52.349986!4d4.8887854!16s%2Fg%2F11nxq_kjpc!19sChIJbwnFXIIJxkcRzDW6ZzRPSLE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "nl": "Wisselende ervaringen met de winkelmedewerkers",
+        "en": "Mixed experiences with store staff"
+      },
+      "text": {
+        "nl": "Klanten beschrijven het personeel in De Pijp overwegend als behulpzaam en vriendelijk bij het adviseren over diervoeding. Tegelijkertijd meldt een bezoeker een stroeve opstelling van een medewerker bij de aankoop van vissen, waarbij een weigering voor teleurstelling zorgde.",
+        "en": "Customers generally describe the staff in De Pijp as helpful and courteous when giving advice on pet nutrition. At the same time, one visitor reported a rigid encounter with an employee over purchasing fish, where a refusal caused significant disappointment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "nl": "Uiteenlopende reacties op klantgericht overleg",
+        "en": "Divergent feedback on customer communication"
+      },
+      "text": {
+        "nl": "Meerdere klanten ervaren het contact aan de kassa en bij het adviesgesprek als prettig en informatief. Er wordt navraag gedaan naar de leefruimte voor vissen om dierenwelzijn te waarborgen. Een andere bezoeker ervoer de communicatie over aankoopcriteria echter als star en klantonvriendelijk.",
+        "en": "Several shoppers consider communication at the checkout and during consultation helpful and informative. Staff actively inquire about tank capacity for goldfish to safeguard animal welfare. However, another visitor found the explanation regarding purchase restrictions inflexible and unfriendly."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "nl": "Ruim assortiment met wisselende indruk",
+        "en": "Broad selection with mixed impressions"
+      },
+      "text": {
+        "nl": "Bezoekers waarderen het uitgebreide aanbod aan kattenvoeding en benodigdheden in de winkel aan de Pijnackerstraat. De ruime openingstijden, inclusief de zondagopenstelling tot zes uur, worden als zeer praktisch ervaren, al vindt niet elke bezoeker de winkel even prettig.",
+        "en": "Visitors appreciate the extensive variety of cat food and pet supplies available at the Pijnackerstraat branch. Convenient opening hours, including Sunday service until six in the evening, receive praise, though not every customer leaves with an equally positive impression."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Is de winkel op zondag geopend?",
+        "en": "Is the shop open on Sundays?"
+      },
+      "a": {
+        "nl": "Ja, de winkel is op zondag geopend van 12:00 tot 17:00 of 18:00 uur.",
+        "en": "Yes, the shop is open on Sundays from 12:00 until late afternoon."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Verkoopt deze vestiging ook vissen en aquariumvissen?",
+        "en": "Does this branch sell live fish and aquarium accessories?"
+      },
+      "a": {
+        "nl": "Ja, de vestiging heeft aquariumvissen zoals goudvissen en bijbehorende verzorgingsproducten.",
+        "en": "Yes, the location sells aquarium fish such as goldfish alongside suitable care supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Is er een breed assortiment aan kattenvoeding verkrijgbaar?",
+        "en": "Is there a wide assortment of cat food available?"
+      },
+      "a": {
+        "nl": "Ja, klanten noemen de ruime keuze aan merken en diervoeding voor katten een groot pluspunt.",
+        "en": "Yes, customers specifically highlight the extensive variety of food brands and cat products."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

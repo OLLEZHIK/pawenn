@@ -1,0 +1,183 @@
+{
+  "slug": "stadion-dierenkliniek",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Stadion+Dierenkliniek/data=!4m7!3m6!1s0x47c5e1fffba8264d:0x3bb203ff897475d!8m2!3d52.3462276!4d4.8637571!16s%2Fg%2F1td5f9d5!19sChIJTSao-__hxUcRXUeX-D8guwM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "nl": "Vriendelijke en empathische dierenartsen",
+        "en": "Friendly and empathetic veterinary team"
+      },
+      "text": {
+        "nl": "Een ruime meerderheid van de huisdiereigenaren spreekt lovend over het team aan de Achillesstraat. Dierenartsen en assistenten worden omschreven als hartelijk, geduldig en oprecht begaan met dieren. Zowel bij spoedgevallen als routinecontroles voelen veel baasjes zich gesteund.",
+        "en": "A substantial majority of pet owners praise the clinical staff on Achillesstraat. Veterinarians and veterinary assistants are described as warm, patient, and deeply dedicated to animal welfare. Both in urgent emergencies and routine visits, many owners feel thoroughly supported."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "nl": "Gedeelde ervaringen met behandelresultaten en diagnose",
+        "en": "Divided feedback on treatment outcomes"
+      },
+      "text": {
+        "nl": "Meerdere cliënten melden uitstekende medische uitkomsten bij acute klachten dankzij moderne diagnostiek zoals echo en bloedonderzoek. Daarentegen uiten twee recensenten ernstige teleurstelling over complicaties na een sterilisatie en een betwiste diagnose bij een jonge pup.",
+        "en": "Multiple clients report excellent medical recoveries during acute crises thanks to on-site imaging and diagnostic testing. In contrast, two reviewers express severe dissatisfaction regarding surgical complications following a spay procedure and a disputed puppy diagnosis."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "nl": "Contrast in overleg en klachtenafhandeling",
+        "en": "Contrasting experiences with clinic communication"
+      },
+      "text": {
+        "nl": "Veel klanten prijzen de heldere uitleg en het aandachtige luisterend oor tijdens het spreekuur. Twee ontevreden bezoekers ervoeren de reactie aan de balie echter als defensief en afstandelijk toen er vragen werden gesteld over facturen en medische complicaties.",
+        "en": "Many pet owners commend the clear explanations and attentive dialogue experienced during appointments. However, two dissatisfied visitors found the reception response defensive and dismissive when concerns arose regarding treatment costs and clinical complications."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Beschikt de kliniek over eigen diagnostische apparatuur?",
+        "en": "Does the clinic have on-site diagnostic equipment?"
+      },
+      "a": {
+        "nl": "Ja, de praktijk beschikt over faciliteiten voor echografie, röntgenfoto's en laboratoriumonderzoek.",
+        "en": "Yes, the practice is equipped with facilities for ultrasound imaging, X-rays, and in-house laboratory testing."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Kan men er terecht voor acute spoedgevallen?",
+        "en": "Can urgent emergency cases be accommodated?"
+      },
+      "a": {
+        "nl": "Ja, bij dringende medische problemen toont het team flexibiliteit om dieren snel te ontvangen.",
+        "en": "Yes, reviews confirm the team shows flexibility to admit pets promptly in urgent situations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Waar is Stadion Dierenkliniek gevestigd?",
+        "en": "Where is Stadion Dierenkliniek located?"
+      },
+      "a": {
+        "nl": "De praktijk bevindt zich aan de Achillesstraat 62 in Amsterdam-Zuid.",
+        "en": "The clinic is located at Achillesstraat 62 in Amsterdam Zuid."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

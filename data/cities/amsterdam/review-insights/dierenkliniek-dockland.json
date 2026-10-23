@@ -1,0 +1,167 @@
+{
+  "slug": "dierenkliniek-dockland",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dierenkliniek+Dockland/data=!4m7!3m6!1s0x47c6094148a2ae4b:0x747a676c08ca4342!8m2!3d52.3872161!4d4.905538!16s%2Fg%2F11srt_m61j!19sChIJS66iSEEJxkcRQkPKCGxnenQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "nl": "Vriendelijke artsen met wisselende ervaringen",
+        "en": "Friendly veterinarians with varied feedback"
+      },
+      "text": {
+        "nl": "Meerdere klanten prijzen de vriendelijke en oplossingsgerichte houding van de artsen en assistenten in Amsterdam-Noord. Tegelijkertijd uiten enkele bezoekers forse kritiek op de communicatie en administratieve afhandeling, waarbij zij de geboden service aan de balie als teleurstellend hebben ervaren.",
+        "en": "Several clients commend the pleasant and solution-oriented approach of doctors and assistants in Amsterdam-Noord. At the same time, some visitors express sharp criticism regarding front-desk coordination and communication, describing certain interactions as unsatisfactory."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "nl": "Verzorging van katten en honden",
+        "en": "Care for cats and dogs"
+      },
+      "text": {
+        "nl": "Verschillende baasjes melden dat hun kat of hond met geduld werd onderzocht en goed herstelde na een behandeling. Daartegenover staat een kritische ervaring van een eigenaar van oudere katten, die vond dat bloedafnames stroef verliepen en dat gezondheidsrisico's onvoldoende werden opgemerkt.",
+        "en": "Several pet owners share that their cats and dogs were handled patiently and recovered nicely following visits. In contrast, an owner of senior cats reported a critical experience, feeling that blood collection was clumsy and that underlying health issues were not identified early enough."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "nl": "Terugkerende kritiek op kliniektarieven",
+        "en": "Recurring complaints about clinic fees"
+      },
+      "text": {
+        "nl": "Hoewel een vaste klant de tarieven als redelijk beschouwt, uiten meerdere andere bezoekers onvrede over de kosten. Zij noemen hoge rekeningen voor consulten en medicatie, evenals pogingen om extra kosten in rekening te brengen voor reisdocumenten die volgens hen niet nodig waren.",
+        "en": "Although one longtime client views the pricing as fair, multiple other visitors express frustration regarding clinic costs. They report high bills for consultations and medications, along with attempts to charge extra fees for travel certificates that clients felt were not required."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Hoe beoordelen klanten de communicatie over behandelkosten?",
+        "en": "How do clients evaluate communication about clinic fees?"
+      },
+      "a": {
+        "nl": "Enkele reviewers vinden de kosten voor medicatie en certificaten onverwacht hoog en adviseren vooraf duidelijkheid te vragen.",
+        "en": "Several reviewers find costs for medication and travel certificates unexpectedly high and recommend confirming fees beforehand."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Wordt er zorgvuldig omgegaan met onrustige huisdieren?",
+        "en": "Are restless or resistant animals handled carefully?"
+      },
+      "a": {
+        "nl": "Een eigenaar meldt dat de arts rustig en oplossingsgericht bleef toen een kat niet meewerkte tijdens het consult.",
+        "en": "An owner notes that the veterinarian remained calm and solution-oriented when a cat was uncooperative during the visit."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Biedt de kliniek begeleiding bij het afscheid van een huisdier?",
+        "en": "Does the clinic offer compassionate support for pet euthanasia?"
+      },
+      "a": {
+        "nl": "Ja, een reviewer noemt de nuchtere en respectvolle begeleiding tijdens het laten inslapen van een oudere hond.",
+        "en": "Yes, a reviewer mentions grounded and respectful guidance when putting an elderly dog to sleep."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
