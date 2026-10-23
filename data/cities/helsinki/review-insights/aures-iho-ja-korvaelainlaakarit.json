@@ -1,0 +1,159 @@
+{
+  "slug": "aures-iho-ja-korvaelainlaakarit",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Aures+iho-+ja+korvael%C3%A4inl%C3%A4%C3%A4k%C3%A4rit/data=!4m7!3m6!1s0x4692090e5699dcd3:0xb15a02e2bb9c6ae8!8m2!3d60.2434061!4d25.0469326!16s%2Fg%2F11qgf4cml_!19sChIJ09yZVg4JkkYR6Gqcu-ICWrE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fi": "Asiantunteva henkilökunta ja kattava neuvonta",
+        "en": "Knowledgeable staff and thorough consultations"
+      },
+      "text": {
+        "fi": "Arvostelijat ylistävät Malmilla toimivan klinikan henkilökunnan vankkaa erikoisosaamista ja ystävällistä vastaanottoa. Eläinlääkärit selittävät hoitovaihtoehdot perusteellisesti ja opastavat omistajia jatkohoidossa. Vaikka yksittäisessä tapauksessa reseptien toimituksessa oli sekaannusta, tiimin yleinen ammattitaito saa kiitosta.",
+        "en": "Reviewers praise the solid specialist expertise and warm welcoming attitude of the clinic staff in Malmi. Veterinarians thoroughly explain treatment options and guide pet owners on follow-up home care. While an isolated case noted confusion regarding pharmacy prescriptions, the overall medical professionalism is widely commended."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fi": "Erikoistutkimukset ja hoidon haastavat vaiheet",
+        "en": "Specialist procedures and challenging treatment courses"
+      },
+      "text": {
+        "fi": "Klinikan suorittamat video-otoskopiat, korvahuuhtelut ja CBCT-kuvantamiset saavat omistajilta kiitosta tarkoista tuloksista ja toimenpidevideoista. Useat lemmikit ovat saaneet avun vaikeisiin korva- ja iho-ongelmiin. Toisaalta vaativissa tulehdustapauksissa hoidon eteneminen on vaatinut useampia uusintakäyntejä ja lääkemuutoksia.",
+        "en": "Advanced video otoscopy, ear flushing, and CBCT scans performed at the facility receive appreciation for precise diagnostic results and recorded procedure videos. Many pets found relief for complex dermatological and ear ailments, though demanding infections occasionally required multiple follow-up visits and revised medications."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fi": "Vaativien erikoistoimenpiteiden korkea hintataso",
+        "en": "Premium pricing for specialist medical procedures"
+      },
+      "text": {
+        "fi": "Kaikki kustannuksista kirjoittaneet asiakkaat huomauttavat palvelujen olevan varsin kalliita verrattuna tavanomaisiin eläinlääkäriasemiin. Laajat erikoistutkimukset ja leikkaukset nostavat laskun helposti satoihin tai tuhansiin euroihin. Useat omistajat suosittelevatkin kattavan lemmikkivakuutuksen hankkimista ennen käyntiä.",
+        "en": "All reviewers commenting on costs note that services are notably expensive compared to conventional veterinary clinics. Extensive diagnostic imaging and specialist surgical procedures quickly sum up to several hundred or thousand euros. Multiple clients strongly advise having comprehensive pet insurance in place before booking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Mihin vaivoihin klinikka on erikoistunut?",
+        "en": "What conditions does the clinic specialize in?"
+      },
+      "a": {
+        "fi": "Klinikka on erikoistunut lemmikkien ihosairauksiin, allergioihin sekä vaativiin korva- ja hengitystiesairauksiin.",
+        "en": "The clinic specializes in dermatological issues, allergies, and demanding ear and respiratory conditions in pets."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fi": "Millaista diagnostiikkalaitteistoa klinikalla käytetään?",
+        "en": "What diagnostic equipment is available at the clinic?"
+      },
+      "a": {
+        "fi": "Käytössä on video-otoskopia, kartiokeilatietokonetomografia (CBCT) sekä modernit tähystyslaitteet.",
+        "en": "The clinic utilizes video otoscopy, cone-beam computed tomography (CBCT), and modern endoscopy equipment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Miten klinikan hintatasoa kuvataan arvosteluissa?",
+        "en": "How is the pricing described in client reviews?"
+      },
+      "a": {
+        "fi": "Asiakkaat arvioivat toimenpiteet kalliiksi, ja kattavan eläinvakuutuksen hyödyntämistä suositellaan laajasti.",
+        "en": "Clients describe procedures as expensive, and the use of comprehensive pet insurance is widely recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Miten klinikalle pääsee parhaiten paikan päälle?",
+        "en": "What is the best way to arrive at the clinic?"
+      },
+      "a": {
+        "fi": "Sijainti Takoraudantiellä Malmilla on helpoimmin saavutettavissa omalla autolla, ja pihalla on pysäköintitilaa.",
+        "en": "The location on Takoraudantie in Malmi is most easily reached by private car, with parking available in the yard."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "-",
+        "place": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "-",
+        "communication": "+"
+      }
+    }
+  ]
+}

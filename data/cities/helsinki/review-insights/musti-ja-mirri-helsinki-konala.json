@@ -1,0 +1,144 @@
+{
+  "slug": "musti-ja-mirri-helsinki-konala",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Musti+ja+Mirri+Helsinki+Konala/data=!4m7!3m6!1s0x468df6504fd6500b:0xfe3298ef44a13a87!8m2!3d60.242476!4d24.8453385!16s%2Fg%2F11bz0c3p64!19sChIJC1DWT1D2jUYRhzqhRO-YMv4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fi": "Tilava myymälä ja monipuolinen valikoima",
+        "en": "Spacious shop with diverse selection"
+      },
+      "text": {
+        "fi": "Konalan myymälä saa kiitosta siisteydestään, helposta pysäköinnistä ja laajasta tuotevalikoimasta lemmikkien arkeen. Uusiin toimitiloihin siirtymisen jälkeen kävijät kehuvat selkeitä hyllyvälejä sekä laadukkaita kuivaruokia ja tarvikkeita koirille ja kissoille.",
+        "en": "Visitors praise the cleanliness, straightforward parking and broad assortment of daily goods at the Konala location. Following its move to new premises, pet owners highlight the tidy aisles and plentiful options for dog nutrition, cat care and seasonal gear."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fi": "Asiantunteva ja ystävällinen myyjätiimi",
+        "en": "Knowledgeable and welcoming store staff"
+      },
+      "text": {
+        "fi": "Kävijät nostavat esiin henkilökunnan asiantuntevan ja ystävällisen asenteen kassalla ja myyntilattialla. Myyjät neuvovat mielellään tuotteiden valinnassa, ja heidän osaamisensa herättää luottamusta niin ensikertalaisten kuin kokeneiden koiranomistajien parissa.",
+        "en": "Customers consistently highlight the skilled and cheerful disposition of team members on the retail floor. Staff members readily assist with product recommendations, offering helpful advice that instills confidence in both new puppy owners and experienced handlers."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fi": "Sujuva ja mutkaton asiakaspalvelu",
+        "en": "Prompt and pleasant customer service"
+      },
+      "text": {
+        "fi": "Myymälässä asiointi sujuu asiakkaiden mukaan vaivattomasti, ja lemmikinomistajien kysymyksiin vastataan nopeasti sekä ammattitaitoisesti. Ystävällinen vuorovaikutus tekee tarvikkeiden ostamisesta, kynsienleikkuusta ja muista palveluista sopimisesta aina miellyttävää.",
+        "en": "Shoppers report smooth interactions in the store, noting that enquiries regarding products and appointments are addressed promptly. The approachable demeanor of the team ensures a hassle-free visit whenever picking up supplies or planning grooming sessions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Onko myymälän edustalla pysäköintitilaa?",
+        "en": "Is parking available outside the Konala store?"
+      },
+      "a": {
+        "fi": "Kyllä, liikekiinteistön yhteydessä on tilava ja maksuton pysäköintialue autoileville asiakkaille.",
+        "en": "Yes, ample customer parking is available right outside the commercial building."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tarjotaanko myymälässä lemmikkien hoitopalveluja?",
+        "en": "Are grooming and pet care services available?"
+      },
+      "a": {
+        "fi": "Kyllä, myymälän yhteydessä toimii trimmauksen ja kynsienleikkuun palvelupiste sekä pentutreffejä.",
+        "en": "Yes, the premises feature pet grooming, claw clipping services and organized puppy play sessions."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Onko Konalan myymälä muuttanut uuteen osoitteeseen?",
+        "en": "Has the Konala store moved to a new address?"
+      },
+      "a": {
+        "fi": "Kyllä, myymälä toimii nykyään Ristipellontiellä vilkkaan liikekeskittymän yhteydessä.",
+        "en": "Yes, the store currently operates on Ristipellontie alongside other retail outlets."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "~",
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

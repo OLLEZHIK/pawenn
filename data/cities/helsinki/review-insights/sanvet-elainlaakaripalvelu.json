@@ -1,0 +1,100 @@
+{
+  "slug": "sanvet-elainlaakaripalvelu",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/SanVet%2FEl%C3%A4inl%C3%A4%C3%A4k%C3%A4ripalvelu+Sanna+Sirki%C3%A4+Oy/data=!4m7!3m6!1s0x46920f2dd2ee0cb9:0x726fa39fea3513aa!8m2!3d60.2156599!4d25.089046!16s%2Fg%2F11hbvbr4zm!19sChIJuQzu0i0PkkYRqhM16p-jb3I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Omistautunut ja asiantunteva eläinlääkäri",
+        "en": "Dedicated and skilled veterinary doctor"
+      },
+      "text": {
+        "fi": "Vartiokylän itsenäinen eläinlääkäri saa kiitosta vankasta ammattitaidosta, empaattisesta otteesta ja selkeästä neuvonnasta. Potilaiden omistajat arvostavat perusteellista perehtymistä lemmikin tilanteeseen sekä kiireetöntä ja luottamuksellista vastaanottoa.",
+        "en": "Pet owners commend the independent veterinarian in Vartiokylä for extensive medical knowledge and an empathetic consultation style. Families value the thorough attention dedicated to each case, noting that visits feel calm, attentive and thoroughly professional."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "fi": "Aito välittäminen potilaiden hyvinvoinnista",
+        "en": "Genuine dedication to animal welfare"
+      },
+      "text": {
+        "fi": "Arvioissa korostuu eläinlääkärin aito ja lämmin suhtautuminen hoidettaviin lemmikkeihin. Koirat ja muut eläimet kohdataan aina lempeästi ja niiden parasta ajatellen, mikä tekee lyhyistäkin tutkimuskäynneistä lemmikille mahdollisimman turvallisen ja miellyttävän.",
+        "en": "Reviews emphasize the veterinarian's sincere care and thoughtful demeanor toward all animal patients. Dogs and companion animals receive gentle handling aimed at minimizing stress, helping pets feel safe and comfortable even during brief examinations or check-ups."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Miten vastaanotolle varataan aika?",
+        "en": "How can clients book an appointment at SanVet?"
+      },
+      "a": {
+        "fi": "Ajanvaraus tehdään puhelimitse tai sähköpostitse etukäteen sovittuna ajankohtana.",
+        "en": "Appointments are scheduled in advance by phone or email consultation."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tekseekö eläinlääkäri myös kotikäyntejä?",
+        "en": "Does the practice provide home veterinary visits?"
+      },
+      "a": {
+        "fi": "Kyllä, SanVet tekee sovittaessa kotikäyntejä Itä-Helsingin ja lähialueiden potilaille.",
+        "en": "Yes, SanVet arranges house calls by appointment across eastern Helsinki and nearby districts."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fi": "Mitä hoitopalveluja vastaanotolla tarjotaan?",
+        "en": "What medical services are available at the clinic?"
+      },
+      "a": {
+        "fi": "Vastaanotolla hoidetaan perusterveydenhuoltoa, rokotuksia, mikrosirutusta, hammashoitoja ja pientoimenpiteitä.",
+        "en": "Services include routine wellness checks, vaccinations, microchipping, dental cleanings and minor procedures."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "koiraparkki-herttoniemi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Koiraparkki+Herttoniemi+Koirap%C3%A4iv%C3%A4koti+ja+koirahotelli/data=!4m7!3m6!1s0x46920f9195c74e93:0xdeaedd12d83e168e!8m2!3d60.2049008!4d25.0509424!16s%2Fg%2F11k8szktrb!19sChIJk07HlZEPkkYRjhY-2BLdrt4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Ystävällinen ja joustava hoitotiimi",
+        "en": "Friendly and flexible care team"
+      },
+      "text": {
+        "fi": "Koiranomistajat kiittävät Herttoniemen Koiraparkin hoitajia lämpimästä ja joustavasta palvelusta. Henkilökunta otti lemmikkejä hoitoon lyhyelläkin varoitusajalla työmatkojen aikana ja piti omistajat ajan tasalla lähettämällä säännöllisesti kuva- ja videopäivityksiä puhelimeen.",
+        "en": "Dog owners commend the caregivers at Koiraparkki Herttoniemi for their warm and flexible attitude. Staff accommodated pets on short notice during business trips and kept owners reassured by sending regular video and photo updates directly to their phones."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "fi": "Yksilöllinen tuki eroahdistuksesta kärsiville koirille",
+        "en": "Dedicated support for dogs with separation anxiety"
+      },
+      "text": {
+        "fi": "Päiväkoti soveltuu arvostelujen perusteella erinomaisesti myös iäkkäämmille koirille, joilla on voimakasta eroahdistusta. Lemmikkien kerrotaan viihtyvän seurassa erinomaisesti, kun he saavat jatkuvaa ihmisen huomiota, ulkoilulenkkejä ja leikkiä ilman häkkisäilytystä.",
+        "en": "Reviews highlight that the daycare is well suited for older dogs struggling with separation anxiety. Owners report that pets thrive in the environment, benefiting from constant human presence, regular outdoor exercise, and social interaction without cage confinement."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "fi": "Häkitön päivähoito ja huomaamaton sisäänkäynti",
+        "en": "Cage-free day care and secluded entrance"
+      },
+      "text": {
+        "fi": "Asiakkaat arvostavat suuresti tilojen häkitöntä toimintamallia, jossa koirat voivat liikkua vapaasti turvallisessa tilassa. Sisäänkäynnin sijaintia talon vasemmalla puolella portaiden yläpäässä pidetään kuitenkin hieman haastavana ensikertalaisen löytää ilman tarkkoja ohjeita.",
+        "en": "Clients strongly appreciate the cage-free layout where dogs can move freely and socialize in a secure environment. On the other hand, several visitors point out that the entrance door, located at the top of the stairs on the left side of the building, can be hard to spot initially."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Onko Koiraparkki Herttoniemessä häkitöntä hoitoa?",
+        "en": "Is care at Koiraparkki Herttoniemi cage-free?"
+      },
+      "a": {
+        "fi": "Kyllä, hoitolassa koirat viettävät aikaa vapaasti yhdessä ihmisen ja muiden koirien kanssa ilman häkkejä.",
+        "en": "Yes, dogs stay in a cage-free setting with continuous human supervision and companionship."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Mistä Koiraparkin sisäänkäynti löytyy?",
+        "en": "Where is the entrance to Koiraparkki located?"
+      },
+      "a": {
+        "fi": "Sisäänkäyntiovi sijaitsee kiinteistön vasemmalla sivustalla portaiden yläpäässä sisäpihan puolella.",
+        "en": "The entrance door is located on the left side of the building at the top of the stairs facing the courtyard."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Mitä palveluja Herttoniemen toimipiste tarjoaa?",
+        "en": "What services are offered at the Herttoniemi location?"
+      },
+      "a": {
+        "fi": "Toimipiste tarjoaa koirien päiväkotitoimintaa arkisin sekä hotellimajoitusta lomien ja matkojen ajaksi.",
+        "en": "The facility provides weekday dog daycare as well as overnight boarding for vacations and travel."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
