@@ -1,0 +1,159 @@
+{
+  "slug": "ps-first-shinjuku",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pettoshoppupettsufasuto+Shinjukuten/data=!4m7!3m6!1s0x60188d725da09b77:0xde0a7ee373d96e7!8m2!3d35.692845!4d139.7008326!16s%2Fg%2F11r9cbgylp!19sChIJd5ugXXKNGGAR55Y9N-6n4A0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "店舗構造や展示環境に対する分かれる評価",
+        "en": "Divided Views on Store Facility"
+      },
+      "text": {
+        "ja": "西武新宿PePe近くの店舗について、内装の綺麗さや立地の良さを好意的に評価する声がある一方で、設備や店舗構造への不満が目立っています。1階と2階に売り場が分かれているものの2階に店員がおらず、呼び鈴もないためフロア間を行き来するのが大変だという意見が寄せられています。また、狭いケージでの展示や、冬季に冷え込む店内でペットが震えている様子を不安視する指摘もあり、快適な展示環境の維持が求められています。フロア間の移動の不便さや室温管理の改善が要望されており、設備の見直しが期待されています、店内設備の改善と快適な環境維持が望まれます。",
+        "en": "Reviews for the Shinjuku store present contrasting impressions of its location and facility setup. While visitors appreciate the bright interior and convenient access near Seibu Shinjuku Station, operational issues draw significant complaints. Customers find navigating between separate floors inconvenient when upper sales areas are unstaffed without call bells, and cite concerns regarding winter temperature control."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "ja": "ペットの健康状態や飼育環境への懸念",
+        "en": "Concerns Regarding Animal Well-being"
+      },
+      "text": {
+        "ja": "店内で過ごす子犬や子猫の健康や飼育状況に関して、複数の来店者から深刻な懸念が表明されています。展示されている生体が幼すぎるのではないかという指摘や、狭いケージ環境、寒さで鼻水を垂らしている姿に心を痛めたという声が記録されています。可愛いペットとの素敵な出会いを喜ぶ声が存在する一方で、動物たちの福祉や快適性に配慮したよりきめ細やかな健康管理を求める意見が強く示されています。生体に対する人道的な飼育基準の順守と環境向上が強く望まれており、適切な動物管理が求められています、ペットの健康を第一に考えた丁寧な飼育管理が望まれます。",
+        "en": "Visitors express notable concerns regarding the welfare and housing conditions of young puppies and kittens in the showroom. Critical reviews mention small enclosure sizes and worry over seasonal coldness affecting young animals. Although positive encounters are celebrated by new pet parents, passionate appeals call for stricter welfare standards and closer monitoring of vulnerable animals. Proper animal care remains essential."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "スタッフの配置と接客に対する不満",
+        "en": "Dissatisfaction with Staff Presence and Guidance"
+      },
+      "text": {
+        "ja": "スタッフの配置状況や提案内容に対して、改善を望む口コミが寄せられています。混雑時に売り場に店員が見当たらず対応が遅れたり、店外での私語が気になったという不満が挙げられています。また、契約や用品購入の際に不要なオプションやセット商品を多く勧められたと感じる顧客もおり、自身で調べて判断することの大切さが指摘されています。顧客の目線に立った誠実な案内と十分な人員配置が期待されています。押し売り感を抑えた誠実な接遇が求められており、スタッフ教育の充実が望まれています、来店者の目線に立った誠実な案内姿勢が求められます。",
+        "en": "Customer feedback highlights frustration regarding staff availability on the sales floor and sales tactics. Shoppers report difficulty locating assistance during peak hours, while others note feeling pressured by heavy upselling of unnecessary accessory packages and optional plans. Reviewers recommend researching needed supplies independently and advise the store to improve staff responsiveness. Customer-first service is desired."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "店舗の営業フロアはどのようになっていますか？",
+        "en": "How is the store layout configured across floors?"
+      },
+      "a": {
+        "ja": "1階と2階に分かれており、ペット生体や各種ペット用品が展示・販売されています。",
+        "en": "The store spans two floors, displaying live pets as well as various pet care products."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "購入時にオプションやセット商品の提案はありますか？",
+        "en": "Are optional accessory packages recommended during purchase?"
+      },
+      "a": {
+        "ja": "飼育セットなどの提案がありますが、内容を自身で確認して選択することが推奨されています。",
+        "en": "Staff frequently recommend starter kits and care options, which customers advise reviewing carefully."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "最寄り駅からのアクセスはどうですか？",
+        "en": "How is the access from the nearest station?"
+      },
+      "a": {
+        "ja": "西武新宿PePeに近く、新宿駅周辺から立ち寄りやすい立地です。",
+        "en": "It is conveniently situated close to Seibu-Shinjuku PePe within easy walking distance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "communication": "~",
+        "prices": "~",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}

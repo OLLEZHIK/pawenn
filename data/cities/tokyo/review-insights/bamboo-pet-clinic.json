@@ -1,0 +1,132 @@
+{
+  "slug": "bamboo-pet-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/bamboo+PET+CLINIC/data=!4m7!3m6!1s0x6018f4ccdae0dee5:0xe5f1583211518cf!8m2!3d35.6308261!4d139.6902518!16s%2Fg%2F11b6gmf1_6!19sChIJ5d7g2sz0GGARzxgVIYMVXw4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "温かい診療姿勢と興奮時の接遇への賛否",
+        "en": "Friendly bedside manner and mixed feedback"
+      },
+      "text": {
+        "ja": "獣医師やスタッフの物腰柔らかく丁寧な診療姿勢は、多くの飼い主から好評を得ています。普段の診察では動物に対して優しく接し、些細な体調変化にも親身に対応してくれると評価されています。一方で、診察中に動物が興奮して威嚇した際に、スタッフから心無い言葉をかけられたと感じて強い不満を抱いたレビューも存在します。大半の利用者が温かい対応に満足しているものの、ペットが極度に怯えている場面での接遇において受け止め方に差が見られます。動物が緊張しやすい状況への配慮や、より安心できる診療空間づくりと丁寧な接遇の徹底が期待されています。",
+        "en": "Most pet owners describe the veterinary team as gentle, polite, and attentive during consultations. Families appreciate the welcoming atmosphere and the staff's readiness to answer routine questions. However, one client felt upset by critical remarks when their pet became startled and hissed during an exam. While standard visits receive praise, handling frightened animals shows contrasting experiences."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "分かりやすい医療説明と一部の対話の課題",
+        "en": "Clear diagnostic guidance and mixed communication"
+      },
+      "text": {
+        "ja": "専門用語を避けて平易な言葉で病状や治療選択肢を噛み砕いて説明してくれる姿勢が、多くの飼い主から高く支持されています。セカンドオピニオンでの心臓病診断や避妊手術の事前説明など、家庭での管理法や注意点を具体的に分かりやすく教えてくれるため安心できると好評です。その一方で、診察室でのやり取りにおいて説明が不十分なままサプリメントの処方だけで終わってしまったと感じた飼い主からの苦情もあり、対話の進め方や納得感について一部で意見が分かれています。飼い主の不安を取り除く丁寧で双方向のコミュニケーションと、より分かりやすい診療案内の継続が望まれています。",
+        "en": "Clinicians receive praise for explaining diagnoses in simple terms without confusing jargon. Families value clear pre-surgical briefings for spay procedures and detailed advice on managing cardiac conditions at home. Conversely, an isolated review reported dissatisfaction with brief explanations and feeling dismissed after receiving supplements, indicating that expectations around dialogue can vary during stressful appointments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "ja": "低負担な避妊手術と的確な疾患管理の実績",
+        "en": "Low-stress spaying and cardiac disease management"
+      },
+      "text": {
+        "ja": "エリザベスカラーや抜糸が不要な低侵襲の避妊手術をはじめ、ペットへの身体的負担を抑えた確かな治療結果が高く評価されています。手術の翌日からも普段通り元気に食事を取り、傷口も短期間で綺麗に塞がるなど、術後の良好な回復ぶりに満足する声が寄せられています。また、他院で異常を指摘された際の精密な心臓病診断や、個々の体調に合わせたサプリメントや食事療法の指導など、日常的な健康維持につながる成果が飼い主の信頼を集めています。動物の身体に優しい負担軽減の医療アプローチが確かな治療実績を残し、多くの飼い主から高く評価されています。",
+        "en": "Owners highlight positive clinical outcomes, particularly low-stress spaying procedures that require no Elizabethan collars, suture removals, or protective clothing. Pets recovered their regular appetites the day after surgery and healed cleanly within weeks. Additionally, clients appreciate timely second-opinion cardiac diagnoses and customized dietary advice that effectively manage long-term wellness."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "避妊手術の際にエリザベスカラーや抜糸は必要ですか？",
+        "en": "Are Elizabethan collars or suture removals needed for spaying?"
+      },
+      "a": {
+        "ja": "術式によってはカラーや抜糸が不要で、体への負担を抑えた日帰りや1泊手術に対応しています。",
+        "en": "Certain surgical protocols require no collar or stitch removal, minimizing post-operative stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "他院での診断結果についてセカンドオピニオンは受けられますか？",
+        "en": "Can owners seek a second opinion regarding diagnoses from other clinics?"
+      },
+      "a": {
+        "ja": "はい、心臓病などの疑いに対して詳しい検査と平易な言葉による治療説明を受けられます。",
+        "en": "Yes, the clinic provides thorough consultations and second opinions for conditions like heart disease."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "日常的な食事やサプリメントの相談はできますか？",
+        "en": "Can owners consult about daily pet nutrition and supplements?"
+      },
+      "a": {
+        "ja": "はい、日頃の健康維持やお食事管理について診察時に気軽に相談できます。",
+        "en": "Yes, veterinarians provide practical advice on daily diet management and health supplements."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {}
+    }
+  ]
+}
