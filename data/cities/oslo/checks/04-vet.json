@@ -1,0 +1,26 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "romsas-dyreklinikk",
+    "vetxl-alna-dyreklinikk",
+    "dyrlege-blom",
+    "frogner-dyreklinikk",
+    "bjerke-smadyr",
+    "reprohund"
+  ],
+  "hash": "293ea3c66d1290b39dcd7e0a0b177866b003b4dbd398364dc3883cb41cdf6663",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T12:06:06.132Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-18T12:20:35.944Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "maridalsveien-smadyrklinikk-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Maridalsveien+Sm%C3%A5dyrklinikk+AS/data=!4m7!3m6!1s0x46416e1a94054b21:0xadf98661f3b2a959!8m2!3d59.9473308!4d10.7597549!16s%2Fg%2F1vzn44br!19sChIJIUsFlBpuQUYRWamy82GG-a0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Divergent feedback on clinic veterinarians",
+        "no": "Delte tilbakemeldinger om veterinærene"
+      },
+      "text": {
+        "en": "Pet owners express contrasting impressions of the veterinary team at Nordre Aker. Several clients praise the senior vet for thorough examinations, patience, and professional emergency advice. In contrast, a critical review highlights dissatisfaction with junior staff handling dental diagnostics and referral routines.",
+        "no": "Dyreeiere formidler ulike opplevelser med veterinærteamet i Nordre Aker bydel. Flere kunder roser den erfarne veterinæren for grundige undersøkelser, tålmodighet og god hjelp utenom åpningstid. Én kritisk anmelder uttrykker derimot misnøye med yngre personell under en tannundersøkelse."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Varied patient care for pets",
+        "no": "Varierende opplevelser med pasientbehandling"
+      },
+      "text": {
+        "en": "Experiences regarding hands-on patient care reflect differing perspectives among visitors. Long-term clients report that their dogs and cats feel secure, calm, and treated with respect during clinical consults. Conversely, one pet parent felt their ailing dog was not examined sufficiently before being referred onward.",
+        "no": "Erfaringene med selve pasientoppfølgingen spriker blant de besøkende dyreeierne. Faste kunder opplever at hunder og katter blir møtt med omtanke, ro og respekt under konsultasjonene. På den andre siden opplevde én eier at en syk hund ikke ble undersøkt grundig nok før den ble henvist videre til en annen klinikk."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Mixed experiences with booking communication",
+        "no": "Blandede erfaringer med timekommunikasjon"
+      },
+      "text": {
+        "en": "Communication from the clinic receives both praise and critique from local owners. Some reviewers commend detailed explanations of health issues and emergency guidance offered even during holidays. However, another client reported an unrecorded appointment and miscommunication despite having received an email confirmation.",
+        "no": "Kommunikasjonen fra klinikken vekker både ros og kritikk fra lokale dyreeiere. Enkelte anmeldere berømmer detaljerte forklaringer om sykdomsforløp og god veiledning selv på helligdager. En annen kunde opplevde imidlertid manglende registrering av oppmøtetid til tross for mottatt e-postbekreftelse."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Maridalsveien Smådyrklinikk located?",
+        "no": "Hvor ligger Maridalsveien Smådyrklinikk?"
+      },
+      "a": {
+        "en": "The clinic is located at Maridalsveien 264 in Nordre Aker, Oslo.",
+        "no": "Klinikken ligger i Maridalsveien 264 i Nordre Aker i Oslo."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is parking available outside the clinic?",
+        "no": "Er det parkeringsplasser utenfor klinikken?"
+      },
+      "a": {
+        "en": "There are two parking spaces outside, which reviewers note can occasionally be occupied.",
+        "no": "Det finnes to parkeringsplasser på utsiden, som anmeldere bemerker av og til kan være opptatt."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic perform complex dental treatments?",
+        "no": "Utfører klinikken avansert tannbehandling?"
+      },
+      "a": {
+        "en": "The clinic offers dental care, though certain complex procedures like root canals may be referred to specialist hospitals.",
+        "no": "Klinikken tilbyr tannbehandling, men mer krevende inngrep som rotfylling kan henvises til spesialistklinikker."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

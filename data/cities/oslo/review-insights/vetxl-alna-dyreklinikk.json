@@ -1,0 +1,141 @@
+{
+  "slug": "vetxl-alna-dyreklinikk",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VetXL+Alna+Dyreklinikk/data=!4m7!3m6!1s0x46416f952bffadeb:0x4c8ec96865f350d6!8m2!3d59.9263709!4d10.8464806!16s%2Fg%2F1tpb9kvg!19sChIJ663_K5VvQUYR1lDzZWjJjkw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "no": "Varm omsorg med enkelte motforestillinger",
+        "en": "Caring support with specific reservations"
+      },
+      "text": {
+        "no": "Flere dyreeiere fremhever veterinærenes varme og medfølende holdning, særlig under akuttimer og ved tunge avskjeder. Samtidig retter én misfornøyd fugleeier krass kritikk mot veterinærens faglige vurderinger og oppfølging i forbindelse med medisinering av en papegøye.",
+        "en": "Several pet owners praise the vets for their empathy and compassionate care, especially during emergencies and difficult farewells. However, one exotic pet owner expressed strong disappointment concerning clinical competence and treatment decisions for an ill parrot."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "no": "Misnøye med høye konsultasjonspriser",
+        "en": "Concerns regarding consultation costs"
+      },
+      "text": {
+        "no": "Kostnadsnivået vekker reaksjoner hos flere kunder ved klinikken på Alna. Flere opplever at honorarer for korte konsultasjoner og resepter er vesentlig høyere enn hos andre klinikker, selv om enkelte besøkende rapporterer om forutsigbare priser uten overraskelser.",
+        "en": "Pricing levels cause dissatisfaction among several clients at the Alna clinic. Multiple owners feel that fees for brief consultations and simple prescriptions are noticeably steeper than elsewhere, although some visitors experienced transparent pricing without surprises."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "no": "Tydelig informasjon og trygg dialog",
+        "en": "Clear communication and attentive dialogue"
+      },
+      "text": {
+        "no": "Kunder forteller at de føler seg velkomne og blir tatt på alvor når de henvender seg til klinikken. Veterinærene får ros for å forklare diagnose og behandlingsforløp detaljert, slik at dyreeierne forstår hva som skjer og kan ta trygge valg for sine kjæledyr.",
+        "en": "Clients report feeling genuinely welcomed and taken seriously during clinic visits. The veterinarians receive compliments for outlining diagnoses and procedural steps in great detail, helping pet parents understand clinical options and make sound decisions for their pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "no": "Hvor ligger VetXL Alna Dyreklinikk?",
+        "en": "Where is VetXL Alna Dyreklinikk located?"
+      },
+      "a": {
+        "no": "Klinikken holder til i Strømsveien 245 på Alna i Oslo, i tilknytning til PetXL-varehuset.",
+        "en": "The clinic is situated at Strømsveien 245 in Alna in Oslo, adjacent to the PetXL superstore."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "no": "Behandler klinikken eksotiske dyr og fugler?",
+        "en": "Does the clinic treat exotic pets and birds?"
+      },
+      "a": {
+        "no": "Ja, klinikken oppgir kompetanse på eksotiske dyr i tillegg til hunder og katter.",
+        "en": "Yes, the practice lists exotic pet care among its specialties alongside dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "no": "Tilbyr klinikken timebestilling på nett?",
+        "en": "Does the clinic provide online booking?"
+      },
+      "a": {
+        "no": "Ja, pasienter kan bestille time digitalt via klinikkens online bookingløsning.",
+        "en": "Yes, clients can schedule appointments digitally through the clinic's online booking portal."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
