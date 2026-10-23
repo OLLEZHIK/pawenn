@@ -1,0 +1,180 @@
+{
+  "slug": "nihonbashi-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Nihonbashi+Animal+Clinic/data=!4m7!3m6!1s0x60188945690d42e3:0x614797a06a82634f!8m2!3d35.6834106!4d139.7845501!16s%2Fg%2F1tpn2k50!19sChIJ40INaUWJGGART2OCaqCXR2E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "ja": "院長への長年の信頼と接遇面の賛否",
+        "en": "Dedicated longtime care alongside polarized reception"
+      },
+      "text": {
+        "ja": "長年通院している飼い主様からは、園田院長とスタッフの献身的な対応に深い感謝が寄せられています。休診日でも急変時に駆けつけてくれた経験や、高齢犬の心臓病治療に親身に向き合ってくれた姿勢は厚い信望を得ています。一方で、初診時や混雑時において医師の物腰が冷淡で感情的に感じられたという意見や、忙しさから事務的な態度に見えたという不満の声も複数存在します。院長の動物への真摯な治療姿勢を評価する常連の方と、初回訪問時に接遇の冷たさを感じた方の間で印象が大きく分かれています。丁寧な対応の継続が期待されています。信頼関係の構築が重要視されています。",
+        "en": "Longtime clients express gratitude for Dr. Sonoda and his staff, noting instances where care was provided even on days off for critical heart conditions. Many owners respect the head veterinarian's steady dedication to senior pets. On the other hand, multiple reviewers report cold or impatient interactions during busy periods, feeling dismissed when seeking counsel. Client impressions appear divided between loyal clients and first-time visitors."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "専門医紹介の配慮と相談時の説明不足",
+        "en": "Thoughtful referrals contrasted with hurried discussions"
+      },
+      "text": {
+        "ja": "白内障手術の際に専門眼科医への紹介をスムーズに行い、飼い主様の希望に沿った方針を尊重してくれる対話力は高く評価されています。その一方で、骨折などの急な受診相談において費用や入院期間を尋ねた際に、急かされるような口調で十分な説明を受けられなかったという不満も寄せられています。また、電話対応の言葉遣いがくだけすぎていて不安を感じたという声もあり、忙しい時間帯における飼い主様への丁寧な対話と傾聴の姿勢が求められています。安心できるコミュニケーション体制が望まれています。温かい言葉かけが求められます。飼い主様との十分な対話が診療の質を高めます。",
+        "en": "Clients appreciate communication when selecting surgery options, praising the director for listening to family preferences and coordinating ophthalmology referrals. Conversely, critical reviews mention rushed discussions regarding surgical costs and hospitalization, where owners felt hurried rather than supported. Concerns regarding informal telephone manners have also been voiced, indicating that communication quality can fluctuate."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "中央区日本橋の立地に伴う割高感の指摘",
+        "en": "High fees in central Nihonbashi district"
+      },
+      "text": {
+        "ja": "避妊去勢手術や爪切り、初診相談などの診療料金に関して、周辺の一般的な動物病院と比較して高額であると感じる飼い主様からの指摘が目立ちます。日本橋という都心部の立地を考慮しても費用に見合う納得感や丁寧なサービスが得られなかったと感じる声があり、短時間の相談でも想定以上の診察料がかかったことに不満が残った事例が挙げられています。料金設定についての明確な事前説明がない場合、割高感を感じやすいため注意が必要です。受診前に概算費用を確認しておくことが推奨されます。費用への納得感が重要です。明朗な会計説明が受診の安心感につながります。",
+        "en": "Reviewers frequently describe clinic charges for consultations, surgeries, and routine nail trims as notably expensive compared to standard animal hospitals. Even accounting for the central Tokyo location, multiple pet owners felt that services did not justify the pricing, particularly when short preliminary visits incurred substantial fees. Clarifying estimated costs before undergoing elective procedures is strongly advised."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "高齢犬の心臓病治療や歯科手術に対応していますか？",
+        "en": "Does the clinic handle senior dog cardiology and dental surgery?"
+      },
+      "a": {
+        "ja": "はい、僧帽弁閉鎖不全症などの心疾患管理やシニア犬の歯科処置で長年の受診実績があります。",
+        "en": "Yes, the clinic has long-term experience managing canine cardiac issues and performing dental procedures for senior pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "初診時に手術費用や方針を相談できますか？",
+        "en": "Can surgical costs and options be consulted beforehand?"
+      },
+      "a": {
+        "ja": "相談可能ですが、診察料が発生するため希望する相談内容を事前に整理しておくことが勧められます。",
+        "en": "Consultations can be booked, though owners should prepare specific questions as consultation fees apply."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "眼科などの二次診療先を紹介してもらえますか？",
+        "en": "Are referrals provided to veterinary specialty hospitals?"
+      },
+      "a": {
+        "ja": "はい、白内障手術などの高度医療が必要な場合に専門医への紹介実績があります。",
+        "en": "Yes, the clinic coordinates referrals to specialized veterinarians for advanced procedures such as cataract surgery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "place": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
