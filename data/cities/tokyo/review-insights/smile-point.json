@@ -1,0 +1,389 @@
+{
+  "slug": "smile-point",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/SMILE+POINT/data=!4m7!3m6!1s0x6018f4a6156a30ab:0xaa7e552b91b7f450!8m2!3d35.6478693!4d139.679687!16s%2Fg%2F11c1jt0f1m!19sChIJqzBqFab0GGARUPS3kStVfqo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 32,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 32,
+      "title": {
+        "ja": "犬ファーストで温かなスタッフ",
+        "en": "Dog-first philosophy and warm staff"
+      },
+      "text": {
+        "ja": "「みんなの第二の我が家」と親しまれ、スタッフ全員がワンちゃん第一の姿勢で温かく接してくれるため、多くの飼い主から厚い信頼を得ています。預かり中も優しく声をかけ、体調や皮膚の小さな変化にも気を配ってくれるサポートが好評です。一方で、連絡手段の行き違いに関するトラブル時の対応や、店舗側の返答姿勢に対して強い不満を抱いた事例も一部で見受けられます。しかしながら、日頃の愛情あふれる丁寧なお世話と親身な人柄を高く評価し、安心して通わせている常連客が大半を占めており、信頼の輪が広がっています。親身で明るいスタッフの接遇が日常を支えています。",
+        "en": "Known as a second home for pets, the team receives praise for prioritizing dog comfort and well-being. Pet parents value the affectionate attention provided during daycare and boarding, noting staff closely monitor skin health. While rare critical reviews voiced frustration regarding communication disagreements, the general sentiment remains appreciative of the caregivers' warm devotion."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 25,
+      "title": {
+        "ja": "充実した写真動画連絡と連絡体制",
+        "en": "Plentiful multimedia updates via LINE"
+      },
+      "text": {
+        "ja": "ホテルやデイケアの利用中に、LINEを通じて愛犬の様子を収めた大量の写真や動画をリアルタイムで送ってくれるサービスが大好評です。離れて過ごす飼い主の不安を和らげ、楽しそうに遊ぶ表情を確認できる点が支持されています。その一方で、施術完了時の連絡方法（電話かLINEか）を巡る連絡の齟齬や、過度な撮影・メッセージ頻度によるスタッフの負担を懸念する声など、連絡体制に関する一部の不満も報告されています。全体としては、きめ細やかな情報共有が安心感につながっており、多くの家族に喜ばれています。愛犬の様子を細かく見守れる連絡体制が心強いと好評です。",
+        "en": "Owners appreciate receiving photos and video clips via LINE throughout daycare and boarding stays, providing real-time glimpses of dogs playing happily. This frequent visual communication alleviates travel stress and helps families feel connected. Conversely, rare critical reviews noted misunderstandings regarding pickup notifications. Nevertheless, the extensive reporting continues to be valued by clients."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 18,
+      "title": {
+        "ja": "清潔で居心地のよい預かり空間",
+        "en": "Clean, comfortable boarding environment"
+      },
+      "text": {
+        "ja": "三軒茶屋や世田谷エリアの飼い主から、広々として清潔感のある快適な預かり環境が高く評価されています。ワンちゃんたちがケージに閉じ込められず、のびのびと過ごせるプレイスペースが確保されており、ストレスなくお泊まりできる環境が整っています。トリミング施設としても行き届いており、サロン内が常に衛生的に保たれている点も安心材料となっています。ペットが喜んで入店していく姿に居心地の良さを実感し、長年にわたってホテルやデイケアを継続利用する人が多く定着しており、好評を博しています。快適な室内空間と行き届いた清掃が安心をもたらしています。",
+        "en": "Serving Sangenjaya and Setagaya, the facility is highly rated for its clean, roomy, and welcoming indoor boarding spaces. Dogs enjoy supervised play areas rather than being kept in cages, allowing them to socialize comfortably and rest without stress. The grooming area is likewise kept tidy. Guardians appreciate seeing their pets eagerly enter, making this facility a trusted local venue."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "ホテルや一時預かり中に写真や動画は送ってもらえますか？",
+        "en": "Are photos and videos sent during pet hotel stays?"
+      },
+      "a": {
+        "ja": "はい、LINEを通じて日中の様子や遊んでいる姿を写した多数の写真や動画が送られ、様子を把握できます。",
+        "en": "Yes, caregivers regularly send numerous photos and videos via LINE showing pets playing and relaxing throughout the day."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "ワンちゃんはケージフリーで過ごせますか？",
+        "en": "Do dogs spend time cage-free in the play area?"
+      },
+      "a": {
+        "ja": "はい、ケージに閉じ込めっぱなしにせず、フリースペースでのびのび遊べる環境が用意されています。",
+        "en": "Yes, the daycare and hotel emphasize open play areas where dogs can socialize and move freely under staff supervision."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "トリミングやシャンプーの同時利用は可能ですか？",
+        "en": "Can grooming and bathing be booked with hotel stays?"
+      },
+      "a": {
+        "ja": "はい、宿泊や一時預かりの間にシャンプーやカットのトリミングサービスをあわせて依頼できます。",
+        "en": "Yes, grooming and shampoo treatments can be conveniently combined with overnight boarding or daycare reservations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

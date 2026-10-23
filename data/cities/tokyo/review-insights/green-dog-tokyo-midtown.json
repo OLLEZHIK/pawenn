@@ -1,0 +1,159 @@
+{
+  "slug": "green-dog-tokyo-midtown",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Critical feedback regarding customer service",
+        "ja": "接客態度に対する不満と対応の課題"
+      },
+      "text": {
+        "en": "Feedback regarding customer service at this Tokyo Midtown branch leans distinctly critical across recent reviews. Multiple shoppers recount unpleasant encounters with retail clerks, citing insensitive remarks regarding pet illnesses, billing errors, and unhelpful communication at the counter. Although some grooming clients praise skilled technicians, overall counter hospitality remains an area of frequent dissatisfaction.",
+        "ja": "東京ミッドタウン店の売り場スタッフによる接客対応については、批判的な意見が複数見られます。ペットの療法食を選んでいる際に病気に関する配慮に欠けた冗談を言われたり、会計時に不親切な対応やレジの打ち間違いがあったりと、不快な思いをしたという声が寄せられています。一部のグルーミング利用者からは丁寧な説明や技術を評価する声もあるものの、全体としてはレジやフロアでの接客マナーの向上を求める率直な意見が目立っています。お客様への思いやりある丁寧な配慮が強く望まれており、信頼回復のための接客改善が求められています。"
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Convenient Midtown location with compact assortment",
+        "ja": "便利な立地と限られた商品ラインナップ"
+      },
+      "text": {
+        "en": "Clients find the store's location inside the Midtown Galleria in Akasaka highly convenient, noting pet-friendly elevator access directly from parking levels. However, visitors express mixed feelings regarding product assortment, noting that shelf space is relatively compact and product varieties are limited. Cat owners specifically point out that merchandise and food options focus predominantly on canine needs.",
+        "ja": "赤坂の東京ミッドタウン・ガレリア内に位置する立地については、愛犬同伴可能なエレベーターが整備されており館内へのアクセスが便利であると好評です。一方で、店舗の品揃えに関しては賛否が分かれており、売り場がコンパクトで期待していたよりも商品数が少ないという声が聞かれます。特に犬向けのフードや洋服が中心となっており、猫用のケア用品やごはんの選択肢が少ない点に物足りなさを感じる飼い主の意見も見られます。目的に応じて使い分ける工夫が必要とされており、事前確認の上での来店が便利でおすすめの利用方法とされています。"
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Appealing dog treats and grooming care",
+        "ja": "愛犬が喜ぶフードと丁寧なグルーミング"
+      },
+      "text": {
+        "en": "Dog guardians appreciate the stylish apparel, wholesome treats, and healthy celebration cakes available for their companions. Customers using the grooming salon report outstanding technical skill and gentle handling, highlighting that dogs look well groomed and feel comfortable throughout their appointments. The quality of holistic products helps owners celebrate milestones and maintain pet hygiene.",
+        "ja": "店頭で販売されている愛犬用の可愛い洋服や安心素材のおやつ、記念日用ケーキなどは多くの飼い主に喜ばれています。また、併設されたグルーミングサロンを利用する愛犬家からは、トリマーの高いカット技術と丁寧な健康チェックにより、仕上がりが美しく愛犬も落ち着いて施術を受けられていると好評です。日常の食事やおやつの充実に加え、愛犬の清潔と健康を維持するためのケア用品が揃っている点が飼い主に支持されています。記念日のお祝いやお土産の品としても親しまれており、愛犬が喜ぶ良質で安全なおやつやフードが豊富に揃っています。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How can visitors bring dogs into Tokyo Midtown to reach the store?",
+        "ja": "愛犬を連れて東京ミッドタウンの店舗へ行くにはどうすればよいですか？"
+      },
+      "a": {
+        "en": "Visitors can use designated pet-friendly elevators from parking or ground entrances directly to the 1st floor Galleria.",
+        "ja": "駐車場や1階入口からペット同伴可能な専用エレベーターを利用してガレリア1階の店舗へ直接アクセスできます。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the shop offer dog grooming services?",
+        "ja": "犬のトリミングサービスは利用できますか？"
+      },
+      "a": {
+        "en": "Yes, the location features a full-service grooming salon providing styling, baths, and health monitoring.",
+        "ja": "はい、専門トリマーによるシャンプーやデザインカット、健康管理に対応したグルーミングサロンが営業しています。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is there an extensive selection of cat products?",
+        "ja": "猫用の商品は豊富に揃っていますか？"
+      },
+      "a": {
+        "en": "The selection centers mainly on dogs, though basic natural cat foods, treats, and care items are stocked.",
+        "ja": "犬向けの商品が中心のラインナップですが、厳選された猫用の自然派フードやおやつも一部販売されています。"
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "place": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ],
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/GREEN+DOG+Tokyo+Midtown/data=!4m7!3m6!1s0x60188b78df47a0bf:0xa3c7d23fe59a1654!8m2!3d35.6665878!4d139.7302371!16s%2Fg%2F1tfcnb4l!19sChIJv6BH33iLGGARVBaa5T_Sx6M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "observed_at": "2026-10-22",
+  "reviews_in_period": 8
+}

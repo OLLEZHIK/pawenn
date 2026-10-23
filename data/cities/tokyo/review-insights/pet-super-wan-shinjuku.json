@@ -1,0 +1,134 @@
+{
+  "slug": "pet-super-wan-shinjuku",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Super+Wan+Shinjuku+store/data=!4m7!3m6!1s0x60188cd834b61025:0xa8cb757cb304c862!8m2!3d35.694883!4d139.7023274!16s%2Fg%2F1tj96dsz!19sChIJJRC2NNiMGGARYsgEs3x1y6g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "生体管理とペット飼育への賛否",
+        "en": "Pet welfare and ownership experiences"
+      },
+      "text": {
+        "ja": "この店舗で迎え入れたダックスフントやチワワが長年にわたり元気に育ち、かけがえのない家族として幸せに暮らしているという温かい体験談が寄せられています。一方で、小さな展示ケースに動物が孤立して入れられている生体販売の環境について、動物福祉の観点から心を痛める声も上がっています。ペットの健康や命の扱いに対する受け止め方には大きな温度差があり、利用者の価値観によって評価が分かれる状況となっています。命を預かる現場としての責任ある管理体制と、動物たちが快適に過ごせる環境づくりへの配慮が強く望まれています。",
+        "en": "Long-term pet owners share touching testimonials about adopted dachshunds and chihuahuas growing up healthy and bringing immense joy to their households. Conversely, critical observers voice distress over welfare conditions, arguing that small display cubicles leave young puppies isolated from canine socialization. These contrasting perspectives reflect starkly different views between grateful adoptive families and concerned passersby."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "接客態度と店舗スタッフの課題",
+        "en": "Staff customer service and behavior"
+      },
+      "text": {
+        "ja": "過去にペットを迎えた飼い主からは、電話での親身な飼育相談やアドバイスが大変心強かったという感謝の声が届いています。しかし最近の口コミでは、ガラス越しに手をかざした客への手荒な制止や、写真撮影時に鍵をガラスに叩きつけるなどスタッフの無愛想で粗雑な振る舞いが厳しく批判されています。基本的な挨拶の欠如や威圧的な接客態度に対する不満が目立っており、店舗全体のサービス品質の改善が求められています。来店するすべての人々に敬意を払った温かい接客を行うことで、利用者が安心して立ち寄れる環境づくりが求められています。",
+        "en": "While adoptive guardians recall receiving helpful phone advice when raising puppies years ago, recent feedback reports troubling service encounters. Reviewers criticize brusque interactions where staff abruptly slapped away hands or noisily rattled keys against display glass to catch puppies' attention. The apparent lack of basic greetings and unwelcoming customer demeanor have created negative impressions among store visitors."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "歌舞伎町の店舗環境と店内の様子",
+        "en": "Kabukicho location and store setting"
+      },
+      "text": {
+        "ja": "新宿歌舞伎町という眠らない繁華街のビル1階に位置しており、夜遅い時間帯でも立ち寄れる利便性がある一方で環境への懸念も聞かれます。店内環境に関しては、強い動物臭が漂っていることや狭小な展示スペースに対して居心地の悪さを訴える口コミが複数見られます。歓楽街の中心という独特のロケーションゆえに、一般的なペットショップとは異なる店舗の雰囲気に戸惑う利用者も多く、衛生管理や環境配慮の向上が望まれています。歓楽街の特性に合わせた衛生管理と快適な店内環境の維持が、信頼される店舗運営に向けて重要な課題となっています。",
+        "en": "Situated on the ground floor of a commercial building in Shinjuku's bustling Kabukicho district, the location provides accessible night-time hours in an entertainment hub. However, several visitors remark uncomfortably on unpleasant pet odors and cramped quarters within the storefront. The high-energy nightlife setting creates an unconventional backdrop for animal retail that leaves many observers feeling ambivalent."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "ペットを迎えた後のアフター相談は可能ですか？",
+        "en": "Is post-adoption consultation supported?"
+      },
+      "a": {
+        "ja": "長年利用する飼い主さんからは電話での丁寧な飼育相談が助かったという声が寄せられています。",
+        "en": "Repeat customers mention staff offer phone guidance for parenting advice after adoption."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "店舗の立地や営業時間について教えてください。",
+        "en": "What are the location and opening hours?"
+      },
+      "a": {
+        "ja": "新宿区歌舞伎町に位置し、夜遅くまで営業している繁華街型のペットショップです。",
+        "en": "It is located in Kabukicho, Shinjuku, operating into the evening in the entertainment district."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "展示環境についてどのような口コミがありますか？",
+        "en": "What do customer reviews say about the display environment?"
+      },
+      "a": {
+        "ja": "ケージの広さや店内の匂い、動物の展示方法に関して厳しい指摘も見受けられます。",
+        "en": "Several reviews raise concerns regarding cage sizes, store smell, and pet display conditions."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
