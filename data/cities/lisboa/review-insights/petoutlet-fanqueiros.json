@@ -1,0 +1,142 @@
+{
+  "slug": "petoutlet-fanqueiros",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetOutlet+Fanqueiros/data=!4m7!3m6!1s0xd193478445af63d:0xef5daaa742b8ba49!8m2!3d38.7118204!4d-9.1362995!16s%2Fg%2F11g6n_6nm2!19sChIJPfZaRHg0GQ0RSbq4QqeqXe8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Atendimento simpático e prestável na Baixa",
+        "en": "Friendly and helpful shop assistance"
+      },
+      "text": {
+        "pt": "Os clientes elogiam com frequência a simpatia e a disponibilidade dos colaboradores na Rua dos Fanqueiros. O atendimento é caracterizado como acolhedor e prestável no aconselhamento sobre artigos para cães, gatos e pequenos animais, mantendo um ambiente de loja de proximidade.",
+        "en": "Customers frequently praise the warmth and helpfulness of the retail staff on Rua dos Fanqueiros. The store service is described as welcoming and knowledgeable when guiding shoppers on products for dogs, cats, and small pets, preserving the feel of a friendly neighborhood shop."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Variedade de artigos e feno fresco",
+        "en": "Diverse assortment and fresh hay"
+      },
+      "text": {
+        "pt": "Os visitantes salientam a ampla escolha de produtos para várias espécies, desde acessórios e brinquedos até alimentação especializada. Os donos de roedores e coelhos apreciam a frescura do feno e a conveniência de encontrar tudo o que necessitam num espaço bem organizado.",
+        "en": "Shoppers highlight the broad selection of pet supplies, ranging from fun toys and accessories to dietary essentials. Owners of rabbits and small rodents especially appreciate the consistently fresh hay and the convenience of finding complete provisions in an orderly retail store."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Preços razoáveis e descontos ocasionais",
+        "en": "Fair prices and occasional promotions"
+      },
+      "text": {
+        "pt": "Os clientes consideram os preços praticados competitivos e equilibrados face ao mercado de retalho animal em Lisboa. Vários utilizadores habituais destacam também as promoções e descontos regulares em rações e acessórios, permitindo poupar nas compras frequentes para os seus animais.",
+        "en": "Reviewers regard product pricing as competitive and fair compared to the broader pet retail market in Lisbon. Several regular shoppers also highlight useful discounts and promotional campaigns on pet food and daily accessories, making regular purchases budget-friendly over time."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A loja tem produtos específicos para coelhos e roedores?",
+        "en": "Does the store carry products for rabbits and rodents?"
+      },
+      "a": {
+        "pt": "Sim, os clientes elogiam a variedade de alimentação, snacks e feno fresco para pequenos animais.",
+        "en": "Yes, clients frequently mention the selection of food, snacks, and fresh hay for small pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A PetOutlet Fanqueiros realiza entregas ao domicílio?",
+        "en": "Does PetOutlet Fanqueiros offer home delivery?"
+      },
+      "a": {
+        "pt": "Sim, a loja disponibiliza serviço de entregas para encomendas de alimentação e acessórios.",
+        "en": "Yes, the store provides delivery services for orders of pet food and everyday supplies."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Existem promoções e descontos frequentes nos produtos?",
+        "en": "Are there regular promotions and discounts available?"
+      },
+      "a": {
+        "pt": "Sim, vários tutores referem preços justos e campanhas promocionais vantajosas na loja da Baixa.",
+        "en": "Yes, several customers highlight reasonable prices and appealing discounts at the Baixa store."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
