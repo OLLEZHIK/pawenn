@@ -1,0 +1,45 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "pet-hostel-sl",
+    "hause-bela-vista",
+    "day-dog",
+    "dog-parque-da-juventude",
+    "santa-dog",
+    "dogs-ville",
+    "dog-wellness",
+    "buddies-daycare-jardins",
+    "dog-day-club",
+    "dog-by-dog-resort"
+  ],
+  "hash": "6402fe155079cd724174e2b33f8cf5d4940d7a6eb7ca47956646c3f5d8d56280",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T01:04:48.107Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-23T01:18:36.717Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-23T01:20:45.642Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T01:24:20.669Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-23T01:24:41.623Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
