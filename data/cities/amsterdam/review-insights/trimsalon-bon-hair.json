@@ -1,0 +1,100 @@
+{
+  "slug": "trimsalon-bon-hair",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Trimsalon+Bon-Hair%F0%9F%90%A9/data=!4m7!3m6!1s0x47c5e353bed80b03:0xf8c718b7f22b39f2!8m2!3d52.3614172!4d4.8557531!16s%2Fg%2F11j1mjx_pq!19sChIJAwvYvlPjxUcR8jkr8rcYx_g?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "nl": "Vriendelijke en lieve benadering van Annet",
+        "en": "Friendly and gentle care from Annet"
+      },
+      "text": {
+        "nl": "Huisdiereigenaren waarderen de hartelijke en behulpzame houding van trimster Annet op het Bonaireplein. Klanten geven aan dat zij zich direct welkom voelen en dat er op een buitengewoon lieve manier wordt omgegaan met honden zoals doodles tijdens hun eerste bezoek aan de salon.",
+        "en": "Pet owners appreciate the warm and helpful attitude of groomer Annet at Bonaireplein. Clients mention feeling welcome right away, noting her affectionate and calm handling of companion animals such as doodle puppies during their initial introduction to the salon."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "nl": "Wisselende reacties op de trimervaring",
+        "en": "Varied feedback regarding trimming experiences"
+      },
+      "text": {
+        "nl": "De beoordelingen over het trimwerk laten uiteenlopende ervaringen zien. Terwijl tevreden klanten spreken over een prettige behandeling met prima resultaten voor hun viervoeter, heeft een enkele bezoeker een negatieve ervaring achtergelaten met spijt over het salonbezoek.",
+        "en": "Customer evaluations regarding trimming results reflect mixed experiences. While satisfied owners report a very pleasant session with wonderful results for their dogs, an isolated visitor expressed disappointment and regret following an appointment at the grooming parlor."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Welke diensten biedt Trimsalon Bon-Hair?",
+        "en": "What services does Trimsalon Bon-Hair offer?"
+      },
+      "a": {
+        "nl": "De salon aan het Bonaireplein verzorgt vachtverzorging, wassen, borstelen en knippen van honden van diverse rassen.",
+        "en": "The Bonaireplein salon provides coat maintenance, washing, brushing, and trimming for dogs of various breeds."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "nl": "Hoe gaan medewerkers om met jonge doodles?",
+        "en": "How does the groomer handle young doodles?"
+      },
+      "a": {
+        "nl": "Klanten melden dat trimster Annet bijzonder lief en geduldig is voor jonge doodles tijdens hun eerste trimbeurt.",
+        "en": "Clients report that groomer Annet is remarkably sweet and patient with young doodle dogs during their first grooming appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Waar bevindt de salon zich in Amsterdam?",
+        "en": "Where is the salon located in Amsterdam?"
+      },
+      "a": {
+        "nl": "Trimsalon Bon-Hair is gevestigd aan het Bonaireplein 10H in de wijk De Baarsjes in Amsterdam-West.",
+        "en": "Trimsalon Bon-Hair is located at Bonaireplein 10H in the De Baarsjes neighbourhood in Amsterdam West."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
