@@ -1,0 +1,167 @@
+{
+  "slug": "clinica-veterinaria-monte-dos-burgos",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+Monte+dos+Burgos/data=!4m7!3m6!1s0xd2465b097edbde3:0x1e269f4aa372618d!8m2!3d41.1719499!4d-8.62637!16s%2Fg%2F1thr8fwv!19sChIJ473tl7BlJA0RjWFyo0qfJh4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "pt": "Opiniões divergentes sobre o atendimento clínico",
+        "en": "Divergent views on clinical customer service"
+      },
+      "text": {
+        "pt": "Vários tutores de longa data elogiam o profissionalismo e a dedicação da equipa, destacando o trabalho competente da Dra. Inês nas consultas habituais. Em contrapartida, avaliações críticas apontam recusa de atendimento urgente a um animal ferido por motivos de agenda e queixas graves quanto à assunção de responsabilidades institucionais.",
+        "en": "Several long-term clients praise the professionalism and dedication of the clinical staff, highlighting Dr. Inês during regular appointments. In contrast, critical reviews cite a refusal to attend to an injured pet due to scheduling constraints, along with serious concerns regarding accountability during disputed incidents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Experiências contrastantes no cuidado e hotel",
+        "en": "Contrasting experiences with boarding and care"
+      },
+      "text": {
+        "pt": "Enquanto clientes habituais sublinham o carinho demonstrado aos animais e a tranquilidade no serviço de estadia e consultas, outros relatam episódios preocupantes. Um tutor reporta ferimentos graves numa pata durante a permanência no hotel e outro menciona alterações comportamentais após estadia anterior na mesma estrutura.",
+        "en": "While regular clients praise the gentle care shown to visiting pets and positive experiences with boarding stays, others describe troubling episodes. One review reports serious paw injuries sustained during pet boarding, while another notes behavioral changes following an earlier stay at the facility."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Intervenções cirúrgicas e situações de urgência",
+        "en": "Surgical interventions and emergency care situations"
+      },
+      "text": {
+        "pt": "Alguns clientes manifestam apreço pelo sucesso em procedimentos cirúrgicos complexos, como a deteção e remoção de tumores subcutâneos com bom acompanhamento de recobro. No entanto, existem relatos negativos sobre agravamento do estado de saúde de animais e falta de resposta clínica atempada em episódios pós-internamento.",
+        "en": "Some clients express appreciation for successful surgical interventions, such as the detection and removal of subcutaneous tumors with good recovery management. However, negative accounts mention worsening pet conditions and an alleged lack of timely clinical assistance following boarding and emergency incidents."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica dispõe de instalações para hotel e estadia de animais?",
+        "en": "Does the clinic have boarding facilities for pets?"
+      },
+      "a": {
+        "pt": "Sim, os clientes referem a existência de serviço de hotel para animais de companhia nas instalações.",
+        "en": "Yes, client reviews mention the availability of a pet boarding service on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Como são geridos os casos de urgência fora do horário habitual?",
+        "en": "How are veterinary emergencies managed outside standard hours?"
+      },
+      "a": {
+        "pt": "A clínica faz parte do Onevet Group, sendo as emergências complexas encaminhadas para o Hospital Veterinário do Porto.",
+        "en": "The practice is part of Onevet Group, with critical emergencies routed to the Onevet Veterinary Hospital in Porto."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Onde se localiza a Clínica Veterinária Monte dos Burgos?",
+        "en": "Where is Clínica Veterinária Monte dos Burgos located?"
+      },
+      "a": {
+        "pt": "A clínica situa-se na Rua do Monte dos Burgos 259, na zona norte da cidade do Porto.",
+        "en": "The clinic is situated at Rua do Monte dos Burgos 259, in the northern part of Porto."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "animals": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "animals": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

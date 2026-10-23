@@ -1,0 +1,34 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "clinica-veterinaria-da-circunvalacao",
+    "onevet-clinica-veterinaria-carvalha",
+    "clinica-veterinaria-monte-dos-burgos",
+    "queridos-patudos-clinica-veterinaria",
+    "clinica-veterinaria-da-lavandeira",
+    "onevet-clinica-veterinaria-canidelo",
+    "kivet-saude-animal-matosinhos",
+    "clinica-veterinaria-da-galiza",
+    "veterinary-clinic-dr-andre-vieira"
+  ],
+  "hash": "af08320d00835b28b1c51c52891169c3fa95a3361a3e51656093fae917bf2890",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T11:03:21.570Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-18T11:04:35.238Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T06:03:47.079Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

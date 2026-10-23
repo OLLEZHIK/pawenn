@@ -1,0 +1,32 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "veterinary-office-puppycare",
+    "chv-veterinary-hospital",
+    "hospital-reference-veterinary-montenegro",
+    "centro-veterinario-de-animais-exoticos-joel-ferraz-unipessoal-lda",
+    "clinica-veterinaria-da-foz",
+    "lingua-de-gato-clinica-veterinaria",
+    "clinica-veterinaria-do-campo-alegre"
+  ],
+  "hash": "019292a79fed4709e69fb4897293525f78d6854c2434bdcb3f82b2c7683009cf",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T08:25:30.298Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T08:24:07.749Z",
+      "result": "FAIL",
+      "listed": 17
+    },
+    {
+      "at": "2026-10-23T08:32:17.073Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

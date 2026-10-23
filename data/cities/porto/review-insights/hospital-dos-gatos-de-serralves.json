@@ -1,0 +1,142 @@
+{
+  "slug": "hospital-dos-gatos-de-serralves",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+dos+Gatos+de+Serralves/data=!4m7!3m6!1s0xd2465dfdc9b2def:0x9019eff69fce13e2!8m2!3d41.161249!4d-8.6579695!16s%2Fg%2F11rd8ty9sn!19sChIJ7y2b3N9lJA0R4hPOn_bvGZA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Equipa responsável, dedicada e acolhedora",
+        "en": "Dedicated, humane and responsible staff"
+      },
+      "text": {
+        "pt": "Os tutores elogiam amplamente a simpatia, o profissionalismo e a postura humana de toda a equipa hospitalar em Serralves. Médicas como a Dr.ª Inês Tavares e a Dr.ª Sara Coelho são destacadas pela competência clínica e pelo apoio atencioso dispensado desde a receção até à consulta.",
+        "en": "Clients commend the warmth, clinical competence, and humane attitude found across the Serralves hospital team. Veterinarians such as Dr. Inês Tavares and Dr. Sara Coelho are praised for their thorough medical care and supportive communication from the reception to treatment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Diagnóstico rápido e qualidade clínica",
+        "en": "Fast diagnosis and medical quality"
+      },
+      "text": {
+        "pt": "A capacidade de avaliação rápida e o rigor nos diagnósticos são frequentemente sublinhados nas avaliações. Os donos valorizam a agilidade na realização de exames complementares e a eficácia na estabilização de doentes felinos em situações de urgência médica complexa.",
+        "en": "Prompt clinical assessment and diagnostic precision are frequently highlighted by cat owners. Guardians appreciate the swift execution of exams and the effective stabilization of feline patients during critical emergencies and specialized medical evaluations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Atenção especializada ao paciente felino",
+        "en": "Specialized care for feline patients"
+      },
+      "text": {
+        "pt": "Sendo uma unidade dedicada exclusivamente à medicina felina, os clientes destacam o respeito pelo comportamento particular dos gatos. O ambiente tranquilo e o manuseamento sereno reduzem o stress das consultas e internamento, garantindo conforto e segurança aos animais.",
+        "en": "As a facility dedicated solely to feline medicine, clients emphasize the respectful understanding of cat-specific behavior. The quiet hospital atmosphere and gentle handling reduce appointment and boarding stress, ensuring optimal comfort and reassurance for feline patients."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O hospital dispõe de atendimento para urgências felinas?",
+        "en": "Does the hospital provide emergency care for cats?"
+      },
+      "a": {
+        "pt": "Sim, os clientes relatam prontidão e agilidade no socorro e estabilização de gatos em situação de emergência.",
+        "en": "Yes, reviewers confirm prompt response and swift stabilization of cats in urgent medical need."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A unidade possui exames de diagnóstico nas instalações?",
+        "en": "Does the facility have in-house diagnostic equipment?"
+      },
+      "a": {
+        "pt": "Sim, os tutores referem boas infraestruturas para exames complementares e diagnósticos imediatos no local.",
+        "en": "Yes, clients mention excellent infrastructure for on-site diagnostics and rapid health evaluations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O espaço é adaptado para reduzir o stress dos gatos?",
+        "en": "Is the facility designed to minimize feline stress?"
+      },
+      "a": {
+        "pt": "Sim, por ser exclusivo para gatos, o ambiente é calmo e evita o contacto e ruídos de outras espécies.",
+        "en": "Yes, being cat-exclusive, the environment is quiet and free from the presence or sounds of dogs."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "22 hours ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
