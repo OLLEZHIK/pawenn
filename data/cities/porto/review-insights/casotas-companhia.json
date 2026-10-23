@@ -1,0 +1,133 @@
+{
+  "slug": "casotas-companhia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Casotas+%26+Companhia+-+Abrigos+e+Acess%C3%B3rios+Para+Animais+em+Madeira/data=!4m7!3m6!1s0xd24630bab84e4ab:0x15eaa95813b41480!8m2!3d41.1610228!4d-8.5471079!16s%2Fg%2F12qfk4_l7!19sChIJq-SEqwtjJA0RgBS0E1ip6hU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Mixed feedback on customer service",
+        "pt": "Opiniões divididas no contacto com clientes"
+      },
+      "text": {
+        "en": "Feedback regarding communication is polarized among clients. While some buyers report helpful assistance when requesting quotes or solving order issues, others express dissatisfaction with unaddressed complaints and slow responses when complications arise with their purchase.",
+        "pt": "O feedback relativo à comunicação divide-se entre os compradores. Enquanto alguns clientes destacam o esclarecimento útil de pedidos de cotação e a resolução de peças em falta, outros relatam insatisfação com a demora e a falta de resposta perante problemas pendentes."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Sturdy craftsmanship with varied experiences",
+        "pt": "Construção robusta mas com experiências diversas"
+      },
+      "text": {
+        "en": "Opinions on product outcomes show mixed perspectives. Satisfied dog owners commend the sturdy wooden construction, noting doghouses resist heavy rain and stay completely dry. Conversely, dissatisfied clients cite poor overall delivery and product experience that fell below expectations.",
+        "pt": "A avaliação sobre o produto final apresenta opiniões divergentes. Vários tutores elogiam a estrutura sólida em madeira, confirmando que os abrigos resistem bem à chuva intensa sem infiltrações. No entanto, outros compradores apontam descontentamento geral com o serviço entregue."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Contrasting impressions of staff assistance",
+        "pt": "Impressões contrastantes sobre a equipa"
+      },
+      "text": {
+        "en": "Reviewers share contrasting impressions of the team's support. Several clients mention agreeable interactions and effective problem resolution when minor delays occurred. In contrast, negative reviews criticize customer support, describing the service encounter as frustrating.",
+        "pt": "Os utilizadores manifestam impressões contrastantes relativamente ao apoio da equipa. Alguns compradores mencionam um contacto agradável e capacidade de resolver contratempos na entrega. Em contrapartida, outras avaliações criticam duramente a qualidade do atendimento prestado."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What products does Casotas & Companhia manufacture?",
+        "pt": "Que produtos fabrica a Casotas & Companhia?"
+      },
+      "a": {
+        "en": "The company specializes in custom wooden doghouses, shelters, and pet accessories designed for outdoor protection.",
+        "pt": "A empresa é especializada no fabrico de casotas em madeira, abrigos e acessórios para animais concebidos para exterior."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do clients evaluate the weather resistance of the doghouses?",
+        "pt": "Como avaliam os clientes o isolamento das casotas contra a chuva?"
+      },
+      "a": {
+        "en": "Satisfied customers report that the wooden doghouses hold up well against heavy rainfall without leaking.",
+        "pt": "Os clientes satisfeitos relatam que os abrigos de madeira resistem bem a chuvas fortes sem entrada de água."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers request custom quotes before purchasing?",
+        "pt": "É possível solicitar orçamentos prévios antes da compra?"
+      },
+      "a": {
+        "en": "Yes, customers can request quotes directly to evaluate bespoke dimensions and configurations for pet shelters.",
+        "pt": "Sim, os clientes podem pedir cotações diretamente para avaliar medidas e modelos personalizados de abrigos."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

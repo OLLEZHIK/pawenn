@@ -1,0 +1,135 @@
+{
+  "slug": "centro-veterinario-st-ovidio",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterin%C3%A1rio+St.+Ov%C3%ADdio/data=!4m7!3m6!1s0xd247b2dc6f33e9d:0x5c2e1d0cf876c016!8m2!3d41.1187783!4d-8.6084889!16s%2Fg%2F1tfb384x!19sChIJnT7zxi17JA0RFsB2-AwdLlw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Dedicated and compassionate clinical team",
+        "pt": "Equipa veterinária dedicada e atenciosa"
+      },
+      "text": {
+        "en": "Pet owners commend the clinicians and support team for their warmth, empathy, and high professional standards. Reviewers single out Dr. Carlos, Dr. Daniela, and Dr. Inês for taking ample time to answer questions, explain instructions thoroughly, and keep owners reassured.",
+        "pt": "Os tutores destacam os médicos veterinários e a equipa de apoio pela simpatia, empatia e elevado profissionalismo. As opiniões realçam o acompanhamento do Dr. Carlos, da Dra. Daniela e da Dra. Inês, que esclarecem detalhadamente todas as dúvidas e tranquilizam os responsáveis."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle care for young pets",
+        "pt": "Trato delicado e tranquilo dos animais"
+      },
+      "text": {
+        "en": "Clients appreciate the sensitive handling methods used with puppies and newly adopted kittens. Reviews describe how veterinarians manage to keep pets calm and comfortable during vaccinations, physical exams, and post-operative care, creating a stress-free veterinary environment.",
+        "pt": "Os clientes valorizam as técnicas calmas e cuidadosas utilizadas com cachorros e gatinhos recém-adotados. As avaliações descrevem como os veterinários conseguem manter os animais tranquilos durante vacinações e exames clínicos, promovendo uma experiência sem ansiedade na clínica."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Reliable treatments from puppyhood to surgery",
+        "pt": "Resultados seguros desde consultas a cirurgias"
+      },
+      "text": {
+        "en": "Pet owners report consistently positive medical outcomes across preventive visits and surgical procedures. Clients emphasize dependable follow-up care from initial vaccinations through complex surgeries, confirming their long-term trust in the clinic's veterinary interventions.",
+        "pt": "Os tutores relatam resultados clínicos consistentes tanto em consultas de prevenção como em intervenções cirúrgicas. Os clientes sublinham a eficácia dos tratamentos desde as primeiras vacinas até aos pós-operatórios, mantendo uma confiança duradoura no centro veterinário."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the clinic perform surgeries and routine procedures?",
+        "pt": "O centro realiza cirurgias e consultas de rotina?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that the clinic carries out routine pediatric checks, vaccinations, and surgical treatments.",
+        "pt": "Sim, as avaliações confirmam a realização de vacinações, consultas de rotina e intervenções cirúrgicas."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How does the team handle nervous kittens and puppies?",
+        "pt": "Como é feito o acolhimento de animais jovens ou receosos?"
+      },
+      "a": {
+        "en": "Clients highlight the clinicians' gentle handling, which keeps newly adopted kittens and young puppies calm.",
+        "pt": "Os clientes salientam a paciência e a suavidade da equipa, que ajudam a tranquilizar gatinhos e cachorros."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Centro Veterinário St. Ovídio located?",
+        "pt": "Onde fica localizado o Centro Veterinário St. Ovídio?"
+      },
+      "a": {
+        "en": "The veterinary center is located on Rua de Soares dos Reis in Vila Nova de Gaia, south of Porto.",
+        "pt": "O centro veterinário situa-se na Rua de Soares dos Reis, em Vila Nova de Gaia, na margem sul do Porto."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
