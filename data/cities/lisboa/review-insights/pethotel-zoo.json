@@ -1,0 +1,107 @@
+{
+  "slug": "pethotel-zoo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetHotel+Zoo/data=!4m7!3m6!1s0xd193323d4ce484d:0xa37c8bcbac287f01!8m2!3d38.7468863!4d-9.1706331!16s%2Fg%2F11bwtn56fl!19sChIJTUjO1CMzGQ0RAX8orMuLfKM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Acompanhamento atencioso dos colaboradores",
+        "en": "Attentive care from hotel staff"
+      },
+      "text": {
+        "pt": "Os tutores destacam a simpatia e a dedicação dos profissionais do hotel em Sete Rios. A equipa recebe elogios pela disponibilidade e pelo cuidado no acolhimento de animais durante as férias dos donos, prestando esclarecimentos atenciosos por contacto telefónico e correio eletrónico.",
+        "en": "Pet owners highlight the friendliness and dedication of the boarding staff in Sete Rios. The team receives praise for their helpfulness and thoughtful care when looking after pets while families travel, providing dependable updates through phone calls and email inquiries."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "pt": "Trato afetuoso para cães e pequenos animais",
+        "en": "Affectionate care for diverse pets"
+      },
+      "text": {
+        "pt": "Os clientes partilham experiências positivas com o alojamento de cães e animais de pequeno porte, como coelhos. Mesmo tutores reticentes após más experiências noutros espaços referem que os seus companheiros foram tratados com respeito, carinho e vigilância contínua durante a estadia.",
+        "en": "Clients share positive experiences regarding boarding accommodations for dogs and small companions such as rabbits. Even owners hesitant after unsatisfactory stays elsewhere report that their animals were treated with genuine warmth, gentle care, and steady oversight throughout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O PetHotel Zoo aloja animais de pequeno porte como coelhos?",
+        "en": "Does PetHotel Zoo accommodate small companion pets like rabbits?"
+      },
+      "a": {
+        "pt": "Sim, os clientes confirmam a estadia e os bons cuidados prestados a coelhos e pequenos mamíferos.",
+        "en": "Yes, clients confirm successful boarding and attentive daily care provided for pet rabbits."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível contactar a equipa durante a estadia para obter notícias?",
+        "en": "Can owners contact the staff during the stay for updates?"
+      },
+      "a": {
+        "pt": "Sim, os tutores referem que o hotel responde prontamente a chamadas e e-mails sobre o animal.",
+        "en": "Yes, owners mention that staff respond promptly to phone calls and emails regarding their pet."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O hotel dispõe de instalações separadas para cães e gatos?",
+        "en": "Does the hotel provide separate facilities for dogs and cats?"
+      },
+      "a": {
+        "pt": "Sim, a estrutura no Jardim Zoológico conta com boxes e alas independentes para cada espécie.",
+        "en": "Yes, the facility at Lisbon Zoo features independent housing wings and kennels for each species."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
