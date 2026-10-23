@@ -1,0 +1,145 @@
+{
+  "slug": "dierenkliniek-overtoom",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dierenkliniek+Overtoom/data=!4m7!3m6!1s0x47c5e20f473f989b:0x5dbbed5a93f3ff25!8m2!3d52.3580046!4d4.8572918!16s%2Fg%2F1tfc5t1q!19sChIJm5g_Rw_ixUcRJf_zk1rtu10?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "nl": "Vriendelijke artsen met wisselende ontvangst",
+        "en": "Skilled doctors with mixed reception experiences"
+      },
+      "text": {
+        "nl": "Verschillende baasjes waarderen de vakkundige medische hulp van de dierenartsen en voelen dat hun dier als volwaardig gezinslid wordt gezien. Tegelijkertijd melden enkele bezoekers onprettige ervaringen aan de balie, waarbij het contact met de receptie als zakelijk of nors werd ervaren.",
+        "en": "Several pet owners praise the veterinary expertise of the doctors and appreciate that animals are treated like true family members. However, some visitors report friction at the front desk, describing their interactions with reception staff as noticeably blunt or unwelcoming."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "nl": "Knelpunten in informatie en administratie",
+        "en": "Challenges in communication and documentation"
+      },
+      "text": {
+        "nl": "Reviewers wijzen op verbeterpunten rondom de informatievoorziening van de praktijk. Zo meldde een klant dat een Europees dierenpaspoort werd vergeten, wat problemen gaf bij een spoedkliniek, terwijl een ander aangaf dat communicatie lastig verloopt voor wie geen Engels spreekt.",
+        "en": "Reviewers point out clear areas for improvement regarding clinic communication and administrative follow-through. One owner noted that a European pet passport was forgotten before an emergency, while another found consultations difficult without English proficiency."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "nl": "Zorgzame behandeling van jonge huisdieren",
+        "en": "Attentive care for young pets"
+      },
+      "text": {
+        "nl": "Klanten melden dat jonge dieren tijdens een eerste dierenartsbezoek met veel geduld en vriendelijkheid worden onderzocht, waardoor het dier zich veilig voelt. Daartegenover staat een klacht van een kattenbezitter over tegenstrijdige adviezen met betrekking tot kattengedrag.",
+        "en": "Clients report that young pets attending their first veterinary checkup are treated with great patience and sweetness, helping them feel secure. On the other hand, one cat guardian raised concerns about conflicting advice regarding feline behavioral patterns."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Wordt er in deze praktijk Nederlands en Engels gesproken?",
+        "en": "Are consultations conducted in Dutch and English?"
+      },
+      "a": {
+        "nl": "Reviewers merken op dat er veel Engels wordt gesproken, wat prettig is voor expats maar soms lastig voor eentalig Nederlandse klanten.",
+        "en": "Reviewers note that English is frequently spoken, which suits international residents but can be challenging for Dutch-only speakers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Hoe verloopt een eerste kennismaking voor jonge dieren?",
+        "en": "How is a first visit handled for young pets?"
+      },
+      "a": {
+        "nl": "Een eigenaar beschrijft dat een eerste puppybezoek bijzonder zachtaardig en rustgevend verliep.",
+        "en": "An owner describes a pet's very first checkup as exceptionally gentle and reassuring."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Waar moeten reizigers op letten bij dierenpaspoorten?",
+        "en": "What should travelers verify regarding pet passports?"
+      },
+      "a": {
+        "nl": "Gezien een eerdere administratieve vergissing raden klanten aan om de uitgifte van een dierenpaspoort tijdig te controleren.",
+        "en": "Given an earlier administrative oversight, clients advise checking the issuance of a European pet passport well ahead of travel."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "~",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

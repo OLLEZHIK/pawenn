@@ -1,0 +1,143 @@
+{
+  "slug": "viervoeten",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Viervoeten/data=!4m7!3m6!1s0x47c609ac15a721ab:0xc9b98e2df0953b77!8m2!3d52.4113097!4d4.8804769!16s%2Fg%2F11b821smhq!19sChIJqyGnFawJxkcRdzuV8C2Ouck?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "nl": "Betrouwbare uitlaters met één verkeersklacht",
+        "en": "Reliable dog walkers with traffic feedback"
+      },
+      "text": {
+        "nl": "Huisdiereigenaren zijn zeer tevreden over eigenaar Pepe en het team van Viervoeten. Klanten noemen de begeleiders vriendelijk, meedenkend en betrouwbaar in het nakomen van afspraken. Eén recensie maakt echter melding van gehaast en ongeduldig rijgedrag van een buschauffeur.",
+        "en": "Pet owners express great satisfaction with owner Pepe and the Viervoeten team. Clients describe the walking staff as friendly, flexible, and dependable with schedules. However, one review reported hurried and impatient road behavior from a driver operating a company van."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "nl": "Veel beweging en veilige opvang",
+        "en": "Plenty of exercise and safe care"
+      },
+      "text": {
+        "nl": "Baasjes prijzen het ruime speelveld bij Viervoetenland en het veilige vervoer in benchbussen met korte reistijden. Honden krijgen volop gelegenheid om te rennen en te socialiseren met soortgenoten. Zowel actieve herdershonden als jonge pups komen moe en voldaan weer thuis.",
+        "en": "Pet parents praise the expansive outdoor grounds at Viervoetenland and the secure crate transport in ventilated vans. Dogs receive ample opportunities to run, explore, and socialize in packs. Both lively German Shepherds and young pups return home thoroughly exercised and happy."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "nl": "Duidelijke tijdvakken en beeldende updates",
+        "en": "Clear timeframes and regular photo updates"
+      },
+      "text": {
+        "nl": "De uitlaatservice communiceert snel en helder via WhatsApp en telefoon. Eigenaren waarderen de foto's en video's van de roedel tijdens de wandelingen en de flexibiliteit bij het wijzigen van dagen. De ophaal- en brengtijden verlopen stipt binnen korte, afgesproken tijdvakken.",
+        "en": "The walking service maintains prompt, transparent communication via messaging and phone. Pet owners appreciate the regular photos and videos sent from the walking fields and the flexibility when shifting bookings. Pick-up and drop-off windows are communicated and respected reliably."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Wat is het terrein Viervoetenland?",
+        "en": "What is the Viervoetenland facility?"
+      },
+      "a": {
+        "nl": "Viervoetenland is een omheind speelterrein buiten de stad waar honden tijdens de dagopvang vrij kunnen rennen en spelen.",
+        "en": "Viervoetenland is an enclosed countryside play area where dogs can run freely and socialize during daycare outings."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Hoe worden de honden vervoerd?",
+        "en": "How are the dogs transported?"
+      },
+      "a": {
+        "nl": "Honden worden veilig vervoerd in speciaal ingerichte bussen met vaste transportbenches en goede ventilatie.",
+        "en": "Dogs are transported securely in specially equipped vans featuring fixed individual travel crates and proper ventilation."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Ontvangen eigenaren updates tijdens de wandeling?",
+        "en": "Do owners receive updates during walks?"
+      },
+      "a": {
+        "nl": "Ja, het team verstuurt regelmatig leuke foto's en filmpjes van de roedel zodat baasjes zien hoe hun hond zich vermaakt.",
+        "en": "Yes, the team regularly sends photos and videos of the pack so owners can see how their dog is enjoying the day."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
