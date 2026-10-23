@@ -1,0 +1,27 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "renfrew-animal-hospital-vancouver",
+    "market-hill-animal-hospital",
+    "alma-animal-hospital",
+    "kerrisdale-veterinary-hospital",
+    "vancouver-south-animal-hospital",
+    "beach-avenue-animal-hospital",
+    "kitsilano-animal-clinic"
+  ],
+  "hash": "5684039f1e2d0cb3879e65010c82d27d7bed6d625800213677bc3dac50c39a87",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T02:16:28.419Z",
+      "result": "FAIL",
+      "listed": 30
+    },
+    {
+      "at": "2026-10-23T02:19:34.263Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
