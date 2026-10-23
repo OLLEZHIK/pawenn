@@ -1,0 +1,150 @@
+{
+  "slug": "petclinic-telheiras",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petclinic/data=!4m7!3m6!1s0xd1932d01c028b6b:0x2a86990dc83540b0!8m2!3d38.7618163!4d-9.1798926!16s%2Fg%2F11c1sjncj1!19sChIJa4sCHNAyGQ0RsEA1yA2Zhio?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "pt": "Profissionalismo médico e acompanhamento afetuoso",
+        "en": "Medical expertise and compassionate team"
+      },
+      "text": {
+        "pt": "Os tutores elogiam unanimemente a competência clínica e a empatia da equipa em Carnide, destacando o trabalho da Dra. Inês e dos enfermeiros. O atendimento veterinário combina rigor clínico com um tratamento afável, transmitindo confiança constante em consultas e cirurgias.",
+        "en": "Pet owners unanimously praise the medical competence and warm empathy shown by the veterinary team in Carnide, particularly Dr. Inês and the clinic assistants. The staff combines clinical rigor with attentive bedside care, instilling lasting trust across appointments and treatments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Explicações clínicas detalhadas e disponibilidade",
+        "en": "Detailed clinical explanations and availability"
+      },
+      "text": {
+        "pt": "Os clientes valorizam a clareza com que cada procedimento, medicação e diagnóstico são explicados durante a consulta. A equipa médica dedica tempo a esclarecer todas as dúvidas dos donos, mantendo-se sempre disponível para orientar sobre nutrição e cuidados de saúde continuados.",
+        "en": "Clients value the thoroughness and clarity with which procedures, medications, and diagnoses are explained during visits. The medical team takes ample time to address questions from owners, maintaining consistent availability for dietary guidance and post-consultation pet advice."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Ambiente acolhedor para animais nervosos",
+        "en": "Comfortable atmosphere for nervous pets"
+      },
+      "text": {
+        "pt": "Os donos destacam o ambiente sereno da clínica, capaz de transformar uma consulta habitualmente stressante num momento calmo e seguro. O maneio carinhoso e paciente adotado pelos profissionais ajuda os animais a relaxarem durante os exames e tratamentos veterinários em Telheiras.",
+        "en": "Owners highlight the calm atmosphere of the clinic, which successfully transforms potentially stressful vet visits into comfortable and peaceful moments. Gentle and patient animal handling helps dogs and cats remain at ease throughout routine health exams and clinic procedures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica presta consultas para animais exóticos?",
+        "en": "Does the clinic offer consultations for exotic pets?"
+      },
+      "a": {
+        "pt": "Sim, a Petclinic disponibiliza medicina especializada para pequenos mamíferos e animais exóticos.",
+        "en": "Yes, Petclinic provides specialized veterinary care and checkups for exotic companion animals."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Os veterinários explicam em detalhe os diagnósticos e tratamentos?",
+        "en": "Do veterinarians thoroughly explain diagnoses and treatment plans?"
+      },
+      "a": {
+        "pt": "Sim, os clientes salientam que a equipa detalha cada etapa do tratamento e da medicação prescrita.",
+        "en": "Yes, clients frequently emphasize that veterinarians explain every stage of therapy and medication."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A Petclinic realiza apoio veterinário ao domicílio em Lisboa?",
+        "en": "Does Petclinic offer veterinary home visits in Lisbon?"
+      },
+      "a": {
+        "pt": "Sim, a equipa presta cuidados clínicos ao domicílio para maior comodidade dos tutores e animais.",
+        "en": "Yes, the team provides home veterinary visits for the convenience of pet guardians and animals."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

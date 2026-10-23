@@ -1,0 +1,144 @@
+{
+  "slug": "vetparque",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VetParque/data=!4m7!3m6!1s0xd1933a0e14a1c17:0xdb21422792da07a6!8m2!3d38.7570494!4d-9.149179!16s%2Fg%2F11b6dfg877!19sChIJFxxK4aAzGQ0RpgfakidCIbs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Equipa com opiniões fortemente polarizadas",
+        "en": "Veterinary team with divided reviews"
+      },
+      "text": {
+        "pt": "As avaliações relativas à equipa da VetParque mostram visões opostas. Clientes habituais elogiam o profissionalismo, a acessibilidade e o bom atendimento prestado ao longo do tempo. Em contrapartida, avaliações críticas apontam falta de sensibilidade, conselhos de maneio inadequados por parte de assistentes e escassa disponibilidade para esclarecimentos.",
+        "en": "Reviews concerning the VetParque team reveal starkly divided perspectives. Regular clients praise the professionalism, accessibility, and courteous service received over time. In contrast, negative reviews criticize a lack of empathy, inappropriate behavioral advice from support staff, and unresponsive communication when owners seek guidance."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Eficácia clínica com relatos contrastantes",
+        "en": "Clinical outcomes with mixed experiences"
+      },
+      "text": {
+        "pt": "No que respeita aos desfechos dos tratamentos, vários tutores descrevem um serviço satisfatório e consideram a clínica uma escolha de topo. No entanto, um cliente relata profunda preocupação com a prescrição precipitada de antibióticos e a intenção de vacinar um cachorro de três meses com sintomas gastrointestinais sem a realização prévia de exames.",
+        "en": "Regarding medical outcomes, several pet parents report satisfying treatments and consider the clinic a top-tier provider for routine health needs. Conversely, another owner expressed serious concern over antibiotic prescribing without diagnostic testing and plans to vaccinate an unwell three-month-old puppy before identifying underlying causes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Preocupações com manuseio de animais jovens",
+        "en": "Concerns over handling young pets"
+      },
+      "text": {
+        "pt": "O manuseio e o tato no trato dos animais recolhem críticas severas em relatos recentes. Donos de cachorros de pequeno porte queixam-se de receio infundado por parte do corpo clínico e de sugestões desadequadas de disciplina física, gerando desconfiança em tutores que procuram um acolhimento carinhoso e adaptado ao bem-estar e stresse do seu animal.",
+        "en": "Gentle handling and behavioral understanding receive notable criticism in recent testimonials. Owners of small-breed puppies complain about apparent fear from clinical staff during routine vaccines and inappropriate training suggestions, creating distrust among pet parents seeking a compassionate approach tailored to their companion's wellbeing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "Os preços das consultas na VetParque são acessíveis?",
+        "en": "Are consultation rates at VetParque considered accessible?"
+      },
+      "a": {
+        "pt": "Sim, os clientes mencionam preços justos e acessíveis nas consultas e cuidados regulares de saúde animal.",
+        "en": "Yes, clients highlight reasonable and affordable rates for routine check-ups and general pet healthcare."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A clínica tem bom ambiente para acolher animais?",
+        "en": "Is the clinic space welcoming for visiting pets?"
+      },
+      "a": {
+        "pt": "As avaliações positivas descrevem um espaço acolhedor e limpo, embora alguns tutores alertem para abordagens tensas no manuseio de cachorros assustados.",
+        "en": "Positive reviews describe a clean and welcoming facility, though some clients caution that handling fearful puppies could be gentler."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Como funciona o acompanhamento por mensagens ou WhatsApp?",
+        "en": "How responsive is post-visit support via WhatsApp?"
+      },
+      "a": {
+        "pt": "Existem queixas de mensagens sem resposta, pelo que os clientes recomendam o contacto telefónico direto para esclarecer dúvidas urgentes.",
+        "en": "Reviews report unanswered messaging attempts, suggesting direct phone calls are preferable for prompt medical clarification."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

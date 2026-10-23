@@ -1,0 +1,137 @@
+{
+  "slug": "vetolivais-centro-medico-veterinario",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetolivais+-+Centro+M%C3%A9dico+Veterin%C3%A1rio,+Lda/data=!4m7!3m6!1s0xd193165b4c1945f:0x39a1ecf15a1f2bdf!8m2!3d38.7758369!4d-9.1172827!16s%2Fg%2F1ptvs_dcf!19sChIJX5TBtGUxGQ0R3ysfWhHsoTk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Médico dedicado com abordagem quase pediátrica",
+        "en": "Dedicated veterinarian with pediatric touch"
+      },
+      "text": {
+        "pt": "O Dr. Pedro Alenquer reúne elogios calorosos pela sua dedicação, paciência e simpatia no acompanhamento clínico, sendo comparado por clientes satisfeitos a um verdadeiro pediatra para animais. Em contraste com este apreço unânime presencial, uma avaliação negativa aponta uma experiência telefónica desagradável marcada por um tom desatencioso.",
+        "en": "Dr. Pedro Alenquer receives warm praise for his personal dedication, gentle demeanor, and clinical expertise, with satisfied owners comparing his approach to that of a caring pediatrician. In contrast to these overwhelmingly positive in-person experiences, one review notes an unpleasant phone call marked by an unhelpful and dismissive attitude."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Tratamento carinhoso de cães e gatos",
+        "en": "Affectionate care for dogs and cats"
+      },
+      "text": {
+        "pt": "O carinho e a sensibilidade demonstrados para com os animais constituem a imagem de marca da clínica nos Olivais. Sejam cães enérgicos de tutores estrangeiros em trânsito ou cachorros e gatos debilitados, os animais são tratados com enorme respeito e afeto genuíno, fazendo com que as famílias sintam que os seus companheiros estão em excelentes mãos.",
+        "en": "Genuine affection and patience toward companion animals define the practice in Olivais. Whether handling excitable dogs belonging to travelers from abroad or fragile puppies and cats, animals are greeted with warmth and gentle care, reassuring pet parents that their beloved family members are in exceptionally capable and nurturing hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Sucesso no salvamento de animais frágeis",
+        "en": "Successful recovery of fragile pets"
+      },
+      "text": {
+        "pt": "Os tutores destacam recuperações clínicas notáveis alcançadas no centro médico. Entre os testemunhos, relata-se o salvamento de um cachorro Jack Russell gravemente subnutrido com apenas 700 gramas, bem como a recuperação bem-sucedida de felinos com complicações pós-cirúrgicas anteriores, comprovando o rigor e a eficácia das intervenções realizadas.",
+        "en": "Owners highlight remarkable clinical turnarounds achieved at this veterinary center. Testimonials include saving a critically underweight Jack Russell puppy weighing just 700 grams, as well as the successful recovery of cats suffering complications from previous procedures elsewhere, illustrating the thoroughness and efficacy of treatment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica atende tutores internacionais ou turistas em trânsito?",
+        "en": "Does the clinic welcome international pet owners or travelers?"
+      },
+      "a": {
+        "pt": "Sim, existem avaliações de clientes estrangeiros que conseguiram consulta no próprio dia e elogiam a simpatia e a comunicação em inglês do Dr. Pedro.",
+        "en": "Yes, international clients report securing same-day appointments and praise Dr. Pedro's welcoming approach and clear communication in English."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "É possível agendar consultas com rapidez?",
+        "en": "Is it possible to book appointments on short notice?"
+      },
+      "a": {
+        "pt": "Os tutores indicam boa disponibilidade e rapidez no agendamento para situações imprevistas de saúde animal.",
+        "en": "Pet owners note good scheduling flexibility and prompt accommodation for unexpected health concerns."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O centro trata cachorros muito jovens ou com baixo peso?",
+        "en": "Does the center manage very young or underweight puppies?"
+      },
+      "a": {
+        "pt": "Sim, os testemunhos confirmam acompanhamento bem-sucedido de cachorros pequenos em estado frágil e gatos com necessidades médicas especiais.",
+        "en": "Yes, testimonials confirm successful interventions for fragile, underweight puppies and cats with delicate medical requirements."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

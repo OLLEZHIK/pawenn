@@ -1,0 +1,203 @@
+{
+  "slug": "hospital-veterinario-de-lisboa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+Veterin%C3%A1rio+de+Lisboa/data=!4m7!3m6!1s0xd1932c54b30a193:0x33c51d0b56136916!8m2!3d38.7623139!4d-9.1776792!16s%2Fg%2F1thvzjxr!19sChIJk6EwS8UyGQ0RFmkTVgsdxTM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 12,
+      "title": {
+        "pt": "Atendimento e conduta da equipa",
+        "en": "Staff conduct and clinical care"
+      },
+      "text": {
+        "pt": "Embora alguns clientes mencionem médicos atenciosos e consultas pontuais tranquilas em Carnide, a maioria dos relatos recentes critica a indiferença da equipa, a falta de assistência perante sintomas de febre e a relutância em esclarecer dúvidas clínicas urgentes durante a permanência no hospital.",
+        "en": "While a few owners describe courteous medical staff during routine consultations in Carnide, recent feedback heavily criticizes staff indifference, dismissive reception in emergencies, and reluctance to address urgent clinical questions or verify animal conditions before discharging them home."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "pt": "Desfechos clínicos e cuidados pós-operatórios",
+        "en": "Clinical outcomes and postoperative care"
+      },
+      "text": {
+        "pt": "Poucos tutores relatam intervenções com sucesso e testes diagnósticos céleres. Em contrapartida, sucedem-se relatos graves de complicações após sedação, hipotermia severa em animais devolvidos após procedimentos de rotina e tratamentos que não evitaram desfechos fatais em doentes vulneráveis.",
+        "en": "A few reviewers report successful interventions and timely diagnostic exams. However, prominent negative reports describe severe postoperative complications, prolonged hypothermia after routine sedation, and treatments that failed to prevent critical declines in fragile animal patients."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "pt": "Falta de informação e transparência",
+        "en": "Communication lapses and transparency concerns"
+      },
+      "text": {
+        "pt": "Os tutores queixam-se da grande dificuldade em contactar as linhas telefónicas de apoio e de urgência do centro hospitalar. Há também fortes críticas pela recusa em fornecer relatórios de anestesia com dosagens e pela falta de atualizações sobre o estado dos animais internados nas instalações.",
+        "en": "Clients report significant difficulty reaching the clinic's phone lines, including the 24-hour emergency contact numbers. Several pet owners also raise sharp concerns about withheld anesthesia dosages, delayed medical summaries, and lack of timely updates regarding hospitalized companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O Hospital Veterinário de Lisboa dispõe de serviço de urgência 24 horas?",
+        "en": "Does Hospital Veterinário de Lisboa operate a 24-hour emergency service?"
+      },
+      "a": {
+        "pt": "Sim, o hospital em Carnide anuncia assistência veterinária permanente durante todos os dias do ano.",
+        "en": "Yes, the hospital in Carnide advertises 24/7 continuous veterinary emergency medical assistance."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Os relatórios clínicos e as dosagens de medicamentos são entregues aos tutores?",
+        "en": "Are clinical reports and medication dosages provided to pet owners?"
+      },
+      "a": {
+        "pt": "Alguns clientes relatam dificuldades na obtenção imediata de relatórios e registos detalhados de anestesia.",
+        "en": "Several reviewers report difficulty obtaining immediate medical records and detailed anesthesia logs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O centro hospitalar dispõe de serviço de apoio domiciliário?",
+        "en": "Does the veterinary hospital provide house call visits?"
+      },
+      "a": {
+        "pt": "Sim, a equipa disponibiliza consultas médicas e apoio veterinário no domicílio dos animais de companhia.",
+        "en": "Yes, the veterinary team offers house calls and home visits for companion animals across the area."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "results": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
