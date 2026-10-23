@@ -1,0 +1,198 @@
+{
+  "slug": "petbelo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetBelo/data=!4m7!3m6!1s0xd19336c4b4e6f69:0x98a473f56b3bd203!8m2!3d38.7176188!4d-9.1571182!16s%2Fg%2F11j86t5rch!19sChIJaW9OS2wzGQ0RA9I7a_VzpJg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 8,
+      "title": {
+        "pt": "Portas encerradas e cancelamentos inesperados",
+        "en": "Unannounced closures and sudden cancellations"
+      },
+      "text": {
+        "pt": "Vários clientes expressam insatisfação com o incumprimento do horário anunciado no Campo de Ourique, encontrando o espaço fechado durante o dia de funcionamento. Há relatos frequentes de viagens em vão para recolha de encomendas e de desmarcações de serviços em cima da hora marcada.",
+        "en": "Multiple customers express frustration with unannounced shop closures during posted business hours in Campo de Ourique. Several visitors report wasted trips when attempting to pick up parcels, alongside last-minute cancellations of pet grooming appointments without reasonable warning."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "pt": "Falta de resposta e avisos tardios",
+        "en": "Unanswered calls and late notifications"
+      },
+      "text": {
+        "pt": "Os utilizadores queixam-se da dificuldade em contactar a loja por telefone e da ausência de resposta quando procuram esclarecer reservas. Foram também assinaladas falhas na confirmação da disponibilidade na plataforma online, levando a cancelamentos tardios após aceitação inicial.",
+        "en": "Users report difficulties reaching the store by phone and note that inquiries often go unanswered during working hours. Several reviewers also highlight discrepancies in the online booking platform, where initially confirmed appointments were subsequently cancelled without alternative options."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "pt": "Avaliações críticas ao atendimento recente",
+        "en": "Critical feedback regarding service handling"
+      },
+      "text": {
+        "pt": "Embora clientes antigos recordem experiências positivas no banho canino, a maioria dos comentários recentes aponta para inexperiência e falta de supervisão no serviço. Os tutores lamentam o tratamento desatento de felinos estressados e a falta de soluções perante imprevistos na loja.",
+        "en": "Although regular visitors recall positive experiences with dog baths, most recent feedback criticizes inexperience and insufficient staff supervision. Pet owners report inadequate handling of stressed cats and a lack of empathy or constructive solutions when addressing service failures."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A loja funciona como ponto de recolha de encomendas?",
+        "en": "Does the store operate as a parcel pickup point?"
+      },
+      "a": {
+        "pt": "Sim, serve de ponto de recolha, mas os clientes aconselham a confirmar a abertura antes da deslocação.",
+        "en": "Yes, it serves as a parcel point, though reviewers advise confirming store opening before visiting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "É possível encomendar rações com entrega ao domicílio?",
+        "en": "Can pet food be ordered for home delivery?"
+      },
+      "a": {
+        "pt": "Sim, a PetBelo disponibiliza entregas ao domicílio para encomendas realizadas na sua loja online.",
+        "en": "Yes, PetBelo offers home delivery services for purchases placed through its online shop."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O espaço realiza serviços de tosquia e banhos para gatos?",
+        "en": "Does the salon offer grooming and bathing for cats?"
+      },
+      "a": {
+        "pt": "O salão anuncia banhos, mas vários tutores relatam dificuldades no atendimento a felinos sensíveis.",
+        "en": "The salon lists bathing, but multiple cat owners report challenges with handling sensitive felines."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
