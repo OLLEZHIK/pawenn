@@ -1,0 +1,109 @@
+{
+  "slug": "kudo-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kudo+Animal+Hospital/data=!4m7!3m6!1s0x6018f2ce90392f15:0x4776b6578b36920a!8m2!3d35.7023556!4d139.6852852!16s%2Fg%2F1tx4pd8s!19sChIJFS85kM7yGGARCpI2i1e2dkc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "医師の診療姿勢に対する賛否",
+        "en": "Contrasting perceptions of veterinary staff"
+      },
+      "text": {
+        "ja": "獣医師の診療姿勢や看護師の献身的なサポートについては、利用者の間で評価が大きく二極化しています。長年の眼科治療における確かな指導力や看護スタッフの誠実な対応によって愛犬が救われたと深く感謝する飼い主がいる一方で、高齢動物への投薬や保定方法を巡って不信感を抱いたという深刻な批判も記録されています。診察室での医師同士のやり取りや接遇に対して冷たさを感じたという指摘もあり、信頼を寄せる長年のファンと強い不満を抱いた利用者の双方が存在します。受診にあたっては医師との十分な意思疎通が不可欠であると広く認識されています。",
+        "en": "Reviewer assessments regarding the medical team remain sharply polarized between long-term clients and distressed visitors. Some owners commend the senior veterinarian's authoritative guidance and attentive nursing assistance, crediting the clinic with saving their pets. Conversely, critical accounts describe perceived insensitivity, harsh physical restraint during procedures, and tense verbal exchanges between doctors."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "処置結果と重篤な容態変化",
+        "en": "Critical complications and disputed clinical results"
+      },
+      "text": {
+        "ja": "治療結果に関しては、重大な医療トラブルや急激な容態悪化を経験した飼い主からの厳しい意見が目立ちます。眼科の専門性を期待して受診したものの、検査時の処置や投薬をきっかけに体調が急変して愛犬を亡くしたという悲痛な報告が複数寄せられています。重症例において回復につながったとする肯定的な評価も一部で見られるものの、直近のレビューでは処置後の合併症や対応への疑問が強く示されています。専門的な医療処置を伴う場面では、リスクに関する慎重な確認と経過観察に対する意識の共有が強く求められているのが実情として指摘されています。",
+        "en": "Feedback on clinical outcomes reflects serious concerns from guardians whose elderly dogs suffered severe physical setbacks following invasive examinations. Bereaved owners report sudden health deterioration after medications or procedural complications during specialized eye treatments, expressing grief over pet losses. While isolated reviews note positive medical interventions, recent entries predominantly highlight disputed diagnoses."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "眼科や皮膚科の専門診療を行っていますか？",
+        "en": "Does the hospital specialize in ophthalmology and dermatology?"
+      },
+      "a": {
+        "ja": "はい、眼科および皮膚科分野で長い実績を持つ獣医師が在籍し、専門的な診察を行っています。",
+        "en": "Yes, the clinic provides specialized examinations in veterinary ophthalmology and dermatology with long-standing practice."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "救急受診や予約なしでの来院は可能ですか？",
+        "en": "Are emergency visits or walk-ins accepted?"
+      },
+      "a": {
+        "ja": "事前予約が基本となりますが、急患や症状に応じた相談については電話での確認が推奨されます。",
+        "en": "Appointments are generally preferred, and pet owners are advised to call in advance regarding urgent conditions."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "ja": "駐車場は用意されていますか？",
+        "en": "Is parking available at the clinic?"
+      },
+      "a": {
+        "ja": "病院近隣に駐車スペースがありますが、台数が限られているため公共交通機関または近隣コインパーキングの利用も検討されます。",
+        "en": "Limited parking space is available near the facility, but utilizing public transit or nearby coin parking is advisable."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

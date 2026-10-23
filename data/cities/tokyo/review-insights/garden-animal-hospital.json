@@ -1,0 +1,136 @@
+{
+  "slug": "garden-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Garden+Animal+Hospital/data=!4m7!3m6!1s0x60188b3bc5c15d35:0x90dd3ef5d915b879!8m2!3d35.6369477!4d139.7067336!16s%2Fg%2F1tfzrxjl!19sChIJNV3BxTuLGGARebgV2fU-3ZA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "院長の診察態度と共感姿勢に対する厳しい批判",
+        "en": "Critical reviews on bedside manner and empathy"
+      },
+      "text": {
+        "ja": "目黒区目黒にある当院では、院長をはじめとする獣医師の対応姿勢に対して複数の利用者から厳しい評価が寄せられています。病院の雰囲気や清潔感を肯定的に捉える意見があるものの、深刻な病状を抱えたペットの家族に対して高圧的で配慮に欠ける発言があったとの投稿が目立ちます。重病の猫の治療において飼い主様の不安に寄り添う共感が感じられず、深く傷ついたという体験談が記録されています。高額な設備を備えた総合病院であるからこそ、命と向き合う温かな診察態度が強く求められており、接遇の改善が望まれています。 飼い主の気持ちに寄り添った丁寧なコミュニケーションが望まれます。",
+        "en": "Visitors in Meguro express serious reservations regarding the bedside manner of the veterinary director. While the facility itself is acknowledged as clean, several clients felt that doctors exhibited condescending attitudes without empathy toward distressed pet owners facing critical diagnoses."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "診断方針の不透明さと治療結果への不満",
+        "en": "Uncertain diagnostics and disputed medical outcomes"
+      },
+      "text": {
+        "ja": "検査結果に対する説明や治療方針の立案に関して、利用者の間で不信感が生じた事例が報告されています。高齢の猫が嘔吐や食欲不振に陥った際、原因を特定できぬまま経過観察が続き、他院へ転院して初めてホルモン異常が判明したという詳細な体験談が寄せられています。また、手術後の経過について後悔と悲しみを滲ませる声も見られます。一般的な健康診断や軽微な症状には問題なく対応できる設備があるものの、高度な診断や重症例への対応力に疑問を呈する声が上がっており、適切な治療計画が切望されています。 検査方針や今後の見通しについての十分な対話が求められています。",
+        "en": "Reviews document dissatisfaction with diagnostic planning and therapeutic conclusions. In one case, unresolved vomiting in an elderly cat saw repeated vague follow-ups until another hospital identified a hormonal disorder. Such outcomes prompt clients to question complex internal medicine handling."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "診察計画の説明不足と配慮に欠ける言葉遣い",
+        "en": "Communication gaps and harsh clinical remarks"
+      },
+      "text": {
+        "ja": "獣医師からの説明不足や不適切な表現に対する不満が相次いでいます。予約システムを利用して来院したにもかかわらず呼出順序の説明がなく長時間待たされたり、処方薬の提供頻度に関して忙しい通院者への配慮が欠けていると指摘されています。さらに、病状の説明において家族を傷つけるような乱暴な表現が用いられたことへのショックを綴る飼い主様も存在します。大切なペットを任せる上で、より丁寧で心に届く対話体制の確立が切望されており、飼い主との十分なコミュニケーションが求められています。 家族への配慮ある言葉遣いと明確な説明体制が切望されています。",
+        "en": "Clients highlight recurring communication shortcomings and insensitive phrasing during consultations. Long unexplained waits despite LINE appointments and rigid medication dispensing caused frustration. Harsh descriptions of pet conditions further damaged owner confidence during vulnerable moments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "LINE予約後の待ち時間や呼出状況はどうですか？",
+        "en": "What are the wait times after scheduling via LINE?"
+      },
+      "a": {
+        "ja": "予約後でも混雑や診察状況によって長時間待たされる場合があると口コミで指摘されています。",
+        "en": "Reviewers note that long wait times can occur despite prior appointments via LINE."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "犬と猫で待合室は分かれていますか？",
+        "en": "Are there separate waiting rooms for dogs and cats?"
+      },
+      "a": {
+        "ja": "はい、犬と猫で待合室が分離されており、院内の設備環境は清潔に整えられています。",
+        "en": "Yes, the hospital provides segregated waiting spaces for dogs and cats in a clean facility."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "重篤な疾患やセカンドオピニオン受診時の注意点はありますか？",
+        "en": "What should owners consider for complex medical cases?"
+      },
+      "a": {
+        "ja": "診断方針や治療計画について納得できるまで詳しく説明を求めることが推奨されています。",
+        "en": "Clients advise asking thorough questions to ensure mutual clarity on treatment plans."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "place": "+",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
