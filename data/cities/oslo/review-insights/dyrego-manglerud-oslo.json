@@ -1,0 +1,134 @@
+{
+  "slug": "dyrego-manglerud-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dyrego/data=!4m7!3m6!1s0x46416f0fbd4b5c9b:0x49975d0796f90538!8m2!3d59.897408!4d10.8136793!16s%2Fg%2F1tmptktr!19sChIJm1xLvQ9vQUYROAX5lgddl0k?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Small pet selection with divided feedback",
+        "no": "Utvalg av smådyr med delt tilbakemelding"
+      },
+      "text": {
+        "en": "Customers appreciate finding healthy aquarium fish, aquatic plants, and small rodents that are rarely stocked elsewhere in Oslo. Aquarists praise the live stock quality, though one pet buyer reported serious dissatisfaction regarding unexpected animal health issues.",
+        "no": "Kunder setter pris på å finne akvariefisk, planter og smågnagere som ellers er vanskelige å oppdrive i Oslo. Akvarister roser utvalget av levende fisk, selv om en enkelt kjøper uttrykte sterk misnøye knyttet til uforutsette helseproblemer hos et kjøpt kjæledyr."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Tidy shop with rich aquarium section",
+        "no": "Ryddig butikk med rikholdig akvarieavdeling"
+      },
+      "text": {
+        "en": "Reviewers describe the shop at Manglerud Senter as clean, well-structured, and packed with equipment for all domestic pets. Aquarium enthusiasts in particular consider it an indispensable local hub for technical gear, balanced water treatments, and frozen feeds.",
+        "no": "Anmeldere beskriver forretningen på Manglerud Senter som en ryddig og innholdsrik dyrebutikk med godt utstyr til alle kjæledyr. Særlig akvarieentusiaster fremhever butikken som en uunnværlig destinasjon for tekniske artikler, vannkjemi og frossenfôr i Oslo."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Engaged staff with aquarium expertise",
+        "no": "Engasjerte ansatte med solid fagkunnskap"
+      },
+      "text": {
+        "en": "Pet guardians highlight the pleasant and knowledgeable guidance provided by the store team. Visitors specifically commend the aquarium department staff for their genuine enthusiasm and detailed advice on fish species compatibility, feeding habits, and plant care.",
+        "no": "Dyreiere fremhever den hyggelige og kunnskapsrike veiledningen fra butikkens medarbeidere. Kunder skryter spesielt av de ansatte i akvarieavdelingen for ekte engasjement og gode faglige råd om fiskehelse, fôringsvaner og stell av levende akvarieplanter."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Dyrego Manglerud located?",
+        "no": "Hvor ligger Dyrego Manglerud?"
+      },
+      "a": {
+        "en": "The store is located at Manglerud Senter, Plogveien 6 in Oslo, with mall parking available.",
+        "no": "Butikken ligger på Manglerud Senter i Plogveien 6 i Oslo, med gode parkeringsmuligheter."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do they sell live fish and aquarium accessories?",
+        "no": "Fører butikken levende akvariefisk og tilbehør?"
+      },
+      "a": {
+        "en": "Yes, customers highlight an extensive aquarium department with fish, plants, and equipment.",
+        "no": "Ja, kunder fremhever en stor akvarieavdeling med levende fisk, vannplanter og teknisk utstyr."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What pet supplies are stocked in the shop?",
+        "no": "Hva slags utstyr finnes til andre kjæledyr?"
+      },
+      "a": {
+        "en": "The store provides food and essentials for dogs, cats, rodents, and birds.",
+        "no": "Butikken fører fôr, godbiter og utstyr til både hund, katt, smågnagere og fugler."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
