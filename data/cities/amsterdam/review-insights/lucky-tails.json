@@ -1,0 +1,134 @@
+{
+  "slug": "lucky-tails",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+Tails%F0%9F%90%A9/data=!4m7!3m6!1s0x47c609b2b43de691:0xfa66d1e538c12ba2!8m2!3d52.3630871!4d4.8923868!16s%2Fg%2F11p5jgpsvs!19sChIJkeY9tLIJxkcRoivBOOXRZvo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Consistent and precise coat grooming",
+        "nl": "Nauwkeurige en consistente vachtverzorging"
+      },
+      "text": {
+        "nl": "Klanten benadrukken dat het trimresultaat bij Lucky Tails aan de Vijzelstraat altijd aan de verwachtingen voldoet. Honden van uiteenlopende rassen en groottes verlaten de salon met een schone, keurig gemodelleerde vacht die precies volgens wens is geknipt.",
+        "en": "Clients emphasize that the grooming outcomes at Lucky Tails on Vijzelstraat consistently match expectations. Dogs of diverse coat types and sizes leave the parlour with a spotless, neatly trimmed coat styled exactly according to the guardian's wishes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle approach for sensitive dogs",
+        "nl": "Zachte benadering voor gevoelige honden"
+      },
+      "text": {
+        "nl": "Baasjes van nerveuze of lastig hanteerbare viervoeters reizen speciaal naar deze salon vanwege de kalme omgang. Het personeel weet hoe zij gevoelige dieren geruststellen, waardoor honden die elders spanning ervaren hier rustig de trimbehandeling ondergaan.",
+        "en": "Owners of nervous or difficult-to-handle dogs travel from outside the area because of the calm environment. Staff members know how to put sensitive animals at ease, allowing dogs prone to stress during grooming to experience comfortable, safe appointments."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient and welcoming parlour team",
+        "nl": "Geduldig en gastvrij salonteam"
+      },
+      "text": {
+        "nl": "Het team wordt door vaste bezoekers omschreven als hartelijk, professioneel en uitzonderlijk vriendelijk. De trimsters nemen rustig de tijd om de wensen van het baasje door te spreken en tonen oprechte genegenheid voor elke hond die op de trimtafel staat.",
+        "en": "The team is described by regular visitors as warm, professional, and exceptionally friendly. The groomers take time to discuss styling preferences thoroughly with owners, showing genuine care and affection for every dog resting on their grooming table."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do the groomers accept large or challenging dog breeds?",
+        "nl": "Zijn grote of lastige hondenrassen welkom in de salon?"
+      },
+      "a": {
+        "en": "Yes, reviews confirm that the salon regularly grooms very large dogs and handles sensitive breeds with care.",
+        "nl": "Ja, recensies bevestigen dat zeer grote honden en gevoelige rassen met veel geduld worden verzorgd."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs trimmed according to owner specifications?",
+        "nl": "Wordt er geknipt volgens de wensen van de eigenaar?"
+      },
+      "a": {
+        "en": "Yes, clients frequently note that dogs are groomed precisely as requested, including specialized cuts.",
+        "nl": "Ja, klanten geven aan dat de trimsters nauwgezet rekening houden met specifieke model- en knipwensen."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the grooming parlour located in Amsterdam?",
+        "nl": "Waar is de trimsalon gevestigd in Amsterdam?"
+      },
+      "a": {
+        "en": "Lucky Tails is centrally located on Vijzelstraat in Amsterdam, easily accessible by public transit.",
+        "nl": "Lucky Tails bevindt zich centraal aan de Vijzelstraat in Amsterdam en is goed bereikbaar."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
