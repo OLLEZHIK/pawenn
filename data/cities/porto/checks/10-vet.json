@@ -11,7 +11,7 @@
     "zu-veterinary-office-and-petshop",
     "invet-medicina-veterinaria-integrativa"
   ],
-  "hash": "63c06259e60e6bb6494da0906c2670782765d6fe60f7b168c635e9dbf6c5f9e3",
+  "hash": "da917a598ca1bf55bfb4c7ea2c3c3b23dd313de9b2f9c36dedaaf312645a7504",
   "result": "PASS",
   "history": [
     {
@@ -31,6 +31,21 @@
     },
     {
       "at": "2026-10-19T18:53:49.385Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T06:07:28.544Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-23T06:09:55.471Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-23T06:11:09.599Z",
       "result": "PASS",
       "listed": 0
     }
