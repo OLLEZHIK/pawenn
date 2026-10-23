@@ -1,0 +1,30 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "hospital-veterinario-municipal-cao-orelha-zona-leste",
+    "hovet-hospital-veterinario-sao-paulo",
+    "vvet-consultorio-veterinario",
+    "vet-domus-centro-veterinario",
+    "paulistano-hospital-veterinario-mooca",
+    "centro-veterinario-vila-mariana",
+    "hospital-veterinario-vet-popular-tucuruvi",
+    "hospital-veterinario-santana-wevets",
+    "vet-quality-hospital-veterinario-24h",
+    "hospital-veterinario-vet-popular-vila-carrao"
+  ],
+  "hash": "de72e3b7a07df5267f9a381b5729712c4c2a6f04f8ca241d279377b988bbf1cc",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T23:05:01.403Z",
+      "result": "FAIL",
+      "listed": 29
+    },
+    {
+      "at": "2026-10-23T23:05:18.078Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
