@@ -1,6 +1,24 @@
 business_slug,price_code,weight_from_kg,weight_to_kg,price_from,price_to,currency,source_url,observed_at,notes,unit,partial,note,note_local
 shuncu-vet,exam,,,500,500,MXN,https://shuncuvet.com/servicios/,2026-10-22,Consulta normal $500 de 9:00 a 18:00 hrs.,,,daytime consultation 09:00-18:00,consulta diurna 09:00-18:00
 veterinary-specialty-hospital-in-small-species,exam,,,500,500,MXN,https://fmvz.unam.mx/fmvz/servicios/s_pequenas.html,2026-10-22,Consultas de Especialidades $500,,,specialty consultation,consulta de especialidad
+pet-paws-mexico,full_groom,0,10,230,260,MXN,https://petpaws.mx/precios/,2026-10-22,Chico $230 – $260,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,full_groom,10,23,260,290,MXN,https://petpaws.mx/precios/,2026-10-22,Mediano $260 – $290,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,full_groom,24,40,300,350,MXN,https://petpaws.mx/precios/,2026-10-22,Grande $300 – $350,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,full_groom,40,,400,450,MXN,https://petpaws.mx/precios/,2026-10-22,Gigante $400 – $450,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,bath_dry,0,10,180,210,MXN,https://petpaws.mx/precios/,2026-10-22,Chico $180 – $210,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,bath_dry,10,23,220,250,MXN,https://petpaws.mx/precios/,2026-10-22,Mediano $220 – $250*,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,bath_dry,24,40,260,300,MXN,https://petpaws.mx/precios/,2026-10-22,Grande $260 – $300,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,bath_dry,40,,300,350,MXN,https://petpaws.mx/precios/,2026-10-22,Gigante $300 – $350,,,short to long coat,pelo corto a pelo largo
+pet-paws-mexico,nail_trim,,,50,50,MXN,https://petpaws.mx/precios/,2026-10-22,Corte de uñas $50,,,,
+pet-paws-mexico,cat_groom,,,260,260,MXN,https://petpaws.mx/precios/,2026-10-22,Bañado y secado $260,,,bath and dry,bañado y secado
+pet-paws-mexico,cat_groom,,,350,350,MXN,https://petpaws.mx/precios/,2026-10-22,Corte de pelo o deslanado $350,,,styling cut or deshedding,corte de pelo o deslanado
+barbacan-spa-lago-alberto,bath_dry,,,325,,MXN,https://barbacan.mx/servicios/,2026-10-22,Grooming y Estética Canina Sin Jaulas | Desde $325 | Barbacan,,yes,"aromatherapy bath, ears and nails","baño aromaterapia, oídos y uñas"
+llaos-pet-roma,bath_dry,,,290,,MXN,https://llaospet.com/servicios.html,2026-10-22,SIN CORTE CON CORTE O DESLANE MINI $290,,yes,mini size,talla mini
+llaos-pet-roma,full_groom,,,430,,MXN,https://llaospet.com/servicios.html,2026-10-22,$430 Aprox 1:30hr,,yes,mini size,talla mini
+llaos-pet-condesa,bath_dry,,,290,,MXN,https://www.llaospet.com/servicios.html,2026-10-22,SIN CORTE CON CORTE O DESLANE MINI $290,,yes,mini size,talla mini
+llaos-pet-condesa,full_groom,,,430,,MXN,https://www.llaospet.com/servicios.html,2026-10-22,$430 Aprox 1:30hr,,yes,mini size,talla mini
+indy-dogs-venustiano-carranza,bath_dry,,,160,,MXN,https://indydogsglam.com/,2026-10-22,Desde $160.00,,yes,bath and dry,baño y secado
+indy-dogs-venustiano-carranza,full_groom,,,200,,MXN,https://indydogsglam.com/,2026-10-22,Desde $200.00,,yes,styling cut,corte estilizado
 doggies-haus,daycare_day,,,350,350,MXN,https://www.doggieshaus.com/guarder%C3%ADa-canina,2026-10-22,Guardería por día,,,,
 hotel-canino-y-guarderia-adi-pata-de-perro,dog_night,,18,370,370,MXN,https://adipatadeperro.wixsite.com/hotelparaperros,2026-10-22,1 Perro max 18 kilos 24 hrs,,,,
 casa-canino,dog_night,,,380,380,MXN,https://casacanino.com/servicios,2026-10-22,Noche de hotel temporada baja,,,,
