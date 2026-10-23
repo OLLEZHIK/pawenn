@@ -1,0 +1,104 @@
+{
+  "slug": "forester-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Forester+Animal+Hospital/data=!4m7!3m6!1s0x60188d4b059e5d37:0x5090e640f902b2eb!8m2!3d35.640817!4d139.684858!16s%2Fg%2F1tfh4nc7!19sChIJN12eBUuNGGAR67IC-UDmkFA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "丁寧で分かりやすい説明と極端な低評価の対比",
+        "en": "Clear medical guidance alongside isolated sharp criticism"
+      },
+      "text": {
+        "ja": "世田谷区下馬にあるフォレスター動物病院では、初診時でも礼儀正しく分かりやすい説明を行ってくれる獣医師の対応を評価する声が寄せられています。動物の状態について納得いくまで丁寧に解説し、安心して治療を任せられる専門家として親しまれています。一方で、獣医師の診療態度に対して極めて厳しい不満を露わにする単発の極端な低評価も記録されています。概ね誠実で質の高い診療が提供されていると支持される反面、診察時の受け止め方には一部で強い温度差が存在しています。丁寧な指導を評価する意見と批判的な声が併存しています。",
+        "en": "In Setagaya City, pet owners appreciate the polite manner and accessible medical counseling provided during initial consultations at Forester Animal Hospital. Guardians describe the attending veterinary team as knowledgeable, competent, and willing to explain therapeutic steps with clarity. Conversely, the clinic has also received sharp criticism from an unsatisfied reviewer expressing strong personal grievances."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "ja": "犬の外科処置から小動物まで配慮された診察",
+        "en": "Skilled surgical dental care and small animal support"
+      },
+      "text": {
+        "ja": "犬の専門的な歯科外科手術において、迅速かつ正確な処置を行ってくれたという具体的な治療実績が称賛されています。他院で長期の予約待ちや高額な見積もりを出された処置に対しても、良心的な費用で素早く対応してくれたと高く評価されています。さらに犬だけでなく小動物の診療にも快く対応しており、それぞれの動物に合わせた丁寧な扱いが好評を得ています。動物の苦痛を長引かせない手際の良さと親切な姿勢が、近隣の飼い主様から確かな信頼を集める要因となっています。迅速な外科処置と良心的な価格設定が、多くの飼い主様から高く評価されています。",
+        "en": "Pet guardians highlight the clinic prompt and precise surgical capabilities, particularly when performing canine dental procedures that required urgent intervention. Where other hospitals demanded lengthy waiting periods and exorbitant quotes, this practice delivered swift treatment at a fair fee. Furthermore, veterinarians comfortably accommodate smaller companion animals, handling each patient with calm consideration."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "犬や猫以外の小動物も診てもらえますか？",
+        "en": "Are small pets other than dogs and cats examined?"
+      },
+      "a": {
+        "ja": "はい、犬だけでなく小動物の診療にも丁寧かつ分かりやすく対応してもらえたと評価されています。",
+        "en": "Yes, clients confirm that veterinary staff treat small companion animals with thorough care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "歯科手術などの外科処置は迅速に対応してもらえますか？",
+        "en": "Are surgical and dental procedures performed promptly?"
+      },
+      "a": {
+        "ja": "はい、犬の歯の外科処置などを他院より手早く、良心的な費用で行ってもらえた実績があります。",
+        "en": "Yes, pet owners report rapid canine dental surgery completed without long delays at fair rates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "初診時の診察や説明は分かりやすいですか？",
+        "en": "Are explanations clear during first-time visits?"
+      },
+      "a": {
+        "ja": "初診でも分かりやすい説明を受けられたと好評ですが、接遇に関して厳しい評価の声もあります。",
+        "en": "While newcomers praise clear consultations, isolated feedback sharply criticizes staff attitude."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

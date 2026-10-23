@@ -1,0 +1,161 @@
+{
+  "slug": "otakibashi-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Otakibashi+Animal+Clinic/data=!4m7!3m6!1s0x60188ddb0ece214d:0x7d656cba5537bd57!8m2!3d35.70897!4d139.6942985!16s%2Fg%2F11j00byqsx!19sChIJTSHODtuNGGARV703VbpsZX0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "ja": "親切で丁寧な医療スタッフの対応",
+        "en": "Polite and caring veterinary professionals"
+      },
+      "text": {
+        "ja": "獣医師や動物看護師の丁寧で温かみのある対応に対して、多くの飼い主から高い評価が寄せられています。診察時にこちらの話を親身に聞いてくれる姿勢や、不安を抱える飼い主に対して笑顔で優しく声をかけてくれた看護師の対応に救われたという感謝の声が目立ちます。複数名の医師と看護師が常駐しており、年中無休で診療を行っている安心感も支持されています。日頃のちょっとした相談から手術まで、誠実に向き合ってくれる姿勢が信頼されています。動物と飼い主の双方に寄り添う細やかな気配りが、利用者の間で全体的に好評を博しています。",
+        "en": "The hospital veterinary team and nursing staff receive widespread praise for their courteous, empathetic manner. Pet owners frequently mention that doctors listen attentively to their concerns and provide reassuring guidance. Individual nurses are commended for approaching anxious owners with comforting smiles and answers, offering dedicated year-round care."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "待合スペースの狭さと駐車設備の制約",
+        "en": "Cramped waiting area and limited parking options"
+      },
+      "text": {
+        "ja": "院内設備や待合室の環境については、改善を望む声が複数寄せられています。建物自体の老朽化や待合スペースが手狭である点に加え、飼い主用のトイレが設置されていないことに不便を感じる利用者が目立ちます。また、専用駐車場が1台分のみで近隣にも提携コインパーキングが少ないため、車での来院時に苦労したという指摘があります。待ち時間が長引く場合もあることから、より快適で清潔感のある待合環境の整備が求められています。長時間の待ち時間でも落ち着いて過ごせるよう、待合室の快適化や設備面の更新が期待されているところです。",
+        "en": "Physical facility limitations are a recurring subject of criticism in customer reviews. Clients frequently point out that the waiting room is cramped and that the aging premises lack a dedicated restroom for visitors. Furthermore, parking availability is restricted to a single on-site space, leaving owners hoping for facility upgrades to enhance comfort."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "双方向の対話と医師間の情報共有",
+        "en": "Two-way dialogue alongside rotation handovers"
+      },
+      "text": {
+        "ja": "診察室内での双方向のコミュニケーションを重視し、飼い主が納得できるまで丁寧に説明してくれる姿勢は高く評価されています。一方で、グループ系列院との医師のローテーション勤務に伴い、受診日によって担当医が異なることや、医師や看護師の間での情報共有が不十分に感じられたとする意見もあります。常に信頼できる主治医に診てもらいたいという希望や、電子カルテ等を活用した引き継ぎの徹底を望む声が寄せられています。患者のカルテや治療経過を正確に共有し、継続的で一貫した医療連携が大切にされている信頼される動物病院としての重要な姿勢です。",
+        "en": "Communication standards draw mixed reviews depending on doctor consistency. While pet guardians praise the thorough, two-way dialogue maintained during consultations, complications arise from rotation schedules across affiliated branches. Reviewers note that seeing different doctors can lead to perceived gaps in record sharing, advocating for seamless handover systems."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "年中無休で診療を受け付けていますか？",
+        "en": "Is the clinic open every day throughout the year?"
+      },
+      "a": {
+        "ja": "はい、当院は年中無休（365日）で診療を行っており、土日や祝日でも一般診療や救急対応を行っているため安心です。",
+        "en": "Yes, the clinic operates 365 days a year without scheduled closing days, providing dependable medical care on weekends and holidays."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "車で来院する場合、駐車場はありますか？",
+        "en": "Is dedicated parking available for clients driving to the clinic?"
+      },
+      "a": {
+        "ja": "敷地内に1台分の駐車スペースがありますが、満車時は近隣の路上パーキングメーターなどを利用する必要があります。",
+        "en": "The clinic has one on-site parking spot available; when occupied, visitors must rely on nearby metered street parking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "同じ担当医に継続して診てもらうことは可能ですか？",
+        "en": "Can pets be seen consistently by the same veterinarian?"
+      },
+      "a": {
+        "ja": "医師が系列病院とシフト勤務している場合があるため、特定の獣医師の診察を希望する際は勤務曜日の事前確認と予約が推奨されます。",
+        "en": "Because some veterinarians rotate between affiliated branch clinics, pet owners wishing to see a specific doctor should check their weekly schedule and book ahead."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "place": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

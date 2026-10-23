@@ -1,0 +1,27 @@
+{
+  "chunk": "45-shop",
+  "kind": "places",
+  "slugs": [
+    "dog-dept-odaiba-tokyo-beach",
+    "ilio-lalaport-toyosu"
+  ],
+  "hash": "a29a78ac8fadb607710ae37dc133f3248bf77763fd9c067585b7ed42a52bd5e2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T16:19:16.971Z",
+      "result": "FAIL",
+      "listed": 27
+    },
+    {
+      "at": "2026-10-20T16:21:30.046Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-20T16:25:00.957Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

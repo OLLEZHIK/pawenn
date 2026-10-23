@@ -1,0 +1,44 @@
+{
+  "chunk": "15-vet",
+  "kind": "places",
+  "slugs": [
+    "sasazuka-animal-clinic",
+    "animal-eye-care-abe-animal-clinic",
+    "ariake-animal-clinic",
+    "musashikoyama-animal-hospital",
+    "hiro-animal-hospital",
+    "dobutsuiryo-center-shiba-park-animal-clinic",
+    "tokky-animal-hospital",
+    "ushigome-dog-cat-clinic",
+    "jua-animal-clinic"
+  ],
+  "hash": "9306416e11afe33c6137564d562c51abe07f64d28abdc5cc5d77550678ba1d8a",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T20:19:53.484Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-22T20:21:27.607Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-22T20:25:20.087Z",
+      "result": "FAIL",
+      "listed": 43
+    },
+    {
+      "at": "2026-10-22T20:26:41.820Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-22T20:27:39.476Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

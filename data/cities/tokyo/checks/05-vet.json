@@ -1,0 +1,34 @@
+{
+  "chunk": "05-vet",
+  "kind": "places",
+  "slugs": [
+    "higashi-tokyo-night-animal-emergency-medical-center",
+    "animal-medical-center-motoazabu",
+    "selene-animal-clinic",
+    "tokyo-feline-medical-center",
+    "morishita-bird-clinic",
+    "akasaka-animal-hospital",
+    "one-animal-orthopedic-center-tokyo",
+    "denenchofu-animal-clinic",
+    "veterinary-ogikubo-momoi"
+  ],
+  "hash": "ebca7b44db2898a81bdb23f5db887d06ed56c8a465c1b704c9c21efe08614ef4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T10:19:34.788Z",
+      "result": "FAIL",
+      "listed": 47
+    },
+    {
+      "at": "2026-10-18T10:25:22.215Z",
+      "result": "FAIL",
+      "listed": 38
+    },
+    {
+      "at": "2026-10-18T10:28:20.075Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

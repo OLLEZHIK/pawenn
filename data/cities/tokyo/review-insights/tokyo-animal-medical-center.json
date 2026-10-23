@@ -1,0 +1,154 @@
+{
+  "slug": "tokyo-animal-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tokyo+Animal+Medical+Center/data=!4m7!3m6!1s0x6018ee10ad0e031d:0xc9cdcf6242cab4f7!8m2!3d35.6999633!4d139.5943193!16s%2Fg%2F1thtpmqp!19sChIJHQMOrRDuGGAR97TKQmLPzck?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "ja": "専門医の連携とスタッフ対応への批判",
+        "en": "Specialist teamwork overshadowed by service criticisms"
+      },
+      "text": {
+        "ja": "杉並区松庵の総合動物病院として、腫瘍科や皮膚科など複数診療科の専門医による連携診療や深夜の救急対応に対して長年の信頼を寄せる飼い主がいます。一方で、近年はスタッフの連携不足や診察時の説明不足、ドナー犬に対する不誠実な対応に対する厳しい批判が相次いでいます。予約したにもかかわらず長時間放置された事例や、医師の態度に冷たさを感じたという指摘が複数寄せられており、高評価と低評価が激しく二極化しています。かつての信頼性を評価する声がある反面、接遇や病院組織の対応改善を強く求める意見が上回っています。体制の見直しが望まれています。",
+        "en": "As a large animal medical center in Suginami City, the hospital retains loyal clients who praise its multi-specialty coordination across oncology and dermatology, alongside emergency care. However, several recent reviews voice sharp criticisms regarding poor internal coordination, lack of empathy, and curt communication during donor dog screenings. Unexplained delays and perceived disinterest have caused dissatisfaction among visitors."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "高度医療の実績と術後経過への不満",
+        "en": "Advanced medical care with surgical complaints"
+      },
+      "text": {
+        "ja": "夜間救急での迅速な救命処置や、難治性疾患における各科専門医の連携治療など、総合病院ならではの高度な医療成果に感謝する声が寄せられています。他方で、避妊・去勢手術後の回復が思わしくなく原因が特定できなかったケースや、検査を繰り返しても明確な診断が得られなかったことに対する強い不満も報告されています。重症例において頼りになる高度医療機関として評価される一方で、一般的な外科手術や術後管理における対応に対しては信頼を損ねてしまった利用者の批判が見られます。術後の経過観察を含めた、継続的で丁寧なアフターフォローが求められています。",
+        "en": "Satisfied owners commend the facility's extensive capabilities, highlighting prompt nighttime interventions and multi-disciplinary treatment for complex oncology cases. Conversely, other clients express serious frustration following routine spaying and neutering procedures, reporting protracted recoveries without definitive diagnostic answers. While the center proves effective for critical referrals, surgical outcomes draw mixed sentiment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "丁寧な夜間対応と説明不足への不満",
+        "en": "Polite emergency visits with communication lapses"
+      },
+      "text": {
+        "ja": "深夜の救急受診時に丁寧で分かりやすい病状説明を受けたという好意的な評価や、長年の通院で専門医と納得いくまで対話を重ねられたという信頼の声が記録されています。その一方で、供血ドナーの事前検査時に説明なしで1時間以上待たされた挙句、医師が書類を指すだけで十分な説明を行わなかった事例など、対話の欠如を憤るレビューも存在します。緊急時や特定担当医の丁寧な説明が支持される半面、窓口業務や検査待ちにおける情報共有の不足が批判を招いています。飼い主の不安を和らげる、状況に応じた迅速で細やかな案内が望まれています。",
+        "en": "Owners visiting during nighttime emergencies report courteous, accessible explanations of their pets' critical conditions, and regular clients appreciate thorough discussions with trusted specialists. In sharp contrast, a donor volunteer reported waiting over an hour without progress updates, followed by curt interactions where the clinician merely pointed at a handout. While emergency consultations receive praise, lapses cause frustration."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "夜間の救急診療は実施されていますか？",
+        "en": "Is emergency nighttime care available?"
+      },
+      "a": {
+        "ja": "はい、夜間救急診療に対応しており、深夜の急変時にも迅速な初期対応が行われています。",
+        "en": "Yes, the hospital operates emergency night hours to handle sudden medical deteriorations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "どのような専門診療科がありますか？",
+        "en": "What specialized clinical departments are available?"
+      },
+      "a": {
+        "ja": "腫瘍科、皮膚科、歯科、整形外科など複数の専門分野において獣医師が診療を行っています。",
+        "en": "The facility features specialized services in oncology, dermatology, dentistry, and orthopedics."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "手術前の事前検査や費用はどのようになっていますか？",
+        "en": "What are pre-operative test protocols and costs?"
+      },
+      "a": {
+        "ja": "手術前には血液検査やレントゲンなどの事前検査が実施され、費用に関する事前確認が推奨されます。",
+        "en": "Surgeries involve mandatory blood tests and radiographs, and reviewing estimates beforehand is recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

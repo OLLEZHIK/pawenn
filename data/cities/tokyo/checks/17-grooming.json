@@ -1,0 +1,34 @@
+{
+  "chunk": "17-grooming",
+  "kind": "places",
+  "slugs": [
+    "the-dog-salon-hotel-shoinjinja",
+    "chez-maman-azabujuban",
+    "salon-de-ladney-nakano",
+    "doggie-do-azabujuban"
+  ],
+  "hash": "1445304105d35f4325d8f50f3fc833b43aff4c77dfd605ab9864309bb969d5f5",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T13:24:23.412Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-18T13:28:13.803Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-18T13:28:50.665Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-18T13:30:10.074Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

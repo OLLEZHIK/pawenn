@@ -1,0 +1,40 @@
+{
+  "chunk": "10-vet",
+  "kind": "places",
+  "slugs": [
+    "daktari-animal-hospital-tokyo-medical-center",
+    "toranomon-veterinary-clinic",
+    "tokyo-cat-specialists",
+    "japan-animal-medical-center",
+    "minatokudobutsukyukyuiryo-center-shiba-animal-clinic",
+    "step-veterinary-clinic",
+    "trva-nighttime-emergency-animal-medical-center",
+    "west-cross-veterinary-hospital",
+    "banquet-veterinary-hospital-mishuku-veterinary-medical-centre",
+    "otsuka-ekimae-dobutsubyoin-shinzo-medical-clinic"
+  ],
+  "hash": "70afa57269eeff940666307202554e3d05425cdfaa821053677cb5db03fdf236",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T19:18:27.767Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-18T19:28:05.334Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-18T19:29:33.521Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T02:08:50.136Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

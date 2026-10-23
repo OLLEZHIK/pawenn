@@ -1,0 +1,43 @@
+{
+  "chunk": "31-vet",
+  "kind": "places",
+  "slugs": [
+    "motoi-animal-hospital",
+    "aikawa-veterinary-medical-center",
+    "mira-animal-clinic",
+    "waseda-animal-clinic",
+    "two-one-animal-hospital-shinmejiro-dori-clinic",
+    "kitamura-animal-clinic",
+    "rosso-animal-clinic",
+    "watson-animal-clinic"
+  ],
+  "hash": "8712039c2316c2b1bf6241667a009e459d4f8dc3797c9b226cda6905e7607a12",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-20T15:22:02.450Z",
+      "result": "FAIL",
+      "listed": 30
+    },
+    {
+      "at": "2026-10-20T15:27:36.803Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-20T15:31:56.697Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:32:28.927Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-20T15:34:57.385Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
