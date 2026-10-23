@@ -1,0 +1,139 @@
+{
+  "slug": "patyzoo-corujeira",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PatyZoo+-+Corujeira/data=!4m7!3m6!1s0xd2465d4263086cb:0x604d976b2c26455b!8m2!3d41.1597419!4d-8.5783982!16s%2Fg%2F11rtr790s4!19sChIJy4YwJtRlJA0RW0UmLGuXTWA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Atendimento presencial simpático com divergência telefónica",
+        "en": "Friendly store staff with phone communication friction"
+      },
+      "text": {
+        "pt": "A maioria dos clientes aprecia a simpatia e a disponibilidade da colaboradora na loja de Campanhã. No entanto, há relatos de descontentamento com o atendimento telefónico durante serviços de tosquia, onde foram apontadas respostas rudes e falta de flexibilidade na comunicação com o cliente.",
+        "en": "Most shoppers appreciate the friendliness and helpfulness of the staff member at the Campanhã store. However, one customer expressed sharp dissatisfaction regarding telephone interactions during a grooming booking, noting rude remarks and an inflexible attitude when scheduling collection."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Variedade na loja com horários restritos",
+        "en": "Store product variety with strict hours"
+      },
+      "text": {
+        "pt": "Os clientes valorizam a seleção de artigos disponíveis na loja, nomeadamente rações específicas para gatos e acessórios úteis para animais. Em contrapartida, foi criticada a pressão exercida para levantar animais mesmo à hora de encerramento do espaço, gerando transtorno a quem se desloca.",
+        "en": "Pet owners appreciate the curated selection of supplies available at the shop, especially specialized feline nutrition and daily items. In contrast, one visitor criticized the intense pressure to collect pets right at closing time, causing significant stress for customers traveling across town."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Acolhimento de cães e gatos domésticos",
+        "en": "Care for domestic dogs and cats"
+      },
+      "text": {
+        "pt": "Vários tutores salientam a forma compreensiva como os seus cães receosos foram tratados, regressando tranquilos para casa. Todavia, surge uma queixa sobre a gestão de banhos em cães com nós no pelo, criticando a sensação de que o animal foi tratado como simples mercadoria apressada.",
+        "en": "Several pet guardians highlight the gentle and understanding way nervous dogs were handled, returning home calm and cheerful. Nevertheless, one review regarding coat detangling expressed frustration, lamenting that their pet felt rushed through care rather than treated as a living companion."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A loja disponibiliza rações específicas para gatos?",
+        "en": "Does the store carry specialized cat food brands?"
+      },
+      "a": {
+        "pt": "Sim, os clientes mencionam encontrar marcas de alimentação felina, como a Bravery, nas prateleiras da loja.",
+        "en": "Yes, customers note finding specialized cat food brands, such as Bravery, available on the store shelves."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A PatyZoo Corujeira tem serviço de tosquias e banhos?",
+        "en": "Does PatyZoo Corujeira offer bathing and grooming services?"
+      },
+      "a": {
+        "pt": "Sim, a loja dispõe de espaço de banhos e tosquias para cães mediante marcação prévia.",
+        "en": "Yes, the branch features a pet grooming corner for dogs, available upon prior appointment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível solicitar entregas de ração ao domicílio?",
+        "en": "Is home delivery available for pet food orders?"
+      },
+      "a": {
+        "pt": "Sim, a cadeia PatyZoo disponibiliza serviço de entregas de encomendas de produtos para animais.",
+        "en": "Yes, the PatyZoo network offers home delivery services for pet supplies and nutrition orders."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "animals": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}

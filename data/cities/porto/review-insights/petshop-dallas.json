@@ -1,0 +1,163 @@
+{
+  "slug": "petshop-dallas",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petshop+Dallas/data=!4m7!3m6!1s0xd24659370ca0f15:0xc98d848374780264!8m2!3d41.1615857!4d-8.6415295!16s%2Fg%2F11f669lqhw!19sChIJFQ_KcJNlJA0RZAJ4dIOEjck?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Equipa atenciosa e de confiança no Porto",
+        "en": "Attentive and trustworthy grooming team"
+      },
+      "text": {
+        "pt": "Os clientes elogiam unanimemente a dedicação, simpatia e competência demonstradas pelos profissionais do salão. Os tutores sentem total confiança ao deixar os seus animais ao cuidado da equipa, ressaltando o atendimento requintado e o carinho constante com que são recebidos.",
+        "en": "Clients unanimously praise the dedication, friendliness, and high competence shown by the salon team. Pet owners express complete trust when leaving their companions in the groomers' care, emphasizing the polished customer service and the affectionate greeting they receive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Respeito e paciência com os animais",
+        "en": "Respectful and patient pet handling"
+      },
+      "text": {
+        "pt": "As avaliações destacam o extremo cuidado e paciência com que os cães são tratados em cada visita. Os profissionais desfazem nós sem recorrer a cortes desnecessários, oferecem biscoitos e carinho, garantindo que os animais saiam descontraídos, felizes e sem receio de regressar.",
+        "en": "Reviews emphasize the utmost respect and patience shown to dogs during every appointment. The stylists untangle matted fur carefully without cutting away extra coat, offering treats and warm affection, ensuring pets leave calm, cheerful, and comfortable about returning."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Tosquias da raça e detalhes impecáveis",
+        "en": "Breed haircuts and meticulous details"
+      },
+      "text": {
+        "pt": "Os donos mostram-se muito satisfeitos com o resultado visual e higiénico dos banhos e tosquias. São realçados os cortes precisos adaptados ao padrão de cada raça, o corte cuidadoso de unhas e os pequenos mimos finais, considerando o trabalho de excelente valor para o animal.",
+        "en": "Dog owners are delighted with the aesthetic finish and hygienic results of grooming sessions. Clients highlight precise breed cuts, careful nail trimming, and thoughtful styling touches, considering the meticulous care and attention to detail exceptionally worthwhile for their pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O salão realiza tosquias da raça com desembaraço de pelo?",
+        "en": "Does the salon provide breed styling with coat detangling?"
+      },
+      "a": {
+        "pt": "Sim, os clientes referem grande paciência a desembaraçar a pelagem sem cortar excessivamente, respeitando a raça.",
+        "en": "Yes, clients highlight great patience in detangling mats without excessive shaving, respecting breed standards."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O espaço disponibiliza serviços de banho para cães?",
+        "en": "Are bathing services available for dogs at Petshop Dallas?"
+      },
+      "a": {
+        "pt": "Sim, o estabelecimento combina banhos e tosquias completas com corte de unhas e higiene minuciosa.",
+        "en": "Yes, the boutique provides full bathing and grooming services alongside nail care and thorough hygiene routines."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O salão funciona aos fins de semana?",
+        "en": "Is the grooming salon open on weekends?"
+      },
+      "a": {
+        "pt": "O salão está aberto ao sábado até às 18h00, encerrando aos domingos e segundas-feiras.",
+        "en": "The salon is open on Saturdays until 18:00, while remaining closed on Sundays and Mondays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
