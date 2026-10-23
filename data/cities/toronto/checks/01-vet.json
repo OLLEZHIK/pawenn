@@ -1,0 +1,30 @@
+{
+  "chunk": "01-vet",
+  "kind": "places",
+  "slugs": [
+    "front-street-animal-hospital",
+    "wellesley-animal-hospital",
+    "blue-cross-animal-hospital",
+    "roncy-village-veterinary-clinic",
+    "liberty-village-animal-hospital",
+    "dundas-euclid-animal-hospital",
+    "davisville-park-animal-hospital",
+    "upper-village-veterinary-hospital",
+    "forest-hill-animal-clinic",
+    "bloorcourt-veterinary-clinic"
+  ],
+  "hash": "eaf9754e058ed1a76ed43a78ee4844d577a9c391c243d8adf2cdcb19452bb225",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T23:36:30.804Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-22T23:46:31.072Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
