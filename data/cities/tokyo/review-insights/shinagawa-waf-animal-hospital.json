@@ -1,0 +1,178 @@
+{
+  "slug": "shinagawa-waf-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shinagawa+WAF+Animal+Hospital/data=!4m7!3m6!1s0x60188afa780f0565:0xdaa2b5112c82a25!8m2!3d35.623561!4d139.724946!16s%2Fg%2F11c3x8kth5!19sChIJZQUPePqKGGARJSrIElErqg0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "ja": "院長の人柄と看護師の温かいサポート",
+        "en": "Caring director and compassionate nursing support"
+      },
+      "text": {
+        "ja": "品川区大崎にある当院では、院長をはじめとする医療陣の温かい人柄と丁寧な診療姿勢に多くの信頼が寄せられています。重篤な疾患や高齢ペットの終末期医療においても、飼い主様の心に寄り添いながら最善の治療法を一緒に考えてくれる姿勢が高く評価されています。入院中にも看護師たちが惜しみない愛情を注いでくれたという感謝の声が多く見られます。一方で、忙しい時間帯の受付での書類受け渡し忘れや、夜間診療時の対応に不満を感じた声も一部で見られますが、全体としては動物を第一に考える親身なサポート体制が支持を集めています。",
+        "en": "Clients consistently commend the clinic director and veterinary nurses for their warmth, empathy, and professional dedication. In challenging cases involving severe orthopedic trauma or oncology, the veterinarian offers steadfast emotional and medical support. While minor administrative lapses such as forgotten receipts during busy periods are noted by a few, the staff's genuine compassion remains widely admired."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "予約時の待ち時間と夜間急患対応の課題",
+        "en": "Extended waiting times and appointment constraints"
+      },
+      "text": {
+        "ja": "診療体制や待ち時間に関しては、改善を望む厳しい意見が複数寄せられています。事前に予約を取って来院した場合であっても、30分以上待たされることが珍しくなく、診察後の会計待ちにも時間がかかるという指摘が目立ちます。また、診療時間内であっても予約がいっぱいで急患の受け入れを断られたり、当日受付に高額な追加料金が発生したことに対する不満の声も見られます。人気の高い病院であるため混雑しやすい傾向にあり、受診の際は時間に十分な余裕を持ち、急患時の受け入れ条件を事前に確認することが推奨されています。来院前には混雑状況を確認し、余裕をもってスケジュールを組むことが賢明です。",
+        "en": "Reviewers voice frequent concern regarding waiting times, noting that delays of thirty minutes or more are common even with scheduled appointments, followed by further waits at checkout. Frustrations also arise when fully booked schedules prevent acceptance of emergency walk-ins or when additional walk-in fees are incurred. Pet owners are advised to anticipate potential delays when scheduling consultations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "高度な治療実績と診断に対する賛否",
+        "en": "Advanced surgical outcomes alongside diagnostic feedback"
+      },
+      "text": {
+        "ja": "膝の骨折整復手術やリンパ腫に対する抗がん剤・免疫療法の併用など、難度の高い外科・腫瘍科治療において劇的な回復を遂げた実績が高く評価されています。一方で、急な体調不良に対する診断の的確さに疑問を呈する声や、点滴処置後の管理について不安を感じたという批判的な意見も一部に存在します。救われた命に対する深い感謝の声が多数寄せられている反面、症例や状況による結果の受け止め方には差が見られ、治療方針について十分に納得した上で治療を進めることが望まれます。高度な医療技術が提供される一方で、術後の注意点や経過観察についての確認が推奨されています。",
+        "en": "The hospital achieves celebrated clinical milestones in complex procedures, including orthopedic fracture repair and combined chemo-immunotherapy for feline tumors, saving pets facing dire prognoses. Conversely, mixed feedback includes complaints regarding diagnostic clarity in certain acute presentations and aftercare follow-up. While specialized medical capabilities are evident, individual treatment outcomes vary across cases."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "予約をしていても待ち時間は発生しますか？",
+        "en": "Are there waiting times even with an appointment?"
+      },
+      "a": {
+        "ja": "はい、混雑時は予約時間から30分程度待つことがあるため、時間に余裕を持った来院が推奨されています。",
+        "en": "Yes, clients report that waiting times of around 30 minutes can occur during busy hours despite having an appointment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "難治性腫瘍や高度外科手術の相談はできますか？",
+        "en": "Can owners consult on oncology and complex surgeries?"
+      },
+      "a": {
+        "ja": "はい、腫瘍科や整形外科などの高度診療に対応しており、抗がん剤や免疫療法などの実績があります。",
+        "en": "Yes, the hospital handles advanced oncology and orthopedic procedures, including chemotherapy and immunotherapy."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "予約なしでの急患受け入れは可能ですか？",
+        "en": "Are emergency walk-in visits accommodated?"
+      },
+      "a": {
+        "ja": "予約優先制のため混雑時は受け入れが難しい場合があり、急患時でも事前に電話確認することが推奨されます。",
+        "en": "Because appointments take priority, walk-in emergency capacity may be limited; calling ahead is strongly advised."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    }
+  ]
+}
