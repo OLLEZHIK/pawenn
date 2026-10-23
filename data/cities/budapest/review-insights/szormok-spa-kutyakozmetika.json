@@ -1,0 +1,142 @@
+{
+  "slug": "szormok-spa-kutyakozmetika",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sz%C5%91rm%C3%B3k+Spa+Kutyakozmetika/data=!4m7!3m6!1s0x4741c3d593abb6e7:0x7e8f2352037af262!8m2!3d47.4354148!4d19.1391624!16s%2Fg%2F11t5rfjzd6!19sChIJ57ark9XDQUcRYvJ6A1Ijj34?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "hu": "Kedves kiszolgálás szigorúbb feltételekkel",
+        "en": "Friendly grooming with strict guidelines"
+      },
+      "text": {
+        "hu": "A vendégek többsége dicséri Lejla kedves, segítőkész és elhivatott hozzáállását a Brassó utcai kutyakozmetikában. Ugyanakkor panasz is érkezett egy lemondott időpont miatt, miután a kozmetikus az oltási könyv hiányosságaira hivatkozva nem vállalta egy idős kutya ápolását.",
+        "en": "Most clients praise groomer Lejla for her kind, patient, and dedicated approach at the Brassó street salon in Pesterzsébet. However, one owner reported frustration after an appointment was canceled when the groomer refused to accept an elderly dog lacking a current rabies vaccine."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "hu": "Megbízható nyírás és gondos szőrápolás",
+        "en": "Dependable styling and coat care"
+      },
+      "text": {
+        "hu": "Az elégedett gazdik kiemelik a precíz és szakszerű munkát, amellyel a kutyák bundája rendezett és tiszta lesz. A visszajelzések szerint a szalonban végzett fazonírozás és fürdetés minősége kifogástalan, a kedvencek ápoltan és rendezett megjelenéssel térnek haza a kezelések után.",
+        "en": "Satisfied owners commend the precise and skilled styling that leaves their pets with clean, well-groomed coats. Feedback highlights dependable trimming and bathing results, noting that dogs return home looking tidy and well-maintained following their appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "hu": "Türelmes bánásmód megosztó szabályokkal",
+        "en": "Patient handling with strict pet rules"
+      },
+      "text": {
+        "hu": "A legtöbb értékelés szerint a kutyákat türelemmel és szeretettel kezelik a kozmetikázás során, így a kezelések nyugodt környezetben zajlanak. Egy vendég viszont sérelmezte, hogy az előírásokhoz való merev ragaszkodás miatt kutyája a nyári melegben ellátatlanul maradt.",
+        "en": "Most reviews note that pets are treated with gentle patience and care during grooming, creating a calm atmosphere for treatment. Conversely, one client felt aggrieved when strict health requirements led to their older dog being turned away during a hot summer period."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Szükséges érvényes veszettségi oltás a kozmetikához?",
+        "en": "Is a valid rabies vaccination required for grooming?"
+      },
+      "a": {
+        "hu": "Igen, a vélemények alapján a kozmetikus szigorúan ellenőrzi az érvényes védőoltások meglétét.",
+        "en": "Yes, reviews indicate that the groomer strictly requires up-to-date vaccinations before treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Időpontfoglalás szükséges a látogatáshoz?",
+        "en": "Is advance appointment booking required?"
+      },
+      "a": {
+        "hu": "Igen, a szolgáltatások igénybevételéhez előzetes telefonos vagy online időpontegyeztetés ajánlott.",
+        "en": "Yes, scheduling an appointment in advance by phone or online is necessary for salon visits."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Hol található a Szőrmók Spa kutyakozmetika?",
+        "en": "Where is the Szőrmók Spa grooming salon located?"
+      },
+      "a": {
+        "hu": "A szalon Budapest 20. kerületében, a Brassó utcában található, könnyen megközelíthető helyen.",
+        "en": "The salon is situated on Brassó street in Budapest's 20th district (Pesterzsébet)."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

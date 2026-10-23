@@ -1,0 +1,145 @@
+{
+  "slug": "csudavet-allatorvosi-rendelo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/CsudaVet+%C3%81llatorvosi+Rendel%C5%91/data=!4m7!3m6!1s0x4741e74a2bddd75f:0xdef664f74658c7fe!8m2!3d47.4122402!4d19.0226463!16s%2Fg%2F11jd8bpfln!19sChIJX9fdK0rnQUcR_sdYRvdk9t4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "hu": "Szakértő orvosok eltérő tapasztalatokkal",
+        "en": "Skilled doctors with diverging experiences"
+      },
+      "text": {
+        "hu": "A páciensek többsége dicséri a budafoki orvosok kedvességét, alapos vizsgálati módszereit és szakmai elhivatottságát. Dr. Molnár Gyula és Dr. Papp Georgina szakértelmét többen kiemelik. Ezzel szemben két kritikus vélemény elutasító bánásmódról, empátiahiányról és lekezelő stílusról számol be, ami megosztja a gazdik megítélését.",
+        "en": "Most clients praise the friendliness, thorough examinations, and clinical dedication of veterinarians in Budafok. Several owners specifically commend Dr. Gyula Molnár and Dr. Georgina Papp. Conversely, two critical reviews highlight perceived dismissiveness and lack of empathy, resulting in divided opinions among pet guardians."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "hu": "Részletes tájékoztatás adminisztratív nehézségekkel",
+        "en": "Detailed explanations alongside billing disputes"
+      },
+      "text": {
+        "hu": "A rendelő orvosai a legtöbb esetben részletesen és érthetően elmagyarázzák a vizsgálati eredményeket és a beavatkozások lépéseit a gazdiknak. Ugyanakkor komoly elégedetlenség merült fel a műtéti árajánlatok késedelmes kiküldése, a számlák nehézkes kiadása és a telefonos kapcsolattartás feszült stílusa miatt.",
+        "en": "In most consultations, clinic veterinarians explain diagnostic findings and surgical procedures with exceptional clarity. However, notable dissatisfaction was expressed regarding delayed cost estimates before dental surgery, prolonged struggles to obtain detailed invoices, and strained phone communication with reception staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "hu": "Vegyes tapasztalatok kistestű kedvencekkel",
+        "en": "Mixed handling of small companions"
+      },
+      "text": {
+        "hu": "A rendelőben sikeresen kezelnek egzotikus állatokat, például csincsillákat, és a fogászati beavatkozások során gondosan támogatják a szorongó macskákat. Másfelől kritika érte a praxist, amikor egy beteg hörcsög ellátását megtagadták, egy idős macska műtét utáni varratszedése körül pedig komoly szakmai vita alakult ki a kezelőorvossal.",
+        "en": "The clinic successfully treats exotic species such as chinchillas and provides gentle reassurance for anxious cats undergoing dental procedures. On the other hand, the practice faced complaints when emergency care for a sick hamster was declined, and another case involved sharp disagreement over post-operative suture removal in an elderly cat."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Vállalják-e egzotikus kisemlősök gyógykezelését a rendelőben?",
+        "en": "Do they treat exotic small mammals at the clinic?"
+      },
+      "a": {
+        "hu": "Igen, a vélemények alapján csincsillák és egyéb kisemlősök ellátását is végzik, bár az ellátási kör orvosonként változhat.",
+        "en": "Yes, reviews confirm they treat chinchillas and small mammals, though specific species care depends on attending staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Rendelkezik-e a klinika digitális fogászati röntgennel?",
+        "en": "Does the clinic feature dedicated dental X-ray equipment?"
+      },
+      "a": {
+        "hu": "Igen, a macskák és kutyák fogászati beavatkozásaihoz modern fogászati röntgenkészülék áll rendelkezésre a pontos diagnosztikához.",
+        "en": "Yes, modern dental radiography is available on site for evaluating feline and canine dental resorption diseases."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Hogyan történik a műtéti árajánlatok és számlák kiadása?",
+        "en": "How are surgical cost quotes and detailed invoices provided?"
+      },
+      "a": {
+        "hu": "A tapasztalatok alapján a nagyobb műtétek előtt érdemes írásban egyeztetni a tételes árajánlatot és a számlázás részleteit.",
+        "en": "Based on client feedback, owners are advised to request itemized written quotes and billing statements well in advance of surgery."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
