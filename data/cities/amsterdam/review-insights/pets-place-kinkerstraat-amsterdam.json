@@ -1,0 +1,238 @@
+{
+  "slug": "pets-place-kinkerstraat-amsterdam",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+Place/data=!4m7!3m6!1s0x47c60914ff24faa5:0x7ed8be5cbb6fc012!8m2!3d52.3666879!4d4.8697474!16s%2Fg%2F11nm9vdtgj!19sChIJpfok_xQJxkcREsBvu1y-2H4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 17,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 14,
+      "title": {
+        "nl": "Ruim gesorteerde winkel aan Kinkerstraat",
+        "en": "Well stocked store on Kinkerstraat"
+      },
+      "text": {
+        "nl": "Klanten waarderen de overzichtelijke inrichting en het brede assortiment van het filiaal aan de Kinkerstraat in Amsterdam-West. Van hoogwaardige voeding en kattenspeeltjes tot benchkussens en verzorgingsproducten: de meeste bezoekers vinden direct alles wat ze nodig hebben voor hun viervoeter.",
+        "en": "Shoppers appreciate the neat layout and generous selection at this Kinkerstraat branch in Amsterdam West. From quality foods and cat toys to bed cushions and health supplies, most visitors promptly locate everything required for their four-legged family members during one visit."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "nl": "Uitzonderlijk behulpzaam en vriendelijk personeel",
+        "en": "Exceptionally helpful and friendly staff"
+      },
+      "text": {
+        "nl": "De winkelmedewerkers ontvangen veel complimenten over hun vriendelijke en toegankelijke houding. Klanten vermelden dat kassamedewerkers geregeld een stap extra zetten om te helpen en deskundig advies geven over de juiste producten, wat zorgt voor een prettige winkelervaring.",
+        "en": "Store personnel receive extensive praise for their approachable, positive, and attentive attitude. Shoppers frequently mention that staff at the checkout go the extra mile to provide helpful suggestions, creating a welcoming and pleasant atmosphere for regular and new visitors."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "nl": "Complete verzorging voor diverse huisdieren",
+        "en": "Complete supplies for various pets"
+      },
+      "text": {
+        "nl": "De dierenwinkel biedt volop keus voor honden, katten en kleine knaagdieren. Baasjes die net een pup of kitten in huis hebben gehaald vinden de overstap dankzij het complete aanbod aan puppyvoer, snacks en speeltjes merkbaar makkelijker en komen er geregeld terug voor nieuwe spullen.",
+        "en": "The pet shop provides extensive choices for dogs, cats, and small animals. Pet parents welcoming new puppies or kittens find the adjustment notably smoother thanks to the broad stock of starter foods, tasty chews, and interactive toys, making it a dependable neighborhood staple."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "nl": "Verkoopt het filiaal aan de Kinkerstraat producten voor zowel honden als katten?",
+        "en": "Does the Kinkerstraat branch cater to both dogs and cats?"
+      },
+      "a": {
+        "nl": "Ja, er is een uitgebreide selectie voer, speelgoed en verzorgingsartikelen voor honden, katten en knaagdieren.",
+        "en": "Yes, the store carries an extensive range of food, toys, and grooming essentials for dogs, cats, and small pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "nl": "Hoe ervaren klanten de service van het winkelpersoneel?",
+        "en": "How do shoppers rate the customer service of the team?"
+      },
+      "a": {
+        "nl": "Klanten zijn zeer positief over de behulpzame en vriendelijke ondersteuning bij de kassa en in de gangpaden.",
+        "en": "Shoppers rate staff assistance very highly, praising friendly guidance at the checkout and along the aisles."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "nl": "Zijn er speciale artikelen verkrijgbaar voor nieuwe pups en kittens?",
+        "en": "Are starter supplies available for newly adopted puppies and kittens?"
+      },
+      "a": {
+        "nl": "Ja, er is volop aanbod aan geschikte puppysnacks, zachte halsbanden en kittenvoeding voor de eerste levensfase.",
+        "en": "Yes, there is a comprehensive variety of suitable puppy treats, gentle collars, and kitten nutrition."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "animals": "+"
+      }
+    }
+  ]
+}
