@@ -1,0 +1,135 @@
+{
+  "slug": "vet-planet-benfica",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vet+Planet+%28Benfica%29/data=!4m7!3m6!1s0xd1ecd2753694805:0x4e1346e01a4da465!8m2!3d38.749841!4d-9.2066257!16s%2Fg%2F11cmsr4q9n!19sChIJBUhpUyfNHg0RZaRNGuBGE04?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Apreço pelo corpo clínico veterinário",
+        "en": "Appreciation for the clinical veterinary team"
+      },
+      "text": {
+        "pt": "Os clientes manifestam grande apreço pelo atendimento prestado pelos médicos veterinários em Benfica, destacando a competência clínica e a dedicação constante aos animais. No entanto, um visitante apontou um contraste acentuado entre a atenção médica recebida e a indiferença dos funcionários na área comercial da loja associada.",
+        "en": "Clients express strong appreciation for the clinical team in Benfica, highlighting their professional diligence and ongoing dedication to animal care. However, one visitor noted a marked difference between the attentive medical staff and indifferent store employees in the adjacent retail section of the premises."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Afeição genuína e cuidado com animais",
+        "en": "Genuine affection and attentive animal care"
+      },
+      "text": {
+        "pt": "A atenção carinhosa e o respeito pelo bem-estar dos animais são amplamente elogiados pelos tutores. Os clientes sublinham que cães e gatos são tratados com enorme paciência e ternura pela equipa clínica, criando um ambiente tranquilo que tranquiliza os animais durante consultas e procedimentos de rotina.",
+        "en": "Compassionate care and respect for animal well-being are widely commended by pet owners. Clients underline that dogs and cats are treated with genuine affection and patience by the clinical staff, creating a calm environment that helps ease stress during routine checkups and veterinary examinations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Confiança nos tratamentos e acompanhamento",
+        "en": "Confidence in treatment results and continuity"
+      },
+      "text": {
+        "pt": "Os tutores manifestam total confiança na eficácia dos tratamentos e na estabilidade clínica dos seus animais de estimação. Várias famílias confiam a saúde de múltiplos animais ao mesmo veterinário ao longo do tempo, valorizando a consistência dos resultados e a segurança transmitida no acompanhamento médico.",
+        "en": "Pet owners express high confidence in the reliability of treatments and the sustained well-being of their companions. Families frequently entrust multiple pets to the same veterinarian over time, commending dependable outcomes and the reassuring continuity provided throughout follow-up visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "Que especialidades veterinárias estão disponíveis na Vet Planet Benfica?",
+        "en": "What veterinary specialties are offered at Vet Planet Benfica?"
+      },
+      "a": {
+        "pt": "A clínica disponibiliza cirurgia, imagiologia por raio-X e ecografia, exames laboratoriais e atendimento a exóticos.",
+        "en": "The clinic offers soft tissue surgery, X-ray imaging, ultrasound diagnostics, laboratory testing, and exotic pet care."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "A clínica de Benfica dispõe de serviço de internamento?",
+        "en": "Does the Benfica clinic have pet hospitalization facilities?"
+      },
+      "a": {
+        "pt": "Sim, a clínica conta com instalações de internamento para cães e gatos que necessitem de vigilância contínua.",
+        "en": "Yes, the practice features hospitalization facilities for dogs and cats requiring ongoing clinical monitoring."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Os clientes estão satisfeitos com o atendimento médico?",
+        "en": "Are clients satisfied with the veterinary medical care?"
+      },
+      "a": {
+        "pt": "Sim, o acompanhamento veterinário recebe elogios consistentes pela dedicação e carinho prestados aos animais.",
+        "en": "Yes, clinical veterinary consultations receive consistent praise for doctor dedication and affectionate handling."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
