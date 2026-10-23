@@ -1,0 +1,30 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "royal-vet-rosemont",
+    "clinique-medecin-veterinaire-de-st-louis",
+    "clinique-veterinaire-tou-chat-tou",
+    "homa-veterinary-clinic",
+    "animomedic-plateau-mont-royal",
+    "hopital-veterinaire-general-mb",
+    "clinique-veterinaire-de-pointe-st-charles",
+    "clinique-veterinaire-st-denis",
+    "clinique-veterinaire-du-vieux-rosemont",
+    "clinique-veterinaire-chats-montreal"
+  ],
+  "hash": "4f47588f27ef9349b3281c2cf55b06d29da3eb44a1a33f30adc110dbf45e67e0",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T10:39:56.237Z",
+      "result": "FAIL",
+      "listed": 26
+    },
+    {
+      "at": "2026-10-23T10:44:45.392Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
