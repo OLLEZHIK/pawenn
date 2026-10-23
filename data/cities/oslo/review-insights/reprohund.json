@@ -1,0 +1,110 @@
+{
+  "slug": "reprohund",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ReproHund/data=!4m7!3m6!1s0x46416f8dc1b709a3:0xafaf4bfa93631419!8m2!3d59.9479683!4d10.743234!16s%2Fg%2F11hf81gc3_!19sChIJowm3wY1vQUYRGRRjk_pLr68?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "no": "Delte opplevelser med veterinæren",
+        "en": "Contrasting impressions of the veterinarian"
+      },
+      "text": {
+        "no": "Tilbakemeldingene om veterinæren på Tåsen viser store kontraster. Fornøyde oppdrettere roser hans faglige dyktighet og erfaring innen inseminering og reproduksjon, mens andre kunder opplever opptredenen som uvennlig og lite imøtekommende ved uforutsette hendelser.",
+        "en": "Feedback concerning the veterinarian in Tåsen reveals sharp contrasts. Satisfied breeders praise his technical proficiency and specialized reproduction expertise, while other clients report dismissive or unfriendly interactions during contentious situations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 2,
+      "title": {
+        "no": "Kritikk mot dialog og håndtering",
+        "en": "Criticism of communication and coordination"
+      },
+      "text": {
+        "no": "To misfornøyde oppdragsgivere retter sterk kritikk mot kommunikasjonen på telefon og ved levering av prøver. De rapporterer om samtaler som ble brutt i sinne og manglende vilje til å spore opp mottatt sædleveranse, noe som skapte betydelig usikkerhet og frustrasjon.",
+        "en": "Two dissatisfied clients express sharp criticism regarding telephone communication and shipment handling. They recount phone calls being abruptly ended and an unwillingness to assist in locating delivered canine semen packages, resulting in acute stress and frustration."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "no": "Hva spesialiserer ReproHund seg på?",
+        "en": "What does ReproHund specialize in?"
+      },
+      "a": {
+        "no": "Klinikken spesialiserer seg på hundereproduksjon, inkludert inseminering, fertilitetsutredning og ultralydundersøkelser.",
+        "en": "The clinic specializes in canine reproduction, including artificial insemination, fertility workups and ultrasound examinations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "no": "Er det gode parkeringsmuligheter ved klinikken?",
+        "en": "Is there convenient parking at the clinic?"
+      },
+      "a": {
+        "no": "Ja, kunder nevner at klinikken har god parkering og ligger i en rolig gate som er velegnet for å lufte hunden.",
+        "en": "Yes, clients note that the clinic has good parking and is located on a quiet street suitable for walking dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "no": "Hvordan gjøres timeavtaler hos ReproHund?",
+        "en": "How are consultations scheduled at ReproHund?"
+      },
+      "a": {
+        "no": "Timer avtales direkte på telefon etter forhåndsavtale tilpasset tispas syklus.",
+        "en": "Consultations are scheduled directly by phone by prior appointment tailored to the female dog's cycle."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
