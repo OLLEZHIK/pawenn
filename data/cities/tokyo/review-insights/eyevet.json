@@ -1,0 +1,133 @@
+{
+  "slug": "eyevet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/%E3%81%A9%E3%81%86%E3%81%B6%E3%81%A4%E7%9C%BC%E7%A7%91+EyeVet/data=!4m7!3m6!1s0x6018f3e7c3f43703:0xc2c9ee056d0bc36!8m2!3d35.6437416!4d139.6188169!16s%2Fg%2F11dx8f49hq!19sChIJAzf0w-fzGGARNrzQVuCeLAw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "獣医師の高い専門性と受付対応への指摘",
+        "en": "Skilled veterinary care alongside reception issues"
+      },
+      "text": {
+        "ja": "世田谷区桜丘の眼科専門動物病院として、獣医師の確かな医療技術と受付対応に関して異なる受け止め方が見られます。院長をはじめとする診察室の獣医師は、若年性白内障や網膜剥離、緑内障などの難治性眼疾患に対して親身で温かく、専門性の高い治療を行ってくれると高く信頼されています。一方で、受付スタッフの応対について、混雑時に早口や素っ気ない態度を取られたり、会計時のコミュニケーションが不快に感じられたという不満の声が複数寄せられています。医療陣への厚い信頼がある反面、窓口業務の接遇改善を望む声が目立っています。",
+        "en": "Opinions regarding clinic staff reflect a contrast between medical specialists and front-desk personnel. Pet owners express profound trust in Dr. Kobayashi and examination vets for their skill in managing juvenile cataracts, retinal detachment, and glaucoma with compassionate care. In contrast, multiple reviewers voice frustration regarding the reception desk, citing dismissive, overwhelmed, or abrupt communication during busy hours."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "明快な医療説明と窓口での伝達課題",
+        "en": "Clear medical counseling alongside counter communication issues"
+      },
+      "text": {
+        "ja": "診察時における病状説明や情報共有のあり方について、利用者間で評価が分かれています。獣医師による診察では、病状や今後の治療方針、生涯にわたる点眼治療の重要性について非常に分かりやすく論理的に説明してもらえ、他院からの転院時にも親身に話を聞いてくれたという満足度の高い意見が集まっています。引っ越しの際にも近隣の眼科医を紹介してデータを共有してくれるなど丁寧な連携が好評です。その一方で、受付窓口において言葉遣いが粗雑に感じられたり、呼びかけに対する返答が不十分であったりする点に不満を抱く飼い主も見られます。",
+        "en": "Communication at the clinic displays contrasting experiences across departments. During examinations, veterinary specialists provide clear, logical explanations of diagnoses, surgical options, and ongoing eye-drop therapy, even assisting moving clients by transferring records to regional vets. However, front-desk interactions drew complaints regarding blunt phrasing and unresponsiveness during busy checkout hours."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "駐車場不在と待合スペース利用上の難点",
+        "en": "Lack of parking and waiting area challenges"
+      },
+      "text": {
+        "ja": "病院の立地や院内設備に関して、複数の不便さや課題が指摘されています。千歳船橋駅から徒歩圏内にあるものの専用駐車場が用意されておらず、遠方から自家用車で通院する飼い主や雨天時の移動において大変な苦労を伴うという不満が多く寄せられています。また、院内に個室の待合スペースが設けられているものの、席取りのために荷物が放置されて利用できなかったり、使用中かどうかが外から確認しづらいため覗き込みが発生し居心地が悪かったりするという指摘も見られます。遠方からの通院者が多い専門病院ゆえに、アクセスや待機環境の改善が求められています。",
+        "en": "Reviewers highlight logistical difficulties regarding the clinic premises. While situated near Chitose-Funabashi Station, the lack of dedicated parking causes hardship for families driving from afar with ailing pets, particularly in rainy weather. Additionally, visitors note that private waiting booths are sometimes blocked by unattended belongings, while poor visibility into occupied rooms leads to awkward peek-ins during appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "来院者用の専用駐車場はありますか？",
+        "en": "Is dedicated parking available for clinic visitors?"
+      },
+      "a": {
+        "ja": "いいえ、専用駐車場はないため、近隣のコインパーキングを利用するか公共交通機関での来院が必要です。",
+        "en": "No, there is no dedicated on-site parking; visitors arriving by car must use nearby coin-operated lots."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "他院からの紹介状なしでも受診できますか？",
+        "en": "Can pets be examined without a referral from a primary veterinarian?"
+      },
+      "a": {
+        "ja": "原則としてかかりつけ動物病院からの紹介や事前予約制による二次診療眼科クリニックです。",
+        "en": "EyeVet operates primarily as a secondary referral ophthalmology clinic with advance consultations arranged via primary veterinarians."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "遠方への引っ越し時に紹介やデータ共有はしてもらえますか？",
+        "en": "Can the clinic refer pets to local specialists if moving away?"
+      },
+      "a": {
+        "ja": "はい、転居先の地域にある眼科獣医師の紹介や検査データの引き継ぎに丁寧に対応してもらえます。",
+        "en": "Yes, veterinarians provide referrals to ophthalmology specialists in new regions and transfer clinical diagnostic records."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "place": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "place": "-"
+      }
+    }
+  ]
+}

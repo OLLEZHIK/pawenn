@@ -1,0 +1,135 @@
+{
+  "slug": "osaki-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Osaki+Animal+Clinic/data=!4m7!3m6!1s0x60188af30aee91b7:0xe3ee23c8b1e2e97c!8m2!3d35.616774!4d139.7254618!16s%2Fg%2F1hc1pgxc_!19sChIJt5HuCvOKGGARfOniscgj7uM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "ja": "動物への愛情と真摯な診療姿勢",
+        "en": "Compassionate care and dedicated veterinary team"
+      },
+      "text": {
+        "ja": "獣医師および動物看護師の温かい人柄と丁寧な対応に対して、高い信頼が寄せられています。診察時には動物の機嫌や表情を細かく観察しながら無理のないペースで検査を進めてくれるため、動物病院が苦手で暴れてしまう猫でも落ち着いて受診できると好評です。電話での事前相談にも親切に応じてくれるほか、看護師が優しく撫でて不安を和らげてくれる姿に深い安心感を覚える飼い主が多く、地域のかかりつけ医として親しまれています。スタッフ全員の動物への深い愛情と温かなサポート体制が、近隣の飼い主から厚い信頼と高い評価を得ています。",
+        "en": "Pet owners express deep appreciation for the kind, conscientious approach of the clinic veterinary team. Reviewers emphasize that the doctor conducts thorough examinations while observing each animal emotional state, allowing stressed cats to remain calm. Telephone inquiries are handled with warmth, and nurses soothe nervous pets with gentle care, earning solid local trust."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "丁寧な事前説明と費用面の確認",
+        "en": "Detailed explanations balanced by cost communication"
+      },
+      "text": {
+        "ja": "診察時の丁寧な対話姿勢は高く評価されており、病状や検査の必要性について分かりやすく解説してくれる点に定評があります。電話での事前相談にも親身に応じてくれるため、初めての受診でも不安なく足を運べるという声があります。その一方で、検査内容や診療費用に関する事前の合意形成に疑問を持ったとする意見もあり、特に高額な検査を実施する際には事前に見積もりや選択肢を十分に提示してほしいという要望が挙げられています。飼い主が安心して治療を選択できるよう、事前の納得感のある丁寧な説明が常に求められている傾向があります。",
+        "en": "Communication regarding diagnoses and treatments generally receives positive feedback for its clarity and patience. The veterinarian takes time to explain medical findings and listens carefully to owner concerns. Nevertheless, an isolated review raised concerns about whether diagnostic tests and associated expenses were adequately communicated beforehand, seeking upfront cost estimates."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "着実な健康維持と治療後の経過",
+        "en": "Steady health maintenance and post-treatment outcomes"
+      },
+      "text": {
+        "ja": "去勢手術や日常的な健康管理において確かな治療実績が評価されており、暴れがちだったペットが穏やかに通院を続けられるようになったという良好な回復事例が報告されています。一方で、急な体調悪化により治療の甲斐なく短期間で亡くなってしまったことに対する悔しさや、手術後の入院ケージ内でノミをもらってしまったのではないかという懸念の声も一部にあります。高度な医療技術への信頼とともに、術後管理の徹底が求められています。日々の丁寧な健康管理とともに、より安心できる衛生環境と術後ケアの徹底が飼い主から強く期待されているところです。",
+        "en": "Clinical outcomes reflect largely favorable experiences alongside occasional concerns. Many guardians report that regular consultations successfully resolved issues and stabilized difficult patients, praising steady surgical results. However, one owner experienced the sudden loss of an ill pet, while another noted a post-operative flea concern following surgery in the clinic ward."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "病院が苦手で暴れてしまう猫でも受診できますか？",
+        "en": "Can the clinic handle easily stressed or aggressive cats?"
+      },
+      "a": {
+        "ja": "レビューによると、獣医師や看護師が猫の機嫌を慎重に見極めながら優しくなだめて診察してくれるため、落ち着いて受診できたと評価されています。",
+        "en": "Yes, reviews report that the veterinarian and nurses gently observe feline behavior and adapt examination techniques, helping anxious cats feel secure."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "診療や各種検査の費用は事前に確認できますか？",
+        "en": "Can pet owners request cost estimates prior to testing?"
+      },
+      "a": {
+        "ja": "検査内容によっては費用が高額になる場合があるため、診察時に必要な検査の項目や概算費用について事前に獣医師へ相談することが推奨されます。",
+        "en": "Because comprehensive blood panels and procedures can vary in cost, owners are encouraged to discuss testing options and price estimates directly during consultation."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "一般診療のほかに専門的な診療科目はありますか？",
+        "en": "Are specialized veterinary services available at the clinic?"
+      },
+      "a": {
+        "ja": "公式サイトに記載されている通り、一般内科や予防医療に加え、一般外科、整形外科、腫瘍科などの専門診療にも幅広く対応しています。",
+        "en": "According to the official site, the hospital provides specialized care in general surgery, orthopedics, and oncology in addition to internal medicine."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "~",
+        "animals": "+"
+      }
+    }
+  ]
+}
