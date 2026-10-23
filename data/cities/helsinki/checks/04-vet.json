@@ -1,0 +1,37 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "eirvet",
+    "aures-iho-ja-korvaelainlaakarit",
+    "etela-helsingin-elainlaakariasema",
+    "kuonola-herttoniemi",
+    "eiran-elainlaakarit",
+    "yliopistollinen-elainsairaala",
+    "hevossairaala"
+  ],
+  "hash": "7388c1150e7d4a8b2ca7902517ef2eff04fa951bf5b7d04d23361e6b47ca44be",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-18T09:26:29.497Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-18T09:30:08.194Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T05:03:48.929Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T07:35:00.981Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}

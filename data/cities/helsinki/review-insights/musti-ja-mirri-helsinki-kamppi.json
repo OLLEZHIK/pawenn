@@ -1,0 +1,140 @@
+{
+  "slug": "musti-ja-mirri-helsinki-kamppi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Musti+ja+Mirri+Kamppi/data=!4m7!3m6!1s0x46920a34a9a2b5c3:0x8df0d9156c844fac!8m2!3d60.1697035!4d24.9331163!16s%2Fg%2F11b7chxqp3!19sChIJw7WiqTQKkkYRrE-EbBXZ8I0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Avuliasta palvelua ja vaihtelevia kokemuksia",
+        "en": "Helpful staff with mixed service experiences"
+      },
+      "text": {
+        "fi": "Asiakkaat arvostavat Kampin myymälän henkilökunnan ystävällisyyttä ja asiantuntevaa neuvontaa arjen ostoksilla. Useimmat kokevat myyjien kohtaamisen lämpimäksi, mutta kiireisinä aikoina osa kävijöistä on kokenut saavansa vähemmän huomiota kassalla tai osastolla.",
+        "en": "Shoppers appreciate the friendly and supportive guidance provided by staff members at the Kamppi branch. While most customers report welcoming assistance with pet supplies, occasional visitors note slower attention when clerks are occupied with administrative tasks."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Kompakti myymälä keskeisellä sijainnilla",
+        "en": "Compact shop in central location"
+      },
+      "text": {
+        "fi": "Kauppakeskuksen sisällä sijaitsevaa myymälää kuvataan siistiksi ja selkeästi järjestetyksi, vaikka liiketila on melko kompakti. Kävijät pitävät myymälää erittäin kätevänä pysähdyspaikkana perusruokien, herkkujen ja tarvikkeiden noutamiseen vilkkaan aseman varrelta.",
+        "en": "Located directly inside the shopping centre, this pet shop is regarded as tidy and well organized despite its compact floor plan. Commuters and local pet owners find it very convenient for grabbing daily food, treats and supplies right beside the central transit hub."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Asiakaspalvelun sujuvuus herättää erilaisia näkemyksiä",
+        "en": "Customer communications draw varied feedback"
+      },
+      "text": {
+        "fi": "Monet ostajat kiittävät myymäläasioinnin ripeyttä ja selkeitä neuvoja sopivaa lemmikin ruokaa valittaessa. Toisaalta asiakaspalautteissa mainitaan myös tilanteita, joissa kirjallisiin tiedusteluihin tai tukipyyntöihin vastaaminen kesti odotettua kauemmin.",
+        "en": "Several visitors highlight straightforward communication and practical advice when choosing pet foods in store. However, some feedback reflects frustration when specific customer enquiries or follow-up questions required longer waiting times than anticipated."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Missä Musti ja Mirri Kamppi sijaitsee?",
+        "en": "Where is Musti ja Mirri Kamppi located?"
+      },
+      "a": {
+        "fi": "Myymälä sijaitsee Kampin kauppakeskuksessa keskeisten kulkuyhteyksien ja metroaseman välittömässä läheisyydessä.",
+        "en": "The shop is located inside the Kamppi shopping centre right by metro and central bus connections."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Onko myymälässä laaja erikoisruokavalikoima?",
+        "en": "Does the store carry specialized pet food diets?"
+      },
+      "a": {
+        "fi": "Liikkeessä on hyvä perusvalikoima suosittuja lemmikkiruokia ja tarvikkeita, mutta erikoisruokien määrä on kompaktin tilan vuoksi rajatumpi.",
+        "en": "The branch offers popular daily foods and accessories, though specialized diet options are limited by the compact retail space."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Voiko myymälään tulla lemmikin kanssa?",
+        "en": "Can pets enter the store together with owners?"
+      },
+      "a": {
+        "fi": "Kyllä, lemmikit ovat tervetulleita myymälään asioinnin ajaksi normaalien ketjusääntöjen mukaisesti.",
+        "en": "Yes, well-behaved pets are welcome to accompany their owners inside the store."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "place": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}
