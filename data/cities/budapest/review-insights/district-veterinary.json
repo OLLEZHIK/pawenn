@@ -1,0 +1,428 @@
+{
+  "slug": "district-veterinary",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/District+Veterinary/data=!4m7!3m6!1s0x4741dc7cc4a2a26f:0xd1c9b7c24641211d!8m2!3d47.5063943!4d19.080128!16s%2Fg%2F11b6_g7wv_!19sChIJb6KixHzcQUcRHSFBRsK3ydE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 45,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 17,
+      "title": {
+        "hu": "Felkészült állatorvosok megosztó visszajelzésekkel",
+        "en": "Skilled veterinary team with divided feedback"
+      },
+      "text": {
+        "hu": "A páciensek többsége meleg szavakkal dicséri Dr. Renner Petra, Dr. Lini Ákos és Dr. Bognár Tímea kedvességét, empátiáját és türelmét a Dembinszky utcában. Különösen értékelik a stresszmentes vizsgálatokat és a többnyelvű ellátást. Ugyanakkor több negatív vélemény nehezményezi a felületes vizsgálatokat és a gyógyszerezési tévedéseket.",
+        "en": "Most clients warmly praise Dr. Petra Renner, Dr. Ákos Lini, and Dr. Tímea Bognár on Dembinszky utca for their kindness, empathy, and patience. Visitors value low-stress examinations and fluent multilingual care. However, several critical reviews voice sharp discontent over perceived misdiagnoses and medication errors."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "hu": "Sikeres beavatkozások panaszokkal övezve",
+        "en": "Successful procedures alongside diagnostic disputes"
+      },
+      "text": {
+        "hu": "A pozitív beszámolók sikeres fogászati műtétekről, lenyelt idegentestek szakszerű felderítéséről és súlyos epilepsziás állapotok stabilizálásáról tanúskodnak. Ezzel szemben néhány elégedetlen gazdi a kezelések utáni állapotromlásra és elhibázott terápiás döntésekre panaszkodott, ami rontja az összképet a klinika gyógyítási eredményeiről.",
+        "en": "Positive reviews report successful oral surgeries, prompt detection of swallowed foreign objects, and stable management of canine epilepsy. Conversely, a handful of dissatisfied owners report worsening health conditions following clinic visits and question therapeutic decisions, resulting in mixed client sentiment regarding clinical results."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "hu": "Magas árak és merev fizetési feltételek",
+        "en": "High prices and strict payment terms"
+      },
+      "text": {
+        "hu": "A díjszabást illetően a gazdik jelentős része kifejezetten magasnak találja a klinika árait a budapesti átlaghoz képest. Különösen az előre fizetendő drága ultrahangos vizsgálatok és a részletfizetés teljes hiánya váltott ki komoly felháborodást a látogatók körében. Sokan sérelmezik, hogy még kritikus helyzetekben sem mutat rugalmasságot a vezetés.",
+        "en": "Regarding clinic fees, a significant portion of pet owners finds prices notably steep compared to standard veterinary costs across Budapest. In particular, mandatory upfront payment for diagnostic imaging and the strict refusal of installment financing triggered severe criticism. Many guardians resent the complete lack of financial flexibility even during emergencies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Elérhető-e angol nyelvű ellátás a Dembinszky utcai rendelőben?",
+        "en": "Is English-speaking veterinary consultation available at the clinic?"
+      },
+      "a": {
+        "hu": "Igen, a klinika felkészült a nemzetközi és angolul beszélő gazdik fogadására és részletes tájékoztatására.",
+        "en": "Yes, the veterinary team regularly welcomes international clients and conducts thorough consultations in English."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Rendelkezik-e a rendelő külön macskabarát várórésszel?",
+        "en": "Does the facility offer a dedicated cat-friendly waiting area?"
+      },
+      "a": {
+        "hu": "Igen, a cica várórésszel és külön vizsgálószobával felszerelt rendelő macskabarát szemlélettel csökkenti a stresszt.",
+        "en": "Yes, the practice features a dedicated feline waiting corner and exam room to minimize veterinary stress for cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Lehetséges-e részletfizetésben megállapodni a nagyobb kezelések díjára?",
+        "en": "Are installment payment options available for major procedures?"
+      },
+      "a": {
+        "hu": "A tapasztalatok és vélemények alapján a kezelési költségeket egy összegben kell kiegyenlíteni, részletfizetési lehetőség nem érhető el.",
+        "en": "According to client reviews, treatment and diagnostic costs must be settled in full without installment financing options."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
