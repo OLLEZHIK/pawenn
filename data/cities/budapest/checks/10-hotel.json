@@ -11,7 +11,7 @@
     "repuloteri-cica-es-kutyapanzio",
     "edenkert-kutyapanzio"
   ],
-  "hash": "a339bdb64fcf71a93ff331b3c619755c71b286300933de7ab3b308d6420775d4",
+  "hash": "121aabf08c470bf53de7c26e7a0a696c0ed9e40abf6379c48a9273c0ff124bc5",
   "result": "PASS",
   "history": [
     {
@@ -31,6 +31,21 @@
     },
     {
       "at": "2026-10-18T11:16:55.193Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T07:48:12.910Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-23T22:09:39.746Z",
+      "result": "FAIL",
+      "listed": 1
+    },
+    {
+      "at": "2026-10-23T22:13:45.225Z",
       "result": "PASS",
       "listed": 0
     }
