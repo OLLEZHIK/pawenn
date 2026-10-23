@@ -1,0 +1,149 @@
+{
+  "slug": "vet-spa-porto",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/VET+SPA+Porto/data=!4m7!3m6!1s0xd246f7492e71a1b:0x61820f1689324ee6!8m2!3d41.157695!4d-8.6801672!16s%2Fg%2F11clvt94vs!19sChIJGxrnknRvJA0R5k4yiRYPgmE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Canal de comunicação e resposta rápida",
+        "en": "Responsive communication and feedback channel"
+      },
+      "text": {
+        "pt": "Os tutores salientam a interação atenta e a disponibilidade no acompanhamento por parte do espaço na Foz do Douro. A gerência responde de forma personalizada aos comentários e procura esclarecer qualquer dúvida com brevidade. O contacto direto e a cortesia no diálogo são pontos assinalados positivamente por quem frequenta o consultório.",
+        "en": "Pet owners note the responsive interaction and dedicated follow-up provided by this practice in Foz do Douro. Management promptly addresses customer inquiries and actively clarifies feedback. The courteous approach and consistent communication channels are regularly highlighted by clients visiting the local office."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Equipa atenciosa com opiniões divergentes",
+        "en": "Attentive staff with divided opinions"
+      },
+      "text": {
+        "pt": "A maioria dos clientes elogia a simpatia e a dedicação das técnicas e veterinárias, destacando a competência nos banhos e consultas. Por outro lado, um relato crítico recente manifesta descontentamento com a ausência de pessoal durante a pausa de almoço, apontando falta de vigilância pontual enquanto os animais permaneciam nas instalações.",
+        "en": "Most visitors commend the warmth and expertise of the veterinarians and groomers, noting dedicated care during examinations and baths. However, a critical review expresses dissatisfaction regarding staff absence during lunch breaks, citing a lack of active supervision while dogs were kept waiting inside the facility."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Maneio carinhoso e episódio de stresse",
+        "en": "Gentle handling alongside stress concerns"
+      },
+      "text": {
+        "pt": "Vários tutores referem que os seus cães se sentem calmos no espaço, conseguindo tolerar tosquias e cuidados veterinários sem grande agitação. Em sentido oposto, um comentário adverte para a ansiedade sentida por animais deixados sozinhos no interior da clínica a meio do dia, pedindo maior atenção ao bem-estar emocional dos patudos.",
+        "en": "Several guardians share that their dogs remain remarkably relaxed at the salon, tolerating baths and checkups without significant distress. In contrast, one review points out visible anxiety in pets left unattended inside during midday hours, calling for greater consideration of the emotional comfort of animals on site."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O VET SPA Porto disponibiliza banhos e tosquias no local?",
+        "en": "Does VET SPA Porto provide grooming and bathing on site?"
+      },
+      "a": {
+        "pt": "Sim, os clientes destacam os serviços de spa, tosquia e banho para cães, incluindo pelagens difíceis.",
+        "en": "Yes, clients highlight dedicated pet spa, bathing, and clipping services, including care for demanding coats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Como funcionam as urgências veterinárias fora de horas?",
+        "en": "How are after-hours veterinary emergencies handled?"
+      },
+      "a": {
+        "pt": "O apoio de urgência permanente de 24 horas é assegurado em parceria com a Clínica Veterinária do Campo Alegre.",
+        "en": "Permanent 24-hour emergency support is provided in partnership with Clínica Veterinária do Campo Alegre."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "Onde se localiza o VET SPA no Porto?",
+        "en": "Where is VET SPA located in Porto?"
+      },
+      "a": {
+        "pt": "Situa-se na Rua do Marechal Saldanha 365, na zona nobre da Foz do Douro, no Porto.",
+        "en": "It is located at Rua do Marechal Saldanha 365, in the Foz do Douro area of Porto."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 3,
+      "topics": {
+        "communication": "~"
+      }
+    }
+  ]
+}
