@@ -1,0 +1,159 @@
+{
+  "slug": "cityvet-next-kft",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cityvet+Next+Kft./data=!4m7!3m6!1s0x4741dc4592815803:0xf25fa4f94bdd455c!8m2!3d47.4890298!4d19.0541117!16s%2Fg%2F1hhwk7pvf!19sChIJA1iBkkXcQUcRXEXdS_mkX_I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "hu": "Segítőkész személyzet megosztó tapasztalatokkal",
+        "en": "Helpful personnel with divided experiences"
+      },
+      "text": {
+        "hu": "Több páciens kiemeli az orvosok kedvességét a Belgrád rakparton, és külön dicséri az angolul beszélő doktornő figyelmes tájékoztatását. Ugyanakkor komoly kritika is megfogalmazódik: egy gazdi a műtét utáni tünetek elbagatellizálását és a felületes hozzáállást nehezményezte macskája ellátása során, ami súlyos csalódást okozott számára.",
+        "en": "Several clients praise the friendly manner of vets on Belgrád rakpart, highlighting attentive consultations from the English-speaking staff. However, sharp criticism also emerges: one pet owner reported a serious lack of vigilance when post-surgical complications were downplayed as stress, leaving guardians with mixed impressions of care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "hu": "Eredményes beavatkozások súlyos panasszal kísérve",
+        "en": "Effective treatments alongside serious complaint"
+      },
+      "text": {
+        "hu": "A véleményezők egy része életmentő beavatkozásokról, sikeres kölyökkutya-kezelésekről és zökkenőmentes útlevél-kiállításról számol be. Ezzel szemben tragikus kimenetelű fogászati beavatkozásról is érkezett beszámoló, ahol a diagnosztikai vizsgálatok elmaradása miatt a páciens nem élte túl a beavatkozás utáni szövődményeket a rendelőben.",
+        "en": "Some reviewers report lifesaving medical interventions, successful puppy treatments, and seamless issuance of pet passports. Conversely, a tragic dental procedure was reported where delayed blood diagnostics failed to catch severe post-operative decline, leading to pet loss and casting doubt on therapeutic consistency across complex cases."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "hu": "Gyakori várakozás és szűkös nyitvatartás",
+        "en": "Frequent waiting and restricted clinic hours"
+      },
+      "text": {
+        "hu": "A látogatók többször kifogásolják a rövidített rendelési időt, amely a dolgozó gazdák számára nehezen elérhetővé teszi az ellátást a hétköznapokon. Emellett a helyszínen hosszabb várakozási idő alakulhat ki, bár az előzetes bejelentkezés nélküli fogadás lehetőségét egyes vendégek pozitívumként értékelik a belvárosi rendelőben.",
+        "en": "Visitors repeatedly express frustration with the clinic's reduced opening schedule, which makes weekday visits difficult for working pet owners. Furthermore, clients frequently encounter extended waiting times on site, although the ability to drop in without a prior appointment is appreciated by occasional drop-in pet guardians in the city center."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Elérhető-e angol nyelvű állatorvosi ellátás a Belgrád rakparton?",
+        "en": "Is English-speaking veterinary consultation available?"
+      },
+      "a": {
+        "hu": "Igen, a külföldi páciensek véleményei alapján a rendelőben dolgozik kiválóan angolul kommunikáló állatorvos.",
+        "en": "Yes, client reviews confirm that the clinic has an English-speaking veterinarian who communicates thoroughly with international pet owners."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "hu": "Szükséges-e előzetes bejelentkezés az alapvető vizsgálatokhoz?",
+        "en": "Is a prior appointment required for routine examinations?"
+      },
+      "a": {
+        "hu": "A tapasztalatok szerint a rendelőben időpont nélkül, érkezési sorrendben is fogadják a pácienseket, ám ez várakozással járhat.",
+        "en": "According to feedback, clients can drop in without an appointment during surgery hours, though this may involve longer waiting times."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Segítenek-e az állatútlevél és az utazáshoz szükséges oltások intézésében?",
+        "en": "Do they assist with pet passports and travel vaccinations?"
+      },
+      "a": {
+        "hu": "Igen, a rendelő vállalja a külföldi utazásokhoz előírt vakcinázást és a hivatalos kisállat-útlevél kiállítását.",
+        "en": "Yes, the clinic prepares the mandatory travel vaccinations and issues official European pet passports for travelling companions."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
