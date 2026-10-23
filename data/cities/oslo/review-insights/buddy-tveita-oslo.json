@@ -1,0 +1,146 @@
+{
+  "slug": "buddy-tveita-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Buddy/data=!4m7!3m6!1s0x46416f99b1e6a36b:0xddc2594664421c9d!8m2!3d59.9137863!4d10.8412421!16s%2Fg%2F1q64b3fmw!19sChIJa6PmsZlvQUYRnRxCZEZZwt0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "no": "Hyggelige medarbeidere med ledelsesmessige utfordringer",
+        "en": "Friendly shop clerks and management friction"
+      },
+      "text": {
+        "no": "Kunder roser ofte de butikkansatte for en hyggelig og hjelpsom tone i det daglige salgsarbeidet. Likevel har det oppstått misnøye knyttet til daglig leders strenge returpraksis og håndtering av klager. I tillegg rapporterte én kunde om en uheldig opplevelse ved kloklipp som førte til ubehag for hunden.",
+        "en": "Clients frequently praise retail clerks for their friendly and courteous attitude during everyday shopping visits. Nonetheless, substantial frustration arose regarding the store manager restrictive refund stance and handling of grievances. Furthermore, one customer reported a distressing claw trimming incident that upset their dog."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "no": "Godt vareutvalg og ryddig butikklokale",
+        "en": "Good product selection and neat store"
+      },
+      "text": {
+        "no": "Besøkende fremhever at Buddy på Tveita Senter har et bredt og variert vareutvalg til kjæledyr. Eiere trekker spesielt frem det gode utvalget av hypoallergent kattefôr med én proteinkilde samt råfôr. Butikken oppleves som en praktisk og trivelig nærbutikk med enkel tilgang på senteret.",
+        "en": "Visitors emphasize that the Buddy shop at Tveita Senter offers a broad and diverse range of pet supplies. Cat and dog guardians particularly appreciate the varied stock of single-protein hypoallergenic cat food and raw meat diets. The store is regarded as a tidy, convenient local shopping destination inside the center."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "no": "Rask varehenting men stivbent kundeservice",
+        "en": "Prompt order pickup and inflexible policies"
+      },
+      "text": {
+        "no": "Flere opplever rask bekreftelse og smertefri utlevering ved reservering av varer på nett. Samtidig har kunder opplevd manglende svar på skriftlige henvendelser og lite fleksibilitet ved retur av ubrukte varer. Kommunikasjonen fungerer utmerket ved ordinære kjøp, men kan oppleves rigid ved reklamasjoner.",
+        "en": "Several pet owners report swift order confirmations and seamless pickups when reserving products online. Conversely, customers have experienced unanswered written inquiries and uncompromising stances on merchandise returns. Communication works smoothly for direct purchases but can feel rigid when resolving disputes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "no": "Hva slags returordning har butikken ved kjøp?",
+        "en": "What refund and return policy does the store operate?"
+      },
+      "a": {
+        "no": "Butikken opererer ikke automatisk med åpent kjøp, og refunderer primært via tilgodelapp med mindre annet er avtalt på forhånd.",
+        "en": "The store does not automatically provide cash refunds on returns, issuing store credit vouchers unless agreed in advance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "no": "Tilbyr Buddy Tveita råfôr til hund og katt?",
+        "en": "Does Buddy Tveita supply raw diets for pets?"
+      },
+      "a": {
+        "no": "Ja, butikken fører et solid sortiment av råfôr fra produsenter som VOM og MUSH samt spesialtilpasset våtfôr.",
+        "en": "Yes, the store carries a broad selection of frozen raw diets from makers like VOM and MUSH alongside specialty wet foods."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "no": "Hvor ligger butikken og hvordan er parkeringen?",
+        "en": "Where is the shop located and what is parking like?"
+      },
+      "a": {
+        "no": "Butikken ligger på Tveita Senter i bydel Alna, med rikelig med parkeringsplasser tilknyttet kjøpesenteret.",
+        "en": "The store is located in Tveita Senter within the Alna district, offering extensive customer parking at the mall."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "no": "Kan man reservere varer for henting i butikk?",
+        "en": "Can customers reserve items for click-and-collect pickup?"
+      },
+      "a": {
+        "no": "Ja, butikken tilbyr klikk og hent med rask ordrebekreftelse og problemfri utlevering over disk.",
+        "en": "Yes, the store provides click-and-collect reservations with fast order confirmation and hassle-free pickup."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "place": "+",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
