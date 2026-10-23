@@ -1,0 +1,158 @@
+{
+  "slug": "petxl-alna-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PetXL+Alna/data=!4m7!3m6!1s0x46416f952bffadeb:0xe2a087bf980af66b!8m2!3d59.9270938!4d10.8482817!16s%2Fg%2F11b7f334cw!19sChIJ663_K5VvQUYRa_YKmL-HoOI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "no": "Kritikk mot kundebehandling og veiledning",
+        "en": "Customer service and guidance concerns"
+      },
+      "text": {
+        "no": "Selv om enkelte faste kunder fremhever hyggelige og hjelpsomme ansatte i butikken på Alna, opplever flere besøkende servicen som skuffende. Tilbakemeldingene peker på lite imøtekommende betjening ved reklamasjoner, utilstrekkelig produktrådgivning og uenigheter i kassen.",
+        "en": "While some regular patrons praise friendly and helpful shop assistants at the Alna branch, multiple shoppers report disappointing customer service. Feedback highlights unhelpful desk interactions during product returns, questionable pet food advice and disputes at checkout."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "no": "Misnøye med oppfølging og meldinger",
+        "en": "Dissatisfaction with communication and follow-up"
+      },
+      "text": {
+        "no": "Flere kunder klager over dårlig kommunikasjon ved henvendelser og problemer med medlemskap. Kunder rapporterer at de fortsetter å motta uønskede tekstmeldinger og e-poster etter utmelding, samt at det oppstår frustrasjon når personalet diskuterer feil på varer.",
+        "en": "Several customers express dissatisfaction regarding poor communication during inquiries and membership handling. Reviewers note that unwanted promotional text messages and emails persist after opting out, alongside frustrating communication during product exchange requests."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "no": "Stort dyrevarehus med bredt vareutvalg",
+        "en": "Spacious pet department store with broad selection"
+      },
+      "text": {
+        "no": "Besøkende lar seg imponere over det store lokalet på Alna Senter og det omfattende sortimentet av fôr, bur og tilbehør. Mange setter pris på den store akvarieveggen med levende fisk og planter, og synes det er praktisk å finne alt til kjæledyr på ett felles sted.",
+        "en": "Visitors are impressed by the vast retail space at Alna Senter and the wide assortment of animal food, cages and accessories. Many appreciate the extensive aquarium display wall featuring live fish and aquatic plants, finding it convenient to shop everything in one stop."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "no": "Hva slags utvalg finnes i butikken på Alna?",
+        "en": "What kind of selection is available at the Alna store?"
+      },
+      "a": {
+        "no": "PetXL Alna tilbyr et bredt sortiment av fôr, utstyr, leker, bur samt en stor akvarieavdeling med levende fisk og planter.",
+        "en": "PetXL Alna offers a wide assortment of pet food, equipment, toys, cages, and a large aquarium section with live fish and plants."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "no": "Tilbyr PetXL Alna pelsstell og hundefrisør?",
+        "en": "Does PetXL Alna provide dog grooming services?"
+      },
+      "a": {
+        "no": "Ja, varehuset har et eget stellerom for hund som tilbyr vask og klipp etter avtale.",
+        "en": "Yes, the store features an in-house grooming salon that provides baths and clipping by appointment."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "no": "Hvordan oppleves parkering ved varehuset?",
+        "en": "How is parking access at the shopping center?"
+      },
+      "a": {
+        "no": "Butikken ligger på Alna Senter med god tilgang til felles kundeparkering rett ved inngangen.",
+        "en": "The shop is located at Alna Senter with easy access to ample customer parking near the entrance."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    }
+  ]
+}
