@@ -1,0 +1,34 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "tenma-animal-clinic",
+    "atsuta-animal-clinic",
+    "neo-animal-clinic",
+    "kishigami-animal-hospital",
+    "osaka-animal-medical-center",
+    "osakaumeda-pet-clinic",
+    "shinsaibashidobutsu-clinic",
+    "chuo-animal-medical-center",
+    "neovets-vr-center"
+  ],
+  "hash": "35e8e6be2e787c45ffcce84dd5546236609d871ecccf98df595999622df5df76",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T22:47:25.976Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-23T22:52:13.235Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-23T23:01:13.887Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
