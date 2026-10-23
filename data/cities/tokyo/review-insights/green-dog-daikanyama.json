@@ -1,0 +1,176 @@
+{
+  "slug": "green-dog-daikanyama",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Convenient boutique in Daikanyama T-SITE",
+        "ja": "代官山T-SITEの心地よい空間"
+      },
+      "text": {
+        "en": "Visitors appreciate the bright, tidy store environment nestled in the greenery of Daikanyama T-SITE Garden in Shibuya. Customers highlight the convenient on-site parking and enjoyable ambiance, making it a favorite destination during walks with dogs. The shelves are packed with curated foods, stylish accessories, and treats, alongside changing interior displays that keep repeat visits fresh.",
+        "ja": "渋谷区の代官山T-SITE GARDEN内に位置するこちらの店舗は、緑豊かな落ち着いた環境と清潔で明るい店内で多くの飼い主から親しまれています。施設専用の駐車場が完備されており車でのアクセスが便利な点や、愛犬との散歩コースとして立ち寄りやすい雰囲気が好評です。厳選されたフードや機能的なトリーツ、おしゃれな首輪などが豊富に揃っており、定期的に店内のディスプレイが変わるため訪れるたびに新鮮な気持ちで楽しめると評価されています。愛犬家が集う心地よい交流の場としても広く定着しており、愛犬と一緒に充実した時間を過ごせます。"
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Knowledgeable guidance mixed with service lapses",
+        "ja": "専門的なアドバイスと接客のばらつき"
+      },
+      "text": {
+        "en": "Experiences with store staff present a notable contrast across customer reviews. Several clients warmly commend knowledgeable employees who provide thoughtful dietary advice and long-term care management for pets. Conversely, other visitors report frustrating incidents at the register, citing inattentive service, billing errors, and lack of apologies during extended waits for assistance.",
+        "ja": "店舗スタッフの接客対応については、利用者からの評価が大きく分かれる傾向が見られます。知識豊富なスタッフから愛犬の健康管理や食事に関する丁寧なアドバイスを受け、長年にわたり安心して任せているという好意的な意見が多くあります。一方で、混雑時のレジ対応において待たされた際の謝罪がなかったり、商品の確認や会計時のミスに対して不親切な態度を取られたりしたという指摘もあり、接客の一貫性に課題を感じる声が寄せられています。接客態度の改善と丁寧な応対を期待する意見も少なくなく、改善への強い期待が込められている店舗です。"
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Health support and enjoyable pet gear",
+        "ja": "愛犬の健康維持と快適なペット用品"
+      },
+      "text": {
+        "en": "Pet guardians report that items selected at this store contribute positively to their animals' daily routines and vitality. Reviewers mention dependable light-up collars for night walks, healthy natural snacks, and ongoing wellness management for senior dogs and cats. Seeing other pets around the premises creates an engaging, friendly community atmosphere for visiting companions.",
+        "ja": "店頭で選んだフードや用品を使用した飼い主からは、愛犬や愛猫の健康維持や散歩の快適さに対して満足の声が寄せられています。夜間の安全を守る充電式の光る首輪や、安心素材で作られたサーモンスティックなどのおやつを喜んで食べている様子が報告されています。また、持病を持つ高齢の愛猫の投薬や健康管理を長く支えてもらっているという声もあり、ペットの健やかな暮らしを支える良質な商品とサービスが多くの飼い主に支持されています。ペットとの毎日の生活が豊かになると評判で、愛犬の喜ぶ愛らしい姿が多く見られ、飼い主も幸せな気持ちになります。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is parking available for customers visiting Green Dog Daikanyama?",
+        "ja": "代官山店を利用する際に駐車場はありますか？"
+      },
+      "a": {
+        "en": "Yes, customers can utilize the shared parking facilities provided at Daikanyama T-SITE.",
+        "ja": "はい、代官山T-SITEの共用有料駐車場を利用してアクセスすることが可能です。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the shop feature an on-site grooming salon?",
+        "ja": "店内にトリミングサロンは併設されていますか？"
+      },
+      "a": {
+        "en": "Yes, the boutique operates an integrated grooming salon offering styling and bathing for dogs.",
+        "ja": "はい、店舗内にはグルーミングサロンが併設されており、犬のシャンプーやトリミングを行っています。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can pet owners receive customized nutritional consultations?",
+        "ja": "ペットの食事や健康相談はできますか？"
+      },
+      "a": {
+        "en": "Yes, knowledgeable staff provide advice on pet nutrition and food choices suited to individual dogs and cats.",
+        "ja": "はい、専門知識を持つスタッフが愛犬や愛猫の体質や健康状態に応じたフードやサプリメントの相談に応じています。"
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "prices": "-",
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ],
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Green+Dog+Daikanyama/data=!4m7!3m6!1s0x60188b4fd9e37823:0xa91ae5bbb6cbfebd!8m2!3d35.6495106!4d139.7003928!16s%2Fg%2F1hc682c4k!19sChIJI3jj2U-LGGARvf7LtrvlGqk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "observed_at": "2026-10-22",
+  "reviews_in_period": 10
+}
