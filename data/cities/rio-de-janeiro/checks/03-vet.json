@@ -1,0 +1,43 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "veterinary-clinic-grajau",
+    "cetra-vet-recreio-clinica-veterinaria-24h",
+    "vet-staff",
+    "vet-veterinary-service",
+    "iemev-specialty-institute-of-veterinary-medicine",
+    "clinica-veterinaria-vet-ilha",
+    "centro-veterinario-lagoa",
+    "hospital-veterinario-citta-vet-unid-citta-office-mall"
+  ],
+  "hash": "481e63be8e91f2e8565291b69d6ba4baadeb0967ff5328e39a6da400dd03d426",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T09:15:11.062Z",
+      "result": "FAIL",
+      "listed": 82
+    },
+    {
+      "at": "2026-10-23T09:18:28.753Z",
+      "result": "FAIL",
+      "listed": 82
+    },
+    {
+      "at": "2026-10-23T09:29:32.014Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-23T09:36:11.843Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T09:38:15.593Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
