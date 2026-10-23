@@ -1,0 +1,137 @@
+{
+  "slug": "sunny-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sunny+Animal+Clinic/data=!4m7!3m6!1s0x60188f202c9dd61f:0xf2b7ddb57d4e97ed!8m2!3d35.7082887!4d139.7795193!16s%2Fg%2F11hf_m430x!19sChIJH9adLCCPGGAR7ZdOfbXdt_I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "ja": "親切な獣医師と一部受付の課題",
+        "en": "Kind veterinary staff with mixed reception"
+      },
+      "text": {
+        "ja": "台東区東上野のクリニックでは、獣医師や看護師の優しく親身な対応が飼い主から高く評価されています。診察室では動物と飼い主の双方に寄り添い、丁寧な問診と複数の治療選択肢の提示が行われています。初めて動物を迎えた方でも不安を感じさせない温かい雰囲気が支持されています。一方で、受付スタッフの言葉遣いや遅刻時の対応について厳しさを感じたという指摘や、案内順序への疑問を呈する声も寄せられています。接遇面においてスタッフ間で印象の違いがあるものの、医療従事者の技術と親切な人柄に対しては確かな信頼が置かれています。真摯な診察姿勢が高く評価されています。",
+        "en": "In Taito City's Higashiueno, clients frequently commend the veterinarians and nurses for their compassionate demeanor. Clinicians take time to listen carefully and offer varied treatment choices tailored to the pet's condition. However, one reviewer reported disappointment with reception staff regarding stern remarks about arrival times and payment order. The medical team's clinical dedication earns consistent praise."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "丁寧なケアと入院管理への指摘",
+        "en": "Attentive care with boarding concerns"
+      },
+      "text": {
+        "ja": "犬や猫だけでなくウサギなどのエキゾチックアニマルに対しても、負担を最小限に抑えた丁寧な診療が行われています。高齢で毛球症を繰り返すウサギに対して親身に寄り添った看取り対応など、動物への深い愛情が評価されています。初診時でも動物たちが緊張せずに診察を受けられたという声が多い一方、半日入院時にオムツ交換が行われず汚れた状態で戻ってきたという衛生面への不満の声も1件報告されています。日常の診察室での優しい処置が支持される一方で、預かり管理におけるより一層の配慮を求める意見も存在します。丁寧な処置への感謝の声が多数を占めています。",
+        "en": "Clinicians provide gentle treatment designed to minimize physical stress for dogs, cats, and rabbits. An owner described compassionate terminal care for an elderly rabbit with chronic digestive issues, praising the empathetic attitude. Although most animals feel at ease during clinical exams, one client expressed concern after a short hospitalization when their pet was returned soiled. Overall, clinical handling remains highly praised."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "分かりやすい説明と受付対応の差",
+        "en": "Clear diagnosis with front-desk friction"
+      },
+      "text": {
+        "ja": "獣医師による病状や検査結果の説明は、専門知識がない飼い主にも非常に分かりやすいと好評です。現在の状態や治療方針がしっかりと理解できるため、安心して通院を続けられると信頼されています。しかし、交通渋滞による遅刻時に受付で厳しい口調で事前連絡を求められた点や、会計順の案内基準が分かりにくかったことに対する不満も挙げられています。診察室内での十分で丁寧なコミュニケーションが高く評価されている一方で、受付窓口における飼い主への配慮ある対応の徹底が望まれています。丁寧な診察室での対応が安心感につながっています。",
+        "en": "Pet guardians commend clinicians for explaining diagnoses and lab findings in plain language without jargon. These thorough discussions help owners clearly grasp their pet's health status and make informed treatment decisions. Conversely, one reviewer felt frustrated by a harsh reminder from the front desk regarding late arrivals due to traffic. While medical consultations are praised, clients appreciate consistent courtesy from all counters."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "ウサギなどの小動物も診てもらえますか？",
+        "en": "Are small companion animals like rabbits treated?"
+      },
+      "a": {
+        "ja": "はい、ウサギの消化器疾患や高齢期のケアなど、犬猫以外の診察実績も報告されています。",
+        "en": "Yes, the clinic treats rabbits and addresses species-specific conditions such as intestinal obstruction."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "初めてペットを飼う場合でも相談しやすいですか？",
+        "en": "Is the clinic supportive for first-time pet owners?"
+      },
+      "a": {
+        "ja": "はい、獣医師が専門用語を使わずに分かりやすく説明してくれるため、安心して受診できます。",
+        "en": "Yes, veterinarians provide clear, accessible explanations tailored to owners without prior medical knowledge."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "予約時間や受付ルールについて注意点はありますか？",
+        "en": "Are there specific guidelines regarding appointment timing?"
+      },
+      "a": {
+        "ja": "予約診療を行っているため、交通渋滞などで遅れる際は事前に電話連絡を入れることが推奨されます。",
+        "en": "Since consultations follow scheduled times, calling ahead when delayed by traffic is strongly recommended."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "animals": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

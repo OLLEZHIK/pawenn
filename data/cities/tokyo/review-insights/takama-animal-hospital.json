@@ -1,0 +1,136 @@
+{
+  "slug": "takama-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Takama+Animal+Hospital/data=!4m7!3m6!1s0x6018f31f446f6e11:0x1c8289ab91150b81!8m2!3d35.680294!4d139.6698989!16s%2Fg%2F1tgk0p1p!19sChIJEW5vRB_zGGARgQsVkauJghw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "ja": "院長の熱意とアットホームな対応",
+        "en": "Veteran director care and clinic atmosphere"
+      },
+      "text": {
+        "ja": "命を救うことに情熱を注ぐ院長先生の真摯な姿勢や、少ない人数ながらテキパキと温かく支えてくれる看護師の対応に深い信頼を寄せる飼い主が多く見られます。家族経営ならではのアットホームな雰囲気の中で、親身に励ましてくれる姿勢が心強いと好評です。その一方で、糖尿病を患う犬への配慮に欠けた食事対応や、副院長との見解の違い、重篤な救急管理に対する処置姿勢に強い疑問を呈する厳しい批判も寄せられています。日常診療での親しみやすさを愛する人が多い反面、専門的な処置対応には賛否があり、利用者の間で意見が分かれています。",
+        "en": "Many clients admire the clinic director's dedication to preserving animal lives, describing the staff as hardworking and compassionate. The family-run atmosphere creates a warm environment where pet parents feel encouraged during illness. However, a critical review expressed dissatisfaction with diabetes management and perceived differences in medical advice, leaving views on complex interventions divided."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "ja": "動物への愛情と重症患者への管理",
+        "en": "Animal affection and critical care"
+      },
+      "text": {
+        "ja": "院長が無類の動物好きであることが伝わり、犬や猫はもちろんウサギなどの小動物に対しても優しく接してくれると温かい評価を得ています。寝たきりになったペットの余生を少しでも長く健やかに過ごせるよう生活指導を行ってくれた体験など、動物に寄り添う姿勢が感謝されています。しかしその反面、重篤な心臓病や低血糖発作を起こしたペットに対する集中管理や設備面での対応に不信感を抱いた声もあり、命に関わる急性期の動物管理については慎重な意見も見受けられ、評価が二分しており、症状に応じた判断が求められています。温かな愛情を評価する声と設備面への懸念が並存しています。",
+        "en": "Pet owners highlight the director's love for animals, noting gentle handling across species including dogs, cats, and small pets like rabbits. Clients appreciate practical advice that helped prolong quality time for bedridden elderly animals. Conversely, critical feedback raised serious concerns regarding the monitoring of acute emergencies, citing equipment limits in intensive care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "治療実績と検査機器の限界",
+        "en": "Treatment outcomes and diagnostic scope"
+      },
+      "text": {
+        "ja": "脱臼の夜間緊急処置や避妊手術、寝たきりペットの延命サポートなど、確かな処置実績に感謝する声が寄せられています。ワクチン接種や定期検診には非常に適した病院として親しまれています。その一方で、院内にレントゲン設備がなく超音波検査のみで診断を行っているため、腫瘍の早期発見や転移確認に限界があったと振り返る飼い主の意見もあります。また、糖尿病の合併症管理に失敗したと主張する批判もあり、高度な精密検査や専門的治療を要する症例については他院との併用が意識されており、受け止め方に差があります。症状の性質に応じた使い分けが利用者により推奨されています。",
+        "en": "Reviewers share successful treatment experiences, including prompt nighttime care for dislocations, neutering surgeries, and supportive maintenance for senior animals. The practice is recommended for routine vaccinations. However, clients note the clinic relies on ultrasound without an in-house X-ray machine, leading to diagnostic limits when detecting metastases, which prompts advice to weigh advanced care needs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "予約制ですか、それとも順番制ですか？",
+        "en": "Is an advance reservation required?"
+      },
+      "a": {
+        "ja": "予約制ではなく来院順（先着順）での診察となりますが、回転が早く待ち時間は比較的短いとされています。",
+        "en": "Consultations are conducted on a first-come, first-served walk-in basis, with reviewers noting efficient turnover."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "レントゲン検査は院内で行えますか？",
+        "en": "Does the clinic have an in-house X-ray machine?"
+      },
+      "a": {
+        "ja": "いいえ、超音波検査を主としておりレントゲン設備はないため、必要な場合は他院での撮影や紹介が検討されます。",
+        "en": "No, the practice relies on ultrasound examinations rather than X-rays, so external imaging may be recommended when necessary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "犬や猫以外の小動物も診察できますか？",
+        "en": "Are small companion animals like rabbits treated?"
+      },
+      "a": {
+        "ja": "はい、待合室や診察において犬や猫に加えてウサギなどの診療にも対応している様子が報告されています。",
+        "en": "Yes, clients mention that the clinic handles examinations for rabbits and other small pets alongside dogs and cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

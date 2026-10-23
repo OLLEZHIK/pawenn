@@ -1,0 +1,101 @@
+{
+  "slug": "koide-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Koide+Animal+Clinic/data=!4m7!3m6!1s0x6018f4fbc0f24c85:0x277f319dcfeebde7!8m2!3d35.6112337!4d139.6565883!16s%2Fg%2F1tcxd7c0!19sChIJhUzywPv0GGAR573uz50xfyc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "ja": "気さくで話しやすい獣医師と親身な相談",
+        "en": "Approachable veterinarians and thoughtful counsel"
+      },
+      "text": {
+        "ja": "等々力や中町エリアの地域密着型クリニックとして、獣医師の親身で温かな人柄に厚い信頼が寄せられています。2名の獣医師はどちらも話しやすく気さくな雰囲気で、日常の些細な体調変化や気になることでも気軽に相談できると好評です。飼い主の気持ちと動物の尊厳の両方に寄り添い、過剰な検査や無理な延命処置を押し付けることなく、自然な看取りを望む飼い主の意思を尊重してくれたことへの深い感謝が綴られています。営利主義に走らず動物目線の温かい獣医療を提供する姿勢が、長く通い続ける飼い主の安心感を支えています。親しみやすく誠実な診療姿勢が高く評価されています。",
+        "en": "Pet guardians in the neighborhood express deep trust in the warm approach of the clinic's veterinary team. Both veterinarians are approachable, welcoming open questions about subtle symptoms without rushed appointments. Reviewers value that the doctors prioritize animal comfort over unnecessary interventions, showing sincere respect when an owner chose natural palliative care. Their honest attitude provides lasting reassurance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "ja": "動物への負担軽減と自然なケアの重視",
+        "en": "Gentle pet handling and natural care philosophy"
+      },
+      "text": {
+        "ja": "動物への接し方が非常に優しく丁寧で、犬や猫に余計な恐怖やストレスを与えない診療体制が評価されています。定期的な混合ワクチン接種や予防ケアの際にも、全身の健康チェックを慎重に行いながら愛情を込めて触れ合ってくれる様子が報告されています。人間側の都合や利益を優先するのではなく、動物にとって何が一番自然で心地よいかを常に第一に考えて判断してくれる姿勢が、多くの飼い主から高く支持されています。身体に負担の少ないケアを重視する飼い主にとって、心から頼りにできる獣医として認知されています。動物への穏やかな配慮が飼い主の安心につながっています。",
+        "en": "Reviewers commend the clinic for compassionate handling that minimizes stress for animals. During routine examinations and vaccination visits, the doctors perform thorough checkups while treating pets with calm affection. Owners highlight that the medical philosophy centers on what is natural and comfortable for the animal, rather than aggressive interventions. This humane approach makes the clinic comforting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "定期的なワクチン接種や健康診断に対応していますか？",
+        "en": "Does the clinic handle routine vaccinations and health checkups?"
+      },
+      "a": {
+        "ja": "はい、混合ワクチン接種やフィラリア予防、丁寧な全身の健康チェックに対応しています。",
+        "en": "Yes, the clinic provides core vaccinations, heartworm prevention, and thorough routine physical examinations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "過剰な検査や無理な延命治療を勧められることはありますか？",
+        "en": "Does the clinic recommend excessive testing or aggressive end-of-life treatments?"
+      },
+      "a": {
+        "ja": "いいえ、不要な過剰診療は行わず、動物の負担軽減や自然な看取りを尊重した相談に応じています。",
+        "en": "No, the veterinarians avoid unnecessary treatments and respect care plans prioritizing animal comfort and natural palliative care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "院長先生やスタッフには相談しやすい雰囲気ですか？",
+        "en": "Is the staff receptive to questions from pet guardians?"
+      },
+      "a": {
+        "ja": "はい、親身で話しやすい人柄で、日常の小さな不安でも気兼ねなく相談できると評価されています。",
+        "en": "Yes, clients appreciate the friendly and compassionate demeanor of the doctors, making consultations reassuring."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
