@@ -4,7 +4,6 @@
   "slugs": [
     "kuonola-lauttasaari",
     "kuonola-toolo",
-    "lauttasaaren-elainlaakariasema",
     "lemmikkihoitola-kissanpaivat",
     "lemmikkihotelli-tassu-ja-tassu",
     "malmin-elainklinikka-apex-evidensia",
@@ -12,11 +11,16 @@
     "musti-ja-mirri-helsinki-easton",
     "musti-ja-mirri-helsinki-hakaniemi"
   ],
-  "hash": "69cdd88af4bbfdb661e7bbfca9fdeb11123b2ad7c0960b772ce4a0ac420b64fc",
+  "hash": "bb8f07ecd78933365c59ef9ab237153d829d46a37c1c41cf67a1d6d92e401701",
   "result": "PASS",
   "history": [
     {
       "at": "2026-10-22T20:26:54.447Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T07:34:33.455Z",
       "result": "PASS",
       "listed": 0
     }

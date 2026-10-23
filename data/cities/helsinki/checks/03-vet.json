@@ -7,10 +7,9 @@
     "catvet-kissaklinikka",
     "sanvet-elainlaakaripalvelu",
     "kapylan-elainlaakariasema-vetek",
-    "karhupuiston-pienelainklinikka",
-    "lauttasaaren-elainlaakariasema"
+    "karhupuiston-pienelainklinikka"
   ],
-  "hash": "cbb89165705c96bd41f8522c2a88e48b9f72dbc0e5dd384473d451a6a323e19d",
+  "hash": "aafb6496fe302344ab1c426870f268b8b13d49b18dfce70327d8b524365e5f8d",
   "result": "PASS",
   "history": [
     {
@@ -25,6 +24,11 @@
     },
     {
       "at": "2026-10-18T09:31:39.175Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T07:34:27.646Z",
       "result": "PASS",
       "listed": 0
     }
