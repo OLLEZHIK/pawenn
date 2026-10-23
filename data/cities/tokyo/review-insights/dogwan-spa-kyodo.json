@@ -1,0 +1,155 @@
+{
+  "slug": "dogwan-spa-kyodo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOGWAN+SPA+%E7%B5%8C%E5%A0%82/data=!4m7!3m6!1s0x6018f3a38ec8b50b:0x51737cbbe292dbef!8m2!3d35.6543977!4d139.6346761!16s%2Fg%2F11v5k9131l!19sChIJC7XIjqPzGGAR79uS4rvcc1E?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "ja": "清潔なセルフ設備と設備トラブルへの賛否",
+        "en": "Clean self-wash booths and facility issues"
+      },
+      "text": {
+        "ja": "世田谷区経堂にある当セルフスパは、個室ブースの清潔感や24時間いつでも利用できる利便性が高く評価されています。シャンプーやドライヤーなどの設備が効率的に配置され、使い勝手が良いと好評です。一方で、温水が途中で出なくなり冷水で洗わざるを得なかったという深刻な設備トラブルの報告や、専用駐車場がないため店舗前の駐車マナーに課題がある点も指摘されています。設備が正常に稼働している状態では非常に快適な施設ですが、利用環境による満足度の差が見られ、設備の確実な維持管理が望まれています。 設備が正常稼働している際の使い勝手は非常に好評を得ています。",
+        "en": "Clients in Kyodo value the clean private booths and 24-hour self-service accessibility for washing their pets. Essential equipment is arranged efficiently. However, reports of hot water failures during simultaneous usage and a lack of dedicated on-site parking present notable drawbacks alongside the convenience."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "マイクロバブルの洗浄効果と湯温の影響",
+        "en": "Microbubble washing results and water temperature"
+      },
+      "text": {
+        "ja": "マイクロバブル温水による仕上がりに関しては、被毛がサラサラかつふわふわになると好意的な声が多く寄せられています。換毛期の柴犬でもシャンプーなしで短時間にきれいに抜け毛を落とせたと実感する愛犬家が存在します。しかし、給湯設備の不具合により冷水での洗浄を余儀なくされた利用者は、十分に汚れを落とせず不満を募らせています。安定した温水供給とお手入れ手順を把握した上での利用が、期待通りの美しい仕上がりを得るための重要な鍵となっており、設備の安定性が評価を左右しています。 安定した給湯環境のもとでの利用が期待通りの仕上がりにつながります。",
+        "en": "Many visitors praise the microbubble bath for producing smooth, fluffy coats without requiring heavy shampooing, even during shedding seasons. Conversely, instances where hot water failed compromised washing effectiveness, leaving frustrated owners unable to properly cleanse their pets."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "丁寧な対面説明と厳格な規約運用",
+        "en": "Helpful staff guidance versus strict rules"
+      },
+      "text": {
+        "ja": "週末に在籍するスタッフの丁寧な利用説明については、初めて訪れる飼い主様からわかりやすくて安心できると高く評価されています。事前案内動画の提供など、スムーズに利用してもらうための工夫も好印象を与えています。その一方で、当日の予約日時変更やキャンセルに対する規約運用が極めて厳格であり、誤入力による即時変更であっても全額負担を求められた事例が批判されています。柔軟な対応を望む声があり、予約時には細心の注意を払うことが求められ、事前確認の重要性が強調されています。 予約手続きの際は日時や入力内容を十分に確認することが大切です。",
+        "en": "On weekends when staff are present, their clear instructions help newcomers operate the equipment comfortably. Helpful explanatory videos are also welcomed. However, strict cancellation enforcement with full charges even for immediate accidental booking errors caused significant frustration."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "セルフウォッシュは24時間いつでも利用できますか？",
+        "en": "Is the self-wash facility accessible 24 hours a day?"
+      },
+      "a": {
+        "ja": "はい、24時間営業しており、予約枠に合わせて早朝や夜間でもセルフ洗浄を利用できます。",
+        "en": "Yes, it operates 24/7, allowing owners to book time slots at their convenience."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "予約の変更やキャンセル規定はどうなっていますか？",
+        "en": "What is the policy regarding booking changes and cancellations?"
+      },
+      "a": {
+        "ja": "規約が非常に厳格で誤予約でも全額請求された事例があるため、予約日時の確認が必須です。",
+        "en": "Cancellation terms are very rigid with full charges applied, requiring careful entry."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "初めての利用でも機械の使い方を教えてもらえますか？",
+        "en": "Can first-time visitors receive equipment guidance?"
+      },
+      "a": {
+        "ja": "案内動画が用意されているほか、スタッフがいる週末には詳しい対面レクチャーを受けられます。",
+        "en": "Instructional videos are available, and weekend staff offer in-person demonstrations."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "results": "+",
+        "waiting": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "communication": "+"
+      }
+    }
+  ]
+}
