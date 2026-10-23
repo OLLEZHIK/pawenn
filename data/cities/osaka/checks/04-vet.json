@@ -1,0 +1,33 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "queue-animal-hospital",
+    "tenjinbashi-bambi-no-mori-animal-clinic",
+    "ichi-dog-and-cat-hospital",
+    "yodogawa-chuo-animal-hospital",
+    "earth-animal-clinic",
+    "iwamotoinuneko-clinic",
+    "bonheur-animal-hospital",
+    "nakatadobutsu-clinic"
+  ],
+  "hash": "fa210472b27d1229519607859f590ede97d22e3d8e33aaa6e932bb2ee3130316",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T00:54:09.002Z",
+      "result": "FAIL",
+      "listed": 51
+    },
+    {
+      "at": "2026-10-23T01:02:51.523Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-23T01:06:07.271Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
