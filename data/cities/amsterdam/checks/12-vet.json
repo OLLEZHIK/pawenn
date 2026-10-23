@@ -1,0 +1,36 @@
+{
+  "chunk": "12-vet",
+  "kind": "places",
+  "slugs": [
+    "de-welzijnskliniek"
+  ],
+  "hash": "adf11b1c683afef08e9908bae321dc099572a96474f380ef2dea1a71b6e8c528",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-19T18:25:09.726Z",
+      "result": "FAIL",
+      "listed": 31
+    },
+    {
+      "at": "2026-10-19T18:33:24.847Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-19T18:34:44.394Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:36:03.047Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-19T18:37:21.369Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
