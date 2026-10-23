@@ -1,0 +1,102 @@
+{
+  "slug": "musti-ja-mirri-helsinki-ruoholahti",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Musti+ja+Mirri+Helsinki+Ruoholahti/data=!4m7!3m6!1s0x46920a491e327d1d:0xeff7ee7982f3831a!8m2!3d60.163732!4d24.9103759!16s%2Fg%2F11b7ck0dxq!19sChIJHX0yHkkKkkYRGoPzgnnu9-8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Palvelukokemukset jakavat asiakkaiden mielipiteitä",
+        "en": "Mixed opinions on customer service"
+      },
+      "text": {
+        "fi": "Osa Ruoholahden myymälässä asioivista kiittää myyjien auttavaisuutta ja ystävällistä asennetta ostoksilla. Toiset kävijät ovat kuitenkin kokeneet palvelun laadun vaihtelevaksi riippuen vuorossa olevasta henkilökunnasta, jolloin asiointi ei aina vastannut odotuksia.",
+        "en": "Some pet owners visiting the Ruoholahti shop commend the helpful demeanor and pleasant guidance of the staff. However, other feedback indicates that service levels can fluctuate between visits, leaving occasional shoppers disappointed with their checkout interaction."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Vuorovaikutus myymälässä herättää keskustelua",
+        "en": "Varied impressions of store interactions"
+      },
+      "text": {
+        "fi": "Asiakkaiden palautteissa korostuu viestinnän merkitys arjen ostoshetkissä. Moni pitää henkilökohtaista neuvontaa erinomaisena ja asiantuntevana, mutta yksittäisissä kokemuksissa toivotaan tasaisempaa ja huomaavaisempaa vuorovaikutusta myyntitilanteissa.",
+        "en": "Customer reviews reflect differing sentiments regarding communication on the shop floor. While multiple shoppers appreciate attentive and clear recommendations, individual visitors note that interpersonal service can be inconsistent during busier hours."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Miten laaja tuotevalikoima Ruoholahden myymälässä on?",
+        "en": "How extensive is the product assortment in Ruoholahti?"
+      },
+      "a": {
+        "fi": "Myymälä tarjoaa kattavan valikoiman peruselintarvikkeita ja tarvikkeita, vaikkakin erikoistuotteiden valikoima on joidenkin arvioiden mukaan hieman tiivis.",
+        "en": "The store carries essential everyday foods and care supplies, though customer feedback notes a somewhat focused selection of specialty items."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Pääseekö myymälään helposti julkisilla kulkuvälineillä?",
+        "en": "Is the store easily accessible by public transit?"
+      },
+      "a": {
+        "fi": "Kyllä, liike sijaitsee Itämerenkadulla vain lyhyen kävelymatkan päässä Ruoholahden metroasemalta ja raitiovaunupysäkeiltä.",
+        "en": "Yes, the shop on Itämerenkatu is located just a short walk from Ruoholahti metro station and nearby tram stops."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fi": "Saako myymälään tuoda lemmikin mukaan?",
+        "en": "Can pets accompany owners inside the store?"
+      },
+      "a": {
+        "fi": "Kyllä, kytketyt lemmikit ovat lämpimästi tervetulleita myymälään asioinnin ajaksi.",
+        "en": "Yes, leashed pets are welcome to enter the shop together with their owners."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 hours ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "~"
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "kuonola-toolo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Kuonola,+T%C3%B6%C3%B6l%C3%B6/data=!4m7!3m6!1s0x46920b6a5d31f38d:0xdb7aed70f42a1fe7!8m2!3d60.1868333!4d24.9178266!16s%2Fg%2F11pzbm5zzw!19sChIJjfMxXWoLkkYR5x8q9HDtets?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fi": "Ystävällinen ja asiantunteva palvelu Töölössä",
+        "en": "Friendly and expert service in Töölö"
+      },
+      "text": {
+        "fi": "Asiakkaat kehuvat Töölön toimipisteen työntekijöitä heidän osaavasta, avuliaasta ja ystävällisestä työskentelystään. Trimmaajat ottavat omistajat ja lemmikit vastaan lämpimästi, ja hoitotilanteissa toimitaan rauhallisen ammattimaisesti alusta loppuun saakka.",
+        "en": "Customers consistently praise the team in Töölö for their skilled, helpful, and cordial approach. The local groomers welcome pet owners and their companions warmly, maintaining a calm and reassuring professional attitude throughout every grooming session."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Toiveiden mukainen ja huolellinen työnjälki",
+        "en": "Careful grooming tailored to requests"
+      },
+      "text": {
+        "fi": "Arvosteluissa kiitellään erittäin tarkkaa työnjälkeä niin koirien pesuissa, turkin muotoilussa kuin ensimmäisissä kynsienleikkauksissakin. Asiakkaiden mukaan leikkaukset ja siistimiset toteutetaan täsmälleen etukäteen sovittujen toiveiden mukaisesti.",
+        "en": "Reviews commend the attentive results achieved across dog washes, styling, and delicate nail clippings. Clients consistently report that trims and coat finishes match their exact specifications, leaving coats properly groomed without unwanted surprises."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "fi": "Lempeää käsittelyä ja kärsivällistä hoitoa",
+        "en": "Gentle handling for young pets"
+      },
+      "text": {
+        "fi": "Palautteissa korostuu hoitolan rauhoittava ilmapiiri, jossa lemmikkejä kohdellaan lempeästi ja kiireettömästi. Esimerkiksi pienten koiranpentujen ensimmäiset hoitotoimenpiteet kodin ulkopuolella ovat sujuneet turvallisesti ilman pelkoa tai turhaa jännitystä.",
+        "en": "Feedback highlights a soothing environment where pets receive patient, unhurried care. For example, puppies undergoing their first professional nail trims outside the home experienced relaxed appointments that built positive confidence for future salon visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Sopiiko paikka koiranpennun ensimmäiseen kynsienleikkaukseen?",
+        "en": "Is the salon suitable for a puppy first nail trim?"
+      },
+      "a": {
+        "fi": "Kyllä, asiakaspalautteen mukaan pennut saavat erittäin kärsivällistä ja lempeää ohjausta ensimmäisillä käynneillään.",
+        "en": "Yes, customer reviews report exceptionally patient and gentle handling during early puppy nail trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Onnistuuko turkin siistiminen tarkkojen toiveiden mukaan?",
+        "en": "Can grooming be customized to specific customer requests?"
+      },
+      "a": {
+        "fi": "Kyllä, asiakkaat huomauttavat leikkauksen ja siistimisen vastanneen täsmällisesti etukäteen esitettyjä toiveita.",
+        "en": "Yes, clients emphasize that styling and trimming followed their requested instructions with precision."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Millainen tunnelma Kuonolan Töölön toimipisteessä vallitsee?",
+        "en": "What is the atmosphere like at Kuonola Töölö?"
+      },
+      "a": {
+        "fi": "Tiloja kuvaillaan rauhallisiksi ja kiireettömiksi, mikä auttaa herkempiäkin koiria rentoutumaan hoitotilanteessa.",
+        "en": "The premises are described as calm and tranquil, helping sensitive dogs relax throughout their care appointment."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "tassumafia-ruoholahti",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tassumafia+Ruoholahti/data=!4m7!3m6!1s0x46920a49803a4c0d:0x530ec5689ba8240f!8m2!3d60.1635604!4d24.9161888!16s%2Fg%2F11hd9qjszr!19sChIJDUw6gEkKkkYRDySom2jFDlM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fi": "Ystävällinen ja auttavainen palvelu",
+        "en": "Attentive and helpful customer service"
+      },
+      "text": {
+        "fi": "Asiakkaat kehuvat Ruoholahden toimipisteen henkilökuntaa ystävälliseksi, osaavaksi ja helposti lähestyttäväksi. Päivähoitoon ja hoitotoimenpiteisiin tulevien lemmikkien omistajat kokevat saavansa hyvää neuvontaa ja asiantuntevaa tukea. Henkilökunnan rauhallinen ote saa toistuvasti kiitosta.",
+        "en": "Clients commend the staff at the Ruoholahti facility for being friendly, competent, and welcoming. Pet owners using daycare and grooming services appreciate receiving practical guidance and attentive support. The team's calm and patient demeanor is frequently highlighted across customer feedback."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Onnistuneet pesut ja turkinhoidot",
+        "en": "High quality grooming and treatments"
+      },
+      "text": {
+        "fi": "Arvioissa nostetaan esiin laadukkaat lopputulokset pohjavillapesuissa, kynsien leikkauksissa sekä koirahieronnassa. Myös ultraäänihammashoidosta on saatu hyviä kokemuksia ilman nukutusta. Koirien kerrotaan tulevan hoidoista puhtaina, rentoutuneina ja siistinä kotiin.",
+        "en": "Reviews emphasize dependable results for undercoat de-shedding washes, nail trimming, and therapeutic canine massage. Ultrasonic dental cleaning sessions without anesthesia are also praised. Pet owners appreciate returning home with clean, refreshed, and well-groomed companions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "fi": "Vaihtelevat arviot eläinten viihtyvyydestä",
+        "en": "Mixed feedback on pet comfort"
+      },
+      "text": {
+        "fi": "Useimmat koiranomistajat kertovat lemmikkiensä viihtyneen hoidossa hyvin ja saaneen lempeää huomiota myös iäkkäämpinä. Yksittäisessä palautteessa kuitenkin huomautetaan kissojen tilojen läheisyydestä koirien päivähoitoon, mikä voi aiheuttaa herkemmille lemmikeille stressiä haukun kantautuessa tiloihin.",
+        "en": "Most dog guardians report that their pets received gentle attention and remained relaxed during grooming or day care. However, an owner raised concerns regarding cat boarding near active dog daycare areas, noting that background barking could create stress for timid or sensitive felines."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Mitä palveluja Ruoholahden toimipisteessä tarjotaan?",
+        "en": "What services are offered at the Ruoholahti location?"
+      },
+      "a": {
+        "fi": "Toimipisteessä on tarjolla koirien päivähoitoa, turkinhoitoa ja pesuja, koirahierontaa sekä lemmikkitarvikkeita.",
+        "en": "The location provides dog daycare, grooming and baths, canine massage, and pet supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tehdäänkö toimipisteessä hampaiden puhdistusta?",
+        "en": "Is teeth cleaning available at this location?"
+      },
+      "a": {
+        "fi": "Kyllä, asiakkaat kertovat käyttäneensä Emmi-pet-ultraäänipuhdistusta lemmikkiensä hammaskiven hoitoon.",
+        "en": "Yes, clients mention using Emmi-pet ultrasonic teeth cleaning for preventative dental care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Sopiiko paikka myös kissojen hoitoon?",
+        "en": "Is the facility suitable for cat boarding?"
+      },
+      "a": {
+        "fi": "Tilassa on ollut kissahoitolapalveluita, mutta arvioissa suositellaan huomioimaan koirien haukun kuuluvuus herkille kissoille.",
+        "en": "Cat boarding has been provided, though reviews recommend considering that dog barking may affect sensitive cats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-"
+      }
+    }
+  ]
+}

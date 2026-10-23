@@ -1,0 +1,135 @@
+{
+  "slug": "musti-ja-mirri-helsinki-stockmann",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Musti+ja+Mirri/data=!4m7!3m6!1s0x46920bcc12dd4007:0x88cf4e60883b9a!8m2!3d60.1684243!4d24.9423342!16s%2Fg%2F11cll_99db!19sChIJB0DdEswLkkYRmjuIYE7PiAA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fi": "Pääosin kiitettyä mutta vaihtelevaa palvelua",
+        "en": "Largely praised yet variable service"
+      },
+      "text": {
+        "fi": "Stockmannin tavaratalossa toimiva myymälä saa paljon kiitosta ammattitaitoisista trimmaajista ja avuliaasta palvelusta. Toisaalta palautteissa huomautetaan, että ajoittain myyjät vaikuttavat kiireisiltä, jolloin asiakaskohtaaminen voi jäädä melko lyhytsanaiseksi.",
+        "en": "Shoppers at the Stockmann department store location commend the dedicated groomers and polite customer support. Nonetheless, some feedback mentions moments when busy retail personnel offered brief responses, pointing out variations in day-to-day customer care."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Onnistuneet hoitotulokset ja siisti turkki",
+        "en": "Satisfying grooming results and finishes"
+      },
+      "text": {
+        "fi": "Asiakkaat ovat erittäin tyytyväisiä myymälän yhteydessä tehtyihin turkinhoitoihin ja lemmikkien siistimiseen. Koirien ja kissojen turkit saadaan kauniiseen kuntoon hellävaraisin ottein, ja lopputulosta kuvaillaan laadukkaaksi ja huolellisesti viimeistellyksi.",
+        "en": "Pet owners express great satisfaction with the grooming and styling results delivered on site. Both canine and feline clients receive gentle care that leaves their coats neat and well conditioned, with owners praising the thoroughness of the final appearance."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fi": "Hellävaraista kohtelua aroille lemmikeille",
+        "en": "Gentle handling for timid animals"
+      },
+      "text": {
+        "fi": "Kävijät arvostavat erityisesti sitä, kuinka kärsivällisesti ja rauhallisesti eläimiä käsitellään hoitotilanteissa. Myös jännittävät ja arat lemmikit otetaan huomioon lempeästi, mikä tekee käynnistä turvallisen ja miellyttävän kokemuksen koko perheelle.",
+        "en": "Clients place strong value on the calm, patient approach taken during animal grooming sessions. Sensitive and nervous pets are handled with reassuring gentleness, allowing them to settle comfortably while their coats are trimmed or their needs are attended to."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fi": "Missä tavaratalon osassa myymälä sijaitsee?",
+        "en": "Where inside Stockmann is the pet shop situated?"
+      },
+      "a": {
+        "fi": "Myymälä toimii Helsingin keskustan Stockmann-tavaratalon sisätiloissa Aleksanterinkadun puolella.",
+        "en": "The pet shop is situated within the Stockmann department store complex in central Helsinki."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fi": "Tarjotaanko myymälässä myös kissojen trimmausta?",
+        "en": "Are cat grooming services provided at this location?"
+      },
+      "a": {
+        "fi": "Kyllä, arvioissa kiitetään asiantuntevaa kissatrimmaajaa ja rauhallista käsittelyä.",
+        "en": "Yes, client reviews highlight skilled and gentle cat grooming treatments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fi": "Löytyykö myymälästä lahjatavaroita ja erikoistuotteita?",
+        "en": "Does the store stock gift items and pet novelties?"
+      },
+      "a": {
+        "fi": "Kyllä, keskustan liikkeestä löytyy laadukkaita lemmikkitarvikkeita, asusteita ja sesonkituotteita.",
+        "en": "Yes, the downtown outlet offers quality accessories, pet apparel and gift ideas."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 3,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
