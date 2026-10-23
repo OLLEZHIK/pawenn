@@ -1,0 +1,146 @@
+{
+  "slug": "bright-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bright+Animal+Clinic/data=!4m7!3m6!1s0x60188b34579957f3:0x59d59574ca43524f!8m2!3d35.6357797!4d139.6936261!16s%2Fg%2F11cs9mhxy6!19sChIJ81eZVzSLGGART1JDynSV1Vk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "親身な診察への信頼と受付や対応への批判",
+        "en": "Compassionate veterinary care and service complaints"
+      },
+      "text": {
+        "ja": "獣医師の献身的で親身な診察姿勢に対しては、信頼を寄せる飼い主から感謝の言葉が寄せられています。大切な愛犬の命を救ってもらった経験や、丁寧な診察によって安心して通院しているという肯定的な評価が存在します。その一方で、受付スタッフの態度が無愛想で冷たく感じられたという指摘や、担当獣医師が事前の説明なしに変更されたことに対する不満など、接遇面に対する厳しい批判も報告されています。医療スタッフ個々人に対する印象に大きな温度差が見られます。来院者が不安を抱かない安心できる受付環境の整備と、温かく親切なコミュニケーションの徹底が求められています。",
+        "en": "Some clients express gratitude for the veterinarian's attentive care, noting that timely interventions saved their pet during emergencies. However, critical reviews report cold reception service and unannounced changes in attending doctors, leading to frustration. Experiences with clinic personnel vary noticeably between compassionate clinical care and contentious administrative interactions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "営業時間内の受付対応や言語サポートへの不満",
+        "en": "Access limitations and language barrier concerns"
+      },
+      "text": {
+        "ja": "連絡や受付対応の運用面に関して、複数の飼い主から強い不満が表明されています。営業時間内であるにもかかわらずシャッターを閉められ、夜間救急病院への受診を指示されたという苦情や、日本語を話せない外国人利用者への診療対応を拒否されたという指摘が寄せられています。また、投薬指示や担当医の変更に関する事前共有の不足など、飼い主とのコミュニケーションにおける配慮の欠如が批判の対象となっており、意思疎通や受入体制の改善が求められています。緊急時や多様な来院者に寄り添った丁寧な案内と、診療方針に関する透明性ある事前説明の徹底が強く望まれています。",
+        "en": "Reviewers report notable difficulties with communication and patient intake protocols. One owner described being turned away during business hours and redirected elsewhere, while an international visitor reported refused service due to language barriers. Inadequate communication regarding prescription changes also prompted criticism, pointing to a need for more transparent patient coordination."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "緊急時の救命実績と重大な処置トラブルへの懸念",
+        "en": "Emergency lifesaving and serious treatment grievances"
+      },
+      "text": {
+        "ja": "治療結果に関しては、評価が極めて二極化しています。危機的な状況において的確な処置により愛犬の命を救われたという高い評価がある一方、処方薬の取り違えが発生し命に関わる危機を感じたという訴えや、適切な処置が行われないまま愛するペットを失ったと主張する極めて深刻な批判が寄せられています。救命事例が存在するものの、投薬管理のミスや重大な結果に対する不信感から、治療の安全性や結果に対する評価は全体として極めて厳しい傾向にあります。重大な医療トラブルを防止するための診療の安全性に対する徹底した配慮と、厳格な薬剤管理体制が求められています。",
+        "en": "Feedback on treatment results reveals starkly polarized experiences among pet guardians. While one reviewer credits the clinic with saving their dog's life in an emergency, other reviews raise grave allegations, including incorrect medication dispensing and fatal outcomes. Although successful interventions occur, the severity of reported clinical discrepancies results in negative overall sentiment regarding treatment results."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "外国語での診察や通訳アプリを用いた受診は可能ですか？",
+        "en": "Does the clinic accommodate non-Japanese speakers or translation apps?"
+      },
+      "a": {
+        "ja": "日本語でのコミュニケーションが原則とされており、外国語対応には制限があるとの指摘があります。",
+        "en": "Reviews indicate that Japanese communication is required and foreign language support is not accommodated."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "緊急時や夜間の対応は行っていますか？",
+        "en": "Are emergency and after-hours medical services provided?"
+      },
+      "a": {
+        "ja": "夜間や受付終了間際の場合は、近隣の夜間救急動物病院への受診を案内されることがあります。",
+        "en": "For late arrivals or after-hours emergencies, the clinic may refer owners to dedicated emergency hospitals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "通院時に特定の獣医師を指名することはできますか？",
+        "en": "Can owners request a specific veterinarian for ongoing care?"
+      },
+      "a": {
+        "ja": "シフト等により担当獣医師が変更される場合があるため、受診前の事前確認が推奨されます。",
+        "en": "Attending doctors may vary depending on daily duty rosters, so confirming in advance is advised."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    }
+  ]
+}
