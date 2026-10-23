@@ -1,0 +1,153 @@
+{
+  "slug": "exonimalia",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Exonimalia/data=!4m7!3m6!1s0xd2465ba78ae61b1:0xa2de424ca8c7f5ce!8m2!3d41.1705571!4d-8.6270522!16s%2Fg%2F11f3nmp5nm!19sChIJsWGueLplJA0RzvXHqExC3qI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Atendimento conhecedor e sempre prestável",
+        "en": "Knowledgeable and helpful customer support"
+      },
+      "text": {
+        "pt": "Os clientes elogiam a simpatia e o elevado nível de conhecimento técnico demonstrado pelos colaboradores. A equipa mostra-se sempre disponível para esclarecer dúvidas sobre espécies não convencionais e aconselhar os produtos mais adequados para cada animal de estimação.",
+        "en": "Customers praise the friendliness and specialized product knowledge demonstrated by the staff. Team members are consistently ready to answer detailed inquiries regarding exotic species and provide sound advice on suitable foods, habitats, and necessary equipment."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Variedade excelente de produtos especializados",
+        "en": "Wide variety of specialized products"
+      },
+      "text": {
+        "pt": "A loja destaca-se pela grande diversidade de artigos disponíveis tanto nas instalações físicas no Porto como na loja online. Os tutores de roedores, répteis e aves afirmam encontrar com facilidade alimentação específica, substratos e guloseimas difíceis de achar noutros locais.",
+        "en": "The shop stands out for its wide assortment of supplies available in both its Porto retail store and online catalog. Guardians of reptiles, rodents, and exotic birds mention easily finding specialized feeds, substrates, and treats rarely stocked by mainstream retailers."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Respostas rápidas e apoio competente",
+        "en": "Prompt communication and helpful advice"
+      },
+      "text": {
+        "pt": "O suporte ao cliente por mensagem e correio eletrónico é classificado como célere e eficiente. Os utilizadores referem respostas imediatas a questões sobre prazos de entrega e características de produtos, permitindo fazer encomendas online com total confiança e transparência.",
+        "en": "Customer assistance via email and direct messaging is rated as remarkably prompt and reliable. Shoppers report quick clarifications concerning stock availability and delivery estimates, allowing them to place orders smoothly and with complete confidence."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A Exonimalia vende artigos para animais exóticos e roedores?",
+        "en": "Does Exonimalia carry supplies for exotic pets and rodents?"
+      },
+      "a": {
+        "pt": "Sim, os clientes encontram ampla oferta de alimentos e acessórios para répteis, hamsters e pequenos mamíferos.",
+        "en": "Yes, clients highlight a comprehensive range of foods and accessories for reptiles, hamsters, and small mammals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A loja online faz envios rápidos de encomendas?",
+        "en": "Does the online store deliver orders quickly?"
+      },
+      "a": {
+        "pt": "Sim, os compradores elogiam a rapidez no envio e o acondicionamento cuidadoso das encomendas recebidas.",
+        "en": "Yes, online shoppers commend fast dispatch times and careful packaging of shipped supplies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Os funcionários esclarecem dúvidas sobre cuidados com espécies exóticas?",
+        "en": "Do staff members answer questions about exotic pet care?"
+      },
+      "a": {
+        "pt": "Sim, as opiniões destacam o aconselhamento experiente e a orientação prestada sobre alimentação e maneio.",
+        "en": "Yes, reviewers emphasize the knowledgeable guidance provided regarding diets and proper species care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "waiting": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
