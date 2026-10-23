@@ -1,0 +1,27 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "naniwa-animal-clinic",
+    "tsurumi-est-animal-clinic",
+    "shinfukushima-animal-clinic",
+    "uehommachi-animal-hospital",
+    "osaka-bird-hospital",
+    "ps-first-animal-hospital-osaka",
+    "fukushima-central-animal-clinic"
+  ],
+  "hash": "c91ec2daba63943463dd0beac61c2faefd6e9f8ca40f259e4a97ee57d0878aa2",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T22:28:37.688Z",
+      "result": "FAIL",
+      "listed": 27
+    },
+    {
+      "at": "2026-10-23T22:39:18.771Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
