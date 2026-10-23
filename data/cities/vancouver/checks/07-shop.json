@@ -1,0 +1,30 @@
+{
+  "chunk": "07-shop",
+  "kind": "places",
+  "slugs": [
+    "moonlight-natural-pet-store",
+    "vancouver-pet-food-and-supply",
+    "benni-co-pet-store",
+    "tisol-main-st",
+    "pet-pantry-commercial-dr",
+    "pet-pantry-davie-st",
+    "pet-pantry-main-st",
+    "pet-planet-west-broadway",
+    "naturally-urban-pet-store-to-your-door",
+    "woofgang-pet-supplies"
+  ],
+  "hash": "ab2afbde609fe45f34e3923b91023a0e4f3e88eb14acb0077b6cb054314b7cc3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T22:28:19.706Z",
+      "result": "FAIL",
+      "listed": 28
+    },
+    {
+      "at": "2026-10-23T22:46:56.762Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
