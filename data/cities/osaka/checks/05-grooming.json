@@ -1,0 +1,27 @@
+{
+  "chunk": "05-grooming",
+  "kind": "places",
+  "slugs": [
+    "pet-salon-trust",
+    "parcs"
+  ],
+  "hash": "2b4655166f99b04eb4a09fade56e71e7b0fea3cf8f2cec882723b8e7904815bb",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T00:59:15.255Z",
+      "result": "FAIL",
+      "listed": 42
+    },
+    {
+      "at": "2026-10-23T00:59:53.977Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-23T01:02:09.594Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
