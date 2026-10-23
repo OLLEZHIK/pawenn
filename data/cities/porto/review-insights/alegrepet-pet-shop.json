@@ -1,0 +1,102 @@
+{
+  "slug": "alegrepet-pet-shop",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/AlegrePet+Pet+Shop/data=!4m7!3m6!1s0xd246530c3b9e383:0xb001fb71204ef777!8m2!3d41.1550752!4d-8.6480002!16s%2Fg%2F11ffvd81dq!19sChIJg-O5wzBlJA0Rd_dOIHH7AbA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Atendimento acolhedor e disponibilidade da equipa",
+        "en": "Welcoming customer service and attentive team"
+      },
+      "text": {
+        "pt": "Os clientes destacam o atendimento simpático e prestável dos funcionários na loja. Os tutores sentem-se bem recebidos e valorizam a atenção personalizada prestada durante as compras e no apoio aos animais. A dedicação da equipa é frequentemente mencionada como um ponto forte do espaço no Porto.",
+        "en": "Customers highlight the friendly and helpful customer service provided by the store staff. Pet owners feel well received and appreciate the personalized attention given while shopping and supporting their pets. The team's dedication is frequently mentioned as a strong point of this Porto shop."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Localização acessível e variedade de produtos",
+        "en": "Accessible location and diverse product range"
+      },
+      "text": {
+        "pt": "As avaliações realçam a boa localização do estabelecimento na Rua de Grijó e a variedade de artigos disponíveis nas prateleiras. Os visitantes apreciam o ambiente agradável da loja e a comodidade do serviço de banhos para cães. É considerado um espaço prático para as necessidades do dia a dia.",
+        "en": "Reviews emphasize the convenient location on Rua de Grijó and the wide variety of items available on the shelves. Visitors appreciate the pleasant shop atmosphere and the convenience of the dog bathing service. It is considered a practical spot for daily pet supplies and essential care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A AlegrePet dispõe de serviço de banhos para cães?",
+        "en": "Does AlegrePet offer dog bathing services?"
+      },
+      "a": {
+        "pt": "Sim, os clientes referem a existência de um serviço cuidadoso de banhos caninos no local.",
+        "en": "Yes, customers mention the availability of a thorough dog bathing service on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Que tipo de produtos se encontram disponíveis na loja?",
+        "en": "What kind of products are available in the store?"
+      },
+      "a": {
+        "pt": "A loja disponibiliza rações, acessórios e diversos artigos de cuidado diário para animais de companhia.",
+        "en": "The shop provides pet food, accessories, and various daily care items for pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Onde se localiza a loja AlegrePet no Porto?",
+        "en": "Where is the AlegrePet shop located in Porto?"
+      },
+      "a": {
+        "pt": "O estabelecimento situa-se na Rua de Grijó 30, na zona ocidental do Porto.",
+        "en": "The establishment is located at Rua de Grijó 30, in the western area of Porto."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
