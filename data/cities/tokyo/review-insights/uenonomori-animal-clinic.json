@@ -1,0 +1,146 @@
+{
+  "slug": "uenonomori-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Uenonomori+Animal+Clinic/data=!4m7!3m6!1s0x60188c2c0cf54937:0x27f031c9312c9e04!8m2!3d35.7196256!4d139.7674145!16s%2Fg%2F1s049x4rg!19sChIJN0n1DCyMGGARBJ4sMckx8Cc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "ja": "専門性と接遇をめぐる厳しい評価",
+        "en": "Clinical expertise offset by staff friction"
+      },
+      "text": {
+        "ja": "台東区谷中にある上野の森どうぶつ病院では、血液疾患や心臓病に対する院長の専門知識を評価する声がある一方、スタッフの対応や接遇に対して厳しい批判が寄せられています。受診時に飼い主を責めるような言動が見られたという声や、ペットホテル利用時に体調急変の報告が不十分であったとする指摘が目立ちます。さらに受付や院内での私語や声の大きさがペットや飼い主に過度なストレスを与えているという不満も散見されます。高い専門性を有している一方で、医療従事者としての配慮や親身な接遇姿勢の改善を求める飼い主が多く存在します。対応改善が望まれます。",
+        "en": "At Uenonomori Animal Clinic near Nezu Station, specialized cardiology and hematology knowledge is recognized by select clients. However, overall sentiment toward staff is predominantly critical due to perceived harsh manners. Reviewers report feeling blamed during visits or experiencing poor communication during boarding services. Furthermore, loud chatter among personnel causes stress for nervous pets. Owners urge greater empathy."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "難病寛解と治療経過に対する賛否",
+        "en": "Disparate outcomes in specialized veterinary treatments"
+      },
+      "text": {
+        "ja": "治療実績に対する飼い主の評価は大きく二極化しています。他院で治療が困難とされた希少な血液疾患が的確な診断により寛解に至った事例や、幼少期の心臓病の予兆を正確に見抜いて長期管理に繋げた成功例が高く評価されています。しかし一方で、処方された投薬が全く奏功せず他院への転院で回復したケースや、経鼻チューブ設置処置後に体調が急変して落胆した飼い主の声も報告されています。高度な専門治療を期待して訪れる飼い主が多い分、期待通りの成果が得られなかった際の落差や不信感が顕著に表れています。治療結果の受け止め方は様々です。",
+        "en": "Treatment outcomes reported by pet owners show sharply contrasting results across different cases. Clients with rare hematological disorders praise the clinic for achieving clinical remission, and others credit the hospital with detecting early heart conditions. Conversely, negative reviews highlight ineffective medications and traumatic declines following invasive tube insertions, reflecting varied clinical results."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "説明不足と院内コミュニケーションの課題",
+        "en": "Inadequate updates and communication barriers"
+      },
+      "text": {
+        "ja": "飼い主への情報共有や説明のあり方について、強い不満を示す意見が目立っています。ペットホテル預かり中にペットが体調を崩した際、問い合わせるまで詳細な経過や検査結果が共有されなかったという指摘や、終末期において配慮に欠ける言葉をかけられたという悲痛な体験談が寄せられています。また、待合室や受付におけるスタッフの声が大きすぎて落ち着かないという指摘もあり、飼い主との丁寧で静かな対話姿勢が求められています。不安を抱える飼い主に対する細やかな気配りと、透明性の高い情報開示が課題となっています。対話の質が問われています。",
+        "en": "Reviews highlight persistent concerns regarding communication transparency. Pet owners cite distressing experiences where boarding staff failed to proactively share health updates when animals fell ill. Other clients describe blunt remarks from doctors when discussing critical terminal options. Furthermore, loud conversation in the reception area detracts from a calm atmosphere. Pet owners emphasize the need for clearer dialogue."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "心臓病や循環器の専門的な診療は行っていますか？",
+        "en": "Does the clinic offer specialized veterinary cardiology care?"
+      },
+      "a": {
+        "ja": "はい、日本獣医循環器学会認定医が在籍しており、心臓病の診断や外科治療に注力しています。",
+        "en": "Yes, certified veterinary cardiology specialists provide advanced cardiac examinations and surgical treatments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "ペットホテルや預かりサービスは利用できますか？",
+        "en": "Are pet boarding and hotel services available on-site?"
+      },
+      "a": {
+        "ja": "はい、ペットホテルサービスを提供していますが、預かり中の健康管理や連絡体制については事前確認が推奨されます。",
+        "en": "Yes, boarding services are offered, though confirming health monitoring protocols in advance is advisable."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "診療時間外や夜間の救急対応は行っていますか？",
+        "en": "Is emergency care available after regular hospital hours?"
+      },
+      "a": {
+        "ja": "提携している夜間救急動物病院との連携体制を整えており、夜間の緊急時には提携先を案内しています。",
+        "en": "The clinic coordinates with affiliated emergency animal hospitals for medical assistance during night hours."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

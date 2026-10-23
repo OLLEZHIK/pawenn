@@ -1,0 +1,137 @@
+{
+  "slug": "er-animal-emergency-center-bunkyo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ER%E5%8B%95%E7%89%A9%E6%95%91%E6%80%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E6%96%87%E4%BA%AC/data=!4m7!3m6!1s0x60188c3a1d94ad5d:0x6335a9d6bfad062!8m2!3d35.721206!4d139.753303!16s%2Fg%2F11b6d9_181!19sChIJXa2UHToMGGARguStawOqMwc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "受付や獣医師の対応に対する厳しい批判",
+        "en": "Critical reviews on reception and medical bedside"
+      },
+      "text": {
+        "ja": "文京区白山にある当救急センターでは、受付スタッフや当直獣医師の冷淡な接客態度に対して利用者から多くの批判が寄せられています。深夜の救急搬送時に丁寧な処置を受けて愛猫が落ち着きを取り戻したと感謝する体験談もあるものの、大半の投稿では電話口や窓口での威圧的で思いやりに欠ける言動が指摘されています。不安を募らせて駆けつけた飼い主様の心情に寄り添わず、冷たく突き放すような物言いをされたとの声が目立ち、緊急時の医療現場として接遇面での改善が強く求められており、飼い主への配慮が望まれます。 不安を抱えて来院する飼い主様に寄り添う配慮が求められています。",
+        "en": "Emergency visitors in Bunkyo express severe disappointment regarding cold or abrasive interactions with desk staff and duty clinicians. Although one owner felt reassured after nighttime feline care, several others experienced unsympathetic communication and dismissive attitudes during urgent crises."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "ja": "電話問い合わせ時の受け入れ拒否と説明不足",
+        "en": "Admission turnaways and communication barriers"
+      },
+      "text": {
+        "ja": "夜間の緊急連絡時における電話応対や受け入れ可否の伝達方法に強い不満が集まっています。愛犬の嘔吐や誤食で慌てて相談した際、詳しい症状を聞き取った後に一方的に受け入れを断られたり、緊急度を確認することなく電話口で診療を拒否されたりした事例が報告されています。また英語での対応ができず重症の小動物の診療を断られた外国人からの投稿も見られます。救急病院としての存在意義を問う厳しい意見が上がっており、的確かつ丁寧な初期問診体制と、受診者に対する誠実な状況説明が切実に求められています。 救急受け入れ基準に関する明確な情報提供が望まれています。",
+        "en": "Callers report heightened stress when attempting nighttime consultations over the phone. Multiple owners recount having admissions refused abruptly after describing vomiting or accidental ingestion, without triage empathy. Lack of English support for non-Japanese clients further restricts access during critical hours."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "対象動物の制限と診察時の共感姿勢への不満",
+        "en": "Pet species restrictions and empathetic care"
+      },
+      "text": {
+        "ja": "救急搬送された動物に対する診察姿勢や受け入れ対象の範囲について懸念の声が寄せられています。深夜に衰弱したハムスターなどのエキゾチックアニマルの受け入れが断られた事例や、異物誤飲でぐったりしているペットに対して事務的で冷淡な対応をされたという体験談が記録されています。大切な家族である動物の命を前にして十分な共感が感じられなかったとの不満が残っており、救急医療における動物福祉と丁寧な診察プロセスの両立が強く望まれており、動物目線に立った温かな看護が期待されています。 緊急時における動物目線の丁寧なケアの確立が切望されています。",
+        "en": "Pet owners raise concerns over species coverage and clinical compassion for distress cases. The center refused emergency assistance for a critically ill hamster due to small companion limitations, and others felt that pets suffering from foreign ingestion received hurried, detached evaluations."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "夜間救急の電話相談ではすぐに受け入れてもらえますか？",
+        "en": "Are night emergency cases admitted immediately via phone?"
+      },
+      "a": {
+        "ja": "混雑や重症度により電話口で受け入れを断られた事例があるため、事前の症状確認が必須です。",
+        "en": "Callers report that admissions may be turned away based on triage status and hospital capacity."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "英語での救急診療や外国人対応は可能ですか？",
+        "en": "Is English assistance available for foreign pet owners?"
+      },
+      "a": {
+        "ja": "英語対応のサポートがなく断られたとの口コミがあり、日本語での相談が基本となっています。",
+        "en": "Reviews note an absence of English-speaking staff, making Japanese communication essential."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "ハムスターなどの小動物も救急で診てもらえますか？",
+        "en": "Does the emergency center treat small pets like hamsters?"
+      },
+      "a": {
+        "ja": "ハムスターなどのエキゾチックアニマルは対応対象外として断られる場合があると報告されています。",
+        "en": "Exotic pets such as hamsters may not be accepted under night emergency care protocols."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}

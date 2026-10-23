@@ -1,0 +1,124 @@
+{
+  "slug": "dogly-tokyo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOGLY/data=!4m7!3m6!1s0x60188e814e97a947:0x22a3e1ad8c3d6921!8m2!3d35.7217792!4d139.7816699!16s%2Fg%2F1v26m2wr!19sChIJR6mXToGOGGARIWk9jK3hoyI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "説明不足や対応方針に対する厳しい指摘",
+        "en": "Critical feedback on communication and support"
+      },
+      "text": {
+        "ja": "台東区根岸にある当施設では、利用規約や幼稚園のシステムに関する説明不足について利用者から厳しい声が上がっています。重要な情報が質問しないと案内されない点や、預かり中の体調や食事の様子の共有が他施設に比べて乏しいといった不満が指摘されています。また、送迎後のトラブルや疑問に対する電話対応において誠実な説明や謝罪が感じられなかったとの投稿も見られます。施設利用を検討するにあたり、事前カウンセリングで疑問点を徹底的に確認しておくことが推奨されており、より透明性の高い案内が求められています。 預け入れ時の事前確認を徹底することが推奨されています。",
+        "en": "Reviewers in Taito City express notable frustration regarding lack of proactive communication and unclear explanations of daycare rules. Important fee details were reportedly shared only upon inquiry, with limited daily behavioral updates. Unresponsive handling of customer concerns following visits further compounds client dissatisfaction."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "ja": "スタッフ対応のばらつきと衛生管理の懸念",
+        "en": "Service inconsistency and hygiene concerns"
+      },
+      "text": {
+        "ja": "スタッフの接客態度や業務品質のばらつきに対して批判的な意見が寄せられています。施設貸切イベントでの親切な対応を評価する声が存在する一方で、日常の預かりサービスでは配慮の不足や衛生管理上の不手際を指摘する体験談が綴られています。送迎後に愛犬の被毛が湿っていたり排泄物が付着していたりした事例が報告されており、プロのケアを期待して高額な料金を支払う飼い主様からの信頼が損なわれた形となっています。日々の現場における一貫した管理徹底と、スタッフ全体の丁寧な業務姿勢が切望されています。 現場スタッフへの一貫した指導と管理体制の向上が求められています。",
+        "en": "Clients cite uneven attentiveness among personnel across different services. While private rental events received polite assistance, regular daycare routines saw complaints regarding handling diligence and grooming cleanliness. Instances of damp coats and soiled fur upon return generated significant dissatisfaction among owners."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "ja": "ドッグラン設備と利用状況への分かれた評価",
+        "en": "Mixed impressions of dog run facilities"
+      },
+      "text": {
+        "ja": "鶯谷駅近くの施設環境に関しては、利用目的や利用日によって大きく評価が分かれています。貸切利用の際には広々とした空間で充実したサービスを受けられたと満足する声がある一方、通常のドッグラン利用時には他のワンちゃんがおらず期待外れだったという体験が報告されています。電話で案内された保護犬との交流が実際にはほとんどなく、遊具もない環境で愛犬が楽しめなかったという落胆の声も見られます。目的に応じて事前の設備や利用状況の確認が重要視されており、事前問い合わせが不可欠とされています。 利用前に設備状況や当日の受け入れ環境を問い合わせておくことが望まれます。",
+        "en": "Feedback regarding the indoor runs varies noticeably depending on visit context. Private facility rentals are appreciated for spacious convenience, whereas general dog run visitors reported unfulfilled expectations regarding playmates and play equipment. Checking operational schedules beforehand helps ensure suitable arrangements."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "ドッグランや幼稚園の利用システムは事前に確認できますか？",
+        "en": "Can daycare and dog run rules be reviewed beforehand?"
+      },
+      "a": {
+        "ja": "説明が受動的になりがちとの声があるため、料金や利用規約は事前に細かく質問することが推奨されます。",
+        "en": "Clients advise asking detailed questions beforehand, as proactive policy explanations may be sparse."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "施設貸切や週末ワークショップの評判はどうですか？",
+        "en": "How are weekend events and private rentals rated?"
+      },
+      "a": {
+        "ja": "週末のイベントや全館貸切利用に関しては、空間の使いやすさや運営が好評を得ています。",
+        "en": "Weekend workshops and exclusive venue rentals generally receive positive marks for utility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "送迎サービス利用時の注意点はありますか？",
+        "en": "What should owners note regarding shuttle services?"
+      },
+      "a": {
+        "ja": "引き渡し時の状態や衛生面の管理について懸念を述べる声があるため、帰宅後の確認が望まれます。",
+        "en": "Some reviewers noted hygiene issues upon return, suggesting careful inspection after trips."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
