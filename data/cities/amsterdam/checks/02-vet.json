@@ -3,7 +3,6 @@
   "kind": "places",
   "slugs": [
     "dierenkliniek-amsterdam-noord",
-    "dierendokters-amsterdam",
     "dierenkliniek-de-jordaan",
     "dierenkliniek-de-pijp",
     "natuurlijk-gezonde-dieren",
@@ -13,7 +12,7 @@
     "dierenkliniek-overtoom",
     "sterkliniek-dierenartsen-amsterdam-uiterwaardenstraat"
   ],
-  "hash": "b53bd49d559c084ac9b45774d22cfa8c0ad89a8f212fd49e7502851cf423b944",
+  "hash": "1f466f816986fd2bbbe7982cccbbfd4ba9e4b6edf8836df3d901addd3ae97f97",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +27,21 @@
     },
     {
       "at": "2026-10-18T09:52:16.647Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T05:27:02.218Z",
+      "result": "FAIL",
+      "listed": 14
+    },
+    {
+      "at": "2026-10-23T05:30:05.051Z",
+      "result": "FAIL",
+      "listed": 10
+    },
+    {
+      "at": "2026-10-23T05:33:54.212Z",
       "result": "PASS",
       "listed": 0
     }
