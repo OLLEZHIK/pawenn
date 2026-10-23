@@ -1,0 +1,35 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "bureau-veterinaire-griffintown",
+    "hopital-veterinaire-oiseaux-animaux-exotiques-montreal",
+    "soins-veterinaires-ndg",
+    "clinique-veterinaire-saint-henri",
+    "ophtalmo-veterinaire",
+    "baker-animal-hospital",
+    "veterinaire-passionimo-journet",
+    "vet-chez-vous",
+    "hopital-veterinaire-le-petit-laurier",
+    "hopital-veterinaire-du-nord"
+  ],
+  "hash": "6238f1e4b1bd4cc6282a257734ad8ed61ec2ea392f83231621b232a086db2b1d",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T11:14:29.048Z",
+      "result": "FAIL",
+      "listed": 13
+    },
+    {
+      "at": "2026-10-23T11:21:54.872Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-23T11:24:40.620Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
