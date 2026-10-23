@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "vetalia-condesa",
+    "veterinaria-marina",
+    "animalitos-hospital-veterinario-polanco",
+    "hospital-veterinario-peques",
+    "hospital-veterinario-animal-home-pedregal",
+    "hospital-veterinario-animal-home-coapa",
+    "veterinary-clinic-daltrhe",
+    "banfield-pet-hospital-coyoacan",
+    "hospital-de-especialidades-pet-and-vet",
+    "animalitos-hospital-veterinario-quevedo"
+  ],
+  "hash": "ba5c4a35368dc835b786bb4de4ff14976743a67ba002d9cb2d7378ffff313725",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-22T23:44:37.742Z",
+      "result": "FAIL",
+      "listed": 119
+    },
+    {
+      "at": "2026-10-22T23:58:18.052Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
