@@ -1,0 +1,95 @@
+{
+  "slug": "dogman-and-friends-majorstuen-oslo",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dogman+and+friends/data=!4m7!3m6!1s0x46416dda5783f4c5:0x1097f0e40f62fd05!8m2!3d59.9293109!4d10.7145343!16s%2Fg%2F1tlqnl3x!19sChIJxfSDV9ptQUYRBf1iD-TwlxA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive and helpful customer service",
+        "no": "Oppmerksom og hjelpsom kundeservice i butikken"
+      },
+      "text": {
+        "en": "Customers highlight the friendly and accommodating service provided by the staff at the store in Majorstuen. Pet owners appreciate the polite assistance and welcoming reception during their visits, noting that the employees help find suitable pet care products.",
+        "no": "Kunder trekker frem den vennlige og imøtekommende servicen fra de ansatte i butikken på Majorstuen. Dyreeiere setter pris på den høflige hjelpen og den hyggelige mottakelsen under besøk, og bemerker at personalet bistår med å finne egnede artikler til kjæledyr."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Where is Dogman and friends located on Majorstuen?",
+        "no": "Hvor ligger Dogman and friends på Majorstuen?"
+      },
+      "a": {
+        "en": "The store is located in Bogstadveien 53 in Oslo, close to public transport on Majorstuen.",
+        "no": "Butikken ligger i Bogstadveien 53 i Oslo, like i nærheten av kollektivtransport på Majorstuen."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do customers describe the price level?",
+        "no": "Hvordan beskriver kunder prisnivået i butikken?"
+      },
+      "a": {
+        "en": "Reviewers note that prices can be somewhat high, but the broad selection of pet items makes up for it.",
+        "no": "Anmeldere bemerker at prisene kan være noe stive, men at det brede utvalget av utstyr veier opp for dette."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs welcome inside the store?",
+        "no": "Er hunder velkomne inn i butikken?"
+      },
+      "a": {
+        "en": "Yes, pets are welcome to accompany their owners while shopping for food, toys, and gear.",
+        "no": "Ja, firbente er velkomne til å bli med inn i butikken mens eierne handler fôr, leker og utstyr."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
