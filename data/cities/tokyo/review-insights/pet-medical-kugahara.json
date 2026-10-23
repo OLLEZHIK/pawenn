@@ -1,0 +1,112 @@
+{
+  "slug": "pet-medical-kugahara",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Medical+Kugahara/data=!4m7!3m6!1s0x60185fff97960bd9:0x431756c65e9c449d!8m2!3d35.5806534!4d139.6893308!16s%2Fg%2F1tctxjh0!19sChIJ2QuWl_9fGGARnUScXsZWF0M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "東洋医学の併用と治療成果への賛否",
+        "en": "Holistic treatments and mixed clinical outcomes"
+      },
+      "text": {
+        "ja": "大田区久が原にあるペットメディカル久が原では、西洋医学に加えて中医学やホモトキシコロジーなどの補完療法を取り入れた診療方針が注目されています。腎臓病や尿路結石などを患う愛猫の飼い主からは、丁寧な体質改善の指導や漢方薬の処方によって病状が安定し、穏やかに過ごせるようになったという高い評価が寄せられています。一方で、過去の重大な診断結果や処置方針をめぐって強い不満や不信感を抱いた事例も報告されており、治療効果や診断に対する評価には利用者の間で明確な意見の分かれが見られます。一般的な西洋医学の治療だけでは回復が難しかった難治症例に対するセカンドオピニオンとして頼りにされる一方で、慎重な事前のすり合わせが求められています。",
+        "en": "Pet Medical Kugahara in Ota City attracts attention for combining veterinary medicine with complementary therapies such as traditional Chinese medicine. Guardians of feline patients report that tailored holistic treatments stabilized their pets condition, providing significant relief. However, another client voiced severe dissatisfaction regarding misdiagnosis concerns, reflecting contrasting perspectives on clinical results."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "院長の親身な相談と診療への懸念",
+        "en": "Director consultations and owner feedback"
+      },
+      "text": {
+        "ja": "院長をはじめとする診療スタッフの対話姿勢については、利用者の間で意見が二分しています。慢性疾患や重病を抱える動物の飼い主からは、保身を図ることなくペットの生命力や苦痛軽減を第一に考えた率直な助言をしてくれたことや、家族の気持ちに寄り添って親身に相談に乗ってくれたことに対して深い感謝が述べられています。スタッフの優しい対応や的確な処置に全幅の信頼を寄せる声が多い一方、個人情報の取り扱いに関する不満や、診療時の説明姿勢に対する厳しい指摘も存在します。ペットの生活の質を重視した診療方針に強く共感する飼い主がいる一方で、事前の十分なコミュニケーションが重視されています。",
+        "en": "Pet owners hold contrasting impressions regarding the clinic veterinary staff. Several clients express gratitude to the director for offering compassionate guidance that prioritized pet comfort during difficult chronic illnesses. Dedicated support from nursing staff also fosters trust. Conversely, a critical review raised concerns about communication. Transparent discussions remain vital for owners facing clinical decisions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "東洋医学や漢方を取り入れた治療に対応していますか？",
+        "en": "Does the clinic incorporate traditional Chinese medicine and holistic therapies?"
+      },
+      "a": {
+        "ja": "はい、中医学やホモトキシコロジーなどの補完療法を取り入れています。",
+        "en": "Yes, the clinic integrates traditional Chinese medicine and homotoxicology alongside general veterinary care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "日曜日にも診察を受けられますか？",
+        "en": "Is veterinary care available on Sundays?"
+      },
+      "a": {
+        "ja": "はい、日曜日は事前予約制にて診療を実施しており、当日予約も相談可能です。",
+        "en": "Yes, Sunday consultations are held by appointment, with same-day inquiries accommodated."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "往診やセカンドオピニオンの相談は可能ですか？",
+        "en": "Are house visits and second-opinion consultations offered?"
+      },
+      "a": {
+        "ja": "はい、事前予約による往診や、難病に関するセカンドオピニオンの相談を受け付けています。",
+        "en": "Yes, the clinic provides scheduled home visits and second-opinion consultations for pets."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

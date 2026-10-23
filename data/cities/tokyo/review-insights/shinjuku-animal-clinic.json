@@ -1,0 +1,168 @@
+{
+  "slug": "shinjuku-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Shinjuku+Animal+Clinic/data=!4m7!3m6!1s0x60188ce0836b279b:0xc44dcf25f609f658!8m2!3d35.698134!4d139.711804!16s%2Fg%2F1v_z49wf!19sChIJmydrg-CMGGARWPYJ9iXPTcQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "ja": "担当獣医師による対応の違い",
+        "en": "Varied impressions across veterinary team"
+      },
+      "text": {
+        "ja": "新宿区新宿の新宿動物病院では、副院長や特定の担当医に対する厚い信頼が寄せられる一方で、獣医師ごとの技量や説明姿勢に差があるとの指摘も寄せられています。長年通院している飼い主からは、病状を的確に見極める確かな診療技術や、動物看護師の温かいサポートが高く評価されています。一方で、新人医師による診察時の不十分な保定や、説明不足により不安を感じたという体験談も見受けられます。日常的な予防医療から急性期の治療まで幅広く対応していますが、安心感を重視して特定の獣医師を指名して受診する利用者が目立ちます。担当医との信頼関係を重視する姿勢が大切です。",
+        "en": "Client reviews for Shinjuku Animal Clinic present a split between trust in senior veterinarians and concerns about newer staff. Long-time pet owners praise the skilled treatments and warm nursing care. Conversely, critical remarks cite inconsistent bedside manners and unclear explanations from junior doctors. While general medicine is comprehensive, many guardians prefer booking directly with familiar clinicians."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "ja": "診療説明と事前案内の丁寧さ",
+        "en": "Communication and clarity of consultations"
+      },
+      "text": {
+        "ja": "治療方針の提示や飼い主との対話に関して、評価が大きく分かれています。親身な獣医師からは、些細な質問にも誠実に答えてもらい、不要な処置を避けて選択肢を明示してくれるため安心できるという声が集まっています。一方で、検査結果の報告が留守番電話の短い一言だけであったり、事前説明と会計時の案内が食い違ったりしたことで不信感を抱いたという苦情も存在します。ペットの処置内容や費用の内訳について、診察時に双方向で十分な合意形成を図ることが求められています。気になる疑問点はその場ですぐに確認することで、より納得のいく診療を受けられます。",
+        "en": "Consultation experiences at the clinic vary considerably between different practitioners. Dedicated veterinarians receive praise for thoroughly explaining treatment options, patiently answering questions, and avoiding redundant procedures. Conversely, some clients experienced abrupt voicemail results and confusing explanations regarding pharmacy fees. Thorough communication remains a decisive factor for client satisfaction."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "ja": "事前予約体制と待ち時間の実態",
+        "en": "Appointment scheduling and waiting intervals"
+      },
+      "text": {
+        "ja": "WEB予約システムの導入により計画的に通院しやすい環境が整えられているものの、時間帯や混雑状況によって待ち時間にばらつきが生じています。オンライン予約を活用してスムーズに受診できたという肯定的な感想がある反面、予約時間通りに訪れても診察まで30分以上待たされたという不満も報告されています。待合室で待機するペットたちの緊張や負担を軽減するためにも、混雑時における的確な進行状況の案内やスムーズな誘導が求められています。時間帯による混雑の差を意識した通院計画が役立ちます。混み合う時間帯を避ける工夫が通院時の負担を減らします。",
+        "en": "The practice utilizes an online booking system to organize appointments, though actual wait times fluctuate depending on daily traffic. Several clients highlight smooth check-ins and punctual consultations. In contrast, other pet parents report waiting over half an hour past their scheduled slot in busy waiting areas. Better updates during peak periods help minimize stress for anxious pets."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "診察は予約制ですか？",
+        "en": "Is prior booking required for consultations?"
+      },
+      "a": {
+        "ja": "WEB予約システムが導入されており、事前の時間帯予約を受け付けています。",
+        "en": "Yes, the clinic operates an online booking system for scheduled consultation slots."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "特定の獣医師を指名して受診することは可能ですか？",
+        "en": "Can pet owners request a specific veterinarian?"
+      },
+      "a": {
+        "ja": "院長や副院長など特定の担当獣医師を予約時に希望して受診する飼い主が多くみられます。",
+        "en": "Yes, clients frequently request specific senior veterinarians when booking their appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "英語での診療に対応していますか？",
+        "en": "Are medical services available in English?"
+      },
+      "a": {
+        "ja": "日本語での対応が中心となっており、外国語での診療サポートは限定的です。",
+        "en": "Services are primarily conducted in Japanese, and foreign language support is limited."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+",
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
