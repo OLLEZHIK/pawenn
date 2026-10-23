@@ -1,0 +1,133 @@
+{
+  "slug": "allatorvosi-klinikai-laboratorium",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/%C3%81llatorvosi+Klinikai+Laborat%C3%B3rium/data=!4m7!3m6!1s0x4741dbf62cecb0d5:0x626b9be754e9531b!8m2!3d47.5191312!4d19.0545744!16s%2Fg%2F11c601xtng!19sChIJ1bDsLPbbQUcRG1PpVOeba2I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "hu": "Éles ellentétek a személyzet megítélésében",
+        "en": "Sharp contrasts in staff evaluation"
+      },
+      "text": {
+        "hu": "A páciensek véleménye megosztott a rendelő munkatársairól: míg egyes gazdik a laborvezető állatorvos önfeláldozó, megmentő hozzáállását dicsérik, többen arrogáns és barátságtalan bánásmódról számolnak be az asszisztencia vagy a vizsgálatok stílusa kapcsán.",
+        "en": "Client opinions regarding the clinic team are divided: while some pet owners praise the head veterinarian's dedicated and life-saving attitude, several reviewers report encountering arrogant, dismissive behavior from staff members during consultations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "hu": "Nehézkes tájékoztatás és feszült hangnem",
+        "en": "Difficult communication and strained interactions"
+      },
+      "text": {
+        "hu": "A visszajelzések alapján a szakmai konzultáció és az eredmények megbeszélése alkalmanként részletes, ám több panaszos kifejezetten elutasító hangnemet és elzárkózó modort tapasztalt a zárás előtti sürgősségi esetek vagy rutin beavatkozások egyeztetésekor.",
+        "en": "Reviewers note that while medical explanations can be informative in certain complex cases, multiple clients experienced unwelcoming, confrontational communication when seeking urgent diagnostic assistance or routine veterinary care near closing time."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "hu": "Ellentmondásos tapasztalatok a kisállatok ellátásában",
+        "en": "Mixed experiences with animal care"
+      },
+      "text": {
+        "hu": "Egyes gazdik kiemelik, hogy a rendelőben sikeresen mentették meg a súlyos állapotú, másutt feladott macskájukat vagy kismacskáikat szeretettel kezelték. Ugyanakkor kritikus vélemények is megjelentek a zárás előtt érkező kölyökkutyák ellátásának elutasításáról.",
+        "en": "Some pet owners report life-saving diagnostic interventions for critically ill cats or affectionate handling of young kittens. Conversely, other reviews express sharp disappointment over the outright refusal to examine a sick puppy arriving shortly before closing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Végeznek sürgősségi vérvizsgálatokat a rendelőben?",
+        "en": "Does the laboratory perform urgent blood tests?"
+      },
+      "a": {
+        "hu": "Igen, a rendelő állatorvosi klinikai laborvizsgálatokra specializálódott, bár a sürgősségi fogadás tapasztalatai vegyesek.",
+        "en": "Yes, the clinic specializes in diagnostic bloodwork, though client experiences regarding late emergency admissions vary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Fogadnak bejelentkezés nélkül is betegeket?",
+        "en": "Are walk-in patients accepted without appointment?"
+      },
+      "a": {
+        "hu": "A vélemények szerint előzetes időpont nélkül is felkereshető a rendelő, de az ellátás a kapacitástól és munkaidőtől függ.",
+        "en": "According to reviews, walk-ins are seen without prior booking, though service depends on daily capacity and operating hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Ellátnak macskákat és kutyákat egyaránt?",
+        "en": "Do they provide diagnostic services for both cats and dogs?"
+      },
+      "a": {
+        "hu": "Igen, a gazdik beszámolói alapján macskák és kutyák vérképelemzését és kezelését is vállalják a szakemberek.",
+        "en": "Yes, client reviews confirm that staff conduct diagnostic blood profiles and treatments for both felines and canines."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "alphazoo-dohany-utca-budapest",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ALPHAZOO/data=!4m7!3m6!1s0x4741dc5d4f9929b5:0x9b9700de9f8177af!8m2!3d47.4958913!4d19.0643957!16s%2Fg%2F11bxfs3_gm!19sChIJtSmZT13cQUcRr3eBn94Al5s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxMy4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-22",
+  "period_to": "2026-10-22",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-22",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "hu": "Bőséges kínálat kompakt belvárosi üzletben",
+        "en": "Abundant selection in compact downtown shop"
+      },
+      "text": {
+        "hu": "A vásárlók kiemelik, hogy a Dohány utcai bolt a viszonylag kisebb alapterület ellenére meglepően gazdag választékot kínál kutyáknak és macskáknak. A polcokon a prémium száraztápok, különleges jutalomfalatok és kiegészítők széles skálája megtalálható.",
+        "en": "Shoppers note that despite its modest footprint in the central Dohány street, the pet shop carries a surprisingly varied assortment for dogs and cats. Shelves are well-stocked with quality dry food, specialized treats, and essential everyday pet accessories."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "hu": "Megosztó tapasztalatok a személyzet hozzáállásáról",
+        "en": "Mixed opinions on staff helpfulness"
+      },
+      "text": {
+        "hu": "A vélemények többsége dicséri az eladók kedves és segítőkész kiszolgálását, akik hagynak időt a nézelődésre, és szakszerűen segítenek. Ugyanakkor panasz is érkezett a csomagátvétel során tanúsított barátságtalan, elutasító viselkedésre a pult mögött.",
+        "en": "Most reviews commend the retail staff for being friendly and attentive, allowing visitors to browse freely while offering helpful advice when requested. However, negative feedback also mentions dismissive and unwelcoming customer service at the parcel counter."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "hu": "Angol nyelvű segítség és vegyes visszajelzések",
+        "en": "English communication and mixed customer interactions"
+      },
+      "text": {
+        "hu": "A külföldi vásárlók kifejezetten értékelik, hogy az eladók készségesen beszélnek angolul, és az esetleges félreértéseket gyorsan tisztázzák. Ezzel szemben a csomagátvételhez kapcsolódó adminisztráció kapcsán több feszültséget és vitát jegyeztek meg a vevők.",
+        "en": "International customers appreciate that staff members readily speak English and promptly resolve billing misunderstandings. In contrast, parcel pick-up communication has occasionally drawn complaints due to inflexible enforcement of identification requirements."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "hu": "Beszélnek angolul az üzlet eladói?",
+        "en": "Does the store staff speak English?"
+      },
+      "a": {
+        "hu": "Igen, a külföldi vásárlók visszajelzései szerint a személyzet készségesen és gördülékenyen kommunikál angolul.",
+        "en": "Yes, reviews from international visitors confirm that store staff communicate helpfully and fluently in English."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Üzemel csomagátvételi pont az üzletben?",
+        "en": "Does the store operate as a parcel collection point?"
+      },
+      "a": {
+        "hu": "Igen, a bolt csomagátvételi pontként is működik, bár a vásárlók a személyes átvételhez érvényes okmányt javasolnak.",
+        "en": "Yes, the shop serves as a parcel pickup point, though customers advise having appropriate physical ID ready."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "hu": "Kaphatók speciális prémium tápok az üzletben?",
+        "en": "Are specialized premium feeds available in stock?"
+      },
+      "a": {
+        "hu": "Igen, a vásárlók kiemelik a minőségi tápok, például a Belcando márkájú eledelek és jutalomfalatok jelenlétét.",
+        "en": "Yes, customer feedback mentions the availability of quality brands such as Belcando dog food and healthy treats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
