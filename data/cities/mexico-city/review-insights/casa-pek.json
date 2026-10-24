@@ -1,0 +1,166 @@
+{
+  "slug": "casa-pek",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Casa+Pek/data=!4m7!3m6!1s0x85d1ff48d17203eb:0xd3dd05c6da549b82!8m2!3d19.4145103!4d-99.1707625!16s%2Fg%2F11lsz86_xv!19sChIJ6wNy0Uj_0YURgptU2sYF3dM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Trato al cliente con opiniones encontradas",
+        "en": "Staff interactions with contrasting opinions"
+      },
+      "text": {
+        "es": "Varios clientes reconocen con aprecio a entrenadores y cuidadores como Mario y Rafa por su labor y revisiones veterinarias en Hipódromo. Sin embargo, otros testimonios expresan descontento significativo por falta de comunicación clara y reportan actitudes descuidadas del personal.",
+        "en": "Several clients fondly acknowledge trainers and handlers like Mario and Rafa for their work and veterinary checks in Hipódromo. In contrast, other reviews report substantial dissatisfaction with unclear communication and express serious concerns regarding staff handling."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Preocupaciones sobre bienestar y contagios",
+        "en": "Critical concerns regarding pet well-being"
+      },
+      "text": {
+        "es": "Aunque algunos dueños señalan cuidados veterinarios rutinarios, múltiples reseñas críticas alertan sobre contagios de parásitos gastrointestinales como giardia. También se reportan cambios drásticos en el comportamiento de los perros, traslados estresantes y sospechas de maltrato.",
+        "en": "While some owners note routine veterinary checkups, multiple critical reviews raise serious alarms about gastrointestinal infections like giardia. Reviewers also report sudden behavioral changes in dogs, stressful van transport, and alleged mishandling by caretakers."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Críticas sobre higiene y transporte",
+        "en": "Complaints regarding hygiene and vehicle transport"
+      },
+      "text": {
+        "es": "A pesar de que la sede en avenida Nuevo León ofrece gimnasio y hospedaje, diversos usuarios critican la falta de higiene en bebederos compartidos y jaulas de traslado. Señalan incidentes con mascotas entregadas sucias y traslados no autorizados en furgonetas hacia otras zonas.",
+        "en": "Although the facility on Nuevo León Avenue offers fitness and boarding, several clients criticize hygiene protocols regarding shared water bowls and transport crates. They report incidents with dogs returned wet or soiled, along with unapproved van trips outside the city."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué instalaciones ofrece Casa Pek en Hipódromo Condesa?",
+        "en": "What facilities does Casa Pek offer in Hipódromo Condesa?"
+      },
+      "a": {
+        "es": "Dispone de gimnasio canino, áreas de agilidad, guardería diurna y modalidades de hospedaje en suite y hostal.",
+        "en": "It offers a canine gym, agility equipment, daytime daycare, and suite or hostel style boarding accommodations."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Qué señalan las reseñas sobre la salud e higiene en la estancia?",
+        "en": "What do client reviews mention about health and hygiene during boarding?"
+      },
+      "a": {
+        "es": "Varios testimonios recomiendan verificar medidas preventivas de salud ante reportes de parásitos y bebederos compartidos.",
+        "en": "Several reviews suggest verifying health protocols in light of reported parasite transmission and shared water bowls."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cómo se gestionan las reservaciones y consultas de servicio?",
+        "en": "How can owners coordinate reservations and inquiries?"
+      },
+      "a": {
+        "es": "Las consultas y reservaciones para gimnasio o pensión se coordinan directamente a través de WhatsApp o teléfono.",
+        "en": "Inquiries and bookings for gym sessions or boarding are coordinated directly through WhatsApp or phone."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
