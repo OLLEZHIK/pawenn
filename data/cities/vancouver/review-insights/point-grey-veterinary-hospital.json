@@ -1,0 +1,137 @@
+{
+  "slug": "point-grey-veterinary-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Point+Grey+Veterinary+Hospital/data=!4m7!3m6!1s0x548672e4f050763f:0xf5ac359599e94957!8m2!3d49.2636642!4d-123.2048531!16s%2Fg%2F1tgkg_2l!19sChIJP3ZQ8ORyhlQRV0npmZU1rPU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate and dedicated veterinarians"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the doctors and clinic staff, noting that professionals like Dr. Carmen and Hayden provide reassuring, knowledgeable care. Reviewers appreciate that the team displays genuine affection for pets and approaches each patient with warmth, making complex veterinary visits substantially less stressful."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Fear-free certified gentle examinations"
+      },
+      "text": {
+        "en": "Clients emphasize the clinic commitment to Fear Free principles, noting that gentle examination techniques make a remarkable difference for nervous pets. Dog and cat owners report that their companions receive attentive, individualized treatment, remaining calm and cooperative throughout routine checkups and travel exams."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Clear explanations and travel guidance"
+      },
+      "text": {
+        "en": "Visitors highlight the team thorough communication, praising veterinarians for taking the time to explain diagnoses and break down clinical procedures. Clients also praise clinic staff for efficiently guiding families through complex documentation and medical requirements needed when relocating pets abroad."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Point Grey Veterinary Hospital practice Fear Free methods?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight the practice use of Fear Free exam protocols designed to reduce stress and anxiety in companion animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the hospital assist with international pet travel documentation?"
+      },
+      "a": {
+        "en": "Yes, clients commend the clinic team for walking them through vaccination, microchip, and health certificate steps for moving abroad."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are offered at the West 10th Avenue clinic?"
+      },
+      "a": {
+        "en": "The hospital delivers comprehensive companion care including wellness exams, dental prophylaxis, digital radiology, and soft tissue surgery."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can clients book appointments online?"
+      },
+      "a": {
+        "en": "Yes, the practice website provides an online scheduling portal alongside standard telephone booking for consultations and exams."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
