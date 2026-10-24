@@ -1,0 +1,140 @@
+{
+  "slug": "all-about-dogs",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/All+About+Dogs/data=!4m7!3m6!1s0x882b3158cd24b2e7:0x150578057c7d6544!8m2!3d43.7015224!4d-79.4670181!16s%2Fg%2F1tfm78p_!19sChIJ57IkzVgxK4gRRGV9fAV4BRU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated trainers with varied feedback"
+      },
+      "text": {
+        "en": "Most pet owners praise trainers Renee and Sabira for their deep compassion, patience, and encouraging instruction during puppy classes and agility training. Clients highlight their welcoming approach and genuine dedication to dog wellbeing. In contrast, one reviewer was dissatisfied with communication regarding puppy behavior and perceived high costs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Significant obedience and agility progress"
+      },
+      "text": {
+        "en": "Dog handlers report marked improvements in their dogs' obedience and confidence after completing foundational and agility courses. Clients appreciate structured learning programs that challenge their pets while providing valuable enrichment. Several reviewers describe their dogs transitioning into well-mannered companions."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Spacious training centre with pool"
+      },
+      "text": {
+        "en": "Reviewers value the spacious indoor training facility on Gurney Crescent in North York, noting the welcoming and motivating atmosphere during group sessions. One dog owner particularly appreciated the private swimming pool booking for their pup. Multiple clients note that the venue offers well-maintained areas for sports."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of training classes are offered?"
+      },
+      "a": {
+        "en": "The facility offers puppy foundation classes, life skills obedience, and multiple levels of agility training."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is private pool swimming available for dogs?"
+      },
+      "a": {
+        "en": "Yes, clients mention booking swimming sessions at the dedicated dog pool facility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are in-home private training sessions available?"
+      },
+      "a": {
+        "en": "Yes, the training centre provides both group classes on site and customized in-home training lessons."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What should handlers bring to group classes?"
+      },
+      "a": {
+        "en": "Handlers typically bring treats, a standard non-retractable leash, and proof of age-appropriate vaccinations."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
