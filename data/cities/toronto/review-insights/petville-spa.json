@@ -1,0 +1,169 @@
+{
+  "slug": "petville-spa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Petville+Spa/data=!4m7!3m6!1s0x882b3390d2efbc99:0xa049f2b36bfb410!8m2!3d43.7053928!4d-79.3892397!16s%2Fg%2F11s2lcj040!19sChIJmbzv0pAzK4gRELS_NiufBAo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Expert styling and thorough coat restoration"
+      },
+      "text": {
+        "en": "Clients frequently express satisfaction with the styling outcomes at this Midtown salon on Yonge Street. Reviewers report that groomers skillfully handle matted coats, perform precise feline lion cuts, and eliminate tough odors following skunk encounters. Although one client was turned away when embedded nails required urgent medical care, patrons note exceptional transformations."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Patient and dedicated pet groomers"
+      },
+      "text": {
+        "en": "Dog and cat owners praise groomers Tatiana and Natalia for their gentle demeanor, patience, and professional communication. Visitors highlight that the team takes ample time to listen to styling preferences and treats each pet with genuine warmth. Many clients describe the staff as dedicated craftspeople who build lasting rapport with nervous animals."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling of delicate pets"
+      },
+      "text": {
+        "en": "Owners of senior dogs and sensitive cats appreciate the considerate pacing and stress-free environment provided at the salon. Reviewers observe that elderly pets remain calm during baths and return home noticeably comfortable and relaxed. Feline guardians especially value the delicate care provided during specialized claw clipping and coat de-matting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Petville Spa groom both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the salon provides full grooming, bath treatments, and claw clipping for both canine and feline pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the salon assist pets with matted fur?"
+      },
+      "a": {
+        "en": "Yes, groomers have extensive experience with matted coats, offering careful de-matting and feline lion cuts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are senior and nervous pets accommodated?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the staff show patience and take gentle care of elderly, disabled, and anxious animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is appointment booking available online?"
+      },
+      "a": {
+        "en": "Yes, customers can reserve grooming sessions online or contact the salon directly by phone and email."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

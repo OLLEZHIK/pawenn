@@ -1,0 +1,157 @@
+{
+  "slug": "pet-valu-front-st-e",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Valu/data=!4m7!3m6!1s0x89d4cb3a4f9b7e0f:0x1b781eb0206d569e!8m2!3d43.650715!4d-79.366965!16s%2Fg%2F1hf06xrmk!19sChIJD36bTzrL1IkRnlZtILAeeBs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Welcoming and attentive store assistants"
+      },
+      "text": {
+        "en": "Shoppers consistently highlight the warm and accommodating attitude of the retail team at the Front Street East location. Employees readily greet visitors upon entry, offer personalized guidance, and assist with locating pet supplies across aisles. Several reviewers note that the staff take time to provide thoughtful product advice."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Broad product selection and treats"
+      },
+      "text": {
+        "en": "Customers appreciate the well-stocked shelves offering a varied range of dog food, cat treats, and pet accessories in Old Town. Reviewers point out that the retail space carries reliable dietary brands, frozen options, and specialized digestive aids. Visitors describe the store as an easy, pleasant stop during everyday neighbourhood errands."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Attentive care for household pets"
+      },
+      "text": {
+        "en": "Pet owners appreciate the genuine enthusiasm store associates show towards visiting animals and their needs. Reviewers remark that staff happily help find properly fitted harnesses for puppies and offer specialized food choices for cats. Visitors feel confident that team members understand pet wellbeing and care about individual animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does this Pet Valu location carry specialized cat food?"
+      },
+      "a": {
+        "en": "Yes, customers note a wide selection of cat nutrition, including dietary brands, freeze-dried treats, and digestive aids."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is assistance available for fitting dog harnesses?"
+      },
+      "a": {
+        "en": "Yes, store associates are on hand to help customers choose and fit appropriate harnesses and accessories for dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the store offer self-serve pet washing?"
+      },
+      "a": {
+        "en": "The Front Street location features self-serve dog wash stations alongside full retail pet supply shelves."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are the prices perceived as affordable?"
+      },
+      "a": {
+        "en": "Customers frequently report competitive and affordable pricing across everyday pet essentials and treats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
