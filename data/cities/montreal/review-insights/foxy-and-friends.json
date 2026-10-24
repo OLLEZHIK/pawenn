@@ -1,0 +1,183 @@
+{
+  "slug": "foxy-and-friends",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Foxy+and+Friends/data=!4m7!3m6!1s0x4cc91bb195ae1217:0x86b7c59eb9f6f2cd!8m2!3d45.4853697!4d-73.5811741!16s%2Fg%2F11k15yc8x4!19sChIJFxKulbEbyUwRzfL2uZ7Ft4Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Garderie et socialisation des chiens",
+        "en": "Daycare and canine socialization"
+      },
+      "text": {
+        "fr": "Les familles de pensionnaires rapportent que leurs chiens sont impatients d'entrer et s'épanouissent pleinement en garderie de jour. Les animaux profitent de jeux partagés avec leurs congénères et reviennent à la maison fatigués et calmes. L'ambiance conviviale et l'attention portée au confort animal sont très appréciées.",
+        "en": "Dog owners report that their pets eagerly run to the front door and thrive in the small group daycare environment. Four-legged guests enjoy socialization with other companions and return home happily sleepy. The friendly atmosphere and attentive care for pet well-being receive strong endorsements."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Toilettage et soins esthétiques",
+        "en": "Grooming and styling results"
+      },
+      "text": {
+        "fr": "Les clients fidèles louent la qualité des coupes de poils et le soin apporté au relooking de leurs chiens, qui en ressortent rajeunis et soignés. En revanche, des commentaires négatifs signalent des tailles de griffes incomplètes pour des chats ou un résultat inférieur aux attentes lors de prestations spécifiques.",
+        "en": "Regular clients praise the quality of haircuts and the attentive styling given to their dogs, who often come out looking refreshed and well-groomed. Conversely, critical feedback highlights incomplete feline nail trims and instances where specific grooming expectations were not satisfactorily met."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Accueil et communication avec l'équipe",
+        "en": "Staff reception and customer support"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires saluent la disponibilité des responsables et l'envoi apprécié de photos et vidéos lors des journées de garde. À l'inverse, des avis critiques font part d'échanges tendus après des insatisfactions sur des soins de coupe ou de litiges concernant l'accueil sur place lors des rendez-vous.",
+        "en": "Several guardians praise the warm responsiveness of the team and the regular photo and video updates shared throughout the day. In contrast, negative reviews mention strained communications following grooming disputes or misunderstandings regarding drop-off and waiting times at the facility."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Les maîtres reçoivent-ils des photos durant la garderie ?",
+        "en": "Do pet parents receive photos during daycare stays?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement envoie fréquemment des photos et vidéos aux propriétaires pour montrer leur chien en train de jouer.",
+        "en": "Yes, the facility frequently sends photos and video clips showing dogs enjoying their daily play and activities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels services sont proposés en plus de la garderie ?",
+        "en": "What services are offered alongside dog daycare?"
+      },
+      "a": {
+        "fr": "L'établissement propose des services de toilettage complet, de tonte et de coupe de griffes pour chiens et chats.",
+        "en": "The business provides grooming, breed styling haircuts, and routine nail trimming for both dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les chats sont-ils acceptés pour des soins de toilettage ?",
+        "en": "Are cats accepted for pet grooming services?"
+      },
+      "a": {
+        "fr": "Des clients mentionnent avoir fait tailler les griffes de leur chat, bien que les avis suggèrent de confirmer la présence du toiletteur principal.",
+        "en": "Reviewers mention bringing cats for claw trimming, though feedback advises confirming staff availability for feline care."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    }
+  ]
+}
