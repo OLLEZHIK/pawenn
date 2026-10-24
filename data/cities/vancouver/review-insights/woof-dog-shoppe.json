@@ -1,0 +1,151 @@
+{
+  "slug": "woof-dog-shoppe",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Woof!+Dog+Shoppe,+Dog+Grooming,+Kitsilano+Vancouver/data=!4m7!3m6!1s0x548673ca6fa7b1e7:0x42d0e11c85feb427!8m2!3d49.2708198!4d-123.1481205!16s%2Fg%2F1ts2zzhz!19sChIJ57Gnb8pzhlQRJ7T-hRzh0EI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Skilled and attentive grooming professionals"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the grooming team in Kitsilano, with frequent praise for stylist Ivonne kindness and professionalism. Clients note that staff members listen carefully to specific haircut requests, providing dedicated and reassuring service during each salon appointment."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Consistently neat and stylish styling"
+      },
+      "text": {
+        "en": "Reviewers highlight high satisfaction with the final appearance of their dogs following full haircuts, tidy-ups, and nail trimming. Owners appreciate that coats look evenly trimmed, clean, and well-proportioned, matching their expectations without requiring touch-ups."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Gentle handling during grooming visits"
+      },
+      "text": {
+        "en": "Dog owners emphasize how calmly their pets respond to treatments at the studio, noting that even dogs who typically resist nail trims remain relaxed. Reviewers value the groomers gentle technique and patient demeanor, which ensures pets feel safe and well cared for throughout."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Woof Dog Shoppe require grooming appointments?"
+      },
+      "a": {
+        "en": "Yes, the studio operates strictly by appointment only to ensure each dog receives undivided attention and individual care."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What grooming treatments are provided at the salon?"
+      },
+      "a": {
+        "en": "Services include full dog grooming packages, bath and blow-dry treatments, face and sanitary tidy-ups, and professional nail clipping and filing."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are the groomers experienced with nervous dogs?"
+      },
+      "a": {
+        "en": "Yes, pet owners report that staff handle anxious dogs with exceptional patience, keeping pets calm during stressful procedures like nail trims."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What sizes of dogs does the studio accommodate?"
+      },
+      "a": {
+        "en": "The studio accommodates dogs of all sizes, with tiered pricing for small, medium, large, and extra-large breeds."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

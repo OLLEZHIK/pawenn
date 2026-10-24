@@ -1,0 +1,193 @@
+{
+  "slug": "tisol-main-st",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tisol/data=!4m7!3m6!1s0x548673e39ec34579:0x8d114353e578a5e6!8m2!3d49.2585733!4d-123.1013734!16s%2Fg%2F1vr3cw5j!19sChIJeUXDnuNzhlQR5qV45VNDEY0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Helpful store clerks alongside counter friction"
+      },
+      "text": {
+        "en": "Several pet owners highlight store team members like Paul and Finn for offering courteous, informed advice when selecting supplies for new pets. Nevertheless, multiple shoppers experienced unhelpful encounters at the registers, citing dismissive service from shift managers and difficulties securing permitted returns for opened canned food."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Recurring challenges with cashier communication"
+      },
+      "text": {
+        "en": "Customer reviews highlight recurring difficulties communicating with checkout personnel regarding store policies and promotional account discounts. Shoppers recount feeling brushed off when asking questions about return guarantees or missing rewards, noting that front-desk staff occasionally offered little explanation until senior support intervened."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Varied condition of pet inventory"
+      },
+      "text": {
+        "en": "While visitors appreciate finding specialized pet foods and hard-to-find supplies on store shelves, recent reviews cite serious quality control lapses. Customers reported finding expired food packages and damaged boxed cat trees in stock, though store management promptly provided refunds and exchanges once these issues were brought to light."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What is the store return policy on pet food?"
+      },
+      "a": {
+        "en": "Under Pet Valu and Tisol satisfaction policies, customers can exchange or return eligible pet foods within 60 days, though shoppers recommend keeping receipts and confirming terms with staff."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Tisol Main Street stock specialized and hard-to-find pet products?"
+      },
+      "a": {
+        "en": "Yes, the location carries a wide selection of dry and canned pet diets, treats, toys, and cat furniture for local pet owners."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What are the store operating hours on Main Street?"
+      },
+      "a": {
+        "en": "The shop is open seven days a week, operating from 9:00 am to 7:00 pm on Sundays with convenient daily retail hours."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can staff assist first-time dog owners with initial supplies?"
+      },
+      "a": {
+        "en": "Yes, customers frequently commend individual team members for guiding new puppy parents through essential food, gear, and wellness purchases."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "results": "~",
+        "staff": "~",
+        "communication": "-"
+      }
+    }
+  ]
+}
