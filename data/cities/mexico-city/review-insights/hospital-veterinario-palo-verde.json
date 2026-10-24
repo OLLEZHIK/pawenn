@@ -1,0 +1,135 @@
+{
+  "slug": "hospital-veterinario-palo-verde",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+Veterinario+Palo+Verde/data=!4m7!3m6!1s0x85d1ffe2701955bd:0xb4959d77846f56d0!8m2!3d19.3376664!4d-99.1757115!16s%2Fg%2F1tpn2xwz!19sChIJvVUZcOL_0YUR0FZvhHedlbQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Atención veterinaria con opiniones encontradas",
+        "en": "Veterinary attention with mixed opinions"
+      },
+      "text": {
+        "es": "Varios clientes elogian la capacidad técnica y el buen trato de los médicos veterinarios durante las revisiones de rutina y seguimiento. Sin embargo, otras personas señalan experiencias negativas y roces con el personal en la recepción, mencionando desatención o falta de cortesía. Esta diferencia de trato entre áreas genera percepciones divididas entre los tutores.",
+        "en": "Several clients praise the medical expertise and good conduct of the veterinary doctors during routine examinations and follow-ups. In contrast, other reviewers recount negative encounters with front reception staff, citing indifference or discourteous interactions. This difference in experience between areas leads to noticeably divided opinions."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Problemas en seguimiento e información clínica",
+        "en": "Problems in follow-up and clinical information"
+      },
+      "text": {
+        "es": "Algunos dueños de mascotas lamentan la falta de información clara sobre diagnósticos y la dificultad para obtener respuestas precisas en recepción. Se reportan casos donde se realizaron múltiples exámenes sin explicar con claridad el padecimiento del paciente a los tutores. Los usuarios afectados demandan mayor transparencia y mejor comunicación en momentos difíciles.",
+        "en": "Some pet owners report a lack of clear explanations regarding medical diagnoses and difficulty obtaining reliable answers at reception. Certain reviews describe scenarios where repeated tests were run without adequately communicating the findings to family members. Dissatisfied clients stress the importance of proactive and transparent communication."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Manejo de pacientes con experiencias contrastantes",
+        "en": "Patient handling with contrasting experiences"
+      },
+      "text": {
+        "es": "Mientras que algunos clientes destacan el cuidado dedicado y el afecto hacia cachorros y gatitos durante tratamientos y venta de medicamentos, otros expresan angustia por el bienestar de sus animales enfermos. Quienes tuvieron malas experiencias sienten que sus mascotas pasaron por estrés innecesario. El cuidado de los animales muestra vivencias muy distintas según el caso.",
+        "en": "While some pet guardians appreciate the dedicated care and gentle treatment shown toward kittens and young pets during check-ups, others convey distress concerning their sick animals. Reviewers with negative visits felt their pets experienced unnecessary stress during protracted assessments. Experiences with animal handling vary considerably among visitors."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Dónde se ubica el Hospital Veterinario Palo Verde?",
+        "en": "Where is Palo Verde Veterinary Hospital located?"
+      },
+      "a": {
+        "es": "Se encuentra en Cerro del Otate 20, en la colonia Romero de Terreros, dentro de la alcaldía Coyoacán en Ciudad de México.",
+        "en": "It is located at Cerro del Otate 20, in the Romero de Terreros neighborhood of the Coyoacán district in Mexico City."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cuentan con venta de medicamentos para mascotas?",
+        "en": "Do they dispense pet medications on site?"
+      },
+      "a": {
+        "es": "Sí, disponen de farmacia veterinaria donde los tutores pueden adquirir medicamentos y productos recetados para sus mascotas.",
+        "en": "Yes, they have an on-site veterinary pharmacy where pet guardians can purchase prescribed medications and pet care supplies."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Qué servicios médicos generales brindan en la clínica?",
+        "en": "What general medical services do they offer at the clinic?"
+      },
+      "a": {
+        "es": "Ofrecen consultas clínicas, medicina preventiva, vacunación, desparasitación y seguimiento para perros y gatos.",
+        "en": "They provide clinical consultations, preventive medicine, vaccinations, deworming, and ongoing health follow-up for dogs and cats."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    }
+  ]
+}
