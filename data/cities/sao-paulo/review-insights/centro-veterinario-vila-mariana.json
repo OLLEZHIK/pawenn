@@ -1,0 +1,310 @@
+{
+  "slug": "centro-veterinario-vila-mariana",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Centro+Veterin%C3%A1rio+Vila+Mariana/data=!4m7!3m6!1s0x94ce598792c12457:0x870c679a21e71390!8m2!3d-23.587634!4d-46.6402509!16s%2Fg%2F1tf2568g!19sChIJVyTBkodZzpQRkBPnIZpnDIc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 26,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "title": {
+        "en": "Acclaimed veterinary medical specialists",
+        "pt": "Especialistas médicos altamente elogiados"
+      },
+      "text": {
+        "en": "Reviewers widely praise the clinical team, highlighting specialists such as Dr. Caio, Dr. Bruna, Dr. Gabriel, and oncologists and cardiologists. Tutors emphasize deep technical knowledge, thorough diagnostics, and attentive consultations for dogs and cats in Vila Mariana.",
+        "pt": "Os tutores elogiam amplamente o corpo clínico, destacando especialistas como Dr. Caio, Dra. Bruna, Dr. Gabriel, além de oncologistas e cardiologistas. Os relatos ressaltam o conhecimento técnico apurado, diagnósticos minuciosos e consultas atenciosas na Vila Mariana."
+      },
+      "mentions": 24
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "title": {
+        "en": "Significant delays in reception communication",
+        "pt": "Falhas recorrentes na comunicação e recepção"
+      },
+      "text": {
+        "en": "Multiple reviewers express dissatisfaction with front-desk communication and messaging channels. Complaints cite long delays in answering WhatsApp messages, confusion regarding scheduled exams, and instances where reception staff appeared distracted or unhelpful to waiting clients.",
+        "pt": "Vários clientes relatam insatisfação com o atendimento na recepção e nos canais de mensagem. As queixas apontam demora excessiva nas respostas de WhatsApp, erros no agendamento de exames e momentos de desatenção dos recepcionistas com tutores que aguardavam no balcão da clínica."
+      },
+      "mentions": 9
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "title": {
+        "en": "Successful surgeries with exam delays",
+        "pt": "Cirurgias bem-sucedidas com exames atrasados"
+      },
+      "text": {
+        "en": "Client feedback regarding clinical outcomes is divided. While pet owners celebrate successful surgical interventions, accurate hematology findings, and teeth cleanings, several reviewers report delays in receiving laboratory biopsy results and difficulties locating completed X-rays.",
+        "pt": "As avaliações sobre os desfechos clínicos são divididas. Embora tutores celebrem cirurgias bem-sucedidas, diagnósticos hematológicos precisos e limpezas tártaras, outros clientes apontam atrasos na entrega de laudos de biópsia e desencontros na liberação de exames de imagem."
+      },
+      "mentions": 5
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Centro Veterinário Vila Mariana treat specialized veterinary cases?",
+        "pt": "O Centro Veterinário Vila Mariana atende especialidades veterinárias?"
+      },
+      "a": {
+        "en": "Yes, the center features specialized outpatient care in oncology, cardiology, orthopedics, hematology, and dentistry.",
+        "pt": "Sim, o centro conta com ambulatórios especializados em oncologia, cardiologia, ortopedia, hematologia e odontologia."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How quickly are laboratory and imaging exam results delivered?",
+        "pt": "Qual é o prazo para liberação de exames laboratoriais e de imagem?"
+      },
+      "a": {
+        "en": "While the clinic has an on-site lab, several reviewers note occasional delays in obtaining biopsy and X-ray reports.",
+        "pt": "Embora possua laboratório próprio, tutores relatam que laudos de biópsias e radiografias podem enfrentar atrasos na entrega."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat birds and wild animals?",
+        "pt": "A clínica atende aves e animais silvestres?"
+      },
+      "a": {
+        "en": "No, despite certain online listings, clients report that the clinic does not accept birds or wildlife consultations.",
+        "pt": "Não, apesar de menções em plataformas online, clientes relatam que a clínica não presta atendimento a aves e silvestres."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
