@@ -1,0 +1,131 @@
+{
+  "slug": "friend-for-life",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Friend+for+life/data=!4m7!3m6!1s0x4cc8e1e5536c59b9:0x43ab9589c6689a5c!8m2!3d45.6368801!4d-73.5404295!16s%2Fg%2F11c6ml09ys!19sChIJuVlsU-XhyEwRXJpoxomVq0M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Propreté et aménagement des lieux",
+        "en": "Cleanliness and boarding environment"
+      },
+      "text": {
+        "fr": "Les familles d'animaux soulignent la propreté rigoureuse et le très bon entretien des locaux de cette pension pour petits compagnons. Les installations sont sécurisées, calmes et parfaitement adaptées à l'accueil des chats et des oiseaux, qui y séjournent dans un cadre sain et reposant.",
+        "en": "Pet owners consistently emphasize the spotless cleanliness and meticulous maintenance of the boarding facility. The boarding spaces are secure, quiet, and well suited for cats and pet birds, ensuring a hygienic and relaxing stay while guardians are away from home."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Garde des chats et oiseaux",
+        "en": "Dedicated care for cats and birds"
+      },
+      "text": {
+        "fr": "L'établissement se distingue par son expertise dans la garde des félins et des animaux exotiques comme les perroquets. Les propriétaires saluent le respect rigoureux des régimes alimentaires et l'administration fiable des médicaments prescrits pour les pensionnaires ayant des besoins spécifiques.",
+        "en": "The facility distinguishes itself through attentive care tailored to felines and exotic pets such as parrots. Guardians particularly appreciate the strict adherence to feeding routines and the reliable administration of necessary medications for pets with medical needs."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Personnel chaleureux et rassurant",
+        "en": "Friendly team and regular news"
+      },
+      "text": {
+        "fr": "L'équipe d'Ami pour la vie recueille d'excellents retours pour son écoute, sa gentillesse et sa grande réactivité aux messages. La publication régulière de photos sur les réseaux sociaux permet aux maîtres de voir leur animal épanoui, renforçant la confiance accordée au personnel soignant.",
+        "en": "The staff at Friend for Life receives warm praise for their responsiveness, friendly approach, and dedicated client service. Frequent photo updates published on their social page enable pet parents to see their companions comfortable, fostering lasting trust in the boarding team."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels types d'animaux sont accueillis en pension ?",
+        "en": "Which types of animals are boarded at the facility?"
+      },
+      "a": {
+        "fr": "La pension accueille principalement les chats ainsi que de petits animaux et oiseaux de compagnie comme les perroquets.",
+        "en": "The boarding hotel primarily accommodates cats along with small pets and birds, including parrots."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Le personnel peut-il administrer des médicaments aux pensionnaires ?",
+        "en": "Can the staff administer medications to boarding pets?"
+      },
+      "a": {
+        "fr": "Oui, les avis confirment que l'équipe administre les soins et médicaments quotidiens requis sans aucune difficulté.",
+        "en": "Yes, reviews confirm that the team reliably handles required daily medications and special care routines without issue."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les propriétaires peuvent-ils apporter la cage ou la nourriture de leur animal ?",
+        "en": "Can owners bring their own cage or specialized food?"
+      },
+      "a": {
+        "fr": "Oui, il est possible d'apporter sa propre cage pour les oiseaux ainsi que la nourriture et les friandises habituelles.",
+        "en": "Yes, clients can bring their own bird cage as well as their pet's regular pellets, fresh food, and treats."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
