@@ -5,10 +5,9 @@
     "alldog",
     "amarok-adiestramiento-canino-colli",
     "amarok-adiestramiento-canino-arcos-de-zapopan",
-    "dog-sport",
     "club-de-agility-delta"
   ],
-  "hash": "959c97381ee36fcf042391c2b92ccf80f5e461edc0916f8065c7a6e49650b24a",
+  "hash": "b52c0b70030aa0df7805a2d83102fbd01091f331162eeeee59cdd951d6873b2b",
   "result": "PASS",
   "history": [
     {
@@ -28,6 +27,16 @@
     },
     {
       "at": "2026-10-22T23:25:37.658Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T09:13:23.091Z",
+      "result": "FAIL",
+      "listed": 8
+    },
+    {
+      "at": "2026-10-24T09:21:35.837Z",
       "result": "PASS",
       "listed": 0
     }

@@ -11,7 +11,7 @@
     "pet-world-guadalajara",
     "laika-guadalajara"
   ],
-  "hash": "f14cdf302eaf050c7837652a48fa4168492a2015a87e584152f01150d79e35f4",
+  "hash": "f03077769832ec1759f01b209ddf566cfacc22f906b10206cfc74595f139ac08",
   "result": "PASS",
   "history": [
     {
@@ -31,6 +31,16 @@
     },
     {
       "at": "2026-10-22T23:19:03.894Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T09:22:10.518Z",
+      "result": "FAIL",
+      "listed": 12
+    },
+    {
+      "at": "2026-10-24T09:26:22.888Z",
       "result": "PASS",
       "listed": 0
     }
