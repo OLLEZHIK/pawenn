@@ -1,0 +1,26 @@
+{
+  "chunk": "22-shop",
+  "kind": "places",
+  "slugs": [
+    "petguru-clouthier-guadalajara"
+  ],
+  "hash": "45b329d4291f2bffa8b5501fc89b079f3dc0eb3b982b27e2e0bf6bcd4ca41886",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T04:00:14.586Z",
+      "result": "FAIL",
+      "listed": 15
+    },
+    {
+      "at": "2026-10-24T04:00:36.236Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-24T04:01:29.957Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
