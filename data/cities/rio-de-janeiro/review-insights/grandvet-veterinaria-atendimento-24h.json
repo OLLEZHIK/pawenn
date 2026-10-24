@@ -1,0 +1,181 @@
+{
+  "slug": "grandvet-veterinaria-atendimento-24h",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Grandvet+Veterin%C3%A1ria+-+Atendimento+24h/data=!4m7!3m6!1s0x997e0d1683ba09:0x393eed4d22689945!8m2!3d-22.9234309!4d-43.2439044!16s%2Fg%2F1tp28h8x!19sChIJCbqDFg1-mQARRZloIk3tPjk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 11,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "pt": "Equipe médica e divergências no acolhimento",
+        "en": "Medical staff and mixed reception experiences"
+      },
+      "text": {
+        "pt": "A maioria dos tutores elogia a competência dos veterinários e assistentes na Tijuca, destacando consultas atenciosas e suporte dedicado durante cirurgias. No entanto, há relatos de falta de profissionalismo e rispidez no atendimento presencial e telefônico.",
+        "en": "Most pet owners praise the clinical competence of veterinarians and nursing staff in Tijuca during routine consultations and surgeries. However, isolated reports point out occasional unprofessional attitudes and perceived indifference during urgent visits."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Comunicação remota e acompanhamento de casos",
+        "en": "Remote communication and case updates"
+      },
+      "text": {
+        "pt": "Parte dos clientes valoriza as orientações claras recebidas por WhatsApp e os informes detalhados sobre a evolução dos pacientes. Em contrapartida, avaliações críticas apontam dificuldades em obter suporte telefônico em chamadas urgentes de emergência.",
+        "en": "Several clients appreciate prompt WhatsApp guidance and routine health updates concerning recovering and hospitalized pets. Conversely, critical reviews mention frustrating delays and unhelpful responses when calling the clinic in urgent veterinary situations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Tratamento carinhoso com cães e gatos",
+        "en": "Affectionate handling of companion pets"
+      },
+      "text": {
+        "pt": "Os tutores destacam o carinho constante com que cães e gatos são acolhidos pela equipe, tanto em consultas clínicas quanto em serviços de banho e tosa higiênica. O cuidado gentil reduz a ansiedade dos animais e traz segurança durante todos os atendimentos.",
+        "en": "Guardians highlight the gentle and loving care shown to dogs and cats during clinical consultations and hygienic grooming sessions. The patient handling creates a welcoming atmosphere that helps relieve anxiety for companion animals during appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A Grandvet Veterinária oferece atendimento ininterrupto 24 horas?",
+        "en": "Does Grandvet Veterinária offer uninterrupted 24-hour service?"
+      },
+      "a": {
+        "pt": "Sim, a clínica mantém atendimento clínico, leitos de UTI e suporte emergencial 24 horas todos os dias na Tijuca.",
+        "en": "Yes, the clinic operates 24-hour emergency care, ICU suites, and inpatient observation daily in Tijuca."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Quais exames diagnósticos estão disponíveis no local?",
+        "en": "What diagnostic tests are performed at the facility?"
+      },
+      "a": {
+        "pt": "A unidade conta com ultrassonografia, raio-x, exames laboratoriais e procedimentos cirúrgicos especializados.",
+        "en": "The facility provides ultrasound diagnostics, radiography, clinical laboratory tests, and specialized surgical procedures."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "A clínica oferece serviços de banho e tosa higiênica?",
+        "en": "Does the clinic provide pet bathing and grooming services?"
+      },
+      "a": {
+        "pt": "Sim, tutores mencionam a disponibilidade de banho e tosa higiênica realizados com carinho pelos profissionais.",
+        "en": "Yes, clients mention using pet bathing and hygienic grooming services handled with care by attentive staff."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
