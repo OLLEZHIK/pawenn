@@ -8,8 +8,8 @@
     "dog-sport",
     "club-de-agility-delta"
   ],
-  "hash": "959c97381ee36fcf042391c2b92ccf80f5e461edc0916f8065c7a6e49650b24a",
-  "result": "PASS",
+  "hash": "ed79b537d518a32fd08a7b29b4522f038525c96c573630147f0497d6c35701cf",
+  "result": "FAIL",
   "history": [
     {
       "at": "2026-10-22T23:19:41.022Z",
@@ -30,6 +30,11 @@
       "at": "2026-10-22T23:25:37.658Z",
       "result": "PASS",
       "listed": 0
+    },
+    {
+      "at": "2026-10-24T08:51:44.930Z",
+      "result": "FAIL",
+      "listed": 9
     }
   ]
 }
