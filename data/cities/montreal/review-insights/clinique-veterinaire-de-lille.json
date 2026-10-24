@@ -1,0 +1,153 @@
+{
+  "slug": "clinique-veterinaire-de-lille",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+Veterinaire+De+Lille/data=!4m7!3m6!1s0x4cc91f36b2db7de3:0xe253c422bc37ba88!8m2!3d45.5703659!4d-73.6397644!16s%2Fg%2F1tvdjdp2!19sChIJ433bsjYfyUwRiLo3vCLEU-I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "fr": "Insatisfaction marquée envers le service",
+        "en": "Marked dissatisfaction with clinic service"
+      },
+      "text": {
+        "fr": "Plusieurs clients récents expriment une vive déception quant à l'accueil et au manque d'empathie ressentis lors des consultations. Des maîtres de longue date dénoncent une dégradation notable du service à la clientèle, bien qu'un avis isolé salue encore l'amabilité de l'équipe.",
+        "en": "Several recent visitors express strong disappointment regarding customer service and a perceived lack of empathy during consultations. Long-standing clients report a marked decline in service quality, although an occasional review still mentions courteous staff."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Manque d'information et suivi difficile",
+        "en": "Lack of information and difficult follow-up"
+      },
+      "text": {
+        "fr": "Des propriétaires déplorent des échanges frustrants avec la réception, notamment des difficultés linguistiques et des erreurs dans la planification des rendez-vous. D'autres usagers regrettent l'absence de mises en garde concernant les effets secondaires de traitements prescrits.",
+        "en": "Pet owners complain about frustrating front-desk communication, citing language barriers and scheduling misunderstandings. Other clients express dissatisfaction over missing guidance regarding potential medication side effects following clinic appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Réserves sur les soins aux animaux",
+        "en": "Serious reservations regarding animal care"
+      },
+      "text": {
+        "fr": "Certains maîtres témoignent d'expériences pénibles liées à des soins post-opératoires mal exécutés ou à un accompagnement jugé froid lors de fins de vie. Si certains animaux sont soignés convenablement, ces incidents incitent plusieurs propriétaires à chercher une autre clinique.",
+        "en": "Some owners report distressing experiences involving poorly handled postoperative care or a detached atmosphere during euthanasia. While some pets receive routine treatment without issue, these recurring incidents prompt several families to seek veterinary care elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "À quel réseau la clinique de Lille est-elle rattachée ?",
+        "en": "Which network is the De Lille clinic affiliated with?"
+      },
+      "a": {
+        "fr": "La clinique est membre du réseau d'établissements vétérinaires MonVet à Montréal.",
+        "en": "The clinic is a member of the MonVet network of veterinary practices in Montreal."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Peut-on réserver des rendez-vous en ligne ?",
+        "en": "Can clients schedule appointments online?"
+      },
+      "a": {
+        "fr": "La clinique propose une plateforme web, mais des clients ont relevé des écarts d'horaires avec la réception.",
+        "en": "An online platform exists, though clients have noted scheduling discrepancies with front desk records."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Où se situe la clinique vétérinaire de Lille ?",
+        "en": "Where is the De Lille veterinary clinic located?"
+      },
+      "a": {
+        "fr": "Elle est située au 2370 avenue Charland dans le nord de Montréal.",
+        "en": "It is located at 2370 Avenue Charland in northern Montreal."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
