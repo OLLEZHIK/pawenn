@@ -1,0 +1,271 @@
+{
+  "slug": "eldoc-centro-veterinario",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ELDOC+%7C+Centro+Veterinario/data=!4m7!3m6!1s0x8428b1b4271bffff:0x69ca31911e326ce!8m2!3d20.7079564!4d-103.3317958!16s%2Fg%2F11jtcqfdlk!19sChIJ__8bJ7SxKIQRzibjERmjnAY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 20,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 20,
+      "title": {
+        "es": "Personal valorado con críticas a relevos recientes",
+        "en": "Valued team alongside staff transition complaints"
+      },
+      "text": {
+        "es": "Parte de los clientes resalta la amabilidad y el rigor del personal para explicar tratamientos y mantener expedientes clínicos completos. Sin embargo, un número considerable de reseñas critica la falta de empatía de nuevos médicos, dificultades en el manejo de gatos y actitudes percibidas como poco profesionales.",
+        "en": "A portion of clients praises the staff for thorough explanations and detailed digital pet health records. However, a noticeable number of reviews criticizes perceived insensitivity from recent medical staff, rough feline handling, and interactions felt to be unhelpful or unprofessional."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "es": "Cirugías exitosas y controversia en diagnósticos",
+        "en": "Successful surgeries beside diagnostic disputes"
+      },
+      "text": {
+        "es": "Varios dueños agradecen intervenciones quirúrgicas de urgencia y tratamientos dermatológicos que sanaron a sus perros en pocas semanas. En contraposición, varios testimonios denuncian diagnósticos errados, prescripciones inadecuadas y recomendaciones controvertidas que complicaron la salud de sus animales.",
+        "en": "Several owners express gratitude for emergency surgeries and dermatological therapies that cured their dogs in a few weeks. Conversely, multiple critical reviews report incorrect diagnoses, inappropriate prescriptions, and questionable advice that allegedly worsened animal conditions."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "es": "Inconformidad con pruebas costosas e innecesarias",
+        "en": "Dissatisfaction with costly and redundant tests"
+      },
+      "text": {
+        "es": "Aunque algunos usuarios consideran que los precios generales son accesibles, varios clientes expresan malestar por el costo de estudios complementarios y consultas especializadas. Cuestionan la insistencia en pruebas que consideran innecesarias y perciben un enfoque orientado a la venta de servicios y fármacos.",
+        "en": "While some visitors find baseline pricing acceptable, multiple clients report dissatisfaction regarding expenses for laboratory testing and specialist consultations. They question recommendations for costly exams perceived as redundant, feeling that business motives overshadow care."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿La clínica lleva un historial clínico detallado de las mascotas?",
+        "en": "Does the clinic maintain detailed medical records for pets?"
+      },
+      "a": {
+        "es": "Sí, varios clientes destacan favorablemente que el centro mantiene un registro médico minucioso de cada visita y estudio.",
+        "en": "Yes, several clients praise the clinic for keeping thorough medical records tracking each consultation and test."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿El centro está preparado para el manejo clínico de felinos?",
+        "en": "Is the clinic well prepared for clinical handling of cats?"
+      },
+      "a": {
+        "es": "Algunos tutores de gatos señalan experiencias estresantes durante tomas de muestras y recomiendan verificar experiencia felina.",
+        "en": "Some cat owners report stressful handling during blood draws, suggesting confirming feline experience beforehand."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de atención de urgencias y cirugías?",
+        "en": "Do they handle emergency care and surgical procedures?"
+      },
+      "a": {
+        "es": "Sí, las reseñas confirman cirugías de tejidos blandos y atención urgente con seguimiento postoperatorio.",
+        "en": "Yes, reviews confirm soft-tissue surgical procedures and emergency interventions with postoperative monitoring."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    }
+  ]
+}
