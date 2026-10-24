@@ -1,0 +1,136 @@
+{
+  "slug": "clinique-veterinaire-st-denis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+St-Denis/data=!4m7!3m6!1s0x4cc9191682df426f:0x5fdd5128484c01a!8m2!3d45.5392184!4d-73.6180468!16s%2Fg%2F1tk6pyrb!19sChIJb0LfghYZyUwRGsCEhBLV_QU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Équipe expérimentée avec un suivi contrasté",
+        "en": "Long-standing team with contrasting feedback"
+      },
+      "text": {
+        "fr": "Une majorité de clients fidèles fait confiance à cette équipe depuis de nombreuses années pour l'accompagnement attentionné de leurs animaux. Toutefois, un retour très critique déplore un manque de réactivité dans la transmission d'informations médicales graves relatives à un chat suivi en clinique.",
+        "en": "A majority of long-term clients relies on this veterinary staff for caring companion animal health support over many years. However, a critical review highlights serious disappointment regarding a failure to promptly communicate critical medical findings concerning an ill feline patient."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Efficacité des soins avec une réserve signalée",
+        "en": "Effective treatment outcomes with one caveat"
+      },
+      "text": {
+        "fr": "Les retours positifs mentionnent des soins rapides et efficaces, notamment pour soutenir des animaux atteints de pathologies lourdes ou de tumeurs. En revanche, un avis dénonce l'absence d'alerte lors d'une dégradation rénale aiguë, tempérant le bilan globalement très favorable des traitements.",
+        "en": "Positive testimonials report effective medical interventions and dependable support for dogs and cats facing serious health conditions. In contrast, one client recounted a missed notification regarding acute renal issues, introducing a notable note of caution to otherwise positive outcomes."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Attention sincère pour chiens et chats",
+        "en": "Sincere care for canine and feline health"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires d'animaux fidèles depuis longtemps soulignent l'attachement authentique des soignants envers leurs compagnons. Le personnel prend soin des chiens et des chats avec prévenance, veillant à leur confort et cherchant les meilleures solutions pour prolonger leur qualité de vie.",
+        "en": "Multiple long-standing pet owners praise the genuine commitment shown by veterinarians toward their four-legged family members. The team handles dogs and cats with considerate care, prioritizing animal comfort and practical solutions to preserve long-term health and vitality."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Depuis combien de temps la clinique accueille-t-elle des patients ?",
+        "en": "How long has this clinic been serving pet owners?"
+      },
+      "a": {
+        "fr": "La clinique est implantée depuis plusieurs décennies sur la rue Saint-Denis, fidélisant des familles depuis près de 20 ans.",
+        "en": "The clinic has operated on Saint-Denis Street for decades, with some loyal families visiting for nearly 20 years."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment les tarifs de la clinique sont-ils évalués ?",
+        "en": "How are the clinic's fees regarded by clients?"
+      },
+      "a": {
+        "fr": "Les clients réguliers indiquent que les prix pratiqués sont équitables et justifiés pour les soins courants.",
+        "en": "Regular clients report that prices are fair, reasonable, and well justified for routine companion animal care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels types de services chirurgicaux sont disponibles ?",
+        "en": "What veterinary surgical services are available on site?"
+      },
+      "a": {
+        "fr": "La clinique réalise des chirurgies des tissus mous, des soins dentaires et des bilans de santé complets.",
+        "en": "The clinic performs soft-tissue surgery, dental cleanings, and comprehensive wellness health evaluations."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

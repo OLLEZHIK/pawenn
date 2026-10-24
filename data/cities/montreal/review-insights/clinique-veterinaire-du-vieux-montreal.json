@@ -1,0 +1,313 @@
+{
+  "slug": "clinique-veterinaire-du-vieux-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+du+Vieux-Montr%C3%A9al/data=!4m7!3m6!1s0x4cc91b7aa11164b3:0xaf1e973e43779d2d!8m2!3d45.5023614!4d-73.5550116!16s%2Fg%2F11sxdx_fwz!19sChIJs2QRoXobyUwRLZ13Qz6XHq8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 24,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 21,
+      "title": {
+        "fr": "Équipe soignante attentionnée et professionnelle",
+        "en": "Attentive and professional medical team"
+      },
+      "text": {
+        "fr": "Une très large majorité de clients salue le calme, l'écoute et la compétence des vétérinaires ainsi que du personnel soignant. Les consultations approfondies et la clarté des explications médicales inspirent une grande confiance, même si quelques usagers regrettent des malentendus administratifs ponctuels.",
+        "en": "A broad majority of pet guardians praise the calm demeanour, attentive listening, and high competence of the veterinarians and support staff. Thorough consultations and clear diagnostic explanations provide great reassurance, although a few clients note occasional administrative misunderstandings."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Approche douce et respectueuse des animaux",
+        "en": "Gentle and respectful pet handling"
+      },
+      "text": {
+        "fr": "Plusieurs propriétaires d'animaux soulignent la bienveillance et la délicatesse remarquables lors des manipulations, notamment avec les chiens ou chats anxieux. Les soignants prennent le temps d'apaiser chaque compagnon sans geste brusque, ce qui réduit visiblement le stress lors des visites et examens.",
+        "en": "Several pet owners highlight the remarkable gentleness and kindness shown during clinical examinations, particularly with nervous or anxious dogs and cats. Staff members take time to soothe each animal without rush or harsh movements, noticeably reducing stress levels during visits and procedures."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "fr": "Difficultés de contact et retours d'appels",
+        "en": "Communication delays and phone reachability"
+      },
+      "text": {
+        "fr": "Plusieurs avis critiques font état de difficultés à joindre la clinique par téléphone ou par courriel pour confirmer des rendez-vous chirurgicaux ou obtenir un suivi. Des pannes de ligne et des délais de rappel jugés trop longs ont suscité de réelles frustrations chez des propriétaires en attente.",
+        "en": "Multiple critical reviews point to persistent difficulties in reaching the clinic by telephone or email to confirm surgical procedures or receive case follow-ups. Outages and unanswered messages have caused noticeable frustration among pet guardians seeking timely administrative coordination."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle des services d'échographie et d'imagerie ?",
+        "en": "Does the clinic provide ultrasound and medical imaging services?"
+      },
+      "a": {
+        "fr": "Oui, la clinique dispose d'équipements pour l'échographie abdominale et cardiaque, la radiographie numérique et l'IRM.",
+        "en": "Yes, the clinic is equipped for abdominal and cardiac ultrasounds, digital radiography, and magnetic resonance imaging (MRI)."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Que faire en cas d'urgence vétérinaire en dehors des heures d'ouverture ?",
+        "en": "What should pet owners do in an emergency outside regular hours?"
+      },
+      "a": {
+        "fr": "Les urgences en dehors des heures d'ouverture sont référées au Centre DMV, partenaire d'urgence joignable par téléphone.",
+        "en": "Emergencies occurring outside opening hours are referred to Centre DMV, their emergency partner accessible by phone."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Peut-on obtenir des rendez-vous pour de la chirurgie de stérilisation ?",
+        "en": "Can clients schedule appointments for pet neutering or spaying?"
+      },
+      "a": {
+        "fr": "Oui, la clinique pratique les chirurgies de stérilisation, bien que les clients conseillent de planifier les rendez-vous à l'avance.",
+        "en": "Yes, the clinic performs neutering and spaying surgeries, though clients suggest booking well in advance to avoid delays."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les consultations peuvent-elles se dérouler en anglais ?",
+        "en": "Can veterinary consultations be conducted in English?"
+      },
+      "a": {
+        "fr": "Oui, le personnel de la clinique offre un service bilingue en français et en anglais aux propriétaires d'animaux.",
+        "en": "Yes, clinic staff provide bilingual services in both French and English to pet guardians."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
