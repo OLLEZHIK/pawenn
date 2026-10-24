@@ -1,0 +1,125 @@
+{
+  "slug": "tails-up-dog-grooming-toronto",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tails+Up+Dog+Grooming+Ltd/data=!4m7!3m6!1s0x89d4ccd237a54259:0x31dfdd5395889bdb!8m2!3d43.707389!4d-79.3759862!16s%2Fg%2F1tg6ljs4!19sChIJWUKlN9LM1IkR25uIlVPd3zE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly team with booking conflicts"
+      },
+      "text": {
+        "en": "Long-term clients appreciate Bonnie and the friendly styling team for their welcoming manner and pleasant service over the years. However, a customer reported a distressing experience involving a rigid three-month appointment cutoff, describing cold and abrasive communication from staff when scheduling became difficult."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "High quality grooming and dependable styling"
+      },
+      "text": {
+        "en": "Multiple dog owners praise the salon for delivering consistently high quality grooming results and keeping pets looking wonderful. Returning customers report great experiences across several years, noting that the groomers do a thorough job and maintain dependable standards for various dog breeds."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling alongside booking dispute"
+      },
+      "text": {
+        "en": "Pet owners highlight gentle handling during baths and haircuts, noting that dogs generally enjoy their visits and receive caring attention from the groomers. Conversely, one client felt let down when their anxious husky was refused future service due to a missed booking window, raising concerns over handling pet anxiety."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Tails Up require advance booking?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that appointments are booked several months in advance, and staff call ahead to confirm scheduled visits."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are anxious dogs handled at the salon?"
+      },
+      "a": {
+        "en": "Most customers report gentle and attentive care for their pets, though clients advise discussing specific behavioral needs before booking."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can owners request a specific groomer?"
+      },
+      "a": {
+        "en": "Yes, long-time clients frequently arrange regular grooming sessions with specific staff members such as Bonnie."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
