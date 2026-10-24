@@ -1,0 +1,138 @@
+{
+  "slug": "benm-pet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Benm+Pet+Banho+Tosa+Creche+e+Hospedagem+para+C%C3%A3es/data=!4m7!3m6!1s0x94ce614fae54fe3b:0x184861ecdcc3865b!8m2!3d-23.5317003!4d-46.5051896!16s%2Fg%2F11qps8h19l!19sChIJO_5Urk9hzpQRW4bD3OxhSBg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Atendimento carinhoso com ressalvas organizacionais",
+        "en": "Caring grooming team with scheduling issues"
+      },
+      "text": {
+        "pt": "Enquanto clientes habituais elogiam o carinho e a tranquilidade dos tosadores no cuidado diário com os animais, outros relatam desapontamento. Críticas recentes apontam desorganização administrativa, cancelamento de horários em cima da hora e demora nas respostas pelo WhatsApp. A percepção sobre o profissionalismo varia entre os tutores.",
+        "en": "While regular clients praise the grooming team's gentle disposition and affectionate handling of their dogs, others report sharp disappointment. Recent complaints cite administrative disorganization, late cancellations, and slow replies via messaging apps. Perceptions of overall professionalism remain distinctly divided among clients."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Tratamento aos cães divide opiniões",
+        "en": "Care for dogs draws mixed reviews"
+      },
+      "text": {
+        "pt": "Tutores satisfeitos relatam que seus animais voltam calmos e acolhidos com carinho genuíno por parte das cuidadoras. Em contrapartida, avaliações negativas relatam receios com a segurança e incidentes como mordidas entre animais que impactaram o atendimento. A confiança no ambiente gera impressões contrastantes entre os clientes.",
+        "en": "Satisfied owners share that their pets return home relaxed and cared for with genuine affection by dedicated attendants. Conversely, critical feedback cites concerns about pet handling safety and incidents such as dog bites that disrupted planned appointments. Client trust in the pet-care routine remains noticeably polarized."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Serviço de estética com impressões variadas",
+        "en": "Grooming outcomes show varied satisfaction"
+      },
+      "text": {
+        "pt": "Alguns clientes destacam banhos caprichados e tosas adequadas, considerando o serviço estético satisfatório para seus animais. Por outro lado, queixas sobre serviços desmarcados sem prioridade de reagendamento geraram frustração e quebra de expectativa. Os resultados operacionais do salão mostram divergência entre os relatos.",
+        "en": "Several owners highlight thorough bathing and tidy coat trimming, finding the grooming service pleasing for their pets. On the other hand, grievances regarding canceled sessions without priority rescheduling have led to disappointment and broken expectations. Practical service outcomes reveal contrasting customer experiences."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "Como funciona o agendamento de banho e tosa?",
+        "en": "How does grooming appointment scheduling work?"
+      },
+      "a": {
+        "pt": "O contato para marcar serviços é feito por telefone e WhatsApp, embora clientes apontem demora eventual nas respostas.",
+        "en": "Appointments are scheduled via telephone and WhatsApp, though some customers note delays in communication."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "É obrigatório apresentar carteira de vacinação?",
+        "en": "Is a pet vaccination record required?"
+      },
+      "a": {
+        "pt": "Sim, o estabelecimento exige a apresentação do comprovante de vacinas atualizado para atendimento dos animais.",
+        "en": "Yes, the facility requests an up-to-date pet vaccination card before admitting dogs for grooming or daycare."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O local oferece serviços de creche e hospedagem?",
+        "en": "Does the business provide dog daycare and boarding?"
+      },
+      "a": {
+        "pt": "Sim, o espaço disponibiliza serviços de banho, tosa, creche e hotelzinho para cães no bairro.",
+        "en": "Yes, the center provides baths, haircuts, daily daycare, and temporary boarding for neighborhood dogs."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
