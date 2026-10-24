@@ -1,0 +1,102 @@
+{
+  "slug": "atsuta-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Atsuta+Animal+Clinic/data=!4m7!3m6!1s0x6000ddf986426da5:0x31610fd71a8f6c1e!8m2!3d34.6518944!4d135.517637!16s%2Fg%2F1vhq3l9h!19sChIJpW1ChvndAGARHmyPGtcPYTE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "ja": "長年地域で信頼される親身な診察",
+        "en": "Dependable and caring neighborhood veterinary care"
+      },
+      "text": {
+        "ja": "大阪市天王寺区・阿倍野区近隣のアツタ動物病院では、獣医師やアシスタントの誠実で心温まる対応が高く評価されています。夜間の急な体調不良で困惑して問い合わせた際にも嫌な顔をせず親切に受け入れ、飼い主の動揺に寄り添ってくれたという感謝の声が寄せられています。ペットをまるで自分の家族のように温かく迎え入れ、症状や処置内容について分かりやすく丁寧に説明してくれます。何十年にもわたり通い続ける飼い主も見られ、長年地域で深く信頼されている診療所です。アットホームで心温まる診察が安心感をもたらしています。 家族のように温かく寄り添う診療が深い安心感をもたらしています。",
+        "en": "Pet owners in Osaka consistently praise the warm demeanor of the veterinary doctor and assistant at Atsuta Animal Clinic. Reviewers highlight their helpful support during unexpected evening emergencies, noting that staff responded with genuine kindness and clear explanations. Clients appreciate that pets are handled with family-like care, with long-time neighborhood residents continuing to rely on the clinic across multiple decades."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "ja": "痛がるペットに寄り添う優しい処置",
+        "en": "Gentle handling for pets in acute distress"
+      },
+      "text": {
+        "ja": "強い痛みや急な体調不良で苦しむ動物に対する、落ち着いた優しい接し方が飼い主から高く評価されています。激痛で暴れたり鳴き声を上げたりしている猫に対しても、獣医師と看護師が穏やかに声をかけながら慎重に診察を進め、適切な鎮痛注射により速やかに苦痛を和らげてくれた事例が報告されています。ペット自身の恐怖心や身体的ストレスをできる限り抑えようとする丁寧な手技と温かい配慮があり、急変時でも安心して愛猫や愛犬の身体を任せられる環境が整っています。言葉を話せない動物の苦しみを第一に考えた処置が信頼されています。",
+        "en": "Owners value the gentle, reassuring approach demonstrated when pets experience acute pain and distress. In cases where cats arrived in severe discomfort, the veterinarian and assistant spoke calmly and handled the animal with care, promptly administering pain relief to ease suffering. This stress-minimizing handling reassures anxious owners that their vulnerable pets are treated safely and with deep professional empathy."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "夜間や急な体調不良時の相談は可能ですか？",
+        "en": "Can owners reach out during evening health emergencies?"
+      },
+      "a": {
+        "ja": "はい、急な体調不良の際に電話で親身に相談に乗り、夜間の急変にも柔軟に対応した事例が評価されています。",
+        "en": "Yes, clients report that the clinic responded kindly and accommodated urgent visits during late evening situations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "猫や犬の強い痛みに対する鎮痛処置は受けられますか？",
+        "en": "Does the clinic administer prompt pain relief for suffering pets?"
+      },
+      "a": {
+        "ja": "はい、痛みに苦しむ動物に対して穏やかに声をかけながら、迅速な鎮痛注射などの適切な処置を行っています。",
+        "en": "Yes, reviewers note that veterinarians gently handle distressed animals and provide swift pain relief treatment."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "初診時に予約は必要ですか？",
+        "en": "Is an advance appointment required for first-time visits?"
+      },
+      "a": {
+        "ja": "通常の診療時間内であれば直接来院して診察を受けることができますが、緊急時は事前連絡が推奨されます。",
+        "en": "Pet owners can visit during standard consultation hours, though calling ahead is recommended for emergencies."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

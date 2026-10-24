@@ -1,0 +1,172 @@
+{
+  "slug": "chuo-animal-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Chuo+Animal+Medical+Center/data=!4m7!3m6!1s0x6000e724bcca0d49:0x6b17a2f0dc5eaeed!8m2!3d34.6813408!4d135.5115363!16s%2Fg%2F1tfxxxyf!19sChIJSQ3KvCTnAGAR7a5e3PCiF2s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 8,
+      "title": {
+        "ja": "親切な診療と管理面への賛否両論",
+        "en": "Attentive care with mixed feedback on operations"
+      },
+      "text": {
+        "ja": "大阪市中央区の中央動物医療センターでは、スタッフの対応に関して飼い主の間で評価が分かれています。若手獣医師の柔軟で丁寧な病状説明や、看護師による手際のよい保定・処置、ペットホテルの安心感を評価する肯定的な意見が多く見られます。その一方で、診察中のドアの開閉や安全管理への懸念、スタッフ間の情報共有不足や院長の対応に不満を抱いたとする厳しい指摘も寄せられています。担当医や受診目的によって受け止め方に差が生じやすい傾向が伺えます。施設全体の接遇や安全意識の向上を期待する声が目立っています。 施設全体の接遇や安全意識の向上を期待する声が目立っています。",
+        "en": "Opinions regarding the personnel at Chuo Animal Medical Center show a clear divide between positive and critical feedback. Many owners commend the gentle handling by nurses, clear explanations from junior doctors, and dependable pet boarding. Conversely, other reviewers report frustrations regarding clinic management, disruptions during exams, and staff communication gaps. Perceptions tend to vary depending on the attending doctor."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "ja": "治療効果や検査判断に対する不満と課題",
+        "en": "Dissatisfaction and concerns regarding treatment outcomes"
+      },
+      "text": {
+        "ja": "ペットの治療結果や処置の妥当性について、批判的な意見が肯定的な評価を上回っています。無麻酔でのCT検査や旅行中の預かり管理が順調だったとする好意的な声がある一方、エキゾチックアニマルの診断がつかず投薬の効果が見られなかった事例や、適切な検査が行われないまま病状が悪化したとする強い不満が報告されています。また、依頼したデンタルケアが適切に行われていなかったという指摘もあり、医療技術や処置の確実性について慎重な見解が示されています。高度医療を謳う施設だからこそ、より確実な診療成果が求められています。",
+        "en": "Feedback concerning treatment outcomes and diagnostic decisions leans critical among recent reviewers. While some clients report successful unanesthetized CT imaging and smooth boarding, multiple owners of reptiles and exotic pets express frustration over inconclusive diagnoses and ineffective medications. Complaints also cite delays in advanced testing and incomplete care, leading several guardians to seek second opinions elsewhere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "ja": "エキゾチックアニマル診療への賛否",
+        "en": "Divided perspectives on exotic pet treatment"
+      },
+      "text": {
+        "ja": "犬や猫に加えてデグーや爬虫類、鳥類などの診察に対応している点について、飼い主の間で受け止め方が分かれています。珍しいエキゾチックアニマルを診察してくれる病院として重宝し、手慣れた保定や丁寧な健康チェックに感謝する声がある一方で、カメや爬虫類、小鳥の診療において十分な専門的処置が受けられなかったと不満を訴える意見も見られます。診療対象の幅広さは評価されているものの、特殊な動物の重い病気に対しては専門病院を勧める声も出ています。動物種ごとの専門知識の深掘りが課題として認識されています。 診療対象の広さに加え、各動物種に特化した深い専門知識が望まれています。",
+        "en": "Perspectives on exotic pet healthcare at the center reflect both appreciation and criticism. Owners of small companions like degus appreciate having access to checkups and gentle handling techniques. However, owners of reptiles, turtles, and birds express disappointment with general diagnoses, reporting that ailments were not resolved. While broad animal acceptance is recognized, several reviewers recommend dedicated specialist clinics."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "ja": "エキゾチックアニマル（爬虫類や小動物）の診察は可能ですか？",
+        "en": "Does the medical center accept exotic pets, reptiles, and small mammals?"
+      },
+      "a": {
+        "ja": "はい、デグーや爬虫類などの診察に対応していますが、症例によって評価が分かれており事前相談が推奨されます。",
+        "en": "Yes, the center accepts exotic companions such as degus and reptiles, though experiences vary and prior inquiry is advisable."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "ja": "週末や混雑時の待ち時間はどのくらいですか？",
+        "en": "How long are wait times during weekends and peak hours?"
+      },
+      "a": {
+        "ja": "週末は来院者が多く待ち時間が長くなる傾向があり、予約や時間に余裕を持った来院が勧められています。",
+        "en": "Weekends tend to be particularly busy with longer waiting periods, so visiting with ample time is recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "ja": "CT検査などの高度医療設備はありますか？",
+        "en": "Does the facility have advanced diagnostic equipment like CT scanners?"
+      },
+      "a": {
+        "ja": "はい、無麻酔でのCT撮影に対応するなど、充実した画像診断設備を備えた医療環境が整えられています。",
+        "en": "Yes, the facility is equipped with advanced diagnostic imaging equipment, including CT scanning capabilities."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
