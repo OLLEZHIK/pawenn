@@ -1,0 +1,141 @@
+{
+  "slug": "distrito-canino-mexico",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DISTRITO+CANINO+M%C3%89XICO/data=!4m7!3m6!1s0x85d201a1bb3467f7:0xc6e136b674654f61!8m2!3d19.3375723!4d-99.2088623!16s%2Fg%2F1ptvsz1q9!19sChIJ92c0u6EB0oURYU9ldLY24cY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Personal atento y supervisión cercana",
+        "en": "Attentive caregivers and close supervision"
+      },
+      "text": {
+        "es": "Los tutores en San Jerónimo Lídice elogian la amabilidad y el compromiso del personal de Distrito Canino. Destacan la supervisión constante de los cuidadores, quienes detectan cambios de ánimo en las mascotas y mantienen una comunicación cálida y confiable.",
+        "en": "Pet parents in San Jerónimo Lídice praise the welcoming demeanor and dedication of the Distrito Canino staff. They highlight constant supervision by caregivers who observe subtle behavioral changes in pets and provide warm, reassuring communication with families."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Cuidado afectuoso y socialización canina",
+        "en": "Affectionate care and canine socialization"
+      },
+      "text": {
+        "es": "Los clientes habituales coinciden en que los perros disfrutan plenamente sus estancias y regresan a casa contentos tras las jornadas de guardería. Resaltan el cuidado cariñoso, la socialización controlada y la atención atenta a las necesidades de cada animal.",
+        "en": "Regular clients agree that dogs thoroughly enjoy their daycare and boarding stays, returning home cheerful and relaxed. They emphasize gentle handling, well-managed canine socialization, and thoughtful attention tailored to the needs of each visiting pet."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones cómodas y áreas adaptadas",
+        "en": "Comfortable facilities and adapted play areas"
+      },
+      "text": {
+        "es": "Las reseñas valoran positivamente los espacios amplios y adaptados para el juego y descanso seguro de los huéspedes caninos. Los propietarios aprecian las instalaciones confortables y bien dimensionadas para albergar a los perros durante temporadas vacacionales.",
+        "en": "Reviews positively highlight the spacious, dedicated areas designed for safe playtime and peaceful rest among canine guests. Pet owners appreciate comfortable, appropriately sized facilities that keep dogs well-accommodated during extended holiday boarding."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Ofrecen servicios combinados de guardería y pensión canina?",
+        "en": "Do they offer combined dog daycare and boarding services?"
+      },
+      "a": {
+        "es": "Sí, cuentan con estancias de día y servicio de hotel canino para cuidar a las mascotas durante viajes y fines de semana.",
+        "en": "Yes, they provide day camp stays and overnight dog boarding options to accommodate pets during family travel and weekends."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Se supervisa la interacción entre perros durante el juego?",
+        "en": "Is dog interaction actively supervised during group play?"
+      },
+      "a": {
+        "es": "Sí, el equipo supervisa continuamente los grupos de juego para asegurar una convivencia pacífica y segura.",
+        "en": "Yes, caregivers continuously monitor playgroups to ensure safe and balanced canine socialization."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cómo se gestionan las reservaciones para temporada alta?",
+        "en": "How are bookings arranged during peak holiday periods?"
+      },
+      "a": {
+        "es": "Se recomienda reservar con bastante antelación para asegurar espacio disponible en las áreas de pensión.",
+        "en": "Booking well in advance is recommended to ensure room availability in the boarding quarters."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
