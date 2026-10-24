@@ -1,0 +1,163 @@
+{
+  "slug": "pet-spa-roma-sur",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+spa/data=!4m7!3m6!1s0x85d1ff3dd52a2839:0xb2b020d3de00d7f5!8m2!3d19.411305!4d-99.1620589!16s%2Fg%2F11bw618n4z!19sChIJOSgq1T3_0YUR9dcA3tMgsLI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "es": "Descontento con el trato del personal",
+        "en": "Customer dissatisfaction with staff attitude"
+      },
+      "text": {
+        "es": "La mayoría de las reseñas recientes en Roma Sur expresan descontento con la atención del personal. Varios usuarios señalan actitudes déspotas en recepción y aspereza en el trato al cliente, mientras que solo dos opiniones aisladas califican el servicio como amable o excelente durante sus visitas.",
+        "en": "Most recent reviews in Roma Sur express strong dissatisfaction with the staff's demeanor. Multiple clients report rude and dismissive behavior at the reception desk, while only two isolated reviews describe the team as polite or helpful during their appointments."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "es": "Deficiencias en citas y comprobantes",
+        "en": "Shortcomings in scheduling and receipts"
+      },
+      "text": {
+        "es": "Los clientes señalan fallas recurrentes en la comunicación digital y la gestión de citas. Varios tutores mencionan que el negocio bloquea usuarios en WhatsApp tras pedir aclaraciones, no emite recibos detallados y no notifica con claridad sobre el estado de la mascota o posibles cargos adicionales.",
+        "en": "Clients highlight recurring communication issues across digital channels and booking management. Multiple pet owners report being blocked on WhatsApp after asking questions, receiving no detailed receipts, and getting vague explanations regarding service fees and waiting times."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Resultados estéticos con valoraciones divididas",
+        "en": "Grooming outcomes with mixed assessments"
+      },
+      "text": {
+        "es": "Las opiniones sobre los cortes y baños muestran contrastes notables. Mientras algunos clientes señalan que sus perros quedaron limpios y bien arreglados, otro testimonio critica que le realizaron un corte no solicitado con cobro extra en lugar de limitarse al baño acordado previamente.",
+        "en": "Opinions regarding baths and styling show sharp contrasts. While some pet parents found their dogs well-groomed and clean, another customer reported receiving an unwanted full haircut with unauthorized extra charges rather than the simple bath requested during check-in."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Es necesario agendar cita para la estética canina?",
+        "en": "Is an appointment required for pet grooming?"
+      },
+      "a": {
+        "es": "Sí, aunque clientes advierten que puede haber retrasos considerables pese a tener horario reservado.",
+        "en": "Yes, though reviewers caution that significant delays may occur despite having a scheduled slot."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Entregan comprobante de pago por los servicios?",
+        "en": "Do they provide a payment receipt for grooming services?"
+      },
+      "a": {
+        "es": "Clientes recientes reportan que el establecimiento no siempre entrega notas o recibos formales.",
+        "en": "Recent clients note that the business does not always provide formal invoices or receipts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cuentan con servicio de estética canina a domicilio?",
+        "en": "Do they offer mobile grooming services?"
+      },
+      "a": {
+        "es": "Sí, la información comercial del salón incluye opciones de estética móvil previa coordinación.",
+        "en": "Yes, the salon's business profile includes mobile grooming services upon prior arrangement."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "results": "+",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}

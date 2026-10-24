@@ -1,0 +1,164 @@
+{
+  "slug": "roma-pets-resort",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Roma+Pets+Resort/data=!4m7!3m6!1s0x85d1ff15f9549c89:0xc77212dc879a7244!8m2!3d19.3795832!4d-99.1614643!16s%2Fg%2F11byl21wh3!19sChIJiZxU-RX_0YURRHKah9wScsc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "es": "Rotación de personal y quejas críticas",
+        "en": "Staff turnover and critical complaints"
+      },
+      "text": {
+        "es": "Varios tutores en la colonia Del Valle expresan decepción ante cambios recientes en el equipo, señalando falta de pericia técnica y desinterés por asumir responsabilidad ante incidentes. En contraste, clientes antiguos destacan que algunos encargados mostraron disposición para reembolsar pagos tras inconformidades.",
+        "en": "Several pet owners in Colonia Del Valle report frustration following recent personnel changes, noting a lack of grooming expertise and unwillingness to take responsibility for mishaps. In contrast, long-time patrons recall that certain staff members were willing to refund fees when service issues arose."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "es": "Cortes deficientes y quejas de estética",
+        "en": "Inadequate styling and grooming complaints"
+      },
+      "text": {
+        "es": "Múltiples reseñas reportan cortes de pelo insatisfactorios, mencionando perros rapados de forma dispareja sin respetar el estándar de la raza y falta de aseo en glándulas u oídos. Aunque algunos usuarios elogian los baños regulares, la mayoría de las opiniones recientes califica el acabado estético como deficiente.",
+        "en": "Multiple reviews report unsatisfactory haircuts, describing dogs shaved unevenly without adherence to breed standards, alongside neglected ear and gland cleaning. While a few clients praise routine baths, most recent accounts evaluate the overall styling and technical grooming execution as subpar."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Seguridad y bienestar de las mascotas",
+        "en": "Pet safety and welfare concerns"
+      },
+      "text": {
+        "es": "Las opiniones sobre el cuidado físico de las mascotas muestran fuertes divergencias. Mientras algunos clientes recomiendan el lugar para estancias de gatos y perros, otros reportaron lesiones cerca de los ojos y dolor articular tras el servicio, aconsejando extremar precauciones antes de dejar a sus animales.",
+        "en": "Feedback concerning the physical welfare of pets shows sharp disagreement. While some owners recommend the facility for cat boarding and dog care during travel, other customers reported injuries near the eyes and joint discomfort after visits, advising pet guardians to exercise caution before booking."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de pensión para perros y gatos?",
+        "en": "Do they provide boarding services for dogs and cats?"
+      },
+      "a": {
+        "es": "Sí, los clientes mencionan haber utilizado servicios de cuidado temporal para perros y gatos al viajar.",
+        "en": "Yes, clients mention utilizing temporary boarding services for dogs and cats when traveling."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué servicios de estética canina realizan?",
+        "en": "What pet grooming services do they provide?"
+      },
+      "a": {
+        "es": "Ofrecen baños, corte de pelo, corte de uñas y estética general para perros.",
+        "en": "They offer baths, haircuts, nail trimming, and general grooming for dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Tienen programa de lealtad en estética canina?",
+        "en": "Do they have a customer loyalty program for grooming?"
+      },
+      "a": {
+        "es": "Sí, usuarios señalan que ofrecen una tarjeta de lealtad para obtener un servicio posterior sin costo.",
+        "en": "Yes, users note that a loyalty card is offered providing a free subsequent grooming session."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "~",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
