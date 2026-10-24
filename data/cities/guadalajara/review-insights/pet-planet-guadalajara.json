@@ -1,0 +1,145 @@
+{
+  "slug": "pet-planet-guadalajara",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Planet/data=!4m7!3m6!1s0x8428b1d6d8f09521:0xd46ef468a0916880!8m2!3d20.667731!4d-103.3565967!16s%2Fg%2F1w0p5yt3!19sChIJIZXw2NaxKIQRgGiRoGj0btQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Experiencias de servicio en mostrador",
+        "en": "Counter service and staff assistance"
+      },
+      "text": {
+        "es": "La mayoría de los clientes valora de manera positiva el servicio recibido en este establecimiento mayorista de Guadalajara. Varios compradores elogian la buena disposición de los encargados para atender compras de insumos para mascotas. Sin embargo, un visitante señaló la ausencia de personal para orientarlo al encontrar el acceso cerrado en su visita.",
+        "en": "Most buyers speak favorably of the customer assistance provided at this Guadalajara wholesale warehouse. Several clients highlight the helpful demeanor of employees when sourcing pet care products and accessories. However, one customer noted the complete absence of staff to assist them when finding the entry blocked upon arriving at the site."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Acceso e instalaciones del almacén",
+        "en": "Warehouse accessibility and facilities"
+      },
+      "text": {
+        "es": "Los compradores recurrentes recomiendan el local como punto de abastecimiento para tiendas de animales y clínicas veterinarias de la zona. No obstante, se reportó un inconveniente con botes colocados en la entrada que dificultaban el acceso peatonal sin señalización clara. Pese a ello, los tutores valoran la variedad de mercancía exhibida en tienda.",
+        "en": "Regular buyers recommend the warehouse as a reliable supply depot for pet shops and veterinary clinics across Guadalajara. Nevertheless, one visitor reported an obstacle with containers placed near the entrance that hindered access without clear signage. Despite this, shoppers appreciate the overall range of merchandise stocked on the premises."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Coordinación comercial e información",
+        "en": "Business communication and inquiries"
+      },
+      "text": {
+        "es": "Varios clientes recomiendan ampliamente la atención comercial del negocio para adquirir productos al mayoreo y menudeo. Quienes compran habitualmente aprecian la claridad en las recomendaciones de productos para mascotas. En contraste, un usuario lamentó la falta de avisos visibles sobre los horarios de atención al encontrar el establecimiento desatendido.",
+        "en": "Several clients strongly recommend the business for wholesale and retail pet supply purchasing in the area. Frequent buyers appreciate clear product guidance when stocking up on domestic animal essentials. In contrast, one customer regretted the lack of visible informational signs regarding business hours after arriving to an unattended storefront."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Venden productos para mascotas a precio de mayoreo?",
+        "en": "Do they sell pet supplies at wholesale prices?"
+      },
+      "a": {
+        "es": "Sí, el almacén opera como distribuidor mayorista y autoservicio para clínicas veterinarias, acuarios y tiendas especializadas.",
+        "en": "Yes, the warehouse operates as a wholesale self-service distributor for vet clinics, aquariums, and pet stores."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Qué tipo de artículos se pueden adquirir en las instalaciones?",
+        "en": "What types of supplies can be purchased at the location?"
+      },
+      "a": {
+        "es": "Los clientes señalan que ofrecen alimentos, accesorios para animales de compañía, jaulas y equipamiento para acuarios.",
+        "en": "Clients note that they offer pet foods, companion animal accessories, cages, and aquarium equipment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario contar con membresía para comprar en la bodega?",
+        "en": "Is a membership required to make purchases at the warehouse?"
+      },
+      "a": {
+        "es": "Los compradores confirman que atienden tanto a negocios como a particulares que buscan surtirse de insumos en Mexicaltzingo.",
+        "en": "Buyers confirm that they serve both retail businesses and individual customers seeking supplies on Mexicaltzingo street."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿El local cuenta con señalización clara en el acceso exterior?",
+        "en": "Does the storefront display clear exterior signage?"
+      },
+      "a": {
+        "es": "Las reseñas sugieren verificar antes de acudir, ya que algún cliente reportó dificultades para identificar la entrada abierta del local.",
+        "en": "Reviews suggest confirming before visiting, as at least one customer reported difficulty identifying the open entrance."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
