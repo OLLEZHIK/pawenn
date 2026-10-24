@@ -1,0 +1,171 @@
+{
+  "slug": "baker-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Baker+Animal+Hospital/data=!4m7!3m6!1s0x4cc919cd47a4085f:0xaf188580ee434b4f!8m2!3d45.5010745!4d-73.6595346!16s%2Fg%2F1thlz1fz!19sChIJXwikR80ZyUwRT0tD7oCFGK8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "fr": "Professionnalisme et accueil chaleureux",
+        "en": "Professional care and welcoming staff"
+      },
+      "text": {
+        "fr": "Les usagers saluent une équipe médicale dévouée, courtoise et très attentive, tant à la réception qu'en salle d'examen sur la rue Mayrand. Les praticiens sont décrits comme des professionnels bienveillants qui mettent immédiatement les maîtres et leurs compagnons en confiance.",
+        "en": "Clients praise a dedicated, courteous, and attentive veterinary team, from the front reception desk to the examination rooms on Mayrand Street. Practitioners are described as compassionate professionals who immediately put both owners and pets at ease."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fr": "Respect et confort des compagnons",
+        "en": "Gentle handling and animal comfort"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'affection sincère portée aux chiens et chats examinés, y compris les animaux craintifs qui redoutaient les visites vétérinaires. Les soignants prennent le temps d'approcher chaque patient avec calme afin de rendre la consultation agréable et sans stress.",
+        "en": "Reviewers highlight the genuine affection shown to examining dogs and cats, including fearful pets previously traumatized by clinic visits. Veterinarians and technicians take time to approach every animal calmly, ensuring a comforting, stress-free medical appointment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Conseils clairs et tarification honnête",
+        "en": "Clear advice and honest guidance"
+      },
+      "text": {
+        "fr": "Les clients apprécient des explications médicales transparentes, sans incitation à multiplier des examens ou des achats inutiles. Les praticiens prennent le temps d'exposer clairement les options de traitement tout en répondant avec précision aux questions posées.",
+        "en": "Pet owners appreciate transparent medical explanations without any push toward unnecessary tests or extra commercial purchases. Practitioners take the time to outline treatment choices clearly while addressing client questions with helpful, straightforward answers."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Les vétérinaires prennent-ils en charge les animaux anxieux ?",
+        "en": "Do the veterinarians accommodate anxious or nervous pets?"
+      },
+      "a": {
+        "fr": "Oui, les praticiens et techniciens sont reconnus pour leur approche patiente qui apaise même les animaux les plus craintifs.",
+        "en": "Yes, practitioners and technicians are praised for their gentle, calming approach with nervous or fearful animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les délais d'attente lors des rendez-vous sont-ils courts ?",
+        "en": "Are appointment times respected with minimal waiting?"
+      },
+      "a": {
+        "fr": "Oui, les clients mentionnent une prise en charge ponctuelle avec très peu d'attente à leur arrivée à la clinique.",
+        "en": "Yes, clients note punctual scheduling with very little waiting time upon arrival for consultations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle des soins pour les chiens et les chats ?",
+        "en": "Does the hospital provide healthcare services for both dogs and cats?"
+      },
+      "a": {
+        "fr": "Oui, la clinique offre une gamme complète de soins médicaux, chirurgicaux et préventifs pour les chiens et les chats.",
+        "en": "Yes, the hospital offers comprehensive medical, surgical, and preventive healthcare services for canine and feline patients."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

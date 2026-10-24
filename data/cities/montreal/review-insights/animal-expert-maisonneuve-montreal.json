@@ -1,0 +1,201 @@
+{
+  "slug": "animal-expert-maisonneuve-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Expert+Maisonneuve/data=!4m7!3m6!1s0x4cc91bb223f59d1b:0x7e4d759c15a7ba9d!8m2!3d45.5184161!4d-73.5586166!16s%2Fg%2F1v2yyh34!19sChIJG531I7IbyUwRnbqnFZx1TX4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fr": "Accueil et conseils en boutique",
+        "en": "In-store service and customer guidance"
+      },
+      "text": {
+        "fr": "Les avis soulignent généralement la courtoisie et la disponibilité des employés pour orienter les clients dans leurs achats et tailler les griffes. Quelques visiteurs déplorent néanmoins un accueil froid ou un manque d'empathie à l'approche de l'heure de fermeture.",
+        "en": "Customer reviews generally highlight the friendly staff and their helpful advice when selecting everyday pet supplies or trimming claws. However, some visitors report an unwelcoming attitude and a noticeable lack of flexibility when arriving close to evening closing time."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Prise en charge des animaux",
+        "en": "Pet care and handling"
+      },
+      "text": {
+        "fr": "Plusieurs clients apprécient la présence d'animaux en boutique et la grande douceur démontrée lors des soins de toilettage léger. En revanche, des avis critiques s'inquiètent des conditions de garde des rongeurs et oiseaux, signalant des soucis de santé après adoption.",
+        "en": "Several clients appreciate seeing animals in the shop and commend the gentle handling shown during routine claw trimming visits. Conversely, critical feedback raises serious concerns regarding the welfare of caged birds and adopted rodents facing health issues."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Choix varié d'articles en magasin",
+        "en": "Wide selection of pet products"
+      },
+      "text": {
+        "fr": "Les propriétaires d'animaux saluent la diversité des produits disponibles dans cette animalerie de quartier sur la rue Sainte-Catherine Est. L'établissement propose des accessoires variés, de la nourriture spécialisée et des fournitures adaptées à de nombreuses espèces.",
+        "en": "Pet owners appreciate the wide variety of items available at this neighborhood pet store on Sainte-Catherine Street East in Montreal. The shop provides diverse accessories, specialized animal food, and everyday supplies suitable for many different species."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "L'animalerie propose-t-elle la coupe de griffes sans rendez-vous ?",
+        "en": "Does the pet store offer walk-in claw trimming?"
+      },
+      "a": {
+        "fr": "Oui, plusieurs clients rapportent un service rapide et bienveillant pour la taille des griffes de leurs chiens ou chats.",
+        "en": "Yes, multiple clients report quick and gentle claw trimming services for their dogs or cats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels types de produits pour animaux trouve-t-on sur place ?",
+        "en": "What types of pet supplies are available in the store?"
+      },
+      "a": {
+        "fr": "La boutique propose un vaste choix de nourriture, de gâteries, d'accessoires et de fournitures pour chiens, chats, rongeurs et oiseaux.",
+        "en": "The shop stocks an extensive range of pet food, treats, accessories, and supplies for dogs, cats, rodents, and birds."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Un service de livraison à domicile est-il proposé par le magasin ?",
+        "en": "Does the shop offer home delivery service?"
+      },
+      "a": {
+        "fr": "Oui, la commande en ligne avec livraison locale est disponible, bien que certains clients soulignent des délais de réception variables.",
+        "en": "Yes, online ordering with local delivery is offered, though some customers note variable delivery timelines."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
