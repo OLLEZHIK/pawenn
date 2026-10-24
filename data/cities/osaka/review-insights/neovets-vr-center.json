@@ -1,0 +1,255 @@
+{
+  "slug": "neovets-vr-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/%E3%83%8D%E3%82%AA%E3%83%99%E3%83%83%E3%83%84VR%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/data=!4m7!3m6!1s0x6000e0b0bc5d7523:0x827f66e8933bbaf3!8m2!3d34.6691669!4d135.532962!16s%2Fg%2F11b7q15h_4!19sChIJI3VdvLDgAGAR87o7k-hmf4I?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 18,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 13,
+      "title": {
+        "en": "Skilled Specialists Facing Interpersonal Friction",
+        "ja": "高度な専門獣医師と接遇への批判"
+      },
+      "text": {
+        "en": "Specialists and nurses at this secondary referral center in Higashinari Ward elicit polarized perspectives. Clients facing complex neurological conditions praise attentive surgical teams and compassionate daily inpatient updates via messaging apps. However, other owners recount frustrating experiences, noting perceived arrogance from receptionists and a sense of detachment during stressful consultations.",
+        "ja": "大阪市東成区の二次診療施設である当センターでは、専門獣医師や看護師に対する評価に明暗が分かれています。難度の高い脳神経疾患や外科手術を乗り越えた飼い主からは、入院中のこまめなLINE連絡や温かい看護体制に心からの感謝が寄せられています。一方で、受付スタッフの事務的で高圧的な物言いに不快感を抱いたという声や、担当医以外の医師による引き継ぎ不足、退院後の急変に対する責任感の薄さを批判する意見も散見され、接遇面での改善が求められています。専門的な技術が高いだけに、飼い主に対する細やかなホスピタリティが期待されています。"
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "en": "Diagnostic Briefings with Dialogue Gaps",
+        "ja": "詳細な画像説明と対話における課題"
+      },
+      "text": {
+        "en": "Communication surrounding advanced diagnostics generates diverse reactions from referring pet owners. Many praise attending clinicians for thorough briefings on MRI, CT, and biopsy findings, appreciating clear discussions of anesthesia risks and pathological probabilities. Nonetheless, critics report instances where veterinarians appeared condescending, dismissed second-opinion inquiries, or failed to listen to daily symptom observations.",
+        "ja": "CTやMRIなどの高度画像診断に関する説明体制には、賛否両論の意見が集まっています。麻酔のリスクや生検結果、今後の放射線治療方針について明快かつ論理的に説明を受け、納得して治療に進めたと喜ぶ利用者が多数存在します。その反面、かかりつけ医への検査結果の連絡漏れや、セカンドオピニオンに対して見下すような発言を受けたと憤る声もあり、専門的な検査結果の伝達において飼い主の感情に寄り添った丁寧な対話が望まれています。検査結果の伝達だけでなく、不安を抱える家族の思いに寄り添ったきめ細やかな対話が期待されています。"
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "en": "Substantial Fees for Advanced Secondary Care",
+        "ja": "高度医療に伴う高額な検査費と手術費"
+      },
+      "text": {
+        "en": "The cost of specialized care represents a prominent topic across customer reviews. Pet owners acknowledge that cutting-edge imaging equipment, specialist consultations, and intricate operations carry hefty charges, often reaching hundreds of thousands of yen. While insured guardians find these expenses manageable, several reviewers describe bills as steep, highlighting high fees for initial specialized examinations.",
+        "ja": "最先端の医療機器を備えた二次診療施設であるため、診療費や検査費は総じて非常に高額であると指摘されています。CT検査やMRI検査、特殊な外科手術には数十万円規模の費用がかかることが多く、ペット保険の加入なしでは継続が難しいとの声が一般的です。事前に見積もりを提示される点は安心材料とされていますが、初診相談料だけで1万円を超えるなど、高度医療特有の高額な負担に対して躊躇や不満を感じる飼い主も少なくありません。大切な家族の命を救うための高額な出費だからこそ、明確な費用説明と納得感が不可欠とされています。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can I bring my pet directly without a referral from a regular vet?",
+        "ja": "かかりつけ医の紹介状がなくても直接受診できますか？"
+      },
+      "a": {
+        "en": "No, consultations and specialized imaging scans require a formal referral from a primary care veterinarian.",
+        "ja": "いいえ、当センターは二次診療施設のため、受診や検査にはかかりつけ動物病院からの事前紹介が必要です。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What specialized imaging equipment is available at the center?",
+        "ja": "どのような高度医療機器が導入されていますか？"
+      },
+      "a": {
+        "en": "The facility operates high-field MRI scanners, multi-slice CT equipment, endoscopy suites, and advanced surgical tools.",
+        "ja": "高磁場MRIやマルチスライスCT、内視鏡、高度外科手術設備などを完備し、精密検査と治療を行っています。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are treatment cost estimates provided before procedures begin?",
+        "ja": "手術や検査の前に費用の見積もりを出してもらえますか？"
+      },
+      "a": {
+        "en": "Yes, clients confirm that price estimates are provided beforehand, though fees reflect specialized tertiary care.",
+        "ja": "はい、処置前に費用の概算が提示されますが、高度医療のため一般的な動物病院より費用は高額になります。"
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 3,
+      "topics": {
+        "communication": "~",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "communication": "+",
+        "staff": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "Edited 4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "communication": "+",
+        "place": "+",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "~"
+      }
+    }
+  ]
+}
