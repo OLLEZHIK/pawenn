@@ -1,0 +1,156 @@
+{
+  "slug": "celtok",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Celtok/data=!4m7!3m6!1s0x85d1ffda3e9688cb:0x2fa94f02b76aef52!8m2!3d19.4259243!4d-99.1365102!16s%2Fg%2F11pkqghqsk!19sChIJy4iWPtr_0YURUu9qtwJPqS8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Amplio surtido de artículos y accesorios",
+        "en": "Extensive selection of pet accessories"
+      },
+      "text": {
+        "es": "Los compradores en el Centro Histórico celebran la extensa variedad de artículos disponibles para perros y gatos. Comentan que es fácil encontrar correas, collares, juguetes, camas y prendas variadas, destacando la disponibilidad de productos para surtir compras personales y de mayoreo.",
+        "en": "Shoppers in Centro Histórico celebrate the extensive range of pet supplies available for dogs and cats. They note finding leashes, collars, toys, beds, and pet apparel with ease, highlighting the broad stock suitable for both retail purchases and wholesale replenishment."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Atención al público con experiencias variadas",
+        "en": "Customer service with contrasting experiences"
+      },
+      "text": {
+        "es": "La experiencia con el personal de la tienda en calle Izazaga genera opiniones encontradas. Mientras algunos clientes elogian la amabilidad y buena disposición de encargados puntuales, otros lamentan desgano en el mostrador y falta de apoyo al empacar artículos adquiridos.",
+        "en": "Customer experience with retail staff on Izazaga Street generates mixed feedback. While some visitors praise the helpfulness and cheerful attitude of specific team members, others complain about indifferent counter service and a lack of assistance when bagging purchases."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Tienda concurrida en el Centro",
+        "en": "Bustling pet store in downtown"
+      },
+      "text": {
+        "es": "Los clientes describen la sucursal como un punto de compra conveniente y accesible para artículos de mascotas en el centro de la ciudad. Aunque algunos señalan que en momentos de alta afluencia la mercancía puede verse desordenada, valoran positivamente la ubicación general.",
+        "en": "Customers describe the branch as a convenient and accessible shopping destination for pet products in the city center. While some notice occasional disorganization on shelves during busy hours, they value the central location and overall retail environment favorably."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué tipo de productos para mascotas comercializa Celtok?",
+        "en": "What types of pet supplies does Celtok sell?"
+      },
+      "a": {
+        "es": "Distribuye collares, correas, arneses, camas, transportadoras, juguetes y accesorios tanto al mayoreo como al menudeo.",
+        "en": "It distributes collars, leashes, harnesses, beds, carriers, toys, and apparel for wholesale and retail customers."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen descuentos para clientes nuevos o compras por volumen?",
+        "en": "Are discounts offered for new customers or volume purchases?"
+      },
+      "a": {
+        "es": "Sí, los compradores mencionan promociones para nuevos clientes y precios diferenciados por compra mayorista.",
+        "en": "Yes, shoppers mention discounts for first-time buyers and tiered pricing structures for bulk wholesale orders."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Dónde se ubica la sucursal y cómo es el horario de atención?",
+        "en": "Where is the store located and what are the operating hours?"
+      },
+      "a": {
+        "es": "Se ubica en José María Izazaga 89 en el Centro Histórico, abierta de lunes a sábado en horario diurno continuo.",
+        "en": "It is located at José María Izazaga 89 in Centro Histórico, open Monday through Saturday during daytime hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "place": "~",
+        "staff": "+",
+        "prices": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    }
+  ]
+}
