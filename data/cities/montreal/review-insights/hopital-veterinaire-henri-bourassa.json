@@ -1,0 +1,161 @@
+{
+  "slug": "hopital-veterinaire-henri-bourassa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/H%C3%B4pital+v%C3%A9t%C3%A9rinaire+Henri-Bourassa/data=!4m7!3m6!1s0x4cc91f9fba4202fb:0xe0dd59141623bbe!8m2!3d45.6183118!4d-73.5927914!16s%2Fg%2F1v_z3yzh!19sChIJ-wJCup8fyUwRvjtiQZHVDQ4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Bienveillance de l'équipe et réception",
+        "en": "Compassionate staff and front desk"
+      },
+      "text": {
+        "fr": "La majorité des propriétaires d'animaux expriment une vive reconnaissance envers l'équipe soignante de Montréal-Nord. Des professionnelles comme France à la réception et les vétérinaires sont louées pour leur douceur et leur humanité lors d'épreuves douloureuses. Un avis critique déplore toutefois un accueil téléphonique impatient.",
+        "en": "Most pet owners express sincere appreciation for the medical team in Montréal-Nord. Front desk staff like France and the attending veterinarians receive frequent praise for their gentle empathy during emotionally difficult visits. One negative review, however, cites an impatient interaction over the phone."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Soins respectueux et accompagnement attentif",
+        "en": "Respectful treatment and dedicated care"
+      },
+      "text": {
+        "fr": "Les patients canins et félins bénéficient d'une attention constante lors des soins sur le boulevard Henri-Bourassa. Les maîtres soulignent la tendresse manifestée envers leurs compagnons vieillissants ou souffrants pour les soulager rapidement. Les animaux y sont traités avec beaucoup de considération et de dignité.",
+        "en": "Canine and feline patients receive compassionate attention during treatments on Henri-Bourassa Boulevard East. Owners emphasize the tenderness shown to aging or ailing pets to bring them swift relief. Animals are treated with genuine respect and dignity throughout their medical care."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Tarifs de consultation et facturation",
+        "en": "Consultation fees and visit expenses"
+      },
+      "text": {
+        "fr": "Le coût des actes vétérinaires suscite des critiques chez plusieurs clients confrontés à des frais de consultation de 115 $ ou des factures répétées de 300 $. Si certains usagers trouvent les prix raisonnables pour les soins de fin de vie, d'autres estiment que les montants demandés sont disproportionnés.",
+        "en": "The cost of veterinary care draws criticism from multiple clients facing consultation fees of $115 or recurring bills reaching $300. While some owners find fees reasonable for end-of-life support, others perceive certain diagnostic charges and routine visits as excessively expensive."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels soins médicaux sont dispensés à l'hôpital Henri-Bourassa ?",
+        "en": "What veterinary care is provided at Henri-Bourassa Hospital?"
+      },
+      "a": {
+        "fr": "L'établissement offre des consultations générales, des chirurgies, de la dentisterie, de l'échographie et de l'hospitalisation.",
+        "en": "The hospital provides general consultations, surgeries, dental treatments, ultrasonography, and inpatient care."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "La clinique est-elle ouverte les fins de semaine ?",
+        "en": "Is the veterinary hospital open on weekends?"
+      },
+      "a": {
+        "fr": "Oui, la clinique accueille les animaux les samedis et dimanches de 9 h à 17 h.",
+        "en": "Yes, the facility is open for consultations on Saturdays and Sundays from 9:00 AM to 5:00 PM."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Où se situe l'établissement à Montréal-Nord ?",
+        "en": "Where is the veterinary clinic situated in Montréal-Nord?"
+      },
+      "a": {
+        "fr": "L'hôpital vétérinaire se trouve au 7321 boulevard Henri-Bourassa Est dans l'arrondissement de Montréal-Nord.",
+        "en": "The veterinary hospital is located at 7321 Henri-Bourassa Boulevard East in Montréal-Nord."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
