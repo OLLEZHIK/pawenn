@@ -1,0 +1,37 @@
+{
+  "chunk": "21-vet",
+  "kind": "places",
+  "slugs": [
+    "champlain-animal-clinic",
+    "cypress-st-animal-hospital-vancouver",
+    "pacific-pet-clinic",
+    "west-king-edward-animal-clinic",
+    "burrard-animal-hospital-emergency",
+    "atlas-animal-hospital-emergency-vancouver",
+    "intercity-animal-emergency-clinic"
+  ],
+  "hash": "12fa66cbd86c96029b4806b8e1c0951d2e1d1749dad05773738e054356eba35e",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T05:56:18.381Z",
+      "result": "FAIL",
+      "listed": 36
+    },
+    {
+      "at": "2026-10-24T05:59:41.595Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-24T06:05:47.370Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T06:07:48.973Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
