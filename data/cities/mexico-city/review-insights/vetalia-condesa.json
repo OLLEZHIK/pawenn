@@ -1,0 +1,263 @@
+{
+  "slug": "vetalia-condesa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vetalia+Condesa+-+Hospital+Veterinario+24+horas/data=!4m7!3m6!1s0x85d1ff9aa1f1200b:0x78a5a42c2a4da8f!8m2!3d19.4083897!4d-99.1726251!16s%2Fg%2F11kqs517q6!19sChIJCyDxoZr_0YURj9qkwkJaigc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 19,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 19,
+      "title": {
+        "es": "Frecuentes quejas sobre el personal",
+        "en": "Frequent complaints regarding hospital staff"
+      },
+      "text": {
+        "es": "La mayoría de las reseñas recientes expresa descontento con la actitud del equipo médico y de estética en la sucursal Condesa. Varios tutores señalan desinterés y respuestas descorteses en recepción, así como falta de seguimiento veterinario continuo debido a la constante rotación de médicos de guardia.",
+        "en": "The majority of recent reviews reflect dissatisfaction with the attitude of medical and grooming personnel at the Condesa clinic. Several clients cite unhelpful front desk interactions and a lack of consistent veterinary follow-up caused by frequent staff rotation among attending doctors on shift."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 7,
+      "title": {
+        "es": "Deficiencias en logística y reportes",
+        "en": "Deficiencies in administrative communication"
+      },
+      "text": {
+        "es": "Diversos usuarios reportan dificultades administrativas graves, como retrasos prolongados en la entrega de facturas y desorganización al compartir expedientes clínicos entre sucursales. También se señalan fallas de información al coordinar estudios urgentes, dejando a clientes sin respuestas claras.",
+        "en": "Various clients report severe administrative issues, including long delays in issuing invoices and poor coordination when sharing patient records across branch locations. Users also note misleading information regarding emergency tests, leaving pet owners without clear answers during critical moments."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "es": "Demoras críticas en urgencias",
+        "en": "Critical delays during emergencies"
+      },
+      "text": {
+        "es": "Varios testimonios advierten sobre prolongados tiempos de espera para casos graves que acuden fuera de horario habitual. Propietarios relatan haber esperado más de media hora sin recibir valoración médica inicial a pesar de anunciar cuadros agudos, lo que obligó a algunos tutores a buscar atención médica en otros hospitales.",
+        "en": "Multiple accounts warn of extensive waiting periods for urgent medical cases arriving outside regular daytime hours. Owners describe waiting over half an hour without initial triage despite presenting acute symptoms, which forced some clients to leave and seek prompt emergency intervention at alternative veterinary hospitals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Atiende el hospital urgencias nocturnas las 24 horas?",
+        "en": "Does the hospital provide 24/7 night emergency care?"
+      },
+      "a": {
+        "es": "Sí, opera las 24 horas, aunque varios tutores sugieren llamar previamente para verificar disponibilidad de guardia.",
+        "en": "Yes, it is open 24/7, though clients strongly recommend calling ahead to confirm active doctor availability."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿El expediente de mi mascota se comparte entre sucursales?",
+        "en": "Is my pet's medical history shared between branches?"
+      },
+      "a": {
+        "es": "El sistema está interconectado, pero se aconseja solicitar copias físicas o digitales de estudios para evitar demoras.",
+        "en": "Branches share an electronic file, but keeping personal copies of test results is advisable to prevent delays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de estética canina?",
+        "en": "Do they provide dog grooming services?"
+      },
+      "a": {
+        "es": "Sí, cuentan con área de baño y peluquería previa cita programada durante el día.",
+        "en": "Yes, they provide bathing and styling services by appointment during daytime hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
