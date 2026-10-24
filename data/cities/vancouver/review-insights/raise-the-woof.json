@@ -1,0 +1,177 @@
+{
+  "slug": "raise-the-woof",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Raise+the+Woof/data=!4m7!3m6!1s0x548676ad863c8de1:0x1f96fdbfc1c3ac38!8m2!3d49.283697!4d-123.0648799!16s%2Fg%2F1ptw9v478!19sChIJ4Y08hq12hlQROKzDwb_9lh8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 8,
+      "title": {
+        "en": "Active daycare and overnight boarding"
+      },
+      "text": {
+        "en": "Dog owners report that their pets show genuine excitement during morning drop-offs and return home happily exhausted after active play with companions. Patrons value that attendants accommodate energetic breeds like huskies, although one reviewer noted a bite incident during group play that required medical attention."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive caregivers with policy concerns"
+      },
+      "text": {
+        "en": "Many clients commend owner Andrea, Nora, and the daycare team for their cheerful morning greetings, deep affection for animals, and attentive supervision. In contrast, one visitor expressed frustration over tipping policies and management interactions, while another was disappointed by the lack of follow-up after an injury."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Affordable rates with refund disputes"
+      },
+      "text": {
+        "en": "Several pet parents describe the daily daycare fees and boarding packages as super reasonable and affordable compared to competing Vancouver facilities. However, one client expressed disappointment after being denied a refund for prepaid daycare days when withdrawing their dog following an altercation in the play area."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Is overnight dog boarding crate-free at Raise the Woof?"
+      },
+      "a": {
+        "en": "Yes, the facility provides crate-free overnight boarding with round-the-clock staff supervision and comfortable lounge areas."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do owners receive photo and video updates while their dog is boarded?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate receiving regular photos and video clips of their pets enjoying daycare and boarding stays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the facility feature an outdoor play area?"
+      },
+      "a": {
+        "en": "Yes, the center includes an outdoor run for fresh air and bathroom breaks alongside climate-controlled indoor playrooms."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are prepaid daycare packages refundable if a client stops attending?"
+      },
+      "a": {
+        "en": "Client reviews indicate that unused prepaid daycare days may not be eligible for refunds, so owners should verify cancellation terms."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 2,
+      "topics": {
+        "animals": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "prices": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
