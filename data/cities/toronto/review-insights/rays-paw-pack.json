@@ -1,0 +1,120 @@
+{
+  "slug": "rays-paw-pack",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Ray%27s+Paw+Pack/data=!4m7!3m6!1s0x882b3570ec942249:0xa8f240df42b80ccc!8m2!3d43.6645657!4d-79.4107991!16s%2Fg%2F11wjhv59bq!19sChIJSSKU7HA1K4gRzAy4Qt9A8qg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 4,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Attentive caregivers with mixed experiences"
+      },
+      "text": {
+        "en": "Pet parents in Toronto appreciate Ray and Amy for their dedication, punctuality, and flexible pet care scheduling. Reviewers note that caregivers handle young puppies attentively during introductory visits and daily routines. However, a client voiced dissatisfaction over a lack of response following concerns about a boarding stay."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Gentle pet care and safety"
+      },
+      "text": {
+        "en": "Dog owners note that puppies and young dogs receive caring attention, interactive playtime, and patient supervision while staying with Ray. Reviewers highlight that sitters adjust comfortably to pet needs. However, one owner reported their pet returned limping and seemed uncomfortable after two nights in boarding care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 2,
+      "title": {
+        "en": "Photo updates alongside inquiry delays"
+      },
+      "text": {
+        "en": "Clients value receiving photo updates and prompt progress summaries throughout their pets daycare or overnight stays. Pet parents describe feeling reassured while travelling away from home. In contrast, another client expressed frustration after receiving no reply when seeking clarification following a boarding visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do pet sitters provide daily photo updates?"
+      },
+      "a": {
+        "en": "Yes, clients regularly receive frequent photos and message updates documenting their dog's activities and wellbeing."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the sitter care for nervous or reactive dogs?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that Ray specializes in helping anxious, reactive, and rescue dogs feel calm and secure."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are overnight boarding stays available in the sitter's home?"
+      },
+      "a": {
+        "en": "Yes, Ray's Paw Pack provides in-home daycare and overnight boarding for short stays as well as multi-week trips."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How are initial bookings arranged?"
+      },
+      "a": {
+        "en": "Pet parents can request care through the online contact form or via email to arrange an introductory consultation."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

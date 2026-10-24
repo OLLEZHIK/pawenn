@@ -1,0 +1,175 @@
+{
+  "slug": "queen-west-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Queen+West+Animal+Hospital/data=!4m7!3m6!1s0x882b34e3226b6fcb:0xaed441bc7d86fbf7!8m2!3d43.6452827!4d-79.4130068!16s%2Fg%2F1tcysgbl!19sChIJy29rIuM0K4gR9_uGfbxB1K4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Supportive clinicians and veterinary team"
+      },
+      "text": {
+        "en": "Pet owners commend Dr. Ng and the clinical staff on Queen Street West for their genuine affection and thorough examinations. Reviewers note that veterinary assistants create a welcoming atmosphere and take time to comfort anxious pets during consultations. A critical reviewer, however, felt let down by administrative protocol and front desk inflexibility."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Affectionate care for visiting pets"
+      },
+      "text": {
+        "en": "Clients frequently remark that their dogs and cats feel surprisingly relaxed when visiting Queen West Animal Hospital. Multiple reviewers describe dogs eagerly pulling toward the front door and enjoying snuggles with back room staff. Feline patients also receive gentle, calm handling during annual examinations, checkups, and routine vaccinations."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Detailed advice alongside protocol concerns"
+      },
+      "text": {
+        "en": "Many reviewers appreciate that veterinarians take time to answer treatment questions thoroughly and follow up on sick pets. However, a client voiced disappointment over rigid receptionist policies and poor coordination when seeking assistance on weekends. Overall, most pet parents report transparent guidance and dedicated support from the medical team."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the hospital accommodate pet emergencies?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the team has successfully accommodated urgent walk-in cases during regular operating hours."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are Saturday veterinary appointments available?"
+      },
+      "a": {
+        "en": "Saturday hours are scheduled, though clients recommend confirming doctor availability in advance before visiting."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians perform follow-up calls after visits?"
+      },
+      "a": {
+        "en": "Yes, clients frequently mention receiving thoughtful follow-up calls from the clinical team to check on recovering pets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What routine preventive services are offered?"
+      },
+      "a": {
+        "en": "The hospital provides comprehensive annual wellness exams, vaccinations, fecal testing, and nutritional guidance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
