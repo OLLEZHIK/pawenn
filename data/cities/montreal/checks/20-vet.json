@@ -1,0 +1,26 @@
+{
+  "chunk": "20-vet",
+  "kind": "places",
+  "slugs": [
+    "clinique-de-sante-animale"
+  ],
+  "hash": "04b9796698ddafff3205b55070e8d77e7e828dcefc9bc20dee7966325ecdd46f",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T04:38:03.848Z",
+      "result": "FAIL",
+      "listed": 21
+    },
+    {
+      "at": "2026-10-24T04:38:59.967Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-24T04:40:45.316Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
