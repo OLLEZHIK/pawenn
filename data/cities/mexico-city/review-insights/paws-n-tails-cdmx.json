@@ -1,0 +1,144 @@
+{
+  "slug": "paws-n-tails-cdmx",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Paws+N+Tails+CDMX/data=!4m7!3m6!1s0x85d1ff03d31edda1:0x778577b6f5450dd9!8m2!3d19.3462997!4d-99.1500768!16s%2Fg%2F11mkyk2qdx!19sChIJod0e0wP_0YUR2Q1F9bZ3hXc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Cuidado animal con experiencias diversas",
+        "en": "Animal care with contrasting experiences"
+      },
+      "text": {
+        "es": "Varios usuarios en Coyoacán expresan que sus perros disfrutan de la convivencia y reciben un trato cariñoso durante su estadía. Sin embargo, una reseña crítica denuncia que su perro regresó lesionado en dos ocasiones debido a falta de supervisión entre los animales hospedados.",
+        "en": "Several guardians in Coyoacán report that their dogs enjoy socializing and receive affectionate care during their stays. However, a critical review strongly complains that a pet returned injured twice due to an apparent lack of supervision among the boarding dogs."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones con opiniones dispares",
+        "en": "Daycare facility with mixed impressions"
+      },
+      "text": {
+        "es": "La mayoría de las opiniones califica el espacio en Parque San Andrés como un lugar cómodo y agradable para el juego de los canes. Por el contrario, un testimonio negativo cuestiona las medidas de seguridad del recinto al presentarse incidentes y gastos veterinarios derivados.",
+        "en": "Most reviews describe the facility in Parque San Andrés as a pleasant and comfortable environment for canine play and boarding. Conversely, a negative account questions the safety protocols of the premises following incidents that required subsequent veterinary treatment."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Reportes en video y gestión de incidentes",
+        "en": "Video updates and incident communication"
+      },
+      "text": {
+        "es": "Los clientes habituales aprecian el envío constante de fotos y videos durante el día para seguir las actividades de sus mascotas. No obstante, una clienta inconforme señala que la comunicación fue deficiente y evasiva cuando ocurrieron percances con la salud de su perro.",
+        "en": "Regular customers appreciate receiving frequent photo and video updates throughout the day to monitor their pet activities. In contrast, an unhappy customer noted that communication became unresponsive and unhelpful when addressing health incidents concerning her dog."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Paws N Tails CDMX comparte actualizaciones durante la estancia de la mascota?",
+        "en": "Does Paws N Tails CDMX provide updates during pet boarding stays?"
+      },
+      "a": {
+        "es": "Sí, clientes satisfechos señalan que el personal envía videos y fotografías de las actividades diurnas.",
+        "en": "Yes, satisfied clients note that caretakers send regular photo and video clips of daily activities."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué tipo de hospedaje ofrecen para perros en Coyoacán?",
+        "en": "What type of boarding do they provide for dogs in Coyoacán?"
+      },
+      "a": {
+        "es": "Ofrecen pensión canina y guardería de día con atención personalizada y paseos programados en entorno familiar.",
+        "en": "They provide home-style dog boarding and daycare with routine walks and personalized supervision."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo se gestionan las reservaciones para la pensión?",
+        "en": "How are boarding reservations arranged with the facility?"
+      },
+      "a": {
+        "es": "Las reservas y cotizaciones se coordinan a través de enlace directo de WhatsApp o su portal de contacto.",
+        "en": "Reservations and rate inquiries are arranged directly through their WhatsApp portal and contact link."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "place": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
