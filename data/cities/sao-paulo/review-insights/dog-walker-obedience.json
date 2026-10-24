@@ -1,0 +1,146 @@
+{
+  "slug": "dog-walker-obedience",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Walker+Obedience/data=!4m7!3m6!1s0x94ce5819e7e1eb83:0xb60729c97ab9c31c!8m2!3d-23.5511469!4d-46.6624765!16s%2Fg%2F11d_4v5pdl!19sChIJg-vh5xlYzpQRHMO5eskpB7Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Experiências divididas no manejo canino",
+        "en": "Contrasting experiences with dog handling"
+      },
+      "text": {
+        "pt": "As opiniões sobre o comportamento dos animais são polarizadas. Enquanto vários tutores relatam que seus cães voltaram calmos, felizes e bem cuidados da hospedagem, outros clientes reclamam que seus animais retornaram assustados de passeios ou sofreram incidentes de mordida.",
+        "en": "Customer reports regarding pet behavior show a clear divide. While several owners state their dogs returned calm, happy, and well looked after from boarding, other clients complain that their pets returned frightened from walks or experienced biting incidents during trial visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Avaliações contrastantes sobre a equipe",
+        "en": "Divergent feedback on training staff"
+      },
+      "text": {
+        "pt": "Alguns clientes elogiam calorosamente o carinho de monitores como Beatriz e Júlio durante a estadia no hotel no Pacaembu. Em contrapartida, outras avaliações criticam duramente os métodos de condução e afirmam ter presenciado atitudes ríspidas durante os treinos.",
+        "en": "Some customers warmly praise the kindness of caregivers like Beatriz and Júlio during boarding stays in Pacaembu. In contrast, other reviews sharply criticize handling methods, alleging harsh obedience techniques and poor accountability from staff during training sessions."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Resultados com relatos positivos e queixas",
+        "en": "Outcomes with positive and critical reviews"
+      },
+      "text": {
+        "pt": "Hóspedes que utilizaram o hotel relatam evolução positiva no descanso e na higiene dos cães, com banhos e tosa bem executados. Por outro lado, um tutor expressou insatisfação com o resultado dos passeios após notar sinais de medo evidente em seu cãozinho ao voltar para casa.",
+        "en": "Guests using the pet hotel report positive progress in canine rest routines and grooming, noting well-executed baths and tangle removal. Conversely, one pet parent was dissatisfied with walking outcomes after observing clear signs of fear in their companion upon returning home."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O centro envia fotos e vídeos durante a hospedagem?",
+        "en": "Does the center provide photos and videos during boarding?"
+      },
+      "a": {
+        "pt": "Sim, clientes do hotel relatam receber fotos e vídeos dos cães durante a estadia, embora haja relatos sobre vídeos sem áudio.",
+        "en": "Yes, hotel clients report receiving photos and videos during stays, though some reviews mention muted video recordings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O local oferece serviços de banho e tosa para os hóspedes?",
+        "en": "Does the facility offer bathing and grooming for boarders?"
+      },
+      "a": {
+        "pt": "Sim, tutores mencionam a realização de banho higiênico e desembolo de pelos antes do retorno do cão para casa.",
+        "en": "Yes, pet owners mention hygienic baths and coat detangling being arranged before dogs return home."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Como os cães reagem aos períodos de creche e hotel?",
+        "en": "How do dogs respond to daycare and boarding stays?"
+      },
+      "a": {
+        "pt": "As avaliações variam: muitos cães voltam calmos e adaptados, mas tutores recomendam acompanhar de perto o período inicial de adaptação.",
+        "en": "Feedback varies: many dogs return relaxed and happy, though reviewers advise monitoring the initial trial adaptation period closely."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
