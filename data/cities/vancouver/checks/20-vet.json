@@ -1,0 +1,37 @@
+{
+  "chunk": "20-vet",
+  "kind": "places",
+  "slugs": [
+    "vancouver-veterinary-hospital",
+    "blue-cross-pet-hospital",
+    "acadia-veterinary-clinic-ltd",
+    "oak-animal-hospital",
+    "trout-lake-animal-hospital-urgent-care",
+    "vancouver-east-veterinary-walk-in-clinic",
+    "dunbar-animal-hospital"
+  ],
+  "hash": "b59cadcee3a7b55067cfad5eca15c19b2ae751d98a1bd78225fed65b993243c8",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T06:03:24.344Z",
+      "result": "FAIL",
+      "listed": 37
+    },
+    {
+      "at": "2026-10-24T06:08:34.497Z",
+      "result": "FAIL",
+      "listed": 115
+    },
+    {
+      "at": "2026-10-24T06:16:40.269Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T06:17:18.175Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
