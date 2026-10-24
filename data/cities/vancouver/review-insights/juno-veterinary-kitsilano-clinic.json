@@ -1,0 +1,151 @@
+{
+  "slug": "juno-veterinary-kitsilano-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Juno+Veterinary+Kitsilano+Clinic/data=!4m7!3m6!1s0x5486733c7f3e8b09:0x89aa3673f32c3f87!8m2!3d49.2680456!4d-123.1706692!16s%2Fg%2F11w4p21z3z!19sChIJC4s-fzxzhFQRhz8s83M2qok?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Kind and compassionate clinical staff"
+      },
+      "text": {
+        "en": "Reviewers frequently praise the veterinary team and Dr. Sarah Zelinski for their warm, empathetic bedside manner and welcoming reception. Pet owners highlight that staff members communicate kindly during in-person consultations. Even reviewers who experienced subsequent administrative frustrations noted that clinic personnel were polite and caring during clinic visits."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Calm and pet-centered clinical environment"
+      },
+      "text": {
+        "en": "Clients consistently appreciate the clinic's thoughtful animal-friendly design, noting calming private exam rooms, pheromone diffusers, and generous treat offerings. Dog and cat owners report that anxious pets settled quickly in the quiet setting. Multiple pet guardians commend the gentle handling and comforting cuddles provided as animals recover from procedures."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting outcomes in patient care"
+      },
+      "text": {
+        "en": "Client perspectives on medical outcomes and discharge care are mixed. Several pet parents report excellent treatment results for chronic ailments, successful surgeries, and reassuring diagnostics. Conversely, other reviewers express frustration over difficult blood draws requiring repeat visits, as well as delayed and inconsistent dietary advice for weight management."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How does the clinic help reduce anxiety for nervous pets?"
+      },
+      "a": {
+        "en": "The facility features private exam rooms, pheromone diffusers, and a treat bar designed to create a soothing environment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do clients have access to virtual veterinary support?"
+      },
+      "a": {
+        "en": "Yes, the clinic offers 24/7 digital chat support through its mobile app for ongoing guidance between appointments."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "How do reviewers describe medical outcomes at the Kitsilano clinic?"
+      },
+      "a": {
+        "en": "Opinions vary: many praise successful treatments and clear diagnostics, while others cite difficulties with blood draws and nutritional follow-ups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is parking available at the West 4th Avenue location?"
+      },
+      "a": {
+        "en": "Yes, dedicated parking is available for visitors to the Kitsilano veterinary clinic."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "+",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
