@@ -1,0 +1,147 @@
+{
+  "slug": "clinique-veterinaire-tou-chat-tou",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+Veterinaire+Tou+Chat+Tou/data=!4m7!3m6!1s0x4cc91bb2021069f5:0xd96d1f221fd8d160!8m2!3d45.5188083!4d-73.5597694!16s%2Fg%2F1tg6pqzq!19sChIJ9WkQArIbyUwRYNHYHyIfbdk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "fr": "Service attentionné malgré des avis divergents",
+        "en": "Attentive care alongside mixed client feedback"
+      },
+      "text": {
+        "fr": "Une majorité de clients souligne la gentillesse et l'écoute de la vétérinaire et de sa technicienne lors des visites régulières. En revanche, des témoignages isolés déplorent un accueil froid au téléphone et le sentiment d'avoir été mal accompagnés lors de situations médicales préoccupantes.",
+        "en": "A majority of reviewers highlights the kindness and attentive approach of the veterinarian and technician during routine visits. In contrast, isolated reviews express disappointment with curt telephone interactions and feelings of inadequate support when addressing ongoing pet concerns."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Approche douce et rassurante pour les animaux",
+        "en": "Gentle and calming handling of companion pets"
+      },
+      "text": {
+        "fr": "Les propriétaires notent avec satisfaction la passion et la douceur avec lesquelles les animaux sont soignés. Lors des vaccinations ou des bilans de santé, les chatons et les chiens sont manipulés avec délicatesse, au point que certains ronronnent paisiblement sans ressentir la moindre douleur.",
+        "en": "Pet owners gratefully observe the genuine passion and gentleness with which animals are treated at the clinic. During vaccinations and routine examinations, kittens and dogs are handled so gently that some purr comfortably throughout procedures without showing any signs of stress or pain."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Résultats des traitements et ajustements médicaux",
+        "en": "Treatment outcomes and medical adjustments"
+      },
+      "text": {
+        "fr": "Les avis favorables mentionnent d'excellents conseils et des soins efficaces pour les affections courantes des chats. À l'opposé, d'autres clients ont rencontré des difficultés face à des traitements inefficaces ou des diagnostics réévalués sans amélioration immédiate de l'état de leur animal.",
+        "en": "Favourable reviews report helpful veterinary advice and effective routine medical interventions for companion cats. Conversely, other clients recount difficulties when prescribed medications proved ineffective or required repeated follow-up appointments without immediate clinical resolution."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Le personnel de la clinique offre-t-il des services en anglais ?",
+        "en": "Does the clinic staff provide services in English?"
+      },
+      "a": {
+        "fr": "Oui, les avis soulignent que la vétérinaire et la réceptionniste sont bilingues et accueillent volontiers les anglophones.",
+        "en": "Yes, client reviews note that the veterinarian and receptionist are bilingual and readily accommodate English-speaking clients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Comment se déroulent les premières vaccinations des chatons ?",
+        "en": "How are initial kitten vaccinations handled at the clinic?"
+      },
+      "a": {
+        "fr": "Les propriétaires saluent la douceur des techniciennes, permettant aux chatons d'être vaccinés en toute sérénité sans douleur.",
+        "en": "Pet owners praise the technicians' gentle approach, allowing kittens to receive their shots smoothly without pain or stress."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Quels sont les services vétérinaires proposés par l'établissement ?",
+        "en": "What veterinary services are offered by the facility?"
+      },
+      "a": {
+        "fr": "La clinique assure la médecine générale, la vaccination préventive, les bilans de santé et les conseils nutritionnels.",
+        "en": "The clinic provides general medicine, preventive vaccinations, wellness health screenings, and nutritional guidance."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
