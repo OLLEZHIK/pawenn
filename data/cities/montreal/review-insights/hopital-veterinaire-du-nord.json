@@ -1,0 +1,320 @@
+{
+  "slug": "hopital-veterinaire-du-nord",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/H%C3%B4pital+V%C3%A9t%C3%A9rinaire+du+Nord/data=!4m7!3m6!1s0x4cc918bf4596efc7:0x58d1cccfe87e252d!8m2!3d45.5521874!4d-73.6582595!16s%2Fg%2F1vh_7_gd!19sChIJx--WRb8YyUwRLSV-6M_M0Vg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 26,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 23,
+      "title": {
+        "fr": "Équipe soignante dévouée et attentionnée",
+        "en": "Dedicated veterinary team and staff"
+      },
+      "text": {
+        "fr": "La grande majorité des clients expriment leur entière confiance envers les vétérinaires et techniciens de l'établissement. Des professionnels comme Lucas et le personnel d'accueil sont régulièrement félicités pour leur gentillesse et leur écoute. Quelques avis négatifs déplorent toutefois des attitudes occasionnellement distantes.",
+        "en": "The vast majority of clients express strong trust in the veterinarians and certified technicians at the clinic. Team members such as Lucas and the reception staff receive frequent praise for their empathy and warm guidance. A few isolated reviews, however, mention occasionally abrupt interactions at the front desk."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 9,
+      "title": {
+        "fr": "Annonces diagnostiques et échanges téléphoniques",
+        "en": "Diagnostic communication and telephone delays"
+      },
+      "text": {
+        "fr": "Plusieurs usagers soulignent des lacunes importantes dans la communication lors de diagnostics complexes ou de pronostics graves. L'attente prolongée au téléphone pour les urgences et le manque de transparence avant d'engager certains soins sont également critiqués. D'autres maîtres saluent néanmoins le suivi téléphonique régulier.",
+        "en": "Multiple clients highlight communication challenges during serious medical consultations or critical diagnostic announcements. Extended hold times on the phone and a lack of prior explanation for certain procedures are also criticized. Conversely, other pet owners appreciate detailed follow-up phone calls from attending doctors."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "fr": "Frais vétérinaires et facturation contestés",
+        "en": "Veterinary fees and unexpected billing"
+      },
+      "text": {
+        "fr": "La tarification de l'hôpital suscite des réserves chez de nombreux propriétaires d'animaux du secteur Ahuntsic. Des clients signalent des factures élevées pour des examens complémentaires, des frais imprévus en pension et des coûts de consultation jugés prohibitifs. Seuls de rares avis considèrent les montants comme équitables.",
+        "en": "Hospital pricing generates concern among numerous pet owners visiting the Ahuntsic clinic. Clients report costly invoices for diagnostic scans, unexpected medication add-ons during boarding, and steep consultation fees. Only a few reviewers find the overall expenses reasonable given the clinic's comprehensive infrastructure."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "L'Hôpital Vétérinaire du Nord offre-t-il des consultations d'urgence ?",
+        "en": "Does Hôpital Vétérinaire du Nord handle emergency consultations?"
+      },
+      "a": {
+        "fr": "Oui, la clinique accepte les urgences sur ses heures d'ouverture, bien que certains créneaux soient parfois complets.",
+        "en": "Yes, the clinic treats urgent cases during regular hours, though emergency slots occasionally fill up quickly."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Quels animaux de compagnie sont soignés dans cet établissement ?",
+        "en": "What companion animals are treated at this veterinary facility?"
+      },
+      "a": {
+        "fr": "L'équipe prodigue des soins médicaux, chirurgicaux et dentaires pour les chiens et les chats.",
+        "en": "The team provides comprehensive medical, surgical, and dental care for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Où se trouve l'hôpital vétérinaire à Montréal ?",
+        "en": "Where is the veterinary hospital located in Montreal?"
+      },
+      "a": {
+        "fr": "L'établissement est situé au 9988 rue Lajeunesse, dans l'arrondissement d'Ahuntsic-Cartierville.",
+        "en": "The hospital is located at 9988 Rue Lajeunesse in Montreal's Ahuntsic-Cartierville borough."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "staff": "~"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

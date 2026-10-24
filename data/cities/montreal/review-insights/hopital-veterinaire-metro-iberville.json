@@ -1,0 +1,136 @@
+{
+  "slug": "hopital-veterinaire-metro-iberville",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/H%C3%B4pital+V%C3%A9t%C3%A9rinaire+M%C3%A9tro+Iberville/data=!4m7!3m6!1s0x4cc91949fbdc6bdb:0x6a6ada055fe946c2!8m2!3d45.55406!4d-73.601888!16s%2Fg%2F1td8yr40!19sChIJ22vc-0kZyUwRwkbpXwXaamo?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Vétérinaire dévoué et équipe empathique",
+        "en": "Dedicated veterinarian and caring team"
+      },
+      "text": {
+        "fr": "Tous les avis récents saluent l'accueil chaleureux du Dr Marku et de ses collaborateurs près du métro Iberville. Les propriétaires apprécient sa grande disponibilité, son écoute et la clarté de ses explications médicales. L'équipe fait preuve d'une transparence tarifaire très appréciée des familles.",
+        "en": "All recent reviews commend the warm reception from Dr. Marku and his team near Iberville metro station. Pet owners appreciate his thorough medical explanations, genuine empathy, and unhurried listening. The staff also earns consistent praise for transparent billing and thoughtful advice."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Attention sincère pour chaque animal",
+        "en": "Genuine dedication to animal welfare"
+      },
+      "text": {
+        "fr": "Les clients soulignent que les chiens et les chats sont pris en charge avec une infinie délicatesse lors des consultations. Le vétérinaire n'hésite pas à se mobiliser pour sauver des animaux errants ou trouver des solutions douces. Les maîtres confient leurs compagnons en toute sérénité.",
+        "en": "Clients highlight that dogs and cats receive exceptionally gentle and attentive care throughout their visits. The attending veterinarian readily goes the extra mile, including treating rescued strays and proposing conservative treatments. Families feel entirely secure leaving pets in their hands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Traitements efficaces et diagnostics précis",
+        "en": "Effective treatments and accurate diagnoses"
+      },
+      "text": {
+        "fr": "Plusieurs maîtres rapportent des guérisons spectaculaires et des membres sauvés face à des pronostics d'amputation émis ailleurs. L'expertise clinique permet de rétablir rapidement la santé et la mobilité des animaux soignés. Les propriétaires se disent extrêmement reconnaissants des soins obtenus.",
+        "en": "Several owners report remarkable recoveries, including limb-saving interventions that avoided amputations recommended elsewhere. Sound clinical expertise promptly restores the health, comfort, and vitality of ailing companions. Families express profound gratitude for these positive outcomes."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique est-elle située près d'une station de métro ?",
+        "en": "Is the clinic located near a metro station?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement se trouve au 2525 rue Jean-Talon Est, à proximité immédiate de la station de métro Iberville.",
+        "en": "Yes, the facility is located at 2525 Jean-Talon Street East, directly adjacent to the Iberville metro station."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Quels services vétérinaires sont proposés sur place ?",
+        "en": "What veterinary services are offered on site?"
+      },
+      "a": {
+        "fr": "L'hôpital offre des consultations de médecine générale, de la chirurgie, des soins dentaires et de la radiologie.",
+        "en": "The hospital provides general health consultations, soft-tissue surgery, dental care, and digital radiology."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "L'équipe prend-elle en charge le triage d'urgence ?",
+        "en": "Does the clinic offer emergency triage during the day?"
+      },
+      "a": {
+        "fr": "Oui, un service de triage d'urgence est assuré durant les heures régulières d'ouverture de l'établissement.",
+        "en": "Yes, emergency triage is provided for urgent patient cases during regular clinic operating hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
