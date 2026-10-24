@@ -1,0 +1,151 @@
+{
+  "slug": "mon-ami-dogi",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mon+Ami+Dogi/data=!4m7!3m6!1s0x85d1ff53c6350223:0x3d93de53bf38fc23!8m2!3d19.4190527!4d-99.1569097!16s%2Fg%2F11sv1890r3!19sChIJIwI1xlP_0YURI_w4v1Pekz0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Personal cariñoso y supervisión continua",
+        "en": "Caring staff and continuous supervision"
+      },
+      "text": {
+        "es": "Las familias elogian la calidez y el compromiso del equipo de Mon Ami Dogi en la avenida Álvaro Obregón. Resaltan que los cuidadores tratan a los perros con amor y paciencia, logrando que mascotas tímidas o desconfiadas se adapten rápidamente a las dinámicas de grupo.",
+        "en": "Pet parents praise the warmth and dedication of the Mon Ami Dogi team on Avenida Álvaro Obregón in Roma Norte. They highlight that caretakers treat dogs with kindness and patience, helping shy or cautious pets adapt smoothly to group playtime and daily routines."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Bienestar y recreación para huéspedes",
+        "en": "Canine welfare and daycare activities"
+      },
+      "text": {
+        "es": "Los usuarios valoran que los perros disfruten plenamente tanto de la guardería de día como del hospedaje nocturno en Roma Norte. Subrayan que las mascotas regresan a casa contentas y relajadas gracias a las actividades supervisadas y al trato individualizado que reciben.",
+        "en": "Clients appreciate that dogs thoroughly enjoy both daytime daycare and overnight boarding in Roma Norte. They emphasize that pets return home happy and relaxed, thanks to structured playtime activities and individualized attention from the boarding staff."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones seguras y cómodas",
+        "en": "Safe, clean, and comfortable facilities"
+      },
+      "text": {
+        "es": "Quienes hospedan a sus mascotas destacan la comodidad y limpieza de las áreas de juego interiores y zonas de descanso. Describen el hotel como un entorno confiable que brinda tranquilidad a viajeros y residentes locales que necesitan estancias cortas o prolongadas.",
+        "en": "Pet owners boarding their dogs highlight the comfort and cleanliness of the indoor playrooms and resting spaces. They describe the hotel as a secure environment that gives reassurance to traveling families and local residents requiring short or extended pet boarding."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cómo mantienen informados a los dueños durante la estancia en la guardería u hotel?",
+        "en": "How are pet owners kept updated during daycare and hotel stays?"
+      },
+      "a": {
+        "es": "Los cuidadores envían videos y fotografías a lo largo del día para que los dueños constaten el bienestar de su mascota.",
+        "en": "Staff members send frequent video clips and pictures throughout the day to keep families reassured."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué modalidades de cuidado ofrece Mon Ami Dogi?",
+        "en": "What care options are offered by Mon Ami Dogi?"
+      },
+      "a": {
+        "es": "Disponen de guardería diurna, pensión nocturna, estética canina y áreas recreativas para razas pequeñas y medianas.",
+        "en": "They provide day daycare, overnight boarding, grooming services, and play zones for small and medium dogs."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Aceptan perros que son tímidos o nerviosos con otros canes?",
+        "en": "Can shy or nervous dogs be accommodated comfortably?"
+      },
+      "a": {
+        "es": "Sí, clientes confirman que el equipo realiza una integración paciente y respetuosa del temperamento del perro.",
+        "en": "Yes, client reviews confirm that staff handles socialization patiently according to each dog temperament."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}

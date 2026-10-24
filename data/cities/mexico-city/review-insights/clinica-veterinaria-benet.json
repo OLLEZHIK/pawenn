@@ -1,0 +1,202 @@
+{
+  "slug": "clinica-veterinaria-benet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Benet/data=!4m7!3m6!1s0x85d1f8c9ac59a19d:0xa5c4bcb5c58fb8fa!8m2!3d19.4404228!4d-99.1654197!16s%2Fg%2F1ydpvb1t0!19sChIJnaFZrMn40YUR-riPxbW8xKU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 10,
+      "title": {
+        "es": "Atención médica con valoraciones divididas",
+        "en": "Veterinary staff with mixed impressions"
+      },
+      "text": {
+        "es": "Varios clientes en San Rafael elogian la calidez y las explicaciones detalladas de médicos como el Dr. Gerardo y la Dra. Miriam durante las consultas. Sin embargo, otras opiniones señalan tratos poco empáticos y diferencias marcadas según el veterinario en turno.",
+        "en": "Several clients in San Rafael praise the warm demeanor and clear explanations from veterinarians like Dr. Gerardo and Dr. Miriam. However, other pet owners report less empathetic encounters and note that care quality varies depending on which doctor attends them."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Precios accesibles con discrepancias recientes",
+        "en": "Fair prices with recent variations"
+      },
+      "text": {
+        "es": "Diversos usuarios consideran que los precios de las consultas y procedimientos son justos y accesibles en comparación con otros centros de la zona. No obstante, algunos tutores expresan descontento por incrementos imprevistos en las tarifas y cobros imprevistos.",
+        "en": "Several clients consider consultation and treatment fees to be fair and accessible compared to other neighborhood practices. However, other pet owners express frustration over unexpected price increases and fee adjustments during follow-up clinic visits."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Tiempos de espera y atención sin cita",
+        "en": "Waiting times and walk-in delays"
+      },
+      "text": {
+        "es": "Aunque se menciona atención ágil en algunas emergencias diurnas, varios dueños reportan demoras importantes y dificultades para ser atendidos sin cita previa. Algunos casos señalan que no recibieron auxilio inmediato cuando su médico asignado no estaba disponible.",
+        "en": "While prompt assistance is noted during daytime emergency visits, several owners report significant waiting times and obstacles when arriving without a prior appointment. Some clients note delays when a specific attending veterinarian was not on duty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Cuentan con servicio de estética canina y corte de pelo?",
+        "en": "Do they offer dog grooming and haircut services?"
+      },
+      "a": {
+        "es": "Sí, la clínica ofrece baño y corte de pelo para mascotas, aunque varios tutores recomiendan confirmar previamente el estilo deseado.",
+        "en": "Yes, the clinic provides dog grooming and baths, though several owners recommend confirming specific breed haircut styles in advance."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario agendar cita para consultas generales?",
+        "en": "Is it necessary to schedule an appointment for routine consultations?"
+      },
+      "a": {
+        "es": "Se sugiere programar cita con antelación para asegurar turno con un médico específico, ya que la disponibilidad de los especialistas varía.",
+        "en": "Booking an appointment in advance is suggested to ensure a visit with a specific veterinarian, as doctor schedules vary throughout the week."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué métodos de pago se aceptan en la clínica?",
+        "en": "What payment methods are accepted at the clinic?"
+      },
+      "a": {
+        "es": "Se aceptan pagos en efectivo y con tarjetas bancarias de débito o crédito para consultas y estudios diagnósticos.",
+        "en": "Payments in cash as well as credit or debit cards are accepted for general consultations and diagnostic testing."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

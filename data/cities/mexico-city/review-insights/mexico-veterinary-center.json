@@ -1,0 +1,154 @@
+{
+  "slug": "mexico-veterinary-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Mexico+Veterinary+Center/data=!4m7!3m6!1s0x85d1ff82e5f008eb:0xb9765a7f3f8e9f67!8m2!3d19.381776!4d-99.1804433!16s%2Fg%2F1tht1t2x!19sChIJ6wjw5YL_0YURZ5-OP39adrk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Especialistas reconocidos y quejas en recepción",
+        "en": "Skilled specialists alongside reception concerns"
+      },
+      "text": {
+        "es": "Los tutores de mascotas elogian la pericia de cirujanos como los doctores Ramírez y Ortega en procedimientos ortopédicos complejos en Benito Juárez. Por otro lado, varios comentarios señalan indiferencia y falta de empatía en el personal de recepción y demoras en la atención inicial.",
+        "en": "Pet guardians commend the surgical skill of vets like Drs. Ramírez and Ortega during complex orthopedic operations in Benito Juárez. In contrast, several reviews report indifferent communication from front-desk staff and frustrating delays during emergency consultations."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Costos elevados percibidos en urgencias",
+        "en": "High perceived emergency consultation fees"
+      },
+      "text": {
+        "es": "Diversos clientes expresan inconformidad con las altas tarifas de consulta y estudios complementarios en situaciones de emergencia. Aunque algunos consideran que el costo es comprensible para servicios en fines de semana, otros perciben que los precios resultan excesivos para el servicio recibido.",
+        "en": "Multiple clients express dissatisfaction with high consultation fees and diagnostic charges during emergency visits. While some consider pricing acceptable for weekend critical care, others feel the costs are disproportionate relative to the timeliness of the service provided."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Éxito quirúrgico frente a demoras diagnósticas",
+        "en": "Surgical success contrasted with diagnostic delays"
+      },
+      "text": {
+        "es": "Las intervenciones quirúrgicas y la hospitalización especializada reciben valoraciones positivas por salvar pacientes en estado crítico. En contraparte, usuarios manifiestan frustración cuando los resultados de ultrasonido tardan más de lo previsto o el equipo técnico no está disponible.",
+        "en": "Specialized surgical procedures and inpatient hospital monitoring receive strong praise for stabilizing pets in critical conditions. Conversely, clients report frustration when diagnostic imaging reports take longer than promised or technical equipment is not immediately available."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿El centro atiende urgencias veterinarias las 24 horas?",
+        "en": "Does Mexico Veterinary Center provide 24-hour emergency care?"
+      },
+      "a": {
+        "es": "Sí, opera como hospital quirúrgico con soporte continuo de urgencias dentro de la red de Centro Veterinario México.",
+        "en": "Yes, it operates as a specialty surgical hospital supported by round-the-clock emergency care across the CVM network."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Realizan cirugías ortopédicas de alta especialidad?",
+        "en": "Do they perform complex orthopedic surgical procedures?"
+      },
+      "a": {
+        "es": "Sí, los usuarios destacan cirugías de fémur y procedimientos ortopédicos avanzados con equipos de especialistas.",
+        "en": "Yes, clients highlight femur surgeries and complex orthopedic treatments conducted by specialist teams."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario contar con orden médica previa para estudios de ultrasonido?",
+        "en": "Is a prior clinical referral required for ultrasound appointments?"
+      },
+      "a": {
+        "es": "Se recomienda confirmar los requisitos y solicitar la orden clínica con anticipación para evitar retrasos en el estudio.",
+        "en": "Confirming requirements and securing a clinical referral beforehand is recommended to prevent scheduling delays."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "waiting": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
