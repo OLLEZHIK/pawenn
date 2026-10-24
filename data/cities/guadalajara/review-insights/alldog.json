@@ -1,0 +1,146 @@
+{
+  "slug": "alldog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Alldog/data=!4m7!3m6!1s0x8428a5486b28ba99:0x52a518f9ed84fc8b!8m2!3d20.764256!4d-103.4340071!16s%2Fg%2F11h_8t4n8p!19sChIJmbooa0ilKIQRi_yE7fkYpVI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Traslados internacionales y metas caninas",
+        "en": "International relocation and canine goals"
+      },
+      "text": {
+        "es": "Los clientes expresan un agradecimiento profundo por el apoyo exitoso en traslados de mascotas a Canadá, España y México, así como en programas de acondicionamiento físico donde lograron reducir el peso de perros grandes. Los usuarios destacan la certeza y seguridad con la que se cumplen los itinerarios pactados.",
+        "en": "Clients express deep gratitude for successful pet transport arrangements to Canada, Spain, and Mexico, alongside conditioning plans that helped large dogs lose weight safely. Pet guardians emphasize the reliability and precision with which complex international flight schedules are fulfilled."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Comunicación constante y respuesta rápida",
+        "en": "Constant communication and prompt replies"
+      },
+      "text": {
+        "es": "Las opiniones resaltan la prontitud con que atienden llamadas y mensajes a cualquier hora, ofreciendo tranquilidad durante procesos de viaje estresantes. Los tutores valoran recibir reportes oportunos en cada escala del trayecto, sintiéndose permanentemente respaldados por el personal.",
+        "en": "Reviews highlight the promptness with which the team answers inquiries and calls at all hours, easing stress during intricate travel procedures. Guardians value receiving timely progress updates at each transit stage, feeling continuously supported by logistics coordinators."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Trato cordial y asesoría profesional",
+        "en": "Friendly attitude and professional advice"
+      },
+      "text": {
+        "es": "Quienes contrataron sus servicios ponderan la amabilidad y empatía de los asesores, describiendo una atención cálida y resolutiva. Los dueños enfatizan la disposición del equipo para resolver imprevistos aduanales y sanitarios sin transferir preocupaciones innecesarias a la familia.",
+        "en": "Clients who contracted their services commend the kindness and empathy of the staff, describing a warm and dependable relationship. Pet parents underline the team's readiness to resolve customs and veterinary logistics seamlessly without placing unnecessary burdens on the family."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Gestionan traslados internacionales de mascotas?",
+        "en": "Do they coordinate international pet transport?"
+      },
+      "a": {
+        "es": "Sí, gestionan trámites de vuelo, transportación y documentación sanitaria para destinos como Canadá y Europa.",
+        "en": "Yes, they manage flight logistics, kennel transport, and required veterinary documents for Canada and Europe."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen entrenamiento para control de peso en perros?",
+        "en": "Do they offer canine weight management programs?"
+      },
+      "a": {
+        "es": "Sí, reseñas de clientes confirman programas de ejercicio y acondicionamiento para pérdida de peso saludable.",
+        "en": "Yes, client testimonials confirm physical exercise and training routines aimed at healthy pet weight reduction."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Mantienen contacto durante el trayecto de viaje?",
+        "en": "Do they provide updates throughout pet journeys?"
+      },
+      "a": {
+        "es": "Sí, los propietarios mencionan que reciben avisos continuos y seguimiento paso a paso durante los vuelos.",
+        "en": "Yes, owners report frequent check-ins and step-by-step itinerary tracking throughout pet flights."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "communication": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "communication": "+",
+        "results": "+",
+        "staff": "+"
+      }
+    }
+  ]
+}
