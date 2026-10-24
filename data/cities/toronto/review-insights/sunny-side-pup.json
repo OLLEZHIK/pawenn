@@ -1,0 +1,144 @@
+{
+  "slug": "sunny-side-pup",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Sunny+Side+Pup/data=!4m7!3m6!1s0x882b37fced5eaa07:0xeff5f1c7551c25a6!8m2!3d43.6656944!4d-79.4816924!16s%2Fg%2F11tjzkhx83!19sChIJB6pe7fw3K4gRpiUcVcfx9e8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Significant complaints regarding customer service"
+      },
+      "text": {
+        "en": "Customer sentiment regarding salon staff is distinctly negative, with multiple reviewers reporting unprofessional demeanor and combative behavior. While two clients mention friendly interactions during routine nail trims and cat care, several pet owners cite defensive responses, dismissive attitudes, and harsh arguments when raising service concerns."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Unannounced cancellations and poor responsiveness"
+      },
+      "text": {
+        "en": "Several pet owners express deep frustration with administrative communication and client transparency. Reviewers recount arriving for scheduled appointments only to find them cancelled without prior notice, leaving premedicated dogs unserved. Others describe hostile phone conversations and evasive explanations when inquiring about sudden billing increases."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Mixed grooming finishes with uneven cuts"
+      },
+      "text": {
+        "en": "Clients report substantial inconsistencies in the final quality of pet styling and grooming sessions. Although one pet parent was pleased with nail care, dissatisfied reviewers describe uneven coats, missed fur knots, and random bald spots after haircuts. Several owners emphasize that grooming attention to detail has declined noticeably during recent appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Sunny Side Pup groom cats?"
+      },
+      "a": {
+        "en": "Yes, clients mention bringing cats to the salon for specialized services such as teeth cleaning and gentle care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How are grooming appointment cancellations handled?"
+      },
+      "a": {
+        "en": "Recent reviews report instances where sessions were cancelled without advance warning, so confirming bookings ahead of arrival is recommended."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are final grooming prices quoted before service?"
+      },
+      "a": {
+        "en": "Reviewers note that pick-up totals sometimes exceed initial estimates due to drying times or dematting charges."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon offer nail trimming for sensitive dogs?"
+      },
+      "a": {
+        "en": "Yes, the salon performs nail clipping, though owner experiences vary widely regarding handling and finish quality."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "staff": "~",
+        "prices": "-",
+        "communication": "~"
+      }
+    }
+  ]
+}

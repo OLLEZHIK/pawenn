@@ -1,0 +1,274 @@
+{
+  "slug": "fetchy",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Fetchy/data=!4m7!3m6!1s0x8c44e2bd3dbac657:0x20c0f1bdbccc5079!8m2!3d43.6428739!4d-79.427392!16s%2Fg%2F11rgftwcj7!19sChIJV8a6Pb3iRIwReVDMvL3xwCA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 21,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "waiting",
+      "sentiment": "positive",
+      "mentions": 14,
+      "title": {
+        "en": "Fast same-day doorstep pet delivery"
+      },
+      "text": {
+        "en": "Customers repeatedly praise Fetchy for lightning-fast order dispatch, often delivering raw foods, kibble, and supplies on the same day when placed before cutoff times. Pet owners emphasize how reliable delivery notifications and real-time tracking provide peace of mind during urgent food shortages."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Thoughtful customer service and care"
+      },
+      "text": {
+        "en": "Reviewers warmly highlight the personal touches provided by the team, including handwritten thank-you notes, free sample treats, and helpful dietary recommendations. While one long-term shopper voiced frustration over rising costs and tipping prompts, most clients describe the support as exceptionally attentive."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 11,
+      "title": {
+        "en": "Curated options for sensitive pets"
+      },
+      "text": {
+        "en": "Shoppers appreciate the specialized inventory featuring raw formulas, high-grade allergy diet foods, and senior canine recipes. Cat and dog guardians frequently mention that their animals love the complimentary toys and surprise treats thoughtfully tucked inside their delivery packages."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Fetchy provide same-day local delivery?"
+      },
+      "a": {
+        "en": "Yes, local pet supply orders placed by early afternoon typically qualify for prompt same-day doorstep drop-off."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Are dietary options available for pets with allergies?"
+      },
+      "a": {
+        "en": "The shop carries specialized hypoallergenic kibble, raw food blends, and novel proteins for pets with sensitivities."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Do packages include extra treats or gifts?"
+      },
+      "a": {
+        "en": "Many reviewers report finding complimentary treat samples, cat toys, or personalized cards enclosed with their deliveries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can customers request items not listed online?"
+      },
+      "a": {
+        "en": "Clients note that the staff gladly accommodates special orders for specific raw brands and pet care products upon request."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

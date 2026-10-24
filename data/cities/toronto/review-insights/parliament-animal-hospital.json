@@ -1,0 +1,138 @@
+{
+  "slug": "parliament-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Parliament+Animal+Hospital/data=!4m7!3m6!1s0x89d4cbd87b36b1f5:0xc5191b5c3e0b77a4!8m2!3d43.667854!4d-79.3696028!16s%2Fg%2F11ghrcyx8m!19sChIJ9bE2e9jL1IkRpHcLPlwbGcU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Noticeable turnover and interpersonal concerns"
+      },
+      "text": {
+        "en": "While long-term clients praise founder Dr. Tamjidi and certain clinical staff for their compassionate care, recent reviews express dissatisfaction regarding front-desk interactions and high staff turnover. Multiple pet parents report encountering dismissive receptionists and newer veterinarians who appeared unconfident handling companion pets."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "en": "Critical gaps in customer communication"
+      },
+      "text": {
+        "en": "Reviewers voice frustration with communication standards at the clinic. Pet owners cite unwelcoming reception check-ins, abrupt inquiries, and doctors failing to explain clinical assessments thoroughly. Clients also describe confusing fee estimates where verbal quotes significantly differed from the written treatment proposals provided."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "en": "Concerns regarding pricing and transparency"
+      },
+      "text": {
+        "en": "Although one reviewer appreciated straightforward billing without upselling during a quick visit, several clients express serious concerns about high costs. Pet owners report steep quotes for routine diagnostic x-rays and inconsistencies between verbal price estimates and final written bills, leading some clients to seek care elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Parliament Animal Hospital offer same-day appointments?"
+      },
+      "a": {
+        "en": "Yes, clients mention that quick same-day service is available for urgent pet evaluations."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What surgical and medical services does the clinic offer?"
+      },
+      "a": {
+        "en": "The facility provides general surgery, dentistry, diagnostic examinations, vaccinations, and physical rehabilitation."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the hospital have an on-site pharmacy?"
+      },
+      "a": {
+        "en": "Yes, the practice maintains an in-house pharmacy for prescription pet medications and special diets."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do clients describe the consultation pricing?"
+      },
+      "a": {
+        "en": "Client feedback reflects substantial criticism regarding expensive diagnostic procedures and quote discrepancies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "communication": "-",
+        "prices": "-"
+      }
+    }
+  ]
+}
