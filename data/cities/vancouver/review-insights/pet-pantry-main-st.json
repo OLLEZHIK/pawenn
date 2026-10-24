@@ -1,0 +1,147 @@
+{
+  "slug": "pet-pantry-main-st",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Pantry+Pet+Food+%26+Supply+Stores/data=!4m7!3m6!1s0x548673963aba8245:0xcfced3f6163ad2de!8m2!3d49.2559772!4d-123.1010291!16s%2Fg%2F11h760sm9g!19sChIJRYK6OpZzhlQR3tI6FvbTzs8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Warm and knowledgeable customer care"
+      },
+      "text": {
+        "en": "Customers consistently highlight the friendly, accommodating demeanour of the store associates on Main Street. Shoppers appreciate staff members remembering their pets by name, offering birthday treats, and answering questions about animal nutrition. The local delivery courier is also praised for reliable and honest service."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Well stocked neighborhood pet shop"
+      },
+      "text": {
+        "en": "Shoppers note that the Main Street storefront maintains an excellent inventory of wholesome pet nutrition, raw food meals, and standard kibble. Cat and dog owners appreciate the wide assortment of healthy treats and essential accessories, describing the retail space as a convenient, dependable resource for pet supplies."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Tailored nutrition with digestive concerns"
+      },
+      "text": {
+        "en": "Pet owners value that associates offer thoughtful recommendations for companions with delicate tummies and dietary sensitivities. While many animals thrive on the selected raw and natural foods, one customer reported an adverse digestive reaction to a canned formula and expressed frustration over store return policies."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Pet Pantry on Main Street carry raw dog and cat food?"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm that the Main Street location is well stocked with raw pet food formulas alongside natural kibble and wholesome canned options."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the store offer local delivery for pet supplies in Vancouver?"
+      },
+      "a": {
+        "en": "Yes, the shop provides Vancouver-wide delivery services, with customers praising the courier for prompt, conscientious door-to-door delivery."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can staff assist in choosing food for pets with sensitive stomachs?"
+      },
+      "a": {
+        "en": "Yes, pet owners frequently praise team members for their knowledgeable advice on specialty recipes suited for pets with dietary allergies."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are opened pet food cans eligible for a refund?"
+      },
+      "a": {
+        "en": "Feedback indicates that opened food items attributed to digestive upsets or pet allergies are generally not eligible for return under store policy."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
