@@ -1,0 +1,160 @@
+{
+  "slug": "animal-care-center-guadalajara",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Care+Center+Guadalajara/data=!4m7!3m6!1s0x8428ac5b32f1772b:0x72856e1f32155e2d!8m2!3d20.6378269!4d-103.4119712!16s%2Fg%2F1ptwqxm77!19sChIJK3fxMlusKIQRLV4VMh9uhXI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "es": "Atención médica con experiencias encontradas",
+        "en": "Veterinary care with mixed experiences"
+      },
+      "text": {
+        "es": "Varios propietarios agradecen la amabilidad y profesionalismo del equipo médico al resolver dudas de salud, aplicar vacunas y atender partos en horas difíciles. Sin embargo, un par de opiniones críticas refiere desatención del personal de mostrador y señala doctores que solicitaron pruebas consideradas prescindibles.",
+        "en": "Several pet guardians express gratitude for the veterinary staff's kindness when answering health questions, administering feline vaccines, and attending late-night deliveries. However, a couple of critical reviews describe poor front-desk service and doctors prescribing tests deemed superfluous."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Orientación médica y seguimiento telefónico",
+        "en": "Medical guidance and phone communication"
+      },
+      "text": {
+        "es": "La mayoría de los tutores valora que el personal conteste rápido las llamadas de urgencia y brinde asesoría detallada para el cuidado de mascotas convalecientes o viajes al extranjero. Por otra parte, una reseña desfavorable lamentó falta de interés y poca disposición al solicitar información en mostrador.",
+        "en": "Most pet owners value that staff answer urgent calls promptly, offering thorough guidance for convalescent animals and international travel requirements. Conversely, a dissatisfied reviewer noted indifference and poor communication when inquiring about services at the front reception counter."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Tratamientos oportunos con opiniones divididas",
+        "en": "Timely treatments with divided opinions"
+      },
+      "text": {
+        "es": "Clientes satisfechos relatan recuperaciones exitosas en gatos con afecciones urinarias y partos monitoreados mediante ultrasonido a altas horas de la noche. En contraposición, un testimonio crítico cuestionó el criterio clínico al requerir pruebas previas a la vacunación que consideró innecesarias.",
+        "en": "Satisfied clients recount positive recoveries in cats with urinary complications and feline births monitored via ultrasound during late hours. In contrast, a critical review challenged clinical judgment regarding mandatory pre-vaccination tests that the guardian considered unwarranted."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Aplican vacunas y colocan microchips para viaje?",
+        "en": "Do they provide vaccinations and travel microchips?"
+      },
+      "a": {
+        "es": "Sí, realizan esquemas de vacunación, colocación de microchips y asesoría sobre requisitos de viaje con mascotas.",
+        "en": "Yes, they manage feline and canine vaccination schedules, microchip implantation, and pet travel guidelines."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Disponen de estudios de ultrasonido para urgencias?",
+        "en": "Do they offer ultrasound scans for emergencies?"
+      },
+      "a": {
+        "es": "Sí, las reseñas confirman la realización de ultrasonidos diagnósticos en revisiones de urgencia y partos felinos.",
+        "en": "Yes, client reviews confirm on-site diagnostic ultrasound scans for emergency examinations and feline deliveries."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Atienden consultas veterinarias en horarios nocturnos?",
+        "en": "Do they attend veterinary calls late at night?"
+      },
+      "a": {
+        "es": "Sí, usuarios reportan haber recibido orientación telefónica y atención médica de urgencia durante la noche.",
+        "en": "Yes, pet guardians report receiving phone support and urgent medical attention during late-night hours."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
