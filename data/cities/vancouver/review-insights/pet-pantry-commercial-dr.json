@@ -1,0 +1,128 @@
+{
+  "slug": "pet-pantry-commercial-dr",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Pantry+Pet+Food+%26+Supply+Stores/data=!4m7!3m6!1s0x54867154fca0bac3:0x6f24d550ef3f9738!8m2!3d49.2647318!4d-123.0695695!16s%2Fg%2F11gy1p5zjd!19sChIJw7qg_FRxhlQROJc_71DVJG8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful and welcoming shop staff"
+      },
+      "text": {
+        "en": "Shoppers on Commercial Drive warmly praise staff members Carol and Citalli for exceptional customer service. Reviewers note that the team goes above and beyond to provide friendly guidance and assist pet parents with finding specific products. Clients appreciate the attentive, neighbourly atmosphere and high level of personal attention in the store."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Local shop with operating hour concerns"
+      },
+      "text": {
+        "en": "Reviewers value having a clean, well-stocked independent pet boutique in the neighbourhood, praising the convenient location and quality merchandise. While customers enjoy supporting this local business, one reviewer expressed frustration with evening opening hours, noting difficulty visiting after work before the shop closes for the day."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Healthy diets for dogs and cats"
+      },
+      "text": {
+        "en": "Pet guardians highlight the store's reliable inventory of specialized pet foods and essential supplies. Clients appreciate finding specific nutritious foods that appeal even to finicky cats who refuse other diets. Reviewers value that the Commercial Drive shop stocks premium products tailored to the everyday nutritional needs of companion animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What types of pet products are available at the Commercial Drive store?"
+      },
+      "a": {
+        "en": "The shop carries natural pet foods, raw formulas, healthy treats, toys, and daily accessories for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does Pet Pantry offer local delivery in Vancouver?"
+      },
+      "a": {
+        "en": "Yes, pet food and supplies can be ordered online for local delivery across Vancouver."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do staff help customers with product recommendations?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the staff are knowledgeable and provide helpful recommendations for pet diets."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is this Pet Pantry location situated?"
+      },
+      "a": {
+        "en": "The shop is located at 2240 Commercial Drive in Vancouver."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "place": "-",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
