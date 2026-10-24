@@ -1,0 +1,188 @@
+{
+  "slug": "cobasi-guanabara-barra-rio-de-janeiro",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cobasi+Guanabara+Barra+-+Rio+de+Janeiro/data=!4m7!3m6!1s0x9bda0de9c8818b:0xd0a2eba490deb6cb!8m2!3d-23.001215!4d-43.3382973!16s%2Fg%2F11cjk151k3!19sChIJi4HI6Q3amwARy7bekKTrotA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Atendimento atencioso com divergências pontuais",
+        "en": "Attentive store staff with occasional service complaints"
+      },
+      "text": {
+        "pt": "A maioria dos clientes elogia a simpatia e o atendimento solícito dos funcionários no supermercado Guanabara da Barra. Vendedores são descritos como prestativos na busca de rações e itens de aquarismo. No entanto, compradores apontam lentidão no caixa e falta de preparo ou disposição de alguns atendentes na venda de peixes ornamentais.",
+        "en": "Most shoppers appreciate the helpful and friendly floor staff at the Guanabara Barra supermarket unit. Sales assistants are described as polite and attentive when locating pet food and pet supplies. However, reviewers report delays at checkout and cite indifference or insufficient guidance from specific attendants in the aquarium section."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Variedade ampla com queixas de estacionamento",
+        "en": "Broad product selection alongside parking concerns"
+      },
+      "text": {
+        "pt": "Os tutores aprovam a grande variedade de artigos para cães, gatos e peixes disponíveis nas prateleiras da loja. A unidade é considerada conveniente para compras rápidas no dia a dia. Por outro lado, clientes reclamam da política de validação do estacionamento do Guanabara, exigindo compras extras no supermercado para liberar a vaga.",
+        "en": "Pet guardians commend the extensive selection of supplies for dogs, cats, and aquarium setups at the Barra location. The shop is considered well-stocked and practical for routine purchases. On the other hand, multiple visitors express dissatisfaction with parking validation rules, noting that supermarket receipts are required to waive ticket fees."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Dificuldades em orientações e suporte online",
+        "en": "Communication hurdles with advice and orders"
+      },
+      "text": {
+        "pt": "Clientes relatam falhas na comunicação tanto presencialmente quanto nos canais digitais da unidade. Tutores apontam pouca disposição da equipe em esclarecer dúvidas básicas sobre cuidados de peixes no aquarismo. Além disso, pedidos feitos pelo site sofreram cancelamentos parciais sem opções ágeis de substituição de mercadorias.",
+        "en": "Shoppers report communication shortcomings both in-store and through online shopping channels. Customers note reluctance from attendants to clarify fundamental care routines for aquarium fish. Furthermore, online website orders experienced sudden partial cancellations with unhelpful customer support regarding product replacements and refunds."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A loja oferece estacionamento gratuito para clientes?",
+        "en": "Does the store offer free parking for shoppers?"
+      },
+      "a": {
+        "pt": "O estacionamento pertence ao complexo Guanabara e exige regras próprias de compras no supermercado para validação.",
+        "en": "Parking belongs to the Guanabara complex and requires specific supermarket purchases for validation ticket approval."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A Cobasi da Barra vende produtos para aquarismo e peixes?",
+        "en": "Does the Barra Cobasi store sell aquarium fish and supplies?"
+      },
+      "a": {
+        "pt": "Sim, o local dispõe de aquários, peixes ornamentais, rações específicas e equipamentos para manutenção da água.",
+        "en": "Yes, the branch features aquariums, ornamental fish, specialized feeds, and water maintenance accessories."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível comprar online e retirar os produtos na loja?",
+        "en": "Can customers buy products online and pick up in store?"
+      },
+      "a": {
+        "pt": "Sim, a rede conta com a modalidade de compra no site e retirada na unidade, embora clientes sugiram conferir a disponibilidade.",
+        "en": "Yes, the store offers online ordering with in-store collection, though clients suggest verifying stock availability beforehand."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "-",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    }
+  ]
+}
