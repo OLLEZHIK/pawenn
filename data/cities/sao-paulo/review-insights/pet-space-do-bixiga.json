@@ -1,0 +1,145 @@
+{
+  "slug": "pet-space-do-bixiga",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Space+do+Bixiga/data=!4m7!3m6!1s0x94ce593ada9b5df9:0x57b308fe574e2772!8m2!3d-23.5575266!4d-46.6449035!16s%2Fg%2F11rzq1r8ff!19sChIJ-V2b2jpZzpQRcidOV_4Is1c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Atendimento acolhedor com ressalvas pontuais",
+        "en": "Welcoming staff with isolated scheduling friction"
+      },
+      "text": {
+        "pt": "A maior parte dos clientes elogia a simpatia e a dedicação das funcionárias do salão na Bela Vista, classificando o serviço como afetuoso e atencioso. No entanto, há relato crítico recente sobre cancelamento abrupto de banho de cão idoso e falta de clareza nas opções de reagendamento da agenda.",
+        "en": "Most pet owners commend the cordiality and dedication of the team at the Bela Vista grooming spa, calling customer care warm and accommodating. Nevertheless, a recent critique notes last-minute cancellation for a senior dog along with frustrating communication regarding scheduling flexibility."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Cuidado animal com critérios operacionais",
+        "en": "Animal care with specific operational limits"
+      },
+      "text": {
+        "pt": "Muitos tutores ressaltam o carinho e o tratamento afetuoso dispensado aos cães durante as sessões de estética, observando que os animais saem felizes e relaxados. Por outro lado, foi apontada queixa de cliente sobre suposta resistência do salão em atender cães de porte maior ou idosos na rotina.",
+        "en": "Many guardians emphasize the affectionate attention pets receive during grooming sessions, observing that their companions leave relaxed and content. Conversely, a reviewer expressed frustration over perceived reluctance to accept larger or elderly dogs, suggesting clearer size and breed policies."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Higiene caprichada e perfume duradouro",
+        "en": "Neat grooming and lasting fragrance"
+      },
+      "text": {
+        "pt": "Os serviços de banho e tosa são muito elogiados pelo resultado estético de alta qualidade. Os clientes relatam que os cães voltam para casa limpinhos, com pelos macios, tosa simétrica e um aroma agradável que permanece por dias, demonstrando o uso de cosméticos e xampus de excelente padrão.",
+        "en": "Bathing and grooming services receive strong commendations for high aesthetic standards. Owners note that dogs return home thoroughly clean, with silky fur, balanced trims, and a delightful scent that lingers for days, reflecting the use of gentle botanical shampoos and quality grooming products."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O salão oferece serviço de táxi dog para transporte?",
+        "en": "Does the spa offer a pet taxi service?"
+      },
+      "a": {
+        "pt": "Sim, o espaço disponibiliza o serviço Táxi Space Dog para busca e entrega de pets na região da Bela Vista.",
+        "en": "Yes, the facility provides the Táxi Space Dog service for pet pick-up and drop-off in Bela Vista."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Quais tipos de tosa são realizados no estabelecimento?",
+        "en": "What grooming styles are performed at the facility?"
+      },
+      "a": {
+        "pt": "O salão executa tosa higiênica, tosa na máquina, acabamento na tesoura e remoção intensiva de subpelo.",
+        "en": "The salon performs hygienic trims, machine clipping, scissor styling, and de-shedding undercoat treatments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "pt": "É necessário agendar horário com antecedência?",
+        "en": "Is advance booking required for grooming?"
+      },
+      "a": {
+        "pt": "Sim, os atendimentos de banho e estética funcionam mediante agendamento prévio por telefone ou mensagem.",
+        "en": "Yes, bathing and grooming sessions operate on appointment slots booked in advance via phone or messaging."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "9 hours ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
