@@ -1,0 +1,154 @@
+{
+  "slug": "animal-training",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Training/data=!4m7!3m6!1s0x85d207694f680dd9:0x53ad2e177448b8cc!8m2!3d19.3479583!4d-99.305804!16s%2Fg%2F1pp2t_tf0!19sChIJ2Q1oT2kH0oURzLhIdBcurVM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "es": "Cuidado animal en guardería y pensión",
+        "en": "Pet care in daycare and hotel"
+      },
+      "text": {
+        "es": "La mayoría de los clientes elogia el cuidado y entretenimiento que reciben los perros durante su estancia en la guardería y la pensión en Cuajimalpa. No obstante, dos reseñas críticas expresan inconformidad por accidentes ocurridos durante el cuidado, señalando falta de atención oportuna hacia el bienestar físico de sus mascotas.",
+        "en": "Most dog owners praise the attentive handling and fun activities pets enjoy during daycare and boarding in Cuajimalpa. However, two critical reviews express serious dissatisfaction regarding injuries sustained during stays, pointing to a lack of immediate accountability and concern for the physical well-being of their dogs."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Equipo amable con opiniones divididas",
+        "en": "Friendly team with divided feedback"
+      },
+      "text": {
+        "es": "Varios usuarios destacan la amabilidad y dedicación del personal al recibir a los caninos y atenderlos en las actividades diarias. Por otro lado, un par de tutores menciona una respuesta deficiente de los encargados ante incidentes y quejas, indicando que se evade la responsabilidad en situaciones imprevistas.",
+        "en": "Several owners highlight the friendliness and dedication of the team when welcoming dogs and supervising daily activities. On the other hand, a couple of clients report an unhelpful response from staff regarding incidents and complaints, noting that supervisors evaded responsibility in unforeseen situations."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones amplias en Cuajimalpa",
+        "en": "Spacious facilities in Cuajimalpa"
+      },
+      "text": {
+        "es": "Los clientes valoran positivamente las instalaciones del centro en Contadero, destacando que es un espacio adecuado para el adiestramiento y el hospedaje de mascotas. Los perros cuentan con áreas para ejercitarse y convivir con tranquilidad durante el día bajo supervisión continua.",
+        "en": "Clients value the center's facilities in Contadero, noting that it provides suitable space for training, grooming and pet boarding. Dogs enjoy designated areas to exercise and socialize comfortably during the day under continuous supervision from the on-site team."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de pensión nocturna para perros?",
+        "en": "Do they offer overnight boarding for dogs?"
+      },
+      "a": {
+        "es": "Sí, el centro cuenta con servicio de pensión canina con supervisión durante la noche.",
+        "en": "Yes, the center provides dog boarding services with overnight supervision."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Qué actividades realizan en la guardería canina?",
+        "en": "What activities are included in dog daycare?"
+      },
+      "a": {
+        "es": "Los perros participan en dinámicas de socialización, juego y rutinas de ejercicio adaptadas.",
+        "en": "Dogs take part in socialization, structured playtime, and adapted exercise routines."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para el adiestramiento?",
+        "en": "Is an appointment required for training sessions?"
+      },
+      "a": {
+        "es": "Sí, se recomienda contactar con antelación para agendar evaluaciones y sesiones de entrenamiento.",
+        "en": "Yes, contacting them in advance is recommended to schedule assessments and training."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited 8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    }
+  ]
+}
