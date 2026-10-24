@@ -1,0 +1,142 @@
+{
+  "slug": "styllus-groomers",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Styllus+Groomers/data=!4m7!3m6!1s0x94ce5e5152f80ce9:0x53ad0209bc8b558c!8m2!3d-23.5350284!4d-46.5316579!16s%2Fg%2F11byxgr19k!19sChIJ6Qz4UlFezpQRjFWLvAkCrVM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Equipe qualificada e atendimento atencioso",
+        "en": "Skilled and attentive grooming staff"
+      },
+      "text": {
+        "pt": "Tutores destacam a competência e o compromisso dos profissionais na Zona Leste, ressaltando o atendimento caloroso oferecido ao longo de vários anos de fidelidade. A equipe demonstra disponibilidade para esclarecer dúvidas e manter os clientes bem informados.",
+        "en": "Pet guardians highlight the competence and commitment of the staff in Zona Leste, pointing out friendly care enjoyed across years of regular visits. The team remains approachable, answering questions promptly and keeping owners well informed throughout the process."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Manejo afetuoso e respeito aos pets",
+        "en": "Gentle handling and pet respect"
+      },
+      "text": {
+        "pt": "Clientes elogiam a paciência e a delicadeza com que os animais são tratados durante o banho. O salão permite que os donos acompanhem os procedimentos visualmente, o que ajuda a tranquilizar filhotes e bichos mais tímidos que necessitam de conforto extra.",
+        "en": "Clients commend the patience and delicacy shown to animals during their grooming sessions. The salon allows owners to watch the bathing process, which reassures sensitive puppies and timid pets that benefit from having familiar faces nearby in the salon."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Higiene segura e acabamento cuidadoso",
+        "en": "Thorough hygiene and careful grooming"
+      },
+      "text": {
+        "pt": "As avaliações apontam bons resultados na tosa e na higiene geral dos bichos, sem registro de parasitas ou problemas de pele. Embora alguns clientes notem variações nos adereços estéticos, a entrega de cães limpos e bem escovados é amplamente aprovada.",
+        "en": "Reviews emphasize good overall grooming results and dependable hygiene, noting that pets return clean and free of parasites. While some patrons observe simpler cosmetic styling than in previous years, the delivery of neat, fresh-smelling coats remains valued."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "É possível acompanhar o banho do animal no salão?",
+        "en": "Is it possible to watch the pet's bath at the salon?"
+      },
+      "a": {
+        "pt": "Sim, os clientes relatam que o salão permite acompanhar os procedimentos para maior tranquilidade do animal.",
+        "en": "Yes, clients mention that the facility permits owners to observe bathing to keep their pets calm."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O espaço atende filhotes e cães de temperamento tímido?",
+        "en": "Does the salon care for puppies and anxious dogs?"
+      },
+      "a": {
+        "pt": "Sim, os profissionais realizam manejo calmo e paciente adaptado a animais sensíveis.",
+        "en": "Yes, the groomers provide gentle, patient handling suited for sensitive companion animals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O salão trabalha com agendamento prévio de horários?",
+        "en": "Does the salon require advance appointment booking?"
+      },
+      "a": {
+        "pt": "Sim, agendar com antecedência evita esperas e assegura atendimento individual para cada pet.",
+        "en": "Yes, booking ahead prevents waiting times and secures dedicated slots for each pet."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

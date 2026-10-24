@@ -1,0 +1,148 @@
+{
+  "slug": "total-veterinarian-vet",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Total+veterinarian+Vet/data=!4m7!3m6!1s0x94ce590d344fedc3:0xe8a604afdaf08e39!8m2!3d-23.5704351!4d-46.6314182!16s%2Fg%2F1tdvfpz0!19sChIJw-1PNA1ZzpQROY7w2q8Epug?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Corpo clínico dedicado e atendimento acolhedor",
+        "en": "Dedicated veterinary team and attentive care"
+      },
+      "text": {
+        "pt": "Tutores na região da Aclimação e Vila Mariana destacam a competência e o calor humano dos veterinários, citando nominalmente o trabalho cuidadoso dos doutores Ricardo e Renan. A equipe transmite segurança ao explicar procedimentos clínicos e diagnósticos.",
+        "en": "Pet guardians in the Aclimação and Vila Mariana area praise the clinical expertise and warm approach of veterinarians like Dr. Ricardo and Dr. Renan. The staff instills confidence by clearly explaining treatment pathways and health checkup procedures."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Acolhimento gentil para cães e gatos",
+        "en": "Gentle attention for dogs and cats"
+      },
+      "text": {
+        "pt": "Clientes relatam alívio e tranquilidade ao levarem seus bichos para acompanhamento de rotina ou consultas médicas. O respeito e o carinho com que cães e felinos são examinados garantem que os animais fiquem calmos e protegidos durante todo o atendimento.",
+        "en": "Clients express relief and peace of mind when bringing companion animals for wellness visits and medical appointments. Respectful, quiet examinations ensure that dogs and cats remain relaxed and secure throughout their consultations inside the clinic."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Diagnósticos seguros e suporte clínico",
+        "en": "Reliable diagnoses and clinical support"
+      },
+      "text": {
+        "pt": "Avaliações ressaltam a agilidade e a precisão na realização de exames laboratoriais e diagnósticos por imagem na clínica. Famílias valorizam a recuperação consistente de animais sob cuidados médicos e o suporte de longo prazo oferecido à saúde dos pets.",
+        "en": "Reviews emphasize the efficiency and accuracy of laboratory tests and diagnostic evaluations conducted at the clinic. Families appreciate the steady recovery of pets under treatment, as well as the reliable ongoing guidance provided for long-term health."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica atende consultas e exames de diagnóstico?",
+        "en": "Does the clinic provide consultations and diagnostic testing?"
+      },
+      "a": {
+        "pt": "Sim, os clientes destacam a estrutura completa para atendimento clínico e realização de exames.",
+        "en": "Yes, clients highlight well-equipped facilities for medical exams and clinical consultations."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O atendimento clínico é adequado para felinos?",
+        "en": "Is clinical care appropriate for feline patients?"
+      },
+      "a": {
+        "pt": "Sim, tutores de gatos elogiam o manejo atencioso e o acolhimento seguro durante as consultas.",
+        "en": "Yes, cat owners commend the gentle handling and secure environment during checkups."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "É necessário agendar consultas previamente?",
+        "en": "Is advance appointment scheduling required?"
+      },
+      "a": {
+        "pt": "Sim, o agendamento prévio organiza o fluxo clínico e reduz o tempo de espera no consultório.",
+        "en": "Yes, prior booking streamlines appointments and minimizes waiting time in reception."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "Edited 7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
