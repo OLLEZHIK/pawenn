@@ -1,0 +1,225 @@
+{
+  "slug": "osaka-animal-medical-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Osaka+Animal+Medical+Center/data=!4m7!3m6!1s0x6000e70796801f91:0xb075054154a1ec20!8m2!3d34.670836!4d135.488514!16s%2Fg%2F1tf7s086!19sChIJkR-AlgfnAGARIOyhVEEFdbA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "en": "Compassionate Clinicians Contrasting Front Desk Friction",
+        "ja": "温かい診察医と受付対応をめぐる批判"
+      },
+      "text": {
+        "en": "Client feedback regarding veterinarians and reception personnel at this comprehensive medical center in Nishi Ward highlights stark contrasts. Pet owners frequently praise younger veterinarians and nurses for gentle consultations, encouraging smiles, and compassionate bedside care during emergencies. However, other visitors voice severe frustration over impersonal front-desk attitudes and perceived indifference during tragic terminal cases.",
+        "ja": "大阪市西区南堀江の当医療センターでは、担当獣医師や受付スタッフに対する評価が二分されています。若手の獣医師や看護師が笑顔で優しくペットに声をかけ、丁寧な問診で不安を和らげてくれたと感謝する飼い主が多い一方、受付スタッフの無愛想な接客態度や、重篤な容態での受診時に冷淡な対応を取られたと感じて強い不信感を抱く利用者も見られます。スタッフごとの対応のばらつきに対する指摘があり、救急現場における温かな接遇が求められています。不安で胸がいっぱいの来院者に対して、思いやりのある寄り添った対応を徹底することが求められています。"
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Detailed Medical Briefings Facing Information Gaps",
+        "ja": "丁寧な問診説明と重大局面での情報伝達"
+      },
+      "text": {
+        "en": "Communication from attending doctors elicits both strong appreciation and deep grievances. Reviewers value lucid diagnostic breakdowns for exotic reptiles and complex surgical patients, noting transparent ultrasound and radiography reviews. Conversely, owners facing sudden pet deteriorations report distress when updates were delayed for hours or treatment prognoses were delivered with perceived vagueness.",
+        "ja": "診察室での病状説明や入院中の情報伝達に関して、利用者の受け止め方は分かれています。エキゾチックアニマルや骨折手術の患者に対して画像や数値を交えて分かりやすく説明してくれたと喜ぶ声がある一方、入院中の容態急変に関する連絡が何時間も遅れたために最期を看取れなかったとする悲痛な訴えや、緊急処置時の説明が要領を得ず不満を募らせた事例も寄せられており、緊迫した場面での誠実な対話が重視されています。ペットの命に関わる重大な局面だからこそ、迅速かつ確実な状況報告と分かりやすい説明体制の確立が切望されています。"
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Extended Wait Times and Reception Bottlenecks",
+        "ja": "順番制による長時間の待ち時間と混雑"
+      },
+      "text": {
+        "en": "The walk-in reception model at the facility generates persistent complaints from pet owners. Because consultations operate on an arrival order basis without advance appointment reservations, waiting times routinely exceed an hour. Clients highlight that both examination queues and subsequent cashier payment processing involve prolonged delays, causing noticeable fatigue for ailing pets.",
+        "ja": "当院の順番待ちシステムや会計時の混雑に対しては、多くの利用者から改善を求める声が上がっています。予約制を採用しておらず受付順の診療となるため、診察までに1時間以上待つことが常態化しており、体調の悪いペットに負担がかかると懸念されています。さらに診察終了後から会計の呼び出しまでも長い待機時間が発生することが多く、混雑緩和に向けたシステム改善や待合室の環境整備を望む意見が根強く見られます。長時間待たされるペットや飼い主の負担を軽減するため、呼び出しシステムや予約体制の導入が切望されています。混雑時であってもスムーズに受診できるよう、より柔軟な受付管理や待機環境の充実が求められています。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Osaka Animal Medical Center examine exotic pets and reptiles?",
+        "ja": "エキゾチックアニマルや爬虫類の診察にも対応していますか？"
+      },
+      "a": {
+        "en": "Yes, reviewers confirm knowledgeable examinations for geckos, amphibians, reptiles, and small companion mammals.",
+        "ja": "はい、ヒョウモントカゲモドキなどの爬虫類や両生類、小動物の専門的な診察に対応しています。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is an appointment required for general consultations?",
+        "ja": "一般診療の受診に事前予約は必要ですか？"
+      },
+      "a": {
+        "en": "No, consultations are handled on a first-come, first-served arrival basis, which can result in lengthy waits.",
+        "ja": "いいえ、事前予約制ではなく来院受付順での診察となるため、混雑時には長時間の待ち時間が発生します。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can the center perform complex emergency surgeries?",
+        "ja": "高度な骨折手術や緊急手術に対応できる体制はありますか？"
+      },
+      "a": {
+        "en": "Yes, clients recount successful complex pelvic fracture surgeries and emergency inpatient interventions.",
+        "ja": "はい、他院で対応困難な高所転落による骨盤骨折手術や、急性期の緊急入院治療にも対応しています。"
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 3,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "staff": "~",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 3,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "prices": "+",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    }
+  ]
+}
