@@ -1,0 +1,134 @@
+{
+  "slug": "pets-home-morelos",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet%C2%B4s+Home/data=!4m7!3m6!1s0x85d1f94931ff7a9f:0xeb35a6653aa485ef!8m2!3d19.4422477!4d-99.118371!16s%2Fg%2F11cr_0zrnv!19sChIJn3r_MUn50YUR74WkOmWmNes?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Severas quejas de trato en mostrador",
+        "en": "Serious complaints regarding counter customer service"
+      },
+      "text": {
+        "es": "Los clientes recientes denuncian de manera reiterada una pésima atención por parte de los encargados en la sucursal Morelos. Mencionan desdén en caja, tratos despectivos al atender y una actitud que desalienta la compra. Varios compradores habituales afirman que el servicio empeoró notablemente tras un cambio de personal en el local.",
+        "en": "Recent patrons report widespread dissatisfaction with the unfriendly attitude of staff at the Morelos shop. Reviewers describe rude behavior at the checkout counter, dismissive comments, and an overall lack of willingness to assist customers. Several returning buyers note a distinct deterioration in service after a change in store staff."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Disponibilidad de surtido con restricciones de acceso",
+        "en": "Stock availability alongside store access restrictions"
+      },
+      "text": {
+        "es": "Aunque algunos compradores confirman haber encontrado los productos de alimentación que buscaban, otros expresan inconformidad con las condiciones del local en Venustiano Carranza. Una reseña señala que en ocasiones no se permite el acceso al interior de la tienda y las consultas se atienden con aspereza desde la entrada.",
+        "en": "While some shoppers find the pet food supplies they require, others express frustration regarding access to the premises in Venustiano Carranza. One review highlights that customers were restricted from entering the store, forced to ask for products from the doorway, creating an unwelcoming atmosphere that discourages browsing."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Fallas en atención y reclamos de clientes",
+        "en": "Communication breakdowns and unresolved customer disputes"
+      },
+      "text": {
+        "es": "Los compradores señalan marcadas deficiencias en la comunicación y en la resolución de quejas en la sucursal de Imprenta. Indican que no se brinda un saludo cordial y que ante desacuerdos en el cobro el personal culpa al cliente en lugar de dialogar. Esta falta de disposición para escuchar afecta gravemente la experiencia de compra.",
+        "en": "Shoppers note significant communication failures and friction when attempting to resolve issues at the Imprenta store. Clients mention that staff omit basic greetings and react defensively when billing disputes arise, blaming buyers instead of clarifying prices. This unwillingness to communicate respectfully creates lasting customer friction."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se consiguen alimentos y croquetas para mascotas en esta tienda?",
+        "en": "Do they carry dog and cat food at this location?"
+      },
+      "a": {
+        "es": "Sí, el local dispone de alimentos básicos y productos esenciales para perros, gatos y otros animales de compañía.",
+        "en": "Yes, the shop carries basic food items and staple supplies for dogs, cats, and small household animals."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo califican los clientes la atención al público en la sucursal?",
+        "en": "How do recent reviews rate customer service at this store?"
+      },
+      "a": {
+        "es": "Las opiniones recientes reflejan inconformidad generalizada por actitudes poco amables y trato descortés en caja.",
+        "en": "Recent reviews show widespread dissatisfaction due to rude customer interactions and unhelpful service at the register."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Es posible ingresar a ver los productos dentro de la tienda?",
+        "en": "Are customers allowed inside the shop to browse products?"
+      },
+      "a": {
+        "es": "Varios clientes reportan que en ocasiones atienden desde la puerta sin permitir el acceso al interior del establecimiento.",
+        "en": "Multiple customers report that staff occasionally serves from the entrance without permitting buyers inside the store."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "place": "+",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "pets-mexico",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pets+M%C3%A9xico+Central+de+Abastos+Iztapalapa/data=!4m7!3m6!1s0x85d1ff2333a832f3:0x7403fb5de87b183d!8m2!3d19.3775127!4d-99.0932011!16s%2Fg%2F11h79m_yjn!19sChIJ8zKoMyP_0YURPRh76F37A3Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Precios competitivos en Central de Abasto",
+        "en": "Competitive prices at Central de Abasto"
+      },
+      "text": {
+        "es": "Los compradores destacan los precios accesibles en alimentos para mascotas y artículos veterinarios en el pasillo D de la Central de Abasto. Subrayan que las tarifas son más económicas que en supermercados o tiendas convencionales, permitiendo ahorrar en compras regulares de bultos grandes de croquetas para perros y gatos.",
+        "en": "Shoppers highlight accessible pricing on pet food and staple veterinary supplies at aisle D in Central de Abasto. Reviewers emphasize that prices compare favorably to supermarket and boutique retail rates, providing significant savings when buying bulk bags of kibble for household dogs and cats on a regular basis."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Surtido amplio en bodega de Iztapalapa",
+        "en": "Broad inventory at Iztapalapa warehouse"
+      },
+      "text": {
+        "es": "Las reseñas valoran la variedad de marcas y presentaciones comerciales disponibles en el establecimiento de Río Churubusco. Los clientes aprecian encontrar alimentos difíciles de conseguir en tiendas menores, incluyendo marcas de distribución mayorista. La bodega resulta una opción muy conveniente para abastecer hogares con mascotas.",
+        "en": "Reviews praise the wide selection of pet brands and packaging sizes available at the Río Churubusco wholesale location. Customers appreciate finding bulk food varieties and specialty formulas that are often unavailable in smaller neighborhood shops. The warehouse serves as a reliable supply depot for pet parents in Iztapalapa."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Alimento variado para diferentes especies",
+        "en": "Varied food for different animal species"
+      },
+      "text": {
+        "es": "Los visitantes señalan que el local cubre las necesidades nutricionales tanto de perros y gatos como de peces y pequeños animales. Destacan la disponibilidad de croquetas para diferentes etapas de vida y tamaños de raza. Los dueños valoran contar con opciones confiables para alimentar adecuadamente a sus animales de compañía.",
+        "en": "Visitors note that the warehouse caters to the dietary requirements of dogs and cats as well as aquarium fish and small domestic animals. Reviewers highlight the continuous availability of kibble for diverse life stages and breed sizes. Pet owners appreciate finding wholesome nutrition options for all their companion animals."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Dónde se ubica la tienda de Pets México en la Central de Abasto?",
+        "en": "Where is the Pets México warehouse located in Central de Abasto?"
+      },
+      "a": {
+        "es": "Se encuentra en el pasillo D, bodega 28, en la zona de Río Churubusco dentro de la Central de Abasto de Iztapalapa.",
+        "en": "It is situated at aisle D, warehouse 28, in the Río Churubusco sector within the Iztapalapa Central de Abasto."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Venden alimentos en bultos grandes a precio mayorista?",
+        "en": "Do they sell bulk bags of pet food at wholesale prices?"
+      },
+      "a": {
+        "es": "Sí, los clientes destacan que se consiguen bultos de croquetas a precios competitivos y más económicos que en tiendas comunes.",
+        "en": "Yes, customers highlight that bulk pet kibble bags are sold at competitive rates that are cheaper than regular retail stores."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Manejan alimento para mascotas que no sean perros o gatos?",
+        "en": "Do they stock food for companion animals other than dogs and cats?"
+      },
+      "a": {
+        "es": "Sí, además de productos para caninos y felinos, disponen de alimento para peces y otras especies de compañía.",
+        "en": "Yes, in addition to supplies for dogs and cats, they carry food formulas for aquarium fish and other companion species."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "pet-society-polanco",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Society+Polanco/data=!4m7!3m6!1s0x85d20202b57f0dcd:0x67888f6749ce493f!8m2!3d19.431458!4d-99.200815!16s%2Fg%2F11b7ytt_pl!19sChIJzQ1_tQIC0oURP0nOSWePiGc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "es": "Personal en tienda con opiniones encontradas",
+        "en": "Store staff with contrasting client feedback"
+      },
+      "text": {
+        "es": "La mayoría de los visitantes felicita la atención de estilistas y encargados en la sucursal de Polanco, destacando amabilidad y esmero en el cuidado de mascotas. Sin embargo, dos reseñas severas acusan falta de profesionalismo, quejándose de cobros injustificados y escasa empatía al reportar errores durante los servicios estéticos.",
+        "en": "Most visitors praise the friendly demeanor and attentive care provided by stylists and store staff at the Polanco location. However, two serious complaints report unprofessional conduct, pointing to unwarranted charges and unhelpful customer service when clients attempted to resolve issues with grooming appointments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "es": "Cuidado de mascotas y reclamos sobre atención",
+        "en": "Pet handling with divided customer experiences"
+      },
+      "text": {
+        "es": "Varios clientes afirman que sus perros reciben excelente trato y salen contentos de la guardería y el área comercial de Goldsmith. En contraste, una reseña crítica denuncia negligencia grave al haber dejado algodones en los oídos de su mascota tras el baño, lo que requirió intervención inmediata para evitar una infección.",
+        "en": "Several dog owners report that their pets receive attentive supervision and feel comfortable during daycare stays in Polanco. In sharp contrast, a critical review describes serious negligence involving cotton balls left in a dog's ears after bathing, requiring urgent removal by the owner to prevent an auditory infection."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Críticas sobre el acabado de estética",
+        "en": "Complaints regarding pet grooming outcomes"
+      },
+      "text": {
+        "es": "Aunque algunos usuarios elogian cortes estéticos bien logrados, las quejas superan los elogios en este aspecto. Los comentarios negativos denuncian baños incompletos con tarifas elevadas y descuidos tras la sesión de aseo. Los usuarios descontentos consideran que los resultados no justifican los precios cobrados en el salón.",
+        "en": "While occasional clients praise neat styling work, complaints outweigh commendations regarding grooming outcomes. Negative reviews describe incomplete washes paired with steep pricing and procedural oversights following bathing sessions. Disappointed pet parents emphasize that results fell short of the salon's premium rates."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué servicios ofrecen en la sucursal de Polanco?",
+        "en": "What services are offered at the Polanco boutique?"
+      },
+      "a": {
+        "es": "Ofrecen venta de alimentos y accesorios para mascotas, además de sesiones de baño, estética y guardería canina.",
+        "en": "They provide pet accessories and premium food, as well as dog grooming, bathing, and daycare services."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo evalúan los clientes los precios de los servicios de estética?",
+        "en": "How do clients evaluate the pricing of grooming services?"
+      },
+      "a": {
+        "es": "Varios clientes opinan que las tarifas son elevadas y algunos señalan discrepancias con los cobros finales.",
+        "en": "Multiple reviewers find prices expensive, with some reporting billing discrepancies after styling appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cuentan con guardería y hotel para perros?",
+        "en": "Do they provide pet boarding and daycare in Polanco?"
+      },
+      "a": {
+        "es": "Sí, disponen de área de guardería con supervisión continua para perros durante el día.",
+        "en": "Yes, they maintain a supervised daycare area for companion dogs during daytime hours."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}
