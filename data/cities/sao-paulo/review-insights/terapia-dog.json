@@ -1,0 +1,148 @@
+{
+  "slug": "terapia-dog",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Terapia+Dog/data=!4m7!3m6!1s0x94ce5ad279e71729:0x4195fe3aff0d801a!8m2!3d-23.649484!4d-46.6441158!16s%2Fg%2F11fkcvkb8v!19sChIJKRfnedJazpQRGoAN_zr-lUE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Dificuldades frequentes no atendimento online",
+        "en": "Frequent challenges in online messaging"
+      },
+      "text": {
+        "pt": "Vários tutores relatam problemas consistentes ao tentar contato pelo WhatsApp ou telefone. As queixas envolvem mensagens sem resposta, falta de clareza nas orientações sobre serviços e divergências de valores informados previamente pela recepção do local.",
+        "en": "Several pet owners report persistent difficulties when contacting the team via WhatsApp or phone. Complaints focus on unanswered messages, unclear explanations regarding service procedures, and conflicting pricing quotes provided by the reception desk."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Experiências divididas quanto ao atendimento",
+        "en": "Mixed experiences with staff interactions"
+      },
+      "text": {
+        "pt": "Enquanto clientes do serviço de adestramento elogiam a dedicação dos instrutores e o acolhimento geral, há relatos críticos sobre consultas clínicas. Tutores expressam frustração com a condução médica e a falta de sensibilidade no encaminhamento de casos.",
+        "en": "While training clients praise the instructors' dedication and welcoming attitude, critical reviews target veterinary consultations. Owners express frustration with medical decisions and perceive a lack of supportive guidance when managing delicate health cases."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Evolução comportamental com divergências clínicas",
+        "en": "Behavioral progress alongside clinical concerns"
+      },
+      "text": {
+        "pt": "Famílias que contratam hotel e adestramento celebram melhorias visíveis no comportamento e na socialização de seus cães. Em contrapartida, avaliações na área de saúde apontam insatisfação com diagnósticos e tratamentos que não trouxeram o alívio esperado.",
+        "en": "Families enrolled in daycare and behavioral training report visible improvements in their dogs' socialization and habits. In contrast, medical assessments point to disappointment with clinical diagnoses and treatment regimens that failed to resolve symptoms."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A empresa oferece serviços de adestramento e hospedagem?",
+        "en": "Does the facility offer dog training and boarding?"
+      },
+      "a": {
+        "pt": "Sim, clientes regulares destacam resultados positivos no desenvolvimento comportamental e na estadia dos cães.",
+        "en": "Yes, regular patrons highlight positive progress in behavioral coaching and dog lodging stays."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O atendimento via WhatsApp costuma ser rápido?",
+        "en": "Is communication via WhatsApp typically responsive?"
+      },
+      "a": {
+        "pt": "Tutores relatam lentidão e falhas no retorno por mensagens, recomendando contato direto para agendamentos.",
+        "en": "Guardians mention delays and unanswered texts, advising direct follow-ups for bookings."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O local disponibiliza banhos terapêuticos?",
+        "en": "Are therapeutic bathing treatments provided on site?"
+      },
+      "a": {
+        "pt": "Sim, banhos e cuidados higiênicos constam na grade de serviços, embora clientes recomendem confirmar a disponibilidade com antecedência.",
+        "en": "Yes, hygienic care is offered, though owners recommend confirming service availability in advance."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "communication": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}

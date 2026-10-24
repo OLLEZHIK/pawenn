@@ -1,0 +1,134 @@
+{
+  "slug": "clinica-veterinaria-vv",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterin%C3%A1ria+VV/data=!4m7!3m6!1s0x94cef7b1a92731a3:0x76a3924adca1e534!8m2!3d-23.4852394!4d-46.6385641!16s%2Fg%2F1thw7wgm!19sChIJozEnqbH3zpQRNOWh3EqSo3Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Atendimento atencioso com ressalvas pontuais",
+        "en": "Attentive service with isolated concerns"
+      },
+      "text": {
+        "pt": "A maioria dos tutores avalia a equipe da Vila Mariza Mazzei como muito acolhedora e dedicada, destacando o perfil familiar e a experiência no cuidado rotineiro. No entanto, um relato crítico apontou despreparo e insegurança no atendimento a um gato resgatado, gerando insatisfação com a condução da consulta.",
+        "en": "Most guardians rate the team in Vila Mariza Mazzei as very welcoming and dedicated, highlighting their family-oriented approach and routine veterinary experience. However, a critical review reported insecurity and lack of preparation when handling a rescued cat, causing significant dissatisfaction."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Cirurgias bem-sucedidas e caso não concluído",
+        "en": "Successful surgeries and incomplete care"
+      },
+      "text": {
+        "pt": "Clientes antigos relatam excelentes resultados em procedimentos cirúrgicos e tratamentos de saúde para cães e gatos, mantendo confiança no trabalho clínico. Em contrapartida, houve reclamação de atendimento interrompido sem a realização dos exames necessários após a fuga de um felino na sala.",
+        "en": "Long-time clients report excellent outcomes in surgeries and health treatments for dogs and cats, maintaining strong trust in clinical care. In contrast, one visitor experienced an interrupted consultation where required lab tests were not completed after a rescued feline escaped inside the room."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Manejo de animais e experiência com felinos",
+        "en": "Animal handling and feline experience"
+      },
+      "text": {
+        "pt": "Tutores habituais elogiam o carinho e a habilidade prática da clínica com cães e gatos, ressaltando o respeito ao bem-estar dos animais atendidos. Apesar disso, um cliente relatou falha no manejo seguro ao abrir a caixa de transporte de um gato assustado, resultando em estresse durante a visita.",
+        "en": "Regular clients commend the clinic's gentle affection and handling skills with dogs and cats, emphasizing respect for pet well-being. Nevertheless, one review noted a lapse in secure handling when opening a carrier for a frightened rescue cat, resulting in unnecessary stress during the clinic visit."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica realiza cirurgias veterinárias?",
+        "en": "Does the clinic perform veterinary surgical procedures?"
+      },
+      "a": {
+        "pt": "Sim, clientes relatam cirurgias bem-sucedidas e acompanhamento cuidadoso pós-operatório na unidade.",
+        "en": "Yes, clients report successful surgical interventions and attentive post-operative care at the facility."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A equipe atende cães e gatos de todas as idades?",
+        "en": "Does the staff treat both dogs and cats of all ages?"
+      },
+      "a": {
+        "pt": "Sim, a clínica oferece atendimento clínico geral para filhotes, cães adultos e felinos.",
+        "en": "Yes, the clinic provides general veterinary consultations for puppies, adult dogs, and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível realizar exames laboratoriais na clínica?",
+        "en": "Can routine diagnostic and lab tests be done at the clinic?"
+      },
+      "a": {
+        "pt": "Sim, a estrutura da clínica permite coleta de exames e consultas preventivas com agendamento.",
+        "en": "Yes, the clinic facility accommodates diagnostic sample collection and preventive visits by appointment."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}

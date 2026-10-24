@@ -1,0 +1,146 @@
+{
+  "slug": "dog-day-club",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Day+Club+-+Hotel+and+doggie+day+care/data=!4m7!3m6!1s0x94ce50871079e521:0xdf0367ebb4b7695f!8m2!3d-23.6259085!4d-46.6828184!16s%2Fg%2F11b721z8q8!19sChIJIeV5EIdQzpQRX2m3tOtnA98?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Equipe qualificada com queixas pontuais",
+        "en": "Qualified staff with isolated complaints"
+      },
+      "text": {
+        "pt": "Vários clientes em Santo Amaro elogiam a atenção, a qualificação e a paciência dos funcionários durante as estadias de creche e hotel. Por outro lado, registros negativos apontam descontentamento com a postura da gerência e falta de empatia no suporte ao cliente após incidentes de atendimento.",
+        "en": "Multiple clients in Santo Amaro praise the attention, qualifications, and patience of staff members during hotel and daycare stays. Conversely, critical reviews report dissatisfaction with management attitudes and a perceived lack of empathy when addressing customer concerns following incidents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Acolhimento no hotel e incidente estético",
+        "en": "Boarding comfort and grooming incident"
+      },
+      "text": {
+        "pt": "Tutores habituais destacam o carinho no tratamento dos cães e a sensibilidade em ambientar cada animal no grupo mais compatível durante a hospedagem. Em contrapartida, uma avaliação severa relatou lesão ocular sofrida por um cão durante o serviço de tosa, criticando o cuidado estético.",
+        "en": "Regular clients commend the attentive care given to dogs and the sensitivity shown when placing each pet in compatible group play during boarding stays. However, a severe review documented an eye injury sustained by a dog during grooming, voicing strong frustration with aesthetic care handling."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Estrutura ampla e monitoramento por câmeras",
+        "en": "Spacious grounds and camera monitoring"
+      },
+      "text": {
+        "pt": "A estrutura da unidade é amplamente elogiada pelo espaço físico bem planejado, seguro e adequado para a recreação e o descanso de cães de diferentes portes. Clientes valorizam muito o acesso a câmeras de segurança para acompanhar os animais à distância e a flexibilidade de horários.",
+        "en": "The facility is praised for its well-planned, secure layout tailored for recreation and resting across different dog breeds. Clients particularly value having access to live security cameras to check on their pets remotely, alongside flexible check-in and check-out scheduling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "Os tutores têm acesso a câmeras de monitoramento durante a hospedagem?",
+        "en": "Do pet owners have access to live cameras during boarding?"
+      },
+      "a": {
+        "pt": "Sim, clientes destacam o acesso às câmeras de segurança para acompanhar seus animais durante a estadia.",
+        "en": "Yes, clients highlight access to live security camera feeds to watch their pets throughout their stay."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O hotel oferece banho no encerramento da estadia?",
+        "en": "Does the hotel provide a departure bath service?"
+      },
+      "a": {
+        "pt": "Sim, os clientes relatam a opção de contratar banho para o animal antes do check-out.",
+        "en": "Yes, clients report the optional booking of a bath service for the dog prior to checking out."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Os horários de check-in e check-out são flexíveis?",
+        "en": "Are check-in and check-out hours flexible?"
+      },
+      "a": {
+        "pt": "Sim, tutores mencionam facilidade e flexibilidade nos horários de entrada e saída dos animais.",
+        "en": "Yes, guardians mention convenience and flexibility regarding animal arrival and departure times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
