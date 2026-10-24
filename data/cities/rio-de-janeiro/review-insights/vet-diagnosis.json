@@ -1,0 +1,146 @@
+{
+  "slug": "vet-diagnosis",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Vet+Diagnosis/data=!4m7!3m6!1s0x997cb494f34929:0xd6efab42b4e8d02!8m2!3d-22.8520827!4d-43.3278563!16s%2Fg%2F1tjmfwn0!19sChIJKUnzlLR8mQARAo1OK7T6bg0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "pt": "Atendimento clínico com experiências divididas",
+        "en": "Clinical team with divided client experiences"
+      },
+      "text": {
+        "pt": "Parte dos tutores elogia a dedicação e o preparo técnico de veterinárias em Irajá, destacando consultas calmas e atenção humanizada. Em contrapartida, avaliações críticas apontam falhas no trato na recepção e descontentamento com agendamentos, revelando percepções contrastantes sobre o atendimento prestado.",
+        "en": "Some pet owners praise the dedication and skill of clinic veterinarians in Irajá, noting calm consultations and humane attention. Conversely, critical reviews mention reception friction and scheduling frustration, showing contrasting impressions regarding the overall quality of client service."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Instalações limpas e ambiente organizado",
+        "en": "Clean facilities and organized clinic environment"
+      },
+      "text": {
+        "pt": "A infraestrutura física da clínica é avaliada de forma muito positiva pelos clientes que visitam o local. Tutores ressaltam a limpeza rigorosa dos consultórios, a boa organização dos espaços de exames e o ambiente tranquilo, que ajuda a reduzir o desconforto de cães e gatos durante os procedimentos diagnósticos.",
+        "en": "The clinic's physical infrastructure receives positive feedback from visiting clients. Pet owners highlight thorough cleanliness in consultation rooms, tidy diagnostic areas, and a quiet setting that helps minimize stress for dogs and cats undergoing diagnostic examinations and ultrasound imaging."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Manejo de animais com avaliações contrastantes",
+        "en": "Animal handling with contrasting pet reviews"
+      },
+      "text": {
+        "pt": "Tutores satisfeitos relatam consultas tranquilas, nas quais os veterinários demonstraram paciência e respeito aos limites dos animais. Por outro lado, relatos descontentes aconselham cautela e expressam forte insatisfação com experiências vivenciadas com seus pets, gerando divergência nas impressões registradas.",
+        "en": "Satisfied clients report calm consultations where veterinarians demonstrated patience and careful respect for pet comfort. On the other hand, disappointed reviews express strong dissatisfaction with pet experiences and advise caution, leading to mixed feedback regarding animal handling at the facility."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica realiza exames de diagnóstico por imagem?",
+        "en": "Does the clinic offer diagnostic imaging tests?"
+      },
+      "a": {
+        "pt": "Sim, os clientes elogiam a qualidade técnica dos laudos emitidos e a precisão dos exames diagnósticos realizados.",
+        "en": "Yes, clients highlight the high quality of medical reports and accuracy of diagnostic imaging exams performed."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível agendar exames via WhatsApp?",
+        "en": "Can appointments be scheduled via WhatsApp?"
+      },
+      "a": {
+        "pt": "Sim, há atendimento digital, embora clientes recomendem confirmar o agendamento no sistema para evitar imprevistos.",
+        "en": "Yes, online messaging is available, though clients recommend confirming booking details to prevent system delays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O ambiente da clínica é considerado limpo e seguro?",
+        "en": "Is the clinic environment considered clean and safe?"
+      },
+      "a": {
+        "pt": "Sim, os tutores destacam frequentemente a higiene exemplar dos consultórios e a organização dos espaços.",
+        "en": "Yes, pet guardians frequently highlight exemplary hygiene in examination rooms and orderly diagnostic areas."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
