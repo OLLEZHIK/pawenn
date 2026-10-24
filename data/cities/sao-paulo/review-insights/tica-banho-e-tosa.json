@@ -1,0 +1,146 @@
+{
+  "slug": "tica-banho-e-tosa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Tica+Banho+e+Tosa/data=!4m7!3m6!1s0x94cef7d25aeff30f:0xfcc110798836103!8m2!3d-23.5087837!4d-46.6519794!16s%2Fg%2F11v_4fvq45!19sChIJD_PvWtL3zpQRA2GDmAcRzA8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "pt": "Atendimento caloroso e dedicação constante",
+        "en": "Warm customer care and dedication"
+      },
+      "text": {
+        "pt": "Clientes em Santana elogiam a cordialidade e o carinho com que a equipe recepciona tutores e animais. O atendimento personalizado de profissionais como o tosador Kauê transmite grande tranquilidade às famílias, que destacam o ambiente acolhedor da loja.",
+        "en": "Pet owners in Santana praise the friendliness and genuine care shown by the entire grooming team. Personalized attention from groomers like Kauê reassures visiting families, who highlight the pleasant and supportive environment maintained in the salon."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "pt": "Manejo delicado com cães e felinos",
+        "en": "Gentle handling for dogs and cats"
+      },
+      "text": {
+        "pt": "O salão é reconhecido pelo respeito e pela sensibilidade no cuidado de gatos e cachorros. Tutores ressaltam que felinos recebem tratamento calmo e sem estresse, enquanto cães saem alegres e confortáveis, demonstrando que foram atendidos com muito afeto.",
+        "en": "The salon is recognized for its respectful and delicate approach when handling both dogs and cats. Owners highlight that felines receive quiet, stress-free care, while dogs leave happy and at ease, showing they were treated with affection throughout."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "pt": "Pelagem perfumada e excelente acabamento",
+        "en": "Fragrant coats and pristine finishing"
+      },
+      "text": {
+        "pt": "As avaliações comemoram o resultado impecável dos banhos e das tosas, com animais saindo muito cheirosos e com pelos macios. Clientes também apontam a pontualidade do serviço de táxi dog, que facilita a rotina e garante comodidade no transporte dos pets.",
+        "en": "Reviews celebrate the pristine outcome of baths and haircuts, noting pets return home smelling great with wonderfully soft coats. Clients also value the punctuality of the pet taxi option, which adds significant convenience to busy household schedules."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O salão atende gatos para banho e cuidados higiênicos?",
+        "en": "Does the salon accept cats for bathing and hygienic care?"
+      },
+      "a": {
+        "pt": "Sim, tutores de felinos elogiam o manejo calmo e a delicadeza dedicada aos gatos.",
+        "en": "Yes, cat owners commend the gentle, low-stress handling dedicated to feline clients."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Existe serviço de transporte ou táxi dog disponível?",
+        "en": "Is a pet taxi transportation service available?"
+      },
+      "a": {
+        "pt": "Sim, o estabelecimento disponibiliza serviço pontual de transporte para buscar e levar os pets.",
+        "en": "Yes, the salon offers punctual pet taxi transport for pick-up and drop-off."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É necessário agendar horário para atendimento?",
+        "en": "Is prior booking required for grooming services?"
+      },
+      "a": {
+        "pt": "Sim, recomenda-se marcar com antecedência para assegurar a vaga do seu pet na rotina do salão.",
+        "en": "Yes, scheduling in advance is recommended to ensure an allocated time slot for your pet."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
