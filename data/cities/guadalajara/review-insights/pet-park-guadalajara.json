@@ -1,0 +1,156 @@
+{
+  "slug": "pet-park-guadalajara",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+park/data=!4m7!3m6!1s0x8428af4b5ff4f937:0x39a139989b5375be!8m2!3d20.6728078!4d-103.430932!16s%2Fg%2F11b619k4sm!19sChIJN_n0X0uvKIQRvnVTm5g5oTk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Descontento con la atención del personal",
+        "en": "Client dissatisfaction with retail staff"
+      },
+      "text": {
+        "es": "La mayoría de las reseñas refleja inconformidad con el trato de los empleados en las sucursales de Rafael Sanzio y Providencia. Los clientes perciben apatía hacia las mascotas y falta de profesionalismo en los servicios prestados. Solo un comprador destacó una atención amable al adquirir alimentos en tienda física, frente a repetidas quejas de desatención.",
+        "en": "Most client reviews express dissatisfaction with employee attitudes at the Rafael Sanzio and Providencia branches. Visitors frequently perceive apathy towards pets and a lack of professional attentiveness during visits. Only one buyer noted friendly in-store service when purchasing food, contrasting with multiple complaints of indifference."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Fallas en horarios y pedidos en línea",
+        "en": "Issues with store hours and online orders"
+      },
+      "text": {
+        "es": "Los clientes señalan serios problemas de coordinación informativa en las plataformas digitales del establecimiento. Un usuario reportó que la tienda no entregó un pedido en línea pagado y luego negó el servicio a domicilio por mensajería. Otros visitantes lamentan encontrar el local cerrado antes del horario publicado en los mapas digitales.",
+        "en": "Clients point out significant communication failures regarding store operations and digital platforms. One customer reported an online order that went unfulfilled despite website delivery claims, requiring multiple branch trips. Others express frustration after finding the shop closed earlier than the opening hours displayed on online maps."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "es": "Preocupación por el trato a las mascotas",
+        "en": "Concerns over pet handling during grooming"
+      },
+      "text": {
+        "es": "Quienes llevaron a sus perros al servicio de estética expresan desconfianza por la forma en que fueron manipulados. Un tutor denunció que cortaron las uñas de dos perros hasta hacerlos sangrar sin advertir el daño a tiempo. Otros clientes perciben que los encargados muestran poco interés en lograr que los animales se sientan cómodos y tranquilos.",
+        "en": "Owners who brought their dogs in for grooming express distrust regarding how their companions were handled by staff. One reviewer reported that groomers clipped the nails of two small dogs too deeply, causing bleeding without prior notice. Other clients feel that staff show minimal genuine empathy for making visiting pets feel calm and settled."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿El servicio de entrega a domicilio funciona con regularidad?",
+        "en": "Does the home delivery service operate reliably?"
+      },
+      "a": {
+        "es": "Los clientes advierten que han existido discrepancias entre las opciones de envío de la página web y la disponibilidad real de entrega.",
+        "en": "Clients warn that discrepancies have occurred between website delivery claims and actual fulfillment by branches."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Los horarios de apertura coinciden con los publicados en internet?",
+        "en": "Do store hours match online listings?"
+      },
+      "a": {
+        "es": "Algunos usuarios señalan que las sucursales pueden cerrar antes del horario señalado en Google Maps, por lo que sugieren llamar antes.",
+        "en": "Some users note that branches have closed earlier than posted Google Maps hours, advising shoppers to verify by phone before visiting."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué surtido de marcas de alimento maneja la tienda?",
+        "en": "What selection of pet food brands does the store carry?"
+      },
+      "a": {
+        "es": "Los compradores destacan una buena variedad de alimentos para mascotas y artículos básicos disponibles en los mostradores físicos.",
+        "en": "Buyers note a broad selection of commercial pet food brands and essential accessories available in physical store displays."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿El personal ofrece garantías en el corte de uñas para perros pequeños?",
+        "en": "Does the grooming staff guarantee gentle nail trimming for small dogs?"
+      },
+      "a": {
+        "es": "Las reseñas advierten sobre incidentes con cortes profundos de uñas, por lo que recomiendan supervisar o solicitar manejo cuidadoso.",
+        "en": "Reviews warn about incidents with overly deep nail trims, suggesting owners explicitly request gentle handling for sensitive pets."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "results": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "animals": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "waiting": "-"
+      }
+    }
+  ]
+}
