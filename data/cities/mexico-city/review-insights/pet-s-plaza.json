@@ -1,0 +1,152 @@
+{
+  "slug": "pet-s-plaza",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/PET%C2%B4S+PLAZA/data=!4m7!3m6!1s0x85d1ff2e497055af:0x2fdcf1991550ec36!8m2!3d19.3973601!4d-99.1540648!16s%2Fg%2F11pcj9sp4q!19sChIJr1VwSS7_0YURNuxQFZnx3C8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "es": "Socialización y bienestar para perros y gatos",
+        "en": "Socialization and comfort for dogs and cats"
+      },
+      "text": {
+        "es": "Los propietarios aplauden las actividades de juego y convivencia que disfrutan sus mascotas durante la guardería en Narvarte Poniente. Comentan que los perros regresan contentos y cansados tras convivir con otros compañeros bajo supervisión. Además, valoran los filtros preventivos de salud previos al ingreso que protegen a todos los animales.",
+        "en": "Pet parents applaud the engaging playtime and social activities pets enjoy during daycare stays in Narvarte Poniente. Owners note that dogs return home cheerful and happily tired after safe interactions with fellow companions. Strict veterinary entry requirements and temperament assessments ensure a protected environment for every animal."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "es": "Supervisión médica y trato familiar atento",
+        "en": "Medical supervision and welcoming staff care"
+      },
+      "text": {
+        "es": "Los clientes destacan la calidez y el compromiso del personal de cuidado, describiendo el ambiente como muy cercano y familiar. Resaltan la presencia continua de personal veterinario para atender cualquier eventualidad médica. La dedicación hacia los animales inspira confianza recurrente entre quienes viajan o trabajan fuera de casa.",
+        "en": "Clients appreciate the warmth and dedication of the boarding attendants, frequently describing the center as a caring second family. Reviewers specifically value having an on-site veterinary doctor available to address any unexpected clinical needs. This continuous oversight builds reassurance for owners during business or holiday travel."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones limpias con opiniones sobre espacios",
+        "en": "Clean indoor spaces with mixed feedback"
+      },
+      "text": {
+        "es": "Las reseñas valoran la higiene y el mantenimiento de las áreas interiores en Diagonal San Antonio. No obstante, las opiniones están divididas sobre la distribución del inmueble: un tutor echa en falta una zona al aire libre y otro expresó desconfianza sobre la consistencia de los servicios adicionales fuera de la guardería diurna.",
+        "en": "Reviews commend the high standards of cleanliness and tidy upkeep across the indoor facility on Diagonal San Antonio. However, feedback is divided regarding space layout: one pet parent notes the absence of an outdoor run, while another reported dissatisfaction regarding the consistency of supplementary services outside standard daycare."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se realiza evaluación previa antes de aceptar a un perro en guardería?",
+        "en": "Do they evaluate dogs before admitting them into daycare?"
+      },
+      "a": {
+        "es": "Sí, aplican una prueba de socialización y solicitan esquema completo de vacunación y desparasitación para ingresar.",
+        "en": "Yes, they conduct a temperament assessment and require up-to-date vaccinations and deworming before admission."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Hay supervisión veterinaria durante la estancia de las mascotas?",
+        "en": "Is veterinary oversight available during pet boarding stays?"
+      },
+      "a": {
+        "es": "Sí, cuentan con presencia y revisión de médicos veterinarios para monitorear el estado físico de los animales.",
+        "en": "Yes, on-site veterinary staff monitors the health and wellbeing of staying companion pets."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Envían fotografías o videos del perro durante el día?",
+        "en": "Do they send daily photos or videos to owners?"
+      },
+      "a": {
+        "es": "Sí, varios clientes mencionan recibir actualizaciones en fotos y videos sobre el juego y descanso de sus mascotas.",
+        "en": "Yes, multiple clients mention receiving regular photo and video updates showing their pet playing and resting."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "place": "~",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "communication": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

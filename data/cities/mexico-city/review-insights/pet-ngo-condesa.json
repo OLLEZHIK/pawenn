@@ -1,0 +1,133 @@
+{
+  "slug": "pet-ngo-condesa",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+N%27Go+Condesa/data=!4m7!3m6!1s0x85d1ff40432d67ef:0x6598c81c7d1d56c9!8m2!3d19.4103557!4d-99.1693638!16s%2Fg%2F1x5fbq5_!19sChIJ72ctQ0D_0YURyVYdfRzImGU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Personal atento en la sucursal Condesa",
+        "en": "Attentive team at Condesa store"
+      },
+      "text": {
+        "es": "Los dueños destacan de manera unánime la atención cordial y profesional que reciben en la tienda de Avenida México. Resaltan que los empleados son serviciales, resuelven dudas sobre alimentos y muestran gran disposición para ayudar. La experiencia de compra en el local resulta ágil, confiable y muy agradable para los visitantes.",
+        "en": "Pet owners unanimously praise the friendly and professional support they encounter at the Avenida México branch. Reviews emphasize that employees are knowledgeable about nutrition and eager to assist with product inquiries. Shopping in the store is described as prompt, dependable, and pleasant for neighborhood families."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Trato cariñoso y cuidado canino",
+        "en": "Loving care and gentle handling"
+      },
+      "text": {
+        "es": "Los clientes valoran el cariño y la paciencia con que tratan a los perros que visitan el establecimiento en Condesa. Afirman que los animales reciben mimos constantes y se sienten tranquilos mientras sus dueños recorren los pasillos o acuden a servicios de cuidado. La tienda ofrece un espacio acogedor y amigable para mascotas.",
+        "en": "Customers value the gentle care and genuine affection shown toward dogs visiting the shop in Colonia Condesa. Reviewers note that companion animals are pampered and remain calm while pet parents explore supplies or utilize grooming options. The branch provides an inviting and pet-friendly environment for local dogs."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Satisfacción con compras y servicios",
+        "en": "Satisfaction with products and services"
+      },
+      "text": {
+        "es": "Los compradores expresan alta satisfacción con la calidad de los artículos para mascotas y los servicios recibidos. Señalan que los perros salen con un aspecto excelente y muy consentidos tras sus sesiones de aseo. La variedad de productos especializados y la consistencia en el servicio generan confianza entre los clientes.",
+        "en": "Shoppers report high satisfaction with the overall quality of pet supplies and styling care delivered at this location. Reviewers mention that dogs leave looking immaculate and feeling pampered after hygiene appointments. The consistent standard of customer service and diverse product catalog foster strong local loyalty."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se puede ingresar con mascotas a la tienda en Condesa?",
+        "en": "Are pets allowed inside the Condesa store?"
+      },
+      "a": {
+        "es": "Sí, el establecimiento es totalmente amigable con las mascotas y los empleados reciben a los perros con afecto.",
+        "en": "Yes, the store is completely pet-friendly, and the staff welcomes companion animals with affection."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de baño y estética en esta sucursal?",
+        "en": "Do they provide pet grooming and baths at this location?"
+      },
+      "a": {
+        "es": "Sí, varios usuarios destacan las sesiones de aseo y consentimiento estético para sus perros.",
+        "en": "Yes, several clients highlight the pampering grooming and bath sessions available for their dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Tienen variedad de alimentos y premios para perros y gatos?",
+        "en": "Do they carry a variety of food and treats for dogs and cats?"
+      },
+      "a": {
+        "es": "Sí, disponen de alimento seco, húmedo y suplementos especializados para diferentes razas y necesidades.",
+        "en": "Yes, they stock dry food, wet formulas, and nutritional supplements for diverse breeds and health needs."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    }
+  ]
+}

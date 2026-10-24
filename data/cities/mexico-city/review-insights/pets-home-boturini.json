@@ -1,0 +1,147 @@
+{
+  "slug": "pets-home-boturini",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet%C2%B4s+Home+Boturini/data=!4m7!3m6!1s0x85d1ff4a0a39e02b:0xa79285e9fd5dc1a7!8m2!3d19.4168245!4d-99.1222242!16s%2Fg%2F11m9t6hrph!19sChIJK-A5Ckr_0YURp8Fd_emFkqc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Asesoría experta con quejas de trato",
+        "en": "Expert advice alongside customer service complaints"
+      },
+      "text": {
+        "es": "Varios clientes aplauden la atención cálida de empleadas capacitadas que brindan recomendaciones nutricionales para cachorros. En contraparte, dos reseñas critican actitudes tajantes en el mostrador y falta de respuesta a mensajes, señalando que la experiencia en servicio al cliente resulta variable según la persona en turno.",
+        "en": "Several shoppers commend knowledgeable attendants who offer personalized nutritional advice for puppies and pets. Conversely, two negative reviews complain of abrupt attitudes at the counter and unreturned messages, indicating that customer service consistency depends heavily on which employee is on duty at the store."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "es": "Variedad de alimento y accesorios disponibles",
+        "en": "Wide inventory of food and accessories"
+      },
+      "text": {
+        "es": "Los compradores elogian el amplio surtido de la tienda en Lorenzo Boturini, destacando que reúne alimentos, premios, juguetes y accesorios de distintas marcas. Consideran que es una tienda de barrio muy completa donde es fácil surtir las necesidades cotidianas de perros y gatos sin tener que desplazarse a otros comercios.",
+        "en": "Shoppers praise the extensive inventory at the Lorenzo Boturini shop, noting that it stocks pet foods, treats, toys, and supplies across multiple brands. Pet owners describe it as a well-stocked neighborhood store where they can conveniently find everyday essentials for dogs and cats without traveling to other markets."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Productos y asesoría para cachorros",
+        "en": "Pet products and guidance for puppies"
+      },
+      "text": {
+        "es": "Los dueños aprecian las opciones especializadas para cachorros y perros con necesidades dietéticas particulares. Valoran que el personal aplique preguntas sobre la edad, tamaño y actividad de las mascotas para sugerir el alimento adecuado, procurando siempre la salud digestiva y el desarrollo óptimo de los animales.",
+        "en": "Owners value specialized product options tailored to puppies and pets with particular dietary requirements. Reviewers appreciate that knowledgeable staff ask about age, breed, and activity levels before recommending kibble, prioritizing the digestive health and overall wellbeing of companion animals during store visits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Ofrecen asesoría sobre alimentación y cuidados para mascotas?",
+        "en": "Do they provide nutritional guidance for pets?"
+      },
+      "a": {
+        "es": "Sí, clientes destacan que el personal capacitado ayuda a elegir el mejor alimento según las necesidades del animal.",
+        "en": "Yes, shoppers highlight that knowledgeable staff helps select appropriate pet food tailored to individual needs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Qué productos se pueden encontrar en la tienda de Lorenzo Boturini?",
+        "en": "What supplies are available at the Lorenzo Boturini store?"
+      },
+      "a": {
+        "es": "Cuentan con croquetas, alimento húmedo, premios, juguetes, correas y accesorios diversos para perros y gatos.",
+        "en": "They carry dry kibble, wet food, treats, toys, leashes, and various everyday pet accessories for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Cómo responden a las consultas por mensajería?",
+        "en": "How responsive are they to phone or text inquiries?"
+      },
+      "a": {
+        "es": "Algunos clientes señalan que los mensajes no siempre reciben respuesta inmediata, por lo que sugieren acudir en persona.",
+        "en": "Some reviewers report delays in answering online messages, recommending visiting the shop in person for inquiries."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "+"
+      }
+    }
+  ]
+}
