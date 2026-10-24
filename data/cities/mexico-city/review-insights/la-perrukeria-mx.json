@@ -1,0 +1,144 @@
+{
+  "slug": "la-perrukeria-mx",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/La+Perrukeria+Mx/data=!4m7!3m6!1s0x85d1f9c16be99c1f:0xe3d7bebea0d177d1!8m2!3d19.456243!4d-99.1741763!16s%2Fg%2F11j4fby842!19sChIJH5zpa8H50YUR0XfRoL6-1-M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "es": "Atención profesional con quejas al personal suplente",
+        "en": "Professional service with relief staff complaints"
+      },
+      "text": {
+        "es": "Varios clientes en Popotla recomiendan la estética por la cordialidad y buen trato de su titular habitual. En contraste, otras reseñas expresan molestia por la atención poco empática del personal médico y la impericia de estilistas suplentes que cubrían vacaciones.",
+        "en": "Several clients in Popotla recommend the salon for the friendly and dependable service of its regular manager. In contrast, other reviews express annoyance with impersonal veterinary attention and the lack of skill displayed by temporary relief groomers covering vacations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Acabados de estética y resultados divididos",
+        "en": "Grooming finishes and divided outcomes"
+      },
+      "text": {
+        "es": "Algunos tutores se muestran satisfechos con los baños y cortes higiénicos realizados en el establecimiento. No obstante, se reportan incidentes negativos notorios, como trasquilones indeseados en un Shih Tzu y retrasos o errores en la toma de muestras de laboratorio veterinario.",
+        "en": "Some pet guardians are pleased with the hygienic baths and grooming services provided at the boutique. However, notable negative incidents are reported, such as unrequested trimming leaving bald patches on a Shih Tzu, as well as delays and mishandled veterinary laboratory samples."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Instalaciones cómodas y restricciones de acceso",
+        "en": "Comfortable salon and access limitations"
+      },
+      "text": {
+        "es": "La mayoría de las familias valora las instalaciones de la boutique por su ambiente agradable para el cuidado canino. Sin embargo, un visitante señaló inconformidad por no permitir el ingreso al vestíbulo durante la espera, teniendo que aguardar en la calle para su cita médica.",
+        "en": "Most families appreciate the boutique facilities for their pleasant atmosphere during pet grooming sessions. However, one visitor noted dissatisfaction with being restricted from waiting inside the lobby, having to remain on the sidewalk while awaiting a veterinary consultation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Se puede observar el proceso de estética canina?",
+        "en": "Can pet owners watch the dog grooming process?"
+      },
+      "a": {
+        "es": "Sí, el establecimiento cuenta con ventanales diseñados para que los tutores observen el aseo y cuidado de sus mascotas.",
+        "en": "Yes, the boutique features viewing windows designed so pet owners can watch the grooming and care of their pets."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Qué servicios de spa y peluquería ofrecen?",
+        "en": "What spa and grooming treatments are available?"
+      },
+      "a": {
+        "es": "Brindan baños completos, estilismo a tijera, stripping, deslanado y corte higiénico de uñas.",
+        "en": "They provide full baths, scissor styling, hand stripping, deshedding, and hygienic nail trims."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario agendar cita previa para el servicio?",
+        "en": "Is it necessary to book an appointment in advance?"
+      },
+      "a": {
+        "es": "Sí, los usuarios recomiendan reservar con anticipación por teléfono o WhatsApp para coordinar los turnos de atención.",
+        "en": "Yes, users recommend booking in advance by phone or WhatsApp to coordinate scheduled service times."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "place": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 2,
+      "topics": {
+        "results": "-",
+        "staff": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
