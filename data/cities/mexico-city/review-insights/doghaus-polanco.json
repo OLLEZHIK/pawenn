@@ -1,0 +1,135 @@
+{
+  "slug": "doghaus-polanco",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/DOGHA%C3%9CS/data=!4m7!3m6!1s0x85d20313d9f6f113:0x576f772f17897700!8m2!3d19.433501!4d-99.186115!16s%2Fg%2F11yf411_2w!19sChIJE_H22RMD0oURAHeJFy93b1c?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "es": "Atención del personal con impresiones encontradas",
+        "en": "Salon staff with contrasting feedback"
+      },
+      "text": {
+        "es": "Las opiniones sobre el equipo de Polanco muestran contrastes claros. Mientras algunos clientes elogian la amabilidad de la recepción y la atención general, otros reportan discusiones internas entre estilistas y actitudes desfavorables al recibir a las mascotas.",
+        "en": "Opinions regarding the staff in Polanco show noticeable contrasts. While some clients praise the welcoming front desk and overall service quality, others report disagreements among grooming personnel and unwelcoming attitudes when receiving pets for scheduled care."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "es": "Dificultades en atención y recepción",
+        "en": "Communication issues and service refusals"
+      },
+      "text": {
+        "es": "Varios tutores señalan deficiencias en la comunicación y atención al cliente en el salón. Aunque algunos usuarios aprecian el trato recibido, otros reportan cancelaciones imprevistas de servicio sin explicaciones claras tras haber completado el registro de ingreso.",
+        "en": "Several pet owners report deficiencies in front-desk communication and client coordination at the salon. While some visitors appreciate customer service, others recount abrupt service denials without adequate explanation after completing check-in registration forms."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "es": "Bienestar canino y admisión en el salón",
+        "en": "Pet experience and admission policies"
+      },
+      "text": {
+        "es": "Mientras algunos usuarios afirman que sus mascotas disfrutan el baño y acuden con entusiasmo a sus citas, otros clientes manifiestan inconformidad por restricciones imprevistas y perciben criterios excluyentes hacia ciertos tipos de perros al momento de atenderlos.",
+        "en": "While some clients state that their dogs thoroughly enjoy baths and arrive excitedly for grooming sessions, other owners express dissatisfaction over sudden service refusals and perceive selective criteria when dogs are brought in for scheduled appointments."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué servicios de bienestar y estética canina brinda DOGHAÜS?",
+        "en": "What grooming and wellness services does DOGHAÜS provide?"
+      },
+      "a": {
+        "es": "Ofrecen baños completos, corte de pelo estilizado, spa canino y venta de accesorios en su boutique de Polanco.",
+        "en": "They offer full baths, styled haircuts, canine spa sessions, and boutique pet accessories at their Polanco studio."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Se requiere cita previa para los servicios de estética?",
+        "en": "Is prior appointment scheduling required for grooming?"
+      },
+      "a": {
+        "es": "Se recomienda agendar con antelación vía WhatsApp o en línea para confirmar disponibilidad de estilistas.",
+        "en": "Scheduling in advance via WhatsApp or online is recommended to confirm grooming stylist availability."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "es": "¿Aceptan todas las razas y tamaños de perros en el salón?",
+        "en": "Do they accept all dog breeds and sizes at the salon?"
+      },
+      "a": {
+        "es": "Atienden a perros de diversas razas, aunque conviene consultar con antelación sobre requisitos y admisión del servicio.",
+        "en": "They welcome dogs of various breeds, though checking admission criteria and specific requirements in advance is advisable."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "~",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
