@@ -1,0 +1,31 @@
+{
+  "chunk": "21-training",
+  "kind": "places",
+  "slugs": [
+    "ben-adestrador"
+  ],
+  "hash": "63072865dd4d012e363dbcba06de0899abc004e799a3e38ae388d857887c18b3",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T05:08:33.375Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-24T05:08:56.193Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-24T05:11:29.425Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T05:12:38.870Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
