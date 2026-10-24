@@ -1,0 +1,35 @@
+{
+  "chunk": "02-vet",
+  "kind": "places",
+  "slugs": [
+    "royal-york-animal-hospital",
+    "sherbourne-animal-hospital",
+    "juno-veterinary-king-west",
+    "juno-veterinary-bloor-west",
+    "juno-veterinary-summerhill",
+    "leslieville-animal-hospital",
+    "leaside-animal-clinic",
+    "toronto-central-animal-clinic",
+    "eglinton-veterinary-facilities",
+    "yonge-street-animal-hospital"
+  ],
+  "hash": "6fdefa95b2bb300af5125119ac196f1a2eb38dee7cc9a2171cf081e63de33e32",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T00:13:37.289Z",
+      "result": "FAIL",
+      "listed": 44
+    },
+    {
+      "at": "2026-10-24T00:23:23.263Z",
+      "result": "FAIL",
+      "listed": 6
+    },
+    {
+      "at": "2026-10-24T00:23:59.244Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
