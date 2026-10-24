@@ -1,0 +1,131 @@
+{
+  "slug": "animal-inn-center",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/ANIMAL+INN+Center/data=!4m7!3m6!1s0x85d1ff41acdbdc27:0x53f524fa452fcc51!8m2!3d19.410345!4d-99.170571!16s%2Fg%2F1pyqsjj99!19sChIJJ9zbrEH_0YURUcwvRfok9VM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Atención médica cálida y honesta",
+        "en": "Warm and transparent veterinary care"
+      },
+      "text": {
+        "es": "Los tutores elogian el trato cercano, atento y profesional del personal en Hipódromo, Cuauhtémoc. Resaltan en particular la labor de veterinarios como el Dr. Roberto, señalando que explica diagnósticos con claridad, resuelve dudas con paciencia y no intenta vender exámenes ni productos innecesarios, generando alta confianza en cada visita.",
+        "en": "Pet owners commend the attentive, friendly, and honest approach of the clinic staff in Hipódromo, Cuauhtémoc. Reviewers particularly highlight vets such as Dr. Roberto, noting that he explains diagnoses clearly, addresses concerns patiently, and avoids pushing unnecessary treatments or products, fostering trust with every visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Cuidados efectivos y estética impecable",
+        "en": "Effective treatments and fresh grooming"
+      },
+      "text": {
+        "es": "Los clientes reportan excelentes resultados tanto en tratamientos médicos menores como en el servicio de estética canina. Quienes llevan a sus perros a baños mensuales mencionan que regresan con un aroma agradable y el pelaje limpio, mientras que en consultas veterinarias las indicaciones y gotas oftálmicas resuelven molestias rápidamente.",
+        "en": "Clients report positive outcomes across routine veterinary consultations and pet styling services. Those bringing dogs for monthly hygiene sessions note that their pets return fresh, clean, and smelling great, while medical interventions such as soothing eye drops provide prompt and dependable relief for minor injuries."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "es": "Manejo cuidadoso para perros consentidos",
+        "en": "Gentle handling for cherished pets"
+      },
+      "text": {
+        "es": "Las reseñas coinciden en que los animales son tratados con delicadeza y empatía, sintiéndose cómodos desde que ingresan al centro. Propietarios de cachorros adoptados y de razas enérgicas como bóxer y beagle destacan que sus compañeros caninos disfrutan la experiencia del baño y la revisión médica sin presentar señales de temor.",
+        "en": "Reviews emphasize that pets receive compassionate, gentle care and feel completely relaxed upon arriving at the facility. Owners of adopted puppies as well as active breeds like boxers and beagles note that their companions navigate both medical checkups and bathing routines smoothly without displaying signs of fear or distress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué servicios veterinarios básicos ofrece el centro?",
+        "en": "What basic veterinary services are offered?"
+      },
+      "a": {
+        "es": "Las reseñas destacan atención para vacunas, desparasitaciones, revisiones generales y urgencias menores.",
+        "en": "Reviews highlight care for vaccinations, deworming, routine health checkups, and minor urgent care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Ofrecen servicio de baño y estética canina?",
+        "en": "Do they offer dog bathing and grooming services?"
+      },
+      "a": {
+        "es": "Sí, cuentan con servicio de estética canina y baños regulares para perros de diferentes razas.",
+        "en": "Yes, they provide dog grooming and regular bathing sessions for various dog breeds."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Es necesario agendar cita previa para los servicios?",
+        "en": "Is an appointment required for services?"
+      },
+      "a": {
+        "es": "Se recomienda contactar por teléfono o mensajería para programar horarios de baño o consulta médica.",
+        "en": "Scheduling ahead via phone or messaging is advised for grooming or veterinary consultation slots."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
