@@ -1,0 +1,215 @@
+{
+  "slug": "nature-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Nature/data=!4m7!3m6!1s0x4cc91a6d613f17a3:0xfd743c6c9a5a3721!8m2!3d45.4895719!4d-73.5853077!16s%2Fg%2F1vvr5v6_!19sChIJoxc_YW0ayUwRITdammw8dP0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 15,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 11,
+      "title": {
+        "fr": "Accueil et conseils du personnel",
+        "en": "Staff service and pet advice"
+      },
+      "text": {
+        "fr": "Une majorité de clients apprécie la patience et les explications des employés pour choisir un animal de compagnie ou des produits d'aquariophilie. Quelques visiteurs expriment toutefois leur mécontentement face à des attitudes plus froides ou rigides à la caisse.",
+        "en": "A majority of shoppers praise the patience and detailed explanations provided by staff members when choosing a small pet or aquarium supplies. However, several visitors report disappointing experiences with colder or less welcoming attitudes at checkout."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "fr": "Emplacement et choix en magasin",
+        "en": "Location and retail product selection"
+      },
+      "text": {
+        "fr": "Les acheteurs soulignent la grande commodité de cette animalerie située au complexe Alexis-Nihon à Montréal. Le magasin propose un choix pratique d'accessoires, de plantes aquatiques et de nourriture variée pour poissons, rongeurs et oiseaux de compagnie.",
+        "en": "Pet owners highlight the convenience of this neighborhood store located inside the Alexis Nihon shopping complex. The shop maintains a practical selection of pet accessories, aquatic plants, and specialized food for fish, small rodents, and pet birds."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Présence et bien-être des animaux",
+        "en": "In-store pets and animal welfare"
+      },
+      "text": {
+        "fr": "Plusieurs clients apprécient d'observer les lapins, rongeurs et poissons en bonne santé présents dans l'animalerie du centre-ville. En contrepartie, certains avis s'inquiètent des conditions de garde des petits animaux et souhaitent davantage d'espace pour leur bien-être.",
+        "en": "Several customers enjoy seeing the lively rabbits, rodents, and colorful fish displayed in the store during their visits. In contrast, critical reviews raise concerns regarding enclosure sizes and hope for improved housing conditions for small companions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Trouve-t-on du matériel pour aquariums chez Nature ?",
+        "en": "Does Nature carry aquarium supplies and fish?"
+      },
+      "a": {
+        "fr": "Oui, la boutique propose des poissons, des plantes d'eau douce, des aquariums et des produits d'entretien spécialisés.",
+        "en": "Yes, the shop carries fish, freshwater plants, glass tanks, and specialized maintenance equipment."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Peut-on adopter ou acheter des petits animaux sur place ?",
+        "en": "Are small animals available for purchase in store?"
+      },
+      "a": {
+        "fr": "L'animalerie présente des lapins, des cochons d'Inde, des oiseaux et des poissons selon les arrivages réguliers.",
+        "en": "The pet shop regularly offers rabbits, guinea pigs, pet birds, and various fish depending on current arrivals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La boutique est-elle facilement accessible en transport ?",
+        "en": "Is the store easily accessible by public transit?"
+      },
+      "a": {
+        "fr": "Oui, le commerce est situé dans la Plaza Alexis-Nihon, directement reliée à la station de métro Atwater.",
+        "en": "Yes, the shop is situated inside Alexis Nihon Plaza, connected directly to the Atwater metro station."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "animals": "~"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 3,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
