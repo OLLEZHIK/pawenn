@@ -1,0 +1,150 @@
+{
+  "slug": "okie-doggie-pet-salon",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Okie+Doggie+Pet+Salon/data=!4m7!3m6!1s0x5486717a6a43d927:0xc406be44d9fec071!8m2!3d49.2709214!4d-123.0688647!16s%2Fg%2F11y1g63333!19sChIJJ9lDanpxhlQRccD-2US-BsQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Flattering haircuts with an isolated injury"
+      },
+      "text": {
+        "en": "The majority of pet parents are thrilled with their dogs' styling, praising neat trims on double coats, maltipoo puppies, and corgis. Reviewers appreciate that groomers successfully manage matted fur and produce cute, spa-quality finishes. However, one owner reported abrasions and post-grooming distress following a shave, urging careful handling."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Friendly, skilled, and gentle groomers"
+      },
+      "text": {
+        "en": "Clients consistently praise salon owner Lucas and the styling team for their welcoming manner, efficient appointments, and professional skill. Pet owners highlight that the staff demonstrate deep understanding of distinct breed coats and handle dogs with genuine gentleness. Visitors value the dependable, courteous service received during each visit."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Comfortable visits with an isolated distress"
+      },
+      "text": {
+        "en": "Several reviewers note that their nervous companions are treated with care and remain comfortable during fast drop-in nail trims and puppy cuts. Owners appreciate that groomers work gently with dogs that exhibit anxiety around unfamiliar handlers. In contrast, one reviewer was distressed when their dog experienced trauma and refused food after a groom."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients drop in for quick nail trims?"
+      },
+      "a": {
+        "en": "Yes, pet parents appreciate fast drop-in nail trimming services provided at reasonable prices."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the salon groom double-coated dog breeds?"
+      },
+      "a": {
+        "en": "Yes, clients praise owner Lucas for his specialized knowledge and proper handling of double-coated breeds like Corgis."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do groomers handle anxious or fearful dogs?"
+      },
+      "a": {
+        "en": "While most reviewers report gentle handling for nervous dogs, one client noted severe distress following a shave."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are grooming prices considered reasonable?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight fair, competitive pricing for full haircuts and routine maintenance services."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "waiting": "+",
+        "prices": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "~"
+      }
+    },
+    {
+      "ago": "Edited 6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
