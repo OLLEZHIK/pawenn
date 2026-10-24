@@ -1,0 +1,217 @@
+{
+  "slug": "pet-world-guadalajara",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+World/data=!4m7!3m6!1s0x8428ae67505e1dab:0x9129a3609345108f!8m2!3d20.6843802!4d-103.3984899!16s%2Fg%2F1tdzg9m2!19sChIJqx1eUGeuKIQRjxBFk2CjKZE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 12,
+      "title": {
+        "es": "Opiniones contrastantes sobre la atención",
+        "en": "Divided opinions on customer service"
+      },
+      "text": {
+        "es": "Parte de la clientela elogia la amabilidad del equipo en la boutique y el trato agradable de algunos veterinarios en turno matutino. Sin embargo, surgen quejas muy severas sobre mala educación en recepción, falta de empatía y cobros nocturnos inesperados. Varios tutores señalan que el personal elude responsabilidades cuando ocurren incidentes con animales.",
+        "en": "A portion of the clientele praises the friendly store team and the attentive attitude of specific veterinarians on day shifts. However, severe complaints highlight rude reception desk interactions, lack of empathy, and unexpected after-hours fees. Multiple pet guardians note that personnel evade accountability when injuries occur to animals in their care."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "es": "Incidentes graves en el cuidado de perros",
+        "en": "Serious incidents in pet well-being"
+      },
+      "text": {
+        "es": "Aunque dos reseñas señalan buen trato hacia cachorros en baño, predominan testimonios alarmantes de maltrato físico hacia los animales. Varios dueños denunciaron que sus perros regresaron con golpes, moretones o heridas en la cabeza tras sesiones de peluquería. Un cliente relató que su perra mayor volvió incapaz de caminar después de ser manipulada bruscamente.",
+        "en": "Although two reviews mention gentle washing for young pups, alarming reports of physical mistreatment dominate the feed. Several owners reported that their dogs returned home with bruises, head injuries, or trauma following grooming sessions. One client recounted that their elderly dog came back unable to walk properly after being handled aggressively by staff."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 4,
+      "title": {
+        "es": "Diagnósticos médicos y resultados estéticos",
+        "en": "Veterinary diagnoses and grooming results"
+      },
+      "text": {
+        "es": "Mientras un cliente quedó satisfecho con el corte de pelo de sus mascotas, existen duras críticas hacia los resultados clínicos y de estética. Un tutor denunció que un veterinario diagnosticó erróneamente moquillo y sugirió eutanasia a un perro con hernia discal. Otros usuarios lamentan cortes deficientes y lesiones físicas ocasionadas durante el aseo canino.",
+        "en": "While one client felt pleased with routine pet hair trims, harsh criticisms target clinical diagnoses and grooming outcomes. One owner reported that a staff vet misdiagnosed distemper and suggested euthanasia for a dog that actually had a herniated disc. Other customers report substandard cuts and painful bodily abrasions sustained during canine bathing."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "es": "¿Qué productos y alimentos comercializan en la tienda?",
+        "en": "What food brands and accessories are sold at the boutique?"
+      },
+      "a": {
+        "es": "La tienda ofrece marcas comerciales premium como Nupec, Taste of the Wild y Royal Canin, además de ropa y camas para mascotas.",
+        "en": "The boutique stocks premium pet food brands including Nupec, Taste of the Wild, and Royal Canin, alongside beds and apparel."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "es": "¿Aplican tarifas adicionales por atención fuera de horario habitual?",
+        "en": "Do they charge additional fees for after-hours veterinary care?"
+      },
+      "a": {
+        "es": "Sí, los clientes señalan que las consultas después de las 18:00 horas tienen un costo superior por considerarse turno nocturno.",
+        "en": "Yes, clients mention that consultations after 6:00 PM carry higher rates due to being categorized as evening shifts."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Cómo evalúan los dueños la seguridad del servicio de estética?",
+        "en": "How do pet owners evaluate the safety of the grooming salon?"
+      },
+      "a": {
+        "es": "Existen comentarios críticos sobre lesiones físicas en perros durante el baño, por lo que muchos dueños sugieren extremar precauciones.",
+        "en": "Multiple reviews express alarm regarding dog injuries during grooming, prompting many owners to urge caution when booking baths."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "es": "¿Hasta qué hora se permite el ingreso para consultas o compras?",
+        "en": "What is the latest entry time for consultations or retail purchases?"
+      },
+      "a": {
+        "es": "Aunque el letrero indique horario hasta la noche, algunos clientes reportan que el sistema administrativo puede cerrarse con anticipación.",
+        "en": "Although posted hours extend into the evening, some clients report that reception staff may close register systems early."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "prices": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
