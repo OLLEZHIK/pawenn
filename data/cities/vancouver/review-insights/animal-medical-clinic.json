@@ -1,0 +1,128 @@
+{
+  "slug": "animal-medical-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Animal+Medical+Clinic/data=!4m7!3m6!1s0x54867186e14afaeb:0xcf3f5659597ed0d8!8m2!3d49.2882467!4d-123.1276277!16s%2Fg%2F1tgfw9vj!19sChIJ6_pK4YZxhlQR2NB-WVlWP88?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Supportive and experienced veterinary staff"
+      },
+      "text": {
+        "en": "Dog owners praise Dr. Sharp and the front desk team on West Georgia Street for their warm, empathetic care and knowledgeable guidance. Reviewers appreciate that the clinical team remembers pets by name, goes above and beyond to provide urgent medications, and creates a stress-free environment for consultations."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Calm and comforting pet handling"
+      },
+      "text": {
+        "en": "Visitors emphasize how gently the clinic team handles nervous pets, noting that even anxious dogs receive vaccinations and exams without distress. Clients also describe swift, reassuring interventions during unexpected allergic reactions, leaving pet parents confident in the hands-on care provided."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Prompt communication and appointment assistance"
+      },
+      "text": {
+        "en": "Clients highlight prompt, clear communication from the team, especially when addressing medical questions or coordinating appointment scheduling via email. Reviewers appreciate that receptionists respond quickly to urgent inquiries and maintain helpful follow-up throughout treatment."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are consultations strictly by appointment?"
+      },
+      "a": {
+        "en": "Yes, the Coal Harbour clinic operates on an appointment-only basis for outpatient consultations and routine care."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic dispense prescription medications on site?"
+      },
+      "a": {
+        "en": "Yes, the practice maintains an in-house pharmacy to dispense prescribed pet medications and preventive treatments."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How does the clinic assist clients with urgent inquiries?"
+      },
+      "a": {
+        "en": "Reviewers note that the team is very responsive by email and telephone, assisting with quick appointment coordination."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are major surgical procedures performed at this facility?"
+      },
+      "a": {
+        "en": "The Georgia Street location focuses on outpatient medical care; major surgical cases are referred to the main Animal Medical Hospital."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

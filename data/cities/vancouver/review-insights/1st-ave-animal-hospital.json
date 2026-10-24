@@ -1,0 +1,197 @@
+{
+  "slug": "1st-ave-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/1st+Ave+Animal+Hospital/data=!4m7!3m6!1s0x5486712e6aa3403b:0xcc2a5d8274eee4b4!8m2!3d49.2687656!4d-123.0459395!16s%2Fg%2F1pp2vf8kd!19sChIJO0Cjai5xhlQRtOTudIJdKsw?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 13,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate and dedicated veterinary team"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the veterinary staff and Dr. Vinod Dhunna for their compassionate, knowledgeable approach. Reviewers note that the team takes ample time to explain diagnoses, offers thoughtful treatment plans without unnecessary upselling, and maintains a reassuring presence during emergency visits."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Effective treatment and urgent interventions"
+      },
+      "text": {
+        "en": "Clients report successful medical outcomes across routine checkups, dental cleanings, and critical urgent situations such as urinary blockages. Families appreciate the clinic rapid response during pet health scares, highlighting accurate second opinions and dependable recovery support for their companions."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Gentle handling of diverse pets"
+      },
+      "text": {
+        "en": "Visitors highlight the team gentle bedside manner when caring for anxious dogs, elderly cats, and small exotic pets like rabbits and guinea pigs. Multiple pet owners express gratitude that the clinic accommodated animals turned away by other hospitals, helping nervous companions remain calm."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does the hospital treat exotic pets such as rabbits and guinea pigs?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the veterinary team provides compassionate care and checkups for rabbits and guinea pigs, even accepting urgent cases."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can appointments be booked online for 1st Ave Animal Hospital?"
+      },
+      "a": {
+        "en": "Yes, the hospital supports online appointment requests as well as phone scheduling for routine consultations and surgery."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are emergency and urgent walk-in visits accepted?"
+      },
+      "a": {
+        "en": "The clinic accommodates urgent cases and short-notice emergencies during regular operating hours, though calling ahead is recommended."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What preventive veterinary services are provided?"
+      },
+      "a": {
+        "en": "The clinic offers wellness examinations, vaccinations, dental scale and polish, digital radiology, and soft tissue surgeries."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

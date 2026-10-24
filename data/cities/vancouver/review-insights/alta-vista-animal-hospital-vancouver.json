@@ -1,0 +1,210 @@
+{
+  "slug": "alta-vista-animal-hospital-vancouver",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Alta+Vista+Animal+Hospital+Vancouver/data=!4m7!3m6!1s0x548673115bf46069:0x965363716cfac882!8m2!3d49.2457667!4d-123.1854166!16s%2Fg%2F1vfn6bs7!19sChIJaWD0WxFzhlQRgsj6bHFjU5Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 13,
+      "title": {
+        "en": "Attentive veterinarians with gentle bedside manner"
+      },
+      "text": {
+        "en": "Most clients speak warmly of the veterinary doctors and support staff on Dunbar Street, praising their calm demeanor and unhurried consultations. Pet owners frequently mention that the practitioners take time to review medical histories thoroughly and treat senior animals with patience and kindness during examinations."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Transparent pricing without procedural upselling"
+      },
+      "text": {
+        "en": "Reviewers frequently highlight competitive, transparent fees for routine appointments and diagnostics, noting that veterinarians do not pressure clients into unnecessary lab tests. While an isolated visitor found visit costs concerning, most pet owners appreciate clear fee explanations and flexible options."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Effective recovery alongside diagnostic concern"
+      },
+      "text": {
+        "en": "Several pet owners report prompt clinical improvement for chronic conditions like skin allergies and sudden illnesses in older pets. In contrast, one visitor expressed frustration when an early skin lesion was dismissed during a wellness check, prompting them to seek an alternative diagnosis elsewhere."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can appointments be scheduled on short notice?"
+      },
+      "a": {
+        "en": "Yes, clients report that the clinic accommodates same-day and short-notice appointments when pets develop acute symptoms."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does Alta Vista Animal Hospital offer parking?"
+      },
+      "a": {
+        "en": "Yes, dedicated parking spaces are available for pet owners visiting the clinic on Dunbar Street."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Is end-of-life care available at the hospital?"
+      },
+      "a": {
+        "en": "Yes, clients express gratitude for compassionate, supportive assistance during euthanasia and palliative appointments."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What surgical and diagnostic equipment is available on site?"
+      },
+      "a": {
+        "en": "The facility features digital radiography, dental workstations, in-house laboratory testing, and an operative surgical suite."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "place": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "Edited 5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

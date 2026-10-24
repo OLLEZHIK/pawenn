@@ -1,0 +1,141 @@
+{
+  "slug": "arbutus-west-animal-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Arbutus+West+Animal+Clinic/data=!4m7!3m6!1s0x548673a85d6613cd:0x197cb4ac4018b632!8m2!3d49.258007!4d-123.1689896!16s%2Fg%2F1v2f0617!19sChIJzRNmXahzhlQRMrYYQKy0fBk?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Caring exotic pet handling alongside rough visit"
+      },
+      "text": {
+        "en": "Several pet owners praise the gentle bedside approach taken with exotic animals, including tortoises, guinea pigs, and pet rats, as well as patient handling of nervous dogs without resorting to muzzles. However, one dissatisfied client reported rough handling and lack of empathy during a consultation."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Patient practitioners with conflicting experiences"
+      },
+      "text": {
+        "en": "Multiple clients highlight the patience and clear explanations provided by veterinarians like Dr. Sydnie Jones, who takes extra time to make nervous pets feel comfortable. In contrast, one reviewer had a sharply negative experience, describing an encounter with an arrogant practitioner who lacked compassion."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Successful small pet care despite emergency loss"
+      },
+      "text": {
+        "en": "Clients report smooth recovery and excellent results following routine procedures such as pet rat neutering and tortoise beak trims. Conversely, one pet owner felt let down when an emergency urinary catheterization attempt was unsuccessful, ultimately leading to euthanasia and an unexpected final invoice."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Arbutus West Animal Clinic treat exotic pets?"
+      },
+      "a": {
+        "en": "Yes, the clinic frequently treats small mammals, pet rats, guinea pigs, and reptiles including tortoises."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dental assessments and teeth cleaning provided?"
+      },
+      "a": {
+        "en": "Yes, the clinic provides routine dental evaluations, digital dental radiographs, and professional cleanings."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "What diagnostic facilities are available on site?"
+      },
+      "a": {
+        "en": "The clinic is equipped with digital radiography, in-house laboratory analyzers, and an outpatient surgical suite."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How does the clinic handle nervous or anxious pets?"
+      },
+      "a": {
+        "en": "Reviewers note that practitioners take extra time to calm nervous animals gently before proceeding with examinations."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "results": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-"
+      }
+    }
+  ]
+}

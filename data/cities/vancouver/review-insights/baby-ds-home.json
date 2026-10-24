@@ -1,0 +1,174 @@
+{
+  "slug": "baby-ds-home",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Baby+D%27s+Home/data=!4m7!3m6!1s0x548673e1b98bb807:0xc67a70799c655b3c!8m2!3d49.2626394!4d-123.089598!16s%2Fg%2F11ghq90pyc!19sChIJB7iLueFzhlQRPFtlnHlwesY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 10,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Attentive caregivers with disputed feedback"
+      },
+      "text": {
+        "en": "Many dog owners praise the daycare attendants and groomers for their affectionate care, close supervision, and gentle treatment of nervous pets. In contrast, several one-star reviews posted around the same period prompted the business to address disputes publicly, while another client questioned the attentiveness of kennel staff."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Enriching playtime with supervision concern"
+      },
+      "text": {
+        "en": "Clients frequently remark that their dogs enjoy outdoor park walks, interactive playtime, and dedicated attention tailored to their size and personality. However, one owner reported finding pressure sores and urine stains after extended kenneling, expressing concern over supervision during prolonged stays."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Skilled grooming and stress-free trims"
+      },
+      "text": {
+        "en": "Dog owners report outstanding grooming results, praising groomer Kaori for leaving pets looking clean, neat, and beautifully styled. Reviewers particularly appreciate that difficult tasks like nail clipping on reactive dogs are completed quickly and calmly without inducing stress."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are dogs separated by size and temperament?"
+      },
+      "a": {
+        "en": "Yes, the facility maintains separate play areas to match dogs by size, play style, and energy levels."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do daycare dogs get outdoor walks during the day?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that staff take dogs for daily walks and outdoor exercise in nearby parks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is an introductory trial stay required before booking?"
+      },
+      "a": {
+        "en": "Yes, the daycare requires a trial stay assessment to ensure each dog is comfortable with the pack environment."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Are grooming services available for reactive dogs?"
+      },
+      "a": {
+        "en": "Clients note that experienced groomers successfully handle reactive dogs for nail trimming and bathing in a calm manner."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-",
+        "prices": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    }
+  ]
+}
