@@ -1,0 +1,30 @@
+{
+  "chunk": "04-vet",
+  "kind": "places",
+  "slugs": [
+    "wychwood-park-animal-hospital",
+    "mcgilvray-veterinary-hospital",
+    "queen-west-animal-hospital",
+    "spadina-animal-hospital",
+    "dundas-dovercourt-animal-hospital",
+    "spinks-veterinary-clinic",
+    "greenwood-park-animal-hospital",
+    "woodbine-animal-clinic",
+    "jane-animal-hospital",
+    "jameson-queen-animal-hospital"
+  ],
+  "hash": "574ccedff0916ae3883f37d034b70a1e689e9e2ec0bdc14357d0c4ddd4c7fb62",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T00:33:39.007Z",
+      "result": "FAIL",
+      "listed": 4
+    },
+    {
+      "at": "2026-10-24T00:35:11.280Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
