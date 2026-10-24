@@ -1,0 +1,146 @@
+{
+  "slug": "pattes-et-griffes-griffintown-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pattes+et+Griffes/data=!4m7!3m6!1s0x4cc91b9b37e80303:0x2893546431ecf5df!8m2!3d45.4942351!4d-73.5640997!16s%2Fg%2F11mq3712g7!19sChIJAwPoN5sbyUwR3_XsMWRUkyg?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "fr": "Aménagement et gestion des stocks",
+        "en": "Store layout and stock availability"
+      },
+      "text": {
+        "fr": "La boutique est décrite comme propre, agréable et bien achalandée pour les besoins quotidiens des chiens et chats du quartier Griffintown. Toutefois, plusieurs clients signalent des ruptures de stock occasionnelles sur certaines nourritures et gâteries.",
+        "en": "The boutique is described as pleasant, clean, and convenient for daily pet supplies in the Griffintown neighborhood. Nonetheless, several clients mention occasional stock shortages and waiting periods for popular food brands or favorite treats to return."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "fr": "Service à la clientèle en magasin",
+        "en": "Customer service quality in store"
+      },
+      "text": {
+        "fr": "Les employés réguliers et la gérance reçoivent des éloges chaleureux pour leur écoute attentive, leur amabilité et leurs bons conseils. En revanche, un avis critique fait état d'un rendez-vous de toilettage annulé à répétition avec une prestataire externe.",
+        "en": "Regular in-store staff and management receive enthusiastic praise for their friendly attitude, attentive listening, and helpful advice. On the other hand, critical feedback notes a frustrating experience with repeated cancellations for an external grooming service."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Respect des horaires et attente",
+        "en": "Punctuality and service wait times"
+      },
+      "text": {
+        "fr": "Les commentaires négatifs portent sur des retards à l'ouverture le matin et de longues attentes pour le réapprovisionnement de produits populaires. Des clients soulignent qu'une porte fermée à l'heure d'ouverture annoncée peut compliquer les visites rapides.",
+        "en": "Negative remarks highlight morning opening delays and prolonged waiting times for replenishment of out-of-stock items. A few customers also express frustration when encountering locked doors past the official opening hour, disrupting scheduled errands."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels types d'aliments pour animaux sont vendus sur place ?",
+        "en": "What pet food options are available at this location?"
+      },
+      "a": {
+        "fr": "La boutique propose des croquettes de qualité, de la nourriture crue et des régimes spécialisés pour chiens et chats.",
+        "en": "The shop stocks quality dry kibble, raw frozen diets, and specialized nutritional formulas for dogs and cats."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les animaux de compagnie sont-ils les bienvenus dans la boutique ?",
+        "en": "Are pets welcome to accompany owners inside?"
+      },
+      "a": {
+        "fr": "Oui, les chiens sont accueillis avec enthousiasme et reçoivent souvent des gâteries de la part des employés.",
+        "en": "Yes, dogs on leash are warmly welcomed inside and frequently receive friendly treats from the staff."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Le magasin propose-t-il des services d'entretien des griffes ?",
+        "en": "Does the store offer routine claw trimming services?"
+      },
+      "a": {
+        "fr": "Des séances de coupe de griffes ont été offertes ponctuellement, bien qu'il soit recommandé de vérifier les disponibilités.",
+        "en": "Claw trimming sessions have been offered periodically, though checking current availability in advance is advised."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "place": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "prices": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "9 months ago",
+      "months": 9,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "~",
+        "place": "~"
+      }
+    }
+  ]
+}

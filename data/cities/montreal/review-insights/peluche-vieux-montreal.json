@@ -1,0 +1,165 @@
+{
+  "slug": "peluche-vieux-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Peluche+Vieux-Montr%C3%A9al+%7C+Pet+Store+%7C+Grooming/data=!4m7!3m6!1s0x4cc91b76733335c7:0xf3eb417d1494b9d7!8m2!3d45.497682!4d-73.558004!16s%2Fg%2F11jpv_500s!19sChIJxzUzc3YbyUwR17mUFH1B6_M?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Accueil attentionné et personnel souriant",
+        "en": "Friendly reception and attentive staff"
+      },
+      "text": {
+        "fr": "Les clients apprécient l'amabilité de l'équipe et la courtoisie constante des employés lors des visites au salon du Vieux-Montréal. Le personnel se montre chaleureux avec les visiteurs et prend le temps de répondre aux questions sur les produits disponibles.",
+        "en": "Clients consistently appreciate the welcoming attitude and polite service provided by the staff at the Old Montreal boutique. The team greets visitors with warm smiles and readily takes time to answer inquiries about pet nutrition and grooming options."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Boutique élégante dans le Vieux-Montréal",
+        "en": "Charming boutique in Old Montreal"
+      },
+      "text": {
+        "fr": "L'établissement sur la rue William séduit les propriétaires d'animaux par son décor soigné, sa propreté et son ambiance paisible. L'espace bien agencé permet de découvrir une belle sélection de gâteries, d'accessoires raffinés et de nourriture de qualité.",
+        "en": "The William Street location charms pet owners with its tasteful decor, clean environment, and peaceful atmosphere. The thoughtfully organized space offers a refined assortment of nutritious treats, stylish pet accessories, and high-quality food brands."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Résultats et déceptions en toilettage",
+        "en": "Grooming outcomes and client concerns"
+      },
+      "text": {
+        "fr": "Bien que des clients louent l'allure impeccable de leur chien après la tonte, des avis critiques expriment une nette déception. Des propriétaires déplorent un rasage incomplet sur leur chat ou une égratignure mineure survenue pendant la séance de coupe.",
+        "en": "While some clients admire their dog's clean haircut following a salon session, critical feedback highlights notable disappointments. Pet owners report incomplete shaving on matted cats or a minor scratch on an ear, leading to frustration regarding the grooming outcome."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels animaux peuvent être toilettés à la succursale du Vieux-Montréal ?",
+        "en": "Which pets can be groomed at the Old Montreal location?"
+      },
+      "a": {
+        "fr": "Le salon accueille les chiens et les chats pour des bains, la tonte et des soins réguliers du pelage.",
+        "en": "The salon accepts both dogs and cats for bathing, coat clipping, and regular hygiene grooming."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Quelles sont les méthodes de paiement acceptées au salon ?",
+        "en": "What payment methods are accepted at the salon?"
+      },
+      "a": {
+        "fr": "L'établissement privilégie les paiements électroniques par carte de débit ou de crédit plutôt que l'argent comptant.",
+        "en": "The establishment emphasizes electronic payments via debit or credit cards rather than cash transactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La boutique vend-elle des articles spécialisés pour animaux ?",
+        "en": "Does the shop stock specialized pet retail products?"
+      },
+      "a": {
+        "fr": "Oui, la boutique propose une gamme soignée d'aliments naturels, de jouets modernes et d'accessoires de marche.",
+        "en": "Yes, the boutique offers a selected inventory of natural pet food, modern toys, and walking accessories."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "prices": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 4,
+      "topics": {}
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
