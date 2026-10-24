@@ -1,0 +1,29 @@
+{
+  "chunk": "03-vet",
+  "kind": "places",
+  "slugs": [
+    "dundas-west-animal-hospital",
+    "toronto-veterinary-clinic",
+    "parliament-animal-hospital",
+    "my-animal-veterinary-clinic",
+    "college-street-animal-hospital",
+    "kingston-road-animal-hospital",
+    "parkdale-animal-hospital",
+    "bickford-park-animal-hospital",
+    "harbourfront-animal-hospital"
+  ],
+  "hash": "b5427ba3fd6b96eba143738792a151a81c479eefd0ebc5555096e6ea6ff5ebae",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-23T23:50:59.974Z",
+      "result": "FAIL",
+      "listed": 9
+    },
+    {
+      "at": "2026-10-23T23:55:25.409Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
