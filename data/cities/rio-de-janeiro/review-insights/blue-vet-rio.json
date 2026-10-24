@@ -1,0 +1,161 @@
+{
+  "slug": "blue-vet-rio",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/BLUE+VET+RIO/data=!4m7!3m6!1s0x997f6e19716ecf:0x81c0b608aa862668!8m2!3d-22.8896651!4d-43.2348302!16s%2Fg%2F11sfpd_dp3!19sChIJz25xGW5_mQARaCaGqgi2wIE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 9,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "title": {
+        "pt": "Equipe atenciosa com ressalvas clínicas",
+        "en": "Attentive team with clinical reservations"
+      },
+      "text": {
+        "pt": "A maioria das avaliações destaca a simpatia, educação e preparo dos profissionais da Blue Vet Rio no atendimento rotineiro. Os tutores elogiam a dedicação da equipe em consultas gerais e vacinas. Por outro lado, há relato crítico que aponta falta de postura proativa dos veterinários quando confrontados com casos clínicos graves.",
+        "en": "Most reviews emphasize the friendliness, polite manner, and professional skill of the staff during routine visits. Clients praise the team's dedication regarding general consultations and vaccines. Conversely, a critical account notes an apparent lack of proactive initiative by veterinarians when handling severe emergencies."
+      },
+      "mentions": 5,
+      "sentiment": "mixed"
+    },
+    {
+      "topic": "place",
+      "title": {
+        "pt": "Ambiente higienizado e clínica agradável",
+        "en": "Hygienic environment and pleasant clinic"
+      },
+      "text": {
+        "pt": "Os tutores avaliam a estrutura da clínica como muito limpa, organizada e agradável para receber os animais de estimação. A boa organização do espaço físico garante conforto aos pets e agilidade no fluxo das consultas. Clientes afirmam que a manutenção cuidadosa das dependências transmite confiança e bem-estar nas visitas.",
+        "en": "Pet guardians describe the clinic facilities as remarkably clean, well-organized, and pleasant for welcoming pets. Sound interior layout ensures comfort for companion animals and enables efficient consultation flow. Clients affirm that meticulous facility upkeep conveys confidence and general peace of mind during visits."
+      },
+      "mentions": 3,
+      "sentiment": "positive"
+    },
+    {
+      "topic": "results",
+      "title": {
+        "pt": "Cuidados preventivos com opiniões divididas",
+        "en": "Preventive care with divided opinions"
+      },
+      "text": {
+        "pt": "O suporte oferecido em atendimentos cotidianos e imunizações é visto como eficiente pela maioria dos clientes regulares. No entanto, o retorno clínico em situações complexas gera divergência: enquanto tutores elogiam a competência técnica geral, outro usuário desaconselha a unidade para diagnósticos de alta gravidade.",
+        "en": "Support provided for routine procedures and vaccinations is considered efficient by most regular clients. Nevertheless, clinical outcomes in complex conditions draw divided feedback: while owners praise general technical expertise, another reviewer advises against relying on the practice for severe diagnostic cases."
+      },
+      "mentions": 3,
+      "sentiment": "mixed"
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A clínica é indicada para vacinas e consultas de rotina?",
+        "en": "Is the clinic recommended for routine vaccines and checks?"
+      },
+      "a": {
+        "pt": "Sim, os clientes avaliam positivamente a agilidade e o atendimento em consultas preventivas e vacinação.",
+        "en": "Yes, clients evaluate routine preventative care and vaccinations positively, citing fast service."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Como os clientes avaliam os preços da Blue Vet Rio?",
+        "en": "How do clients assess Blue Vet Rio's pricing?"
+      },
+      "a": {
+        "pt": "As avaliações apontam que os valores praticados pela clínica são compatíveis com a qualidade do serviço.",
+        "en": "Reviews indicate that the clinic's fees are well aligned with the standard and quality of service provided."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A clínica atende casos graves de emergência?",
+        "en": "Does the clinic handle severe emergency situations?"
+      },
+      "a": {
+        "pt": "Há relatos mistos: enquanto atendimentos gerais agradam, um cliente adverte contra o uso para casos muito graves.",
+        "en": "Reviews are mixed: routine cases proceed well, but one client advises caution regarding critical emergencies."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "6 months ago",
+      "months": 6,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "8 months ago",
+      "months": 8,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "10 months ago",
+      "months": 10,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "Edited 11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    }
+  ]
+}
