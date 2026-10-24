@@ -1,0 +1,135 @@
+{
+  "slug": "pet-fun-rio-de-janeiro",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+Fun/data=!4m7!3m6!1s0x9bdb80d1b0d823:0xc23a79d31706eba!8m2!3d-22.9642684!4d-43.3539803!16s%2Fg%2F11g1lg7z9s!19sChIJI9iw0YDbmwARum5wMZ2nIww?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "pt": "Atendimento presencial prestativo e divergências digitais",
+        "en": "Helpful in-store staff and digital gaps"
+      },
+      "text": {
+        "pt": "Os clientes destacam a atenção e o suporte atencioso da equipe na loja da Barra da Tijuca, mencionando colaboradoras que resolvem prontos problemas de compra. Ao mesmo tempo, surgem queixas severas sobre o suporte remoto e a lentidão no atendimento via mensagens.",
+        "en": "Customers highlight the attentive and helpful support from staff at the Barra da Tijuca store, noting employees who quickly resolve purchase issues. At the same time, there are notable complaints regarding remote customer assistance and slow responses on messaging apps."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Localização de produtos e compras acertadas",
+        "en": "Reliable product availability and smooth orders"
+      },
+      "text": {
+        "pt": "Os clientes aprovam a organização dos corredores e a facilidade para encontrar artigos essenciais e itens de farmácia veterinária. Compras realizadas pelo site também são elogiadas pela entrega correta dos pedidos e pelo suporte dedicado durante a retirada presencial.",
+        "en": "Shoppers appreciate the well-organized aisles and the ease of finding essential pet supplies and veterinary medications. Online orders also receive praise for accurate fulfillment and dependable assistance when resolving order adjustments or picking up goods in store."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Suporte multicanal com relatos divididos",
+        "en": "Multichannel support with contrasting client feedback"
+      },
+      "text": {
+        "pt": "A comunicação gera opiniões contrastantes entre os clientes da Barra da Tijuca. Enquanto os atendimentos presenciais e as soluções por telefone recebem avaliações positivas, o canal via WhatsApp é criticado por esperas que ultrapassam meia hora para respostas básicas.",
+        "en": "Communication generates contrasting reviews among customers in Barra da Tijuca. While in-person assistance and telephone guidance receive positive marks, the WhatsApp channel faces criticism for delays exceeding thirty minutes when answering basic customer questions."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A Pet Fun oferece atendimento e vendas online?",
+        "en": "Does Pet Fun provide online shopping and customer support?"
+      },
+      "a": {
+        "pt": "Sim, os clientes relatam compras pela internet com promoções em medicamentos e retirada na loja da Barra.",
+        "en": "Yes, customers report ordering online with promotions on medications and in-store pickup in Barra."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O canal de WhatsApp responde com rapidez?",
+        "en": "Does the WhatsApp channel reply promptly?"
+      },
+      "a": {
+        "pt": "Clientes apontam que o tempo de espera no WhatsApp pode demorar mais de trinta minutos para retorno.",
+        "en": "Customers report that response times on WhatsApp can take more than thirty minutes for answers."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "A loja física possui variedade de remédios veterinários?",
+        "en": "Does the physical store stock a variety of pet medications?"
+      },
+      "a": {
+        "pt": "Sim, tutores destacam a disponibilidade de remédios para animais e a boa organização geral dos produtos.",
+        "en": "Yes, pet guardians highlight the availability of veterinary medications and good aisle organization."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 2,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
