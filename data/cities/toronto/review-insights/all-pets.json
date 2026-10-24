@@ -1,0 +1,186 @@
+{
+  "slug": "all-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/All+Pets/data=!4m7!3m6!1s0x89d4cb73339ac84b:0xd607a085373984e!8m2!3d43.6648174!4d-79.3807465!16s%2Fg%2F1tcv797n!19sChIJS8iaM3PL1IkRTphzUwh6YA0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Helpful and knowledgeable shop staff"
+      },
+      "text": {
+        "en": "Shoppers consistently praise Nicole, Julie, and the team for their friendly, approachable guidance on Church Street. First-time pet owners highlight that the staff answer questions patiently and assist in selecting suitable food formulas. Several reviewers appreciate that employees gladly order items not currently on store shelves."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Expanded shop with wide selection"
+      },
+      "text": {
+        "en": "Customers appreciate the bright, ground-level retail space offering a varied assortment of pet food brands, daily essentials, and treats. Reviewers note that while the layout is larger than the previous basement location, the shop remains a welcoming neighborhood fixture with plenty of nutritious choices for both dogs and cats."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Responsive service with occasional discrepancy"
+      },
+      "text": {
+        "en": "Clients value the communicative customer support, noting that staff promptly phone back when requested special orders arrive. New owners appreciate receiving clear advice on pet nutrition. Conversely, one visitor reported frustration when the shop unexpectedly closed earlier than its posted operating hours on Church Street."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does All Pets offer local home delivery?"
+      },
+      "a": {
+        "en": "Yes, the shop provides same-day local delivery across Toronto for orders submitted through its online store."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Can specific pet foods be ordered if out of stock?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that staff readily place special orders for items not currently on shelves and call when they arrive."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are dogs welcome inside the retail shop?"
+      },
+      "a": {
+        "en": "Yes, customers regularly visit the store alongside their dogs while browsing supplies and treats."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What products are available at the Church Street location?"
+      },
+      "a": {
+        "en": "The store carries premium dog and cat food, treats, toys, health supplements, and daily grooming supplies."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "~",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}
