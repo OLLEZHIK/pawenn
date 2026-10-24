@@ -1,0 +1,102 @@
+{
+  "slug": "pet-shop-cave-tijuca",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Pet+%26+Shop+Cave+Tijuca/data=!4m7!3m6!1s0x997f82ea9022c5:0xc366431158c3531f!8m2!3d-22.9343855!4d-43.2432167!16s%2Fg%2F11hdpq4n0w!19sChIJxSKQ6oJ_mQARH1PDWBFDZsM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2024-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 3,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "pt": "Banho caprichado e cuidados clínicos confiáveis",
+        "en": "Quality grooming baths and clinical care"
+      },
+      "text": {
+        "pt": "Os clientes da Tijuca recomendam os serviços de banho e a qualidade dos tratamentos de higiene oferecidos pelo estabelecimento. Avaliações relatam que os filhotes saem limpos e bem cuidados, além de destacarem o cumprimento rigoroso dos protocolos de vacinação.",
+        "en": "Tijuca clients recommend the grooming baths and general pet hygiene care delivered at the facility. Reviews note that puppies leave clean and well pampered, while also emphasizing strict adherence to health protocols including complete vaccination courses."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 2,
+      "title": {
+        "pt": "Equipe amigável e veterinários atenciosos",
+        "en": "Friendly staff and attentive veterinarians"
+      },
+      "text": {
+        "pt": "O atendimento é classificado como excelente e muito acolhedor pelos tutores no bairro da Tijuca. Funcionários e profissionais de saúde animal, como a Dra. Camila, recebem elogios frequentes pela paciência demonstrada no acolhimento de cães resgatados e filhotes.",
+        "en": "Customer service is praised as excellent and warmly welcoming by pet owners in Tijuca. Both front desk staff and veterinary professionals, including Dr. Camila, earn regular compliments for their patient care when tending to newly adopted rescue puppies and young dogs."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O estabelecimento realiza vacinação e consultas veterinárias?",
+        "en": "Does the facility provide pet vaccinations and veterinary consultations?"
+      },
+      "a": {
+        "pt": "Sim, tutores relatam acompanhamento vacinal completo para filhotes e atendimento veterinário atencioso no local.",
+        "en": "Yes, pet owners report complete vaccination schedules for puppies and caring veterinary attention on site."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "O serviço de banho atende filhotes resgatados?",
+        "en": "Does the grooming bath service accommodate rescued puppies?"
+      },
+      "a": {
+        "pt": "Sim, clientes destacam o acolhimento carinhoso e o banho cuidadoso dedicado a filhotes recém-adotados.",
+        "en": "Yes, clients highlight affectionate handling and gentle baths dedicated to newly adopted young rescue dogs."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Como os clientes avaliam os preços cobrados?",
+        "en": "How do customers assess the pricing for veterinary services?"
+      },
+      "a": {
+        "pt": "As avaliações apontam valores considerados justos e acessíveis para consultas clínicas e aplicação de vacinas.",
+        "en": "Reviews describe pricing as fair and reasonable for clinic consultations and routine vaccination procedures."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "a year ago",
+      "months": 12,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
