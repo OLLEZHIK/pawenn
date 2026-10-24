@@ -1,0 +1,36 @@
+{
+  "chunk": "44-hotel",
+  "kind": "places",
+  "slugs": [
+    "dyplus-osaka-kita"
+  ],
+  "hash": "7d7c44aeb7125c048b2d23aff8edc7ce43353d6fb8ed3296f529e960c3ad5dd4",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T11:20:46.422Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-24T11:21:32.222Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T11:23:41.012Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T11:23:52.881Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T11:24:41.536Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
