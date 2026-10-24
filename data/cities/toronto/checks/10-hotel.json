@@ -1,0 +1,39 @@
+{
+  "chunk": "10-hotel",
+  "kind": "places",
+  "slugs": [
+    "come-play-stay-toronto",
+    "dogtopia-of-liberty-village",
+    "cals-pals",
+    "nooshy-bloor-west-village",
+    "pawsitive-vibes",
+    "fluffy-paws-pet-care",
+    "superdoggos-toronto",
+    "soulmutts-toronto",
+    "petopia"
+  ],
+  "hash": "1048b9690f7ea3fffe1660ae55340eb26d7c0f2dd2c302d1da84f9a0c051cfa6",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T00:36:21.028Z",
+      "result": "FAIL",
+      "listed": 38
+    },
+    {
+      "at": "2026-10-24T00:59:29.991Z",
+      "result": "FAIL",
+      "listed": 23
+    },
+    {
+      "at": "2026-10-24T01:12:04.227Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T01:16:03.271Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
