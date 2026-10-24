@@ -1,0 +1,31 @@
+{
+  "chunk": "40-vet",
+  "kind": "places",
+  "slugs": [
+    "osaka-animal-clinic"
+  ],
+  "hash": "6daff7a5a2a8490cfbb2bbb5f4f2ccebe0bbaeadc7c7e8e7416f327f5f2176bd",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T11:27:15.721Z",
+      "result": "FAIL",
+      "listed": 3
+    },
+    {
+      "at": "2026-10-24T11:28:23.627Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-24T11:30:52.909Z",
+      "result": "PASS",
+      "listed": 0
+    },
+    {
+      "at": "2026-10-24T11:31:16.672Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
