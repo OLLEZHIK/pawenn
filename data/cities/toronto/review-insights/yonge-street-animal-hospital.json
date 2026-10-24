@@ -1,0 +1,135 @@
+{
+  "slug": "yonge-street-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Yonge+Street+Animal+Hospital/data=!4m7!3m6!1s0x882b32df8fb04363:0x25a1051b6d35ba26!8m2!3d43.7143124!4d-79.4002801!16s%2Fg%2F1tg3bq__!19sChIJY0Owj98yK4gRJro1bRsFoSU?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive and compassionate veterinary team"
+      },
+      "text": {
+        "en": "Reviewers consistently commend Dr. Eisen, Dr. Belovitch, and the clinical support team for their warmth, clear medical explanations, and thorough examinations. Clients emphasize that the doctors take time to listen to concerns and assist with complex insurance paperwork."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Gentle handling for dogs and cats"
+      },
+      "text": {
+        "en": "Pet parents highlight the hospital's thoughtful approach to treating both puppies and adult pets with patience and genuine kindness. Feline owners especially value the designated cat-only day each week, which ensures a calmer, stress-free clinical visit."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable treatments and dental procedures"
+      },
+      "text": {
+        "en": "Clients report great outcomes for routine pet wellness, dental assessments, and critical senior care. Pet owners describe comprehensive diagnosis plans, successful surgical procedures, and prompt follow-up care that provide peace of mind throughout recovery."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Yonge Street Animal Hospital offer designated cat-only appointment times?"
+      },
+      "a": {
+        "en": "Yes, the clinic dedicates one day each week exclusively to feline patients to provide a quieter and less stressful visit."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the clinic assist owners with pet insurance claims?"
+      },
+      "a": {
+        "en": "Yes, clients report that the veterinary staff actively assist with insurance paperwork and appeals."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are payment installments available for complex veterinary treatments?"
+      },
+      "a": {
+        "en": "Clients mention that the hospital is accommodating and willing to arrange payment installments for costly medical procedures."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What veterinary services are provided at the clinic?"
+      },
+      "a": {
+        "en": "The hospital provides wellness examinations, dental care, senior pet support, vaccinations, and surgical procedures."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "Edited a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "animals": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "prices": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
