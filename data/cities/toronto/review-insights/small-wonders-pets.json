@@ -1,0 +1,132 @@
+{
+  "slug": "small-wonders-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Small+Wonders+Pets/data=!4m7!3m6!1s0x89d4cc9ff4df3913:0xeb57d63dcdb7c25c!8m2!3d43.676609!4d-79.357586!16s%2Fg%2F1tfd3czn!19sChIJEznf9J_M1IkRXMK3zT3WV-s?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2025-10-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Charming shop with resident cat"
+      },
+      "text": {
+        "en": "Shoppers appreciate the warm, neighborhood atmosphere of Small Wonders Pets in Toronto. Reviewers highlight the clean boutique layout, diverse selection of high-quality pet supplies, and affordable surprise treat bags. Visitors particularly enjoy the welcoming presence of the resident bodega cat greeting patrons during their visits."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "en": "Knowledgeable and friendly retail staff"
+      },
+      "text": {
+        "en": "Pet owners consistently commend the retail team for their helpful, approachable, and accommodating customer service. Reviewers note that staff members offer insightful dietary tips and patiently guide customers through specialized nutrition choices. Many customers mention returning regularly because the employees make shopping enjoyable and effortless."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Loving environment for feline companions"
+      },
+      "text": {
+        "en": "Customers frequently praise how much attention and affection is centered on cats throughout the store. Reviewers note that the store caters thoughtfully to feline dietary needs with single-portion tube treats and curated foods. Visitors also enjoy interacting with the sweet resident bodega cat, emphasizing the genuinely animal-friendly setting."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Small Wonders Pets have a resident cat?"
+      },
+      "a": {
+        "en": "Yes, visitors frequently mention being welcomed by an adorable and friendly resident bodega cat inside the shop."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet supplies are available?"
+      },
+      "a": {
+        "en": "The store carries high-quality pet foods, specialized cat treats, interactive toys, and novelty surprise treat bags."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff provide advice on pet nutrition?"
+      },
+      "a": {
+        "en": "Yes, reviewers highlight that the team is knowledgeable about pet food options and provides helpful dietary guidance."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are single-serving treats available for testing flavors?"
+      },
+      "a": {
+        "en": "Yes, customers note they can purchase individual tube treats to test new flavors before buying full-sized bags."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "7 months ago",
+      "months": 7,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "11 months ago",
+      "months": 11,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

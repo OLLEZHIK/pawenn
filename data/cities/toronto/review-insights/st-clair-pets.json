@@ -1,0 +1,140 @@
+{
+  "slug": "st-clair-pets",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/St.+Clair+Pets/data=!4m7!3m6!1s0x882b35cee6428e25:0xdb484c3514514c38!8m2!3d43.6774236!4d-79.4465624!16s%2Fg%2F11t1ffl_7c!19sChIJJY5C5s41K4gROExRFDVMSNs?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Dedicated and welcoming store associates"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the staff members at St. Clair Pets for their exceptional helpfulness, patience, and warmth. Reviewers highlight associates like Emma and Daniel who take extra time to research dietary options and answer detailed questions. Customers appreciate never feeling rushed and value the genuine care shown by the entire retail team."
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Organized shop with diverse inventory"
+      },
+      "text": {
+        "en": "Visitors highlight the clean, tidy, and well-organized retail layout that makes shopping for pet necessities a breeze. Reviewers appreciate the wide selection of premium pet foods, specialized formulas, and everyday pet accessories. Customers also note that the store readily sources and stocks requested specialty foods that are difficult to find elsewhere."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Affectionate attention for visiting pets"
+      },
+      "text": {
+        "en": "Shoppers note that pets are greeted with sincere warmth, excitement, and love whenever they enter the store. Reviewers mention that passing dogs eagerly pull toward the shop doors to see the staff members they adore. Customers appreciate having a local pet shop where associates show heartfelt interest in the wellbeing and happiness of each animal."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can St. Clair Pets order specialized pet food brands?"
+      },
+      "a": {
+        "en": "Yes, reviewers note that the staff regularly order and stock specific restricted-diet formulas upon customer request."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are pets permitted inside the store?"
+      },
+      "a": {
+        "en": "Yes, dogs are welcomed warmly inside the shop, and reviewers note their pets love greeting the store associates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do staff assist with dietary recommendations for allergies?"
+      },
+      "a": {
+        "en": "Yes, customers report that associates take time to research hypoallergenic ingredients and suggest suitable food alternatives."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is St. Clair Pets situated?"
+      },
+      "a": {
+        "en": "The retail store is located on St. Clair Avenue West in Toronto, providing neighborhood access to pet essentials."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+"
+      }
+    }
+  ]
+}

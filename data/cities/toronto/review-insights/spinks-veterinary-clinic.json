@@ -1,0 +1,134 @@
+{
+  "slug": "spinks-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Spinks+Veterinary+Clinic/data=!4m7!3m6!1s0x882b32dd51bf78b1:0xa38c4643bd73e750!8m2!3d43.7265306!4d-79.4022497!16s%2Fg%2F11c74kmm4k!19sChIJsXi_Ud0yK4gRUOdzvUNGjKM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Compassionate and thorough veterinary team"
+      },
+      "text": {
+        "en": "Pet owners consistently praise the veterinary doctors and support staff at Spinks Veterinary Clinic for their kindness, dedication, and professionalism. Reviewers appreciate that the team takes ample time to explain diagnoses and treatment options without rushing. Long-time clients emphasize the team's warmth and steady empathy during challenging moments."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Attentive care for lifelong companions"
+      },
+      "text": {
+        "en": "Clients highlight that the veterinary clinic treats both puppies and senior pets with genuine tenderness and respect. Reviewers note that veterinarians tailor medical treatment thoughtfully to each animal's age, comfort, and temperament. Pet owners frequently mention trusting the clinic completely to prioritize the best interests of their beloved animals."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Reliable treatments and surgical recovery"
+      },
+      "text": {
+        "en": "Reviewers report positive medical outcomes across surgical procedures, acute illness management, and chronic condition care. Pet parents highlight successful laparoscopic surgeries, rapid recovery from puppyhood ailments, and compassionate management of senior feline health issues. Families express deep gratitude for medical treatments that extended quality of life."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Spinks Veterinary Clinic perform laparoscopic surgery?"
+      },
+      "a": {
+        "en": "Yes, clients report successful surgical procedures at the clinic, including advanced laparoscopic spays."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Do veterinarians follow up after appointments?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that the veterinary team contacts owners proactively with diagnostic test results and recovery updates."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can the clinic manage complex senior pet conditions?"
+      },
+      "a": {
+        "en": "Yes, reviewers emphasize excellent care for aging cats and dogs, including compassionate palliative treatment and pain management."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "How do clients book appointments at the clinic?"
+      },
+      "a": {
+        "en": "Clients can contact the clinic by telephone or through their website to schedule routine consultations and medical visits."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "waiting": "+"
+      }
+    }
+  ]
+}
