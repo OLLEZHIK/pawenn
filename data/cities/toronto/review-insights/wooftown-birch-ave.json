@@ -1,0 +1,135 @@
+{
+  "slug": "wooftown-birch-ave",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Wooftown/data=!4m7!3m6!1s0x882b3359d76ac3e3:0xafd3be40a0ec250d!8m2!3d43.6816725!4d-79.392053!16s%2Fg%2F12hrghtfb!19sChIJ48Nq11kzK4gRDSXsoEC-068?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "en": "Dedicated customer service and helpful groomers"
+      },
+      "text": {
+        "en": "Reviewers praise the shop owners, retail team, and grooming staff for their proactive dedication and outstanding accountability. Pet parents frequently note that staff resolve customer questions promptly and always treat visiting pets with genuine kindness."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling for anxious dogs"
+      },
+      "text": {
+        "en": "Dog owners report that the salon handlers are exceptionally gentle with nervous pets, especially during nail trimming and grooming sessions. Reviewers appreciate that dogs become visibly more relaxed with each visit thanks to calm, thoughtful handling."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Quality pet grooming and curated products"
+      },
+      "text": {
+        "en": "Clients express satisfaction with both the professional dog grooming results and the wide selection of wholesome pet food and treats. Pet parents highlight that dogs return looking great after styling and love the tested products stocked in the store."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Does Wooftown offer pet food home delivery?"
+      },
+      "a": {
+        "en": "Yes, Wooftown offers local pet food deliveries and online ordering with shipping options."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Does the store offer grooming services for dogs?"
+      },
+      "a": {
+        "en": "Yes, Wooftown provides professional grooming services, including full grooms, baths, and nail trims."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Can groomers accommodate dogs that are nervous during nail trims?"
+      },
+      "a": {
+        "en": "Reviewers note that the grooming staff are very patient and skilled at putting anxious dogs at ease."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "What types of pet products are available at the shop?"
+      },
+      "a": {
+        "en": "The boutique stocks premium pet foods, wholesome treats, quality accessories, toys, and grooming essentials."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
