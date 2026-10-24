@@ -1,0 +1,153 @@
+{
+  "slug": "boutique-pawse-montreal",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Boutique+Pawse+Inc./data=!4m7!3m6!1s0x4cc91a8769a0a9ef:0xc038e35cd0a8003d!8m2!3d45.4824098!4d-73.5631574!16s%2Fg%2F1pzr_7ngz!19sChIJ76mgaYcayUwRPQCo0FzjOMA?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "place",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "fr": "Sélection soignée de produits locaux",
+        "en": "Curated selection of local pet supplies"
+      },
+      "text": {
+        "fr": "Les clients mettent en valeur l'excellente diversité des produits pour chiens et chats proposés dans cette boutique de Griffintown. Les rayons regorgent d'aliments de qualité supérieure, de gâteries naturelles au saumon et d'accessoires esthétiques conçus au Canada.",
+        "en": "Customers highlight the excellent variety of dog and cat products offered at this Griffintown boutique on Notre-Dame Street West. The shelves feature high-quality nutritious pet foods, natural freeze-dried salmon treats, and attractive Canadian-made accessories."
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Conseils d'experts et accueil amical",
+        "en": "Expert advice and welcoming service"
+      },
+      "text": {
+        "fr": "L'équipe en magasin est vivement félicitée pour sa connaissance approfondie des besoins nutritionnels des animaux de compagnie. Les employés prennent le temps d'orienter chaque maître avec sincérité, créant une ambiance chaleureuse et particulièrement appréciée du quartier.",
+        "en": "The in-store team receives high praise for their comprehensive knowledge of pet care and canine nutrition. Staff members take time to provide honest, tailored advice to every customer, creating a warm and personalized neighborhood atmosphere that pet parents love."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 4,
+      "title": {
+        "fr": "Ambiance adaptée aux chiens et chats",
+        "en": "Pet-friendly atmosphere for dogs and cats"
+      },
+      "text": {
+        "fr": "Les maîtres constatent avec plaisir que leurs compagnons à quatre pattes se sentent parfaitement à l'aise dès qu'ils passent la porte. Les animaux sont accueillis avec enthousiasme et profitent de produits adaptés à leur taille, leur énergie et leur bien-être quotidien.",
+        "en": "Guardians note with delight that their four-legged companions feel completely comfortable the moment they walk through the door. Pets are greeted enthusiastically and enjoy healthy treats and durable accessories perfectly fitted to their size and daily habits."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Trouve-t-on des produits canadiens et naturels en boutique ?",
+        "en": "Does the boutique carry Canadian-made and natural pet products?"
+      },
+      "a": {
+        "fr": "Oui, le magasin met l'accent sur des fabricants canadiens, des gâteries lyophilisées saines et des accessoires durables.",
+        "en": "Yes, the shop emphasizes Canadian brands, healthy freeze-dried treats, and durable, stylish accessories."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "Les employés conseillent-ils les propriétaires sur la nutrition animale ?",
+        "en": "Does the team provide personalized advice on pet nutrition?"
+      },
+      "a": {
+        "fr": "Oui, l'équipe est reconnue pour ses recommandations avisées sur l'alimentation et les soins adaptés aux besoins spécifiques de chaque animal.",
+        "en": "Yes, the knowledgeable staff is praised for providing thoughtful recommendations on pet nutrition and wellness."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "Les chiens sont-ils les bienvenus à l'intérieur du magasin ?",
+        "en": "Are pet dogs welcome inside the boutique?"
+      },
+      "a": {
+        "fr": "Tout à fait, les chiens sont accueillis chaleureusement avec des gâteries et peuvent essayer des harnais sur place.",
+        "en": "Absolutely, dogs are warmly welcomed inside to pick out treats and try on harnesses and leashes."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "place": "+",
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}

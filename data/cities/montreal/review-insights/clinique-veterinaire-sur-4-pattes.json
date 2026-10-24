@@ -1,0 +1,138 @@
+{
+  "slug": "clinique-veterinaire-sur-4-pattes",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+Sur+4+Pattes/data=!4m7!3m6!1s0x4cc91ea1f0f2c025:0x44f2a243b1896899!8m2!3d45.573204!4d-73.570231!16s%2Fg%2F1tm126sj!19sChIJJcDy8KEeyUwRmWiJsUOi8kQ?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 5,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Changements à la réception et accueil critiqué",
+        "en": "Reception changes and criticized customer service"
+      },
+      "text": {
+        "fr": "Plusieurs avis négatifs récents déplorent une dégradation marquée du service client suite à un changement de personnel à la réception. Des propriétaires de longue date expriment leur déception face à des échanges décrits comme froids, rigides et peu coopératifs lors de démarches administratives courantes.",
+        "en": "Recent critical reviews highlight a marked decline in front-desk customer service following personnel changes at reception. Long-term clients voice deep disappointment over interactions described as cold, unhelpful, and uncooperative when dealing with everyday administrative requests."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "fr": "Lourdeurs administratives et erreurs de courriel",
+        "en": "Administrative friction and email confusion"
+      },
+      "text": {
+        "fr": "Des propriétaires signalent des difficultés de communication notables, mentionnant des courriels imprécis ou confus et des refus de transmettre des ordonnances par fax pour des traitements urgents. Même si certains échanges restent cordiaux, ces accrocs génèrent d'importantes contrariétés chez les usagers.",
+        "en": "Pet guardians report significant communication hurdles, including confusing email correspondence and refusals to fax medication prescriptions directly to specialized pharmacies. While some clients still report polite service, administrative friction has caused major frustration for pet families."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "fr": "Horaires restreints et attente en clinique",
+        "en": "Restricted opening hours and waiting room delays"
+      },
+      "text": {
+        "fr": "Plusieurs commentaires soulignent des plages d'ouverture contraignantes qui compliquent la prise de rendez-vous en dehors des heures de travail. Des clients signalent également une attente prolongée en salle ainsi que des conditions d'accueil inconfortables lors des périodes de forte chaleur estivale.",
+        "en": "Several reviewers point to inconvenient opening hours that complicate scheduling outside standard working days. Pet owners also note extended waits in the waiting area, along with uncomfortable indoor temperatures during warm summer days, suggesting a need for better climate comfort and scheduling."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "Quels sont les horaires d'ouverture de la clinique ?",
+        "en": "What are the regular opening hours of the clinic?"
+      },
+      "a": {
+        "fr": "La clinique est ouverte en semaine avec des fermetures plus tôt l'après-midi certains jours, et fermée la fin de semaine.",
+        "en": "The clinic operates on weekdays with earlier afternoon closures on certain days, and remains closed on weekends."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Comment les propriétaires perçoivent-ils le service d'accueil récent ?",
+        "en": "How do pet owners view recent front-desk service?"
+      },
+      "a": {
+        "fr": "Plusieurs avis récents signalent des tensions à la réception et recommandent de bien clarifier les demandes administratives.",
+        "en": "Several recent reviews report front-desk friction and advise clearly verifying administrative details beforehand."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle des services de chirurgie et de dentisterie ?",
+        "en": "Does the clinic offer surgical and dental procedures?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement réalise des chirurgies des tissus mous, des détartrages dentaires et des bilans de santé préventifs.",
+        "en": "Yes, the facility provides soft-tissue surgery, dental cleanings, and preventive wellness examinations."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "communication": "-",
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+",
+        "communication": "+",
+        "place": "~"
+      }
+    }
+  ]
+}

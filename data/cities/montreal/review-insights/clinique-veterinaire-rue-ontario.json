@@ -1,0 +1,143 @@
+{
+  "slug": "clinique-veterinaire-rue-ontario",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Clinique+V%C3%A9t%C3%A9rinaire+rue+Ontario/data=!4m7!3m6!1s0x4cc91bb6c512e353:0x662514cc5929976f!8m2!3d45.521325!4d-73.5623838!16s%2Fg%2F11bbrh89hl!19sChIJU-MSxbYbyUwRb5cpWcwUJWY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 5,
+      "title": {
+        "fr": "Vétérinaires dévoués et chaleureux",
+        "en": "Dedicated and compassionate veterinary team"
+      },
+      "text": {
+        "fr": "Les retours récents expriment une grande admiration envers l'équipe de la clinique, en particulier la Dre Cléroux. Les propriétaires soulignent son dévouement exceptionnel, son sens de l'écoute et sa capacité à rassurer les familles lors de situations médicales critiques ou complexes.",
+        "en": "Recent reviews express great appreciation for the veterinary team, with particular praise for Dr. Cléroux. Pet owners highlight her exceptional dedication, thoughtful listening, and reassuring presence when guiding families through complex or challenging animal health situations."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Traitements réussis lors de cas complexes",
+        "en": "Successful management of complex medical cases"
+      },
+      "text": {
+        "fr": "Les clients soulignent des réussites médicales notables, notamment dans la gestion d'insuffisances cardiaques chroniques et lors de chirurgies d'urgence suite à une occlusion intestinale. La rigueur du diagnostic et la rapidité des interventions ont permis de sauver la vie d'animaux très affaiblis.",
+        "en": "Clients emphasize notable treatment successes, particularly in managing chronic congestive heart failure and performing urgent surgery for intestinal blockages. Precise diagnostic evaluation and timely interventions have repeatedly helped restore severely ill companion animals to health."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "fr": "Soins attentifs pour chiens et chats",
+        "en": "Attentive care for canine and feline patients"
+      },
+      "text": {
+        "fr": "Les avis soulignent l'attention continue et la délicatesse dont bénéficient les chiens et les chats lors des consultations. Qu'il s'agisse de chiots, de chiens de grande taille ou de vieux compagnons, les soignants adaptent leur prise en charge pour veiller au bien-être de chaque animal.",
+        "en": "Reviews highlight the continuous care and genuine gentleness shown to dogs and cats during every visit. Whether treating large breeds, energetic puppies, or aging senior companions, the veterinary team tailors its clinical approach to safeguard each animal's emotional and physical comfort."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "fr": "La clinique est-elle accessible en transports en commun ?",
+        "en": "Is the clinic conveniently accessible by public transit?"
+      },
+      "a": {
+        "fr": "Oui, la clinique est située sur la rue Ontario Est et les clients notent un accès facile via les transports publics montréalais.",
+        "en": "Yes, the clinic is located on Ontario Street East, with clients noting straightforward access via Montreal public transit."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "fr": "La clinique propose-t-elle des visites à domicile ?",
+        "en": "Does the clinic offer house-call veterinary services?"
+      },
+      "a": {
+        "fr": "Oui, l'établissement propose des consultations vétérinaires à domicile dans le quartier en plus des soins en clinique.",
+        "en": "Yes, the facility offers home visits within the local neighbourhood alongside comprehensive in-clinic care."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "fr": "Quels sont les horaires d'ouverture de l'établissement ?",
+        "en": "What are the regular opening hours of the facility?"
+      },
+      "a": {
+        "fr": "La clinique est ouverte 7 jours sur 7 avec des horaires prolongés en soirée jusqu'à 21h en semaine.",
+        "en": "The clinic operates 7 days a week with extended evening hours until 9:00 PM on weekdays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "Edited 2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
