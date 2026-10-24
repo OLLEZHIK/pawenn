@@ -10,8 +10,8 @@
     "beach-avenue-animal-hospital",
     "kitsilano-animal-clinic"
   ],
-  "hash": "5684039f1e2d0cb3879e65010c82d27d7bed6d625800213677bc3dac50c39a87",
-  "result": "PASS",
+  "hash": "85f75ff19d04df749176293c43a427be4ebcb50a3702af4b71e37efb7d60b2e5",
+  "result": "FAIL",
   "history": [
     {
       "at": "2026-10-23T02:16:28.419Z",
@@ -22,6 +22,11 @@
       "at": "2026-10-23T02:19:34.263Z",
       "result": "PASS",
       "listed": 0
+    },
+    {
+      "at": "2026-10-24T12:48:07.496Z",
+      "result": "FAIL",
+      "listed": 2
     }
   ]
 }
