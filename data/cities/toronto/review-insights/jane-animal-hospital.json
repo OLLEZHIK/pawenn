@@ -1,0 +1,154 @@
+{
+  "slug": "jane-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Jane+Animal+Hospital/data=!4m7!3m6!1s0x882b368dd5d055f5:0x4e466d2d3d9b44b7!8m2!3d43.6568677!4d-79.4873048!16s%2Fg%2F1tm8l6hj!19sChIJ9VXQ1Y02K4gRt0SbPS1tRk4?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "en": "Dedicated vets with honest advice"
+      },
+      "text": {
+        "en": "Clients appreciate the caring and professional veterinary team, noting that doctors diagnose health conditions accurately and provide honest recommendations without pushing unnecessary treatments. Most pet owners feel well supported, though one client expressed frustration when denied emergency care."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Same-day help alongside scheduling constraints"
+      },
+      "text": {
+        "en": "Several reviewers praise the hospital for accommodating urgent walk-in cases and fitting sick dogs into the same-day schedule. However, clients note that booking surgical procedures requires advance flexibility due to monthly scheduling caps, and emergency intake without prior notice can be refused."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "en": "Helpful guidance with occasional gaps"
+      },
+      "text": {
+        "en": "Pet parents value the hospital's convenient system of assessing pet photos and clinical questions by email, which saves unnecessary in-person trips. In contrast, a dissatisfied reviewer reported a distressing experience when communication broke down during an attempted emergency consultation."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can clients send photos for medical advice by email?"
+      },
+      "a": {
+        "en": "Yes, reviewers appreciate that medical staff review photos via email to determine whether an in-person clinic visit is necessary."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is Jane Animal Hospital located?"
+      },
+      "a": {
+        "en": "The hospital is located on Jane Street in Bloor West Village, serving companion animals across western Toronto."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the hospital offer evening appointments?"
+      },
+      "a": {
+        "en": "Yes, the practice schedules extended evening hours until 21:00 on multiple weekdays for working pet parents."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How far in advance are surgical procedures booked?"
+      },
+      "a": {
+        "en": "Clients note that surgery schedules are generally planned one month in advance, requiring some flexibility when booking."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a week ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "waiting": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "waiting": "-",
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "prices": "+",
+        "waiting": "~"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "prices": "~"
+      }
+    }
+  ]
+}
