@@ -1,0 +1,211 @@
+{
+  "slug": "my-animal-veterinary-clinic",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/My+Animal+Veterinary+Clinic/data=!4m7!3m6!1s0x882b33311b0d02cf:0xc2325efc962859fd!8m2!3d43.7065307!4d-79.3891739!16s%2Fg%2F11tcn3txmn!19sChIJzwINGzEzK4gR_VkolvxeMsI?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 14,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 12,
+      "title": {
+        "en": "Attentive clinical and front-desk team"
+      },
+      "text": {
+        "en": "Pet parents regularly describe the veterinarians and support personnel as compassionate, friendly, and knowledgeable. Clients note that clinicians take their time during initial examinations to explain medical procedures clearly and answer questions. While two visitors reported feeling dismissed after appointments, most owners highlight warm assistance from receptionists and veterinarians."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 7,
+      "title": {
+        "en": "Detailed consultations with occasional gaps"
+      },
+      "text": {
+        "en": "Many reviewers praise the veterinarians for providing thorough treatment explanations, post-visit follow-up phone calls, and clear guidance on care options. However, communication experiences are mixed: some clients experienced poor aftercare instructions following pet vaccinations or felt their concerns were not addressed during stressful lobby incidents."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Gentle handling for companion pets"
+      },
+      "text": {
+        "en": "Reviewers frequently emphasize how gently the clinic staff treat nervous and scared animals, helping cats and dogs settle comfortably inside examination rooms. One negative review detailed an abrasive physical separation during an altercation with another dog, but overall feedback commends the gentle handling and patient bedside manner."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can the clinic accommodate last-minute or urgent appointments?"
+      },
+      "a": {
+        "en": "Yes, clients note the clinic has accommodated emergency walk-in evaluations, and the facility treats urgent outpatient cases during regular clinic hours."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "What diagnostic equipment is available on site?"
+      },
+      "a": {
+        "en": "The clinic is equipped with digital radiography and ultrasound imaging alongside an in-house laboratory and pharmacy."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do the veterinarians follow up on patients after treatment?"
+      },
+      "a": {
+        "en": "Yes, several pet owners note that staff members called them shortly after appointments to check on their pet's recovery."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Does the clinic treat both dogs and cats?"
+      },
+      "a": {
+        "en": "Yes, the practice offers comprehensive medical care, wellness exams, and surgeries for both canine and feline companions."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "5 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "place": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {}
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "place": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "results": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}

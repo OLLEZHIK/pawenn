@@ -1,0 +1,139 @@
+{
+  "slug": "park9-downtown-toronto",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Park9+Downtown+Toronto+-+Dog+Daycare+and+Grooming/data=!4m7!3m6!1s0x89d4cb3cf6ed297b:0x364f299f1e0933a3!8m2!3d43.6517762!4d-79.3685694!16s%2Fg%2F1tdyxbn9!19sChIJeynt9jzL1IkRozMJHp8pTzY?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 6,
+      "title": {
+        "en": "Attentive daycare crew but mixed grooming feedback"
+      },
+      "text": {
+        "en": "Client feedback regarding staff varies considerably depending on the service used. Pet owners praise daycare attendants for their friendly greetings, attentiveness, and regular report cards. However, several reviewers express frustration with grooming personnel, noting recurring communication breakdowns, unprofessional attitudes, and unrequested treatments."
+      }
+    },
+    {
+      "topic": "results",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Inconsistent grooming and haircut outcomes"
+      },
+      "text": {
+        "en": "Reviewers report sharply contrasting experiences with canine styling. While some pet owners are thrilled with puppy cuts and precise nail trims, others complain about significant issues, including dogs being nicked during trims, unfinished drying sessions, or dogs being shaved down without explicit parental consent."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Engaging play environment for daycare dogs"
+      },
+      "text": {
+        "en": "Customers consistently appreciate the social daycare atmosphere, observing that dogs genuinely look forward to visits and enjoy interacting with other canine friends. Attendants handle stubborn dogs patiently during routine hygiene appointments, ensuring pets remain secure and energized throughout their stay."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What primary services does Park9 Downtown Toronto provide?"
+      },
+      "a": {
+        "en": "The facility operates full-day dog daycare, overnight boarding accommodations, and a professional pet grooming salon."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Do owners receive updates about their dog's day?"
+      },
+      "a": {
+        "en": "Yes, clients note that daycare attendants provide detailed report cards describing their pet's activities and social interactions."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Can dogs get walk-in nail trims?"
+      },
+      "a": {
+        "en": "Clients report booking standalone nail trimming services where groomers handled reluctant dogs with patience."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are reservations required for daycare and grooming?"
+      },
+      "a": {
+        "en": "Yes, clients must schedule daycare sessions and grooming appointments in advance to secure facility placement."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "results": "-"
+      }
+    }
+  ]
+}
