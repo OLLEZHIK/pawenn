@@ -1,0 +1,28 @@
+{
+  "chunk": "42-shop",
+  "kind": "places",
+  "slugs": [
+    "petopia-pet-shop",
+    "pet-shop-bicho-amigo",
+    "atacadao-animal-guadalupe-rio-de-janeiro"
+  ],
+  "hash": "585c848df9accd367a08db0aeb687c18ea5a3af119f1123c4af30b83fa75fada",
+  "result": "PASS",
+  "history": [
+    {
+      "at": "2026-10-24T11:29:41.661Z",
+      "result": "FAIL",
+      "listed": 7
+    },
+    {
+      "at": "2026-10-24T11:35:23.383Z",
+      "result": "FAIL",
+      "listed": 2
+    },
+    {
+      "at": "2026-10-24T11:36:26.354Z",
+      "result": "PASS",
+      "listed": 0
+    }
+  ]
+}
