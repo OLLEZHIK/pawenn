@@ -1,0 +1,203 @@
+{
+  "slug": "queue-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/%E3%82%AF%E3%82%A6%E5%8B%95%E7%89%A9%E7%97%85%E9%99%A2+Queue+Animal+Hospital/data=!4m7!3m6!1s0x6000e06849862e77:0x57ec3c7d47d19b76!8m2!3d34.6988099!4d135.5744482!16s%2Fg%2F1tqnlhsf!19sChIJdy6GSWjgAGARdpvRR3087Fc?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 12,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 10,
+      "title": {
+        "en": "Dedicated Care for Exotic Animals",
+        "ja": "エキゾチックアニマルへの専門的診療"
+      },
+      "text": {
+        "en": "Pet parents seek out this clinic for specialized treatment of small mammals and exotic pets, including hamsters, rabbits, guinea pigs, and sugar gliders. Reviewers express deep gratitude for rapid diagnostics and tailored therapies that successfully restored fur growth, aligned teeth, and managed acute illnesses. While one critical review complained of rough handling during wound care, the vast majority praise the staff's gentle touch.",
+        "ja": "当院はハムスター、ウサギ、モルモット、フクロモモンガなどの小動物やエキゾチックアニマルを診察できる貴重な動物病院として、多くの飼い主から厚い支持を集めています。他院で半年かかったモルモットの皮膚病が速やかに完治した事例や、ウサギの噛み合わせ調整、高齢のフクロモモンガへの迅速な酸素吸入など、専門知識を活かした的確な診療に感謝する声が多数寄せられています。一部で処置時の保定や包帯の巻き方に不安を感じたという指摘もありますが、大多数の利用者が小さな動物たちに真摯に向き合う熱心な診療姿勢を高く信頼しています。"
+      }
+    },
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 9,
+      "title": {
+        "en": "Compassionate Teams Facing Continuity Challenges",
+        "ja": "心温まるケアと担当医変更への指摘"
+      },
+      "text": {
+        "en": "Veterinarians and receptionists receive high praise for empathy, thoughtfulness, and gentle communication. Multiple reviewers recount touching gestures, such as receiving thoughtful sympathy notes after a beloved pet passed away. However, criticism emerged regarding treatment continuity, where seeing different doctors during successive visits caused inconsistent guidance, and one owner reported rough bedside handling during wound treatment.",
+        "ja": "獣医師や受付スタッフの対応は、優しく思いやりに溢れているとして多くの飼い主から高く評価されています。看取りの後に温かい手紙が届いたエピソードなど、ペットだけでなく家族の気持ちにも深く寄り添う姿勢が大きな安心感をもたらしています。その一方で、通院のたびに担当医が変わり治療方針の食い違いに戸惑ったという指摘や、処置時の説明や対応に不満を感じたという声も一部で見受けられます。多くのスタッフが温かい対応を実践している反面、複数回通院する際の担当医間の情報共有や一貫した丁寧な対応が期待されています。一貫性のあるきめ細やかな診療体制の継続が望まれています。"
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "en": "Clear Guidance Alongside Referral Friction",
+        "ja": "丁寧な病状説明と治療方針の対話"
+      },
+      "text": {
+        "en": "Consultations are widely commended for comprehensive explanations, where veterinarians take ample time to detail diagnostic findings and treatment plans calmly. Helpful telephone assistance further comforts anxious owners before arrival. In contrast, one pet parent experienced frustrating communication gaps during intensive avian therapy, showing that difficult treatment journeys require clearer dialogue about alternatives.",
+        "ja": "診察室での病状説明や治療計画の提示については、多くの飼い主が分かりやすく丁寧であると高く評価しています。検査結果をもとに今後の見通しを落ち着いて説明してくれたことや、事前の電話問い合わせに対しても親切に案内してくれた姿勢が高く評価されています。その一方で、鳥類の重症治療において代替となる選択肢の説明が不足していたと感じ、医師との対話に強い悔しさを抱いた利用者の声も一部で存在します。難しい病状においても飼い主が心から納得できるよう、分かりやすく誠実な対話を重ねることが何より大切にされています。飼い主が安心できる誠実な説明姿勢が支持されています。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Can exotic animals and small mammals be examined here?",
+        "ja": "小動物やエキゾチックアニマルの診察は可能ですか？"
+      },
+      "a": {
+        "en": "Yes, reviews describe care for hamsters, rabbits, guinea pigs, sugar gliders, and other small pets.",
+        "ja": "はい、ハムスター、ウサギ、モルモット、フクロモモンガなどの診療実績が多く報告されています。"
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Are appointments required for consultations?",
+        "ja": "受診にあたって予約は必要ですか？"
+      },
+      "a": {
+        "en": "Visitors note that booking appointments helps minimize waiting times during busy clinic hours.",
+        "ja": "予約を利用して来院することで、混雑時でも待ち時間を短縮できると報告されています。"
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the animal hospital located?",
+        "ja": "動物病院の所在地はどこですか？"
+      },
+      "a": {
+        "en": "It is located at 3-2-28 Yokozutsumi in Tsurumi Ward, Osaka.",
+        "ja": "大阪市鶴見区横堤3-2-28に位置しています。"
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "prices": "-",
+        "communication": "-",
+        "results": "-"
+      }
+    },
+    {
+      "ago": "3 weeks ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 4,
+      "topics": {
+        "staff": "+",
+        "waiting": "~",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "results": "+",
+        "waiting": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "animals": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}

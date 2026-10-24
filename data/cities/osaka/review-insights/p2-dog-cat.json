@@ -1,0 +1,158 @@
+{
+  "slug": "p2-dog-cat",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/P2+DOG%26CAT/data=!4m7!3m6!1s0x6000e6922f7026a1:0x338d3addeca1ba81!8m2!3d34.7048991!4d135.4987221!16s%2Fg%2F11cklqbb8j!19sChIJoSZwL5LmAGARgbqh7N06jTM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "negative",
+      "mentions": 6,
+      "title": {
+        "en": "Mixed Courtesy and Customer Service Friction",
+        "ja": "接客対応のばらつきと不満"
+      },
+      "text": {
+        "en": "Customer experiences regarding store staff at Hankyu Sanbangai vary between visits. While some shoppers encounter friendly associates who explain pet toys and recommend grooming tools, multiple reviews voice frustration over brusque attitudes toward international visitors. Other customers noted staff blocking aisles or behaving abruptly, leading to repeated concerns about customer service consistency.",
+        "ja": "阪急三番街南館の地下に位置する当ペットショップでは、店員の接客態度に関して利用者から賛否両論の意見が寄せられています。猫用おもちゃの使い方を丁寧に実演し、親身に相談に乗ってくれたスタッフに感謝する声がある一方で、レジ対応が非常に素っ気なく不快感を覚えたという指摘が複数見られます。特に外国人客への接遇において冷淡さや不公平さを感じたという厳しい指摘や、店内整理中に通路を塞がれて買い物を躊躇したという意見も上がっています。スタッフごとの接客姿勢に大きな差が見受けられ、誰もが気持ちよく買い物できる公平で丁寧な対応が強く求められています。"
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "negative",
+      "mentions": 5,
+      "title": {
+        "en": "Contrasting Explanations and Register Encounters",
+        "ja": "会計時の説明姿勢とコミュニケーション課題"
+      },
+      "text": {
+        "en": "Communication at this store shows sharp contrasts across different interactions. Certain buyers warmly appreciate rapid email responses from management and clear advice on grooming accessories. Conversely, multiple visitors report abrupt exchanges at the register, complaining that staff appeared dismissive or reluctant to speak clearly with non-Japanese speakers, leaving them feeling unwelcome.",
+        "ja": "店舗における対話やコミュニケーションについては、担当者によって受け取る印象が大きく異なっています。問い合わせに対して店舗責任者から迅速かつ丁寧な返信をもらい感銘を受けたという声や、トリミング用品の説明を分かりやすく受けられたという好意的な評価が存在します。一方で、店頭の会計時に無愛想な受け答えをされたり、日本語で話しかけているにもかかわらず冷淡に対応されたりして強い不満を抱いた利用者の声も目立ちます。対面でのコミュニケーションにおいて、すべての来店客に対して親切で温かい姿勢で向き合うことが期待されています。どなたに対しても親切なコミュニケーションが期待されています。"
+      }
+    },
+    {
+      "topic": "place",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Compact Space in Hankyu Sanbangai",
+        "ja": "三番街の立地とコンパクトな店内"
+      },
+      "text": {
+        "en": "Conveniently situated in Hankyu Sanbangai, this pet shop offers easy access for local commuters in Umeda. Several reviewers praise the diverse selection of pet snacks and everyday supplies, enjoying regular shopping here. However, multiple shoppers point out that the retail space is quite narrow, making aisles difficult to navigate when crowded, which occasionally limits comfortable shopping.",
+        "ja": "阪急三番街南館の地下街という利便性の高い立地にあり、梅田駅周辺でのお買い物ついでに立ち寄りやすいアクセスの良さが評価されています。ペット用のおやつや日常的な飼育用品の品揃えが揃っており、定期的に足を運ぶ愛用者も少なくありません。その一方で、売り場面積が非常にコンパクトであるため、陳列棚の間隔が狭く混雑時には通路を移動しづらいと感じる利用者の声も寄せられています。駅直結で手軽に消耗品を購入できる便利さがある反面、限られた店舗空間においてより見やすく快適に買い物できる売り場環境の工夫が求められています。快適に商品を選べる陳列の工夫が望まれています。"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What kind of items are sold at this shop?",
+        "ja": "この店舗ではどのようなペット用品を取り扱っていますか？"
+      },
+      "a": {
+        "en": "The shop carries a range of pet food, treats, toys, and grooming accessories for cats and dogs.",
+        "ja": "犬や猫向けのペットフード、おやつ、各種おもちゃ、お手入れ用品などを取り扱っています。"
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Where is the shop located in Umeda?",
+        "ja": "梅田のどの場所に店舗がありますか？"
+      },
+      "a": {
+        "en": "It is located on the B1F South Building of Hankyu Sanbangai near Hankyu Osaka-Umeda Station.",
+        "ja": "阪急大阪梅田駅に直結する阪急三番街南館の地下1階に店舗があります。"
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "en": "Is the retail floor spacious?",
+        "ja": "店内の売り場スペースは広いですか？"
+      },
+      "a": {
+        "en": "Reviewers note that the retail area is rather compact, so navigating aisles can feel tight when busy.",
+        "ja": "売り場は比較的コンパクトな設計となっており、混雑時には通路が手狭に感じられることがあります。"
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 weeks ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 2,
+      "topics": {
+        "place": "-"
+      }
+    },
+    {
+      "ago": "Edited a month ago",
+      "months": 1,
+      "stars": 4,
+      "topics": {
+        "place": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 2,
+      "topics": {
+        "staff": "-",
+        "place": "~"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "-",
+        "communication": "-",
+        "place": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    }
+  ]
+}
