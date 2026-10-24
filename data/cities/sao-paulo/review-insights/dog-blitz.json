@@ -1,0 +1,156 @@
+{
+  "slug": "dog-blitz",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Dog+Blitz/data=!4m7!3m6!1s0x94ce579b2f2b0c61:0x335a48e9ac675063!8m2!3d-23.5567694!4d-46.6790724!16s%2Fg%2F11sx4h3gv0!19sChIJYQwrL5tXzpQRY1BnrOlIWjM?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 7,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 7,
+      "title": {
+        "pt": "Equipe atenciosa e acompanhamento próximo",
+        "en": "Attentive walkers and close monitoring"
+      },
+      "text": {
+        "pt": "Clientes em Pinheiros elogiam a dedicação e o carinho dos passeadores da Dog Blitz, destacando a paciência da coordenação no atendimento. A maioria dos tutores relata vínculo afetivo imediato entre os passeadores e os cães, com apoio contínuo para ajustar a rotina de passeios às necessidades familiares.",
+        "en": "Clients in Pinheiros commend the dedication and genuine care of Dog Blitz dog walkers, highlighting the team's responsive support. Most pet owners report an immediate friendly bond between walkers and dogs, with steady assistance tailored to fit each family's daily exercise schedule."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "pt": "Bem-estar canino com relatos pontuais",
+        "en": "Pet well-being with isolated concern"
+      },
+      "text": {
+        "pt": "Os tutores afirmam que os passeios reduzem a ansiedade dos cães, tornando-os mais calmos e sociáveis ao interagirem com outros animais em pequenos grupos. Por outro lado, houve um relato crítico de pedestre sobre manejo excessivamente ríspido durante caminhada em via pública de São Paulo.",
+        "en": "Guardians note that regular walking routines effectively lower pet anxiety, helping dogs become calmer and more obedient when socializing in small packs. Conversely, one critical public observer reported overly harsh physical handling by a walker during a street outing in São Paulo."
+      }
+    },
+    {
+      "topic": "communication",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Relatórios no app e suporte aos tutores",
+        "en": "App-based tracking and customer support"
+      },
+      "text": {
+        "pt": "A maioria dos tutores valoriza o aplicativo para acompanhar o trajeto dos passeios em tempo real e os relatórios detalhados enviados pela equipe após cada saída. Em contrapartida, um registro negativo criticou o bloqueio em redes sociais após tentativa de enviar uma reclamação externa.",
+        "en": "Most clients appreciate using the mobile application to follow walking routes in real time and receiving detailed behavioral reports after every tour. In contrast, one negative review criticized being blocked on social media channels after attempting to submit an external complaint."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "A Dog Blitz possui aplicativo para acompanhar os passeios?",
+        "en": "Does Dog Blitz offer an app to track dog walks?"
+      },
+      "a": {
+        "pt": "Sim, clientes destacam o uso do app para visualizar informações do trajeto e receber relatórios.",
+        "en": "Yes, clients highlight using the dedicated app to track walk routes and access tour reports."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "O serviço de passeio ajuda a diminuir a ansiedade dos cães?",
+        "en": "Does the dog walking routine help reduce canine anxiety?"
+      },
+      "a": {
+        "pt": "Sim, tutores relatam redução de estresse e melhora comportamental perceptível em poucas semanas.",
+        "en": "Yes, pet guardians report notable stress reduction and behavioral improvements within weeks."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "pt": "Os passeadores enviam informações sobre o comportamento do pet?",
+        "en": "Do dog walkers send feedback on pet behavior during walks?"
+      },
+      "a": {
+        "pt": "Sim, a equipe envia relatos após as caminhadas com apontamentos sobre o comportamento do animal.",
+        "en": "Yes, staff provide post-walk summaries with observations regarding animal mood and behavior."
+      },
+      "basis": "reviews"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "animals": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "a month ago",
+      "months": 1,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+",
+        "animals": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+"
+      }
+    },
+    {
+      "ago": "5 months ago",
+      "months": 5,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "communication": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
