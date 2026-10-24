@@ -1,0 +1,142 @@
+{
+  "slug": "hospital-veterinario-municipal-cao-orelha-zona-leste",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Hospital+Veterin%C3%A1rio+Municipal+C%C3%A3o+Orelha+%E2%80%93+Zona+Leste/data=!4m7!3m6!1s0x94ce5f079c4324f7:0x7d39dce615b17b8c!8m2!3d-23.5336605!4d-46.5838424!16s%2Fg%2F11qmrbtz_w!19sChIJ9yRDnAdfzpQRjHuxFebcOX0?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 6,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "mixed",
+      "mentions": 5,
+      "title": {
+        "pt": "Empenho dos profissionais em ambiente concorrido",
+        "en": "Dedicated staff facing high hospital demand"
+      },
+      "text": {
+        "pt": "Vários tutores manifestam profunda consideração pela educação e empatia de cirurgiões, veterinários e recepcionistas no Tatuapé. Apesar do ambiente de alta demanda, a equipe busca dar o melhor aos pacientes, embora surjam descontentamentos pontuais relativos à rigidez na triagem de casos emergenciais.",
+        "en": "Several pet owners express deep gratitude for the kindness and empathy demonstrated by surgeons, vets, and receptionists in Tatuapé. Despite high patient volumes, the staff strives to do their utmost, though occasional complaints arise regarding strict criteria during emergency triage assessments."
+      }
+    },
+    {
+      "topic": "waiting",
+      "sentiment": "negative",
+      "mentions": 3,
+      "title": {
+        "pt": "Demora expressiva e filas para exames",
+        "en": "Substantial waiting times and testing queues"
+      },
+      "text": {
+        "pt": "O tempo de espera é o principal alvo de insatisfação entre os frequentadores do hospital público. Relatos frequentes apontam lentidão no fluxo de atendimento, longos prazos para a liberação de laudos laboratoriais e dificuldades para agendar retornos ou consultas com especialistas veterinários.",
+        "en": "Lengthy waiting periods represent the primary source of frustration for visitors at this public hospital. Frequent accounts highlight slow service flows, delays in releasing laboratory test results, and challenges when attempting to secure follow-up consultations with veterinary specialists."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "mixed",
+      "mentions": 3,
+      "title": {
+        "pt": "Dedicação aos pets sob recursos públicos restritos",
+        "en": "Pet care delivered under public resource limits"
+      },
+      "text": {
+        "pt": "Tutores reconhecem o afeto dispensado aos animais pelas equipes de atendimento, que salvam vidas mesmo diante de limitações estruturais do serviço público. Todavia, a perda de pets em quadros graves e a recusa de atendimento em situações críticas geram desabafos sentidos de donos desamparados.",
+        "en": "Families recognize the genuine affection shown to pets by clinic teams, who work to stabilize animals despite public system constraints. However, pet losses during severe illness and disputes over whether a condition qualified as an emergency lead to emotional accounts from distressed owners."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "pt": "O atendimento no hospital veterinário municipal é gratuito?",
+        "en": "Is treatment at the municipal veterinary hospital free?"
+      },
+      "a": {
+        "pt": "Sim, os serviços de consultas e cirurgias são públicos e voltados a munícipes de São Paulo que atendem aos requisitos do programa.",
+        "en": "Yes, clinical consultations and surgical procedures are public and free for eligible São Paulo residents meeting program rules."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "Como funciona o atendimento de urgência e emergência?",
+        "en": "How does the emergency and urgent triage process work?"
+      },
+      "a": {
+        "pt": "O serviço conta com triagem ininterrupta 24 horas, priorizando casos graves de acordo com critérios clínicos de urgência.",
+        "en": "The center provides 24-hour triage around the clock, prioritizing critical cases according to clinical urgency criteria."
+      },
+      "basis": "both"
+    },
+    {
+      "q": {
+        "pt": "É possível agendar consultas com médicos especialistas?",
+        "en": "Can appointments be scheduled with veterinary specialists?"
+      },
+      "a": {
+        "pt": "As especialidades são encaminhadas após triagem e avaliação clínica inicial, sujeitas à disponibilidade de vagas no hospital.",
+        "en": "Specialty appointments are arranged following initial clinical triage, subject to available appointment slots at the hospital."
+      },
+      "basis": "both"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "a day ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 3,
+      "topics": {
+        "waiting": "-",
+        "communication": "-",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 1,
+      "topics": {
+        "staff": "-",
+        "results": "-",
+        "animals": "-"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 2,
+      "topics": {
+        "waiting": "-"
+      }
+    },
+    {
+      "ago": "2 days ago",
+      "months": 0,
+      "stars": 4,
+      "topics": {
+        "waiting": "~",
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "Edited 3 days ago",
+      "months": 0,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    }
+  ]
+}
