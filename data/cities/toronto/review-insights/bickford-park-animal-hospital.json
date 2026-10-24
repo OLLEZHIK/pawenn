@@ -1,0 +1,157 @@
+{
+  "slug": "bickford-park-animal-hospital",
+  "source": "google",
+  "google_maps_url": "https://www.google.com/maps/place/Bickford+Park+Animal+Hospital/data=!4m7!3m6!1s0x882b348b37768323:0xb1a6e1e9a737a076!8m2!3d43.6627099!4d-79.4215328!16s%2Fg%2F1hjhdbcbq!19sChIJI4N2N4s0K4gRdqA3p-nhprE?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOS4wIJJjKgBIAVAD&rclk=1",
+  "period_from": "2026-04-24",
+  "period_to": "2026-10-24",
+  "reviews_in_period": 8,
+  "observed_at": "2026-10-24",
+  "cards": [
+    {
+      "topic": "staff",
+      "sentiment": "positive",
+      "mentions": 6,
+      "title": {
+        "en": "Welcoming vets and clinic staff"
+      },
+      "text": {
+        "en": "Most pet owners praise the veterinary team and technicians for their reassuring demeanor and attentive care on Bloor Street West. Clients note feeling heard during consultations and appreciate thorough explanations of treatment options. One reviewer experienced a dismissive interaction after seeking a second medical opinion."
+      }
+    },
+    {
+      "topic": "prices",
+      "sentiment": "mixed",
+      "mentions": 4,
+      "title": {
+        "en": "Divided perspectives on veterinary fees"
+      },
+      "text": {
+        "en": "Client feedback regarding clinic costs shows contrasting perspectives. Several longtime patrons emphasize that doctors consider household budgets and offer realistic treatment alternatives without overcharging. Conversely, multiple prospective clients expressed strong frustration over high price quotes for routine cat neutering."
+      }
+    },
+    {
+      "topic": "animals",
+      "sentiment": "positive",
+      "mentions": 3,
+      "title": {
+        "en": "Patient handling for anxious pets"
+      },
+      "text": {
+        "en": "Pet owners emphasize that veterinarians and assistants treat patients with genuine compassion and gentle patience. Multiple reviewers report that even anxious and high-stress indoor cats remained calm throughout clinical examinations. Clients also note that dogs show eager enthusiasm when approaching the practice during daily walks."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "What medical services are available at Bickford Park?"
+      },
+      "a": {
+        "en": "The clinic provides wellness exams, vaccinations, on-site diagnostics, and surgical interventions for dogs and cats."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "Does the clinic offer urgent veterinary care?"
+      },
+      "a": {
+        "en": "Yes, the practice assists registered clients with urgent medical needs and telephone triage during operating hours."
+      },
+      "basis": "website"
+    },
+    {
+      "q": {
+        "en": "How do veterinarians accommodate patient budgets?"
+      },
+      "a": {
+        "en": "Satisfied reviewers note that veterinarians discuss available treatment choices and consider financial accessibility during care."
+      },
+      "basis": "reviews"
+    },
+    {
+      "q": {
+        "en": "Is the clinic open on weekends?"
+      },
+      "a": {
+        "en": "No, the animal hospital operates Monday through Friday and is closed on Saturdays and Sundays."
+      },
+      "basis": "website"
+    }
+  ],
+  "feed": [
+    {
+      "ago": "2 months ago",
+      "months": 2,
+      "stars": 1,
+      "topics": {
+        "prices": "-",
+        "communication": "-"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 1,
+      "topics": {
+        "prices": "-"
+      }
+    },
+    {
+      "ago": "Edited 3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+"
+      }
+    },
+    {
+      "ago": "3 months ago",
+      "months": 3,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 1,
+      "topics": {
+        "results": "-",
+        "communication": "-",
+        "staff": "-"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "results": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+"
+      }
+    },
+    {
+      "ago": "4 months ago",
+      "months": 4,
+      "stars": 5,
+      "topics": {
+        "staff": "+",
+        "animals": "+",
+        "prices": "+"
+      }
+    }
+  ]
+}
